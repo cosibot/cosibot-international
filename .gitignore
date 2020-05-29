@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+bot/.vscode/
+bot/models/
+scripts/javascript/node_modules/
+bot/story_graph.dot
