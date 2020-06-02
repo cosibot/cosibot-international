@@ -18,6 +18,16 @@ Greetings
   - slot{"bot_introduced": "True"}
   - utter_en_welcome
 
+## start1_1
+* start_dialogue{"bot_introduced": "False"}
+  - action_check_Bot_Introduced
+  - slot{"bot_introduced": "True"}
+  - utter_en_welcome
+
+## start1_2
+* start_dialogue{"bot_introduced": "True"}
+  - utter_en_greeting_hello
+
 ## start2
 * start{"bot_introduced": "True"}
   - utter_en_greeting_hello
@@ -74,12 +84,12 @@ About Covid-19
 ## en_covid_current_statistics
 * en_covid_current_statistics
   - utter_en_covid_current_statistics
--->
+
 
 ## en_covid_situation
 * en_covid_situation
-  - utter_en_covid_situation
-
+  - utter_en_covid_current_statistics
+-->
 ## en_coronavirus_info
 * en_coronavirus_info
   - utter_en_coronavirus_info
@@ -187,7 +197,7 @@ COVID-19 Prevention
 
 ## en_prevention_informed
 * en_prevention_informed
-  - utter_en_prevention_information
+  - utter_en_prevention_informed
 
 ## en_prevention_clean_hands
 * en_prevention_clean_hands

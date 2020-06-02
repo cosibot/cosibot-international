@@ -38,5 +38,5 @@ policies:
     fallback_action_name: "action_default_fallback"
   - name: language_detection.lang_change_policy.LangChangePolicy
     lang_detect_threshold: 0.7
-    fallback_action_name: 'utter_pt_bot_languages'
+    fallback_action_name: 'utter_en_bot_languages'
     model_path: "./language_detection/lid.176.ftz"

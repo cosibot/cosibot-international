@@ -1,0 +1,119 @@
+[
+  {
+    "text": "Cosibot",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "preferred_lang",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "Cosibot"
+      }
+    ]
+  },
+  {
+    "text": "About COVID",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "en_virus",
+        "start": 6,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "COVID"
+      }
+    ]
+  },
+  {
+    "text": "About the COVID",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "en_virus",
+        "start": 10,
+        "end": 15,
+        "extractor": "DIETClassifier",
+        "value": "COVID"
+      }
+    ]
+  },
+  {
+    "text": "Info on COVID",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "en_virus",
+        "start": 8,
+        "end": 13,
+        "extractor": "DIETClassifier",
+        "value": "COVID"
+      }
+    ]
+  },
+  {
+    "text": "Tell me what is the [COVID-19](en_virus:COVID)",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "COVID",
+        "entity": "en_virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Holy See (Vatican City State) cases and deaths",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "value": "VA",
+        "entity": "en_country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "covid-19 vaccine",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "en_virus",
+        "start": 0,
+        "end": 8,
+        "extractor": "DIETClassifier",
+        "value": "COVID",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Merci.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "en_country_code",
+        "start": 0,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "Merci"
+      }
+    ]
+  },
+  {
+    "text": "na Suiça",
+    "entities": [
+      {
+        "start": 3,
+        "end": 8,
+        "value": "CH",
+        "entity": "en_country_code"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

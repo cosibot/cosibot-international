@@ -1,0 +1,602 @@
+[
+  {
+    "text": "What do you look like naked",
+    "intent": "en_bot_appearance",
+    "intent_prediction": {
+      "name": "en_bot_sexual",
+      "confidence": 0.5096145272254944
+    }
+  },
+  {
+    "text": "Do you like to sing?",
+    "intent": "en_bot_music",
+    "intent_prediction": {
+      "name": "en_bot_sing",
+      "confidence": 0.8522763848304749
+    }
+  },
+  {
+    "text": "Do you believe in Santa Claus?",
+    "intent": "en_bot_personal_questions",
+    "intent_prediction": {
+      "name": "en_cc_religion",
+      "confidence": 0.6253616213798523
+    }
+  },
+  {
+    "text": "Are you a person?",
+    "intent": "en_bot_real",
+    "intent_prediction": {
+      "name": "en_bot_personality",
+      "confidence": 0.4203954041004181
+    }
+  },
+  {
+    "text": "How many floors does your home have?",
+    "intent": "en_bot_residence",
+    "intent_prediction": {
+      "name": "en_bot_personal_questions",
+      "confidence": 0.9506136178970337
+    }
+  },
+  {
+    "text": "Is it winter spring summer or fall where you live?",
+    "intent": "en_bot_residence",
+    "intent_prediction": {
+      "name": "en_bot_personal_questions",
+      "confidence": 0.9092368483543396
+    }
+  },
+  {
+    "text": "Where have you been?",
+    "intent": "en_bot_residence",
+    "intent_prediction": {
+      "name": "en_bot_personal_questions",
+      "confidence": 0.6155621409416199
+    }
+  },
+  {
+    "text": "Your is your house?",
+    "intent": "en_bot_residence",
+    "intent_prediction": {
+      "name": "en_bot_personal_questions",
+      "confidence": 0.42318806052207947
+    }
+  },
+  {
+    "text": "Do you prefer hugs or kisses?",
+    "intent": "en_bot_sexual",
+    "intent_prediction": {
+      "name": "en_bot_personal_questions",
+      "confidence": 0.8686769604682922
+    }
+  },
+  {
+    "text": "Tell me more about love.",
+    "intent": "en_bot_sexual",
+    "intent_prediction": {
+      "name": "en_bot_personal_questions",
+      "confidence": 0.5466784834861755
+    }
+  },
+  {
+    "text": "What else can we talk about?",
+    "intent": "en_cc_lets_talk",
+    "intent_prediction": {
+      "name": "en_vocative_call",
+      "confidence": 0.47421103715896606
+    }
+  },
+  {
+    "text": "What is intelligence?",
+    "intent": "en_cc_philosophical",
+    "intent_prediction": {
+      "name": "en_comment_smart",
+      "confidence": 0.4876362383365631
+    }
+  },
+  {
+    "text": "What is time?",
+    "intent": "en_cc_philosophical",
+    "intent_prediction": {
+      "name": "en_features_time",
+      "confidence": 0.6683171391487122
+    }
+  },
+  {
+    "text": "I hate your company!",
+    "intent": "en_comment_offense",
+    "intent_prediction": {
+      "name": "en_vocative_call",
+      "confidence": 0.492529034614563
+    }
+  },
+  {
+    "text": "What is wrong with you?",
+    "intent": "en_comment_offense",
+    "intent_prediction": {
+      "name": "en_comment_negative",
+      "confidence": 0.8185123205184937
+    }
+  },
+  {
+    "text": "You a bimbo.",
+    "intent": "en_comment_offense",
+    "intent_prediction": {
+      "name": "en_comment_racist",
+      "confidence": 0.5106227397918701
+    }
+  },
+  {
+    "text": "You are slow.",
+    "intent": "en_comment_offense",
+    "intent_prediction": {
+      "name": "en_comment_negative",
+      "confidence": 0.5381177663803101
+    }
+  },
+  {
+    "text": "Awesome!",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.5041359066963196
+    }
+  },
+  {
+    "text": "Great job.",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.48145362734794617
+    }
+  },
+  {
+    "text": "I appreciate that.",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.6068049073219299
+    }
+  },
+  {
+    "text": "I really like you.",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_comment_offense",
+      "confidence": 0.5819140076637268
+    }
+  },
+  {
+    "text": "It was so awesome of you.",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.5498992204666138
+    }
+  },
+  {
+    "text": "Much appreciated.",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.7838547825813293
+    }
+  },
+  {
+    "text": "Thanks for helping me through my life.",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.48084756731987
+    }
+  },
+  {
+    "text": "That's amazing!",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.5803501605987549
+    }
+  },
+  {
+    "text": "You are good!",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_comment_smart",
+      "confidence": 0.5861140489578247
+    }
+  },
+  {
+    "text": "You helped me a lot",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.504318356513977
+    }
+  },
+  {
+    "text": "You helped me thanks!",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.6394883990287781
+    }
+  },
+  {
+    "text": "You really helped me a lot!",
+    "intent": "en_comment_positive",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.49825623631477356
+    }
+  },
+  {
+    "text": "Thank you. What can you tell me about the new coronavirus?",
+    "intent": "en_coronavirus_info",
+    "intent_prediction": {
+      "name": "en_covid_info",
+      "confidence": 0.6119077205657959
+    }
+  },
+  {
+    "text": "virus",
+    "intent": "en_coronavirus_info",
+    "intent_prediction": {
+      "name": "en_covid_info",
+      "confidence": 0.5299683809280396
+    }
+  },
+  {
+    "text": "Do you believe it is possible to eradicate it?",
+    "intent": "en_covid_crisis_howlong",
+    "intent_prediction": {
+      "name": "en_cc_religion",
+      "confidence": 0.43533965945243835
+    }
+  },
+  {
+    "text": "What are the news about the coronavirus?",
+    "intent": "en_covid_current_statistics",
+    "intent_prediction": {
+      "name": "en_covid_info",
+      "confidence": 0.6226459741592407
+    }
+  },
+  {
+    "text": "What is the origin of the outbreak?",
+    "intent": "en_covid_info",
+    "intent_prediction": {
+      "name": "en_covid_duration",
+      "confidence": 0.4703270196914673
+    }
+  },
+  {
+    "text": "COVID  origin",
+    "intent": "en_covid_info",
+    "intent_prediction": {
+      "name": "en_covid_duration",
+      "confidence": 0.4368636906147003
+    }
+  },
+  {
+    "text": "where did the outbreak start?",
+    "intent": "en_covid_info",
+    "intent_prediction": {
+      "name": "en_covid_duration",
+      "confidence": 0.3773702383041382
+    }
+  },
+  {
+    "text": "I'm infected.",
+    "intent": "en_covid_procedure_after_infection",
+    "intent_prediction": {
+      "name": "en_prevention_medical_attention",
+      "confidence": 0.458102822303772
+    }
+  },
+  {
+    "text": "how many people are infected in all World",
+    "intent": "en_covid_situation_infected",
+    "intent_prediction": {
+      "name": "en_covid_situation",
+      "confidence": 0.5033050179481506
+    }
+  },
+  {
+    "text": "Time to go.",
+    "intent": "en_greeting_goodbye",
+    "intent_prediction": {
+      "name": "en_features_time",
+      "confidence": 0.560543954372406
+    }
+  },
+  {
+    "text": "that's it for today",
+    "intent": "en_greeting_goodbye",
+    "intent_prediction": {
+      "name": "en_user_no_further_questions",
+      "confidence": 0.44136664271354675
+    }
+  },
+  {
+    "text": "Good morning, Helen!",
+    "intent": "en_greeting_hello",
+    "intent_prediction": {
+      "name": "en_greeting_goodbye",
+      "confidence": 0.4310254156589508
+    }
+  },
+  {
+    "text": "what can people do to stop the pandemic?",
+    "intent": "en_prevention_general",
+    "intent_prediction": {
+      "name": "en_covid_pandemic",
+      "confidence": 0.36980342864990234
+    }
+  },
+  {
+    "text": "I have a temperature",
+    "intent": "en_prevention_home",
+    "intent_prediction": {
+      "name": "en_cc_weather",
+      "confidence": 0.6053940653800964
+    }
+  },
+  {
+    "text": "Is wearing multiple masks effective against COVID-2019?",
+    "intent": "en_prevention_measures",
+    "intent_prediction": {
+      "name": "en_mask_general",
+      "confidence": 0.47026798129081726
+    }
+  },
+  {
+    "text": "Am i sick",
+    "intent": "en_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "en_prevention_home",
+      "confidence": 0.7935399413108826
+    }
+  },
+  {
+    "text": "I feel sick",
+    "intent": "en_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "en_prevention_home",
+      "confidence": 0.6131889224052429
+    }
+  },
+  {
+    "text": "I'm feeling sick should I call it",
+    "intent": "en_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "en_prevention_home",
+      "confidence": 0.5178235769271851
+    }
+  },
+  {
+    "text": "i am sick",
+    "intent": "en_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "en_prevention_home",
+      "confidence": 0.7155911326408386
+    }
+  },
+  {
+    "text": "thank you dear I'm feeling sick should I call it",
+    "intent": "en_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "en_prevention_home",
+      "confidence": 0.830564022064209
+    }
+  },
+  {
+    "text": "what to do in case having symptoms",
+    "intent": "en_prevention_medical_attention",
+    "intent_prediction": {
+      "name": "en_covid_symptoms",
+      "confidence": 0.44495469331741333
+    }
+  },
+  {
+    "text": "Is there a treatment?",
+    "intent": "en_prevention_medicine",
+    "intent_prediction": {
+      "name": "en_covid_treatment",
+      "confidence": 0.6928626894950867
+    }
+  },
+  {
+    "text": "how is the treatment",
+    "intent": "en_prevention_medicine",
+    "intent_prediction": {
+      "name": "en_covid_treatment",
+      "confidence": 0.4861888587474823
+    }
+  },
+  {
+    "text": "What is quarantine?",
+    "intent": "en_quaratine_how_it_works",
+    "intent_prediction": {
+      "name": "en_quarantine_general",
+      "confidence": 0.4808649718761444
+    }
+  },
+  {
+    "text": "How contagious is covid?",
+    "intent": "en_spread_risk",
+    "intent_prediction": {
+      "name": "en_covid_dangerous",
+      "confidence": 0.49409058690071106
+    }
+  },
+  {
+    "text": "How contagious is it?",
+    "intent": "en_spread_risk",
+    "intent_prediction": {
+      "name": "en_covid_dangerous",
+      "confidence": 0.46087518334388733
+    }
+  },
+  {
+    "text": "Can I have the pleasure to be your friend?",
+    "intent": "en_user_friend",
+    "intent_prediction": {
+      "name": "en_bot_personal_questions",
+      "confidence": 0.6390494108200073
+    }
+  },
+  {
+    "text": "What do you think about me",
+    "intent": "en_user_friend",
+    "intent_prediction": {
+      "name": "en_bot_capabilities",
+      "confidence": 0.8572916388511658
+    }
+  },
+  {
+    "text": "What is love?",
+    "intent": "en_user_love",
+    "intent_prediction": {
+      "name": "en_cc_philosophical",
+      "confidence": 0.7284852266311646
+    }
+  },
+  {
+    "text": "Thank you for your help.",
+    "intent": "en_user_no_further_questions",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.4781055748462677
+    }
+  },
+  {
+    "text": "Thanks for your help.",
+    "intent": "en_user_no_further_questions",
+    "intent_prediction": {
+      "name": "en_vocative_thank_you",
+      "confidence": 0.4337727427482605
+    }
+  },
+  {
+    "text": "Don’t finish the conversation!",
+    "intent": "en_vocative_call",
+    "intent_prediction": {
+      "name": "en_cc_lets_talk",
+      "confidence": 0.57490074634552
+    }
+  },
+  {
+    "text": "Please talk to me!",
+    "intent": "en_vocative_call",
+    "intent_prediction": {
+      "name": "en_cc_lets_talk",
+      "confidence": 0.6606588363647461
+    }
+  },
+  {
+    "text": "Talk to me!",
+    "intent": "en_vocative_call",
+    "intent_prediction": {
+      "name": "en_cc_lets_talk",
+      "confidence": 0.7059328556060791
+    }
+  },
+  {
+    "text": "Thumbs down.",
+    "intent": "en_vocative_no",
+    "intent_prediction": {
+      "name": "en_vocative_yes",
+      "confidence": 0.4764140546321869
+    }
+  },
+  {
+    "text": "Great",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_comment_positive",
+      "confidence": 0.6715750098228455
+    }
+  },
+  {
+    "text": "Great Answer",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_comment_positive",
+      "confidence": 0.6231261491775513
+    }
+  },
+  {
+    "text": "Great Talking",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_comment_positive",
+      "confidence": 0.6669185161590576
+    }
+  },
+  {
+    "text": "I find you very helpful",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_comment_positive",
+      "confidence": 0.6358432173728943
+    }
+  },
+  {
+    "text": "Merci.",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_country",
+      "confidence": 0.9216923117637634
+    }
+  },
+  {
+    "text": "Nice talk!",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_comment_positive",
+      "confidence": 0.5030986070632935
+    }
+  },
+  {
+    "text": "Really helpful!",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_comment_positive",
+      "confidence": 0.5861092805862427
+    }
+  },
+  {
+    "text": "You are a lifesaver!",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_comment_positive",
+      "confidence": 0.7170107364654541
+    }
+  },
+  {
+    "text": "You did a great job!",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_comment_positive",
+      "confidence": 0.6702741384506226
+    }
+  },
+  {
+    "text": "You saved my life!",
+    "intent": "en_vocative_thank_you",
+    "intent_prediction": {
+      "name": "en_comment_positive",
+      "confidence": 0.7972680926322937
+    }
+  },
+  {
+    "text": "Certainly.",
+    "intent": "en_vocative_yes",
+    "intent_prediction": {
+      "name": "en_vocative_no",
+      "confidence": 0.4922257661819458
+    }
+  }
+]
