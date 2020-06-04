@@ -1,3 +1,5 @@
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -131,3 +133,5 @@ bot/.vscode/
 bot/models/
 scripts/javascript/node_modules/
 bot/story_graph.dot
+bot/neuralcoref
+bot/en_neuralcoref-2.1.0
