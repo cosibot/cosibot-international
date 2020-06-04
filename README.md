@@ -46,7 +46,7 @@ cd ..
 This will create a tar file that we can later pip install. 
 
 ```bash
-python -m pip install en_neuralcoref-2.1.0/dist/en_proglang-2.2.5.tar.gz
+python -m pip install en_neuralcoref-2.1.0/dist/en_neuralcoref-2.1.0.tar.gz
 ```
 This will install the model as a package. 
 
