@@ -135,3 +135,4 @@ scripts/javascript/node_modules/
 bot/story_graph.dot
 bot/neuralcoref
 bot/en_neuralcoref-2.1.0
+.vscode
