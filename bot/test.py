@@ -1,4 +1,4 @@
-# import spacy 
+import spacy 
 from typing import Text
 
 # std_english = spacy.load("en")
@@ -25,7 +25,7 @@ print(metadata_file)
 interpreter = Interpreter.load(model_dir) ## this should be an extracted model
 # result = interpreter.parse('my sister has a dog. she loves it',only_output_properties=False)
 
-message = Message(Text('my sister has a dog'))
+message = Message(Text('why should i wear a mask? where can i buy it?'))
 
 # for component in interpreter.pipeline:
 #     component.process(message, **interpreter.context)
@@ -42,7 +42,7 @@ spacy_ent_extractor.process(message, **interpreter.context)
 dense_featurizer = interpreter.pipeline[3]
 dense_featurizer.process(message, **interpreter.context)
 
-message = Message(Text('she loves him'))
+message = Message(Text('where can i buy it?'))
 
 # for component in interpreter.pipeline:
 #     component.process(message, **interpreter.context)

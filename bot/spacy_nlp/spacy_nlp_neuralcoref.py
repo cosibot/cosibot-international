@@ -8,6 +8,7 @@ from rasa.nlu.components import Component
 from rasa.nlu.config import RasaNLUModelConfig, override_defaults
 from rasa.nlu.training_data import Message, TrainingData
 from rasa.nlu.model import InvalidModelError
+from rasa.core.slots import TextSlot
 
 logger = logging.getLogger(__name__)
 
@@ -19,6 +20,9 @@ from spacy.tokens.doc import Doc
 from rasa.nlu.constants import TEXT, SPACY_DOCS, DENSE_FEATURIZABLE_ATTRIBUTES
 from os.path import exists, join
 import os
+
+from rasa.core.trackers import DialogueStateTracker
+import spacy
 
 class SpacyNLPNeuralCoref(SpacyNLP):
 
@@ -45,12 +49,19 @@ class SpacyNLPNeuralCoref(SpacyNLP):
 
 
     def doc_for_text(self, text: Text) -> "Doc":
-        history_dir = './bot/spacy_nlp/history'
+        text = "why should i wear a mask? where can i buy it?"
+        nlp = spacy.load("en_neuralcoref")
+        print(nlp==self.nlp)
+        doc = nlp(text)
+
+        history_dir = './spacy_nlp/history'
         if not exists(history_dir):
             # if there's no file with previous user messages
             # generate doc with current message
             # this doc is generated to have access to doc._.coref_resolved
-            doc = self.nlp(self.preprocess_text(text))
+            preprocessed_text = self.preprocess_text(text)
+            print(preprocessed_text=="why should i wear a mask? where can i buy it?")
+            doc = self.nlp(preprocessed_text)
             result = doc._.coref_resolved
             # we can now save this doc._.coref_resolved in a file
             os.makedirs(history_dir)
@@ -61,14 +72,16 @@ class SpacyNLPNeuralCoref(SpacyNLP):
                 lines = [line.strip() for line in file.readlines()][-self.max_history:]
             previous_sentences = (' ').join(lines)
             to_evaluate = previous_sentences + " " + text
-            doc = self.nlp(self.preprocess_text(to_evaluate))
+            preprocessed_text = self.preprocess_text(to_evaluate)
+            doc = self.nlp(preprocessed_text)
             result = doc._.coref_resolved[-((len(doc._.coref_resolved)-len(previous_sentences))-1):]
+            print("history {}".format(result))
+            print(to_evaluate)
             with open(join(history_dir, 'history.txt'), 'a', encoding='utf-8') as file:
+                file.write("\n")
                 file.write(result)
         # now we generate a new doc based on doc._.coref_resolved
         new_doc = self.nlp(self.preprocess_text(result))
-
+        # print(result)
         # print(self.nlp(self.preprocess_text(text))._.coref_resolved)
         return new_doc
-
-
