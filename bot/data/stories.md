@@ -28,6 +28,16 @@ Greetings
 * start_dialogue{"bot_introduced": "True"}
   - utter_en_greeting_hello
 
+## start1_3
+* start-dialogue{"bot_introduced": "False"}
+  - action_check_Bot_Introduced
+  - slot{"bot_introduced": "True"}
+  - utter_en_welcome
+
+## start1_4
+* start-dialogue{"bot_introduced": "True"}
+  - utter_en_greeting_hello
+
 ## start2
 * start{"bot_introduced": "True"}
   - utter_en_greeting_hello

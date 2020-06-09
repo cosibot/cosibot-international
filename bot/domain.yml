@@ -223,6 +223,7 @@ actions:
 
 intents:
   - start_dialogue
+  - start-dialogue
   - start
   - en_country
   - en_bot_appearance
