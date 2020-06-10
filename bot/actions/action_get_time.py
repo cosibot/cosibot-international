@@ -22,4 +22,4 @@ class GetTimeValue(Action):
 
         t = time.localtime()
         return [SlotSet("bot_time", time.strftime("%H:%M:%S", t)),
-                    FollowupAction("utter_pt_features_time")]
+                    FollowupAction("utter_features_time")]

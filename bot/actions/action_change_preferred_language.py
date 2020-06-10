@@ -20,6 +20,6 @@ class ChangePreferredLanguage(Action):
         lang_code = preferred_lang.split('_')[0]
         print("lang_code: {}".format(lang_code))
         
-        return [SlotSet('preferred_lang', lang_code), FollowupAction("utter_en_command_change_bot")]
+        return [SlotSet('preferred_lang', lang_code), FollowupAction("utter_command_change_bot")]
 
 

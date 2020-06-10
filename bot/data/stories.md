@@ -1,11 +1,11 @@
 <!------------------ 
 Others
 ------------------->
-## en_change_bot
-* en_bot_change_bot{"preferred_lang": "German Cosibot"}
+## change_bot
+* bot_change_bot{"preferred_lang": "German Cosibot"}
   - action_change_preferred_language
   - slot{"preferred_lang": "de"}
-  - utter_en_command_change_bot
+  - utter_command_change_bot
 
 
 
@@ -16,562 +16,562 @@ Greetings
 * start{"bot_introduced": "False"}
   - action_check_Bot_Introduced
   - slot{"bot_introduced": "True"}
-  - utter_en_welcome
+  - utter_welcome
 
 ## start1_1
 * start_dialogue{"bot_introduced": "False"}
   - action_check_Bot_Introduced
   - slot{"bot_introduced": "True"}
-  - utter_en_welcome
+  - utter_welcome
 
 ## start1_2
 * start_dialogue{"bot_introduced": "True"}
-  - utter_en_greeting_hello
+  - utter_greeting_hello
 
 ## start1_3
 * start-dialogue{"bot_introduced": "False"}
   - action_check_Bot_Introduced
   - slot{"bot_introduced": "True"}
-  - utter_en_welcome
+  - utter_welcome
 
 ## start1_4
 * start-dialogue{"bot_introduced": "True"}
-  - utter_en_greeting_hello
+  - utter_greeting_hello
 
 ## start2
 * start{"bot_introduced": "True"}
-  - utter_en_greeting_hello
+  - utter_greeting_hello
 
-## en_greeting_hello1
-* en_greeting_hello
+## greeting_hello1
+* greeting_hello
   - action_check_Bot_Introduced
   - slot{"bot_introduced": "True"}
-  - utter_en_welcome
+  - utter_welcome
 
-## en_greeting_hello2
-* en_greeting_hello{"bot_introduced": "True"}
-  - utter_en_greeting_hello
+## greeting_hello2
+* greeting_hello{"bot_introduced": "True"}
+  - utter_greeting_hello
 
-## en_greeting_goodbye
-* en_greeting_goodbye
-  - utter_en_greeting_goodbye
+## greeting_goodbye
+* greeting_goodbye
+  - utter_greeting_goodbye
 
-## en_greeting_how_are_you
-* en_greeting_how_are_you
-  - utter_en_greeting_how_are_you
+## greeting_how_are_you
+* greeting_how_are_you
+  - utter_greeting_how_are_you
 
 
 
 <!------------------ 
 Traveling 
 ------------------->
-## en_travel_before
-* en_travel_before
-  - utter_en_travel_before
+## travel_before
+* travel_before
+  - utter_travel_before
 
-## en_travel_while
-* en_travel_while
-  - utter_en_travel_while
+## travel_while
+* travel_while
+  - utter_travel_while
 
-## en_travel_after
-* en_travel_after
-  - utter_en_travel_after
+## travel_after
+* travel_after
+  - utter_travel_after
 
 
 
 <!------------------ 
 About Covid-19 
 ------------------->
-## en_covid_cosibot
-* en_covid_cosibot
-  - utter_en_covid_cosibot
+## covid_cosibot
+* covid_cosibot
+  - utter_covid_cosibot
 
-## en_covid_current_statistics
-* en_covid_current_statistics
+## covid_current_statistics
+* covid_current_statistics
   - action_get_news_request
 
 <!--
-## en_covid_current_statistics
-* en_covid_current_statistics
-  - utter_en_covid_current_statistics
+## covid_current_statistics
+* covid_current_statistics
+  - utter_covid_current_statistics
 
 
-## en_covid_situation
-* en_covid_situation
-  - utter_en_covid_current_statistics
+## covid_situation
+* covid_situation
+  - utter_covid_current_statistics
 -->
-## en_coronavirus_info
-* en_coronavirus_info
-  - utter_en_coronavirus_info
+## coronavirus_info
+* coronavirus_info
+  - utter_coronavirus_info
 
-## en_covid_info
-* en_covid_info
-  - utter_en_covid_info
+## covid_info
+* covid_info
+  - utter_covid_info
 
-## en_covid_meaning
-* en_covid_meaning
-  - utter_en_covid_meaning
+## covid_meaning
+* covid_meaning
+  - utter_covid_meaning
 
-## en_covid_symptoms
-* en_covid_symptoms
-  - utter_en_covid_symptoms
+## covid_symptoms
+* covid_symptoms
+  - utter_covid_symptoms
 
-## en_covid_worry
-* en_covid_worry
-  - utter_en_covid_worry
+## covid_worry
+* covid_worry
+  - utter_covid_worry
 
-## en_covid_sars
-* en_covid_sars
-  - utter_en_covid_sars
+## covid_sars
+* covid_sars
+  - utter_covid_sars
 
-## en_influenza
-* en_myth_influenza
-  - utter_en_covid_influenza
+## influenza
+* myth_influenza
+  - utter_covid_influenza
 
-## en_covid_incubation
-* en_covid_incubation
-  - utter_en_covid_incubation
+## covid_incubation
+* covid_incubation
+  - utter_covid_incubation
 
-## en_covid_surfaces
-* en_covid_surfaces
-  - utter_en_covid_surfaces
+## covid_surfaces
+* covid_surfaces
+  - utter_covid_surfaces
 
-## en_covid_food
-* en_covid_food
-  - utter_en_covid_food
+## covid_food
+* covid_food
+  - utter_covid_food
 
-## en_covid_crisis_howlong
-* en_covid_crisis_howlong
-  - utter_en_covid_crisis_howlong
+## covid_crisis_howlong
+* covid_crisis_howlong
+  - utter_covid_crisis_howlong
 
-## en_covid_mortality_rate
-* en_covid_mortality_rate
-  - utter_en_covid_mortality_rate
+## covid_mortality_rate
+* covid_mortality_rate
+  - utter_covid_mortality_rate
 
-## en_covid_dangerous
-* en_covid_dangerous
-  - utter_en_covid_dangerous
+## covid_dangerous
+* covid_dangerous
+  - utter_covid_dangerous
 
-## en_covid_procedure_after_infection
-* en_covid_procedure_after_infection
-  - utter_en_covid_procedure_after_infection
+## covid_procedure_after_infection
+* covid_procedure_after_infection
+  - utter_covid_procedure_after_infection
 
-## en_covid_treatment
-* en_covid_treatment
-  - utter_en_covid_treatment
+## covid_treatment
+* covid_treatment
+  - utter_covid_treatment
 
-## en_covid_origins
-* en_covid_origins
-  - utter_en_covid_origins
+## covid_origins
+* covid_origins
+  - utter_covid_origins
 
-## en_covid_duration
-* en_covid_duration
-  - utter_en_covid_duration
+## covid_duration
+* covid_duration
+  - utter_covid_duration
 
-## en_covid_disease_process
-* en_covid_disease_process
-  - utter_en_covid_disease_process
+## covid_disease_process
+* covid_disease_process
+  - utter_covid_disease_process
 
-## en_covid_aftereffects_immunity
-* en_covid_aftereffects_immunity
-  - utter_en_covid_aftereffects_immunity
+## covid_aftereffects_immunity
+* covid_aftereffects_immunity
+  - utter_covid_aftereffects_immunity
 
-## en_covid_preexisting_illness
-* en_covid_preexisting_illness
-  - utter_en_covid_preexisting_illness
+## covid_preexisting_illness
+* covid_preexisting_illness
+  - utter_covid_preexisting_illness
 
-## en_covid_babys_children
-* en_covid_babys_children
-  - utter_en_covid_babys_children
+## covid_babys_children
+* covid_babys_children
+  - utter_covid_babys_children
 
-## en_economy_consequences
-* en_economy_consequences
-  - utter_en_economy_consequences
+## economy_consequences
+* economy_consequences
+  - utter_economy_consequences
 
-## en_covid_pandemic
-* en_covid_pandemic
-  - utter_en_covid_pandemic
+## covid_pandemic
+* covid_pandemic
+  - utter_covid_pandemic
 
-## en_covid_sex
-* en_covid_sex
-  - utter_en_covid_sex
+## covid_sex
+* covid_sex
+  - utter_covid_sex
 
 
 
 <!------------------ 
 COVID-19 Prevention
 ------------------->
-## en_prevention_general
-* en_prevention_general
-  - utter_en_prevention_general
+## prevention_general
+* prevention_general
+  - utter_prevention_general
 
-## en_prevention_informed
-* en_prevention_informed
-  - utter_en_prevention_informed
+## prevention_informed
+* prevention_informed
+  - utter_prevention_informed
 
-## en_prevention_clean_hands
-* en_prevention_clean_hands
-  - utter_en_prevention_clean_hands
+## prevention_clean_hands
+* prevention_clean_hands
+  - utter_prevention_clean_hands
 
-## en_prevention_distance
-* en_prevention_distance
-  - utter_en_prevention_distance
+## prevention_distance
+* prevention_distance
+  - utter_prevention_distance
 
-## en_prevention_touch
-* en_prevention_touch
-  - utter_en_prevention_touch
+## prevention_touch
+* prevention_touch
+  - utter_prevention_touch
 
-## en_prevention_respiratory_hygiene
-* en_prevention_respiratory_hygiene
-  - utter_en_prevention_respiratory_hygiene
+## prevention_respiratory_hygiene
+* prevention_respiratory_hygiene
+  - utter_prevention_respiratory_hygiene
 
-## en_prevention_medical_attention
-* en_prevention_medical_attention
-  - utter_en_prevenion_medical_attention
+## prevention_medical_attention
+* prevention_medical_attention
+  - utter_prevenion_medical_attention
 
-## en_prevention_home
-* en_prevention_home
-  - utter_en_prevention_home
+## prevention_home
+* prevention_home
+  - utter_prevention_home
 
-## en_prevention_medicine
-* en_prevention_medicine
-  - utter_en_prevention_medicine
+## prevention_medicine
+* prevention_medicine
+  - utter_prevention_medicine
 
-## en_prevention_measures
-* en_prevention_measures
-  - utter_en_prevention_measures
+## prevention_measures
+* prevention_measures
+  - utter_prevention_measures
 
-## en_prevention_disinfection
-* en_prevention_disinfection
-  - utter_en_prevention_disinfection
+## prevention_disinfection
+* prevention_disinfection
+  - utter_prevention_disinfection
 
 
 
 <!------------------ 
 Myths
 ------------------->
-## en_air_conditioning
-* en_myth_air_conditioning{"air_conditioning": "AC"}
-  - utter_en_myth_air_conditioning
+## air_conditioning
+* myth_air_conditioning{"air_conditioning": "AC"}
+  - utter_myth_air_conditioning
 
-## en_myth_5G
-* en_myth_5G{"5G": "5G"}
-    - utter_en_myth_5g
+## myth_5G
+* myth_5G{"5G": "5G"}
+    - utter_myth_5g
 
-## en_hand_dryer
-* en_hand_dryer{"hand_dryer": "hand dryers"}
-    - utter_en_myth_hand_dryer
+## hand_dryer
+* hand_dryer{"hand_dryer": "hand dryers"}
+    - utter_myth_hand_dryer
 
-## en_uv_lamp
-* en_uv_lamp{"uv_lamp": "uv lamps"}
-    - utter_en_myth_uv_lamps
+## uv_lamp
+* uv_lamp{"uv_lamp": "uv lamps"}
+    - utter_myth_uv_lamps
 
-## en_thermal_scanner
-* en_thermal_scanner{"thermal_scanner": "thermal scanner"}
-  - utter_en_myth_thermal_scanner
+## thermal_scanner
+* thermal_scanner{"thermal_scanner": "thermal scanner"}
+  - utter_myth_thermal_scanner
 
-## en_antibiotics
-* en_antibiotics{"antibiotics": "antibiotics"}
-  - utter_en_myth_antibiotics
+## antibiotics
+* antibiotics{"antibiotics": "antibiotics"}
+  - utter_myth_antibiotics
 
-## en_myth_alcohol
-* en_myth_alcohol
-  - utter_en_myth_alcohol
+## myth_alcohol
+* myth_alcohol
+  - utter_myth_alcohol
 
-## en_pneumonia_vaccine
-* en_pneumonia_vaccine{"pneumonia_vaccine": "pneumonia vaccine"}
-  - utter_en_myth_pneumonia_vaccine
+## pneumonia_vaccine
+* pneumonia_vaccine{"pneumonia_vaccine": "pneumonia vaccine"}
+  - utter_myth_pneumonia_vaccine
 
-## en_saline
-* en_saline{"saline": "saline solution"}
-  - utter_en_myth_saline
+## saline
+* saline{"saline": "saline solution"}
+  - utter_myth_saline
 
-## en_garlic
-* en_garlic{"garlic": "garlic"}
-  - utter_en_myth_garlic
+## garlic
+* garlic{"garlic": "garlic"}
+  - utter_myth_garlic
 
-## en_sesame_oil
-* en_sesame_oil{"sesame_oil": "sesame oil"}
-  - utter_en_myth_sesame_oil
+## sesame_oil
+* sesame_oil{"sesame_oil": "sesame oil"}
+  - utter_myth_sesame_oil
 
-## en_myth_packages
-* en_myth_packages
-  - utter_en_myth_packages
+## myth_packages
+* myth_packages
+  - utter_myth_packages
 
-## en_myth_transmission_hot_areas
-* en_myth_transmission_hot_areas
-  - utter_en_myth_transmission_hot_areas
+## myth_transmission_hot_areas
+* myth_transmission_hot_areas
+  - utter_myth_transmission_hot_areas
 
-## en_myth_cold_weather
-* en_myth_cold_weather
-  - utter_en_myth_cold_weather
+## myth_cold_weather
+* myth_cold_weather
+  - utter_myth_cold_weather
 
-## en_myth_hot_bath
-* en_myth_hot_bath
-  - utter_en_myth_hot_bath
+## myth_hot_bath
+* myth_hot_bath
+  - utter_myth_hot_bath
 
-## en_myths_conspiracy_fakenews
-* en_myths_conspiracy_fakenews
-  - utter_en_myths_conspiracy_fakenews
-
-
-
-<!------------------ 
-COVID-19 Spread
-------------------->
-## en_spread_general
-* en_spread_general
-  - utter_en_spread_general
-
-## en_spread_air
-* en_spread_air
-  - utter_en_spread_air
-
-## en_spread_no_symptoms
-* en_spread_no_symptoms
-  - utter_en_spread_no_symptoms
-
-## en_spread_feces
-* en_spread_feces
-  - utter_en_spread_feces
-
-## en_spread_risk
-* en_spread_risk
-  - utter_en_spread_risk
-
-## en_spread_animals
-* en_spread_animals
-  - utter_en_spread_animals
-
-## en_spread_pets
-* en_spread_pets
-  - utter_en_spread_pets
-
-## en_spread_surfaces_food_objects
-* en_spread_surfaces_food_objects
-  - utter_en_spread_surfaces_food_objects
+## myths_conspiracy_fakenews
+* myths_conspiracy_fakenews
+  - utter_myths_conspiracy_fakenews
 
 
 
 <!------------------ 
 COVID-19 Spread
 ------------------->
-## en_quarantine_general
-* en_quarantine_general
-  - utter_en_quarantine_general
+## spread_general
+* spread_general
+  - utter_spread_general
 
-## en_quarantine_dogwalking
-* en_quarantine_dogwalking
-  - utter_en_quarantine_dogwalking
+## spread_air
+* spread_air
+  - utter_spread_air
 
-## en_quarantine_when_who_howlong
-* en_quarantine_when_who_howlong
-  - utter_en_quarantine_when_who_howlong
+## spread_no_symptoms
+* spread_no_symptoms
+  - utter_spread_no_symptoms
 
-## en_quaratine_how_it_works
-* en_quaratine_how_it_works
-  - utter_en_quaratine_how_it_works
+## spread_feces
+* spread_feces
+  - utter_spread_feces
 
-## en_quarantine_control
-* en_quarantine_control
-  - utter_en_quarantine_control
+## spread_risk
+* spread_risk
+  - utter_spread_risk
 
-## en_quarantine_dos_and_donts
-* en_quarantine_dos_and_donts
-  - utter_en_quarantine_dos_and_donts
+## spread_animals
+* spread_animals
+  - utter_spread_animals
 
-## en_quarantine_toiletpaper
-* en_quarantine_toiletpaper
-  - utter_en_quarantine_toiletpaper
+## spread_pets
+* spread_pets
+  - utter_spread_pets
+
+## spread_surfaces_food_objects
+* spread_surfaces_food_objects
+  - utter_spread_surfaces_food_objects
+
+
+
+<!------------------ 
+COVID-19 Spread
+------------------->
+## quarantine_general
+* quarantine_general
+  - utter_quarantine_general
+
+## quarantine_dogwalking
+* quarantine_dogwalking
+  - utter_quarantine_dogwalking
+
+## quarantine_when_who_howlong
+* quarantine_when_who_howlong
+  - utter_quarantine_when_who_howlong
+
+## quaratine_how_it_works
+* quaratine_how_it_works
+  - utter_quaratine_how_it_works
+
+## quarantine_control
+* quarantine_control
+  - utter_quarantine_control
+
+## quarantine_dos_and_donts
+* quarantine_dos_and_donts
+  - utter_quarantine_dos_and_donts
+
+## quarantine_toiletpaper
+* quarantine_toiletpaper
+  - utter_quarantine_toiletpaper
 
 
 
 <!------------------ 
 Medical Masks
 ------------------->
-## en_mask_general
-* en_mask_general
-  - utter_en_mask_general
+## mask_general
+* mask_general
+  - utter_mask_general
 
-## en_mask_use_put
-* en_mask_use_put
-  - utter_en_mask_use_put
+## mask_use_put
+* mask_use_put
+  - utter_mask_use_put
 
-## en_mask_use_after
-* en_mask_use_after
-  - utter_en_mask_use_after
+## mask_use_after
+* mask_use_after
+  - utter_mask_use_after
 
-## en_visors
-* en_visors{"visors":"visors"}
-  - utter_en_mask_visors
+## visors
+* visors{"visors":"visors"}
+  - utter_mask_visors
 
 
 
 <!------------------ 
 Tests
 ------------------->
-## en_test_virus
-* en_test_virus
-  - utter_en_test_virus
+## test_virus
+* test_virus
+  - utter_test_virus
 
-## en_test_who
-* en_test_who
-  - utter_en_test_who
+## test_who
+* test_who
+  - utter_test_who
 
 
 
 <!------------------ 
 Vocative
 ------------------->
-## en_vocative_help
-* en_vocative_help
-  - utter_en_vocative_help
+## vocative_help
+* vocative_help
+  - utter_vocative_help
 
-## en_vocative_thank_you
-* en_vocative_thank_you
-  - utter_en_vocative_thank_you
-  - utter_en_further_questions
+## vocative_thank_you
+* vocative_thank_you
+  - utter_vocative_thank_you
+  - utter_further_questions
 
-## en_vocative_you_welcome
-* en_vocative_you_welcome
-  - utter_en_vocative_you_welcome
+## vocative_you_welcome
+* vocative_you_welcome
+  - utter_vocative_you_welcome
 
-## en_vocative_call
-* en_vocative_call
-  - utter_en_vocative_call
+## vocative_call
+* vocative_call
+  - utter_vocative_call
 
-## en_vocative_sorry
-* en_vocative_sorry
-  - utter_en_vocative_sorry
+## vocative_sorry
+* vocative_sorry
+  - utter_vocative_sorry
 
-## en_vocative_yes_no_ooc
-* en_vocative_yes OR en_vocative_no
-  - utter_en_further_questions
+## vocative_yes_no_ooc
+* vocative_yes OR vocative_no
+  - utter_further_questions
 
 
 
 <!------------------ 
 Bot Features
 ------------------->
-## en_features_date
-* en_features_date
+## features_date
+* features_date
   - action_get_date
-  - utter_en_features_date
+  - utter_features_date
 
-## en_features_time
-* en_features_time
+## features_time
+* features_time
   - action_get_time
-  - utter_en_features_time
+  - utter_features_time
 
 
 
 <!------------------ 
 Bot Traits
 ------------------->
-## en_bot_name
-* en_bot_name
-  - utter_en_bot_name
+## bot_name
+* bot_name
+  - utter_bot_name
 
-## en_bot_version
-* en_bot_version
-  - utter_en_bot_version
+## bot_version
+* bot_version
+  - utter_bot_version
 
-## en_bot_origin
-* en_bot_origin
-  - utter_en_bot_origin
+## bot_origin
+* bot_origin
+  - utter_bot_origin
 
-## en_bot_languages
-* en_bot_languages
-  - utter_en_bot_languages
+## bot_languages
+* bot_languages
+  - utter_bot_languages
 
-## en_bot_appearance
-* en_bot_appearance
-  - utter_en_bot_appearance
+## bot_appearance
+* bot_appearance
+  - utter_bot_appearance
 
-## en_bot_capabilities
-* en_bot_capabilities
-  - utter_en_bot_capabilities
+## bot_capabilities
+* bot_capabilities
+  - utter_bot_capabilities
 
-## en_bot_goal
-* en_bot_goal
-  - utter_en_bot_goal
+## bot_goal
+* bot_goal
+  - utter_bot_goal
 
-## en_bot_real
-* en_bot_real
-  - utter_en_bot_real
+## bot_real
+* bot_real
+  - utter_bot_real
 
-## en_bot_availability
-* en_bot_availability
-  - utter_en_bot_availability
+## bot_availability
+* bot_availability
+  - utter_bot_availability
 
-## en_bot_books
-* en_bot_books
-  - utter_en_bot_books
+## bot_books
+* bot_books
+  - utter_bot_books
 
-## en_bot_fear
-* en_bot_fear
-  - utter_en_bot_fear
+## bot_fear
+* bot_fear
+  - utter_bot_fear
 
-## en_bot_movies
-* en_bot_movies
-  - utter_en_bot_movies
+## bot_movies
+* bot_movies
+  - utter_bot_movies
 
-## en_bot_music
-* en_bot_music
-  - utter_en_bot_music
+## bot_music
+* bot_music
+  - utter_bot_music
 
-## en_bot_residence
-* en_bot_residence
-  - utter_en_bot_residence
+## bot_residence
+* bot_residence
+  - utter_bot_residence
 
-## en_bot_personality
-* en_bot_personality
-  - utter_en_bot_personality
+## bot_personality
+* bot_personality
+  - utter_bot_personality
 
-## en_bot_sexual
-* en_bot_sexual
-  - utter_en_bot_sexual
+## bot_sexual
+* bot_sexual
+  - utter_bot_sexual
 
 
 
 <!------------------ 
 Chit-chat
 ------------------->
-## en_cc_weather
-* en_cc_weather
-  - utter_en_cc_weather
+## cc_weather
+* cc_weather
+  - utter_cc_weather
 
-## en_cc_moon
-* en_cc_moon
-  - utter_en_cc_moon
+## cc_moon
+* cc_moon
+  - utter_cc_moon
 
-## en_cc_chicken_egg
-* en_cc_chicken_egg
-  - utter_en_cc_chicken_egg
+## cc_chicken_egg
+* cc_chicken_egg
+  - utter_cc_chicken_egg
 
-## en_cc_joke
-* en_cc_joke
-  - utter_en_cc_joke
+## cc_joke
+* cc_joke
+  - utter_cc_joke
 
-## en_cc_politics
-* en_cc_politics
-  - utter_en_cc_politics
+## cc_politics
+* cc_politics
+  - utter_cc_politics
 
-## en_cc_religion
-* en_cc_religion
-  - utter_en_cc_religion
+## cc_religion
+* cc_religion
+  - utter_cc_religion
 
-## en_cc_philosophical
-* en_cc_philosophical
-  - utter_en_cc_philosophical
+## cc_philosophical
+* cc_philosophical
+  - utter_cc_philosophical
 
-## en_cc_lets_talk
-* en_cc_lets_talk
-  - utter_en_cc_lets_talk
+## cc_lets_talk
+* cc_lets_talk
+  - utter_cc_lets_talk
 
-## en_cc_newspaper
-* en_cc_newspaper
-  - utter_en_cc_newspaper
+## cc_newspaper
+* cc_newspaper
+  - utter_cc_newspaper
   - action_get_news_request
 
 
@@ -579,60 +579,60 @@ Chit-chat
 <!------------------ 
 User Feelings
 ------------------->
-## en_user_happy
-* en_user_happy
-  - utter_en_user_happy
+## user_happy
+* user_happy
+  - utter_user_happy
 
-## en_user_friend
-* en_user_friend
-  - utter_en_user_friend
+## user_friend
+* user_friend
+  - utter_user_friend
 
-## en_user_love
-* en_user_love
-  - utter_en_user_love
+## user_love
+* user_love
+  - utter_user_love
 
-## en_user_angry
-* en_user_angry
-  - utter_en_user_angry
+## user_angry
+* user_angry
+  - utter_user_angry
 
-## en_user_scared
-* en_user_scared
-  - utter_en_user_scared
+## user_scared
+* user_scared
+  - utter_user_scared
 
-## en_user_no_further_questions
-* en_user_no_further_questions
-  - utter_en_user_no_further_questions
-  - utter_en_greeting_goodbye
+## user_no_further_questions
+* user_no_further_questions
+  - utter_user_no_further_questions
+  - utter_greeting_goodbye
 
-## en_user_particles
-* en_user_particles
-  - utter_en_user_particles
-  - utter_en_further_questions
+## user_particles
+* user_particles
+  - utter_user_particles
+  - utter_further_questions
 
 
 
 <!------------------ 
 Comments
 ------------------->
-## en_comment_positive
-* en_comment_positive
-  - utter_en_comment_positive
+## comment_positive
+* comment_positive
+  - utter_comment_positive
 
-## en_comment_negative
-* en_comment_negative
-  - utter_en_comment_negative
+## comment_negative
+* comment_negative
+  - utter_comment_negative
 
-## en_comment_smart
-* en_comment_smart
-  - utter_en_comment_smart
+## comment_smart
+* comment_smart
+  - utter_comment_smart
 
-## en_comment_offense
-* en_comment_offense
-  - utter_en_comment_offense
+## comment_offense
+* comment_offense
+  - utter_comment_offense
 
-## en_comment_racist
-* en_comment_racist
-  - utter_en_comment_racist
+## comment_racist
+* comment_racist
+  - utter_comment_racist
 
 
 
@@ -642,12 +642,12 @@ Counters
 <!-- 
 Generic requests 
 -->
-## en_covid_situation_without_country
-* en_covid_situation OR en_covid_situation_tested OR en_covid_situation_recovered OR en_covid_situation_last_update OR en_covid_situation_infected_critical OR en_covid_situation_infected OR en_covid_situation_deaths 
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code" : "Portugal"}
+## covid_situation_without_country
+* covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths 
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -658,20 +658,20 @@ Generic requests
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation
+  - utter_covid_situation
 
 
-## en_covid_situation_without_country2
-* en_covid_situation OR en_covid_situation_tested OR en_covid_situation_recovered OR en_covid_situation_last_update OR en_covid_situation_infected_critical OR en_covid_situation_infected OR en_covid_situation_deaths
-  - utter_en_want_to_add_country
-* en_vocative_no
-  - utter_en_further_questions
+## covid_situation_without_country2
+* covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths
+  - utter_want_to_add_country
+* vocative_no
+  - utter_further_questions
 
 
-## en_covid_situation_without_country3
-* en_covid_situation OR en_covid_situation_tested OR en_covid_situation_recovered OR en_covid_situation_last_update OR en_covid_situation_infected_critical OR en_covid_situation_infected OR en_covid_situation_deaths 
-  - utter_en_want_to_add_country
-* en_country{"en_country_code" : "Portugal"}
+## covid_situation_without_country3
+* covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths 
+  - utter_want_to_add_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -682,48 +682,48 @@ Generic requests
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation
+  - utter_covid_situation
 
 
 
 <!-- 
 World Regions 
 -->
-## en_covid_situation_tested
-* en_covid_situation_tested{"en_world_region" : "Europe"}
-  - utter_en_covid_current_statistics
+## covid_situation_tested
+* covid_situation_tested{"world_region" : "Europe"}
+  - utter_covid_current_statistics
 
-## en_covid_situation_recovered
-* en_covid_situation_recovered{"en_world_region" : "Asia"}
-  - utter_en_covid_current_statistics
+## covid_situation_recovered
+* covid_situation_recovered{"world_region" : "Asia"}
+  - utter_covid_current_statistics
 
-## en_covid_situation_last_update
-* en_covid_situation_last_update{"en_world_region" : "Oceania"}
-  - utter_en_covid_current_statistics
+## covid_situation_last_update
+* covid_situation_last_update{"world_region" : "Oceania"}
+  - utter_covid_current_statistics
 
-## en_covid_situation_infected_critical
-* en_covid_situation_infected_critical{"en_world_region" : "Africa"}
-  - utter_en_covid_current_statistics
+## covid_situation_infected_critical
+* covid_situation_infected_critical{"world_region" : "Africa"}
+  - utter_covid_current_statistics
 
-## en_covid_situation_infected
-* en_covid_situation_infected{"en_world_region" : "Antarctic"}
-  - utter_en_covid_current_statistics
+## covid_situation_infected
+* covid_situation_infected{"world_region" : "Antarctic"}
+  - utter_covid_current_statistics
 
-## en_covid_situation_deaths
-* en_covid_situation_deaths{"en_world_region" : "World"}
-  - utter_en_covid_current_statistics
+## covid_situation_deaths
+* covid_situation_deaths{"world_region" : "World"}
+  - utter_covid_current_statistics
 
-## en_covid_situation
-* en_covid_situation{"en_world_region" : "America"}
-  - utter_en_covid_current_statistics
+## covid_situation
+* covid_situation{"world_region" : "America"}
+  - utter_covid_current_statistics
 
 
 
 <!-- 
 GENERAL SITUATION 
 -->
-## en_covid_situation_happy 
-* en_covid_situation{"en_country_code" : "Portugal"}
+## covid_situation_happy 
+* covid_situation{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -734,22 +734,22 @@ GENERAL SITUATION
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation
+  - utter_covid_situation
 
-## en_covid_situation_unhappy
-* en_covid_situation{"en_country_code": "Indonésia"}
+## covid_situation_unhappy
+* covid_situation{"country_code": "Indonésia"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_en_covid_current_statistics
+  - utter_covid_current_statistics
 
-## en_covid_situation_unhappy_with_country
-* en_covid_situation{"en_country_code" : "Portugal"}
+## covid_situation_unhappy_with_country
+* covid_situation{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code" : "Portugal"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -760,34 +760,34 @@ GENERAL SITUATION
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation
+  - utter_covid_situation
 
-## en_covid_situation_unhappy_inexistent_country
-* en_covid_situation{"en_country_code" : "Portugal"}
+## covid_situation_unhappy_inexistent_country
+* covid_situation{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code" : "Portugal"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "inexistent-country"}
-  - utter_en_covid_no_country_current_statistics
+  - utter_covid_no_country_current_statistics
 
-## en_covid_situation_unhappy_with_dashboard
-* en_covid_situation{"en_country_code" : "Portugal"}
+## covid_situation_unhappy_with_dashboard
+* covid_situation{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "False"}
-  - utter_en_want_to_add_country
-* en_vocative_no
-  - utter_en_covid_current_statistics
+  - utter_want_to_add_country
+* vocative_no
+  - utter_covid_current_statistics
 
 <!-- 
 DEATHS
 -->
 
-## en_covid_situation_deaths_happy
-* en_covid_situation_deaths{"en_country_code":"Suécia"}
+## covid_situation_deaths_happy
+* covid_situation_deaths{"country_code":"Suécia"}
   - action_search_stats
   - slot{"search_successful": "True"}
   - slot{"active_cases": "16300"}
@@ -798,22 +798,22 @@ DEATHS
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_deaths
+  - utter_covid_situation_deaths
 
-## en_covid_situation_deaths_unhappy
-* en_covid_situation_deaths{"en_country_code": "Indonésia"}
+## covid_situation_deaths_unhappy
+* covid_situation_deaths{"country_code": "Indonésia"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_en_covid_current_statistics
+  - utter_covid_current_statistics
 
-## en_covid_situation_deaths_unhappy_with_country
-* en_covid_situation_deaths{"en_country_code":"Suécia"}
+## covid_situation_deaths_unhappy_with_country
+* covid_situation_deaths{"country_code":"Suécia"}
   - action_search_stats
   - slot{"search_successful": "False"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code":"Suécia"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code":"Suécia"}
   - action_search_stats
   - slot{"search_successful": "True"}
   - slot{"active_cases": "16300"}
@@ -824,34 +824,34 @@ DEATHS
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_deaths
+  - utter_covid_situation_deaths
 
-## en_covid_situation_deaths_unhappy_inexistent_country
-* en_covid_situation_deaths{"en_country_code" : "Portugal"}
+## covid_situation_deaths_unhappy_inexistent_country
+* covid_situation_deaths{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code" : "Portugal"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "inexistent-country"}
-  - utter_en_covid_no_country_current_statistics
+  - utter_covid_no_country_current_statistics
 
-## en_covid_situation_deaths_unhappy_with_dashboard
-* en_covid_situation_deaths{"en_country_code" : "Suécia"}
+## covid_situation_deaths_unhappy_with_dashboard
+* covid_situation_deaths{"country_code" : "Suécia"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_no
-  - utter_en_covid_current_statistics
+  - utter_want_to_add_country
+* vocative_no
+  - utter_covid_current_statistics
 
 <!-- 
 INFECTED
 -->
 
-## en_covid_situation_infected_happy
-* en_covid_situation_infected{"en_country_code":"Itália"}
+## covid_situation_infected_happy
+* covid_situation_infected{"country_code":"Itália"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -862,22 +862,22 @@ INFECTED
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_infected
+  - utter_covid_situation_infected
 
-## en_covid_situation_infected_unhappy
-* en_covid_situation_infected{"en_country_code": "Indonésia"}
+## covid_situation_infected_unhappy
+* covid_situation_infected{"country_code": "Indonésia"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_en_covid_current_statistics
+  - utter_covid_current_statistics
 
-## en_covid_situation_infected_unhappy_with_country
-* en_covid_situation_infected{"en_country_code":"Itália"}
+## covid_situation_infected_unhappy_with_country
+* covid_situation_infected{"country_code":"Itália"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code":"Itália"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code":"Itália"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -888,34 +888,34 @@ INFECTED
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_infected
+  - utter_covid_situation_infected
 
-## en_covid_situation_infected_unhappy_inexistent_country
-* en_covid_situation_infected{"en_country_code" : "Portugal"}
+## covid_situation_infected_unhappy_inexistent_country
+* covid_situation_infected{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code" : "Portugal"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "inexistent-country"}
-  - utter_en_covid_no_country_current_statistics
+  - utter_covid_no_country_current_statistics
 
-## en_covid_situation_infected_unhappy_with_dashboard
-* en_covid_situation_infected{"en_country_code" : "Itália"}
+## covid_situation_infected_unhappy_with_dashboard
+* covid_situation_infected{"country_code" : "Itália"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_no
-  - utter_en_covid_current_statistics
+  - utter_want_to_add_country
+* vocative_no
+  - utter_covid_current_statistics
 
 <!-- 
 INFECTED CRITICAL
 -->
 
-## en_covid_situation_infected_critical_happy
-* en_covid_situation_infected_critical{"en_country_code":"Spain"}
+## covid_situation_infected_critical_happy
+* covid_situation_infected_critical{"country_code":"Spain"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -926,22 +926,22 @@ INFECTED CRITICAL
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_infected_critical
+  - utter_covid_situation_infected_critical
 
-## en_covid_situation_infected_critical_unhappy
-* en_covid_situation_infected_critical{"en_country_code": "Indonésia"}
+## covid_situation_infected_critical_unhappy
+* covid_situation_infected_critical{"country_code": "Indonésia"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_en_covid_current_statistics
+  - utter_covid_current_statistics
 
-## en_covid_situation_infected_critical_unhappy_with_country
-* en_covid_situation_infected_critical{"en_country_code":"Espanha"}
+## covid_situation_infected_critical_unhappy_with_country
+* covid_situation_infected_critical{"country_code":"Espanha"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code":"Espanha"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code":"Espanha"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -952,34 +952,34 @@ INFECTED CRITICAL
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_infected_critical
+  - utter_covid_situation_infected_critical
 
-## en_covid_situation_infected_critical_unhappy_inexistent_country
-* en_covid_situation_infected_critical{"en_country_code" : "Portugal"}
+## covid_situation_infected_critical_unhappy_inexistent_country
+* covid_situation_infected_critical{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code" : "Portugal"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "inexistent-country"}
-  - utter_en_covid_no_country_current_statistics
+  - utter_covid_no_country_current_statistics
 
-## en_covid_situation_infected_critical_unhappy_with_dashboard
-* en_covid_situation_infected_critical{"en_country_code" : "Itália"}
+## covid_situation_infected_critical_unhappy_with_dashboard
+* covid_situation_infected_critical{"country_code" : "Itália"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_no
-  - utter_en_covid_current_statistics
+  - utter_want_to_add_country
+* vocative_no
+  - utter_covid_current_statistics
 
 <!-- 
 LAST UPDATE 
 -->
 
-## en_covid_situation_last_update_happy
-* en_covid_situation_last_update{"en_country_code":"England"}
+## covid_situation_last_update_happy
+* covid_situation_last_update{"country_code":"England"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -990,22 +990,22 @@ LAST UPDATE
   - slot{"total_deaths": "14302"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_last_update
+  - utter_covid_situation_last_update
 
-## en_covid_situation_last_update_unhappy
-* en_covid_situation_last_update{"en_country_code": "Indonesia"}
+## covid_situation_last_update_unhappy
+* covid_situation_last_update{"country_code": "Indonesia"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_en_covid_current_statistics
+  - utter_covid_current_statistics
 
-## en_covid_situation_last_update_unhappy_with_country
-* en_covid_situation_last_update{"en_country_code":"Inglaterra"}
+## covid_situation_last_update_unhappy_with_country
+* covid_situation_last_update{"country_code":"Inglaterra"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code":"Inglaterra"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code":"Inglaterra"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1016,34 +1016,34 @@ LAST UPDATE
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_last_update
+  - utter_covid_situation_last_update
 
-## en_covid_situation_last_update_unhappy_inexistent_country
-* en_covid_situation_last_update{"en_country_code" : "Portugal"}
+## covid_situation_last_update_unhappy_inexistent_country
+* covid_situation_last_update{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code" : "Portugal"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "inexistent-country"}
-  - utter_en_covid_no_country_current_statistics
+  - utter_covid_no_country_current_statistics
 
-## en_covid_situation_last_update_unhappy_with_dashboard
-* en_covid_situation_last_update{"en_country_code" : "Inglaterra"}
+## covid_situation_last_update_unhappy_with_dashboard
+* covid_situation_last_update{"country_code" : "Inglaterra"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_no
-  - utter_en_covid_current_statistics
+  - utter_want_to_add_country
+* vocative_no
+  - utter_covid_current_statistics
 
 <!-- 
 SITUATION RECOVERED
 -->
 
-## en_covid_situation_recovered_happy
-* en_covid_situation_recovered{"en_country_code":"Alemanha"}
+## covid_situation_recovered_happy
+* covid_situation_recovered{"country_code":"Alemanha"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1054,22 +1054,22 @@ SITUATION RECOVERED
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_recovered
+  - utter_covid_situation_recovered
 
-## en_covid_situation_recovered_unhappy
-* en_covid_situation_recovered{"en_country_code": "Indonésia"}
+## covid_situation_recovered_unhappy
+* covid_situation_recovered{"country_code": "Indonésia"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_en_covid_current_statistics
+  - utter_covid_current_statistics
 
-## en_covid_situation_recovered_unhappy_with_country
-* en_covid_situation_recovered{"en_country_code":"Alemanha"}
+## covid_situation_recovered_unhappy_with_country
+* covid_situation_recovered{"country_code":"Alemanha"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code":"Alemanha"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code":"Alemanha"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1080,34 +1080,34 @@ SITUATION RECOVERED
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_recovered
+  - utter_covid_situation_recovered
 
-## en_covid_situation_recovered_unhappy_inexistent_country
-* en_covid_situation_recovered{"en_country_code" : "Portugal"}
+## covid_situation_recovered_unhappy_inexistent_country
+* covid_situation_recovered{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code" : "Portugal"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "inexistent-country"}
-  - utter_en_covid_no_country_current_statistics
+  - utter_covid_no_country_current_statistics
 
-## en_covid_situation_recovered_unhappy_with_dashboard
-* en_covid_situation_recovered{"en_country_code" : "Inglaterra"}
+## covid_situation_recovered_unhappy_with_dashboard
+* covid_situation_recovered{"country_code" : "Inglaterra"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_no
-  - utter_en_covid_current_statistics
+  - utter_want_to_add_country
+* vocative_no
+  - utter_covid_current_statistics
 
 <!-- 
 TESTED
 -->
 
-## en_covid_situation_tested_happy
-* en_covid_situation_tested{"en_country_code":"Portugal"}
+## covid_situation_tested_happy
+* covid_situation_tested{"country_code":"Portugal"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1118,22 +1118,22 @@ TESTED
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_tested
+  - utter_covid_situation_tested
 
-## en_covid_situation_tested_unhappy
-* en_covid_situation_tested{"en_country_code": "Indonésia"}
+## covid_situation_tested_unhappy
+* covid_situation_tested{"country_code": "Indonésia"}
   - action_search_stats
   - slot{"search_successful": "not-ok"}
-  - utter_en_covid_current_statistics
+  - utter_covid_current_statistics
 
-## en_covid_situation_tested_happy
-* en_covid_situation_tested{"en_country_code":"Portugal"}
+## covid_situation_tested_happy
+* covid_situation_tested{"country_code":"Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code":"Portugal"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code":"Portugal"}
   - action_search_stats
   - slot{"search_successful": "ok"}
   - slot{"active_cases": "16300"}
@@ -1144,25 +1144,25 @@ TESTED
   - slot{"total_deaths": "756"}
   - slot{"total_tests": "233300"}
   - slot{"total_infected_critical": "176"}
-  - utter_en_covid_situation_tested
+  - utter_covid_situation_tested
 
-## en_covid_situation_tested_unhappy_inexistent_country
-* en_covid_situation_tested{"en_country_code" : "Portugal"}
+## covid_situation_tested_unhappy_inexistent_country
+* covid_situation_tested{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_yes
-  - utter_en_ask_which_country
-* en_country{"en_country_code" : "Portugal"}
+  - utter_want_to_add_country
+* vocative_yes
+  - utter_ask_which_country
+* country{"country_code" : "Portugal"}
   - action_search_stats
   - slot{"search_successful": "inexistent-country"}
-  - utter_en_covid_no_country_current_statistics
+  - utter_covid_no_country_current_statistics
 
-## en_covid_situation_tested_unhappy_with_dashboard
-* en_covid_situation_tested{"en_country_code" : "Inglaterra"}
+## covid_situation_tested_unhappy_with_dashboard
+* covid_situation_tested{"country_code" : "Inglaterra"}
   - action_search_stats
   - slot{"search_successful": "wrong-country"}
-  - utter_en_want_to_add_country
-* en_vocative_no
-  - utter_en_covid_current_statistics
+  - utter_want_to_add_country
+* vocative_no
+  - utter_covid_current_statistics
 
