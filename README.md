@@ -39,7 +39,7 @@ def load(**overrides):
 We needed to do this because we're adding a new component to the pipeline and since SpaCy has no prior knowledge of it we need to declare it with the Language.factories statement above. 
 
 ```bash
-cd en_neuralcoref
+cd en_neuralcoref-2.1.0
 python setup.py sdist
 cd .. 
 ```
