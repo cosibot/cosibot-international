@@ -6,11 +6,12 @@ pipeline:
 - name: spacy_nlp.spacy_nlp_neuralcoref.SpacyNLPNeuralCoref
   model: "en_neuralcoref"
 - name: SpacyTokenizer
-- name: SpacyEntityExtractor
 - name: SpacyFeaturizer
-  pooling: mean
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
-  analyzer: char_wb
+- name: CountVectorsFeaturizer
+  analyzer: "char_wb"
   min_ngram: 1
   max_ngram: 4
 - name: DIETClassifier
@@ -51,7 +52,7 @@ policies:
     epochs: 100
   - name: MappingPolicy
   - name: "FallbackPolicy"
-    nlu_threshold: 0.55
+    nlu_threshold: 0.4
     core_threshold: 0.3
     fallback_action_name: "action_default_fallback"
   - name: language_detection.lang_change_policy.LangChangePolicy

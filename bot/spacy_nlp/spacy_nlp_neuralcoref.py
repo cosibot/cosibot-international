@@ -49,6 +49,7 @@ class SpacyNLPNeuralCoref(SpacyNLP):
             os.makedirs('./spacy_nlp/history')
         self.session_token = str(datetime.now().strftime("%Y%m%d_%H%M%S.%f"))
         self.max_history = max_history
+        self.history = []
         super().__init__(component_config, nlp)
 
     @staticmethod
@@ -72,9 +73,7 @@ class SpacyNLPNeuralCoref(SpacyNLP):
         # nlp = spacy.load("en_neuralcoref")
         # print(nlp==self.nlp)
         # doc = nlp(text)
-
-        history_file_path = join('./spacy_nlp/history', 'neuralcoref_hist_'+self.session_token+'.txt')
-        if not exists(history_file_path):
+        if not self.history: 
             # if there's no file with previous user messages
             # generate doc with current message
             # this doc is generated to have access to doc._.coref_resolved
@@ -82,19 +81,15 @@ class SpacyNLPNeuralCoref(SpacyNLP):
             doc = self.nlp(preprocessed_text)
             result = doc._.coref_resolved
             # we can now save this doc._.coref_resolved in a file
-            with open(history_file_path, 'a', encoding='utf-8') as file:
-                file.write(result)
-        elif exists(history_file_path):
-            with open(history_file_path, 'r', encoding='utf-8') as file:
-                lines = [line.strip() for line in file.readlines()][-self.max_history:]
+            self.history.append(result)
+        elif self.history: 
+            lines = self.history[-self.max_history:]
             previous_sentences = (' ').join(lines)
             to_evaluate = previous_sentences + " " + text
             preprocessed_text = self.preprocess_text(to_evaluate)
             doc = self.nlp(preprocessed_text)
             result = doc._.coref_resolved[-((len(doc._.coref_resolved)-len(previous_sentences))-1):]
-            with open(history_file_path, 'a', encoding='utf-8') as file:
-                file.write("\n")
-                file.write(result)
+            self.history.append(result)
         # now we generate a new doc based on doc._.coref_resolved
         new_doc = self.nlp(self.preprocess_text(result))
         # print(result)
