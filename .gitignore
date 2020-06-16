@@ -133,3 +133,8 @@ scripts/javascript/node_modules/
 bot/story_graph.dot
 scripts/python/domain_answers.csv
 scripts/python/domain_answers_updated.csv
+.vscode
+
+neuralcoref
+
+en_neuralcoref-2.1.0
