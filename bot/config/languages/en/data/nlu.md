@@ -7,9 +7,9 @@
 - /start_dialogue
 - /start dialogue
 
-## intent:bot_change_bot
-- [German Cosibot](preferred_lang:de_lang)
-- [English Cosibot](preferred_lang:en_lang)
+## intent:en_bot_change_bot
+- [German Cosibot]{"entity": "preferred_lang", "value": "de_lang"}
+- [English Cosibot]{"entity": "preferred_lang", "value": "en_lang"}
 
 ## intent:bot_appearance
 - A picture of you please.
@@ -719,7 +719,7 @@
 - If you could be a bird what would you choose to be
 - If you could change something about your past, what would that be?
 - If you could choose a superpower, what would that be and why?
-- If you could marry someone in the [World](world_region:World), who would that be and why?
+- If you could marry someone in the [World]{"entity": "en_world_region", "value": "World"}, who would that be and why?
 - If you knew you had only one year to live, what would you change in your life?
 - If you try to fail and you succeed which have you done
 - If you try to fail fail and succeed which have you done
@@ -748,7 +748,7 @@
 - What do you do to get rid of stress
 - What do you think about marriage
 - What do you think about online dating?
-- What do you think the [World](world_region:World) will be like in 20 years
+- What do you think the [World]{"entity": "en_world_region", "value": "World"} will be like in 20 years
 - What do you want to change today and why?
 - What eye-catching do you have?
 - What is the best advice you have ever received?
@@ -1345,66 +1345,66 @@
 
 ## intent:cc_geography
 - Any knowledge about geography?
-- Are you in [Macao](country_code:MO)?
-- Do you have a road to [Belgium](country_code:BE)?
-- Do you know [Italy](country_code:IT)?
+- Are you in [Macao]{"entity": "en_country_code", "value": "MO"}?
+- Do you have a road to [Belgium]{"entity": "en_country_code", "value": "BE"}?
+- Do you know [Italy]{"entity": "en_country_code", "value": "IT"}?
 - Do you know anything about geography?
 - Do you know where are the Himalayas?
-- Do you know where is [France](country_code:FR)
-- Do you know where is [Italy](country_code:IT)?
+- Do you know where is [France]{"entity": "en_country_code", "value": "FR"}
+- Do you know where is [Italy]{"entity": "en_country_code", "value": "IT"}?
 - Does Netherlands have mountains?
-- Have you stayed in [Spain](country_code:ES)?
+- Have you stayed in [Spain]{"entity": "en_country_code", "value": "ES"}?
 - How many continents are?
-- How many continents does the [World](world_region:World) has?
-- How many countries does [Europe](world_region: Europe) has?
-- How many countries does the [World](world_region:World) has?
-- How many countries in the [World](world_region:World)?
-- Is [America continent](world_region:America) a continent?
-- Is [Croatia](country_code:HR) a good place to travel?
-- Is [Europe](world_region: Europe) a continent?
+- How many continents does the [World]{"entity": "en_world_region", "value": "World"} has?
+- How many countries does [Europe]{"entity": "en_world_region", "value": " Europe"} has?
+- How many countries does the [World]{"entity": "en_world_region", "value": "World"} has?
+- How many countries in the [World]{"entity": "en_world_region", "value": "World"}?
+- Is [America continent]{"entity": "en_world_region", "value": "America"} a continent?
+- Is [Croatia]{"entity": "en_country_code", "value": "HR"} a good place to travel?
+- Is [Europe]{"entity": "en_world_region", "value": " Europe"} a continent?
 - Is Madeira an island?
-- Is Scotland in the [United Kingdom](country_code:GB)?
-- Talk to me about [Italy](country_code:IT).
-- Talk to me about [Madrid](geography:town).
-- Talk to me about [Nepal](country_code:NP).
+- Is Scotland in the [United Kingdom]{"entity": "en_country_code", "value": "GB"}?
+- Talk to me about [Italy]{"entity": "en_country_code", "value": "IT"}.
+- Talk to me about Madrid.
+- Talk to me about [Nepal]{"entity": "en_country_code", "value": "NP"}.
 - Tell me the number of continents.
 - Tell me what is [Valencia](geography:town).
 - Tell me where are the Himalayas.
-- What can you tell me about [England](country_code:GB)?
-- What can you tell me about [Europe](world_region: Europe)?
-- What can you tell me about [Germany](country_code:DE)?
-- What do you know about [England](country_code:GB)?
+- What can you tell me about [England]{"entity": "en_country_code", "value": "GB"}?
+- What can you tell me about [Europe]{"entity": "en_world_region", "value": " Europe"}?
+- What can you tell me about [Germany]{"entity": "en_country_code", "value": "DE"}?
+- What do you know about [England]{"entity": "en_country_code", "value": "GB"}?
 - What do you know about geography?
-- What mountains exist in [Germany](country_code:DE)?
-- What rivers exist in [Portugal](country_code:PT)?
-- What rivers exist in [USA](country_code:US)?
+- What mountains exist in [Germany]{"entity": "en_country_code", "value": "DE"}?
+- What rivers exist in [Portugal]{"entity": "en_country_code", "value": "PT"}?
+- What rivers exist in [USA]{"entity": "en_country_code", "value": "US"}?
 - Where are the Himalayas?
-- Where is [America continent](world_region:America)?
-- Where is [England](country_code:GB)?
-- Where is [Germany](country_code:DE)?
-- Where is [Italy](country_code:IT)?
-- Where is [Zimbabue](country_code:ZW)?
+- Where is [America continent]{"entity": "en_world_region", "value": "America"}?
+- Where is [England]{"entity": "en_country_code", "value": "GB"}?
+- Where is [Germany]{"entity": "en_country_code", "value": "DE"}?
+- Where is [Italy]{"entity": "en_country_code", "value": "IT"}?
+- Where is [Zimbabue]{"entity": "en_country_code", "value": "ZW"}?
 
-## intent:cc_highest_building
-- Biggest building in the [World](world_region:World)?
+## intent:en_cc_highest_building
+- Biggest building in the [World]{"entity": "en_world_region", "value": "World"}?
 - Biggest building on earth?
-- Highest building in the [World](world_region:World)?
+- Highest building in the [World]{"entity": "en_world_region", "value": "World"}?
 - Highest building on earth?
-- Tallest building in the [World](world_region:World).
+- Tallest building in the [World]{"entity": "en_world_region", "value": "World"}.
 - Tallest building on earth.
 - Tallest building.
 - The tallest building.
-- What is the biggest building in the [World](world_region:World)?
+- What is the biggest building in the [World]{"entity": "en_world_region", "value": "World"}?
 - What is the biggest building on earth?
-- What is the highest building in the [World](world_region:World)?
+- What is the highest building in the [World]{"entity": "en_world_region", "value": "World"}?
 - What is the highest building on earth?
-- What is the tallest building in the [World](world_region:World)?
+- What is the tallest building in the [World]{"entity": "en_world_region", "value": "World"}?
 - What is the tallest building on earth?
-- Where is the biggest building in the [World](world_region:World)?
+- Where is the biggest building in the [World]{"entity": "en_world_region", "value": "World"}?
 - Where is the biggest building on earth?
-- Where is the highest building in the [World](world_region:World)?
+- Where is the highest building in the [World]{"entity": "en_world_region", "value": "World"}?
 - Where is the highest building on earth?
-- Where is the tallest building in the [World](world_region:World)?
+- Where is the tallest building in the [World]{"entity": "en_world_region", "value": "World"}?
 - Where is the tallest building on earth?
 
 ## intent:cc_joke
@@ -1578,7 +1578,7 @@
 - Does sound happen if nothing is present to hear it?
 - Does the study of philosophy ever lead to answers or simply more questions?
 - Does the study of philosophy ever lead to answers?
-- Has the invention of the atomic bomb made the [World](world_region:World) a more peaceful place?
+- Has the invention of the atomic bomb made the [World]{"entity": "en_world_region", "value": "World"} a more peaceful place?
 - How can people believe in truths without evidence?
 - How conscious do you think animals are?
 - How did the universe begin?
@@ -1598,12 +1598,12 @@
   increased
 - How would you define genius?
 - If all your memories were erased, what kind of person would you be?
-- If everything evolved from amoebas, how does the [World](world_region:World) still have amoebas?
+- If everything evolved from amoebas, how does the [World]{"entity": "en_world_region", "value": "World"} still have amoebas?
 - If money cannot buy happiness, can you ever be truly happy with no money?
 - If the universe is finite, what would beyond the edge of the universe be like?
 - If you could become immortal on the condition you would NEVER be able to die
   or kill yourself, would you choose immortality?
-- Is a family still relevant in the modern [World](world_region:World)?
+- Is a family still relevant in the modern [World]{"entity": "en_world_region", "value": "World"}?
 - Is a sense of humor a byproduct of consciousness
 - Is a wrong act okay if nobody ever knows about it?
 - Is beauty objective or subjective?
@@ -1688,7 +1688,7 @@
 - What role does honor play in today’s society?
 - What scientific breakthrough would have the biggest effect on humanity?
 - What should be the goal of humanity?
-- What will happen at the end of the [World](world_region:World)?
+- What will happen at the end of the [World]{"entity": "en_world_region", "value": "World"}?
 - What’s the difference between justice and revenge?
 - When does consciousness begin?
 - Where do thoughts come from?
@@ -1707,7 +1707,7 @@
 - Why are humans so confident in beliefs that can’t be proven?
 - Why are humans so susceptible to magical thinking?
 - Why do humans have such a strong urge to distract ourselves from the real
-  [World](world_region:World)?
+  [World]{"entity": "en_world_region", "value": "World"}?
 - Why do people expect a universe full of randomness to be fair?
 - Why do we create art?
 - Why do we dream?
@@ -1717,12 +1717,12 @@
 - Why is there something rather than nothing?
 - Why should we respect the dead?
 - Will religion ever become obsolete?
-- Would the [World](world_region:World) be a better or worse place if everyone looked the same?
+- Would the [World]{"entity": "en_world_region", "value": "World"} be a better or worse place if everyone looked the same?
 - Would you be able to tell if time had been altered in some way?
 - is taking a human life justified?
 
-## intent:cc_politics
-- Can you name the President of the [United States](country_code:US)?
+## intent:en_cc_politics
+- Can you name the President of the [United States]{"entity": "en_country_code", "value": "US"}?
 - Did you vote in the last election?
 - Do you always vote for the same party?
 - Do you follow politics?
@@ -1870,7 +1870,7 @@
 - What does hell look like?
 - What does it mean to say that God is infinite?
 - What does it mean to take the Lord's name in vain?
-- What happened before God created the [World](world_region:World)?
+- What happened before God created the [World]{"entity": "en_world_region", "value": "World"}?
 - What is Cerinthianism?
 - What is God's gender?
 - What is Islam?
@@ -2352,33 +2352,33 @@
 - how long will this crisis last?
 - when covid will end?
 
-## intent:covid_current_statistics
-- [Yakutsk](geography:town) news.
-- [Neunburg Vorm Wald](geography:town) situation
-- [COVID](virus:COVID) in [Azərbaycan](geography:country)
-- [COVID-19](virus:COVID) in [Gdynia](geography:town)
-- Coronavirus in [Egypt](country_code:EG)
-- Current news [Catalan](geography:languages)
-- Current situation in [Malta](country_code:MT)
-- How is the situation in [Dudley](geography:town)?
-- How many people are hospitalized in [Portugal](country_code:PT)?
-- Information about [Gröningen](geography:town)
-- Information on [Speyer](geography:town)
-- New coronavirus in [Kingston Upon Hull](geography:town)
-- News [Wilsdruff](geography:town)
-- News of [Arnavutköy](geography:town)
-- Situation [Lebanon](country_code:LB)
-- Situation in [Ufa](geography:town)
-- Thanks! What about [Portugal](country_code:PT), specifically?
-- Updated information [Abuja](geography:town)
-- Updated situation in [Hattersheim Am Main](geography:town)
-- Updated statistics in [Bredstedt](geography:town)
+## intent:en_covid_current_statistics
+- [Yakutsk]{"entity": "en_geography", "value": "town"} news.
+- [Neunburg Vorm Wald]{"entity": "en_geography", "value": "town"} situation
+- COVID in [Azərbaycan]{"entity": "en_geography", "value": "country"}
+- COVID-19 in [Gdynia]{"entity": "en_geography", "value": "town"}
+- Coronavirus in [Egypt]{"entity": "en_country_code", "value": "EG"}
+- Current news [Catalan]{"entity": "en_geography", "value": "languages"}
+- Current situation in [Malta]{"entity": "en_country_code", "value": "MT"}
+- How is the situation in [Dudley]{"entity": "en_geography", "value": "town"}?
+- How many people are hospitalized in [Portugal]{"entity": "en_country_code", "value": "PT"}?
+- Information about [Gröningen]{"entity": "en_geography", "value": "town"}
+- Information on [Speyer]{"entity": "en_geography", "value": "town"}
+- New coronavirus in [Kingston Upon Hull]{"entity": "en_geography", "value": "town"}
+- News [Wilsdruff]{"entity": "en_geography", "value": "town"}
+- News of [Arnavutköy]{"entity": "en_geography", "value": "town"}
+- Situation [Lebanon]{"entity": "en_country_code", "value": "LB"}
+- Situation in [Ufa]{"entity": "en_geography", "value": "town"}
+- Thanks! What about [Portugal]{"entity": "en_country_code", "value": "PT"}, specifically?
+- Updated information [Abuja]{"entity": "en_geography", "value": "town"}
+- Updated situation in [Hattersheim Am Main]{"entity": "en_geography", "value": "town"}
+- Updated statistics in [Bredstedt]{"entity": "en_geography", "value": "town"}
 - What are the news about the coronavirus?
 - What can you tell me about the most recent news?
-- What do you know about coronavirus in [Neutraubling](geography:town)?
-- What is the curent status in [Pinneberg](geography:town)
-- how is [Covid 19](virus:COVID)  in [portugal](country_code:PT)
-- what about in [Portugal](country_code:PT)?
+- What do you know about coronavirus in [Neutraubling]{"entity": "en_geography", "value": "town"}?
+- What is the curent status in [Pinneberg]{"entity": "en_geography", "value": "town"}
+- how is covid 19 in [portugal]{"entity": "en_country_code", "value": "PT"}
+- what about in [Portugal]{"entity": "en_country_code", "value": "PT"}?
 
 ## intent:covid_dangerous
 - How contagious is this novel corona virus?
@@ -3239,238 +3239,237 @@
 - Transmission and sex
 - sexual relations and transmission
 
-## intent:covid_situation
-- Confirmed cases in [European continet](world_region:Europe)
-- Confirmed cases in [Asia](world_region:Asia)
-- Confirmed cases in [Indonesia](country_code:ID)
-- Confirmed cases in [French Republic](country_code:FR)
+## intent:en_covid_situation
+- Confirmed cases in [European continet]{"entity": "en_world_region", "value": "Europe"}
+- Confirmed cases in [Asia]{"entity": "en_world_region", "value": "Asia"}
+- Deaths in [Africa]{"entity": "en_world_region", "value": "Africa"}
+- Deaths in [Antarctic continent]{"entity": "en_world_region", "value": "Antarctic"}
+- How much infects are counted in [World]{"entity": "en_world_region", "value": "World"}?
+- Deaths in [Oceania]{"entity": "en_world_region", "value": "Oceania"}
+- How much infects are counted in [America continent]{"entity": "en_world_region", "value": "America"}?
+- Confirmed cases in [Indonesia]{"entity": "en_country_code", "value": "ID"}
+- Confirmed cases in [French Republic]{"entity": "en_country_code", "value": "FR"}
 - Coronavirus updated situation
 - Coronavirus updated statistics
-- How are the counts in the [World](world_region:World)?
-- How many are the counts in the [World](world_region:World)?
-- How many cases are registered in [Island of Spice](country_code:GD) so far?
-- How many cases are there in the [World](world_region:World)
-- How many cases there are in the [World](world_region:World)?
-- How many people have been diagnosed with [Covid-19](virus:COVID)
-- I want to know total number of corona virus affected people in [World](world_region:World)
+- Death toll
+- Deaths in [Northern Ireland]{"entity": "en_country_code", "value": "GB"}
+- Deaths in [Great Britain]{"entity": "en_country_code", "value": "GB"}
+- How are the counts in the [World]{"entity": "en_world_region", "value": "World"}?
+- How many are the counts in the [World]{"entity": "en_world_region", "value": "World"}?
+- How many cases are registered in [Island of Spice]{"entity": "en_country_code", "value": "GD"} so far?
+- How many cases are there in the [World]{"entity": "en_world_region", "value": "World"}
+- How many cases there are in the [World]{"entity": "en_world_region", "value": "World"}?
+- How many infections are there worldwide?
+- How many people have been diagnosed with Covid-19
+- How many people have been infected?
+- How much infects are counted in [Germany]{"entity": "en_country_code", "value": "DE"}?
+- I want to know total number of corona virus affected people in [World]{"entity": "en_world_region", "value": "World"}
+- Infected count
 - Number of cases
-- Number of cases in [Republic of Georgia](country_code:GE)
-- Number of cases in [French Guiana](country_code:GF)
+- Number of cases in [Republic of Georgia]{"entity": "en_country_code", "value": "GE"}
+- Number of cases in [French Guiana]{"entity": "en_country_code", "value": "GF"}
 - Number of cases in the us
 - Number of cases worldwide.
 - Number of confirmed cases
-- Most affected cities
-- Cities with more impact
-- Statistics of [British Indian Territory](country_code:IO)
-- Statistics of [Persia](country_code:IR)
+- Number of deaths
+- Number of deaths in [Republic of Ghana]{"entity": "en_country_code", "value": "GH"}
+- Number of deaths in [Hong Kong]{"entity": "en_country_code", "value": "HK"}
+- Number of deaths worldwide.
+- Number of infected
+- Number of infected in [State of Israel]{"entity": "en_country_code", "value": "IL"}.
+- Number of infected in [Republic of India]{"entity": "en_country_code", "value": "IN"}.
+- Quais as cidades mais afetadas
+- Quais são as cidades mais afetadas
+- Statistics of [British Indian Territory]{"entity": "en_country_code", "value": "IO"}
+- Statistics of [Persia]{"entity": "en_country_code", "value": "IR"}
 - Statistics.
 - Tell me the actual numbers.
 - What about [india](country_code:IN)
 - What are the latest statistics on coronavirus?
 - What is the number of cases?
 - What is the number of confirmed cases?
+- What is the number of deaths in [North Korea]{"entity": "en_country_code", "value": "KP"}.
+- What is the number of deaths in [Sri Lanka]{"entity": "en_country_code", "value": "LK"}.
+- What is the number of deaths?
+- What is the number of infected?
 - Which country has the highest cases?
-- are infected in the [World](world_region:World)
+- are infected in the [World]{"entity": "en_world_region", "value": "World"}
 - can you provide statistics?
-- can you talk about the [World](world_region:World) situation
+- can you talk about the [World]{"entity": "en_world_region", "value": "World"} situation
 - current numbers
+- death in [germany]{"entity": "en_country_code", "value": "DE"}
 - global
 - hi Helen send me some statistics about Kobe 19
-- how is the situation right now in [Portugal](country_code:PT)?
+- how is the situation right now in [Portugal]{"entity": "en_country_code", "value": "PT"}?
 - how is the situation right now?
 - how many cases are out there?
 - how many cases are there out there?
+- how many deaths globaly
+- how many deaths?
+- how many people are infected in all [World]{"entity": "en_world_region", "value": "World"}
+- how many people died
+- how many people died in eternity
 - statistics about mortality
-- statistics today for [Republic of Moldova](country_code:MD)
+- statistics today for [Republic of Moldova]{"entity": "en_country_code", "value": "MD"}
 - talk about the numbers
-- what is the [World](world_region:World) situation?
+- what is the death count?
+- what is the [World]{"entity": "en_world_region", "value": "World"} situation?
 - what's the current state?
 - where is the virus more prevalent ?
 - where is the virus more prevalent?
 - which is the most affected country?
-- [World](world_region:World) situation
+- [World]{"entity": "en_world_region", "value": "World"} situation
 
-## intent:covid_situation_deaths
-- What is the death rate
-- Deaths in [Africa](world_region:Africa)
-- Deaths in [Antarctic continent](world_region:Antarctic)
-- Deaths in [Oceania](world_region:Oceania)
-- Death toll
-- Deaths in [Northern Ireland](country_code:GB)
-- Deaths in [Great Britain](country_code:GB)
-- Number of deaths
-- Number of deaths in [Republic of Ghana](country_code:GH)
-- Number of deaths in [Hong Kong](country_code:HK)
-- Number of deaths worldwide.
-- what is the death count?
-- death in [germany](country_code:DE)
-- What is the number of deaths in [North Korea](country_code:KP).
-- What is the number of deaths in [Sri Lanka](country_code:LK).
-- What is the number of deaths?
-- how many people died
-- how many people died during the spread
-- how many deaths globaly
-- how many deaths?
-- Deaths in [Europe](world_region:Europe)
-- How many deaths are in [Asia](world_region:Asia)
-- Deaths in [Africa continent](world_region:Africa)
-- Deaths in [Antarctic](world_region:Antarctic)
-- How many died in the [Globe](world_region: World)?
-- Deaths in [Oceania](world_region:Oceania)
-- how many [Covid 19](virus:COVID)  death cases in [America continent](world_region:America)?
-- Deaths in [Cambodia](country_code:KH).
-- How many deaths are in [República da Indonésia](country_code:ID)?
-- How many deaths can you count in the [Druk Gyal Khap](country_code:BT) alone?
-- How many deaths in [Republic of Namibia](country_code:NA)?
-- How many died in [Luxemburg](country_code:LU)?
-- How many people died in [Bailliage dé Jèrri](country_code:JE)?
-- Number of deaths [Maurícia](country_code:MU).
-- Number of deaths in [Kıbrıs Cumhuriyeti](country_code:CY)?
-- how many [Covid 19](virus:COVID)  death cases in [Republic of Armenia](country_code:AM)?
+## intent:en_covid_situation_deaths
+- Deaths in [Europe]{"entity": "en_world_region", "value": "Europe"}
+- How many deaths are in [Asia]{"entity": "en_world_region", "value": "Asia"}
+- Deaths in [Africa continent]{"entity": "en_world_region", "value": "Africa"}
+- Deaths in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
+- How many died in the [Globe]{"entity": "en_world_region", "value": " World"}?
+- Deaths in [Oceania]{"entity": "en_world_region", "value": "Oceania"}
+- how many covid 19 death cases in [America continent]{"entity": "en_world_region", "value": "America"}?
+- Deaths in [Cambodia]{"entity": "en_country_code", "value": "KH"}.
+- How many deaths are in [República da Indonésia]{"entity": "en_country_code", "value": "ID"}?
+- How many deaths can you count in the [Druk Gyal Khap]{"entity": "en_country_code", "value": "BT"} alone?
+- How many deaths in [Republic of Namibia]{"entity": "en_country_code", "value": "NA"}?
+- How many died in [Luxemburg]{"entity": "en_country_code", "value": "LU"}?
+- How many people died in [Bailliage dé Jèrri]{"entity": "en_country_code", "value": "JE"}?
+- Number of deaths [Maurícia]{"entity": "en_country_code", "value": "MU"}.
+- Number of deaths in [Kıbrıs Cumhuriyeti]{"entity": "en_country_code", "value": "CY"}?
+- how many covid 19 death cases in [Republic of Armenia]{"entity": "en_country_code", "value": "AM"}?
 
-## intent:covid_situation_infected
-- What is the number of infected?
-- How much infects are counted in [World](world_region:World)?
-- How much infects are counted in [America continent](world_region:America)?
-- How many infections are there worldwide?
-- How many people have been infected?
-- How much infects are counted in [Germany](country_code:DE)?
-- Infected count
-- Number of infected
-- Number of infected in [State of Israel](country_code:IL).
-- Number of infected in [Republic of India](country_code:IN).
-- how many people are infected in all [World](world_region:World)
-- How many active cases are in [Europe](world_region:Europe)
-- How many infected are in [Asia](world_region:Asia)
-- How many active cases are in [Africa continent](world_region:Africa)
-- How many infected are in [Antarctic](world_region:Antarctic)
-- how many positive cases do we have in [Globe](world_region: World)?
-- how many positive cases do we have in [Oceania](world_region:Oceania)
-- How many active cases of covid in [America continent](world_region:America)?
-- Active cases in [Malaysia](country_code:MY).
-- How many active cases are in [Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa](country_code:ET)?
-- How many active cases in [Hungria](country_code:HU)?
-- How many active cases of covid in [Eesti](country_code:EE)?
-- How many infected are in [Republic of Moldova](country_code:MD)?
-- How many infected in [Keeling Islands](country_code:CC)?
-- How many people are infected in [Republik Singapura](country_code:SG) to this date?
-- How many people are infected in [Republica Democrática da Argélia](country_code:DZ)?
-- how many positive cases do we have in [Região Administrativa de Macau](country_code:MO)
+## intent:en_covid_situation_infected
+- How many active cases are in [Europe]{"entity": "en_world_region", "value": "Europe"}
+- How many infected are in [Asia]{"entity": "en_world_region", "value": "Asia"}
+- How many active cases are in [Africa continent]{"entity": "en_world_region", "value": "Africa"}
+- How many infected are in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
+- how many positive cases do we have in [Globe]{"entity": "en_world_region", "value": " World"}?
+- how many positive cases do we have in [Oceania]{"entity": "en_world_region", "value": "Oceania"}
+- How many active cases of covid in [America continent]{"entity": "en_world_region", "value": "America"}?
+- Active cases in [Malaysia]{"entity": "en_country_code", "value": "MY"}.
+- How many active cases are in [Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa]{"entity": "en_country_code", "value": "ET"}?
+- How many active cases in [Hungria]{"entity": "en_country_code", "value": "HU"}?
+- How many active cases of covid in [Eesti]{"entity": "en_country_code", "value": "EE"}?
+- How many infected are in [Republic of Moldova]{"entity": "en_country_code", "value": "MD"}?
+- How many infected in [Keeling Islands]{"entity": "en_country_code", "value": "CC"}?
+- How many people are infected in [Republik Singapura]{"entity": "en_country_code", "value": "SG"} to this date?
+- How many people are infected in [Republica Democrática da Argélia]{"entity": "en_country_code", "value": "DZ"}?
+- how many positive cases do we have in [Região Administrativa de Macau]{"entity": "en_country_code", "value": "MO"}
 
-## intent:covid_situation_infected_critical
-- Critical cases in [Europe](world_region:Europe)
-- Critically infected in [Asia](world_region:Asia)
-- How many critically infected in [Africa continent](world_region:Africa)
-- How many people in critical state in [Antarctic](world_region:Antarctic)
-- How many critically infected in the [World](world_region: World)?
-- Critically infected in [Oceania](world_region:Oceania)
-- Critical cases in [America continent](world_region:America)?
-- Critical cases in [Federal Democratic Republic of Nepal](country_code:NP).
-- Critical in [Chad](country_code:TD).
-- Critical state [República da Geórgia](country_code:GE).
-- Critical state in [Republica do Afeganistão](country_code:AF)?
-- Critically infected in [Palaos](country_code:PW)?
-- Hoe many critically infected in [Republika ng Pilipinas](country_code:PH)?
-- How many critical are in [Curaçau](country_code:CW)?
-- How many critical cases are in [Republic of Yemen](country_code:YE)?
-- How many critical cases in [Russian Federation](country_code:RU)?
-- How many critically infected in [Bosna i Hercegovina](country_code:BA)?
-- How many people are in a critical state [Democratic Republic of Algeria](country_code:DZ)?
-- How many people are in a critical state in [British Indian Ocean Territory](country_code:IO)?
-- How many people in critical state in [Saint Vincent](country_code:VC)?
-- Infected in critical state in [Република Северна Македонија](country_code:MK).
-- People in critical case in [Eswatini](country_code:SZ).
-- People in critical state in [Reino da Espanha](country_code:ES).
-- how many seriously infected people there in the [Nigeria](country_code:NG)?
+## intent:en_covid_situation_infected_critical
+- Critical cases in [Europe]{"entity": "en_world_region", "value": "Europe"}
+- Critically infected in [Asia]{"entity": "en_world_region", "value": "Asia"}
+- How many critically infected in [Africa continent]{"entity": "en_world_region", "value": "Africa"}
+- How many people in critical state in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
+- How many critically infected in the [World]{"entity": "en_world_region", "value": " World"}?
+- Critically infected in [Oceania]{"entity": "en_world_region", "value": "Oceania"}
+- Critical cases in [America continent]{"entity": "en_world_region", "value": "America"}?
+- Critical cases in [Federal Democratic Republic of Nepal]{"entity": "en_country_code", "value": "NP"}.
+- Critical in [Chad]{"entity": "en_country_code", "value": "TD"}.
+- Critical state [República da Geórgia]{"entity": "en_country_code", "value": "GE"}.
+- Critical state in [Republica do Afeganistão]{"entity": "en_country_code", "value": "AF"}?
+- Critically infected in [Palaos]{"entity": "en_country_code", "value": "PW"}?
+- Hoe many critically infected in [Republika ng Pilipinas]{"entity": "en_country_code", "value": "PH"}?
+- How many critical are in [Curaçau]{"entity": "en_country_code", "value": "CW"}?
+- How many critical cases are in [Republic of Yemen]{"entity": "en_country_code", "value": "YE"}?
+- How many critical cases in [Russian Federation]{"entity": "en_country_code", "value": "RU"}?
+- How many critically infected in [Bosna i Hercegovina]{"entity": "en_country_code", "value": "BA"}?
+- How many people are in a critical state [Democratic Republic of Algeria]{"entity": "en_country_code", "value": "DZ"}?
+- How many people are in a critical state in [British Indian Ocean Territory]{"entity": "en_country_code", "value": "IO"}?
+- How many people in critical state in [Saint Vincent]{"entity": "en_country_code", "value": "VC"}?
+- Infected in critical state in [Република Северна Македонија]{"entity": "en_country_code", "value": "MK"}.
+- People in critical case in [Eswatini]{"entity": "en_country_code", "value": "SZ"}.
+- People in critical state in [Reino da Espanha]{"entity": "en_country_code", "value": "ES"}.
+- how many seriously infected people there in the [Nigeria]{"entity": "en_country_code", "value": "NG"}?
 
-## intent:covid_situation_last_update
-- Actualized data in [Europe community](world_region:Europe)
-- How many infected and deaths in [Asia region](world_region:Asia)
-- Last data of deaths in [Africa](world_region:Africa)
-- Last update on infected in [Antarctic](world_region:Antarctic)
-- Last data of deaths in [World](world_region: World)?
-- How many infected and deaths in [Oceania region](world_region:Oceania)
-- Actualized data in [America continent](world_region:America)?
-- [Holy See (Vatican City State)](country_code:VA) cases and deaths
-- Actualized data in [República Malgaxe](country_code:MG).
+## intent:en_covid_situation_last_update
+- Actualized data in [Europe community]{"entity": "en_world_region", "value": "Europe"}
+- How many infected and deaths in [Asia region]{"entity": "en_world_region", "value": "Asia"}
+- Last data of deaths in [Africa]{"entity": "en_world_region", "value": "Africa"}
+- Last update on infected in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
+- Last data of deaths in [World]{"entity": "en_world_region", "value": " World"}?
+- How many infected and deaths in [Oceania region]{"entity": "en_world_region", "value": "Oceania"}
+- Actualized data in [America continent]{"entity": "en_world_region", "value": "America"}?
+- [Holy See (Vatican City State)]{"entity": "en_country_code", "value": "VA"} cases and deaths
+- Actualized data in [República Malgaxe]{"entity": "en_country_code", "value": "MG"}.
 - Cases actualization.
 - Cases update as of today.
-- How many infected and deaths in [Magyarország](country_code:HU).
-- How many infected in [United Kingdom of Great Britain and Northern Ireland](country_code:GB) to this date.
-- Last actualization in [Ethiopia](country_code:ET).
-- Last actualization of infected in [República Oriental del Uruguay](country_code:UY).
+- How many infected and deaths in [Magyarország]{"entity": "en_country_code", "value": "HU"}.
+- How many infected in [United Kingdom of Great Britain and Northern Ireland]{"entity": "en_country_code", "value": "GB"} to this date.
+- Last actualization in [Ethiopia]{"entity": "en_country_code", "value": "ET"}.
+- Last actualization of infected in [República Oriental del Uruguay]{"entity": "en_country_code", "value": "UY"}.
 - Last actualization of infected.
-- Last data of deaths in [Tunisie](country_code:TN).
-- Last update in [Ukraine](country_code:UA).
-- Last update of deaths in [Lietuva](country_code:LT).
-- Last update on infected in [Србија](country_code:RS).
-- Latest reports in [Pukchosŏn](country_code:KP).
-- New cases and deaths in [República da União de Myanmar](country_code:MM).
-- New cases in [Letónia](country_code:LV).
-- Tell me about coronavirus in [Gabon](country_code:GA)?
-- Today data in [República do Gana](country_code:GH).
-- Today update in [Ilhas Feroe](country_code:FO).
-- Today’s data in [República Checa](country_code:CZ).
-- Today’s update in [United Kingdom of Great Britain and Northern Ireland](country_code:GB).
-- What are todays values for [Bosnia–Herzegovina](country_code:BA)
-- i would like to know the current numbers of [Ceilão](country_code:LK)
-- situation in [República de Malta](country_code:MT)
+- Last data of deaths in [Tunisie]{"entity": "en_country_code", "value": "TN"}.
+- Last update in [Ukraine]{"entity": "en_country_code", "value": "UA"}.
+- Last update of deaths in [Lietuva]{"entity": "en_country_code", "value": "LT"}.
+- Last update on infected in [Србија]{"entity": "en_country_code", "value": "RS"}.
+- Latest reports in [Pukchosŏn]{"entity": "en_country_code", "value": "KP"}.
+- New cases and deaths in [República da União de Myanmar]{"entity": "en_country_code", "value": "MM"}.
+- New cases in [Letónia]{"entity": "en_country_code", "value": "LV"}.
+- Tell me about coronavirus in [Gabon]{"entity": "en_country_code", "value": "GA"}?
+- Today data in [República do Gana]{"entity": "en_country_code", "value": "GH"}.
+- Today update in [Ilhas Feroe]{"entity": "en_country_code", "value": "FO"}.
+- Today’s data in [República Checa]{"entity": "en_country_code", "value": "CZ"}.
+- Today’s update in [United Kingdom of Great Britain and Northern Ireland]{"entity": "en_country_code", "value": "GB"}.
+- What are todays values for [Bosnia–Herzegovina]{"entity": "en_country_code", "value": "BA"}
+- i would like to know the current numbers of [Ceilão]{"entity": "en_country_code", "value": "LK"}
+- situation in [República de Malta]{"entity": "en_country_code", "value": "MT"}
 
-## intent:covid_situation_recovered
-- How many have recovered in [Europe community](world_region:Europe)
-- How many recoveries to this date in [Asia region](world_region:Asia)
-- Recovered [Africa](world_region:Africa)
-- Recovered in [Antarctic](world_region:Antarctic)
-- Recovered of covid in [World](world_region: World)?
-- How many have recovered in [Oceania region](world_region:Oceania)
-- How many recoveries to this date in [America continent](world_region:America)?
-- [República da Bielorrússia](country_code:BY) recoveries.
-- How many have recovered in [Reino de Espanha](country_code:ES)?
-- How many people have recorvered in [Saint Kitts and Nevis](country_code:KN)?
-- How many people recovered in [Germany](country_code:DE)?
-- How many recovered in [Hayti](country_code:HT)?
-- How many recoveries in [Tobago](country_code:TT)?
-- How many recoveries to this date in [Burquina Fasso](country_code:BF)?
-- Number of recovered in [Российская Федерация](country_code:RU).
-- Number of recoveries in [República de Costa Rica](country_code:CR).
-- Recovered [Ikwadur Ripuwlika](country_code:EC).
-- Recovered in [Burúndi](country_code:BI).
-- Recovered of covid in [Gâmbia](country_code:GM).
-- Recoveries in [Latvija](country_code:LV).
-- Recoveries of covid in [Pitcairn](country_code:PN).
-- Total number of recoveries in [Suomen tasavalta](country_code:FI).
-- how many recovered there are in [country of Bengal](country_code:BD)?
+## intent:en_covid_situation_recovered
+- How many have recovered in [Europe community]{"entity": "en_world_region", "value": "Europe"}
+- How many recoveries to this date in [Asia region]{"entity": "en_world_region", "value": "Asia"}
+- Recovered [Africa]{"entity": "en_world_region", "value": "Africa"}
+- Recovered in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
+- Recovered of covid in [World]{"entity": "en_world_region", "value": " World"}?
+- How many have recovered in [Oceania region]{"entity": "en_world_region", "value": "Oceania"}
+- How many recoveries to this date in [America continent]{"entity": "en_world_region", "value": "America"}?
+- [República da Bielorrússia]{"entity": "en_country_code", "value": "BY"} recoveries.
+- How many have recovered in [Reino de Espanha]{"entity": "en_country_code", "value": "ES"}?
+- How many people have recorvered in [Saint Kitts and Nevis]{"entity": "en_country_code", "value": "KN"}?
+- How many people recovered in [Germany]{"entity": "en_country_code", "value": "DE"}?
+- How many recovered in [Hayti]{"entity": "en_country_code", "value": "HT"}?
+- How many recoveries in [Tobago]{"entity": "en_country_code", "value": "TT"}?
+- How many recoveries to this date in [Burquina Fasso]{"entity": "en_country_code", "value": "BF"}?
+- Number of recovered in [Российская Федерация]{"entity": "en_country_code", "value": "RU"}.
+- Number of recoveries in [República de Costa Rica]{"entity": "en_country_code", "value": "CR"}.
+- Recovered [Ikwadur Ripuwlika]{"entity": "en_country_code", "value": "EC"}.
+- Recovered in [Burúndi]{"entity": "en_country_code", "value": "BI"}.
+- Recovered of covid in [Gâmbia]{"entity": "en_country_code", "value": "GM"}.
+- Recoveries in [Latvija]{"entity": "en_country_code", "value": "LV"}.
+- Recoveries of covid in [Pitcairn]{"entity": "en_country_code", "value": "PN"}.
+- Total number of recoveries in [Suomen tasavalta]{"entity": "en_country_code", "value": "FI"}.
+- how many recovered there are in [country of Bengal]{"entity": "en_country_code", "value": "BD"}?
 
-## intent:covid_situation_tested
-- Total number of tested in [Europe community](world_region:Europe)
-- How many tested in [Asia region](world_region:Asia)
-- Tests in [Africa](world_region:Africa)
-- Tests in [Antarctic](world_region:Antarctic)
-- how many tests were done in [World](world_region: World)?
-- How many tested in [Oceania region](world_region:Oceania)
-- Total number of tested in [America continent](world_region:America)?
-- [Lesotho](country_code:LS) tested.
-- [République de Côte d'Ivoire](country_code:CI) tests.
-- How many in [Serra Leoa](country_code:SL) were tested?
-- How many people in [Tonga](country_code:TO) were tested?
-- How many people was tested in [Uruguay](country_code:UY)?
-- How many people were tested in [EUM](country_code:MX)?
-- How many tested [República da Gâmbia](country_code:GM)?
-- How many tested are in [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah](country_code:JO)?
-- How many tested in [Република Србија](country_code:RS)?
-- How many tests in [Ilhas Caimão](country_code:KY)?
-- How many tests were made [Sudan](country_code:SD)?
-- How many were tested in [Táiwān shěng](country_code:TW)?
-- Tested in [São Bartolomeu](country_code:BL).
-- Tests in [República da Macedônia do Norte](country_code:MK)
-- Total number of tested in [Puleʻanga Fakatuʻi ʻo Tonga](country_code:TO).
-- Total number of tests made in [Kıbrıs Cumhuriyeti](country_code:CY).
-- Total tested in [Cidade-Estado do Vaticano](country_code:VA).
-- Total tests in [Kingdom of Sweden](country_code:SE)?
-- What is the number of tested in [Lețmō Vabāmō](country_code:LV)?
-- how many tests were done in [Principado dos Vales de Andorra](country_code:AD)?
+## intent:en_covid_situation_tested
+- Total number of tested in [Europe community]{"entity": "en_world_region", "value": "Europe"}
+- How many tested in [Asia region]{"entity": "en_world_region", "value": "Asia"}
+- Tests in [Africa]{"entity": "en_world_region", "value": "Africa"}
+- Tests in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
+- how many tests were done in [World]{"entity": "en_world_region", "value": " World"}?
+- How many tested in [Oceania region]{"entity": "en_world_region", "value": "Oceania"}
+- Total number of tested in [America continent]{"entity": "en_world_region", "value": "America"}?
+- [Lesotho]{"entity": "en_country_code", "value": "LS"} tested.
+- [République de Côte d'Ivoire]{"entity": "en_country_code", "value": "CI"} tests.
+- How many in [Serra Leoa]{"entity": "en_country_code", "value": "SL"} were tested?
+- How many people in [Tonga]{"entity": "en_country_code", "value": "TO"} were tested?
+- How many people was tested in [Uruguay]{"entity": "en_country_code", "value": "UY"}?
+- How many people were tested in [EUM]{"entity": "en_country_code", "value": "MX"}?
+- How many tested [República da Gâmbia]{"entity": "en_country_code", "value": "GM"}?
+- How many tested are in [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah]{"entity": "en_country_code", "value": "JO"}?
+- How many tested in [Република Србија]{"entity": "en_country_code", "value": "RS"}?
+- How many tests in [Ilhas Caimão]{"entity": "en_country_code", "value": "KY"}?
+- How many tests were made [Sudan]{"entity": "en_country_code", "value": "SD"}?
+- How many were tested in [Táiwān shěng]{"entity": "en_country_code", "value": "TW"}?
+- Tested in [São Bartolomeu]{"entity": "en_country_code", "value": "BL"}.
+- Tests in [República da Macedônia do Norte]{"entity": "en_country_code", "value": "MK"}
+- Total number of tested in [Puleʻanga Fakatuʻi ʻo Tonga]{"entity": "en_country_code", "value": "TO"}.
+- Total number of tests made in [Kıbrıs Cumhuriyeti]{"entity": "en_country_code", "value": "CY"}.
+- Total tested in [Cidade-Estado do Vaticano]{"entity": "en_country_code", "value": "VA"}.
+- Total tests in [Kingdom of Sweden]{"entity": "en_country_code", "value": "SE"}?
+- What is the number of tested in [Lețmō Vabāmō]{"entity": "en_country_code", "value": "LV"}?
+- how many tests were done in [Principado dos Vales de Andorra]{"entity": "en_country_code", "value": "AD"}?
 
-## intent:covid_surfaces
+## intent:en_covid_surfaces
 - Coronavirus durability on surfaces.
 - Coronavirus durability surfaces.
 - Coronavirus survival surfaces.
@@ -3660,7 +3659,7 @@
 - Can you answer questions economy related?
 - Economy
 - Economy consequences
-- What is the impact of this pandemic on the [World](world_region:World)'s economy?
+- What is the impact of this pandemic on the [World]{"entity": "en_world_region", "value": "World"}'s economy?
 
 ## intent:features_date
 - Can you tell me the date of today?
@@ -6102,261 +6101,254 @@
 [protection visors](visors)
 
 
-## intent:country
-- em [Portugal](country_code:PT)
-- [Espanha](country_code:ES)
-- na [Grécia](country_code:GR)
-- na [Suiça](country_code:CH)
-- no [Zimbabué](country_code:ZW)
-- [Egipto](country_code:EG)
-- [Sara Ocidental](country_code:EH)
-- [Eritrea](country_code:ER)
-- [Etiópia](country_code:ET)
-- [Finlândia](country_code:FI)
-- [Fidji](country_code:FJ)
-- [Falkland](country_code:FK)
-- [Micronesia](country_code:FM)
-- [Ilhas Faroé](country_code:FO)
-- [França](country_code:FR)
-- [Gabão](country_code:GA)
-- [Reino Unido](country_code:GB)
-- [Granada](country_code:GD)
-- [Geórgia](country_code:GE)
-- [Guyane](country_code:GF)
-- [Bailado de Guernsey](country_code:GG)
-- [Gibraltar](country_code:GI)
-- [Gronelandia](country_code:GL)
-- [Gambia](country_code:GM)
-- [Guinea](country_code:GN)
-- [Guadalupe](country_code:GP)
-- [Geórgia do Sul](country_code:GS)
-- [Guatemala](country_code:GT)
-- [Guam](country_code:GU)
-- [Guiné-Bissau](country_code:GW)
-- [Guiana](country_code:GY)
-- [Hong Kong](country_code:HK)
-- [Ilhas Heard](country_code:HM)
-- [Honduras](country_code:HN)
-- [Croacia](country_code:HR)
-- [Haiti](country_code:HT)
-- [Hungria](country_code:HU)
-- [Indonesia](country_code:ID)
-- [Irlanda](country_code:IE)
-- [Israel](country_code:IL)
-- [Mann](country_code:IM)
-- [India](country_code:IN)
-- [Território Britânico do Oceano](country_code:IO)
-- [Iraq](country_code:IQ)
-- [Irão](country_code:IR)
-- [Islandia](country_code:IS)
-- [Italia](country_code:IT)
-- [Jersey](country_code:JE)
-- [Jamaica](country_code:JM)
-- [Jordania](country_code:JO)
-- [Japão](country_code:JP)
-- [Kenya](country_code:KE)
-- [Quirguistão](country_code:KG)
-- [Cambodja](country_code:KH)
-- [Kiribati](country_code:KI)
-- [Comoros](country_code:KM)
-- [Nevis](country_code:KN)
-- [DPRK](country_code:KP)
-- [Coreia do Sul](country_code:KR)
-- [Kuwait](country_code:KW)
-- [Ilhas Caimão](country_code:KY)
-- [Cazaquistão](country_code:KZ)
-- [Laos](country_code:LA)
-- [Líbano](country_code:LB)
-- [Santa Lúcia](country_code:LC)
-- [Sri Lanka](country_code:LK)
-- [Liberia](country_code:LR)
-- [Lithuania](country_code:LT)
-- [Lesoto](country_code:LS)
-- [Luxemburgo](country_code:LU)
-- [Latvia](country_code:LV)
-- [Líbia](country_code:LY)
-- [Marrocos](country_code:MA)
-- [Monaco](country_code:MC)
-- [Moldávia](country_code:MD)
-- [Montenegro](country_code:ME)
-- [Saint Martin](country_code:MF)
-- [Madagáscar](country_code:MG)
-- [Ilhas Marshall](country_code:MH)
-- [Macedónia](country_code:MK)
-- [Máli](country_code:ML)
-- [Myanmar](country_code:MM)
-- [Mongolia](country_code:MN)
-- [Macau](country_code:MO)
-- [CNMI](country_code:MP)
-- [Martinique](country_code:MQ)
-- [Mauritania](country_code:MR)
-- [Monserrate](country_code:MS)
-- [Malta](country_code:MT)
-- [Maurice](country_code:MU)
-- [Maldivas](country_code:MV)
-- [Malawi](country_code:MW)
-- [Mexico](country_code:MX)
-- [Malásia](country_code:MY)
-- [Moçambique](country_code:MZ)
-- [Namibia](country_code:NA)
-- [Nova Caledónia](country_code:NC)
-- [Niger](country_code:NE)
-- [Norfolk Island](country_code:NF)
-- [Nigeria](country_code:NG)
-- [Nicaragua](country_code:NI)
-- [Holanda](country_code:NL)
-- [Noruega](country_code:NO)
-- [Nepal](country_code:NP)
-- [Nauru](country_code:NR)
-- [Niuê](country_code:NU)
-- [Nova Zelândia](country_code:NZ)
-- [Omão](country_code:OM)
-- [Panama](country_code:PA)
-- [Peru](country_code:PE)
-- [Polinésia Francesa](country_code:PF)
-- [PNG](country_code:PG)
-- [Filipinas](country_code:PH)
-- [Paquistão](country_code:PK)
-- [Polónia](country_code:PL)
-- [São Pedro e Miquelon](country_code:PM)
-- [Pitcairn](country_code:PN)
-- [Porto Rico](country_code:PR)
-- [Palestine](country_code:PS)
-- [Palau](country_code:PW)
-- [Paraguay](country_code:PY)
-- [Qatar](country_code:QA)
-- [Reunião](country_code:RE)
-- [Roménia](country_code:RO)
-- [Sérvia](country_code:RS)
-- [Russia](country_code:RU)
-- [Ruanda](country_code:RW)
-- [Arábia Saudita](country_code:SA)
-- [Ilhas Salomão](country_code:SB)
-- [Seicheles](country_code:SC)
-- [Sudão](country_code:SD)
-- [Suécia](country_code:SE)
-- [Singapura](country_code:SG)
-- [Ascensão](country_code:SH)
-- [Eslovénia](country_code:SI)
-- [Svalbard](country_code:SJ)
-- [Eslováquia](country_code:SK)
-- [Serra Leoa](country_code:SL)
-- [São Marino](country_code:SM)
-- [Senegal](country_code:SN)
-- [Somália](country_code:SO)
-- [Suriname](country_code:SR)
-- [South Sudan](country_code:SS)
-- [São Tomé e Príncipe](country_code:ST)
-- [Salvador](country_code:SV)
-- [Sint Maarten](country_code:SX)
-- [Síria](country_code:SY)
-- [Andorra](country_code:AD)
-- [Turcas e Caicos](country_code:TC)
-- [Chade](country_code:TD)
-- [TAAF](country_code:TF)
-- [Togo](country_code:TG)
-- [Tailândia](country_code:TH)
-- [Tajiquistão](country_code:TJ)
-- [Tokelau](country_code:TK)
-- [Timor Leste](country_code:TL)
-- [Turquemenistão](country_code:TM)
-- [Tunísia](country_code:TN)
-- [Tonga](country_code:TO)
-- [Turkey](country_code:TR)
-- [Trinidade e Tobago](country_code:TT)
-- [Tuvalu](country_code:TV)
-- [Taiwan](country_code:TW)
-- [Tanzania](country_code:TZ)
-- [Ucrânia](country_code:UA)
-- [Uganda](country_code:UG)
-- [Ilha Wake](country_code:UM)
-- [Estados Unidos](country_code:US)
-- [Uruguai](country_code:UY)
-- [Uzbekistan](country_code:UZ)
-- [Santa Sé](country_code:VA)
-- [São Vicente](country_code:VC)
-- [Venezuela](country_code:VE)
-- [Ilhas Virgens Britânicas](country_code:VG)
-- [American Virgin Islands](country_code:VI)
-- [Vietname](country_code:VN)
-- [Vanuatu](country_code:VU)
-- [Wallis and Futuna](country_code:WF)
-- [Samoa](country_code:WS)
-- [Iémen](country_code:YE)
-- [Maore](country_code:YT)
-- [RSA](country_code:ZA)
-- [República da Zâmbia](country_code:ZM)
-- [Swaziland](country_code:SZ)
-- [Emirates](country_code:AE)
-- [Afeganistão](country_code:AF)
-- [Antígua](country_code:AG)
-- [Anguila](country_code:AI)
-- [Albânia](country_code:AL)
-- [Armênia](country_code:AM)
-- [Angola](country_code:AO)
-- [Antarctica](country_code:AQ)
-- [Argentina](country_code:AR)
-- [Tutuila](country_code:AS)
-- [Austria](country_code:AT)
-- [Australia](country_code:AU)
-- [Aruba](country_code:AW)
-- [Alanda](country_code:AX)
-- [Azerbaijan](country_code:AZ)
-- [Bosnia](country_code:BA)
-- [Barbados](country_code:BB)
-- [Bangladesh](country_code:BD)
-- [Bélgica](country_code:BE)
-- [Burquina](country_code:BF)
-- [Bulgária](country_code:BG)
-- [Barein](country_code:BH)
-- [Burundi](country_code:BI)
-- [Benin](country_code:BJ)
-- [São Bartolomeu](country_code:BL)
-- [Bermuda](country_code:BM)
-- [Brunei](country_code:BN)
-- [Bolivia](country_code:BO)
-- [Saba](country_code:BQ)
-- [Brasil](country_code:BR)
-- [Bahaamas](country_code:BS)
-- [Butão](country_code:BT)
-- [Bouvetøya](country_code:BV)
-- [Botsuana](country_code:BW)
-- [Belarus](country_code:BY)
-- [Belize](country_code:BZ)
-- [Canadá](country_code:CA)
-- [Ilhas Keeling](country_code:CC)
-- [RD Congo](country_code:CD)
-- [CAR](country_code:CF)
-- [Congo](country_code:CG)
-- [Suíça](country_code:CH)
-- [Côte d'Ivoire](country_code:CI)
-- [Ilhas Cook](country_code:CK)
-- [Chile](country_code:CL)
-- [Camarões](country_code:CM)
-- [China](country_code:CN)
-- [Colombia](country_code:CO)
-- [Costa Rica](country_code:CR)
-- [Cuba](country_code:CU)
-- [Cabo Verde](country_code:CV)
-- [Curaçao](country_code:CW)
-- [Ilha Natal](country_code:CX)
-- [Chipre](country_code:CY)
-- [República Checa](country_code:CZ)
-- [Alemanha](country_code:DE)
-- [Djibouti](country_code:DJ)
-- [Dinamarca](country_code:DK)
-- [Dominica](country_code:DM)
-- [República Dominicana](country_code:DO)
-- [Argélia](country_code:DZ)
-- [Equador](country_code:EC)
-- [Estónia](country_code:EE)
-- [European continet](world_region:Europe)
-- [Europe](world_region:Europe)
-- [Asia](world_region:Asia)
-- [Africa](world_region:Africa)
-- [America](world_region:America)
-- [Oceania](world_region:Oceania)
-- [Antarctic Continent](world_region:Antarctic)
+## intent:en_country
+- em [Portugal]{"entity": "en_country_code", "value": "PT"}
+- [Espanha]{"entity": "en_country_code", "value": "ES"}
+- na [Grécia]{"entity": "en_country_code", "value": "GR"}
+- na [Suiça]{"entity": "en_country_code", "value": "CH"}
+- no [Zimbabué]{"entity": "en_country_code", "value": "ZW"}
+- [Egipto]{"entity": "en_country_code", "value": "EG"}
+- [Sara Ocidental]{"entity": "en_country_code", "value": "EH"}
+- [Eritrea]{"entity": "en_country_code", "value": "ER"}
+- [Etiópia]{"entity": "en_country_code", "value": "ET"}
+- [Finlândia]{"entity": "en_country_code", "value": "FI"}
+- [Fidji]{"entity": "en_country_code", "value": "FJ"}
+- [Falkland]{"entity": "en_country_code", "value": "FK"}
+- [Micronesia]{"entity": "en_country_code", "value": "FM"}
+- [Ilhas Faroé]{"entity": "en_country_code", "value": "FO"}
+- [França]{"entity": "en_country_code", "value": "FR"}
+- [Gabão]{"entity": "en_country_code", "value": "GA"}
+- [Reino Unido]{"entity": "en_country_code", "value": "GB"}
+- [Granada]{"entity": "en_country_code", "value": "GD"}
+- [Geórgia]{"entity": "en_country_code", "value": "GE"}
+- [Guyane]{"entity": "en_country_code", "value": "GF"}
+- [Bailado de Guernsey]{"entity": "en_country_code", "value": "GG"}
+- [Gibraltar]{"entity": "en_country_code", "value": "GI"}
+- [Gronelandia]{"entity": "en_country_code", "value": "GL"}
+- [Gambia]{"entity": "en_country_code", "value": "GM"}
+- [Guinea]{"entity": "en_country_code", "value": "GN"}
+- [Guadalupe]{"entity": "en_country_code", "value": "GP"}
+- [Geórgia do Sul]{"entity": "en_country_code", "value": "GS"}
+- [Guatemala]{"entity": "en_country_code", "value": "GT"}
+- [Guam]{"entity": "en_country_code", "value": "GU"}
+- [Guiné-Bissau]{"entity": "en_country_code", "value": "GW"}
+- [Guiana]{"entity": "en_country_code", "value": "GY"}
+- [Hong Kong]{"entity": "en_country_code", "value": "HK"}
+- [Ilhas Heard]{"entity": "en_country_code", "value": "HM"}
+- [Honduras]{"entity": "en_country_code", "value": "HN"}
+- [Croacia]{"entity": "en_country_code", "value": "HR"}
+- [Haiti]{"entity": "en_country_code", "value": "HT"}
+- [Hungria]{"entity": "en_country_code", "value": "HU"}
+- [Indonesia]{"entity": "en_country_code", "value": "ID"}
+- [Irlanda]{"entity": "en_country_code", "value": "IE"}
+- [Israel]{"entity": "en_country_code", "value": "IL"}
+- [Mann]{"entity": "en_country_code", "value": "IM"}
+- [India]{"entity": "en_country_code", "value": "IN"}
+- [Território Britânico do Oceano]{"entity": "en_country_code", "value": "IO"}
+- [Iraq]{"entity": "en_country_code", "value": "IQ"}
+- [Irão]{"entity": "en_country_code", "value": "IR"}
+- [Islandia]{"entity": "en_country_code", "value": "IS"}
+- [Italia]{"entity": "en_country_code", "value": "IT"}
+- [Jersey]{"entity": "en_country_code", "value": "JE"}
+- [Jamaica]{"entity": "en_country_code", "value": "JM"}
+- [Jordania]{"entity": "en_country_code", "value": "JO"}
+- [Japão]{"entity": "en_country_code", "value": "JP"}
+- [Kenya]{"entity": "en_country_code", "value": "KE"}
+- [Quirguistão]{"entity": "en_country_code", "value": "KG"}
+- [Cambodja]{"entity": "en_country_code", "value": "KH"}
+- [Kiribati]{"entity": "en_country_code", "value": "KI"}
+- [Comoros]{"entity": "en_country_code", "value": "KM"}
+- [Nevis]{"entity": "en_country_code", "value": "KN"}
+- [DPRK]{"entity": "en_country_code", "value": "KP"}
+- [Coreia do Sul]{"entity": "en_country_code", "value": "KR"}
+- [Kuwait]{"entity": "en_country_code", "value": "KW"}
+- [Ilhas Caimão]{"entity": "en_country_code", "value": "KY"}
+- [Cazaquistão]{"entity": "en_country_code", "value": "KZ"}
+- [Laos]{"entity": "en_country_code", "value": "LA"}
+- [Líbano]{"entity": "en_country_code", "value": "LB"}
+- [Santa Lúcia]{"entity": "en_country_code", "value": "LC"}
+- [Sri Lanka]{"entity": "en_country_code", "value": "LK"}
+- [Liberia]{"entity": "en_country_code", "value": "LR"}
+- [Lithuania]{"entity": "en_country_code", "value": "LT"}
+- [Lesoto]{"entity": "en_country_code", "value": "LS"}
+- [Luxemburgo]{"entity": "en_country_code", "value": "LU"}
+- [Latvia]{"entity": "en_country_code", "value": "LV"}
+- [Líbia]{"entity": "en_country_code", "value": "LY"}
+- [Marrocos]{"entity": "en_country_code", "value": "MA"}
+- [Monaco]{"entity": "en_country_code", "value": "MC"}
+- [Moldávia]{"entity": "en_country_code", "value": "MD"}
+- [Montenegro]{"entity": "en_country_code", "value": "ME"}
+- [Saint Martin]{"entity": "en_country_code", "value": "MF"}
+- [Madagáscar]{"entity": "en_country_code", "value": "MG"}
+- [Ilhas Marshall]{"entity": "en_country_code", "value": "MH"}
+- [Macedónia]{"entity": "en_country_code", "value": "MK"}
+- [Máli]{"entity": "en_country_code", "value": "ML"}
+- [Myanmar]{"entity": "en_country_code", "value": "MM"}
+- [Mongolia]{"entity": "en_country_code", "value": "MN"}
+- [Macau]{"entity": "en_country_code", "value": "MO"}
+- [CNMI]{"entity": "en_country_code", "value": "MP"}
+- [Martinique]{"entity": "en_country_code", "value": "MQ"}
+- [Mauritania]{"entity": "en_country_code", "value": "MR"}
+- [Monserrate]{"entity": "en_country_code", "value": "MS"}
+- [Malta]{"entity": "en_country_code", "value": "MT"}
+- [Maurice]{"entity": "en_country_code", "value": "MU"}
+- [Maldivas]{"entity": "en_country_code", "value": "MV"}
+- [Malawi]{"entity": "en_country_code", "value": "MW"}
+- [Mexico]{"entity": "en_country_code", "value": "MX"}
+- [Malásia]{"entity": "en_country_code", "value": "MY"}
+- [Moçambique]{"entity": "en_country_code", "value": "MZ"}
+- [Namibia]{"entity": "en_country_code", "value": "NA"}
+- [Nova Caledónia]{"entity": "en_country_code", "value": "NC"}
+- [Niger]{"entity": "en_country_code", "value": "NE"}
+- [Norfolk Island]{"entity": "en_country_code", "value": "NF"}
+- [Nigeria]{"entity": "en_country_code", "value": "NG"}
+- [Nicaragua]{"entity": "en_country_code", "value": "NI"}
+- [Holanda]{"entity": "en_country_code", "value": "NL"}
+- [Noruega]{"entity": "en_country_code", "value": "NO"}
+- [Nepal]{"entity": "en_country_code", "value": "NP"}
+- [Nauru]{"entity": "en_country_code", "value": "NR"}
+- [Niuê]{"entity": "en_country_code", "value": "NU"}
+- [Nova Zelândia]{"entity": "en_country_code", "value": "NZ"}
+- [Omão]{"entity": "en_country_code", "value": "OM"}
+- [Panama]{"entity": "en_country_code", "value": "PA"}
+- [Peru]{"entity": "en_country_code", "value": "PE"}
+- [Polinésia Francesa]{"entity": "en_country_code", "value": "PF"}
+- [PNG]{"entity": "en_country_code", "value": "PG"}
+- [Filipinas]{"entity": "en_country_code", "value": "PH"}
+- [Paquistão]{"entity": "en_country_code", "value": "PK"}
+- [Polónia]{"entity": "en_country_code", "value": "PL"}
+- [São Pedro e Miquelon]{"entity": "en_country_code", "value": "PM"}
+- [Pitcairn]{"entity": "en_country_code", "value": "PN"}
+- [Porto Rico]{"entity": "en_country_code", "value": "PR"}
+- [Palestine]{"entity": "en_country_code", "value": "PS"}
+- [Palau]{"entity": "en_country_code", "value": "PW"}
+- [Paraguay]{"entity": "en_country_code", "value": "PY"}
+- [Qatar]{"entity": "en_country_code", "value": "QA"}
+- [Reunião]{"entity": "en_country_code", "value": "RE"}
+- [Roménia]{"entity": "en_country_code", "value": "RO"}
+- [Sérvia]{"entity": "en_country_code", "value": "RS"}
+- [Russia]{"entity": "en_country_code", "value": "RU"}
+- [Ruanda]{"entity": "en_country_code", "value": "RW"}
+- [Arábia Saudita]{"entity": "en_country_code", "value": "SA"}
+- [Ilhas Salomão]{"entity": "en_country_code", "value": "SB"}
+- [Seicheles]{"entity": "en_country_code", "value": "SC"}
+- [Sudão]{"entity": "en_country_code", "value": "SD"}
+- [Suécia]{"entity": "en_country_code", "value": "SE"}
+- [Singapura]{"entity": "en_country_code", "value": "SG"}
+- [Ascensão]{"entity": "en_country_code", "value": "SH"}
+- [Eslovénia]{"entity": "en_country_code", "value": "SI"}
+- [Svalbard]{"entity": "en_country_code", "value": "SJ"}
+- [Eslováquia]{"entity": "en_country_code", "value": "SK"}
+- [Serra Leoa]{"entity": "en_country_code", "value": "SL"}
+- [São Marino]{"entity": "en_country_code", "value": "SM"}
+- [Senegal]{"entity": "en_country_code", "value": "SN"}
+- [Somália]{"entity": "en_country_code", "value": "SO"}
+- [Suriname]{"entity": "en_country_code", "value": "SR"}
+- [South Sudan]{"entity": "en_country_code", "value": "SS"}
+- [São Tomé e Príncipe]{"entity": "en_country_code", "value": "ST"}
+- [Salvador]{"entity": "en_country_code", "value": "SV"}
+- [Sint Maarten]{"entity": "en_country_code", "value": "SX"}
+- [Síria]{"entity": "en_country_code", "value": "SY"}
+- [Andorra]{"entity": "en_country_code", "value": "AD"}
+- [Turcas e Caicos]{"entity": "en_country_code", "value": "TC"}
+- [Chade]{"entity": "en_country_code", "value": "TD"}
+- [TAAF]{"entity": "en_country_code", "value": "TF"}
+- [Togo]{"entity": "en_country_code", "value": "TG"}
+- [Tailândia]{"entity": "en_country_code", "value": "TH"}
+- [Tajiquistão]{"entity": "en_country_code", "value": "TJ"}
+- [Tokelau]{"entity": "en_country_code", "value": "TK"}
+- [Timor Leste]{"entity": "en_country_code", "value": "TL"}
+- [Turquemenistão]{"entity": "en_country_code", "value": "TM"}
+- [Tunísia]{"entity": "en_country_code", "value": "TN"}
+- [Tonga]{"entity": "en_country_code", "value": "TO"}
+- [Turkey]{"entity": "en_country_code", "value": "TR"}
+- [Trinidade e Tobago]{"entity": "en_country_code", "value": "TT"}
+- [Tuvalu]{"entity": "en_country_code", "value": "TV"}
+- [Taiwan]{"entity": "en_country_code", "value": "TW"}
+- [Tanzania]{"entity": "en_country_code", "value": "TZ"}
+- [Ucrânia]{"entity": "en_country_code", "value": "UA"}
+- [Uganda]{"entity": "en_country_code", "value": "UG"}
+- [Ilha Wake]{"entity": "en_country_code", "value": "UM"}
+- [Estados Unidos]{"entity": "en_country_code", "value": "US"}
+- [Uruguai]{"entity": "en_country_code", "value": "UY"}
+- [Uzbekistan]{"entity": "en_country_code", "value": "UZ"}
+- [Santa Sé]{"entity": "en_country_code", "value": "VA"}
+- [São Vicente]{"entity": "en_country_code", "value": "VC"}
+- [Venezuela]{"entity": "en_country_code", "value": "VE"}
+- [Ilhas Virgens Britânicas]{"entity": "en_country_code", "value": "VG"}
+- [American Virgin Islands]{"entity": "en_country_code", "value": "VI"}
+- [Vietname]{"entity": "en_country_code", "value": "VN"}
+- [Vanuatu]{"entity": "en_country_code", "value": "VU"}
+- [Wallis and Futuna]{"entity": "en_country_code", "value": "WF"}
+- [Samoa]{"entity": "en_country_code", "value": "WS"}
+- [Iémen]{"entity": "en_country_code", "value": "YE"}
+- [Maore]{"entity": "en_country_code", "value": "YT"}
+- [RSA]{"entity": "en_country_code", "value": "ZA"}
+- [República da Zâmbia]{"entity": "en_country_code", "value": "ZM"}
+- [Swaziland]{"entity": "en_country_code", "value": "SZ"}
+- [Emirates]{"entity": "en_country_code", "value": "AE"}
+- [Afeganistão]{"entity": "en_country_code", "value": "AF"}
+- [Antígua]{"entity": "en_country_code", "value": "AG"}
+- [Anguila]{"entity": "en_country_code", "value": "AI"}
+- [Albânia]{"entity": "en_country_code", "value": "AL"}
+- [Armênia]{"entity": "en_country_code", "value": "AM"}
+- [Angola]{"entity": "en_country_code", "value": "AO"}
+- [Antarctica]{"entity": "en_country_code", "value": "AQ"}
+- [Argentina]{"entity": "en_country_code", "value": "AR"}
+- [Tutuila]{"entity": "en_country_code", "value": "AS"}
+- [Austria]{"entity": "en_country_code", "value": "AT"}
+- [Australia]{"entity": "en_country_code", "value": "AU"}
+- [Aruba]{"entity": "en_country_code", "value": "AW"}
+- [Alanda]{"entity": "en_country_code", "value": "AX"}
+- [Azerbaijan]{"entity": "en_country_code", "value": "AZ"}
+- [Bosnia]{"entity": "en_country_code", "value": "BA"}
+- [Barbados]{"entity": "en_country_code", "value": "BB"}
+- [Bangladesh]{"entity": "en_country_code", "value": "BD"}
+- [Bélgica]{"entity": "en_country_code", "value": "BE"}
+- [Burquina]{"entity": "en_country_code", "value": "BF"}
+- [Bulgária]{"entity": "en_country_code", "value": "BG"}
+- [Barein]{"entity": "en_country_code", "value": "BH"}
+- [Burundi]{"entity": "en_country_code", "value": "BI"}
+- [Benin]{"entity": "en_country_code", "value": "BJ"}
+- [São Bartolomeu]{"entity": "en_country_code", "value": "BL"}
+- [Bermuda]{"entity": "en_country_code", "value": "BM"}
+- [Brunei]{"entity": "en_country_code", "value": "BN"}
+- [Bolivia]{"entity": "en_country_code", "value": "BO"}
+- [Saba]{"entity": "en_country_code", "value": "BQ"}
+- [Brasil]{"entity": "en_country_code", "value": "BR"}
+- [Bahaamas]{"entity": "en_country_code", "value": "BS"}
+- [Butão]{"entity": "en_country_code", "value": "BT"}
+- [Bouvetøya]{"entity": "en_country_code", "value": "BV"}
+- [Botsuana]{"entity": "en_country_code", "value": "BW"}
+- [Belarus]{"entity": "en_country_code", "value": "BY"}
+- [Belize]{"entity": "en_country_code", "value": "BZ"}
+- [Canadá]{"entity": "en_country_code", "value": "CA"}
+- [Ilhas Keeling]{"entity": "en_country_code", "value": "CC"}
+- [RD Congo]{"entity": "en_country_code", "value": "CD"}
+- [CAR]{"entity": "en_country_code", "value": "CF"}
+- [Congo]{"entity": "en_country_code", "value": "CG"}
+- [Suíça]{"entity": "en_country_code", "value": "CH"}
+- [Côte d'Ivoire]{"entity": "en_country_code", "value": "CI"}
+- [Ilhas Cook]{"entity": "en_country_code", "value": "CK"}
+- [Chile]{"entity": "en_country_code", "value": "CL"}
+- [Camarões]{"entity": "en_country_code", "value": "CM"}
+- [China]{"entity": "en_country_code", "value": "CN"}
+- [Colombia]{"entity": "en_country_code", "value": "CO"}
+- [Costa Rica]{"entity": "en_country_code", "value": "CR"}
+- [Cuba]{"entity": "en_country_code", "value": "CU"}
+- [Cabo Verde]{"entity": "en_country_code", "value": "CV"}
+- [Curaçao]{"entity": "en_country_code", "value": "CW"}
+- [Ilha Natal]{"entity": "en_country_code", "value": "CX"}
+- [Chipre]{"entity": "en_country_code", "value": "CY"}
+- [República Checa]{"entity": "en_country_code", "value": "CZ"}
+- [Alemanha]{"entity": "en_country_code", "value": "DE"}
+- [Djibouti]{"entity": "en_country_code", "value": "DJ"}
+- [Dinamarca]{"entity": "en_country_code", "value": "DK"}
+- [Dominica]{"entity": "en_country_code", "value": "DM"}
+- [República Dominicana]{"entity": "en_country_code", "value": "DO"}
+- [Argélia]{"entity": "en_country_code", "value": "DZ"}
+- [Equador]{"entity": "en_country_code", "value": "EC"}
+- [Estónia]{"entity": "en_country_code", "value": "EE"}
 
 ## synonym:EG
 - República Árabe do Egipto
