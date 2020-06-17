@@ -51,3 +51,21 @@ python -m pip install en_neuralcoref-2.1.0/dist/en_neuralcoref-2.1.0.tar.gz
 This will install the model as a package. 
 
 Based on https://blog.rasa.com/custom-spacy-components/ and adapted to our needs. 
+Right now it only supports the english language. 
+
+## How to run the init.sh script
+
+1. Set up file permissions (basically enables you to run the script)
+```bash
+chmod +x init.sh
+```
+
+2. To train the model run:
+```bash
+./init.sh train en
+```
+
+3. To start the shell run:
+```bash
+./init.sh run en
+```

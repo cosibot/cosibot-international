@@ -19,4 +19,4 @@ class GetDateValue(Action):
     def run(self, dispatcher, tracker, domain):
         today = date.today()
         return [SlotSet("bot_date", today.strftime("%d/%m/%Y")),
-                    FollowupAction("utter_pt_features_date")]
+                    FollowupAction("utter_features_date")]

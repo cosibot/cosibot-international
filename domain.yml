@@ -3,6 +3,8 @@ session_config:
   carry_over_slots_to_new_session: true
 
 slots:
+  en_world_region:
+    type: text
   total_nr_tries:
     type: float
     initial_value: 0.0
@@ -65,6 +67,7 @@ entities:
   - bot_language_code
   - preferred_lang
   - en_country_code 
+  - en_world_region
 
 actions:
   - action_get_date
@@ -163,7 +166,7 @@ actions:
   - utter_en_prevention_distance
   - utter_en_prevention_general
   - utter_en_prevention_home
-  - utter_en_prevention_information
+  - utter_en_prevention_informed
   - utter_en_prevention_measures
   - utter_en_prevention_medicine
   - utter_en_prevention_respiratory_hygiene
@@ -219,6 +222,7 @@ actions:
   - utter_en_command_change_bot
 
 intents:
+  - start_dialogue
   - start
   - en_country
   - en_bot_appearance
@@ -1288,14 +1292,18 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>No need to apologize.</speak>
-          - type: ssml
-            ssml: <speak>It's fine, you don't need to apologize.</speak>
-          - type: ssml
-            ssml: <speak>Don't worry about it.</speak>
           - type: text
             text: No need to apologize.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>It's fine, you don't need to apologize.</speak>
           - type: text
             text: It's fine, you don't need to apologize.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Don't worry about it.</speak>
           - type: text
             text: Don't worry about it.
 
@@ -1304,18 +1312,24 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Anytime!</speak>
-          - type: ssml
-            ssml: <speak>You're welcome!</speak>
-          - type: ssml
-            ssml: <speak>It was a pleasure.</speak>
-          - type: ssml
-            ssml: <speak>I'm happy to help!</speak>
           - type: text
             text: Anytime!
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>You're welcome!</speak>
           - type: text
             text: You're welcome!
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>It was a pleasure.</speak>
           - type: text
             text: It was a pleasure.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>I'm happy to help!</speak>
           - type: text
             text: I'm happy to help!
 
@@ -1324,10 +1338,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Alright! What else can I do for you?</speak>
-          - type: ssml
-            ssml: <speak>Ok! What more can I do for you?</speak>
           - type: text
             text: Alright! What else can I do for you?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Ok! What more can I do for you?</speak>
           - type: text
             text: Ok! What more can I do for you?
 
@@ -1336,10 +1352,12 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>I'm here. Just tell me how can t I help you.</speak>
-          - type: ssml
-            ssml: <speak>At your service...</speak>
           - type: text
             text: I'm here. Just tell me how can t I help you.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>At your service...</speak>
           - type: text
             text: At your service...
 
@@ -1348,14 +1366,18 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Of course! Tell me what can I do for you.</speak>
-          - type: ssml
-            ssml: <speak>Surely. How can I assist you?</speak>
-          - type: ssml
-            ssml: <speak>Sure! What can I do for you?</speak>
           - type: text
             text: Of course! Tell me what can I do for you.
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Surely. How can I assist you?</speak>
           - type: text
             text: Surely. How can I assist you?
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Sure! What can I do for you?</speak>
           - type: text
             text: Sure! What can I do for you?
 
@@ -1466,7 +1488,7 @@ responses:
               - label: World Situation
                 value: World Situation
 
-  utter_en_prevention_information:
+  utter_en_prevention_informed:
     - custom:
         answers:
           - type: ssml
@@ -3131,13 +3153,13 @@ responses:
           - type: text
             text: Do you want to add a specific country or World region to your search?
           - type: ssml
-            text: <speak>Do you want to add a specific country or World region to your search?</speak>
+            ssml: <speak>Do you want to add a specific country or World region to your search?</speak>
           - type: multichoice
             options:
-              - label: Yes
-                value: Yes
-              - label: No
-                value: No
+              - label: "Yes"
+                value: "Yes"
+              - label: "No"
+                value: "No"
 
   utter_en_ask_which_country:
     - custom:
@@ -3145,7 +3167,7 @@ responses:
           - type: text
             text: Which country should I add to your search?
           - type: ssml
-            text: <speak>Which country should I add to your search?</speak>
+            ssml: <speak>Which country should I add to your search?</speak>
 
   utter_en_covid_no_country_current_statistics:
     - custom:
@@ -3173,7 +3195,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>The latest update indicates that in {country} there are a total of {active_cases} active cases.
+            ssml: <speak>The latest update indicates that in {country} there are a total of {active_cases} active cases.
                {total_recovered} recovered and {total_deaths} did not resist COVID-19. </speak>
           - type: text
             text: The latest update indicates that in {country} there are a total of {active_cases} active cases.
@@ -3183,7 +3205,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>According to the last update, in {country} there is a total of
+            ssml: <speak>According to the last update, in {country} there is a total of
                {total_deaths} fatalities from COVID-19.</speak>
           - type: text
             text: According to the last update, in {country} there is a total of
@@ -3193,7 +3215,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>The latest available data indicate that at this point in time in 
+            ssml: <speak>The latest available data indicate that at this point in time in 
                {country} there is a total of {active_cases} infected cases.</speak>
           - type: text
             text: The latest available data indicate that at this point in time in 
@@ -3203,7 +3225,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>The latest update available in {country} points to
+            ssml: <speak>The latest update available in {country} points to
                a total of {total_infected_critical} infected hospitalized in the intensive care unit.</speak>
           - type: text
             text: The latest update available in {country} points to
@@ -3213,7 +3235,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>At the moment in {country} there is a total value of {active_cases} active cases. On the last
+            ssml: <speak>At the moment in {country} there is a total value of {active_cases} active cases. On the last
                update available {new_cases} new cases have been identified.</speak>
           - type: text
             text: At the moment in {country} there is a total value of {active_cases} active cases. On the last
@@ -3257,7 +3279,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>The latest data indicates that, at the moment, in {country}, there is a
+            ssml: <speak>The latest data indicates that, at the moment, in {country}, there is a
                total of {total_recovered} cases recovered.</speak>
           - type: text
             text: The latest data indicates that, at the moment, in {country}, there is a
@@ -3267,7 +3289,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            text: <speak>The latest data update indicates that in {country},
+            ssml: <speak>The latest data update indicates that in {country},
                {total_tests} have been carried out since the beginning of data collection.</speak>
           - type: text
             text: The latest data update indicates that in {country},

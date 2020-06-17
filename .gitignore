@@ -136,3 +136,10 @@ bot/story_graph.dot
 bot/neuralcoref
 bot/en_neuralcoref-2.1.0
 .vscode
+scripts/python/domain_answers.csv
+scripts/python/domain_answers_updated.csv
+.vscode
+
+neuralcoref
+
+en_neuralcoref-2.1.0

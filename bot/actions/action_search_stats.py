@@ -62,9 +62,9 @@ class ActionSearchStats(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            country_code = next(tracker.get_latest_entity_values("en_country_code"), None)
+            country_code = next(tracker.get_latest_entity_values("country_code"), None)
         except:
-            country_code = tracker.get_slot("en_country_code")
+            country_code = tracker.get_slot("country_code")
         print("country code is {}".format(country_code))
 
         # date = tracker.get_slot("date")
@@ -76,19 +76,19 @@ class ActionSearchStats(Action):
             if stats['code'] == 200 and not stats['has_data'] and len(country_code) == 2:
                 print('inexistent-country')
                 """In this case we're assuming the user did not miss the country's name but instead it really does not exist at the source."""
-                return [SlotSet('search_successful', 'inexistent-country'), FollowupAction("utter_en_covid_no_country_current_statistics")]
+                return [SlotSet('search_successful', 'inexistent-country'), FollowupAction("utter_covid_no_country_current_statistics")]
             elif stats['code'] == 200 and not stats['has_data'] and len(country_code) != 2:
                 print('wrong-country')
                 """In this case we're assuming the user missed the country's name so we ask them if they want to rephrase it"""
-                return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_en_want_to_add_country")]
+                return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_want_to_add_country")]
             elif stats['code'] != 200 and not stats['has_data']:
                 print('not-ok')
-                return [SlotSet('search_successful', 'not-ok'), FollowupAction("utter_en_covid_current_statistics")]
+                return [SlotSet('search_successful', 'not-ok'), FollowupAction("utter_covid_current_statistics")]
             elif stats['code'] == 200 and stats['has_data']:
                 print('ok')
             
                 entity = next((e for e in tracker.latest_message["entities"] if
-                                e['entity'] == 'en_country_code'), None)
+                                e['entity'] == 'country_code'), None)
                 print(entity)
                 input_country = tracker.latest_message['text'][entity['start']:entity['end']]
                 
@@ -102,4 +102,4 @@ class ActionSearchStats(Action):
         elif country_code is None: 
             """In this case, no entity was recognized. Example: when user asks for 'world information'"""
             print('wrong-country')
-            return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_en_want_to_add_country")]
+            return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_want_to_add_country")]

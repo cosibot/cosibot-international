@@ -11,6 +11,6 @@ class ActionCheckBotIntroduced(Action):
 
     def run(self, dispatcher, tracker, domain):
         if tracker.get_slot("bot_introduced") == False:
-            return [SlotSet("bot_introduced", True), FollowupAction("utter_en_welcome")]
+            return [SlotSet("bot_introduced", True), FollowupAction("utter_welcome")]
         else:
-            return [FollowupAction("utter_en_greeting_hello")]
+            return [FollowupAction("utter_greeting_hello")]
