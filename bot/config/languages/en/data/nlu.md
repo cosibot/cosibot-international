@@ -10999,37 +10999,37 @@
 
 
 ## lookup:influenza
-data/lookup_tables/influenza.txt
+bot/config/languages/en/data/lookup_tables/influenza.txt
 
 ## lookup:air_conditioning
-data/lookup_tables/air_conditioning.txt
+bot/config/languages/en/data/lookup_tables/air_conditioning.txt
 
 ## lookup:5G
-data/lookup_tables/5G.txt
+bot/config/languages/en/data/lookup_tables/5G.txt
 
 ## lookup:hand_dryer
-data/lookup_tables/hand_dryer.txt
+bot/config/languages/en/data/lookup_tables/hand_dryer.txt
 
 ## lookup:uv_lamp
-data/lookup_tables/uv_lamp.txt
+bot/config/languages/en/data/lookup_tables/uv_lamp.txt
 
 ## lookup:thermal_scanner
-data/lookup_tables/thermal_scanner.txt
+bot/config/languages/en/data/lookup_tables/thermal_scanner.txt
 
 ## lookup:antibiotics
-data/lookup_tables/antibiotics.txt
+bot/config/languages/en/data/lookup_tables/antibiotics.txt
 
 ## lookup:pneumonia_vaccine
-data/lookup_tables/pneumonia_vaccine.txt
+bot/config/languages/en/data/lookup_tables/pneumonia_vaccine.txt
 
 ## lookup:saline
-data/lookup_tables/saline.txt
+bot/config/languages/en/data/lookup_tables/saline.txt
 
 ## lookup:garlic
-data/lookup_tables/garlic.txt
+bot/config/languages/en/data/lookup_tables/garlic.txt
 
 ## lookup:sesame_oil
-data/lookup_tables/sesame_oil.txt
+bot/config/languages/en/data/lookup_tables/sesame_oil.txt
 
 ## lookup:visors
-data/lookup_tables/visors.txt
+bot/config/languages/en/data/lookup_tables/visors.txt

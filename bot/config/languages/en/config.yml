@@ -36,7 +36,7 @@ policies:
     nlu_threshold: 0.55
     core_threshold: 0.3
     fallback_action_name: "action_default_fallback"
-  - name: language_detection.lang_change_policy.LangChangePolicy
-    lang_detect_threshold: 0.7
+  - name: bot.language_detection.lang_change_policy.LangChangePolicy
+    lang_detect_threshold: 0.8
     fallback_action_name: 'utter_bot_languages'
-    model_path: "./language_detection/lid.176.ftz"
+    model_path: "bot/language_detection/lid.176.ftz"
