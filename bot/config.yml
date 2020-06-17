@@ -5,8 +5,8 @@ language: "en"  # your two-letter language code
 pipeline:
 - name: spacy_nlp.spacy_nlp_neuralcoref.SpacyNLPNeuralCoref
   model: "en_neuralcoref"
-- name: SpacyTokenizer
-- name: SpacyFeaturizer
+- name: spacy_nlp.spacy_tokenizer_neuralcoref.SpacyTokenizerNeuralCoref
+# - name: SpacyFeaturizer
 - name: RegexFeaturizer
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
