@@ -2,7 +2,7 @@
 
 International version of the Cosibot Initiative.
 The bot is structured as follows: 
-
+```
 .
 ├── actions
 │   ├── action_change_preferred_language.py
@@ -39,5 +39,5 @@ The bot is structured as follows:
 ├── credentials.yml
 ├── endpoints.yml
 └── __init__.py
-
+```
 To add a new language, add a new folder with the language code and the specific config.yml, domain.yml, nlu.md and lookup tables files. 
