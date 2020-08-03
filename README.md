@@ -1,71 +1,43 @@
 # cosibot-international
 
-
-## How to create a custom SpaCy component based on hugging face's neuralcoref
-
-It is recommended that you install the neuralcoref package from their git repo. 
-Follow the instructions here: https://github.com/huggingface/neuralcoref
-
-On the bot directory run
-```bash
-python mkmodel.py
+International version of the Cosibot Initiative.
+The bot is structured as follows: 
 ```
-This will save the spaCy model on disk. 
-
-```bash
-python -m spacy package neuralcoref . --force
+.
+├── actions
+│   ├── action_change_preferred_language.py
+│   ├── action_check_Bot_Introduced.py
+│   ├── action_default_fallback.py
+│   ├── action_get_date.py
+│   ├── action_get_news_request.py
+│   ├── action_get_time.py
+│   ├── action_search_stats.py
+│   └── __init__.py
+├── custom
+│   ├── components
+│   │   └── spacy_nlp
+│   │       ├── spacy_nlp_neuralcoref.py
+│   │       └── spacy_tokenizer_neuralcoref.py
+│   └── policies
+│       └── language_detection
+│           ├── lang_change_policy.py
+│           └── lid.176.ftz
+├── languages
+|   ├── br
+|   │   ├── config.yml
+|   │   ├── data
+|   │   │   ├── lookup_tables
+|   │   │   └── nlu.md
+|   │   └── domain.yml
+|   ├── en
+|   │   ├── config.yml
+|   │   ├── data
+|   │   │   ├── lookup_tables
+|   │   │   └── nlu.md
+|   │   └── domain.yml
+|   └── stories.md
+├── credentials.yml
+├── endpoints.yml
+└── __init__.py
 ```
-This will create a package for our model. 
-
-At this point we need to change the __init__.py file inside our packaged model like the following. 
-
-```python
-# coding: utf8
-from __future__ import unicode_literals
-
-from pathlib import Path
-from spacy.util import load_model_from_init_py, get_model_meta
-from spacy.language import Language
-from neuralcoref import NeuralCoref
-
-__version__ = get_model_meta(Path(__file__).parent)['version']
-
-
-def load(**overrides):
-    Language.factories['neuralcoref'] = lambda nlp, **cfg: NeuralCoref(nlp.vocab, **cfg)
-    return load_model_from_init_py(__file__, **overrides)
-```
-
-We needed to do this because we're adding a new component to the pipeline and since SpaCy has no prior knowledge of it we need to declare it with the Language.factories statement above. 
-
-```bash
-cd en_neuralcoref-2.1.0
-python setup.py sdist
-cd .. 
-```
-This will create a tar file that we can later pip install. 
-
-```bash
-python -m pip install en_neuralcoref-2.1.0/dist/en_neuralcoref-2.1.0.tar.gz
-```
-This will install the model as a package. 
-
-Based on https://blog.rasa.com/custom-spacy-components/ and adapted to our needs. 
-Right now it only supports the english language. 
-
-## How to run the init.sh script
-
-1. Set up file permissions (basically enables you to run the script)
-```bash
-chmod +x init.sh
-```
-
-2. To train the model run:
-```bash
-./init.sh train en
-```
-
-3. To start the shell run:
-```bash
-./init.sh run en
-```
+To add a new language, add a new folder with the language code and the specific config.yml, domain.yml, nlu.md and lookup tables files. 

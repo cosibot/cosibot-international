@@ -10991,37 +10991,37 @@
 
 
 ## lookup:influenza
-bot/config/languages/en/data/lookup_tables/influenza.txt
+languages/en/data/lookup_tables/influenza.txt
 
 ## lookup:air_conditioning
-bot/config/languages/en/data/lookup_tables/air_conditioning.txt
+languages/en/data/lookup_tables/air_conditioning.txt
 
 ## lookup:5G
-bot/config/languages/en/data/lookup_tables/5G.txt
+languages/en/data/lookup_tables/5G.txt
 
 ## lookup:hand_dryer
-bot/config/languages/en/data/lookup_tables/hand_dryer.txt
+languages/en/data/lookup_tables/hand_dryer.txt
 
 ## lookup:uv_lamp
-bot/config/languages/en/data/lookup_tables/uv_lamp.txt
+languages/en/data/lookup_tables/uv_lamp.txt
 
 ## lookup:thermal_scanner
-bot/config/languages/en/data/lookup_tables/thermal_scanner.txt
+languages/en/data/lookup_tables/thermal_scanner.txt
 
 ## lookup:antibiotics
-bot/config/languages/en/data/lookup_tables/antibiotics.txt
+languages/en/data/lookup_tables/antibiotics.txt
 
 ## lookup:pneumonia_vaccine
-bot/config/languages/en/data/lookup_tables/pneumonia_vaccine.txt
+languages/en/data/lookup_tables/pneumonia_vaccine.txt
 
 ## lookup:saline
-bot/config/languages/en/data/lookup_tables/saline.txt
+languages/en/data/lookup_tables/saline.txt
 
 ## lookup:garlic
-bot/config/languages/en/data/lookup_tables/garlic.txt
+languages/en/data/lookup_tables/garlic.txt
 
 ## lookup:sesame_oil
-bot/config/languages/en/data/lookup_tables/sesame_oil.txt
+languages/en/data/lookup_tables/sesame_oil.txt
 
 ## lookup:visors
-bot/config/languages/en/data/lookup_tables/visors.txt
+languages/en/data/lookup_tables/visors.txt
