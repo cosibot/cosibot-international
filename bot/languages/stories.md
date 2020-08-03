@@ -1,12 +1,12 @@
 <!------------------ 
 Others
-------------------->
+
 ## change_bot
 * bot_change_bot{"preferred_lang": "German Cosibot"}
   - action_change_preferred_language
   - slot{"preferred_lang": "de"}
   - utter_command_change_bot
-
+------------------->
 
 
 <!------------------ 
@@ -108,6 +108,11 @@ About Covid-19
 * covid_info
   - utter_covid_info
 
+## covid_info
+* covid_info{"virus": "COVID"}
+  - slot{"virus": "COVID"}
+  - utter_covid_info
+
 ## covid_meaning
 * covid_meaning
   - utter_covid_meaning
@@ -122,6 +127,11 @@ About Covid-19
 
 ## covid_sars
 * covid_sars
+  - utter_covid_sars
+
+## covid_sars
+* covid_sars{"virus": "SARS"}
+  - slot{"virus": "SARS"}
   - utter_covid_sars
 
 ## influenza
@@ -455,13 +465,22 @@ Bot Features
 ------------------->
 ## features_date
 * features_date
-  - action_get_date
-  - utter_features_date
+    - action_get_date
+    - slot{"bot_date_acre": "14/07/2020"}
+    - slot{"bot_date_fnoronha": "14/07/2020"}
+    - slot{"bot_date_brasilia": "14/07/2020"}
+    - slot{"bot_date_amazonas": "14/07/2020"}
+    - followup{"name": "utter_features_date"}
+    - utter_features_date
 
-## features_time
 * features_time
-  - action_get_time
-  - utter_features_time
+    - action_get_time
+    - slot{"bot_time_acre": "10:53:09"}
+    - slot{"bot_time_fnoronha": "13:53:09"}
+    - slot{"bot_time_brasilia": "12:53:09"}
+    - slot{"bot_time_amazonas": "11:53:09"}
+    - followup{"name": "utter_features_time"}
+    - utter_features_time
 
 
 
@@ -669,7 +688,7 @@ Generic requests
 
 
 ## covid_situation_without_country3
-* covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths 
+* covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths
   - utter_want_to_add_country
 * country{"country_code" : "Portugal"}
   - action_search_stats
@@ -1166,3 +1185,126 @@ TESTED
 * vocative_no
   - utter_covid_current_statistics
 
+## country_wrong
+* country{"country_code" : "Inglaterra"}
+  - action_search_stats
+  - slot{"search_successful": "wrong-country"}
+  - utter_fallback_first
+
+## country_right
+* country{"country_code":"Inglaterra"}
+  - action_search_stats
+  - slot{"search_successful": "ok"}
+  - slot{"active_cases": "16300"}
+  - slot{"country": "Inglaterra"}
+  - slot{"new_cases": "987"}
+  - slot{"total_cases": "17543"}
+  - slot{"total_recovered": "921"}
+  - slot{"total_deaths": "756"}
+  - slot{"total_tests": "233300"}
+  - slot{"total_infected_critical": "176"}
+  - utter_covid_situation_last_update
+
+## convid_situation_infected_2
+* covid_situation_infected
+    - utter_want_to_add_country
+* vocative_yes
+    - utter_ask_which_country
+* country{"country_code": "BR"}
+    - slot{"country_code": "BR"}
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "Brasil"}
+    - slot{"active_cases": 602427}
+    - slot{"new_cases": 930}
+    - slot{"total_cases": 1888889}
+    - slot{"total_recovered": 1213512}
+    - slot{"total_deaths": 72950}
+    - slot{"total_tests": 4572796}
+    - slot{"new_deaths": 29}
+    - slot{"total_infected_critical": 8318}
+    - utter_covid_situation
+
+## convid_situation_infected_3
+* covid_situation_infected{"country_code": "MX"}
+    - slot{"country_code": "MX"}
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "México"}
+    - slot{"active_cases": 79881}
+    - slot{"new_cases": 4685}
+    - slot{"total_cases": 304435}
+    - slot{"total_recovered": 189063}
+    - slot{"total_deaths": 35491}
+    - slot{"total_tests": 739922}
+    - slot{"new_deaths": 485}
+    - slot{"total_infected_critical": 378}
+    - utter_covid_situation_infected
+
+## convid_situation_infected_4
+* covid_situation_infected{"country_code": "PT"}
+    - slot{"country_code": "PT"}
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "Portugal"}
+    - slot{"active_cases": 14091}
+    - slot{"new_cases": 0}
+    - slot{"total_cases": 46818}
+    - slot{"total_recovered": 31065}
+    - slot{"total_deaths": 1662}
+    - slot{"total_tests": 1360164}
+    - slot{"new_deaths": 0}
+    - slot{"total_infected_critical": 63}
+    - utter_covid_situation_infected
+
+## convid_situation_infected_5
+* covid_situation_infected
+    - utter_want_to_add_country
+* vocative_yes
+    - utter_ask_which_country
+* country{"country_code": "BR"}
+    - slot{"country_code": "BR"}
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "Brasil"}
+    - slot{"active_cases": 643430}
+    - slot{"new_cases": 0}
+    - slot{"total_cases": 1931204}
+    - slot{"total_recovered": 1213512}
+    - slot{"total_deaths": 74262}
+    - slot{"total_tests": 4572796}
+    - slot{"new_deaths": 0}
+    - slot{"total_infected_critical": 8318}
+    - utter_covid_situation
+* covid_situation_infected
+    - utter_want_to_add_country
+* vocative_yes
+    - utter_ask_which_country
+* country{"country_code": "PT"}
+    - slot{"country_code": "PT"}
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "Portugal"}
+    - slot{"active_cases": 643430}
+    - slot{"new_cases": 0}
+    - slot{"total_cases": 1931204}
+    - slot{"total_recovered": 1213512}
+    - slot{"total_deaths": 74262}
+    - slot{"total_tests": 4572796}
+    - slot{"new_deaths": 0}
+    - slot{"total_infected_critical": 8318}
+    - utter_covid_situation
+* covid_situation_infected{"country_code": "MX"}
+    - slot{"country_code": "MX"}
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "México"}
+    - slot{"active_cases": 81183}
+    - slot{"new_cases": 7051}
+    - slot{"total_cases": 311486}
+    - slot{"total_recovered": 193976}
+    - slot{"total_deaths": 36327}
+    - slot{"total_tests": 756137}
+    - slot{"new_deaths": 836}
+    - slot{"total_infected_critical": 378}
+    - utter_covid_situation_infected
