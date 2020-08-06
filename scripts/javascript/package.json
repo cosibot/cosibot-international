@@ -3,6 +3,7 @@
     "test": "../node_modules/.bin/mocha tests/*.js"
   },
   "dependencies": {
+    "commander": "^6.0.0",
     "csv-write-stream": "^2.0.0",
     "del": "^3.0.0",
     "excel4node": "^1.7.2",

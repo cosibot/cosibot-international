@@ -6,11 +6,13 @@
 - /get started
 - /start_dialogue
 - /start dialogue
+
 <!--
 ## intent:bot_change_bot
 - [German Cosibot]{"entity": "preferred_lang", "value": "de_lang"}
 - [English Cosibot]{"entity": "preferred_lang", "value": "en_lang"}
 -->
+
 ## intent:bot_appearance
 - Envie uma foto sua, por favor.
 - Você é atraente?

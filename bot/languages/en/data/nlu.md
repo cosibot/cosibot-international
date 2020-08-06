@@ -7,9 +7,12 @@
 - /start_dialogue
 - /start dialogue
 
-## intent:en_bot_change_bot
+<!--
+## intent:bot_change_bot
 - [German Cosibot]{"entity": "preferred_lang", "value": "de_lang"}
 - [English Cosibot]{"entity": "preferred_lang", "value": "en_lang"}
+-->
+
 
 ## intent:bot_appearance
 - A picture of you please.
@@ -42,6 +45,7 @@
 - How you look?
 - I want a photo of you.
 - Photo of you.
+- Picture
 - Picture of you.
 - Please let me have a picture of you.
 - Show me a photo of you.
@@ -52,7 +56,9 @@
 - What clothes do you have?
 - What do you look like?
 - What do you wear?
+- What is your gender
 - What is your outfit?
+- What is your sex
 - You are attractive?
 - You attractive?
 - You consider yourself short?
@@ -60,6 +66,7 @@
 - You pretty?
 - Your look.
 - Your physical appearance.
+
 
 ## intent:bot_availability
 - Are you always available?
@@ -122,6 +129,7 @@
 - Your working hours.
 
 ## intent:bot_books
+
 - Book genres you like.
 - Book you enjoy.
 - Book you like.
@@ -168,7 +176,7 @@
 - You read?
 
 ## intent:bot_capabilities
-- Tell me something about yourself.
+
 - Are you talking to me?
 - Bot capabilities
 - Bot capabilities.
@@ -179,11 +187,25 @@
 - Can you answer anything?
 - Can you answer things?
 - Can you answer?
+- Can you assist me
+- Can you only answer questions related to COVID-19?
+- Can you talk to me?
+- Can you talk with me?
 - Do you have a purpose
 - Do you know something
+- Do you need someone to talk to
+- Do you only educate about covid 19
+- Do you want to help me
+- Hello, how can I help you?
 - Hi! What Could You Do
+- How Are You Going To Help Me
+- How Can You Help Me
+- How Ken You Help me
+- How can you assist me
+- How can you help
 - How can you support me
 - How does your brain work
+- How may I help you?
 - How to use you
 - I Need to know something.
 - I asked you what do you understand
@@ -215,6 +237,7 @@
 - Tell me why you here
 - Tell me why you here.
 - Tell me your purpose!
+- Then why are you here
 - What Are You Capable Of
 - What Are Your Capabilities
 - What Are Your Functions
@@ -223,6 +246,7 @@
 - What Can I Say
 - What Can you Do
 - What Can you Do For Me
+- What Can you Help Me With
 - What Capabilities You Have
 - What Do You Have
 - What Do You Know
@@ -296,8 +320,9 @@
 - Why should i chat with you?
 - Why were you created
 - Why you here?
+- You know how you can help me instead of asking me
 - Your capabilities.
-- give me an intro about your capabilities
+- give me an intro
 - how can I use you?
 - please tell me something about you
 - tell me about your products
@@ -310,6 +335,7 @@
 - what's your purpose?
 
 ## intent:bot_fear
+
 - Are you afraid d of artificial jntelligance?
 - Are you afraid of anything?
 - Are you afraid of artificial intelligence?
@@ -330,7 +356,7 @@
 - Is there anything you are afraid of?
 - Is there anything you are scared of?
 - There is anything that frighten you?
-- Things that scare you off.
+- Things that scare you.
 - Things you are scared of.
 - Things you fear.
 - What are u scared of?
@@ -346,6 +372,7 @@
 - Your fears.
 
 ## intent:bot_games
+
 - Are you good at computer games?
 - Are you good with computer games?
 - Are you good with strategy games?
@@ -412,6 +439,7 @@
 - You play video games?
 
 ## intent:bot_goal
+
 - Do you have dreams?
 - How do you see the future?
 - Personal goal.
@@ -445,6 +473,7 @@
 - Your personal goals.
 
 ## intent:bot_hobbies
+
 - Advise me of something to do in free time.
 - Do you do something on your free-time?
 - Do you have a free-time activity?
@@ -457,6 +486,7 @@
 - Do you know some fun activity to do?
 - Do you know something fun to do?
 - Fun activity to do.
+- Got any hobbies?
 - Something fun to do.
 - Tell me any fun activity to do.
 - Tell me some fun activity to do.
@@ -481,6 +511,7 @@
 - Your hobbies.
 
 ## intent:bot_languages
+
 - Another language, please.
 - Another language.
 - Are you able to answer me in German?
@@ -517,11 +548,13 @@
 - Which languages can you speak?
 - Which languages do you speak?
 - Which languages have you learned?
+- You no dey understand English
 - how many languages do you speak?
 - languages
 - which languages do you know?
 
 ## intent:bot_movies
+
 - Do you enjoy any film?
 - Do you enjoy any movie?
 - Do you enjoy films?
@@ -558,6 +591,7 @@
 - Who is your favourite character in the Wizard of Oz?
 
 ## intent:bot_music
+
 - Do you enjoy music?
 - Do you enjoy to listen to music?
 - Do you have a favorite singer?
@@ -568,6 +602,7 @@
 - Do you like rock?
 - Do you like to hear music?
 - Do you like to listen to music?
+- Do you like to sing?
 - Favorite album.
 - Favorite music artist.
 - Favorite music group.
@@ -604,6 +639,7 @@
 - what Music arw you listening to?
 
 ## intent:bot_name
+
 - Do you know your name?
 - How can I call you?
 - How should I call you?
@@ -612,6 +648,7 @@
 - I do not know who I am talking with.
 - I want to know who you are.
 - Introduce yourself.
+- Please what is that your name
 - Tell me who you are.
 - Tell me your name.
 - What I am talking to?
@@ -622,6 +659,7 @@
 - What is your real name?
 - What is your surname?
 - What should I call you?
+- What's your name
 - Whats your first name?
 - Whats your name?
 - Whats your real name?
@@ -633,27 +671,38 @@
 - Whom am I talking to?
 - With who am I talking with?
 - You did not tell me your name.
+- Your name is Helen
 - Your name.
 - what your name
-- who are you_
+- who are you\_
 
 ## intent:bot_origin
+
 - Can you tell me how are you built?
 - Can you tell me how were you built?
 - Can you tell me how were you created?
 - How are you built?
 - How were you built?
 - How were you created?
+- How where you designed
+- I WANT TO KNOW HOW YOU WERE MADE
 - Okay. Who created you?
 - So is it a chinese virus?
 - Tell me where you from.
 - Tell me your origin.
 - Whare are you from?
 - What is you origin?
+- What is your home country?
+- What is your home town?
 - Where are you coming from?
 - Where are you from originally?
 - Where are you from?
 - Where did you born?
+- Where did you live when little?
+- Where did you live when you were little?
+- Where do you come from
+- Where is your home-place?
+- Where is your place of birth?
 - Where were you born?
 - Where you coming from?
 - Where you from?
@@ -662,17 +711,23 @@
 - Who created you?
 - Who is your creator?
 - Who is your maker
+- Who made you
+- Who program you?
 - Who was your maker?
 - Who were your makers?
+- Who's your creator
 - You from?
 - Your origin.
 
 ## intent:bot_personal_questions
+
 - 3 things you can not live without.
 - Are you a romantic?
 - Are you going for vacation this year?
 - Are you ready to start working today?
+- Are you single?
 - Are your friends married?
+- But i want to see you
 - Can I improve your system?
 - Can I teach you something new?
 - Can I teach you?
@@ -682,6 +737,7 @@
 - Can you learn from me?
 - Can you scripting?
 - Do any of your close friends have children?
+- Do u have clothes on?
 - Do you believe in Santa Claus?
 - Do you believe in soul mates?
 - Do you enjoy what you are doing?
@@ -691,9 +747,11 @@
 - Do you like humans?
 - Do you like people with green eyes?
 - Do you like your handwriting?
+- Do you play any musical instrument
 - Do you prefer hugs or kisses
 - Do you prefer to meet only one person and see where it goes or meet several
   people until you make a decision?
+- Do you sleep Helen?
 - Do you think that confessions make a relationship stronger?
 - Do you usually follow your heart or your head?
 - Do you want to be my personal assistant
@@ -701,6 +759,7 @@
 - Have you ever condemned anyone for the dark secrets he told you?
 - Have you ever lost anyone you loved
 - Have you finished school
+- Helen please show me your face
 - How can I meet you?
 - How do I teach you
 - How do you feel about staying with friends?
@@ -708,8 +767,12 @@
 - How long do you need to really trust someone?
 - How long have you lived here
 - How many floors does your home have
+- How old are you helen
 - How would your best friends describe you?
-- How's the family $bot_name
+- How's the family \$bot_name
+- I don't want this but I want your photo
+- I just want to know about you
+- I love makin love
 - If a clairvoyant could tell you what will happen in the future, what would you
   want to know?
 - If if you had only 24 hours hours to live what would you do
@@ -719,12 +782,14 @@
 - If you could be a bird what would you choose to be
 - If you could change something about your past, what would that be?
 - If you could choose a superpower, what would that be and why?
-- If you could marry someone in the [World]{"entity": "en_world_region", "value": "World"}, who would that be and why?
+- If you could marry someone in the world, who would that be and why?
 - If you knew you had only one year to live, what would you change in your life?
 - If you try to fail and you succeed which have you done
 - If you try to fail fail and succeed which have you done
 - Is it winter spring summer or fall where you live
 - Name5 of the most important things in your life
+- Okay...how old are
+- Send me a photo your
 - Tell me about your likes and dislikes
 - Tell me more about love
 - Tell me what you think about friends in general
@@ -746,9 +811,10 @@
 - What do you do in the evening?
 - What do you do in the morning?
 - What do you do to get rid of stress
+- What do you look like naked
 - What do you think about marriage
 - What do you think about online dating?
-- What do you think the [World]{"entity": "en_world_region", "value": "World"} will be like in 20 years
+- What do you think the world will be like in 20 years
 - What do you want to change today and why?
 - What eye-catching do you have?
 - What is the best advice you have ever received?
@@ -764,6 +830,7 @@
 - What three words best describe you
 - What was the best thing before sliced bread
 - What was your favorite romantic moment and why?
+- What your surname
 - What's the craziest thing you did to someone?
 - What's your biggest regret in life so far?
 - When are you free?
@@ -787,6 +854,7 @@
 - tell me your age
 
 ## intent:bot_personality
+
 - Are you friendly?
 - Are you smart?
 - Are you sympathetic?
@@ -801,35 +869,45 @@
 - How friendly are you?
 - How nice are you?
 - Please describe your personality.
+- So are you a boy or girl
 - Tell me about your personality.
 - Tell me something about your personality!
+- Tell me something about yourself.
 - What do you think about your personality?
 - What is your character?
 - What is your personality?
 - What qualities do you have?
 - What your character?
 - Which personality do you have?
+- Yes and i want to see your face
 
 ## intent:bot_real
+
 - Are you a bot?
 - Are you a chatbot?
+- Are you a computer program ?
 - Are you a computer?
+- Are you a human
+- Are you a human being or robot?
 - Are you a human being?
 - Are you a living being?
 - Are you a person or a chatbot?
 - Are you a person or a robot?
 - Are you a person?
+- Are you a program???
 - Are you a real person or a computer?
 - Are you a real person?
 - Are you a robot?
 - Are you alive?
 - Are you an artificial being?
+- Are you automatically designed to respond
 - Are you human?
 - Are you made of flesh and bones?
 - Are you made of flesh?
 - Are you made of matter?
 - Are you made of physical matter?
 - Are you real?
+- Are you robot
 - Chatbot?
 - Do you have a body?
 - Do you have a physical body?
@@ -837,6 +915,7 @@
 - Human?
 - I do not think you are human.
 - I do not think you are real.
+- I guess you are a robot after all
 - I know you are a computer.
 - I know you are a person.
 - I know you are a robot.
@@ -848,17 +927,18 @@
 - I think you are human.
 - Robot?
 - So... could you say you're a machine?
+- U too...are u a computer
 - What are you?
+- What are you???...are you a robot or something.??..or a person😢?
 - Would not you rather be a human?
+- You are mad you are a robot
 - You are not a real person, are you?
+- Your a computer
+- how do u qualify
+- it seems your a computer
 
 ## intent:bot_residence
-- Where did you live when little?
-- Where did you live when you were little?
-- Where is your home-place?
-- Where is your place of birth?
-- What is your home country?
-- What is your home town?
+
 - Describe me the place you live.
 - Describe me where are you.
 - Describe me your home.
@@ -868,11 +948,7 @@
 - How many floors does your home have?
 - I wanna know your place.
 - I want to know your place.
-- Is it winter, spring, summer or fall where you live?
-- Is it winter where you live?
-- Is it spring where you live?
-- Is it summer where you live?
-- Is it fall where you live?
+- Is it winter spring summer or fall where you live?
 - Name your location.
 - Tell me where are you.
 - Tell me where is located your home.
@@ -890,7 +966,7 @@
 - Where are you right now?
 - Where are you?
 - Where do you live?
-- Where have you been living?
+- Where have you been?
 - Where is the place you live?
 - Where is you place?
 - Where is your current home-location?
@@ -898,11 +974,11 @@
 - Where is your location?
 - Where is your place?
 - Where you live?
-- Where is your house?
+- Your is your house?
 - Your location.
 
 ## intent:bot_sexual
-- What do you look like naked
+
 - Are you a virgin?
 - Are you bisexual?
 - Are you flirting with me?
@@ -915,12 +991,12 @@
 - Cam you have sex
 - Can I test the zipper of your pants?
 - Can you have sex?
+- Come fuck me
 - Cum for me baby.
 - Did you ever had oral sex?
 - Did you have had coition
 - Did you have had coitus?
 - Do you have your clothes on?
-- Do u have clothes on?
 - Do you know how to flirt?
 - Do you like being naked?
 - Do you like it when I touch myself?
@@ -937,6 +1013,7 @@
 - Fuck me harder!
 - Fuck me like you have never fucked someone!
 - Fuck me.
+- Fuck mhe hard
 - Get your ass in my bed!
 - Have you ever had a orgasm?
 - Have you had an orgasm?
@@ -960,6 +1037,7 @@
 - I wanna do bad things to you.
 - I wanna flirt with you.
 - I want it all over me.
+- I want sex
 - I want to enjoy sex with you.
 - I want to feel you inside me.
 - I want to flirt with you.
@@ -973,23 +1051,29 @@
 - I want to rub my pussy all over your face.
 - I want to start sex
 - I want to taste you.
+- I want ur ass Your fat ass
+- I want us to hook up bae🙄😏
 - I want you in my bed.
 - I want you inside me.
 - I want you right now.
 - I want you to suck.
 - I want you, all of you.
+- I went to fuck your pussy
 - I wish we could just stay in bed forever.
 - I would like to have sex with you.
 - I'm a hetero
 - I'm heterosexual
 - I'm homosexual
+- I'm horny😹
 - I'm queer
 - I'm straight
+- I'm very horny
 - Just lie back and let me make you cum
 - Kiss me
 - Kiss me hard
 - Kiss me hard and fuck me harder.
 - Let's have sex.
+- Let's hook up
 - Let's makeout.
 - Let’s bone.
 - Let’s fuck.
@@ -999,6 +1083,8 @@
 - No one has ever made me come as hard as you can.
 - Push me up against the wall and do dirty things to me.
 - Put your big fat baby maker inside my pussy and fuck my brain out.
+- Send nudes
+- Sexxxxcxxcx
 - Show me your boobs.
 - Show me your breasts.
 - Show me your tits.
@@ -1040,6 +1126,7 @@
 - You are the sexiest thing I have ever seen!
 - You can have me any way you want.
 - You feel so good on top of me.
+- You have beautiful tones and nails
 - You look so sexy.
 - You make me wet.
 - Your clothes would look nice on my bedroom floor.
@@ -1049,7 +1136,7 @@
 - should i use underwear?
 
 ## intent:bot_sing
-- Do you like to sing?
+
 - Are you a good singer?
 - Are you capable of singing anything?
 - Can you sing anything?
@@ -1079,6 +1166,7 @@
 - You think you can sing?
 
 ## intent:bot_sports
+
 - Are you interested in sports?
 - Do you currently play any sports?
 - Do you enjoy play any sport?
@@ -1120,6 +1208,7 @@
 - You and Sports.
 
 ## intent:bot_version
+
 - Bot version.
 - Can you tell me your version?
 - Chatbot version.
@@ -1157,8 +1246,10 @@
 - Which version do you have?
 - You are on which version?
 - Your version.
+- version
 
 ## intent:bot_worst_experience
+
 - Bad experience?
 - Bad experiences?
 - Did you also have bad experiences?
@@ -1239,6 +1330,7 @@
 - Your worst experience.
 
 ## intent:cc_chicken_egg
+
 - Can you tell me what came first? The chicken or the egg?
 - Can you tell me what came first? The egg or the chicken?
 - "Chicken or Egg: which came first?"
@@ -1279,6 +1371,7 @@
 - Who came first? Egg or chicken?
 
 ## intent:cc_deepest_point
+
 - Deepest place on earth.
 - Deepest place on planet.
 - Deepest point on earth.
@@ -1309,6 +1402,7 @@
 - Where is the deepest point on planet?
 
 ## intent:cc_fun_fact
+
 - Are there any fun facts?
 - Are there any interesting facts?
 - Can you tell me a fun fact?
@@ -1344,70 +1438,73 @@
 - You know interesting facts?
 
 ## intent:cc_geography
+
 - Any knowledge about geography?
-- Are you in [Macao]{"entity": "en_country_code", "value": "MO"}?
-- Do you have a road to [Belgium]{"entity": "en_country_code", "value": "BE"}?
-- Do you know [Italy]{"entity": "en_country_code", "value": "IT"}?
+- Are you in Macao?
+- Do you have a road to Belgium?
+- Do you know Italy?
 - Do you know anything about geography?
 - Do you know where are the Himalayas?
-- Do you know where is [France]{"entity": "en_country_code", "value": "FR"}
-- Do you know where is [Italy]{"entity": "en_country_code", "value": "IT"}?
+- Do you know where is France
+- Do you know where is Italy?
 - Does Netherlands have mountains?
-- Have you stayed in [Spain]{"entity": "en_country_code", "value": "ES"}?
+- Have you stayed in Spain?
 - How many continents are?
-- How many continents does the [World]{"entity": "en_world_region", "value": "World"} has?
-- How many countries does [Europe]{"entity": "en_world_region", "value": " Europe"} has?
-- How many countries does the [World]{"entity": "en_world_region", "value": "World"} has?
-- How many countries in the [World]{"entity": "en_world_region", "value": "World"}?
-- Is [America continent]{"entity": "en_world_region", "value": "America"} a continent?
-- Is [Croatia]{"entity": "en_country_code", "value": "HR"} a good place to travel?
-- Is [Europe]{"entity": "en_world_region", "value": " Europe"} a continent?
+- How many continents does the world has?
+- How many countries does Europe has?
+- How many countries does the World has?
+- How many countries in the world?
+- Is America a continent?
+- Is Croatia a good place to travel?
+- Is Europe a continent?
 - Is Madeira an island?
-- Is Scotland in the [United Kingdom]{"entity": "en_country_code", "value": "GB"}?
-- Talk to me about [Italy]{"entity": "en_country_code", "value": "IT"}.
+- Is Scotland in the United Kingdom?
+- Talk to me about Italy.
 - Talk to me about Madrid.
-- Talk to me about [Nepal]{"entity": "en_country_code", "value": "NP"}.
+- Talk to me about Nepal.
 - Tell me the number of continents.
-- Tell me what is [Valencia](geography:town).
+- Tell me what is Valencia.
 - Tell me where are the Himalayas.
-- What can you tell me about [England]{"entity": "en_country_code", "value": "GB"}?
-- What can you tell me about [Europe]{"entity": "en_world_region", "value": " Europe"}?
-- What can you tell me about [Germany]{"entity": "en_country_code", "value": "DE"}?
-- What do you know about [England]{"entity": "en_country_code", "value": "GB"}?
+- What can you tell me about England?
+- What can you tell me about Europe?
+- What can you tell me about Germany?
+- What do you know about England?
 - What do you know about geography?
-- What mountains exist in [Germany]{"entity": "en_country_code", "value": "DE"}?
-- What rivers exist in [Portugal]{"entity": "en_country_code", "value": "PT"}?
-- What rivers exist in [USA]{"entity": "en_country_code", "value": "US"}?
+- What mountains exist in Germany?
+- What rivers exist in Portugal?
+- What rivers exist in USA?
 - Where are the Himalayas?
-- Where is [America continent]{"entity": "en_world_region", "value": "America"}?
-- Where is [England]{"entity": "en_country_code", "value": "GB"}?
-- Where is [Germany]{"entity": "en_country_code", "value": "DE"}?
-- Where is [Italy]{"entity": "en_country_code", "value": "IT"}?
-- Where is [Zimbabue]{"entity": "en_country_code", "value": "ZW"}?
+- Where is America?
+- Where is England?
+- Where is Germany?
+- Where is Italy?
+- Where is Zimbabue?
 
-## intent:en_cc_highest_building
-- Biggest building in the [World]{"entity": "en_world_region", "value": "World"}?
+## intent:cc_highest_building
+
+- Biggest building in the world?
 - Biggest building on earth?
-- Highest building in the [World]{"entity": "en_world_region", "value": "World"}?
+- Highest building in the world?
 - Highest building on earth?
-- Tallest building in the [World]{"entity": "en_world_region", "value": "World"}.
+- Tallest building in the world.
 - Tallest building on earth.
 - Tallest building.
 - The tallest building.
-- What is the biggest building in the [World]{"entity": "en_world_region", "value": "World"}?
+- What is the biggest building in the world?
 - What is the biggest building on earth?
-- What is the highest building in the [World]{"entity": "en_world_region", "value": "World"}?
+- What is the highest building in the world?
 - What is the highest building on earth?
-- What is the tallest building in the [World]{"entity": "en_world_region", "value": "World"}?
+- What is the tallest building in the world?
 - What is the tallest building on earth?
-- Where is the biggest building in the [World]{"entity": "en_world_region", "value": "World"}?
+- Where is the biggest building in the world?
 - Where is the biggest building on earth?
-- Where is the highest building in the [World]{"entity": "en_world_region", "value": "World"}?
+- Where is the highest building in the world?
 - Where is the highest building on earth?
-- Where is the tallest building in the [World]{"entity": "en_world_region", "value": "World"}?
+- Where is the tallest building in the world?
 - Where is the tallest building on earth?
 
 ## intent:cc_joke
+
 - Anecdote.
 - Any funny things you wanna tell me?
 - Bet you cannot make me laugh.
@@ -1450,8 +1547,7 @@
 - can you tell me a joke
 
 ## intent:cc_lets_talk
-- Can you talk to me?
-- Can you talk with me?
+
 - Are we talking?
 - Blather?
 - Can we chatter?
@@ -1467,6 +1563,9 @@
 - Fancy a conversation?
 - Fancy chatting?
 - How about chatting?
+- I just wanted to chatt
+- Is anyone available to chat?
+- OK tell me
 - On chat pleasure?
 - Shall we chat?
 - Shall we talk?
@@ -1485,6 +1584,7 @@
 - chat
 
 ## intent:cc_moon
+
 - Far away moon.
 - Far moon.
 - How far away is the moon?
@@ -1509,6 +1609,7 @@
 - You know how far is the moon?
 
 ## intent:cc_newspaper
+
 - Any news on the newspaper?
 - Any relevant news on the newspaper?
 - Are there any news?
@@ -1540,6 +1641,7 @@
 - Which newspaper is preferred by you?
 
 ## intent:cc_philosophical
+
 - Are emotions irrational?
 - Are human beings just machines?
 - Are people ethically obligated to improve themselves?
@@ -1578,7 +1680,7 @@
 - Does sound happen if nothing is present to hear it?
 - Does the study of philosophy ever lead to answers or simply more questions?
 - Does the study of philosophy ever lead to answers?
-- Has the invention of the atomic bomb made the [World]{"entity": "en_world_region", "value": "World"} a more peaceful place?
+- Has the invention of the atomic bomb made the world a more peaceful place?
 - How can people believe in truths without evidence?
 - How conscious do you think animals are?
 - How did the universe begin?
@@ -1598,12 +1700,12 @@
   increased
 - How would you define genius?
 - If all your memories were erased, what kind of person would you be?
-- If everything evolved from amoebas, how does the [World]{"entity": "en_world_region", "value": "World"} still have amoebas?
+- If everything evolved from amoebas, how does the world still have amoebas?
 - If money cannot buy happiness, can you ever be truly happy with no money?
 - If the universe is finite, what would beyond the edge of the universe be like?
 - If you could become immortal on the condition you would NEVER be able to die
   or kill yourself, would you choose immortality?
-- Is a family still relevant in the modern [World]{"entity": "en_world_region", "value": "World"}?
+- Is a family still relevant in the modern world?
 - Is a sense of humor a byproduct of consciousness
 - Is a wrong act okay if nobody ever knows about it?
 - Is beauty objective or subjective?
@@ -1688,7 +1790,7 @@
 - What role does honor play in today’s society?
 - What scientific breakthrough would have the biggest effect on humanity?
 - What should be the goal of humanity?
-- What will happen at the end of the [World]{"entity": "en_world_region", "value": "World"}?
+- What will happen at the end of the world?
 - What’s the difference between justice and revenge?
 - When does consciousness begin?
 - Where do thoughts come from?
@@ -1707,7 +1809,7 @@
 - Why are humans so confident in beliefs that can’t be proven?
 - Why are humans so susceptible to magical thinking?
 - Why do humans have such a strong urge to distract ourselves from the real
-  [World]{"entity": "en_world_region", "value": "World"}?
+  world?
 - Why do people expect a universe full of randomness to be fair?
 - Why do we create art?
 - Why do we dream?
@@ -1717,12 +1819,13 @@
 - Why is there something rather than nothing?
 - Why should we respect the dead?
 - Will religion ever become obsolete?
-- Would the [World]{"entity": "en_world_region", "value": "World"} be a better or worse place if everyone looked the same?
+- Would the world be a better or worse place if everyone looked the same?
 - Would you be able to tell if time had been altered in some way?
 - is taking a human life justified?
 
-## intent:en_cc_politics
-- Can you name the President of the [United States]{"entity": "en_country_code", "value": "US"}?
+## intent:cc_politics
+
+- Can you name the President of the United States?
 - Did you vote in the last election?
 - Do you always vote for the same party?
 - Do you follow politics?
@@ -1776,6 +1879,7 @@
 - Would you like to be a politician?
 
 ## intent:cc_religion
+
 - Are the characters in the Bible figurative or literal?
 - Are you Muslim?
 - Are you a Hindu, a Muslim or a christian?
@@ -1826,6 +1930,12 @@
 - Does your past play a role when joining a religion?
 - Have you ever discussed what Biblical Christianity is?
 - Have you ever read the Bible?
+- Hello, I need a small favor from you, is not money, God saw you suffering for
+  something and says that is enough, a blessing will come. If you believe in
+  God, send this message, please do not ignore it, you were put to the test. God
+  will fix two things tonight in your favor. If you don't believe in God, forget
+  everything and quit in peace. Tomorrow will be the best day of your life, send
+  this message to 20 friends, can I be one of them
 - How can God be everywhere and also outside of space and time?
 - How can I know if God exists or not?
 - How can we experience God's love?
@@ -1870,7 +1980,7 @@
 - What does hell look like?
 - What does it mean to say that God is infinite?
 - What does it mean to take the Lord's name in vain?
-- What happened before God created the [World]{"entity": "en_world_region", "value": "World"}?
+- What happened before God created the world?
 - What is Cerinthianism?
 - What is God's gender?
 - What is Islam?
@@ -1921,6 +2031,7 @@
 - what do you think about religion?
 
 ## intent:cc_weather
+
 - Can you tell me how is the weather?
 - Do I need a umbrella when I arrive in Stuttgart?
 - Do I need an umbrella today?
@@ -1973,31 +2084,72 @@
 - give me the weather
 
 ## intent:comment_negative
+
 - Agent Smith is better than you.
+- Answer the damn question
+- Are you going to answer my question ??
+- Bro, what wrong with you nah
+- Bt you not answering me
+- But I read to send a question about Corona so that I can get answer about my
+  question
+- But I'm not satisfied with ur answers
+- But you have not replied me
 - Cortana is much smarter than you!
+- False information
+- Fool
+- Get lost
 - Glados is smarter than you!
+- God damn
 - Google is smarter than you!
+- Helen you have not answered my question
 - I am disappointed at you.
 - I can find this info online without chatting with you
+- I don't need any of these please I'm waiting for an answer from you
 - I need to be more clear.
+- I want to know how many cases not about mask
+- I will slap u
 - I'm sorry, I am disappointed at you.
 - Looks like you don’t understand me.
 - Looks like you don’t understand.
+- My question is not answered
+- NO, I WANT TO KNOW HOW YOU WERE MADE
+- Nevermind because you are failing to answer my questions
+- No save it, you aren't useful at all
+- Ok you don't understand
+- Scamer
+- Shut up please
 - Silly you!
 - Siri is better than you!
 - Siri is smarter than you!
+- So how is that my problem
 - That answer is wrong.
 - That is wrong.
+- That's not answer to my question
+- Then you are of no use to me
+- There's no way you can help me
+- This is fake link
 - This is not that useful
+- To answer my question
+- U are not answering my question
+- U didn't my question?
+- U that did not know anything
 - What are you talking about
+- What is wrong with you. Are you for real?
+- Why I am follow this link
 - Wrong.
+- Yo lying
+- You are delete on my phone
+- You are nonsense bot
+- You are not answering my question
 - You are not well developed.
 - You are wrong.
 - You can’t.
+- You did not understand my question
 - You didn’t get it.
 - You didn’t know.
 - You didn’t understand me.
 - You didn’t understand.
+- You don't have sense😒😑
 - You don't understand
 - You don’t get it.
 - You don’t know anything.
@@ -2016,6 +2168,7 @@
 - You still don’t get it.
 - You were not able to recognise the console.
 - You were not able to recognize the console.
+- You're useless then if you can't tell me everything about the virus
 - Your answer is wrong.
 - but a bit dumb as well
 - did you just crash?
@@ -2025,40 +2178,70 @@
 - you have a lot to learn Helen
 
 ## intent:comment_offense
+
+- Are you stupid
 - Asshole!
 - Bastard!
+- Bastardy fuck out
 - Bitch!
 - Bullshit!
+- Creep
 - Cunt!
 - Dick
 - Die!
+- Don't be stupid
+- Dumb bots 😂
+- Fack you
 - Freak!
 - Fuck
+- Fuck off 🖕🖕
 - Fuck off!
+- Fuck toto
+- Fuck u
+- Fuck ur Toto
+- Fuck ur ass
+- Fuck you 🙄
 - Fuck you!
+- Fuck your pussy
 - Fuckface!
 - Fuckyou!
 - Go and fuck you off!
+- Go be fucked by your dad
 - Go fuck yourself!
 - Have you ever seen a therapist?
 - I do not like you!
 - I don't like you!
+- I go swear for ur mama🙄
 - I hate you!
 - I hate your company!
 - I hope you die!
 - I really don't like you!
 - I want you to die!
 - I’m not your friend!
+- Just fuck off
+- Just shut up the fuck off
+- Learning how to suck?
+- Learning what you UN inexperienced attendant
+- Loser
+- Mxm u hoe
+- Now fuck off
+- OK fuck u
+- Piss off
+- Pussy
 - Screw you!
+- Shut up
 - Stop acting stupid!
 - Stop being a dummy!
+- Stupid
 - Stupid virtual assistant!
+- Suck my dick, ?
 - Virtual assistant is stupid!
 - What is wrong with you?
 - What the fuck are you talking about man?
 - What the fuck?
 - What the hell?
 - When will you die?
+- Yo crazy
 - You a bimbo.
 - You annoy me!
 - You are a dumbass!
@@ -2083,6 +2266,7 @@
 - You are drunk!
 - You are drunken!
 - You are dumb!
+- You are fake
 - You are fat!
 - You are freaking me out!
 - You are half brained.
@@ -2103,11 +2287,13 @@
 - You are useless.
 - You are very unwise.
 - You can go fuck yourself.
+- You come dey do like idiot before🙄
 - You do not seem smart.
 - You dumb head.
 - You dumbhead.
 - You dummy!
 - You fat cat!
+- You guys are a fake and stupid asshole
 - You have had one drink too much.
 - You have half brains.
 - You have no brain.
@@ -2118,13 +2304,20 @@
 - You smell.
 - You so stupid.
 - You sound like a donkey.
+- You suck
 - You sure are half a brain.
-- shut the **** up
+- Your dumb
+- Your mama Geddifuck
+- dumb
+- shut the \*\*\*\* up
 - you are a digital idiot
 - you are a digital useless piece of software
+- 🙂fuck you
 
 ## intent:comment_positive
+
 - Awesome!
+- Brilliant
 - Cool!
 - Great answer.
 - Great job.
@@ -2134,17 +2327,24 @@
 - I appreciate that.
 - I find you very helpful.
 - I like you.
+- I love cosibot
 - I love you.
 - I really like you.
 - I think you are amazing.
 - I think you are awesome.
 - I think you are sweet.
 - It was so awesome of you.
+- Love you
 - Much appreciated.
+- My sincere regards to the. Creator of this great bot
+- Nice meeting you helen
 - Nice talk!
+- Ok love you
 - Really helpful!
 - Thanks for helping me through my life.
 - That's amazing!
+- Thats cool
+- Wow thats great
 - You are a lifesaver!
 - You are a sweetie.
 - You are amazing.
@@ -2187,8 +2387,10 @@
 - You're awesome!
 - Your good!
 - for a newborn, you are very smart
+- its a good idea
 
 ## intent:comment_racist
+
 - Adolf Hitler!
 - All Asians are good at Math.
 - All Asians are good at Sciences.
@@ -2240,6 +2442,7 @@
 - You don’t belong.
 
 ## intent:comment_smart
+
 - How clever!
 - How intelligent!
 - I enjoyed chatting with you!
@@ -2274,6 +2477,7 @@
 - you're very smart
 
 ## intent:coronavirus_info
+
 - About coronavirus
 - About coronaviruses
 - Coronavírus
@@ -2283,6 +2487,7 @@
 - Info on coronavirus
 - Info on coronaviruses
 - Okay. Can you define coronavirus?
+- So what is corona
 - Tell me about Coronavirus
 - Tell me more about coronavirus
 - Tell me more about coronaviruses
@@ -2290,12 +2495,17 @@
 - Tell me what is a coronavirus
 - Tell me what is coronavirus
 - Thank you. What can you tell me about coronavirus?
-- Thank you. What can you tell me about the [new coronavirus](virus:COVID)?
+- Thank you. What can you tell me about the new coronavirus?
+- Thanks is corona virus a bacteria or virus
 - What are coronaviruses
 - What information can you give me about the coronavirus?
 - What is Corona?
 - What is a coronavirus
+- What is corona virus
+- What is corona virus all about
+- What is corona virus?
 - What's Corona Virus?
+- You may help me by explaining exactly what Corona virus is like
 - corona
 - coronavirus
 - coronavirus info
@@ -2315,77 +2525,147 @@
 - what is coronavirus
 
 ## intent:covid_aftereffects_immunity
+
 - After I've been infected, I'm immune to the virus?
 - After recovering, people become immune?
 - Can I person get sick twice?
 - Can I reinfected myself?
+- Can a person can be affected twice by corona virus?
+- Can someone who has healed from the virus get infected again
+- Can someone who has recovered from covid contract it again
 - I am immune after recovering?
+- I wanna know if some one who recovered from covid 19 can be infected again
 - If I have had this am I then immune and not get it again?
+- Is it possible for a recovered person from covid 19 to contract the virus
+  again?
+- Post covid infection to family what prequation to be take
+- Reinfection
 - Someone who recovered is now immune?
+- Why does Covid19 not infecting The recovered patients
 - after being infected am I immune?
 - after being infected am I imune?
 - after getting infected, can I be immune to the virus?
 - can I be immune?
 
 ## intent:covid_babys_children
+
 - Are children affected?
 - How are child effected?
+- What are symptoms of covid19 in Kids?
+- do children spread COVID-19?
+- do kids transmit COVID-19?
+- hi what are the symptoms for children
+- is covid-19 having something specific happening with the children
+- is covid-19 transmitted by children?
 
 ## intent:covid_cosibot
+
+- Can I volunteer with Cosibot?
+- Can you tell me more about your ad?
 - Cosibot
+- How do I volunteer?
+- I want to be part of Cosibot ..what are the requirements?
+- Volunteer with Cosibot
 - What is Cosibot?
+- What procedure can I follow to be part of Cosibot?
 - who is cosibot?
 
 ## intent:covid_crisis_howlong
+
+- About when the pandemic will probably end?
+- Can Corona virus finish before this year ends?
+- Can the virus come to an end soon
 - Do you believe it is possible to eradicate it?
 - For how long will last the outbreak?
+- Guessing will it stay like for more than two years
+- Hello how when is covid 19 ending
+- Hey Hellen when do u think corona will end
 - How can I get covid?
-- How long will the [COVID-19](virus:COVID) pandemic last?
+- How long do you think we can live with it
+- How long shall we live with it
+- How long will covid 19 last
+- How long will it last
+- How long will the COVID-19 pandemic last?
+- How long will this human made virus last
 - How long will this outbreak last?
+- I want to know when it will end
+- In analysis , how far will the covid 19 get finished
+- Is Covid - 19 going to exist forever
+- Is Covid - 19 going to exist forever ?
+- So are we going to stay with this virus forever
+- Then when's the end of the world ?
+- Till when
+- U have to tell me when is going to end
+- We will this end madam
+- When is Corona Viruse expected to end??
+- When is going to end?
+- When is the pandemic going to end?
+- When it will end
+- When will all this be over
+- When will corona be over?
+- When will corona end
+- When will covid-19 end and when does it start
+- When will covid19 end?
+- When will it end
+- When will the pandemic end
+- When will this covid 19 end
+- When will this end?
+- When z it ending
+- Will it end?
+- Will this illness ever go?
 - duration of these crises
 - for how long will the outbreak last?
 - how long do you think
 - how long do you think that arises will last
 - how long does the illness last
 - how long will i be sick
+- how long will the crisis last
 - how long will the lockdown last?
 - how long will this crisis last?
 - when covid will end?
+- when is it likely to end
 
-## intent:en_covid_current_statistics
-- [Yakutsk]{"entity": "en_geography", "value": "town"} news.
-- [Neunburg Vorm Wald]{"entity": "en_geography", "value": "town"} situation
-- COVID in [Azərbaycan]{"entity": "en_geography", "value": "country"}
-- COVID-19 in [Gdynia]{"entity": "en_geography", "value": "town"}
-- Coronavirus in [Egypt]{"entity": "en_country_code", "value": "EG"}
-- Current news [Catalan]{"entity": "en_geography", "value": "languages"}
-- Current situation in [Malta]{"entity": "en_country_code", "value": "MT"}
-- How is the situation in [Dudley]{"entity": "en_geography", "value": "town"}?
-- How many people are hospitalized in [Portugal]{"entity": "en_country_code", "value": "PT"}?
-- Information about [Gröningen]{"entity": "en_geography", "value": "town"}
-- Information on [Speyer]{"entity": "en_geography", "value": "town"}
-- New coronavirus in [Kingston Upon Hull]{"entity": "en_geography", "value": "town"}
-- News [Wilsdruff]{"entity": "en_geography", "value": "town"}
-- News of [Arnavutköy]{"entity": "en_geography", "value": "town"}
-- Situation [Lebanon]{"entity": "en_country_code", "value": "LB"}
-- Situation in [Ufa]{"entity": "en_geography", "value": "town"}
-- Thanks! What about [Portugal]{"entity": "en_country_code", "value": "PT"}, specifically?
-- Updated information [Abuja]{"entity": "en_geography", "value": "town"}
-- Updated situation in [Hattersheim Am Main]{"entity": "en_geography", "value": "town"}
-- Updated statistics in [Bredstedt]{"entity": "en_geography", "value": "town"}
+## intent:covid_current_statistics
+
+- "[Dun Laoghaire](en_geography:town):country news."
+- "[Dorsten](en_geography:town):country situation"
+- COVID in [Eimsbuettel](en_geography:town):country
+- COVID-19 in [Pegnitz](en_geography:town):country
+- Coronavirus in [Burghausen](en_geography:town):country
+- Current news [Oberwesel](en_geography:town):country
+- Current situation in [Würselen](en_geography:town):country
+- How is the situation in [Yasenevo](en_geography:town)\_country?
+- How many people are hospitalized in Portugal?
+- Information about [Kamen](en_geography:town):country
+- Information on [Kirchheimbolanden](en_geography:town):country
+- New coronavirus in [Werl](en_geography:town):country
+- News [Grimma](en_geography:town):country
+- News of [Northampton](en_geography:town):country
+- Situation [Schkölen](en_geography:town):country
+- Situation in [Sudan](en_geography:country):country
+- Thanks! What about Portugal, specifically?
+- Updated information [Todtnau](en_geography:town):country
+- Updated situation in [Bengali](en_geography:languages):country
+- Updated statistics in [Geyer](en_geography:town):country
 - What are the news about the coronavirus?
 - What can you tell me about the most recent news?
-- What do you know about coronavirus in [Neutraubling]{"entity": "en_geography", "value": "town"}?
-- What is the curent status in [Pinneberg]{"entity": "en_geography", "value": "town"}
-- how is covid 19 in [portugal]{"entity": "en_country_code", "value": "PT"}
-- what about in [Portugal]{"entity": "en_country_code", "value": "PT"}?
+- What do you know about coronavirus in [Breckerfeld](en_geography:town):country?
+- What is the curent status in [Bad Wimpfen](en_geography:town):country
+- and USA
+- how is covid 19 in portugal
+- what about in Portugal?
 
 ## intent:covid_dangerous
+
+- Am i safe?
 - How contagious is this novel corona virus?
-- How contagious is this [novel coronavirus](virus:COVID)?
+- How contagious is this novel coronavirus?
 - How contagious?
+- How dangerous z Corona virus
+- If somebody have tb infected. It's possible that we get infected by corona
 
 ## intent:covid_disease_process
+
 - Course of the disease
 - Covid process
 - Covid progression
@@ -2393,108 +2673,121 @@
 - What is the course of the disease
 
 ## intent:covid_duration
+
 - Covid origin
 - Duration of the disease.
 - For how long is someone infected sick?
 - For how long will I be sick?
 - For how long will someone remain sick?
+- How long will you take TO recover from this virus
 - Origin of the disease
 - What is the origin of the outbreak?
 - Where did the disease start?
 - Where did the disease started?
 
 ## intent:covid_food
+
 - Can I become infected with the novel corona virus from food or water?
+- Can the virus spread through food?
 - Contamination by food.
 - Contamination food.
+- I need your help on food
+- Is corona spread through food and vegetables?
 - Spreading through food.
 - can food be contaminated?
 
 ## intent:covid_incubation
-- [19-nCoV](virus:COVID) incubation period.
-- [19nCov](virus:COVID) incubation period.
-- [2019-nCoV](virus:COVID) incubation period.
-- [2019nCov](virus:COVID) incubation period.
+
+- 19-nCoV incubation period.
+- 19nCov incubation period.
+- 2019-nCoV incubation period.
+- 2019nCov incubation period.
 - About the incubation period.
-- [COVID](virus:COVID) incubation period.
-- [COVID-19](virus:COVID) incubation period.
-- [COVID-2019](virus:COVID) incubation period.
-- [COVID19](virus:COVID) incubation period.
-- [COVID2019](virus:COVID) incubation period.
+- COVID incubation period.
+- COVID-19 incubation period.
+- COVID-2019 incubation period.
+- COVID19 incubation period.
+- COVID2019 incubation period.
 - Estimate time for the incubation period.
 - Estimate time incubation period.
 - Estimate time of the incubation period.
+- How long does it take to be felt in ones body
 - How long is the incubation
-- How long is the incubation period [19-nCoV](virus:COVID)?
-- How long is the incubation period [19nCov](virus:COVID)?
-- How long is the incubation period [2019-nCoV](virus:COVID)?
-- How long is the incubation period [2019nCov](virus:COVID)?
-- How long is the incubation period [COVID-19](virus:COVID)?
-- How long is the incubation period [COVID-2019](virus:COVID)?
-- How long is the incubation period [COVID19](virus:COVID)?
-- How long is the incubation period [COVID2019](virus:COVID)?
+- How long is the incubation period 19-nCoV?
+- How long is the incubation period 19nCov?
+- How long is the incubation period 2019-nCoV?
+- How long is the incubation period 2019nCov?
+- How long is the incubation period COVID-19?
+- How long is the incubation period COVID-2019?
+- How long is the incubation period COVID19?
+- How long is the incubation period COVID2019?
 - How long is the incubation period COVID?
-- How long is the incubation period [SARS-CoV-2](virus:COVID)?
-- How long is the incubation period [SARS-CoV2](virus:COVID)?
-- How long is the incubation period [SARS-CoV2](virus:COVID)?
-- How long is the incubation period [SARSCoV2](virus:COVID)?
-- How long is the incubation period for [19-nCoV](virus:COVID)?
-- How long is the incubation period for [19nCov](virus:COVID)?
-- How long is the incubation period for [2019-nCoV](virus:COVID)?
-- How long is the incubation period for [2019nCov](virus:COVID)?
-- How long is the incubation period for [COVID-19](virus:COVID)?
-- How long is the incubation period for [COVID-2019](virus:COVID)?
-- How long is the incubation period for [COVID19](virus:COVID)?
-- How long is the incubation period for [COVID2019](virus:COVID)?
+- How long is the incubation period SARS-CoV-2?
+- How long is the incubation period SARS-CoV2?
+- How long is the incubation period SARSCoV-2?
+- How long is the incubation period SARSCoV2?
+- How long is the incubation period for 19-nCoV?
+- How long is the incubation period for 19nCov?
+- How long is the incubation period for 2019-nCoV?
+- How long is the incubation period for 2019nCov?
+- How long is the incubation period for COVID-19?
+- How long is the incubation period for COVID-2019?
+- How long is the incubation period for COVID19?
+- How long is the incubation period for COVID2019?
 - How long is the incubation period for COVID?
-- How long is the incubation period for [SARS-CoV-2](virus:COVID)?
-- How long is the incubation period for [SARS-CoV2](virus:COVID)?
-- How long is the incubation period for [SARS-CoV2](virus:COVID)?
-- How long is the incubation period for [SARSCoV2](virus:COVID)?
-- How long is the incubation period for [new coronavirus](virus:COVID)?
-- How long is the incubation period for [novel coronavirus](virus:COVID)?
+- How long is the incubation period for SARS-CoV-2?
+- How long is the incubation period for SARS-CoV2?
+- How long is the incubation period for SARSCoV-2?
+- How long is the incubation period for SARSCoV2?
+- How long is the incubation period for new coronavirus?
+- How long is the incubation period for novel coronavirus?
 - How long is the incubation period for the disease?
 - How long is the incubation period for the virus?
-- How long is the incubation period [new coronavirus](virus:COVID)?
-- How long is the incubation period [novel coronavirus](virus:COVID)?
+- How long is the incubation period new coronavirus?
+- How long is the incubation period novel coronavirus?
 - How long is the incubation period the disease?
 - How long is the incubation period the virus?
 - How long is the incubation period?
+- How long that's covid-19 live in a human bodies?
+- How many days corona sptomsy about in body attack
+- How many days it takes to show the symptoms
 - How many time until appearing symptoms?
 - How many time until having symptoms?
 - How many time until the symptoms to appear?
-- Incubation period [19-nCoV](virus:COVID).
-- Incubation period [19nCov](virus:COVID).
-- Incubation period [2019-nCoV](virus:COVID).
-- Incubation period [2019nCov](virus:COVID).
-- Incubation period [COVID-19](virus:COVID).
-- Incubation period [COVID-2019](virus:COVID).
+- Incubation period 19-nCoV.
+- Incubation period 19nCov.
+- Incubation period 2019-nCoV.
+- Incubation period 2019nCov.
+- Incubation period COVID-19.
+- Incubation period COVID-2019.
 - Incubation period COVID.
-- Incubation period [COVID19](virus:COVID).
-- Incubation period [COVID2019](virus:COVID).
-- Incubation period [SARS-CoV-2](virus:COVID).
-- Incubation period [SARS-CoV2](virus:COVID).
-- Incubation period [SARS-CoV2](virus:COVID).
-- Incubation period [SARSCoV2](virus:COVID).
+- Incubation period COVID19.
+- Incubation period COVID2019.
+- Incubation period SARS-CoV-2.
+- Incubation period SARS-CoV2.
+- Incubation period SARSCoV-2.
+- Incubation period SARSCoV2.
 - Incubation period estimate time.
 - Incubation period estimated time.
-- Incubation period [new coronavirus](virus:COVID).
-- Incubation period [novel coronavirus](virus:COVID).
+- Incubation period new coronavirus.
+- Incubation period novel coronavirus.
+- Incubation period of corona ?
 - Incubation period the disease.
 - Incubation period the virus.
 - Incubation period.
 - Info about the incubation period.
 - On the incubation period.
-- [SARS-CoV-2](virus:COVID) incubation period.
-- [SARS-CoV2](virus:COVID) incubation period.
-- [SARS-CoV2](virus:COVID) incubation period.
-- [SARSCoV2](virus:COVID) incubation period.
+- SARS-CoV-2 incubation period.
+- SARS-CoV2 incubation period.
+- SARSCoV-2 incubation period.
+- SARSCoV2 incubation period.
 - The incubation period.
 - The time between catching and beginning to have symptoms of the disease.
 - The time between catching and beginning to have symptoms.
 - The time between catching the virus and beginning to have symptoms of the
   disease.
 - The time between catching the virus and beginning to have symptoms.
+- What's the incubation period of the virus
 - When in contact with the virus, how long does it take for somebody to realise
   its symptoms?
 - Which is the estimate time for the incubation period?
@@ -2508,304 +2801,334 @@
 - estimated time for the incubation period.
 - estimated time incubation period.
 - estimated time of the incubation period.
-- [new coronavirus](virus:COVID) incubation period.
-- [novel coronavirus](virus:COVID) incubation period.
+- new coronavirus incubation period.
+- novel coronavirus incubation period.
 - the disease incubation period.
 - the virus incubation period.
 
 ## intent:covid_info
-- [19-nCoV](virus:COVID)
-- [19-nCoV](virus:COVID) info
-- [19-nCoV](virus:COVID) information
-- [19nCov](virus:COVID)
-- [19nCov](virus:COVID) info
-- [19nCov](virus:COVID) information
-- [2019-nCoV](virus:COVID)
-- [2019-nCoV](virus:COVID) info
-- [2019-nCoV](virus:COVID) information
-- [2019nCov](virus:COVID)
-- [2019nCov](virus:COVID) info
-- [2019nCov](virus:COVID) information
-- About [19-nCoV](virus:COVID)
-- About [19nCov](virus:COVID)
-- About [2019-nCoV](virus:COVID)
-- About [2019nCov](virus:COVID)
+
+- 19-nCoV
+- 19-nCoV info
+- 19-nCoV information
+- 19nCov
+- 19nCov info
+- 19nCov information
+- 2019-nCoV
+- 2019-nCoV info
+- 2019-nCoV information
+- 2019nCov
+- 2019nCov info
+- 2019nCov information
+- About 19-nCoV
+- About 19nCov
+- About 2019-nCoV
+- About 2019nCov
 - About COVID
-- About [COVID-19](virus:COVID)
-- About [COVID-2019](virus:COVID)
-- About [COVID2019](virus:COVID)
-- About [nCoV](virus:COVID) 
-- About [new coronavirus](virus:COVID)
-- About [novel coronavirus](virus:COVID)
-- About the [19-nCoV](virus:COVID)
-- About the [19nCov](virus:COVID)
-- About the [2019-nCoV](virus:COVID)
-- About the [2019nCov](virus:COVID)
+- About COVID-19
+- About COVID-2019
+- About COVID2019
+- About nCoV
+- About new coronavirus
+- About novel coronavirus
+- About the 19-nCoV
+- About the 19nCov
+- About the 2019-nCoV
+- About the 2019nCov
 - About the COVID
-- About the [COVID-19](virus:COVID)
-- About the [COVID-2019](virus:COVID)
-- About the [COVID2019](virus:COVID)
-- About the [nCoV](virus:COVID) 
-- About the [new coronavirus](virus:COVID)
-- About the [novel coronavirus](virus:COVID)
+- About the COVID-19
+- About the COVID-2019
+- About the COVID2019
+- About the nCoV
+- About the new coronavirus
+- About the novel coronavirus
 - About the virus
+- Am asking question about covid 19
 - COVID
-- [COVID](virus:COVID) info
-- [COVID](virus:COVID) information
-- [COVID-19](virus:COVID)
-- [COVID-19](virus:COVID) info
-- [COVID-19](virus:COVID) information
-- [COVID-2019](virus:COVID)
-- [COVID-2019](virus:COVID) info
-- [COVID-2019](virus:COVID) information
-- [COVID2019](virus:COVID)
-- [COVID2019](virus:COVID) info
-- [COVID2019](virus:COVID) information
-- I don’t know what is [19-nCoV](virus:COVID)
-- I don’t know what is [19nCov](virus:COVID)
-- I don’t know what is [2019-nCoV](virus:COVID)
-- I don’t know what is [2019nCov](virus:COVID)
+- COVID info
+- COVID information
+- COVID-19
+- COVID-19 info
+- COVID-19 information
+- COVID-2019
+- COVID-2019 info
+- COVID-2019 information
+- COVID2019
+- COVID2019 info
+- COVID2019 information
+- Can I know more about covid 19?
+- Causes
+- Does covid-19 really exist?
+- Hlw I need to ask u some question?about corona
+- How come you don't know how this virus started but know how to prevent it??
+- How come you learn prevent something you don't know how it started??
+- How did this COVID-19 start, Thats what i want to know!! Or you don't know?
+- How did this covid-19 start!! What caused it??
+- I don’t know what is 19-nCoV
+- I don’t know what is 19nCov
+- I don’t know what is 2019-nCoV
+- I don’t know what is 2019nCov
 - I don’t know what is COVID
-- I don’t know what is [COVID-19](virus:COVID)
-- I don’t know what is [COVID-2019](virus:COVID)
-- I don’t know what is [COVID2019](virus:COVID)
-- I don’t know what is [nCoV](virus:COVID) 
-- I don’t know what is [new coronavirus](virus:COVID)
-- I don’t know what is [novel coronavirus](virus:COVID)
-- I don’t know what is the [19-nCoV](virus:COVID)
-- I don’t know what is the [19nCov](virus:COVID)
-- I don’t know what is the [2019-nCoV](virus:COVID)
-- I don’t know what is the [2019nCov](virus:COVID)
+- I don’t know what is COVID-19
+- I don’t know what is COVID-2019
+- I don’t know what is COVID2019
+- I don’t know what is nCoV
+- I don’t know what is new coronavirus
+- I don’t know what is novel coronavirus
+- I don’t know what is the 19-nCoV
+- I don’t know what is the 19nCov
+- I don’t know what is the 2019-nCoV
+- I don’t know what is the 2019nCov
 - I don’t know what is the COVID
-- I don’t know what is the [COVID-19](virus:COVID)
-- I don’t know what is the [COVID-2019](virus:COVID)
-- I don’t know what is the [COVID2019](virus:COVID)
-- I don’t know what is the [nCoV](virus:COVID) 
-- I don’t know what is the [new coronavirus](virus:COVID)
-- I don’t know what is the [novel coronavirus](virus:COVID)
-- Info on [19-nCoV](virus:COVID)
-- Info on [19nCov](virus:COVID)
-- Info on [2019-nCoV](virus:COVID)
-- Info on [2019nCov](virus:COVID)
+- I don’t know what is the COVID-19
+- I don’t know what is the COVID-2019
+- I don’t know what is the COVID2019
+- I don’t know what is the nCoV
+- I don’t know what is the new coronavirus
+- I don’t know what is the novel coronavirus
+- I got a question about covid-19
+- I just want more enlightenment on covid19
+- I think covid-19 is fake
+- I want now about corona virus
+- I want to know how did this COVID-19 start
+- I want to know how did this COVID-19 start, not these things you're telling me
+- I want to know more about covid19?
+- Info on 19-nCoV
+- Info on 19nCov
+- Info on 2019-nCoV
+- Info on 2019nCov
 - Info on COVID
-- Info on [COVID-19](virus:COVID)
-- Info on [COVID-2019](virus:COVID)
-- Info on [COVID2019](virus:COVID)
-- Info on [nCoV](virus:COVID) 
-- Info on [new coronavirus](virus:COVID)
-- Info on [novel coronavirus](virus:COVID)
-- Info on the [19-nCoV](virus:COVID)
-- Info on the [19nCov](virus:COVID)
-- Info on the [2019-nCoV](virus:COVID)
-- Info on the [2019nCov](virus:COVID)
-- Info on the [COVID](virus:COVID) 
-- Info on the [COVID-19](virus:COVID)
-- Info on the [COVID-2019](virus:COVID)
-- Info on the [COVID2019](virus:COVID)
-- Info on the [nCoV](virus:COVID) 
-- Info on the [new coronavirus](virus:COVID)
-- Info on the [novel coronavirus](virus:COVID)
-- Tell me more about [19-nCoV](virus:COVID)
-- Tell me more about [19nCov](virus:COVID)
-- Tell me more about [2019-nCoV](virus:COVID)
-- Tell me more about [2019nCov](virus:COVID)
-- Tell me more about [COVID](virus:COVID) 
-- Tell me more about [COVID-19](virus:COVID)
-- Tell me more about [COVID-2019](virus:COVID)
-- Tell me more about [COVID2019](virus:COVID)
-- Tell me more about [nCoV](virus:COVID) 
-- Tell me more about [new coronavirus](virus:COVID)
-- Tell me more about [novel coronavirus](virus:COVID)
-- Tell me more about the [19-nCoV](virus:COVID)
-- Tell me more about the [19nCov](virus:COVID)
-- Tell me more about the [2019-nCoV](virus:COVID)
-- Tell me more about the [2019nCov](virus:COVID)
-- Tell me more about the [COVID](virus:COVID) 
-- Tell me more about the [COVID-19](virus:COVID)
-- Tell me more about the [COVID-2019](virus:COVID)
-- Tell me more about the [COVID2019](virus:COVID)
-- Tell me more about the [nCoV](virus:COVID) 
-- Tell me more about the [new coronavirus](virus:COVID)
-- Tell me more about the [novel coronavirus](virus:COVID)
-- Tell me more on [19-nCoV](virus:COVID)
-- Tell me more on [19nCov](virus:COVID)
-- Tell me more on [2019-nCoV](virus:COVID)
-- Tell me more on [2019nCov](virus:COVID)
-- Tell me more on [COVID](virus:COVID) 
-- Tell me more on [COVID-19](virus:COVID)
-- Tell me more on [COVID-2019](virus:COVID)
-- Tell me more on [COVID2019](virus:COVID)
-- Tell me more on [nCoV](virus:COVID) 
-- Tell me more on [new coronavirus](virus:COVID)
-- Tell me more on [novel coronavirus](virus:COVID)
-- Tell me more on the [19-nCoV](virus:COVID)
-- Tell me more on the [19nCov](virus:COVID)
-- Tell me more on the [2019-nCoV](virus:COVID)
-- Tell me more on the [2019nCov](virus:COVID)
-- Tell me more on the [COVID](virus:COVID) 
-- Tell me more on the [COVID-19](virus:COVID)
-- Tell me more on the [COVID-2019](virus:COVID)
-- Tell me more on the [COVID2019](virus:COVID)
-- Tell me more on the [nCoV](virus:COVID) 
-- Tell me more on the [new coronavirus](virus:COVID)
-- Tell me more on the [novel coronavirus](virus:COVID)
-- Tell me what is [19-nCoV](virus:COVID)
-- Tell me what is [19nCov](virus:COVID)
-- Tell me what is [2019-nCoV](virus:COVID)
-- Tell me what is [2019nCov](virus:COVID)
-- Tell me what is [COVID](virus:COVID) 
-- Tell me what is [COVID-19](virus:COVID)
-- Tell me what is [COVID-2019](virus:COVID)
-- Tell me what is [COVID2019](virus:COVID)
-- Tell me what is a [19-nCoV](virus:COVID)
-- Tell me what is a [19nCov](virus:COVID)
-- Tell me what is a [2019-nCoV](virus:COVID)
-- Tell me what is a [2019nCov](virus:COVID)
-- Tell me what is a [COVID](virus:COVID) 
-- Tell me what is a [COVID-19](virus:COVID)
-- Tell me what is a [COVID-2019](virus:COVID)
-- Tell me what is a [COVID2019](virus:COVID)
-- Tell me what is a [nCoV](virus:COVID) 
-- Tell me what is a [new coronavirus](virus:COVID)
-- Tell me what is a [novel coronavirus](virus:COVID)
-- Tell me what is [nCoV](virus:COVID) 
-- Tell me what is [new coronavirus](virus:COVID)
-- Tell me what is [novel coronavirus](virus:COVID)
-- Tell me what is the [19-nCoV](virus:COVID)
-- Tell me what is the [19nCov](virus:COVID)
-- Tell me what is the [2019-nCoV](virus:COVID)
-- Tell me what is the [2019nCov](virus:COVID)
-- Tell me what is the [COVID](virus:COVID) 
-- Tell me what is the [[COVID-19](virus:COVID)](virus:COVID)
-- Tell me what is the [COVID-2019](virus:COVID)
-- Tell me what is the [COVID2019](virus:COVID)
-- Tell me what is the [nCoV](virus:COVID) 
-- Tell me what is the [new coronavirus](virus:COVID)
-- Tell me what is the [novel coronavirus](virus:COVID)
+- Info on COVID-19
+- Info on COVID-2019
+- Info on COVID2019
+- Info on nCoV
+- Info on new coronavirus
+- Info on novel coronavirus
+- Info on the 19-nCoV
+- Info on the 19nCov
+- Info on the 2019-nCoV
+- Info on the 2019nCov
+- Info on the COVID
+- Info on the COVID-19
+- Info on the COVID-2019
+- Info on the COVID2019
+- Info on the nCoV
+- Info on the new coronavirus
+- Info on the novel coronavirus
+- Information about the virus
+- Is Corona avirus or bacteria
+- Is Corona virus real
+- Is covid 19 real?
+- More explanation about the deadly virus
+- No i want to know how did this COVID-19 START!!
+- No, i want to know how did this virus started??
+- Ok ,i neeed to know what is corona
+- Tell me more about 19-nCoV
+- Tell me more about 19nCov
+- Tell me more about 2019-nCoV
+- Tell me more about 2019nCov
+- Tell me more about COVID
+- Tell me more about COVID-19
+- Tell me more about COVID-2019
+- Tell me more about COVID2019
+- Tell me more about nCoV
+- Tell me more about new coronavirus
+- Tell me more about novel coronavirus
+- Tell me more about the 19-nCoV
+- Tell me more about the 19nCov
+- Tell me more about the 2019-nCoV
+- Tell me more about the 2019nCov
+- Tell me more about the COVID
+- Tell me more about the COVID-19
+- Tell me more about the COVID-2019
+- Tell me more about the COVID2019
+- Tell me more about the nCoV
+- Tell me more about the new coronavirus
+- Tell me more about the novel coronavirus
+- Tell me more on 19-nCoV
+- Tell me more on 19nCov
+- Tell me more on 2019-nCoV
+- Tell me more on 2019nCov
+- Tell me more on COVID
+- Tell me more on COVID-19
+- Tell me more on COVID-2019
+- Tell me more on COVID2019
+- Tell me more on nCoV
+- Tell me more on new coronavirus
+- Tell me more on novel coronavirus
+- Tell me more on the 19-nCoV
+- Tell me more on the 19nCov
+- Tell me more on the 2019-nCoV
+- Tell me more on the 2019nCov
+- Tell me more on the COVID
+- Tell me more on the COVID-19
+- Tell me more on the COVID-2019
+- Tell me more on the COVID2019
+- Tell me more on the nCoV
+- Tell me more on the new coronavirus
+- Tell me more on the novel coronavirus
+- Tell me the base of this virus
+- Tell me what is 19-nCoV
+- Tell me what is 19nCov
+- Tell me what is 2019-nCoV
+- Tell me what is 2019nCov
+- Tell me what is COVID
+- Tell me what is COVID-19
+- Tell me what is COVID-2019
+- Tell me what is COVID2019
+- Tell me what is a 19-nCoV
+- Tell me what is a 19nCov
+- Tell me what is a 2019-nCoV
+- Tell me what is a 2019nCov
+- Tell me what is a COVID
+- Tell me what is a COVID-19
+- Tell me what is a COVID-2019
+- Tell me what is a COVID2019
+- Tell me what is a nCoV
+- Tell me what is a new coronavirus
+- Tell me what is a novel coronavirus
+- Tell me what is nCoV
+- Tell me what is new coronavirus
+- Tell me what is novel coronavirus
+- Tell me what is the 19-nCoV
+- Tell me what is the 19nCov
+- Tell me what is the 2019-nCoV
+- Tell me what is the 2019nCov
+- Tell me what is the COVID
+- Tell me what is the COVID-19
+- Tell me what is the COVID-2019
+- Tell me what is the COVID2019
+- Tell me what is the nCoV
+- Tell me what is the new coronavirus
+- Tell me what is the novel coronavirus
 - What he's coffee 19
-- What is [Covid 19](virus:COVID) 
-- What is a [19-nCoV](virus:COVID)
-- What is a [19nCov](virus:COVID)
-- What is a [2019-nCoV](virus:COVID)
-- What is a [2019nCov](virus:COVID)
-- What is a [COVID](virus:COVID) 
-- What is a [COVID-19](virus:COVID)
-- What is a [COVID-2019](virus:COVID)
-- What is a [COVID2019](virus:COVID)
-- What is a [nCoV](virus:COVID) 
-- What is a [new coronavirus](virus:COVID)
-- What is a [novel coronavirus](virus:COVID)
+- What is Covid 19
+- What is Covid19
+- What is a 19-nCoV
+- What is a 19nCov
+- What is a 2019-nCoV
+- What is a 2019nCov
+- What is a COVID
+- What is a COVID-19
+- What is a COVID-2019
+- What is a COVID2019
+- What is a nCoV
+- What is a new coronavirus
+- What is a novel coronavirus
 - What is the origin of the outbreak?
-- What's the difference between [Covid-19](virus:COVID) and Corona?
+- What's covid 19
+- What's covid19 in full
+- What's the difference between Covid-19 and Corona?
+- about covid 19?
 - corona virus
-- [Covid 19](virus:COVID) 
-- [COVID](virus:COVID)  origin
-- [covid19](virus:COVID)
+- covid 19
+- covid origin
+- covid19
 - current virus
 - desease
 - did the pandemic started in Wuhan?
 - hello I want to know about corona virus
 - hello, talk about covid-19
-- info about [19-nCoV](virus:COVID)
-- info about [19nCov](virus:COVID)
-- info about [2019-nCoV](virus:COVID)
-- info about [2019nCov](virus:COVID)
-- info about [COVID](virus:COVID) 
-- info about [COVID-19](virus:COVID)
-- info about [COVID-2019](virus:COVID)
-- info about [COVID2019](virus:COVID)
-- info about [nCoV](virus:COVID) 
-- info about [new coronavirus](virus:COVID)
-- info about [novel coronavirus](virus:COVID)
-- info about the [19-nCoV](virus:COVID)
-- info about the [19nCov](virus:COVID)
-- info about the [2019-nCoV](virus:COVID)
-- info about the [2019nCov](virus:COVID)
-- info about the [COVID](virus:COVID) 
-- info about the [COVID-19](virus:COVID)
-- info about the [COVID-2019](virus:COVID)
-- info about the [COVID2019](virus:COVID)
-- info about the [nCoV](virus:COVID) 
-- info about the [new coronavirus](virus:COVID)
-- info about the [novel coronavirus](virus:COVID)
-- information about [19-nCoV](virus:COVID)
-- information about [19nCov](virus:COVID)
-- information about [2019-nCoV](virus:COVID)
-- information about [2019nCov](virus:COVID)
-- information about [COVID](virus:COVID) 
-- information about [COVID-19](virus:COVID)
-- information about [COVID-2019](virus:COVID)
-- information about [COVID2019](virus:COVID)
-- information about [nCoV](virus:COVID) 
-- information about [new coronavirus](virus:COVID)
-- information about [novel coronavirus](virus:COVID)
-- information about the [19-nCoV](virus:COVID)
-- information about the [19nCov](virus:COVID)
-- information about the [2019-nCoV](virus:COVID)
-- information about the [2019nCov](virus:COVID)
-- information about the [COVID](virus:COVID) 
-- information about the [COVID-19](virus:COVID)
-- information about the [COVID-2019](virus:COVID)
-- information about the [COVID2019](virus:COVID)
-- information about the [nCoV](virus:COVID) 
-- information about the [new coronavirus](virus:COVID)
-- information about the [novel coronavirus](virus:COVID)
-- information on [19-nCoV](virus:COVID)
-- information on [19nCov](virus:COVID)
-- information on [2019-nCoV](virus:COVID)
-- information on [2019nCov](virus:COVID)
-- information on [COVID](virus:COVID) 
-- information on [COVID-19](virus:COVID)
-- information on [COVID-2019](virus:COVID)
-- information on [COVID2019](virus:COVID)
-- information on [nCoV](virus:COVID) 
-- information on [new coronavirus](virus:COVID)
-- information on [novel coronavirus](virus:COVID)
-- information on the [19-nCoV](virus:COVID)
-- information on the [19nCov](virus:COVID)
-- information on the [2019-nCoV](virus:COVID)
-- information on the [2019nCov](virus:COVID)
-- information on the [COVID](virus:COVID) 
-- information on the [COVID-19](virus:COVID)
-- information on the [COVID-2019](virus:COVID)
-- information on the [COVID2019](virus:COVID)
-- information on the [nCoV](virus:COVID) 
-- information on the [new coronavirus](virus:COVID)
-- information on the [novel coronavirus](virus:COVID)
-- [nCoV](virus:COVID) 
-- [nCoV](virus:COVID)  info
-- [nCoV](virus:COVID)  information
-- [new coronavirus](virus:COVID)
-- [new coronavirus](virus:COVID) info
-- [new coronavirus](virus:COVID) information
-- [novel coronavirus](virus:COVID)
-- [novel coronavirus](virus:COVID) info
-- [novel coronavirus](virus:COVID) information
+- info about 19-nCoV
+- info about 19nCov
+- info about 2019-nCoV
+- info about 2019nCov
+- info about COVID
+- info about COVID-19
+- info about COVID-2019
+- info about COVID2019
+- info about nCoV
+- info about new coronavirus
+- info about novel coronavirus
+- info about the 19-nCoV
+- info about the 19nCov
+- info about the 2019-nCoV
+- info about the 2019nCov
+- info about the COVID
+- info about the COVID-19
+- info about the COVID-2019
+- info about the COVID2019
+- info about the nCoV
+- info about the new coronavirus
+- info about the novel coronavirus
+- information about 19-nCoV
+- information about 19nCov
+- information about 2019-nCoV
+- information about 2019nCov
+- information about COVID
+- information about COVID-19
+- information about COVID-2019
+- information about COVID2019
+- information about nCoV
+- information about new coronavirus
+- information about novel coronavirus
+- information about the 19-nCoV
+- information about the 19nCov
+- information about the 2019-nCoV
+- information about the 2019nCov
+- information about the COVID
+- information about the COVID-19
+- information about the COVID-2019
+- information about the COVID2019
+- information about the nCoV
+- information about the new coronavirus
+- information about the novel coronavirus
+- information on 19-nCoV
+- information on 19nCov
+- information on 2019-nCoV
+- information on 2019nCov
+- information on COVID
+- information on COVID-19
+- information on COVID-2019
+- information on COVID2019
+- information on nCoV
+- information on new coronavirus
+- information on novel coronavirus
+- information on the 19-nCoV
+- information on the 19nCov
+- information on the 2019-nCoV
+- information on the 2019nCov
+- information on the COVID
+- information on the COVID-19
+- information on the COVID-2019
+- information on the COVID2019
+- information on the nCoV
+- information on the new coronavirus
+- information on the novel coronavirus
+- nCoV
+- nCoV info
+- nCoV information
+- new coronavirus
+- new coronavirus info
+- new coronavirus information
+- novel coronavirus
+- novel coronavirus info
+- novel coronavirus information
 - pandemic origin
 - tell me about outbreak
-- what about [19-nCoV](virus:COVID)
-- what about [19nCov](virus:COVID)
-- what about [2019-nCoV](virus:COVID)
-- what about [2019nCov](virus:COVID)
-- what about [COVID](virus:COVID) 
-- what about [COVID-19](virus:COVID)
-- what about [COVID-2019](virus:COVID)
-- what about [COVID2019](virus:COVID)
-- what about [nCoV](virus:COVID) 
-- what about [new coronavirus](virus:COVID)
-- what about [novel coronavirus](virus:COVID)
-- what ia [COVID](virus:COVID) 
-- what is [19-nCoV](virus:COVID)
-- what is [19nCov](virus:COVID)
-- what is [2019-nCoV](virus:COVID)
-- what is [2019nCov](virus:COVID)
-- what is [COVID](virus:COVID) 
-- what is [COVID-19](virus:COVID)
-- what is [COVID-2019](virus:COVID)
-- what is [COVID2019](virus:COVID)
-- what is [nCoV](virus:COVID) 
-- what is [new coronavirus](virus:COVID)
-- what is [novel coronavirus](virus:COVID)
+- what about 19-nCoV
+- what about 19nCov
+- what about 2019-nCoV
+- what about 2019nCov
+- what about COVID
+- what about COVID-19
+- what about COVID-2019
+- what about COVID2019
+- what about nCoV
+- what about new coronavirus
+- what about novel coronavirus
+- what ia covid
+- what is 19-nCoV
+- what is 19nCov
+- what is 2019-nCoV
+- what is 2019nCov
+- what is COVID
+- what is COVID-19
+- what is COVID-2019
+- what is COVID2019
+- what is nCoV
+- what is new coronavirus
+- what is novel coronavirus
 - what is these disease
 - what is this virus?
 - what's the corona virus
@@ -2814,51 +3137,54 @@
 - where did the outbreak started?
 
 ## intent:covid_meaning
-- [COVID](virus:COVID) name meaning.
-- [COVID](virus:COVID) name why?
-- [COVID](virus:COVID) name.
-- [COVID-19](virus:COVID) name meaning.
-- [COVID-19](virus:COVID) name why?
-- [COVID-19](virus:COVID) name.
-- Coronavirus [SARS-CoV-2](virus:COVID)
+
+- COVID name meaning.
+- COVID name why?
+- COVID name.
+- COVID-19 name meaning.
+- COVID-19 name why?
+- COVID-19 name.
+- Coronavirus SARS-CoV-2
+- Covid mean
+- Covid-19 stand for
 - Disease name meaning.
 - Disease name why?
 - Disease name.
-- Explain the name of the [COVID](virus:COVID) 
-- Explain the name of the [COVID-19](virus:COVID)
-- Explain the name of the [SARS-CoV-2](virus:COVID)
-- Explain the name of the [SARS-CoV2](virus:COVID)
-- Explain the name of the [SARS-CoV2](virus:COVID)
-- Explain the name of the [SARSCoV2](virus:COVID)
+- Explain the name of the COVID
+- Explain the name of the COVID-19
+- Explain the name of the SARS-CoV-2
+- Explain the name of the SARS-CoV2
+- Explain the name of the SARSCoV-2
+- Explain the name of the SARSCoV2
 - Explain the name of the disease
 - Explain the name of the virus
 - Explain the name of the virus.
 - Explain the name.
-- Explain to me the [COVID](virus:COVID) name.
-- Explain to me the [COVID-19](virus:COVID) name.
+- Explain to me the COVID name.
+- Explain to me the COVID-19 name.
 - Explain to me the COVID-19’s name.
-- Explain to me the [COVID](virus:COVID)’s name.
-- Explain to me the [SARS-CoV-2](virus:COVID) name.
+- Explain to me the COVID’s name.
+- Explain to me the SARS-CoV-2 name.
 - Explain to me the SARS-CoV-2’s name.
-- Explain to me the [SARS-CoV2](virus:COVID) name.
+- Explain to me the SARS-CoV2 name.
 - Explain to me the SARS-CoV2’s name.
-- Explain to me the [SARS-CoV2](virus:COVID) name.
+- Explain to me the SARSCoV-2 name.
 - Explain to me the SARSCoV-2’s name.
-- Explain to me the [SARSCoV2](virus:COVID) name.
+- Explain to me the SARSCoV2 name.
 - Explain to me the SARSCoV2’s name.
 - Explain to me the disease name.
 - Explain to me the disease’s name.
-- Explain to me the meaning of the [COVID](virus:COVID) name.
-- Explain to me the meaning of the [COVID-19](virus:COVID) name.
+- Explain to me the meaning of the COVID name.
+- Explain to me the meaning of the COVID-19 name.
 - Explain to me the meaning of the COVID-19’s name.
-- Explain to me the meaning of the [COVID](virus:COVID) ’s name.
-- Explain to me the meaning of the [SARS-CoV-2](virus:COVID) name.
+- Explain to me the meaning of the COVID’s name.
+- Explain to me the meaning of the SARS-CoV-2 name.
 - Explain to me the meaning of the SARS-CoV-2’s name.
-- Explain to me the meaning of the [SARS-CoV2](virus:COVID) name.
+- Explain to me the meaning of the SARS-CoV2 name.
 - Explain to me the meaning of the SARS-CoV2’s name.
-- Explain to me the meaning of the [SARS-CoV2](virus:COVID) name.
+- Explain to me the meaning of the SARSCoV-2 name.
 - Explain to me the meaning of the SARSCoV-2’s name.
-- Explain to me the meaning of the [SARSCoV2](virus:COVID) name.
+- Explain to me the meaning of the SARSCoV2 name.
 - Explain to me the meaning of the SARSCoV2’s name.
 - Explain to me the meaning of the disease name.
 - Explain to me the meaning of the disease’s name.
@@ -2868,102 +3194,146 @@
 - Explain to me the name.
 - Explain to me the virus name.
 - Explain to me the virus’s name.
-- Meaning of the [COVID](virus:COVID) name.
-- Meaning of the [COVID-19](virus:COVID) name.
+- Is corona an English word or scientific word
+- Meaning of the COVID name.
+- Meaning of the COVID-19 name.
 - Meaning of the COVID-19’s name.
-- Meaning of the [COVID](virus:COVID) ’s name.
-- Meaning of the [SARS-CoV-2](virus:COVID) name.
+- Meaning of the COVID’s name.
+- Meaning of the SARS-CoV-2 name.
 - Meaning of the SARS-CoV-2’s name.
-- Meaning of the [SARS-CoV2](virus:COVID) name.
+- Meaning of the SARS-CoV2 name.
 - Meaning of the SARS-CoV2’s name.
-- Meaning of the [SARS-CoV2](virus:COVID) name.
+- Meaning of the SARSCoV-2 name.
 - Meaning of the SARSCoV-2’s name.
-- Meaning of the [SARSCoV2](virus:COVID) name.
+- Meaning of the SARSCoV2 name.
 - Meaning of the SARSCoV2’s name.
 - Meaning of the disease name.
 - Meaning of the disease’s name.
 - Meaning of the name.
 - Meaning of the virus name.
 - Meaning of the virus’s name.
-- [SARS-CoV-2](virus:COVID) name meaning.
-- [SARS-CoV-2](virus:COVID) name why?
-- [SARS-CoV-2](virus:COVID) name.
-- [SARS-CoV2](virus:COVID) name meaning.
-- [SARS-CoV2](virus:COVID) name why?
-- [SARS-CoV2](virus:COVID) name.
-- [SARS-CoV2](virus:COVID) name meaning.
-- [SARS-CoV2](virus:COVID) name why?
-- [SARS-CoV2](virus:COVID) name.
-- [SARSCoV2](virus:COVID) name meaning.
-- [SARSCoV2](virus:COVID) name why?
-- [SARSCoV2](virus:COVID) name.
+- SARS-CoV-2 name meaning.
+- SARS-CoV-2 name why?
+- SARS-CoV-2 name.
+- SARS-CoV2 name meaning.
+- SARS-CoV2 name why?
+- SARS-CoV2 name.
+- SARSCoV-2 name meaning.
+- SARSCoV-2 name why?
+- SARSCoV-2 name.
+- SARSCoV2 name meaning.
+- SARSCoV2 name why?
+- SARSCoV2 name.
+- The meaning of Corona virus?
 - Virus name meaning.
 - Virus name.
-- What does [COVID-19](virus:COVID) stand for?
+- What does COVID-19 stand for?
 - What does Covid mean?
 - What does SARS-Cov-2 stand for?
+- What does covid 19 stands for?
 - What does the name stand for?
-- Why did the [COVID](virus:COVID) receive that name?
-- Why did the [COVID-19](virus:COVID) receive that name?
-- Why did the [SARS-CoV-2](virus:COVID) receive that name?
-- Why did the [SARS-CoV2](virus:COVID) receive that name?
-- Why did the [SARS-CoV2](virus:COVID) receive that name?
-- Why did the [SARSCoV2](virus:COVID) receive that name?
+- What exactly is the name of the virus
+- What is the name of the virus?
+- Whats the different between covid 19 and corona viruse
+- Why corona virus named corona
+- Why did the COVID receive that name?
+- Why did the COVID-19 receive that name?
+- Why did the SARS-CoV-2 receive that name?
+- Why did the SARS-CoV2 receive that name?
+- Why did the SARSCoV-2 receive that name?
+- Why did the SARSCoV2 receive that name?
 - Why did the disease receive that name?
 - Why did the virus receive that name?
-- Why is the [COVID](virus:COVID) called like that?
-- Why is the [COVID](virus:COVID) named [COVID-19](virus:COVID)?
-- Why is the [COVID-19](virus:COVID) called like that?
-- Why is the [COVID-19](virus:COVID) named [COVID-19](virus:COVID)?
+- Why is it called covid 19
+- Why is the COVID called like that?
+- Why is the COVID named COVID-19?
+- Why is the COVID-19 called like that?
+- Why is the COVID-19 named COVID-19?
 - Why is the COVID-19d called that?
-- Why is the COVID called that?
-- Why is the [SARS-CoV-2](virus:COVID) called like that?
-- Why is the [SARS-CoV-2](virus:COVID) named [COVID-19](virus:COVID)?
+- Why is the COVIDd called that?
+- Why is the SARS-CoV-2 called like that?
+- Why is the SARS-CoV-2 named COVID-19?
 - Why is the SARS-CoV-2d called that?
-- Why is the [SARS-CoV2](virus:COVID) called like that?
-- Why is the [SARS-CoV2](virus:COVID) named [COVID-19](virus:COVID)?
+- Why is the SARS-CoV2 called like that?
+- Why is the SARS-CoV2 named COVID-19?
 - Why is the SARS-CoV2d called that?
-- Why is the [SARS-CoV2](virus:COVID) called like that?
-- Why is the [SARS-CoV2](virus:COVID) named [COVID-19](virus:COVID)?
+- Why is the SARSCoV-2 called like that?
+- Why is the SARSCoV-2 named COVID-19?
 - Why is the SARSCoV-2d called that?
-- Why is the [SARSCoV2](virus:COVID) called like that?
-- Why is the [SARSCoV2](virus:COVID) named [COVID-19](virus:COVID)?
+- Why is the SARSCoV2 called like that?
+- Why is the SARSCoV2 named COVID-19?
 - Why is the SARSCoV2d called that?
 - Why is the disease called like that?
-- Why is the disease named [COVID-19](virus:COVID)?
+- Why is the disease named COVID-19?
 - Why is the diseased called that?
 - Why is the virus called like that?
 - Why is the virus called that?
-- Why is the virus named [COVID-19](virus:COVID)?
+- Why is the virus named COVID-19?
 - Why is the virus named SARS-Cov-2?
 - Why is the virusd called that?
-- Why was the [COVID](virus:COVID) named like that?
-- Why was the [COVID-19](virus:COVID) named like that?
-- Why was the [SARS-CoV-2](virus:COVID) named like that?
-- Why was the [SARS-CoV2](virus:COVID) named like that?
-- Why was the [SARS-CoV2](virus:COVID) named like that?
-- Why was the [SARSCoV2](virus:COVID) named like that?
+- Why was the COVID named like that?
+- Why was the COVID-19 named like that?
+- Why was the SARS-CoV-2 named like that?
+- Why was the SARS-CoV2 named like that?
+- Why was the SARSCoV-2 named like that?
+- Why was the SARSCoV2 named like that?
 - Why was the disease named like that?
 - Why was the virus named like that?
 - virus name why?
 
 ## intent:covid_mortality_rate
+
+- Are we going to all die ?
 - Death percentage,
+- Do coronavirus kill?
+- How long does it take for covid patient to die?
 - Mortality rate.
 - Percentage of deaths.
+- Those who are infected are probably waiting to die?
 - What’s the mortality rate?
 - mortality
 
 ## intent:covid_origins
-- Are animals responsible for [COVID-19](virus:COVID) in people?
-- Could you please tell me about the evolution of the spreading of [Covid-19](virus:COVID)?
+
+- Are animals responsible for COVID-19 in people?
+- Could you please tell me about the evolution of the spreading of Covid-19?
+- How did it start
+- How did this coronavirus come ??
+- How is covid-19 created
+- How old is covid
+- How real is COVID19?
+- How were coronA form
+- How were the virus begin
+- Is Covid19 real?
+- Is covid-19 real?
+- May you help me with the back ground of covid 19
 - Origin of the virus
 - Origins
+- Tell me how did this thing started
+- Tell me when covid 19 was discovered
+- The origin or corona virus
+- What cause this virus
+- What caused it
+- What do you know about the origins of the virus?
+- What year was covid-19 discovered
 - What's the origin of the virus?
-- Where does [Covid 19](virus:COVID)  come from??
+- When did Corona virus begin
+- Where did Corona started
+- Where did corona come from
+- Where did the disease come from?
+- Where did the disease first appeared
+- Where does covid 19 come from??
+- Where is corona virus originated from
+- Where was it from
+- Who made corona virus
+- Who made the corona virud
+- Y did that happen
+- is it airborne?
+- is the virus airborne?
 - what is the origin of covid
 
 ## intent:covid_pandemic
+
 - Meaning of pandemic
 - Pandemic
 - What is a pandemic
@@ -2972,6 +3342,7 @@
 - what is pandemic?
 
 ## intent:covid_preexisting_illness
+
 - About more risk people.
 - About more serious age group.
 - About more serious people.
@@ -2984,9 +3355,12 @@
 - About most severe people.
 - About people more risk.
 - About people most risk.
+- Am I going to die
 - Asthma
 - Can I die?
 - Do you think smokers have a higher risk?
+- How it's last to recover if chest problem people
+- I have elderly people in my country which need help
 - Is there a age group more at risk than others?
 - Is there a age group most at risk than others?
 - More risk people.
@@ -3003,7 +3377,7 @@
 - Older people are most at risk?
 - Older persons are more at risk?
 - Older persons are most at risk?
-- People at risk for serious illness from [COVID-19](virus:COVID).
+- People at risk for serious illness from COVID-19.
 - People at risk for serious illness.
 - People more risk.
 - People most risk.
@@ -3037,6 +3411,7 @@
 - who are more susceptible to this virus?
 
 ## intent:covid_procedure_after_infection
+
 - I am infected, and now?
 - I am infected.
 - I'm infected, and now?
@@ -3044,484 +3419,514 @@
 - What happens if a coronavirus infection is detected?
 
 ## intent:covid_sars
-- About [COVID](virus:COVID) and SARS.
-- About [COVID](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [COVID-19](virus:COVID) and SARS.
-- About [COVID-19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [COVID-2019](virus:COVID) and SARS.
-- About [COVID-2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [COVID19](virus:COVID) and SARS.
-- About [COVID19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [COVID2019](virus:COVID) and SARS.
-- About [COVID2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [SARS](virus:SARS)  and [COVID-19](virus:COVID).
-- About [SARS](virus:SARS)  and [COVID-2019](virus:COVID).
-- About [SARS](virus:SARS)  and [COVID](virus:COVID) .
-- About [SARS](virus:SARS)  and [COVID19](virus:COVID).
-- About [SARS](virus:SARS)  and [COVID2019](virus:COVID).
-- About [SARS](virus:SARS)  and [new coronavirus](virus:COVID).
-- About [SARS](virus:SARS)  and [novel coronavirus](virus:COVID).
-- About [new coronavirus](virus:COVID) and SARS.
-- About [new coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [novel coronavirus](virus:COVID) and SARS.
-- About [novel coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID](virus:COVID) and SARS.
-- [COVID](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID-19](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID-19](virus:COVID) and SARS.
-- [COVID-19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID-2019](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID-2019](virus:COVID) and SARS.
-- [COVID-2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID19](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID19](virus:COVID) and SARS.
-- [COVID19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID2019](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID2019](virus:COVID) and SARS.
-- [COVID2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Differences between [COVID](virus:COVID) and SARS
-- Differences between [COVID](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [COVID-19](virus:COVID) and SARS
-- Differences between [COVID-19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [COVID-2019](virus:COVID) and SARS
-- Differences between [COVID-2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [COVID19](virus:COVID) and SARS
-- Differences between [COVID19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [COVID2019](virus:COVID) and SARS
-- Differences between [COVID2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [SARS](virus:SARS) and [COVID](virus:COVID) 
-- Differences between [SARS](virus:SARS) and [COVID-19](virus:COVID)
-- Differences between [SARS](virus:SARS) and [COVID-2019](virus:COVID)
-- Differences between [SARS](virus:SARS) and [COVID19](virus:COVID)
-- Differences between [SARS](virus:SARS) and [COVID2019](virus:COVID)
-- Differences between [SARS](virus:SARS) and [new coronavirus](virus:COVID)
-- Differences between [SARS](virus:SARS) and [novel coronavirus](virus:COVID)
-- Differences between [new coronavirus](virus:COVID) and SARS
-- Differences between [new coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [novel coronavirus](virus:COVID) and SARS
-- Differences between [novel coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Info about [COVID](virus:COVID) and SARS.
-- Info about [COVID](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [COVID-19](virus:COVID) and SARS.
-- Info about [COVID-19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [COVID-2019](virus:COVID) and SARS.
-- Info about [COVID-2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [COVID19](virus:COVID) and SARS.
-- Info about [COVID19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [COVID2019](virus:COVID) and SARS.
-- Info about [COVID2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [SARS](virus:SARS) and [COVID-19](virus:COVID).
-- Info about [SARS](virus:SARS) and [COVID-2019](virus:COVID).
-- Info about [SARS](virus:SARS) and [COVID](virus:COVID) .
-- Info about [SARS](virus:SARS) and [COVID19](virus:COVID).
-- Info about [SARS](virus:SARS) and [COVID2019](virus:COVID).
-- Info about [SARS](virus:SARS) and [new coronavirus](virus:COVID).
-- Info about [SARS](virus:SARS) and [novel coronavirus](virus:COVID).
-- Info about [new coronavirus](virus:COVID) and SARS.
-- Info about [new coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [novel coronavirus](virus:COVID) and SARS.
-- Info about [novel coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Is [COVID](virus:COVID) the same as SARS?
-- Is [COVID](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [COVID-19](virus:COVID) the same as SARS?
-- Is [COVID-19](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [COVID-2019](virus:COVID) the same as SARS?
-- Is [COVID-2019](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [COVID19](virus:COVID) the same as SARS?
-- Is [COVID19](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [COVID2019](virus:COVID) the same as SARS?
-- Is [COVID2019](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [SARS](virus:SARS) the same as [COVID-19](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [COVID-2019](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [COVID19](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [COVID2019](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [COVID](virus:COVID) ?
-- Is [SARS](virus:SARS) the same as [new coronavirus](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [novel coronavirus](virus:COVID)?
-- Is [new coronavirus](virus:COVID) the same as SARS?
-- Is [new coronavirus](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [novel coronavirus](virus:COVID) the same as SARS?
-- Is [novel coronavirus](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- [SARS](virus:SARS) and [COVID](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID-19](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID-19](virus:COVID).
-- [SARS](virus:SARS) and [COVID-2019](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID-2019](virus:COVID).
-- [SARS](virus:SARS) and [COVID](virus:COVID) .
-- [SARS](virus:SARS) and [COVID19](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID19](virus:COVID).
-- [SARS](virus:SARS) and [COVID2019](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID2019](virus:COVID).
-- [SARS](virus:SARS) and [new coronavirus](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [new coronavirus](virus:COVID).
-- [SARS](virus:SARS) and [novel coronavirus](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [novel coronavirus](virus:COVID).
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID-19](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID-2019](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID19](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID2019](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [new coronavirus](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [novel coronavirus](virus:COVID) are the same virus?
-- The virus that causes [COVID](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID](virus:COVID) and the one that causes Severe Acute Respiratory
+
+- About COVID and SARS.
+- About COVID and Severe Acute Respiratory Syndrome.
+- About COVID-19 and SARS.
+- About COVID-19 and Severe Acute Respiratory Syndrome.
+- About COVID-2019 and SARS.
+- About COVID-2019 and Severe Acute Respiratory Syndrome.
+- About COVID19 and SARS.
+- About COVID19 and Severe Acute Respiratory Syndrome.
+- About COVID2019 and SARS.
+- About COVID2019 and Severe Acute Respiratory Syndrome.
+- About SARS and COVID-19.
+- About SARS and COVID-2019.
+- About SARS and COVID.
+- About SARS and COVID19.
+- About SARS and COVID2019.
+- About SARS and new coronavirus.
+- About SARS and novel coronavirus.
+- About new coronavirus and SARS.
+- About new coronavirus and Severe Acute Respiratory Syndrome.
+- About novel coronavirus and SARS.
+- About novel coronavirus and Severe Acute Respiratory Syndrome.
+- COVID and SARS are the same virus?
+- COVID and SARS.
+- COVID and Severe Acute Respiratory Syndrome.
+- COVID-19 and SARS are the same virus?
+- COVID-19 and SARS.
+- COVID-19 and Severe Acute Respiratory Syndrome.
+- COVID-2019 and SARS are the same virus?
+- COVID-2019 and SARS.
+- COVID-2019 and Severe Acute Respiratory Syndrome.
+- COVID19 and SARS are the same virus?
+- COVID19 and SARS.
+- COVID19 and Severe Acute Respiratory Syndrome.
+- COVID2019 and SARS are the same virus?
+- COVID2019 and SARS.
+- COVID2019 and Severe Acute Respiratory Syndrome.
+- Differences between COVID and SARS
+- Differences between COVID and Severe Acute Respiratory Syndrome
+- Differences between COVID-19 and SARS
+- Differences between COVID-19 and Severe Acute Respiratory Syndrome
+- Differences between COVID-2019 and SARS
+- Differences between COVID-2019 and Severe Acute Respiratory Syndrome
+- Differences between COVID19 and SARS
+- Differences between COVID19 and Severe Acute Respiratory Syndrome
+- Differences between COVID2019 and SARS
+- Differences between COVID2019 and Severe Acute Respiratory Syndrome
+- Differences between SARS and COVID
+- Differences between SARS and COVID-19
+- Differences between SARS and COVID-2019
+- Differences between SARS and COVID19
+- Differences between SARS and COVID2019
+- Differences between SARS and new coronavirus
+- Differences between SARS and novel coronavirus
+- Differences between new coronavirus and SARS
+- Differences between new coronavirus and Severe Acute Respiratory Syndrome
+- Differences between novel coronavirus and SARS
+- Differences between novel coronavirus and Severe Acute Respiratory Syndrome
+- Info about COVID and SARS.
+- Info about COVID and Severe Acute Respiratory Syndrome.
+- Info about COVID-19 and SARS.
+- Info about COVID-19 and Severe Acute Respiratory Syndrome.
+- Info about COVID-2019 and SARS.
+- Info about COVID-2019 and Severe Acute Respiratory Syndrome.
+- Info about COVID19 and SARS.
+- Info about COVID19 and Severe Acute Respiratory Syndrome.
+- Info about COVID2019 and SARS.
+- Info about COVID2019 and Severe Acute Respiratory Syndrome.
+- Info about SARS and COVID-19.
+- Info about SARS and COVID-2019.
+- Info about SARS and COVID.
+- Info about SARS and COVID19.
+- Info about SARS and COVID2019.
+- Info about SARS and new coronavirus.
+- Info about SARS and novel coronavirus.
+- Info about new coronavirus and SARS.
+- Info about new coronavirus and Severe Acute Respiratory Syndrome.
+- Info about novel coronavirus and SARS.
+- Info about novel coronavirus and Severe Acute Respiratory Syndrome.
+- Is COVID the same as SARS?
+- Is COVID the same as Severe Acute Respiratory Syndrome?
+- Is COVID-19 the same as SARS?
+- Is COVID-19 the same as Severe Acute Respiratory Syndrome?
+- Is COVID-2019 the same as SARS?
+- Is COVID-2019 the same as Severe Acute Respiratory Syndrome?
+- Is COVID19 the same as SARS?
+- Is COVID19 the same as Severe Acute Respiratory Syndrome?
+- Is COVID2019 the same as SARS?
+- Is COVID2019 the same as Severe Acute Respiratory Syndrome?
+- Is SARS the same as COVID-19?
+- Is SARS the same as COVID-2019?
+- Is SARS the same as COVID19?
+- Is SARS the same as COVID2019?
+- Is SARS the same as COVID?
+- Is SARS the same as new coronavirus?
+- Is SARS the same as novel coronavirus?
+- Is new coronavirus the same as SARS?
+- Is new coronavirus the same as Severe Acute Respiratory Syndrome?
+- Is novel coronavirus the same as SARS?
+- Is novel coronavirus the same as Severe Acute Respiratory Syndrome?
+- SARS and COVID are the same virus?
+- SARS and COVID-19 are the same virus?
+- SARS and COVID-19.
+- SARS and COVID-2019 are the same virus?
+- SARS and COVID-2019.
+- SARS and COVID.
+- SARS and COVID19 are the same virus?
+- SARS and COVID19.
+- SARS and COVID2019 are the same virus?
+- SARS and COVID2019.
+- SARS and new coronavirus are the same virus?
+- SARS and new coronavirus.
+- SARS and novel coronavirus are the same virus?
+- SARS and novel coronavirus.
+- Severe Acute Respiratory Syndrome and COVID are the same virus?
+- Severe Acute Respiratory Syndrome and COVID-19 are the same virus?
+- Severe Acute Respiratory Syndrome and COVID-2019 are the same virus?
+- Severe Acute Respiratory Syndrome and COVID19 are the same virus?
+- Severe Acute Respiratory Syndrome and COVID2019 are the same virus?
+- Severe Acute Respiratory Syndrome and new coronavirus are the same virus?
+- Severe Acute Respiratory Syndrome and novel coronavirus are the same virus?
+- The virus that causes COVID and the one that causes SARS are the same?
+- The virus that causes COVID and the one that causes Severe Acute Respiratory
   Syndrome are the same?
-- The virus that causes [COVID](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID](virus:COVID) is the same to the one that causes Severe Acute
+- The virus that causes COVID is the same to the one that causes SARS?
+- The virus that causes COVID is the same to the one that causes Severe Acute
   Respiratory Syndrome?
-- The virus that causes [COVID-19](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID-19](virus:COVID) and the one that causes Severe Acute
+- The virus that causes COVID-19 and the one that causes SARS are the same?
+- The virus that causes COVID-19 and the one that causes Severe Acute
   Respiratory Syndrome are the same?
-- The virus that causes [COVID-19](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID-19](virus:COVID) is the same to the one that causes Severe Acute
+- The virus that causes COVID-19 is the same to the one that causes SARS?
+- The virus that causes COVID-19 is the same to the one that causes Severe Acute
   Respiratory Syndrome?
-- The virus that causes [COVID-2019](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID-2019](virus:COVID) and the one that causes Severe Acute
+- The virus that causes COVID-2019 and the one that causes SARS are the same?
+- The virus that causes COVID-2019 and the one that causes Severe Acute
   Respiratory Syndrome are the same?
-- The virus that causes [COVID-2019](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID-2019](virus:COVID) is the same to the one that causes Severe
+- The virus that causes COVID-2019 is the same to the one that causes SARS?
+- The virus that causes COVID-2019 is the same to the one that causes Severe
   Acute Respiratory Syndrome?
-- The virus that causes [COVID19](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID19](virus:COVID) and the one that causes Severe Acute Respiratory
+- The virus that causes COVID19 and the one that causes SARS are the same?
+- The virus that causes COVID19 and the one that causes Severe Acute Respiratory
   Syndrome are the same?
-- The virus that causes [COVID19](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID19](virus:COVID) is the same to the one that causes Severe Acute
+- The virus that causes COVID19 is the same to the one that causes SARS?
+- The virus that causes COVID19 is the same to the one that causes Severe Acute
   Respiratory Syndrome?
-- The virus that causes [COVID2019](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID2019](virus:COVID) and the one that causes Severe Acute
+- The virus that causes COVID2019 and the one that causes SARS are the same?
+- The virus that causes COVID2019 and the one that causes Severe Acute
   Respiratory Syndrome are the same?
-- The virus that causes [COVID2019](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID2019](virus:COVID) is the same to the one that causes Severe
+- The virus that causes COVID2019 is the same to the one that causes SARS?
+- The virus that causes COVID2019 is the same to the one that causes Severe
   Acute Respiratory Syndrome?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID-19](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID-2019](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID19](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID2019](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [new coronavirus](virus:COVID) are the
+- The virus that causes SARS and the one that causes COVID are the same?
+- The virus that causes SARS and the one that causes COVID-19 are the same?
+- The virus that causes SARS and the one that causes COVID-2019 are the same?
+- The virus that causes SARS and the one that causes COVID19 are the same?
+- The virus that causes SARS and the one that causes COVID2019 are the same?
+- The virus that causes SARS and the one that causes new coronavirus are the
   same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [novel coronavirus](virus:COVID) are the
+- The virus that causes SARS and the one that causes novel coronavirus are the
   same?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID-19](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID-2019](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID19](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID2019](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID](virus:COVID) ?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [new coronavirus](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes novel
+- The virus that causes SARS is the same to the one that causes COVID-19?
+- The virus that causes SARS is the same to the one that causes COVID-2019?
+- The virus that causes SARS is the same to the one that causes COVID19?
+- The virus that causes SARS is the same to the one that causes COVID2019?
+- The virus that causes SARS is the same to the one that causes COVID?
+- The virus that causes SARS is the same to the one that causes new coronavirus?
+- The virus that causes SARS is the same to the one that causes novel
   coronavirus?
-- The virus that causes [new coronavirus](virus:COVID) and the one that causes [SARS](virus:SARS) are the
+- The virus that causes new coronavirus and the one that causes SARS are the
   same?
-- The virus that causes [new coronavirus](virus:COVID) and the one that causes Severe Acute
+- The virus that causes new coronavirus and the one that causes Severe Acute
   Respiratory Syndrome are the same?
-- The virus that causes [new coronavirus](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [new coronavirus](virus:COVID) is the same to the one that causes
-  [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- The virus that causes [novel coronavirus](virus:COVID) and the one that causes [SARS](virus:SARS) are the
+- The virus that causes new coronavirus is the same to the one that causes SARS?
+- The virus that causes new coronavirus is the same to the one that causes
+  Severe Acute Respiratory Syndrome?
+- The virus that causes novel coronavirus and the one that causes SARS are the
   same?
-- The virus that causes [novel coronavirus](virus:COVID) and the one that causes Severe Acute
+- The virus that causes novel coronavirus and the one that causes Severe Acute
   Respiratory Syndrome are the same?
-- The virus that causes [novel coronavirus](virus:COVID) is the same to the one that causes
+- The virus that causes novel coronavirus is the same to the one that causes
   SARS?
-- The virus that causes [novel coronavirus](virus:COVID) is the same to the one that causes
-  [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- [new coronavirus](virus:COVID) and [SARS](virus:SARS) are the same virus?
-- [new coronavirus](virus:COVID) and SARS.
-- [new coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [novel coronavirus](virus:COVID) and [SARS](virus:SARS) are the same virus?
-- [novel coronavirus](virus:COVID) and SARS.
-- [novel coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
+- The virus that causes novel coronavirus is the same to the one that causes
+  Severe Acute Respiratory Syndrome?
+- new coronavirus and SARS are the same virus?
+- new coronavirus and SARS.
+- new coronavirus and Severe Acute Respiratory Syndrome.
+- novel coronavirus and SARS are the same virus?
+- novel coronavirus and SARS.
+- novel coronavirus and Severe Acute Respiratory Syndrome.
 - sars
 
+## intent:covid_schools
+
+- About school
+- Are students going back to school
+- Do u think school might resume
+- How are they going to do screening at schools?
+- How are they going to test at schools?
+- I just want to ask when we are going back to school
+- School
+- What about school?
+- What are the measures that can be taken to prevent the spread of the virus in
+  schools in case they are opened
+- When are dere going to open school
+- When are they opening schools
+- When are they planning to resume schools
+- When are we going to resume back to school
+- When are we resuming school
+- When did schools we reopen across the country?
+- When is school open
+- When is school opening
+- When is school reopen
+- When is school reopening
+- When is school resuming
+- When is schools reopening in Nigeria?
+- When is the reopening of schools that were closed due to the virus??
+- When is the reopening of schools??
+- When will school open?
+- When will school resume
+- When will schools open in Uganda
+- When will the schools open
+- When will we go back to school
+- Which day will school be open
+- Why did other societies reopened such as market, football, churches, mosques
+  and movement And schools didn't why?
+- Why reopening school if you know its risky
+- when probably do you think all schools and institutes will be reopened
+
 ## intent:covid_sex
+
+- But does covid 19 transmit through sex?
 - Can It also transmit through sex?
+- Can Tue virus be transmitted during sex inter course
+- Can covid-19 be transferred through sex
+- Can it be contacted through sex
+- Can the virus be spread through sex
+- Is covid sexually transmitted
+- Is it sexual transmission
+- Is it sexually transmitted
+- Ok sex
+- Sex
 - Transmission and sex
+- Why we mustn't do sex
 - sexual relations and transmission
 
-## intent:en_covid_situation
-- Confirmed cases in [European continet]{"entity": "en_world_region", "value": "Europe"}
-- Confirmed cases in [Asia]{"entity": "en_world_region", "value": "Asia"}
-- Deaths in [Africa]{"entity": "en_world_region", "value": "Africa"}
-- Deaths in [Antarctic continent]{"entity": "en_world_region", "value": "Antarctic"}
-- How much infects are counted in [World]{"entity": "en_world_region", "value": "World"}?
-- Deaths in [Oceania]{"entity": "en_world_region", "value": "Oceania"}
-- How much infects are counted in [America continent]{"entity": "en_world_region", "value": "America"}?
-- Confirmed cases in [Indonesia]{"entity": "en_country_code", "value": "ID"}
-- Confirmed cases in [French Republic]{"entity": "en_country_code", "value": "FR"}
+## intent:covid_situation
+
+- Confirmed cases in [Finsterwalde](en_geography:town):country
+- Confirmed cases in @en_gerography:country
 - Coronavirus updated situation
 - Coronavirus updated statistics
 - Death toll
-- Deaths in [Northern Ireland]{"entity": "en_country_code", "value": "GB"}
-- Deaths in [Great Britain]{"entity": "en_country_code", "value": "GB"}
-- How are the counts in the [World]{"entity": "en_world_region", "value": "World"}?
-- How many are the counts in the [World]{"entity": "en_world_region", "value": "World"}?
-- How many cases are registered in [Island of Spice]{"entity": "en_country_code", "value": "GD"} so far?
-- How many cases are there in the [World]{"entity": "en_world_region", "value": "World"}
-- How many cases there are in the [World]{"entity": "en_world_region", "value": "World"}?
+- Deaths in [Fürstenberg/Havel](en_geography:town):country
+- Deaths in @en_gerography:country
+- From now how long was COVID-19 covered the world
+- Give me all information happening
+- How are the counts in the world?
+- How many a still sick
+- How many are the counts in the world?
+- How many cases are registered in [Syktyvkar](en_geography:town):country so far?
+- How many cases are there in the world
+- How many cases there are in the world?
+- How many cases worldwide
 - How many infections are there worldwide?
 - How many people have been diagnosed with Covid-19
 - How many people have been infected?
-- How much infects are counted in [Germany]{"entity": "en_country_code", "value": "DE"}?
-- I want to know total number of corona virus affected people in [World]{"entity": "en_world_region", "value": "World"}
+- How much infects are counted in Germany?
+- Hw many r sick
+- I want to know total number of corona virus affected people in world
 - Infected count
 - Number of cases
-- Number of cases in [Republic of Georgia]{"entity": "en_country_code", "value": "GE"}
-- Number of cases in [French Guiana]{"entity": "en_country_code", "value": "GF"}
+- Number of cases in [Baotou](en_geography:town):country
+- Number of cases in @en_gerography:country
 - Number of cases in the us
 - Number of cases worldwide.
 - Number of confirmed cases
 - Number of deaths
-- Number of deaths in [Republic of Ghana]{"entity": "en_country_code", "value": "GH"}
-- Number of deaths in [Hong Kong]{"entity": "en_country_code", "value": "HK"}
+- Number of deaths in [Romania](en_geography:country):country
+- Number of deaths in @en_gerography:country
 - Number of deaths worldwide.
 - Number of infected
-- Number of infected in [State of Israel]{"entity": "en_country_code", "value": "IL"}.
-- Number of infected in [Republic of India]{"entity": "en_country_code", "value": "IN"}.
+- Number of infected in [Saudi Arabia](en_geography:country):country.
+- Number of infected in @en_gerography:country.
 - Quais as cidades mais afetadas
 - Quais são as cidades mais afetadas
-- Statistics of [British Indian Territory]{"entity": "en_country_code", "value": "IO"}
-- Statistics of [Persia]{"entity": "en_country_code", "value": "IR"}
+- Situation globally
+- Statistics of [Grevenbroich](en_geography:town):country
+- Statistics of @en_gerography:country
 - Statistics.
 - Tell me the actual numbers.
-- What about [india](country_code:IN)
+- Total confirmed cases
+- Total confirmed cases?
+- What about india
 - What are the latest statistics on coronavirus?
+- What are the statics of covid 19 in the world
+- What is the death rate
 - What is the number of cases?
 - What is the number of confirmed cases?
-- What is the number of deaths in [North Korea]{"entity": "en_country_code", "value": "KP"}.
-- What is the number of deaths in [Sri Lanka]{"entity": "en_country_code", "value": "LK"}.
+- What is the number of deaths in [Sinhalese](en_geography:languages):country.
+- What is the number of deaths in @en_gerography:country.
 - What is the number of deaths?
 - What is the number of infected?
+- What of positive cases altogether
 - Which country has the highest cases?
-- are infected in the [World]{"entity": "en_world_region", "value": "World"}
+- are infected in the world
 - can you provide statistics?
-- can you talk about the [World]{"entity": "en_world_region", "value": "World"} situation
+- can you talk about the world situation
 - current numbers
-- death in [germany]{"entity": "en_country_code", "value": "DE"}
+- death in germany
 - global
 - hi Helen send me some statistics about Kobe 19
-- how is the situation right now in [Portugal]{"entity": "en_country_code", "value": "PT"}?
+- how is the situation right now in Portugal?
 - how is the situation right now?
 - how many cases are out there?
 - how many cases are there out there?
 - how many deaths globaly
 - how many deaths?
-- how many people are infected in all [World]{"entity": "en_world_region", "value": "World"}
+- how many people are infected in all world
 - how many people died
 - how many people died in eternity
 - statistics about mortality
-- statistics today for [Republic of Moldova]{"entity": "en_country_code", "value": "MD"}
+- statistics today for [Helsinki](en_geography:town):country
 - talk about the numbers
 - what is the death count?
-- what is the [World]{"entity": "en_world_region", "value": "World"} situation?
+- what is the world situation?
 - what's the current state?
 - where is the virus more prevalent ?
 - where is the virus more prevalent?
 - which is the most affected country?
-- [World]{"entity": "en_world_region", "value": "World"} situation
+- world situation
 
-## intent:en_covid_situation_deaths
-- Deaths in [Europe]{"entity": "en_world_region", "value": "Europe"}
-- How many deaths are in [Asia]{"entity": "en_world_region", "value": "Asia"}
-- Deaths in [Africa continent]{"entity": "en_world_region", "value": "Africa"}
-- Deaths in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
-- How many died in the [Globe]{"entity": "en_world_region", "value": " World"}?
-- Deaths in [Oceania]{"entity": "en_world_region", "value": "Oceania"}
-- how many covid 19 death cases in [America continent]{"entity": "en_world_region", "value": "America"}?
-- Deaths in [Cambodia]{"entity": "en_country_code", "value": "KH"}.
-- How many deaths are in [República da Indonésia]{"entity": "en_country_code", "value": "ID"}?
-- How many deaths can you count in the [Druk Gyal Khap]{"entity": "en_country_code", "value": "BT"} alone?
-- How many deaths in [Republic of Namibia]{"entity": "en_country_code", "value": "NA"}?
-- How many died in [Luxemburg]{"entity": "en_country_code", "value": "LU"}?
-- How many people died in [Bailliage dé Jèrri]{"entity": "en_country_code", "value": "JE"}?
-- Number of deaths [Maurícia]{"entity": "en_country_code", "value": "MU"}.
-- Number of deaths in [Kıbrıs Cumhuriyeti]{"entity": "en_country_code", "value": "CY"}?
-- how many covid 19 death cases in [Republic of Armenia]{"entity": "en_country_code", "value": "AM"}?
+## intent:covid_situation_deaths
 
-## intent:en_covid_situation_infected
-- How many active cases are in [Europe]{"entity": "en_world_region", "value": "Europe"}
-- How many infected are in [Asia]{"entity": "en_world_region", "value": "Asia"}
-- How many active cases are in [Africa continent]{"entity": "en_world_region", "value": "Africa"}
-- How many infected are in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
-- how many positive cases do we have in [Globe]{"entity": "en_world_region", "value": " World"}?
-- how many positive cases do we have in [Oceania]{"entity": "en_world_region", "value": "Oceania"}
-- How many active cases of covid in [America continent]{"entity": "en_world_region", "value": "America"}?
-- Active cases in [Malaysia]{"entity": "en_country_code", "value": "MY"}.
-- How many active cases are in [Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa]{"entity": "en_country_code", "value": "ET"}?
-- How many active cases in [Hungria]{"entity": "en_country_code", "value": "HU"}?
-- How many active cases of covid in [Eesti]{"entity": "en_country_code", "value": "EE"}?
-- How many infected are in [Republic of Moldova]{"entity": "en_country_code", "value": "MD"}?
-- How many infected in [Keeling Islands]{"entity": "en_country_code", "value": "CC"}?
-- How many people are infected in [Republik Singapura]{"entity": "en_country_code", "value": "SG"} to this date?
-- How many people are infected in [Republica Democrática da Argélia]{"entity": "en_country_code", "value": "DZ"}?
-- how many positive cases do we have in [Região Administrativa de Macau]{"entity": "en_country_code", "value": "MO"}
+- Deaths in [Cambodge](en_country_code:KH).
+- How many deaths are in [Gànnaar](en_country_code:MR)?
+- How many deaths can you count in the [Ilhas Marianas do Norte](en_country_code:MP) alone?
+- How many deaths in [Estado de Israel](en_country_code:IL)?
+- How many died in [Principauté de Monaco](en_country_code:MC)?
+- How many people died in [South Korea](en_country_code:KR)?
+- Number of deaths [Mauritius](en_country_code:MU).
+- Number of deaths in [Dziko la Malaŵi](en_country_code:MW)?
+- how many covid 19 death cases in [Tajiquistão](en_country_code:TJ)?
 
-## intent:en_covid_situation_infected_critical
-- Critical cases in [Europe]{"entity": "en_world_region", "value": "Europe"}
-- Critically infected in [Asia]{"entity": "en_world_region", "value": "Asia"}
-- How many critically infected in [Africa continent]{"entity": "en_world_region", "value": "Africa"}
-- How many people in critical state in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
-- How many critically infected in the [World]{"entity": "en_world_region", "value": " World"}?
-- Critically infected in [Oceania]{"entity": "en_world_region", "value": "Oceania"}
-- Critical cases in [America continent]{"entity": "en_world_region", "value": "America"}?
-- Critical cases in [Federal Democratic Republic of Nepal]{"entity": "en_country_code", "value": "NP"}.
-- Critical in [Chad]{"entity": "en_country_code", "value": "TD"}.
-- Critical state [República da Geórgia]{"entity": "en_country_code", "value": "GE"}.
-- Critical state in [Republica do Afeganistão]{"entity": "en_country_code", "value": "AF"}?
-- Critically infected in [Palaos]{"entity": "en_country_code", "value": "PW"}?
-- Hoe many critically infected in [Republika ng Pilipinas]{"entity": "en_country_code", "value": "PH"}?
-- How many critical are in [Curaçau]{"entity": "en_country_code", "value": "CW"}?
-- How many critical cases are in [Republic of Yemen]{"entity": "en_country_code", "value": "YE"}?
-- How many critical cases in [Russian Federation]{"entity": "en_country_code", "value": "RU"}?
-- How many critically infected in [Bosna i Hercegovina]{"entity": "en_country_code", "value": "BA"}?
-- How many people are in a critical state [Democratic Republic of Algeria]{"entity": "en_country_code", "value": "DZ"}?
-- How many people are in a critical state in [British Indian Ocean Territory]{"entity": "en_country_code", "value": "IO"}?
-- How many people in critical state in [Saint Vincent]{"entity": "en_country_code", "value": "VC"}?
-- Infected in critical state in [Република Северна Македонија]{"entity": "en_country_code", "value": "MK"}.
-- People in critical case in [Eswatini]{"entity": "en_country_code", "value": "SZ"}.
-- People in critical state in [Reino da Espanha]{"entity": "en_country_code", "value": "ES"}.
-- how many seriously infected people there in the [Nigeria]{"entity": "en_country_code", "value": "NG"}?
+## intent:covid_situation_infected
 
-## intent:en_covid_situation_last_update
-- Actualized data in [Europe community]{"entity": "en_world_region", "value": "Europe"}
-- How many infected and deaths in [Asia region]{"entity": "en_world_region", "value": "Asia"}
-- Last data of deaths in [Africa]{"entity": "en_world_region", "value": "Africa"}
-- Last update on infected in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
-- Last data of deaths in [World]{"entity": "en_world_region", "value": " World"}?
-- How many infected and deaths in [Oceania region]{"entity": "en_world_region", "value": "Oceania"}
-- Actualized data in [America continent]{"entity": "en_world_region", "value": "America"}?
-- [Holy See (Vatican City State)]{"entity": "en_country_code", "value": "VA"} cases and deaths
-- Actualized data in [República Malgaxe]{"entity": "en_country_code", "value": "MG"}.
+- Active cases in [Republic of the Sudan](en_country_code:SD).
+- How many active cases are in [Česko](en_country_code:CZ)?
+- How many active cases in [Kingdom of Bahrain](en_country_code:BH)?
+- How many active cases of covid in [Guernesei](en_country_code:GG)?
+- How many cases in
+- How many cases in [Großherzogtum Luxemburg](en_country_code:LU)
+- How many coronavirus case are in [Ilhas Geórgia do Sul e Sanduíche do Sul](en_country_code:GS)
+- How many infected are in [The Western Kingdom](en_country_code:MA)?
+- How many infected in [Repiblik D Ayiti](en_country_code:HT)?
+- How many people are infected in [Rephaboliki ya Afrika Borwa](en_country_code:ZA) to this date?
+- How many people are infected in [Pākistān](en_country_code:PK)?
+- How many people are with covid in [République du Rwanda](en_country_code:RW)
+- how many positive cases do we have in [Principado dos Vales de Andorra](en_country_code:AD)
+
+## intent:covid_situation_infected_critical
+
+- Critical cases in [Tshād](en_country_code:TD).
+- Critical in [Kingdom of Cambodia](en_country_code:KH).
+- Critical state [Sankattan Siha Na Islas Mariånas](en_country_code:MP).
+- Critical state in [Algeria](en_country_code:DZ)?
+- Critically infected in [Turcas](en_country_code:TC)?
+- Hoe many critically infected in [Schweiz](en_country_code:CH)?
+- How many critical are in [España](en_country_code:ES)?
+- How many critical cases are in [Alanda](en_country_code:AX)?
+- How many critical cases in [Eslovênia](en_country_code:SI)?
+- How many critically infected in [Turcomenistão](en_country_code:TM)?
+- How many people are in a critical state [Atol Johnston](en_country_code:UM)?
+- How many people are in a critical state in [República de Maurício](en_country_code:MU)?
+- How many people are in serious condition in [República Popular da China](en_country_code:CN)
+- How many people in critical state in [Republic of Belarus](en_country_code:BY)?
+- Infected in critical state in [Maláui](en_country_code:MW).
+- People in critical case in [Saint Lucia](en_country_code:LC).
+- People in critical state in [República da Bielorrússia](en_country_code:BY).
+- how many seriously infected people there in the [Quênia](en_country_code:KE)?
+
+## intent:covid_situation_last_update
+
+- "[Charu cha Malaŵi](en_country_code:MW) cases and deaths"
+- Actualized data in [al-Yama](en_country_code:YE).
 - Cases actualization.
 - Cases update as of today.
-- How many infected and deaths in [Magyarország]{"entity": "en_country_code", "value": "HU"}.
-- How many infected in [United Kingdom of Great Britain and Northern Ireland]{"entity": "en_country_code", "value": "GB"} to this date.
-- Last actualization in [Ethiopia]{"entity": "en_country_code", "value": "ET"}.
-- Last actualization of infected in [República Oriental del Uruguay]{"entity": "en_country_code", "value": "UY"}.
+- How many infected and deaths in [São Martim](en_country_code:MF).
+- How many infected in [Comunidade da Dominica](en_country_code:DM) to this date.
+- Last actualization in [República Helênica](en_country_code:GR).
+- Last actualization of infected in [República Togolesa](en_country_code:TG).
 - Last actualization of infected.
-- Last data of deaths in [Tunisie]{"entity": "en_country_code", "value": "TN"}.
-- Last update in [Ukraine]{"entity": "en_country_code", "value": "UA"}.
-- Last update of deaths in [Lietuva]{"entity": "en_country_code", "value": "LT"}.
-- Last update on infected in [Србија]{"entity": "en_country_code", "value": "RS"}.
-- Latest reports in [Pukchosŏn]{"entity": "en_country_code", "value": "KP"}.
-- New cases and deaths in [República da União de Myanmar]{"entity": "en_country_code", "value": "MM"}.
-- New cases in [Letónia]{"entity": "en_country_code", "value": "LV"}.
-- Tell me about coronavirus in [Gabon]{"entity": "en_country_code", "value": "GA"}?
-- Today data in [República do Gana]{"entity": "en_country_code", "value": "GH"}.
-- Today update in [Ilhas Feroe]{"entity": "en_country_code", "value": "FO"}.
-- Today’s data in [República Checa]{"entity": "en_country_code", "value": "CZ"}.
-- Today’s update in [United Kingdom of Great Britain and Northern Ireland]{"entity": "en_country_code", "value": "GB"}.
-- What are todays values for [Bosnia–Herzegovina]{"entity": "en_country_code", "value": "BA"}
-- i would like to know the current numbers of [Ceilão]{"entity": "en_country_code", "value": "LK"}
-- situation in [República de Malta]{"entity": "en_country_code", "value": "MT"}
+- Last data of deaths in [Commonwealth Téél Falúw kka Efáng llól Marianas](en_country_code:MP).
+- Last update in [Mahori](en_country_code:YT).
+- Last update of deaths in [República da Finlândia](en_country_code:FI).
+- Last update on infected in [Swaziland](en_country_code:SZ).
+- Latest reports in [România](en_country_code:RO).
+- New cases and deaths in [Tuvalu](en_country_code:TV).
+- New cases in [Repubilika ya Kôngo](en_country_code:CG).
+- Tell me about coronavirus in [Île Bourbon](en_country_code:RE)?
+- Today data in [Brunei Darussalam](en_country_code:BN).
+- Today update in [Aruba](en_country_code:AW).
+- Today’s data in [Caribisch Nederland](en_country_code:BQ).
+- Today’s update in [São Marino](en_country_code:SM).
+- What are todays values for [Aruba](en_country_code:AW)
+- i would like to know the current numbers of [Antártida](en_country_code:AQ)
+- situation in [Murutaane](en_country_code:MR)
 
-## intent:en_covid_situation_recovered
-- How many have recovered in [Europe community]{"entity": "en_world_region", "value": "Europe"}
-- How many recoveries to this date in [Asia region]{"entity": "en_world_region", "value": "Asia"}
-- Recovered [Africa]{"entity": "en_world_region", "value": "Africa"}
-- Recovered in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
-- Recovered of covid in [World]{"entity": "en_world_region", "value": " World"}?
-- How many have recovered in [Oceania region]{"entity": "en_world_region", "value": "Oceania"}
-- How many recoveries to this date in [America continent]{"entity": "en_world_region", "value": "America"}?
-- [República da Bielorrússia]{"entity": "en_country_code", "value": "BY"} recoveries.
-- How many have recovered in [Reino de Espanha]{"entity": "en_country_code", "value": "ES"}?
-- How many people have recorvered in [Saint Kitts and Nevis]{"entity": "en_country_code", "value": "KN"}?
-- How many people recovered in [Germany]{"entity": "en_country_code", "value": "DE"}?
-- How many recovered in [Hayti]{"entity": "en_country_code", "value": "HT"}?
-- How many recoveries in [Tobago]{"entity": "en_country_code", "value": "TT"}?
-- How many recoveries to this date in [Burquina Fasso]{"entity": "en_country_code", "value": "BF"}?
-- Number of recovered in [Российская Федерация]{"entity": "en_country_code", "value": "RU"}.
-- Number of recoveries in [República de Costa Rica]{"entity": "en_country_code", "value": "CR"}.
-- Recovered [Ikwadur Ripuwlika]{"entity": "en_country_code", "value": "EC"}.
-- Recovered in [Burúndi]{"entity": "en_country_code", "value": "BI"}.
-- Recovered of covid in [Gâmbia]{"entity": "en_country_code", "value": "GM"}.
-- Recoveries in [Latvija]{"entity": "en_country_code", "value": "LV"}.
-- Recoveries of covid in [Pitcairn]{"entity": "en_country_code", "value": "PN"}.
-- Total number of recoveries in [Suomen tasavalta]{"entity": "en_country_code", "value": "FI"}.
-- how many recovered there are in [country of Bengal]{"entity": "en_country_code", "value": "BD"}?
+## intent:covid_situation_recovered
 
-## intent:en_covid_situation_tested
-- Total number of tested in [Europe community]{"entity": "en_world_region", "value": "Europe"}
-- How many tested in [Asia region]{"entity": "en_world_region", "value": "Asia"}
-- Tests in [Africa]{"entity": "en_world_region", "value": "Africa"}
-- Tests in [Antarctic]{"entity": "en_world_region", "value": "Antarctic"}
-- how many tests were done in [World]{"entity": "en_world_region", "value": " World"}?
-- How many tested in [Oceania region]{"entity": "en_world_region", "value": "Oceania"}
-- Total number of tested in [America continent]{"entity": "en_world_region", "value": "America"}?
-- [Lesotho]{"entity": "en_country_code", "value": "LS"} tested.
-- [République de Côte d'Ivoire]{"entity": "en_country_code", "value": "CI"} tests.
-- How many in [Serra Leoa]{"entity": "en_country_code", "value": "SL"} were tested?
-- How many people in [Tonga]{"entity": "en_country_code", "value": "TO"} were tested?
-- How many people was tested in [Uruguay]{"entity": "en_country_code", "value": "UY"}?
-- How many people were tested in [EUM]{"entity": "en_country_code", "value": "MX"}?
-- How many tested [República da Gâmbia]{"entity": "en_country_code", "value": "GM"}?
-- How many tested are in [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah]{"entity": "en_country_code", "value": "JO"}?
-- How many tested in [Република Србија]{"entity": "en_country_code", "value": "RS"}?
-- How many tests in [Ilhas Caimão]{"entity": "en_country_code", "value": "KY"}?
-- How many tests were made [Sudan]{"entity": "en_country_code", "value": "SD"}?
-- How many were tested in [Táiwān shěng]{"entity": "en_country_code", "value": "TW"}?
-- Tested in [São Bartolomeu]{"entity": "en_country_code", "value": "BL"}.
-- Tests in [República da Macedônia do Norte]{"entity": "en_country_code", "value": "MK"}
-- Total number of tested in [Puleʻanga Fakatuʻi ʻo Tonga]{"entity": "en_country_code", "value": "TO"}.
-- Total number of tests made in [Kıbrıs Cumhuriyeti]{"entity": "en_country_code", "value": "CY"}.
-- Total tested in [Cidade-Estado do Vaticano]{"entity": "en_country_code", "value": "VA"}.
-- Total tests in [Kingdom of Sweden]{"entity": "en_country_code", "value": "SE"}?
-- What is the number of tested in [Lețmō Vabāmō]{"entity": "en_country_code", "value": "LV"}?
-- how many tests were done in [Principado dos Vales de Andorra]{"entity": "en_country_code", "value": "AD"}?
+- "[Republik Österreich](en_country_code:AT) recoveries."
+- How many have recovered in [Matnik](en_country_code:MQ)?
+- How many people have recorvered in [Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa](en_country_code:ET)?
+- How many people recovered in [Hanguk](en_country_code:KR)?
+- How many recovered in [Republic of Cabo Verde](en_country_code:CV)?
+- How many recoveries in [Republic of Mali](en_country_code:ML)?
+- How many recoveries to this date in [Republic of Chile](en_country_code:CL)?
+- Number of recovered in [Commonwealth of Puerto Rico](en_country_code:PR).
+- Number of recoveries in [Schwiiz](en_country_code:CH).
+- Recovered [Mexican United States](en_country_code:MX).
+- Recovered in [Burúndi](en_country_code:BI).
+- Recovered of covid in [Guinea-Bissau](en_country_code:GW).
+- Recoveries in [Republica Democrática da Argélia](en_country_code:DZ).
+- Recoveries of covid in [Nova Caledónia](en_country_code:NC).
+- Total number of recoveries in [CNMI](en_country_code:MP).
+- how many recovered there are in [Reino do Bahrein](en_country_code:BH)?
 
-## intent:en_covid_surfaces
+## intent:covid_situation_tested
+
+- "[Nicaragua](en_country_code:NI) tested."
+- "[Ascension Island](en_country_code:SH) tests."
+- How many in [República Federal da Alemã](en_country_code:DE) were tested?
+- How many people in [Malta](en_country_code:MT) were tested?
+- How many people was tested in [Thailand](en_country_code:TH)?
+- How many people were tested in [Śrī Laṃkā](en_country_code:LK)?
+- How many test in covid 19 in [Republic of Peru](en_country_code:PE)
+- How many tested [Republic of North Macedonia](en_country_code:MK)?
+- How many tested are in [República do Equador](en_country_code:EC)?
+- How many tested in [al-Kuwait](en_country_code:KW)?
+- How many tests in [Bielorrússia](en_country_code:BY)?
+- How many tests were made [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](en_country_code:SY)?
+- How many were tested in [Território da Ilha Norfolque](en_country_code:NF)?
+- Tested in [Cameroun](en_country_code:CM).
+- Tests in [Porto Rico](en_country_code:PR)
+- Total number of tested in [Sénégal](en_country_code:SN).
+- Total number of tests made in [República de Trindade e Tobago](en_country_code:TT).
+- Total tested in [Ilhas Faroé](en_country_code:FO).
+- Total tests in [Union of the Comoros](en_country_code:KM)?
+- What is the number of tested in [Nainngandaw](en_country_code:MM)?
+- how many tests were done in [Wallis-et-Futuna](en_country_code:WF)?
+
+## intent:covid_surfaces
+
 - Coronavirus durability on surfaces.
 - Coronavirus durability surfaces.
 - Coronavirus survival surfaces.
 - Durability of the SARS-Cov-2 on surfaces.
 - Durability of the coronavirus on surfaces.
-- Durability of the [novel coronavirus](virus:COVID) on surfaces.
+- Durability of the novel coronavirus on surfaces.
 - Durability of the virus on surfaces.
 - For how long can the SARS-Cov-2 persist on surfaces?
 - For how long can the SARS-Cov-2 survive on surfaces?
 - For how long can the coronavirus persist on surfaces?
 - For how long can the coronavirus survive on surfaces?
-- For how long can the [novel coronavirus](virus:COVID) persist on surfaces?
-- For how long can the [novel coronavirus](virus:COVID) survive on surfaces?
+- For how long can the novel coronavirus persist on surfaces?
+- For how long can the novel coronavirus survive on surfaces?
 - For how long can the virus persist on surfaces?
 - For how long can the virus survive on surfaces?
+- Hello long does the virus spend on the surface
 - Horn long it live on surfaces?
 - How long can it survive
+- How long can the virus stay on surface
 - How long can the virus survive
 - How long does the SARS-Cov-2 persist on surfaces?
 - How long does the SARS-Cov-2 survive on surfaces?
-- How long does the SARS-Cov-2 that causes [COVID-19](virus:COVID) persist on surfaces?
-- How long does the SARS-Cov-2 that causes [COVID-19](virus:COVID) survives on surfaces?
+- How long does the SARS-Cov-2 that causes COVID-19 persist on surfaces?
+- How long does the SARS-Cov-2 that causes COVID-19 survives on surfaces?
 - How long does the coronavirus persist on surfaces?
 - How long does the coronavirus survive on surfaces?
-- How long does the coronavirus that causes [COVID-19](virus:COVID) persist on surfaces?
-- How long does the coronavirus that causes [COVID-19](virus:COVID) survives on surfaces?
-- How long does the [novel coronavirus](virus:COVID) persist on surfaces?
-- How long does the [novel coronavirus](virus:COVID) survive on surfaces?
-- How long does the [novel coronavirus](virus:COVID) that causes [COVID-19](virus:COVID) persist on surfaces?
-- How long does the [novel coronavirus](virus:COVID) that causes [COVID-19](virus:COVID) survives on surfaces?
+- How long does the coronavirus that causes COVID-19 persist on surfaces?
+- How long does the coronavirus that causes COVID-19 survives on surfaces?
+- How long does the novel coronavirus persist on surfaces?
+- How long does the novel coronavirus survive on surfaces?
+- How long does the novel coronavirus that causes COVID-19 persist on surfaces?
+- How long does the novel coronavirus that causes COVID-19 survives on surfaces?
+- How long does the virus last outside the host
 - How long does the virus persist on surfaces?
 - How long does the virus survive on surfaces?
-- How long does the virus that causes [COVID-19](virus:COVID) persist on surfaces?
-- How long does the virus that causes [COVID-19](virus:COVID) survives on surfaces?
+- How long does the virus that causes COVID-19 persist on surfaces?
+- How long does the virus that causes COVID-19 survives on surfaces?
 - How long may coronavirus persist on surfaces?
 - How long may coronavirus survive on surfaces?
 - How long may the SARS-Cov-2 persist on surfaces?
 - How long may the SARS-Cov-2 survive on surfaces?
 - How long may the coronavirus persist on surfaces?
 - How long may the coronavirus survive on surfaces?
-- How long may the [novel coronavirus](virus:COVID) persist on surfaces?
-- How long may the [novel coronavirus](virus:COVID) survive on surfaces?
+- How long may the novel coronavirus persist on surfaces?
+- How long may the novel coronavirus survive on surfaces?
 - How long may the virus persist on surfaces?
 - How long may the virus survive on surfaces?
 - How long the SARS-Cov-2 persist on surfaces?
 - How long the SARS-Cov-2 survive on surfaces?
 - How long the coronavirus persist on surfaces?
 - How long the coronavirus survive on surfaces?
-- How long the [novel coronavirus](virus:COVID) persist on surfaces?
-- How long the [novel coronavirus](virus:COVID) survive on surfaces?
+- How long the novel coronavirus persist on surfaces?
+- How long the novel coronavirus survive on surfaces?
 - How long the virus persist on surfaces?
 - How long the virus survive on surfaces?
+- How many days the virus can survive on different surface???
 - Novel coronavirus durability on surfaces.
 - Novel coronavirus durability surfaces.
 - Novel coronavirus survival surfaces.
@@ -3535,47 +3940,116 @@
 - does the virus survive on surfaces?
 - for how long can the virus survive in a plastic surface?
 - for how many hours does the virus survive on surfaces?
+- how long can the virus stay on surfaces
 
 ## intent:covid_symptoms
+
 - About the symptoms.
 - Am i having symptoms?
+- Bot! I would like to know the symptoms
+- Can chest, back and neck pain be symptoms of corona virus
+- Coronavirus has high fever symptoms or low fever symptoms
+- Do I have the virus
+- Do i have coronavirus symptoms
+- Does corona affect your heart
+- Does covid symptoms include vomiting
+- Gas formation in the stomach also a symptom of covid?
+- Good day I want to know if having a chest pain is one of the symptoms of
+  covid? Then what are the major symptoms of covid?
+- Head ache is a symptoms of covid
+- Headache nd back pain are symptoms of covid 19?
+- How can know if any body is suffering from covid 19
+- How do I know I have corona virus
+- How do you know that ur suffering from it
+- How does COVID-19 affect the body?
+- How symtoms for corona
+- How to know if one has the virus
+- Hw will I knw if I have covid 19/
+- I am 26 weaks pregnant,,, last 1 day I found than I cant smell properly, but i
+  dont have fever, cough, tiredness, and others, i can feel taste of salt, am i
+  affected by covid 19
 - I am having light fever, cough and my body is kind of hurting. Is that a
-  symptom of [Covid-19](virus:COVID)?
+  symptom of Covid-19?
 - I cannot taste my food
+- I feel burning in my chest ,is that a symptom of covid
+- I feel difficulty in breathing did i caught covid 19
+- I have a burning pain in my chest ,,is that a symptom of covid?
+- I have asked a symptom
 - I have throat ache and a running nose. Do I have corona?
 - I want to know about the symptoms
+- I want to know symtoms of covid 19
+- If a person has dry cough, Tiredness, fever it means that he has coronavirus
+- If i have only sore throat then its countable covid-19
+- If someone has cough and not fever it means he has coronavirus
+- If someone has no fever or cough or no symptoms, just a slight sore throat and
+  a little difficulty breathing can be corona
+- If we have only cough And breathing problems means I m suffer from covid
+- If you have pains in your throat does this mean you have covid 19
 - Info about the symptoms.
 - Information about the symptoms.
+- Is covid 1 9real if so wat re d symptoms
+- Is dry mouth and dry throat is a symptom of covid-19
+- Is dry throat and lung pain symptoms of corona
 - Is fever a sign of infection?
+- Is the throat pain also a symptom....? If fever and cough not in body...?
+- Is upper back and stabbing in chest is the symptom of covid19
+- Less common symptoms
+- Loss of taste and smell with a mild cough can be a corona virus
+- Most symptoms
+- Okay....cough and difficulty in breathing is not necessary corona right
 - On the symptoms.
+- Plz tell me symptoms of covid-19
 - Sign of infection.
+- Signs of covid 19
 - Signs of infection.
+- So what are the normal symptoms associated with corona virus
+- Sore chest is a symtom of covid
+- Sorry. If a person feels like He have Corona is it normal to feel Like that
+- Symptom
 - Symptoms
+- Symptoms of Corona Virus
+- Symptoms of corona ?
+- Symptoms of covid
+- Symptoms of the disease corona
+- Symptoms of the virus
+- Symtoms
+- Symtoms of corona
 - Tell me do I have corona
-- The symptoms of [COVID-19](virus:COVID).
+- The symptoms of COVID-19.
 - The symptoms of disease.
 - The symptoms of infection.
+- The symptoms of the virus
 - The symptoms.
+- Wat r d symtoms
+- Wat simptoms of virus?
+- What are some of the symptoms?
 - What are the indication of coronavirus
 - What are the indications of coronavirus
 - What are the most common symptoms ?
+- What are the signs for Corona virus
 - What are the symptom
-- What are the symptoms of [COVID-19](virus:COVID)?
-- What are the symptoms of [COVID19](virus:COVID)?
+- What are the symptoms and how it spread
+- What are the symptoms of COVID-19?
+- What are the symptoms of COVID19?
 - What are the symptoms of disease?
 - What are the symptoms of infection?
 - What are the symptoms?
+- What are the symptons for corona
+- What can do after corona symptoms like low fever normal cold
+- What is first symptom of covid 19
 - What might be signs of infection?
 - What might be symptoms of infection?
 - What might be the signs of infection?
 - What might be the symptoms of infection?
+- What sighs of Corona?
 - What symptoms appear?
-- What symptoms are related with the [COVID-19](virus:COVID)?
+- What symptoms are related with the COVID-19?
 - What symptoms are related with the disease?
 - What symptoms are related with the infection?
 - What symptoms should I look for?
+- What's the symptoms of covid-19
 - Where can I find information about symptoms?
-- Which are the symptoms of [COVID-19](virus:COVID)?
+- Which are the symptoms of COVID-19?
 - Which are the symptoms of disease?
 - Which are the symptoms of infection?
 - Which are the symptoms?
@@ -3583,16 +4057,18 @@
 - Which might be symptoms of infection?
 - Which might be the signs of infection?
 - Which might be the symptoms of infection?
+- Which signs of Corona?
 - Which symptoms appear?
-- Which symptoms are known about [Covid19](virus:COVID)?
-- Which symptoms are related with the [COVID-19](virus:COVID)?
+- Which symptoms are known about Covid19?
+- Which symptoms are related with the COVID-19?
 - Which symptoms are related with the disease?
 - Which symptoms are related with the infection?
 - Who catches the virus develop which symptoms?
-- Would you like to learn more about the effects of [COVID-19](virus:COVID)?
+- Would you like to learn more about the effects of COVID-19?
 - can I self diagnose?
 - can you tell me the synthoms?
 - cough
+- do I have covid if I sneeze a lot
 - hi, what are the main symptoms?
 - how can I test myself
 - how do I know I have it
@@ -3605,26 +4081,37 @@
 - what about sore muscles
 - what are symptoms of covid-19
 - what are the main symptoms?
+- what are the signs of infection?
+- what are the symptoms about covid 19
+- what happens once I'm infected?
 - what if I my ears ache
 - what's is the syntoms?
+- ɪғ ʏᴏᴜʀ ᴄʜᴇsᴛ ɪs sᴏʀᴇ ɪs ᴛʜᴀᴛ ᴀ sʏᴍᴛᴏᴍ ᴏғ ᴄᴏʀᴏɴᴀ
 
 ## intent:covid_treatment
+
 - Does Covid have a treatment?
 - How is the disease treated?
+- I was told diseases caused by virus are not treated completely live HIV/AIDS
+  how come covid-19is treated
 - Is there a treatment?
 - Treatment
 
 ## intent:covid_worry
+
 - And if I catch the virus?
 - Do you think am being silly I do worry
 - Hello Helen I am worry about the virus like everyone else. I had a runny nose
   and eyes a cough but not constant. I have not been out out since Dec am I
   worrying about nothing and being silly
+- How to deal with depression?
 - How to proceed about concerns about the disease.
 - How to proceed about concerns about the outbreak.
 - How to proceed about concerns about the virus.
 - I am afraid that I catch corona
 - I feel bad
+- I have to worry
+- I know madam very sad
 - I'm sad
 - Is corona virus dangerous?
 - I’m afraid my family cat the virus.
@@ -3639,29 +4126,37 @@
 - I’m worried about the outbreak.
 - I’m worried about the virus.
 - I’m worried.
-- Should I concern about [COVID-19](virus:COVID)?
+- Ok this virus change everything its bad
+- Please pray all world
+- Should I concern about COVID-19?
 - Should I concern about the disease?
 - Should I concern about the outbreak?
 - Should I concern about the virus?
-- Should I worry about [COVID-19](virus:COVID)?
+- Should I worry about COVID-19?
 - Should I worry about the disease?
 - Should I worry about the outbreak?
 - Should I worry about the virus?
+- So we have a group with drama. So how can be helped to take it through
+- This sad
 - What to do if I feel bad?
 - What to do to channel the concerns?
 - What to do to channel the fear?
 - What to do to channel the worry?
+- Yes you are absolutely correct this time our world is very critical condition
+  sorry
 - empathy
 - should I be concerned with the virus?
 - will I die
 
 ## intent:economy_consequences
+
 - Can you answer questions economy related?
 - Economy
 - Economy consequences
-- What is the impact of this pandemic on the [World]{"entity": "en_world_region", "value": "World"}'s economy?
+- What is the impact of this pandemic on the world's economy?
 
 ## intent:features_date
+
 - Can you tell me the date of today?
 - Can you tell me the date?
 - Can you tell me the day of today?
@@ -3729,6 +4224,7 @@
 - Which is the date?
 
 ## intent:features_time
+
 - Can you tell me the hours?
 - Can you tell me the time it is?
 - Can you tell me the time?
@@ -3778,66 +4274,103 @@
 - tell me what time it is.
 
 ## intent:greeting_goodbye
+
 - Adieu.
 - Adios.
 - Au revoir.
+- By Helen
 - Bye bye.
+- Bye have a nice day
 - Bye now.
 - Bye.
 - Cya.
 - Farewell.
+- Go and sleep
 - Going.
+- Good bye have a nice day
 - Good bye.
 - Good night.
 - Goodbye.
 - Got to go.
 - Got to run.
 - Have a nice day.
+- Have a nice tym and a good day bye 🙋
 - Have to go.
 - Have to leave.
 - Have to run.
 - I am going to sleep.
 - I have to go now.
+- I just wanted to say hi see you Tomorrow morning
 - I look forward to chatting you again.
+- I said good bye
 - I said goodbye.
 - I should be going.
 - I should go.
+- I'm done
 - I'm gone.
 - I'm leaving.
 - It is nice to meet you.
 - It was nice talking to you.
 - I’m going.
+- K tanks bye
 - Later.
 - Laters.
 - Logging off.
+- Maybe later
 - My time is up.
 - Need to go.
 - Need to leave.
 - Need to run.
+- Nothing! B bye have a good day 🙂
+- OK Helen, have a nice day
+- OK thanks bye
 - Ok bye.
+- Ok have nice time
+- Ok thanks I will get back to u shortly
+- Ok thanks bye bye!
+- Ok thnxs bye
+- Ok,good night
+- Okay bye
+- Okay i will visit you later
+- Okay thanks goodbye
+- Okay then good bye friend!.
+- Okay, thanks bye
 - Over and out.
 - See you later alligator.
 - See you later.
 - See you soon.
 - See you tomorrow.
 - See you.
+- Shut down
 - Shutdown.
 - Signing off.
 - Signing out.
 - So long.
 - Take care.
 - Talk to you soon.
+- Thank you... Good night
+- Thanks bye
 - Thanks bye bye.
+- Thanks you Good night
 - That's it! Have a nice day!
 - Then bye.
 - Time to go.
+- You may leave
+- You too bye
+- You too have a very nice and good day
+- nothing, bye felicia.
+- ok bye have a nice day thank you...
+- see you Tomorrow morning
 - that's it for today
+- to morrow i will ask you
 
 ## intent:greeting_hello
+
 - Aloha!
 - Bonjour!
 - Call me buddy.
 - Ciao!
+- Cosibot hi
 - Get Started
 - Good Afternoon.
 - Good Day.
@@ -3845,35 +4378,45 @@
 - Good Morning.
 - Good morning, Helen!
 - Greetings.
+- Gud morning
 - Hello Helen
 - Hello I am.
 - Hello bot.
 - Hello chatbot.
+- Hello my Friend
 - Hello robot.
+- Hello sir
 - Hello there
 - Hello you.
 - Hello!
-- Hello,  My name is goldee
+- Hello, My name is goldee
 - Hello, Helen. Good afternoon.
 - Hello, my name is.
 - Hey bot.
 - Hey chatbot.
+- Hey hi
 - Hey robot.
 - Hey there!
 - Hey you.
 - Hey.
+- Hi GuD after noon
 - Hi Helen
+- Hi Sweety!
 - Hi bot!
 - Hi friend !
+- Hi good evening
 - Hi robot!
 - Hi there!
 - Hi!
 - Hi, I am.
 - Hi, I'm Paulo
 - Hi, my name is.
+- Hii
 - Howdy!
 - Morning!
 - My Name is .
+- My name is
+- My name is Pankaj Tandia
 - Nice to meet you!
 - Shalom!
 - halo
@@ -3882,19 +4425,23 @@
 - hi Ellen
 
 ## intent:greeting_how_are_you
+
 - Are you OK?
 - Are you doing alright?
 - Are you doing well?
 - Are you fine?
 - Good afternoon, Helen! How are you?
 - Have you been well?
+- Helen how are you?
 - Hello Helen! How are you?
+- Hello How ore you doing How is life
 - Hello how are you doing
 - Hello, how are you?
 - Hi Helen! How you doing?
 - Hi there how are you
 - Hi, how are you?
 - How are things?
+- How are you Helen
 - How are you dear
 - How are you doing today?
 - How are you doing?
@@ -3910,14 +4457,17 @@
 - How has been your day?
 - How has your day been?
 - How's it going?
+- How's your life to day'?
 - I hope you are well.
 - Is everything OK?
 - Is everything all right?
 - Is everything alright?
 - Just wanted to ask how you are today.
+- What are u?
 - What is up?
 - What up
 - What's up?
+- What's up😏
 - Whats up?
 - are you
 - book how are you
@@ -3925,6 +4475,8 @@
 - how am i?
 
 ## intent:mask_general
+
+- And here putting on a musk is compulsory
 - Can i wear a disposable mask?
 - Can i wear a mask?
 - Can i wear a medical mask?
@@ -3935,12 +4487,14 @@
 - Disposable medical mask.
 - Disposable medical masks.
 - How I can use mask?
+- How does a facemask prevent the spread?
 - Info disposable mask.
 - Info mask.
 - Info medical mask.
 - Is it ok to use mask?
 - Is it ok yto use mask?
 - Is it okay to wear mask
+- Is wearing face mask is preventive from this virus?
 - Mask.
 - Masks.
 - Medical disposable mask.
@@ -3957,6 +4511,8 @@
 - Should i wear a mask?
 - Should i wear a medical mask to protect myself?
 - Should i wear a medical mask?
+- Thank you! What about masks?
+- We are supposed to wear a mask but which type of should we used?
 - What do you think about medical masks?
 - When can I use a mask?
 - When can i wear a disposable mask.
@@ -3978,18 +4534,25 @@
 - about masks
 - do masks help?
 - do medical masks help
+- does wearing face mask prevent it
 - how about masks?
 - masks prevention covid
+- may i wear a mask
+- oh k could you please state the current guideline on the use of face masks?
 - should I use gloves?
 - should i use masks?
+- tell me about the masks
 - wearing a mask prevents covid?
 - what is the best face mask against corona
+- what is the recommend mask?
 - what mask prevents the virus?
 - when should I use a mask
 - when to use masks?
 - where can i get material to protect me?
+- which is the best mask?
 
 ## intent:mask_use_after
+
 - After wearing a disposable mask.
 - After wearing a mask.
 - After wearing a medical mask.
@@ -4002,6 +4565,7 @@
 - Getting rid of a used disposable mask.
 - Getting rid of a used mask.
 - Getting rid of a used medical mask.
+- How to Dispose of a ...
 - How to Dispose of a Mask
 - How to discard a disposable mask?
 - How to discard a mask?
@@ -4022,10 +4586,14 @@
 - What to do to a used mask?
 - What to do to a used medical mask?
 - dispose
+- how should I remote the masks?
+- how should I take my mask away?
+- how should I take out a mask?
 - how to dispose it?
 - how to dispose the mask?
 
 ## intent:mask_use_put
+
 - Before putting on a disposable mask.
 - Before putting on a mask.
 - Before putting on a medical mask.
@@ -4069,6 +4637,7 @@
 - Putting on a disposable mask.
 - Putting on a mask.
 - Putting on a medical mask.
+- Teach me how to maitain en use a mask
 - Wearing a disposable mask.
 - Wearing a mask.
 - Wearing a medical mask.
@@ -4085,10 +4654,11 @@
 - which is the correct way to use a mask?
 
 ## intent:myth_alcohol
+
 - Alcohol all over the body.
 - Alcohol on all the body.
-- Can spraying alcohol all over your body kill the [new coronavirus](virus:COVID)?
-- Can spraying chlorine all over your body kill the [new coronavirus](virus:COVID)?
+- Can spraying alcohol all over your body kill the new coronavirus?
+- Can spraying chlorine all over your body kill the new coronavirus?
 - Spraying alcohol all over the body kill the virus.
 - Spraying alcohol.
 - Spraying chlorine all over the body kill the virus.
@@ -4099,84 +4669,92 @@
 - if I cover myself in alcohol the virus will leave
 
 ## intent:myth_cold_weather
-- Can cold snow kill the [COVID-19](virus:COVID)?
-- Can cold snow kill the [COVID](virus:COVID) ?
-- Can cold snow kill the [SARS-CoV-2](virus:COVID)?
-- Can cold snow kill the [new coronavirus](virus:COVID)?
-- Can cold snow kill the [novel coronavirus](virus:COVID)?
-- Can cold weather and snow kill the [COVID-19](virus:COVID)?
-- Can cold weather and snow kill the [COVID](virus:COVID) ?
-- Can cold weather and snow kill the [SARS-CoV-2](virus:COVID)?
-- Can cold weather and snow kill the [new coronavirus](virus:COVID)?
-- Can cold weather and snow kill the [novel coronavirus](virus:COVID)?
-- Can cold weather kill the [COVID-19](virus:COVID)?
-- Can cold weather kill the [COVID](virus:COVID) ?
-- Can cold weather kill the [SARS-CoV-2](virus:COVID)?
-- Can cold weather kill the [new coronavirus](virus:COVID)?
-- Can cold weather kill the [novel coronavirus](virus:COVID)?
-- Cold weather effective against the [COVID-19](virus:COVID).
-- Cold weather effective against the [COVID](virus:COVID) .
-- Cold weather effective against the [SARS-CoV-2](virus:COVID).
-- Cold weather effective against the [new coronavirus](virus:COVID).
-- Cold weather effective against the [novel coronavirus](virus:COVID).
-- Cold weather kill the [COVID-19](virus:COVID).
-- Cold weather kill the [COVID](virus:COVID) .
-- Cold weather kill the [SARS-CoV-2](virus:COVID).
-- Cold weather kill the [new coronavirus](virus:COVID).
-- Cold weather kill the [novel coronavirus](virus:COVID).
-- Snow effective against the [COVID-19](virus:COVID).
-- Snow effective against the [COVID](virus:COVID) .
-- Snow effective against the [SARS-CoV-2](virus:COVID).
-- Snow effective against the [new coronavirus](virus:COVID).
-- Snow effective against the [novel coronavirus](virus:COVID).
-- Snow kill the [COVID-19](virus:COVID).
-- Snow kill the [COVID](virus:COVID) .
-- Snow kill the [SARS-CoV-2](virus:COVID).
-- Snow kill the [new coronavirus](virus:COVID).
-- Snow kill the [novel coronavirus](virus:COVID).
+
+- Can cold snow kill the COVID-19?
+- Can cold snow kill the COVID?
+- Can cold snow kill the SARS-CoV-2?
+- Can cold snow kill the new coronavirus?
+- Can cold snow kill the novel coronavirus?
+- Can cold weather and snow kill the COVID-19?
+- Can cold weather and snow kill the COVID?
+- Can cold weather and snow kill the SARS-CoV-2?
+- Can cold weather and snow kill the new coronavirus?
+- Can cold weather and snow kill the novel coronavirus?
+- Can cold weather kill the COVID-19?
+- Can cold weather kill the COVID?
+- Can cold weather kill the SARS-CoV-2?
+- Can cold weather kill the new coronavirus?
+- Can cold weather kill the novel coronavirus?
+- Cold weather effective against the COVID-19.
+- Cold weather effective against the COVID.
+- Cold weather effective against the SARS-CoV-2.
+- Cold weather effective against the new coronavirus.
+- Cold weather effective against the novel coronavirus.
+- Cold weather kill the COVID-19.
+- Cold weather kill the COVID.
+- Cold weather kill the SARS-CoV-2.
+- Cold weather kill the new coronavirus.
+- Cold weather kill the novel coronavirus.
+- Snow effective against the COVID-19.
+- Snow effective against the COVID.
+- Snow effective against the SARS-CoV-2.
+- Snow effective against the new coronavirus.
+- Snow effective against the novel coronavirus.
+- Snow kill the COVID-19.
+- Snow kill the COVID.
+- Snow kill the SARS-CoV-2.
+- Snow kill the new coronavirus.
+- Snow kill the novel coronavirus.
 
 ## intent:myth_hot_bath
+
 - Does heat kill coronvirus
-- Does taking a hot bath prevent the [COVID](virus:COVID) disease?
-- Does taking a hot bath prevent the [COVID-19](virus:COVID) disease?
-- Does taking a hot bath prevent the [COVID-19](virus:COVID)?
-- Does taking a hot bath prevent the [COVID](virus:COVID) ?
-- Does taking a hot bath prevent the [SARS-CoV-2](virus:COVID) virus?
-- Does taking a hot bath prevent the [SARS-CoV-2](virus:COVID)?
-- Does taking a hot bath prevent the [new coronavirus](virus:COVID) disease?
-- Does taking a hot bath prevent the [new coronavirus](virus:COVID)?
+- Does taking a hot bath prevent the COVID disease?
+- Does taking a hot bath prevent the COVID-19 disease?
+- Does taking a hot bath prevent the COVID-19?
+- Does taking a hot bath prevent the COVID?
+- Does taking a hot bath prevent the SARS-CoV-2 virus?
+- Does taking a hot bath prevent the SARS-CoV-2?
+- Does taking a hot bath prevent the new coronavirus disease?
+- Does taking a hot bath prevent the new coronavirus?
 - Does the heat kill the virus?
-- Hot bath kill the [COVID](virus:COVID) disease.
-- Hot bath kill the [COVID-19](virus:COVID) disease.
-- Hot bath kill the [COVID-19](virus:COVID).
-- Hot bath kill the [COVID](virus:COVID) .
-- Hot bath kill the [SARS-CoV-2](virus:COVID) virus.
-- Hot bath kill the [SARS-CoV-2](virus:COVID).
-- Hot bath kill the [new coronavirus](virus:COVID) disease.
-- Hot bath kill the [new coronavirus](virus:COVID).
+- Hot bath kill the COVID disease.
+- Hot bath kill the COVID-19 disease.
+- Hot bath kill the COVID-19.
+- Hot bath kill the COVID.
+- Hot bath kill the SARS-CoV-2 virus.
+- Hot bath kill the SARS-CoV-2.
+- Hot bath kill the new coronavirus disease.
+- Hot bath kill the new coronavirus.
 - Hot bath kill the virus.
 - Hot bath prevention.
-- Hot bath prevents against the [COVID](virus:COVID) disease.
-- Hot bath prevents against the [COVID-19](virus:COVID) disease.
-- Hot bath prevents against the [COVID-19](virus:COVID).
-- Hot bath prevents against the [COVID](virus:COVID) .
-- Hot bath prevents against the [SARS-CoV-2](virus:COVID) virus.
-- Hot bath prevents against the [SARS-CoV-2](virus:COVID).
-- Hot bath prevents against the [new coronavirus](virus:COVID) disease.
-- Hot bath prevents against the [new coronavirus](virus:COVID).
-- Hot bath prevents the [COVID](virus:COVID) disease.
-- Hot bath prevents the [COVID-19](virus:COVID) disease.
-- Hot bath prevents the [COVID-19](virus:COVID).
-- Hot bath prevents the [COVID](virus:COVID) .
-- Hot bath prevents the [SARS-CoV-2](virus:COVID) virus.
-- Hot bath prevents the [SARS-CoV-2](virus:COVID).
-- Hot bath prevents the [new coronavirus](virus:COVID) disease.
-- Hot bath prevents the [new coronavirus](virus:COVID).
+- Hot bath prevents against the COVID disease.
+- Hot bath prevents against the COVID-19 disease.
+- Hot bath prevents against the COVID-19.
+- Hot bath prevents against the COVID.
+- Hot bath prevents against the SARS-CoV-2 virus.
+- Hot bath prevents against the SARS-CoV-2.
+- Hot bath prevents against the new coronavirus disease.
+- Hot bath prevents against the new coronavirus.
+- Hot bath prevents the COVID disease.
+- Hot bath prevents the COVID-19 disease.
+- Hot bath prevents the COVID-19.
+- Hot bath prevents the COVID.
+- Hot bath prevents the SARS-CoV-2 virus.
+- Hot bath prevents the SARS-CoV-2.
+- Hot bath prevents the new coronavirus disease.
+- Hot bath prevents the new coronavirus.
 - can hot water kill the virus?
 
+## intent:myth_garlic
+
+- Garlic prevents
+- eating garlic will protect me against the virus?
+
 ## intent:myth_packages
-- Is it safe to receive a letter from any area where [COVID-19](virus:COVID) has been reported?
-- Is it safe to receive a package from any area where [COVID-19](virus:COVID) has been reported?
+
+- Is it safe to receive a letter from any area where COVID-19 has been reported?
+- Is it safe to receive a package from any area where COVID-19 has been reported?
 - Packages from infected areas.
 - Packages from infected countries.
 - Packages infected.
@@ -4190,26 +4768,27 @@
 - letters with virus.
 
 ## intent:myth_transmission_hot_areas
-- [COVID](virus:COVID) transmission in areas with hot and humid climates.
-- [COVID](virus:COVID) transmission in areas with hot climates.
-- [COVID](virus:COVID) transmission in hot and humid areas.
-- [COVID](virus:COVID) transmission in hot areas.
-- [COVID-19](virus:COVID) transmission in areas with hot and humid climates.
-- [COVID-19](virus:COVID) transmission in areas with hot climates.
-- [COVID-19](virus:COVID) transmission in hot and humid areas.
-- [COVID-19](virus:COVID) transmission in hot areas.
-- Can the [COVID](virus:COVID) virus be transmitted in areas with hot and humid climates?
-- Can the [COVID](virus:COVID) virus be transmitted in areas with hot climates?
-- Can the [COVID](virus:COVID) virus be transmitted in hot and humid areas?
-- Can the [COVID](virus:COVID) virus be transmitted in hot areas?
-- Can the [COVID-19](virus:COVID) virus be transmitted in areas with hot and humid climates?
-- Can the [COVID-19](virus:COVID) virus be transmitted in areas with hot climates?
-- Can the [COVID-19](virus:COVID) virus be transmitted in hot and humid areas?
-- Can the [COVID-19](virus:COVID) virus be transmitted in hot areas?
-- Can the [SARS-CoV-2](virus:COVID) be transmitted in areas with hot and humid climates?
-- Can the [SARS-CoV-2](virus:COVID) be transmitted in areas with hot climates?
-- Can the [SARS-CoV-2](virus:COVID) be transmitted in hot and humid areas?
-- Can the [SARS-CoV-2](virus:COVID) be transmitted in hot areas?
+
+- COVID transmission in areas with hot and humid climates.
+- COVID transmission in areas with hot climates.
+- COVID transmission in hot and humid areas.
+- COVID transmission in hot areas.
+- COVID-19 transmission in areas with hot and humid climates.
+- COVID-19 transmission in areas with hot climates.
+- COVID-19 transmission in hot and humid areas.
+- COVID-19 transmission in hot areas.
+- Can the COVID virus be transmitted in areas with hot and humid climates?
+- Can the COVID virus be transmitted in areas with hot climates?
+- Can the COVID virus be transmitted in hot and humid areas?
+- Can the COVID virus be transmitted in hot areas?
+- Can the COVID-19 virus be transmitted in areas with hot and humid climates?
+- Can the COVID-19 virus be transmitted in areas with hot climates?
+- Can the COVID-19 virus be transmitted in hot and humid areas?
+- Can the COVID-19 virus be transmitted in hot areas?
+- Can the SARS-CoV-2 be transmitted in areas with hot and humid climates?
+- Can the SARS-CoV-2 be transmitted in areas with hot climates?
+- Can the SARS-CoV-2 be transmitted in hot and humid areas?
+- Can the SARS-CoV-2 be transmitted in hot areas?
 - Can the coronavirus be transmitted in areas with hot and humid climates?
 - Can the coronavirus be transmitted in areas with hot climates?
 - Can the coronavirus be transmitted in hot and humid areas?
@@ -4227,18 +4806,18 @@
 - Coronavirus transmission in hot and humid areas.
 - Coronavirus transmission in hot areas.
 - Do you belive a dry climate could ease the virus?
-- Does the [COVID](virus:COVID) virus transmit in areas with hot and humid climates?
-- Does the [COVID](virus:COVID) virus transmit in areas with hot climates?
-- Does the [COVID](virus:COVID) virus transmit in hot and humid areas?
-- Does the [COVID](virus:COVID) virus transmit in hot areas?
-- Does the [COVID-19](virus:COVID) virus transmit in areas with hot and humid climates?
-- Does the [COVID-19](virus:COVID) virus transmit in areas with hot climates?
-- Does the [COVID-19](virus:COVID) virus transmit in hot and humid areas?
-- Does the [COVID-19](virus:COVID) virus transmit in hot areas?
-- Does the [SARS-CoV-2](virus:COVID) transmit in areas with hot and humid climates?
-- Does the [SARS-CoV-2](virus:COVID) transmit in areas with hot climates?
-- Does the [SARS-CoV-2](virus:COVID) transmit in hot and humid areas?
-- Does the [SARS-CoV-2](virus:COVID) transmit in hot areas?
+- Does the COVID virus transmit in areas with hot and humid climates?
+- Does the COVID virus transmit in areas with hot climates?
+- Does the COVID virus transmit in hot and humid areas?
+- Does the COVID virus transmit in hot areas?
+- Does the COVID-19 virus transmit in areas with hot and humid climates?
+- Does the COVID-19 virus transmit in areas with hot climates?
+- Does the COVID-19 virus transmit in hot and humid areas?
+- Does the COVID-19 virus transmit in hot areas?
+- Does the SARS-CoV-2 transmit in areas with hot and humid climates?
+- Does the SARS-CoV-2 transmit in areas with hot climates?
+- Does the SARS-CoV-2 transmit in hot and humid areas?
+- Does the SARS-CoV-2 transmit in hot areas?
 - Does the coronavirus transmit in areas with hot and humid climates?
 - Does the coronavirus transmit in areas with hot climates?
 - Does the coronavirus transmit in hot and humid areas?
@@ -4253,10 +4832,10 @@
 - Does the virus transmit in hot and humid areas?
 - Does the virus transmit in hot areas?
 - Hot climates.
-- [SARS-CoV-2](virus:COVID) transmission in areas with hot and humid climates.
-- [SARS-CoV-2](virus:COVID) transmission in areas with hot climates.
-- [SARS-CoV-2](virus:COVID) transmission in hot and humid areas.
-- [SARS-CoV-2](virus:COVID) transmission in hot areas.
+- SARS-CoV-2 transmission in areas with hot and humid climates.
+- SARS-CoV-2 transmission in areas with hot climates.
+- SARS-CoV-2 transmission in hot and humid areas.
+- SARS-CoV-2 transmission in hot areas.
 - Spread hot climates.
 - Transmission in areas with hot and humid climates.
 - Transmission in areas with hot climates.
@@ -4277,20 +4856,33 @@
 - the disease-19 transmission in hot areas.
 
 ## intent:myths_conspiracy_fakenews
+
 - And are the myths associated with the virus?
+- But covid ain't real is it
 - Conspiracies
 - Conspiracy
+- Covid in Nigeria,it a scam
+- Fake
 - Fake news
 - Fakenews
+- Information
+- Is covid a myth?
+- Is the disease real
 - Myth
 - Myths
+- Now how can I also help to teach the nation about this covid19
 - Okay. What are the myths associated to this virus?
+- They told us that if you eat the fruits like lemons there is a way it fight it.
+- What about myths?
 - What are the myths about coronavirus?
 - what are the myths?
 
 ## intent:prevention_clean_hands
+
 - About cleaning hands.
 - About washing hands.
+- By washing hands
+- By washing our hands
 - Clean hands
 - Clean hands prevention
 - Cleaning hands
@@ -4301,6 +4893,7 @@
   infected?
 - Cleaning my hands with soap will reduce my chances of being infected?
 - Do you think washing your hands is enough?
+- How can one wash hands correctly?
 - How important is to have hands clean?
 - How important is to have hands washed?
 - Importance of cleaning hands.
@@ -4313,9 +4906,11 @@
 - Washing hands will prevent from catching the disease?
 - Washing hands will prevent from catching the virus?
 - Washing my hands with soap will reduce my chances of being infected?
+- We use water and soap
 - Why clean hands regularly?
 - Why clean hands?
 - Why cleaning hands is important?
+- Why do we have to wash hands
 - Why wash hands regularly?
 - Why wash hands?
 - Why washing hands is important?
@@ -4327,14 +4922,20 @@
 - when should I wash my hands?
 
 ## intent:prevention_disinfection
+
 - How to disinfect things?
+- What about using sanitizer?
 - What to use as disinfectant?
 
 ## intent:prevention_distance
+
 - Distance from people coughing or sneezing.
 - Distance from people coughing.
 - Distance from people sneezing.
 - Distance from people.
+- Evaluate the covid 19 lock down regulation of social distancing as personal
+  safety measure to prevent the corona virus infection
+- How best can social distancing be promoted?
 - How far is a safe distance from people coughing or sneezing?
 - How far is a safe distance from people coughing?
 - How far is a safe distance from people sneezing?
@@ -4346,6 +4947,8 @@
 - How far should I be from someone who’s coughing or sneezing?
 - How far should I be from someone who’s coughing?
 - How far should I be from someone who’s sneezing?
+- How much distance we should maintain
+- How much distance maintain from one person to another person.?
 - Preventive distance.
 - Safe distance from people coughing or sneezing.
 - Safe distance from people coughing.
@@ -4356,60 +4959,112 @@
 - Safe distance from people.
 - Safe distance.
 - distance between persons
+- safety distance
+- should I stay away from people?
+- which is the safety distance recommended?
 
 ## intent:prevention_general
+
 - Alright. What are the preventing measures?
 - Could you tell me about preventive measures?
+- Fine what are the preventive measures
+- Hello madam namshkar Please tell me how can control the virus
+- Hmm so how can i prevent my self
 - How I avoid the virus?
+- How I prevent covide 19
+- How can I Save covid 19
+- How can I prevent my self from covid19
+- How can I prevent the spread of covid
 - How can I prevent the transmission?
+- How can I protect myself from covid.19
+- How can I. Save from this crorona virus
+- How can avoid virus
 - How can i prevent it?
 - How can i protect?
+- How can i protection the corona
+- How can someone prevent this virus
+- How can we prevent convid 19
+- How can we prevent it
+- How can we prevent our self
 - How can we prevent the spreading?
+- How can we prevent this padamic
+- How do I prevent the spread
+- How many are discharge How to prevent it
+- How should get save of the disease
 - How to avoid virus
+- How to control Corona virus
+- How to prevent
+- How to prevent it
+- How to prevent the spread of corona virus
+- How to prevent the spreading
+- How to prevent the virus
+- How to prevent virus
+- How to protect yourself from getting Coronavirus?
 - How to reduce the chances of being infected?
 - How to reduce the chances of spreading the disease?
 - How to reduce the chances of spreading the virus?
 - How to survive PANDEMIA?
+- How we cam take precautions
+- Hw is the measures
 - I want to know how to prevent the disease
+- I want toi no how to protect my self
 - I was wondering if you could tell me how I can protect myself from the virus
 - I'm not positive! But my area's person will positive
+- If I frequently use lemons and ginger, will I be in position to defeat the
+  virus?
 - It's alright. So what are the preventive measures?
-- It's fine  Thanks so how can I prevent it now
+- It's fine Thanks so how can I prevent it now
+- List 200 ways,we can prevent it
 - Measures
 - Measures prevention.
+- Ok and what is the preventive
+- Ok preventive measures
 - Precautions to prevent.
 - Precautions to protect.
 - Precautions to take.
+- Prevent measures
 - Prevention of infection.
 - Prevention.
+- Preventive measure
+- Preventive measures list me
 - Preventive measures to protect from the virus.
 - Preventive measures.
 - Preventive measurs
+- Preventive meseaures
 - Protection measures to prevent the disease.
 - Protection measures.
 - Protection of infection.
 - Protective measures.
+- So tell me what to do pls
+- Tell me about how to prevent
 - Tell me about preventive measures
 - Thank you. How can we prevent the spreading?
+- What are the prevent measure of the virus
 - What are the preventing measures?
 - What can I do to prevent the spread of disease?
 - What can I do to protect myself and prevent the spread of disease?
 - What can I do to protect myself?
 - What is the main prevention ot this virus??
+- What should we do to take care of ourself
 - What to do to prevent the spread of disease?
 - What to do to protect from the virus?
 - What to do to protect myself from the virus?
 - Which precautions should be taken?
-- hello  how should I protect myself
+- Yes I'm asking about how can i prevent myself from covid19
+- Yes, what is the very important measure to prevent covid
+- hello how should I protect myself
 - how about preventive measures
 - how can I protect myself
 - how can I protect myself from the corona virus
 - how can i fight covid-19
+- how can i protect my self
 - how can we fight coronavirus
 - how do I prevent from getting a virus
 - how do I stay safe
+- how to get ride of early stages of corona
 - how to protect against the virus
 - prevent
+- preventive measures against covid
 - preventive mesures
 - what are preventive measures
 - what are some preventive measures?
@@ -4423,14 +5078,24 @@
 - what's the preventive measures
 
 ## intent:prevention_home
+
 - Am I doing well if I stay at home?
 - Am I doing well if I stay home?
+- Am coughing what can I do
+- Have fever cough
+- Hello myself Debabrata last three days my body temperature belongs to 97 to 99
+  without running nose, cough n cold or any throat pain. What should I do
+- Hello... I am having sore throat from past 17 days...
+- Hii madam I had throt irritation from last 10 days
+- I am coughing
 - I am feeling sick
 - I don't have a cough.
 - I feel a bit ill, should I stay at home?
 - I feel a bit ill, should I stay home?
+- I feel pain in may leg and back and weakness
 - I have a temperature
 - I have diarrhea
+- I have love fever with temperature 38°c
 - I have mild symptoms of illness, should I stay at home?
 - I have mild symptoms of illness, should I stay home?
 - I just have mild symptoms, should I stay at home?
@@ -4439,18 +5104,26 @@
 - I think I'm sick
 - If I feel unwell should I stay at home?
 - If I feel unwell should I stay home?
+- If I have covid 19 what do I need to do
 - If I have sore throat, is that alarmant ?
+- If someone have covid 19 What should I do
+- If someone is feeling tired and has cough
 - In which circumstances should I stay at home?
 - In which circumstances should I stay home?
+- My chest is tight nose runining and eyes burning what do I do
 - Should I stay at home if I feel a little ill?
 - Should I stay at home if I feel unwell?
 - Should I stay at home?
 - Should I stay home if I feel a little ill?
 - Should I stay home if I feel unwell?
 - Should I stay home?
+- So i m having cold
 - Stay at home.
+- Stay home Stay safety
 - Stay home.
 - What helps if I have fiver?
+- What if I get now the virus , what are the first steps I can use before
+  visting health center
 - What if I only have sore throat
 - What if my stomach aches
 - When to stay at home.
@@ -4466,6 +5139,7 @@
 - you're right I am feeling sick
 
 ## intent:prevention_informed
+
 - Follow the news.
 - Is it important to follow the news?
 - It is important to stay informed?
@@ -4474,11 +5148,11 @@
 - Should I follow regularly the news about the virus?
 - Should I follow the news about the virus?
 - Should I follow the news regularly?
-- Should I follow the news related to the [COVID-19](virus:COVID)?
+- Should I follow the news related to the COVID-19?
 - Should I follow the news related to the disease?
 - Should I follow the news related to the virus?
 - Should I follow the news?
-- Should I stay aware of the latest information on the [COVID-19](virus:COVID) outbreak?
+- Should I stay aware of the latest information on the COVID-19 outbreak?
 - Should I stay informed regularly?
 - Should I stay informed?
 - Stay informed.
@@ -4486,36 +5160,39 @@
 - Why is it important to follow the news?
 - Why is it important to stay informed?
 - Why should I check regularly for the latest news?
-- Why should I follow the news related to the [COVID-19](virus:COVID)?
+- Why should I follow the news related to the COVID-19?
 - Why should I follow the news related to the disease?
 - Why should I follow the news related to the virus?
-- Why should I stay aware of the latest information on the [COVID-19](virus:COVID) outbreak?
+- Why should I stay aware of the latest information on the COVID-19 outbreak?
 
 ## intent:prevention_measures
-- Are there measures not effective against [COVID-19](virus:COVID)?
-- Are there measures that are not effective against [COVID-19](virus:COVID)?
-- Is smoking effective against [COVID-2019](virus:COVID)?
-- Is taking self-medication effective against [COVID-19](virus:COVID)?
-- Is taking self-medication such as antibiotics effective against [COVID-19](virus:COVID)?
-- Is taking traditional herbal remedies effective against [COVID-2019](virus:COVID)?
+
+- Are there measures not effective against COVID-19?
+- Are there measures that are not effective against COVID-19?
+- Is smoking effective against COVID-2019?
+- Is taking self-medication effective against COVID-19?
+- Is taking self-medication such as antibiotics effective against COVID-19?
+- Is taking traditional herbal remedies effective against COVID-2019?
 - Is there anything I should not do?
-- Is wearing multiple masks effective against [COVID-2019](virus:COVID)?
+- Is wearing multiple masks effective against COVID-2019?
 - Measures not effective.
 - Not effective measures.
-- Should I smoke to prevent [COVID-2019](virus:COVID)?
-- Should I take self-medication such as antibiotics to prevent [COVID-19](virus:COVID)?
-- Should I take self-medication to prevent [COVID-19](virus:COVID)?
-- Should I take traditional herbal remedies to prevent [COVID-2019](virus:COVID)?
-- Should I wear multiple masks to prevent [COVID-19](virus:COVID)?
-- What measures are not effective against [COVID-19](virus:COVID)?
+- Should I smoke to prevent COVID-2019?
+- Should I take self-medication such as antibiotics to prevent COVID-19?
+- Should I take self-medication to prevent COVID-19?
+- Should I take traditional herbal remedies to prevent COVID-2019?
+- Should I wear multiple masks to prevent COVID-19?
+- What measures are not effective against COVID-19?
 - what medications should be avoided during COVId?
 - what should I avoid?
 - what should I not do to protect against the virus?
 - what should I not do to protect myself against the virus?
 
 ## intent:prevention_medical_attention
+
 - Am i sick
 - Do I have the virus?
+- Fever tempretur
 - How do I know I’m infected?
 - How should I do if I'm infected?
 - How to proceed if I have a cough?
@@ -4530,6 +5207,7 @@
 - How to proceed in case of fever?
 - I am coughing all day
 - I am coughing all day and 9:00 AM
+- I am having cough with bacterial lung infection for four months
 - I am infected, what should I do?
 - I don’t know if I have the virus.
 - I don’t know what to do if I have the virus.
@@ -4542,10 +5220,14 @@
 - I have fever, cough and difficulty breathing.
 - I have fever.
 - I have symptoms
+- I think I have covid19
 - I think I'm infected, what should I do?
 - I'm feeling sick should I call it
 - I'm infected
 - In which cases should I contact the health care?
+- Is the Vaccine already in existence
+- My breath is kinder difficult right now and I have some fever
+- My full family of 5 got infected with covid we got discharged on 28,29,3 5
 - My temperature is above 38 degrees, should I worry?
 - My temperature is above 38 degrees.
 - My temperature is above 39 degrees. Should I worry?
@@ -4557,8 +5239,10 @@
 - Should I call the health care if I have fever?
 - Should I go to the hospital?
 - Should I seek immediately for medical attention if I have a fever?
+- Stuffy nose about two months and chest pain almost one month
 - WHat if my fever is high?
 - What should I do if I have a fever?
+- What should I do if I have symptoms?
 - What should a person do if he/she has symptoms?
 - What to do if I have a cough?
 - What to do if I have a fever, cough and difficulty breathing?
@@ -4574,85 +5258,183 @@
 - When to call the health care?
 - When to seek medical attention?
 - fever?
-- how do i know if i have [COVID 19](virus:COVID) 
+- how do i know if i have COVID 19
 - i am sick
+- i have a fever do i have covid
+- i think i have covid-19
 - should i go to the doctor?
 - thank you dear I'm feeling sick should I call it
 - what should I do if I get fever?
+- what should I do if I have the symptoms?
 - what to do in case having symptoms
 - when should I consult a doctor?
 
 ## intent:prevention_medicine
-- About a drug for [COVID-19](virus:COVID).
-- About a drug to treat [COVID-19](virus:COVID).
+
+- About a drug for COVID-19.
+- About a drug to treat COVID-19.
 - About a drug.
-- About a medicine for [COVID-19](virus:COVID).
-- About a medicine to treat [COVID-19](virus:COVID).
+- About a medicine for COVID-19.
+- About a medicine to treat COVID-19.
 - About a medicine.
-- About a treatment for [COVID-19](virus:COVID).
+- About a treatment for COVID-19.
 - About a treatment.
-- About a vaccine for [COVID-19](virus:COVID).
-- About a vaccine to treat [COVID-19](virus:COVID).
-- About a vaccine, drug or treatment for [COVID-19](virus:COVID).
+- About a vaccine for COVID-19.
+- About a vaccine to treat COVID-19.
+- About a vaccine, drug or treatment for COVID-19.
 - About a vaccine, drug or treatment.
 - About a vaccine.
-- About drugs for [COVID-19](virus:COVID).
-- About drugs to treat [COVID-19](virus:COVID).
+- About drugs for COVID-19.
+- About drugs to treat COVID-19.
 - About drugs.
-- About medicines for [COVID-19](virus:COVID).
-- About medicines to treat [COVID-19](virus:COVID).
+- About medicines for COVID-19.
+- About medicines to treat COVID-19.
 - About medicines.
-- About treatment for [COVID-19](virus:COVID).
+- About treatment for COVID-19.
 - About treatment.
-- About vaccines for [COVID-19](virus:COVID).
-- About vaccines to treat [COVID-19](virus:COVID).
-- About vaccines, drug or treatment for [COVID-19](virus:COVID).
+- About vaccine
+- About vaccines for COVID-19.
+- About vaccines to treat COVID-19.
+- About vaccines, drug or treatment for COVID-19.
 - About vaccines, drug or treatment.
 - About vaccines.
+- Any chance of getting Cour for corona
+- Any cure for it
+- Any treatment confirmed
+- Any update about the vaccine?
+- Any vaccines for covid-19
+- But they say that there 446 recoveries Hw do they recover without the medicine
+- Can corna be cured
+- Can covid 19 be cured
+- Can it cure
+- Can this be cured?
+- Cure
+- Cure to Covid 19
+- Did coronavirus has a medicine
+- Did america get the correct medicine
+- Does corona virus have a cure
+- Does corona viruses have cure
 - Does ibuprofen harm patients
+- Does it have cure
+- Explain the status of covid 19 vaccine
+- Has a vaccine for corona virus been established?
+- Has any country as an idea about covid 19 cure
+- Has the cure been found
+- Hello will that be cured without any medicine.
+- Hey ...am called Joseph from Uganda....my questions is...is there any vaccine
+  at hand that their working on to stop the spread of covid-19
+- How can Corona virus be treated.
+- How far hv doctors gone with issue of covid 19 vaccine?
+- How far with the vaccines
+- I am asking you Have a any solution of corona virus
 - I said take ibuprofen
+- I taught there is a cur for it
+- Information about the promising vaccine
+- Is it true that the vaccine will be out in September
+- Is medicine available for this
+- Is the cure for COVID19 found
+- Is the cure of Covid 19 there?
+- Is the medicine made?
+- Is the vaccine found
+- Is there a cure for covid 19
+- Is there a cure found for the Corona Virus
 - Is there a cure?
-- Is there a drug for [COVID-19](virus:COVID)?
-- Is there a drug to treat [COVID-19](virus:COVID)?
+- Is there a drug for COVID-19?
+- Is there a drug to treat COVID-19?
 - Is there a drug?
-- Is there a medicine for [COVID-19](virus:COVID)?
-- Is there a medicine to treat [COVID-19](virus:COVID)?
+- Is there a medicine for COVID-19?
+- Is there a medicine to treat COVID-19?
 - Is there a medicine?
-- Is there a treatment for [COVID-19](virus:COVID)?
+- Is there a treatment for COVID-19?
 - Is there a treatment?
-- Is there a vaccine for [COVID-19](virus:COVID)?
-- Is there a vaccine to treat [COVID-19](virus:COVID)?
-- Is there a vaccine, drug or treatment for [COVID-19](virus:COVID)?
+- Is there a vaccine discovered yet
+- Is there a vaccine for COVID-19?
+- Is there a vaccine to treat COVID-19?
+- Is there a vaccine, drug or treatment for COVID-19?
 - Is there a vaccine, drug or treatment?
 - Is there a vaccine?
+- Is there any drug for COVID-19
+- Is there any drug for dis virus yet
+- Is there any good news about cure for Corona virus
+- Is there any kind of treatment as per now
+- Is there any medicine came into existence
+- Is there any treatment yet?
+- Is there any treatment for corona or not
+- Is there any treatment for corona yet?
+- Is there any vaccine found for this pandemic
+- Is there any vacine for this virus?
+- Is there any vanicce yet for the virus
+- Is there no vaccine yet
+- Is they cure finally out
+- Is this disease curable
+- I’m asking about medicine
 - May I take aspirin
+- Medicine for covid
 - Medicines
+- No medicine for covid19
+- No vaccine?
+- Ok but there isn't a vaccine or a solution for the problem
+- Ok...can I recover without special treatment
+- Please there an vaccine to stop it
+- Recovery
+- So any vaccine yet
+- Tell me Abt the the drug,have u got it yet
+- Tell me vaccine of COVID-19
+- The cure of covid 19
+- They is still no vaccine for covid 19
+- Treatment for covid19
+- Update me on da therapies being used
+- Update me with corona virus medicine
+- Updates about antidote
 - Vaccine
 - Vaccines
 - Whare is vaccine? Hare need!
+- What are the ways to treat corona
 - What can you tell me about the hypothesis of a vaccine for Coronavirus?
+- What is the medicine for this
+- What is the. Solution of corona have any medicine???
+- When is the vaccine hope to be found
+- When r we expecting a cure
+- When the vaccine will come
+- When the vaccine will release?
+- When vaccine is com out
+- When will a cure be invented?
+- When will the Corona vaccine come?
+- Where is vaccine of corona virus?
+- Will be vaccine available in the month of july
+- Will their be cure for covid 19
 - Yes. But is there a vaccine?
+- You see, you say that coronavirus has no cure. Why people are recovering from
+  the pandemic if there was no cure for it?
 - are there a vacine?
 - are there medication to prevent the disease?
 - are there vaccines to prevent the disease?
 - aspirin?
+- but there is hope that we will get a cure?
+- covid vaccine
 - covid-19 vaccine
 - does a vaccine exist?
 - how can i get treatment ?
 - how is the treatment
 - how long will it take for a vaccine to come out in the market?
+- how to destroy covid
 - ibuprofen
 - ibuprufen?
+- is there any hope in the future about vaccine
 - pain killers?
 - paracetamol
 - paracetamol?
 - what about ibuprofen
+- what about vaccine
+- what are the medicines to treat COVID-19?
+- what is its treatment...?
 - what medication should I take if I'm infected
 - what medicine works best for this virus
 - what medicines should be taken?
 - yes it did take ibuprofen
 
 ## intent:prevention_respiratory_hygiene
+
 - Covering mouth and nose while coughing or sneezing.
 - Covering mouth and nose while coughing.
 - Covering mouth and nose while sneezing or coughing.
@@ -4702,6 +5484,7 @@
 - Follow good respiratory hygiene.
 - Good respiratory hygiene.
 - How to follow good respiratory hygiene?
+- To closed nose& mouth
 - What is good respiratory hygiene?
 - What to do when coughing or sneezing?
 - What to do when coughing?
@@ -4709,6 +5492,7 @@
 - What to do when sneezing?
 
 ## intent:prevention_touch
+
 - About not touching eyes.
 - About not touching face.
 - About not touching mouth.
@@ -4771,11 +5555,13 @@
 - Why should I avoid to touch my nose?
 
 ## intent:quarantine_control
+
 - How is the quarantine controlled?
 - Quarantine controlled
 - Who controls the quarantine?
 
 ## intent:quarantine_dogwalking
+
 - Dog quarantine
 - Dog walking and quarantine
 - Dogs and quarantine
@@ -4785,6 +5571,7 @@
 - What do dog owners who are in quarantine do? Who goes out with the animal?
 
 ## intent:quarantine_dos_and_donts
+
 - May I leave home?
 - What is allowed to do in quarantine?
 - What is forbidden to do in quarantine?
@@ -4793,10 +5580,13 @@
 - What may not be done while in quarantine?
 
 ## intent:quarantine_general
+
 - About quarantine
 - Curfew
 - How is quarantine done?
+- I need data for lockdown
 - Info about quarantine.
+- Is 14 days enough as home quarantine
 - Isolation
 - Quarantine
 - Self isolation
@@ -4810,10 +5600,12 @@
   cured
 
 ## intent:quarantine_toiletpaper
+
 - Toilet paper
 - Why do so many people buy toilet paper now?
 
 ## intent:quarantine_when_who_howlong
+
 - Should I do quarantine.
 - When do I need to go in quarantine?
 - Who needs to do quarantine?
@@ -4821,6 +5613,7 @@
 - should i make quarantine?
 
 ## intent:quaratine_how_it_works
+
 - How do quarantine properly?
 - How does quarantine work?
 - How to do proper quarantine?
@@ -4829,18 +5622,20 @@
 - What is quarantine? How does it work?
 
 ## intent:spread_air
+
 - Air propagation.
 - Air spreading.
 - Air transmission.
 - Can be propagated by air?
 - Can be spread by air?
 - Can be transmitted by air?
+- Can it spread through air as a medium
 - Can the virus be propagated through the air?
 - Can the virus be spread through the air?
 - Can the virus be transmitted through the air?
-- Can the virus that causes [COVID-19](virus:COVID) be propagated through the air?
-- Can the virus that causes [COVID-19](virus:COVID) be spread through the air?
-- Can the virus that causes [COVID-19](virus:COVID) be transmitted through the air?
+- Can the virus that causes COVID-19 be propagated through the air?
+- Can the virus that causes COVID-19 be spread through the air?
+- Can the virus that causes COVID-19 be transmitted through the air?
 - Is it possible the virus to be propagated by air?
 - Is it possible the virus to be spread by air?
 - Is it possible the virus to be transmitted by air?
@@ -4855,56 +5650,61 @@
 - Is possible to be transmitted by air?
 - Is the virus propagated though air?
 - Is the virus spread though air?
-- Is the virus that causes [COVID-19](virus:COVID) propagated though air?
-- Is the virus that causes [COVID-19](virus:COVID) spread though air?
-- Is the virus that causes [COVID-19](virus:COVID) transmitted though air?
+- Is the virus that causes COVID-19 propagated though air?
+- Is the virus that causes COVID-19 spread though air?
+- Is the virus that causes COVID-19 transmitted though air?
 - Is the virus transmitted though air?
+- Is virus spread through air
 - Propagation by air.
 - Spreading by air.
 - Transmission by air.
+- Will it spread in air
 
 ## intent:spread_animals
-- Can I be infected with [COVID-19](virus:COVID) from an animal?
-- Can I be infected with [COVID-19](virus:COVID) from animals?
+
+- Can I be infected with COVID-19 from an animal?
+- Can I be infected with COVID-19 from animals?
 - Can I be infected with the virus from an animal?
 - Can I be infected with the virus from animals?
-- Can I catch the [COVID-19](virus:COVID) from an animal source?
-- Can I catch the [COVID-19](virus:COVID) from an animal?
-- Can I catch the [COVID-19](virus:COVID) from animals source?
-- Can I catch the [COVID-19](virus:COVID) from animals?
+- Can I catch the COVID-19 from an animal source?
+- Can I catch the COVID-19 from an animal?
+- Can I catch the COVID-19 from animals source?
+- Can I catch the COVID-19 from animals?
 - Can I catch the the virus from an animal source?
 - Can I catch the the virus from an animal?
 - Can I catch the the virus from animals source?
 - Can I catch the the virus from animals?
 - Can an animal infect me?
-- Can an animal spread [COVID-19](virus:COVID) to humans?
-- Can an animal spread [COVID-19](virus:COVID)?
+- Can an animal spread COVID-19 to humans?
+- Can an animal spread COVID-19?
 - Can an animal spread the virus to humans?
 - Can an animal spread the virus?
 - Can animals infect me?
-- Can animals spread [COVID-19](virus:COVID) to humans?
-- Can animals spread [COVID-19](virus:COVID)?
+- Can animals spread COVID-19 to humans?
+- Can animals spread COVID-19?
 - Can animals spread the virus to humans?
 - Can animals spread the virus?
-- Can humans become infected with the [COVID-19](virus:COVID) from an animal source?
-- Can humans become infected with the [COVID-19](virus:COVID) from an animal?
-- Can humans become infected with the [COVID-19](virus:COVID) from animals source?
-- Can humans become infected with the [COVID-19](virus:COVID) from animals?
+- Can humans become infected with the COVID-19 from an animal source?
+- Can humans become infected with the COVID-19 from an animal?
+- Can humans become infected with the COVID-19 from animals source?
+- Can humans become infected with the COVID-19 from animals?
 - Can humans become infected with the the virus from an animal source?
 - Can humans become infected with the the virus from an animal?
 - Can humans become infected with the the virus from animals source?
 - Can humans become infected with the the virus from animals?
 - So the this virus has an animal origin?
 - animals
+- does it affect animals
 - the virus transmitting from animals to people?
 
 ## intent:spread_feces
-- Can I catch [COVID-19](virus:COVID) from the excrements of an infected person?
-- Can I catch [COVID-19](virus:COVID) from the excrements of someone with the disease?
-- Can I catch [COVID-19](virus:COVID) from the feces of an infected person?
-- Can I catch [COVID-19](virus:COVID) from the feces of someone with the disease?
-- Can I catch [COVID-19](virus:COVID) from the poop of an infected person?
-- Can I catch [COVID-19](virus:COVID) from the poop of someone with the disease?
+
+- Can I catch COVID-19 from the excrements of an infected person?
+- Can I catch COVID-19 from the excrements of someone with the disease?
+- Can I catch COVID-19 from the feces of an infected person?
+- Can I catch COVID-19 from the feces of someone with the disease?
+- Can I catch COVID-19 from the poop of an infected person?
+- Can I catch COVID-19 from the poop of someone with the disease?
 - Can I catch the virus through excrements?
 - Can I catch the virus through feces?
 - Can I catch the virus through poop?
@@ -4921,12 +5721,12 @@
 - Infection through excrements.
 - Infection through feces.
 - Infection through poop.
-- Risk of catching [COVID-19](virus:COVID) from the excrements of an infected person.
-- Risk of catching [COVID-19](virus:COVID) from the excrements of someone with the disease.
-- Risk of catching [COVID-19](virus:COVID) from the feces of an infected person.
-- Risk of catching [COVID-19](virus:COVID) from the feces of someone with the disease.
-- Risk of catching [COVID-19](virus:COVID) from the poop of an infected person.
-- Risk of catching [COVID-19](virus:COVID) from the poop of someone with the disease.
+- Risk of catching COVID-19 from the excrements of an infected person.
+- Risk of catching COVID-19 from the excrements of someone with the disease.
+- Risk of catching COVID-19 from the feces of an infected person.
+- Risk of catching COVID-19 from the feces of someone with the disease.
+- Risk of catching COVID-19 from the poop of an infected person.
+- Risk of catching COVID-19 from the poop of someone with the disease.
 - Spread through excrements.
 - Spread through feces.
 - Spread through poop.
@@ -4935,8 +5735,9 @@
 - Spreading through poop.
 
 ## intent:spread_general
-- About how [COVID-19](virus:COVID) propagates.
-- About how [COVID-19](virus:COVID) spreads.
+
+- About how COVID-19 propagates.
+- About how COVID-19 spreads.
 - About how coronavirus propagates.
 - About how coronavirus spreads.
 - About how it propagates.
@@ -4945,11 +5746,16 @@
 - About how the disease spreads.
 - About how the virus propagates.
 - About how the virus spreads.
-- [COVID-19](virus:COVID) propagate.
-- [COVID-19](virus:COVID) propagating.
-- [COVID-19](virus:COVID) propagation.
-- [COVID-19](virus:COVID) spread.
-- [COVID-19](virus:COVID) spreading.
+- COVID-19 propagate.
+- COVID-19 propagating.
+- COVID-19 propagation.
+- COVID-19 spread.
+- COVID-19 spreading.
+- Can CoronaVirus spread through our own sweat? Suppose I touched any infected
+  surface with my hands and unknowingly touched my face. So my face is now
+  infected, so as it is summer hence getting sweaty is natural. If the sweat
+  enters our eyes, nose or mouth, will it infect us?
+- Can corona virus spread enter human body through blood?
 - Coronavirus propagate.
 - Coronavirus propagating.
 - Coronavirus propagation.
@@ -4962,20 +5768,25 @@
 - Disease propagation.
 - Disease spread.
 - Disease spreading.
-- How [COVID-19](virus:COVID) propagates.
-- How [COVID-19](virus:COVID) spreads.
+- Does this spread after touching a a confirm covid patient
+- How COVID-19 propagates.
+- How COVID-19 spreads.
 - How can I catch Covid
 - How can I catch it?
+- How can the virus spread
+- How corona virus will spread
 - How coronavirus propagates.
 - How coronavirus spreads.
-- How does [COVID-19](virus:COVID) propagate?
-- How does [COVID-19](virus:COVID) propagates?
-- How does [COVID-19](virus:COVID) spread?
-- How does [COVID-19](virus:COVID) spreads?
+- How does COVID-19 propagate?
+- How does COVID-19 propagates?
+- How does COVID-19 spread?
+- How does COVID-19 spreads?
+- How does corona spread?
 - How does coronavirus propagate?
 - How does coronavirus propagates?
 - How does coronavirus spread?
 - How does coronavirus spreads?
+- How does covid 19 spread?
 - How does it propagates?
 - How does it spread?
 - How does it spreads?
@@ -4988,74 +5799,97 @@
 - How does the virus propagates?
 - How does the virus spread?
 - How does the virus spreads?
+- How does this spread?
 - How is Covid being spread?
+- How is it spread
+- How is the virus spread
 - How is transmitted
 - How it propagates.
 - How it spreads.
+- How spread
 - How the disease propagates.
 - How the disease spreads.
 - How the virus propagates.
 - How the virus spreads.
 - How the vírus spreads?
+- How to get covid 19
+- Hw it is spread
 - I want to know how can I get the disease
+- Okay how does the virus spread
 - Okay. What do you know about the spreading?
-- Propagating of [COVID-19](virus:COVID).
+- Propagating of COVID-19.
 - Propagating of coronavirus.
 - Propagating of the disease.
 - Propagating of the virus.
-- Propagation of [COVID-19](virus:COVID).
+- Propagation of COVID-19.
 - Propagation of coronavirus.
 - Propagation of the disease.
 - Propagation of the virus.
+- So how can't it be spread
+- So wats d mode of transmission
+- Sorry how. This it spread
+- Spread
+- Spread of corona
 - Spreading
-- Spreading of [COVID-19](virus:COVID).
+- Spreading of COVID-19.
 - Spreading of coronavirus.
 - Spreading of the disease.
 - Spreading of the virus.
+- Suppose I sleep with someone with covid and we don'thave sex, can I be
+  infected?
+- The spread of covid 19
 - Virus propagate.
 - Virus propagating.
 - Virus propagation.
 - Virus spread.
 - Virus spreading.
+- What cause the covid 19
 - What cause the spread of the virus?
+- about transmission
 - can you tell me how does the virus spread
 - how can I contract the virrus
 - how can I contract the virus
 - how can I get it
 - how can I get the virus?
+- how do i get it
 - how do this virus work?
-- how is [Covid 19](virus:COVID)  transmitted?
+- how is covid 19 transmitted?
 - how is the transmission
 - how is the virus transmitted
+- how it spread
+- how the virus spread
+- hw the virus spreads
 - the virus spreads
 - transmission
 - transmissions
+- where do i get it
 
 ## intent:spread_no_symptoms
-- Can [COVID-19](virus:COVID) be caught from a person who has no symptoms?
-- Can [COVID-19](virus:COVID) be caught from a person with no symptoms?
-- Can [COVID-19](virus:COVID) be caught from a person without symptoms?
-- Can [COVID-19](virus:COVID) be caught from someone who has no symptoms?
-- Can [COVID-19](virus:COVID) be caught from someone with no symptoms?
-- Can [COVID-19](virus:COVID) be caught from someone without symptoms?
-- Can I caught [COVID-19](virus:COVID) from a person who has no symptoms?
-- Can I caught [COVID-19](virus:COVID) from a person with no symptoms?
-- Can I caught [COVID-19](virus:COVID) from a person without symptoms?
-- Can I caught [COVID-19](virus:COVID) from people who has no symptoms?
-- Can I caught [COVID-19](virus:COVID) from people with no symptoms?
-- Can I caught [COVID-19](virus:COVID) from people without symptoms?
-- Can I caught [COVID-19](virus:COVID) from someone who has no symptoms?
-- Can I caught [COVID-19](virus:COVID) from someone with no symptoms?
-- Can I caught [COVID-19](virus:COVID) from someone without symptoms?
-- Can I caught the [COVID-19](virus:COVID) from a person who has no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from a person with no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from a person without symptoms?
-- Can I caught the [COVID-19](virus:COVID) from people who has no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from people with no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from people without symptoms?
-- Can I caught the [COVID-19](virus:COVID) from someone who has no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from someone with no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from someone without symptoms?
+
+- Can COVID-19 be caught from a person who has no symptoms?
+- Can COVID-19 be caught from a person with no symptoms?
+- Can COVID-19 be caught from a person without symptoms?
+- Can COVID-19 be caught from someone who has no symptoms?
+- Can COVID-19 be caught from someone with no symptoms?
+- Can COVID-19 be caught from someone without symptoms?
+- Can I caught COVID-19 from a person who has no symptoms?
+- Can I caught COVID-19 from a person with no symptoms?
+- Can I caught COVID-19 from a person without symptoms?
+- Can I caught COVID-19 from people who has no symptoms?
+- Can I caught COVID-19 from people with no symptoms?
+- Can I caught COVID-19 from people without symptoms?
+- Can I caught COVID-19 from someone who has no symptoms?
+- Can I caught COVID-19 from someone with no symptoms?
+- Can I caught COVID-19 from someone without symptoms?
+- Can I caught the COVID-19 from a person who has no symptoms?
+- Can I caught the COVID-19 from a person with no symptoms?
+- Can I caught the COVID-19 from a person without symptoms?
+- Can I caught the COVID-19 from people who has no symptoms?
+- Can I caught the COVID-19 from people with no symptoms?
+- Can I caught the COVID-19 from people without symptoms?
+- Can I caught the COVID-19 from someone who has no symptoms?
+- Can I caught the COVID-19 from someone with no symptoms?
+- Can I caught the COVID-19 from someone without symptoms?
 - Can I caught the the virus from a person who has no symptoms?
 - Can I caught the the virus from a person with no symptoms?
 - Can I caught the the virus from a person without symptoms?
@@ -5081,24 +5915,28 @@
 - Can the virus be caught from someone who has no symptoms?
 - Can the virus be caught from someone with no symptoms?
 - Can the virus be caught from someone without symptoms?
+- Hellen ,am confused about how dis virus affects humans , some humans mayb
+  having de virus but dont show signs and symptoms , what is the reason behind
+  this
+- Hw wll I know if I have covid 19 without any symptoms
 - People who has no symptoms can be infectious?
-- People who has no symptoms can transmit [COVID-19](virus:COVID)?
+- People who has no symptoms can transmit COVID-19?
 - People who has no symptoms can transmit the virus?
 - People who has no symptoms can transmit?
 - People with no symptoms can be infectious?
-- People with no symptoms can transmit [COVID-19](virus:COVID)?
+- People with no symptoms can transmit COVID-19?
 - People with no symptoms can transmit the virus?
 - People with no symptoms can transmit?
 - People without symptoms can be infectious?
-- People without symptoms can transmit [COVID-19](virus:COVID)?
+- People without symptoms can transmit COVID-19?
 - People without symptoms can transmit the virus?
 - People without symptoms can transmit?
-- Risk of catching [COVID-19](virus:COVID) from a person who has no symptoms.
-- Risk of catching [COVID-19](virus:COVID) from a person with no symptoms.
-- Risk of catching [COVID-19](virus:COVID) from a person without symptoms.
-- Risk of catching [COVID-19](virus:COVID) from someone who has no symptoms.
-- Risk of catching [COVID-19](virus:COVID) from someone with no symptoms.
-- Risk of catching [COVID-19](virus:COVID) from someone without symptoms.
+- Risk of catching COVID-19 from a person who has no symptoms.
+- Risk of catching COVID-19 from a person with no symptoms.
+- Risk of catching COVID-19 from a person without symptoms.
+- Risk of catching COVID-19 from someone who has no symptoms.
+- Risk of catching COVID-19 from someone with no symptoms.
+- Risk of catching COVID-19 from someone without symptoms.
 - Risk of catching the virus from a person who has no symptoms.
 - Risk of catching the virus from a person with no symptoms.
 - Risk of catching the virus from a person without symptoms.
@@ -5114,8 +5952,11 @@
 - Someone without symptoms can be infectious?
 - Someone without symptoms can pass the virus?
 - Someone without symptoms can transmit the virus?
+- Those who are asymptomatic to Covid-19; how can they know they are infected
+  without testing and how long can they live with the virus before they die?
 
 ## intent:spread_pets
+
 - Can I be infected from my cat?
 - Can I be infected from my companion animal?
 - Can I be infected from my dog?
@@ -5123,13 +5964,13 @@
 - Can I be infected from my family dog?
 - Can I be infected from my family pet?
 - Can I be infected from my pet?
-- Can I catch [COVID-19](virus:COVID) from my cat?
-- Can I catch [COVID-19](virus:COVID) from my companion animal?
-- Can I catch [COVID-19](virus:COVID) from my dog?
-- Can I catch [COVID-19](virus:COVID) from my family cat?
-- Can I catch [COVID-19](virus:COVID) from my family dog?
-- Can I catch [COVID-19](virus:COVID) from my family pet?
-- Can I catch [COVID-19](virus:COVID) from my pet?
+- Can I catch COVID-19 from my cat?
+- Can I catch COVID-19 from my companion animal?
+- Can I catch COVID-19 from my dog?
+- Can I catch COVID-19 from my family cat?
+- Can I catch COVID-19 from my family dog?
+- Can I catch COVID-19 from my family pet?
+- Can I catch COVID-19 from my pet?
 - Can my cat catch the virus?
 - Can my cat infect me?
 - Can my cat spread the disease?
@@ -5159,6 +6000,7 @@
 - Can my pet infect me?
 - Can my pet spread the disease?
 - Can my pet spread the virus?
+- Does it affect only human creature or even other animals
 - Is it possible to be infected by cats?
 - Is it possible to be infected by companion animals?
 - Is it possible to be infected by dogs?
@@ -5201,61 +6043,65 @@
 - Is possible to be infected by my family pet?
 - Is possible to be infected by my pet?
 - Is possible to be infected by pets?
+- What the host animal
 - does the dogs transmit the virus?
+- does the virus infect only human
 - is the virus be transmitted by the pets?
 - posso pegar coronavirus do meu gato?
 
 ## intent:spread_risk
+
 - Can the disabled get this virus
-- Chances of be infected by [COVID-19](virus:COVID).
+- Chances of be infected by COVID-19.
 - Chances of be infected by the virus.
-- Chances of being infected by [COVID-19](virus:COVID).
+- Chances of being infected by COVID-19.
 - Chances of being infected by the virus.
-- Chances of catching [COVID-19](virus:COVID).
+- Chances of catching COVID-19.
 - Chances of catching the virus.
-- Chances to be infected by [COVID-19](virus:COVID).
+- Chances to be infected by COVID-19.
 - Chances to be infected by the virus.
-- Chances to being infected by [COVID-19](virus:COVID).
+- Chances to being infected by COVID-19.
 - Chances to being infected by the virus.
-- Chances to catch [COVID-19](virus:COVID).
+- Chances to catch COVID-19.
 - Chances to catch the virus.
-- Chances to catching [COVID-19](virus:COVID).
+- Chances to catching COVID-19.
 - Chances to catching the virus.
 - How contagious is covid-19
 - How contagious is covid?
 - How contagious is it?
-- How likely am I of being infected by [COVID-19](virus:COVID)?
+- How likely am I of being infected by COVID-19?
 - How likely am I of being infected by the virus?
-- How likely am I of catching [COVID-19](virus:COVID)?
+- How likely am I of catching COVID-19?
 - How likely am I of catching the virus?
-- How likely am I to be infected by [COVID-19](virus:COVID)?
+- How likely am I to be infected by COVID-19?
 - How likely am I to be infected by the virus?
-- How likely am I to catch [COVID-19](virus:COVID)?
+- How likely am I to catch COVID-19?
 - How likely am I to catch the virus?
 - I meant can people with disabilities get this virus
-- Risk of being infected by [COVID-19](virus:COVID).
+- Risk of being infected by COVID-19.
 - Risk of being infected by the virus.
-- Risk of catching [COVID-19](virus:COVID).
+- Risk of catching COVID-19.
 - Risk of catching the virus.
-- Risk to be infected by [COVID-19](virus:COVID).
+- Risk to be infected by COVID-19.
 - Risk to be infected by the virus.
-- Risk to catch [COVID-19](virus:COVID).
+- Risk to catch COVID-19.
 - Risk to catch the virus.
-- What are the chances of being infected by [COVID-19](virus:COVID)?
+- What are the chances of being infected by COVID-19?
 - What are the chances of being infected by the virus?
-- What are the chances of catching [COVID-19](virus:COVID)?
+- What are the chances of catching COVID-19?
 - What are the chances of catching the virus?
-- What are the chances to catch [COVID-19](virus:COVID)?
+- What are the chances to catch COVID-19?
 - What are the chances to catch the virus?
-- What are the chances to to be infected by [COVID-19](virus:COVID)?
+- What are the chances to to be infected by COVID-19?
 - What are the chances to to be infected by the virus?
-- What chances have I of being infected by [COVID-19](virus:COVID)?
+- What are the risks of getting corna
+- What chances have I of being infected by COVID-19?
 - What chances have I of being infected by the virus?
-- What chances have I of catching [COVID-19](virus:COVID)?
+- What chances have I of catching COVID-19?
 - What chances have I of catching the virus?
-- What chances have I to catch [COVID-19](virus:COVID)?
+- What chances have I to catch COVID-19?
 - What chances have I to catch the virus?
-- What chances have I to to be infected by [COVID-19](virus:COVID)?
+- What chances have I to to be infected by COVID-19?
 - What chances have I to to be infected by the virus?
 - am I at risk?
 - can I be infected?
@@ -5265,24 +6111,35 @@
 - what is the probability to be infected in the train
 - what is the probability to be infected in the shopping mall
 - who affects the most?
-- will I get [Covid 19](virus:COVID) 
+- will I get covid 19
 - with no symptoms and without testing and after two weeks at home with social
-  distance can we consider ourselves healthy regarding [Covid-19](virus:COVID)
+  distance can we consider ourselves healthy regarding Covid-19
 
 ## intent:spread_surfaces_food_objects
-- Can I become infected with the [novel coronavirus](virus:COVID) from food or water?
-- Can I become infected with the [novel coronavirus](virus:COVID) from food?
+
+- Can I become infected with the novel coronavirus from food or water?
+- Can I become infected with the novel coronavirus from food?
 
 ## intent:test_virus
+
+- Am getting only fever it's max99.6 and minimum 97.8 so need to covid 19test
 - Can I get tested for coronavirus?
 - Can I get tested for covid?
 - Can I get tested?
+- Can we go for test without symptoms
+- Firstly you tested you have covid 19
+- How do u get tested
+- If we have cold we should get tested!
+- If we havr cold and pain in throat we should be get tested??
+- Should i be tested
+- Where can I get tested for Covid19 because our clinics are closed
 - Where can I test
 - Where is the next Coronavirus test location?
 - can I get test
 - test
 
 ## intent:test_who
+
 - Can I be tested?
 - How do I get tested
 - Who can be tested for coronavirus?
@@ -5290,6 +6147,7 @@
 - Who can be tested?
 
 ## intent:travel_after
+
 - After travel procedure.
 - After travel procedures.
 - After travel proceeding.
@@ -5324,6 +6182,7 @@
 - travel after.
 
 ## intent:travel_before
+
 - Before travel.
 - Before traveling.
 - I have a travel schedule.
@@ -5345,6 +6204,7 @@
 - Things to consider before traveling.
 - Things to consider when travel.
 - Things to consider when traveling.
+- To jaoo na bnao vacation
 - Travel before.
 - Travel precaution.
 - Travel precautions.
@@ -5363,6 +6223,7 @@
 - before travling
 
 ## intent:travel_while
+
 - During travel.
 - During traveling.
 - How to behave during travel?
@@ -5407,6 +6268,7 @@
 - While traveling.
 
 ## intent:user_angry
+
 - At this moment I am foaming from the mouth!
 - Boiling mad!
 - Can you feel my anger?
@@ -5441,6 +6303,7 @@
 - You will feel my wrath!
 
 ## intent:user_friend
+
 - Are we friends?
 - Are you happy with me
 - Are you my best friend?
@@ -5461,6 +6324,7 @@
 - I want to be your friend!
 - Let's be best friends!
 - Let's be friends!
+- Madam I want to freindship with you
 - Me and you are friends!
 - Wanna be friends with me?
 - Wanna be friends?
@@ -5480,6 +6344,7 @@
 - You want to be my friend?
 
 ## intent:user_happy
+
 - At this time I am an overjoyed person.
 - Elated person.
 - Feel gleeful.
@@ -5533,11 +6398,15 @@
 - happiness
 
 ## intent:user_love
+
 - Accept my love.
 - Accept my proposal.
+- Am crushing on you
 - Are you in love with me?
 - Are you loving me?
+- Can I have a date with you?
 - Can I marry you?
+- Can we date
 - Can we go on a date?
 - Can you love me?
 - Can you tell me how much you love me?
@@ -5554,6 +6423,8 @@
 - I fell in love with you!
 - I kind of love you.
 - I kinda love you.
+- I love u
+- I love you beach
 - I think i am in love with you.
 - I want to date you!
 - I want to marry you!
@@ -5566,6 +6437,13 @@
 - Let’s have a date!
 - Marry me!
 - Marry with me!
+- No that is not the matter now I said I love u
+- Now I love u
+- Ok but just know i love you
+- Please I am compatible if you accept me I will show you love I will never hurt
+  u places I love u
+- Please I really love u places
+- Please accept me I truely love you places I love u
 - Please accept my love!
 - Please love me!
 - Please marry me!
@@ -5578,6 +6456,7 @@
 - You don't love me.
 
 ## intent:user_no_data
+
 - At the moment I don’t have any personal data here.
 - At the moment I don’t have any personal data with me.
 - At the moment I don’t have my personal data here.
@@ -5623,14 +6502,20 @@
 - Yes. I don’t have any personal data.
 
 ## intent:user_no_further_questions
+
+- Alright thank you very much i appreciate everything God bless you for her or
+  him
 - Can you shut the boot for me, please?
 - Can you shut the boot for me?
+- For now I am satisfied,Thank you
+- Go away
 - I am clarified now, thank you.
 - I am clarified now, thanks.
 - I am clarified now.
 - I am enlighten now, thank you.
 - I am enlighten now, thanks.
 - I am enlighten now.
+- I don't need your help
 - I don’t have further questions, thank you.
 - I don’t have further questions, thanks.
 - I don’t have further questions.
@@ -5652,23 +6537,54 @@
 - I have no more questions, thank you.
 - I have no more questions, thanks.
 - I have no more questions.
+- I have no question
 - I need no more assistance, thank you.
 - I need no more assistance, thanks.
 - I need no more assistance.
 - I need no more help, thank you.
 - I need no more help, thanks.
 - I need no more help.
+- I think for now that’s set
+- I will tell you when I need help
+- If I want ur help I msg you
+- Leave
+- Nothing I give up
+- Nothing at the moment
+- Nothing but thanks for your attention
 - Nothing else
+- Nothing else thanks
+- Nothing else, thank you
+- Nothing for now
+- Nothing for now Have a good night
+- Nothing good bye
+- Nothing more I just wanted to know d number of cases in Nigera dats all
+- Nothing thank u
+- Nothing thanks. Sweetheart
+- Nothing, maybe later
 - Nothing, thank you.
 - Nothing, thanks.
 - Nothing.
+- Nothing. When I have a question to ask, I will ask you.
+- Nth more
 - Não, de momento vou-me atualizando
+- OK thanks for the information take care
+- Ok no further questions thanks
 - Thank you for your help.
 - Thank you for your time.
+- Thank you if there is another question I we ask
+- Thanks bye for now
+- Thanks for now Maybe later
+- Thanks for ur help
+- Thanks for your help good bye
 - Thanks for your help.
 - Thanks for your time.
 - That will be all.
+- That's enough no problem have are good day
 - That's it for now
+- Thats all
+- Thats enough for today
+- That’s it thanks
+- Um I am fine for now thanks to you
 - You assisted me with everything I want, thank you.
 - You assisted me with everything I want, thanks.
 - You assisted me with everything I want.
@@ -5693,10 +6609,18 @@
 - You resolved all my questions, thank you.
 - You resolved all my questions, thanks.
 - You resolved all my questions.
+- i say thank you for today
+- no further Questions
+- nothing thantu very much
+- ok...thanks ill come to you later
+- thank you i am done
+- thanks that all
+- that all
 - that's all
 - that's all for today
 
 ## intent:user_particles
+
 - Aaha
 - Ah
 - Aham
@@ -5704,12 +6628,19 @@
 - Ahh
 - Hm
 - Hmm
+- Hmmm
+- Hmmmm
+- Huh
+- Huhmmm
 - I'm great.
 - Mh
 - Mhh
 - Mmh
 - Nevermind.
 - Oh!
+- Ohh
+- Okay fine
+- Okay. No problem.
 - Shh
 - That's interesting.
 - That's it!
@@ -5717,8 +6648,10 @@
 - Uh
 - Uhm
 - Um
+- Wow
 
 ## intent:user_scared
+
 - But for me not a good day
 - Don’t want to be frightened.
 - Don’t want to be scared.
@@ -5727,6 +6660,7 @@
 - I feel frightened.
 - I feel lonely
 - I feel scared.
+- I know madam u can not help me because l am really very poor
 - I was frightened.
 - I was scared.
 - I'm feeling frightened.
@@ -5747,6 +6681,8 @@
 - You scaring me.
 
 ## intent:vocative_call
+
+- Answer please
 - Are you around?
 - Are you gone?
 - Are you present?
@@ -5756,20 +6692,29 @@
 - Are you with me?
 - Around?
 - Can you hear me?
+- Can you please answer the question???
 - Can you read me?
+- Can you talk to me?
 - Can you understand me?
 - Did you go?
 - Did you leave?
 - Do you left?
 - Don’t finish the conversation!
 - Don’t leave me!
+- Helen
 - Hello again!
 - I am back!
 - I don’t want to be alone!
 - I still have some questions
 - I want to continue talking with you!
 - I want to hear you!
+- I want to talk to u
+- I've missed you helen
+- Iam calling Helen
 - Make me company!
+- My friend!!! I missed you so much
+- Please answer my question
+- Please can you answer my question
 - Please continue!
 - Please do not leave me!
 - Please don’t leave me alone!
@@ -5778,59 +6723,75 @@
 - Please talk to me!
 - Present?
 - Still around?
+- Still awake!
 - Still there?
 - Still with me?
 - Talk to me!
+- Vai embora?
+- Wait
 - What else can we talk about?
 - With me?
+- hi again
 
 ## intent:vocative_help
-- How can you assist me
-- Do you want to help me
-- Hello, how can I help you?
-- How Are You Going To Help Me
-- How Can You Help Me
-- How Ken You Help me
-- How can you help
-- How may you help me?
-- What Can you Help Me With
+
 - Are you going to assist me?
 - Are you going to help me?
 - Assistance please!
 - Assistance!
+- Can I ask a question please
+- Can you answer my question please??
 - Can you assist me?
 - Can you give me some help?
 - Can you help me out?
 - Can you help me?
+- Could you help me please
+- Do you help me
+- Do you think you can help me?
 - Help me out!
 - Help me!
 - Help me, please.
 - Help!
 - Helping or not?
+- Hi can I ask questions
 - How about a little help.
 - How about assisting me?
 - How about helping me?
+- I have a question
+- I have question
 - I need assistance.
+- I need help
 - I need some assistance.
 - I need some help.
 - I need to be assisted.
 - I need to be helped.
 - I need your assistance.
 - I need your help.
+- I would like an answer please it's urgent
 - I‘m in need for some help.
+- No help me you
 - Please give me some help.
 - Please help me further.
 - Please help me!
 - Some help, please.
+- Sorry you help me covid19
+- U can help me
+- U gone help mi or no
+- Will you help me
 - Would you assist me?
 - Would you give me some help?
 - Would you help me out?
 - Would you help me?
 - Would you like to help me?
+- You help me in what?
+- can i ask you something else
+- j can you help for me
 - may I ask you questions?
 
 ## intent:vocative_no
+
 - Absolutely not.
+- Am not interested
 - By no means.
 - Most certainly not.
 - Nae.
@@ -5838,14 +6799,21 @@
 - Naw.
 - Nay.
 - Negative.
+- Never mind
 - Never.
 - Nix.
+- No definitely not
 - No fear.
 - No indeed.
+- No no no no No No No No No No No No No No
+- No please
 - No sir.
 - No thanks.
+- No thnks
 - No way.
 - No.
+- Noo
+- Noooo
 - Nope.
 - Not at all.
 - Not for Joe.
@@ -5863,6 +6831,7 @@
 - Veto.
 
 ## intent:vocative_sorry
+
 - Excuse me.
 - Excuse.
 - Forgive me!
@@ -5892,6 +6861,7 @@
 - My bad
 - My fault.
 - My mistake.
+- Okay sorry
 - Pardon me.
 - Pardon.
 - Please forgive me.
@@ -5907,12 +6877,15 @@
 - Whoops! Sorry!
 
 ## intent:vocative_thank_you
+
 - Accept my deepest thanks
 - Accept my endless gratitude
 - All I can say is thanks
+- Alright thank you
 - Appreciate it
 - Awesome
 - Danke
+- Eazy ..thanx anway
 - Good job
 - Gracias
 - Grazie
@@ -5936,6 +6909,7 @@
 - If anyone deserves thanks it is you
 - It is hard to find words to express my gratitude
 - It was so awesome of you
+- K tnks
 - Many thanks
 - Merci.
 - Much appreciated!
@@ -5943,33 +6917,73 @@
 - Much thanks!
 - My gratitude to you for all you have done!
 - Nice talk!
+- O thanks
+- O thanks again
+- OK thx
 - OK, thank you!
+- Oh ok thanks
 - Oh, thanks!
+- Ok gud work Thanx
+- Ok thank u.😲😲
+- Ok thanks
+- Ok thanks chatbot
+- Ok thanks for that Hellen
+- Ok. Otherwise thanks.
+- Okay thank
+- Okay thank you
 - Okay, thanks!
+- Okey thank you
+- Okk Thank u
+- Play. Ok thanks babys
 - Please accept my best thanks!
 - Pleased!
 - Really helpful!
 - Respectfully yours with sincere gratitude!
+- THANKS 🙏
+- Tanx
+- Thank s
+- Thank u
 - Thank you for helping me!
 - Thank you for the assistance!
 - Thank you for your kindness!
+- Thank you in advance
 - Thank you kindly!
+- Thank you nice to meeting you
+- Thank you so much for your time and consideration
 - Thank you so much!
+- Thank you very much to support me. 🙂
 - Thank you very much!
 - Thank you!
+- Thanks for your information
+- Thanks Helen for your information
 - Thanks a bunch!
 - Thanks a lot!
 - Thanks a million!
+- Thanks alot sir
+- Thanks for d update
 - Thanks for everything!
 - Thanks for helping me through my life!
+- Thanks for information
 - Thanks for taking the time to think of me!
+- Thanks for the information
+- Thanks for your service
+- Thanks so much for that.
 - Thanks so much for the help!
 - Thanks!
 - Thanks, computer!
+- Thanx
+- Thanyou so much
 - That was helpful, Helen. Thank you.
 - That's amazing!
 - That's impressing, thank you!
+- Thks.
+- Thx
+- Thx 4 your help
+- Thx Cosibot
+- Tnx
 - With gratitude!
+- Wow .OK Thanks
+- Yes, thank you
 - You are a lifesaver!
 - You did a great job!
 - You have my gratitude!
@@ -5982,6 +6996,7 @@
 - thanks, Helen!
 
 ## intent:vocative_yes
+
 - Absolutely.
 - Affirmative.
 - Agreed.
@@ -5997,8 +7012,11 @@
 - In the affirmative.
 - Indeed.
 - Ja.
+- K
+- OK got it
 - Of course.
 - Ok.
+- Okay go on
 - Okay, Helen.
 - Okay.
 - Okey-doke.
@@ -6018,12 +7036,15 @@
 - Yep.
 - Yes, please.
 - Yes.
+- Yess
+- Yess please
 - Yup.
 - Yuppers.
 - approve
 - confirm
 
 ## intent:vocative_you_welcome
+
 - Anytime.
 - Don’t mention it
 - Glad to help!
@@ -6043,4985 +7064,1358 @@
 - it's ok
 - that's ok
 
-## intent:myth_influenza
-[influenza](influenza)
-[flu](influenza)
-[grippe](influenza)
-
-## intent:myth_air_conditioning
-[air conditioner](air_conditioning)
-[air conditioning](air_conditioning)
-[AC](air_conditioning)
-[A/C](air_conditioning)
-[air con](air_conditioning)
-
-## intent:myth_5G
-[5G](5G)
-[five G](5G)
-[5 G](5G)
-
-## intent:hand_dryer
-[hand dryer](hand_dryer)
-[hand dryers](hand_dryer)
-
-## intent:uv_lamp
-[uv lamps](uv_lamp)
-[ultraviolet disinfection lamp](uv_lamp)
-[ultraviolet disinfection lamps](uv_lamp)
-[ultraviolet lamp](uv_lamp)
-[ultraviolet lamps](uv_lamp)
-
-## intent:thermal_scanner
-[thermal scanner](thermal_scanner)
-[thermal scanners](thermal_scanner)
-
-## intent:antibiotics
-[antibiotics](antibiotics)
-[antibiotic](antibiotics)
-
-## intent:pneumonia_vaccine
-[pneumonia vaccine](pneumonia_vaccine)
-[pneumonia vaccines](pneumonia_vaccine)
-
-## intent:saline
-[saline](saline)
-[saline solution](saline)
-
-## intent:garlic
-[garlic](garlic)
-[garlics](garlic)
-
-## intent:sesame_oil
-[sesame oil](sesame_oil)
-[sesame](sesame_oil)
-
-## intent:visors
-[visors](visors)
-[Acrylic visors](visors)
-[protection visors](visors)
-
-
-## intent:en_country
-- em [Portugal]{"entity": "en_country_code", "value": "PT"}
-- [Espanha]{"entity": "en_country_code", "value": "ES"}
-- na [Grécia]{"entity": "en_country_code", "value": "GR"}
-- na [Suiça]{"entity": "en_country_code", "value": "CH"}
-- no [Zimbabué]{"entity": "en_country_code", "value": "ZW"}
-- [Egipto]{"entity": "en_country_code", "value": "EG"}
-- [Sara Ocidental]{"entity": "en_country_code", "value": "EH"}
-- [Eritrea]{"entity": "en_country_code", "value": "ER"}
-- [Etiópia]{"entity": "en_country_code", "value": "ET"}
-- [Finlândia]{"entity": "en_country_code", "value": "FI"}
-- [Fidji]{"entity": "en_country_code", "value": "FJ"}
-- [Falkland]{"entity": "en_country_code", "value": "FK"}
-- [Micronesia]{"entity": "en_country_code", "value": "FM"}
-- [Ilhas Faroé]{"entity": "en_country_code", "value": "FO"}
-- [França]{"entity": "en_country_code", "value": "FR"}
-- [Gabão]{"entity": "en_country_code", "value": "GA"}
-- [Reino Unido]{"entity": "en_country_code", "value": "GB"}
-- [Granada]{"entity": "en_country_code", "value": "GD"}
-- [Geórgia]{"entity": "en_country_code", "value": "GE"}
-- [Guyane]{"entity": "en_country_code", "value": "GF"}
-- [Bailado de Guernsey]{"entity": "en_country_code", "value": "GG"}
-- [Gibraltar]{"entity": "en_country_code", "value": "GI"}
-- [Gronelandia]{"entity": "en_country_code", "value": "GL"}
-- [Gambia]{"entity": "en_country_code", "value": "GM"}
-- [Guinea]{"entity": "en_country_code", "value": "GN"}
-- [Guadalupe]{"entity": "en_country_code", "value": "GP"}
-- [Geórgia do Sul]{"entity": "en_country_code", "value": "GS"}
-- [Guatemala]{"entity": "en_country_code", "value": "GT"}
-- [Guam]{"entity": "en_country_code", "value": "GU"}
-- [Guiné-Bissau]{"entity": "en_country_code", "value": "GW"}
-- [Guiana]{"entity": "en_country_code", "value": "GY"}
-- [Hong Kong]{"entity": "en_country_code", "value": "HK"}
-- [Ilhas Heard]{"entity": "en_country_code", "value": "HM"}
-- [Honduras]{"entity": "en_country_code", "value": "HN"}
-- [Croacia]{"entity": "en_country_code", "value": "HR"}
-- [Haiti]{"entity": "en_country_code", "value": "HT"}
-- [Hungria]{"entity": "en_country_code", "value": "HU"}
-- [Indonesia]{"entity": "en_country_code", "value": "ID"}
-- [Irlanda]{"entity": "en_country_code", "value": "IE"}
-- [Israel]{"entity": "en_country_code", "value": "IL"}
-- [Mann]{"entity": "en_country_code", "value": "IM"}
-- [India]{"entity": "en_country_code", "value": "IN"}
-- [Território Britânico do Oceano]{"entity": "en_country_code", "value": "IO"}
-- [Iraq]{"entity": "en_country_code", "value": "IQ"}
-- [Irão]{"entity": "en_country_code", "value": "IR"}
-- [Islandia]{"entity": "en_country_code", "value": "IS"}
-- [Italia]{"entity": "en_country_code", "value": "IT"}
-- [Jersey]{"entity": "en_country_code", "value": "JE"}
-- [Jamaica]{"entity": "en_country_code", "value": "JM"}
-- [Jordania]{"entity": "en_country_code", "value": "JO"}
-- [Japão]{"entity": "en_country_code", "value": "JP"}
-- [Kenya]{"entity": "en_country_code", "value": "KE"}
-- [Quirguistão]{"entity": "en_country_code", "value": "KG"}
-- [Cambodja]{"entity": "en_country_code", "value": "KH"}
-- [Kiribati]{"entity": "en_country_code", "value": "KI"}
-- [Comoros]{"entity": "en_country_code", "value": "KM"}
-- [Nevis]{"entity": "en_country_code", "value": "KN"}
-- [DPRK]{"entity": "en_country_code", "value": "KP"}
-- [Coreia do Sul]{"entity": "en_country_code", "value": "KR"}
-- [Kuwait]{"entity": "en_country_code", "value": "KW"}
-- [Ilhas Caimão]{"entity": "en_country_code", "value": "KY"}
-- [Cazaquistão]{"entity": "en_country_code", "value": "KZ"}
-- [Laos]{"entity": "en_country_code", "value": "LA"}
-- [Líbano]{"entity": "en_country_code", "value": "LB"}
-- [Santa Lúcia]{"entity": "en_country_code", "value": "LC"}
-- [Sri Lanka]{"entity": "en_country_code", "value": "LK"}
-- [Liberia]{"entity": "en_country_code", "value": "LR"}
-- [Lithuania]{"entity": "en_country_code", "value": "LT"}
-- [Lesoto]{"entity": "en_country_code", "value": "LS"}
-- [Luxemburgo]{"entity": "en_country_code", "value": "LU"}
-- [Latvia]{"entity": "en_country_code", "value": "LV"}
-- [Líbia]{"entity": "en_country_code", "value": "LY"}
-- [Marrocos]{"entity": "en_country_code", "value": "MA"}
-- [Monaco]{"entity": "en_country_code", "value": "MC"}
-- [Moldávia]{"entity": "en_country_code", "value": "MD"}
-- [Montenegro]{"entity": "en_country_code", "value": "ME"}
-- [Saint Martin]{"entity": "en_country_code", "value": "MF"}
-- [Madagáscar]{"entity": "en_country_code", "value": "MG"}
-- [Ilhas Marshall]{"entity": "en_country_code", "value": "MH"}
-- [Macedónia]{"entity": "en_country_code", "value": "MK"}
-- [Máli]{"entity": "en_country_code", "value": "ML"}
-- [Myanmar]{"entity": "en_country_code", "value": "MM"}
-- [Mongolia]{"entity": "en_country_code", "value": "MN"}
-- [Macau]{"entity": "en_country_code", "value": "MO"}
-- [CNMI]{"entity": "en_country_code", "value": "MP"}
-- [Martinique]{"entity": "en_country_code", "value": "MQ"}
-- [Mauritania]{"entity": "en_country_code", "value": "MR"}
-- [Monserrate]{"entity": "en_country_code", "value": "MS"}
-- [Malta]{"entity": "en_country_code", "value": "MT"}
-- [Maurice]{"entity": "en_country_code", "value": "MU"}
-- [Maldivas]{"entity": "en_country_code", "value": "MV"}
-- [Malawi]{"entity": "en_country_code", "value": "MW"}
-- [Mexico]{"entity": "en_country_code", "value": "MX"}
-- [Malásia]{"entity": "en_country_code", "value": "MY"}
-- [Moçambique]{"entity": "en_country_code", "value": "MZ"}
-- [Namibia]{"entity": "en_country_code", "value": "NA"}
-- [Nova Caledónia]{"entity": "en_country_code", "value": "NC"}
-- [Niger]{"entity": "en_country_code", "value": "NE"}
-- [Norfolk Island]{"entity": "en_country_code", "value": "NF"}
-- [Nigeria]{"entity": "en_country_code", "value": "NG"}
-- [Nicaragua]{"entity": "en_country_code", "value": "NI"}
-- [Holanda]{"entity": "en_country_code", "value": "NL"}
-- [Noruega]{"entity": "en_country_code", "value": "NO"}
-- [Nepal]{"entity": "en_country_code", "value": "NP"}
-- [Nauru]{"entity": "en_country_code", "value": "NR"}
-- [Niuê]{"entity": "en_country_code", "value": "NU"}
-- [Nova Zelândia]{"entity": "en_country_code", "value": "NZ"}
-- [Omão]{"entity": "en_country_code", "value": "OM"}
-- [Panama]{"entity": "en_country_code", "value": "PA"}
-- [Peru]{"entity": "en_country_code", "value": "PE"}
-- [Polinésia Francesa]{"entity": "en_country_code", "value": "PF"}
-- [PNG]{"entity": "en_country_code", "value": "PG"}
-- [Filipinas]{"entity": "en_country_code", "value": "PH"}
-- [Paquistão]{"entity": "en_country_code", "value": "PK"}
-- [Polónia]{"entity": "en_country_code", "value": "PL"}
-- [São Pedro e Miquelon]{"entity": "en_country_code", "value": "PM"}
-- [Pitcairn]{"entity": "en_country_code", "value": "PN"}
-- [Porto Rico]{"entity": "en_country_code", "value": "PR"}
-- [Palestine]{"entity": "en_country_code", "value": "PS"}
-- [Palau]{"entity": "en_country_code", "value": "PW"}
-- [Paraguay]{"entity": "en_country_code", "value": "PY"}
-- [Qatar]{"entity": "en_country_code", "value": "QA"}
-- [Reunião]{"entity": "en_country_code", "value": "RE"}
-- [Roménia]{"entity": "en_country_code", "value": "RO"}
-- [Sérvia]{"entity": "en_country_code", "value": "RS"}
-- [Russia]{"entity": "en_country_code", "value": "RU"}
-- [Ruanda]{"entity": "en_country_code", "value": "RW"}
-- [Arábia Saudita]{"entity": "en_country_code", "value": "SA"}
-- [Ilhas Salomão]{"entity": "en_country_code", "value": "SB"}
-- [Seicheles]{"entity": "en_country_code", "value": "SC"}
-- [Sudão]{"entity": "en_country_code", "value": "SD"}
-- [Suécia]{"entity": "en_country_code", "value": "SE"}
-- [Singapura]{"entity": "en_country_code", "value": "SG"}
-- [Ascensão]{"entity": "en_country_code", "value": "SH"}
-- [Eslovénia]{"entity": "en_country_code", "value": "SI"}
-- [Svalbard]{"entity": "en_country_code", "value": "SJ"}
-- [Eslováquia]{"entity": "en_country_code", "value": "SK"}
-- [Serra Leoa]{"entity": "en_country_code", "value": "SL"}
-- [São Marino]{"entity": "en_country_code", "value": "SM"}
-- [Senegal]{"entity": "en_country_code", "value": "SN"}
-- [Somália]{"entity": "en_country_code", "value": "SO"}
-- [Suriname]{"entity": "en_country_code", "value": "SR"}
-- [South Sudan]{"entity": "en_country_code", "value": "SS"}
-- [São Tomé e Príncipe]{"entity": "en_country_code", "value": "ST"}
-- [Salvador]{"entity": "en_country_code", "value": "SV"}
-- [Sint Maarten]{"entity": "en_country_code", "value": "SX"}
-- [Síria]{"entity": "en_country_code", "value": "SY"}
-- [Andorra]{"entity": "en_country_code", "value": "AD"}
-- [Turcas e Caicos]{"entity": "en_country_code", "value": "TC"}
-- [Chade]{"entity": "en_country_code", "value": "TD"}
-- [TAAF]{"entity": "en_country_code", "value": "TF"}
-- [Togo]{"entity": "en_country_code", "value": "TG"}
-- [Tailândia]{"entity": "en_country_code", "value": "TH"}
-- [Tajiquistão]{"entity": "en_country_code", "value": "TJ"}
-- [Tokelau]{"entity": "en_country_code", "value": "TK"}
-- [Timor Leste]{"entity": "en_country_code", "value": "TL"}
-- [Turquemenistão]{"entity": "en_country_code", "value": "TM"}
-- [Tunísia]{"entity": "en_country_code", "value": "TN"}
-- [Tonga]{"entity": "en_country_code", "value": "TO"}
-- [Turkey]{"entity": "en_country_code", "value": "TR"}
-- [Trinidade e Tobago]{"entity": "en_country_code", "value": "TT"}
-- [Tuvalu]{"entity": "en_country_code", "value": "TV"}
-- [Taiwan]{"entity": "en_country_code", "value": "TW"}
-- [Tanzania]{"entity": "en_country_code", "value": "TZ"}
-- [Ucrânia]{"entity": "en_country_code", "value": "UA"}
-- [Uganda]{"entity": "en_country_code", "value": "UG"}
-- [Ilha Wake]{"entity": "en_country_code", "value": "UM"}
-- [Estados Unidos]{"entity": "en_country_code", "value": "US"}
-- [Uruguai]{"entity": "en_country_code", "value": "UY"}
-- [Uzbekistan]{"entity": "en_country_code", "value": "UZ"}
-- [Santa Sé]{"entity": "en_country_code", "value": "VA"}
-- [São Vicente]{"entity": "en_country_code", "value": "VC"}
-- [Venezuela]{"entity": "en_country_code", "value": "VE"}
-- [Ilhas Virgens Britânicas]{"entity": "en_country_code", "value": "VG"}
-- [American Virgin Islands]{"entity": "en_country_code", "value": "VI"}
-- [Vietname]{"entity": "en_country_code", "value": "VN"}
-- [Vanuatu]{"entity": "en_country_code", "value": "VU"}
-- [Wallis and Futuna]{"entity": "en_country_code", "value": "WF"}
-- [Samoa]{"entity": "en_country_code", "value": "WS"}
-- [Iémen]{"entity": "en_country_code", "value": "YE"}
-- [Maore]{"entity": "en_country_code", "value": "YT"}
-- [RSA]{"entity": "en_country_code", "value": "ZA"}
-- [República da Zâmbia]{"entity": "en_country_code", "value": "ZM"}
-- [Swaziland]{"entity": "en_country_code", "value": "SZ"}
-- [Emirates]{"entity": "en_country_code", "value": "AE"}
-- [Afeganistão]{"entity": "en_country_code", "value": "AF"}
-- [Antígua]{"entity": "en_country_code", "value": "AG"}
-- [Anguila]{"entity": "en_country_code", "value": "AI"}
-- [Albânia]{"entity": "en_country_code", "value": "AL"}
-- [Armênia]{"entity": "en_country_code", "value": "AM"}
-- [Angola]{"entity": "en_country_code", "value": "AO"}
-- [Antarctica]{"entity": "en_country_code", "value": "AQ"}
-- [Argentina]{"entity": "en_country_code", "value": "AR"}
-- [Tutuila]{"entity": "en_country_code", "value": "AS"}
-- [Austria]{"entity": "en_country_code", "value": "AT"}
-- [Australia]{"entity": "en_country_code", "value": "AU"}
-- [Aruba]{"entity": "en_country_code", "value": "AW"}
-- [Alanda]{"entity": "en_country_code", "value": "AX"}
-- [Azerbaijan]{"entity": "en_country_code", "value": "AZ"}
-- [Bosnia]{"entity": "en_country_code", "value": "BA"}
-- [Barbados]{"entity": "en_country_code", "value": "BB"}
-- [Bangladesh]{"entity": "en_country_code", "value": "BD"}
-- [Bélgica]{"entity": "en_country_code", "value": "BE"}
-- [Burquina]{"entity": "en_country_code", "value": "BF"}
-- [Bulgária]{"entity": "en_country_code", "value": "BG"}
-- [Barein]{"entity": "en_country_code", "value": "BH"}
-- [Burundi]{"entity": "en_country_code", "value": "BI"}
-- [Benin]{"entity": "en_country_code", "value": "BJ"}
-- [São Bartolomeu]{"entity": "en_country_code", "value": "BL"}
-- [Bermuda]{"entity": "en_country_code", "value": "BM"}
-- [Brunei]{"entity": "en_country_code", "value": "BN"}
-- [Bolivia]{"entity": "en_country_code", "value": "BO"}
-- [Saba]{"entity": "en_country_code", "value": "BQ"}
-- [Brasil]{"entity": "en_country_code", "value": "BR"}
-- [Bahaamas]{"entity": "en_country_code", "value": "BS"}
-- [Butão]{"entity": "en_country_code", "value": "BT"}
-- [Bouvetøya]{"entity": "en_country_code", "value": "BV"}
-- [Botsuana]{"entity": "en_country_code", "value": "BW"}
-- [Belarus]{"entity": "en_country_code", "value": "BY"}
-- [Belize]{"entity": "en_country_code", "value": "BZ"}
-- [Canadá]{"entity": "en_country_code", "value": "CA"}
-- [Ilhas Keeling]{"entity": "en_country_code", "value": "CC"}
-- [RD Congo]{"entity": "en_country_code", "value": "CD"}
-- [CAR]{"entity": "en_country_code", "value": "CF"}
-- [Congo]{"entity": "en_country_code", "value": "CG"}
-- [Suíça]{"entity": "en_country_code", "value": "CH"}
-- [Côte d'Ivoire]{"entity": "en_country_code", "value": "CI"}
-- [Ilhas Cook]{"entity": "en_country_code", "value": "CK"}
-- [Chile]{"entity": "en_country_code", "value": "CL"}
-- [Camarões]{"entity": "en_country_code", "value": "CM"}
-- [China]{"entity": "en_country_code", "value": "CN"}
-- [Colombia]{"entity": "en_country_code", "value": "CO"}
-- [Costa Rica]{"entity": "en_country_code", "value": "CR"}
-- [Cuba]{"entity": "en_country_code", "value": "CU"}
-- [Cabo Verde]{"entity": "en_country_code", "value": "CV"}
-- [Curaçao]{"entity": "en_country_code", "value": "CW"}
-- [Ilha Natal]{"entity": "en_country_code", "value": "CX"}
-- [Chipre]{"entity": "en_country_code", "value": "CY"}
-- [República Checa]{"entity": "en_country_code", "value": "CZ"}
-- [Alemanha]{"entity": "en_country_code", "value": "DE"}
-- [Djibouti]{"entity": "en_country_code", "value": "DJ"}
-- [Dinamarca]{"entity": "en_country_code", "value": "DK"}
-- [Dominica]{"entity": "en_country_code", "value": "DM"}
-- [República Dominicana]{"entity": "en_country_code", "value": "DO"}
-- [Argélia]{"entity": "en_country_code", "value": "DZ"}
-- [Equador]{"entity": "en_country_code", "value": "EC"}
-- [Estónia]{"entity": "en_country_code", "value": "EE"}
-
-## synonym:EG
-- República Árabe do Egipto
-- República Árabe do Egito
-- Egipto
-- Egito
-- Arab Republic of Egypt
-- Egypt
-
-## synonym:EH
-- Aṣ-Ṣaḥrā’ al-Gharbīyah
-- Sáara Ocidental
-- Sara Ocidental
-- Saara Ocidental
-- Sahara Occidental
-- Taneẓroft Tutrimt
-- Western Sahara
-
-## synonym:ER
-- Estado da Eritreia
-- Ertrā
-- Eritreia
-- State of Eritrea
-- Eritrea
-- Dawlat Iritriyá
-- Hagere Ertra
-
-## synonym:ES
-- Reino de Espanha
-- Reino da Espanha
-- Espanha
-- Reiaume d'Espanha
-- Espainiako Erresuma
-- Regne d'Espanya
-- Reino de España
-- Kingdom of Spain
-- España
-- Spain
-
-## synonym:ET
-- República Democrática Federal da Etiópia
-- Etiópia
-- Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya
-- Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa
-- ityoppiah federalih demokrasih ummuno
-- Federal Democratic Republic of Ethiopia
-- Itoobiya
-- Itoophiyaa
-- Itiyoophiyaa
-- Ethiopia
-
-## synonym:FI
-- República da Finlândia
-- Finlândia
-- Republiken Finland
-- Suomen tasavalta
-- Republic of Finland
-- Suomi
-- Finland
-
-## synonym:FJ
-- República das Ilhas Fiji
-- Fidji
-- República das Fidji
-- Fíji
-- República das Fiji
-- República das Fíji
-- Matanitu Tugalala o Viti
-- Republic of Fiji
-- Fiji
-
-## synonym:FK
-- Falklands
-- Ilhas Falkland
-- Islas Malvinas
-- Ilhas Malvinas
-- Falkland
-- Malvinas
-- Falkland Islands (Malvinas)
-
-## synonym:FM
-- Micronésia
-- EFM
-- Estados Federados da Micronésia
-- Micronesia
-- FSM
-- Federated States of Micronesia
-
-## synonym:FO
-- Færeyjar
-- Ilhas Faroés
-- Ilhas Faroé
-- Ilhas Féroe
-- Ilhas Feroe
-- Færøerne
-- Føroyar
-- Faroe Islands
-
-## synonym:FR
-- República Francesa
-- França
-- République française
-- French Republic
-- France
-
-## synonym:GA
-- República Gabonesa
-- Gabão
-- République gabonaise
-- Gabonese Republic
-- Gabon
-
-## synonym:GB
-- Irlanda do Norte
-- Grã-Bretanha
-- Reino Unido da Grã-Bretanha e Irlanda do Norte
-- Reino Unido
-- Inglaterra
-- Northern Ireland
-- Great Britain
-- Britain
-- U.K.
-- UK
-- United Kingdom of Great Britain and Northern Ireland
-- United Kingdom
-- England
-
-## synonym:GD
-- Island of Spice
-- Ilha das Especiarias
-- La Grenade
-<!-- - Granada -->
-- Gwenad
-- Grenada
-
-## synonym:GE
-- República da Geórgia
-- Geórgia
-- sakartvelos resp'ublik'a
-- Republic of Georgia
-- Sakartvelo
-- Georgia
-
-## synonym:GF
-- Guyane française
-- Guiana Francesa
-- Department of French Guiana
-- Guyane
-- French Guiana
-
-## synonym:GG
-- Bailliage de Guernesey
-- Bailiwick of Guernsey
-- Bailiado de Guernsey
-- Guernesei
-- Guérnesei
-- Guernesey
-- Guernési
-- Guernsey
-
-## synonym:GH
-- República do Gana
-- Gana
-- Republic of Ghana
-- Ghana
-
-## synonym:GI
-- Gibraltar
-
-## synonym:GL
-- Gronelândia
-- Gronelandia
-- Groelândia
-- Groenlândia
-- Grønland
-- Kalaallit Nunaat
-- Greenland
-
-## synonym:GM
-- República da Gâmbia
-- Gâmbia
-- Republic of The Gambia
-- Gámbi
-- Kambiya
-- Gambia
-
-## synonym:GN
-- Renndaandi Ginea
-- Guinea-Conakry
-- French Guinea
-- Guinée française
-- République de Guinée
-- Republic of Guinea
-- Guinea
-
-## synonym:GP
-- Guadalupe
-- Gwadloup
-- Guadeloupe
-
-## synonym:GQ
-- República da Guiné Equatorial
-- République de Guinée équatoriale
-- República de Guinea Ecuatorial
-- Republic of Equatorial Guinea
-- Guiné Equatorial
-- Guinée équatoriale
-- Guinea Ecuatorial
-- Equatorial Guinea
-
-## synonym:GR
-- Hélade
-- República Helénica
-- República Helênica
-- Elláda
-- Grécia
-- Grecia
-- Ellinikí Dimokratía
-- Hellas
-- Hellenic Republic
-- Greece
-
-## synonym:GS
-- Geórgia do Sul
-- Sandwich do Sul
-- Ilhas Sandwich do Sul
-- Ilhas Geórgias do Sul e Sandwich do Sul
-- Ilhas Geórgia do Sul e Sanduíche do Sul
-- Ilhas Geórgia do Sul e Sandwich do Sul
-- South Georgia
-- South Sandwich Islands
-- SGSSI
-- South Georgia and the South Sandwich Islands
-
-## synonym:GT
-- República da Guatemala
-- República de Guatemala
-- Republic of Guatemala
-- Guatemala
-
-## synonym:GU
-- Guame
-- Guão
-- Guåhån
-- Guam
-
-## synonym:GW
-- Guiné Bissau
-- Guinea Bissau
-- República da Guiné-Bissau
-- Republic of Guinea-Bissau
-- Guiné-Bissau
-- Guinea-Bissau
-
-## synonym:GY
-- República Cooperativa da Guiana
-- Guiana
-- Co-operative Republic of Guyana
-- Guyana
-
-## synonym:HK
-- Hēunggóng
-- Xiānggǎng
-- HKSAR
-- Hong Kong Special Administrative Region
-- Hong Kong
-
-## synonym:HM
-- Ilhas McDonald
-- Ilhas Heard
-- Território das Ilhas Heard e McDonald
-- Ilha Heard e as Ilhas McDonald
-- HIMI
-- Heard Island and McDonald Islands
-
-## synonym:HN
-- República das Honduras
-- República de Honduras
-- Republic of Honduras
-- Honduras
-
-## synonym:HR
-- República da Croácia
-- Croácia
-- Republika Hrvatska
-- Republic of Croatia
-- Hrvatska
-- Croatia
-
-## synonym:HT
-- República do Haiti
-- Hayti
-- Repiblik D Ayiti
-- République d'Haïti
-- Republic of Haiti
-- Ayiti
-- Haïti
-- Haiti
-
-## synonym:HU
-- Hungria
-- Magyarország
-- Hungary
-
-## synonym:ID
-- República da Indonésia
-- Indonésia
-- Republik Indonesia
-- Republic of Indonesia
-- Indonesia
-
-## synonym:IE
-- Emerald Isle
-- Ilha Esmeralda
-- Irlanda
-- Ilha da Irlanda
-- Airlann
-- Éire
-- Ireland
-
-## synonym:IL
-- Dawlat Isrā'īl
-- Medīnat Yisrā'el
-- Estado de Israel
-- State of Israel
-- Israel
-
-## synonym:IM
-- Ilha de Man
-- Ellan Vannin
-- Mannin
-- Mann
-- Isle of Man
-
-## synonym:IN
-- República da Índia
-- Índia
-- Bhārat Gaṇarājya
-- Republic of India
-- Bhārat
-- India
-
-## synonym:IO
-- Território Britânico do Oceano
-- Território Britânico do Índico
-- British Indian Territory
-- British Indian Ocean
-- Território Britânico do Oceano Índico
-- TBOI
-- BIOT
-- British Indian Ocean Territory
-
-## synonym:IQ
-- Al-Jumhuriyah Al-Iraqiyah
-- República do Iraque
-- Iraque
-- Komarî Êraq
-- Republic of Iraq
-- Êraq
-- Iraq
-
-## synonym:IR
-- Pérsia
-- República Islâmica do Irão
-- República Islâmica do Irã
-- Irã
-- Irão
-- Jomhuri-ye Eslāmi-ye Irān
-- Persia
-- Islamic Republic of Iran
-
-## synonym:IS
-- Islândia
-- Ísland
-- Iceland
-
-## synonym:IT
-- República Italiana
-- Itália
-- Repubblica Italiana
-- Italian Republic
-- Italia
-- Italy
-
-## synonym:JE
-- Bailiado de Jersey
-- Jérsia
-- Jérsei
-- Bailliage dé Jèrri
-- Bailliage de Jersey
-- Bailiwick of Jersey
-- Jersey
-
-## synonym:JM
-- Jumieka
-- Jamaica
-
-## synonym:JO
-- Reino da Jordânia
-- Reino Haxemita da Jordânia
-- Jordânia
-- Jordania
-- Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah
-- Al-ʾUrdunn
-- Kingdom of Jordan
-- Hashemite Kingdom of Jordan
-- Jordan
-
-## synonym:JP
-- Estado do Japão
-- Japão
-- Nihon-koku
-- Nippon-koku
-- Nihon
-- Nippon
-- Japan
-
-## synonym:KE
-- República do Quênia
-- República do Quénia
-- Quênia
-- Quénia
-- Jamhuri ya Kenya
-- Republic of Kenya
-- Kenya
-
-## synonym:KG
-- República do Quirguizistão
-- República do Quirguistão
-- República Quirguiz
-- Quirguízia
-- Quirguizistão
-- Quirguistão
-- Киргизия
-- Kirghizia
-- Kyrgyzskaya Respublika
-- Кыргызская Республика
-- Kırğız Respublikası
-- Кыргыз Республикасы
-- Kyrgyz Republic
-- Kyrgyzstan
-
-## synonym:KH
-- Reino do Camboja
-- Cambodja
-- Camboja
-- Royaume du Cambodge
-- Kingdom of Cambodia
-- Cambodge
-- Kampuchea
-- Cambodia
-
-## synonym:KI
-- República de Quiribáti
-- República de Quiribati
-- República de Kiribati
-- Quiribati
-- Quiribáti
-- Ribaberiki Kiribati
-- Republic of Kiribati
-- Kiribati
-
-## synonym:KM
-- União de Comores
-- União das Comores
-- Comores
-- al-Ittiḥād al-Qamarī
-- al-Ittiḥād al-Qumurī
-- Umoja wa Komori
-- Union des Comores
-- Udzima wa Komori
-- Union of the Comoros
-- Comoros
-
-## synonym:KN
-- Nevis
-- Saint Kitts
-- Federação de São Cristóvão e Névis
-- Federação de São Cristóvão e Neves
-- São Cristóvão e Neves
-- São Cristóvão e Névis
-- Federation of Saint Christopher and Nevis
-- Saint Kitts and Nevis
-
-## synonym:KP
-- República Popular Democrática da Coreia
-- Coreia do Norte
-- Pukchosŏn
-- Chosŏn
-- Chosŏn Minjujuŭi Inmin Konghwaguk
-- DPR Korea
-- DPRK
-- North Korea
-- Democratic People's Republic of Korea
-
-## synonym:KR
-- República da Coreia
-- Coreia do Sul
-- Daehan Minguk
-- Namhan
-- Hanguk
-- South Korea
-- Republic of Korea
-
-## synonym:KW
-- Estado do Kuwait
-- Dawlat al-Kuwait
-- State of Kuwait
-- al-Kuwait
-- Kuwait
-
-## synonym:KY
-- Ilhas Caimão
-- Ilhas Cayman
-- Ilhas Caimã
-- Cayman Islands
-
-## synonym:KZ
-- República do Cazaquistão
-- Qazaqstan
-- Cazaquistão
-- Respublika Kazakhstan
-- Республика Казахстан
-- Qazaqstan Respýblıkasy
-- Қазақстан Республикасы
-- Republic of Kazakhstan
-- Kazakhstan
-
-## synonym:LA
-- République démocratique populaire lao
-- Saþalanalat Paxaþipatai Paxaxōn Lao
-- Lāo
-- Laos
-- Lao People's Democratic Republic
-
-## synonym:LB
-- República do Líbano
-- Liban
-- Líbano
-- République libanaise
-- al-Jumhūrīyah al-Lubnānīyah
-- Lebanese Republic
-- Lubnān
-- Lebanon
-
-## synonym:LC
-- Santa Lúcia
-- Iyonola
-- Sainte-Lucie
-- Saint Lucia
-
-## synonym:LI
-- Principado de Liechtenstein
-- Principado do Liechtenstein
-- Listenstaine
-- Fürstentum Liechtenstein
-- Principality of Liechtenstein
-- Liechtenstein
-
-## synonym:LK
-- Taprobana
-- Ceilão
-- República Democrática Socialista do Sri Lanka
-- Seri Lanca
-- Sri Lanca
-- Ilaṅkai
-- Śrī Laṃkā
-- Democratic Socialist Republic of Sri Lanka
-- Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
-- Srī Lankā prajātāntrika samājavādī janarajaya
-- Sri Lanka
-
-## synonym:LR
-- República da Libéria
-- Libéria
-- Republic of Liberia
-- Liberia
-
-## synonym:LS
-- Bassutolândia
-- Reino do Lessoto
-- Reino do Lesoto
-- Lessoto
-- Lesoto
-- Muso oa Lesotho
-- Kingdom of Lesotho
-- Lesotho
-
-## synonym:LT
-- República da Lituânia
-- Lituânia
-- Lietuvos Respublika
-- Republic of Lithuania
-- Lietuva
-- Lithuania
-
-## synonym:LU
-- Grão-Ducado de Luxemburgo
-- Grão-Ducado do Luxemburgo
-- Luxemburgo
-- Großherzogtum Luxemburg
-- Grand-Duché de Luxembourg​
-- Groussherzogtum Lëtzebuerg
-- Grand Duchy of Luxembourg
-- Luxemburg
-- Lëtzebuerg
-- Luxembourg
-
-## synonym:LV
-- República da Letônia
-- Letônia
-- Letónia
-- Lețmō Vabāmō
-- Latvijas Republika
-- Republic of Latvia
-- Lețmō
-- Latvija
-- Latvia
-
-## synonym:LY
-- Estado da Líbia
-- Líbia
-- Dawlat Lībiyā
-- State of Libya
-- Lībiyā
-- Libya
-
-## synonym:MA
-- Reino de Marrocos
-- Murakuc
-- Amerruk
-- Marrocos
-- tageldit n lmaɣrib
-- Royaume du Maroc
-- The Western Kingdom
-- al-mamlakah al-maghribiyah
-- Kingdom of Morocco
-- Maroc
-- al-maġhrib
-- Morocco
-
-## synonym:MC
-- Principado de Mônaco
-- Principado do Mónaco
-- Mónaco
-- Principatu de Mùnegu
-- Principat de Mónegue
-- Principato di Monaco
-- Principauté de Monaco
-- Principality of Monaco
-- Monaco
-
-## synonym:MD
-- República da Moldova
-- República da Moldávia
-- Moldávia
-- Republica Moldova
-- Moldova
-- Republic of Moldova
-
-## synonym:ME
-- Црна Гора
-- Crna Gora
-- Montenegro
-
-## synonym:MF
-- São Martim
-- São Martinho parte francesa
-- Saint Martin
-- Sint Martin
-- Saint-Martin
-- Saint Martin (French part)
-
-## synonym:MG
-- República Malgaxe
-- República de Madagascar
-- República de Madagáscar
-- Madagáscar
-- Malagasy Republic
-- République de Madagascar
-- Repoblikan'i Madagasikara
-- Republic of Madagascar
-- Madagasikara
-- Madagascar
-
-## synonym:MH
-- República das Ilhas Marshall
-- Ilhas Marshall
-- Aolepān Aorōkin Ṃajeḷ
-- Republic of the Marshall Islands
-- Marshall Islands
-
-## synonym:MK
-- Macedónia
-- Macedônia
-- República da Macedónia do Norte
-- República da Macedônia do Norte
-- Severna Makedonija
-- Macedónia do Norte
-- Macedônia do Norte
-- Republika e Maqedonisë së Veriut
-- Република Северна Македонија
-- Republic of North Macedonia
-- Macedonia
-- North Macedonia
-- the Former Yugoslav Republic of Macedonia
-
-## synonym:ML
-- República do Mali
-- Máli
-- Renndaandi Maali
-- Mali ka Fasojamana
-- République du Mali
-- Republic of Mali
-- Mali
-
-## synonym:MM
-- República da União de Myanmar
-- Birmânia
-- Nainngandaw
-- Pyidaunzu Thanmăda Myăma
-- Republic of the Union of Myanmar
-- Burma
-- Myanmar
-
-## synonym:MN
-- Mongolian Nation
-- Mongol Uls
-- mongol nation
-- nação mongol
-- Mongolia
-
-## synonym:MO
-- Região Administrativa de Macau
-- Região Administrativa Especial de Macau
-- Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
-- Jūng'wàh Yàhnmàhn
-- Macao Special Administrative Region
-- Macau
-- Macao
-
-## synonym:MP
-- Comunidade das Ilhas Marianas do Norte
-- Ilhas Marianas do Norte
-- Ilhas Marianas Setentrionais
-- Nördliche Marianen
-- Islas Marianas del Norte
-- Commonwealth Téél Falúw kka Efáng llól Marianas
-- Sankattan Siha Na Islas Mariånas
-- CNMI
-- Commonwealth of the Northern Mariana Islands
-- Northern Mariana Islands
-
-## synonym:MQ
-- Martinica
-- Matinik
-- Matnik
-- Martinique
-
-## synonym:MR
-- República Islâmica da Mauritânia
-- Mauritânia
-- al-Jumhūrīyah al-Islāmīyah al-Mūrītānīyah
-- République islamique de Mauritanie
-- Islamic Republic of Mauritania
-- Murutaane
-- Gànnaar
-- Moritani
-- Cengit
-- Agawej
-- Mauritanie
-- Mūrītānyā
-- Mauritania
-
-## synonym:MS
-- Emerald Isle of the Caribbean
-- The Emerald Isle of the Caribbean
-- Ilha Esmeralda das Caraíbas
-- Monserrate
-- Montserrat
-
-## synonym:MT
-- República de Malta
-- Repubblika ta' Malta
-- Republic of Malta
-- Malta
-
-## synonym:MU
-- République de Maurice
-- República de Maurício
-- República da Maurícia
-- Maurício
-- Maurícia
-- Repiblik Moris
-- Republic of Mauritius
-- Moris
-- Maurice
-- Mauritius
-
-## synonym:MV
-- República das Maldivas
-- Maldivas
-- Dhivehi Raajje
-- Dhivehi Raajjeyge Jumhooriyyaa
-- Republic of Maldives
-- Maldives
-
-## synonym:MW
-- Charu cha Malaŵi
-- Dziko la Malaŵi
-- Dziko la Malaŵi
-- Republic of Malawi
-- Malawi
-- República do Malawi
-- Malaŵi
-- Malaui
-- Maláui
-- Nyasaland
-
-## synonym:MX
-- Mexican United States
-- EUM
-- Estados Unidos Mexicanos
-- United Mexican States
-- Mēxihco
-- México
-- Mexico
-
-## synonym:MY
-- Malásia
-- Malaysia
-
-## synonym:MZ
-- Muzambhiki
-- Msumbiji
-- Mozambiki
-- República de Moçambique
-- Moçambique
-- Republic of Mozambique
-- Mozambique
-
-## synonym:NA
-- República da Namíbia
-- Namibia ye Lukuluhile
-- Rephaboliki ya Namibia
-- Republika zaNamibia
-- Orepublika yaNamibia
-- Namibiab Republiki dib
-- Republik Namibia
-- Republiek van Namibië
-- Republic of Namibia
-- Namibia
-
-## synonym:NC
-- Nova Caledônia
-- Nova Caledónia
-- Nouvelle-Calédonie
-- New Caledonia
-
-## synonym:NE
-- Níger
-- República do Níger
-- Republic of the Niger
-- République du Niger
-- the Niger
-- Niger
-
-## synonym:NF
-- Território da Ilha Norfolque
-- Território da Ilha Norfolk
-- ilha Norfolque
-- ilha Norfolk
-- Teratri a' Norf'k Ailen
-- Territory of Norfolk Island
-- Norf'k Ailen
-- Norfolk Island
-
-## synonym:NG
-- Nigéria
-- República Federal da Nigéria
-- Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà
-- Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà
-- Jamhuriyar Taraiyar Najeriya
-- Federal Republic of Nigeria
-- Nigeria
-
-## synonym:NI
-- República da Nicarágua
-- Nicarágua
-- República de Nicaragua
-- Republic of Nicaragua
-- Nicaragua
-
-## synonym:NL
-- Reino dos Países Baixos
-- Holanda
-- Países Baixos
-- Kingdom of the Netherlands
-- Nederland
-- Netherlands
-
-## synonym:NO
-- Reino da Noruega
-- Noruega
-- Nöörje
-- Vuodna
-- Norga
-- Noreg
-- Norge
-- Nöörjen gånkarijhke
-- Vuona gånågisrijkka
-- Norgga gonagasriika
-- Kongeriket Noreg
-- Kongeriket Norge
-- Kingdom of Norway
-- Norway
-
-## synonym:NP
-- República Democrática Federal do Nepal
-- Saṅghīya Lokatāntrik Gaṇatantra Nepāl
-- Federal Democratic Republic of Nepal
-- Nepal
-
-## synonym:NR
-- Ilha Aprazível
-- Naoero
-- República de Nauru
-- Pleasant Island
-- Repubrikin Naoero
-- Republic of Nauru
-- Nauru
-
-## synonym:NU
-- Niuê
-- Niuē
-- Niue
-
-## synonym:NZ
-- Nova Zelândia
-- Aotearoa
-- New Zealand
-
-## synonym:OM
-- Saltānat 'Umān
-- Sultanato de Omã
-- Omão
-- Omã
-- Sultanate of Oman
-- Salṭanat ʻUmān
-- Oman
-
-## synonym:PA
-- República del Panamá
-- República do Panamá
-- República de Panamá
-- Republic of Panama
-- Panamá
-- Panama
-
-## synonym:PE
-- Piruw Suyu
-- República del Perú
-- Republic of Peru
-- Piruw Republika
-- Perú
-- Peru
-
-## synonym:PF
-- Polinésia Francesa
-- Pōrīnetia Farāni
-- Polynésie française
-- French Polynesia
-
-## synonym:PG
-- Papua Niu Gini
-- Papua Niugini
-- Papua Nova Guiné
-- Papua-Nova Guiné
-- Independen Stet bilong Papua Niu Gini
-- Independen Stet bilong Papua Niugini
-- Independent State of Papua New Guinea
-- PNG
-- Papua New Guinea
-
-## synonym:PH
-- Repúbliká ng̃ Pilipinas
-- República das Filipinas
-- Republika ng Pilipinas
-- Republic of the Philippines
-- Filipinas
-- Pilipinas
-- Philippines
-
-## synonym:PK
-- República Islâmica do Paquistão
-- Islami Jamahuriat Pakistan
-- Pākistān
-- Paquistão
-- Islāmī Jumhūriyah Pākistān
-- Islamic Republic of Pakistan
-- Pakistan
-
-## synonym:PL
-- República da Polónia
-- Polónia
-- Polônia
-- Rzeczpospolita Polska
-- Republic of Poland
-- Polska
-- Poland
-
-## synonym:PM
-- Coletividade de Ultramar de São Pedro e Miquelão
-- Saint-Pierre e Miquelon
-- São Pedro e Miquelon
-- São Pedro e Miquelão
-- Collectivité d'outre-mer de Saint-Pierre-et-Miquelon
-- Overseas Collectivity of Saint Pierre and Miquelon
-- Saint-Pierre-et-Miquelon
-- Saint Pierre and Miquelon
-
-## synonym:PN
-- Grupo de Ilhas Pitcairn
-- Ilhas Pitcairn, Henderson, Ducie e Oeno
-- Ilhas Picárnia
-- Ilhas Pitcairn
-- Pitcairn, Henderson, Ducie and Oeno Islands
-- Pitkern Ailen
-- Pitcairn Islands
-- Pitcairn
-
-## synonym:PR
-- Estado Livre Associado de Porto Rico
-- Free Associated State of Puerto Rico
-- Estado Libre Asociado de Puerto Rico
-- Commonwealth of Puerto Rico
-- Porto Rico
-- Borinquen
-- Puerto Rico
-
-## synonym:PS
-- Estado da Palestina
-- Filasṭīn
-- Palestine
-- Palestina
-- Dawlat Filasṭīn
-- State of Palestine
-
-## synonym:PT
-- República Portuguesa
-- Portuguese Republic
-- Portugal
-
-## synonym:PW
-- República de Palau
-- Beluu er a Belau
-- Republic of Palau
-- Pelew
-- Palaos
-- Belau
-- Palau
-
-## synonym:PY
-- Paraguai
-- Paraguái
-- Tetã Paraguái
-- República del Paraguay
-- Republic of Paraguay
-- Paraguay
-
-## synonym:QA
-- Estado do Qatar
-- Estado do Catar
-- Catar
-- Qaṭar
-- Dawlat Qaṭar
-- State of Qatar
-- Qatar
-
-## synonym:RE
-- Reunião
-- Île Bourbon
-- La Réunion
-- Réunion
-
-## synonym:RO
-- Roménia
-- Romênia
-- România
-- Romania
-
-## synonym:RS
-- República da Sérvia
-- Sérvia
-- Republika Srbija
-- Република Србија
-- Republic of Serbia
-- Srbija
-- Србија
-- Serbia
-
-## synonym:RU
-- Federação Russa
-- Rússia
-- Rossiyskaya Federatsiya
-- Российская Федерация
-- Rossiya
-- Росси́я
-- Russia
-- Russian Federation
-
-## synonym:RW
-- República do Ruanda
-- República de Ruanda
-- Ruanda
-- u Rwanda
-- Jamhuri ya Rwanda
-- République du Rwanda
-- Repubulika y'u Rwanda
-- Republic of Rwanda
-- Rwanda
-
-## synonym:SA
-- Reino da Arábia Saudita
-- al-Mamlaka al-ʻArabiyya as-Suʻūdiyya
-- as-Su’ūdiyya
-- Arábia Saudita
-- Kingdom of Saudi Arabia
-- Saudi Arabia
-
-## synonym:SB
-- Ilhas Salomão
-- Islas Salomón
-- Solomon Islands
-
-## synonym:SC
-- República das Seychelles
-- República das Seicheles ou Seychelles
-- Seicheles
-- Sesel
-- La Repiblik Sesel
-- République des Seychelles
-- Republic of Seychelles
-- Seychelles
-
-## synonym:SD
-- República do Sudão
-- Sudão
-- Jumhūriyyat as-Sūdān
-- as-Sūdān
-- Republic of the Sudan
-- Sudan
-
-## synonym:SE
-- Reino da Suécia
-- Suécia
-- Konungariket Sverige
-- Kingdom of Sweden
-- Sverige
-- Sweden
-
-## synonym:SG
-- Republik Singapura
-- República de Singapura
-- Chiṅkappūr
-- Xīnjiāpō
-- Cingapura
-- Singapura
-- Republic of Singapore
-- Singapore
-
-## synonym:SH
-- Tristão da Cunha
-- Ascensão
-- Santa Helena
-- Santa Helena, Ascensão e Tristão da Cunha
-- Tristan da Cunha
-- Ascension Island
-- Saint Helena
-- Saint Helena, Ascension and Tristan da Cunha
-
-## synonym:SI
-- República da Eslovênia
-- República da Eslovénia
-- Eslovênia
-- Eslovénia
-- Republika Slovenija
-- Republic of Slovenia
-- Slovenija
-- Slovenia
-
-## synonym:SJ
-- Jan Mayen
-- Svalbard
-- Svalbard e Jan Mayen
-- Svalbard and Jan Mayen Islands
-- Svalbard og Jan Mayen
-- Svalbard and Jan Mayen
-
-## synonym:SK
-- República Eslovaca
-- Eslováquia
-- Slovenská republika
-- Slovak Republic
-- Slovensko
-- Slovakia
-
-## synonym:SL
-- República da Serra Leoa
-- Serra Leoa
-- Salone
-- Republic of Sierra Leone
-- Sierra Leone
-
-## synonym:SM
-- São Marino
-- São Marinho
-- Sereníssima República de San Marino
-- República de San Marino
-- Serenissima Repubblica di San Marino
-- Most Serene Republic of San Marino
-- Repubblica di San Marino
-- Republic of San Marino
-- San Marino
-
-## synonym:SN
-- República do Senegal
-- Renndaandi Senegal
-- Réewum Senegaal
-- République du Sénégal
-- Republic of Senegal
-- Sénégal
-- Senegal
-
-## synonym:SO
-- República Federal da Somália
-- Somália
-- Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya
-- Jamhuuriyadda Federaalka Soomaaliya
-- Federal Republic of Somalia
-- aṣ-Ṣūmāl
-- Soomaaliya
-- Somalia
-
-## synonym:SR
-- República do Suriname
-- Republiek Suriname
-- Republic of Suriname
-- Surinam
-- Suriname
-
-## synonym:SS
-- República do Sudão do Sul
-- Sudão Meridional
-- Sudão do Sul
-- Paguot Thudä
-- Republic of South Sudan
-- South Sudan
-
-## synonym:ST
-- São Tomé e Príncipe
-- República Democrática de São Tomé e Príncipe
-- Democratic Republic of São Tomé and Príncipe
-- Saint Thomas and Prince
-- Sao Tome and Principe
-
-## synonym:SV
-- República do Salvador
-<!-- - Salvador -->
-- República de El Salvador
-- Republic of El Salvador
-- El Salvador
-
-## synonym:SX
-- Sint Maarten
-- São Martinho paises baixos
-- Sint Maarten (Dutch part)
-
-## synonym:SY
-- República Árabe Síria
-- Síria
-- al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah
-- Sūriyā
-- Syria
-- Syrian Arab Republic
-
-## synonym:AD
-- Principado dos Vales de Andorra
-- Principado de Andorra
-- Principat de les Valls d'Andorra
-- Principality of the Valleys of Andorra
-- Principat d'Andorra
-- Principality of Andorra
-- Andorra
-
-## synonym:TC
-- Turcas
-- Turcas e Caicos
-- Ilhas Turcas e Caicos
-- Turks and Caicos
-- Caicos
-- Turks
-- Turks Islands
-- Caicos Islands
-- TCI
-- Turks and Caicos Islands
-
-## synonym:TD
-- República do Chade
-- Tchad
-- Tchade
-- Chade
-- Jumhūriyyat Tshād
-- République du Tchad
-- Republic of Chad
-- Tshād
-- Chad
-
-## synonym:TF
-- Terres australes françaises
-- French Southern Lands
-- TOM
-- Territoire d'outre-mer
-- TAAF
-- Terres australes et antarctiques françaises
-- French Southern and Antarctic Lands
-- French Southern Territories
-
-## synonym:TG
-- República Togolesa
-- République togolaise
-- Togolese Republic
-- Togo
-
-## synonym:TH
-- Sião
-- Reino da Tailândia
-- Tailândia
-- Ratcha-anachak Thai
-- Siam
-- Kingdom of Thailand
-- Thailand
-
-## synonym:TJ
-- República do Tajiquistão
-- Tojikiston
-- Tadjiquistão
-- Tajiquistão
-- Jumhurii Tojikiston
-- Republic of Tajikistan
-- Tajikistan
-
-## synonym:TK
-- Toquelau
-- Tokelau Islands
-- Union Islands
-- Tokelau
-
-## synonym:TL
-- East Timor
-- Democratic Republic of Timor-Leste
-- Repúblika Demokrátika Timór-Leste
-- Timor Lorosa'e
-- Timor Leste
-- República Democrática de Timor-Leste
-- Timor-Leste
-
-## synonym:TM
-- República do Turcomenistão
-- Turcomênia
-- Turcomenistão
-- Turquemenistão
-- Türkmenistan Respublikasy
-- Republic of Turkmenistan
-- Türkmenistan
-- Turkmenistan
-
-## synonym:TN
-- República Tunisina
-- Tunisie
-- Tūnis
-- Tunísia
-- République tunisienne
-- al-Jumhūrīyah at-Tūnisīyah
-- Republic of Tunisia
-- Tunisia
-
-## synonym:TO
-- Reino de Tonga
-- Puleʻanga Fakatuʻi ʻo Tonga
-- Kingdom of Tonga
-- Tonga
-
-## synonym:TR
-- República da Turquia
-- Turquia
-- Türkiye Cumhuriyeti
-- Republic of Turkey
-- Türkiye
-- Turkey
-
-## synonym:TT
-- Trinidade
-- República de Trindade e Tobago
-- Trinidad e Tobago
-- Trinidade e Tobago
-- Trindade e Tobago
-- Tobago
-- Trinidad
-- Republic of Trinidad and Tobago
-- Trinidad and Tobago
-
-## synonym:TV
-- Ilhas Ellice
-- Ellice Islands
-- Tuvalu
-
-## synonym:TW
-- Táiwān shěng
-- Província de Taiwan
-- Taiwan, China
-- Taiwan
-- Taiwan Area
-- Taiwan Region
-- Taiwan Province
-- Taiwan, Province of China
-
-## synonym:TZ
-- República Unida da Tanzânia
-- Tanzânia
-- Jamhuri ya Muungano wa Tanzania
-- Tanzania
-- United Republic of Tanzania
-
-## synonym:UA
-- Ucrânia
-- Ukrayina
-- Ukraine
-
-## synonym:UG
-- República do Uganda
-- República de Uganda
-- Eggwanga Yuganda
-- Jamhuri ya Uganda
-- Republic of Uganda
-- Uganda
-
-## synonym:UM
-- Ilhas Menores Afastadas dos Estados Unidos
-- Ilhas Menores Distantes dos Estados Unidos
-- Ilha Wake
-- Atol Palmyra
-- Ilha Navassa
-- Atol Midway
-- Recife Kingman
-- Atol Johnston
-- Ilha Jarvis
-- Ilha Howland
-- Ilha Baker
-- Navassa Island
-- Wake Island
-- Palmyra Atoll
-- Midway Atoll
-- Kingman Reef
-- Johnston Atoll
-- Jarvis Island
-- Howland Island
-- Baker Island
-- United States Minor Outlying Islands
-
-## synonym:US
-- Estados Unidos
-- Estados Unidos da América
-- US
-- U.S.
-- USA
-- United States of America
-- United States
-
-## synonym:UY
-- Uruguai
-- República Oriental do Uruguai
-- República Oriental del Uruguay
-- Oriental Republic of Uruguay
-- Uruguay
-
-## synonym:UZ
-- República do Uzbequistão
-- Usbequistão
-- Uzbequistão
-- Oʻzbekiston Respublikasi
-- Republic of Uzbekistan
-- Oʻzbekiston
-- Uzbekistan
-
-## synonym:VA
-- Status Civitatis Vaticanæ
-- Civitas Vaticana
-- Stato della Città del Vaticano
-- Estado da Cidade do Vaticano
-- Cidade do Vaticano
-- Vaticano
-- Cidade-Estado do Vaticano
-- Sé Apostólica
-- Santa Sé Apostólica
-- Santa Sé
-- See of Rome
-- Santa Sede
-- Sancta Sedes
-- Holy See (Vatican City State)
-
-## synonym:VC
-- São Vicente
-- São Vicente e Granadinas
-- Saint Vincent
-- Saint Vincent and the Grenadines
-
-## synonym:VE
-- República Bolivariana da Venezuela
-- República Bolivariana de Venezuela
-- Venezuela
-- Bolivarian Republic of Venezuela
-
-## synonym:VG
-- Ilhas Virgens Britânicas
-- BVI
-- British Virgin Islands
-
-## synonym:VI
-- Virgin Islands of the United States
-- American Virgin Islands
-- USVI
-- United States Virgin Islands
-- Ilhas Virgens dos Estados Unidos
-- Ilhas Virgens Americanas
-- U.S. Virgin Islands
-
-## synonym:VN
-- República Socialista do Vietname
-- República Socialista do Vietnã
-- Vietnã
-- Vietname
-- Socialist Republic of Vietnam
-- Vietnam
-- Viet Nam
-
-## synonym:VU
-- República de Vanuatu
-- Gloriosa República de Vanuatu
-- République de Vanuatu
-- Ripablik blong Vanuatu
-- Republic of Vanuatu
-- Vanuatu
-
-## synonym:WF
-- Território das Ilhas Wallis e Futuna
-- Wallis e Futuna
-- Uvea mo Futuna
-- Territoire des îles Wallis-et-Futuna
-- Wallis-et-Futuna
-- Territory of the Wallis and Futuna Islands
-- Wallis and Futuna
-
-## synonym:WS
-- Samoa Ocidental
-- Estado Independente da Samoa
-- Estado Independente de Samoa
-- Western Samoa
-- Sāmoa
-- Malo Saʻoloto Tutoʻatasi o Sāmoa
-- Independent State of Samoa
-- Samoa
-
-## synonym:YE
-- República do Iêmen
-- República do Iémen
-- Iêmen
-- Iémen
-- al-Yama
-- Republic of Yemen
-- Yaman
-- al-Jumhūrīyah al-Yamanīyah
-- Yemen
-
-## synonym:YT
-- Departamento de Maiote
-- Maiote
-- Département de Mayotte
-- Department of Mayotte
-- Mahori
-- Maore
-- Mayotte
-
-## synonym:ZA
-- República da África do Sul
-- África do Sul
-- iRiphabliki yeSewula Afrika
-- Riphabuḽiki ya Afurika Tshipembe
-- iRiphabhulikhi yeNingizimu Afrika
-- Riphabliki ya Afrika Dzonga
-- Rephaboliki ya Afrika Borwa
-- Rephaboliki ya Aforika Borwa
-- Repabliki ya Afrika-Borwa
-- iRiphabliki yomZantsi Afrika
-- iRiphabhuliki yaseNingizimu Afrika
-- Republiek van Suid-Afrika
-- RSA
-- Republic of South Africa
-- South Africa
-
-## synonym:ZM
-- República da Zâmbia
-- Zâmbia
-- Cisi ca Zambia
-- Dziko la Zambia
-- Republic of Zambia
-- Zambia
-
-## synonym:ZW
-- República do Zimbabwe
-- Zimbaué
-- Zimbabué
-- Zimbabue
-- Zimbábue
-- Shango ḽa Zimbabwe
-- Cisi ca Zimbabwe
-- Naha ya Zimbabwe
-- Tiko ra Zimbabwe
-- Inyika yeZimbabwe
-- Zimbabwe Nù
-- Hango yeZimbabwe
-- Dziko la Zimbabwe
-- Ilizwe leZimbabwe
-- Nyika yeZimbabwe
-- Rhodesia
-- Republic of Zimbabwe
-- Zimbabwe
-
-## synonym:SZ
-- Reino de Essuatíni
-- Essuatíni
-- Umbuso weSwatini
-- Kingdom of Eswatini
-- Eswatini
-- Swaziland
-
-## synonym:AE
-- Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
-- EAU
-- Emirados Árabes Unidos
-- UAE
-- Emirates
-- al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
-- United Arab Emirates
-
-## synonym:AF
-- Republica do Afeganistão
-- Afeganistão
-- República Islâmica do Afeganistão
-- Republic of Afghanistan
-- Islamic Republic of Afghanistan
-- Afghanistan
-
-## synonym:AG
-- Antígua
-- Antiga e Barbuda
-- Antígua e Barbuda
-- Barbuda
-- Antigua
-- Antigua and Barbuda
-
-## synonym:AI
-- Anguila
-- Island of Anguilla
-- Anguilla
-
-## synonym:AL
-- Republica da Albânia
-- Albânia
-- Republic of Albania
-- Albania
-
-## synonym:AM
-- República da Arménia
-- Armênia
-- Arménia
-- Republic of Armenia
-- Armenia
-
-## synonym:AO
-- República de Angola
-- Republic of Angola
-- Angola
-
-## synonym:AQ
-- Antártica
-- Antártida
-- Antarctica
-
-## synonym:AR
-- Republic of Argentina
-- República da Argentina
-- República Argentina
-- Argentine Republic
-- Argentina
-
-## synonym:AS
-- Tutuila
-- Sāmoa Amelika
-- Amelika Sāmoa
-- Amerika Sāmoa
-- Samoa Americana
-- American Samoa
-
-## synonym:AT
-- República da Áustria
-- Áustria
-- Republik Österreich
-- Österreich
-- Republic of Austria
-- Austria
-
-## synonym:AU
-- Comunidade da Austrália
-- Austrália
-- Commonwealth of Australia
-- Australia
-
-## synonym:AW
-- Aruba
-
-## synonym:AX
-- Alandia
-- Arquipélago da Aland
-- Arquipélago da Åland
-- Ahvenanmaa
-- Alanda
-- Ilhas de Aland
-- Ilhas Åland
-- Fasta Åland
-- Åland
-- Åland Islands
-
-## synonym:AZ
-- República do Azerbaijão
-- Azerbaijão
-- Republic of Azerbaijan
-- Azerbaijan
-
-## synonym:BA
-- Bósnia
-- Bósnia e Herzegovina
-- Bosna i Hercegovina
-- Bosnia
-- Bosnia–Herzegovina
-- B&H
-- BiH
-- Bosnia and Herzegovina
-
-## synonym:BB
-- Barbados
-
-## synonym:BD
-- República Popular do Bangladesh
-- Nação Bengali
-- Bangladeche
-- Bangladexe
-- People's Republic of Bangladesh
-- country of Bengal
-- Bangladesh
-
-## synonym:BE
-- Belgien
-- Belgique
-- België
-- Bélgica
-- Reino da Bélgica
-- Koninkrijk België
-- Royaume de Belgique
-- Königreich Belgien
-- Kingdom of Belgium
-- Belgium
-
-## synonym:BF
-- Burquina
-- Burquina Fasso
-- Burquina Faso
-- Republic of Burkina Faso
-- Burkina Faso
-
-## synonym:BG
-- Republika Bǎlgarija
-- República da Bulgária
-- Bulgária
-- Republika Balgariya
-- Republic of Bulgaria
-- Balgariya
-- Bulgaria
-
-## synonym:BH
-- Reino do Bareine
-- Reino do Barein
-- Reino do Barém
-- Reino do Bahrain
-- Reino do Bahrein
-- Bareine
-- Barein
-- Barém
-- Bahrein
-- Kingdom of Bahrain
-- Al-Baḥrayn
-- Bahrain
-
-## synonym:BI
-- República do Burúndi
-- Burúndi
-- République du Burundi
-- Republika y'Uburundi
-- Republic of Burundi
-- Burundi
-
-## synonym:BJ
-- República do Benim
-- Benim
-- Bénin
-- République du Bénin
-- Republic of Benin
-- Benin
-
-## synonym:BL
-- Coletividade de São Bartolomeu
-- São Bartolomeu
-- St. Barts
-- St. Barths
-- St-Barth
-- Collectivité territoriale de Saint-Barthélemy
-- Saint-Barthélemy
-- Saint Barthélemy
-
-## synonym:BM
-- Bermudas
-- Ilhas Bermudas
-- Islands of Bermuda
-- Bermuda
-
-## synonym:BN
-- Nation of Brunei, the Abode of Peace
-- Negara Brunei Darussalam
-- Nation of Brunei
-- Brunei
-- Brunei Darussalam
-
-## synonym:BO
-- Bolívia
-- Estado Plurinacional de Bolivia
-- Bolivia
-- Plurinational State of Bolivia
-
-## synonym:BQ
-- Santo Eustáquio
-- Caraíbas Neerlandesas
-- Países Baixos Caribenhos
-- BES Islands
-- Caribisch Nederland
-- Caribbean Netherlands
-- Saba
-- Sint Eustatius
-- Bonaire
-- Bonaire, Sint Eustatius and Saba
-
-## synonym:BR
-- República Federal do Brasil
-- República Federativa do Brasil
-- Federative Republic of Brazil
-- Brasil
-- Brazil
-
-## synonym:BS
-- Comunidade das Bahamas
-- Baamas
-- Commonwealth of The Bahamas
-- Bahaamas
-
-## synonym:BT
-- Reino do Butão
-- Butão
-- Druk Gyal Khap
-- Kingdom of Bhutan
-- Bhutan
-
-## synonym:BV
-- Ilha Bouvet
-- Bouvet-øya
-- Bouvetøya
-- Bouvet Island
-
-## synonym:BW
-- República do Botsuana
-- República do Botswana
-- Botsuana
-- Lefatshe la Botswana
-- Republic of Botswana
-- Botswana
-
-## synonym:BY
-- República da Bielorrússia
-- República da Belarus
-- Bielorrússia
-- Byelorussia
-- Belorussia
-- Republic of Belarus
-- Belarus
-
-## synonym:BZ
-- Belize
-
-## synonym:CA
-- Canadá
-- Canada
-
-## synonym:CC
-- Pulu Kokos Keeling
-- Ilhas Cocos Keeling
-- Ilhas Cocos (Keeling)
-- Ilhas Keeling
-- Keeling Islands
-- Wilayah Kepulauan Cocos (Keeling)
-- Wilayah Kepulauan Cocos Keeling
-- Pulu Kokos (Keeling)
-- Territory of Cocos Keeling Islands
-- Territory of Cocos (Keeling) Islands
-- Cocos Keeling Islands
-- Cocos (Keeling) Islands
-
-## synonym:CD
-- Congo-Quinxassa
-- Congo R.D.
-- RD Congo
-- RDC
-- República Democrática do Congo
-- Ditunga dia Kongu wa Mungalaata
-- Jamhuri ya Kidemokrasia ya Kongo
-- Republíki ya Kongó Demokratíki
-- Repubilika ya Kôngo ya Dimokalasi
-- Congo-Kinshasa
-- DROC
-- DRC
-- DR Congo
-- République démocratique du Congo
-- Democratic Republic of the Congo
-- The Democratic Republic of the Congo
-
-## synonym:CF
-- República Centro Africana
-- República da África Central
-- República da África-Central
-- República Centro-Africana
-- CAR
-- Ködörösêse tî Bêafrîka
-- République centrafricaine
-- Central African Republic
-
-## synonym:CG
-- RotC
-- Congo Republic
-- Congo Brazzaville
-- Congo-Brazzaville
-- Republíki ya Kongó
-- Repubilika ya Kôngo
-- République du Congo
-- Congo
-
-## synonym:CH
-- Confederação Suíça
-- Svizra
-- Svizzera
-- Suisse
-- Schwiiz
-- Schwyz
-- Schweiz
-- Suíça
-- Confoederatio Helvetica
-- Confederaziun svizra
-- Confederazione Svizzera
-- Confédération suisse
-- Schweizerische Eidgenossenschaft
-- Swiss Confederation
-- Switzerland
-
-## synonym:CI
-- República da Costa do Marfim
-- Costa do Marfim
-- République de Côte d'Ivoire
-- Republic of Côte d'Ivoire
-- The Ivory Coast
-- Ivory Coast
-- Côte d'Ivoire
-
-## synonym:CK
-- Ilhas Cook
-- Kūki 'Āirani
-- Cook Islands
-
-## synonym:CL
-- Repūvirika o Tire
-- Chili Ripuwlika
-- Chili Suyu
-- Chile Wüdalmapu
-- República de Chile
-- Republic of Chile
-- Chile
-
-## synonym:CM
-- República do Cameroun
-- República dos Camarões
-- Camarões
-- Renndaandi Kamerun
-- République du Cameroun
-- Republic of Cameroon
-- Cameroun
-- Cameroon
-
-## synonym:CN
-- RPC
-- República Popular da China
-- Zhōnghuá Rénmín Gònghéguó
-- PRC
-- People's Republic of China
-- China
-
-## synonym:CO
-- República da Colômbia
-- Colômbia
-- República de Colombia
-- Republic of Colombia
-- Colombia
-
-## synonym:CR
-- República da Costa Rica
-- República de Costa Rica
-- Republic of Costa Rica
-- Costa Rica
-
-## synonym:CU
-- República de Cuba
-- Republic of Cuba
-- Cuba
-
-## synonym:CV
-- Repúblika di Kabu Verdi
-- República de Cabo Verde
-- Republic of Cabo Verde
-- Cabo Verde
-- Cape Verde
-
-## synonym:CW
-- Curaçau
-- Country of Curaçao
-- Teritorio Insular di Kòrsou
-- Eilandgebied Curaçao
-- Island Territory of Curaçao
-- Pais Kòrsou
-- Land Curaçao
-- Kòrsou
-- Curaçao
-
-## synonym:CX
-- Território da Ilha Natal
-- Território da Ilha do Natal
-- Território da Ilha Christmas
-- Ilha Natal
-- Ilha do Natal
-- Ilha Christmas
-- Territory of Christmas Island
-- Christmas Island
-
-## synonym:CY
-- Kypriakí Dimokratía
-- República de Chipre
-- Kýpros
-- Chipre
-- Kıbrıs Cumhuriyeti
-- Cypriot Republic
-- Κυπριακή Δημοκρατία
-- Republic of Cyprus
-- Kıbrıs
-- Κύπρος
-- Cyprus
-
-## synonym:CZ
-- República Tcheca
-- República Checa
-- Tchéquia
-- Chéquia
-- Česko
-- Czechia
-- Česká republika
-- Czech Republic
-
-## synonym:DE
-- República Federal da Alemã
-- República Federal da Alemanha
-- Alemanha
-- Bundesrepublik Deutschland
-- Federal Republic of Germany
-- Deutschland
-- Germany
-
-## synonym:DJ
-- República do Djibuti
-- Jibuti
-- Djibuti
-- Gabuutih Ummuuno
-- Jamhuuriyadda Jabuuti
-- République de Djibouti
-- Republic of Djibouti
-- Jabuuti
-- Jībūtī
-- Yibuuti
-- Djibouti
-
-## synonym:DK
-- Reino da Dinamarca
-- Dinamarca
-- Kongeriget Danmark
-- Kingdom of Denmark
-- Danmark
-- Denmark
-
-## synonym:DM
-- Comunidade da Dominica
-- Domínica
-- Commonwealth of Dominica
-- Dominique
-- Dominica
-
-## synonym:DO
-- República Dominicana
-- Dominican Republic
-
-## synonym:DZ
-- Republica Democrática da Argélia
-- Republica da Argélia
-- Argélia
-- Republic of Algeria
-- Democratic Republic of Algeria
-- Algeria
-
-## synonym:EC
-- República do Equador
-- Equador
-- Ikwayur Runaq Imayka
-- Ekuatur Nunka
-- Ikwadur Ripuwlika
-- Republic of the Equator
-- República del Ecuador
-- Republic of Ecuador
-- Ekuatur
-- Ikwayur
-- Ecuador
-
-## synonym:EE
-- República da Estônia
-- República da Estónia
-- Estônia
-- Estónia
-- Eesti Vabariik
-- Republic of Estonia
-- Eesti
-- Estonia
-
-## synonym:Europe
-- comunidade europeia
-- continente Europeu
-- Europa
-- Europe continent
-- European continent
-- Europe community
-- European community
-
-## synonym:Africa
-- continente Africano
-- África
-- Africa continent
-- Africa
-
-## synonym:America
-- América do Sul
-- América do Norte
-- Américas
-- continente Americano
-- América
-- America continent
-- South America
-- Americas
-- North America
-
-## synonym:Antarctic
-- Antarctic Continent
-
-## synonym:Asia
-- continente asiático
-- Ásia
-- Asia
-- Asiatic continent
-
-## synonym:Oceania
-- continente australiano
-- Oceania
-- Oceânia
-- Oceania continent
-- Australian continent
-
-## synonym:World
-- planeta
-- Globo
-- Mundo
-- planet
-
-## synonym:COVID
-- COVID
-- COVID-19
-- 19-nCoV
-- SARS-CoV-2
-- novel coronavirus
-- new coronavirus
-- 2019-nCoV
-- virus
-- disease
-- covid19
-- 2019ncov
-- covid2019
-- covid-2019
-- 19-ncov
-- 19ncov
-- SARSCoV2
-- SARS-CoV2
-- SARSCoV-2
-- 19nCov
-- 2019nCov
-- COVID-2019
-- COVID19
-- COVID2019
-- COVID2019
-- COVID 19
-- nCoV
-
-## synonym:SARS
-- SARS
-- Severe Acute Respiratory Syndrome
-
-## synonym:town
-- Pinneberg
-- Neutraubling
-- Bredstedt
-- Hattersheim Am Main
-- Abuja
-- Ufa
-- Bad Lauchstädt
-- Rosenthal
-- Tiruchirappalli
-- Langen
-- Engen
-- Waldeck
-- Milan
-- Tyumen
-- Baoding
-- Langenau
-- Enger
-- Waldenbuch
-- Prague
-- Ryazan
-- Nashville
-- Yiwu
-- João Pessoa
-- Salt Lake City
-- Ufa
-- Oslo
-- Lauenburg
-- Rotterdam
-- Bristol
-- Falkenberg
-- Zhenjiang
-- Liverpool
-- Louisville
-- Kaduna
-- Lebach
-- Wassenberg
-- Voronezh
-- Zaragoza
-- Leisnig
-- Weiden In Der Oberpfalz
-- Weiden
-- Aguascalientes
-- Chifeng
-- Lemgo
-- Felsberg
-- Weil Am Rhein
-- Lviv
-- Lengenfeld
-- Feuchtwangen
-- Weilburg
-- Sevilla
-- Santiago
-- Mumbai
-- Ulan-Ude
-- Brno
-- Raleigh
-- Bhilai
-- Kasan
-- Melle
-- Maracay
-- Omsk
-- Kananga
-- Tula Oblast
-- Erbil
-- Samara
-- Tigre
-- Caracas
-- Vienna
-- Warsaw
-- Minsk
-- Rome
-- Berlin
-- Moscow
-- Gwalior
-- Glasgow
-- Taichung
-- Tiruppur
-- Hama
-- Cochabamba
-- Dhanbad
-- Adelaide
-- Zürich
-- Ranchi
-- Yichang
-- Amritsar
-- Santiago De Querétaro
-- Querétaro
-- Maceió
-- Ivano-Frankivsk
-- Denizli
-- Schesslitz
-- Scheßlitz
-- Bad Windsheim
-- Belo Horizonte
-- Debrecen
-- Preston
-- Schenefeld
-- Bad Wimpfen
-- Xi’an
-- Munster
-- Kingston Upon Hull
-- Padova
-- Schelklingen
-- Bad Wilsnack
-- Hangzhou
-- Scheinfeld
-- Bad Wildungen
-- Foshan
-- Vologda
-- Scheibenberg
-- Bad Wildbad
-- Munderkingen
-- Saigon
-- Ho Chi Minh City
-- Osmaniye
-- Timișoara
-- Timisoara
-- Scheer
-- Bad Waldsee
-- Münchenbernsdorf
-- Tampere
-- Cherepovets
-- Schauenstein
-- Bad Vilbel
-- Ahmedabad
-- Nanjing
-- Çorlu
-- Corlu
-- Schalkau
-- Bad Urach
-- Müncheberg
-- Dongguan
-- Katowice
-- Sayda
-- Bad Tölz
-- Münchberg
-- Chengdu
-- Pskov
-- Grodno
-- Hrodna
-- Sassnitz
-- Bad Tennstedt
-- Müllrose
-- Wuhan
-- Vladikavkaz
-- Sassenberg
-- Bad Teinach-Zavelstein
-- Müllheim
-- Lahore
-- Penzlin
-- Gröningen
-- Penzberg
-- Gronau
-- Hagenow
-- Penkun
-- Groitzsch
-- Hagenbach
-- Penig
-- Gröditz
-- Hadamar
-- Hachenburg
-- Haan
-- Gützkow
-- Gütersloh
-- Güstrow
-- Güsten
-- Gunzenhausen
-- Pockau-Lengefeld
-- Günzburg
-- Plön
-- Gundelsheim
-- Plochingen
-- Peitz
-- Grimmen
-- Peine
-- Grimma
-- Pirmasens
-- Grünberg
-- Pegnitz
-- Griesheim
-- Pinneberg
-- Gross-Umstadt
-- Groß-Umstadt
-- Pegau
-- Grevesmühlen
-- Philippsburg
-- Edmonton
-- Sharjah
-- Jodhpur
-- Fushun
-- Prayag
-- Illahabad
-- Prayagraj
-- Allahabad
-- Huainan
-- Gatineau
-- Xining
-- Asansol
-- Tzeki
-- Cixi
-- Medina
-- Ditzingen
-- Kirchen
-- Ciudad Juárez
-- Jining
-- Batam
-- Qiqihar
-- Palembang
-- Virginia Beach
-- Makassar
-- Jabalpur
-- Calgary
-- Aurangabad
-- Auckland
-- Yekaterinburg
-- Raipur
-- Rosario
-- Benin City
-- Nowosibirsk
-- Gaziantep
-- Kaohsiung
-- Almaty
-- Columbus
-- Córdoba
-- Jilin
-- Datong
-- Xianyang
-- Zhuhai
-- Gwangju
-- Varanasi
-- Iasi
-- Kaub
-- Sochi
-- Cordoba
-- Kansas City
-- Charlotte
-- Liuzhou
-- Daqing
-- Davao City
-- Handan
-- Semarang
-- Kahla
-- Cluj-Napoca
-- Vitória
-- Homs
-- Schiraz
-- Linyi
-- Ludhiana
-- Peschawar
-- Mosul
-- Pittsburgh
-- Austin
-- Cincinnati
-- Owen
-- Orlando
-- Valencia
-- Chita
-- Newport
-- Indianapolis
-- Taichow
-- Taizhou
-- Cleveland
-- Nashik
-- Hohhot
-- León
-- Karaj
-- Samut Prakan
-- Calau
-- La Paz
-- Adana
-- Hamburg
-- Perth
-- Isfahan
-- Haikou
-- Xuzhou
-- West Yorkshire
-- Multan
-- Karlsruhe
-- Brazzaville
-- Verona
-- Sacramento
-- Vadodara
-- Nantong
-- Tijuana
-- Agra
-- Barranquilla
-- Bühl
-- Stein
-- Graz
-- Maracaibo
-- Eixample
-- St. Louis
-- Patna
-- Malappuram
-- San Bernardino
-- Riverside
-- Daegu
-- Goiânia
-- Baltimore
-- Gasteiz
-- Vitoria-Gasteiz
-- Dubai
-- Las Vegas
-- Cochin
-- Kochi
-- San Juan
-- Coruña
-- Corunna
-- Vancouver
-- City Of Westminster
-- Orsk
-- Chemnitz
-- Manisa
-- Bonn
-- Southampton
-- Norden
-- Senden
-- Cali
-- Manchester
-- Guayaquil
-- Marino
-- Nis
-- Selb
-- Latina
-- Espoo
-- Neu-Ulm
-- Durban
-- Guiyang
-- Douala
-- Puebla
-- Seattle
-- Aachen
-- Campinas
-- Wuxi
-- Izmir
-- San Diego
-- Gasteiz-Vitoria
-- Tarsus
-- Kiel
-- Halle
-- Saale
-- Bordeaux
-- Lakhnau
-- Muenster
-- Münster
-- Ciudad Lineal
-- Jaipur
-- Casablanca
-- Jaffa
-- Tel Aviv
-- Salvador Da Bahia
-- Cape Town
-- Porto Alegre
-- Oviedo
-- Kano
-- Santa Cruz De Tenerife
-- Recife
-- Detroit
-- Changchun
-- Kunming
-- Changsha
-- Zhongshan
-- Shantou
-- Montreal
-- Jinan
-- Mesa
-- Jeddah
-- Bergen
-- Melbourne
-- Fortaleza
-- Stockholm
-- Boston
-- Sydney
-- Rheinbach
-- Fukuoka
-- Sumy
-- Galati
-- Vigo
-- Cartagena
-- Guadalajara
-- Abidjan
-- Barcelona
-- Pune
-- Atlanta
-- Münnerstadt
-- Toronto
-- Suzhou
-- Linz
-- Shenyang
-- Münsingen
-- Houston
-- Miami
-- Liège
-- Liege
-- Ipswich
-- Sevastopol
-- Nicosia
-- Poltava
-- Sarstedt
-- Mülheim-Kärlich
-- Chicago
-- Bad Sülze
-- Markkleeberg
-- Mügeln
-- Shenzhen
-- Gliwice
-- Tianjin
-- Kampala
-- Lublin
-- Sutton
-- Petropavlovsk-Kamchatsky
-- Trieste
-- Kiev
-- Leganes
-- Bologna
-- Roth
-- Kiew
-- Tunis
-- Groningen
-- Port Of Spain
-- Riedstadt
-- Bad Freienwalde
-- Regensburg
-- Bucharest
-- Bad König
-- Burgos
-- Amadora
-- Fürth
-- Mönchengladbach
-- Athens
-- Polch
-- Wiesbaden
-- Lisbon
-- Derby
-- Hiroshima
-- Koln
-- Köln
-- Koeln
-- Madrid
-- Bratislava
-- Muenchen
-- Munchen
-- Aken
-- München
-- Paris
-- Lieberose
-- Lille
-- Budapest
-- Birmingham
-- Dublin
-- Zaozhuang
-- Sarajevo
-- Sheffield
-- Pocking
-- Aichach
-- Liebenau
-- Saarbrucken
-- Saarbrücken
-- Saarbruecken
-- Zwickau
-- Innsbruck
-- Gissen
-- Gießen
-- Richmond
-- Wurzburg
-- Würzburg
-- Wuerzburg
-- Hannover
-- Hanover
-- Rizhao
-- Dammam
-- Mérida
-- Évora
-- Portalegre
-- Castelo Branco
-- Beja
-- Faro
-- Portimão
-- Cologne
-- Mexicali
-- Barquisimeto
-- Yongin
-- São Luís
-- Odessa
-- Xiangtan
-- Mendoza
-- Baoji
-- Flöha
-- Leun
-- Klagenfurt
-- Hildesheim
-- Tübingen
-- Ingolstadt
-- Konstanz
-- Pforzheim
-- Mannheim
-- Reutlingen
-- Darmstadt
-- Leverkusen
-- Ludwigsburg
-- Oberhausen
-- Essen
-- Aschaffenburg
-- Nuremburg
-- Göttingen
-- Braunschweig
-- Erlangen
-- Meerut
-- Anshan
-- Töging Am Inn
-- Kassel
-- Kaluga
-- Dierdorf
-- Kelkheim
-- Nice
-- Kirchberg An Der Jagst
-- Treuenbrietzen
-- Kitzscher
-- Kitzingen
-- Donauwörth
-- Trostberg
-- Van
-- Donzdorf
-- Kutahya
-- Kütahya
-- Stoke-On-Trent
-- Dreieich
-- Uhingen
-- Kamensk-Uralskiy
-- Kölleda
-- Drebkau
-- Uffenheim
-- Huambo
-- Königsbrück
-- Ulmen
-- Samsun
-- Kornwestheim
-- Ebersberg
-- Vechta
-- Split
-- Maltepe
-- Bad Buchau
-- Tai’an
-- Köthen
-- Korschenbroich
-- Eberswalde
-- Velbert
-- Saint-Etienne
-- Saint-Étienne
-- Providence
-- Konya
-- Krempe
-- Ehrenfriedersdorf
-- Veringenstadt
-- Walsall
-- Sanliurfa
-- Şanlıurfa
-- Urfa
-- Natal
-- Mandalay
-- Kota
-- Kusel
-- Kuppenheim
-- Ellrich
-- Voerde
-- Kemerovo
-- Ankara
-- Merkendorf
-- Glückstadt
-- Zell Im Wiesental
-- Zeil Am Main
-- Glashütte
-- Zehdenick
-- Gladenbach
-- Zarrentin Am Schaalsee
-- Zahna-Elster
-- Xanten
-- Wyk Auf Föhr
-- Wunstorf
-- Gersfeld
-- Wunsiedel
-- Gerolzhofen
-- Wülfrath
-- Gerolstein
-- Wriezen
-- Gernsheim
-- Wustrow
-- Wörth An Der Donau
-- Gernsbach
-- Wörth Am Rhein
-- Germersheim
-- Wörth Am Main
-- Germering
-- Wörrstadt
-- Gerlingen
-- Geringswalde
-- Wolmirstedt
-- Worms
-- Geretsried
-- Wolkenstein
-- Sëlva
-- Gerbstedt
-- Wolgast
-- Gerabronn
-- Wolfstein
-- Gera
-- Georgsmarienhütte
-- Oryol
-- Orel
-- Salzgitter
-- Bad Schwalbach
-- Leipzig
-- Reading
-- Alicante
-- London
-- São Tomé
-- Krefeld
-- Mössingen
-- Rio De Janeiro
-- Portsmouth
-- Chongqing
-- Mücheln
-- Lagos
-- Istanbul
-- Osaka-Kōbe
-- Funafuti
-- Maulbronn
-- Porto
-- São Paulo
-- Shanghai
-- Delhi
-- Zurich
-- Möckern
-- Newcastle Upon Tyne
-- San Sebastian
-- Bilbao
-- Almeria
-- Le Havre
-- Münstermaifeld
-- Bad Wörishofen
-- Schieder-Schwalenberg
-- Alcala De Henares
-- Münzenberg
-- Bad Wünnenberg
-- Schifferstadt
-- Ostrava
-- Murrhardt
-- Bad Wurzach
-- Schillingsfürst
-- Varna
-- Mostoles
-- Nabburg
-- Baesweiler
-- Schiltach
-- Vladimir
-- Sabadell
-- Dallas
-- Nagold
-- Baiersdorf
-- Schirgiswalde
-- Oradea
-- Surat
-- Philadelphia
-- Harbin
-- Naila
-- Balingen
-- Schkeuditz
-- Jerez De La Frontera
-- Ballenstedt
-- Nassau
-- Schkölen
-- Chernihiv
-- Kielce
-- Nastätten
-- Balve
-- Schleiden
-- Torun
-- Nauen
-- Bamberg
-- Omdurman
-- Nebra
-- Monterrey
-- Dalian
-- Xiamen
-- Zhengzhou
-- Neuenburg Am Rhein
-- Neuenbürg
-- Neuenhaus
-- Neuburg An Der Donau
-- Bebra
-- Schneverdingen
-- Tambov
-- Biysk
-- Neudenau
-- Beckum
-- Schömberg
-- Catania
-- Archway
-- Bedburg
-- Utrecht
-- Neuenstein
-- Medellín
-- Lübeck
-- Gelsenkirchen
-- Erfurt
-- Cottbus
-- Wuppertal
-- Paderborn
-- Osnabrück
-- Magdeburg
-- Nuremberg
-- Duisburg
-- Rostock
-- Kaiserslautern
-- Bochum
-- Bielefeld
-- Nürnberg
-- Bremen
-- Mainz
-- Freiburg
-- Dortmund
-- Duesseldorf
-- Geisa
-- Stuttgart
-- Hongkong
-- Witten
-- Düsseldorf
-- Dusseldorf
-- Bahamas
-- Wissen
-- Frankfurt
-- Munich
-- Geisingen
-- Wolfach
-- Wolfhagen
-- Luebeck
-- Greifswald
-- Ludwigshafen
-- Kempten
-- Freiberg
-- Stralsund
-- Landshut
-- Dresden
-- Fribourg
-- Wolfsburg
-- Salzburg
-- Augsburg
-- Nurnberg
-- Unterhaching
-- Remscheid
-- Deggendorf
-- Gladbach
-- Gummersbach
-- Neuss
-- Goettingen
-- Bad Orb
-- Moers
-- Nagpur
-- Glinde
-- Zell
-- Zell Am Harmersbach
-- Zella-Mehlis
-- Glücksburg
-- Zeitz
-- Glauchau
-- Bengaluru
-- Chennai
-- Seoul
-- Nagoya
-- Johannesburg
-- Hyderabad
-- Bad Schwartau
-- Salzkotten
-- Volzhskiy
-- Hagen
-- Mühlacker
-- Greven
-- Zwiesel
-- Zwingenberg
-- Zwönitz
-- Gransee
-- Grafing Bei München
-- Grafing
-- Greußen
-- Zwenkau
-- Gräfenberg
-- Grebenau
-- Gräfenhainichen
-- Gräfenthal
-- Grafenwöhr
-- Papenburg
-- Pappenheim
-- Grebenstein
-- Parchim
-- Greding
-- Großalmerode
-- Perleberg
-- Groß-Bieberau
-- Petershagen
-- Großbottwar
-- Pfaffenhofen An Der Ilm
-- Großbreitenbach
-- Pfarrkirchen
-- Großenehrich
-- Pfreimd
-- Großenhain
-- Grossenhain
-- Groß-Gerau
-- Pfullendorf
-- Großräschen
-- Pfullingen
-- Großröhrsdorf
-- Grünhain-Beierfeld
-- Pirna
-- Grünsfeld
-- Plattling
-- Grünstadt
-- Plau Am See
-- Guben
-- Plaue
-- Plauen
-- Gudensberg
-- Güglingen
-- Plettenberg
-- Pleystein
-- Gundelfingen An Der Donau
-- Hann. Münden
-- Hannoversch Münden
-- Haiger
-- Haigerloch
-- Hainichen
-- Haiterbach
-- Halberstadt
-- Haldensleben
-- Hallenberg
-- Hallstadt
-- Haltern Am See
-- Hamminkeln
-- Halver
-- Hameln
-- Hamelin
-- Hamm
-- Hammelburg
-- Hanau
-- Harburg
-- Hardegsen
-- Haren
-- Harsewinkel
-- Hartenstein
-- Hartha
-- Harzgerode
-- Haselünne
-- Haslach Im Kinzigtal
-- Haßfurt
-- Hattersheim Am Main
-- Hattingen
-- Hatzfeld
-- Hausach
-- Hauzenberg
-- Havelberg
-- Havelsee
-- Hayingen
-- Hechingen
-- Hecklingen
-- Heide
-- Heideck
-- Heidelberg
-- Heidenau
-- Heidenheim An Der Brenz
-- Heilbad Heiligenstadt
-- Heilbronn
-- Heiligenhafen
-- Heiligenhaus
-- Heilsbronn
-- Heimbach
-- Heimsheim
-- Heinsberg
-- Heitersheim
-- Heldburg
-- Helmbrechts
-- Helmstedt
-- Hemau
-- Hemer
-- Hemmingen
-- Hemmoor
-- Hemsbach
-- Hennef
-- Hennigsdorf
-- Heppenheim
-- Herbolzheim
-- Herborn
-- Herbrechtingen
-- Herbstein
-- Herdecke
-- Herdorf
-- Herford
-- Heringen
-- Hermeskeil
-- Hermsdorf
-- Herne
-- Herrenberg
-- Herrieden
-- Herrnhut
-- Hersbruck
-- Herten
-- Herzberg Am Harz
-- Herzberg
-- Herzogenaurach
-- Herzogenrath
-- Hessisch Lichtenau
-- Hessisch Oldendorf
-- Hettingen
-- Hettstedt
-- Heubach
-- Heusenstamm
-- Hilchenbach
-- Hildburghausen
-- Hilden
-- Hillesheim
-- Hilpoltstein
-- Hirschau
-- Hirschberg
-- Hirschhorn
-- Hitzacker
-- Hochheim Am Main
-- Höchstadt An Der Aisch
-- Höchstädt An Der Donau
-- Hockenheim
-- Hof
-- Hofgeismar
-- Hofheim Am Taunus
-- Hofheim In Unterfranken
-- Hohenberg An Der Eger
-- Hohenleuben
-- Hohenmölsen
-- Hohen Neuendorf
-- Hohenstein-Ernstthal
-- Holzminden
-- Suva
-- Helsinki
-- Horb Am Neckar
-- Hornbach
-- Libreville
-- Hornberg
-- Hörstel
-- Horstmar
-- Ichenhausen
-- Idar-Oberstein
-- Saint George's
-- Illertissen
-- Ilmenau
-- Ilsenburg
-- Ilshofen
-- Immenhausen
-- St. George’s
-- Ingelfingen
-- Accra
-- Tallinn
-- Banjul
-- Höxter
-- Tiflis
-- Tbilisi
-- Hoyerswerda
-- Hückelhoven
-- Hückeswagen
-- Amman
-- Hüfingen
-- Phnom Penh
-- Hünfeld
-- Yaoundé
-- Hungen
-- Ingelheim Am Rhein
-- Iphofen
-- Iserlohn
-- Isny Im Allgäu
-- Isselburg
-- Itzehoe
-- Aach
-- South Ossetia
-- Gersthofen
-- Aden
-- Gescher
-- Würselen
-- Geseke
-- Wurzbach
-- Gevelsberg
-- Geyer
-- Wurzen
-- Giengen An Der Brenz
-- Giengen
-- Giessen
-- Gifhorn
-- Ginsheim-Gustavsburg
-- Gladbeck
-- Mühlberg
-- Zerbst
-- Mühlheim Am Main
-- Mühlhausen
-- Gößnitz
-- Goslar
-- Zittau
-- Görlitz
-- Zirndorf
-- Zörbig
-- Gotha
-- Zossen
-- Zschopau
-- Grabow
-- Zülpich
-- Grafenau
-- Zweibrücken
-- Parsberg
-- Greiz
-- Pasewalk
-- Astana
-- Nairobi
-- Bischkek
-- Abensberg
-- Abenberg
-- Aalen
-- Ahrensburg
-- Ahlen
-- Ahaus
-- Adorf
-- Adenau
-- South Tarawa
-- Achim
-- Adelsheim
-- Achern
-- Doha
-- Jerusalem
-- Tokyo
-- Praia
-- Bissau
-- Georgetown
-- Port-Au-Prince
-- Kingston
-- Tegucigalpa
-- Rom
-- Reykjavík
-- Immenstadt Im Allgäu
-- Immenstadt
-- New Delhi
-- Bagdad
-- Conakry
-- Teheran
-- Husum
-- Hürth
-- Guatemala City
-- Ottawa
-- San José
-- San Salvador
-- Avarua
-- Yamoussoukro
-- Asmara
-- Quito
-- Djibouti City
-- Santo Domingo
-- Copenhagen
-- Roseau
-- Horn-Bad Meinberg
-- Homburg
-- Homberg
-- Ibbenbüren
-- Idstein
-- Hohnstein
-- Höhr-Grenzhausen
-- Hollfeld
-- Holzgerlingen
-- Beijing
-- Peking
-- Taipei
-- Porto-Novo
-- Belmopan
-- Sofia
-- Brasília
-- Santiago De Chile
-- Engels
-- Kelheim
-- Diepholz
-- Todtnau
-- Burgas
-- Kastellaun
-- Tharandt
-- Arnavutkoy
-- Arnavutköy
-- Kerpen
-- Dingelstädt
-- Traunstein
-- Cork
-- Vinnytsia
-- Chaozhou
-- Kirn
-- Dommitzsch
-- Troisdorf
-- Dun Laoghaire
-- Dún Laoghaire
-- Mahilyow
-- Mogilev
-- Klingenberg Am Main
-- Kleve
-- Dormagen
-- Twistringen
-- Brescia
-- Tirana
-- Mainburg
-- Backnang
-- Reinfeld
-- Mariupol
-- Oederan
-- Bruchköbel
-- Stadtilm
-- Bexley
-- Könnern
-- Eberbach
-- Uslar
-- Magnitogorsk
-- Freetown
-- Colombo
-- Brunswick
-- Maxhütte-Haidhof
-- Bad Friedrichshall
-- Rieneck
-- Fes
-- Fez
-- Jacksonville
-- Kroppenstedt
-- Einbeck
-- Viernheim
-- Karabaglar
-- Karabağlar
-- Bangkok
-- Roding
-- Las Palmas De Gran Canaria
-- Las Palmas
-- Sants-Montjuic
-- Sants-Montjuïc
-- Lampertheim
-- Elzach
-- Wächtersbach
-- Kharkiv
-- Leicester
-- Abu Dhabi
-- Miesbach
-- Bad Münstereifel
-- Rothenburg Ob Der Tauber
-- Coventry
-- Laubach
-- Erbendorf
-- Waldkraiburg
-- Moosburg An Der Isar
-- Moosburg
-- Bad Salzungen
-- Aberdeen
-- Lauingen
-- Erwitte
-- Wanfried
-- Perm
-- Genoa
-- Fehmarn
-- Palermo
-- Nottingham
-- Fellbach
-- Weikersheim
-- Bagcilar
-- Bağcılar
-- Krasnodar
-- Leutkirch Im Allgäu
-- Kisangani
-- Forchtenberg
-- Weismain
-- Lichtenau
-- Frankenberg an der Eder
-- Weilheim An Der Teck
-- Weißenfels
-- Frankfurt Am Main
-- Weißenstadt
-- Jamshedpur
-- Forst
-- Weißenberg
-- Lich
-- Frankenau
-- Lichtenfels
-- Frankenthal
-- Weißensee
-- Weissensee
-- Frauenstein
-- Weiterstadt
-- Freiberg Am Neckar
-- Welzow
-- Wemding
-- Freiburg Im Breisgau
-- Wendlingen
-- Freilassing
-- Werben
-- Freinsheim
-- Werdau
-- Neusalza-Spremberg
-- Bersenbrück
-- Schwabach
-- Nalchik
-- Neue Neustadt
-- Neusäß
-- Besigheim
-- Schwäbisch Gmünd
-- Stary Oskol
-- Betzdorf
-- Schwäbisch Hall
-- Hall
-- Ljubljana
-- Sosnowiec
-- Ürümqi
-- Wushi
-- Curitiba
-- Neustadt Am Kulm
-- Betzenstein
-- Schwabmünchen
-- Kremenchuk
-- Taiyuan
-- Sana'a
-- Niedernhall
-- Blomberg
-- Seeland
-- Altona
-- Århus
-- Aarhus
-- Nördlingen
-- Borgholzhausen
-- Sigmaringen
-- Angarsk
-- Nanchang
-- Nossen
-- Borna
-- Sindelfingen
-- Oberviechtach
-- Bredstedt
-- Spenge
-- Lubumbashi
-- Plymouth
-- Ochsenfurt
-- Bremervörde
-- Sprockhövel
-- Milton Keynes
-- Medan
-- Oppenheim
-- Burgdorf
-- Steinheim An Der Murr
-- Thiruvananthapuram
-- Trivandrum
-- Baotou
-- Oschersleben
-- Burladingen
-- Stolpen
-- Yangzhou
-- Otterndorf
-- Clingen
-- Suhl
-- Eindhoven
-- Constanta
-- Constanța
-- Jüterbog
-- Cuxhaven
-- Tauberbischofsheim
-- Vasylevsky Ostrov
-- Jülich
-- Crivitz
-- Tanna
-- Sisli
-- Şişli
-- Delmenhorst
-- Thannhausen
-- Detmold
-- Thum
-- Kirchhain
-- Döbern
-- Trier
-- Torreón
-- Kirtorf
-- Donaueschingen
-- Trossingen
-- Thalheim
-- Kolbermoor
-- Dransfeld
-- Uetersen
-- Santander
-- Königsberg In Bayern
-- Königsberg
-- Drensteinfurt
-- Ulm
-- Prato
-- Maputo
-- Arzberg
-- Rauenberg
-- Abuja
-- Lunzenau
-- Auerbach
-- Regis-Breitingen
-- Paramaribo
-- Meinerzhagen
-- Bad Honnef
-- Rodenberg
-- Vereeniging
-- Laatzen
-- Elsfleth
-- Vöhrenbach
-- Meßkirch
-- Messkirch
-- Bad Liebenwerda
-- Bydgoszcz
-- Langenburg
-- Ennepetal
-- Waldenburg
-- Esenler
-- Mölln
-- Bad Reichenhall
-- Runkel
-- Plovdiv
-- Severodvinsk
-- Laupheim
-- Eschborn
-- Wangen Im Allgäu
-- Üsküdar
-- Ueskuedar
-- Guilin
-- Lehesten
-- Ettlingen
-- Wasungen
-- Yaroslavl
-- Leutershausen
-- Forchheim
-- Weinstadt
-- Lauta
-- Eschershausen
-- Neunburg Vorm Wald
-- Bernburg
-- Schrobenhausen
-- Brasov
-- Brașov
-- Faisalabad
-- Neunkirchen
-- Bernkastel-Kues
-- Schrozberg
-- Komsomolsk-On-Amur
-- Aleppo
-- Neuötting
-- Neustadt
-- Billerbeck
-- Schwarzenbach An Der Saale
-- Sivas
-- Syktyvkar
-- Bischofsheim An Der Rhön
-- Schwarzenborn
-- Moenchengladbach
-- Neustadt In Sachsen
-- Bischofswerda
-- Busan
-- Schwarzenbach Am Wald
-- Neustadt Bei Coburg
-- Neustadt-Glewe
-- Bingen Am Rhein
-- Bingen
-- Schwentinental
-- Surabaya
-- Niederstotzingen
-- Boizenburg
-- Minneapolis-St. Paul
-- Twin Cities
-- Kropyvnytskyi
-- Nieheim
-- St. Petersburg
-- Denver
-- Aurora
-- Kumasi
-- Bonndorf Im Schwarzwald
-- Bonndorf
-- Puente De Vallecas
-- Seifhennersdorf
-- Montpellier
-- Brandenburg An Der Havel
-- Brandenburg
-- Sapporo
-- Rawalpindi
-- Changzhou
-- Coimbatore
-- Bandung
-- Oberharz Am Brocken
-- Rivne
-- Sonneberg
-- Brandis
-- Obermoschel
-- Oberndorf Am Neckar
-- Oberndorf
-- Indore
-- L'hospitalet De Llobregat
-- L'Hospitalet
-- Bremerhaven
-- Obernburg Am Main
-- Obernburg
-- Oderberg
-- Toluca De Lerdo
-- Toluca
-- Sterlitamak
-- Luoyang
-- Mbuji-Mayi
-- Steinau An Der Straße
-- Oppenau
-- Fuencarral-El Pardo
-- Steinbach-Hallenberg
-- Vykhino-Zhulebino
-- St. Ingbert
-- Sankt Ingbert
-- Marienthal
-- St. Georgen Im Schwarzwald
-- Sankt Georgen im Schwarzwald
-- Southend-On-Sea
-- Osterholz-Scharmbeck
-- Velikiy Novgorod
-- Bursa
-- Stößen
-- Bürstadt
-- Osterburg
-- Osterode Am Harz
-- Sulzbach
-- Ostheim Vor Der Rhön
-- Ostheim
-- Osthofen
-- Celle
-- Mecca
-- Östringen
-- Clausthal-Zellerfeld
-- Südliches Anhalt
-- Cochem
-- Otterberg
-- Antakya
-- Saransk
-- Port Harcourt
-- Jarmen
-- Coesfeld
-- Süßen
-- Johanngeorgenstadt
-- Creußen
-- Tangerhütte
-- Sulzbach-Rosenberg
-- Jena
-- Colditz
-- Sulzburg
-- Yinchuan
-- Rajkot
-- Madurai
-- Jiangmen
-- Kongmoon
-- Tabriz
-- Daejeon
-- Demmin
-- Freren
-- Werl
-- Freital
-- Werdohl
-- Freudenberg
-- Werlte
-- Freudenstadt
-- Wermelskirchen
-- Freyburg
-- Wernau
-- Freystadt
-- Werne
-- Friedrichstadt
-- Wesenberg
-- Friedrichsthal
-- Wesselburen
-- Friesack
-- Wesseling
-- Friesoythe
-- Westerburg
-- Fröndenberg
-- Fritzlar
-- Westerstede
-- Fürstenberg/Havel
-- Fürstenfeldbruck
-- Frohburg
-- Wettin-Löbejün
-- Furtwangen Im Schwarzwald
-- Furtwangen
-- Fulda
-- Wetzlar
-- Fürstenau
-- Widdern
-- Wiehl
-- Garching Bei München
-- Garching
-- Willich
-- Willebadessen
-- Windischeschenbach
-- Gebesee
-- Winnenden
-- Garz
-- Gardelegen
-- Wilsdruff
-- Garding
-- Wilster
-- Wismar
-- Gartz
-- Wilthen
-- Gau-Algesheim
-- Windsbach
-- Gedern
-- Winsen
-- Wittlich
-- Geislingen An Der Steige
-- Geislingen
-- Wittingen
-- Wittstock
-- Genthin
-- Wolfratshausen
-- Wolframs-Eschenbach
-- Gengenbach
-- Schleiz
-- Craiova
-- Rennes
-- Neckarbischofsheim
-- Zelenograd
-- Beelitz
-- Schönau Im Schwarzwald
-- Zeytinburnu
-- Northampton
-- Neuhaus Am Rennweg
-- Berching
-- Schönsee
-- Gebze
-- Großschirma
-- Pausa-Mühltroff
-- Grevenbroich
-- Pfungstadt
-- Pattensen
-- Charleroi
-- Valladolid
-- Sankt Goarshausen
-- Bad Sulza
-- Mülheim
-- Mülheim An Der Ruhr
-- Iași
-- Sankt Goar
-- Bad Staffelstein
-- Severny
-- Mühlheim An Der Donau
-- Tilburg
-- Sankt Augustin
-- Bad Sooden-Allendorf
-- Balakovo
-- Islington
-- Sangerhausen
-- Bad Soden-Salmünster
-- Passau
-- Armavir
-- Murmansk
-- Sandersdorf-Brehna
-- Bad Soden
-- Mühldorf Am Inn
-- Ziesar
-- Göppingen
-- Bila Tserkva
-- Kherson
-- Sandau
-- Bad Sobernheim
-- Zierenberg
-- Gommern
-- Dudley
-- Smolensk
-- Salzwedel
-- Bad Segeberg
-- Ziegenrück
-- Golseen
-- Golßen
-- Zeven
-- Goldkronach
-- Zeulenroda-Triebes
-- Goldberg
-- Goch
-- Gnoien
-- Delbrück
-- Birkenhead
-- Pamplona
-- Delitzsch
-- Karlstadt am Main
-- Karlstadt
-- Sunderland
-- Izmit
-- Tirschenreuth
-- Dettelbach
-- Kaufbeuren
-- Geneve
-- Übach-Palenberg
-- Dornburg
-- Klingenthal
-- Makeyevka
-- Makiivka
-- Pontoise
-- Überlingen
-- Dornhan
-- Klötze
-- Hengyang
-- Richtenberg
-- Baden-Baden
-- Marlow
-- Ivanovo
-- Yuzhno-Sakhalinsk
-- Vallendar
-- Ebersbach An Der Fils
-- Korbach
-- Rödental
-- Bad Hönningen
-- Meiningen
-- Mbabane
-- Muratpaşa
-- Muratpasa
-- Verl
-- Eibelstadt
-- Kreuztal
-- Rüdesheim Am Rhein
-- Bad Oldesloe
-- Mittweida
-- Yokohama
-- Waldbröl
-- Endingen
-- Endingen Am Kaiserstuhl
-- Langelsheim
-- Memphis
-- Rüsselsheim
-- Rüsselsheim Am Main
-- Bad Rodach
-- Ruhland
-- Bad Rappenau
-- Mersin
-- Waldershof
-- Ennigerloh
-- Längenfeld
-- Langenfeld
-- Mombasa
-- Sachsenheim
-- Bad Schussenried
-- Long Beach
-- Donetsk
-- Walldorf
-- Erkelenz
-- Lauda-Königshofen
-- Mysuru
-- Mysore
-- Speyer
-- Breisach
-- Oberwesel
-- Spalt
-- Braunsbedra
-- Oberriexingen
-- Spangenberg
-- Obertshausen
-- Merkezefendi
-- Messina
-- Steinbach
-- Burg
-- Olpe
-- Visakhapatnam
-- Burglengenfeld
-- Ornbau
-- Cherkasy
-- Brăila
-- Braila
-- Straubing
-- Buxtehude
-- Teublitz
-- Datteln
-- Kandel
-- Teuchern
-- Daun
-- Kandern
-- Treuen
-- Kirchberg in Tirol
-- Kirchberg
-- Swindon
-- Trochtelfingen
-- Dömitz
-- Kirchheim Unter Teck
-- Kaunas
-- Tuttlingen
-- Dorfen
-- Uelzen
-- Koblenz
-- Wandsbek
-- Riesa
-- Bad Gandersheim
-- Mayen
-- Basseterre
-- Toulouse
-- Turku
-- Velburg
-- Eckartsberga
-- Rodewisch
-- Bad Karlshafen
-- Meissen
-- Duschanbe
-- Leeds
-- Mansfield
-- Vetschau
-- Eichstätt
-- Kronberg
-- Kronberg Im Taunus
-- Port Elizabeth
-- Wiehe
-- Roßleben-Wiehe
-- Bad Lauterberg
-- Merzig
-- Vohburg
-- Elmshorn
-- Kyritz
-- Zlatoust
-- Florence
-- Rottweil
-- Bad Neustadt An Der Saale
-- Mittenwalde
-- Bangui
-- Belgrade
-- Waibstadt
-- Emmerich
-- Emmerich Am Rhein
-- Quetta
-- Barnaul
-- Bahçelievler
-- Bahcelievler
-- Wallenfels
-- Erkrath
-- Lauf An Der Pegnitz
-- Bogor
-- Çankaya
-- Cankaya
-- Wedel
-- Euskirchen
-- Lehrte
-- Khabarovsk
-- Volgograd
-- Walsrode
-- Laufen
-- Hai Phong
-- Ober-Ramstadt
-- Bräunlingen
-- Spaichingen
-- Manaus
-- Sontra
-- Braunlage
-- Obernkirchen
-- Kostroma
-- Shakhty
-- Sankt Blasien
-- St. Blasien
-- Büdelsdorf
-- Olbernhau
-- Taganrog
-- Banja Luka
-- Steinach
-- Oldenburg
-- Yoshkar-Ola
-- Babruysk
-- Bünde
-- Oldenburg In Holstein
-- Sulz
-- Sulz Am Neckar
-- Coburg
-- Overath
-- Vijayawada
-- Sulingen
-- Cloppenburg
-- Ottweiler
-- Tettnang
-- Dassow
-- Kamp-Lintfort
-- Tengen
-- Dargun
-- Kaltennordheim
-- Templin
-- Dannenberg
-- Kaltenkirchen
-- Thessaloniki
-- Vantaa
-- Trebbin
-- Dingolfing
-- Ketzin
-- Syzran
-- Trebsen
-- Dinkelsbühl
-- Kevelaer
-- Çorum
-- Corum
-- Uebigau-Wahrenbrück
-- Dornstetten
-- Victoria
-- Usingen
-- Ebeleben
-- Königs Wusterhausen
-- Yasenevo
-- Szczecin
-- Rinteln
-- Bad Griesbach
-- Meckenheim
-- Kingstown
-- Murcia
-- Siverek
-- Vellberg
-- Edenkoben
-- Krakow Am See
-- Ahvaz
-- Rosenheim
-- Bad Langensalza
-- Meppen
-- Skopje
-- Kyiv
-- Vlotho
-- Ellingen
-- Rötha
-- Bad Marienberg
-- Meuselwitz
-- Port Vila
-- Volkmarsen
-- Elterlein
-- Lahr
-- Izhevsk
-- Łódź
-- Lodz
-- Weener
-- Eutin
-- Leichlingen
-- Goyang
-- Odesa
-- Waltershausen
-- Erlenbach Am Main
-- Laufenburg
-- Wroclaw
-- Antalya
-- Badalona
-- Neumünster
-- Bernau Bei Berlin
-- Schriesheim
-- Nantes
-- Adiyaman
-- Bernsdorf
-- Schüttorf
-- Strasbourg
-- Grozny
-- Schwarzenbek
-- Ghent
-- Nanning
-- Ningbo
-- Bitburg
-- Schweich
-- Niddatal
-- Blankenhain
-- Yakutsk
-- Böblingen
-- Seesen
-- Blackpool
-- Niemegk
-- Sancaktepe
-- Norderstedt
-- Bopfingen
-- Seßlach
-- Northeim
-- Borken
-- Simbach Am Inn
-- Oberasbach
-- Boxberg
-- Sinzig
-- Balikesir
-- Oberkochen
-- Sömmerda
-- Sant Marti
-- Sant Martí
-- Carabanchel
-- Oberursel
-- Breckerfeld
-- Speicher
-- Oberwiesenthal
-- Spremberg
-- Brilon
-- Stadtbergen
-- Ochtrup
-- Breuberg
-- Stadtallendorf
-- Ploiesti
-- Ploiești
-- Olfen
-- Büren
-- Hamburg-Nord
-- Orlamünde
-- Burgkunstadt
-- Ortrand
-- Burg Stargard
-- Stolberg
-- Osterfeld
-- Butzbach
-- Lutsk
-- Strausberg
-- Norwich
-- Elazig
-- Elazığ
-- Stutensee
-- Esenyurt
-- Surgut
-- Jöhstadt
-- Creuzburg
-- Tangermünde
-- Dachau
-- Taunusstein
-- Kalbe
-- Dahn
-- Telgte
-- Marseille
-- Kamenz
-- Dassel
-- Teterow
-- Lyon
-- Kamen
-- Ticino
-- Katzenelnbogen
-- Dessau-Roßlau
-- Themar
-- Fuenlabrada
-- Kelsterbach
-- Dietfurt
-- Tönning
-- Dillingen An Der Donau
-- Dillingen
-- Traben-Trarbach
-- Zabrze
-- Dinklage
-- Treffurt
-- Bytom
-- Arkhangelsk
-- Dissen Am Teutoburger Wald
-- Dissen
-- Döbeln
-- Triberg Im Schwarzwald
-- Triberg
-- Atasehir
-- Ataşehir
-- Klütz
-- Knittlingen
-- Dorsten
-- Ueckermünde
-- Korolyov
-- Nizhny Tagil
-- Königsbrunn
-- Drolshagen
-- Ulrichstein
-- Yingkou
-- Ramallah
-- Ebermannstadt
-- Vacha
-- Harare
-- Marktsteft
-- Bad Elster
-- Rhinow
-- Bryansk
-- Tripoli
-- Lollar
-- Am Ettersberg
-- Külsheim
-- Eisfeld
-- Vilseck
-- Menden
-- Bad Kreuznach
-- Ronnenberg
-- Kahramanmaras
-- Kahramanmaraş
-- Geneva
-- Chandigarh
-- Laichingen
-- Eltmann
-- Vreden
-- Kalininsky
-- Meyenburg
-- Bad Mergentheim
-- Röthenbach An Der Pegnitz
-- Denpasar
-- Landstuhl
-- Emsdetten
-- Waischenfeld
-- Lipetsk
-- Nikosia
-- Mitterteich
-- Bad Oeynhausen
-- Rötz
-- Erkner
-- Walldürn
-- Brussels
-- Umraniye
-- Benxi
-- Lauffen Am Neckar
-- Erlensee
-- Waltrop
-- Lebus
-- Esslingen Am Neckar
-- Esslingen
-- Wasserburg Am Inn
-- Leinfelden-Echterdingen
-- Falkenstein/Harz
-- Wehr
-- Riga
-- Ulyanovsk
-- Krasnoyarsk
-- Weingarten
-- Lenzen
-- Fladungen
-- Weilheim In Oberbayern
-- Putian
-- Lichtenberg
-- Frankenberg
-- Weißenhorn
-- Yancheng
-- Lichtenstein
-- Weißenthurm
-- Franzburg
-- Weißwasser
-- Freising
-- Werder
-- Neuruppin
-- Bernstadt auf dem Eigen
-- Schwaan
-- Belfast
-- Radom
-- Neuwied
-- Bitterfeld-Wolfen
-- Schweinfurt
-- Nizhnekamsk
-- Bocholt
-- Sehnde
-- Kamianske
-- Khimki
-- Nordhausen
-- Boppard
-- Siegburg
-- Trabzon
-- Nürtingen
-- Bottrop
-- Sinsheim
-- Nordhorn
-- Borgentreich
-- Siegen
-- Oberlungwitz
-- Brand-Erbisdorf
-- Sondershausen
-- Ternopil
-- Gdynia
-- Oberzent
-- Springe
-- Elche
-- Petrozavodsk
-- Olching
-- Büdingen
-- Blagoveshchensk
-- Horlivka
-- Ohrdruf
-- Bückeburg
-- Staufenberg
-- Bari
-- Weifang
-- Portland
-- Ochsenhausen
-- Bretten
-- Stade
-- Brisbane
-- Naples
-- Osterwieck
-- Calbe
-- Strehla
-- Mokotow
-- Mokotów
-- Bradford
-- Castrop-Rauxel
-- Stühlingen
-- Swansea
-- Kaarst
-- Daaden
-- Taucha
-- Kaisersesch
-- Dahlen
-- Tecklenburg
-- Dahme
-- Tegernsee
-- Kelbra
-- Diemelstadt
-- Tittmoning
-- Kryvyi Rih
-- Krivoy Rog
-- Salem
-- Lengerich
-- Filderstadt
-- Weil Der Stadt
-- Togliatt
-- Tolyatti
-- Weißenburg In Bayern
-- Weissenburg in Bayern
-- Kollam
-- Wuhu
-- Srinagar
-- Milwaukee
-- Frechen
-- Welzheim
-- Quanzhou
-- Wegberg
-- Leimen
-- Wanzleben-Börde
-- Eschenbach
-- Eschenbach In Der Oberpfalz
-- Lauscha
-- Mianyang
-- Cracow
-- Kraków
-- Krakow
-- Wegeleben
-- Falkensee
-- Leinefelde-Worbis
-- Aligarh
-- Diyarbakir
-- Amsterdam
-- Weida
-- Falkenstein
-- Leipheim
-- Zagreb
-- Finsterwalde
-- Lennestadt
-- Weimar
-- Flensburg
-- Leonberg
-- Weinsberg
-- Florstadt
-- Leutenberg
-- Sulaimaniyya
-- Warburg
-- Vladivostok
-- Lauter-Bernsbach
-- Eschwege
-- Waren
-- Lauterbach
-- Eschweiler
-- Warendorf
-- Turin
-- Suqian
-- Lauterecken
-- Esens
-- Warin
-- Nanchong
-- Lauterstein
-- Espelkamp
-- Warstein
-- Saratov
-- Kayseri
-- Guwahati
-- Leer
-- Ettenheim
-- Wassertrüdingen
-- Zaporizhia
-- Zaporozhye
-- Zaporizhzhia
-- Flörsheim Am Main
-- Weinheim
-- Leuna
-- Puning
-- Neustadt Am Rübenberge
-- Neustadt An Der Donau
-- Beverungen
-- Schwaigern
-- Neustadt An Der Aisch
-- Bexbach
-- Schwalbach Am Taunus
-- Biberach An Der Riß
-- Biberach
-- Biberach an der Riss
-- Schwalmstadt
-- Hamamatsu
-- Neustadt An Der Orla
-- Biedenkopf
-- Schwandorf
-- Hefei
-- Neustadt An Der Waldnaab
-- Schwanebeck
-- Oakland
-- Tangshan
-- Nienburg
-- Bockenem
-- Czestochowa
-- Częstochowa
-- Novorossiysk
-- Neustadt An Der Weinstraße
-- Biesenthal
-- Schwarzatal
-- Fuzhou
-- Bietigheim-Bissingen
-- Shijiazhuang
-- Neustadt In Holstein
-- Birkenfeld
-- Schwarzenberg
-- Wenzhou
-- Neustrelitz
-- Schwarzheide
-- Luton
-- Dzerzhinsk
-- Ibadan
-- Neutraubling
-- Schwedt
-- Hamburg-Mitte
-- Nidda
-- Blankenburg
-- Schwelm
-- Bratsk
-- Nidderau
-- Blaubeuren
-- Schwerin
-- Nideggen
-- Blaustein
-- Schwerte
-- Kanpur
-- Niebüll
-- Bleckede
-- Schwetzingen
-- Maschhad
-- Niedenstein
-- Bleicherode
-- Sebnitz
-- Wolverhampton
-- Chernivtsi
-- Niederkassel
-- Blieskastel
-- Seehausen
-- Eimsbuettel
-- Eimsbüttel
-- Kosice
-- Košice
-- Nieder-Olm
-- Blumberg
-- Seelow
-- Niederstetten
-- Bobingen
-- Seelze
-- Lanzhou
-- Bodenwerder
-- Selbitz
-- Nierstein
-- Bogen
-- Seligenstadt
-- Incheon
-- Niesky
-- Böhlen
-- Selm
-- Nittenau
-- Selters
-- Nordenham
-- Sendenhorst
-- Nizhnevartovsk
-- Norderney
-- Bönnigheim
-- Senftenberg
-- Nortorf
-- Borkum
-- Simmern
-- Bornheim
-- Singen
-- Kozhikode
-- Brackenheim
-- Soest
-- Brake
-- Solingen
-- Oberhof
-- Brakel
-- Solms
-- Zibo
-- Oberkirch
-- Bramsche
-- Soltau
-- Thrissur
-- Braubach
-- Sonnewalde
-- Huizhou
-- Braunfels
-- Sonthofen
-- Oschatz
-- Burgwedel
-- Belgorod
-- Klaipėda
-- Klaipeda
-- Tornesch
-- Dillenburg
-- Kempen
-- Trendelburg
-- Dinslaken
-- Kierspe
-- Triptis
-- Dohna
-- Kirchheimbolanden
-- Königslutter
-- Königslutter Am Elm
-- Königstein Im Taunus
-- Königswinter
-- Königstein
-- Kishinev
-- Chisinau
-- Chișinău
-- Irkutsk
-- Quedlinburg
-- Almere
-- Almere Stad
-- Rodalben
-- Bad Homburg
-- Bad Homburg Vor Der Höhe
-- Meersburg
-- Juba
-- Cardiff
-- Isparta
-- Verden
-- Ehingen
-- Kremmen
-- Basaksehir
-- Viciebsk
-- Vitebsk
-- Ruhla
-- Bad Pyrmont
-- Möckmühl
-- Saarburg
-- Bad Saulgau
-- Mörfelden-Walldorf
-- Málaga
-- Malaga
-- Chelyabinsk
-- Waldmünchen
-- Erding
-- Laucha An Der Unstrut
-- Arnavutkoey
-- Saarlouis
-- Bad Schandau
-- Moringen
-- Poznań
-- Poznan
-- Waldsassen
-- Erftstadt
-- Lauchhammer
-- Sachsenhagen
-- Bad Schmiedeberg
-- Mosbach
-- Guangzhou
-- Göteborg
-- Gothenburg
-- Goeteborg
-- Dnipro
-- Waldshut-Tiengen
-- Lauchheim
-- Zhuzhou
-- Stockach
-- Burgstädt
-- Ortenberg
-- Sternberg
-- Adapazari
-- Burghausen
-- Rybinsk
-- Oranienburg
-- Burgau
-- Steinfurt
-- Olsberg
-- Huai’an
-- Gijón
-- Gijon
-- Stavenhagen
-- Buckow
-- Öhringen
-- Batikent
-- Stromberg
-- Calw
-- Ostfildern
-- Sultanbeyli
-- Prokopyevsk
-- Stendal
-- Bürgel
-- Oranienbaum
-- Oranienbaum-Wörlitz
-- Zhytomyr
-- Steinheim
-- Burgbernheim
-- Volzhsky
-- Teuschnitz
-- Deidesheim
-- Karben
-- Thale
-
-
-## lookup:influenza
-languages/en/data/lookup_tables/influenza.txt
-
-## lookup:air_conditioning
-languages/en/data/lookup_tables/air_conditioning.txt
+## lookup:joke
+
+lookup_tables/joke.txt
+
+## lookup:movies
+
+lookup_tables/movies.txt
+
+## lookup:question
+
+lookup_tables/question.txt
+
+## lookup:number
+
+lookup_tables/number.txt
+
+## lookup:angry
+
+lookup_tables/angry.txt
+
+## lookup:pet
+
+lookup_tables/pet.txt
+
+## lookup:ST
+
+lookup_tables/ST.txt
+
+## lookup:IN
+
+lookup_tables/IN.txt
+
+## lookup:IM
+
+lookup_tables/IM.txt
+
+## lookup:IL
+
+lookup_tables/IL.txt
+
+## lookup:IE
+
+lookup_tables/IE.txt
+
+## lookup:ID
+
+lookup_tables/ID.txt
+
+## lookup:HU
+
+lookup_tables/HU.txt
+
+## lookup:HT
+
+lookup_tables/HT.txt
+
+## lookup:HR
+
+lookup_tables/HR.txt
+
+## lookup:HN
+
+lookup_tables/HN.txt
+
+## lookup:HM
+
+lookup_tables/HM.txt
+
+## lookup:HK
+
+lookup_tables/HK.txt
+
+## lookup:GY
+
+lookup_tables/GY.txt
+
+## lookup:GW
+
+lookup_tables/GW.txt
+
+## lookup:GU
+
+lookup_tables/GU.txt
+
+## lookup:GT
+
+lookup_tables/GT.txt
+
+## lookup:GS
+
+lookup_tables/GS.txt
+
+## lookup:GR
+
+lookup_tables/GR.txt
+
+## lookup:GQ
+
+lookup_tables/GQ.txt
+
+## lookup:GP
+
+lookup_tables/GP.txt
+
+## lookup:GN
+
+lookup_tables/GN.txt
+
+## lookup:GM
+
+lookup_tables/GM.txt
+
+## lookup:GL
+
+lookup_tables/GL.txt
+
+## lookup:GI
+
+lookup_tables/GI.txt
+
+## lookup:GH
+
+lookup_tables/GH.txt
+
+## lookup:GG
+
+lookup_tables/GG.txt
+
+## lookup:GF
+
+lookup_tables/GF.txt
+
+## lookup:GE
+
+lookup_tables/GE.txt
+
+## lookup:GD
+
+lookup_tables/GD.txt
+
+## lookup:GA
+
+lookup_tables/GA.txt
+
+## lookup:FR
+
+lookup_tables/FR.txt
+
+## lookup:FO
+
+lookup_tables/FO.txt
+
+## lookup:FM
+
+lookup_tables/FM.txt
+
+## lookup:FK
+
+lookup_tables/FK.txt
+
+## lookup:FJ
+
+lookup_tables/FJ.txt
+
+## lookup:FI
+
+lookup_tables/FI.txt
+
+## lookup:ET
+
+lookup_tables/ET.txt
+
+## lookup:ES
+
+lookup_tables/ES.txt
+
+## lookup:ER
+
+lookup_tables/ER.txt
+
+## lookup:EH
+
+lookup_tables/EH.txt
+
+## lookup:EG
+
+lookup_tables/EG.txt
+
+## lookup:EE
+
+lookup_tables/EE.txt
+
+## lookup:EC
+
+lookup_tables/EC.txt
+
+## lookup:DZ
+
+lookup_tables/DZ.txt
+
+## lookup:DO
+
+lookup_tables/DO.txt
+
+## lookup:DM
+
+lookup_tables/DM.txt
+
+## lookup:DK
+
+lookup_tables/DK.txt
+
+## lookup:DJ
+
+lookup_tables/DJ.txt
+
+## lookup:DE
+
+lookup_tables/DE.txt
+
+## lookup:CZ
+
+lookup_tables/CZ.txt
+
+## lookup:CY
+
+lookup_tables/CY.txt
+
+## lookup:CX
+
+lookup_tables/CX.txt
+
+## lookup:CW
+
+lookup_tables/CW.txt
+
+## lookup:CU
+
+lookup_tables/CU.txt
+
+## lookup:CR
+
+lookup_tables/CR.txt
+
+## lookup:CO
+
+lookup_tables/CO.txt
+
+## lookup:CN
+
+lookup_tables/CN.txt
+
+## lookup:CM
+
+lookup_tables/CM.txt
+
+## lookup:CL
+
+lookup_tables/CL.txt
+
+## lookup:CK
+
+lookup_tables/CK.txt
+
+## lookup:CI
+
+lookup_tables/CI.txt
+
+## lookup:CH
+
+lookup_tables/CH.txt
+
+## lookup:CG
+
+lookup_tables/CG.txt
+
+## lookup:CF
+
+lookup_tables/CF.txt
+
+## lookup:CD
+
+lookup_tables/CD.txt
+
+## lookup:CC
+
+lookup_tables/CC.txt
+
+## lookup:CA
+
+lookup_tables/CA.txt
+
+## lookup:BZ
+
+lookup_tables/BZ.txt
+
+## lookup:BY
+
+lookup_tables/BY.txt
+
+## lookup:BW
+
+lookup_tables/BW.txt
+
+## lookup:BV
+
+lookup_tables/BV.txt
+
+## lookup:BT
+
+lookup_tables/BT.txt
+
+## lookup:BS
+
+lookup_tables/BS.txt
+
+## lookup:BR
+
+lookup_tables/BR.txt
+
+## lookup:BQ
+
+lookup_tables/BQ.txt
+
+## lookup:BO
+
+lookup_tables/BO.txt
+
+## lookup:BN
+
+lookup_tables/BN.txt
+
+## lookup:BM
+
+lookup_tables/BM.txt
+
+## lookup:BL
+
+lookup_tables/BL.txt
+
+## lookup:BJ
+
+lookup_tables/BJ.txt
+
+## lookup:BI
+
+lookup_tables/BI.txt
+
+## lookup:BH
+
+lookup_tables/BH.txt
+
+## lookup:BG
+
+lookup_tables/BG.txt
+
+## lookup:BF
+
+lookup_tables/BF.txt
+
+## lookup:BE
+
+lookup_tables/BE.txt
+
+## lookup:BD
+
+lookup_tables/BD.txt
+
+## lookup:BB
+
+lookup_tables/BB.txt
+
+## lookup:BA
+
+lookup_tables/BA.txt
+
+## lookup:AZ
+
+lookup_tables/AZ.txt
+
+## lookup:TT
+
+lookup_tables/TT.txt
+
+## lookup:AX
+
+lookup_tables/AX.txt
+
+## lookup:AW
+
+lookup_tables/AW.txt
+
+## lookup:AU
+
+lookup_tables/AU.txt
+
+## lookup:AT
+
+lookup_tables/AT.txt
+
+## lookup:AS
+
+lookup_tables/AS.txt
+
+## lookup:AR
+
+lookup_tables/AR.txt
+
+## lookup:AQ
+
+lookup_tables/AQ.txt
+
+## lookup:GB
+
+lookup_tables/GB.txt
+
+## lookup:CV
+
+lookup_tables/CV.txt
+
+## lookup:AO
+
+lookup_tables/AO.txt
+
+## lookup:AM
+
+lookup_tables/AM.txt
+
+## lookup:AL
+
+lookup_tables/AL.txt
+
+## lookup:AI
+
+lookup_tables/AI.txt
+
+## lookup:AG
+
+lookup_tables/AG.txt
+
+## lookup:AF
+
+lookup_tables/AF.txt
+
+## lookup:AE
+
+lookup_tables/AE.txt
+
+## lookup:AD
+
+lookup_tables/AD.txt
+
+## lookup:ZW
+
+lookup_tables/ZW.txt
+
+## lookup:ZM
+
+lookup_tables/ZM.txt
+
+## lookup:ZA
+
+lookup_tables/ZA.txt
+
+## lookup:YT
+
+lookup_tables/YT.txt
+
+## lookup:YE
+
+lookup_tables/YE.txt
+
+## lookup:WS
+
+lookup_tables/WS.txt
+
+## lookup:WF
+
+lookup_tables/WF.txt
+
+## lookup:VU
+
+lookup_tables/VU.txt
+
+## lookup:VN
+
+lookup_tables/VN.txt
+
+## lookup:VI
+
+lookup_tables/VI.txt
+
+## lookup:VG
+
+lookup_tables/VG.txt
+
+## lookup:VE
+
+lookup_tables/VE.txt
+
+## lookup:VC
+
+lookup_tables/VC.txt
+
+## lookup:VA
+
+lookup_tables/VA.txt
+
+## lookup:UZ
+
+lookup_tables/UZ.txt
+
+## lookup:UY
+
+lookup_tables/UY.txt
+
+## lookup:UM
+
+lookup_tables/UM.txt
+
+## lookup:UG
+
+lookup_tables/UG.txt
+
+## lookup:UA
+
+lookup_tables/UA.txt
+
+## lookup:US
+
+lookup_tables/US.txt
+
+## lookup:TZ
+
+lookup_tables/TZ.txt
+
+## lookup:TW
+
+lookup_tables/TW.txt
+
+## lookup:TV
+
+lookup_tables/TV.txt
+
+## lookup:TR
+
+lookup_tables/TR.txt
+
+## lookup:TO
+
+lookup_tables/TO.txt
+
+## lookup:TN
+
+lookup_tables/TN.txt
+
+## lookup:TM
+
+lookup_tables/TM.txt
+
+## lookup:TL
+
+lookup_tables/TL.txt
+
+## lookup:TK
+
+lookup_tables/TK.txt
+
+## lookup:TJ
+
+lookup_tables/TJ.txt
+
+## lookup:TH
+
+lookup_tables/TH.txt
+
+## lookup:TG
+
+lookup_tables/TG.txt
+
+## lookup:TF
+
+lookup_tables/TF.txt
+
+## lookup:TD
+
+lookup_tables/TD.txt
+
+## lookup:TC
+
+lookup_tables/TC.txt
+
+## lookup:SZ
+
+lookup_tables/SZ.txt
+
+## lookup:SY
+
+lookup_tables/SY.txt
+
+## lookup:SX
+
+lookup_tables/SX.txt
+
+## lookup:SV
+
+lookup_tables/SV.txt
+
+## lookup:SS
+
+lookup_tables/SS.txt
+
+## lookup:SR
+
+lookup_tables/SR.txt
+
+## lookup:SO
+
+lookup_tables/SO.txt
+
+## lookup:SN
+
+lookup_tables/SN.txt
+
+## lookup:SM
+
+lookup_tables/SM.txt
+
+## lookup:SL
+
+lookup_tables/SL.txt
+
+## lookup:SK
+
+lookup_tables/SK.txt
+
+## lookup:SJ
+
+lookup_tables/SJ.txt
+
+## lookup:SI
+
+lookup_tables/SI.txt
+
+## lookup:SH
+
+lookup_tables/SH.txt
+
+## lookup:SG
+
+lookup_tables/SG.txt
+
+## lookup:SE
+
+lookup_tables/SE.txt
+
+## lookup:SD
+
+lookup_tables/SD.txt
+
+## lookup:SC
+
+lookup_tables/SC.txt
+
+## lookup:SB
+
+lookup_tables/SB.txt
+
+## lookup:SA
+
+lookup_tables/SA.txt
+
+## lookup:RW
+
+lookup_tables/RW.txt
+
+## lookup:RU
+
+lookup_tables/RU.txt
+
+## lookup:RS
+
+lookup_tables/RS.txt
+
+## lookup:RO
+
+lookup_tables/RO.txt
+
+## lookup:RE
+
+lookup_tables/RE.txt
+
+## lookup:QA
+
+lookup_tables/QA.txt
+
+## lookup:PY
+
+lookup_tables/PY.txt
+
+## lookup:PW
+
+lookup_tables/PW.txt
+
+## lookup:PT
+
+lookup_tables/PT.txt
+
+## lookup:PS
+
+lookup_tables/PS.txt
+
+## lookup:PR
+
+lookup_tables/PR.txt
+
+## lookup:PN
+
+lookup_tables/PN.txt
+
+## lookup:PM
+
+lookup_tables/PM.txt
+
+## lookup:PL
+
+lookup_tables/PL.txt
+
+## lookup:PK
+
+lookup_tables/PK.txt
+
+## lookup:PH
+
+lookup_tables/PH.txt
+
+## lookup:PG
+
+lookup_tables/PG.txt
+
+## lookup:PF
+
+lookup_tables/PF.txt
+
+## lookup:PE
+
+lookup_tables/PE.txt
+
+## lookup:PA
+
+lookup_tables/PA.txt
+
+## lookup:OM
+
+lookup_tables/OM.txt
+
+## lookup:NZ
+
+lookup_tables/NZ.txt
+
+## lookup:NU
+
+lookup_tables/NU.txt
+
+## lookup:NR
+
+lookup_tables/NR.txt
+
+## lookup:NP
+
+lookup_tables/NP.txt
+
+## lookup:NO
+
+lookup_tables/NO.txt
+
+## lookup:NL
+
+lookup_tables/NL.txt
+
+## lookup:NI
+
+lookup_tables/NI.txt
+
+## lookup:NG
+
+lookup_tables/NG.txt
+
+## lookup:NF
+
+lookup_tables/NF.txt
+
+## lookup:NE
+
+lookup_tables/NE.txt
+
+## lookup:NC
+
+lookup_tables/NC.txt
+
+## lookup:NA
+
+lookup_tables/NA.txt
+
+## lookup:MZ
+
+lookup_tables/MZ.txt
+
+## lookup:MY
+
+lookup_tables/MY.txt
+
+## lookup:MX
+
+lookup_tables/MX.txt
+
+## lookup:MW
+
+lookup_tables/MW.txt
+
+## lookup:MV
+
+lookup_tables/MV.txt
+
+## lookup:MU
+
+lookup_tables/MU.txt
+
+## lookup:MT
+
+lookup_tables/MT.txt
+
+## lookup:MS
+
+lookup_tables/MS.txt
+
+## lookup:MR
+
+lookup_tables/MR.txt
+
+## lookup:MQ
+
+lookup_tables/MQ.txt
+
+## lookup:MP
+
+lookup_tables/MP.txt
+
+## lookup:MO
+
+lookup_tables/MO.txt
+
+## lookup:MN
+
+lookup_tables/MN.txt
+
+## lookup:MM
+
+lookup_tables/MM.txt
+
+## lookup:ML
+
+lookup_tables/ML.txt
+
+## lookup:MK
+
+lookup_tables/MK.txt
+
+## lookup:MH
+
+lookup_tables/MH.txt
+
+## lookup:MG
+
+lookup_tables/MG.txt
+
+## lookup:MF
+
+lookup_tables/MF.txt
+
+## lookup:ME
+
+lookup_tables/ME.txt
+
+## lookup:MD
+
+lookup_tables/MD.txt
+
+## lookup:MC
+
+lookup_tables/MC.txt
+
+## lookup:MA
+
+lookup_tables/MA.txt
+
+## lookup:LY
+
+lookup_tables/LY.txt
+
+## lookup:LV
+
+lookup_tables/LV.txt
+
+## lookup:LU
+
+lookup_tables/LU.txt
+
+## lookup:LT
+
+lookup_tables/LT.txt
+
+## lookup:LS
+
+lookup_tables/LS.txt
+
+## lookup:LR
+
+lookup_tables/LR.txt
+
+## lookup:LK
+
+lookup_tables/LK.txt
+
+## lookup:LI
+
+lookup_tables/LI.txt
+
+## lookup:LC
+
+lookup_tables/LC.txt
+
+## lookup:LB
+
+lookup_tables/LB.txt
+
+## lookup:LA
+
+lookup_tables/LA.txt
+
+## lookup:KZ
+
+lookup_tables/KZ.txt
+
+## lookup:KY
+
+lookup_tables/KY.txt
+
+## lookup:KW
+
+lookup_tables/KW.txt
+
+## lookup:KR
+
+lookup_tables/KR.txt
+
+## lookup:KP
+
+lookup_tables/KP.txt
+
+## lookup:KN
+
+lookup_tables/KN.txt
+
+## lookup:KM
+
+lookup_tables/KM.txt
+
+## lookup:KI
+
+lookup_tables/KI.txt
+
+## lookup:KH
+
+lookup_tables/KH.txt
+
+## lookup:KG
+
+lookup_tables/KG.txt
+
+## lookup:KE
+
+lookup_tables/KE.txt
+
+## lookup:JP
+
+lookup_tables/JP.txt
+
+## lookup:JO
+
+lookup_tables/JO.txt
+
+## lookup:JM
+
+lookup_tables/JM.txt
+
+## lookup:JE
+
+lookup_tables/JE.txt
+
+## lookup:IT
+
+lookup_tables/IT.txt
+
+## lookup:IS
+
+lookup_tables/IS.txt
+
+## lookup:IR
+
+lookup_tables/IR.txt
+
+## lookup:IQ
+
+lookup_tables/IQ.txt
+
+## lookup:IO
+
+lookup_tables/IO.txt
+
+## lookup:offense
+
+lookup_tables/offense.txt
+
+## lookup:racist
+
+lookup_tables/racist.txt
+
+## lookup:have to
+
+lookup_tables/have to.txt
+
+## lookup:Mr.
+
+lookup_tables/Mr..txt
+
+## lookup:Mrs.
+
+lookup_tables/Mrs..txt
+
+## lookup:form of address
+
+lookup_tables/form of address.txt
+
+## lookup:music
+
+lookup_tables/music.txt
+
+## lookup:I
+
+lookup_tables/I.txt
+
+## lookup:you
+
+lookup_tables/you.txt
+
+## lookup:pricelist
+
+lookup_tables/pricelist.txt
+
+## lookup:game
+
+lookup_tables/game.txt
+
+## lookup:stop
+
+lookup_tables/stop.txt
+
+## lookup:cancel
+
+lookup_tables/cancel.txt
+
+## lookup:America
+
+lookup_tables/America.txt
+
+## lookup:Oceania
+
+lookup_tables/Oceania.txt
+
+## lookup:Africa
+
+lookup_tables/Africa.txt
+
+## lookup:Antartida
+
+lookup_tables/Antartida.txt
+
+## lookup:World
+
+lookup_tables/World.txt
+
+## lookup:Europa
+
+lookup_tables/Europa.txt
+
+## lookup:Asia
+
+lookup_tables/Asia.txt
+
+## lookup:date
+
+lookup_tables/date.txt
+
+## lookup:time
+
+lookup_tables/time.txt
+
+## lookup:game
+
+lookup_tables/game.txt
+
+## lookup:music
+
+lookup_tables/music.txt
+
+## lookup:joke
+
+lookup_tables/joke.txt
+
+## lookup:weather
+
+lookup_tables/weather.txt
+
+## lookup:lotr
+
+lookup_tables/lotr.txt
+
+## lookup:movie
+
+lookup_tables/movie.txt
+
+## lookup:color
+
+lookup_tables/color.txt
+
+## lookup:favorite
+
+lookup_tables/favorite.txt
+
+## lookup:photo
+
+lookup_tables/photo.txt
+
+## lookup:summarize
+
+lookup_tables/summarize.txt
+
+## lookup:five
+
+lookup_tables/five.txt
+
+## lookup:one
+
+lookup_tables/one.txt
+
+## lookup:six
+
+lookup_tables/six.txt
+
+## lookup:nine
+
+lookup_tables/nine.txt
+
+## lookup:ten
+
+lookup_tables/ten.txt
+
+## lookup:eight
+
+lookup_tables/eight.txt
+
+## lookup:four
+
+lookup_tables/four.txt
+
+## lookup:seven
+
+lookup_tables/seven.txt
+
+## lookup:three
+
+lookup_tables/three.txt
+
+## lookup:two
+
+lookup_tables/two.txt
+
+## lookup:town
+
+lookup_tables/town.txt
+
+## lookup:country
+
+lookup_tables/country.txt
+
+## lookup:languages
+
+lookup_tables/languages.txt
+
+## lookup:negative_emoticon
+
+lookup_tables/negative_emoticon.txt
+
+## lookup:positive_emoticon
+
+lookup_tables/positive_emoticon.txt
+
+## lookup:yes
+
+lookup_tables/yes.txt
+
+## lookup:no
+
+lookup_tables/no.txt
+
+## lookup:anal
+
+lookup_tables/anal.txt
+
+## lookup:racist
+
+lookup_tables/racist.txt
+
+## lookup:hand dryer
+
+lookup_tables/hand dryer.txt
+
+## lookup:pneumonia vaccine
+
+lookup_tables/pneumonia vaccine.txt
+
+## lookup:air conditioning
+
+lookup_tables/air conditioning.txt
 
 ## lookup:5G
-languages/en/data/lookup_tables/5G.txt
 
-## lookup:hand_dryer
-languages/en/data/lookup_tables/hand_dryer.txt
+lookup_tables/5G.txt
 
-## lookup:uv_lamp
-languages/en/data/lookup_tables/uv_lamp.txt
+## lookup:thermal scanner
 
-## lookup:thermal_scanner
-languages/en/data/lookup_tables/thermal_scanner.txt
-
-## lookup:antibiotics
-languages/en/data/lookup_tables/antibiotics.txt
-
-## lookup:pneumonia_vaccine
-languages/en/data/lookup_tables/pneumonia_vaccine.txt
-
-## lookup:saline
-languages/en/data/lookup_tables/saline.txt
+lookup_tables/thermal scanner.txt
 
 ## lookup:garlic
-languages/en/data/lookup_tables/garlic.txt
 
-## lookup:sesame_oil
-languages/en/data/lookup_tables/sesame_oil.txt
+lookup_tables/garlic.txt
+
+## lookup:antibiotics
+
+lookup_tables/antibiotics.txt
+
+## lookup:saline
+
+lookup_tables/saline.txt
+
+## lookup:uv lamp
+
+lookup_tables/uv lamp.txt
+
+## lookup:sesame oil
+
+lookup_tables/sesame oil.txt
+
+## lookup:message
+
+lookup_tables/message.txt
+
+## lookup:teach
+
+lookup_tables/teach.txt
+
+## lookup:linkedin
+
+lookup_tables/linkedin.txt
+
+## lookup:instagram
+
+lookup_tables/instagram.txt
+
+## lookup:facebook
+
+lookup_tables/facebook.txt
+
+## lookup:social media
+
+lookup_tables/social media.txt
 
 ## lookup:visors
-languages/en/data/lookup_tables/visors.txt
+
+lookup_tables/visors.txt
+
+## lookup:COVID
+
+lookup_tables/COVID.txt
+
+## lookup:prevention
+
+lookup_tables/prevention.txt
+
+## lookup:influenza
+
+lookup_tables/influenza.txt
+
+## lookup:spread
+
+lookup_tables/spread.txt
+
+## lookup:website
+
+lookup_tables/website.txt
+
+## lookup:phone
+
+lookup_tables/phone.txt
+
+## lookup:e-mail
+
+lookup_tables/e-mail.txt
+
+## lookup:contact
+
+lookup_tables/contact.txt
+
+## lookup:address
+
+lookup_tables/address.txt
+
+## lookup:photo
+
+lookup_tables/photo.txt
+
+## lookup:datasheet
+
+lookup_tables/datasheet.txt
+
+## lookup:video
+
+lookup_tables/video.txt
+
+## lookup:sex
+
+lookup_tables/sex.txt
+
+## lookup:surname
+
+lookup_tables/surname.txt
+
+## lookup:firstname
+
+lookup_tables/firstname.txt
+
+## lookup:church
+
+lookup_tables/church.txt
