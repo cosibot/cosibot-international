@@ -1,0 +1,8 @@
+stop
+exit
+cancel
+abolish
+interrupt
+quit
+cease
+abort

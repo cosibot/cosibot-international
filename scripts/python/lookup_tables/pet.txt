@@ -1,0 +1,6 @@
+pet
+cat
+dog
+cats
+dogs
+pets

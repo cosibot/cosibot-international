@@ -1,0 +1,4 @@
+day
+datums
+datum
+date
