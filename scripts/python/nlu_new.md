@@ -1,23 +1,23 @@
 ## intent:covid_situation_tested
 
-- "[Nicaragua]{"entity":"country_code", "value":"NI"} tested."
-- "[Ascension Island]{"entity":"country_code", "value":"SH"} tests."
-- How many in [República Federal da Alemã]{"entity":"country_code", "value":"DE"} were tested?
-- How many people in [Malta]{"entity":"country_code", "value":"MT"} were tested?
-- How many people was tested in [Thailand]{"entity":"country_code", "value":"TH"}?
-- How many people were tested in [Śrī Laṃkā]{"entity":"country_code", "value":"LK"}?
-- How many test in covid 19 in [Republic of Peru]{"entity":"country_code", "value":"PE"}
-- How many tested [Republic of North Macedonia]{"entity":"country_code", "value":"MK"}?
-- How many tested are in [República do Equador]{"entity":"country_code", "value":"EC"}?
-- How many tested in [al-Kuwait]{"entity":"country_code", "value":"KW"}?
-- How many tests in [Bielorrússia]{"entity":"country_code", "value":"BY"}?
-- How many tests were made [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah]{"entity":"country_code", "value":"SY"}?
-- How many were tested in [Território da Ilha Norfolque]{"entity":"country_code", "value":"NF"}?
-- Tested in [Cameroun]{"entity":"country_code", "value":"CM"}.
-- Tests in [Porto Rico]{"entity":"country_code", "value":"PR"}
-- Total number of tested in [Sénégal]{"entity":"country_code", "value":"SN"}.
-- Total number of tests made in [República de Trindade e Tobago]{"entity":"country_code", "value":"TT"}.
-- Total tested in [Ilhas Faroé]{"entity":"country_code", "value":"FO"}.
-- Total tests in [Union of the Comoros]{"entity":"country_code", "value":"KM"}?
-- What is the number of tested in [Nainngandaw]{"entity":"country_code", "value":"MM"}?
-- how many tests were done in [Wallis-et-Futuna]{"entity":"country_code", "value":"WF"}?
+- "[Nicaragua]{"entity": "country_code", "value": "NI"} tested."
+- "[Ascension Island]{"entity": "country_code", "value": "SH"} tests."
+- How many in [República Federal da Alemã]{"entity": "country_code", "value": "DE"} were tested?
+- How many people in [Malta]{"entity": "country_code", "value": "MT"} were tested?
+- How many people was tested in [Thailand]{"entity": "country_code", "value": "TH"}?
+- How many people were tested in [Śrī Laṃkā]{"entity": "country_code", "value": "LK"}?
+- How many test in covid 19 in [Republic of Peru]{"entity": "country_code", "value": "PE"}
+- How many tested [Republic of North Macedonia]{"entity": "country_code", "value": "MK"}?
+- How many tested are in [República do Equador]{"entity": "country_code", "value": "EC"}?
+- How many tested in [al-Kuwait]{"entity": "country_code", "value": "KW"}?
+- How many tests in [Bielorrússia]{"entity": "country_code", "value": "BY"}?
+- How many tests were made [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah]{"entity": "country_code", "value": "SY"}?
+- How many were tested in [Território da Ilha Norfolque]{"entity": "country_code", "value": "NF"}?
+- Tested in [Cameroun]{"entity": "country_code", "value": "CM"}.
+- Tests in [Porto Rico]{"entity": "country_code", "value": "PR"}
+- Total number of tested in [Sénégal]{"entity": "country_code", "value": "SN"}.
+- Total number of tests made in [República de Trindade e Tobago]{"entity": "country_code", "value": "TT"}.
+- Total tested in [Ilhas Faroé]{"entity": "country_code", "value": "FO"}.
+- Total tests in [Union of the Comoros]{"entity": "country_code", "value": "KM"}?
+- What is the number of tested in [Nainngandaw]{"entity": "country_code", "value": "MM"}?
+- how many tests were done in [Wallis-et-Futuna]{"entity": "country_code", "value": "WF"}?

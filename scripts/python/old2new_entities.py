@@ -20,7 +20,10 @@ with open('nlu.md', 'r') as old:
                         else:
                             ask = input("is entity(y/n):" + s_block[0]+"\n")
                             if("y" in ask):
-                                new_entity = input("new name:")
+                                new_entity = s_block[0][3:]
+                                ask = input("is this ok: " + new_entity)
+                                if("n" in ask):
+                                    new_entity = input("new entity name: ")
                                 entity_dict[s_block[0]] = new_entity
                                 new.write(
                                     "{\"entity\": \"" + entity_dict[s_block[0]] + "\", \"value\": \"" + s_block[1] + "\"}")
