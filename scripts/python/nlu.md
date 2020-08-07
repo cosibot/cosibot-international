@@ -1,0 +1,23 @@
+## intent:covid_situation_tested
+
+- "[Nicaragua](en_country_code:NI) tested."
+- "[Ascension Island](en_country_code:SH) tests."
+- How many in [República Federal da Alemã](en_country_code:DE) were tested?
+- How many people in [Malta](en_country_code:MT) were tested?
+- How many people was tested in [Thailand](en_country_code:TH)?
+- How many people were tested in [Śrī Laṃkā](en_country_code:LK)?
+- How many test in covid 19 in [Republic of Peru](en_country_code:PE)
+- How many tested [Republic of North Macedonia](en_country_code:MK)?
+- How many tested are in [República do Equador](en_country_code:EC)?
+- How many tested in [al-Kuwait](en_country_code:KW)?
+- How many tests in [Bielorrússia](en_country_code:BY)?
+- How many tests were made [al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah](en_country_code:SY)?
+- How many were tested in [Território da Ilha Norfolque](en_country_code:NF)?
+- Tested in [Cameroun](en_country_code:CM).
+- Tests in [Porto Rico](en_country_code:PR)
+- Total number of tested in [Sénégal](en_country_code:SN).
+- Total number of tests made in [República de Trindade e Tobago](en_country_code:TT).
+- Total tested in [Ilhas Faroé](en_country_code:FO).
+- Total tests in [Union of the Comoros](en_country_code:KM)?
+- What is the number of tested in [Nainngandaw](en_country_code:MM)?
+- how many tests were done in [Wallis-et-Futuna](en_country_code:WF)?
