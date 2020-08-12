@@ -3,21 +3,22 @@ import re
 entity_dict = {}
 
 with open('nlu.md', 'r') as old:
-    with open('nlu_new.md', 'w') as new:
+    with open('nlu_new_new.md', 'w') as new:
         for line in old:
             # print(x)
             line_s = re.split(r"\((.*?)\)", line)
-            # print(line)
+            print(line)
             if(len(line_s) <= 1):
                 new.write(line)
             else:
                 for block in line_s:
                     if(":" in block):
+                        print(line_s)
                         s_block = re.split(r":", block)
-                        if s_block[0] in entity_dict:
+                        if s_block[0] in entity_dict and len(s_block[0])>0:
                             new.write(
                                 "{\"entity\": \"" + entity_dict[s_block[0]] + "\", \"value\": \"" + s_block[1] + "\"}")
-                        else:
+                        elif len(s_block[0])>0:
                             ask = input("is entity(y/n):" + s_block[0]+"\n")
                             if("y" in ask):
                                 new_entity = s_block[0][3:]
@@ -29,6 +30,8 @@ with open('nlu.md', 'r') as old:
                                     "{\"entity\": \"" + entity_dict[s_block[0]] + "\", \"value\": \"" + s_block[1] + "\"}")
                             elif("n" in ask):
                                 new.write(block)
+                        else:
+                            new.write("\n")
                     else:
                         new.write(block)
 

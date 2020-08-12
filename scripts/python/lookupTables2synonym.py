@@ -18,7 +18,7 @@ with open('synonym.txt', 'w') as s:
 entries = os.listdir('lookup_tables/yes')
 with open('lookup.txt', 'w') as l:
     for entry in entries:
-        s.write("## lookup:"+entry[:-4]+"\n"+"lookup_tables/" + entry +"\n\n")
+        l.write("## lookup:"+entry[:-4]+"\n"+"lookup_tables/" + entry +"\n\n")
 
 
 """
