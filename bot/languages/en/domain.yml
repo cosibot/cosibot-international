@@ -385,8 +385,85 @@ responses:
               value: google.com/{preferred_lang}
   utter_welcome:
     - custom:
-        answers: []   
-  
+        answers:
+          - type: ssml
+            ssml: 
+              <speak>Hello, my name is {bot_name} and I'm here to give information 
+              and guidance regarding the current outbreak of Covid 19, such as how to 
+              prevent the spreading, or clarify some myths that maybe you have heard. How may I help you?</speak>
+          - type: text
+            text: Hello, my name is {bot_name} and I'm here to give information 
+              and guidance regarding the current outbreak of Covid 19, such as how to 
+              prevent the spreading, or clarify some myths that maybe you have heard.
+          - type: text
+            text: How may I help you?
+          - type: hints
+            options:
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Transmission
+                value: Transmission
+              - label: Symptoms
+                value: Symptoms
+              - label: Myths
+                value: Myths
+  utter_greeting_hello:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Hello, how can I help you?</speak>
+          - type: text
+            text: Hello, how can I help you?
+          - type: hints
+            options:
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Transmission
+                value: Transmission
+              - label: Symptoms
+                value: Symptoms
+              - label: Myths
+                value: Myths
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Hi! How can I assist you?</speak>
+          - type: text
+            text: Hi! How can I assist you?
+          - type: hints
+            options:
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Transmission
+                value: Transmission
+              - label: Symptoms
+                value: Symptoms
+              - label: Myths
+                value: Myths
+    - custom:
+      answers:
+        - type: ssml
+          ssml: <speak>Greetings! What can I do for you?</speak>
+        - type: text
+          text: Greetings! What can I do for you?
+        - type: hints
+          options:
+            - label: About COVID-19
+              value: About COVID-19
+            - label: Preventive Measures
+              value: Preventive Measures
+            - label: Transmission
+              value: Transmission
+            - label: Symptoms
+              value: Symptoms
+            - label: Myths
+              value: Myths      
   utter_travel_while:
     - custom:
         answers:
@@ -483,6 +560,17 @@ responses:
                 value: Transmission
               - label: World Situation
                 value: World Situation
+  utter_comment_negative:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>I'm sorry. I am still learning!</speak>
+          - type: ssml
+            ssml: <speak>It is sad to know that you are not happy.</speak>
+          - type: text
+            text: I'm sorry. I am still learning!
+          - type: text
+            text: It is sad to know that you are not happy.
   utter_comment_smart:
     - custom:
         answers:
@@ -494,13 +582,6 @@ responses:
             text: Thank you for your appreciation!
           - type: text
             text: Well, thank you! I’m really glad you feel that way.
-  utter_comment_offense:
-    - custom:
-        answers:
-          - type: ssml
-            ssml: <speak>Don't be so mean. I am still learning!</speak>
-          - type: text
-            text: Don't be so mean. I am still learning.
   utter_comment_racist:
     - custom:
         answers:
@@ -515,17 +596,13 @@ responses:
             text: Your intolerant behavior is scaring me. Please be more polite.
           - type: text
             text: I don't understand the reason for such behavior. Please be nicer.
-  utter_comment_negative:
+  utter_comment_offense:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>I'm sorry. I am still learning!</speak>
-          - type: ssml
-            ssml: <speak>It is sad to know that you are not happy.</speak>
+            ssml: <speak>Don't be so mean. I am still learning!</speak>
           - type: text
-            text: I'm sorry. I am still learning!
-          - type: text
-            text: It is sad to know that you are not happy.
+            text: Don't be so mean. I am still learning.
   utter_comment_positive:
     - custom:
         answers:
@@ -1332,8 +1409,8 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Ok! What more can I do for you?</speak>
-            - type: text
-              text: Ok! What more can I do for you?
+          - type: text
+            text: Ok! What more can I do for you?
   utter_vocative_call:
     - custom:
         answers:
@@ -3131,11 +3208,264 @@ responses:
             ssml: <speak>Do you have any further question I could answer?</speak>
           - type: text
             text: Do you have any further question I could answer?
-
-
-  utter_check_coutry_code_cicle:
+  utter_news_request_hasdata:
     - custom:
-        answers: []
+      answers:
+        - type: ssml
+          ssml: <speak>You can read about the latest news on the links provided below</speak>
+        - type: text
+          text: "You can read about the latest news on the links provided below:"
+        - type: hints
+          options:
+            - label: About COVID-19
+              value: About COVID-19
+            - label: Preventive Measures
+              value: Preventive Measures
+            - label: Transmission
+              value: Transmission
+            - label: Symptoms
+              value: Symptoms
+            - label: Myths
+              value: Myths
+  utter_news_request_emptyanswer:
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>Maybe I don't have the information you are looking for. 
+            If you want, you can visit the Deutsche Welle, France24 or BBC to know 
+            more news about the outbreak.</speak>
+        - type: text
+          text: Maybe I don't have the information you are looking for. 
+            If you want, you can visit the Deutsche Welle, France24 or BBC to know 
+            more news about the outbreak.
+        - type: links
+          links:
+            - title: Deutsche Welle
+              url: https://www.dw.com
+            - title: France24
+              url: www.france24.com
+            - title: BBC
+              url: https://www.bbc.com/news/explainers
+  utter_want_to_add_country:
+    - custom:
+      answers:
+        - type: text
+          text: Do you want data about a specific country?
+        - type: ssml
+          ssml: <speak>Do you want data about a specific country?</speak>
+        - type: multichoice
+          options:
+            - label: Yes
+              value: Yes
+            - label: No
+              value: No
+  utter_ask_which_country:
+    - custom:
+      answers:
+        - type: ssml
+          ssml: <speak>Please tell me which country.</speak>
+        - type: text
+          text: Please tell me which country.
+  utter_covid_no_country_current_statistics:
+    - custom:
+      answers:
+        - type: ssml
+          ssml: <speak>To stay up to date regarding the latest progress in the world, please visit the link provided below.</speak>
+        - type: html
+          text:
+            <p>To stay up to date regarding the latest progress in the world, please visit the link provided below.</p>
+        - type: links
+          links:
+            - title: COVID-19 Situação no Mundo
+              url: https://who.sprinklr.com/
+        - type: hints
+          options:
+            - label: Sobre COVID-19
+              value: Sobre a COVID-19
+            - label: Medidas preventivas
+              value: Medidas preventivas
+            - label: Transmissão
+              value: Transmissão
+            - label: Sintomas
+              value: Sintomas
+  utter_covid_situation:
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>At this point in {country} there is a total value 
+            of {total_cases} cases of which {active_cases} are still active 
+            with {total_infected_critical} in critical condition, 
+            {total_recovered} are fully recovered and {total_deaths} did not survive.
+            In the last update were identified {new_cases}
+            new cases and {new_deaths} new fatalities.</speak>
+        - type: text
+          text:
+            At this point in {country} there is a total value 
+            of {total_cases} cases of which {active_cases} are still active 
+            with {total_infected_critical} in critical condition, 
+            {total_recovered} are fully recovered and {total_deaths} did not survive.
+            \nIn the last update were identified {new_cases}
+            new cases and {new_deaths} new fatalities.
+  utter_covid_situation_deaths:
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>To date, there is a total value of {total_deaths}
+            deaths in {country}, with an increase of {new_deaths} 
+            new reported deaths since the last update.</speak>
+        - type: text
+          text: To date, there is a total value of {total_deaths}
+            deaths in {country}, with an increase of {new_deaths} 
+            new reported deaths since the last update.
+  utter_covid_situation_infected:
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>According to the latest available data, there is a total value 
+            of {active_cases} active cases in {country}.</speak>
+        - type: text
+          text: According to the latest available data, there is a total value 
+            of {active_cases} active cases in {country}.
+  utter_covid_situation_infected_critical:
+    - custom:
+      answers:
+        - type: ssml
+          ssml: <speak>According to the most recent update, there is a total number 
+            of {total_infected_critical} cases in criticial condition in {country}.</speak>
+        - type: text
+          text:
+            According to the most recent update, there is a total number 
+            of {total_infected_critical} cases in criticial condition in {country}.
+  utter_covid_situation_last_update:
+    - custom:
+        answers:
+          - type: ssml
+            ssml:
+              <speak>Up to now, there is a total value of {active_cases}
+              active cases in {country}, with an increase 
+              of {new_cases} new cases since the last update.</speak>
+          - type: text
+            text:
+              Up to now, there is a total value of {active_cases}
+              active cases in {country}, with an increase 
+              of {new_cases} new cases since the last update.
+    - custom:
+        answers:
+          - type: ssml
+            ssml:
+              <speak>Up to now, there is a total value of {active_cases}
+              active cases in {country}.</speak>
+          - type: text
+            text:
+              Up to now, there is a total value of {active_cases}
+              active cases in {country}.
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>At this point in {country} there is a total value 
+            of {total_cases} cases of which {active_cases} are still active 
+            with {total_infected_critical} in critical condition, 
+            {total_recovered} are fully recovered and {total_deaths} did not survive.
+            In the last update were identified {new_cases}
+            new cases and {new_deaths} new fatalities.</speak>
+        - type: text
+          text:
+            At this point in {country} there is a total value 
+            of {total_cases} cases of which {active_cases} are still active 
+            with {total_infected_critical} in critical condition, 
+            {total_recovered} are fully recovered and {total_deaths} did not survive.
+            \nIn the last update were identified {new_cases}
+            new cases and {new_deaths} new fatalities.
+  utter_covid_situation_recovered:
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>The latest available data indicates that, at the moment, 
+            in {country} there is a total value of {total_recovered} cases recovered.</speak>
+        - type: text
+          text:
+            The latest available data indicates that, at the moment, 
+            in {country} there is a total value of {total_recovered} cases recovered.
+  utter_covid_situation_tested:
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>The latest available data indicates that in {country},
+            {total_tests} tests were made since records began.</speak>
+        - type: text
+          text:
+            The latest available data indicates that in {country},
+            {total_tests} tests were made since records began.
+  utter_fallback_first:
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>I'm sorry but right now I don't have an answer to your question, 
+            but soon I'll be able to answer it. You can ask me information 
+            about preventive measures, symptoms associated with the disease or how the virus 
+            spreads. You can also visit the World Health Organization website to know more 
+            about Covid-19, clicking on the link</speak>
+        - type: text
+          text:
+            "I'm sorry but right now I don't have an answer to your question, 
+            but soon I'll be able to answer it. You can ask me information 
+            about preventive measures, symptoms associated with the disease or how the virus 
+            spreads. You can also visit the World Health Organization website to know more 
+            about Covid-19, clicking on the link:"
+        - type: links
+          links:
+            - title: Novel coronavirus (COVID-19)
+              url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+  utter_fallback_request_hasdata:
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>Making a search in the World Health Organization website, I found the following links</speak>
+        - type: text
+          text:
+            "Making a search in the World Health Organization website, I found the following links:"
+  utter_fallback_request_emptyanswer:
+    - custom:
+      answers:
+        - type: ssml
+          ssml: <speak>Maybe I don't have the information you are looking for. If you want, 
+            you can visit the World Health Organization to know more about the outbreak.</speak>
+        - type: text
+          text:
+            Maybe I don't have the information you are looking for. If you want, 
+            you can visit the World Health Organization to know more about the outbreak.
+        - type: links
+          links:
+            - title: Novel coronavirus (COVID-19)
+              url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+  utter_fallback_request_error:
+    - custom:
+      answers:
+        - type: ssml
+          ssml:
+            <speak>At this moment I don't have the requested information. If you want, 
+            you can visit the World Health Organization to know more about the outbreak.</speak>
+        - type: text
+          text:
+            At this moment I don't have the requested information. If you want, 
+            you can visit the World Health Organization to know more about the outbreak.
+        - type: links
+          links:
+            - title: Novel coronavirus (COVID-19)
+              url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+
+
+
+
   utter_test_caroussel:
     - custom:
         answers:
@@ -3147,9 +3477,6 @@ responses:
               - title: icon-violet-bg
                 thumbnailURL: icon-violet-bg.png
                 url: https://cosibot.org/wp-content/uploads/2020/05/icon-violet-bg.png
-  utter_anything_else:
-    - custom:
-        answers: []
   utter_test 2:
     - custom:
         answers:
@@ -3162,9 +3489,6 @@ responses:
           - type: text
             text: This is the second answer.
 
-  utter_covid_situation:
-    - custom:
-        answers: []
 
   utter_covid_schools:
     - custom:
@@ -3178,17 +3502,4 @@ responses:
               <p>I am unable to give you a concrete answer since each country has its
               own schedule regarding  the re-opening of schools.</p>
 
-            
-  utter_check_coutry_code:
-    - custom:
-        answers: []
 
-  utter_counters_request:
-    - custom:
-        answers: []
-  utter_news_request:
-    - custom:
-        answers: []
-  utter_who_global_request:
-    - custom:
-        answers: []

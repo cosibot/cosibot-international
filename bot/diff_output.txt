@@ -1,0 +1,128 @@
+ ____   ___  ____   ___           _    ___ 
+|  _ \ / _ \| __ ) / _ \         / \  |_ _|
+| |_) | | | |  _ \| | | |       / _ \  | | 
+|  _ <| |_| | |_) | |_| |  _   / ___ \ | | 
+|_| \_\\___/|____/ \___/  (_) /_/   \_\___|
+Bot Management Tool             robo-ai.com
+
+No language was provided. Will identify differences for                    all available language pairs inside provided bot folder.
+Starting diff comparison for the following bots: 
+['./languages/en_old', './languages/br', './languages/en']
+
+ ***   ***   ***
+
+Comparing en_old and br bots:
+ ------
+ -- The slots differ by:
+--- 
++++ 
+@@ -3,8 +3,14 @@
+ bot_name
+ bot_introduced
+ bot_version
+-bot_time
+-bot_date
++bot_time_acre
++bot_time_fnoronha
++bot_time_brasilia
++bot_time_amazonas
++bot_date_acre
++bot_date_fnoronha
++bot_date_brasilia
++bot_date_amazonas
+ language_slot
+ preferred_lang
+ country_code
+@@ -18,3 +24,4 @@
+ total_tests
+ total_infected_critical
+ search_successful
++virus
+ -- The responses differ by:
+ ------
+End of en_old                    and br bots comparison.
+ *** 
+
+Comparing en_old and en bots:
+ ------
+ -- The intents differ by:
+--- 
++++ 
+@@ -61,6 +61,7 @@
+ covid_preexisting_illness
+ covid_procedure_after_infection
+ covid_sars
++covid_schools
+ covid_sex
+ covid_situation
+ covid_situation_deaths
+ -- The slots differ by:
+--- 
++++ 
+@@ -18,3 +18,4 @@
+ total_tests
+ total_infected_critical
+ search_successful
++virus
+ -- The responses differ by:
+--- 
++++ 
+@@ -143,3 +143,6 @@
+ utter_fallback_request_hasdata
+ utter_fallback_request_emptyanswer
+ utter_fallback_request_error
++utter_test_caroussel
++utter_test 2
++utter_covid_schools
+ ------
+End of en_old                    and en bots comparison.
+ *** 
+
+Comparing br and en bots:
+ ------
+ -- The intents differ by:
+--- 
++++ 
+@@ -61,6 +61,7 @@
+ covid_preexisting_illness
+ covid_procedure_after_infection
+ covid_sars
++covid_schools
+ covid_sex
+ covid_situation
+ covid_situation_deaths
+ -- The slots differ by:
+--- 
++++ 
+@@ -3,14 +3,8 @@
+ bot_name
+ bot_introduced
+ bot_version
+-bot_time_acre
+-bot_time_fnoronha
+-bot_time_brasilia
+-bot_time_amazonas
+-bot_date_acre
+-bot_date_fnoronha
+-bot_date_brasilia
+-bot_date_amazonas
++bot_time
++bot_date
+ language_slot
+ preferred_lang
+ country_code
+ -- The responses differ by:
+--- 
++++ 
+@@ -143,3 +143,6 @@
+ utter_fallback_request_hasdata
+ utter_fallback_request_emptyanswer
+ utter_fallback_request_error
++utter_test_caroussel
++utter_test 2
++utter_covid_schools
+ ------
+End of br                    and en bots comparison.
+ *** 
+
+*** Difference comparison succeded! ***

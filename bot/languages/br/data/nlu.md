@@ -1568,7 +1568,7 @@
 - Se o dinheiro não pode comprar a felicidade, você pode ser verdadeiramente feliz sem dinheiro?
 - Se o universo é finito, o que estaria além do limite do universo?
 - Se fosse imortal e NUNCA fosse capaz de morrer ou se matar, escolheria a imortalidade?
-- Uma família ainda é relevante no[Mundo]moderno [world_region:World)?
+- Uma família ainda é relevante no[Mundo]moderno {"entity": "world_region", "value": "World"}?
 - O senso de humor é um subproduto da consciência?
 - O erro pode ser considerado um ato errado se ninguém nunca souber disso?
 - A beleza é objetiva ou subjetiva?
@@ -2295,9 +2295,9 @@
 ## intent:covid_current_statistics
 - [Yakutsk]{"entity": "geography", "value": "town"} news.
 - [Neunburg Vorm Wald]{"entity": "geography", "value": "town"} situation
-- [COVID]{"entity": "virus", "value": "COVID"} em [Azərbaycan]{"entity": "geography", "value": "country"}
+- [COVID]{"entity": "virus", "value": "COVID"} em [Azərbaycan]{"entity": "geography", "value": "AZ"}
 - [COVID-19]{"entity": "virus", "value": "COVID"} em [Gdynia]{"entity": "geography", "value": "town"}
-- Coronavirus in [Egypt]{"entity": "country_code", "value": "EG"}
+- Coronavirus no [Egypt]{"entity": "country_code", "value": "EG"}
 - Notícias atuais [Catalão]{"entity": "geography", "value": "languages"}
 - Situação atual em [Malta]{"entity": "country_code", "value": "MT"}
 - Como esta a situação em [Dudley]{"entity": "geography", "value": "town"}?
@@ -2473,7 +2473,7 @@
 - E quanto ao novo COVID-19
 - O que é essa doença?
 - O que é este vírus?
-- O que é o [COVID-19?
+- O que é o [COVID-19]{"entity": "virus", "value": "COVID"}?
 
 ## intent:covid_meaning
 - O que significa o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
@@ -2780,7 +2780,7 @@
 - Situação atualizada do Coronavirus
 - Estatísticas atualizadas do Coronavirus
 - Números atualizados do Coronavírus
-- Quais são os números no Mundo]{"entity": "world_region", "value": "World"}?
+- Quais são os números no [Mundo]{"entity": "world_region", "value": "World"}?
 - Quantas são as contagens no [Mundo]{"entity": "world_region", "value": "World"}?
 - Quantos casos foram registrados em [Ilhas das Especiarias]{"entity": "country_code", "value": "GD"} até agora?
 - Quantos casos existem no [Mundo]{"entity": "world_region", "value": "World"}
@@ -3016,7 +3016,7 @@
 - Quantos testados em [região da Oceania]{"entity": "world_region", "value": "Oceania"}
 - Número total de testes em [continente americano]{"entity": "world_region", "value": "America"}?
 - [Lesoto]{"entity": "country_code", "value": "LS"} testado.
-- República da Costa do Marfim]{"entity": "country_code", "value": "CI"} testes.
+- [República da Costa do Marfim]{"entity": "country_code", "value": "CI"} testes.
 - Quantos em [Serra Leoa]{"entity": "country_code", "value": "SL"} foram testados?
 - Quantas pessoas em [Tonga]{"entity": "country_code", "value": "TO"} foram testadas?
 - Quantas pessoas foram testadas no [Uruguai]{"entity": "country_code", "value": "UY"}?
@@ -4558,7 +4558,7 @@
 - Papel higiênico
 - Por que tantas pessoas compram papel higiênico agora?
 
-## intent:quarantine_whwho_howlong
+## intent:quarantine_when_who_howlong
 - Se eu fizer quarentena.
 - Quando preciso fazer quarentena?
 - Quem precisa fazer quarentena?
