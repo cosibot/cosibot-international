@@ -10,6 +10,9 @@ slots:
   bot_name:
     type: text
     initial_value: Helena
+  bot_location:
+    type: text
+    initial_value: br
   bot_introduced:
     type: bool
     initial_value: false
