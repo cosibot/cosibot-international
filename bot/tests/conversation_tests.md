@@ -491,9 +491,11 @@
 * user_no_data: Unfortunately I have no personal data with me.
   - utter_user_no_data
 
+<!--
 ## user_no_further_questions
 * user_no_further_questions: Não, de momento vou-me atualizando
   - utter_user_no_further_questions
+-->
 
 ## user_particles
 * user_particles: That's okay. You're still learning. And I'm here to train you.

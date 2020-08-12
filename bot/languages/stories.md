@@ -1308,3 +1308,21 @@ TESTED
     - slot{"new_deaths": 836}
     - slot{"total_infected_critical": 378}
     - utter_covid_situation_infected
+
+## current_statistics_pmigracao
+* covid_situation
+    - utter_want_to_add_country
+* covid_current_statistics{"country_code": "PT"}
+    - slot{"country_code": "PT"}
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "Portugal"}
+    - slot{"active_cases": 12424}
+    - slot{"new_cases": 0}
+    - slot{"total_cases": 52945}
+    - slot{"total_recovered": 38760}
+    - slot{"total_deaths": 1761}
+    - slot{"total_tests": 1753524}
+    - slot{"new_deaths": 0}
+    - slot{"total_infected_critical": 29}
+    - utter_covid_situation
