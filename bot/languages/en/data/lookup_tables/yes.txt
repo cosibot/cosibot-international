@@ -1,4 +1,0 @@
-follow
-select
-afirmative
-yes
