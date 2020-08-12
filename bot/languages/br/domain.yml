@@ -93,8 +93,6 @@ actions:
 - action_change_preferred_language
 - action_search_stats
 - action_check_Bot_Introduced
-- utter_ask_country
-- utter_ask_country_yes
 - utter_bot_appearance
 - utter_bot_availability
 - utter_bot_books
@@ -1311,13 +1309,6 @@ responses:
         ssml: <speak>Com certeza! O que eu posso fazer por você?</speak>
       - type: text
         text: Com certeza! O que eu posso fazer por você?
-  utter_ask_country_yes:
-  - custom:
-      answers:
-      - type: ssml
-        ssml: <speak>Por favor me diga qual país.</speak>
-      - type: text
-        text: Por favor, me diga qual país.
   utter_features_time:
   - custom:
       answers:

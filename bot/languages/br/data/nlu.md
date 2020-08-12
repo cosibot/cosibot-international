@@ -3520,7 +3520,7 @@
 - Olá, cara
 - Oi Ellen
 
-## intent:greeting_how_how_are_you
+## intent:greeting_how_are_you
 - Você está bem?
 - Você está indo bem?
 - Você está passando bem?

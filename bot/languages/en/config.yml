@@ -35,7 +35,7 @@ policies:
     epochs: 100
   - name: MappingPolicy
   - name: "FallbackPolicy"
-    nlu_threshold: 0.55
+    nlu_threshold: 0.5
     core_threshold: 0.3
     fallback_action_name: "action_default_fallback"
   #- name: language_detection.lang_change_policy.LangChangePolicy
