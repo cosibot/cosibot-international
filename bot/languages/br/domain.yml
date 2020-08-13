@@ -177,7 +177,7 @@ actions:
 - utter_myth_thermal_scanner
 - utter_myth_transmission_hot_areas
 - utter_myth_uv_lamps
-- utter_myths_conspiracy_fakenews
+- utter_myth_conspiracy_fakenews
 - utter_prevenion_medical_attention
 - utter_prevention_clean_hands
 - utter_prevention_disinfection
@@ -324,12 +324,23 @@ intents:
 - mask_general
 - mask_use_after
 - mask_use_put
+- mask_visors
 - myth_alcohol
 - myth_cold_weather
 - myth_hot_bath
 - myth_packages
 - myth_transmission_hot_areas
-- myths_conspiracy_fakenews
+- myth_conspiracy_fakenews
+- myth_influenza
+- myth_air_conditioning
+- myth_5G
+- myth_hand_dryer
+- myth_uv_lamps
+- myth_thermal_scanner
+- myth_antibiotics
+- myth_pneumonia_vaccine
+- myth_saline
+- myth_sesame_oil
 - prevention_clean_hands
 - prevention_disinfection
 - prevention_distance
@@ -376,18 +387,6 @@ intents:
 - vocative_thank_you
 - vocative_yes
 - vocative_you_welcome
-- myth_influenza
-- myth_air_conditioning
-- myth_5G
-- hand_dryer
-- uv_lamp
-- thermal_scanner
-- antibiotics
-- pneumonia_vaccine
-- saline
-- garlic
-- sesame_oil
-- visors
 - bot_change_bot
 
 responses:
@@ -2418,7 +2417,7 @@ responses:
           value: Transmissão
         - label: Situação Mundial
           value: Situação Mundial
-  utter_myths_conspiracy_fakenews:
+  utter_myth_conspiracy_fakenews:
   - custom:
       answers:
       - type: ssml

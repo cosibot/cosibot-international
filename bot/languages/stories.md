@@ -260,7 +260,7 @@ COVID-19 Prevention
 <!------------------ 
 Myths
 ------------------->
-## air_conditioning
+## myth_air_conditioning
 * myth_air_conditioning{"air_conditioning": "AC"}
   - utter_myth_air_conditioning
 
@@ -268,40 +268,40 @@ Myths
 * myth_5G{"5G": "5G"}
     - utter_myth_5g
 
-## hand_dryer
-* hand_dryer{"hand_dryer": "hand dryers"}
+## myth_hand_dryer
+* myth_hand_dryer{"hand_dryer": "hand dryers"}
     - utter_myth_hand_dryer
 
-## uv_lamp
-* uv_lamp{"uv_lamp": "uv lamps"}
+## myth_uv_lamps
+* myth_uv_lamps{"uv_lamp": "uv lamps"}
     - utter_myth_uv_lamps
 
-## thermal_scanner
-* thermal_scanner{"thermal_scanner": "thermal scanner"}
+## myth_thermal_scanner
+* myth_thermal_scanner{"thermal_scanner": "thermal scanner"}
   - utter_myth_thermal_scanner
 
-## antibiotics
-* antibiotics{"antibiotics": "antibiotics"}
+## myth_antibiotics
+* myth_antibiotics{"antibiotics": "antibiotics"}
   - utter_myth_antibiotics
 
 ## myth_alcohol
 * myth_alcohol
   - utter_myth_alcohol
 
-## pneumonia_vaccine
-* pneumonia_vaccine{"pneumonia_vaccine": "pneumonia vaccine"}
+## myth_pneumonia_vaccine
+* myth_pneumonia_vaccine{"pneumonia_vaccine": "pneumonia vaccine"}
   - utter_myth_pneumonia_vaccine
 
-## saline
-* saline{"saline": "saline solution"}
+## myth_saline
+* myth_saline{"saline": "saline solution"}
   - utter_myth_saline
 
-## garlic
-* garlic{"garlic": "garlic"}
+## myth_garlic
+* myth_garlic{"garlic": "garlic"}
   - utter_myth_garlic
 
-## sesame_oil
-* sesame_oil{"sesame_oil": "sesame oil"}
+## myth_sesame_oil
+* myth_sesame_oil{"sesame_oil": "sesame oil"}
   - utter_myth_sesame_oil
 
 ## myth_packages
@@ -320,9 +320,9 @@ Myths
 * myth_hot_bath
   - utter_myth_hot_bath
 
-## myths_conspiracy_fakenews
-* myths_conspiracy_fakenews
-  - utter_myths_conspiracy_fakenews
+## myth_conspiracy_fakenews
+* myth_conspiracy_fakenews
+  - utter_myth_conspiracy_fakenews
 
 
 
@@ -411,8 +411,8 @@ Medical Masks
 * mask_use_after
   - utter_mask_use_after
 
-## visors
-* visors{"visors":"visors"}
+## mask_visors
+* mask_visors{"visors":"visors"}
   - utter_mask_visors
 
 

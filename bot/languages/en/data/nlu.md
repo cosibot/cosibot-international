@@ -4910,6 +4910,8 @@
 
 - Garlic prevents
 - eating garlic will protect me against the virus?
+- [garlic](garlic)
+- [garlics](garlic)
 
 ## intent:myth_packages
 
@@ -5015,7 +5017,7 @@
 - the disease-19 transmission in hot and humid areas.
 - the disease-19 transmission in hot areas.
 
-## intent:myths_conspiracy_fakenews
+## intent:myth_conspiracy_fakenews
 
 - And are the myths associated with the virus?
 - But covid ain't real is it
@@ -7337,106 +7339,68 @@
 
 ## intent:myth_influenza
 
-[influenza](influenza)
-[flu](influenza)
-[grippe](influenza)
-[gripe](influenza)
+- [influenza](influenza)
+- [flu](influenza)
 
 ## intent:myth_air_conditioning
 
-[air conditioner](air_conditioning)
-[air conditioning](air_conditioning)
-[AC](air_conditioning)
-[A/C](air_conditioning)
-[air con](air_conditioning)
-[ar condicionado](air_conditioning)
+- [air conditioner](air_conditioning)
+- [air conditioning](air_conditioning)
+- [AC](air_conditioning)
+- [A/C](air_conditioning)
+- [air con](air_conditioning)
 
 ## intent:myth_5G
 
-[5G](5G)
-[five G](5G)
-[5 G](5G)
-[cinco G](5G)
+- [5G](5G)
+- [five G](5G)
+- [5 G](5G)
 
-## intent:hand_dryer
+## intent:myth_hand_dryer
 
-[hand dryer](hand_dryer)
-[hand dryers](hand_dryer)
-[secador de mãos](hand_dryer)
-[secadores de mãos](hand_dryer)
+- [hand dryer](hand_dryer)
+- [hand dryers](hand_dryer)
 
-## intent:uv_lamp
+## intent:myth_uv_lamps
 
-[uv lamps](uv_lamp)
-[ultraviolet disinfection lamp](uv_lamp)
-[ultraviolet disinfection lamps](uv_lamp)
-[ultraviolet lamp](uv_lamp)
-[ultraviolet lamps](uv_lamp)
-[lâmpadas ultravioletas](uv_lamp)
-[lâmpada ultravioleta](uv_lamp)
-[lâmpadas ultra-violetas](uv_lamp)
-[lâmpada ultra-violeta](uv_lamp)
-[lâmpadas uv](uv_lamp)
-[lâmpada uv](uv_lamp)
+- [uv lamps](uv_lamp)
+- [ultraviolet disinfection lamp](uv_lamp)
+- [ultraviolet disinfection lamps](uv_lamp)
+- [ultraviolet lamp](uv_lamp)
+- [ultraviolet lamps](uv_lamp)
 
-## intent:thermal_scanner
+## intent:myth_thermal_scanner
 
-[thermal scanner](thermal_scanner)
-[thermal scanners](thermal_scanner)
-[scanner térmico](thermal_scanner)
-[termometro](thermal_scanner)
-[scanners térmicos](thermal_scanner)
-[termometros](thermal_scanner)
-[termômetros infravermelhos](thermal_scanner)
-[termômetro infravermelhos](thermal_scanner)
+- [thermal scanner](thermal_scanner)
+- [thermal scanners](thermal_scanner)
 
-## intent:antibiotics
+## intent:myth_antibiotics
 
-[antibiotics](antibiotics)
-[antibiotic](antibiotics)
-[antibioticos](antibiotics)
-[antibiotico](antibiotics)
+- [antibiotics](antibiotics)
+- [antibiotic](antibiotics)
 
-## intent:pneumonia_vaccine
+## intent:myth_pneumonia_vaccine
 
-[pneumonia vaccine](pneumonia_vaccine)
-[pneumonia vaccines](pneumonia_vaccine)
-[vacina para pneumonia](pneumonia_vaccine)
-[vacinas para pneumonia](pneumonia_vaccine)
-[vacina pneumonia](pneumonia_vaccine)
-[vacinas pneumonia](pneumonia_vaccine)
-[vacina da pneumonia](pneumonia_vaccine)
-[vacinas da pneumonia](pneumonia_vaccine)
+- [pneumonia vaccine](pneumonia_vaccine)
+- [pneumonia vaccines](pneumonia_vaccine)
 
-## intent:saline
+## intent:myth_saline
 
-[saline](saline)
-[saline solution](saline)
-[salina](saline)
-[solução salina](saline)
+- [saline](saline)
+- [saline solution](saline)
 
-## intent:garlic
+## intent:myth_sesame_oil
 
-[garlic](garlic)
-[garlics](garlic)
-[alho](garlic)
-[alhos](garlic)
+- [sesame oil](sesame_oil)
+- [sesame](sesame_oil)
+- [oleo de sessamo](sesame_oil)
+- [sessamo](sesame_oil)
 
-## intent:sesame_oil
+## intent:mask_visors
 
-[sesame oil](sesame_oil)
-[sesame](sesame_oil)
-[oleo de sessamo](sesame_oil)
-[sessamo](sesame_oil)
-
-## intent:visors
-
-[visors](visors)
-[Acrylic visors](visors)
-[protection visors](visors)
-[viseiras](visors)
-[Viseiras em acrilico](visors)
-[viseiras de proteção](visors)
+- [visors](visors)
+- [Acrylic visors](visors)
+- [protection visors](visors)
 
 ## intent:country
 

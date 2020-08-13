@@ -177,7 +177,8 @@ actions:
   - utter_myth_thermal_scanner
   - utter_myth_transmission_hot_areas
   - utter_myth_uv_lamps
-  - utter_myths_conspiracy_fakenews
+  - utter_myth_conspiracy_fakenews
+  - utter_myth_mosquitoes
   - utter_prevenion_medical_attention
   - utter_prevention_clean_hands
   - utter_prevention_disinfection
@@ -327,6 +328,7 @@ intents:
   - mask_general
   - mask_use_after
   - mask_use_put
+  - mask_visors
   - myth_alcohol
   - myth_cold_weather
   - myth_garlic
@@ -334,7 +336,17 @@ intents:
   - myth_mosquitoes
   - myth_packages
   - myth_transmission_hot_areas
-  - myths_conspiracy_fakenews
+  - myth_conspiracy_fakenews
+  - myth_influenza
+  - myth_air_conditioning
+  - myth_5G
+  - myth_sesame_oil
+  - myth_hand_dryer
+  - myth_uv_lamps
+  - myth_thermal_scanner
+  - myth_antibiotics
+  - myth_pneumonia_vaccine
+  - myth_saline
   - prevention_clean_hands
   - prevention_disinfection
   - prevention_distance
@@ -382,18 +394,6 @@ intents:
   - vocative_thank_you
   - vocative_yes
   - vocative_you_welcome
-  - myth_influenza
-  - myth_air_conditioning
-  - myth_5G
-  - hand_dryer
-  - uv_lamp
-  - thermal_scanner
-  - antibiotics
-  - pneumonia_vaccine
-  - saline
-  - garlic
-  - sesame_oil
-  - visors
   - bot_change_bot
 
 responses:
@@ -2789,7 +2789,7 @@ responses:
                 value: Transmission
               - label: World Situation
                 value: World Situation
-  utter_myths_conspiracy_fakenews:
+  utter_myth_conspiracy_fakenews:
     - custom:
         answers:
           - type: ssml
@@ -2866,6 +2866,37 @@ responses:
               spreading in many countries that do not have 5G mobile networks.<a
               href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
               target='_blank'>(1)</a></p>
+  utter_myth_mosquitoes:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>To date there has been no information nor evidence to suggest that
+              the new coronavirus could be transmitted by mosquitoes. The new
+              coronavirus is a respiratory virus which spreads primarily through
+              droplets generated when an infected person coughs or sneezes, or
+              through droplets of saliva or discharge from the nose. To protect
+              yourself, clean your hands frequently with an alcohol-based hand
+              rub or wash them with soap and water. Also, avoid close contact
+              with anyone who is coughing and sneezing.</speak>
+          - type: html
+            text: <p>To date there has been no information nor evidence to suggest that the
+              new coronavirus could be transmitted by mosquitoes. The new
+              coronavirus is a respiratory virus which spreads primarily through
+              droplets generated when an infected person coughs or sneezes, or
+              through droplets of saliva or discharge from the nose. To protect
+              yourself, clean your hands frequently with an alcohol-based hand
+              rub or wash them with soap and water. Also, avoid close contact
+              with anyone who is coughing and sneezing.<a
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#mosquito-bites'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: World Situation
+                value: World Situation
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: About COVID-19
+                value: About COVID-19
   utter_myth_antibiotics:
     - custom:
         answers:
