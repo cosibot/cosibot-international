@@ -122,6 +122,7 @@
 ## cc_newspaper
 * cc_newspaper: Tell me the news
   - utter_cc_newspaper
+  - action_get_news_request
 
 ## cc_philosophical
 * cc_philosophical: Are we obligated to help others?
@@ -181,7 +182,7 @@
 
 ## covid_current_statistics
 * covid_current_statistics: What can you tell me about the most recent news?
-  - utter_covid_current_statistics
+  - action_get_news_request
 
 ## covid_dangerous
 * covid_dangerous: How contagious is this novel corona virus?
@@ -299,10 +300,12 @@
 
 ## features_date
 * features_date: Can you tell me which is the date?
+  - action_get_date
   - utter_features_date
 
 ## features_time
 * features_time: Tell me the time.
+  - action_get_time
   - utter_features_time
 
 ## greeting_goodbye
@@ -536,6 +539,7 @@
 ## vocative_thank_you
 * vocative_thank_you: thanks, Helen!
   - utter_vocative_thank_you
+  - utter_further_questions
 
 ## vocative_yes
 * vocative_yes: Okey-dokey.

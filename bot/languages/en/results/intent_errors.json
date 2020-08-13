@@ -1,10 +1,10 @@
 [
   {
-    "text": "Are you talking to me?",
-    "intent": "bot_capabilities",
+    "text": "/get started",
+    "intent": "start",
     "intent_prediction": {
-      "name": "vocative_call",
-      "confidence": 0.5960571765899658
+      "name": "greeting_hello",
+      "confidence": 0.5962538123130798
     }
   },
   {
@@ -12,7 +12,7 @@
     "intent": "bot_capabilities",
     "intent_prediction": {
       "name": "vocative_help",
-      "confidence": 0.9891829490661621
+      "confidence": 0.8514745235443115
     }
   },
   {
@@ -20,7 +20,7 @@
     "intent": "bot_capabilities",
     "intent_prediction": {
       "name": "vocative_call",
-      "confidence": 0.6796762943267822
+      "confidence": 0.666702389717102
     }
   },
   {
@@ -28,7 +28,7 @@
     "intent": "bot_capabilities",
     "intent_prediction": {
       "name": "vocative_call",
-      "confidence": 0.8398543000221252
+      "confidence": 0.6457357406616211
     }
   },
   {
@@ -36,39 +36,31 @@
     "intent": "bot_capabilities",
     "intent_prediction": {
       "name": "cc_lets_talk",
-      "confidence": 0.8692746758460999
+      "confidence": 0.9473322629928589
     }
   },
   {
-    "text": "Do you want to help me",
+    "text": "tell me about yourself",
     "intent": "bot_capabilities",
     "intent_prediction": {
-      "name": "vocative_help",
-      "confidence": 0.9581535458564758
+      "name": "bot_personality",
+      "confidence": 0.5213608741760254
     }
   },
   {
-    "text": "Do you like to sing?",
-    "intent": "bot_music",
+    "text": "What is your home town?",
+    "intent": "bot_origin",
     "intent_prediction": {
-      "name": "bot_sing",
-      "confidence": 0.9401425719261169
+      "name": "bot_residence",
+      "confidence": 0.5019912719726562
     }
   },
   {
-    "text": "What I am talking to?",
-    "intent": "bot_name",
+    "text": "Do u have clothes on?",
+    "intent": "bot_personal_questions",
     "intent_prediction": {
-      "name": "bot_capabilities",
-      "confidence": 0.9683951139450073
-    }
-  },
-  {
-    "text": "What is your surname?",
-    "intent": "bot_name",
-    "intent_prediction": {
-      "name": "bot_personal_questions",
-      "confidence": 0.5950086116790771
+      "name": "bot_sexual",
+      "confidence": 0.461365282535553
     }
   },
   {
@@ -76,7 +68,7 @@
     "intent": "bot_personal_questions",
     "intent_prediction": {
       "name": "bot_residence",
-      "confidence": 0.8419231176376343
+      "confidence": 0.611729085445404
     }
   },
   {
@@ -84,47 +76,31 @@
     "intent": "bot_personal_questions",
     "intent_prediction": {
       "name": "bot_residence",
-      "confidence": 0.8608608245849609
+      "confidence": 0.9527127742767334
     }
   },
   {
-    "text": "Send me a photo your",
+    "text": "What your surname",
     "intent": "bot_personal_questions",
     "intent_prediction": {
-      "name": "bot_appearance",
-      "confidence": 0.9719006419181824
+      "name": "bot_name",
+      "confidence": 0.8976903557777405
     }
   },
   {
-    "text": "What do you look like naked",
-    "intent": "bot_personal_questions",
-    "intent_prediction": {
-      "name": "bot_sexual",
-      "confidence": 0.5341442823410034
-    }
-  },
-  {
-    "text": "What do you think about online dating?",
-    "intent": "bot_personal_questions",
-    "intent_prediction": {
-      "name": "user_love",
-      "confidence": 0.7997773885726929
-    }
-  },
-  {
-    "text": "Where have you been?",
-    "intent": "bot_personal_questions",
-    "intent_prediction": {
-      "name": "bot_residence",
-      "confidence": 0.8777621984481812
-    }
-  },
-  {
-    "text": "Tell me something about yourself.",
+    "text": "Are you smart?",
     "intent": "bot_personality",
     "intent_prediction": {
-      "name": "bot_capabilities",
-      "confidence": 0.835192859172821
+      "name": "comment_smart",
+      "confidence": 0.8846218585968018
+    }
+  },
+  {
+    "text": "Are you very nice?",
+    "intent": "bot_personality",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.779583752155304
     }
   },
   {
@@ -132,15 +108,15 @@
     "intent": "bot_residence",
     "intent_prediction": {
       "name": "bot_origin",
-      "confidence": 0.6857859492301941
+      "confidence": 0.6563460230827332
     }
   },
   {
-    "text": "What is your home town?",
+    "text": "Where have you been?",
     "intent": "bot_residence",
     "intent_prediction": {
-      "name": "bot_origin",
-      "confidence": 0.7213962078094482
+      "name": "bot_personal_questions",
+      "confidence": 0.8291478753089905
     }
   },
   {
@@ -148,7 +124,15 @@
     "intent": "bot_sexual",
     "intent_prediction": {
       "name": "bot_personal_questions",
-      "confidence": 0.7935105562210083
+      "confidence": 0.7861209511756897
+    }
+  },
+  {
+    "text": "I want to make love with you.",
+    "intent": "bot_sexual",
+    "intent_prediction": {
+      "name": "user_love",
+      "confidence": 0.4967798590660095
     }
   },
   {
@@ -156,7 +140,7 @@
     "intent": "bot_sexual",
     "intent_prediction": {
       "name": "bot_personal_questions",
-      "confidence": 0.7859863042831421
+      "confidence": 0.7340679168701172
     }
   },
   {
@@ -164,15 +148,7 @@
     "intent": "bot_sing",
     "intent_prediction": {
       "name": "bot_personal_questions",
-      "confidence": 0.9577701687812805
-    }
-  },
-  {
-    "text": "What are numbers?",
-    "intent": "cc_philosophical",
-    "intent_prediction": {
-      "name": "covid_situation",
-      "confidence": 0.747068464756012
+      "confidence": 0.9644805788993835
     }
   },
   {
@@ -180,7 +156,7 @@
     "intent": "cc_philosophical",
     "intent_prediction": {
       "name": "user_love",
-      "confidence": 0.7944927215576172
+      "confidence": 0.5584390759468079
     }
   },
   {
@@ -188,63 +164,47 @@
     "intent": "cc_philosophical",
     "intent_prediction": {
       "name": "features_time",
-      "confidence": 0.9830647706985474
+      "confidence": 0.9226871132850647
     }
   },
   {
-    "text": "To answer my question",
+    "text": "Who am I?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "bot_name",
+      "confidence": 0.6771812438964844
+    }
+  },
+  {
+    "text": "NO, I WANT TO KNOW HOW YOU WERE MADE",
     "intent": "comment_negative",
     "intent_prediction": {
-      "name": "vocative_help",
-      "confidence": 0.688472330570221
+      "name": "bot_origin",
+      "confidence": 0.9609256386756897
     }
   },
   {
-    "text": "What are you talking about",
+    "text": "You know nothing.",
     "intent": "comment_negative",
     "intent_prediction": {
-      "name": "bot_capabilities",
-      "confidence": 0.46616876125335693
+      "name": "vocative_you_welcome",
+      "confidence": 0.5123889446258545
     }
   },
   {
-    "text": "You are wrong.",
+    "text": "you are really slow",
     "intent": "comment_negative",
     "intent_prediction": {
       "name": "comment_offense",
-      "confidence": 0.8424655199050903
+      "confidence": 0.7292476892471313
     }
   },
   {
-    "text": "Great answer.",
-    "intent": "comment_positive",
+    "text": "What is wrong with you?",
+    "intent": "comment_offense",
     "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.9134693741798401
-    }
-  },
-  {
-    "text": "Great job.",
-    "intent": "comment_positive",
-    "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.858835756778717
-    }
-  },
-  {
-    "text": "Great talking.",
-    "intent": "comment_positive",
-    "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.878410279750824
-    }
-  },
-  {
-    "text": "Great!",
-    "intent": "comment_positive",
-    "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.9069015383720398
+      "name": "comment_negative",
+      "confidence": 0.6133362650871277
     }
   },
   {
@@ -252,39 +212,7 @@
     "intent": "comment_positive",
     "intent_prediction": {
       "name": "vocative_thank_you",
-      "confidence": 0.665850818157196
-    }
-  },
-  {
-    "text": "Nice talk!",
-    "intent": "comment_positive",
-    "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.7113156318664551
-    }
-  },
-  {
-    "text": "Thanks for helping me through my life.",
-    "intent": "comment_positive",
-    "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.8761551976203918
-    }
-  },
-  {
-    "text": "That's amazing!",
-    "intent": "comment_positive",
-    "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.7502516508102417
-    }
-  },
-  {
-    "text": "Wow thats great",
-    "intent": "comment_positive",
-    "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.753496527671814
+      "confidence": 0.7016782164573669
     }
   },
   {
@@ -292,7 +220,7 @@
     "intent": "comment_positive",
     "intent_prediction": {
       "name": "vocative_thank_you",
-      "confidence": 0.9545722007751465
+      "confidence": 0.50282883644104
     }
   },
   {
@@ -300,31 +228,23 @@
     "intent": "comment_positive",
     "intent_prediction": {
       "name": "comment_smart",
-      "confidence": 0.9726281762123108
+      "confidence": 0.9920706748962402
     }
   },
   {
-    "text": "You did a great job!",
+    "text": "You helped me a lot",
     "intent": "comment_positive",
     "intent_prediction": {
       "name": "vocative_thank_you",
-      "confidence": 0.6930169463157654
+      "confidence": 0.5686256289482117
     }
   },
   {
-    "text": "You helped me thanks!",
+    "text": "You really helped me a lot!",
     "intent": "comment_positive",
     "intent_prediction": {
       "name": "vocative_thank_you",
-      "confidence": 0.6744544506072998
-    }
-  },
-  {
-    "text": "You saved my life!",
-    "intent": "comment_positive",
-    "intent_prediction": {
-      "name": "vocative_thank_you",
-      "confidence": 0.7954444289207458
+      "confidence": 0.635631799697876
     }
   },
   {
@@ -332,23 +252,15 @@
     "intent": "comment_positive",
     "intent_prediction": {
       "name": "comment_smart",
-      "confidence": 0.648919939994812
+      "confidence": 0.9926018118858337
     }
   },
   {
-    "text": "You are not American.",
-    "intent": "comment_racist",
+    "text": "You are doing well.",
+    "intent": "comment_smart",
     "intent_prediction": {
-      "name": "cc_geography",
-      "confidence": 0.9586248993873596
-    }
-  },
-  {
-    "text": "You bimbo.",
-    "intent": "comment_racist",
-    "intent_prediction": {
-      "name": "comment_offense",
-      "confidence": 0.6967670321464539
+      "name": "greeting_how_are_you",
+      "confidence": 0.9257288575172424
     }
   },
   {
@@ -356,71 +268,23 @@
     "intent": "covid_crisis_howlong",
     "intent_prediction": {
       "name": "spread_general",
-      "confidence": 0.5869234204292297
-    }
-  },
-  {
-    "text": "How contagious is this novel corona virus?",
-    "intent": "covid_dangerous",
-    "intent_prediction": {
-      "name": "spread_risk",
-      "confidence": 0.8375705480575562
-    }
-  },
-  {
-    "text": "How contagious is this novel coronavirus?",
-    "intent": "covid_dangerous",
-    "intent_prediction": {
-      "name": "spread_risk",
-      "confidence": 0.828736424446106
-    }
-  },
-  {
-    "text": "How contagious?",
-    "intent": "covid_dangerous",
-    "intent_prediction": {
-      "name": "spread_risk",
-      "confidence": 0.9694899916648865
-    }
-  },
-  {
-    "text": "Covid origin",
-    "intent": "covid_duration",
-    "intent_prediction": {
-      "name": "covid_origins",
-      "confidence": 0.535904049873352
-    }
-  },
-  {
-    "text": "For how long will I be sick?",
-    "intent": "covid_duration",
-    "intent_prediction": {
-      "name": "covid_crisis_howlong",
-      "confidence": 0.49517086148262024
-    }
-  },
-  {
-    "text": "Where did the disease start?",
-    "intent": "covid_duration",
-    "intent_prediction": {
-      "name": "covid_info",
-      "confidence": 0.5515419244766235
-    }
-  },
-  {
-    "text": "Is Corona virus real",
-    "intent": "covid_info",
-    "intent_prediction": {
-      "name": "covid_origins",
-      "confidence": 0.8911235928535461
+      "confidence": 0.82209712266922
     }
   },
   {
     "text": "What is the origin of the outbreak?",
+    "intent": "covid_duration",
+    "intent_prediction": {
+      "name": "covid_info",
+      "confidence": 0.5535801649093628
+    }
+  },
+  {
+    "text": "I think covid-19 is fake",
     "intent": "covid_info",
     "intent_prediction": {
-      "name": "covid_duration",
-      "confidence": 0.7174478769302368
+      "name": "myths_conspiracy_fakenews",
+      "confidence": 0.6255972981452942
     }
   },
   {
@@ -428,23 +292,23 @@
     "intent": "covid_info",
     "intent_prediction": {
       "name": "coronavirus_info",
-      "confidence": 0.8889337182044983
+      "confidence": 0.8354890942573547
     }
   },
   {
     "text": "covid origin",
     "intent": "covid_info",
     "intent_prediction": {
-      "name": "covid_origins",
-      "confidence": 0.43962347507476807
+      "name": "covid_duration",
+      "confidence": 0.7691743969917297
     }
   },
   {
-    "text": "How were the virus begin",
-    "intent": "covid_origins",
+    "text": "what's the corona virus",
+    "intent": "covid_info",
     "intent_prediction": {
-      "name": "cc_philosophical",
-      "confidence": 0.7470675110816956
+      "name": "coronavirus_info",
+      "confidence": 0.8388320207595825
     }
   },
   {
@@ -452,31 +316,31 @@
     "intent": "covid_origins",
     "intent_prediction": {
       "name": "covid_info",
-      "confidence": 0.9088833928108215
+      "confidence": 0.9728082418441772
     }
   },
   {
-    "text": "Tell me how did this thing started",
+    "text": "What caused it",
     "intent": "covid_origins",
     "intent_prediction": {
       "name": "covid_info",
-      "confidence": 0.5959888696670532
+      "confidence": 0.993854284286499
     }
   },
   {
-    "text": "Where did Corona started",
-    "intent": "covid_origins",
+    "text": "What are the measures that can be taken to prevent the spread of the virus in",
+    "intent": "covid_schools",
     "intent_prediction": {
-      "name": "covid_info",
-      "confidence": 0.5938864350318909
+      "name": "prevention_general",
+      "confidence": 0.7106305956840515
     }
   },
   {
-    "text": "Last update on infected in Swaziland.",
-    "intent": "covid_situation_last_update",
+    "text": "How many cases in",
+    "intent": "covid_situation_infected",
     "intent_prediction": {
-      "name": "country",
-      "confidence": 0.68132084608078
+      "name": "covid_situation",
+      "confidence": 0.5486664175987244
     }
   },
   {
@@ -484,63 +348,15 @@
     "intent": "covid_symptoms",
     "intent_prediction": {
       "name": "prevention_medical_attention",
-      "confidence": 0.5338415503501892
+      "confidence": 0.8640642762184143
     }
   },
   {
-    "text": "how can I test myself",
-    "intent": "covid_symptoms",
-    "intent_prediction": {
-      "name": "test_virus",
-      "confidence": 0.6943222880363464
-    }
-  },
-  {
-    "text": "Is there a treatment?",
-    "intent": "covid_treatment",
-    "intent_prediction": {
-      "name": "prevention_medicine",
-      "confidence": 0.7095283269882202
-    }
-  },
-  {
-    "text": "I’m afraid my family cat the virus.",
-    "intent": "covid_worry",
-    "intent_prediction": {
-      "name": "user_scared",
-      "confidence": 0.8643687963485718
-    }
-  },
-  {
-    "text": "I’m afraid of the virus.",
-    "intent": "covid_worry",
-    "intent_prediction": {
-      "name": "user_scared",
-      "confidence": 0.5654044151306152
-    }
-  },
-  {
-    "text": "I’m afraid.",
-    "intent": "covid_worry",
-    "intent_prediction": {
-      "name": "user_scared",
-      "confidence": 0.9439776539802551
-    }
-  },
-  {
-    "text": "Can you tell me the date?",
+    "text": "Date.",
     "intent": "features_date",
     "intent_prediction": {
       "name": "user_love",
-      "confidence": 0.7497550845146179
-    }
-  },
-  {
-    "text": "Can you tell me what is the date?",
-    "intent": "features_date",
-    "intent_prediction": {
-      "name": "user_love",
-      "confidence": 0.5490823984146118
+      "confidence": 0.8176442384719849
     }
   },
   {
@@ -548,23 +364,31 @@
     "intent": "features_date",
     "intent_prediction": {
       "name": "user_love",
-      "confidence": 0.5338065028190613
+      "confidence": 0.6290940046310425
     }
   },
   {
-    "text": "Tell me the date.",
-    "intent": "features_date",
-    "intent_prediction": {
-      "name": "user_love",
-      "confidence": 0.5474337935447693
-    }
-  },
-  {
-    "text": "Get Started",
+    "text": "Nice to meet you!",
     "intent": "greeting_hello",
     "intent_prediction": {
-      "name": "start",
-      "confidence": 0.7459753751754761
+      "name": "greeting_goodbye",
+      "confidence": 0.916421115398407
+    }
+  },
+  {
+    "text": "Are you fine?",
+    "intent": "greeting_how_are_you",
+    "intent_prediction": {
+      "name": "user_particles",
+      "confidence": 0.6703225374221802
+    }
+  },
+  {
+    "text": "Have fever cough",
+    "intent": "prevention_home",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.8937391638755798
     }
   },
   {
@@ -572,7 +396,7 @@
     "intent": "prevention_home",
     "intent_prediction": {
       "name": "prevention_medical_attention",
-      "confidence": 0.6552861928939819
+      "confidence": 0.722764253616333
     }
   },
   {
@@ -580,31 +404,7 @@
     "intent": "prevention_home",
     "intent_prediction": {
       "name": "prevention_medical_attention",
-      "confidence": 0.6969940662384033
-    }
-  },
-  {
-    "text": "What if I only have sore throat",
-    "intent": "prevention_home",
-    "intent_prediction": {
-      "name": "bot_capabilities",
-      "confidence": 0.7856521010398865
-    }
-  },
-  {
-    "text": "Wrong answer",
-    "intent": "prevention_home",
-    "intent_prediction": {
-      "name": "comment_negative",
-      "confidence": 0.8602698445320129
-    }
-  },
-  {
-    "text": "I have symptoms",
-    "intent": "prevention_medical_attention",
-    "intent_prediction": {
-      "name": "covid_symptoms",
-      "confidence": 0.6727733016014099
+      "confidence": 0.6994822025299072
     }
   },
   {
@@ -612,7 +412,23 @@
     "intent": "prevention_medical_attention",
     "intent_prediction": {
       "name": "covid_procedure_after_infection",
-      "confidence": 0.7806277871131897
+      "confidence": 0.9713805913925171
+    }
+  },
+  {
+    "text": "Stuffy nose about two months and chest pain almost one month",
+    "intent": "prevention_medical_attention",
+    "intent_prediction": {
+      "name": "bot_personal_questions",
+      "confidence": 0.7639974355697632
+    }
+  },
+  {
+    "text": "Is there a treatment?",
+    "intent": "prevention_medicine",
+    "intent_prediction": {
+      "name": "covid_treatment",
+      "confidence": 0.6493710875511169
     }
   },
   {
@@ -620,55 +436,95 @@
     "intent": "quaratine_how_it_works",
     "intent_prediction": {
       "name": "quarantine_general",
-      "confidence": 0.5067181587219238
+      "confidence": 0.531341016292572
     }
   },
   {
-    "text": "will I get covid 19",
-    "intent": "spread_risk",
+    "text": "Can I become infected with the novel coronavirus from food or water?",
+    "intent": "spread_surfaces_food_objects",
     "intent_prediction": {
-      "name": "spread_general",
-      "confidence": 0.6276907324790955
+      "name": "covid_food",
+      "confidence": 0.6146172285079956
     }
   },
   {
-    "text": "How do I get tested",
-    "intent": "test_who",
+    "text": "Can I become infected with the novel coronavirus from food?",
+    "intent": "spread_surfaces_food_objects",
     "intent_prediction": {
-      "name": "test_virus",
-      "confidence": 0.4951966404914856
+      "name": "covid_food",
+      "confidence": 0.568952202796936
     }
   },
   {
-    "text": "That's interesting.",
-    "intent": "user_particles",
+    "text": "Can I get tested for covid?",
+    "intent": "test_virus",
     "intent_prediction": {
-      "name": "comment_smart",
-      "confidence": 0.9369500279426575
+      "name": "test_who",
+      "confidence": 0.6387183666229248
     }
   },
   {
-    "text": "That's it!",
-    "intent": "user_particles",
+    "text": "How do u get tested",
+    "intent": "test_virus",
     "intent_prediction": {
-      "name": "vocative_you_welcome",
-      "confidence": 0.8331390619277954
+      "name": "test_who",
+      "confidence": 0.7771945595741272
     }
   },
   {
-    "text": "Are you with me?",
+    "text": "Should i be tested",
+    "intent": "test_virus",
+    "intent_prediction": {
+      "name": "test_who",
+      "confidence": 0.6722738146781921
+    }
+  },
+  {
+    "text": "I want to jump over the moon.",
+    "intent": "user_happy",
+    "intent_prediction": {
+      "name": "bot_games",
+      "confidence": 0.6566426157951355
+    }
+  },
+  {
+    "text": "happiness",
+    "intent": "user_happy",
+    "intent_prediction": {
+      "name": "cc_philosophical",
+      "confidence": 0.7223118543624878
+    }
+  },
+  {
+    "text": "I feel afraid.",
+    "intent": "user_scared",
+    "intent_prediction": {
+      "name": "covid_worry",
+      "confidence": 0.8797386884689331
+    }
+  },
+  {
+    "text": "I‘m feeling afraid.",
+    "intent": "user_scared",
+    "intent_prediction": {
+      "name": "covid_worry",
+      "confidence": 0.8805694580078125
+    }
+  },
+  {
+    "text": "Don’t leave me!",
     "intent": "vocative_call",
     "intent_prediction": {
-      "name": "user_friend",
-      "confidence": 0.8545252680778503
+      "name": "comment_negative",
+      "confidence": 0.831291675567627
     }
   },
   {
-    "text": "Please can you answer my question",
+    "text": "I want to talk to u",
     "intent": "vocative_call",
     "intent_prediction": {
-      "name": "vocative_help",
-      "confidence": 0.5179976224899292
+      "name": "cc_lets_talk",
+      "confidence": 0.8077704310417175
     }
   },
   {
@@ -676,7 +532,7 @@
     "intent": "vocative_call",
     "intent_prediction": {
       "name": "cc_lets_talk",
-      "confidence": 0.5849266648292542
+      "confidence": 0.7876926064491272
     }
   },
   {
@@ -684,31 +540,23 @@
     "intent": "vocative_call",
     "intent_prediction": {
       "name": "cc_lets_talk",
-      "confidence": 0.9698951244354248
+      "confidence": 0.961549699306488
     }
   },
   {
-    "text": "With me?",
-    "intent": "vocative_call",
+    "text": "Can you answer my question please??",
+    "intent": "vocative_help",
     "intent_prediction": {
-      "name": "user_friend",
-      "confidence": 0.5005588531494141
+      "name": "vocative_call",
+      "confidence": 0.7381312847137451
     }
   },
   {
-    "text": "Under no circumstances.",
-    "intent": "vocative_no",
+    "text": "Hi can I ask questions",
+    "intent": "vocative_help",
     "intent_prediction": {
-      "name": "comment_negative",
-      "confidence": 0.6971652507781982
-    }
-  },
-  {
-    "text": "Appreciate it",
-    "intent": "vocative_thank_you",
-    "intent_prediction": {
-      "name": "comment_positive",
-      "confidence": 0.7644814848899841
+      "name": "vocative_call",
+      "confidence": 0.5859883427619934
     }
   },
   {
@@ -716,7 +564,23 @@
     "intent": "vocative_thank_you",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.6006608605384827
+      "confidence": 0.9595595598220825
+    }
+  },
+  {
+    "text": "Great",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.5217146873474121
+    }
+  },
+  {
+    "text": "Great job",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.6538060903549194
     }
   },
   {
@@ -724,7 +588,7 @@
     "intent": "vocative_thank_you",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.5593218207359314
+      "confidence": 0.8545840978622437
     }
   },
   {
@@ -732,7 +596,7 @@
     "intent": "vocative_thank_you",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.576103687286377
+      "confidence": 0.9894697666168213
     }
   },
   {
@@ -740,7 +604,15 @@
     "intent": "vocative_thank_you",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.9067113399505615
+      "confidence": 0.7868817448616028
+    }
+  },
+  {
+    "text": "Nice talk!",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.7607893943786621
     }
   },
   {
@@ -748,31 +620,55 @@
     "intent": "vocative_thank_you",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.5445732474327087
+      "confidence": 0.572763204574585
     }
   },
   {
-    "text": "You helped me a lot!",
+    "text": "Thanks for helping me through my life!",
     "intent": "vocative_thank_you",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.7885662913322449
+      "confidence": 0.6852461099624634
     }
   },
   {
-    "text": "You really helped me a lot!",
+    "text": "That's amazing!",
     "intent": "vocative_thank_you",
     "intent_prediction": {
       "name": "comment_positive",
-      "confidence": 0.7616396546363831
+      "confidence": 0.8130314350128174
     }
   },
   {
-    "text": "Alright.",
-    "intent": "vocative_yes",
+    "text": "You did a great job!",
+    "intent": "vocative_thank_you",
     "intent_prediction": {
-      "name": "country",
-      "confidence": 0.498568594455719
+      "name": "comment_positive",
+      "confidence": 0.8314583897590637
+    }
+  },
+  {
+    "text": "You helped me thanks!",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.6298332810401917
+    }
+  },
+  {
+    "text": "You saved my life!",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.7577337026596069
+    }
+  },
+  {
+    "text": "saint helena, ascension and tristan da cunha",
+    "intent": "country",
+    "intent_prediction": {
+      "name": "bot_games",
+      "confidence": 0.43231651186943054
     }
   }
 ]

@@ -67,6 +67,9 @@
 - You pretty?
 - Your look.
 - Your physical appearance.
+- Helen, send a pic of you 😘
+- Send a pic of you
+- Send ur pic
 
 ## intent:bot_availability
 
@@ -334,6 +337,8 @@
 - what should I ask
 - what type of answer you can give
 - what's your purpose?
+- What else can u do
+- What you can do
 
 ## intent:bot_fear
 
@@ -676,6 +681,10 @@
 - Your name.
 - what your name
 - who are you
+- Wow, so you have a name
+- do you have a last name?
+- do you have a surname?
+- what your name
 
 ## intent:bot_origin
 
@@ -719,6 +728,7 @@
 - Who's your creator
 - You from?
 - Your origin.
+- whish country u from
 
 ## intent:bot_personal_questions
 
@@ -770,7 +780,7 @@
 - How many floors does your home have
 - How old are you helen
 - How would your best friends describe you?
-- How's the family \$bot_name
+- How's the family Helen
 - I don't want this but I want your photo
 - I just want to know about you
 - I love makin love
@@ -853,6 +863,8 @@
 - Your likes and dislikes
 - how old are you
 - tell me your age
+- Can I get ur number
+- R u married
 
 ## intent:bot_personality
 
@@ -937,6 +949,12 @@
 - Your a computer
 - how do u qualify
 - it seems your a computer
+- Are you a AI
+- Are you a AI????
+- I'm talking with computer???
+- Ooh, you're a robot
+- So you are a bot
+- You are not real
 
 ## intent:bot_residence
 
@@ -1134,6 +1152,20 @@
 - Your face would look better between my legs.
 - Your pants really brings out your "body part".
 - Your pants, they bother me. Take them off.
+- should i use underwear?
+- Come and get fucked
+- Do you have sex
+- F**k you
+- Go get a dildo
+- How long is your penis
+- How to cum
+- Love your pussy
+- Okay hot bitch
+- What does fuck mean
+- What is a dildo
+- You suck my dick female robot
+- how to sex ?
+- penis
 - should i use underwear?
 
 ## intent:bot_sing
@@ -2176,6 +2208,25 @@
 - you are really slow
 - you don't have any idea, right?
 - you have a lot to learn Helen
+- And then you call yourself useful
+- Answer the question then
+- Be serious is this actually a scam
+- Because this is not what I expected
+- I'll screenshot it and tell people you're fake
+- Nonsense
+- Someone is dying And u are talking rubbish
+- This is not my answer
+- U are a mad and useless
+- U are mad
+- What a waste of time and resources, you are completely useless and you know
+  nothing
+- What's wrong with this sote
+- Why will I be happy when you don't give me specific answers
+- You are mad
+- You keep asking the same question
+- You keep telling me the same thing that's not helpful, You dumbass
+- Your are a slow learner
+
 
 ## intent:comment_offense
 
@@ -2309,10 +2360,17 @@
 - Your dumb
 - Your mama Geddifuck
 - dumb
-- shut the \*\*\*\* up
+- shut the **** up
 - you are a digital idiot
 - you are a digital useless piece of software
 - 🙂fuck you
+- Duck you
+- Fuck you Helen
+- Fuck you...bot tell your boss i said that
+- I asked you a simple thing Useless bitch
+- Kill yourself
+- I asked you a simple thing Useless bitch
+- Kill yourself
 
 ## intent:comment_positive
 
@@ -2523,6 +2581,7 @@
 - what about coronavirus
 - what about coronaviruses
 - what is coronavirus
+- What is a virus
 
 ## intent:covid_aftereffects_immunity
 
@@ -2546,6 +2605,7 @@
 - after being infected am I imune?
 - after getting infected, can I be immune to the virus?
 - can I be immune?
+- 
 
 ## intent:covid_babys_children
 
@@ -2557,6 +2617,7 @@
 - hi what are the symptoms for children
 - is covid-19 having something specific happening with the children
 - is covid-19 transmitted by children?
+- Can Corona affect much children below 18 years
 
 ## intent:covid_cosibot
 
@@ -2564,7 +2625,7 @@
 - Can you tell me more about your ad?
 - Cosibot
 - How do I volunteer?
-- I want to be part of Cosibot ..what are the requirements?
+- I want to be part of Cosibot. What are the requirements?
 - Volunteer with Cosibot
 - What is Cosibot?
 - What procedure can I follow to be part of Cosibot?
@@ -2624,6 +2685,8 @@
 - how long will this crisis last?
 - when covid will end?
 - when is it likely to end
+- When is everything going to be ok
+- When will corona stop
 
 ## intent:covid_current_statistics
 
@@ -2685,6 +2748,10 @@
 - What is the origin of the outbreak?
 - Where did the disease start?
 - Where did the disease started?
+- How many days does virus stays in patient body?
+- How many days to recover
+- How many days virus stays in body
+- How may days to covid patient recovery
 
 ## intent:covid_food
 
@@ -2696,6 +2763,31 @@
 - Is corona spread through food and vegetables?
 - Spreading through food.
 - can food be contaminated?
+
+## intent:covid_immunity
+
+- After I've been infected, I'm immune to the virus?
+- After recovering, people become immune?
+- Can I person get sick twice?
+- Can I reinfected myself?
+- Can a person can be affected twice by corona virus?
+- Can one get Coronavirus again?
+- Can one grt it again
+- Can someone who has healed from the virus get infected again
+- Can someone who has recovered from covid contract it again
+- I am immune after recovering?
+- I wanna know if some one who recovered from covid 19 can be infected again
+- If I have had this am I then immune and not get it again?
+- Is it possible for a recovered person from covid 19 to contract the virus
+  again?
+- Post covid infection to family what prequation to be take
+- Reinfection
+- Someone who recovered is now immune?
+- Why does Covid19 not infecting The recovered patients
+- after being infected am I immune?
+- after being infected am I imune?
+- after getting infected, can I be immune to the virus?
+- can I be immune?
 
 ## intent:covid_incubation
 
@@ -2917,7 +3009,7 @@
 - Info on the new coronavirus
 - Info on the novel coronavirus
 - Information about the virus
-- Is Corona avirus or bacteria
+- Is Corona a virus or bacteria
 - Is Corona virus real
 - Is covid 19 real?
 - More explanation about the deadly virus
@@ -3136,6 +3228,8 @@
 - where did it start?
 - where did the outbreak start?
 - where did the outbreak started?
+- What is the full meaning of covid 19
+- What is the full meaning of covid19
 
 ## intent:covid_meaning
 
@@ -3293,6 +3387,8 @@
 - Those who are infected are probably waiting to die?
 - What’s the mortality rate?
 - mortality
+- 80% are surviving
+- Does covid 19 kills
 
 ## intent:covid_origins
 
@@ -3332,6 +3428,7 @@
 - is it airborne?
 - is the virus airborne?
 - what is the origin of covid
+- How did it sarted
 
 ## intent:covid_pandemic
 
@@ -3341,6 +3438,7 @@
 - What is a pandemic?
 - what is pandamic?
 - what is pandemic?
+- Is it a pandemic
 
 ## intent:covid_preexisting_illness
 
@@ -3418,6 +3516,9 @@
 - I'm infected, and now?
 - I'm infected.
 - What happens if a coronavirus infection is detected?
+- I have the virus
+- What should I do if I am infected
+- When you're already infected what is it that you must do
 
 ## intent:covid_sars
 
@@ -3610,6 +3711,8 @@
 - novel coronavirus and SARS.
 - novel coronavirus and Severe Acute Respiratory Syndrome.
 - sars
+- Pls I need defination, advantage and disadvantages of coronal virus and y is
+  it a pandemic
 
 ## intent:covid_schools
 
@@ -3623,7 +3726,7 @@
 - What about school?
 - What are the measures that can be taken to prevent the spread of the virus in
   schools in case they are opened
-- When are dere going to open school
+- When are they going to open school
 - When are they opening schools
 - When are they planning to resume schools
 - When are we going to resume back to school
@@ -3664,6 +3767,13 @@
 - Transmission and sex
 - Why we mustn't do sex
 - sexual relations and transmission
+- Can I get corona when i have sex with an infected person
+- Can I have sex with someone who had a virus
+- Can covid-19  be transferred through sex
+- Can I get corona when I have sex wıth an ınfected person
+- Okay how does it spread during sex
+- dose corona virus spread from sex
+
 
 ## intent:covid_situation
 
@@ -3741,6 +3851,18 @@
 - where is the virus more prevalent?
 - which is the most affected country?
 - world situation
+- Does the numbers increase or decrease
+- How many cases
+- How many cases are registered in [Zurich]{"entity": "geography", "value": "town"} so far?
+- How many cases are there
+- How many cases?
+- How many coronavirus cases do we have in the world?
+- How many people died corona
+- How many people have been diagnosed with Covid-19
+- What is the number of covid 19 cases in [Malta]{"entity": "country_code", "value": "MT"}
+- Word's situation
+- World's situation
+
 
 ## intent:covid_situation_deaths
 
@@ -3945,6 +4067,7 @@
 - for how long can the virus survive in a plastic surface?
 - for how many hours does the virus survive on surfaces?
 - how long can the virus stay on surfaces
+- How long coronavirus stays on clothes?
 
 ## intent:covid_symptoms
 
@@ -4091,6 +4214,19 @@
 - what if I my ears ache
 - what's is the syntoms?
 - ɪғ ʏᴏᴜʀ ᴄʜᴇsᴛ ɪs sᴏʀᴇ ɪs ᴛʜᴀᴛ ᴀ sʏᴍᴛᴏᴍ ᴏғ ᴄᴏʀᴏɴᴀ
+- But when you are finding it difficult to breath
+- Do I have COVID?
+- How can i know that i have that virus
+- How do you know if someone contacted Corona virus
+- I can't smell anything
+- I feel burning in  my chest, is that a symptom of covid
+- I woke up tied and pains at the rips isit the sign's
+- Iost smelling sense
+- Is the throat pain  also a symptom? If fever and cough not in body?
+- Please I'm coughing and sneezing what's my problem na
+- Sign's of covid
+- Signs of covid
+- Symptom of infected person
 
 ## intent:covid_treatment
 
@@ -4100,6 +4236,11 @@
   how come covid-19is treated
 - Is there a treatment?
 - Treatment
+- Cure Of Coronavirus
+- Does cure available?
+- So is the cure out
+- So is the cure out?
+
 
 ## intent:covid_worry
 
@@ -4152,12 +4293,23 @@
 - should I be concerned with the virus?
 - will I die
 
+## intent:en_ebola
+
+- Ebola
+- Ebola virus disease
+- I need to know more about corona brother Ebola
+- Tell me about Ebola
+- What about Ebola
+- What is ebola
+
 ## intent:economy_consequences
 
 - Can you answer questions economy related?
 - Economy
 - Economy consequences
 - What is the impact of this pandemic on the world's economy?
+- Does it affect economy, if yes how
+- What are the social psychological and economic impact of the corona virus
 
 ## intent:features_date
 
@@ -4325,7 +4477,7 @@
 - Need to go.
 - Need to leave.
 - Need to run.
-- Nothing! B bye have a good day 🙂
+- Nothing! Bye have a good day 🙂
 - OK Helen, have a nice day
 - OK thanks bye
 - Ok bye.
@@ -4355,7 +4507,7 @@
 - Thank you... Good night
 - Thanks bye
 - Thanks bye bye.
-- Thanks you Good night
+- Thanks you. Good night
 - That's it! Have a nice day!
 - Then bye.
 - Time to go.
@@ -4367,6 +4519,10 @@
 - see you Tomorrow morning
 - that's it for today
 - to morrow i will ask you
+- Get out
+- Leave my system please
+- Live my sistem please
+- Power off
 
 ## intent:greeting_hello
 
@@ -4556,6 +4712,7 @@
 - when to use masks?
 - where can i get material to protect me?
 - which is the best mask?
+- Face marsk
 
 ## intent:mask_use_after
 
@@ -4673,6 +4830,7 @@
 - chlorine on all the body.
 - if I cover myself in alcohol
 - if I cover myself in alcohol the virus will leave
+- drinking alcohol protects me against COVID-19?
 
 ## intent:myth_cold_weather
 
@@ -4751,6 +4909,16 @@
 - Hot bath prevents the new coronavirus disease.
 - Hot bath prevents the new coronavirus.
 - can hot water kill the virus?
+
+## intent:myth_mosquitoes
+
+- Can mosquito transmit corona
+- Can the COVID-19 virus be spread through mosquito bites?
+- Could the coronavirus could be transmitted by mosquitoes?
+- Mosquitos and coronavirus
+- mosquito
+- mosquitoes
+- mosquitos
 
 ## intent:myth_garlic
 
@@ -4882,6 +5050,12 @@
 - What about myths?
 - What are the myths about coronavirus?
 - what are the myths?
+- COVID-19 is panic disease?
+- Is corona real?
+- Is corvid real
+- Write a debate on the topic "corona virus is not real" you can either support
+  or oppose
+- is the coronavirus real?
 
 ## intent:prevention_clean_hands
 
@@ -5082,6 +5256,13 @@
 - what i should do?
 - what should i do to prevent myself from that
 - what's the preventive measures
+- Guidelines
+- Guidelines for the virus
+- How can one be safe
+- Is it true that when you take lime and lemon juice one can't contract the
+  virus?
+- hello  how should I protect myself
+- what are the recommendations for the indigenous?
 
 ## intent:prevention_home
 
@@ -5193,6 +5374,8 @@
 - what should I avoid?
 - what should I not do to protect against the virus?
 - what should I not do to protect myself against the virus?
+- What can a pregnant woman drink to prevent the infection of corona
+- drinking beverage protect me against COVID-19?
 
 ## intent:prevention_medical_attention
 
@@ -5274,6 +5457,13 @@
 - what should I do if I have the symptoms?
 - what to do in case having symptoms
 - when should I consult a doctor?
+- I have corona
+- Me and my son are both positive
+- Wat if I have symptoms
+- What do I do when I notice that am infected
+- What do I do when I notice the symptoms
+- What should I do if I got corana
+- Who to contact if you have this symptoms
 
 ## intent:prevention_medicine
 
@@ -5438,6 +5628,10 @@
 - what medicine works best for this virus
 - what medicines should be taken?
 - yes it did take ibuprofen
+- HAVEN'T YOU GOT A CURE YET
+- Is there any treatment yet?
+- Does hydrpxilechloroqin cure thrthe virus as the USA president trump claims
+- Hydroxychloroquine
 
 ## intent:prevention_respiratory_hygiene
 
@@ -5559,6 +5753,76 @@
 - Why should I avoid to touch my face?
 - Why should I avoid to touch my mouth?
 - Why should I avoid to touch my nose?
+
+## intent:prevention_vaccine
+- A vaccine must be found
+- About a vaccine for COVID-19.
+- About a vaccine to treat COVID-19.
+- About a vaccine, drug or treatment for COVID-19.
+- About a vaccine, drug or treatment.
+- About a vaccine.
+- About vaccine
+- About vaccines for COVID-19.
+- About vaccines to treat COVID-19.
+- About vaccines, drug or treatment for COVID-19.
+- About vaccines, drug or treatment.
+- About vaccines.
+- Any update about the vaccine?
+- Any vaccines for covid-19
+- Explain the status of covid 19 vaccine
+- Has a vaccine for corona virus been established?
+- Hey ...am called Joseph from Uganda....my questions is...is there any vaccine
+  at hand that their working on to stop the spread of covid-19
+- How far hv doctors gone with issue of covid 19 vaccine?
+- How far with the vaccines
+- Information about the promising vaccine
+- Is it true that the vaccine will be out in September
+- Is the vaccine found
+- Is there a vaccine discovered yet
+- Is there a vaccine for COVID-19?
+- Is there a vaccine to treat COVID-19?
+- Is there a vaccine, drug or treatment for COVID-19?
+- Is there a vaccine, drug or treatment?
+- Is there a vaccine?
+- Is there any vaccine found for this pandemic
+- Is there any vacine for this virus?
+- Is there no vaccine yet
+- Maybe one other thing I would like to know is about the vaccine how far they
+  have gone with it and how many types are being processed
+- No vaccine?
+- Ok Helen When can a vaccine be produced by some countries
+- Ok but there isn't a vaccine or a solution for the problem
+- Please there an vaccine to stop it
+- So any vaccine yet
+- So is there hope that the vaccine can be found by end of this year
+- Tell me vaccine of COVID-19
+- Thank you Helen Has uganda got a vaccine against the disease ?
+- The vaccine must be found I said how didn't you understand my request
+- The vaccine must be found I said how didn't you understand my request????
+- They is still no vaccine for covid 19
+- Vaccines
+- Whare is vaccine? Hare need!
+- What can you tell me about the hypothesis of a vaccine for Coronavirus?
+- When can a vaccine be produced by some countries
+- When is the vaccine hope to be found
+- When the vaccine will come
+- When the vaccine will release?
+- When vaccine is com out
+- When will the Corona vaccine come?
+- When will the vaccines be available?
+- When will the vaccines be available? Am Alfred
+- Where is vaccine of corona virus?
+- Which vaccines have passed stage 3 of the final testing already
+- Will be vaccine available in the month of july
+- Yes. But is there a vaccine?
+- are there a vacine?
+- are there vaccines to prevent the disease?
+- covid vaccine
+- covid-19 vaccine
+- does a vaccine exist?
+- how long will it take for a vaccine to come out in the market?
+- is there any hope in the future about vaccine
+- what about vaccine
 
 ## intent:quarantine_control
 
@@ -5794,6 +6058,7 @@
 - How does coronavirus spreads?
 - How does covid 19 spread?
 - How does it propagates?
+- How does it spread
 - How does it spread?
 - How does it spreads?
 - How does the covid-9 spread
@@ -5819,6 +6084,7 @@
 - How the virus spreads.
 - How the vírus spreads?
 - How to get covid 19
+- How does it is spread
 - Hw it is spread
 - I want to know how can I get the disease
 - Okay how does the virus spread
@@ -5869,6 +6135,7 @@
 - transmission
 - transmissions
 - where do i get it
+- Ok so pls how does it really spread
 
 ## intent:spread_no_symptoms
 
@@ -6053,7 +6320,10 @@
 - does the dogs transmit the virus?
 - does the virus infect only human
 - is the virus be transmitted by the pets?
-- posso pegar coronavirus do meu gato?
+- may I catch COVID-19 from my cat?
+- may I catch COVID-19 from my dog?
+- may I catch COVID-19 from pets?
+- may I get COVID-19 from my dog?
 
 ## intent:spread_risk
 
@@ -6147,7 +6417,11 @@
 ## intent:test_who
 
 - Can I be tested?
-- How do I get tested
+- Can I be tested for coronavirus?
+- Can I be tested for covid?
+- How do I get tested?
+- How do I get tested for coronavirus?
+- How do I get tested for covid?
 - Who can be tested for coronavirus?
 - Who can be tested for covid?
 - Who can be tested?
@@ -6306,6 +6580,7 @@
 - I’m so mad!
 - Today I am with bad-temper.
 - Tomorrow I will foaming from the mouth!
+- You must reply me idiot I'm pissed off now
 - You will feel my wrath!
 
 ## intent:user_friend
@@ -6348,6 +6623,8 @@
 - You are my friend.
 - You be my friend.
 - You want to be my friend?
+- Can i be your friend i feel alone
+- Please call me your friend
 
 ## intent:user_happy
 
@@ -6793,6 +7070,8 @@
 - can i ask you something else
 - j can you help for me
 - may I ask you questions?
+- Can I ask you some question
+- Do you like to help me
 
 ## intent:vocative_no
 

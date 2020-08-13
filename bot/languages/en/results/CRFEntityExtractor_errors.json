@@ -1,35 +1,5 @@
 [
   {
-    "text": "COVID in Eimsbuettel",
-    "entities": [
-      {
-        "start": 0,
-        "end": 5,
-        "value": "COVID",
-        "entity": "virus"
-      },
-      {
-        "start": 9,
-        "end": 20,
-        "value": "town",
-        "entity": "geography"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "geography",
-        "start": 9,
-        "end": 20,
-        "confidence_entity": 0.8417654587280932,
-        "value": "town",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
     "text": "From now how long was COVID-19 covered the world",
     "entities": [
       {
@@ -61,7 +31,7 @@
         "entity": "country_code",
         "start": 9,
         "end": 16,
-        "confidence_entity": 0.6649356797323468,
+        "confidence_entity": 0.6862944904777067,
         "value": "DE",
         "extractor": "CRFEntityExtractor",
         "processors": [
