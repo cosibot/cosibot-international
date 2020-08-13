@@ -87,9 +87,9 @@
 * bot_worst_experience: Tell me your toughest experience.
   - utter_bot_worst_experience
 
-## cc_chickegg
-* cc_chickegg: Which came first, the egg or the chicken?
-  - utter_cc_chickegg
+## cc_chicken_egg
+* cc_chicken_egg: Which came first, the egg or the chicken?
+  - utter_cc_chicken_egg
 
 ## cc_deepest_point
 * cc_deepest_point: What is the deepest point on earth?
@@ -249,26 +249,32 @@
 
 ## covid_situation_deaths
 * covid_situation_deaths: how many covid 19 death cases in [Netherlands]{"entity": "country_code", "value": "NL"}?
+  - action_search_stats
   - utter_covid_situation_deaths
 
 ## covid_situation_infected
 * covid_situation_infected: how many positive cases do we have in [Italy]{"entity": "country_code", "value": "IT"}
+  - action_search_stats
   - utter_covid_situation_infected
 
 ## covid_situation_infected_critical
 * covid_situation_infected_critical: how many seriously infected people there in the [Spain]{"entity": "country_code", "value": "ES"}?
+  - action_search_stats
   - utter_covid_situation_infected_critical
 
 ## covid_situation_last_update
 * covid_situation_last_update: What are todays values for [Bangladesh]{"entity": "country_code", "value": "BD"}
+  - action_search_stats
   - utter_covid_situation_last_update
 
 ## covid_situation_recovered
 * covid_situation_recovered: how many recovered there are in [Russia]{"entity": "country_code", "value": "RU"}?
+  - action_search_stats
   - utter_covid_situation_recovered
 
 ## covid_situation_tested
 * covid_situation_tested: how many tests were done in [United Kingdom]{"entity": "country_code", "value": "GB"}?
+  - action_search_stats
   - utter_covid_situation_tested
 
 ## covid_surfaces
@@ -376,7 +382,7 @@
   - utter_prevention_measures
 
 ## prevention_medical_attention
-* prevention_medical_attention: My full family of 5 got infected with covid we got discharged on 28,29,3 5
+* prevention_medical_attention: My temperature is above 39 degrees. Should I worry?
   - utter_prevention_medical_attention
 
 ## prevention_medicine
@@ -411,9 +417,9 @@
 * quarantine_toiletpaper: Why do so many people buy toilet paper now?
   - utter_quarantine_toiletpaper
 
-## quarantine_whwho_howlong
-* quarantine_whwho_howlong: Who should do quarantine?
-  - utter_quarantine_whwho_howlong
+## quarantine_when_who_howlong
+* quarantine_when_who_howlong: Who should do quarantine?
+  - utter_quarantine_when_who_howlong
 
 ## quaratine_how_it_works
 * quaratine_how_it_works: What is quarantine? How does it work?
@@ -480,7 +486,7 @@
   - utter_user_friend
 
 ## user_happy
-* user_happy: happiness
+* user_happy: I am feeling really good.
   - utter_user_happy
 
 ## user_love
@@ -497,9 +503,15 @@
   - utter_user_no_further_questions
 -->
 
+## user_no_further_questions
+* user_no_further_questions: I don’t have further questions, thank you.
+  - utter_user_no_further_questions
+  - utter_greeting_goodbye
+
 ## user_particles
 * user_particles: That's okay. You're still learning. And I'm here to train you.
   - utter_user_particles
+  - utter_further_questions
 
 ## user_scared
 * user_scared: But for me not a good day
@@ -515,7 +527,7 @@
 
 ## vocative_no
 * vocative_no: Never mind
-  - utter_vocative_no
+  - utter_further_questions
 
 ## vocative_sorry
 * vocative_sorry: Sorry i can't need help to u
@@ -526,8 +538,8 @@
   - utter_vocative_thank_you
 
 ## vocative_yes
-* vocative_yes: Okay, Helen.
-  - utter_vocative_yes
+* vocative_yes: Okey-dokey.
+  - utter_further_questions
 
 ## vocative_you_welcome
 * vocative_you_welcome: No problemo.

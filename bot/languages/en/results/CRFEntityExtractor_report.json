@@ -1,0 +1,44 @@
+{
+  "world_region": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14
+  },
+  "virus": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 5
+  },
+  "country_code": {
+    "precision": 0.9993614303959132,
+    "recall": 0.9867591424968474,
+    "f1-score": 0.993020304568528,
+    "support": 1586
+  },
+  "geography": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 27
+  },
+  "micro avg": {
+    "precision": 0.9993781094527363,
+    "recall": 0.9846813725490197,
+    "f1-score": 0.9919753086419753,
+    "support": 1632
+  },
+  "macro avg": {
+    "precision": 0.9998403575989783,
+    "recall": 0.7966897856242119,
+    "f1-score": 0.8315884094754653,
+    "support": 1632
+  },
+  "weighted avg": {
+    "precision": 0.9993794292940675,
+    "recall": 0.9846813725490197,
+    "f1-score": 0.9911745525198237,
+    "support": 1632
+  }
+}

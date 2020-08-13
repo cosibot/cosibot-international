@@ -3769,6 +3769,8 @@
 - How many people are infected in [Pākistān]{"entity": "country_code", "value": "PK"}?
 - How many people are with covid in [République du Rwanda]{"entity": "country_code", "value": "RW"}
 - how many positive cases do we have in [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}
+- how many positive cases are in [Česko]{"entity": "country_code", "value": "CZ"}?
+- how many positive cases of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
 
 ## intent:covid_situation_infected_critical
 
@@ -3790,6 +3792,9 @@
 - People in critical case in [Saint Lucia]{"entity": "country_code", "value": "LC"}.
 - People in critical state in [República da Bielorrússia]{"entity": "country_code", "value": "BY"}.
 - how many seriously infected people there in the [Quênia]{"entity": "country_code", "value": "KE"}?
+- how many seriously infected people are in [Česko]{"entity": "country_code", "value": "CZ"}?
+- how many seriously infected people of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
+- how many seriously infected people in [España]{"entity": "country_code", "value": "ES"}?
 
 ## intent:covid_situation_last_update
 
@@ -3815,8 +3820,15 @@
 - Today’s data in [Caribisch Nederland]{"entity": "country_code", "value": "BQ"}.
 - Today’s update in [São Marino]{"entity": "country_code", "value": "SM"}.
 - What are todays values for [Aruba]{"entity": "country_code", "value": "AW"}
-- i would like to know the current numbers of [Antártida]{"entity": "country_code", "value": "AQ"}
+- What are todays values in [España]{"entity": "country_code", "value": "ES"}
+- What are todays values at [Česko]{"entity": "country_code", "value": "CZ"}
+- What are todays values of covid in [Guernesei]{"entity": "country_code", "value": "GG"}
+- i would like to know the current numbers of [Antártida]{"entity": "country_code", "value": "AQ"}.
+- i would like to know the current numbers at [Pākistān]{"entity": "country_code", "value": "PK"}.
+- i would like to know the current numbers of covid in [Kingdom of Cambodia]{"entity": "country_code", "value": "KH"}.
 - situation in [Murutaane]{"entity": "country_code", "value": "MR"}
+- situation at [Saint Lucia]{"entity": "country_code", "value": "LC"}.
+- situation covid in [Guinea-Bissau]{"entity": "country_code", "value": "GW"}.
 
 ## intent:covid_situation_recovered
 
@@ -4479,6 +4491,8 @@
 - Disposable medical mask.
 - Disposable medical masks.
 - How I can use mask?
+- How I can use medical masks?
+- How I can use disposable mask?
 - How does a facemask prevent the spread?
 - Info disposable mask.
 - Info mask.

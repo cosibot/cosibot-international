@@ -1,0 +1,145 @@
+[
+  {
+    "text": "COVID in Eimsbuettel",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "COVID",
+        "entity": "virus"
+      },
+      {
+        "start": 9,
+        "end": 20,
+        "value": "town",
+        "entity": "geography"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "geography",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.8417654587280932,
+        "value": "town",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "From now how long was COVID-19 covered the world",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many people have been diagnosed with COVID-19",
+    "entities": [
+      {
+        "start": 41,
+        "end": 49,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "death in germany",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.6649356797323468,
+        "value": "DE",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hi Helen send me some statistics about COVID-19",
+    "entities": [
+      {
+        "start": 39,
+        "end": 47,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "sint maarten (dutch part)",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "value": "SX",
+        "entity": "country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Sint Maarten (Dutch part)",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "value": "SX",
+        "entity": "country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "saint martin (french part)",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "MF",
+        "entity": "country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Saint Martin (French part)",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "MF",
+        "entity": "country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Holy See (Vatican City State)",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "value": "VA",
+        "entity": "country_code"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
