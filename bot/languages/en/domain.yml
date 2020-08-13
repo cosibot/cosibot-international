@@ -285,7 +285,7 @@ intents:
   - comment_racist
   - comment_smart
   - coronavirus_info
-  - covid_aftereffects_immunity
+  - covid_aftereffects
   - covid_babys_children
   - covid_cosibot
   - covid_crisis_howlong
@@ -294,6 +294,7 @@ intents:
   - covid_disease_process
   - covid_duration
   - covid_food
+  - covid_immunity
   - covid_incubation
   - covid_info
   - covid_meaning
@@ -316,6 +317,7 @@ intents:
   - covid_symptoms
   - covid_treatment
   - covid_worry
+  - ebola
   - economy_consequences
   - features_date
   - features_time
@@ -327,7 +329,9 @@ intents:
   - mask_use_put
   - myth_alcohol
   - myth_cold_weather
+  - myth_garlic
   - myth_hot_bath
+  - myth_mosquitoes
   - myth_packages
   - myth_transmission_hot_areas
   - myths_conspiracy_fakenews
@@ -342,6 +346,7 @@ intents:
   - prevention_medicine
   - prevention_respiratory_hygiene
   - prevention_touch
+  - prevention_vaccine
   - quarantine_control
   - quarantine_dogwalking
   - quarantine_dos_and_donts
@@ -826,6 +831,35 @@ responses:
               mortality rate for seasonal influenza.<a
               href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
               target='_blank'>(1)</a></p>
+  utter_covid_immunity:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>It is too early to know how long the protective immune response
+              against SARS CoV 2 will last, as this will require longitudinal
+              serological studies that follow patients’ immunity over an
+              extended period of time. Evidence from other coronavirus
+              infections, like SARS and MERS, indicates that immunity may last
+              for up to three years and re-infection with the same strain of
+              seasonal circulating coronavirus is highly unlikely in the same or
+              following season. This could also hold true for SARS CoV 2 as
+              there is emerging evidence from early studies suggesting that
+              individuals develop antibodies after infection and are likely to
+              be immune from reinfection in the short term.</speak>
+          - type: html
+            text: <p>It is too early to know how long the protective immune response against
+              SARS-CoV-2 will last, as this will require longitudinal
+              serological studies that follow patients’ immunity over an
+              extended period of time. Evidence from other coronavirus
+              infections (SARS and MERS) indicates that immunity may last for up
+              to three years and re-infection with the same strain of seasonal
+              circulating coronavirus is highly unlikely in the same or
+              following season. This could also hold true for SARS-CoV-2 as
+              there is emerging evidence from early studies suggesting that
+              individuals develop antibodies after infection and are likely to
+              be immune from reinfection in the short term.<a
+              href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'
+              target='_blank'>(1)</a></p>
   utter_covid_crisis_howlong:
     - custom:
         answers:
@@ -857,37 +891,32 @@ responses:
                 value: Transmission
               - label: Symptoms
                 value: Symptoms
-  utter_covid_aftereffects_immunity:
+  utter_covid_aftereffects:
     - custom:
         answers:
           - type: ssml
-            ssml:
-              <speak>It is too early to know how long the protective immune response
-              against SARS CoV 2 will last, as this will require longitudinal
-              serological studies that follow patients’ immunity over an
-              extended period of time. Evidence from other coronavirus
-              infections, like SARS and MERS, indicates that immunity may last
-              for up to three years and re-infection with the same strain of
-              seasonal circulating coronavirus is highly unlikely in the same or
-              following season. This could also hold true for SARS CoV 2 as
-              there is emerging evidence from early studies suggesting that
-              individuals develop antibodies after infection and are likely to
-              be immune from reinfection in the short term.</speak>
+            ssml: "<speak>There are three factors that affect the lung damage risk in
+              COVID-19 infections and how likely the person is to recover and
+              regain lung function: Disease severity, pre-existing health
+              conditions, and treatment. After a serious case of COVID-19, a
+              patient’s lungs can recover, but not overnight. Recovery from lung
+              damage takes time. There’s the initial injury to the lungs,
+              followed by scarring. Over time, the tissue heals, but it can take
+              three months to a year or more for a person’s lung function to
+              return to pre-COVID-19 levels.</speak>"
           - type: html
-            text:
-              <p>It is too early to know how long the protective immune response against
-              SARS-CoV-2 will last, as this will require longitudinal
-              serological studies that follow patients’ immunity over an
-              extended period of time. Evidence from other coronavirus
-              infections (SARS and MERS) indicates that immunity may last for up
-              to three years and re-infection with the same strain of seasonal
-              circulating coronavirus is highly unlikely in the same or
-              following season. This could also hold true for SARS-CoV-2 as
-              there is emerging evidence from early studies suggesting that
-              individuals develop antibodies after infection and are likely to
-              be immune from reinfection in the short term.<a
-              href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'
-              target='_blank'>(1)</a></p>
+            text: "<p>There are three factors that affect the lung damage risk in COVID-19
+              infections and how likely the person is to recover and regain lung
+              function: Disease severity, pre-existing health conditions, and
+              treatment. After a serious case of COVID-19, a patient’s lungs can
+              recover, but not overnight. Recovery from lung damage takes time.
+              There’s the initial injury to the lungs, followed by scarring.
+              Over time, the tissue heals, but it can take three months to a
+              year or more for a person’s lung function to return to
+              pre-COVID-19 levels. <a
+              href='https://www.hopkinsmedicine.org/health/conditions-and-disea\
+              ses/coronavirus/what-coronavirus-does-to-the-lungs'
+              target='_blank'>(1)</a></p>"
   utter_covid_disease_process:
     - custom:
         answers:
@@ -1630,6 +1659,45 @@ responses:
                 value: Transmission
               - label: World Situation
                 value: World Situation
+  utter_prevention_vaccine:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Research about vaccines is happening at breakneck speed. About 140
+              are in early development, and around two dozen are now being
+              tested on people in clinical trials. A vaccine would normally take
+              years, if not decades, to develop. Researchers hope to achieve the
+              same amount of work in only a few months. Most experts think a
+              vaccine is likely to become widely available by mid-2021, about
+              12-18 months after Sars Cov 2 first emerged. That would be a huge
+              scientific feat and there are no guarantees it will work. Four
+              coronaviruses already circulate in human beings. They cause common
+              cold symptoms and we don't have vaccines for any of them.</speak>
+          - type: html
+            text: <p>Research about vaccines is happening at breakneck speed. About 140 are
+              in early development, and around two dozen are now being tested on
+              people in clinical trials. A vaccine would normally take years, if
+              not decades, to develop. Researchers hope to achieve the same
+              amount of work in only a few months. Most experts think a vaccine
+              is likely to become widely available by mid-2021, about 12-18
+              months after Sars Cov 2 first emerged. That would be a huge
+              scientific feat and there are no guarantees it will work. Four
+              coronaviruses already circulate in human beings. They cause common
+              cold symptoms and we don't have vaccines for any of them.<a
+              href='https://www.bbc.com/news/health-51665497'
+              target='_blank'>(1)</a></p>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Symptoms
+                value: Symptoms
+              - label: Medical Masks
+                value: Medical Masks
+              - label: Transmission
+                value: Transmission
+              - label: World Situation
+                value: World Situation
   utter_prevention_clean_hands:
     - custom:
         answers:
@@ -2100,6 +2168,19 @@ responses:
               and local level.<a
               href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
               target='_blank'>(1)</a></p>
+  utter_ebola:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>For detailed information about the Ebola virus disease, please have
+              a look at the W H O page under the displayed link.</speak>
+          - type: text
+            text: For detailed information about the Ebola virus disease, please have a look
+              at the WHO page under the displayed link.
+          - type: links
+            links:
+              - title: "WHO: Ebola virus disease"
+                url: https://www.who.int/health-topics/ebola/
   utter_cc_moon:
     - custom:
         answers:

@@ -2583,29 +2583,15 @@
 - what is coronavirus
 - What is a virus
 
-## intent:covid_aftereffects_immunity
+## intent:covid_aftereffects
 
-- After I've been infected, I'm immune to the virus?
-- After recovering, people become immune?
-- Can I person get sick twice?
-- Can I reinfected myself?
-- Can a person can be affected twice by corona virus?
-- Can someone who has healed from the virus get infected again
-- Can someone who has recovered from covid contract it again
-- I am immune after recovering?
-- I wanna know if some one who recovered from covid 19 can be infected again
-- If I have had this am I then immune and not get it again?
-- Is it possible for a recovered person from covid 19 to contract the virus
-  again?
-- Post covid infection to family what prequation to be take
-- Reinfection
-- Someone who recovered is now immune?
-- Why does Covid19 not infecting The recovered patients
-- after being infected am I immune?
-- after being infected am I imune?
-- after getting infected, can I be immune to the virus?
-- can I be immune?
-- 
+- After effect
+- After effects
+- Can lungs heal back after Corona has damaged them
+- Can lungs heal back after Corona has damaged them.........when someone recovers
+- Do the lungs recover after an infection
+- What are the after effects?
+- What does corona to your lungs?
 
 ## intent:covid_babys_children
 
