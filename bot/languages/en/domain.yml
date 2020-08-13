@@ -19,6 +19,22 @@ slots:
   bot_version:
     type: text
     initial_value: "0.1"
+  bot_time_acre:
+    type: text
+  bot_time_fnoronha:
+    type: text
+  bot_time_brasilia:
+    type: text
+  bot_time_amazonas:
+    type: text
+  bot_date_acre:
+    type: text
+  bot_date_fnoronha:
+    type: text
+  bot_date_brasilia:
+    type: text
+  bot_date_amazonas:
+    type: text
   bot_time:
     type: text
   bot_date:
@@ -378,12 +394,12 @@ intents:
 responses:
   utter_command_change_bot:
     - custom:
-      answers:
-        - type: command
-          name: open-url
-          params:
-            - key: url
-              value: google.com/{preferred_lang}
+        answers:
+          - type: command
+            name: open-url
+            params:
+              - key: url
+                value: google.com/{preferred_lang}
   utter_welcome:
     - custom:
         answers:
@@ -3290,7 +3306,7 @@ responses:
               of {total_cases} cases of which {active_cases} are still active
               with {total_infected_critical} in critical condition,
               {total_recovered} are fully recovered and {total_deaths} did not survive.
-              \nIn the last update were identified {new_cases}
+              In the last update were identified {new_cases}
               new cases and {new_deaths} new fatalities.
   utter_covid_situation_deaths:
     - custom:
@@ -3356,7 +3372,7 @@ responses:
               of {total_cases} cases of which {active_cases} are still active
               with {total_infected_critical} in critical condition,
               {total_recovered} are fully recovered and {total_deaths} did not survive.
-              \nIn the last update were identified {new_cases}
+              In the last update were identified {new_cases}
               new cases and {new_deaths} new fatalities.
   utter_covid_situation_recovered:
     - custom:

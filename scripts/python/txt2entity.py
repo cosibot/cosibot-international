@@ -7,9 +7,10 @@ with open('e_country_new.txt', 'w') as e:
             country = entry[:-4]
             with open('lookup_tables/'+ entry, 'r') as c:
                 for x in range(2):
-                    e.write("- ["+c.readline()[:-1]+"]{\"entity\": \"country_code\", \"value\": \"" +country+"\"}\n" )
-
-            
+                    entity=c.readline()[:-1]
+                    if x==0:
+                        e.write("- ["+entity.lower()+"]{\"entity\": \"country_code\", \"value\": \"" +country+"\"}\n" )
+                    e.write("- ["+entity+"]{\"entity\": \"country_code\", \"value\": \"" +country+"\"}\n" )
 
 
 

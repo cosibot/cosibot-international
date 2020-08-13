@@ -35,6 +35,10 @@ slots:
     type: text
   bot_date_amazonas:
     type: text
+  bot_time:
+    type: text
+  bot_date:
+    type: text
   language_slot:
     type: categorical
     values:

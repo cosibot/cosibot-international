@@ -1,4 +1,5 @@
 bot/languages/*/models
+*/python/l_*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
