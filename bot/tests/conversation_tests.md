@@ -548,3 +548,23 @@
 ## vocative_you_welcome
 * vocative_you_welcome: No problemo.
   - utter_vocative_you_welcome
+
+
+## covid_immunity
+* covid_immunity: Can someone who has recovered from covid contract it again?
+  - utter_covid_immunity
+
+
+## prevention_vaccine
+* prevention_vaccine: Is there a vaccine, drug or treatment for COVID-19?
+  - utter_prevention_vaccine
+
+
+## ebola
+* ebola: Tell me about Ebola
+  - utter_ebola
+
+
+## myth_mosquitoes
+* myth_mosquitoes: Can the COVID-19 virus be spread through mosquito bites?
+  - utter_myth_mosquitoes
