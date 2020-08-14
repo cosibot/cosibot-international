@@ -142,6 +142,7 @@ actions:
 - utter_covid_info
 - utter_covid_meaning
 - utter_covid_mortality_rate
+- utter_covid_immunity
 - utter_covid_origins
 - utter_covid_pandemic
 - utter_covid_preexisting_illness
@@ -206,6 +207,7 @@ actions:
 - utter_spread_risk
 - utter_spread_surfaces_food_objects
 - utter_test_virus
+- utter_ebola
 - utter_test_who
 - utter_travel_after
 - utter_travel_before
@@ -234,6 +236,7 @@ actions:
 - utter_covid_situation_last_update
 - utter_covid_situation_recovered
 - utter_covid_situation_tested
+- utter_covid_schools
 - utter_fallback_first
 - utter_fallback_request_emptyanswer
 - utter_fallback_request_error
