@@ -14197,9 +14197,6 @@ languages/en/data/lookup_tables/social media.txt
 
 languages/en/data/lookup_tables/form of address.txt
 
-## lookup:anal
-
-languages/en/data/lookup_tables/anal.txt
 
 ## lookup:favorite
 
