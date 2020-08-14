@@ -764,6 +764,12 @@ responses:
           taxa de mortalidade por gripe sazonal.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
           target='_blank'>(1)</a></p>
   utter_covid_immunity:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
 #      @Translate
 #      - custom:
 #          answers:
@@ -820,6 +826,12 @@ responses:
         - label: Sintomas
           value: Sintomas
   utter_covid_aftereffects:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
 #      @Translate
 #      - custom:
 #          answers:
@@ -1428,9 +1440,19 @@ responses:
           muitas superfícies e podem pegar vírus. Uma vez contaminadas, as mãos
           podem transferir o vírus para seus olhos, nariz ou boca. A partir daí,
           o vírus pode entrar no seu corpo e deixá-lo doente.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''
-          target=''_blank''>(1)</a></p>"
-
-          utter_prevention_touch,custom_0,hints,{''type'': ''hints'''
+          target=''_blank''>(1)</a></p>'
+      - type: hints
+        options:
+        - label: Sobre COVID-19
+          value: Sobre COVID-19
+        - label: Medidas preventivas
+          value: Medidas preventivas
+        - label: Transmissão
+          value: Transmissão
+        - label: Sintomas
+          value: Sintomas
+        - label: Mitos
+          value: Mitos
   utter_prevention_informed:
   - custom:
       answers:
@@ -1494,6 +1516,12 @@ responses:
         - label: Mitos
           value: Mitos
   utter_prevention_vaccine:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
 #      @Translate
 #      - custom:
 #          answers:
@@ -1960,6 +1988,12 @@ responses:
           adaptadas à situação a nível nacional e local.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
           target='_blank'>(1)</a></p>
   utter_ebola:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
 #      @Translate
 #      - custom:
 #          answers:
@@ -2574,6 +2608,12 @@ responses:
           href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
           target='_blank'>(1)</a></p>
   utter_myth_mosquitoes:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
 #      @Translate
 #      - custom:
 #          answers:
@@ -3150,6 +3190,12 @@ responses:
         text: A última atualização de dados indica que em {country}, {total_tests}
           testes foram realizados desde o início da coleta de dados.
   utter_covid_schools:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
 #      @Translate
 #      - custom:
 #          answers:

@@ -219,7 +219,7 @@ About Covid-19
 
 ## ebola
 * ebola
-  - ebola
+  - utter_ebola
 
 
 <!------------------ 

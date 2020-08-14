@@ -3786,6 +3786,7 @@
 - Infected count
 - Number of cases
 - Number of cases in [Baotou]{"entity": "geography", "value": "town"}
+- Number of cases in the [Philippines]{"entity": "country_code", "value": "PH"}
 - Number of cases in the us
 - Number of cases worldwide.
 - Number of confirmed cases
@@ -3796,6 +3797,7 @@
 - Number of infected in [Saudi Arabia]{"entity": "country_code", "value": "SA"}
 - Situation globally
 - Statistics of [Grevenbroich]{"entity": "geography", "value": "town"}
+- Statistics of the [Ascension Island]{"entity": "country_code", "value": "SH"}
 - Statistics.
 - Tell me the actual numbers.
 - Total confirmed cases
@@ -3819,6 +3821,7 @@
 - global
 - hi Helen send me some statistics about [COVID-19]{"entity": "virus", "value": "COVID"}
 - how is the situation right now in [Portugal]{"entity": "country_code", "value": "PT"}?
+- how is the situation right now in the [british virgin islands]{"entity": "country_code", "value": "VG"}?
 - how is the situation right now?
 - how many cases are out there?
 - how many cases are there out there?
@@ -3846,6 +3849,7 @@
 - How many people died corona
 - How many people have been diagnosed with Covid-19
 - What is the number of covid 19 cases in [Malta]{"entity": "country_code", "value": "MT"}
+- What is the number of covid 19 cases in the [Kingdom of Thailand]{"entity": "country_code", "value": "TH"}
 - Word's situation
 - World's situation
 
@@ -3853,26 +3857,29 @@
 ## intent:covid_situation_deaths
 
 - Deaths in [Cambodge]{"entity": "country_code", "value": "KH"}.
+- Deaths in the [Republic of South Africa]{"entity": "country_code", "value": "ZA"}
 - How many deaths are in [Gànnaar]{"entity": "country_code", "value": "MR"}?
 - How many deaths can you count in the [Ilhas Marianas do Norte]{"entity": "country_code", "value": "MP"} alone?
-- How many deaths in [Estado de Israel]{"entity": "country_code", "value": "IL"}?
+- How many deaths in the [Estado de Israel]{"entity": "country_code", "value": "IL"}?
 - How many died in [Principauté de Monaco]{"entity": "country_code", "value": "MC"}?
 - How many people died in [South Korea]{"entity": "country_code", "value": "KR"}?
 - Number of deaths [Mauritius]{"entity": "country_code", "value": "MU"}.
 - Number of deaths in [Dziko la Malaŵi]{"entity": "country_code", "value": "MW"}?
+- Number of deaths in the [Republic of Burundi]{"entity": "country_code", "value": "BI"}?
 - how many covid 19 death cases in [Tajiquistão]{"entity": "country_code", "value": "TJ"}?
 
 ## intent:covid_situation_infected
 
 - Active cases in [Republic of the Sudan]{"entity": "country_code", "value": "SD"}.
 - How many active cases are in [Česko]{"entity": "country_code", "value": "CZ"}?
-- How many active cases in [Kingdom of Bahrain]{"entity": "country_code", "value": "BH"}?
+- How many active cases in the [Kingdom of Bahrain]{"entity": "country_code", "value": "BH"}?
 - How many active cases of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
 - How many cases in
 - How many cases in [Großherzogtum Luxemburg]{"entity": "country_code", "value": "LU"}
 - How many coronavirus case are in [Ilhas Geórgia do Sul e Sanduíche do Sul]{"entity": "country_code", "value": "GS"}
 - How many infected are in [The Western Kingdom]{"entity": "country_code", "value": "MA"}?
-- How many infected in [Repiblik D Ayiti]{"entity": "country_code", "value": "HT"}?
+- How many infected in the [Japan]{"entity": "country_code", "value": "JP"}?
+- How many infected in the [Repiblik D Ayiti]{"entity": "country_code", "value": "HT"}?
 - How many people are infected in [Rephaboliki ya Afrika Borwa]{"entity": "country_code", "value": "ZA"} to this date?
 - How many people are infected in [Pākistān]{"entity": "country_code", "value": "PK"}?
 - How many people are with covid in [République du Rwanda]{"entity": "country_code", "value": "RW"}
@@ -3884,6 +3891,7 @@
 
 - Critical cases in [Tshād]{"entity": "country_code", "value": "TD"}.
 - Critical in [Kingdom of Cambodia]{"entity": "country_code", "value": "KH"}.
+- Critical in the [Kingdom of Cambodia]{"entity": "country_code", "value": "KH"}.
 - Critical state [Sankattan Siha Na Islas Mariånas]{"entity": "country_code", "value": "MP"}.
 - Critical state in [Algeria]{"entity": "country_code", "value": "DZ"}?
 - Critically infected in [Turcas]{"entity": "country_code", "value": "TC"}?
@@ -3891,10 +3899,11 @@
 - How many critical are in [España]{"entity": "country_code", "value": "ES"}?
 - How many critical cases are in [Alanda]{"entity": "country_code", "value": "AX"}?
 - How many critical cases in [Eslovênia]{"entity": "country_code", "value": "SI"}?
+- How many critical cases in the [State of Palestine]{"entity": "country_code", "value": "PS"}?
 - How many critically infected in [Turcomenistão]{"entity": "country_code", "value": "TM"}?
 - How many people are in a critical state [Atol Johnston]{"entity": "country_code", "value": "UM"}?
 - How many people are in a critical state in [República de Maurício]{"entity": "country_code", "value": "MU"}?
-- How many people are in serious condition in [República Popular da China]{"entity": "country_code", "value": "CN"}
+- How many people are in serious condition in the [República Popular da China]{"entity": "country_code", "value": "CN"}
 - How many people in critical state in [Republic of Belarus]{"entity": "country_code", "value": "BY"}?
 - Infected in critical state in [Maláui]{"entity": "country_code", "value": "MW"}.
 - People in critical case in [Saint Lucia]{"entity": "country_code", "value": "LC"}.
@@ -3902,6 +3911,7 @@
 - how many seriously infected people there in the [Quênia]{"entity": "country_code", "value": "KE"}?
 - how many seriously infected people are in [Česko]{"entity": "country_code", "value": "CZ"}?
 - how many seriously infected people of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
+- how many seriously infected people of covid in the [Oriental Republic of Uruguay]{"entity": "country_code", "value": "UY"}?
 - how many seriously infected people in [España]{"entity": "country_code", "value": "ES"}?
 
 ## intent:covid_situation_last_update
@@ -3918,6 +3928,7 @@
 - Last data of deaths in [Commonwealth Téél Falúw kka Efáng llól Marianas]{"entity": "country_code", "value": "MP"}.
 - Last update in [Mahori]{"entity": "country_code", "value": "YT"}.
 - Last update of deaths in [República da Finlândia]{"entity": "country_code", "value": "FI"}.
+- Last update of deaths in the [República da Finlândia]{"entity": "country_code", "value": "FI"}.
 - Last update on infected in [Swaziland]{"entity": "country_code", "value": "SZ"}.
 - Latest reports in [România]{"entity": "country_code", "value": "RO"}.
 - New cases and deaths in [Tuvalu]{"entity": "country_code", "value": "TV"}.
@@ -3930,10 +3941,12 @@
 - What are todays values for [Aruba]{"entity": "country_code", "value": "AW"}
 - What are todays values in [España]{"entity": "country_code", "value": "ES"}
 - What are todays values at [Česko]{"entity": "country_code", "value": "CZ"}
+- What are todays values at the [Republic of Seychelles]{"entity": "country_code", "value": "SC"}
 - What are todays values of covid in [Guernesei]{"entity": "country_code", "value": "GG"}
 - i would like to know the current numbers of [Antártida]{"entity": "country_code", "value": "AQ"}.
 - i would like to know the current numbers at [Pākistān]{"entity": "country_code", "value": "PK"}.
 - i would like to know the current numbers of covid in [Kingdom of Cambodia]{"entity": "country_code", "value": "KH"}.
+- i would like to know the current numbers of covid in the [Kingdom of Cambodia]{"entity": "country_code", "value": "KH"}.
 - situation in [Murutaane]{"entity": "country_code", "value": "MR"}
 - situation at [Saint Lucia]{"entity": "country_code", "value": "LC"}.
 - situation covid in [Guinea-Bissau]{"entity": "country_code", "value": "GW"}.
@@ -3945,11 +3958,11 @@
 - How many people have recorvered in [Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa]{"entity": "country_code", "value": "ET"}?
 - How many people recovered in [Hanguk]{"entity": "country_code", "value": "KR"}?
 - How many recovered in [Republic of Cabo Verde]{"entity": "country_code", "value": "CV"}?
-- How many recoveries in [Republic of Mali]{"entity": "country_code", "value": "ML"}?
+- How many recoveries in the [Republic of Mali]{"entity": "country_code", "value": "ML"}?
 - How many recoveries to this date in [Republic of Chile]{"entity": "country_code", "value": "CL"}?
 - Number of recovered in [Commonwealth of Puerto Rico]{"entity": "country_code", "value": "PR"}.
 - Number of recoveries in [Schwiiz]{"entity": "country_code", "value": "CH"}.
-- Recovered [Mexican United States]{"entity": "country_code", "value": "MX"}.
+- Recovered in the [Mexican United States]{"entity": "country_code", "value": "MX"}.
 - Recovered in [Burúndi]{"entity": "country_code", "value": "BI"}.
 - Recovered of covid in [Guinea-Bissau]{"entity": "country_code", "value": "GW"}.
 - Recoveries in [Republica Democrática da Argélia]{"entity": "country_code", "value": "DZ"}.
@@ -3967,6 +3980,7 @@
 - How many people were tested in [Śrī Laṃkā]{"entity": "country_code", "value": "LK"}?
 - How many test in covid 19 in [Republic of Peru]{"entity": "country_code", "value": "PE"}
 - How many tested [Republic of North Macedonia]{"entity": "country_code", "value": "MK"}?
+- How many tested the [Republic of North Macedonia]{"entity": "country_code", "value": "MK"}?
 - How many tested are in [República do Equador]{"entity": "country_code", "value": "EC"}?
 - How many tested in [al-Kuwait]{"entity": "country_code", "value": "KW"}?
 - How many tests in [Bielorrússia]{"entity": "country_code", "value": "BY"}?
@@ -3975,6 +3989,7 @@
 - Tested in [Cameroun]{"entity": "country_code", "value": "CM"}.
 - Tests in [Porto Rico]{"entity": "country_code", "value": "PR"}
 - Total number of tested in [Sénégal]{"entity": "country_code", "value": "SN"}.
+- Total number of tested in the [Gabonese Republic]{"entity": "country_code", "value": "GA"}.
 - Total number of tests made in [República de Trindade e Tobago]{"entity": "country_code", "value": "TT"}.
 - Total tested in [Ilhas Faroé]{"entity": "country_code", "value": "FO"}.
 - Total tests in [Union of the Comoros]{"entity": "country_code", "value": "KM"}?

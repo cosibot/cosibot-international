@@ -2999,8 +2999,8 @@
 - Crítico em [Chad]{"entity": "country_code", "value": "TD"}.
 - Estado crítico [República da Geórgia]{"entity": "country_code", "value": "GE"}.
 - Estado crítico na [Republica do Afeganistão]{"entity": "country_code", "value": "AF"}?
-- casos de ifectados críticos em Palaos]{"entity": "country_code", "value": "PW"}?
-- Acha que há muitos infectados criticos Filipinas]{"entity": "country_code", "value": "PH"}?
+- casos de ifectados críticos em [Palaos]{"entity": "country_code", "value": "PW"}?
+- Acha que há muitos infectados criticos [Filipinas]{"entity": "country_code", "value": "PH"}?
 - Quantos críticos estão em [Curaçau]{"entity": "country_code", "value": "CW"}?
 - Quantos casos críticos existem em [República do Iêmen]{"entity": "country_code", "value": "YE"}?
 - Quantos casos críticos em [Federação Russa]{"entity": "country_code", "value": "RU"}?
