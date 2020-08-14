@@ -4279,7 +4279,7 @@
 - should I be concerned with the virus?
 - will I die
 
-## intent:en_ebola
+## intent:ebola
 
 - Ebola
 - Ebola virus disease

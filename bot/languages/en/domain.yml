@@ -128,7 +128,7 @@ actions:
   - utter_comment_racist
   - utter_comment_smart
   - utter_coronavirus_info
-  - utter_covid_aftereffects_immunity
+  - utter_covid_aftereffects
   - utter_covid_babys_children
   - utter_covid_cosibot
   - utter_covid_crisis_howlong
@@ -3504,6 +3504,17 @@ responses:
           - type: text
             text: The latest available data indicates that in {country},
               {total_tests} tests were made since records began.
+  utter_covid_schools:
+    - custom:
+        answers:
+          - type: ssml
+            ssml:
+              <speak>I am unable to give you a concrete answer since each country has
+              its own schedule regarding  the re-opening of schools.</speak>
+          - type: html
+            text:
+              <p>I am unable to give you a concrete answer since each country has its
+              own schedule regarding  the re-opening of schools.</p>
   utter_fallback_first:
     - custom:
         answers:
@@ -3586,14 +3597,4 @@ responses:
           - type: text
             text: This is the second answer.
 
-  utter_covid_schools:
-    - custom:
-        answers:
-          - type: ssml
-            ssml:
-              <speak>I am unable to give you a concrete answer since each country has
-              its own schedule regarding  the re-opening of schools.</speak>
-          - type: html
-            text:
-              <p>I am unable to give you a concrete answer since each country has its
-              own schedule regarding  the re-opening of schools.</p>
+

@@ -1,0 +1,477 @@
+ ____   ___  ____   ___           _    ___ 
+|  _ \ / _ \| __ ) / _ \         / \  |_ _|
+| |_) | | | |  _ \| | | |       / _ \  | | 
+|  _ <| |_| | |_) | |_| |  _   / ___ \ | | 
+|_| \_\\___/|____/ \___/  (_) /_/   \_\___|
+Bot Management Tool             robo-ai.com
+
+No language was provided. Will identify differences for                    all available language pairs inside provided bot folder.
+Starting diff comparison for the following bots: 
+['./languages/en_old', './languages/br', './languages/en']
+
+ ***   ***   ***
+
+Comparing en_old and br bots:
+ ------
+ -- The intents differ by:
+--- 
++++ 
+@@ -82,12 +82,23 @@
+ mask_general
+ mask_use_after
+ mask_use_put
++mask_visors
+ myth_alcohol
+ myth_cold_weather
+ myth_hot_bath
+ myth_packages
+ myth_transmission_hot_areas
+-myths_conspiracy_fakenews
++myth_conspiracy_fakenews
++myth_influenza
++myth_air_conditioning
++myth_5G
++myth_hand_dryer
++myth_uv_lamps
++myth_thermal_scanner
++myth_antibiotics
++myth_pneumonia_vaccine
++myth_saline
++myth_sesame_oil
+ prevention_clean_hands
+ prevention_disinfection
+ prevention_distance
+@@ -134,16 +145,4 @@
+ vocative_thank_you
+ vocative_yes
+ vocative_you_welcome
+-myth_influenza
+-myth_air_conditioning
+-myth_5G
+-hand_dryer
+-uv_lamp
+-thermal_scanner
+-antibiotics
+-pneumonia_vaccine
+-saline
+-garlic
+-sesame_oil
+-visors
+ bot_change_bot
+ -- The actions differ by:
+--- 
++++ 
+@@ -5,8 +5,6 @@
+ action_change_preferred_language
+ action_search_stats
+ action_check_Bot_Introduced
+-utter_ask_country
+-utter_ask_country_yes
+ utter_bot_appearance
+ utter_bot_availability
+ utter_bot_books
+@@ -87,7 +85,7 @@
+ utter_myth_thermal_scanner
+ utter_myth_transmission_hot_areas
+ utter_myth_uv_lamps
+-utter_myths_conspiracy_fakenews
++utter_myth_conspiracy_fakenews
+ utter_prevenion_medical_attention
+ utter_prevention_clean_hands
+ utter_prevention_disinfection
+ -- The slots differ by:
+--- 
++++ 
+@@ -1,8 +1,17 @@
+ world_region
+ total_nr_tries
+ bot_name
++bot_location
+ bot_introduced
+ bot_version
++bot_time_acre
++bot_time_fnoronha
++bot_time_brasilia
++bot_time_amazonas
++bot_date_acre
++bot_date_fnoronha
++bot_date_brasilia
++bot_date_amazonas
+ bot_time
+ bot_date
+ language_slot
+@@ -18,3 +27,4 @@
+ total_tests
+ total_infected_critical
+ search_successful
++virus
+ -- The responses differ by:
+--- 
++++ 
+@@ -47,7 +47,6 @@
+ utter_vocative_you_welcome
+ utter_vocative_call
+ utter_vocative_help
+-utter_ask_country_yes
+ utter_features_time
+ utter_features_date
+ utter_prevention_respiratory_hygiene
+@@ -108,7 +107,7 @@
+ utter_quarantine_general
+ utter_myth_transmission_hot_areas
+ utter_myth_garlic
+-utter_myths_conspiracy_fakenews
++utter_myth_conspiracy_fakenews
+ utter_myth_thermal_scanner
+ utter_myth_5g
+ utter_myth_antibiotics
+ ------
+End of en_old                    and br bots comparison.
+ *** 
+
+Comparing en_old and en bots:
+ ------
+ -- The intents differ by:
+--- 
++++ 
+@@ -43,7 +43,7 @@
+ comment_racist
+ comment_smart
+ coronavirus_info
+-covid_aftereffects_immunity
++covid_aftereffects
+ covid_babys_children
+ covid_cosibot
+ covid_crisis_howlong
+@@ -52,6 +52,7 @@
+ covid_disease_process
+ covid_duration
+ covid_food
++covid_immunity
+ covid_incubation
+ covid_info
+ covid_meaning
+@@ -61,6 +62,7 @@
+ covid_preexisting_illness
+ covid_procedure_after_infection
+ covid_sars
++covid_schools
+ covid_sex
+ covid_situation
+ covid_situation_deaths
+@@ -73,6 +75,7 @@
+ covid_symptoms
+ covid_treatment
+ covid_worry
++ebola
+ economy_consequences
+ features_date
+ features_time
+@@ -82,12 +85,25 @@
+ mask_general
+ mask_use_after
+ mask_use_put
++mask_visors
+ myth_alcohol
+ myth_cold_weather
++myth_garlic
+ myth_hot_bath
++myth_mosquitoes
+ myth_packages
+ myth_transmission_hot_areas
+-myths_conspiracy_fakenews
++myth_conspiracy_fakenews
++myth_influenza
++myth_air_conditioning
++myth_5G
++myth_sesame_oil
++myth_hand_dryer
++myth_uv_lamps
++myth_thermal_scanner
++myth_antibiotics
++myth_pneumonia_vaccine
++myth_saline
+ prevention_clean_hands
+ prevention_disinfection
+ prevention_distance
+@@ -99,6 +115,7 @@
+ prevention_medicine
+ prevention_respiratory_hygiene
+ prevention_touch
++prevention_vaccine
+ quarantine_control
+ quarantine_dogwalking
+ quarantine_dos_and_donts
+@@ -134,16 +151,4 @@
+ vocative_thank_you
+ vocative_yes
+ vocative_you_welcome
+-myth_influenza
+-myth_air_conditioning
+-myth_5G
+-hand_dryer
+-uv_lamp
+-thermal_scanner
+-antibiotics
+-pneumonia_vaccine
+-saline
+-garlic
+-sesame_oil
+-visors
+ bot_change_bot
+ -- The actions differ by:
+--- 
++++ 
+@@ -5,8 +5,6 @@
+ action_change_preferred_language
+ action_search_stats
+ action_check_Bot_Introduced
+-utter_ask_country
+-utter_ask_country_yes
+ utter_bot_appearance
+ utter_bot_availability
+ utter_bot_books
+@@ -87,7 +85,8 @@
+ utter_myth_thermal_scanner
+ utter_myth_transmission_hot_areas
+ utter_myth_uv_lamps
+-utter_myths_conspiracy_fakenews
++utter_myth_conspiracy_fakenews
++utter_myth_mosquitoes
+ utter_prevenion_medical_attention
+ utter_prevention_clean_hands
+ utter_prevention_disinfection
+ -- The slots differ by:
+--- 
++++ 
+@@ -1,8 +1,17 @@
+ world_region
+ total_nr_tries
+ bot_name
++bot_location
+ bot_introduced
+ bot_version
++bot_time_acre
++bot_time_fnoronha
++bot_time_brasilia
++bot_time_amazonas
++bot_date_acre
++bot_date_fnoronha
++bot_date_brasilia
++bot_date_amazonas
+ bot_time
+ bot_date
+ language_slot
+@@ -18,3 +27,4 @@
+ total_tests
+ total_infected_critical
+ search_successful
++virus
+ -- The responses differ by:
+--- 
++++ 
+@@ -18,8 +18,9 @@
+ utter_economy_consequences
+ utter_covid_pandemic
+ utter_covid_mortality_rate
++utter_covid_immunity
+ utter_covid_crisis_howlong
+-utter_covid_aftereffects_immunity
++utter_covid_aftereffects
+ utter_covid_disease_process
+ utter_covid_worry
+ utter_covid_sex
+@@ -47,13 +48,13 @@
+ utter_vocative_you_welcome
+ utter_vocative_call
+ utter_vocative_help
+-utter_ask_country_yes
+ utter_features_time
+ utter_features_date
+ utter_prevention_respiratory_hygiene
+ utter_prevention_touch
+ utter_prevention_informed
+ utter_prevention_distance
++utter_prevention_vaccine
+ utter_prevention_clean_hands
+ utter_prevention_disinfection
+ utter_prevention_home
+@@ -61,7 +62,6 @@
+ utter_prevention_measures
+ utter_prevenion_medical_attention
+ utter_prevention_general
+-utter_ask_country
+ utter_bot_capabilities
+ utter_bot_fear
+ utter_bot_music
+@@ -80,6 +80,7 @@
+ utter_bot_name
+ utter_test_who
+ utter_test_virus
++utter_ebola
+ utter_cc_moon
+ utter_cc_newspaper
+ utter_cc_chicken_egg
+@@ -108,9 +109,10 @@
+ utter_quarantine_general
+ utter_myth_transmission_hot_areas
+ utter_myth_garlic
+-utter_myths_conspiracy_fakenews
++utter_myth_conspiracy_fakenews
+ utter_myth_thermal_scanner
+ utter_myth_5g
++utter_myth_mosquitoes
+ utter_myth_antibiotics
+ utter_myth_packages
+ utter_myth_hot_bath
+@@ -143,3 +145,6 @@
+ utter_fallback_request_hasdata
+ utter_fallback_request_emptyanswer
+ utter_fallback_request_error
++utter_test_caroussel
++utter_test 2
++utter_covid_schools
+ ------
+End of en_old                    and en bots comparison.
+ *** 
+
+Comparing br and en bots:
+ ------
+ -- The intents differ by:
+--- 
++++ 
+@@ -43,7 +43,7 @@
+ comment_racist
+ comment_smart
+ coronavirus_info
+-covid_aftereffects_immunity
++covid_aftereffects
+ covid_babys_children
+ covid_cosibot
+ covid_crisis_howlong
+@@ -52,6 +52,7 @@
+ covid_disease_process
+ covid_duration
+ covid_food
++covid_immunity
+ covid_incubation
+ covid_info
+ covid_meaning
+@@ -61,6 +62,7 @@
+ covid_preexisting_illness
+ covid_procedure_after_infection
+ covid_sars
++covid_schools
+ covid_sex
+ covid_situation
+ covid_situation_deaths
+@@ -73,6 +75,7 @@
+ covid_symptoms
+ covid_treatment
+ covid_worry
++ebola
+ economy_consequences
+ features_date
+ features_time
+@@ -85,20 +88,22 @@
+ mask_visors
+ myth_alcohol
+ myth_cold_weather
++myth_garlic
+ myth_hot_bath
++myth_mosquitoes
+ myth_packages
+ myth_transmission_hot_areas
+ myth_conspiracy_fakenews
+ myth_influenza
+ myth_air_conditioning
+ myth_5G
++myth_sesame_oil
+ myth_hand_dryer
+ myth_uv_lamps
+ myth_thermal_scanner
+ myth_antibiotics
+ myth_pneumonia_vaccine
+ myth_saline
+-myth_sesame_oil
+ prevention_clean_hands
+ prevention_disinfection
+ prevention_distance
+@@ -110,6 +115,7 @@
+ prevention_medicine
+ prevention_respiratory_hygiene
+ prevention_touch
++prevention_vaccine
+ quarantine_control
+ quarantine_dogwalking
+ quarantine_dos_and_donts
+ -- The actions differ by:
+--- 
++++ 
+@@ -86,6 +86,7 @@
+ utter_myth_transmission_hot_areas
+ utter_myth_uv_lamps
+ utter_myth_conspiracy_fakenews
++utter_myth_mosquitoes
+ utter_prevenion_medical_attention
+ utter_prevention_clean_hands
+ utter_prevention_disinfection
+ -- The slots differ by:
+ -- The responses differ by:
+--- 
++++ 
+@@ -18,8 +18,9 @@
+ utter_economy_consequences
+ utter_covid_pandemic
+ utter_covid_mortality_rate
++utter_covid_immunity
+ utter_covid_crisis_howlong
+-utter_covid_aftereffects_immunity
++utter_covid_aftereffects
+ utter_covid_disease_process
+ utter_covid_worry
+ utter_covid_sex
+@@ -53,6 +54,7 @@
+ utter_prevention_touch
+ utter_prevention_informed
+ utter_prevention_distance
++utter_prevention_vaccine
+ utter_prevention_clean_hands
+ utter_prevention_disinfection
+ utter_prevention_home
+@@ -60,7 +62,6 @@
+ utter_prevention_measures
+ utter_prevenion_medical_attention
+ utter_prevention_general
+-utter_ask_country
+ utter_bot_capabilities
+ utter_bot_fear
+ utter_bot_music
+@@ -79,6 +80,7 @@
+ utter_bot_name
+ utter_test_who
+ utter_test_virus
++utter_ebola
+ utter_cc_moon
+ utter_cc_newspaper
+ utter_cc_chicken_egg
+@@ -110,6 +112,7 @@
+ utter_myth_conspiracy_fakenews
+ utter_myth_thermal_scanner
+ utter_myth_5g
++utter_myth_mosquitoes
+ utter_myth_antibiotics
+ utter_myth_packages
+ utter_myth_hot_bath
+@@ -142,3 +145,6 @@
+ utter_fallback_request_hasdata
+ utter_fallback_request_emptyanswer
+ utter_fallback_request_error
++utter_test_caroussel
++utter_test 2
++utter_covid_schools
+ ------
+End of br                    and en bots comparison.
+ *** 
+
+*** Difference comparison succeded! ***

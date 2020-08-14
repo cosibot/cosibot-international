@@ -2252,18 +2252,17 @@
 - E quanto ao coronavírus
 - E quanto aos coronavírus
 
-## intent:covid_aftereffects_immunity
-- Depois de ter sido infectado, sou imune ao vírus?
-- Depois de se recuperarem, as pessoas se tornam imunes?
-- Eu posso ficar doente duas vezes?
-- Eu posso me reinfectar?
-- Eu estou imune depois de me recuperar?
-- Se eu já tive isso, eu sou imune e não pego de novo?
-- Alguém que se recuperou agora está imune?
-- Depois de ser infectado estou imune?
-- Depois de ser infectado eu estou imune?
-- Após ter sido infectado, fico imune ao vírus?
-- eu posso ficar imune?
+## intent:covid_aftereffects
+<!--
+@Translate
+- After effect
+- After effects
+- Can lungs heal back after Corona has damaged them
+- Can lungs heal back after Corona has damaged them.........when someone recovers
+- Do the lungs recover after an infection
+- What are the after effects?
+- What does corona to your lungs?
+-->
 
 ## intent:covid_babys_children
 - As crianças são afetadas?
@@ -2350,6 +2349,33 @@
 - Contaminação dos alimentos.
 - A contaminação se espalha através dos alimentos.
 - Os alimentos podem estar contaminados?
+
+## intent:covid_immunity
+<!--
+@Translate
+- After I've been infected, I'm immune to the virus?
+- After recovering, people become immune?
+- Can I person get sick twice?
+- Can I reinfected myself?
+- Can a person can be affected twice by corona virus?
+- Can one get Coronavirus again?
+- Can one grt it again
+- Can someone who has healed from the virus get infected again
+- Can someone who has recovered from covid contract it again
+- I am immune after recovering?
+- I wanna know if some one who recovered from covid 19 can be infected again
+- If I have had this am I then immune and not get it again?
+- Is it possible for a recovered person from covid 19 to contract the virus
+  again?
+- Post covid infection to family what prequation to be take
+- Reinfection
+- Someone who recovered is now immune?
+- Why does Covid19 not infecting The recovered patients
+- after being infected am I immune?
+- after being infected am I imune?
+- after getting infected, can I be immune to the virus?
+- can I be immune?
+-->
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -2755,6 +2781,45 @@
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+
+## intent:covid_schools
+<!--
+@Translate
+- About school
+- Are students going back to school
+- Do u think school might resume
+- How are they going to do screening at schools?
+- How are they going to test at schools?
+- I just want to ask when we are going back to school
+- School
+- What about school?
+- What are the measures that can be taken to prevent the spread of the virus in
+  schools in case they are opened
+- When are they going to open school
+- When are they opening schools
+- When are they planning to resume schools
+- When are we going to resume back to school
+- When are we resuming school
+- When did schools we reopen across the country?
+- When is school open
+- When is school opening
+- When is school reopen
+- When is school reopening
+- When is school resuming
+- When is schools reopening in [Nigeria]{"entity": "country_code", "value": "NG"}?
+- When is the reopening of schools that were closed due to the virus??
+- When is the reopening of schools??
+- When will school open?
+- When will school resume
+- When will schools open in [Uganda]{"entity": "country_code", "value": "UG"}
+- When will the schools open
+- When will we go back to school
+- Which day will school be open
+- Why did other societies reopened such as market, football, churches, mosques
+  and movement And schools didn't why?
+- Why reopening school if you know its risky
+- when probably do you think all schools and institutes will be reopened
+-->
 
 ## intent:covid_sex
 - Também pode transmitir através do sexo?
@@ -3302,6 +3367,17 @@
 - Devo me preocupar com o vírus?
 - eu vou morrer
 
+## intent:ebola
+<!--
+@Translate
+- Ebola
+- Ebola virus disease
+- I need to know more about corona brother Ebola
+- Tell me about Ebola
+- What about Ebola
+- What is ebola
+-->
+
 ## intent:economy_consequences
 - Você pode responder perguntas relacionadas à economia?
 - Economia 
@@ -3830,6 +3906,18 @@
 - O banho quente previne a doença [novo vírus corona]{"entity": "virus", "value": "COVID"}.
 - O banho quente impede o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
 - A água quente pode matar o vírus?
+
+## intent:myth_mosquitoes
+<!--
+@Translate
+- Can mosquito transmit corona
+- Can the COVID-19 virus be spread through mosquito bites?
+- Could the coronavirus could be transmitted by mosquitoes?
+- Mosquitos and coronavirus
+- mosquito
+- mosquitoes
+- mosquitos
+-->
 
 ## intent:myth_garlic
 - Sobre alho
@@ -4509,6 +4597,79 @@
 - Por que eu deveria evitar tocar meu rosto?
 - Por que eu deveria evitar tocar minha boca?
 - Por que eu deveria evitar tocar meu nariz?
+
+## intent:prevention_vaccine
+<!--
+@Translate
+- A vaccine must be found
+- About a vaccine for COVID-19.
+- About a vaccine to treat COVID-19.
+- About a vaccine, drug or treatment for COVID-19.
+- About a vaccine, drug or treatment.
+- About a vaccine.
+- About vaccine
+- About vaccines for COVID-19.
+- About vaccines to treat COVID-19.
+- About vaccines, drug or treatment for COVID-19.
+- About vaccines, drug or treatment.
+- About vaccines.
+- Any update about the vaccine?
+- Any vaccines for covid-19
+- Explain the status of covid 19 vaccine
+- Has a vaccine for corona virus been established?
+- Hey ...am called Joseph from Uganda....my questions is...is there any vaccine
+  at hand that their working on to stop the spread of covid-19
+- How far hv doctors gone with issue of covid 19 vaccine?
+- How far with the vaccines
+- Information about the promising vaccine
+- Is it true that the vaccine will be out in September
+- Is the vaccine found
+- Is there a vaccine discovered yet
+- Is there a vaccine for COVID-19?
+- Is there a vaccine to treat COVID-19?
+- Is there a vaccine, drug or treatment for COVID-19?
+- Is there a vaccine, drug or treatment?
+- Is there a vaccine?
+- Is there any vaccine found for this pandemic
+- Is there any vacine for this virus?
+- Is there no vaccine yet
+- Maybe one other thing I would like to know is about the vaccine how far they
+  have gone with it and how many types are being processed
+- No vaccine?
+- Ok Helen When can a vaccine be produced by some countries
+- Ok but there isn't a vaccine or a solution for the problem
+- Please there an vaccine to stop it
+- So any vaccine yet
+- So is there hope that the vaccine can be found by end of this year
+- Tell me vaccine of COVID-19
+- Thank you Helen Has uganda got a vaccine against the disease ?
+- The vaccine must be found I said how didn't you understand my request
+- The vaccine must be found I said how didn't you understand my request????
+- They is still no vaccine for covid 19
+- Vaccines
+- Whare is vaccine? Hare need!
+- What can you tell me about the hypothesis of a vaccine for Coronavirus?
+- When can a vaccine be produced by some countries
+- When is the vaccine hope to be found
+- When the vaccine will come
+- When the vaccine will release?
+- When vaccine is com out
+- When will the Corona vaccine come?
+- When will the vaccines be available?
+- When will the vaccines be available? Am Alfred
+- Where is vaccine of corona virus?
+- Which vaccines have passed stage 3 of the final testing already
+- Will be vaccine available in the month of july
+- Yes. But is there a vaccine?
+- are there a vacine?
+- are there vaccines to prevent the disease?
+- covid vaccine
+- covid-19 vaccine
+- does a vaccine exist?
+- how long will it take for a vaccine to come out in the market?
+- is there any hope in the future about vaccine
+- what about vaccine
+-->
 
 ## intent:quarantine_control
 - Como se controla a quarentena?

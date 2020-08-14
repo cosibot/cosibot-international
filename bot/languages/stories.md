@@ -65,6 +65,7 @@ Greetings
 <!------------------ 
 Traveling 
 ------------------->
+
 ## travel_before
 * travel_before
   - utter_travel_before
@@ -82,6 +83,7 @@ Traveling
 <!------------------ 
 About Covid-19 
 ------------------->
+
 ## covid_cosibot
 * covid_cosibot
   - utter_covid_cosibot
@@ -100,6 +102,7 @@ About Covid-19
 * covid_situation
   - utter_covid_current_statistics
 -->
+
 ## coronavirus_info
 * coronavirus_info
   - utter_coronavirus_info
@@ -182,9 +185,13 @@ About Covid-19
 * covid_disease_process
   - utter_covid_disease_process
 
-## covid_aftereffects_immunity
-* covid_aftereffects_immunity
-  - utter_covid_aftereffects_immunity
+## covid_aftereffects
+* covid_aftereffects
+  - utter_covid_aftereffects
+
+## covid_immunity
+* covid_immunity
+  - utter_covid_immunity
 
 ## covid_preexisting_illness
 * covid_preexisting_illness
@@ -206,11 +213,19 @@ About Covid-19
 * covid_sex
   - utter_covid_sex
 
+## covid_schools
+* covid_schools
+  - utter_covid_schools
+
+## ebola
+* ebola
+  - ebola
 
 
 <!------------------ 
 COVID-19 Prevention
 ------------------->
+
 ## prevention_general
 * prevention_general
   - utter_prevention_general
@@ -255,11 +270,15 @@ COVID-19 Prevention
 * prevention_disinfection
   - utter_prevention_disinfection
 
+## prevention_vaccine
+* prevention_vaccine
+  - utter_prevention_vaccine
 
 
 <!------------------ 
 Myths
 ------------------->
+
 ## myth_air_conditioning
 * myth_air_conditioning{"air_conditioning": "AC"}
   - utter_myth_air_conditioning
@@ -325,10 +344,14 @@ Myths
   - utter_myth_conspiracy_fakenews
 
 
+## myth_mosquitoes
+* myth_mosquitoes
+  - utter_myth_mosquitoes
 
 <!------------------ 
 COVID-19 Spread
 ------------------->
+
 ## spread_general
 * spread_general
   - utter_spread_general
@@ -366,6 +389,7 @@ COVID-19 Spread
 <!------------------ 
 COVID-19 Spread
 ------------------->
+
 ## quarantine_general
 * quarantine_general
   - utter_quarantine_general
@@ -399,6 +423,7 @@ COVID-19 Spread
 <!------------------ 
 Medical Masks
 ------------------->
+
 ## mask_general
 * mask_general
   - utter_mask_general
@@ -420,6 +445,7 @@ Medical Masks
 <!------------------ 
 Tests
 ------------------->
+
 ## test_virus
 * test_virus
   - utter_test_virus
@@ -433,6 +459,7 @@ Tests
 <!------------------ 
 Vocative
 ------------------->
+
 ## vocative_help
 * vocative_help
   - utter_vocative_help
@@ -463,6 +490,7 @@ Vocative
 <!------------------ 
 Bot Features
 ------------------->
+
 ## features_date
 * features_date
     - action_get_date
@@ -487,6 +515,7 @@ Bot Features
 <!------------------ 
 Bot Traits
 ------------------->
+
 ## bot_name
 * bot_name
   - utter_bot_name
@@ -556,6 +585,7 @@ Bot Traits
 <!------------------ 
 Chit-chat
 ------------------->
+
 ## cc_weather
 * cc_weather
   - utter_cc_weather
@@ -598,6 +628,7 @@ Chit-chat
 <!------------------ 
 User Feelings
 ------------------->
+
 ## user_happy
 * user_happy
   - utter_user_happy
@@ -633,6 +664,7 @@ User Feelings
 <!------------------ 
 Comments
 ------------------->
+
 ## comment_positive
 * comment_positive
   - utter_comment_positive
@@ -661,6 +693,7 @@ Counters
 <!-- 
 Generic requests 
 -->
+
 ## covid_situation_without_country
 * covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths 
   - utter_want_to_add_country
@@ -708,6 +741,7 @@ Generic requests
 <!-- 
 World Regions 
 -->
+
 ## covid_situation_tested
 * covid_situation_tested{"world_region" : "Europe"}
   - utter_covid_current_statistics
@@ -741,6 +775,7 @@ World Regions
 <!-- 
 GENERAL SITUATION 
 -->
+
 ## covid_situation_happy 
 * covid_situation{"country_code" : "Portugal"}
   - action_search_stats
@@ -1309,7 +1344,7 @@ TESTED
     - slot{"total_infected_critical": 378}
     - utter_covid_situation_infected
 
-## current_statistics_pmigracao
+## current_statistics_migation1
 * covid_situation
     - utter_want_to_add_country
 * covid_current_statistics{"country_code": "PT"}
