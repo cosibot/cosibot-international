@@ -500,12 +500,6 @@
 * user_no_data: Unfortunately I have no personal data with me.
   - utter_user_no_data
 
-<!--
-## user_no_further_questions
-* user_no_further_questions: Não, de momento vou-me atualizando
-  - utter_user_no_further_questions
--->
-
 ## user_no_further_questions
 * user_no_further_questions: I don’t have further questions, thank you.
   - utter_user_no_further_questions

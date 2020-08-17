@@ -1,5 +1,6 @@
 bot/languages/*/models
 */python/l_*
+robo-manifest.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
