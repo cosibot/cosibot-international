@@ -1570,7 +1570,7 @@
 - Se o dinheiro não pode comprar a felicidade, você pode ser verdadeiramente feliz sem dinheiro?
 - Se o universo é finito, o que estaria além do limite do universo?
 - Se fosse imortal e NUNCA fosse capaz de morrer ou se matar, escolheria a imortalidade?
-- Uma família ainda é relevante no[Mundo]{"entity": "world_region", "value": "World"} moderno?
+- Uma família ainda é relevante no [Mundo]{"entity": "world_region", "value": "World"} moderno?
 - O senso de humor é um subproduto da consciência?
 - O erro pode ser considerado um ato errado se ninguém nunca souber disso?
 - A beleza é objetiva ou subjetiva?

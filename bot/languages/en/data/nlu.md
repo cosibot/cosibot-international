@@ -2617,6 +2617,47 @@
 - What procedure can I follow to be part of Cosibot?
 - who is cosibot?
 
+## intent:covid_volunteer
+<!--
+@Translate
+- Como posso ser voluntário?
+- Quero voluntariar-me.
+- Quero ser voluntário.
+- Quero ajudar nesse projeto.
+- Como posso ajudar?
+- Quero ajudar!
+- Como posso ser voluntário?
+- Como posso ajudar causas relaciodas ao COVID-19?
+- Como posso participar de um projeto?
+- Como posso ajudar uma ONG?
+-->
+
+## intent:covid_register
+<!--
+@Translate
+- Como posso inscrever o meu projeto?
+- Como posso inscrever o meu projeto no Tech4CovidBR?
+- Que tipo de projeto pode ser inscrito?
+- Que projetos precisam de ajuda?
+-->
+
+## intent:covid_tech4covid
+<!--
+@Translate
+- O que é o Tech4CovidBR?
+- O que é Tech4CovidBR?
+- Tech4CovidBR.
+- Tech4Covid.
+- O que é o Tech4Covid?
+- O que é Tech4Covid?
+- O que é o Tech4COVID19BR?
+- O que é o Tech4CovidBrasil?
+- Conhece o Tech4Covid? O que é o Tech4Covid?
+- O que é o Tech 4 Covid Brasil?
+- O que é o Tech4CovidBR?
+- O que é o Tech 4 COVID BR?
+-->
+
 ## intent:covid_crisis_howlong
 
 - About when the pandemic will probably end?

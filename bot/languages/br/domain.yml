@@ -131,6 +131,9 @@ actions:
 - utter_covid_aftereffects
 - utter_covid_babys_children
 - utter_covid_cosibot
+- utter_covid_tech4covid
+- utter_covid_volunteer
+- utter_covid_register
 - utter_covid_crisis_howlong
 - utter_covid_current_statistics
 - utter_covid_dangerous
@@ -321,6 +324,9 @@ intents:
 - covid_symptoms
 - covid_treatment
 - covid_worry
+- covid_tech4covid
+- covid_volunteer
+- covid_register
 - ebola
 - economy_consequences
 - features_date

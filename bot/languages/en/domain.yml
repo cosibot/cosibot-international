@@ -131,6 +131,9 @@ actions:
   - utter_covid_aftereffects
   - utter_covid_babys_children
   - utter_covid_cosibot
+  - utter_covid_tech4covid
+  - utter_covid_volunteer
+  - utter_covid_register
   - utter_covid_crisis_howlong
   - utter_covid_current_statistics
   - utter_covid_dangerous
@@ -321,6 +324,9 @@ intents:
   - covid_symptoms
   - covid_treatment
   - covid_worry
+  - covid_tech4covid
+  - covid_volunteer
+  - covid_register
   - ebola
   - economy_consequences
   - features_date
@@ -1309,6 +1315,48 @@ responses:
             links:
               - title: Cosibot Volunteers
                 url: https://cosibot.org/volunteers
+  utter_covid_tech4covid:
+  - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>UNDER MAINTENANCE</speak>
+          - type: txt
+            text: UNDER MAINTENANCE
+#      @Translate
+    # - custom:
+    #     answers:
+    #       - type: ssml
+    #         ssml: <speak>O Tech for Covid BR é um movimento voluntário que une pessoas com diferentes habilidades à tecnologia para combater os impactos gerados pelo coronavírus no Brasil.</speak>
+    #       - type: html
+    #         text: <p>O Tech4CovidBR é um movimento voluntário que une pessoas com diferentes habilidades à tecnologia para combater os impactos gerados pelo coronavírus no Brasil.</p>
+  utter_covid_volunteer:
+  - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>UNDER MAINTENANCE</speak>
+          - type: txt
+            text: EUNDER MAINTENANCE
+#      @Translate
+    # - custom:
+    #     answers:
+    #       - type: ssml
+    #         ssml: <speak>Você pode fazer parte do movimento Tech for Covid BR! Não importa sua área de atuação, o movimento precisa de pessoas que tenham vontade de arregaçar as mangas e contribuir para a redução dos impactos gerados pela Covid 19 no Brasil. Para isso, basta preencher o formulário e acessar a workspace da iniciativa.</speak>
+    #       - type: html
+    #         text: <p>Você pode fazer parte do movimento Tech4CovidBR! Não importa sua área de atuação, o movimento precisa de pessoas que tenham vontade de arregaçar as mangas e contribuir para a redução dos impactos gerados pela COVID-19 no Brasil. Para isso, basta preencher o <a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>formulário</a> e acessar a workspace da iniciativa.</p>
+  utter_covid_register:
+  - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>UNDER MAINTENANCE</speak>
+          - type: txt
+            text: UNDER MAINTENANCE
+#      @Translate
+  # - custom:
+  #       answers:
+  #         - type: ssml
+  #           ssml: <speakSe você tem um projeto sem fins lucrativos e que ajuda a reduzir os impactos do Covid 19 no Brasil, pode inscrevê-lo para fazer parte do movimento Tech for Covid 19 BR. Não importa a fase de implementação que seu projeto esteja, mesmo que ainda seja uma ideia! Há voluntários incríveis no workspace do movimento e que poderão ajudar a construir uma solução. Para isso, basta preencher o formulário e acessar a workspace da iniciativa.</speak>
+  #         - type: html
+  #           text: <p>Se você tem um projeto sem fins lucrativos e que ajuda a reduzir os impactos do COVID-19 no Brasil, pode inscrevê-lo para fazer parte do movimento Tech4Covid19BR. Não importa a fase de implementação que seu projeto esteja, mesmo que ainda seja uma ideia! Há voluntários(as) incríveis no workspace do movimento e que poderão ajudar a construir uma solução. Para isso, basta preencher o <a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>formulário</a> e acessar a workspace da iniciativa.</p>
   utter_user_scared:
     - custom:
         answers:
