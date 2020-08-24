@@ -767,38 +767,28 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>EM MANUTENÇÃO</speak>
+        ssml: <speak>É muito cedo para saber quanto tempo durará a resposta imunológica
+          protetora contra a Sars Cov 2, uma vez que isto irá requerer estudos serológicos
+          longitudinais que acompanham a imunidade dos doentes durante um período
+          de tempo prolongado. Evidências de outras infecções por coronavírus,
+          como Sars e Mers, indicam que a imunidade pode durar até três anos e é
+          altamente improvável a reinfecção com a mesma cepa de coronavírus em
+          circulação sazonal na mesma estação ou na estação seguinte. Isso também
+          pode se aplicar à Sars Cov 2, pois existem evidências emergentes de estudos
+          iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
+          e provavelmente são imunes à reinfecção a curto prazo.</speak>
       - type: txt
-        text: EM MANUTENÇÃO
-#      @Translate
-#      - custom:
-#          answers:
-#            - type: ssml
-#              ssml: <speak>It is too early to know how long the protective immune response
-#                against SARS CoV 2 will last, as this will require longitudinal
-#                serological studies that follow patients’ immunity over an
-#                extended period of time. Evidence from other coronavirus
-#                infections, like SARS and MERS, indicates that immunity may last
-#                for up to three years and re-infection with the same strain of
-#                seasonal circulating coronavirus is highly unlikely in the same or
-#                following season. This could also hold true for SARS CoV 2 as
-#                there is emerging evidence from early studies suggesting that
-#                individuals develop antibodies after infection and are likely to
-#                be immune from reinfection in the short term.</speak>
-#            - type: html
-#              text: <p>It is too early to know how long the protective immune response against
-#                SARS-CoV-2 will last, as this will require longitudinal
-#                serological studies that follow patients’ immunity over an
-#                extended period of time. Evidence from other coronavirus
-#                infections (SARS and MERS) indicates that immunity may last for up
-#                to three years and re-infection with the same strain of seasonal
-#                circulating coronavirus is highly unlikely in the same or
-#                following season. This could also hold true for SARS-CoV-2 as
-#                there is emerging evidence from early studies suggesting that
-#                individuals develop antibodies after infection and are likely to
-#                be immune from reinfection in the short term.<a
-#                href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'
-#                target='_blank'>(1)</a></p>
+        text: <p>É muito cedo para saber quanto tempo durará a resposta imunológica
+          protetora contra a SARS-CoV-2, uma vez que isto irá requerer estudos serológicos
+          longitudinais que acompanham a imunidade dos doentes durante um período
+          de tempo prolongado. Evidências de outras infecções por coronavírus,
+          como SARS e MERS, indicam que a imunidade pode durar até três anos e é
+          altamente improvável a reinfecção com a mesma cepa de coronavírus em
+          circulação sazonal na mesma estação ou na estação seguinte. Isso também
+          pode se aplicar à SARS-CoV-2, pois existem evidências emergentes de estudos
+          iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
+          e provavelmente são imunes à reinfecção a curto prazo.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf' target='_blank'>(1)</a></p>
+
   utter_covid_crisis_howlong:
   - custom:
       answers:
@@ -1183,11 +1173,36 @@ responses:
       - type: ssml
         ssml: <speak>Cosibot é uma iniciativa sem fins lucrativos da Robo AI para
           fornecer informações confiáveis sobre a Covid 19 de fontes oficiais,
-          como a Organização Mundial da Saúde.</speak>
+          como a Organização Mundial da Saúde. Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais.</speak>
       - type: html
         text: <p>Cosibot é uma iniciativa sem fins lucrativos da ROBO.AI para fornecer
           informações confiáveis sobre a COVID-19 de fontes oficiais, como a Organização
-          Mundial da Saúde.</p>
+          Mundial da Saúde.<br>Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais:</p>
+      - type: links
+        links:
+        - title: Voluntariado Cosibot
+          url: https://cosibot.org/br/voluntariado-br
+  utter_covid_tech4covid:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>O Tech for Covid BR é um movimento voluntário que une pessoas com diferentes habilidades à tecnologia para combater os impactos gerados pelo coronavírus no Brasil.</speak>
+      - type: html
+        text: <p>O Tech4CovidBR é um movimento voluntário que une pessoas com diferentes habilidades à tecnologia para combater os impactos gerados pelo coronavírus no Brasil.</p>
+  utter_covid_volunteer:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Você pode fazer parte do movimento Tech for Covid BR! Não importa sua área de atuação, o movimento precisa de pessoas que tenham vontade de arregaçar as mangas e contribuir para a redução dos impactos gerados pela Covid 19 no Brasil. Para isso, basta preencher o formulário e acessar a workspace da iniciativa.</speak>
+      - type: html
+        text: <p>Você pode fazer parte do movimento Tech4CovidBR! Não importa sua área de atuação, o movimento precisa de pessoas que tenham vontade de arregaçar as mangas e contribuir para a redução dos impactos gerados pela COVID-19 no Brasil. Para isso, basta preencher o <a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>formulário</a> e acessar a workspace da iniciativa.</p>
+  utter_covid_register:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speakSe você tem um projeto sem fins lucrativos e que ajuda a reduzir os impactos do Covid 19 no Brasil, pode inscrevê-lo para fazer parte do movimento Tech for Covid 19 BR. Não importa a fase de implementação que seu projeto esteja, mesmo que ainda seja uma ideia! Há voluntários incríveis no workspace do movimento e que poderão ajudar a construir uma solução. Para isso, basta preencher o formulário e acessar a workspace da iniciativa.</speak>
+      - type: html
+        text: <p>Se você tem um projeto sem fins lucrativos e que ajuda a reduzir os impactos do COVID-19 no Brasil, pode inscrevê-lo para fazer parte do movimento Tech4Covid19BR. Não importa a fase de implementação que seu projeto esteja, mesmo que ainda seja uma ideia! Há voluntários(as) incríveis no workspace do movimento e que poderão ajudar a construir uma solução. Para isso, basta preencher o <a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>formulário</a> e acessar a workspace da iniciativa.</p>
   utter_user_scared:
   - custom:
       answers:
@@ -1745,8 +1760,7 @@ responses:
           sigam uma boa higiene respiratória; </li> <li>fique em casa se não se
           sentir bem. </li></ul>Se você tiver febre, tosse e dificuldade em respirar,
           procure atendimento médico e ligue com antecedência. Siga as instruções
-          da sua autoridade sanitária local.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''
-          target=''_blank''>(1)</a></p>'
+          da sua autoridade sanitária local.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''target=''_blank''>(1)</a></p>'
       - type: youtube
         thumbnailURL: "https://www.youtube.com/watch?v=8c_UJwLq8PI"
         youtubeId: "8c_UJwLq8PI"
@@ -2988,6 +3002,12 @@ responses:
         - label: Medidas preventivas
           value: Medidas preventivas
   utter_further_questions:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Foi um prazer. Você tem mais alguma pergunta que eu possa responder?</speak>
+      - type: text
+        text: Foi um prazer.<br>Você tem mais alguma pergunta que eu possa responder?
   - custom:
       answers:
       - type: ssml

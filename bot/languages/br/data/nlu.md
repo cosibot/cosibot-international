@@ -757,6 +757,8 @@
 
 ## intent:bot_real
 - Você é um bot?
+- Vc é um robô?
+- Você é um robô?
 - Você é um chatbot?
 - Você é um computador?
 - Você é um ser humano?
@@ -1568,7 +1570,7 @@
 - Se o dinheiro não pode comprar a felicidade, você pode ser verdadeiramente feliz sem dinheiro?
 - Se o universo é finito, o que estaria além do limite do universo?
 - Se fosse imortal e NUNCA fosse capaz de morrer ou se matar, escolheria a imortalidade?
-- Uma família ainda é relevante no[Mundo]moderno {"entity": "world_region", "value": "World"}?
+- Uma família ainda é relevante no[Mundo]{"entity": "world_region", "value": "World"} moderno?
 - O senso de humor é um subproduto da consciência?
 - O erro pode ser considerado um ato errado se ninguém nunca souber disso?
 - A beleza é objetiva ou subjetiva?
@@ -2273,7 +2275,40 @@
 - O que é Cosibot?
 - quem é cosibot?
 - Sobre o Cosibot.
+- Sobre Cosibot.
 - Fale-me sobre o Cosibot.
+
+## intent:covid_volunteer
+- Como posso ser voluntário?
+- Quero voluntariar-me.
+- Quero ser voluntário.
+- Quero ajudar nesse projeto.
+- Como posso ajudar?
+- Quero ajudar!
+- Como posso ser voluntário?
+- Como posso ajudar causas relaciodas ao COVID-19?
+- Como posso participar de um projeto?
+- Como posso ajudar uma ONG?
+
+## intent:covid_register
+- Como posso inscrever o meu projeto?
+- Como posso inscrever o meu projeto no Tech4CovidBR?
+- Que tipo de projeto pode ser inscrito?
+- Que projetos precisam de ajuda?
+
+## intent:covid_tech4covid
+- O que é o Tech4CovidBR?
+- O que é Tech4CovidBR?
+- Tech4CovidBR.
+- Tech4Covid.
+- O que é o Tech4Covid?
+- O que é Tech4Covid?
+- O que é o Tech4COVID19BR?
+- O que é o Tech4CovidBrasil?
+- Conhece o Tech4Covid? O que é o Tech4Covid?
+- O que é o Tech 4 Covid Brasil?
+- O que é o Tech4CovidBR?
+- O que é o Tech 4 COVID BR?
 
 ## intent:covid_crisis_howlong
 - Você acredita que é possível se erradicar o coronavírus? 
@@ -2294,7 +2329,7 @@
 ## intent:covid_current_statistics
 - [Yakutsk]{"entity": "geography", "value": "town"} news.
 - [Neunburg Vorm Wald]{"entity": "geography", "value": "town"} situation
-- [COVID]{"entity": "virus", "value": "COVID"} em [Azərbaycan]{"entity": "geography", "value": "AZ"}
+- [COVID]{"entity": "virus", "value": "COVID"} em [Azərbaycan]{"entity": "country_code", "value": "AZ"}
 - [COVID-19]{"entity": "virus", "value": "COVID"} em [Gdynia]{"entity": "geography", "value": "town"}
 - Coronavirus no [Egypt]{"entity": "country_code", "value": "EG"}
 - Notícias atuais [Catalão]{"entity": "geography", "value": "languages"}
@@ -2351,31 +2386,17 @@
 - Os alimentos podem estar contaminados?
 
 ## intent:covid_immunity
-<!--
-@Translate
-- After I've been infected, I'm immune to the virus?
-- After recovering, people become immune?
-- Can I person get sick twice?
-- Can I reinfected myself?
-- Can a person can be affected twice by corona virus?
-- Can one get Coronavirus again?
-- Can one grt it again
-- Can someone who has healed from the virus get infected again
-- Can someone who has recovered from covid contract it again
-- I am immune after recovering?
-- I wanna know if some one who recovered from covid 19 can be infected again
-- If I have had this am I then immune and not get it again?
-- Is it possible for a recovered person from covid 19 to contract the virus
-  again?
-- Post covid infection to family what prequation to be take
-- Reinfection
-- Someone who recovered is now immune?
-- Why does Covid19 not infecting The recovered patients
-- after being infected am I immune?
-- after being infected am I imune?
-- after getting infected, can I be immune to the virus?
-- can I be immune?
--->
+- Depois de ter sido infectado, sou imune ao vírus?
+- Depois de se recuperarem, as pessoas se tornam imunes?
+- Eu posso ficar doente duas vezes?
+- Eu posso me reinfectar?
+- Eu estou imune depois de me recuperar?
+- Se eu já tive isso, eu sou imune e não pego de novo?
+- Alguém que se recuperou agora está imune?
+- Depois de ser infectado estou imune?
+- Depois de ser infectado eu estou imune?
+- Após ter sido infectado, fico imune ao vírus?
+- eu posso ficar imune?
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -4869,6 +4890,12 @@
 - Passar através do cocô.
 
 ## intent:spread_general
+- como se pega o covide 19?
+- como se pega a covide 19?
+- como se pega o covid 19?
+- como se pega a covid 19?
+- como se pega o covid-19?
+- como se pega a covid-19?
 - Sobre como [COVID-19]{"entity": "virus", "value": "COVID"} se propaga.
 - Sobre como [COVID-19]{"entity": "virus", "value": "COVID"} se espalha.
 - Sobre como [COVID-19]{"entity": "virus", "value": "COVID"} se dissemina.
@@ -4877,6 +4904,8 @@
 - Sobre como o coronavírus se dissemina.
 - Sobre como se propaga.
 - Sobre como se espalha.
+- Com quantos dias eu ñ transmito mais o vírus?
+- Com quantos dias eu não transmito mais o vírus?
 - Sobre como se dissemina.
 - Sobre como a doença se propaga.
 - Sobre como a doença se espalha.

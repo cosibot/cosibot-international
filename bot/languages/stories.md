@@ -84,6 +84,18 @@ Traveling
 About Covid-19 
 ------------------->
 
+## covid_tech4covid
+* covid_tech4covid
+  - utter_covid_tech4covid
+
+## covid_volunteer
+* covid_volunteer
+  - utter_covid_volunteer
+
+## covid_register
+* covid_register
+  - utter_covid_register
+
 ## covid_cosibot
 * covid_cosibot
   - utter_covid_cosibot
