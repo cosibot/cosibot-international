@@ -825,35 +825,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>EM MANUTENÇÃO</speak>
-      - type: txt
-        text: EM MANUTENÇÃO
-#      @Translate
-#      - custom:
-#          answers:
-#            - type: ssml
-#              ssml: "<speak>There are three factors that affect the lung damage risk in
-#                COVID-19 infections and how likely the person is to recover and
-#                regain lung function: Disease severity, pre-existing health
-#                conditions, and treatment. After a serious case of COVID-19, a
-#                patient’s lungs can recover, but not overnight. Recovery from lung
-#                damage takes time. There’s the initial injury to the lungs,
-#                followed by scarring. Over time, the tissue heals, but it can take
-#                three months to a year or more for a person’s lung function to
-#                return to pre-COVID-19 levels.</speak>"
-#            - type: html
-#              text: "<p>There are three factors that affect the lung damage risk in COVID-19
-#                infections and how likely the person is to recover and regain lung
-#                function: Disease severity, pre-existing health conditions, and
-#                treatment. After a serious case of COVID-19, a patient’s lungs can
-#                recover, but not overnight. Recovery from lung damage takes time.
-#                There’s the initial injury to the lungs, followed by scarring.
-#                Over time, the tissue heals, but it can take three months to a
-#                year or more for a person’s lung function to return to
-#                pre-COVID-19 levels. <a
-#                href='https://www.hopkinsmedicine.org/health/conditions-and-disea\
-#                ses/coronavirus/what-coronavirus-does-to-the-lungs'
-#                target='_blank'>(1)</a></p>"
+        ssml: <speak>Há três fatores que afetam o risco de dano pulmonar nas infecções por Covid 19 e a probabilidade da pessoa recuperar e recuperar a função pulmonar. Gravidade da doença, condições de saúde pré-existentes e tratamento. Após um caso grave de Covid 19, os pulmões de um paciente podem se recuperar, mas não da noite para o dia. A recuperação dos danos pulmonares leva tempo. Há a lesão inicial nos pulmões, seguida de cicatrizes. Com o tempo, o tecido cicatriza, mas pode levar de três meses a um ano ou mais para que a função pulmonar de uma pessoa volte aos níveis pré Covid 19.</speak>
+      - type: html
+        text: "<p>Há três fatores que afetam o risco de dano pulmonar nas infecções por COVID-19 e a probabilidade da pessoa recuperar e recuperar a função pulmonar: Gravidade da doença, condições de saúde pré-existentes e tratamento. Após um caso grave de COVID-19, os pulmões de um paciente podem se recuperar, mas não da noite para o dia. A recuperação dos danos pulmonares leva tempo. Há a lesão inicial nos pulmões, seguida de cicatrizes. Com o tempo, o tecido cicatriza, mas pode levar de três meses a um ano ou mais para que a função pulmonar de uma pessoa volte aos níveis pré-COVID-19.<a href='https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/what-coronavirus-does-to-the-lungs'target='_blank'>(1)</a></p>"
   utter_covid_disease_process:
   - custom:
       answers:
@@ -1540,48 +1514,21 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>EM MANUTENÇÃO</speak>
-      - type: txt
-        text: EM MANUTENÇÃO
-#      @Translate
-#      - custom:
-#          answers:
-#            - type: ssml
-#              ssml: <speak>Research about vaccines is happening at breakneck speed. About 140
-#                are in early development, and around two dozen are now being
-#                tested on people in clinical trials. A vaccine would normally take
-#                years, if not decades, to develop. Researchers hope to achieve the
-#                same amount of work in only a few months. Most experts think a
-#                vaccine is likely to become widely available by mid-2021, about
-#                12-18 months after Sars Cov 2 first emerged. That would be a huge
-#                scientific feat and there are no guarantees it will work. Four
-#                coronaviruses already circulate in human beings. They cause common
-#                cold symptoms and we don't have vaccines for any of them.</speak>
-#            - type: html
-#              text: <p>Research about vaccines is happening at breakneck speed. About 140 are
-#                in early development, and around two dozen are now being tested on
-#                people in clinical trials. A vaccine would normally take years, if
-#                not decades, to develop. Researchers hope to achieve the same
-#                amount of work in only a few months. Most experts think a vaccine
-#                is likely to become widely available by mid-2021, about 12-18
-#                months after Sars Cov 2 first emerged. That would be a huge
-#                scientific feat and there are no guarantees it will work. Four
-#                coronaviruses already circulate in human beings. They cause common
-#                cold symptoms and we don't have vaccines for any of them.<a
-#                href='https://www.bbc.com/news/health-51665497'
-#                target='_blank'>(1)</a></p>
-#            - type: hints
-#              options:
-#                - label: Preventive Measures
-#                  value: Preventive Measures
-#                - label: Symptoms
-#                  value: Symptoms
-#                - label: Medical Masks
-#                  value: Medical Masks
-#                - label: Transmission
-#                  value: Transmission
-#                - label: World Situation
-#                  value: World Situation
+        ssml: <speak>A pesquisa sobre vacinas está acontecendo em uma velocidade vertiginosa. Cerca de 140 estão em desenvolvimento inicial e cerca de duas dúzias estão agora sendo testadas em pessoas em ensaios clínicos. Uma vacina normalmente levaria anos, senão décadas, para se desenvolver. Os pesquisadores esperam alcançar a mesma quantidade de trabalho em apenas alguns meses. A maioria dos especialistas acredita que uma vacina provavelmente estará amplamente disponível em meados de 2021, cerca de 12 a 18 meses após o surgimento do Sars Cov 2. Isso seria um grande feito científico e não há garantias de que funcionará. Quatro coronavírus já circulam em seres humanos. Eles causam sintomas de resfriado comum e não temos vacinas para nenhum deles.</speak>
+      - type: html
+        text: <p>A pesquisa sobre vacinas está acontecendo em uma velocidade vertiginosa. Cerca de 140 estão em desenvolvimento inicial e cerca de duas dúzias estão agora sendo testadas em pessoas em ensaios clínicos. Uma vacina normalmente levaria anos, senão décadas, para se desenvolver. Os pesquisadores esperam alcançar a mesma quantidade de trabalho em apenas alguns meses. A maioria dos especialistas acredita que uma vacina provavelmente estará amplamente disponível em meados de 2021, cerca de 12 a 18 meses após o surgimento do Sars-CoV-2. Isso seria um grande feito científico e não há garantias de que funcionará.<br>Quatro coronavírus já circulam em seres humanos. Eles causam sintomas de resfriado comum e não temos vacinas para nenhum deles.<a href='https://www.bbc.com/news/health-51665497'target='_blank'>(1)</a></p>
+      - type: hints
+        options:
+        - label: Medidas de Prevenção
+          value: Medidas de Prevenção
+        - label: Sintomas
+          value: Sintomas
+        - label: Máscaras
+          value: Máscaras
+        - label: Transmissão
+          value: Transmissão
+        - label: Situação no Mundo
+          value: Situação no Mundo
   utter_prevention_clean_hands:
   - custom:
       answers:
@@ -2011,22 +1958,13 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>EM MANUTENÇÃO</speak>
+        ssml: <speak>Para informação detalhada sobre a doença causada pelo vírus Ebola, por favor, verifique a página da Organização Mundial de Saúde no link abaixo.</speak>
       - type: txt
-        text: EM MANUTENÇÃO
-#      @Translate
-#      - custom:
-#          answers:
-#            - type: ssml
-#              ssml: <speak>For detailed information about the Ebola virus disease, please have
-#                a look at the W H O page under the displayed link.</speak>
-#            - type: text
-#              text: For detailed information about the Ebola virus disease, please have a look
-#                at the WHO page under the displayed link.
-#            - type: links
-#              links:
-#                - title: "WHO: Ebola virus disease"
-#                  url: https://www.who.int/health-topics/ebola/
+        text: Para informação detalhada sobre a doença causada pelo vírus Ebola, por favor, verifique a página da OMS no link abaixo.
+      - type: links
+        links:
+        - title: "OMS: Doença do vírus Ebola"
+          url: https://www.who.int/health-topics/ebola/
   utter_cc_moon:
   - custom:
       answers:
@@ -2631,40 +2569,17 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>EM MANUTENÇÃO</speak>
-      - type: txt
-        text: EM MANUTENÇÃO
-#      @Translate
-#      - custom:
-#          answers:
-#            - type: ssml
-#              ssml: <speak>To date there has been no information nor evidence to suggest that
-#                the new coronavirus could be transmitted by mosquitoes. The new
-#                coronavirus is a respiratory virus which spreads primarily through
-#                droplets generated when an infected person coughs or sneezes, or
-#                through droplets of saliva or discharge from the nose. To protect
-#                yourself, clean your hands frequently with an alcohol-based hand
-#                rub or wash them with soap and water. Also, avoid close contact
-#                with anyone who is coughing and sneezing.</speak>
-#            - type: html
-#              text: <p>To date there has been no information nor evidence to suggest that the
-#                new coronavirus could be transmitted by mosquitoes. The new
-#                coronavirus is a respiratory virus which spreads primarily through
-#                droplets generated when an infected person coughs or sneezes, or
-#                through droplets of saliva or discharge from the nose. To protect
-#                yourself, clean your hands frequently with an alcohol-based hand
-#                rub or wash them with soap and water. Also, avoid close contact
-#                with anyone who is coughing and sneezing.<a
-#                href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#mosquito-bites'
-#                target='_blank'>(1)</a></p>
-#            - type: hints
-#              options:
-#                - label: World Situation
-#                  value: World Situation
-#                - label: Preventive Measures
-#                  value: Preventive Measures
-#                - label: About COVID-19
-#                  value: About COVID-19
+        ssml: <speak>Até o momento não há informações ou evidências que sugiram que o novo coronavírus possa ser transmitido por mosquitos. O novo coronavírus é um vírus respiratório que se espalha principalmente por meio de gotículas geradas quando uma pessoa infectada tosse ou espirra, ou através de gotículas de saliva or secreção nasal. Para se proteger, limpe as mãos frequentemente com uma solução a base de álcool ou lave-as com água e sabão. Além disso, evite contato próximo com qualquer pessoa que estiver tossindo ou espirrando.</speak>
+      - type: html
+        text: <p>Até o momento não há informações ou evidências que sugiram que o novo coronavírus possa ser transmitido por mosquitos. O novo coronavírus é um vírus respiratório que se espalha principalmente por meio de gotículas geradas quando uma pessoa infectada tosse ou espirra, ou através de gotículas de saliva or secreção nasal. Para se proteger, limpe as mãos frequentemente com uma solução a base de álcool ou lave-as com água e sabão. Além disso, evite contato próximo com qualquer pessoa que estiver tossindo ou espirrando.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#mosquito-bites'target='_blank'>(1)</a></p>
+      - type: hints
+        options:
+        - label: Situação no Mundo
+          value: Situação no Mundo
+        - label: Medidas de Prevenção
+          value: Medidas de Prevenção
+        - label: Sobre COVID-19
+          value: Sobre COVID-19
   utter_myth_antibiotics:
   - custom:
       answers:
@@ -3219,20 +3134,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>EM MANUTENÇÃO</speak>
-      - type: txt
-        text: EM MANUTENÇÃO
-#      @Translate
-#      - custom:
-#          answers:
-#            - type: ssml
-#              ssml:
-#                <speak>I am unable to give you a concrete answer since each country has
-#                its own schedule regarding  the re-opening of schools.</speak>
-#            - type: html
-#              text:
-#                <p>I am unable to give you a concrete answer since each country has its
-#                own schedule regarding  the re-opening of schools.</p>
+        ssml: <speak>Não posso dar uma resposta concreta, visto que cada país tem seu próprio cronograma referente a reabertura das escolas.</speak>
+      - type: html
+        text: <p>Não posso dar uma resposta concreta, visto que cada país tem seu próprio cronograma referente a reabertura das escolas.</p>
   utter_fallback_first:
   - custom:
       answers:

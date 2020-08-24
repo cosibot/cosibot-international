@@ -2255,16 +2255,12 @@
 - E quanto aos coronavírus
 
 ## intent:covid_aftereffects
-<!--
-@Translate
-- After effect
-- After effects
-- Can lungs heal back after Corona has damaged them
-- Can lungs heal back after Corona has damaged them.........when someone recovers
-- Do the lungs recover after an infection
-- What are the after effects?
-- What does corona to your lungs?
--->
+- Sequelas
+- Os pulmões podem sarar após a Corona os ter danificado
+- Os pulmões podem sarar depois que a Corona os danifica quando alguém se recupera
+- Os pulmões se recuperam após uma infecção
+- Quais são os efeitos posteriores?
+- O que a corona faz com seus pulmões?
 
 ## intent:covid_babys_children
 - As crianças são afetadas?
@@ -2805,43 +2801,39 @@
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
 
 ## intent:covid_schools
-<!--
-@Translate
-- About school
-- Are students going back to school
-- Do u think school might resume
-- How are they going to do screening at schools?
-- How are they going to test at schools?
-- I just want to ask when we are going back to school
-- School
-- What about school?
-- What are the measures that can be taken to prevent the spread of the virus in
-  schools in case they are opened
-- When are they going to open school
-- When are they opening schools
-- When are they planning to resume schools
-- When are we going to resume back to school
-- When are we resuming school
-- When did schools we reopen across the country?
-- When is school open
-- When is school opening
-- When is school reopen
-- When is school reopening
-- When is school resuming
-- When is schools reopening in [Nigeria]{"entity": "country_code", "value": "NG"}?
-- When is the reopening of schools that were closed due to the virus??
-- When is the reopening of schools??
-- When will school open?
-- When will school resume
-- When will schools open in [Uganda]{"entity": "country_code", "value": "UG"}
-- When will the schools open
-- When will we go back to school
-- Which day will school be open
-- Why did other societies reopened such as market, football, churches, mosques
-  and movement And schools didn't why?
-- Why reopening school if you know its risky
-- when probably do you think all schools and institutes will be reopened
--->
+- Sobre a escola
+- Os alunos estão voltando para a escola
+- Você acha que a escola pode recomeçar?
+- Como eles vão fazer a triagem nas escolas?
+- Como eles vão fazer o teste nas escolas?
+- Eu só quero perguntar quando vamos voltar para a escola
+- Escola
+- E a escola?
+- Quais são as medidas que podem ser tomadas para evitar a propagação do vírus em escolas no caso de serem abertas
+- Quando é que eles vão abrir a escola
+- Quando estão abrindo escolas
+- Quando estão planejando retomar as escolas
+- Quando vamos voltar para a escola
+- Quando estamos retomando a escola
+- Quando reabrimos as escolas em todo o país?
+- Quando a escola está aberta?
+- Quando é a abertura da escola
+- Quando a escola é reaberta
+- Quando é a reabertura da escola
+- Quando é o reinício das aulas
+- Quando é a reabertura de escolas na Nigéria?
+- Quando é a reabertura de escolas que foram fechadas devido ao vírus?
+- Quando é a reabertura de escolas?
+- Quando a escola vai abrir?
+- Quando a escola será reaberta?
+- Quando serão abertas escolas em Uganda?
+- Quando serão abertas as escolas
+- Quando voltaremos à escola
+- Em que dia a escola estará aberta
+- Por que outras sociedades reabriram, como mercado, futebol, igrejas, mesquitas, etc.
+  e o movimento E as escolas não fizeram por quê?
+- Por que reabrir a escola se você sabe que é arriscado
+- quando provavelmente você acha que todas as escolas e institutos serão reabertos
 
 ## intent:covid_sex
 - Também pode transmitir através do sexo?
@@ -3390,15 +3382,13 @@
 - eu vou morrer
 
 ## intent:ebola
-<!--
-@Translate
 - Ebola
-- Ebola virus disease
-- I need to know more about corona brother Ebola
-- Tell me about Ebola
-- What about Ebola
-- What is ebola
--->
+- Ébola
+- Doença do vírus Ebola
+- Preciso saber mais sobre o Ebola
+- Fale-me sobre o Ébola
+- E sobre o Ébola
+- O que é ebola
 
 ## intent:economy_consequences
 - Você pode responder perguntas relacionadas à economia?
@@ -3930,16 +3920,13 @@
 - A água quente pode matar o vírus?
 
 ## intent:myth_mosquitoes
-<!--
-@Translate
-- Can mosquito transmit corona
-- Can the COVID-19 virus be spread through mosquito bites?
-- Could the coronavirus could be transmitted by mosquitoes?
-- Mosquitos and coronavirus
+- O mosquito pode transmitir corona
+- O vírus COVID-19 pode ser disseminado através de picadas de mosquitos?
+- O coronavírus pode ser transmitido por mosquitos?
+- Mosquitos e coronavírus
+- Mosquitos e a COVID-19
 - mosquito
-- mosquitoes
 - mosquitos
--->
 
 ## intent:myth_garlic
 - Sobre alho
@@ -4621,77 +4608,72 @@
 - Por que eu deveria evitar tocar meu nariz?
 
 ## intent:prevention_vaccine
-<!--
-@Translate
-- A vaccine must be found
-- About a vaccine for COVID-19.
-- About a vaccine to treat COVID-19.
-- About a vaccine, drug or treatment for COVID-19.
-- About a vaccine, drug or treatment.
-- About a vaccine.
-- About vaccine
-- About vaccines for COVID-19.
-- About vaccines to treat COVID-19.
-- About vaccines, drug or treatment for COVID-19.
-- About vaccines, drug or treatment.
-- About vaccines.
-- Any update about the vaccine?
-- Any vaccines for covid-19
-- Explain the status of covid 19 vaccine
-- Has a vaccine for corona virus been established?
-- Hey ...am called Joseph from Uganda....my questions is...is there any vaccine
-  at hand that their working on to stop the spread of covid-19
-- How far hv doctors gone with issue of covid 19 vaccine?
-- How far with the vaccines
-- Information about the promising vaccine
-- Is it true that the vaccine will be out in September
-- Is the vaccine found
-- Is there a vaccine discovered yet
-- Is there a vaccine for COVID-19?
-- Is there a vaccine to treat COVID-19?
-- Is there a vaccine, drug or treatment for COVID-19?
-- Is there a vaccine, drug or treatment?
-- Is there a vaccine?
-- Is there any vaccine found for this pandemic
-- Is there any vacine for this virus?
-- Is there no vaccine yet
-- Maybe one other thing I would like to know is about the vaccine how far they
-  have gone with it and how many types are being processed
-- No vaccine?
-- Ok Helen When can a vaccine be produced by some countries
-- Ok but there isn't a vaccine or a solution for the problem
-- Please there an vaccine to stop it
-- So any vaccine yet
-- So is there hope that the vaccine can be found by end of this year
-- Tell me vaccine of COVID-19
-- Thank you Helen Has uganda got a vaccine against the disease ?
-- The vaccine must be found I said how didn't you understand my request
-- The vaccine must be found I said how didn't you understand my request????
-- They is still no vaccine for covid 19
-- Vaccines
-- Whare is vaccine? Hare need!
-- What can you tell me about the hypothesis of a vaccine for Coronavirus?
-- When can a vaccine be produced by some countries
-- When is the vaccine hope to be found
-- When the vaccine will come
-- When the vaccine will release?
-- When vaccine is com out
-- When will the Corona vaccine come?
-- When will the vaccines be available?
-- When will the vaccines be available? Am Alfred
-- Where is vaccine of corona virus?
-- Which vaccines have passed stage 3 of the final testing already
-- Will be vaccine available in the month of july
-- Yes. But is there a vaccine?
-- are there a vacine?
-- are there vaccines to prevent the disease?
-- covid vaccine
-- covid-19 vaccine
-- does a vaccine exist?
-- how long will it take for a vaccine to come out in the market?
-- is there any hope in the future about vaccine
-- what about vaccine
--->
+- Uma vacina deve ser encontrada
+- Sobre uma vacina para a COVID-19.
+- Sobre uma vacina para tratar a COVID-19.
+- Sobre uma vacina, medicamento ou tratamento para a COVID-19.
+- Sobre uma vacina, medicamento ou tratamento.
+- Sobre uma vacina.
+- Sobre a vacina
+- Sobre as vacinas para a COVID-19.
+- Sobre as vacinas para o tratamento da COVID-19.
+- Sobre as vacinas, medicamentos ou tratamentos para a COVID-19.
+- Sobre as vacinas, medicamento ou tratamento.
+- Sobre as vacinas.
+- Alguma atualização sobre a vacina?
+- Qualquer vacina para a COVID-19.
+- Explicar o status da vacina covid 19
+- Foi estabelecida uma vacina contra o vírus corona?
+- Olá ...sou chamado Joseph, de Uganda.... minhas perguntas são... existe alguma vacina?
+- Até que ponto os médicos do governo foram com a questão da vacina covid 19?
+- Em que estado estamos com as vacinas
+- Informações sobre a promissora vacina
+- É verdade que a vacina será lançada em setembro
+- A vacina é encontrada
+- Existe ainda uma vacina descoberta?
+- Existe uma vacina para a COVID-19?
+- Existe uma vacina para tratar a COVID-19?
+- Existe uma vacina, medicamento ou tratamento para a COVID-19?
+- Existe uma vacina, medicamento ou tratamento?
+- Existe uma vacina?
+- Existe alguma vacina encontrada para esta pandemia?
+- Existe alguma vacina para este vírus?
+- Ainda não há vacina
+- Talvez uma outra coisa que eu gostaria de saber seja sobre a vacina
+- Nenhuma vacina?
+- Ok Helen Quando uma vacina pode ser produzida por alguns países
+- Ok, mas não há uma vacina ou uma solução para o problema.
+- Por favor, há uma vacina para detê-la
+- Portanto, qualquer vacina ainda
+- Assim, há esperança de que a vacina possa ser encontrada até o final deste ano
+- Diga-me a vacina da COVID-19
+- Obrigado Helen O uganda conseguiu uma vacina contra a doença ?
+- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?
+- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?????
+- Eles ainda não são vacina para a covida 19
+- Vacinas
+- De quem é a vacina? Necessidade de lebre!
+- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
+- Quando uma vacina pode ser produzida por alguns países
+- Quando é que a esperança de vacina pode ser encontrada
+- Quando a vacina chegará
+- Quando a vacina será liberada?
+- Quando a vacina for liberada
+- Quando virá a vacina Corona?
+- Quando as vacinas estarão disponíveis?
+- Quando as vacinas estarão disponíveis? Am Alfred
+- Onde está a vacina contra o vírus corona?
+- Quais vacinas já passaram do estágio 3 dos testes finais?
+- Estará disponível a vacina no mês de julho
+- Sim. Mas existe uma vacina?
+- existe uma vacina?
+- existem vacinas para prevenir a doença?
+- vacina contra a covida
+- vacina covid-19
+- existe uma vacina?
+- quanto tempo levará para que uma vacina saia no mercado?
+- existe alguma esperança no futuro sobre a vacina
+- E quanto à vacina?
 
 ## intent:quarantine_control
 - Como se controla a quarentena?
