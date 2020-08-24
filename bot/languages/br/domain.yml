@@ -1052,7 +1052,7 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>O "período de incubação" significa o tempo entre pegar o vírus
+        ssml: <speak>O período de incubação significa o tempo entre pegar o vírus
           e começar a ter sintomas da doença. A maioria das estimativas do período
           de incubação da Covid 19 varia de 1 a 14 dias, e é mais comum durar cinco
           dias.</speak>
@@ -1244,7 +1244,7 @@ responses:
       - type: ssml
         ssml: <speak> Seria um grande prazer se eu pudesse te chamar de meu amigo.</speak>
       - type: text
-        text: Seria um enorme prazer se eu pudesse te chamar de  "amigo".
+        text: Seria um enorme prazer se eu pudesse te chamar de "amigo".
   utter_user_no_further_questions:
   - custom:
       answers:
@@ -2178,18 +2178,10 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>O risco de doença grave na União Europeia/Espaço Económico
-          Europeu e Reino Unido é atualmente considerado baixo para a população
-          em geral em áreas onde existem medidas de distanciamento físico adequadas
-          e/ ou onde a transmissão comunitária foi reduzida e / ou mantida em níveis
-          baixos.</speak>
+        ssml: <speak>Caso as recomendações de segurança não sejam seguidas, em geral, todos estão expostos a um certo risco de contrair o coronavírus. Além disso, pessoas com mais de 60 anos e pessoas com doenças crônicas, como diabetes, doenças cardíacas, respiratórias ou hipertensão estão entre as que têm maior risco de desenvolver doenças graves ou críticas se infectadas com o vírus.</speak>
       - type: html
-        text: <p>>"O risco de doença grave na União Europeia/Espaço Económico
-          Europeu e Reino Unido é atualmente considerado baixo para a população
-          em geral em áreas onde existem medidas de distanciamento físico adequadas
-          e/ ou onde a transmissão comunitária foi reduzida e / ou mantida em níveis
-          baixos.<a href='https://www.ecdc.europa.eu/en/current-risk-assessment-novel-coronavirus-situation'
-          target='_blank'>(1)</a></p>"
+        text: <p>Caso as recomendações de segurança não sejam seguidas, em geral, todos estão expostos a um certo risco de contrair o coronavírus. Além disso, pessoas com mais de 60 anos e pessoas com doenças crônicas, como diabetes, doenças cardíacas, respiratórias ou hipertensão estão entre as que têm maior risco de desenvolver doenças graves ou críticas se infectadas com o vírus.<a href='https://www.who.int/indonesia/news/detail/08-03-2020-knowing-the-risk-for-covid-19'
+          target='_blank'>(1)</a></p>
       - type: hints
         options:
         - label: Medidas Preventivas
