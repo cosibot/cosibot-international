@@ -2618,45 +2618,34 @@
 - who is cosibot?
 
 ## intent:covid_volunteer
-<!--
-@Translate
-- Como posso ser voluntário?
-- Quero voluntariar-me.
-- Quero ser voluntário.
-- Quero ajudar nesse projeto.
-- Como posso ajudar?
-- Quero ajudar!
-- Como posso ser voluntário?
-- Como posso ajudar causas relaciodas ao COVID-19?
-- Como posso participar de um projeto?
-- Como posso ajudar uma ONG?
--->
+- How can I volunteer?
+- I want to volunteer.
+- I want to be a volunteer.
+- I want to help in this project.
+- How can I help?
+- I want to help!
+- How can I volunteer?
+- How can I help causes related to COVID-19?
+- How can I participate in a project?
+- How can I help an NGO?
 
 ## intent:covid_register
-<!--
-@Translate
-- Como posso inscrever o meu projeto?
-- Como posso inscrever o meu projeto no Tech4CovidBR?
-- Que tipo de projeto pode ser inscrito?
-- Que projetos precisam de ajuda?
--->
+- How can I register my project?
+- How can I enroll my project in Tech4Covid?
+- What kind of project can I subscribe to?
+- What projects need help?
 
 ## intent:covid_tech4covid
-<!--
-@Translate
-- O que é o Tech4CovidBR?
-- O que é Tech4CovidBR?
-- Tech4CovidBR.
+- What is Tech4Covid?
+- What is the Tech4Covid?
 - Tech4Covid.
-- O que é o Tech4Covid?
-- O que é Tech4Covid?
-- O que é o Tech4COVID19BR?
-- O que é o Tech4CovidBrasil?
-- Conhece o Tech4Covid? O que é o Tech4Covid?
-- O que é o Tech 4 Covid Brasil?
-- O que é o Tech4CovidBR?
-- O que é o Tech 4 COVID BR?
--->
+- About Tech4Covid.
+- What is Tech4Covid?
+- What is the Tech4Covid?
+- Do you know Tech4Covid?
+- What is Tech4Covid?
+- What is Tech4 Covid?
+- What is Tech 4 COVID?
 
 ## intent:covid_crisis_howlong
 
