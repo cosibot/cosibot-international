@@ -2305,7 +2305,8 @@
 - O que é Tech4Covid?
 - O que é o Tech4COVID19BR?
 - O que é o Tech4CovidBrasil?
-- Conhece o Tech4Covid? O que é o Tech4Covid?
+- Conhece o Tech4Covid?
+- O que é o Tech4Covid?
 - O que é o Tech 4 Covid Brasil?
 - O que é o Tech4CovidBR?
 - O que é o Tech 4 COVID BR?
