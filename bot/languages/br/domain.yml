@@ -10,6 +10,9 @@ slots:
   bot_name:
     type: text
     initial_value: Helena
+  bot_location:
+    type: text
+    initial_value: br
   bot_introduced:
     type: bool
     initial_value: false
@@ -31,6 +34,10 @@ slots:
   bot_date_brasilia:
     type: text
   bot_date_amazonas:
+    type: text
+  bot_time:
+    type: text
+  bot_date:
     type: text
   language_slot:
     type: categorical
@@ -90,8 +97,6 @@ actions:
 - action_change_preferred_language
 - action_search_stats
 - action_check_Bot_Introduced
-- utter_ask_country
-- utter_ask_country_yes
 - utter_bot_appearance
 - utter_bot_availability
 - utter_bot_books
@@ -123,9 +128,12 @@ actions:
 - utter_comment_racist
 - utter_comment_smart
 - utter_coronavirus_info
-- utter_covid_aftereffects_immunity
+- utter_covid_aftereffects
 - utter_covid_babys_children
 - utter_covid_cosibot
+- utter_covid_tech4covid
+- utter_covid_volunteer
+- utter_covid_register
 - utter_covid_crisis_howlong
 - utter_covid_current_statistics
 - utter_covid_dangerous
@@ -137,6 +145,7 @@ actions:
 - utter_covid_info
 - utter_covid_meaning
 - utter_covid_mortality_rate
+- utter_covid_immunity
 - utter_covid_origins
 - utter_covid_pandemic
 - utter_covid_preexisting_illness
@@ -172,7 +181,8 @@ actions:
 - utter_myth_thermal_scanner
 - utter_myth_transmission_hot_areas
 - utter_myth_uv_lamps
-- utter_myths_conspiracy_fakenews
+- utter_myth_conspiracy_fakenews
+- utter_myth_mosquitoes
 - utter_prevenion_medical_attention
 - utter_prevention_clean_hands
 - utter_prevention_disinfection
@@ -200,6 +210,7 @@ actions:
 - utter_spread_risk
 - utter_spread_surfaces_food_objects
 - utter_test_virus
+- utter_ebola
 - utter_test_who
 - utter_travel_after
 - utter_travel_before
@@ -228,6 +239,7 @@ actions:
 - utter_covid_situation_last_update
 - utter_covid_situation_recovered
 - utter_covid_situation_tested
+- utter_covid_schools
 - utter_fallback_first
 - utter_fallback_request_emptyanswer
 - utter_fallback_request_error
@@ -280,7 +292,7 @@ intents:
 - comment_racist
 - comment_smart
 - coronavirus_info
-- covid_aftereffects_immunity
+- covid_aftereffects
 - covid_babys_children
 - covid_cosibot
 - covid_crisis_howlong
@@ -289,6 +301,7 @@ intents:
 - covid_disease_process
 - covid_duration
 - covid_food
+- covid_immunity
 - covid_incubation
 - covid_info
 - covid_meaning
@@ -298,6 +311,7 @@ intents:
 - covid_preexisting_illness
 - covid_procedure_after_infection
 - covid_sars
+- covid_schools
 - covid_sex
 - covid_situation
 - covid_situation_deaths
@@ -310,6 +324,10 @@ intents:
 - covid_symptoms
 - covid_treatment
 - covid_worry
+- covid_tech4covid
+- covid_volunteer
+- covid_register
+- ebola
 - economy_consequences
 - features_date
 - features_time
@@ -319,12 +337,25 @@ intents:
 - mask_general
 - mask_use_after
 - mask_use_put
+- mask_visors
 - myth_alcohol
 - myth_cold_weather
+- myth_garlic
 - myth_hot_bath
+- myth_mosquitoes
 - myth_packages
 - myth_transmission_hot_areas
-- myths_conspiracy_fakenews
+- myth_conspiracy_fakenews
+- myth_influenza
+- myth_air_conditioning
+- myth_5G
+- myth_sesame_oil
+- myth_hand_dryer
+- myth_uv_lamps
+- myth_thermal_scanner
+- myth_antibiotics
+- myth_pneumonia_vaccine
+- myth_saline
 - prevention_clean_hands
 - prevention_disinfection
 - prevention_distance
@@ -336,6 +367,7 @@ intents:
 - prevention_medicine
 - prevention_respiratory_hygiene
 - prevention_touch
+- prevention_vaccine
 - quarantine_control
 - quarantine_dogwalking
 - quarantine_dos_and_donts
@@ -371,18 +403,6 @@ intents:
 - vocative_thank_you
 - vocative_yes
 - vocative_you_welcome
-- myth_influenza
-- myth_air_conditioning
-- myth_5G
-- hand_dryer
-- uv_lamp
-- thermal_scanner
-- antibiotics
-- pneumonia_vaccine
-- saline
-- garlic
-- sesame_oil
-- visors
 - bot_change_bot
 
 responses:
@@ -749,6 +769,32 @@ responses:
           menor do que o surto da SARS de 2003. Entretanto, é muito maior do que a
           taxa de mortalidade por gripe sazonal.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
           target='_blank'>(1)</a></p>
+  utter_covid_immunity:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>É muito cedo para saber quanto tempo durará a resposta imunológica
+          protetora contra a Sars Cov 2, uma vez que isto irá requerer estudos serológicos
+          longitudinais que acompanham a imunidade dos doentes durante um período
+          de tempo prolongado. Evidências de outras infecções por coronavírus,
+          como Sars e Mers, indicam que a imunidade pode durar até três anos e é
+          altamente improvável a reinfecção com a mesma cepa de coronavírus em
+          circulação sazonal na mesma estação ou na estação seguinte. Isso também
+          pode se aplicar à Sars Cov 2, pois existem evidências emergentes de estudos
+          iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
+          e provavelmente são imunes à reinfecção a curto prazo.</speak>
+      - type: txt
+        text: <p>É muito cedo para saber quanto tempo durará a resposta imunológica
+          protetora contra a SARS-CoV-2, uma vez que isto irá requerer estudos serológicos
+          longitudinais que acompanham a imunidade dos doentes durante um período
+          de tempo prolongado. Evidências de outras infecções por coronavírus,
+          como SARS e MERS, indicam que a imunidade pode durar até três anos e é
+          altamente improvável a reinfecção com a mesma cepa de coronavírus em
+          circulação sazonal na mesma estação ou na estação seguinte. Isso também
+          pode se aplicar à SARS-CoV-2, pois existem evidências emergentes de estudos
+          iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
+          e provavelmente são imunes à reinfecção a curto prazo.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf' target='_blank'>(1)</a></p>
+
   utter_covid_crisis_howlong:
   - custom:
       answers:
@@ -775,32 +821,39 @@ responses:
           value: Transmissão
         - label: Sintomas
           value: Sintomas
-  utter_covid_aftereffects_immunity:
+  utter_covid_aftereffects:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>É muito cedo para saber quanto tempo durará a resposta imunológica
-          protetora contra a Sars Cov 2, uma vez que isto irá requerer estudos serológicos
-          longitudinais que acompanham a imunidade dos doentes durante um período
-          de tempo prolongado. Evidências de outras infecções por coronavírus,
-          como Sars e Mers, indicam que a imunidade pode durar até três anos e é
-          altamente improvável a reinfecção com a mesma cepa de coronavírus em
-          circulação sazonal na mesma estação ou na estação seguinte. Isso também
-          pode se aplicar à Sars Cov 2, pois existem evidências emergentes de estudos
-          iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
-          e provavelmente são imunes à reinfecção a curto prazo.</speak>
-      - type: html
-        text: <p>É muito cedo para saber quanto tempo durará a resposta imunológica
-          protetora contra a SARS-CoV-2, uma vez que isto irá requerer estudos serológicos
-          longitudinais que acompanham a imunidade dos doentes durante um período
-          de tempo prolongado. Evidências de outras infecções por coronavírus,
-          como SARS e MERS, indicam que a imunidade pode durar até três anos e é
-          altamente improvável a reinfecção com a mesma cepa de coronavírus em
-          circulação sazonal na mesma estação ou na estação seguinte. Isso também
-          pode se aplicar à SARS-CoV-2, pois existem evidências emergentes de estudos
-          iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
-          e provavelmente são imunes à reinfecção a curto prazo.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'
-          target='_blank'>(1)</a></p>
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
+#      @Translate
+#      - custom:
+#          answers:
+#            - type: ssml
+#              ssml: "<speak>There are three factors that affect the lung damage risk in
+#                COVID-19 infections and how likely the person is to recover and
+#                regain lung function: Disease severity, pre-existing health
+#                conditions, and treatment. After a serious case of COVID-19, a
+#                patient’s lungs can recover, but not overnight. Recovery from lung
+#                damage takes time. There’s the initial injury to the lungs,
+#                followed by scarring. Over time, the tissue heals, but it can take
+#                three months to a year or more for a person’s lung function to
+#                return to pre-COVID-19 levels.</speak>"
+#            - type: html
+#              text: "<p>There are three factors that affect the lung damage risk in COVID-19
+#                infections and how likely the person is to recover and regain lung
+#                function: Disease severity, pre-existing health conditions, and
+#                treatment. After a serious case of COVID-19, a patient’s lungs can
+#                recover, but not overnight. Recovery from lung damage takes time.
+#                There’s the initial injury to the lungs, followed by scarring.
+#                Over time, the tissue heals, but it can take three months to a
+#                year or more for a person’s lung function to return to
+#                pre-COVID-19 levels. <a
+#                href='https://www.hopkinsmedicine.org/health/conditions-and-disea\
+#                ses/coronavirus/what-coronavirus-does-to-the-lungs'
+#                target='_blank'>(1)</a></p>"
   utter_covid_disease_process:
   - custom:
       answers:
@@ -1126,11 +1179,36 @@ responses:
       - type: ssml
         ssml: <speak>Cosibot é uma iniciativa sem fins lucrativos da Robo AI para
           fornecer informações confiáveis sobre a Covid 19 de fontes oficiais,
-          como a Organização Mundial da Saúde.</speak>
+          como a Organização Mundial da Saúde. Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais.</speak>
       - type: html
         text: <p>Cosibot é uma iniciativa sem fins lucrativos da ROBO.AI para fornecer
           informações confiáveis sobre a COVID-19 de fontes oficiais, como a Organização
-          Mundial da Saúde.</p>
+          Mundial da Saúde.<br>Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais:</p>
+      - type: links
+        links:
+        - title: Voluntariado Cosibot
+          url: https://cosibot.org/br/voluntariado-br
+  utter_covid_tech4covid:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>O Tech for Covid BR é um movimento voluntário que une pessoas com diferentes habilidades à tecnologia para combater os impactos gerados pelo coronavírus no Brasil.</speak>
+      - type: html
+        text: <p>O Tech4CovidBR é um movimento voluntário que une pessoas com diferentes habilidades à tecnologia para combater os impactos gerados pelo coronavírus no Brasil.</p>
+  utter_covid_volunteer:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Você pode fazer parte do movimento Tech for Covid BR! Não importa sua área de atuação, o movimento precisa de pessoas que tenham vontade de arregaçar as mangas e contribuir para a redução dos impactos gerados pela Covid 19 no Brasil. Para isso, basta preencher o formulário e acessar a workspace da iniciativa.</speak>
+      - type: html
+        text: <p>Você pode fazer parte do movimento Tech4CovidBR! Não importa sua área de atuação, o movimento precisa de pessoas que tenham vontade de arregaçar as mangas e contribuir para a redução dos impactos gerados pela COVID-19 no Brasil. Para isso, basta preencher o <a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>formulário</a> e acessar a workspace da iniciativa.</p>
+  utter_covid_register:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speakSe você tem um projeto sem fins lucrativos e que ajuda a reduzir os impactos do Covid 19 no Brasil, pode inscrevê-lo para fazer parte do movimento Tech for Covid 19 BR. Não importa a fase de implementação que seu projeto esteja, mesmo que ainda seja uma ideia! Há voluntários incríveis no workspace do movimento e que poderão ajudar a construir uma solução. Para isso, basta preencher o formulário e acessar a workspace da iniciativa.</speak>
+      - type: html
+        text: <p>Se você tem um projeto sem fins lucrativos e que ajuda a reduzir os impactos do COVID-19 no Brasil, pode inscrevê-lo para fazer parte do movimento Tech4Covid19BR. Não importa a fase de implementação que seu projeto esteja, mesmo que ainda seja uma ideia! Há voluntários(as) incríveis no workspace do movimento e que poderão ajudar a construir uma solução. Para isso, basta preencher o <a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>formulário</a> e acessar a workspace da iniciativa.</p>
   utter_user_scared:
   - custom:
       answers:
@@ -1308,13 +1386,6 @@ responses:
         ssml: <speak>Com certeza! O que eu posso fazer por você?</speak>
       - type: text
         text: Com certeza! O que eu posso fazer por você?
-  utter_ask_country_yes:
-  - custom:
-      answers:
-      - type: ssml
-        ssml: <speak>Por favor me diga qual país.</speak>
-      - type: text
-        text: Por favor, me diga qual país.
   utter_features_time:
   - custom:
       answers:
@@ -1390,9 +1461,19 @@ responses:
           muitas superfícies e podem pegar vírus. Uma vez contaminadas, as mãos
           podem transferir o vírus para seus olhos, nariz ou boca. A partir daí,
           o vírus pode entrar no seu corpo e deixá-lo doente.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''
-          target=''_blank''>(1)</a></p>"
-
-          utter_prevention_touch,custom_0,hints,{''type'': ''hints'''
+          target=''_blank''>(1)</a></p>'
+      - type: hints
+        options:
+        - label: Sobre COVID-19
+          value: Sobre COVID-19
+        - label: Medidas preventivas
+          value: Medidas preventivas
+        - label: Transmissão
+          value: Transmissão
+        - label: Sintomas
+          value: Sintomas
+        - label: Mitos
+          value: Mitos
   utter_prevention_informed:
   - custom:
       answers:
@@ -1455,6 +1536,52 @@ responses:
           value: Sintomas
         - label: Mitos
           value: Mitos
+  utter_prevention_vaccine:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
+#      @Translate
+#      - custom:
+#          answers:
+#            - type: ssml
+#              ssml: <speak>Research about vaccines is happening at breakneck speed. About 140
+#                are in early development, and around two dozen are now being
+#                tested on people in clinical trials. A vaccine would normally take
+#                years, if not decades, to develop. Researchers hope to achieve the
+#                same amount of work in only a few months. Most experts think a
+#                vaccine is likely to become widely available by mid-2021, about
+#                12-18 months after Sars Cov 2 first emerged. That would be a huge
+#                scientific feat and there are no guarantees it will work. Four
+#                coronaviruses already circulate in human beings. They cause common
+#                cold symptoms and we don't have vaccines for any of them.</speak>
+#            - type: html
+#              text: <p>Research about vaccines is happening at breakneck speed. About 140 are
+#                in early development, and around two dozen are now being tested on
+#                people in clinical trials. A vaccine would normally take years, if
+#                not decades, to develop. Researchers hope to achieve the same
+#                amount of work in only a few months. Most experts think a vaccine
+#                is likely to become widely available by mid-2021, about 12-18
+#                months after Sars Cov 2 first emerged. That would be a huge
+#                scientific feat and there are no guarantees it will work. Four
+#                coronaviruses already circulate in human beings. They cause common
+#                cold symptoms and we don't have vaccines for any of them.<a
+#                href='https://www.bbc.com/news/health-51665497'
+#                target='_blank'>(1)</a></p>
+#            - type: hints
+#              options:
+#                - label: Preventive Measures
+#                  value: Preventive Measures
+#                - label: Symptoms
+#                  value: Symptoms
+#                - label: Medical Masks
+#                  value: Medical Masks
+#                - label: Transmission
+#                  value: Transmission
+#                - label: World Situation
+#                  value: World Situation
   utter_prevention_clean_hands:
   - custom:
       answers:
@@ -1639,8 +1766,7 @@ responses:
           sigam uma boa higiene respiratória; </li> <li>fique em casa se não se
           sentir bem. </li></ul>Se você tiver febre, tosse e dificuldade em respirar,
           procure atendimento médico e ligue com antecedência. Siga as instruções
-          da sua autoridade sanitária local.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''
-          target=''_blank''>(1)</a></p>'
+          da sua autoridade sanitária local.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''target=''_blank''>(1)</a></p>'
       - type: youtube
         thumbnailURL: "https://www.youtube.com/watch?v=8c_UJwLq8PI"
         youtubeId: "8c_UJwLq8PI"
@@ -1654,13 +1780,6 @@ responses:
           value: Transmissão
         - label: Situação Mundial
           value: Situação Mundial
-  utter_ask_country:
-  - custom:
-      answers:
-      - type: ssml
-        ssml: <speak>Você quer dados sobre um país específico?</speak>
-      - type: text
-        text: Você quer dados sobre um país específico?
   utter_bot_capabilities:
   - custom:
       answers:
@@ -1888,6 +2007,26 @@ responses:
           diferentes, mesmo dentro do mesmo país, e as abordagens de teste serão
           adaptadas à situação a nível nacional e local.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
           target='_blank'>(1)</a></p>
+  utter_ebola:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
+#      @Translate
+#      - custom:
+#          answers:
+#            - type: ssml
+#              ssml: <speak>For detailed information about the Ebola virus disease, please have
+#                a look at the W H O page under the displayed link.</speak>
+#            - type: text
+#              text: For detailed information about the Ebola virus disease, please have a look
+#                at the WHO page under the displayed link.
+#            - type: links
+#              links:
+#                - title: "WHO: Ebola virus disease"
+#                  url: https://www.who.int/health-topics/ebola/
   utter_cc_moon:
   - custom:
       answers:
@@ -2420,7 +2559,7 @@ responses:
           value: Transmissão
         - label: Situação Mundial
           value: Situação Mundial
-  utter_myths_conspiracy_fakenews:
+  utter_myth_conspiracy_fakenews:
   - custom:
       answers:
       - type: ssml
@@ -2488,6 +2627,44 @@ responses:
           está se espalhando em muitos países que não possuem redes móveis 5G.<a
           href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
           target='_blank'>(1)</a></p>
+  utter_myth_mosquitoes:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
+#      @Translate
+#      - custom:
+#          answers:
+#            - type: ssml
+#              ssml: <speak>To date there has been no information nor evidence to suggest that
+#                the new coronavirus could be transmitted by mosquitoes. The new
+#                coronavirus is a respiratory virus which spreads primarily through
+#                droplets generated when an infected person coughs or sneezes, or
+#                through droplets of saliva or discharge from the nose. To protect
+#                yourself, clean your hands frequently with an alcohol-based hand
+#                rub or wash them with soap and water. Also, avoid close contact
+#                with anyone who is coughing and sneezing.</speak>
+#            - type: html
+#              text: <p>To date there has been no information nor evidence to suggest that the
+#                new coronavirus could be transmitted by mosquitoes. The new
+#                coronavirus is a respiratory virus which spreads primarily through
+#                droplets generated when an infected person coughs or sneezes, or
+#                through droplets of saliva or discharge from the nose. To protect
+#                yourself, clean your hands frequently with an alcohol-based hand
+#                rub or wash them with soap and water. Also, avoid close contact
+#                with anyone who is coughing and sneezing.<a
+#                href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#mosquito-bites'
+#                target='_blank'>(1)</a></p>
+#            - type: hints
+#              options:
+#                - label: World Situation
+#                  value: World Situation
+#                - label: Preventive Measures
+#                  value: Preventive Measures
+#                - label: About COVID-19
+#                  value: About COVID-19
   utter_myth_antibiotics:
   - custom:
       answers:
@@ -2834,6 +3011,12 @@ responses:
   - custom:
       answers:
       - type: ssml
+        ssml: <speak>Foi um prazer. Você tem mais alguma pergunta que eu possa responder?</speak>
+      - type: text
+        text: Foi um prazer.<br>Você tem mais alguma pergunta que eu possa responder?
+  - custom:
+      answers:
+      - type: ssml
         ssml: <speak>O que mais posso fazer por você?</speak>
       - type: text
         text: O que mais posso fazer por você?
@@ -3032,6 +3215,24 @@ responses:
       - type: text
         text: A última atualização de dados indica que em {country}, {total_tests}
           testes foram realizados desde o início da coleta de dados.
+  utter_covid_schools:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>EM MANUTENÇÃO</speak>
+      - type: txt
+        text: EM MANUTENÇÃO
+#      @Translate
+#      - custom:
+#          answers:
+#            - type: ssml
+#              ssml:
+#                <speak>I am unable to give you a concrete answer since each country has
+#                its own schedule regarding  the re-opening of schools.</speak>
+#            - type: html
+#              text:
+#                <p>I am unable to give you a concrete answer since each country has its
+#                own schedule regarding  the re-opening of schools.</p>
   utter_fallback_first:
   - custom:
       answers:

@@ -50,7 +50,9 @@ let answersAttachmentsJSON = rasaUtils.extractAnswersFromJSON(sourceJSON);
 let metadata = rasaUtils.extractMetadataFromJSON(sourceJSON);
 let intentsMap = rasaUtils.extractIntentsFromJSON(sourceJSON);
 let entityMap = watsonUtils.extractEntitiesFromJSON(sourceJSON);
+//console.log(entityMap);
 let entityArray = watsonUtils.extractEntitiesFromJSONToObjectArray(sourceJSON);
+//console.log(entityArray);
 let nodeArray = watsonUtils.extractNodesFromJSON(sourceJSON);
 
 rasaUtils.writeIntentsEntitiesAnswersToFiles(metadata,intentsMap,entityArray,answersAttachmentsJSON.answers,nodeArray,outputDirectory);

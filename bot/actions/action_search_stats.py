@@ -18,15 +18,21 @@ class DecsisAPI:
 
         """calls DECSIS API. takes care of codes"""
 
-        
+        """
         if date_filter is None: 
             date_filter = date.today().strftime("%Y-%m-%d")
         else:
             date_filter = str(date_filter)
+        https://api.data.decsis.cloud/api/v1/dataset/world_worldometers_coronavirus_countries?query=
+        {"fields": [ {"country": "field"},{"country_code": "field"}, {"date_day": "field"},{"total_cases": "field"},{"new_cases": "field"},{"new_deaths":"field"},{"total_deaths":"field"},{"total_recovered":"field"},{"active_cases":"field"}], "filters": [{"date_day": "2020-08-20"}, {"country_code": "PT"}]}&format=json
+
+        https://api.data.decsis.cloud/api/v1/dataset/world_worldometers_coronavirus_countries?query=
+        {"fields": [ {"country": "field"},{"country_code": "field"}, {"date_day": "field"},{"total_cases": "field"},{"new_cases": "field"},{"new_deaths":"field"},{"total_deaths":"field"},{"total_recovered":"field"},{"active_cases":"field"}], "filters": [{"country_code": "PT"}]}&format=json&last-data=date_day
+        """
         
         query_fields = "[{\"country\": \"field\"}, {\"total_cases\": \"field\"},{\"new_cases\": \"field\"},{\"total_recovered\": \"field\"},{\"active_cases\": \"field\"},{\"critical\": \"field\"},{\"total_tests\": \"field\"},{\"region\": \"field\"},{\"new_deaths\": \"field\"},{\"total_deaths\": \"field\"},{\"total_cases_1m_pop\": \"field\"},{\"deaths_1m_pop\": \"field\"},{\"tests_1m_pop\": \"field\"},{\"continent\": \"field\"}]"
-        query_filters = "[{\"date_day\":\"" + date_filter +"\"},{\"country_code\":\""+ str(country_code) + "\"}]"
-        request_url = "https://api.data.decsis.cloud/api/v1/dataset/world_worldometers_coronavirus_countries?query={\"fields\":"+ str(query_fields) +", \"filters\":"+ str(query_filters) +"}&format=json&limit=5"
+        query_filters = "[{\"country_code\":\""+ str(country_code) + "\"}]"
+        request_url = "https://api.data.decsis.cloud/api/v1/dataset/world_worldometers_coronavirus_countries?query={\"fields\":"+ str(query_fields) +", \"filters\":"+ str(query_filters) +"}&format=json&last-data=date_day"
 
         response = requests.get(request_url)
 

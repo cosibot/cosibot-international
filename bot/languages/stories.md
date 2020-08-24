@@ -65,6 +65,7 @@ Greetings
 <!------------------ 
 Traveling 
 ------------------->
+
 ## travel_before
 * travel_before
   - utter_travel_before
@@ -82,6 +83,19 @@ Traveling
 <!------------------ 
 About Covid-19 
 ------------------->
+
+## covid_tech4covid
+* covid_tech4covid
+  - utter_covid_tech4covid
+
+## covid_volunteer
+* covid_volunteer
+  - utter_covid_volunteer
+
+## covid_register
+* covid_register
+  - utter_covid_register
+
 ## covid_cosibot
 * covid_cosibot
   - utter_covid_cosibot
@@ -100,6 +114,7 @@ About Covid-19
 * covid_situation
   - utter_covid_current_statistics
 -->
+
 ## coronavirus_info
 * coronavirus_info
   - utter_coronavirus_info
@@ -182,9 +197,13 @@ About Covid-19
 * covid_disease_process
   - utter_covid_disease_process
 
-## covid_aftereffects_immunity
-* covid_aftereffects_immunity
-  - utter_covid_aftereffects_immunity
+## covid_aftereffects
+* covid_aftereffects
+  - utter_covid_aftereffects
+
+## covid_immunity
+* covid_immunity
+  - utter_covid_immunity
 
 ## covid_preexisting_illness
 * covid_preexisting_illness
@@ -206,11 +225,19 @@ About Covid-19
 * covid_sex
   - utter_covid_sex
 
+## covid_schools
+* covid_schools
+  - utter_covid_schools
+
+## ebola
+* ebola
+  - utter_ebola
 
 
 <!------------------ 
 COVID-19 Prevention
 ------------------->
+
 ## prevention_general
 * prevention_general
   - utter_prevention_general
@@ -255,12 +282,16 @@ COVID-19 Prevention
 * prevention_disinfection
   - utter_prevention_disinfection
 
+## prevention_vaccine
+* prevention_vaccine
+  - utter_prevention_vaccine
 
 
 <!------------------ 
 Myths
 ------------------->
-## air_conditioning
+
+## myth_air_conditioning
 * myth_air_conditioning{"air_conditioning": "AC"}
   - utter_myth_air_conditioning
 
@@ -268,40 +299,40 @@ Myths
 * myth_5G{"5G": "5G"}
     - utter_myth_5g
 
-## hand_dryer
-* hand_dryer{"hand_dryer": "hand dryers"}
+## myth_hand_dryer
+* myth_hand_dryer{"hand_dryer": "hand dryers"}
     - utter_myth_hand_dryer
 
-## uv_lamp
-* uv_lamp{"uv_lamp": "uv lamps"}
+## myth_uv_lamps
+* myth_uv_lamps{"uv_lamp": "uv lamps"}
     - utter_myth_uv_lamps
 
-## thermal_scanner
-* thermal_scanner{"thermal_scanner": "thermal scanner"}
+## myth_thermal_scanner
+* myth_thermal_scanner{"thermal_scanner": "thermal scanner"}
   - utter_myth_thermal_scanner
 
-## antibiotics
-* antibiotics{"antibiotics": "antibiotics"}
+## myth_antibiotics
+* myth_antibiotics{"antibiotics": "antibiotics"}
   - utter_myth_antibiotics
 
 ## myth_alcohol
 * myth_alcohol
   - utter_myth_alcohol
 
-## pneumonia_vaccine
-* pneumonia_vaccine{"pneumonia_vaccine": "pneumonia vaccine"}
+## myth_pneumonia_vaccine
+* myth_pneumonia_vaccine{"pneumonia_vaccine": "pneumonia vaccine"}
   - utter_myth_pneumonia_vaccine
 
-## saline
-* saline{"saline": "saline solution"}
+## myth_saline
+* myth_saline{"saline": "saline solution"}
   - utter_myth_saline
 
-## garlic
-* garlic{"garlic": "garlic"}
+## myth_garlic
+* myth_garlic{"garlic": "garlic"}
   - utter_myth_garlic
 
-## sesame_oil
-* sesame_oil{"sesame_oil": "sesame oil"}
+## myth_sesame_oil
+* myth_sesame_oil{"sesame_oil": "sesame oil"}
   - utter_myth_sesame_oil
 
 ## myth_packages
@@ -320,15 +351,19 @@ Myths
 * myth_hot_bath
   - utter_myth_hot_bath
 
-## myths_conspiracy_fakenews
-* myths_conspiracy_fakenews
-  - utter_myths_conspiracy_fakenews
+## myth_conspiracy_fakenews
+* myth_conspiracy_fakenews
+  - utter_myth_conspiracy_fakenews
 
 
+## myth_mosquitoes
+* myth_mosquitoes
+  - utter_myth_mosquitoes
 
 <!------------------ 
 COVID-19 Spread
 ------------------->
+
 ## spread_general
 * spread_general
   - utter_spread_general
@@ -366,6 +401,7 @@ COVID-19 Spread
 <!------------------ 
 COVID-19 Spread
 ------------------->
+
 ## quarantine_general
 * quarantine_general
   - utter_quarantine_general
@@ -399,6 +435,7 @@ COVID-19 Spread
 <!------------------ 
 Medical Masks
 ------------------->
+
 ## mask_general
 * mask_general
   - utter_mask_general
@@ -411,8 +448,8 @@ Medical Masks
 * mask_use_after
   - utter_mask_use_after
 
-## visors
-* visors{"visors":"visors"}
+## mask_visors
+* mask_visors{"visors":"visors"}
   - utter_mask_visors
 
 
@@ -420,6 +457,7 @@ Medical Masks
 <!------------------ 
 Tests
 ------------------->
+
 ## test_virus
 * test_virus
   - utter_test_virus
@@ -433,6 +471,7 @@ Tests
 <!------------------ 
 Vocative
 ------------------->
+
 ## vocative_help
 * vocative_help
   - utter_vocative_help
@@ -463,6 +502,7 @@ Vocative
 <!------------------ 
 Bot Features
 ------------------->
+
 ## features_date
 * features_date
     - action_get_date
@@ -487,6 +527,7 @@ Bot Features
 <!------------------ 
 Bot Traits
 ------------------->
+
 ## bot_name
 * bot_name
   - utter_bot_name
@@ -556,6 +597,7 @@ Bot Traits
 <!------------------ 
 Chit-chat
 ------------------->
+
 ## cc_weather
 * cc_weather
   - utter_cc_weather
@@ -598,6 +640,7 @@ Chit-chat
 <!------------------ 
 User Feelings
 ------------------->
+
 ## user_happy
 * user_happy
   - utter_user_happy
@@ -633,6 +676,7 @@ User Feelings
 <!------------------ 
 Comments
 ------------------->
+
 ## comment_positive
 * comment_positive
   - utter_comment_positive
@@ -661,6 +705,7 @@ Counters
 <!-- 
 Generic requests 
 -->
+
 ## covid_situation_without_country
 * covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths 
   - utter_want_to_add_country
@@ -708,6 +753,7 @@ Generic requests
 <!-- 
 World Regions 
 -->
+
 ## covid_situation_tested
 * covid_situation_tested{"world_region" : "Europe"}
   - utter_covid_current_statistics
@@ -741,6 +787,7 @@ World Regions
 <!-- 
 GENERAL SITUATION 
 -->
+
 ## covid_situation_happy 
 * covid_situation{"country_code" : "Portugal"}
   - action_search_stats
@@ -1308,3 +1355,21 @@ TESTED
     - slot{"new_deaths": 836}
     - slot{"total_infected_critical": 378}
     - utter_covid_situation_infected
+
+## current_statistics_migation1
+* covid_situation
+    - utter_want_to_add_country
+* covid_current_statistics{"country_code": "PT"}
+    - slot{"country_code": "PT"}
+    - action_search_stats
+    - slot{"search_successful": "ok"}
+    - slot{"country": "Portugal"}
+    - slot{"active_cases": 12424}
+    - slot{"new_cases": 0}
+    - slot{"total_cases": 52945}
+    - slot{"total_recovered": 38760}
+    - slot{"total_deaths": 1761}
+    - slot{"total_tests": 1753524}
+    - slot{"new_deaths": 0}
+    - slot{"total_infected_critical": 29}
+    - utter_covid_situation
