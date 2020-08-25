@@ -2394,6 +2394,15 @@
 - Depois de ser infectado eu estou imune?
 - Após ter sido infectado, fico imune ao vírus?
 - eu posso ficar imune?
+- Poço pega covid-19 dinovo pois a 2 mês atrás eu peguei já fui curada poço pega novamente
+- Poço pega covid-19 dinovo
+- já fui curada poço pega novamente
+- poço pega novamente
+- Poço pega covid-19 de novo pois a 2 mês atrás eu peguei já fui curada poço pega novamente
+- Poço pega covid-19 de novo
+- já fui curada poço pegar novamente
+- Poço pega covid-19 de novo pois a 2 mês atrás eu peguei já fui curada poço pegar novamente
+- Poço pega covid-19 dinovo pois a 2 mês atrás eu peguei já fui curada poço pegar novamente
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -2579,6 +2588,10 @@
 - Me explique o que é pandemia.
 
 ## intent:covid_preexisting_illness
+- Quais os grupos de risco?
+- Grupos de risco.
+- Informações sobre grupos de risco.
+- Sobre grupos de risco.
 - Sobre mais pessoas com maior risco.
 - Sobre a faixa etária mais atingida.
 - Sobre as pessoas mais atingidas.
@@ -4675,6 +4688,19 @@
 - existe alguma esperança no futuro sobre a vacina
 - E quanto à vacina?
 
+<!--
+## intent:prevention_vermectina
+- Queria saber se a vermectina e bom pra preparar o organismo pra quando pegar o vírus vc não passar muito mal
+- Queria saber se a vermectina e bom pra preparar o organismo
+- vermectina
+- Sobre vermectina
+- Informação vermectina
+- Informaçã sobre vermectina
+- Queria saber mais sobre vermectina
+- Queria saber se a vermectina é bom pra preparar o organismo pra quando pegar o vírus vc não passar muito mal
+- Queria saber se a vermectina é bom pra preparar o organismo
+-->
+
 ## intent:quarantine_control
 - Como se controla a quarentena?
 - Quarentena controlada
@@ -5226,6 +5252,8 @@
 - Qual a probabilidade de eu ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}?
 - Qual a probabilidade de eu ser infectada pelo vírus?
 - Eu quis dizer, pessoas com deficiência podem pegar esse vírus
+- Risco de apanhar a doença
+- Qual o risco de eu apanhar a doença
 - Risco de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
 - Risco de ser infectado pelo vírus.
 - Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
@@ -5269,8 +5297,7 @@
 - qual é a probabilidade de ser infectada no shopping
 - quem é mais afetado?
 - vou pegar [Covid 19]{"entity": "virus", "value": "COVID"} 
-- sem sintomas e sem testes e após duas semanas em casa com
- distância podemos nos considerar saudáveis em relação a [Covid-19]{"entity": "virus", "value": "COVID"}
+- sem sintomas e sem testes e após duas semanas em casa com distância podemos nos considerar saudáveis em relação a [Covid-19]{"entity": "virus", "value": "COVID"}
 
 ## intent:spread_surfaces_food_objects
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida ou água?
