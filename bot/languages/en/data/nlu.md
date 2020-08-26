@@ -1,5 +1,4 @@
 ## intent:start
-
 - /start
 - /start
 - /start_conversation
@@ -15,7 +14,6 @@
 -->
 
 ## intent:bot_appearance
-
 - A picture of you please.
 - Are you attractive?
 - Are you good looking?
@@ -72,7 +70,6 @@
 - Send ur pic
 
 ## intent:bot_availability
-
 - Are you always available?
 - Are you available 24/7?
 - Are you available all day?
@@ -133,7 +130,6 @@
 - Your working hours.
 
 ## intent:bot_books
-
 - Book genres you like.
 - Book you enjoy.
 - Book you like.
@@ -180,7 +176,6 @@
 - You read?
 
 ## intent:bot_capabilities
-
 - Are you talking to me?
 - Bot capabilities
 - Bot capabilities.
@@ -341,7 +336,6 @@
 - What you can do
 
 ## intent:bot_fear
-
 - Are you afraid d of artificial jntelligance?
 - Are you afraid of anything?
 - Are you afraid of artificial intelligence?
@@ -378,7 +372,6 @@
 - Your fears.
 
 ## intent:bot_games
-
 - Are you good at computer games?
 - Are you good with computer games?
 - Are you good with strategy games?
@@ -445,7 +438,6 @@
 - You play video games?
 
 ## intent:bot_goal
-
 - Do you have dreams?
 - How do you see the future?
 - Personal goal.
@@ -479,7 +471,6 @@
 - Your personal goals.
 
 ## intent:bot_hobbies
-
 - Advise me of something to do in free time.
 - Do you do something on your free-time?
 - Do you have a free-time activity?
@@ -517,7 +508,6 @@
 - Your hobbies.
 
 ## intent:bot_languages
-
 - Another language, please.
 - Another language.
 - Are you able to answer me in German?
@@ -560,7 +550,6 @@
 - which languages do you know?
 
 ## intent:bot_movies
-
 - Do you enjoy any film?
 - Do you enjoy any movie?
 - Do you enjoy films?
@@ -597,7 +586,6 @@
 - Who is your favourite character in the Wizard of Oz?
 
 ## intent:bot_music
-
 - Do you enjoy music?
 - Do you enjoy to listen to music?
 - Do you have a favorite singer?
@@ -645,7 +633,6 @@
 - what Music arw you listening to?
 
 ## intent:bot_name
-
 - Do you know your name?
 - How can I call you?
 - How should I call you?
@@ -687,7 +674,6 @@
 - what your name
 
 ## intent:bot_origin
-
 - Can you tell me how are you built?
 - Can you tell me how were you built?
 - Can you tell me how were you created?
@@ -731,7 +717,6 @@
 - whish country u from
 
 ## intent:bot_personal_questions
-
 - 3 things you can not live without.
 - Are you a romantic?
 - Are you going for vacation this year?
@@ -760,8 +745,7 @@
 - Do you like your handwriting?
 - Do you play any musical instrument
 - Do you prefer hugs or kisses
-- Do you prefer to meet only one person and see where it goes or meet several
-  people until you make a decision?
+- Do you prefer to meet only one person and see where it goes or meet several people until you make a decision?
 - Do you sleep Helen?
 - Do you think that confessions make a relationship stronger?
 - Do you usually follow your heart or your head?
@@ -784,8 +768,7 @@
 - I don't want this but I want your photo
 - I just want to know about you
 - I love makin love
-- If a clairvoyant could tell you what will happen in the future, what would you
-  want to know?
+- If a clairvoyant could tell you what will happen in the future, what would you want to know?
 - If if you had only 24 hours hours to live what would you do
 - If money and career did not matter, what would you really do?
 - If money were not an object what would you do with your life
@@ -804,8 +787,7 @@
 - Tell me about your likes and dislikes
 - Tell me more about love
 - Tell me what you think about friends in general
-- What are the qualities that you are looking for in someone you want to grow
-  old with?
+- What are the qualities that you are looking for in someone you want to grow old with?
 - What are you doing after work?
 - What are you doing at night?
 - What are you doing privately?
@@ -817,8 +799,7 @@
 - What are your most important characteristics
 - What did you wanna be when you were a kid
 - What did your last relationship teach you?
-- What do you do if you do not get something that you have worked really hard
-  for?
+- What do you do if you do not get something that you have worked really hard for?
 - What do you do in the evening?
 - What do you do in the morning?
 - What do you do to get rid of stress
@@ -867,7 +848,6 @@
 - R u married
 
 ## intent:bot_personality
-
 - Are you friendly?
 - Are you smart?
 - Are you sympathetic?
@@ -895,7 +875,6 @@
 - Yes and i want to see your face
 
 ## intent:bot_real
-
 - Are you a bot?
 - Are you a chatbot?
 - Are you a computer program ?
@@ -917,6 +896,7 @@
 - Are you human?
 - Are you made of flesh and bones?
 - Are you made of flesh?
+- Nothing areu human
 - Are you made of matter?
 - Are you made of physical matter?
 - Are you real?
@@ -957,7 +937,6 @@
 - You are not real
 
 ## intent:bot_residence
-
 - Describe me the place you live.
 - Describe me where are you.
 - Describe me your home.
@@ -997,7 +976,6 @@
 - Your location.
 
 ## intent:bot_sexual
-
 - Are you a virgin?
 - Are you bisexual?
 - Are you flirting with me?
@@ -1007,6 +985,7 @@
 - Be naked when I come home.
 - Be naked.
 - Blow me.
+- Nude
 - Cam you have sex
 - Can I test the zipper of your pants?
 - Can you have sex?
@@ -1169,7 +1148,6 @@
 - should i use underwear?
 
 ## intent:bot_sing
-
 - Are you a good singer?
 - Are you capable of singing anything?
 - Can you sing anything?
@@ -1199,7 +1177,6 @@
 - You think you can sing?
 
 ## intent:bot_sports
-
 - Are you interested in sports?
 - Do you currently play any sports?
 - Do you enjoy play any sport?
@@ -1241,7 +1218,6 @@
 - You and Sports.
 
 ## intent:bot_version
-
 - Bot version.
 - Can you tell me your version?
 - Chatbot version.
@@ -1282,7 +1258,6 @@
 - version
 
 ## intent:bot_worst_experience
-
 - Bad experience?
 - Bad experiences?
 - Did you also have bad experiences?
@@ -1363,10 +1338,9 @@
 - Your worst experience.
 
 ## intent:cc_chicken_egg
-
 - Can you tell me what came first? The chicken or the egg?
 - Can you tell me what came first? The egg or the chicken?
-- "Chicken or Egg: which came first?"
+- Chicken or Egg: which came first?
 - Chicken or Egg?
 - Chicken or egg first?
 - Chicken or the egg?
@@ -1375,7 +1349,7 @@
 - Do you know whether the chicken or the egg came first?
 - Do you know whether the egg or the chicken came first?
 - Egg or chicken first?
-- "Egg or chicken: which came first?"
+- Egg or chicken: which came first?
 - Egg or chicken?
 - Egg or the chicken?
 - The chicken or the egg?
@@ -1404,7 +1378,6 @@
 - Who came first? Egg or chicken?
 
 ## intent:cc_deepest_point
-
 - Deepest place on earth.
 - Deepest place on planet.
 - Deepest point on earth.
@@ -1435,7 +1408,6 @@
 - Where is the deepest point on planet?
 
 ## intent:cc_fun_fact
-
 - Are there any fun facts?
 - Are there any interesting facts?
 - Can you tell me a fun fact?
@@ -1471,7 +1443,6 @@
 - You know interesting facts?
 
 ## intent:cc_geography
-
 - Any knowledge about geography?
 - Are you in [Macao]{"entity": "country_code", "value": "MO"}?
 - Do you have a road to [Belgium]{"entity": "country_code", "value": "BE"}?
@@ -1513,7 +1484,6 @@
 - Where is Zimbabue?
 
 ## intent:cc_highest_building
-
 - Biggest building in the world?
 - Biggest building on earth?
 - Highest building in the world?
@@ -1536,7 +1506,6 @@
 - Where is the tallest building on earth?
 
 ## intent:cc_joke
-
 - Anecdote.
 - Any funny things you wanna tell me?
 - Bet you cannot make me laugh.
@@ -1579,7 +1548,6 @@
 - can you tell me a joke
 
 ## intent:cc_lets_talk
-
 - Are we talking?
 - Blather?
 - Can we chatter?
@@ -1616,7 +1584,6 @@
 - chat
 
 ## intent:cc_moon
-
 - Far away moon.
 - Far moon.
 - How far away is the moon?
@@ -1641,7 +1608,6 @@
 - You know how far is the moon?
 
 ## intent:cc_newspaper
-
 - Any news on the newspaper?
 - Any relevant news on the newspaper?
 - Are there any news?
@@ -1673,7 +1639,6 @@
 - Which newspaper is preferred by you?
 
 ## intent:cc_philosophical
-
 - Are emotions irrational?
 - Are human beings just machines?
 - Are people ethically obligated to improve themselves?
@@ -1720,23 +1685,20 @@
 - How do you explain consciousness?
 - How do you know your perceptions are real?
 - How is love different from passion or sexual desire?
-- How likely do you think it will be that humans will last another 1,000 years
-  without killing ourselves off?
+- How likely do you think it will be that humans will last another 1,000 years without killing ourselves off?
 - How much control do you have over your life?
 - How much does language affect our thinking?
 - How much effort should an individual put into not offending others?
 - How much privacy are you willing to sacrifice for safety?
 - How should we measure the productivity of a society?
 - How will humans as a species go extinct?
-- How would humanity change if all humans’ life expectancy was significantly
-  increased
+- How would humanity change if all humans’ life expectancy was significantly increased
 - How would you define genius?
 - If all your memories were erased, what kind of person would you be?
 - If everything evolved from amoebas, how does the world still have amoebas?
 - If money cannot buy happiness, can you ever be truly happy with no money?
 - If the universe is finite, what would beyond the edge of the universe be like?
-- If you could become immortal on the condition you would NEVER be able to die
-  or kill yourself, would you choose immortality?
+- If you could become immortal on the condition you would NEVER be able to die or kill yourself, would you choose immortality?
 - Is a family still relevant in the modern world?
 - Is a sense of humor a byproduct of consciousness
 - Is a wrong act okay if nobody ever knows about it?
@@ -1840,8 +1802,7 @@
 - Who defines good and evil?
 - Why are humans so confident in beliefs that can’t be proven?
 - Why are humans so susceptible to magical thinking?
-- Why do humans have such a strong urge to distract ourselves from the real
-  world?
+- Why do humans have such a strong urge to distract ourselves from the real world?
 - Why do people expect a universe full of randomness to be fair?
 - Why do we create art?
 - Why do we dream?
@@ -1856,7 +1817,6 @@
 - is taking a human life justified?
 
 ## intent:cc_politics
-
 - Can you name the President of the United States?
 - Did you vote in the last election?
 - Do you always vote for the same party?
@@ -1911,7 +1871,6 @@
 - Would you like to be a politician?
 
 ## intent:cc_religion
-
 - Are the characters in the Bible figurative or literal?
 - Are you Muslim?
 - Are you a Hindu, a Muslim or a christian?
@@ -1962,12 +1921,7 @@
 - Does your past play a role when joining a religion?
 - Have you ever discussed what Biblical Christianity is?
 - Have you ever read the Bible?
-- Hello, I need a small favor from you, is not money, God saw you suffering for
-  something and says that is enough, a blessing will come. If you believe in
-  God, send this message, please do not ignore it, you were put to the test. God
-  will fix two things tonight in your favor. If you don't believe in God, forget
-  everything and quit in peace. Tomorrow will be the best day of your life, send
-  this message to 20 friends, can I be one of them
+- Hello, I need a small favor from you, is not money, God saw you suffering for something and says that is enough, a blessing will come. If you believe in God, send this message, please do not ignore it, you were put to the test. God will fix two things tonight in your favor. If you don't believe in God, forget everything and quit in peace. Tomorrow will be the best day of your life, send this message to 20 friends, can I be one of them
 - How can God be everywhere and also outside of space and time?
 - How can I know if God exists or not?
 - How can we experience God's love?
@@ -2063,7 +2017,6 @@
 - what do you think about religion?
 
 ## intent:cc_weather
-
 - Can you tell me how is the weather?
 - Do I need a umbrella when I arrive in Stuttgart?
 - Do I need an umbrella today?
@@ -2116,14 +2069,15 @@
 - give me the weather
 
 ## intent:comment_negative
-
+- BOOOORING
+- Ur boring me
 - Agent Smith is better than you.
 - Answer the damn question
+- Ok ur boring
 - Are you going to answer my question ??
 - Bro, what wrong with you nah
 - Bt you not answering me
-- But I read to send a question about Corona so that I can get answer about my
-  question
+- But I read to send a question about Corona so that I can get answer about my question
 - But I'm not satisfied with ur answers
 - But you have not replied me
 - Cortana is much smarter than you!
@@ -2218,8 +2172,7 @@
 - This is not my answer
 - U are a mad and useless
 - U are mad
-- What a waste of time and resources, you are completely useless and you know
-  nothing
+- What a waste of time and resources, you are completely useless and you know nothing
 - What's wrong with this sote
 - Why will I be happy when you don't give me specific answers
 - You are mad
@@ -2227,10 +2180,14 @@
 - You keep telling me the same thing that's not helpful, You dumbass
 - Your are a slow learner
 
-
 ## intent:comment_offense
-
 - Are you stupid
+- Ur a bitch
+- U crazy
+- Fuck ur mother
+- Stupid
+- My question is can I fuck u
+- Go to hell
 - Asshole!
 - Bastard!
 - Bastardy fuck out
@@ -2373,7 +2330,6 @@
 - Kill yourself
 
 ## intent:comment_positive
-
 - Awesome!
 - Brilliant
 - Cool!
@@ -2448,7 +2404,6 @@
 - its a good idea
 
 ## intent:comment_racist
-
 - Adolf Hitler!
 - All Asians are good at Math.
 - All Asians are good at Sciences.
@@ -2500,7 +2455,6 @@
 - You don’t belong.
 
 ## intent:comment_smart
-
 - How clever!
 - How intelligent!
 - I enjoyed chatting with you!
@@ -2535,7 +2489,6 @@
 - you're very smart
 
 ## intent:coronavirus_info
-
 - About coronavirus
 - About coronaviruses
 - Coronavírus
@@ -2584,17 +2537,15 @@
 - What is a virus
 
 ## intent:covid_aftereffects
-
 - After effect
 - After effects
 - Can lungs heal back after Corona has damaged them
-- Can lungs heal back after Corona has damaged them.........when someone recovers
+- Can lungs heal back after Corona has damaged them when someone recovers
 - Do the lungs recover after an infection
 - What are the after effects?
 - What does corona to your lungs?
 
 ## intent:covid_babys_children
-
 - Are children affected?
 - How are child effected?
 - What are symptoms of covid19 in Kids?
@@ -2606,7 +2557,6 @@
 - Can Corona affect much children below 18 years
 
 ## intent:covid_cosibot
-
 - Can I volunteer with Cosibot?
 - Can you tell me more about your ad?
 - Cosibot
@@ -2648,7 +2598,6 @@
 - What is Tech 4 COVID?
 
 ## intent:covid_crisis_howlong
-
 - About when the pandemic will probably end?
 - Can Corona virus finish before this year ends?
 - Can the virus come to an end soon
@@ -2705,9 +2654,8 @@
 - When will corona stop
 
 ## intent:covid_current_statistics
-
-- "[Dun Laoghaire]{"entity": "geography", "value": "town"}"
-- "[Dorsten]{"entity": "geography", "value": "town"}"
+- [Dun Laoghaire]{"entity": "geography", "value": "town"}
+- [Dorsten]{"entity": "geography", "value": "town"}
 - [COVID]{"entity": "virus", "value": "COVID"} in [Eimsbuettel]{"entity": "geography", "value": "town"}
 - [COVID-19]{"entity": "virus", "value": "COVID"} in [Pegnitz]{"entity": "geography", "value": "town"}
 - Coronavirus in [Burghausen]{"entity": "geography", "value": "town"}
@@ -2736,7 +2684,6 @@
 - Coronavirus in [Egypt]{"entity": "country_code", "value": "EG"}
 
 ## intent:covid_dangerous
-
 - Am i safe?
 - How contagious is this novel corona virus?
 - How contagious is this novel coronavirus?
@@ -2745,7 +2692,6 @@
 - If somebody have tb infected. It's possible that we get infected by corona
 
 ## intent:covid_disease_process
-
 - Course of the disease
 - Covid process
 - Covid progression
@@ -2753,7 +2699,6 @@
 - What is the course of the disease
 
 ## intent:covid_duration
-
 - Covid origin
 - Duration of the disease.
 - For how long is someone infected sick?
@@ -2770,7 +2715,6 @@
 - How may days to covid patient recovery
 
 ## intent:covid_food
-
 - Can I become infected with the novel corona virus from food or water?
 - Can the virus spread through food?
 - Contamination by food.
@@ -2781,7 +2725,6 @@
 - can food be contaminated?
 
 ## intent:covid_immunity
-
 - After I've been infected, I'm immune to the virus?
 - After recovering, people become immune?
 - Can I person get sick twice?
@@ -2794,8 +2737,7 @@
 - I am immune after recovering?
 - I wanna know if some one who recovered from covid 19 can be infected again
 - If I have had this am I then immune and not get it again?
-- Is it possible for a recovered person from covid 19 to contract the virus
-  again?
+- Is it possible for a recovered person from covid 19 to contract the virus again?
 - Post covid infection to family what prequation to be take
 - Reinfection
 - Someone who recovered is now immune?
@@ -2806,9 +2748,9 @@
 - can I be immune?
 
 ## intent:covid_incubation
-
 - 19-nCoV incubation period.
 - 19nCov incubation period.
+- In How many days symptoms starts
 - 2019-nCoV incubation period.
 - 2019nCov incubation period.
 - About the incubation period.
@@ -2893,12 +2835,10 @@
 - The incubation period.
 - The time between catching and beginning to have symptoms of the disease.
 - The time between catching and beginning to have symptoms.
-- The time between catching the virus and beginning to have symptoms of the
-  disease.
+- The time between catching the virus and beginning to have symptoms of the disease.
 - The time between catching the virus and beginning to have symptoms.
 - What's the incubation period of the virus
-- When in contact with the virus, how long does it take for somebody to realise
-  its symptoms?
+- When in contact with the virus, how long does it take for somebody to realise its symptoms?
 - Which is the estimate time for the incubation period?
 - Which is the estimate time of the incubation period?
 - Which is the estimated time for the incubation period?
@@ -2916,7 +2856,6 @@
 - the virus incubation period.
 
 ## intent:covid_info
-
 - 19-nCoV
 - 19-nCoV info
 - 19-nCoV information
@@ -3248,7 +3187,6 @@
 - What is the full meaning of covid19
 
 ## intent:covid_meaning
-
 - COVID name meaning.
 - COVID name why?
 - COVID name.
@@ -3393,9 +3331,9 @@
 - virus name why?
 
 ## intent:covid_mortality_rate
-
 - Are we going to all die ?
-- Death percentage,
+- Death percentage.
+- I mean do u think we're all going to die bcus of d virusNothing areu human
 - Do coronavirus kill?
 - How long does it take for covid patient to die?
 - Mortality rate.
@@ -3407,7 +3345,6 @@
 - Does covid 19 kills
 
 ## intent:covid_origins
-
 - Are animals responsible for COVID-19 in people?
 - Could you please tell me about the evolution of the spreading of Covid-19?
 - How did it start
@@ -3447,7 +3384,6 @@
 - How did it sarted
 
 ## intent:covid_pandemic
-
 - Meaning of pandemic
 - Pandemic
 - What is a pandemic
@@ -3457,7 +3393,6 @@
 - Is it a pandemic
 
 ## intent:covid_preexisting_illness
-
 - About more risk people.
 - About more serious age group.
 - About more serious people.
@@ -3526,7 +3461,6 @@
 - who are more susceptible to this virus?
 
 ## intent:covid_procedure_after_infection
-
 - I am infected, and now?
 - I am infected.
 - I'm infected, and now?
@@ -3537,7 +3471,6 @@
 - When you're already infected what is it that you must do
 
 ## intent:covid_sars
-
 - About COVID and SARS.
 - About COVID and Severe Acute Respiratory Syndrome.
 - About COVID-19 and SARS.
@@ -3659,67 +3592,47 @@
 - Severe Acute Respiratory Syndrome and new coronavirus are the same virus?
 - Severe Acute Respiratory Syndrome and novel coronavirus are the same virus?
 - The virus that causes COVID and the one that causes SARS are the same?
-- The virus that causes COVID and the one that causes Severe Acute Respiratory
-  Syndrome are the same?
+- The virus that causes COVID and the one that causes Severe Acute Respiratory Syndrome are the same?
 - The virus that causes COVID is the same to the one that causes SARS?
-- The virus that causes COVID is the same to the one that causes Severe Acute
-  Respiratory Syndrome?
+- The virus that causes COVID is the same to the one that causes Severe Acute Respiratory Syndrome?
 - The virus that causes COVID-19 and the one that causes SARS are the same?
-- The virus that causes COVID-19 and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
+- The virus that causes COVID-19 and the one that causes Severe Acute Respiratory Syndrome are the same?
 - The virus that causes COVID-19 is the same to the one that causes SARS?
-- The virus that causes COVID-19 is the same to the one that causes Severe Acute
-  Respiratory Syndrome?
+- The virus that causes COVID-19 is the same to the one that causes Severe Acute Respiratory Syndrome?
 - The virus that causes COVID-2019 and the one that causes SARS are the same?
-- The virus that causes COVID-2019 and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
+- The virus that causes COVID-2019 and the one that causes Severe Acute Respiratory Syndrome are the same?
 - The virus that causes COVID-2019 is the same to the one that causes SARS?
-- The virus that causes COVID-2019 is the same to the one that causes Severe
-  Acute Respiratory Syndrome?
+- The virus that causes COVID-2019 is the same to the one that causes Severe Acute Respiratory Syndrome?
 - The virus that causes COVID19 and the one that causes SARS are the same?
-- The virus that causes COVID19 and the one that causes Severe Acute Respiratory
-  Syndrome are the same?
+- The virus that causes COVID19 and the one that causes Severe Acute Respiratory Syndrome are the same?
 - The virus that causes COVID19 is the same to the one that causes SARS?
-- The virus that causes COVID19 is the same to the one that causes Severe Acute
-  Respiratory Syndrome?
+- The virus that causes COVID19 is the same to the one that causes Severe Acute Respiratory Syndrome?
 - The virus that causes COVID2019 and the one that causes SARS are the same?
-- The virus that causes COVID2019 and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
+- The virus that causes COVID2019 and the one that causes Severe Acute Respiratory Syndrome are the same?
 - The virus that causes COVID2019 is the same to the one that causes SARS?
-- The virus that causes COVID2019 is the same to the one that causes Severe
-  Acute Respiratory Syndrome?
+- The virus that causes COVID2019 is the same to the one that causes Severe Acute Respiratory Syndrome?
 - The virus that causes SARS and the one that causes COVID are the same?
 - The virus that causes SARS and the one that causes COVID-19 are the same?
 - The virus that causes SARS and the one that causes COVID-2019 are the same?
 - The virus that causes SARS and the one that causes COVID19 are the same?
 - The virus that causes SARS and the one that causes COVID2019 are the same?
-- The virus that causes SARS and the one that causes new coronavirus are the
-  same?
-- The virus that causes SARS and the one that causes novel coronavirus are the
-  same?
+- The virus that causes SARS and the one that causes new coronavirus are the same?
+- The virus that causes SARS and the one that causes novel coronavirus are the same?
 - The virus that causes SARS is the same to the one that causes COVID-19?
 - The virus that causes SARS is the same to the one that causes COVID-2019?
 - The virus that causes SARS is the same to the one that causes COVID19?
 - The virus that causes SARS is the same to the one that causes COVID2019?
 - The virus that causes SARS is the same to the one that causes COVID?
 - The virus that causes SARS is the same to the one that causes new coronavirus?
-- The virus that causes SARS is the same to the one that causes novel
-  coronavirus?
-- The virus that causes new coronavirus and the one that causes SARS are the
-  same?
-- The virus that causes new coronavirus and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
+- The virus that causes SARS is the same to the one that causes novel coronavirus?
+- The virus that causes new coronavirus and the one that causes SARS are the same?
+- The virus that causes new coronavirus and the one that causes Severe Acute Respiratory Syndrome are the same?
 - The virus that causes new coronavirus is the same to the one that causes SARS?
-- The virus that causes new coronavirus is the same to the one that causes
-  Severe Acute Respiratory Syndrome?
-- The virus that causes novel coronavirus and the one that causes SARS are the
-  same?
-- The virus that causes novel coronavirus and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
-- The virus that causes novel coronavirus is the same to the one that causes
-  SARS?
-- The virus that causes novel coronavirus is the same to the one that causes
-  Severe Acute Respiratory Syndrome?
+- The virus that causes new coronavirus is the same to the one that causes Severe Acute Respiratory Syndrome?
+- The virus that causes novel coronavirus and the one that causes SARS are the same?
+- The virus that causes novel coronavirus and the one that causes Severe Acute Respiratory Syndrome are the same?
+- The virus that causes novel coronavirus is the same to the one that causes SARS?
+- The virus that causes novel coronavirus is the same to the one that causes Severe Acute Respiratory Syndrome?
 - new coronavirus and SARS are the same virus?
 - new coronavirus and SARS.
 - new coronavirus and Severe Acute Respiratory Syndrome.
@@ -3727,11 +3640,10 @@
 - novel coronavirus and SARS.
 - novel coronavirus and Severe Acute Respiratory Syndrome.
 - sars
-- Pls I need defination, advantage and disadvantages of coronal virus and y is
-  it a pandemic
+- Pls I need defination, advantage and disadvantages of coronal virus and y is it a pandemic
 
 ## intent:covid_schools
-
+- Are schools going to be resumed
 - About school
 - Are students going back to school
 - Do u think school might resume
@@ -3740,8 +3652,7 @@
 - I just want to ask when we are going back to school
 - School
 - What about school?
-- What are the measures that can be taken to prevent the spread of the virus in
-  schools in case they are opened
+- What are the measures that can be taken to prevent the spread of the virus in schools in case they are opened
 - When are they going to open school
 - When are they opening schools
 - When are they planning to resume schools
@@ -3762,13 +3673,11 @@
 - When will the schools open
 - When will we go back to school
 - Which day will school be open
-- Why did other societies reopened such as market, football, churches, mosques
-  and movement And schools didn't why?
+- Why did other societies reopened such as market, football, churches, mosques and movement And schools didn't why?
 - Why reopening school if you know its risky
 - when probably do you think all schools and institutes will be reopened
 
 ## intent:covid_sex
-
 - But does covid 19 transmit through sex?
 - Can It also transmit through sex?
 - Can Tue virus be transmitted during sex inter course
@@ -3785,14 +3694,13 @@
 - sexual relations and transmission
 - Can I get corona when i have sex with an infected person
 - Can I have sex with someone who had a virus
-- Can covid-19  be transferred through sex
+- Can covid-19 be transferred through sex
 - Can I get corona when I have sex wıth an ınfected person
 - Okay how does it spread during sex
 - dose corona virus spread from sex
-
+- does corona virus spread from sex
 
 ## intent:covid_situation
-
 - Confirmed cases in [Finsterwalde]{"entity": "geography", "value": "town"}
 - Coronavirus updated situation
 - Coronavirus updated statistics
@@ -3883,9 +3791,7 @@
 - Word's situation
 - World's situation
 
-
 ## intent:covid_situation_deaths
-
 - Deaths in [Cambodge]{"entity": "country_code", "value": "KH"}.
 - Deaths in the [Republic of South Africa]{"entity": "country_code", "value": "ZA"}
 - How many deaths are in [Gànnaar]{"entity": "country_code", "value": "MR"}?
@@ -3899,7 +3805,6 @@
 - how many covid 19 death cases in [Tajiquistão]{"entity": "country_code", "value": "TJ"}?
 
 ## intent:covid_situation_infected
-
 - Active cases in [Republic of the Sudan]{"entity": "country_code", "value": "SD"}.
 - How many active cases are in [Česko]{"entity": "country_code", "value": "CZ"}?
 - How many active cases in the [Kingdom of Bahrain]{"entity": "country_code", "value": "BH"}?
@@ -3918,7 +3823,6 @@
 - how many positive cases of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
 
 ## intent:covid_situation_infected_critical
-
 - Critical cases in [Tshād]{"entity": "country_code", "value": "TD"}.
 - Critical in [Kingdom of Cambodia]{"entity": "country_code", "value": "KH"}.
 - Critical in the [Kingdom of Cambodia]{"entity": "country_code", "value": "KH"}.
@@ -3945,8 +3849,7 @@
 - how many seriously infected people in [España]{"entity": "country_code", "value": "ES"}?
 
 ## intent:covid_situation_last_update
-
-- "[Charu cha Malaŵi]{"entity": "country_code", "value": "MW"} cases and deaths"
+- [Charu cha Malaŵi]{"entity": "country_code", "value": "MW"} cases and deaths
 - Actualized data in [al-Yama]{"entity": "country_code", "value": "YE"}.
 - Cases actualization.
 - Cases update as of today.
@@ -3982,8 +3885,7 @@
 - situation covid in [Guinea-Bissau]{"entity": "country_code", "value": "GW"}.
 
 ## intent:covid_situation_recovered
-
-- "[Republik Österreich]{"entity": "country_code", "value": "AT"} recoveries."
+- [Republik Österreich]{"entity": "country_code", "value": "AT"} recoveries.
 - How many have recovered in [Matnik]{"entity": "country_code", "value": "MQ"}?
 - How many people have recorvered in [Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa]{"entity": "country_code", "value": "ET"}?
 - How many people recovered in [Hanguk]{"entity": "country_code", "value": "KR"}?
@@ -4001,9 +3903,8 @@
 - how many recovered there are in [Reino do Bahrein]{"entity": "country_code", "value": "BH"}?
 
 ## intent:covid_situation_tested
-
-- "[Nicaragua]{"entity": "country_code", "value": "NI"} tested."
-- "[Ascension Island]{"entity": "country_code", "value": "SH"} tests."
+- [Nicaragua]{"entity": "country_code", "value": "NI"} tested.
+- [Ascension Island]{"entity": "country_code", "value": "SH"} tests.
 - How many in [República Federal da Alemã]{"entity": "country_code", "value": "DE"} were tested?
 - How many people in [Malta]{"entity": "country_code", "value": "MT"} were tested?
 - How many people was tested in [Thailand]{"entity": "country_code", "value": "TH"}?
@@ -4027,7 +3928,6 @@
 - how many tests were done in [Wallis-et-Futuna]{"entity": "country_code", "value": "WF"}?
 
 ## intent:covid_surfaces
-
 - Coronavirus durability on surfaces.
 - Coronavirus durability surfaces.
 - Coronavirus survival surfaces.
@@ -4101,8 +4001,9 @@
 - How long coronavirus stays on clothes?
 
 ## intent:covid_symptoms
-
+- I want to no how is the symptoms
 - About the symptoms.
+- Wat r d symtoms
 - Am i having symptoms?
 - Bot! I would like to know the symptoms
 - Can chest, back and neck pain be symptoms of corona virus
@@ -4112,8 +4013,7 @@
 - Does corona affect your heart
 - Does covid symptoms include vomiting
 - Gas formation in the stomach also a symptom of covid?
-- Good day I want to know if having a chest pain is one of the symptoms of
-  covid? Then what are the major symptoms of covid?
+- Good day I want to know if having a chest pain is one of the symptoms of covid? Then what are the major symptoms of covid?
 - Head ache is a symptoms of covid
 - Headache nd back pain are symptoms of covid 19?
 - How can know if any body is suffering from covid 19
@@ -4123,11 +4023,8 @@
 - How symtoms for corona
 - How to know if one has the virus
 - Hw will I knw if I have covid 19/
-- I am 26 weaks pregnant,,, last 1 day I found than I cant smell properly, but i
-  dont have fever, cough, tiredness, and others, i can feel taste of salt, am i
-  affected by covid 19
-- I am having light fever, cough and my body is kind of hurting. Is that a
-  symptom of Covid-19?
+- I am 26 weaks pregnant,,, last 1 day I found than I cant smell properly, but i dont have fever, cough, tiredness, and others, i can feel taste of salt, am i affected by covid 19
+- I am having light fever, cough and my body is kind of hurting. Is that a symptom of Covid-19?
 - I cannot taste my food
 - I feel burning in my chest ,is that a symptom of covid
 - I feel difficulty in breathing did i caught covid 19
@@ -4139,8 +4036,7 @@
 - If a person has dry cough, Tiredness, fever it means that he has coronavirus
 - If i have only sore throat then its countable covid-19
 - If someone has cough and not fever it means he has coronavirus
-- If someone has no fever or cough or no symptoms, just a slight sore throat and
-  a little difficulty breathing can be corona
+- If someone has no fever or cough or no symptoms, just a slight sore throat and a little difficulty breathing can be corona
 - If we have only cough And breathing problems means I m suffer from covid
 - If you have pains in your throat does this mean you have covid 19
 - Info about the symptoms.
@@ -4250,21 +4146,19 @@
 - How can i know that i have that virus
 - How do you know if someone contacted Corona virus
 - I can't smell anything
-- I feel burning in  my chest, is that a symptom of covid
+- I feel burning in my chest, is that a symptom of covid
 - I woke up tied and pains at the rips isit the sign's
 - Iost smelling sense
-- Is the throat pain  also a symptom? If fever and cough not in body?
+- Is the throat pain also a symptom? If fever and cough not in body?
 - Please I'm coughing and sneezing what's my problem na
 - Sign's of covid
 - Signs of covid
 - Symptom of infected person
 
 ## intent:covid_treatment
-
 - Does Covid have a treatment?
 - How is the disease treated?
-- I was told diseases caused by virus are not treated completely live HIV/AIDS
-  how come covid-19is treated
+- I was told diseases caused by virus are not treated completely live HIV/AIDS how come covid-19 is treated
 - Is there a treatment?
 - Treatment
 - Cure Of Coronavirus
@@ -4274,12 +4168,9 @@
 
 
 ## intent:covid_worry
-
 - And if I catch the virus?
 - Do you think am being silly I do worry
-- Hello Helen I am worry about the virus like everyone else. I had a runny nose
-  and eyes a cough but not constant. I have not been out out since Dec am I
-  worrying about nothing and being silly
+- Hello Helen I am worry about the virus like everyone else. I had a runny nose and eyes a cough but not constant. I have not been out out since Dec am I worrying about nothing and being silly
 - How to deal with depression?
 - How to proceed about concerns about the disease.
 - How to proceed about concerns about the outbreak.
@@ -4318,14 +4209,12 @@
 - What to do to channel the concerns?
 - What to do to channel the fear?
 - What to do to channel the worry?
-- Yes you are absolutely correct this time our world is very critical condition
-  sorry
+- Yes you are absolutely correct this time our world is very critical condition sorry
 - empathy
 - should I be concerned with the virus?
 - will I die
 
 ## intent:ebola
-
 - Ebola
 - Ebola virus disease
 - I need to know more about corona brother Ebola
@@ -4334,7 +4223,6 @@
 - What is ebola
 
 ## intent:economy_consequences
-
 - Can you answer questions economy related?
 - Economy
 - Economy consequences
@@ -4343,7 +4231,6 @@
 - What are the social psychological and economic impact of the corona virus
 
 ## intent:features_date
-
 - Can you tell me the date of today?
 - Can you tell me the date?
 - Can you tell me the day of today?
@@ -4411,7 +4298,6 @@
 - Which is the date?
 
 ## intent:features_time
-
 - Can you tell me the hours?
 - Can you tell me the time it is?
 - Can you tell me the time?
@@ -4461,8 +4347,8 @@
 - tell me what time it is.
 
 ## intent:greeting_goodbye
-
 - Adieu.
+- Ok byyy
 - Adios.
 - Au revoir.
 - By Helen
@@ -4556,7 +4442,6 @@
 - Power off
 
 ## intent:greeting_hello
-
 - Aloha!
 - Bonjour!
 - Call me buddy.
@@ -4616,7 +4501,6 @@
 - hi Ellen
 
 ## intent:greeting_how_are_you
-
 - Are you OK?
 - Are you doing alright?
 - Are you doing well?
@@ -4642,6 +4526,7 @@
 - How are you this evening?
 - How are you today?
 - How are you?
+- How are u
 - How do you do?
 - How do you feel today?
 - How do you feel?
@@ -4666,7 +4551,6 @@
 - how am i?
 
 ## intent:mask_general
-
 - And here putting on a musk is compulsory
 - Can i wear a disposable mask?
 - Can i wear a mask?
@@ -4746,7 +4630,6 @@
 - Face marsk
 
 ## intent:mask_use_after
-
 - After wearing a disposable mask.
 - After wearing a mask.
 - After wearing a medical mask.
@@ -4787,7 +4670,6 @@
 - how to dispose the mask?
 
 ## intent:mask_use_put
-
 - Before putting on a disposable mask.
 - Before putting on a mask.
 - Before putting on a medical mask.
@@ -4848,7 +4730,6 @@
 - which is the correct way to use a mask?
 
 ## intent:myth_alcohol
-
 - Alcohol all over the body.
 - Alcohol on all the body.
 - Can spraying alcohol all over your body kill the new coronavirus?
@@ -4864,7 +4745,6 @@
 - drinking alcohol protects me against COVID-19?
 
 ## intent:myth_cold_weather
-
 - Can cold snow kill the COVID-19?
 - Can cold snow kill the COVID?
 - Can cold snow kill the SARS-CoV-2?
@@ -4902,7 +4782,6 @@
 - Snow kill the novel coronavirus.
 
 ## intent:myth_hot_bath
-
 - Does heat kill coronvirus
 - Does taking a hot bath prevent the COVID disease?
 - Does taking a hot bath prevent the COVID-19 disease?
@@ -4942,8 +4821,12 @@
 - can hot water kill the virus?
 
 ## intent:myth_mosquitoes
-
 - Can mosquito transmit corona
+- Can mosquitos spread the disease?
+- Can mosquitos spread the virus?
+- Can mosquitos spread COVID-19?
+- Can mosquitos spread COVID 19?
+- Can mosquitos spread COVID19?
 - Can the COVID-19 virus be spread through mosquito bites?
 - Could the coronavirus could be transmitted by mosquitoes?
 - Mosquitos and coronavirus
@@ -4952,14 +4835,12 @@
 - mosquitos
 
 ## intent:myth_garlic
-
 - Garlic prevents
 - eating garlic will protect me against the virus?
 - [garlic](garlic)
 - [garlics](garlic)
 
 ## intent:myth_packages
-
 - Is it safe to receive a letter from any area where COVID-19 has been reported?
 - Is it safe to receive a package from any area where COVID-19 has been reported?
 - Packages from infected areas.
@@ -4975,7 +4856,6 @@
 - letters with virus.
 
 ## intent:myth_transmission_hot_areas
-
 - COVID transmission in areas with hot and humid climates.
 - COVID transmission in areas with hot climates.
 - COVID transmission in hot and humid areas.
@@ -5063,7 +4943,6 @@
 - the disease-19 transmission in hot areas.
 
 ## intent:myth_conspiracy_fakenews
-
 - And are the myths associated with the virus?
 - But covid ain't real is it
 - Conspiracies
@@ -5086,12 +4965,10 @@
 - COVID-19 is panic disease?
 - Is corona real?
 - Is corvid real
-- Write a debate on the topic "corona virus is not real" you can either support
-  or oppose
+- Write a debate on the topic "corona virus is not real" you can either support or oppose
 - is the coronavirus real?
 
 ## intent:prevention_clean_hands
-
 - About cleaning hands.
 - About washing hands.
 - By washing hands
@@ -5102,8 +4979,7 @@
 - Cleaning hands prevention
 - Cleaning hands will prevent from catching the disease?
 - Cleaning hands will prevent from catching the virus?
-- Cleaning my hands with alcohol-based hand rub will reduce my chances of being
-  infected?
+- Cleaning my hands with alcohol-based hand rub will reduce my chances of being infected?
 - Cleaning my hands with soap will reduce my chances of being infected?
 - Do you think washing your hands is enough?
 - How can one wash hands correctly?
@@ -5135,19 +5011,16 @@
 - when should I wash my hands?
 
 ## intent:prevention_disinfection
-
 - How to disinfect things?
 - What about using sanitizer?
 - What to use as disinfectant?
 
 ## intent:prevention_distance
-
 - Distance from people coughing or sneezing.
 - Distance from people coughing.
 - Distance from people sneezing.
 - Distance from people.
-- Evaluate the covid 19 lock down regulation of social distancing as personal
-  safety measure to prevent the corona virus infection
+- Evaluate the covid 19 lock down regulation of social distancing as personal safety measure to prevent the corona virus infection
 - How best can social distancing be promoted?
 - How far is a safe distance from people coughing or sneezing?
 - How far is a safe distance from people coughing?
@@ -5177,7 +5050,6 @@
 - which is the safety distance recommended?
 
 ## intent:prevention_general
-
 - Alright. What are the preventing measures?
 - Could you tell me about preventive measures?
 - Fine what are the preventive measures
@@ -5223,8 +5095,7 @@
 - I want toi no how to protect my self
 - I was wondering if you could tell me how I can protect myself from the virus
 - I'm not positive! But my area's person will positive
-- If I frequently use lemons and ginger, will I be in position to defeat the
-  virus?
+- If I frequently use lemons and ginger, will I be in position to defeat the virus?
 - It's alright. So what are the preventive measures?
 - It's fine Thanks so how can I prevent it now
 - List 200 ways,we can prevent it
@@ -5292,19 +5163,17 @@
 - Guidelines
 - Guidelines for the virus
 - How can one be safe
-- Is it true that when you take lime and lemon juice one can't contract the
-  virus?
-- hello  how should I protect myself
+- Is it true that when you take lime and lemon juice one can't contract the virus?
+- hello how should I protect myself
 - what are the recommendations for the indigenous?
 
 ## intent:prevention_home
-
 - Am I doing well if I stay at home?
 - Am I doing well if I stay home?
 - Am coughing what can I do
+- Is staying home truly d best idea In d case of preventing d virus
 - Have fever cough
-- Hello myself Debabrata last three days my body temperature belongs to 97 to 99
-  without running nose, cough n cold or any throat pain. What should I do
+- Hello myself Debabrata last three days my body temperature belongs to 97 to 99 without running nose, cough n cold or any throat pain. What should I do
 - Hello... I am having sore throat from past 17 days...
 - Hii madam I had throt irritation from last 10 days
 - I am coughing
@@ -5342,8 +5211,7 @@
 - Stay home Stay safety
 - Stay home.
 - What helps if I have fiver?
-- What if I get now the virus , what are the first steps I can use before
-  visting health center
+- What if I get now the virus , what are the first steps I can use before visting health center
 - What if I only have sore throat
 - What if my stomach aches
 - When to stay at home.
@@ -5359,7 +5227,6 @@
 - you're right I am feeling sick
 
 ## intent:prevention_informed
-
 - Follow the news.
 - Is it important to follow the news?
 - It is important to stay informed?
@@ -5386,7 +5253,6 @@
 - Why should I stay aware of the latest information on the COVID-19 outbreak?
 
 ## intent:prevention_measures
-
 - Are there measures not effective against COVID-19?
 - Are there measures that are not effective against COVID-19?
 - Is smoking effective against COVID-2019?
@@ -5411,7 +5277,6 @@
 - drinking beverage protect me against COVID-19?
 
 ## intent:prevention_medical_attention
-
 - Am i sick
 - Do I have the virus?
 - Fever tempretur
@@ -5499,8 +5364,10 @@
 - Who to contact if you have this symptoms
 
 ## intent:prevention_medicine
-
 - About a drug for COVID-19.
+- If there is no medicine for corona virus than how people are recovering?
+- Can it be treated
+- How do they treat it
 - About a drug to treat COVID-19.
 - About a drug.
 - About a medicine for COVID-19.
@@ -5550,8 +5417,7 @@
 - Has any country as an idea about covid 19 cure
 - Has the cure been found
 - Hello will that be cured without any medicine.
-- Hey ...am called Joseph from Uganda....my questions is...is there any vaccine
-  at hand that their working on to stop the spread of covid-19
+- Hey ...am called Joseph from Uganda....my questions is...is there any vaccine at hand that their working on to stop the spread of covid-19
 - How can Corona virus be treated.
 - How far hv doctors gone with issue of covid 19 vaccine?
 - How far with the vaccines
@@ -5633,8 +5499,7 @@
 - Will be vaccine available in the month of july
 - Will their be cure for covid 19
 - Yes. But is there a vaccine?
-- You see, you say that coronavirus has no cure. Why people are recovering from
-  the pandemic if there was no cure for it?
+- You see, you say that coronavirus has no cure. Why people are recovering from the pandemic if there was no cure for it?
 - are there a vacine?
 - are there medication to prevent the disease?
 - are there vaccines to prevent the disease?
@@ -5667,7 +5532,6 @@
 - Hydroxychloroquine
 
 ## intent:prevention_respiratory_hygiene
-
 - Covering mouth and nose while coughing or sneezing.
 - Covering mouth and nose while coughing.
 - Covering mouth and nose while sneezing or coughing.
@@ -5725,7 +5589,6 @@
 - What to do when sneezing?
 
 ## intent:prevention_touch
-
 - About not touching eyes.
 - About not touching face.
 - About not touching mouth.
@@ -5804,8 +5667,7 @@
 - Any vaccines for covid-19
 - Explain the status of covid 19 vaccine
 - Has a vaccine for corona virus been established?
-- Hey ...am called Joseph from Uganda....my questions is...is there any vaccine
-  at hand that their working on to stop the spread of covid-19
+- Hey ...am called Joseph from Uganda....my questions is...is there any vaccine at hand that their working on to stop the spread of covid-19
 - How far hv doctors gone with issue of covid 19 vaccine?
 - How far with the vaccines
 - Information about the promising vaccine
@@ -5820,8 +5682,7 @@
 - Is there any vaccine found for this pandemic
 - Is there any vacine for this virus?
 - Is there no vaccine yet
-- Maybe one other thing I would like to know is about the vaccine how far they
-  have gone with it and how many types are being processed
+- Maybe one other thing I would like to know is about the vaccine how far they have gone with it and how many types are being processed
 - No vaccine?
 - Ok Helen When can a vaccine be produced by some countries
 - Ok but there isn't a vaccine or a solution for the problem
@@ -5858,13 +5719,11 @@
 - what about vaccine
 
 ## intent:quarantine_control
-
 - How is the quarantine controlled?
 - Quarantine controlled
 - Who controls the quarantine?
 
 ## intent:quarantine_dogwalking
-
 - Dog quarantine
 - Dog walking and quarantine
 - Dogs and quarantine
@@ -5874,7 +5733,6 @@
 - What do dog owners who are in quarantine do? Who goes out with the animal?
 
 ## intent:quarantine_dos_and_donts
-
 - May I leave home?
 - What is allowed to do in quarantine?
 - What is forbidden to do in quarantine?
@@ -5883,7 +5741,6 @@
 - What may not be done while in quarantine?
 
 ## intent:quarantine_general
-
 - About quarantine
 - Curfew
 - How is quarantine done?
@@ -5899,16 +5756,13 @@
 - should I make quarentine?
 - should I still make quarantine?
 - should I still make quarentine?
-- with no symptoms during quarantine, after how long we can consider ourselves
-  cured
+- with no symptoms during quarantine, after how long we can consider ourselves cured
 
 ## intent:quarantine_toiletpaper
-
 - Toilet paper
 - Why do so many people buy toilet paper now?
 
 ## intent:quarantine_when_who_howlong
-
 - Should I do quarantine.
 - When do I need to go in quarantine?
 - Who needs to do quarantine?
@@ -5916,7 +5770,6 @@
 - should i make quarantine?
 
 ## intent:quaratine_how_it_works
-
 - How do quarantine properly?
 - How does quarantine work?
 - How to do proper quarantine?
@@ -5925,7 +5778,6 @@
 - What is quarantine? How does it work?
 
 ## intent:spread_air
-
 - Air propagation.
 - Air spreading.
 - Air transmission.
@@ -5964,7 +5816,6 @@
 - Will it spread in air
 
 ## intent:spread_animals
-
 - Can I be infected with COVID-19 from an animal?
 - Can I be infected with COVID-19 from animals?
 - Can I be infected with the virus from an animal?
@@ -6001,7 +5852,6 @@
 - the virus transmitting from animals to people?
 
 ## intent:spread_feces
-
 - Can I catch COVID-19 from the excrements of an infected person?
 - Can I catch COVID-19 from the excrements of someone with the disease?
 - Can I catch COVID-19 from the feces of an infected person?
@@ -6038,7 +5888,7 @@
 - Spreading through poop.
 
 ## intent:spread_general
-
+- So wats d mode of transmission
 - About how COVID-19 propagates.
 - About how COVID-19 spreads.
 - About how coronavirus propagates.
@@ -6054,10 +5904,7 @@
 - COVID-19 propagation.
 - COVID-19 spread.
 - COVID-19 spreading.
-- Can CoronaVirus spread through our own sweat? Suppose I touched any infected
-  surface with my hands and unknowingly touched my face. So my face is now
-  infected, so as it is summer hence getting sweaty is natural. If the sweat
-  enters our eyes, nose or mouth, will it infect us?
+- Can CoronaVirus spread through our own sweat? Suppose I touched any infected surface with my hands and unknowingly touched my face. So my face is now infected, so as it is summer hence getting sweaty is natural. If the sweat enters our eyes, nose or mouth, will it infect us?
 - Can corona virus spread enter human body through blood?
 - Coronavirus propagate.
 - Coronavirus propagating.
@@ -6140,8 +5987,7 @@
 - Spreading of coronavirus.
 - Spreading of the disease.
 - Spreading of the virus.
-- Suppose I sleep with someone with covid and we don'thave sex, can I be
-  infected?
+- Suppose I sleep with someone with covid and we don'thave sex, can I be infected?
 - The spread of covid 19
 - Virus propagate.
 - Virus propagating.
@@ -6171,7 +6017,8 @@
 - Ok so pls how does it really spread
 
 ## intent:spread_no_symptoms
-
+- Without any symptoms can a person get indlfected?
+- Without any symptoms can a person get infected?
 - Can COVID-19 be caught from a person who has no symptoms?
 - Can COVID-19 be caught from a person with no symptoms?
 - Can COVID-19 be caught from a person without symptoms?
@@ -6221,9 +6068,7 @@
 - Can the virus be caught from someone who has no symptoms?
 - Can the virus be caught from someone with no symptoms?
 - Can the virus be caught from someone without symptoms?
-- Hellen ,am confused about how dis virus affects humans , some humans mayb
-  having de virus but dont show signs and symptoms , what is the reason behind
-  this
+- Hellen ,am confused about how dis virus affects humans , some humans maybe having de virus but dont show signs and symptoms, what is the reason behind this
 - Hw wll I know if I have covid 19 without any symptoms
 - People who has no symptoms can be infectious?
 - People who has no symptoms can transmit COVID-19?
@@ -6258,11 +6103,9 @@
 - Someone without symptoms can be infectious?
 - Someone without symptoms can pass the virus?
 - Someone without symptoms can transmit the virus?
-- Those who are asymptomatic to Covid-19; how can they know they are infected
-  without testing and how long can they live with the virus before they die?
+- Those who are asymptomatic to Covid-19; how can they know they are infected without testing and how long can they live with the virus before they die?
 
 ## intent:spread_pets
-
 - Can I be infected from my cat?
 - Can I be infected from my companion animal?
 - Can I be infected from my dog?
@@ -6359,7 +6202,6 @@
 - may I get COVID-19 from my dog?
 
 ## intent:spread_risk
-
 - Can the disabled get this virus
 - Chances of be infected by COVID-19.
 - Chances of be infected by the virus.
@@ -6421,16 +6263,13 @@
 - what is the probability to be infected in the shopping mall
 - who affects the most?
 - will I get covid 19
-- with no symptoms and without testing and after two weeks at home with social
-  distance can we consider ourselves healthy regarding Covid-19
+- with no symptoms and without testing and after two weeks at home with social distance can we consider ourselves healthy regarding Covid-19
 
 ## intent:spread_surfaces_food_objects
-
 - Can I become infected with the novel coronavirus from food or water?
 - Can I become infected with the novel coronavirus from food?
 
 ## intent:test_virus
-
 - Am getting only fever it's max99.6 and minimum 97.8 so need to covid 19test
 - Can I get tested for coronavirus?
 - Can I get tested for covid?
@@ -6448,7 +6287,6 @@
 - test
 
 ## intent:test_who
-
 - Can I be tested?
 - Can I be tested for coronavirus?
 - Can I be tested for covid?
@@ -6460,7 +6298,6 @@
 - Who can be tested?
 
 ## intent:travel_after
-
 - After travel procedure.
 - After travel procedures.
 - After travel proceeding.
@@ -6495,7 +6332,6 @@
 - travel after.
 
 ## intent:travel_before
-
 - Before travel.
 - Before traveling.
 - I have a travel schedule.
@@ -6536,7 +6372,6 @@
 - before travling
 
 ## intent:travel_while
-
 - During travel.
 - During traveling.
 - How to behave during travel?
@@ -6581,7 +6416,6 @@
 - While traveling.
 
 ## intent:user_angry
-
 - At this moment I am foaming from the mouth!
 - Boiling mad!
 - Can you feel my anger?
@@ -6617,7 +6451,6 @@
 - You will feel my wrath!
 
 ## intent:user_friend
-
 - Are we friends?
 - Are you happy with me
 - Are you my best friend?
@@ -6660,7 +6493,6 @@
 - Please call me your friend
 
 ## intent:user_happy
-
 - At this time I am an overjoyed person.
 - Elated person.
 - Feel gleeful.
@@ -6714,7 +6546,6 @@
 - happiness
 
 ## intent:user_love
-
 - Accept my love.
 - Accept my proposal.
 - Am crushing on you
@@ -6756,8 +6587,7 @@
 - No that is not the matter now I said I love u
 - Now I love u
 - Ok but just know i love you
-- Please I am compatible if you accept me I will show you love I will never hurt
-  u places I love u
+- Please I am compatible if you accept me I will show you love I will never hurt u places I love u
 - Please I really love u places
 - Please accept me I truely love you places I love u
 - Please accept my love!
@@ -6772,7 +6602,6 @@
 - You don't love me.
 
 ## intent:user_no_data
-
 - At the moment I don’t have any personal data here.
 - At the moment I don’t have any personal data with me.
 - At the moment I don’t have my personal data here.
@@ -6818,9 +6647,7 @@
 - Yes. I don’t have any personal data.
 
 ## intent:user_no_further_questions
-
-- Alright thank you very much i appreciate everything God bless you for her or
-  him
+- Alright thank you very much i appreciate everything God bless you for her or him
 - Can you shut the boot for me, please?
 - Can you shut the boot for me?
 - For now I am satisfied,Thank you
@@ -6936,7 +6763,6 @@
 - that's all for today
 
 ## intent:user_particles
-
 - Aaha
 - Ah
 - Aham
@@ -6967,7 +6793,6 @@
 - Wow
 
 ## intent:user_scared
-
 - But for me not a good day
 - Don’t want to be frightened.
 - Don’t want to be scared.
@@ -6997,7 +6822,6 @@
 - You scaring me.
 
 ## intent:vocative_call
-
 - Answer please
 - Are you around?
 - Are you gone?
@@ -7050,7 +6874,6 @@
 - hi again
 
 ## intent:vocative_help
-
 - Are you going to assist me?
 - Are you going to help me?
 - Assistance please!
@@ -7107,7 +6930,6 @@
 - Do you like to help me
 
 ## intent:vocative_no
-
 - Absolutely not.
 - Am not interested
 - By no means.
@@ -7149,7 +6971,6 @@
 - Veto.
 
 ## intent:vocative_sorry
-
 - Excuse me.
 - Excuse.
 - Forgive me!
@@ -7195,7 +7016,6 @@
 - Whoops! Sorry!
 
 ## intent:vocative_thank_you
-
 - Accept my deepest thanks
 - Accept my endless gratitude
 - All I can say is thanks
@@ -7314,7 +7134,6 @@
 - thanks, Helen!
 
 ## intent:vocative_yes
-
 - Absolutely.
 - Affirmative.
 - Agreed.
@@ -7362,7 +7181,6 @@
 - confirm
 
 ## intent:vocative_you_welcome
-
 - Anytime.
 - Don’t mention it
 - Glad to help!
@@ -7383,12 +7201,10 @@
 - that's ok
 
 ## intent:myth_influenza
-
 - [influenza](influenza)
 - [flu](influenza)
 
 ## intent:myth_air_conditioning
-
 - [air conditioner](air_conditioning)
 - [air conditioning](air_conditioning)
 - [AC](air_conditioning)
@@ -7396,18 +7212,15 @@
 - [air con](air_conditioning)
 
 ## intent:myth_5G
-
 - [5G](5G)
 - [five G](5G)
 - [5 G](5G)
 
 ## intent:myth_hand_dryer
-
 - [hand dryer](hand_dryer)
 - [hand dryers](hand_dryer)
 
 ## intent:myth_uv_lamps
-
 - [uv lamps](uv_lamp)
 - [ultraviolet disinfection lamp](uv_lamp)
 - [ultraviolet disinfection lamps](uv_lamp)
@@ -7415,40 +7228,33 @@
 - [ultraviolet lamps](uv_lamp)
 
 ## intent:myth_thermal_scanner
-
 - [thermal scanner](thermal_scanner)
 - [thermal scanners](thermal_scanner)
 
 ## intent:myth_antibiotics
-
 - [antibiotics](antibiotics)
 - [antibiotic](antibiotics)
 
 ## intent:myth_pneumonia_vaccine
-
 - [pneumonia vaccine](pneumonia_vaccine)
 - [pneumonia vaccines](pneumonia_vaccine)
 
 ## intent:myth_saline
-
 - [saline](saline)
 - [saline solution](saline)
 
 ## intent:myth_sesame_oil
-
 - [sesame oil](sesame_oil)
 - [sesame](sesame_oil)
 - [oleo de sessamo](sesame_oil)
 - [sessamo](sesame_oil)
 
 ## intent:mask_visors
-
 - [visors](visors)
 - [Acrylic visors](visors)
 - [protection visors](visors)
 
 ## intent:country
-
 - in [Portugal]{"entity": "country_code", "value": "PT"}
 - [Spain]{"entity": "country_code", "value": "ES"}
 - in [Greece]{"entity": "country_code", "value": "GR"}
@@ -8196,7 +8002,6 @@
 - [burundi]{"entity": "country_code", "value": "BI"}
 - [Burundi]{"entity": "country_code", "value": "BI"}
 - [Republic of Burundi]{"entity": "country_code", "value": "BI"}
-
 - [European continet]{"entity": "world_region", "value": "Europe"}
 - [Europe]{"entity": "world_region", "value": "Europe"}
 - [Asia]{"entity": "world_region", "value": "Asia"}
@@ -8206,14 +8011,12 @@
 - [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
 
 ## synonym:NP
-
 - Nepal
 - Federal Democratic Republic of Nepal
 - Saṅghīya Lokatāntrik Gaṇatantra Nepāl
 - República Democrática Federal do Nepal
 
 ## synonym:sex
-
 - sex
 - sexual
 - virginity
@@ -8251,7 +8054,6 @@
 - vagina
 
 ## synonym:website
-
 - page
 - web sites
 - web site
@@ -8268,7 +8070,6 @@
 - website
 
 ## synonym:IT
-
 - Italy
 - Italia
 - Italian Republic
@@ -8277,7 +8078,6 @@
 - República Italiana
 
 ## synonym:uv lamp
-
 - uv lamps
 - ultraviolet disinfection lamp
 - ultraviolet disinfection lamps
@@ -8285,7 +8085,6 @@
 - ultraviolet lamps
 
 ## synonym:GG
-
 - Guernsey
 - Guernési
 - Guernesey
@@ -8296,7 +8095,6 @@
 - Bailliage de Guernesey
 
 ## synonym:MS
-
 - Montserrat
 - Monserrate
 - Ilha Esmeralda das Caraíbas
@@ -8304,7 +8102,6 @@
 - Emerald Isle of the Caribbean
 
 ## synonym:SC
-
 - Seychelles
 - Republic of Seychelles
 - République des Seychelles
@@ -8315,7 +8112,6 @@
 - República das Seychelles
 
 ## synonym:AX
-
 - Åland Islands
 - Åland
 - Fasta Åland
@@ -8328,7 +8124,6 @@
 - Alandia
 
 ## synonym:FM
-
 - Federated States of Micronesia
 - FSM
 - Micronesia
@@ -8337,7 +8132,6 @@
 - Micronésia
 
 ## synonym:GU
-
 - Guam
 - Guåhån
 - Guão
@@ -8351,7 +8145,6 @@
 - portugal
 
 ## synonym:JP
-
 - Japan
 - Nippon
 - Nihon
@@ -8361,7 +8154,6 @@
 - Estado do Japão
 
 ## synonym:joke
-
 - humorist
 - comical
 - humourous
@@ -8383,7 +8175,6 @@
 - pranks
 
 ## synonym:CO
-
 - Colombia
 - Republic of Colombia
 - República de Colombia
@@ -8391,25 +8182,21 @@
 - República da Colômbia
 
 ## synonym:MT
-
 - Malta
 - Republic of Malta
 - Repubblika ta' Malta
 - República de Malta
 
 ## synonym:number
-
 - number
 - quantity
 
 ## synonym:CU
-
 - Cuba
 - Republic of Cuba
 - República de Cuba
 
 ## synonym:MM
-
 - Myanmar
 - Burma
 - Republic of the Union of Myanmar
@@ -8419,13 +8206,11 @@
 - República da União de Myanmar
 
 ## synonym:GP
-
 - Guadeloupe
 - Gwadloup
 - Guadalupe
 
 ## synonym:AR
-
 - Argentina
 - Argentine Republic
 - República Argentina
@@ -8433,13 +8218,11 @@
 - Republic of Argentina
 
 ## synonym:VG
-
 - British Virgin Islands
 - BVI
 - Ilhas Virgens Britânicas
 
 ## synonym:LU
-
 - Luxembourg
 - Lëtzebuerg
 - Luxemburg
@@ -8452,7 +8235,6 @@
 - Grão-Ducado de Luxemburgo
 
 ## synonym:GA
-
 - Gabon
 - Gabonese Republic
 - République gabonaise
@@ -8460,7 +8242,6 @@
 - República Gabonesa
 
 ## synonym:town
-
 - Sevilla
 - Weilburg
 - Feuchtwangen
@@ -10843,7 +10624,6 @@
 - Kryvyi Rih
 
 ## synonym:UG
-
 - Uganda
 - Republic of Uganda
 - Jamhuri ya Uganda
@@ -10852,7 +10632,6 @@
 - República do Uganda
 
 ## synonym:TN
-
 - Tunisia
 - Republic of Tunisia
 - al-Jumhūrīyah at-Tūnisīyah
@@ -10863,7 +10642,6 @@
 - República Tunisina
 
 ## synonym:music
-
 - Folk
 - Rave
 - Punk
@@ -10959,7 +10737,6 @@
 - music
 
 ## synonym:PR
-
 - Puerto Rico
 - Borinquen
 - Porto Rico
@@ -10969,7 +10746,6 @@
 - Estado Livre Associado de Porto Rico
 
 ## synonym:UY
-
 - Uruguay
 - Oriental Republic of Uruguay
 - República Oriental del Uruguay
@@ -10977,7 +10753,6 @@
 - Uruguai
 
 ## synonym:SL
-
 - Sierra Leone
 - Republic of Sierra Leone
 - Salone
@@ -10985,7 +10760,6 @@
 - República da Serra Leoa
 
 ## synonym:PW
-
 - Palau
 - Belau
 - Palaos
@@ -10995,7 +10769,6 @@
 - República de Palau
 
 ## synonym:MA
-
 - Morocco
 - al-maġhrib
 - Maroc
@@ -11010,13 +10783,11 @@
 - Reino de Marrocos
 
 ## synonym:TV
-
 - Tuvalu
 - Ellice Islands
 - Ilhas Ellice
 
 ## synonym:QA
-
 - Qatar
 - State of Qatar
 - Dawlat Qaṭar
@@ -11026,7 +10797,6 @@
 - Estado do Qatar
 
 ## synonym:PM
-
 - Saint Pierre and Miquelon
 - Saint-Pierre-et-Miquelon
 - Overseas Collectivity of Saint Pierre and Miquelon
@@ -11037,7 +10807,6 @@
 - Coletividade de Ultramar de São Pedro e Miquelão
 
 ## synonym:IQ
-
 - Iraq
 - Êraq
 - Republic of Iraq
@@ -11047,7 +10816,6 @@
 - Al-Jumhuriyah Al-Iraqiyah
 
 ## synonym:LK
-
 - Sri Lanka
 - Srī Lankā prajātāntrika samājavādī janarajaya
 - Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
@@ -11061,7 +10829,6 @@
 - Taprobana
 
 ## synonym:AS
-
 - American Samoa
 - Samoa Americana
 - Amerika Sāmoa
@@ -11070,7 +10837,6 @@
 - Tutuila
 
 ## synonym:PS
-
 - State of Palestine
 - Dawlat Filasṭīn
 - Palestine
@@ -11078,14 +10844,12 @@
 - Estado da Palestina
 
 ## synonym:TG
-
 - Togo
 - Togolese Republic
 - République togolaise
 - República Togolesa
 
 ## synonym:OM
-
 - Oman
 - Salṭanat ʻUmān
 - Sultanate of Oman
@@ -11095,21 +10859,18 @@
 - Saltānat 'Umān
 
 ## synonym:prevention
-
 - prevention
 - prevent
 - protection
 - protect
 
 ## synonym:RE
-
 - Réunion
 - La Réunion
 - Île Bourbon
 - Reunião
 
 ## synonym:KW
-
 - Kuwait
 - al-Kuwait
 - State of Kuwait
@@ -11117,7 +10878,6 @@
 - Estado do Kuwait
 
 ## synonym:PY
-
 - Paraguay
 - Republic of Paraguay
 - República del Paraguay
@@ -11126,7 +10886,6 @@
 - Paraguai
 
 ## synonym:weather
-
 - tornadic
 - windy
 - winter
@@ -11192,14 +10951,12 @@
 - weather
 
 ## synonym:PF
-
 - French Polynesia
 - Polynésie française
 - Pōrīnetia Farāni
 - Polinésia Francesa
 
 ## synonym:SJ
-
 - Svalbard and Jan Mayen
 - Svalbard og Jan Mayen
 - Svalbard and Jan Mayen Islands
@@ -11208,7 +10965,6 @@
 - Jan Mayen
 
 ## synonym:CG
-
 - Congo
 - République du Congo
 - Repubilika ya Kôngo
@@ -11219,7 +10975,6 @@
 - RotC
 
 ## synonym:TH
-
 - Thailand
 - Kingdom of Thailand
 - Siam
@@ -11229,7 +10984,6 @@
 - Sião
 
 ## synonym:HM
-
 - Heard Island and McDonald Islands
 - HIMI
 - Ilha Heard e as Ilhas McDonald
@@ -11238,7 +10992,6 @@
 - Ilhas McDonald
 
 ## synonym:YE
-
 - Yemen
 - al-Jumhūrīyah al-Yamanīyah
 - Yaman
@@ -11250,13 +11003,11 @@
 - República do Iêmen
 
 ## synonym:SB
-
 - Solomon Islands
 - Islas Salomón
 - Ilhas Salomão
 
 ## synonym:NO
-
 - Norway
 - Kingdom of Norway
 - Kongeriket Norge
@@ -11273,7 +11024,6 @@
 - Reino da Noruega
 
 ## synonym:SG
-
 - Singapore
 - Republic of Singapore
 - Singapura
@@ -11284,7 +11034,6 @@
 - Republik Singapura
 
 ## synonym:PK
-
 - Pakistan
 - Islamic Republic of Pakistan
 - Islāmī Jumhūriyah Pākistān
@@ -11294,7 +11043,6 @@
 - República Islâmica do Paquistão
 
 ## synonym:FK
-
 - Falkland Islands (Malvinas)
 - Malvinas
 - Falkland
@@ -11304,7 +11052,6 @@
 - Falklands
 
 ## synonym:NR
-
 - Nauru
 - Republic of Nauru
 - Repubrikin Naoero
@@ -11314,7 +11061,6 @@
 - Ilha Aprazível
 
 ## synonym:BR
-
 - Brazil
 - Brasil
 - Federative Republic of Brazil
@@ -11322,20 +11068,17 @@
 - República Federal do Brasil
 
 ## synonym:World
-
 - planeta
 - Globo
 - Mundo
 
 ## synonym:date
-
 - day
 - datums
 - datum
 - date
 
 ## synonym:TR
-
 - Turkey
 - Türkiye
 - Republic of Turkey
@@ -11344,13 +11087,11 @@
 - República da Turquia
 
 ## synonym:five
-
 - 5
 - five
 - Fifth
 
 ## synonym:MH
-
 - Marshall Islands
 - Republic of the Marshall Islands
 - Aolepān Aorōkin Ṃajeḷ
@@ -11358,7 +11099,6 @@
 - República das Ilhas Marshall
 
 ## synonym:EE
-
 - Estonia
 - Eesti
 - Republic of Estonia
@@ -11369,7 +11109,6 @@
 - República da Estônia
 
 ## synonym:ST
-
 - Sao Tome and Principe
 - Saint Thomas and Prince
 - Democratic Republic of São Tomé and Príncipe
@@ -11377,7 +11116,6 @@
 - São Tomé e Príncipe
 
 ## synonym:CN
-
 - China
 - People's Republic of China
 - PRC
@@ -11386,7 +11124,6 @@
 - RPC
 
 ## synonym:PH
-
 - Philippines
 - Pilipinas
 - Filipinas
@@ -11396,7 +11133,6 @@
 - Repúbliká ng̃ Pilipinas
 
 ## synonym:SZ
-
 - Swaziland
 - Eswatini
 - Kingdom of Eswatini
@@ -11405,7 +11141,6 @@
 - Reino de Essuatíni
 
 ## synonym:MR
-
 - Mauritania
 - Mūrītānyā
 - Mauritanie
@@ -11421,7 +11156,6 @@
 - República Islâmica da Mauritânia
 
 ## synonym:HR
-
 - Croatia
 - Hrvatska
 - Republic of Croatia
@@ -11430,7 +11164,6 @@
 - República da Croácia
 
 ## synonym:MG
-
 - Madagascar
 - Madagasikara
 - Republic of Madagascar
@@ -11443,7 +11176,6 @@
 - República Malgaxe
 
 ## synonym:Mrs.
-
 - Mrs.
 - Ms
 - Miss
@@ -11454,7 +11186,6 @@
 - Ms.
 
 ## synonym:ZW
-
 - Zimbabwe
 - Republic of Zimbabwe
 - Rhodesia
@@ -11474,7 +11205,6 @@
 - República do Zimbabwe
 
 ## synonym:UZ
-
 - Uzbekistan
 - Oʻzbekiston
 - Republic of Uzbekistan
@@ -11484,7 +11214,6 @@
 - República do Uzbequistão
 
 ## synonym:PN
-
 - Pitcairn
 - Pitcairn Islands
 - Pitkern Ailen
@@ -11495,13 +11224,11 @@
 - Grupo de Ilhas Pitcairn
 
 ## synonym:two
-
 - 2
 - two
 - Second
 
 ## synonym:NL
-
 - Netherlands
 - Nederland
 - Kingdom of the Netherlands
@@ -11510,7 +11237,6 @@
 - Reino dos Países Baixos
 
 ## synonym:IL
-
 - Israel
 - State of Israel
 - Estado de Israel
@@ -11518,7 +11244,6 @@
 - Dawlat Isrā'īl
 
 ## synonym:ET
-
 - Ethiopia
 - Itiyoophiyaa
 - Itoophiyaa
@@ -11531,7 +11256,6 @@
 - República Democrática Federal da Etiópia
 
 ## synonym:TL
-
 - Timor-Leste
 - República Democrática de Timor-Leste
 - Timor Leste
@@ -11541,7 +11265,6 @@
 - East Timor
 
 ## synonym:VI
-
 - U.S. Virgin Islands
 - Ilhas Virgens Americanas
 - Ilhas Virgens dos Estados Unidos
@@ -11551,18 +11274,15 @@
 - Virgin Islands of the United States
 
 ## synonym:AZ
-
 - Azerbaijan
 - Republic of Azerbaijan
 - Azerbaijão
 - República do Azerbaijão
 
 ## synonym:5G
-
 - 5G
 
 ## synonym:LS
-
 - Lesotho
 - Kingdom of Lesotho
 - Muso oa Lesotho
@@ -11573,7 +11293,6 @@
 - Bassutolândia
 
 ## synonym:CM
-
 - Cameroon
 - Cameroun
 - Republic of Cameroon
@@ -11584,7 +11303,6 @@
 - República do Cameroun
 
 ## synonym:UM
-
 - United States Minor Outlying Islands
 - Baker Island
 - Howland Island
@@ -11608,7 +11326,6 @@
 - Ilhas Menores Afastadas dos Estados Unidos
 
 ## synonym:ZM
-
 - Zambia
 - Republic of Zambia
 - Dziko la Zambia
@@ -11617,7 +11334,6 @@
 - República da Zâmbia
 
 ## synonym:ID
-
 - Indonesia
 - Republic of Indonesia
 - Republik Indonesia
@@ -11625,18 +11341,15 @@
 - República da Indonésia
 
 ## synonym:DO
-
 - Dominican Republic
 - República Dominicana
 
 ## synonym:one
-
 - 1
 - one
 - First
 
 ## synonym:SN
-
 - Senegal
 - Sénégal
 - Republic of Senegal
@@ -11646,7 +11359,6 @@
 - República do Senegal
 
 ## synonym:AG
-
 - Antigua and Barbuda
 - Antigua
 - Barbuda
@@ -11655,7 +11367,6 @@
 - Antígua
 
 ## synonym:BE
-
 - Belgium
 - Kingdom of Belgium
 - Königreich Belgien
@@ -11668,12 +11379,10 @@
 - Belgien
 
 ## synonym:JM
-
 - Jamaica
 - Jumieka
 
 ## synonym:ES
-
 - Spain
 - España
 - Kingdom of Spain
@@ -11686,7 +11395,6 @@
 - Reino de Espanha
 
 ## synonym:BJ
-
 - Benin
 - Republic of Benin
 - République du Bénin
@@ -11695,14 +11403,12 @@
 - República do Benim
 
 ## synonym:BM
-
 - Bermuda
 - Islands of Bermuda
 - Ilhas Bermudas
 - Bermudas
 
 ## synonym:SD
-
 - Sudan
 - Republic of the Sudan
 - as-Sūdān
@@ -11711,19 +11417,16 @@
 - República do Sudão
 
 ## synonym:AL
-
 - Albania
 - Republic of Albania
 - Albânia
 - Republica da Albânia
 
 ## synonym:saline
-
 - saline
 - saline solution
 
 ## synonym:SR
-
 - Suriname
 - Surinam
 - Republic of Suriname
@@ -11731,7 +11434,6 @@
 - República do Suriname
 
 ## synonym:IN
-
 - India
 - Bhārat
 - Republic of India
@@ -11740,7 +11442,6 @@
 - República da Índia
 
 ## synonym:BD
-
 - Bangladesh
 - country of Bengal
 - People's Republic of Bangladesh
@@ -11750,7 +11451,6 @@
 - República Popular do Bangladesh
 
 ## synonym:Mr.
-
 - Mister
 - Mr
 - male
@@ -11759,33 +11459,28 @@
 - Mr.
 
 ## synonym:UA
-
 - Ukraine
 - Ukrayina
 - Ucrânia
 
 ## synonym:yes
-
 - follow
 - select
 - afirmative
 - yes
 
 ## synonym:KY
-
 - Cayman Islands
 - Ilhas Caimã
 - Ilhas Cayman
 - Ilhas Caimão
 
 ## synonym:ME
-
 - Montenegro
 - Crna Gora
 - Црна Гора
 
 ## synonym:GQ
-
 - Equatorial Guinea
 - Guinea Ecuatorial
 - Guinée équatoriale
@@ -11796,7 +11491,6 @@
 - República da Guiné Equatorial
 
 ## synonym:US
-
 - United States
 - United States of America
 - USA
@@ -11810,7 +11504,6 @@
 - eua
 
 ## synonym:IR
-
 - Islamic Republic of Iran
 - Persia
 - Jomhuri-ye Eslāmi-ye Irān
@@ -11821,7 +11514,6 @@
 - Pérsia
 
 ## synonym:SK
-
 - Slovakia
 - Slovensko
 - Slovak Republic
@@ -11830,7 +11522,6 @@
 - República Eslovaca
 
 ## synonym:BT
-
 - Bhutan
 - Kingdom of Bhutan
 - Druk Gyal Khap
@@ -11838,7 +11529,6 @@
 - Reino do Butão
 
 ## synonym:AT
-
 - Austria
 - Republic of Austria
 - Österreich
@@ -11847,7 +11537,6 @@
 - República da Áustria
 
 ## synonym:KR
-
 - Republic of Korea
 - South Korea
 - south korea
@@ -11858,7 +11547,6 @@
 - República da Coreia
 
 ## synonym:SH
-
 - Saint Helena, Ascension and Tristan da Cunha
 - Saint Helena
 - Ascension Island
@@ -11869,7 +11557,6 @@
 - Tristão da Cunha
 
 ## synonym:LA
-
 - Lao People's Democratic Republic
 - Laos
 - Lāo
@@ -11877,7 +11564,6 @@
 - République démocratique populaire lao
 
 ## synonym:SO
-
 - Somalia
 - Soomaaliya
 - aṣ-Ṣūmāl
@@ -11888,27 +11574,23 @@
 - República Federal da Somália
 
 ## synonym:RO
-
 - Romania
 - România
 - Romênia
 - Roménia
 
 ## synonym:eight
-
 - 8
 - eight
 - Eighth
 
 ## synonym:GY
-
 - Guyana
 - Co-operative Republic of Guyana
 - Guiana
 - República Cooperativa da Guiana
 
 ## synonym:FR
-
 - France
 - French Republic
 - République française
@@ -11916,20 +11598,17 @@
 - República Francesa
 
 ## synonym:LR
-
 - Liberia
 - Republic of Liberia
 - Libéria
 - República da Libéria
 
 ## synonym:six
-
 - 6
 - six
 - Sixth
 
 ## synonym:RU
-
 - Russian Federation
 - Russia
 - Росси́я
@@ -11940,7 +11619,6 @@
 - Federação Russa
 
 ## synonym:offense
-
 - buttheads
 - fools
 - muthafuckin
@@ -12090,7 +11768,6 @@
 - asshole
 
 ## synonym:TZ
-
 - United Republic of Tanzania
 - Tanzania
 - Jamhuri ya Muungano wa Tanzania
@@ -12098,7 +11775,6 @@
 - República Unida da Tanzânia
 
 ## synonym:e-mail
-
 - mail address
 - email address
 - mail
@@ -12110,7 +11786,6 @@
 - e-mail
 
 ## synonym:cancel
-
 - cancel
 - stop
 - abolish
@@ -12121,7 +11796,6 @@
 - abort
 
 ## synonym:AE
-
 - United Arab Emirates
 - al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
 - Emirates
@@ -12131,13 +11805,11 @@
 - Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
 
 ## synonym:AQ
-
 - Antarctica
 - Antártida
 - Antártica
 
 ## synonym:CC
-
 - Cocos (Keeling) Islands
 - Cocos Keeling Islands
 - Territory of Cocos (Keeling) Islands
@@ -12151,7 +11823,6 @@
 - Pulu Kokos Keeling
 
 ## synonym:BN
-
 - Brunei Darussalam
 - Brunei
 - Nation of Brunei
@@ -12159,7 +11830,6 @@
 - Nation of Brunei, the Abode of Peace
 
 ## synonym:KN
-
 - Saint Kitts and Nevis
 - Federation of Saint Christopher and Nevis
 - São Cristóvão e Névis
@@ -12170,7 +11840,6 @@
 - Nevis
 
 ## synonym:BF
-
 - Burkina Faso
 - Republic of Burkina Faso
 - Burquina Faso
@@ -12178,7 +11847,6 @@
 - Burquina
 
 ## synonym:angry
-
 - infuriated
 - irritated
 - disgusted
@@ -12192,7 +11860,6 @@
 - angry
 
 ## synonym:CY
-
 - Cyprus
 - Κύπρος
 - Kıbrıs
@@ -12206,7 +11873,6 @@
 - Kypriakí Dimokratía
 
 ## synonym:AF
-
 - Afghanistan
 - Islamic Republic of Afghanistan
 - Republic of Afghanistan
@@ -12215,7 +11881,6 @@
 - Republica do Afeganistão
 
 ## synonym:KI
-
 - Kiribati
 - Republic of Kiribati
 - Ribaberiki Kiribati
@@ -12226,12 +11891,10 @@
 - República de Quiribáti
 
 ## synonym:thermal scanner
-
 - thermal scanner
 - thermal scanners
 
 ## synonym:GD
-
 - Grenada
 - Gwenad
 - Granada
@@ -12240,20 +11903,17 @@
 - Island of Spice
 
 ## synonym:CR
-
 - Costa Rica
 - Republic of Costa Rica
 - República de Costa Rica
 - República da Costa Rica
 
 ## synonym:nine
-
 - 9
 - nine
 - Ninth
 
 ## synonym:GF
-
 - French Guiana
 - Guyane
 - Department of French Guiana
@@ -12261,13 +11921,11 @@
 - Guyane française
 
 ## synonym:seven
-
 - 7
 - seven
 - Seventh
 
 ## synonym:CW
-
 - Curaçao
 - Kòrsou
 - Land Curaçao
@@ -12279,7 +11937,6 @@
 - Curaçau
 
 ## synonym:GE
-
 - República da Geórgia
 - Georgia
 - Sakartvelo
@@ -12288,7 +11945,6 @@
 - Geórgia
 
 ## synonym:KZ
-
 - Kazakhstan
 - Republic of Kazakhstan
 - Қазақстан Республикасы
@@ -12300,7 +11956,6 @@
 - República do Cazaquistão
 
 ## synonym:TC
-
 - Turks and Caicos Islands
 - TCI
 - Caicos Islands
@@ -12313,7 +11968,6 @@
 - Turcas
 
 ## synonym:KG
-
 - Kyrgyzstan
 - Kyrgyz Republic
 - Кыргыз Республикасы
@@ -12330,7 +11984,6 @@
 - República do Quirguizistão
 
 ## synonym:ML
-
 - Mali
 - Republic of Mali
 - République du Mali
@@ -12340,7 +11993,6 @@
 - República do Mali
 
 ## synonym:FJ
-
 - Fiji
 - Republic of Fiji
 - Matanitu Tugalala o Viti
@@ -12352,7 +12004,6 @@
 - República das Ilhas Fiji
 
 ## synonym:GB
-
 - Inglaterra
 - United Kingdom
 - United Kingdom of Great Britain and Northern Ireland
@@ -12369,7 +12020,6 @@
 - England
 
 ## synonym:DM
-
 - Dominica
 - Dominique
 - Commonwealth of Dominica
@@ -12377,7 +12027,6 @@
 - Comunidade da Dominica
 
 ## synonym:KM
-
 - Comoros
 - Union of the Comoros
 - Udzima wa Komori
@@ -12390,7 +12039,6 @@
 - União de Comores
 
 ## synonym:MU
-
 - Mauritius
 - Maurice
 - Moris
@@ -12403,7 +12051,6 @@
 - République de Maurice
 
 ## synonym:GN
-
 - Guinea
 - Republic of Guinea
 - République de Guinée
@@ -12413,7 +12060,6 @@
 - Renndaandi Ginea
 
 ## synonym:TT
-
 - Trinidad and Tobago
 - Republic of Trinidad and Tobago
 - Trinidad
@@ -12425,7 +12071,6 @@
 - Trinidade
 
 ## synonym:RS
-
 - Serbia
 - Србија
 - Srbija
@@ -12436,14 +12081,12 @@
 - República da Sérvia
 
 ## synonym:time
-
 - hours
 - hour
 - time
 - time of day
 
 ## synonym:GL
-
 - Greenland
 - Kalaallit Nunaat
 - Grønland
@@ -12452,7 +12095,6 @@
 - Gronelândia
 
 ## synonym:PL
-
 - Poland
 - Polska
 - Republic of Poland
@@ -12462,7 +12104,6 @@
 - República da Polónia
 
 ## synonym:TJ
-
 - Tajikistan
 - Republic of Tajikistan
 - Jumhurii Tojikiston
@@ -12472,7 +12113,6 @@
 - República do Tajiquistão
 
 ## synonym:KH
-
 - Cambodia
 - Kampuchea
 - Cambodge
@@ -12483,7 +12123,6 @@
 - Reino do Camboja
 
 ## synonym:BW
-
 - Botswana
 - Republic of Botswana
 - Lefatshe la Botswana
@@ -12492,7 +12131,6 @@
 - República do Botsuana
 
 ## synonym:WF
-
 - Wallis and Futuna
 - Territory of the Wallis and Futuna Islands
 - Wallis-et-Futuna
@@ -12502,7 +12140,6 @@
 - Território das Ilhas Wallis e Futuna
 
 ## synonym:LV
-
 - Latvia
 - Latvija
 - Lețmō
@@ -12514,7 +12151,6 @@
 - República da Letônia
 
 ## synonym:KE
-
 - Kenya
 - Republic of Kenya
 - Jamhuri ya Kenya
@@ -12524,14 +12160,12 @@
 - República do Quênia
 
 ## synonym:LC
-
 - Saint Lucia
 - Sainte-Lucie
 - Iyonola
 - Santa Lúcia
 
 ## synonym:SV
-
 - El Salvador
 - Republic of El Salvador
 - República de El Salvador
@@ -12539,7 +12173,6 @@
 - República do Salvador
 
 ## synonym:TW
-
 - Taiwan, Province of China
 - Taiwan Province
 - Taiwan Region
@@ -12550,7 +12183,6 @@
 - Táiwān shěng
 
 ## synonym:EC
-
 - Ecuador
 - Ikwayur
 - Ekuatur
@@ -12564,22 +12196,18 @@
 - República do Equador
 
 ## synonym:AO
-
 - Angola
 - Republic of Angola
 - República de Angola
 
 ## synonym:Asia
-
 - continente asiático
 - Ásia
 
 ## synonym:BZ
-
 - Belize
 
 ## synonym:I
-
 - Imma
 - Im
 - our
@@ -12591,7 +12219,6 @@
 - I
 
 ## synonym:SY
-
 - Syrian Arab Republic
 - Syria
 - Sūriyā
@@ -12600,7 +12227,6 @@
 - República Árabe Síria
 
 ## synonym:JO
-
 - Jordan
 - Hashemite Kingdom of Jordan
 - Kingdom of Jordan
@@ -12611,7 +12237,6 @@
 - Reino da Jordânia
 
 ## synonym:HT
-
 - Haiti
 - Haïti
 - Ayiti
@@ -12622,7 +12247,6 @@
 - República do Haiti
 
 ## synonym:TD
-
 - Chad
 - Tshād
 - Republic of Chad
@@ -12634,12 +12258,10 @@
 - República do Chade
 
 ## synonym:Oceania
-
 - continente australiano
 - Oceania
 
 ## synonym:JE
-
 - Jersey
 - Bailiwick of Jersey
 - Bailliage de Jersey
@@ -12649,7 +12271,6 @@
 - Bailiado de Jersey
 
 ## synonym:VU
-
 - Vanuatu
 - Republic of Vanuatu
 - Ripablik blong Vanuatu
@@ -12658,7 +12279,6 @@
 - República de Vanuatu
 
 ## synonym:CF
-
 - Central African Republic
 - République centrafricaine
 - Ködörösêse tî Bêafrîka
@@ -12669,13 +12289,11 @@
 - República Centro Africana
 
 ## synonym:four
-
 - 4
 - four
 - Fourth
 
 ## synonym:FO
-
 - Faroe Islands
 - Føroyar
 - Færøerne
@@ -12686,7 +12304,6 @@
 - Færeyjar
 
 ## synonym:EG
-
 - Egypt
 - Arab Republic of Egypt
 - Egito
@@ -12695,17 +12312,14 @@
 - República Árabe do Egipto
 
 ## synonym:ten
-
 - 10
 - ten
 - Tenth
 
 ## synonym:visors
-
 - visors
 
 ## synonym:MQ
-
 - Martinique
 - Matnik
 - Matinik
@@ -12723,7 +12337,6 @@
 - República Tcheca
 
 ## synonym:RW
-
 - Rwanda
 - Republic of Rwanda
 - Repubulika y'u Rwanda
@@ -12735,12 +12348,10 @@
 - República do Ruanda
 
 ## synonym:pneumonia vaccine
-
 - pneumonia vaccine
 - pneumonia vaccines
 
 ## synonym:AM
-
 - Armenia
 - Republic of Armenia
 - Arménia
@@ -12748,7 +12359,6 @@
 - República da Arménia
 
 ## synonym:CD
-
 - The Democratic Republic of the Congo
 - Democratic Republic of the Congo
 - République démocratique du Congo
@@ -12767,13 +12377,11 @@
 - Congo-Quinxassa
 
 ## synonym:three
-
 - 3
 - three
 - Third
 
 ## synonym:CX
-
 - Christmas Island
 - Territory of Christmas Island
 - Ilha Christmas
@@ -12784,7 +12392,6 @@
 - Território da Ilha Natal
 
 ## synonym:NA
-
 - Namibia
 - Republic of Namibia
 - Republiek van Namibië
@@ -12797,7 +12404,6 @@
 - República da Namíbia
 
 ## synonym:COVID
-
 - COVID
 - COVID-19
 - SARS-CoV-2
@@ -12817,7 +12423,6 @@
 - SARSCoV-2
 
 ## synonym:TM
-
 - Turkmenistan
 - Türkmenistan
 - Republic of Turkmenistan
@@ -12828,7 +12433,6 @@
 - República do Turcomenistão
 
 ## synonym:BL
-
 - Saint Barthélemy
 - Saint-Barthélemy
 - Collectivité territoriale de Saint-Barthélemy
@@ -12839,7 +12443,6 @@
 - Coletividade de São Bartolomeu
 
 ## synonym:GW
-
 - Guinea-Bissau
 - Guiné-Bissau
 - Republic of Guinea-Bissau
@@ -12848,13 +12451,11 @@
 - Guiné Bissau
 
 ## synonym:NU
-
 - Niue
 - Niuē
 - Niuê
 
 ## synonym:HK
-
 - Hong Kong
 - Hong Kong Special Administrative Region
 - HKSAR
@@ -12862,7 +12463,6 @@
 - Hēunggóng
 
 ## synonym:DZ
-
 - Algeria
 - Democratic Republic of Algeria
 - Republic of Algeria
@@ -12871,7 +12471,6 @@
 - Republica Democrática da Argélia
 
 ## synonym:SI
-
 - Slovenia
 - Slovenija
 - Republic of Slovenia
@@ -12882,12 +12481,10 @@
 - República da Eslovênia
 
 ## synonym:Africa
-
 - continente Africano
 - África
 
 ## synonym:firstname
-
 - given name
 - christian name
 - forename
@@ -12897,13 +12494,11 @@
 - name
 
 ## synonym:NZ
-
 - New Zealand
 - Aotearoa
 - Nova Zelândia
 
 ## synonym:MV
-
 - Maldives
 - Republic of Maldives
 - Dhivehi Raajjeyge Jumhooriyyaa
@@ -12912,7 +12507,6 @@
 - República das Maldivas
 
 ## synonym:ER
-
 - Hagere Ertra
 - Dawlat Iritriyá
 - Eritrea
@@ -12922,7 +12516,6 @@
 - Estado da Eritreia
 
 ## synonym:FI
-
 - Finland
 - Suomi
 - Republic of Finland
@@ -12932,7 +12525,6 @@
 - República da Finlândia
 
 ## synonym:negative_emoticon
-
 - (
 - %)
 - % -)
@@ -13003,7 +12595,6 @@
 - ',: - l
 
 ## synonym:lotr
-
 - Sméagol
 - Meriadoc
 - Pregrin
@@ -13029,7 +12620,6 @@
 - Gollum
 
 ## synonym:IE
-
 - Ireland
 - Éire
 - Airlann
@@ -13039,12 +12629,10 @@
 - Emerald Isle
 
 ## synonym:SX
-
 - Sint Maarten (Dutch part)
 - São Martinho paises baixos
 
 ## synonym:GS
-
 - South Georgia and the South Sandwich Islands
 - SGSSI
 - South Sandwich Islands
@@ -13057,11 +12645,9 @@
 - Geórgia do Sul
 
 ## synonym:AW
-
 - Aruba
 
 ## synonym:NE
-
 - Niger
 - the Niger
 - République du Niger
@@ -13070,19 +12656,16 @@
 - Níger
 
 ## synonym:AI
-
 - Anguilla
 - Island of Anguilla
 - Anguila
 
 ## synonym:CK
-
 - Cook Islands
 - Kūki 'Āirani
 - Ilhas Cook
 
 ## synonym:SS
-
 - South Sudan
 - Republic of South Sudan
 - Paguot Thudä
@@ -13091,7 +12674,6 @@
 - República do Sudão do Sul
 
 ## synonym:VN
-
 - Viet Nam
 - Vietnam
 - Socialist Republic of Vietnam
@@ -13101,7 +12683,6 @@
 - República Socialista do Vietname
 
 ## synonym:MD
-
 - Republic of Moldova
 - Moldova
 - Republica Moldova
@@ -13110,7 +12691,6 @@
 - República da Moldova
 
 ## synonym:racist
-
 - racist
 - Adolf Hitler
 - Hitler
@@ -13204,13 +12784,11 @@
 - Nigger
 
 ## synonym:no
-
 - no
 - dont't follow
 - negative
 
 ## synonym:LT
-
 - Lithuania
 - Lietuva
 - Republic of Lithuania
@@ -13219,14 +12797,12 @@
 - República da Lituânia
 
 ## synonym:TK
-
 - Tokelau
 - Union Islands
 - Tokelau Islands
 - Toquelau
 
 ## synonym:IO
-
 - British Indian Ocean Territory
 - BIOT
 - TBOI
@@ -13237,7 +12813,6 @@
 - Território Britânico do Oceano
 
 ## synonym:BG
-
 - Bulgaria
 - Balgariya
 - Republic of Bulgaria
@@ -13247,7 +12822,6 @@
 - Republika Bǎlgarija
 
 ## synonym:NG
-
 - Nigeria
 - Federal Republic of Nigeria
 - Jamhuriyar Taraiyar Najeriya
@@ -13257,14 +12831,12 @@
 - Nigéria
 
 ## synonym:HN
-
 - Honduras
 - Republic of Honduras
 - República de Honduras
 - República das Honduras
 
 ## synonym:AD
-
 - Andorra
 - Principality of Andorra
 - Principat d'Andorra
@@ -13274,7 +12846,6 @@
 - Principado dos Vales de Andorra
 
 ## synonym:languages
-
 - Swedish
 - Sylhetti
 - Tagalog
@@ -13464,7 +13035,6 @@
 - Ukrainian
 
 ## synonym:GR
-
 - Greece
 - Hellenic Republic
 - Hellas
@@ -13476,7 +13046,6 @@
 - Hélade
 
 ## synonym:BY
-
 - Belarus
 - Republic of Belarus
 - Belorussia
@@ -13486,20 +13055,17 @@
 - República da Bielorrússia
 
 ## synonym:VC
-
 - Saint Vincent and the Grenadines
 - Saint Vincent
 - São Vicente e Granadinas
 - São Vicente
 
 ## synonym:influenza
-
 - influenza
 - flu
 - grippe
 
 ## synonym:SE
-
 - Sweden
 - Sverige
 - Kingdom of Sweden
@@ -13508,14 +13074,12 @@
 - Reino da Suécia
 
 ## synonym:GT
-
 - Guatemala
 - Republic of Guatemala
 - República de Guatemala
 - República da Guatemala
 
 ## synonym:you
-
 - ur
 - youre
 - your
@@ -13529,7 +13093,6 @@
 - you
 
 ## synonym:SM
-
 - San Marino
 - Republic of San Marino
 - Repubblica di San Marino
@@ -13541,7 +13104,6 @@
 - São Marino
 
 ## synonym:MO
-
 - Região Administrativa de Macau
 - Macao
 - Macau
@@ -13551,7 +13113,6 @@
 - Região Administrativa Especial de Macau
 
 ## synonym:MZ
-
 - Mozambique
 - Republic of Mozambique
 - Moçambique
@@ -13561,7 +13122,6 @@
 - Muzambhiki
 
 ## synonym:LB
-
 - Lebanon
 - Lubnān
 - Lebanese Republic
@@ -13572,14 +13132,12 @@
 - República do Líbano
 
 ## synonym:BS
-
 - Bahamas
 - Commonwealth of The Bahamas
 - Baamas
 - Comunidade das Bahamas
 
 ## synonym:SA
-
 - Saudi Arabia
 - Kingdom of Saudi Arabia
 - Arábia Saudita
@@ -13588,11 +13146,9 @@
 - Reino da Arábia Saudita
 
 ## synonym:BB
-
 - Barbados
 
 ## synonym:MK
-
 - the Former Yugoslav Republic of Macedonia
 - North Macedonia
 - Macedonia
@@ -13608,7 +13164,6 @@
 - Macedónia
 
 ## synonym:WS
-
 - Samoa
 - Independent State of Samoa
 - Malo Saʻoloto Tutoʻatasi o Sāmoa
@@ -13619,7 +13174,6 @@
 - Samoa Ocidental
 
 ## synonym:movie
-
 - cinematography
 - filmmaking
 - DVD
@@ -13640,7 +13194,6 @@
 - movie
 
 ## synonym:CL
-
 - Chile
 - Republic of Chile
 - República de Chile
@@ -13650,13 +13203,11 @@
 - Repūvirika o Tire
 
 ## synonym:IS
-
 - Iceland
 - Ísland
 - Islândia
 
 ## synonym:GM
-
 - Gambia
 - Kambiya
 - Gámbi
@@ -13665,7 +13216,6 @@
 - República da Gâmbia
 
 ## synonym:LI
-
 - Liechtenstein
 - Principality of Liechtenstein
 - Fürstentum Liechtenstein
@@ -13674,7 +13224,6 @@
 - Principado de Liechtenstein
 
 ## synonym:ZA
-
 - South Africa
 - Republic of South Africa
 - RSA
@@ -13692,7 +13241,6 @@
 - República da África do Sul
 
 ## synonym:positive_emoticon
-
 - (_ \_ _
 - )
 - (@ \_ @
@@ -13790,7 +13338,6 @@
 - :-)
 
 ## synonym:MF
-
 - Saint Martin (French part)
 - Saint-Martin
 - Sint Maarten
@@ -13798,7 +13345,6 @@
 - São Martim
 
 ## synonym:YT
-
 - Mayotte
 - Maore
 - Mahori
@@ -13808,7 +13354,6 @@
 - Departamento de Maiote
 
 ## synonym:BQ
-
 - Bonaire, Sint Eustatius and Saba
 - Bonaire
 - Sint Eustatius
@@ -13821,7 +13366,6 @@
 - Santo Eustáquio
 
 ## synonym:IM
-
 - Isle of Man
 - Mann
 - Mannin
@@ -13829,7 +13373,6 @@
 - Ilha de Man
 
 ## synonym:MX
-
 - Mexico
 - México
 - Mēxihco
@@ -13839,21 +13382,18 @@
 - Mexican United States
 
 ## synonym:BO
-
 - Plurinational State of Bolivia
 - Bolivia
 - Estado Plurinacional de Bolivia
 - Bolívia
 
 ## synonym:AU
-
 - Australia
 - Commonwealth of Australia
 - Austrália
 - Comunidade da Austrália
 
 ## synonym:MW
-
 - Nyasaland
 - Maláui
 - Malaui
@@ -13865,7 +13405,6 @@
 - Charu cha Malaŵi
 
 ## synonym:CI
-
 - Côte d'Ivoire
 - Ivory Coast
 - The Ivory Coast
@@ -13875,7 +13414,6 @@
 - República da Costa do Marfim
 
 ## synonym:pet
-
 - pet
 - cat
 - dog
@@ -13884,7 +13422,6 @@
 - pets
 
 ## synonym:EH
-
 - Western Sahara
 - Taneẓroft Tutrimt
 - Sahara Occidental
@@ -13894,7 +13431,6 @@
 - Aṣ-Ṣaḥrā’ al-Gharbīyah
 
 ## synonym:NF
-
 - Norfolk Island
 - Norf'k Ailen
 - Territory of Norfolk Island
@@ -13905,7 +13441,6 @@
 - Território da Ilha Norfolque
 
 ## synonym:CH
-
 - Switzerland
 - Swiss Confederation
 - Schweizerische Eidgenossenschaft
@@ -13923,19 +13458,16 @@
 - Confederação Suíça
 
 ## synonym:BV
-
 - Bouvet Island
 - Bouvetøya
 - Bouvet-øya
 - Ilha Bouvet
 
 ## synonym:CA
-
 - Canada
 - Canadá
 
 ## synonym:PG
-
 - Papua New Guinea
 - PNG
 - Independent State of Papua New Guinea
@@ -13947,14 +13479,12 @@
 - Papua Niu Gini
 
 ## synonym:VE
-
 - Bolivarian Republic of Venezuela
 - Venezuela
 - República Bolivariana de Venezuela
 - República Bolivariana da Venezuela
 
 ## synonym:question
-
 - enquires
 - inquires
 - enquiries
@@ -13964,14 +13494,12 @@
 - inquiry
 
 ## synonym:GH
-
 - Ghana
 - Republic of Ghana
 - Gana
 - República do Gana
 
 ## synonym:PA
-
 - Panama
 - Panamá
 - Republic of Panama
@@ -13980,7 +13508,6 @@
 - República del Panamá
 
 ## synonym:TF
-
 - Territoire d'outre-mer
 - TOM
 - French Southern Lands
@@ -13991,7 +13518,6 @@
 - TAAF
 
 ## synonym:MN
-
 - Mongolia
 - nação mongol
 - mongol nation
@@ -13999,12 +13525,10 @@
 - Mongolian Nation
 
 ## synonym:sesame oil
-
 - sesame oil
 - sesame
 
 ## synonym:KP
-
 - Democratic People's Republic of Korea
 - North Korea
 - north korea
@@ -14017,13 +13541,11 @@
 - República Popular Democrática da Coreia
 
 ## synonym:HU
-
 - Hungary
 - Magyarország
 - Hungria
 
 ## synonym:DK
-
 - Denmark
 - Danmark
 - Kingdom of Denmark
@@ -14032,7 +13554,6 @@
 - Reino da Dinamarca
 
 ## synonym:BH
-
 - Bahrain
 - Al-Baḥrayn
 - Kingdom of Bahrain
@@ -14047,11 +13568,9 @@
 - Reino do Bareine
 
 ## synonym:GI
-
 - Gibraltar
 
 ## synonym:DE
-
 - Germany
 - Deutschland
 - Federal Republic of Germany
@@ -14061,7 +13580,6 @@
 - República Federal da Alemã
 
 ## synonym:BA
-
 - Bosnia and Herzegovina
 - BiH
 - B&H
@@ -14072,7 +13590,6 @@
 - Bósnia
 
 ## synonym:LY
-
 - Libya
 - Lībiyā
 - State of Libya
@@ -14081,12 +13598,10 @@
 - Estado da Líbia
 
 ## synonym:MY
-
 - Malaysia
 - Malásia
 
 ## synonym:MC
-
 - Monaco
 - Principality of Monaco
 - Principauté de Monaco
@@ -14098,20 +13613,17 @@
 - Principado de Mônaco
 
 ## synonym:Europa
-
 - comunidade europeia
 - continente Europeu
 - Europa
 
 ## synonym:NC
-
 - New Caledonia
 - Nouvelle-Calédonie
 - Nova Caledónia
 - Nova Caledônia
 
 ## synonym:CV
-
 - Cape Verde
 - Cabo Verde
 - Republic of Cabo Verde
@@ -14119,7 +13631,6 @@
 - Repúblika di Kabu Verdi
 
 ## synonym:America
-
 - América do Sul
 - América do Norte
 - Américas
@@ -14127,14 +13638,12 @@
 - América
 
 ## synonym:TO
-
 - Tonga
 - Kingdom of Tonga
 - Puleʻanga Fakatuʻi ʻo Tonga
 - Reino de Tonga
 
 ## synonym:VA
-
 - Holy See (Vatican City State)
 - Sancta Sedes
 - Santa Sede
@@ -14151,7 +13660,6 @@
 - Status Civitatis Vaticanæ
 
 ## synonym:NI
-
 - Nicaragua
 - Republic of Nicaragua
 - República de Nicaragua
@@ -14159,7 +13667,6 @@
 - República da Nicarágua
 
 ## synonym:DJ
-
 - Djibouti
 - Yibuuti
 - Jībūtī
@@ -14173,7 +13680,6 @@
 - República do Djibuti
 
 ## synonym:PE
-
 - Peru
 - Perú
 - Piruw Republika
@@ -14182,7 +13688,6 @@
 - Piruw Suyu
 
 ## synonym:MP
-
 - Northern Mariana Islands
 - Commonwealth of the Northern Mariana Islands
 - CNMI
@@ -14195,7 +13700,6 @@
 - Comunidade das Ilhas Marianas do Norte
 
 ## synonym:BI
-
 - Burundi
 - Republic of Burundi
 - Republika y'Uburundi
@@ -14204,110 +13708,82 @@
 - República do Burúndi
 
 ## lookup:facebook
-
 languages/en/data/lookup_tables/facebook.txt
 
 ## lookup:instagram
-
 languages/en/data/lookup_tables/instagram.txt
 
 ## lookup:address
-
 languages/en/data/lookup_tables/address.txt
 
 ## lookup:game
-
 languages/en/data/lookup_tables/game.txt
 
 ## lookup:social media
-
 languages/en/data/lookup_tables/social media.txt
 
 ## lookup:form of address
-
 languages/en/data/lookup_tables/form of address.txt
 
-
 ## lookup:favorite
-
 languages/en/data/lookup_tables/favorite.txt
 
 ## lookup:summarize
-
 languages/en/data/lookup_tables/summarize.txt
 
 ## lookup:have to
-
 languages/en/data/lookup_tables/have to.txt
 
 ## lookup:pricelist
-
 languages/en/data/lookup_tables/pricelist.txt
 
 ## lookup:video
-
 languages/en/data/lookup_tables/video.txt
 
 ## lookup:message
-
 languages/en/data/lookup_tables/message.txt
 
 ## lookup:datasheet
-
 languages/en/data/lookup_tables/datasheet.txt
 
 ## lookup:color
-
 languages/en/data/lookup_tables/color.txt
 
 ## lookup:garlic
-
 languages/en/data/lookup_tables/garlic.txt
 
 ## lookup:photo
-
 languages/en/data/lookup_tables/photo.txt
 
 ## lookup:air conditioning
-
 languages/en/data/lookup_tables/air conditioning.txt
 
 ## lookup:contact
-
 languages/en/data/lookup_tables/contact.txt
 
 ## lookup:phone
-
 languages/en/data/lookup_tables/phone.txt
 
 ## lookup:hand dryer
-
 languages/en/data/lookup_tables/hand dryer.txt
 
 ## lookup:teach
-
 languages/en/data/lookup_tables/teach.txt
 
 ## lookup:antibiotics
-
 languages/en/data/lookup_tables/antibiotics.txt
 
 ## lookup:church
-
 languages/en/data/lookup_tables/church.txt
 
 ## lookup:spread
-
 languages/en/data/lookup_tables/spread.txt
 
 ## lookup:linkedin
-
 languages/en/data/lookup_tables/linkedin.txt
 
 ## lookup:country
-
 languages/en/data/lookup_tables/country.txt
 
 ## lookup:surname
-
 languages/en/data/lookup_tables/surname.txt
