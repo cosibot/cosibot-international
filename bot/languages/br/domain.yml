@@ -456,9 +456,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak> Seja bem-vindo! Posso ajudar?</speak>
+        ssml: <speak>Oi! Posso ajudar?</speak>
       - type: text
-        text: Seja bem-vindo! Posso ajudar?
+        text: Oi! Posso ajudar?
   utter_travel_while:
   - custom:
       answers:
@@ -2919,7 +2919,7 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Foi um prazer. Você tem mais alguma pergunta que eu possa responder?</speak>
-      - type: text
+      - type: html
         text: Foi um prazer.<br>Você tem mais alguma pergunta que eu possa responder?
   - custom:
       answers:
@@ -2945,7 +2945,7 @@ responses:
       - type: ssml
         ssml: <speak> Você pode ler sobre as últimas notícias nos links abaixo:</speak>
       - type: text
-        text: 'Você pode ler sobre as últimas notícias nos links abaixo:'
+        text: Você pode ler sobre as últimas notícias nos links abaixo:
       - type: hints
         options:
         - label: Sobre COVID-19
