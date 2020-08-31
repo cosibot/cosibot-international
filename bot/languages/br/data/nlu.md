@@ -1,4 +1,4 @@
-﻿## intent:start
+## intent:start
 - /start
 - /start
 - /start_conversation
@@ -64,6 +64,10 @@
 - Você é bonito?
 - Seu visual.
 - Sua aparência física.
+- Pessoa real
+- Você é uma pessoa de verdade?
+- Você é de verdade?
+- Você é uma pessoa?
 
 ## intent:bot_availability
 - Você está sempre disponível?
@@ -586,6 +590,7 @@
 - Seu nome.
 - qual seu nome.
 - quem é você.
+- Não entendi quem você é
 
 ## intent:bot_origin
 - Você pode me dizer como você é construído?
@@ -797,6 +802,8 @@
 - O que você é?
 - Você não prefere ser um humano?
 - Você não é uma pessoa de verdade, é?
+- Vc é um robo?
+- Você é um robo?
 
 ## intent:bot_residence
 - Onde você morava quando era pequeno?
@@ -1077,6 +1084,8 @@
 - Qual versão você tem?
 - Você está em qual versão?
 - Sua versão.
+- qual é a tua versão
+- Qual a sua versão?
 
 ## intent:bot_worst_experience
 - Má experiência?
@@ -1986,6 +1995,7 @@
 - Você é muito lento
 - Você não tem nenhuma idéia, certo?
 - Você tem muito que aprender Helen
+- Estranho
 
 ## intent:comment_offense
 - Idiota!
@@ -2077,6 +2087,8 @@
 - cale a boca!
 - você é um nerd
 - você é uma peça de software digital inútil
+- Como se eu nao soubesse
+- Como se eu não soubesse
 
 ## intent:comment_positive
 - Fantástico!
@@ -2253,6 +2265,8 @@
 - vírus
 - E quanto ao coronavírus
 - E quanto aos coronavírus
+- Sim  por favor me esclarecer  alguma coisa  relacionada à doença
+
 
 ## intent:covid_aftereffects
 - Sequelas
@@ -2261,6 +2275,10 @@
 - Os pulmões se recuperam após uma infecção
 - Quais são os efeitos posteriores?
 - O que a corona faz com seus pulmões?
+- Oii!!! Gostaria de saber sobre as sequelas que o coronavírus deixam
+- Pq ninguém comenta das sequelas do covid?
+- Porque ninguém comenta das sequelas do covid?
+- Porque ninguém comenta das sequelas do vírus?
 
 ## intent:covid_babys_children
 - As crianças são afetadas?
@@ -2285,12 +2303,15 @@
 - Como posso ajudar causas relaciodas ao COVID-19?
 - Como posso participar de um projeto?
 - Como posso ajudar uma ONG?
+- Como me posso voluntariar?
+
 
 ## intent:covid_register
 - Como posso inscrever o meu projeto?
 - Como posso inscrever o meu projeto no Tech4CovidBR?
 - Que tipo de projeto pode ser inscrito?
 - Que projetos precisam de ajuda?
+- Como posso inscrever o meu projeto?
 
 ## intent:covid_tech4covid
 - O que é o Tech4CovidBR?
@@ -2306,6 +2327,14 @@
 - O que é o Tech 4 Covid Brasil?
 - O que é o Tech4CovidBR?
 - O que é o Tech 4 COVID BR?
+- o que é tech4covid
+- Tech4Covid
+- O que é o Tech 4 COVID BR?
+- O que é o Tech4CovidBR?
+- sobre tech4covidbr
+- sobre tech4covid
+- tech for
+
 
 ## intent:covid_crisis_howlong
 - Você acredita que é possível se erradicar o coronavírus? 
@@ -2326,7 +2355,7 @@
 ## intent:covid_current_statistics
 - [Yakutsk]{"entity": "geography", "value": "town"} news.
 - [Neunburg Vorm Wald]{"entity": "geography", "value": "town"} situation
-- [COVID]{"entity": "virus", "value": "COVID"} em [Azərbaycan]{"entity": "country_code", "value": "AZ"}
+- [COVID]{"entity": "virus", "value": "COVID"} em [Az?rbaycan]{"entity": "country_code", "value": "AZ"}
 - [COVID-19]{"entity": "virus", "value": "COVID"} em [Gdynia]{"entity": "geography", "value": "town"}
 - Coronavirus no [Egypt]{"entity": "country_code", "value": "EG"}
 - Notícias atuais [Catalão]{"entity": "geography", "value": "languages"}
@@ -2395,14 +2424,26 @@
 - Após ter sido infectado, fico imune ao vírus?
 - eu posso ficar imune?
 - Poço pega covid-19 dinovo pois a 2 mês atrás eu peguei já fui curada poço pega novamente
-- Poço pega covid-19 dinovo
-- já fui curada poço pega novamente
-- poço pega novamente
-- Poço pega covid-19 de novo pois a 2 mês atrás eu peguei já fui curada poço pega novamente
-- Poço pega covid-19 de novo
-- já fui curada poço pegar novamente
-- Poço pega covid-19 de novo pois a 2 mês atrás eu peguei já fui curada poço pegar novamente
-- Poço pega covid-19 dinovo pois a 2 mês atrás eu peguei já fui curada poço pegar novamente
+- Posso pegar covid-19 de novo pois há 2 meses atrás eu peguei já fui curada posso pega novamente
+- Posso pegar covid-19 novamente?
+- É possível pegar covid-19 mais de uma vez?
+- É possível ter covid-19 mais de uma vez?
+- É possível pegar o vírus mais de uma vez?
+- É possível ter o vírus mais de uma vez?
+- Pode-se pegar covid-19 mais de uma vez?
+- Pode-se ter covid-19 mais de uma vez?
+- Pode-se pegar o vírus mais de uma vez?
+- Pode-se ter o vírus mais de uma vez?
+- Posso pegar covid denovo
+- Posso pegar covid de novo?
+- Posso pegar o vírus de novo?
+- Posso pegar o vírus novamente?
+- Já  peguei covid a 2 meses atrás posso pegar denovo
+- Já  peguei covid há 2 meses atrás posso pegar de novo?
+- Quem ja pegou pega de novo ?
+- Olá, queria saber se posso pegar covid denovo,
+- Se a pessoa que teve covid pode pega de novo
+- Tem possibilidade de pegar novamente?
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -2447,6 +2488,17 @@
 - [novo coronavírus]{"entity": "virus", "value": "COVID"} período de incubação.
 - o período de incubação da doença.
 - o período de incubação do vírus.
+- Bom dia, quanto tempo o Viros permanece no nosso corpo?
+- Quanto tempo o Viros permanece no nosso corpo?
+- Quanto tempo o Vírus permanece no nosso corpo?
+- Com quantos dias eu ñ transmito mais o vírus?
+- Com quantos dias eu não transmito mais o vírus?
+- Com quantos dias eu não transmito mais o vírus?
+- Se a pessoa se contaminar com quantos dias pode sentir os sintomas?
+- Quanto tempo o vírus sai do corpo
+- Com quantos dias eu não transmito mais o virus?
+- Ainda trasmito?
+
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2527,6 +2579,11 @@
 - O que é essa doença?
 - O que é este vírus?
 - O que é o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Sobre COVID-19
+- Sobre coronavírus
+- Sobre o vírus
+- E grave
+
 
 ## intent:covid_meaning
 - O que significa o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
@@ -2579,6 +2636,8 @@
 - De onde vem o [Covid-19]{"entity": "virus", "value": "COVID"}?
 - Qual é a origem da [Covid-19]{"entity": "virus", "value": "COVID"}?
 - Qual é a origem do surto?
+- Ele se originou da sopa de morcego
+- De onde o coronavirus veio
 
 ## intent:covid_pandemic
 - Qual o significado da palavra pandemia?
@@ -2588,10 +2647,6 @@
 - Me explique o que é pandemia.
 
 ## intent:covid_preexisting_illness
-- Quais os grupos de risco?
-- Grupos de risco.
-- Informações sobre grupos de risco.
-- Sobre grupos de risco.
 - Sobre mais pessoas com maior risco.
 - Sobre a faixa etária mais atingida.
 - Sobre as pessoas mais atingidas.
@@ -2939,6 +2994,18 @@
 - onde o vírus sobrevive mais?
 - qual é o país mais afetado?
 - [Mundo]{"entity": "world_region", "value": "World"} situação Mundial
+- Situação Mundial
+- Quais os pais mais enfectados?
+- Quais os países mais infectados?
+- Países mais infectados
+- Qual país mais infectado?
+- E [Manaus]{"entity": "geography", "value": "town"} como estar?
+- E [Manaus]{"entity": "geography", "value": "town"} como está?
+- Como está a situação em Manaus?
+- Como está o estado de Manaus?
+- Qual estado estar mas afetado ?
+- Estado mais afetado
+
 
 ## intent:covid_situation_deaths
 - Qual é a taxa de mortalidade
@@ -2981,8 +3048,14 @@
 - Quantos morreram em [Luxemburgo]{"entity": "country_code", "value": "LU"}?
 - Quantas pessoas morreram em [Bailliage dé Jèrri]{"entity": "country_code", "value": "JE"}?
 - Número de mortes [Maurícia]{"entity": "country_code", "value": "MU"}.
-- Número de mortes em [Kıbrıs Cumhuriyeti]{"entity": "country_code", "value": "CY"}?
+- Número de mortes em [Kibris Cumhuriyeti]{"entity": "country_code", "value": "CY"}?
 - quantos casos de morte [Covid 19]{"entity": "virus", "value": "COVID"} na [República da Armênia]{"entity": "country_code", "value": "AM"}?
+- Ta morrendo mas Idoso ou jovem no Brasil
+- Está morrendo mais idosos ou jovens no Brasil?
+- Quem mais morre no Brasil?
+- Qual grupo mais morre no Brasil?
+- Qual grupo de pessoas mais morre no Brasil?
+- Helena  e verdade  este número  de mortes  por covid 19
 
 ## intent:covid_situation_infected
 - Qual é o número de infectados?
@@ -3014,7 +3087,8 @@
 - Quantas pessoas estão infectadas na [Republica Democrática da Argélia]{"entity": "country_code", "value": "DZ"}?
 - quantos casos positivos temos na [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
 
-## intent:covid_situation_infected_critical
+
+## intent:covid_situation_infected_infected_critical
 - Casos críticos na [Europa]{"entity": "world_region", "value": "Europe"}
 - infectados criticos em [Ásia]{"entity": "world_region", "value": "Asia"}
 - Quantos infectados em estado crítico no [continente africano]{"entity": "world_region", "value": "Africa"}
@@ -3098,6 +3172,10 @@
 - Recuperações de covid em [Ilhas Picárnia]{"entity": "country_code", "value": "PN"}.
 - Número total de recuperações em [Suomen tasavalta]{"entity": "country_code", "value": "FI"}.
 - quantos recuperados existem em [país de Bengala]{"entity": "country_code", "value": "BD"}?
+- Recuperados
+- Qual o número de recuperados?
+- Quantos se recuperaram até o momento?
+
 
 ## intent:covid_situation_tested
 - Número total de testes na [Europa]{"entity": "world_region", "value": "Europe"}
@@ -3114,7 +3192,7 @@
 - Quantas pessoas foram testadas no [Uruguai]{"entity": "country_code", "value": "UY"}?
 - Quantas pessoas foram testadas em [EUM]{"entity": "country_code", "value": "MX"}?
 - Quantos testados [República da Gâmbia]{"entity": "country_code", "value": "GM"}?
-- Quantos testes estão em [Al-Mamlakah al-'Urdunniyyah Al-Hāshimiyyah]{"entity": "country_code", "value": "JO"}?
+- Quantos testes estão em [Al-Mamlakah al-'Urdunniyyah Al-Hashimiyyah]{"entity": "country_code", "value": "JO"}?
 - Quantos testados em [Sérvia]{"entity": "country_code", "value": "RS"}?
 - Quantos testes em [Ilhas Caiman]{"entity": "country_code", "value": "KY"}?
 - Quantos testes foram feitos [Sudão]{"entity": "country_code", "value": "SD"}?
@@ -3122,10 +3200,10 @@
 - Testado em [São Bartolomeu]{"entity": "country_code", "value": "BL"}.
 - Testes em [República da Macedônia do Norte]{"entity": "country_code", "value": "MK"}
 - Número total de testes em [Tonga]{"entity": "country_code", "value": "TO"}.
-- Número total de testes realizados em [Kıbrıs Cumhuriyeti]{"entity": "country_code", "value": "CY"}.
+- Número total de testes realizados em [Kibris Cumhuriyeti]{"entity": "country_code", "value": "CY"}.
 - Total testado no [Cidade do Vaticano]{"entity": "country_code", "value": "VA"}.
 - Total de testes na [Suécia]{"entity": "country_code", "value": "SE"}?
-- Qual é o número de testes em [Lețmō]{"entity": "country_code", "value": "LV"}?
+- Qual é o número de testes em [Le?mo]{"entity": "country_code", "value": "LV"}?
 - quantos testes foram feitos em [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}?
 
 ## intent:covid_surfaces
@@ -3317,6 +3395,85 @@
 - E se doer os meus ouvidos
 - e dor de ouvido
 - o que são os sintomas?
+- Estou com a respiração ácida o canal do nariz ardendo ....este sintoma pode ser covid-19
+- Estou com a respiração ácida e com o canal do nariz ardendo ....este sintoma pode ser covid-19
+- Este sintoma pode ser covid-19?
+- Respiração ácida pode ser covid-19?
+- Canal do nariz ardendo pode ser covid-19?
+- Diarréia é um sintoma grave para pessoas idosas?
+- Diarréia é um sintoma grave? 
+- Diarréia é um sintoma?
+- Somente cansaço pode ser sintoma do coronavírus??
+- Cansaço pode ser sintoma do coronavírus?
+- Cansaço é um sintoma?
+- Porque cada hora fala alguma coisa depois fala que é uma gripe dai vem outro fala quem vem com dor na costa
+- Dor nas costas é um sintoma?
+- Quero saber quais são sintoma
+- Quero saber quais são os sintomas?
+- Covid da conjuntivite?
+- Covid dá conjuntivite?
+- O vírus dá conjuntivite?
+- Conjuntivite é um sintoma de covid?
+- Conjuntivite é um sintoma?
+- Sintomas associados
+- Quais são os sintomas associados?
+- Sintomas associados ao covid-19
+- Quais são os sintomas associados ao covid-19?
+- Sintomas associados ao coronavírus
+- Quais são os sintomas associados ao coronavírus?
+- Falta de ar leve?
+- Estou com fome
+- No início tive umas bolhas nos dedos dos pés  são sintomas?
+- bolhas nos dedos dos pés são sintomas
+- bolhas nos dedos dos pés
+- bolhas são sintomas?
+- Estou  com o nariz entupido ...será  que e corona???
+- Minha filha está com febre há 3 dias  tem 1 ano pode ser covid
+- Febre pode ser covid?
+- Se não tiver com febre não precisa ir no médico
+- Só pode ir se tiver febre
+- Quando é pra procura um médico
+- Meu pai eh cardíaco teve um pré infarto ficou três dias internados fez o teste mais não recebe já está eh casa o teste não saiu resultado  deu altar por está bem sem sintomas mais ainda não termos o resultado seta que ele pode ter contraido
+- Covid da dor nos olhos?
+- Dor nos olhos
+- Dor nos olhos pode ser covid?
+- Dor nos olhos pode ser coronavírus?
+- A senhora acha que eu tive coronavirus
+- Queria saber que eu já tive coronavirus tive febre dor nas costa dor de garganta fisgada no coração dor de ouvido calafrio meu esposo teve meus sintomas mas ele teve falta de ar o que a senhora avalia doutora
+- Eu queria saber quais os sintomas mais comuns em crianças
+- Dor nas costelas
+- Estou com uma tosse causada por uma coceira n garganta, sem febre, sem dor no corpo
+- Falta  de olfato
+- Olfato
+- Quais são os sintomas predominante do corona vírus
+- estou c  diarreia  d  nads
+- nao  aguanto  mais está  sitoasao
+- eu gostaria  de saber  de verdade  os sintomas  do vivido 19
+- Gostaria de saber se é verdade que uma pessoa que esteja somente sentindo e estômago cheio por alguns dias já é um sintoma de covid
+- Posso está cm corona
+- "Estou com crise de amidalite.
+Bastante infeccionada já faz tomando antibiótico azitromicina"
+- Perda e olfato é o sintoma principal de covid 19?
+- Quais os sintomas do corona vírus
+- Quais os primeiros sintomas do corona vírus
+- Quais os primeiros sintomas?
+- Pessoa infectada pela covid tem febre após quantos dias de contágio ?
+- O q pode ser
+- O que pode ser?
+- Quero saber essa dor de cabeca é normal
+- Dor nos olhos e sintoma de covid
+- Meu esposo está com muita falta de ar e muita tosse
+- Garganta inflamada e com dor e covid?
+- quais sao os sintomas da doneca
+- A minha prima tive contato com uma pessoa que esta com a covid
+- Que tipo de tosse e mais perigosa
+- Ficar sem o olfalto e o paladar ja pode considerar que esta com covide
+- Quais o sintoma do corona vírus
+- A pessoa que está com Covid,  fica com a boca amarga?
+- Dor de garganta dor de cabeça peito doendo é covid?
+- Acordei hoje com o céu da boca bem ressecado e um pouco roco
+- Fraqueza
+- Fraqueza é um sintona?
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -3329,6 +3486,9 @@
 - como me tratar?
 - quando me tratar?
 - o coronavirus tem tratamento?
+- Fui no posto eles só me dão medicamento de dor
+
+
 
 ## intent:covid_worry
 - E se eu pegar o vírus?
@@ -3393,6 +3553,14 @@
 - compaixão
 - Devo me preocupar com o vírus?
 - eu vou morrer
+- Eu fico tanto medo dessa doença esse tempo estava me  sintido despressiva
+- Eu fico com tanto medo dessa doença
+- Eu tenho medo do coronavírus
+- Estou com medo de pegar coronavírus
+- Vamos vencer o covid 19
+- Vamos vencer o covid 19?
+- Como sabe que não tô feliz
+- Nossa a coisa e séria assim
 
 ## intent:ebola
 - Ebola
@@ -3574,6 +3742,15 @@
 - Hora de ir.
 - é isso por hoje
 - Por hoje é só.
+- Sumindo daqui
+- Vou vazar
+- Vazando
+- xau
+- falou
+- falow
+- Muito obrigado por nada tenha um dia adeus
+- de nada tchau
+
 
 ## intent:greeting_hello
 - Oi amigo.
@@ -3585,6 +3762,7 @@
 - Tudo bem?
 - Boa Tarde.
 - Boa noite.
+- Boa. Noite
 - Bom dia.
 - Bom dia, Helen!
 - Saudações.
@@ -3620,6 +3798,9 @@
 - olá Ellen
 - Olá, cara
 - Oi Ellen
+- helena??
+- COMEÇAR
+- Comece
 
 ## intent:greeting_how_are_you
 - Você está bem?
@@ -3666,6 +3847,8 @@
 - Espere, como você está
 - ei, como você está indo
 - como eu estou?
+- Oi, tudo bom?
+- Tudo bom?
 
 ## intent:mask_general
 - Posso usar uma máscara descartável?
@@ -3735,6 +3918,7 @@
 - quando devo usar uma máscara
 - quando usar máscaras?
 - onde posso obter material para me proteger?
+- Máscaras Médicas
 
 ## intent:mask_use_after
 - Depois de usar uma máscara descartável.
@@ -3772,6 +3956,7 @@
 - descartar
 - como descartá-la?
 - como descartar a máscara?
+- Como descartar uma M...
 
 ## intent:mask_use_put
 - Antes de colocar uma máscara descartável.
@@ -3830,6 +4015,7 @@
 - como colocar uma máscara?
 - colocar uma máscara
 - Qual é a forma correta de usar uma máscara?
+- Como colocar uma Más...
 
 ## intent:myth_alcohol
 - Álcool em todo o corpo.
@@ -3892,6 +4078,9 @@
 - Neve mata o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
 - A neve mata o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
 - A neve mata o [novel coronavirus]{"entity": "virus", "value": "COVID"}.
+- E aqui aonde eu morou estava o calor de 41 grau derrepente  desceu a temperatura 13 grau isso que perigoso pega uma gripe
+- Baixa temperatura 
+- Baixa temperatura ajuda a pegar o vírus?
 
 ## intent:myth_hot_bath
 - O calor mata o coronavírus
@@ -4114,6 +4303,7 @@
 - como lavar as mãos?
 - lavar minhas mãos já é o suficiente?
 - quando devo lavar minhas mãos?
+- como devo higienizar as mãos?
 
 ## intent:prevention_disinfection
 - Como desinfetar as coisas?
@@ -4226,6 +4416,20 @@
 - quais são as medidas preventivas
 - dúvidas sobre medidas preventivas
 - dúvidas sobre prevenção do vírus
+- Como posso me prevenir do virus
+- Como posso me prevenir do vírus
+- Como posso me prevenir do vírus
+- Como posso me proteger do vírus
+- Prevenção contra o vírus
+- Proteção contra o vírus
+- Proteção
+- Assim eu trabalho diaria tem vez não tem ninguém na casa e preciso usar máscara
+- Trabalho de dirarista preciso usar máscara?
+- Sou dirarista preciso usar máscara
+- Como evitarmos?
+- Como evitar pegar covid?
+- Como evitar pegar o vírus?
+- Como evitar o vírus?
 
 ## intent:prevention_home
 - Eu estarei seguro se eu ficar em casa?
@@ -4264,6 +4468,7 @@
 - estou com frio
 - tenho um pouco de tosse
 - meu filho tem febre. o que eu devo fazer?
+- Febre?
 - E se eu tiver uma dor de cabeça
 - você está certo, eu estou me sentindo mal
 - se eu me sentir mal como me medicar?
@@ -4271,6 +4476,31 @@
 - quanto tempo devo ficar em casa?
 - como prevenir a doença dentro de casa?
 - quais são os procedimentos de prevenção em casa?
+- Só tenho 1 quarto o que fazer
+- Minha casa é pequena. O que fazer?
+
+## intent:prevention_cloroquina
+- Cloroquina 
+- Hidroxicloroquina 
+- Cloroquina funciona?
+- Hidroxicloroquina funciona?
+- Entao a cloroquina e bom no tratamento da covid
+- Então a cloroquina é bom no tratamento da covid
+- Então a Hidroxicloroquina é bom no tratamento da covid
+- Cloroquina serve para tratar covid?
+- Hidroxicloroquina serve para tratar covid?
+- Posso usar Cloroquina no tratamento de covid?
+- Posso usar Hidroxicloroquina no tratamento de covid?
+
+## intent:prevention_ivermectina
+- ivermectina
+- vermectina
+- Queria saber se a vermectina e bom pra preparar o organismo pra quando pegar o vírus vc não passar muito mal
+- Queria saber se a ivermectina é boa pra preparar o organismo para quando pegar o vírus você não passar muito mal
+- A ivermectina funciona?
+- Então a ivermectina é bom no tratamento da covid?
+- ivermectina serve para tratar covid?
+- Posso usar ivermectina no tratamento de covid?
 
 ## intent:prevention_informed
 - Acompanhe as notícias.
@@ -4429,6 +4659,24 @@
 - o que eu devo fazer se eu tiver febre?
 - o que fazer em caso de ter sintomas
 - quando devo consultar um médico?
+- Meu filho tá com tosse seca e rouco. Nariz entupido
+- Tosse seca e rouco
+- Nariz entupido
+- Qual sintomas fora febre do covid
+- Só dor de garganta e covid
+- Febre é  alta?
+- Sintomas iniciais por favor?
+- Febre de 1 dia apenas,pode ser Covid?
+- Boa tarde! Tive um dia só  febre (38) tem 3 dias que não  tenho mais,não  estou tossindo estou comendo normalmente, mas a garganta arranha um pouco,pode ser Covid?
+- Tive contato com duas pessoas contaminadas pelo covid 19 já 5 dias tem algum perigo para mim
+- Covid da do garganta?
+- Cual es son az sintomas
+- Dor nas costas e rim sem febre e nem tosse
+- Eu ja tive o covid 19 hj ta vom 30 dias e agora q perdi o ofato e o paladar sera q estou contaminado de novo
+- Sobre COVID-19
+- Preciso ter no mínimo 2 sintoma?
+- Dor de cabeça e tosse pode ser sintoma do covid19
+
 
 ## intent:prevention_medicine
 - remédio para [COVID-19]{"entity": "virus", "value": "COVID"}.
@@ -4501,6 +4749,11 @@
 - que remédio funciona melhor para este vírus
 - que medicamentos devem ser tomados?
 - sim foi preciso ibuprofeno
+- Que remédios devo tomar?
+- A vitaminaD3 óleo de Coco vitaminaC e zinco São bom pra aumentar a imunidade
+- São bom pra aumentar a imunidade
+- O que é bom para imunidade?
+- Fui no posto eles só me dão medicamento de dor
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -4687,19 +4940,22 @@
 - quanto tempo levará para que uma vacina saia no mercado?
 - existe alguma esperança no futuro sobre a vacina
 - E quanto à vacina?
-
-<!--
-## intent:prevention_vermectina
-- Queria saber se a vermectina e bom pra preparar o organismo pra quando pegar o vírus vc não passar muito mal
-- Queria saber se a vermectina e bom pra preparar o organismo
-- vermectina
-- Sobre vermectina
-- Informação vermectina
-- Informaçã sobre vermectina
-- Queria saber mais sobre vermectina
-- Queria saber se a vermectina é bom pra preparar o organismo pra quando pegar o vírus vc não passar muito mal
-- Queria saber se a vermectina é bom pra preparar o organismo
--->
+- Este vírus sofre mutações e por isso fica difícil a vacina funcionar?
+- A vacina vai funcionar?
+- Irão encontrar uma vacina?
+- Tem vacina?
+- A vacina cura?
+- Quando teremos a vacina?
+- Teremos a vacina esse ano?
+- A vacina sai ainda este ano ?
+- Vassina
+- Vasina
+- E verdade que tem uma varcina pode sair para o povo ainda este ano
+- É verdade que tem uma vacina que pode sair para o povo ainda este ano?
+- Tem cura
+- Cura
+- Alguma notícia sobre a vacina no Brasil?
+- Helena você  pode falar  se a vacina  estará prota em outubro
 
 ## intent:quarantine_control
 - Como se controla a quarentena?
@@ -4748,6 +5004,8 @@
 - ainda devo fazer a quarentena?
 - ainda devo fazer quarentena?
 - sem sintomas durante a quarentena, após quanto tempo podemos nos considerar curados?
+- Estou com COVID a uma semana quanto tempo preciso a mais em isolamento???
+- Estou com COVID há uma semana quanto tempo preciso a mais em isolamento???
 
 ## intent:quarantine_toiletpaper
 - Papel higiênico
@@ -4768,6 +5026,10 @@
 - Como fazer a quarentena?
 - O que é quarentena?
 - O que é quarentena? Como funciona?
+- qual período correto para volta as atividades.ainda sento minha garganta irritada e normal
+- "vdd.hoje estou com 16 dias
+que estou no isolamento.tenho um filho de 2anos.desde do dia que descobrir que estava com covid não dei de mamar será que eu ja posso dá."
+- Tive contato com pessoa que testou positivo
 
 ## intent:spread_air
 - Propagação pelo ar.
@@ -4810,6 +5072,10 @@
 - Propagação por via aérea.
 - Disseminação por via aérea.
 - Transmissão por via aérea.
+- isso pega pelo ar mesmo ?
+- É transmitido pelo ar?
+- Posso pegar covid pelo ar?
+
 
 ## intent:spread_animals
 - Posso ser infectado com [COVID-19]{"entity": "virus", "value": "COVID"} por um animal?
@@ -5007,6 +5273,21 @@
 - o vírus se espalha
 - transmissão
 - transmissões
+- Transmissão
+- Até que dia se transmite o vírus?
+- Até qdo se transmite o coronavírus?
+- Até quando se transmite o vírus?
+- Até qd se transmite o vírus?
+- Até qd se transmite o coronavírus?
+- Transmissão do vírus
+- Esfregar os olhos pega Covid-19
+- Como o vírus se espalha?
+- Como o virus se espalha??
+- como se pega o covide 19?
+- É possível contrair o coronavirus mesmo usando máscara?
+- Como se pega o covide 19
+-.como que o virus se  espelha
+- Como que o vírus se espalha?
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -5088,6 +5369,13 @@
 - Alguém assintomático pode ser infeccioso?
 - Alguém assintomático pode passar o vírus?
 - Alguém assintomático pode transmitir o vírus?
+- Pessoas assitomaticas transmitem o covid?
+- Pessoas assitomáticas transmitem o covid?
+- Assintomáticos transmitem o covid?
+- Assintomáticos transmitem coronavirus?
+- Assintomáticos
+- Tive contato com uma pessoa com covid faz uns 9 dias atraz NÃO tenho sintomas oque eu devo fazer?
+- So mais uma coisa  que eu tenho dúvida tem pessoas que nada senti nada
 
 ## intent:spread_pets
 - posso ser infectado pelo meu gato?
@@ -5214,6 +5502,7 @@
 - os cães transmitem o vírus?
 - O vírus é transmitido pelos animais de estimação?
 - posso pegar coronavirus do meu gato?
+- Posso pegar o coronavirus dos meus animais?
 
 ## intent:spread_risk
 - deficientes podem pegar este vírus
@@ -5252,8 +5541,6 @@
 - Qual a probabilidade de eu ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}?
 - Qual a probabilidade de eu ser infectada pelo vírus?
 - Eu quis dizer, pessoas com deficiência podem pegar esse vírus
-- Risco de apanhar a doença
-- Qual o risco de eu apanhar a doença
 - Risco de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
 - Risco de ser infectado pelo vírus.
 - Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
@@ -5297,13 +5584,27 @@
 - qual é a probabilidade de ser infectada no shopping
 - quem é mais afetado?
 - vou pegar [Covid 19]{"entity": "virus", "value": "COVID"} 
-- sem sintomas e sem testes e após duas semanas em casa com distância podemos nos considerar saudáveis em relação a [Covid-19]{"entity": "virus", "value": "COVID"}
+- sem sintomas e sem testes e após duas semanas em casa com
+ distância podemos nos considerar saudáveis em relação a [Covid-19]{"entity": "virus", "value": "COVID"}-
+- qual o risco de contrair a doença?
+- Contração da doença
+- quais os grupos de risco?
+- Grupos de risco
+- quem tem mais risco de contrair a doença?
+- Maior risco de contrair a doença
+- Tenho 43 anos e perigoso pra mim pegar o coronavirus ando de máscara e viseira
+- Obesidade e grupo de risco?
+- Crianças sao gruoo de risco?
+- Crianças são grupo de risco?
+- Desculpe só mais uma dúvida,estou gestante e tenho meus afazeres na cidade , uso máscara certinho álcool 70 nas mãos srmpre, corro risco de contrair o coronavirus
+- Porque o diabético e grupo de risco
 
 ## intent:spread_surfaces_food_objects
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida ou água?
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela água?
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida?
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pelos alimentos?
+- O corona passa pela comida?
 
 ## intent:test_virus
 - Posso ser testado para coronavírus?
@@ -5313,6 +5614,16 @@
 - Onde fica o próximo local de teste do Coronavirus?
 - Posso fazer o teste?
 - teste
+- Como saber se fui positiva
+- tive contato com uma pessoa infectada quanto tempo depois posso fazer o exame
+- tive contato com uma pessoa infectada
+- Com quanto tempo depois que senti os primeiros sintomas posso fazer o teste?
+- Exame
+- Teste
+- Espirrei nariz entupido e dor de cabeça,devo fazer o teste para covid
+- Tive dor de cabeça espirro e nariz congestionado, durante 3 dias ,já passou ,devo ainda fazer teste para covid?
+- Boa noite já fez 17 dias que  fiz o teste da covid e hoje repeti o teste novamente deu positivo é normal
+- Aonde uma pessoa pode fazer test gratuita
 
 ## intent:test_who
 - Posso fazer o teste?
@@ -5795,6 +6106,8 @@
 - só isso, obrigado.
 - só isso, obrigada.
 - só isso, valeu.
+- Valeu pelas informações
+- Pra vc tbm
 
 ## intent:user_particles
 - haha
@@ -5878,6 +6191,7 @@
 - Não termine a conversa!
 - Não me deixe!
 - Olá de novo!
+- ol´+a
 - Eu to de volta!
 - Eu não quero ficar sozinho!
 - Eu ainda tenho algumas perguntas
@@ -5902,6 +6216,8 @@
 - Fala comigo!
 - Sobre o que mais podemos falar?
 - Comigo?
+- Responde aí Helena
+- Responde aí
 
 ## intent:vocative_help
 - Como você pode me ajudar
@@ -5954,6 +6270,16 @@
 - posso te fazer perguntas?
 - posso lhe fazer uma pergunta?
 - posso te fazer uma pergunta?
+- como posso ajudar?
+- Gostaria de tirar uma informação
+- Gostaria de tirar uma dúvida
+- Gostaria de uma informação
+- Gostaria de fazer uma pergunta
+- mim responda
+- Me responda
+- Responde
+- De novo isso
+- eu pergunto uma coisa vc me dar tchau eu não entendi nada tchau
 
 ## intent:vocative_no
 - Logico que não.
@@ -5994,6 +6320,8 @@
 - Fora de questão.
 - Sob nenhuma circunstância.
 - nem pensar.
+- N
+- Ñ
 
 ## intent:vocative_sorry
 - Desculpe-me.
@@ -6064,6 +6392,7 @@
 - Maravilha
 - Beleza
 - Top
+- Ok obrigada
 - dahora
 - muito bom
 - excelente
@@ -6141,6 +6470,12 @@
 - obrigada, Helen
 - Obrigada, por sua ajuda, Helen
 - Obrigada, Helen!
+- valeu
+- vlw
+- Blz
+- Blz!
+- Entendi
+- Tendi
 
 ## intent:vocative_yes
 - Afirmativo.
@@ -6565,17 +6900,17 @@
 - Egypt
 
 ## synonym:EH
-- Aṣ-Ṣaḥrā’ al-Gharbīyah
+- A?-?a?ra’ al-Gharbiyah
 - Sáara Ocidental
 - Sara Ocidental
 - Saara Ocidental
 - Sahara Occidental
-- Taneẓroft Tutrimt
+- Tane?roft Tutrimt
 - Western Sahara
 
 ## synonym:ER
 - Estado da Eritreia
-- Ertrā
+- Ertra
 - Eritreia
 - State of Eritrea
 - Eritrea
@@ -6816,8 +7151,8 @@
 - Guyana
 
 ## synonym:HK
-- Hēunggóng
-- Xiānggǎng
+- Heunggóng
+- Xianggang
 - HKSAR
 - Hong Kong Special Administrative Region
 - Hong Kong
@@ -6876,8 +7211,8 @@
 - Ireland
 
 ## synonym:IL
-- Dawlat Isrā'īl
-- Medīnat Yisrā'el
+- Dawlat Isra'il
+- Medinat Yisra'el
 - Estado de Israel
 - State of Israel
 - Israel
@@ -6892,9 +7227,9 @@
 ## synonym:IN
 - República da Índia
 - Índia
-- Bhārat Gaṇarājya
+- Bharat Ga?arajya
 - Republic of India
-- Bhārat
+- Bharat
 - India
 
 ## synonym:IO
@@ -6922,7 +7257,7 @@
 - República Islâmica do Irã
 - Irã
 - Irão
-- Jomhuri-ye Eslāmi-ye Irān
+- Jomhuri-ye Eslami-ye Iran
 - Persia
 - Islamic Republic of Iran
 
@@ -6957,8 +7292,8 @@
 - Reino Haxemita da Jordânia
 - Jordânia
 - Jordania
-- Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah
-- Al-ʾUrdunn
+- Al-Mamlakah al-’Urdunniyyah Al-Hashimiyyah
+- Al-?Urdunn
 - Kingdom of Jordan
 - Hashemite Kingdom of Jordan
 - Jordan
@@ -6988,12 +7323,12 @@
 - Quirguízia
 - Quirguizistão
 - Quirguistão
-- Киргизия
+- ????????
 - Kirghizia
 - Kyrgyzskaya Respublika
-- Кыргызская Республика
-- Kırğız Respublikası
-- Кыргыз Республикасы
+- ?????????? ??????????
+- Kirgiz Respublikasi
+- ?????? ????????????
 - Kyrgyz Republic
 - Kyrgyzstan
 
@@ -7021,8 +7356,8 @@
 - União de Comores
 - União das Comores
 - Comores
-- al-Ittiḥād al-Qamarī
-- al-Ittiḥād al-Qumurī
+- al-Itti?ad al-Qamari
+- al-Itti?ad al-Qumuri
 - Umoja wa Komori
 - Union des Comores
 - Udzima wa Komori
@@ -7042,9 +7377,9 @@
 ## synonym:KP
 - República Popular Democrática da Coreia
 - Coreia do Norte
-- Pukchosŏn
-- Chosŏn
-- Chosŏn Minjujuŭi Inmin Konghwaguk
+- Pukchoson
+- Choson
+- Choson Minjujuui Inmin Konghwaguk
 - DPR Korea
 - DPRK
 - North Korea
@@ -7077,16 +7412,16 @@
 - Qazaqstan
 - Cazaquistão
 - Respublika Kazakhstan
-- Республика Казахстан
-- Qazaqstan Respýblıkasy
-- Қазақстан Республикасы
+- ?????????? ?????????
+- Qazaqstan Respýblikasy
+- ????????? ????????????
 - Republic of Kazakhstan
 - Kazakhstan
 
 ## synonym:LA
 - République démocratique populaire lao
-- Saþalanalat Paxaþipatai Paxaxōn Lao
-- Lāo
+- Saþalanalat Paxaþipatai Paxaxon Lao
+- Lao
 - Laos
 - Lao People's Democratic Republic
 
@@ -7095,9 +7430,9 @@
 - Liban
 - Líbano
 - République libanaise
-- al-Jumhūrīyah al-Lubnānīyah
+- al-Jumhuriyah al-Lubnaniyah
 - Lebanese Republic
-- Lubnān
+- Lubnan
 - Lebanon
 
 ## synonym:LC
@@ -7120,11 +7455,11 @@
 - República Democrática Socialista do Sri Lanka
 - Seri Lanca
 - Sri Lanca
-- Ilaṅkai
-- Śrī Laṃkā
+- Ila?kai
+- Sri La?ka
 - Democratic Socialist Republic of Sri Lanka
-- Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
-- Srī Lankā prajātāntrika samājavādī janarajaya
+- Ila?kai ca?anayaka cocalicak ku?iyaracu
+- Sri Lanka prajatantrika samajavadi janarajaya
 - Sri Lanka
 
 ## synonym:LR
@@ -7156,7 +7491,7 @@
 - Grão-Ducado do Luxemburgo
 - Luxemburgo
 - Großherzogtum Luxemburg
-- Grand-Duché de Luxembourg​
+- Grand-Duché de Luxembourg?
 - Groussherzogtum Lëtzebuerg
 - Grand Duchy of Luxembourg
 - Luxemburg
@@ -7167,19 +7502,19 @@
 - República da Letônia
 - Letônia
 - Letónia
-- Lețmō Vabāmō
+- Le?mo Vabamo
 - Latvijas Republika
 - Republic of Latvia
-- Lețmō
+- Le?mo
 - Latvija
 - Latvia
 
 ## synonym:LY
 - Estado da Líbia
 - Líbia
-- Dawlat Lībiyā
+- Dawlat Libiya
 - State of Libya
-- Lībiyā
+- Libiya
 - Libya
 
 ## synonym:MA
@@ -7187,13 +7522,13 @@
 - Murakuc
 - Amerruk
 - Marrocos
-- tageldit n lmaɣrib
+- tageldit n lma?rib
 - Royaume du Maroc
 - The Western Kingdom
 - al-mamlakah al-maghribiyah
 - Kingdom of Morocco
 - Maroc
-- al-maġhrib
+- al-maghrib
 - Morocco
 
 ## synonym:MC
@@ -7216,7 +7551,7 @@
 - Republic of Moldova
 
 ## synonym:ME
-- Црна Гора
+- ???? ????
 - Crna Gora
 - Montenegro
 
@@ -7243,7 +7578,7 @@
 ## synonym:MH
 - República das Ilhas Marshall
 - Ilhas Marshall
-- Aolepān Aorōkin Ṃajeḷ
+- Aolepan Aorokin ?aje?
 - Republic of the Marshall Islands
 - Marshall Islands
 
@@ -7256,7 +7591,7 @@
 - Macedónia do Norte
 - Macedônia do Norte
 - Republika e Maqedonisë së Veriut
-- Република Северна Македонија
+- ????????? ??????? ??????????
 - Republic of North Macedonia
 - Macedonia
 - North Macedonia
@@ -7275,7 +7610,7 @@
 - República da União de Myanmar
 - Birmânia
 - Nainngandaw
-- Pyidaunzu Thanmăda Myăma
+- Pyidaunzu Thanmada Myama
 - Republic of the Union of Myanmar
 - Burma
 - Myanmar
@@ -7290,8 +7625,8 @@
 ## synonym:MO
 - Região Administrativa de Macau
 - Região Administrativa Especial de Macau
-- Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
-- Jūng'wàh Yàhnmàhn
+- Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkeui
+- Jung'wàh Yàhnmàhn
 - Macao Special Administrative Region
 - Macau
 - Macao
@@ -7317,7 +7652,7 @@
 ## synonym:MR
 - República Islâmica da Mauritânia
 - Mauritânia
-- al-Jumhūrīyah al-Islāmīyah al-Mūrītānīyah
+- al-Jumhuriyah al-Islamiyah al-Muritaniyah
 - République islamique de Mauritanie
 - Islamic Republic of Mauritania
 - Murutaane
@@ -7326,7 +7661,7 @@
 - Cengit
 - Agawej
 - Mauritanie
-- Mūrītānyā
+- Muritanya
 - Mauritania
 
 ## synonym:MS
@@ -7363,13 +7698,13 @@
 - Maldives
 
 ## synonym:MW
-- Charu cha Malaŵi
-- Dziko la Malaŵi
-- Dziko la Malaŵi
+- Charu cha Malawi
+- Dziko la Malawi
+- Dziko la Malawi
 - Republic of Malawi
 - Malawi
 - República do Malawi
-- Malaŵi
+- Malawi
 - Malaui
 - Maláui
 - Nyasaland
@@ -7379,7 +7714,7 @@
 - EUM
 - Estados Unidos Mexicanos
 - United Mexican States
-- Mēxihco
+- Mexihco
 - México
 - Mexico
 
@@ -7435,8 +7770,8 @@
 ## synonym:NG
 - Nigéria
 - República Federal da Nigéria
-- Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà
-- Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà
+- Oríl?`-èdè Olómìniira Àpap?` Nàìjíríà
+- ?`hànjík?` ?`hànézè Naìjíríyà
 - Jamhuriyar Taraiyar Najeriya
 - Federal Republic of Nigeria
 - Nigeria
@@ -7474,7 +7809,7 @@
 
 ## synonym:NP
 - República Democrática Federal do Nepal
-- Saṅghīya Lokatāntrik Gaṇatantra Nepāl
+- Sa?ghiya Lokatantrik Ga?atantra Nepal
 - Federal Democratic Republic of Nepal
 - Nepal
 
@@ -7489,7 +7824,7 @@
 
 ## synonym:NU
 - Niuê
-- Niuē
+- Niue
 - Niue
 
 ## synonym:NZ
@@ -7498,12 +7833,12 @@
 - New Zealand
 
 ## synonym:OM
-- Saltānat 'Umān
+- Saltanat 'Uman
 - Sultanato de Omã
 - Omão
 - Omã
 - Sultanate of Oman
-- Salṭanat ʻUmān
+- Sal?anat ?Uman
 - Oman
 
 ## synonym:PA
@@ -7524,7 +7859,7 @@
 
 ## synonym:PF
 - Polinésia Francesa
-- Pōrīnetia Farāni
+- Porinetia Farani
 - Polynésie française
 - French Polynesia
 
@@ -7540,7 +7875,7 @@
 - Papua New Guinea
 
 ## synonym:PH
-- Repúbliká ng̃ Pilipinas
+- Repúbliká ng~ Pilipinas
 - República das Filipinas
 - Republika ng Pilipinas
 - Republic of the Philippines
@@ -7551,9 +7886,9 @@
 ## synonym:PK
 - República Islâmica do Paquistão
 - Islami Jamahuriat Pakistan
-- Pākistān
+- Pakistan
 - Paquistão
-- Islāmī Jumhūriyah Pākistān
+- Islami Jumhuriyah Pakistan
 - Islamic Republic of Pakistan
 - Pakistan
 
@@ -7597,10 +7932,10 @@
 
 ## synonym:PS
 - Estado da Palestina
-- Filasṭīn
+- Filas?in
 - Palestine
 - Palestina
-- Dawlat Filasṭīn
+- Dawlat Filas?in
 - State of Palestine
 
 ## synonym:PT
@@ -7629,8 +7964,8 @@
 - Estado do Qatar
 - Estado do Catar
 - Catar
-- Qaṭar
-- Dawlat Qaṭar
+- Qa?ar
+- Dawlat Qa?ar
 - State of Qatar
 - Qatar
 
@@ -7650,19 +7985,19 @@
 - República da Sérvia
 - Sérvia
 - Republika Srbija
-- Република Србија
+- ????????? ??????
 - Republic of Serbia
 - Srbija
-- Србија
+- ??????
 - Serbia
 
 ## synonym:RU
 - Federação Russa
 - Rússia
 - Rossiyskaya Federatsiya
-- Российская Федерация
+- ?????????? ?????????
 - Rossiya
-- Росси́я
+- ?????´?
 - Russia
 - Russian Federation
 
@@ -7679,8 +8014,8 @@
 
 ## synonym:SA
 - Reino da Arábia Saudita
-- al-Mamlaka al-ʻArabiyya as-Suʻūdiyya
-- as-Su’ūdiyya
+- al-Mamlaka al-?Arabiyya as-Su?udiyya
+- as-Su’udiyya
 - Arábia Saudita
 - Kingdom of Saudi Arabia
 - Saudi Arabia
@@ -7703,8 +8038,8 @@
 ## synonym:SD
 - República do Sudão
 - Sudão
-- Jumhūriyyat as-Sūdān
-- as-Sūdān
+- Jumhuriyyat as-Sudan
+- as-Sudan
 - Republic of the Sudan
 - Sudan
 
@@ -7719,8 +8054,8 @@
 ## synonym:SG
 - Republik Singapura
 - República de Singapura
-- Chiṅkappūr
-- Xīnjiāpō
+- Chi?kappur
+- Xinjiapo
 - Cingapura
 - Singapura
 - Republic of Singapore
@@ -7792,10 +8127,10 @@
 ## synonym:SO
 - República Federal da Somália
 - Somália
-- Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya
+- Jumhuriyat a?-?umal al-Itihadiya
 - Jamhuuriyadda Federaalka Soomaaliya
 - Federal Republic of Somalia
-- aṣ-Ṣūmāl
+- a?-?umal
 - Soomaaliya
 - Somalia
 
@@ -7836,8 +8171,8 @@
 ## synonym:SY
 - República Árabe Síria
 - Síria
-- al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah
-- Sūriyā
+- al-Jumhuriyah al-?Arabiyah as-Suriyah
+- Suriya
 - Syria
 - Syrian Arab Republic
 
@@ -7867,10 +8202,10 @@
 - Tchad
 - Tchade
 - Chade
-- Jumhūriyyat Tshād
+- Jumhuriyyat Tshad
 - République du Tchad
 - Republic of Chad
-- Tshād
+- Tshad
 - Chad
 
 ## synonym:TF
@@ -7935,16 +8270,16 @@
 ## synonym:TN
 - República Tunisina
 - Tunisie
-- Tūnis
+- Tunis
 - Tunísia
 - République tunisienne
-- al-Jumhūrīyah at-Tūnisīyah
+- al-Jumhuriyah at-Tunisiyah
 - Republic of Tunisia
 - Tunisia
 
 ## synonym:TO
 - Reino de Tonga
-- Puleʻanga Fakatuʻi ʻo Tonga
+- Pule?anga Fakatu?i ?o Tonga
 - Kingdom of Tonga
 - Tonga
 
@@ -7973,7 +8308,7 @@
 - Tuvalu
 
 ## synonym:TW
-- Táiwān shěng
+- Táiwan sheng
 - Província de Taiwan
 - Taiwan, China
 - Taiwan
@@ -8045,9 +8380,9 @@
 - República do Uzbequistão
 - Usbequistão
 - Uzbequistão
-- Oʻzbekiston Respublikasi
+- O?zbekiston Respublikasi
 - Republic of Uzbekistan
-- Oʻzbekiston
+- O?zbekiston
 - Uzbekistan
 
 ## synonym:VA
@@ -8123,8 +8458,8 @@
 - Estado Independente da Samoa
 - Estado Independente de Samoa
 - Western Samoa
-- Sāmoa
-- Malo Saʻoloto Tutoʻatasi o Sāmoa
+- Samoa
+- Malo Sa?oloto Tuto?atasi o Samoa
 - Independent State of Samoa
 - Samoa
 
@@ -8136,7 +8471,7 @@
 - al-Yama
 - Republic of Yemen
 - Yaman
-- al-Jumhūrīyah al-Yamanīyah
+- al-Jumhuriyah al-Yamaniyah
 - Yemen
 
 ## synonym:YT
@@ -8152,7 +8487,7 @@
 - República da África do Sul
 - África do Sul
 - iRiphabliki yeSewula Afrika
-- Riphabuḽiki ya Afurika Tshipembe
+- Riphabu?iki ya Afurika Tshipembe
 - iRiphabhulikhi yeNingizimu Afrika
 - Riphabliki ya Afrika Dzonga
 - Rephaboliki ya Afrika Borwa
@@ -8179,7 +8514,7 @@
 - Zimbabué
 - Zimbabue
 - Zimbábue
-- Shango ḽa Zimbabwe
+- Shango ?a Zimbabwe
 - Cisi ca Zimbabwe
 - Naha ya Zimbabwe
 - Tiko ra Zimbabwe
@@ -8202,12 +8537,12 @@
 - Swaziland
 
 ## synonym:AE
-- Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
+- Dawlat al-Imarat al-‘Arabiyah al-Mutta?idah
 - EAU
 - Emirados Árabes Unidos
 - UAE
 - Emirates
-- al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
+- al-?Imarat al-?Arabiyyah al-Mutta?idah
 - United Arab Emirates
 
 ## synonym:AF
@@ -8263,9 +8598,9 @@
 
 ## synonym:AS
 - Tutuila
-- Sāmoa Amelika
-- Amelika Sāmoa
-- Amerika Sāmoa
+- Samoa Amelika
+- Amelika Samoa
+- Amerika Samoa
 - Samoa Americana
 - American Samoa
 
@@ -8346,7 +8681,7 @@
 - Burkina Faso
 
 ## synonym:BG
-- Republika Bǎlgarija
+- Republika Balgarija
 - República da Bulgária
 - Bulgária
 - Republika Balgariya
@@ -8365,7 +8700,7 @@
 - Barém
 - Bahrein
 - Kingdom of Bahrain
-- Al-Baḥrayn
+- Al-Ba?rayn
 - Bahrain
 
 ## synonym:BI
@@ -8555,11 +8890,11 @@
 
 ## synonym:CK
 - Ilhas Cook
-- Kūki 'Āirani
+- Kuki 'Airani
 - Cook Islands
 
 ## synonym:CL
-- Repūvirika o Tire
+- Repuvirika o Tire
 - Chili Ripuwlika
 - Chili Suyu
 - Chile Wüdalmapu
@@ -8580,7 +8915,7 @@
 ## synonym:CN
 - RPC
 - República Popular da China
-- Zhōnghuá Rénmín Gònghéguó
+- Zhonghuá Rénmín Gònghéguó
 - PRC
 - People's Republic of China
 - China
@@ -8636,12 +8971,12 @@
 - República de Chipre
 - Kýpros
 - Chipre
-- Kıbrıs Cumhuriyeti
+- Kibris Cumhuriyeti
 - Cypriot Republic
-- Κυπριακή Δημοκρατία
+- ??p??a?? ??µ???at?a
 - Republic of Cyprus
-- Kıbrıs
-- Κύπρος
+- Kibris
+- ??p???
 - Cyprus
 
 ## synonym:CZ
@@ -8649,9 +8984,9 @@
 - República Checa
 - Tchéquia
 - Chéquia
-- Česko
+- Cesko
 - Czechia
-- Česká republika
+- Ceská republika
 - Czech Republic
 
 ## synonym:DE
@@ -8672,7 +9007,7 @@
 - République de Djibouti
 - Republic of Djibouti
 - Jabuuti
-- Jībūtī
+- Jibuti
 - Yibuuti
 - Djibouti
 
@@ -8801,6 +9136,9 @@
 - COVID2019
 - COVID 19
 - nCoV
+- coronavírus
+- corona
+
 
 ## synonym:SARS
 - SARS
@@ -8901,6 +9239,7 @@
 - Scheßlitz
 - Bad Windsheim
 - Belo Horizonte
+- Belém
 - Debrecen
 - Preston
 - Schenefeld
@@ -8922,7 +9261,7 @@
 - Saigon
 - Ho Chi Minh City
 - Osmaniye
-- Timișoara
+- Timi?oara
 - Timisoara
 - Scheer
 - Bad Waldsee
@@ -9048,6 +9387,11 @@
 - Davao City
 - Handan
 - Semarang
+- Pernambuco
+- Minas Gerais
+- Rio Branco
+- Maceió
+- Macapá
 - Kahla
 - Cluj-Napoca
 - Vitória
@@ -9160,10 +9504,14 @@
 - Salvador Da Bahia
 - Cape Town
 - Porto Alegre
+- Porto Velho
 - Oviedo
 - Kano
 - Santa Cruz De Tenerife
 - Recife
+- Boa Vista
+- Florianópolis
+- Aracaju
 - Detroit
 - Changchun
 - Kunming
@@ -9289,7 +9637,9 @@
 - Mexicali
 - Barquisimeto
 - Yongin
+- Cuiabá
 - São Luís
+- Campo Grande
 - Odessa
 - Xiangtan
 - Mendoza
@@ -9363,7 +9713,7 @@
 - Veringenstadt
 - Walsall
 - Sanliurfa
-- Şanlıurfa
+- Sanliurfa
 - Urfa
 - Natal
 - Mandalay
@@ -9431,7 +9781,7 @@
 - Mücheln
 - Lagos
 - Istanbul
-- Osaka-Kōbe
+- Osaka-Kobe
 - Funafuti
 - Maulbronn
 - Porto
@@ -9937,9 +10287,10 @@
 - Einbeck
 - Viernheim
 - Karabaglar
-- Karabağlar
+- Karabaglar
 - Bangkok
 - Roding
+- Palmas
 - Las Palmas De Gran Canaria
 - Las Palmas
 - Sants-Montjuic
@@ -9972,7 +10323,7 @@
 - Fellbach
 - Weikersheim
 - Bagcilar
-- Bağcılar
+- Bagcilar
 - Krasnodar
 - Leutkirch Im Allgäu
 - Kisangani
@@ -10066,7 +10417,7 @@
 - Suhl
 - Eindhoven
 - Constanta
-- Constanța
+- Constan?a
 - Jüterbog
 - Cuxhaven
 - Tauberbischofsheim
@@ -10075,7 +10426,7 @@
 - Crivitz
 - Tanna
 - Sisli
-- Şişli
+- Sisli
 - Delmenhorst
 - Thannhausen
 - Detmold
@@ -10144,7 +10495,7 @@
 - Bernburg
 - Schrobenhausen
 - Brasov
-- Brașov
+- Bra?ov
 - Faisalabad
 - Neunkirchen
 - Bernkastel-Kues
@@ -10347,7 +10698,7 @@
 - Bad Sulza
 - Mülheim
 - Mülheim An Der Ruhr
-- Iași
+- Ia?i
 - Sankt Goar
 - Bad Staffelstein
 - Severny
@@ -10420,7 +10771,7 @@
 - Bad Hönningen
 - Meiningen
 - Mbabane
-- Muratpaşa
+- Muratpasa
 - Muratpasa
 - Verl
 - Eibelstadt
@@ -10471,7 +10822,7 @@
 - Burglengenfeld
 - Ornbau
 - Cherkasy
-- Brăila
+- Braila
 - Braila
 - Straubing
 - Buxtehude
@@ -10630,7 +10981,7 @@
 - Elterlein
 - Lahr
 - Izhevsk
-- Łódź
+- Lódz
 - Lodz
 - Weener
 - Eutin
@@ -10692,7 +11043,7 @@
 - Breuberg
 - Stadtallendorf
 - Ploiesti
-- Ploiești
+- Ploie?ti
 - Olfen
 - Büren
 - Hamburg-Nord
@@ -10707,7 +11058,7 @@
 - Strausberg
 - Norwich
 - Elazig
-- Elazığ
+- Elazig
 - Stutensee
 - Esenyurt
 - Surgut
@@ -10747,7 +11098,7 @@
 - Triberg Im Schwarzwald
 - Triberg
 - Atasehir
-- Ataşehir
+- Atasehir
 - Klütz
 - Knittlingen
 - Dorsten
@@ -10776,7 +11127,7 @@
 - Bad Kreuznach
 - Ronnenberg
 - Kahramanmaras
-- Kahramanmaraş
+- Kahramanmaras
 - Geneva
 - Chandigarh
 - Laichingen
@@ -10994,7 +11345,7 @@
 - Nienburg
 - Bockenem
 - Czestochowa
-- Częstochowa
+- Czestochowa
 - Novorossiysk
 - Neustadt An Der Weinstraße
 - Biesenthal
@@ -11091,7 +11442,7 @@
 - Oschatz
 - Burgwedel
 - Belgorod
-- Klaipėda
+- Klaipeda
 - Klaipeda
 - Tornesch
 - Dillenburg
@@ -11109,7 +11460,7 @@
 - Königstein
 - Kishinev
 - Chisinau
-- Chișinău
+- Chi?inau
 - Irkutsk
 - Quedlinburg
 - Almere
@@ -11143,7 +11494,7 @@
 - Saarlouis
 - Bad Schandau
 - Moringen
-- Poznań
+- Poznan
 - Poznan
 - Waldsassen
 - Erftstadt
