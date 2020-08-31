@@ -3014,7 +3014,7 @@
 - Quantas pessoas estão infectadas na [Republica Democrática da Argélia]{"entity": "country_code", "value": "DZ"}?
 - quantos casos positivos temos na [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
 
-## intent:covid_situation_infected_infected_critical
+## intent:covid_situation_infected_critical
 - Casos críticos na [Europa]{"entity": "world_region", "value": "Europe"}
 - infectados criticos em [Ásia]{"entity": "world_region", "value": "Asia"}
 - Quantos infectados em estado crítico no [continente africano]{"entity": "world_region", "value": "Africa"}
