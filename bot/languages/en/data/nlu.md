@@ -2074,6 +2074,7 @@
 - Agent Smith is better than you.
 - Answer the damn question
 - Ok ur boring
+- Why are you doing this to me
 - Are you going to answer my question ??
 - Bro, what wrong with you nah
 - Bt you not answering me
@@ -2621,6 +2622,7 @@
 - So are we going to stay with this virus forever
 - Then when's the end of the world ?
 - Till when
+- End of it
 - U have to tell me when is going to end
 - We will this end madam
 - When is Corona Viruse expected to end??
@@ -2746,8 +2748,10 @@
 - after being infected am I imune?
 - after getting infected, can I be immune to the virus?
 - can I be immune?
+- Oh thank u but can it affect u again if u just recovered from it?
 
 ## intent:covid_incubation
+- how many days dose it take one to test positive after exposer?
 - 19-nCoV incubation period.
 - 19nCov incubation period.
 - In How many days symptoms starts
@@ -3188,6 +3192,7 @@
 
 ## intent:covid_meaning
 - COVID name meaning.
+- Ouk now what is Corona virus mean?
 - COVID name why?
 - COVID name.
 - COVID-19 name meaning.
@@ -3195,6 +3200,7 @@
 - COVID-19 name.
 - Coronavirus SARS-CoV-2
 - Covid mean
+- Wat the full meaning of covid-19
 - Covid-19 stand for
 - Disease name meaning.
 - Disease name why?
@@ -3241,6 +3247,7 @@
 - Explain to me the meaning of the virus name.
 - Explain to me the meaning of the virus’s name.
 - Explain to me the name.
+- Pls I need defination, advantage and disadvantages of coronal virus and y is it a pandemic
 - Explain to me the virus name.
 - Explain to me the virus’s name.
 - Is corona an English word or scientific word
@@ -3335,6 +3342,7 @@
 - Death percentage.
 - I mean do u think we're all going to die bcus of d virusNothing areu human
 - Do coronavirus kill?
+- Does corona virus kills
 - How long does it take for covid patient to die?
 - Mortality rate.
 - Percentage of deaths.
@@ -3345,6 +3353,7 @@
 - Does covid 19 kills
 
 ## intent:covid_origins
+- The origin of the virus
 - Are animals responsible for COVID-19 in people?
 - Could you please tell me about the evolution of the spreading of Covid-19?
 - How did it start
@@ -3393,6 +3402,8 @@
 - Is it a pandemic
 
 ## intent:covid_preexisting_illness
+- which groups are at a higher risk to con
+- which groups are at a higher risk on getting severe COVID-19?
 - About more risk people.
 - About more serious age group.
 - About more serious people.
@@ -3636,11 +3647,13 @@
 - new coronavirus and SARS are the same virus?
 - new coronavirus and SARS.
 - new coronavirus and Severe Acute Respiratory Syndrome.
+- Is SARs a disease
 - novel coronavirus and SARS are the same virus?
 - novel coronavirus and SARS.
 - novel coronavirus and Severe Acute Respiratory Syndrome.
 - sars
-- Pls I need defination, advantage and disadvantages of coronal virus and y is it a pandemic
+- What causes SARs disease
+
 
 ## intent:covid_schools
 - Are schools going to be resumed
@@ -3679,6 +3692,9 @@
 
 ## intent:covid_sex
 - But does covid 19 transmit through sex?
+- I said if have sex with someone that have corona virus will I contact it
+- If I have sex with someone that have corona virus will I contact it
+- If I have sex with someone that have will I contact it
 - Can It also transmit through sex?
 - Can Tue virus be transmitted during sex inter course
 - Can covid-19 be transferred through sex
@@ -4221,6 +4237,7 @@
 - Tell me about Ebola
 - What about Ebola
 - What is ebola
+- What causes Ebola virus
 
 ## intent:economy_consequences
 - Can you answer questions economy related?
@@ -4551,6 +4568,7 @@
 - how am i?
 
 ## intent:mask_general
+- How effective is the face mask in preventing the spread of the virus
 - And here putting on a musk is compulsory
 - Can i wear a disposable mask?
 - Can i wear a mask?
@@ -5013,6 +5031,7 @@
 ## intent:prevention_disinfection
 - How to disinfect things?
 - What about using sanitizer?
+- Are sanitizers 100% effective against the virus?
 - What to use as disinfectant?
 
 ## intent:prevention_distance
@@ -5051,6 +5070,7 @@
 
 ## intent:prevention_general
 - Alright. What are the preventing measures?
+- What processes are being practiced globally to curtail the spread of the virus
 - Could you tell me about preventive measures?
 - Fine what are the preventive measures
 - Hello madam namshkar Please tell me how can control the virus
@@ -5364,6 +5384,9 @@
 - Who to contact if you have this symptoms
 
 ## intent:prevention_medicine
+- How far have they gone with the Vaccine.
+- How possible is discovering of the covid 19 vaccine this year
+- Like I was just asking that does it has vaccine ?
 - About a drug for COVID-19.
 - If there is no medicine for corona virus than how people are recovering?
 - Can it be treated
@@ -5406,6 +5429,7 @@
 - Can this be cured?
 - Cure
 - Cure to Covid 19
+- Cure for covid 19
 - Did coronavirus has a medicine
 - Did america get the correct medicine
 - Does corona virus have a cure
@@ -5431,6 +5455,8 @@
 - Is the cure of Covid 19 there?
 - Is the medicine made?
 - Is the vaccine found
+- Is vaccines out
+- Is covid vaccine out
 - Is there a cure for covid 19
 - Is there a cure found for the Corona Virus
 - Is there a cure?
@@ -5448,6 +5474,7 @@
 - Is there a vaccine, drug or treatment for COVID-19?
 - Is there a vaccine, drug or treatment?
 - Is there a vaccine?
+- Is there a cure for COVID 19
 - Is there any drug for COVID-19
 - Is there any drug for dis virus yet
 - Is there any good news about cure for Corona virus
@@ -5778,6 +5805,8 @@
 - What is quarantine? How does it work?
 
 ## intent:spread_air
+- Can COVID 19 be transmitted airborne
+- Is Covid 19 airborne
 - Air propagation.
 - Air spreading.
 - Air transmission.
@@ -6546,6 +6575,8 @@
 - happiness
 
 ## intent:user_love
+- But I like you
+- Please give ur love you won't regret it
 - Accept my love.
 - Accept my proposal.
 - Am crushing on you
