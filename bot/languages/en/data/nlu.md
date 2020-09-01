@@ -7814,8 +7814,8 @@
 - [ireland]{"entity": "country_code", "value": "IE"}
 - [Ireland]{"entity": "country_code", "value": "IE"}
 - [Éire]{"entity": "country_code", "value": "IE"}
-- [sint maarten (dutch part)]{"entity": "country_code", "value": "SX"}
-- [Sint Maarten (Dutch part)]{"entity": "country_code", "value": "SX"}
+- [sint maarten dutch part]{"entity": "country_code", "value": "SX"}
+- [Sint Maarten Dutch part]{"entity": "country_code", "value": "SX"}
 - [São Martinho paises baixos]{"entity": "country_code", "value": "SX"}
 - [south georgia and the south sandwich islands]{"entity": "country_code", "value": "GS"}
 - [South Georgia and the South Sandwich Islands]{"entity": "country_code", "value": "GS"}
@@ -7917,8 +7917,8 @@
 - [south africa]{"entity": "country_code", "value": "ZA"}
 - [South Africa]{"entity": "country_code", "value": "ZA"}
 - [Republic of South Africa]{"entity": "country_code", "value": "ZA"}
-- [saint martin (french part)]{"entity": "country_code", "value": "MF"}
-- [Saint Martin (French part)]{"entity": "country_code", "value": "MF"}
+- [saint martin french part]{"entity": "country_code", "value": "MF"}
+- [Saint Martin French part]{"entity": "country_code", "value": "MF"}
 - [Saint-Martin]{"entity": "country_code", "value": "MF"}
 - [mayotte]{"entity": "country_code", "value": "YT"}
 - [Mayotte]{"entity": "country_code", "value": "YT"}
@@ -8016,7 +8016,8 @@
 - [Tonga]{"entity": "country_code", "value": "TO"}
 - [Kingdom of Tonga]{"entity": "country_code", "value": "TO"}
 - [vatican city]{"entity": "country_code", "value": "VA"}
-- [Holy See (Vatican City State)]{"entity": "country_code", "value": "VA"}
+- [Holy See]{"entity": "country_code", "value": "VA"}
+- [Vatican City State]{"entity": "country_code", "value": "VA"}
 - [Sancta Sedes]{"entity": "country_code", "value": "VA"}
 - [nicaragua]{"entity": "country_code", "value": "NI"}
 - [Nicaragua]{"entity": "country_code", "value": "NI"}
