@@ -365,6 +365,8 @@ intents:
 - prevention_measures
 - prevention_medical_attention
 - prevention_medicine
+- prevention_cloroquina
+- prevention_ivermectina
 - prevention_respiratory_hygiene
 - prevention_touch
 - prevention_vaccine
