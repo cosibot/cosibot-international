@@ -17,13 +17,33 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r model-ci-requirements.txt
 
-    - name: Train model
+    - name: en - Train model
       run: |
         rasa train --config bot/languages/en/config.yml --domain bot/languages/en/domain.yml --data bot/languages/en/data bot/languages/stories.md --out bot/languages/en/models/  
 
-    - name: Run Through en Test stories
+    - name: en - Run Through Test stories
       run: |
         rasa test --stories bot/languages/en/tests/conversation_tests.md --fail-on-prediction-errors
-    - name: Cross-validate NLU model
+    
+    - name: en - Cross-validate NLU model
       run: |
         rasa test nlu --nlu bot/languages/en/data/
+
+    - name: br - Train model
+      run: |
+        cd bot
+        rasa train --config languages/br/config.yml --domain languages/br/domain.yml --data languages/br/data languages/stories.md --out languages/br/models/  
+
+    - name: br - Run Through Test stories
+      run: |
+        cd bot
+        rasa test --model languages/br/ --stories languages/en/tests/conversation_tests.md --fail-on-prediction-errors
+    
+    - name: br - Cross-validate NLU model
+      run: |
+        cd bot
+        rasa test nlu --nlu languages/en/data/
+
+    - name: Run unit tests 
+      run: |
+        pytest tests --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
