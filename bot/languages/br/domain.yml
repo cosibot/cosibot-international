@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: '0.0.2'
+    initial_value: '0.0.3'
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -365,6 +365,8 @@ intents:
 - prevention_measures
 - prevention_medical_attention
 - prevention_medicine
+- prevention_cloroquina
+- prevention_ivermectina
 - prevention_respiratory_hygiene
 - prevention_touch
 - prevention_vaccine
@@ -2945,7 +2947,7 @@ responses:
       - type: ssml
         ssml: <speak> Você pode ler sobre as últimas notícias nos links abaixo:</speak>
       - type: text
-        text: Você pode ler sobre as últimas notícias nos links abaixo:
+        text: "Você pode ler sobre as últimas notícias nos links abaixo:"
       - type: hints
         options:
         - label: Sobre COVID-19
