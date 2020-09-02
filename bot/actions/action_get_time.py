@@ -1,31 +1,36 @@
 
-import requests
-import time
-from datetime import date
-from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import SlotSet, FollowupAction, UserUtteranceReverted
-from rasa_sdk import Action, Tracker
 from typing import Text, Any, Dict, List
-import logging
-logger = logging.getLogger(__name__)
+import time
 from pytz import timezone
-from datetime import date,datetime
+from datetime import datetime
+
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet, FollowupAction
+from rasa_sdk import Action, Tracker
+
+import logging
+
+
+logger = logging.getLogger(__name__)
+
 
 class GetTimeValue(Action):
 
     def name(self):
         return "action_get_time"
 
-    def run(self, dispatcher, tracker, domain):
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         if (tracker.get_slot('bot_location') != "br"):
-            #print("     !!! not br")
+            # print("     !!! not br")
             t = time.localtime()
             return [SlotSet("bot_time", time.strftime("%H:%M:%S", t)),
                     FollowupAction("utter_features_time")]
         else:
-            #print("     !!! br")
+            # print("     !!! br")
             time_output = "%H:%M:%S"
-            #t = time.localtime()
+            # t = time.localtime()
             brazil_acre = datetime.now(timezone('Brazil/Acre'))
             brazil_fnoronha = datetime.now(timezone('Brazil/DeNoronha'))
             brazil_brasilia = datetime.now(timezone('Brazil/East'))

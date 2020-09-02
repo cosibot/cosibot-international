@@ -1,0 +1,29 @@
+name: Model CI
+on: [push]
+
+jobs:
+  build-model:
+    name: Build, test, and upload model
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r model-ci-requirements.txt
+
+    - name: Train model
+      run: |
+        rasa train
+
+    - name: Run Through en Test stories
+      run: |
+        rasa test --stories bot/languages/en/tests/conversation_tests.md --fail-on-prediction-errors
+    - name: Cross-validate NLU model
+      run: |
+        rasa test nlu --nlu bot/languages/en/data/

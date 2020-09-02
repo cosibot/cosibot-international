@@ -1,15 +1,14 @@
-from typing import Text
+from typing import Any, Text, Dict, List
 
 import logging
-
-logger = logging.getLogger(__name__)
-
-from rasa_sdk import Action
-from rasa_sdk.events import SlotSet, FollowupAction, UserUtteranceReverted
-from datetime import date
-import time
 import requests
 
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet
+
+
+logger = logging.getLogger(__name__)
 
 fallback_config = {
     "search_URL": "https://www.googleapis.com/customsearch/v1?",
@@ -42,10 +41,13 @@ class ActionDefaultFallback(Action):
 
             response = requests.get(url=fallback_config["search_URL"], params=params,)
             return response.json()
-        except:
+        except Exception:
             return []
 
-    def run(self, dispatcher, tracker, domain):
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
         nr_tries = tracker.get_slot("total_nr_tries")
         nr_tries = nr_tries + 1.0
 
@@ -70,8 +72,8 @@ class ActionDefaultFallback(Action):
                     dispatcher.utter_message(json_message=return_response)
                 else:
                     dispatcher.utter_message(template="utter_fallback_request_emptyanswer")
-                    #return [UserUtteranceReverted()]
+                    # return [UserUtteranceReverted()]
                 return [SlotSet("total_nr_tries", 0.0)]
-            except:
+            except Exception:
                 dispatcher.utter_message(template="utter_fallback_request_error")
                 return [SlotSet("total_nr_tries", 0.0)]

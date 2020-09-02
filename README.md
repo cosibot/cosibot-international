@@ -1,6 +1,10 @@
-# cosibot-international
+# Cosibot International
 
-International version of the Cosibot Initiative.
+<img align="right" width="244" height="245" alt="Helen-wp" src="https://cosibot.org/wp-content/uploads/2020/04/Helen-wp-3.png">
+[Cosibot](https://cosibot.org/) – Covid Stay Informed Bot is a non-profit initiative developed by ROBO.AI to provide citizens around the world with credible and up-to-date information on Coronavirus, using different sources and making it available in a single application.
+
+This is the international version, available in English and Brazilian Portuguese.
+
 The bot is structured as follows: 
 ```
 .

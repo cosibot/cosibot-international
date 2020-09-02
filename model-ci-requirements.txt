@@ -1,0 +1,4 @@
+# Requirements for the action server should go in action-server-requirements.txt
+pytz==2019.3
+rasa[convert]==1.10.0
+pytest==6.0.1
