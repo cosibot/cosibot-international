@@ -30,24 +30,15 @@ jobs:
     - name: en - Run Through Test stories
       run: |
         cd bot
-        rasa test --stories languages/en/tests/conversation_tests.md --fail-on-prediction-errors
-    
-    - name: en - Cross-validate NLU model
-      run: |
-        cd bot
-        rasa test nlu --nlu languages/en/data/
+        rasa test --model languages/en/models --nlu languages/en/data --stories languages/en/tests/conversation_tests.md --out languages/en/results
 
     - name: br - Train model
       run: |
         cd bot
-        rasa train --config languages/br/config.yml --domain languages/br/domain.yml --data languages/br/data languages/stories.md --out languages/br/models/  
+        rasa train --config languages/br/config.yml --domain languages/br/domain.yml --data languages/br/data languages/stories.md --augmentation 0 --out languages/br/models/  
 
     - name: br - Run Through Test stories
       run: |
         cd bot
-        rasa test --model languages/br/ --stories languages/en/tests/conversation_tests.md --fail-on-prediction-errors
+        rasa test --model languages/br/models --nlu languages/br/data --stories languages/br/tests/conversation_tests.md --out languages/br/results
     
-    - name: br - Cross-validate NLU model
-      run: |
-        cd bot
-        rasa test nlu --nlu languages/en/data/
