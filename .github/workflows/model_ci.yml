@@ -19,7 +19,7 @@ jobs:
 
     - name: Train model
       run: |
-        rasa train
+        rasa train --config bot/languages/en/config.yml --domain bot/languages/en/domain.yml --data bot/languages/en/data bot/languages/stories.md --out bot/languages/en/models/  
 
     - name: Run Through en Test stories
       run: |
