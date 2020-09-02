@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, datetime
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet, FollowupAction
 from rasa_sdk import Action, Tracker
@@ -6,7 +6,6 @@ from typing import Text, Any, Dict, List
 import logging
 
 from pytz import timezone
-from datetime import datetime
 
 logger = logging.getLogger(__name__)
 

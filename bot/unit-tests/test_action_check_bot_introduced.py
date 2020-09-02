@@ -69,5 +69,7 @@ def test_run_slot_true(check_bot_introduced, default_dispatcher, default_domain)
         latest_action_name=None,
     )
 
-    followup_action = result[1]['name']
+    result = check_bot_introduced.run(default_dispatcher, true_slot_tracker, default_domain)
+
+    followup_action = result[0]['name']
     assert followup_action == "utter_greeting_hello"

@@ -17,6 +17,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r model-ci-requirements.txt
 
+    - name: Run unit tests 
+      run: |
+        pytest tests --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+
     - name: en - Train model
       run: |
         cd bot
@@ -46,7 +50,3 @@ jobs:
       run: |
         cd bot
         rasa test nlu --nlu languages/en/data/
-
-    - name: Run unit tests 
-      run: |
-        pytest tests --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
