@@ -1,4 +1,4 @@
-name: Model CI
+name: ci-tests
 on: [push]
 
 jobs:
@@ -19,7 +19,8 @@ jobs:
 
     - name: Run unit tests 
       run: |
-        pytest tests --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+        cd bot
+        pytest --doctest-modules --cov=bot --cov-report=html
 
     - name: en - Train model
       run: |

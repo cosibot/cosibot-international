@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-GPL-yellow.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Build Status](https://github.com/cosibot/cosibot-international/workflows/ci-tests/badge.svg)](https://github.com/cosibot/cosibot-international/actions)
+
 # Cosibot International
 
 <img align="right" width="244" height="245" alt="Helen-wp" src="https://cosibot.org/wp-content/uploads/2020/04/Helen-wp-3.png"></img>
