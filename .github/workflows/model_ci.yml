@@ -53,6 +53,12 @@ jobs:
       run: |
         cd bot
         rasa test --model languages/en/models --nlu languages/en/data --stories languages/en/tests/conversation_tests.md --out languages/en/results
+    
+    - name: en - Save tests
+      uses: actions/upload-artifact@v2
+      with:
+        name: en-tests
+        path: bot/languages/en/results
 
     - name: br - Train model
       run: |
@@ -62,4 +68,10 @@ jobs:
     - name: br - Run Through Test stories
       run: |
         cd bot
-        rasa test --model languages/br/models --nlu languages/br/data --stories languages/br/tests/conversation_tests.md --out languages/br/results    
+        rasa test --model languages/br/models --nlu languages/br/data --stories languages/br/tests/conversation_tests.md --out languages/br/results
+
+    - name: br - Save tests
+      uses: actions/upload-artifact@v2
+      with:
+        name: br-tests
+        path: bot/languages/br/results
