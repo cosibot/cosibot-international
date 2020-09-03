@@ -60,13 +60,13 @@ jobs:
         rasa train --config languages/en/config.yml --domain languages/en/domain.yml --data languages/en/data languages/stories.md --augmentation 0 --out languages/en/models/
 
     - name: en - Run Through Test stories
-      if: env.RUN_TRAINING = 'true'
+      if: env.RUN_TRAINING == 'true'
       run: |
         cd bot
         rasa test --model languages/en/models --nlu languages/en/data --stories languages/en/tests/conversation_tests.md --out languages/en/results
     
     - name: en - Save tests
-      if: env.RUN_TRAINING = 'true'
+      if: env.RUN_TRAINING == 'true'
       uses: actions/upload-artifact@v2
       with:
         name: en-tests
