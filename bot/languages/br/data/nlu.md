@@ -119,6 +119,7 @@
 - Sua disponibilidade.
 - Seu horário comercial.
 - Seu horário de trabalho.
+- Vc está disponível em Qualquer momento é ?
 
 ## intent:bot_books
 - Gêneros de livros que você gosta.
@@ -730,6 +731,7 @@
 - Seus gostos e aversões
 - quantos anos você tem?
 - me diga sua idade
+- Vc tem Quantos anos?
 
 ## intent:bot_personality
 - Você é amigável?
@@ -802,6 +804,7 @@
 - Você não é uma pessoa de verdade, é?
 - Vc é um robo?
 - Você é um robo?
+- Vc é Mulher ou homem?
 
 ## intent:bot_residence
 - Onde você morava quando era pequeno?
@@ -1084,6 +1087,7 @@
 - Sua versão.
 - qual é a tua versão
 - Qual a sua versão?
+- qual é a tua versao
 
 ## intent:bot_worst_experience
 - Má experiência?
@@ -1994,6 +1998,7 @@
 - Você não tem nenhuma idéia, certo?
 - Você tem muito que aprender Helen
 - Estranho
+- Vc tá debricadeira fala pra com versar
 
 ## intent:comment_offense
 - Idiota!
@@ -2087,6 +2092,9 @@
 - você é uma peça de software digital inútil
 - Como se eu nao soubesse
 - Como se eu não soubesse
+- Não Quero sabe
+- Não quero saber
+
 
 ## intent:comment_positive
 - Fantástico!
@@ -2275,6 +2283,7 @@
 - Pq ninguém comenta das sequelas do covid?
 - Porque ninguém comenta das sequelas do covid?
 - Porque ninguém comenta das sequelas do vírus?
+- Queria saber se o covid deixa sequelas de dores musculares nos ombros????
 
 ## intent:covid_babys_children
 - As crianças são afetadas?
@@ -2346,6 +2355,11 @@
 - Quanto tempo vai durar a pandemia?
 - Quanto tempo esta crise vai durar?
 - Quando a covid vai acabar?
+- Quando vai acabar essa pandemia
+- Quando vai acabar tudo isso?
+- Sabe quando vai acabar essa pandemia ?
+- Já tem  previsão  até onde vai essa pandemia ?
+- Vc tm idéia até qnd vai essa pandemia?
 
 ## intent:covid_current_statistics
 - [Yakutsk]{"entity": "geography", "value": "town"} news.
@@ -2447,6 +2461,18 @@
 - já fui curada poço pegar novamente
 - Poço pega covid-19 de novo pois a 2 mês atrás eu peguei já fui curada poço pegar novamente
 - Poço pega covid-19 dinovo pois a 2 mês atrás eu peguei já fui curada poço pegar novamente
+- Quem teve pode ter novamente
+- Quem teve pode pegar de novo?
+- Posso ter covid duas vezes?
+- Posso pegar covid mais de uma vez?
+- posso mim cotamina de novo
+- Posso me contaminar de novo?
+- Alguns médicos já estão falando quer quem pegou a COVID esta imune, essa informação procede?
+- É verdade que pode contrair mais de uma vez?
+- Existe pessoas imunes ao corona vírus?
+- Após quanto tempo não transmito mais o vírus?
+- Depois de quantos dias não tem perigo
+- Quem já pegou pega de novo
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -2501,7 +2527,10 @@
 - Quanto tempo o vírus sai do corpo
 - Com quantos dias eu não transmito mais o virus?
 - Ainda trasmito?
-
+- Meu filho teve covid ta isolado ha 15 dias ele ainda trasmite ou tem que fazer teste para ter certeza e qual?
+- quanto tempo o vírus fica ativo
+- "Boa noite,td bem?
+Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2586,6 +2615,7 @@
 - Sobre COVID-19
 - Sobre coronavírus
 - Sobre o vírus
+- Me explica as Formas do coronavirus
 
 ## intent:covid_meaning
 - O que significa o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
@@ -2692,6 +2722,7 @@
 - Crianças são grupo de risco?
 - Desculpe só mais uma dúvida,estou gestante e tenho meus afazeres na cidade , uso máscara certinho álcool 70 nas mãos srmpre, corro risco de contrair o coronavirus
 - Porque o diabético e grupo de risco
+- Todo fumante q se infectar com o corona vírus  morre?
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -3018,6 +3049,8 @@
 - Como está o estado de Manaus?
 - Qual estado estar mas afetado ?
 - Estado mais afetado
+- Brasil
+- Quanto  COVID  tem em Votorantim?
 
 
 ## intent:covid_situation_deaths
@@ -3160,6 +3193,7 @@
 - Quais são os números de hoje para [Bósnia-Herzegovina]{"entity": "country_code", "value": "BA"}
 - gostaria de saber os números atuais do [Ceilão]{"entity": "country_code", "value": "LK"}
 - situação em [República de Malta]{"entity": "country_code", "value": "MT"}
+- novidades no mundo
 
 ## intent:covid_situation_recovered
 - Quantos se recuperaram na [comunidade Europeia]{"entity": "world_region", "value": "Europe"}
@@ -3486,6 +3520,33 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Acordei hoje com o céu da boca bem ressecado e um pouco roco
 - Fraqueza
 - Fraqueza é um sintona?
+- "Não tive TDS os sintomas.
+Somente garganta , pintada nas costas e cansaço. Pode ser covid?
+Meu esposo está com covid"
+- Não tive todos os sintomas. Somente garganta, pintada nas costas e cansaço. Pode ser covid? Meu esposo está com covid
+- Pode ser covid?
+- não tenho febre mas tenho tosse
+- Me fauta muita aire
+- Me falta muito ar
+- Tou sintindo dor de pecho y ta quemando
+- quando ta tossindo e o que
+- Da dor de cabeca muita dor
+- Dor de garganta pode ser covid?
+- Eu senti falta de ar mas ñ sei se era covid ou não  porq tenho dificuldade de respirar]
+- Quais são os Primeiros Sitomas Do Covid-19?
+- Como saber se estou com covid
+- Sintomas associados leves ?
+- Sintomas leves quais são
+- Sem paladar e dor de cabeca
+- Simtomas
+- Perda de olfato
+- Perdir meu olfato
+- Perdi meu olfato
+- Apenas infecção na garganta,,pode ser sinal de estar contaminado ?
+- Apenas garganta inflamada,,pode ser sinal de corona ?
+ - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar e convud19
+ - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar é covid19?
+
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -3498,6 +3559,9 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - como me tratar?
 - quando me tratar?
 - o coronavirus tem tratamento?
+- A maioria das pessoas cura sem internacao?
+- Como ocorre o tratamento?
+- Quanto tempo o paciente fica internado
 
 ## intent:covid_worry
 - E se eu pegar o vírus?
@@ -3570,6 +3634,7 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Vamos vencer o covid 19?
 - Como sabe que não tô feliz
 - Nossa a coisa e séria assim
+- Perigoso isso
 
 ## intent:ebola
 - Ebola
@@ -3759,6 +3824,7 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - falow
 - Muito obrigado por nada tenha um dia adeus
 - de nada tchau
+- Boa noite!
 
 
 ## intent:greeting_hello
@@ -3809,6 +3875,15 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Oi Ellen
 - COMEÇAR
 - Comece
+- Olś
+- Ola
+- ola
+- hello
+- oe
+- Oie!
+- Oiee
+- Oiii
+- Boa tarde
 
 ## intent:greeting_how_are_you
 - Você está bem?
@@ -4276,6 +4351,7 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - como saber se é noticia falsa?
 - o que são noticias falsas?
 - o que são fakenews?
+- Existe uma nova virose Parecida com covid
 
 ## intent:prevention_clean_hands
 - Sobre a limpeza das mãos.
@@ -4438,6 +4514,15 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Como evitar pegar covid?
 - Como evitar pegar o vírus?
 - Como evitar o vírus?
+- Quero saber se com o uso da máscara e passando álcool e gel na mão estou protegido
+- Oii queria informações sobre a coronavirus  como se previnir
+- Como se previnir do coronavirus?
+- É necessário mesmo chegar em casa e tomar banho? Ou só higienizar as mãos e tirar as roupas?
+- O álcool gel e a máscara são os principais contra o vírus?
+- Medidas Preventivas
+- Como evitar de pegar o vírus
+- Qual maneira mas correta de se proteger
+- Como evitar isso?
 
 ## intent:prevention_home
 - Eu estarei seguro se eu ficar em casa?
@@ -4509,6 +4594,7 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Então a ivermectina é bom no tratamento da covid?
 - ivermectina serve para tratar covid?
 - Posso usar ivermectina no tratamento de covid?
+- Quando já é tomado o vermectida e o azitromicina
 
 ## intent:prevention_informed
 - Acompanhe as notícias.
@@ -4684,6 +4770,7 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Sobre COVID-19
 - Preciso ter no mínimo 2 sintoma?
 - Dor de cabeça e tosse pode ser sintoma do covid19
+- Aque hospital puedo ir si me siento muy al
 
 ## intent:prevention_medicine
 - Fui no posto eles só me dão medicamento de dor
@@ -4762,6 +4849,8 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - São bom pra aumentar a imunidade
 - O que é bom para imunidade?
 - Fui no posto eles só me dão medicamento de dor
+- Que medicamento puedo tomar
+- Eu preciso saber se quando sentir febre alguns sintomas pode tomar remédio para tirar a febre antes de fazer o teste do covid
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -4964,6 +5053,8 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Cura
 - Alguma notícia sobre a vacina no Brasil?
 - Helena você  pode falar  se a vacina  estará prota em outubro
+- Vacina p quando?
+- Vacina para quando?
 
 ## intent:quarantine_control
 - Como se controla a quarentena?
@@ -5014,6 +5105,9 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - sem sintomas durante a quarentena, após quanto tempo podemos nos considerar curados?
 - Estou com COVID a uma semana quanto tempo preciso a mais em isolamento???
 - Estou com COVID há uma semana quanto tempo preciso a mais em isolamento???
+- Eu tá com sintomas ai o médico me deu 14 dias de quarentena ai depois fiz o teste deu positivo
+- Fiz meu teste e deu positovo
+- Fiz meu teste e deu positivo
 
 ## intent:quarantine_toiletpaper
 - Papel higiênico
@@ -5037,6 +5131,9 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - qual período correto para volta as atividades.ainda sento minha garganta irritada e normal
 - vdd.hoje estou com 16 dias que estou no isolamento.tenho um filho de 2anos.desde do dia que descobrir que estava com covid não dei de mamar será que eu ja posso dá."
 - Tive contato com pessoa que testou positivo
+- "Boa noite
+Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, nem falta de ar. Médico disse que pode ser Covid. Receitou remédios e fiz o exame"
+- Estou com covid ja estou no meu 5 dia de tratamento dai meu marido pegou e começou o tratamento agora eu tenho que evitar ficar perto dele
 
 ## intent:spread_air
 - Propagação pelo ar.
@@ -5295,6 +5392,9 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Como se pega o covide 19
 -.como que o virus se  espelha
 - Como que o vírus se espalha?
+- Igrejas tem maior risco de contaminação?
+- Qual a maior forma de contaminacao do COVID
+- Como ele se espalha
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -5383,6 +5483,19 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Assintomáticos
 - Tive contato com uma pessoa com covid faz uns 9 dias atraz NÃO tenho sintomas oque eu devo fazer?
 - So mais uma coisa  que eu tenho dúvida tem pessoas que nada senti nada
+- Posso estar com covid sem ter febre?
+- Se a pessoa não tem sintomas ela pode ter tudo corona?
+- Mais não tenho febri
+- Mais n tenho nenhum sintoma como pode te dado positivo
+- "Seu eu pegar covid e fico 5 dias e não sinto falta de a
+Ar aí posso agravar eu a fase pior passou"
+- Eu estou com uma dúvida eu fiz  um teste para covid 19 já faz 14 dias deu positivo fiz outra hj deu negativo o meu exame deu igG não reagente e igm não reagente eu não estou entendendo então eu não tive covid19
+- Mas tem gente que nao ten eses simtomas e texto positivo teve so vomito e mau estar
+- "Oi bom dia comecei senti o sintoma no dia 21 07 tomei os medicamentos fiz o exame de sangue no mesmo dia deu negativo.
+Mas medica pediu para repetir fiz o segundo no dia 10/ 8 deu possivo fiz tomografia computadorizada deu vidro fosco.
+Aí no dia 18/ 08 fiz outro exame deu possivo.
+Qual tempo certo para faze outro exame.
+Eu não estou sentindo nada"
 
 ## intent:spread_pets
 - posso ser infectado pelo meu gato?
@@ -5594,6 +5707,7 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - sem sintomas e sem testes e após duas semanas em casa com distância podemos nos considerar saudáveis em relação a [Covid-19]{"entity": "virus", "value": "COVID"}-
 - qual o risco de contrair a doença?
 - Contração da doença
+- Oi meu tio esta com suspeita e o quart das filhas dele fica ao lado tem algum risco
 
 ## intent:spread_surfaces_food_objects
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida ou água?
@@ -5614,12 +5728,19 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - tive contato com uma pessoa infectada quanto tempo depois posso fazer o exame
 - tive contato com uma pessoa infectada
 - Com quanto tempo depois que senti os primeiros sintomas posso fazer o teste?
+- Como saber se tô com Corona vírus
 - Exame
 - Teste
 - Espirrei nariz entupido e dor de cabeça,devo fazer o teste para covid
 - Tive dor de cabeça espirro e nariz congestionado, durante 3 dias ,já passou ,devo ainda fazer teste para covid?
 - Boa noite já fez 17 dias que  fiz o teste da covid e hoje repeti o teste novamente deu positivo é normal
 - Aonde uma pessoa pode fazer test gratuita
+- O teste rápido me da qual informação? Se eu ja tive a covid 19 ou se eu estou com ela no momento?
+- Meu  esposo tevi contato  com um colega infectado
+- Mais pra se confirmar a covid a pessoa tem tá com todos os sintomas? Ou não
+- Como saber se estou com covid
+- Qual a eficaz do teste rápido
+- Fiz o teste
 
 ## intent:test_who
 - Posso fazer o teste?
@@ -5843,6 +5964,7 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Você é meu amigo.
 - Você seja meu amigo.
 - Você quer ser meu amigo?
+- Podemos ser Amigas?
 
 ## intent:user_happy
 - Neste momento, sou uma pessoa muito alegre.
@@ -6104,6 +6226,12 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - só isso, valeu.
 - Valeu pelas informações
 - Pra vc tbm
+- Vc tbm
+- Ta certo então
+- Ok!
+- Hj não ! Deixo para amanhã !
+- Dorme com Deus
+- Amém
 
 ## intent:user_particles
 - haha
@@ -6473,6 +6601,8 @@ Bastante infeccionada já faz tomando antibiótico azitromicina"
 - Blz!
 - Entendi
 - Tendi
+- Obg
+- Ok!
 
 ## intent:vocative_yes
 - Afirmativo.
