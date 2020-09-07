@@ -51,6 +51,7 @@ jobs:
           contains(  steps.files.outputs.all, 'bot/languages/en/data/'  )
           || contains( steps.files.outputs.all, 'bot/languages/en/config.yml'  )
           || contains(  steps.files.outputs.all, 'bot/languages/en/domain.yml'  )
+          || contains(  steps.files.outputs.all, 'bot/languages/en/tests/conversation_tests.md'  )
       run: echo "::set-env name=RUN_TRAINING::true"
     - name: Set up Python 3.7
       if: env.RUN_TRAINING == 'true'
@@ -91,9 +92,10 @@ jobs:
       uses: jitterbit/get-changed-files@v1
     - name: set_training
       if: |
-          contains(  steps.files.outputs.all, 'bot/languages/en/data/'  )
-          || contains( steps.files.outputs.all, 'bot/languages/en/config.yml'  )
-          || contains(  steps.files.outputs.all, 'bot/languages/en/domain.yml'  )
+          contains(  steps.files.outputs.all, 'bot/languages/br/data/'  )
+          || contains( steps.files.outputs.all, 'bot/languages/br/config.yml'  )
+          || contains(  steps.files.outputs.all, 'bot/languages/br/domain.yml'  )
+          || contains(  steps.files.outputs.all, 'bot/languages/br/tests/conversation_tests.md'  )
       run: echo "::set-env name=RUN_TRAINING::true"
     - name: Set up Python 3.7
       if: env.RUN_TRAINING == 'true'
