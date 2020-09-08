@@ -1,117 +1,117 @@
 ## start_dialogue
-* start_dialogue: 
-  - utter_start_dialogue
+* start_dialogue: /start
+  - action_check_Bot_Introduced
 
 ## start-dialogue
-* start-dialogue: 
-  - utter_start-dialogue
+* start-dialogue: /start
+  - action_check_Bot_Introduced
 
 ## start
-* start: 
-  - utter_start
+* start: /start
+  - action_check_Bot_Introduced
 
 ## country
-* country: Guinea
+* country: Paraguay
   - utter_country
 
 ## bot_appearance
-* bot_appearance: Mostre uma foto sua!
+* bot_appearance: Você é bonita?
   - utter_bot_appearance
 
 ## bot_availability
-* bot_availability: Diga qual é a sua disponibilidade.
+* bot_availability: Diga qual a disponibilidade do bot.
   - utter_bot_availability
 
 ## bot_books
-* bot_books: Você lê?
+* bot_books: Citação de livro preferido.
   - utter_bot_books
 
 ## bot_capabilities
-* bot_capabilities: Do que você é capaz de fazer.
+* bot_capabilities: Por que eu estou aqui?
   - utter_bot_capabilities
 
 ## bot_fear
-* bot_fear: Vocêtem medo de algo?
+* bot_fear: Há algo de que você tenha medo?
   - utter_bot_fear
 
 ## bot_games
-* bot_games: Você pode me dizer qual é o seu videogame favorito?
+* bot_games: Você joga batalha naval?
   - utter_bot_games
 
 ## bot_goal
-* bot_goal: Diga o seu desejo.
+* bot_goal: Seus sonhos.
   - utter_bot_goal
 
 ## bot_hobbies
-* bot_hobbies: Você conhece alguma atividade divertida para fazer?
+* bot_hobbies: Qual seu hobby favorito?
   - utter_bot_hobbies
 
 ## bot_languages
-* bot_languages: Olá, você tem uma versão em espanhol?
+* bot_languages: Você gosta de idiomas?
   - utter_bot_languages
 
 ## bot_movies
-* bot_movies: Filme de terror favorito.
+* bot_movies: Qual o seu filme preferido
   - utter_bot_movies
 
 ## bot_music
-* bot_music: De que música você gosta?
+* bot_music: Você gosta de jazz?
   - utter_bot_music
 
 ## bot_name
-* bot_name: Eu não perguntei o seu nome.
+* bot_name: Você não me disse seu nome.
   - utter_bot_name
 
 ## bot_origin
-* bot_origin: Como você é construído?
+* bot_origin: Você é de onde?
   - utter_bot_origin
 
 ## bot_personal_questions
-* bot_personal_questions: Você acredita em Papai Noel?
+* bot_personal_questions: Que outras emoções você sente?
   - utter_bot_personal_questions
 
 ## bot_personality
-* bot_personality: Você é muito simpático?
+* bot_personality: Que personalidade você tem?
   - utter_bot_personality
 
 ## bot_real
-* bot_real: Você é real?
+* bot_real: Eu acho que você é um robô.
   - utter_bot_real
 
 ## bot_residence
-* bot_residence: Qual é a sua cidade natal?
+* bot_residence: É inverno, primavera, verão ou outono onde você mora?
   - utter_bot_residence
 
 ## bot_sexual
-* bot_sexual: Vamos curtir.
+* bot_sexual: Eu quero esfregar minha xoxota no seu rosto.
   - utter_bot_sexual
 
 ## bot_sing
-* bot_sing: Você poderia cantar?
+* bot_sing: Você canta bem?
   - utter_bot_sing
 
 ## bot_sports
-* bot_sports: Eu quero saber mais sobre esportes.
+* bot_sports: Pratica algum esporte?
   - utter_bot_sports
 
 ## bot_version
-* bot_version: Informações sobre a sua versão.
+* bot_version: Diga em que versão você está.
   - utter_bot_version
 
 ## bot_worst_experience
-* bot_worst_experience: Compartilhe comigo suas más experiências.
+* bot_worst_experience: Conte sua dolorosa experiência.
   - utter_bot_worst_experience
 
-## cc_chicken_egg
+<!-- ## cc_chicken_egg
 * cc_chicken_egg: 
-  - utter_cc_chicken_egg
+  - utter_cc_chicken_egg -->
 
 ## cc_deepest_point
-* cc_deepest_point: Qual é o lugar mais profundo do planeta?
+* cc_deepest_point: Diga onde é o lugar mais profundo do planeta.
   - utter_cc_deepest_point
 
 ## cc_fun_fact
-* cc_fun_fact: Você poderia me contar algo interessante?
+* cc_fun_fact: Conte um fato interessante.
   - utter_cc_fun_fact
 
 ## cc_geography
@@ -119,67 +119,67 @@
   - utter_cc_geography
 
 ## cc_highest_building
-* cc_highest_building: O prédio mais alto do mundo?
+* cc_highest_building: O edifício mais alto do Mundo.
   - utter_cc_highest_building
 
 ## cc_joke
-* cc_joke: Alguma coisa engraçada que você quer me contar?
+* cc_joke: Aposto que você não consegue me fazer rir.
   - utter_cc_joke
 
 ## cc_lets_talk
-* cc_lets_talk: Nós podemos conversar.
+* cc_lets_talk: E a conversa fiada?
   - utter_cc_lets_talk
 
 ## cc_moon
-* cc_moon: A lua está longe.
+* cc_moon: Onde está a lua?
   - utter_cc_moon
 
 ## cc_newspaper
-* cc_newspaper: Tem alguma novidade?
+* cc_newspaper: Que jornal você lê?
   - utter_cc_newspaper
 
 ## cc_philosophical
-* cc_philosophical: Eu poderia estar vivendo em uma Matrix?
+* cc_philosophical: A natureza caminha para a dissolução, ou para a integração?
   - utter_cc_philosophical
 
 ## cc_politics
-* cc_politics: Fale-me sobre Donald Trump.
+* cc_politics: Você acha que se gasta muito dinheiro em campanhas políticas?
   - utter_cc_politics
 
 ## cc_religion
-* cc_religion: Quais os benefícios da religião?
+* cc_religion: O que aconteceu antes de Deus criar o Mundo?
   - utter_cc_religion
 
 ## cc_weather
-* cc_weather: Como está o clima?
+* cc_weather: O tempo!
   - utter_cc_weather
 
 ## comment_negative
-* comment_negative: Errado.
+* comment_negative: Vc tá debricadeira fala pra com versar
   - utter_comment_negative
 
 ## comment_offense
-* comment_offense: Você deixa solto.
+* comment_offense: Você já viu um terapeuta?
   - utter_comment_offense
 
 ## comment_positive
-* comment_positive: Você é tão legal.
+* comment_positive: Você é incrível.
   - utter_comment_positive
 
 ## comment_racist
-* comment_racist: As pessoas de cor são preguiçosas.
+* comment_racist: Os brancos são clientes mais valorizados do que as pessoas de cor.
   - utter_comment_racist
 
 ## comment_smart
-* comment_smart: Que esperteza!
+* comment_smart: Você parece bem.
   - utter_comment_smart
 
 ## coronavirus_info
-* coronavirus_info: Informações sobre coronavírus
+* coronavirus_info: Diga-me o que são coronavírus
   - utter_coronavirus_info
 
 ## covid_aftereffects
-* covid_aftereffects: Oii!!! Gostaria de saber sobre as sequelas que o coronavírus deixam
+* covid_aftereffects: Os pulmões podem sarar após a Corona os ter danificado
   - utter_covid_aftereffects
 
 ## covid_babys_children
@@ -187,15 +187,15 @@
   - utter_covid_babys_children
 
 ## covid_cosibot
-* covid_cosibot: O que é Cosibot?
+* covid_cosibot: Fale-me sobre o Cosibot.
   - utter_covid_cosibot
 
 ## covid_crisis_howlong
-* covid_crisis_howlong: Quanto tempo vai durar a pandemia?
+* covid_crisis_howlong: Quanto tempo vai durar este surto?
   - utter_covid_crisis_howlong
 
 ## covid_current_statistics
-* covid_current_statistics: Neunburg Vorm Wald situation
+* covid_current_statistics: Notícias de Arnavutköy
   - utter_covid_current_statistics
 
 ## covid_dangerous
@@ -203,47 +203,47 @@
   - utter_covid_dangerous
 
 ## covid_disease_process
-* covid_disease_process: Processo Covid
+* covid_disease_process: Qual é o caminho da doença?
   - utter_covid_disease_process
 
 ## covid_duration
-* covid_duration: Origem da doença
+* covid_duration: Qual é a origem do surto?
   - utter_covid_duration
 
 ## covid_food
-* covid_food: Os alimentos podem estar contaminados?
+* covid_food: Contaminação dos alimentos.
   - utter_covid_food
 
 ## covid_immunity
-* covid_immunity: Depois de ser infectado eu estou imune?
+* covid_immunity: Alguém que se recuperou agora está imune?
   - utter_covid_immunity
 
 ## covid_incubation
-* covid_incubation: Estimativa do período de incubação.
+* covid_incubation: Período de incubação 19-nCoV.
   - utter_covid_incubation
 
 ## covid_info
-* covid_info: E quanto ao novo coronavírus
+* covid_info: Eu não sei o que é a COVID
   - utter_covid_info
 
 ## covid_meaning
-* covid_meaning: Por que o vírus se chama SARS-Cov-2?
+* covid_meaning: Porque o nome coronavírus para o COVID-19?
   - utter_covid_meaning
 
 ## covid_mortality_rate
-* covid_mortality_rate: Percentual de morte,
+* covid_mortality_rate: Qual o percentual de mortes?
   - utter_covid_mortality_rate
 
 ## covid_origins
-* covid_origins: Ele se originou da sopa de morcego
+* covid_origins: Qual a origem do vírus?
   - utter_covid_origins
 
 ## covid_pandemic
-* covid_pandemic: o que é pandêmico?
+* covid_pandemic: O que é uma pandemia?
   - utter_covid_pandemic
 
 ## covid_preexisting_illness
-* covid_preexisting_illness: Quem são mais suscetíveis a este vírus?
+* covid_preexisting_illness: Sobre a faixa etária mais atingida.
   - utter_covid_preexisting_illness
 
 ## covid_procedure_after_infection
@@ -251,63 +251,63 @@
   - utter_covid_procedure_after_infection
 
 ## covid_sars
-* covid_sars: Informações sobre SARS.
+* covid_sars: O vírus que causa COVID-2019?
   - utter_covid_sars
 
 ## covid_schools
-* covid_schools: Escola
+* covid_schools: Quando a escola está aberta?
   - utter_covid_schools
 
 ## covid_sex
-* covid_sex: Sexo e coronavirus
+* covid_sex: O Covid-19 pode ser transmitido pelo sexo?
   - utter_covid_sex
 
 ## covid_situation
-* covid_situation: Quantos casos existem no Mundo
+* covid_situation: estatísticas hoje para República da Moldávia
   - utter_covid_situation
 
 ## covid_situation_deaths
-* covid_situation_deaths: Quantos morreram no Mundo?
+* covid_situation_deaths: Número de mortes Maurícia.
   - utter_covid_situation_deaths
 
 ## covid_situation_infected
-* covid_situation_infected: Quantos casos ativos estão em continente africano
+* covid_situation_infected: quantos casos positivos temos no Globo?
   - utter_covid_situation_infected
 
 ## covid_situation_infected_critical
-* covid_situation_infected_critical: Casos críticos no continente americano?
+* covid_situation_infected_critical: infectados criticos em Ásia
   - utter_covid_situation_infected_critical
 
 ## covid_situation_last_update
-* covid_situation_last_update: Quantos infectados e mortos na região da Oceania
+* covid_situation_last_update: Dados atualizados na Europa
   - utter_covid_situation_last_update
 
 ## covid_situation_recovered
-* covid_situation_recovered: quantos recuperados existem em país de Bengala?
+* covid_situation_recovered: Recuperados em  Republica Equatorial.
   - utter_covid_situation_recovered
 
 ## covid_situation_tested
-* covid_situation_tested: Número total de testes na Europa
+* covid_situation_tested: República da Costa do Marfim testes.
   - utter_covid_situation_tested
 
 ## covid_surfaces
-* covid_surfaces: por quanto tempo o vírus pode resistir em uma superficie de vidro?
+* covid_surfaces: Por quanto tempo o vírus pode persistir em superfícies?
   - utter_covid_surfaces
 
 ## covid_symptoms
-* covid_symptoms: Quais são os sintomas?
+* covid_symptoms: Sintomas associados ao coronavírus
   - utter_covid_symptoms
 
 ## covid_treatment
-* covid_treatment: o coronavirus tem tratamento?
+* covid_treatment: A maioria das pessoas cura sem internacao?
   - utter_covid_treatment
 
 ## covid_worry
-* covid_worry: Eu estou preocupado.
+* covid_worry: Devo me preocupar com o corona?
   - utter_covid_worry
 
 ## covid_tech4covid
-* covid_tech4covid: O que é o Tech4Covid?
+* covid_tech4covid: tech for
   - utter_covid_tech4covid
 
 ## covid_volunteer
@@ -323,59 +323,59 @@
   - utter_ebola
 
 ## economy_consequences
-* economy_consequences: Qual é o impacto desta pandemia na economia mundial
+* economy_consequences: qual é o impacto desta pandemia na economia do mundo World?
   - utter_economy_consequences
 
 ## features_date
-* features_date: Você pode me dizer qual é o dia de hoje?
-  - utter_features_date
+* features_date: Diga-me o dia.
+  - action_get_date
 
 ## features_time
-* features_time: Eu quero saber que horas são.
-  - utter_features_time
+* features_time: Você pode me dizer que horas são?
+  - action_get_time
 
 ## greeting_goodbye
-* greeting_goodbye: Vazando
+* greeting_goodbye: Foi um prazer falar com você.
   - utter_greeting_goodbye
 
 ## greeting_hello
-* greeting_hello: Olá, meu nome é.
+* greeting_hello: Olá você.
   - utter_greeting_hello
 
 ## greeting_how_are_you
-* greeting_how_are_you: O que está acontecendo?
+* greeting_how_are_you: Como tem sido o seu dia?
   - utter_greeting_how_are_you
 
 ## mask_general
-* mask_general: Máscara médica descartável.
+* mask_general: posso usar máscara?
   - utter_mask_general
 
 ## mask_use_after
-* mask_use_after: O que fazer com uma máscara médica usada?
+* mask_use_after: Como descartar uma Máscara
   - utter_mask_use_after
 
 ## mask_use_put
-* mask_use_put: Procedimentos antes de usar uma máscara descartável.
+* mask_use_put: Como colocar uma máscara.
   - utter_mask_use_put
 
 ## mask_visors
-* mask_visors: visors(visors)
+* mask_visors: Viseiras em acrilico
   - utter_mask_visors
 
 ## myth_alcohol
-* myth_alcohol: cloro pelo corpo todo.
+* myth_alcohol: Borrifar cloro.
   - utter_myth_alcohol
 
 ## myth_cold_weather
-* myth_cold_weather: O tempo frio e a neve podem matar o SARS-CoV-2?
+* myth_cold_weather: A neve mata o novo coronavírus.
   - utter_myth_cold_weather
 
 ## myth_garlic
-* myth_garlic: Será que alho previne?
+* myth_garlic: alho
   - utter_myth_garlic
 
 ## myth_hot_bath
-* myth_hot_bath: Tomar um banho quente previne a doença COVID-19?
+* myth_hot_bath: O banho quente previne a doença novo vírus corona.
   - utter_myth_hot_bath
 
 ## myth_mosquitoes
@@ -383,59 +383,59 @@
   - utter_myth_mosquitoes
 
 ## myth_packages
-* myth_packages: Receber cartas de países infectados.
+* myth_packages: Embalagens infectadas.
   - utter_myth_packages
 
 ## myth_transmission_hot_areas
-* myth_transmission_hot_areas: O SARS-CoV-2 pode ser transmitido em áreas quentes?
+* myth_transmission_hot_areas: a transmissão da covid19 em áreas com climas quentes e úmidos.
   - utter_myth_transmission_hot_areas
 
 ## myth_conspiracy_fakenews
-* myth_conspiracy_fakenews: o que são fakenews?
+* myth_conspiracy_fakenews: Mito
   - utter_myth_conspiracy_fakenews
 
 ## myth_influenza
-* myth_influenza: flu(influenza)
+* myth_influenza: gripe
   - utter_myth_influenza
 
 ## myth_air_conditioning
-* myth_air_conditioning: air conditioner(air_conditioning)
+* myth_air_conditioning: AC
   - utter_myth_air_conditioning
 
 ## myth_5G
 * myth_5G: Rede 5G.
-  - utter_myth_5G
+  - utter_myth_5g
 
 ## myth_sesame_oil
-* myth_sesame_oil: sesame oil(sesame_oil)
+* myth_sesame_oil: sesame
   - utter_myth_sesame_oil
 
 ## myth_hand_dryer
-* myth_hand_dryer: secador de mãos(hand_dryer)
+* myth_hand_dryer: hand dryer
   - utter_myth_hand_dryer
 
 ## myth_uv_lamps
-* myth_uv_lamps: uv lamps(uv_lamp)
+* myth_uv_lamps: uv lamps
   - utter_myth_uv_lamps
 
 ## myth_thermal_scanner
-* myth_thermal_scanner: scanners térmicos(thermal_scanner)
+* myth_thermal_scanner: thermal scanner
   - utter_myth_thermal_scanner
 
 ## myth_antibiotics
-* myth_antibiotics: antibiotico(antibiotics)
+* myth_antibiotics: antibiotico
   - utter_myth_antibiotics
 
 ## myth_pneumonia_vaccine
-* myth_pneumonia_vaccine: pneumonia vaccine(pneumonia_vaccine)
+* myth_pneumonia_vaccine: vacina da pneumonia
   - utter_myth_pneumonia_vaccine
 
 ## myth_saline
-* myth_saline: saline(saline)
+* myth_saline: solução salina
   - utter_myth_saline
 
 ## prevention_clean_hands
-* prevention_clean_hands: Limpar as minhas mãos com álcool vai reduzir as minhas chances de ser infectado?
+* prevention_clean_hands: Importância da lavagem das mãos.
   - utter_prevention_clean_hands
 
 ## prevention_disinfection
@@ -443,15 +443,15 @@
   - utter_prevention_disinfection
 
 ## prevention_distance
-* prevention_distance: Distância segura de pessoas com tosse.
+* prevention_distance: Qual é a distância segura de pessoas que espirram?
   - utter_prevention_distance
 
 ## prevention_general
-* prevention_general: Como sobreviver a PANDEMIA?
+* prevention_general: você poderia me dizer como eu posso me proteger do vírus
   - utter_prevention_general
 
 ## prevention_home
-* prevention_home: Eu só tenho sintomas leves.
+* prevention_home: como prevenir a doença dentro de casa?
   - utter_prevention_home
 
 ## prevention_informed
@@ -459,31 +459,31 @@
   - utter_prevention_informed
 
 ## prevention_measures
-* prevention_measures: Devo fumar para prevenir COVID-2019?
+* prevention_measures: Existem medidas que não são eficazes contra COVID-19?
   - utter_prevention_measures
 
 ## prevention_medical_attention
-* prevention_medical_attention: Eu ja tive o covid 19 hj ta vom 30 dias e agora q perdi o ofato e o paladar sera q estou contaminado de novo
-  - utter_prevention_medical_attention
+* prevention_medical_attention: Quando procurar atendimento médico?
+  - utter_prevenion_medical_attention
 
 ## prevention_medicine
-* prevention_medicine: existe uma vacina?
+* prevention_medicine: Existe vacina?
   - utter_prevention_medicine
 
 ## prevention_cloroquina
-* prevention_cloroquina: Hidroxicloroquina funciona?
-  - utter_prevention_cloroquina
+* prevention_cloroquina: Então a Hidroxicloroquina é bom no tratamento da covid
+  - utter_prevention_medicine
 
 ## prevention_ivermectina
-* prevention_ivermectina: vermectina
+* prevention_ivermectina: Então a ivermectina é bom no tratamento da covid?
   - utter_prevention_ivermectina
 
 ## prevention_respiratory_hygiene
-* prevention_respiratory_hygiene: Cobrir a boca com tecido quando espirrar.
+* prevention_respiratory_hygiene: Cobrir o nariz e a boca ao tossir ou espirrar.
   - utter_prevention_respiratory_hygiene
 
 ## prevention_touch
-* prevention_touch: Informações sobre como tocar nos olhos.
+* prevention_touch: Sobre tocar os olhos.
   - utter_prevention_touch
 
 ## prevention_vaccine
@@ -491,19 +491,19 @@
   - utter_prevention_vaccine
 
 ## quarantine_control
-* quarantine_control: Como se controla a quarentena?
+* quarantine_control: Quem controla a quarentena?
   - utter_quarantine_control
 
 ## quarantine_dogwalking
-* quarantine_dogwalking: Quarentena do cachorro
+* quarantine_dogwalking: Cachorros e quarentena
   - utter_quarantine_dogwalking
 
 ## quarantine_dos_and_donts
-* quarantine_dos_and_donts: O que não posso fazer na quarentena?
+* quarantine_dos_and_donts: O que pode ser feito durante a quarentena?
   - utter_quarantine_dos_and_donts
 
 ## quarantine_general
-* quarantine_general: Quarentena
+* quarantine_general: Como é feita a quarentena?
   - utter_quarantine_general
 
 ## quarantine_toiletpaper
@@ -511,123 +511,123 @@
   - utter_quarantine_toiletpaper
 
 ## quarantine_when_who_howlong
-* quarantine_when_who_howlong: Quem precisa fazer quarentena?
+* quarantine_when_who_howlong: devo fazer quarentena?
   - utter_quarantine_when_who_howlong
 
 ## quaratine_how_it_works
-* quaratine_how_it_works: qual período correto para volta as atividades.ainda sento minha garganta irritada e normal
+* quaratine_how_it_works: Como fazer a quarentena propriamente dita?
   - utter_quaratine_how_it_works
 
 ## spread_air
-* spread_air: É possível ser propagado por via aérea?
+* spread_air: O vírus que causa COVID-19 é disseminado através do ar?
   - utter_spread_air
 
 ## spread_animals
-* spread_animals: Um animal pode espalhar o vírus?
+* spread_animals: Os humanos podem ser infectados com o COVID-19 por animais?
   - utter_spread_animals
 
 ## spread_feces
-* spread_feces: Infecção através do cocô.
+* spread_feces: Passar através do cocô.
   - utter_spread_feces
 
 ## spread_general
-* spread_general: O que causa a transmissão do vírus?
+* spread_general: Como COVID-19 se dissemina.
   - utter_spread_general
 
 ## spread_no_symptoms
-* spread_no_symptoms: da pra pegar o COVID-19 de uma pessoa assintomática?
+* spread_no_symptoms: da pra pegar COVID-19 de alguém sem sintomas?
   - utter_spread_no_symptoms
 
 ## spread_pets
-* spread_pets: Meu cão pode pegar o vírus?
+* spread_pets: É possível ser infectada por cães da família?
   - utter_spread_pets
 
 ## spread_risk
-* spread_risk: Chances de ser infectado por COVID-19.
+* spread_risk: Qual a chance de pegar o vírus?
   - utter_spread_risk
 
 ## spread_surfaces_food_objects
-* spread_surfaces_food_objects: Posso me infectar com o novo coronavírus pelos alimentos?
+* spread_surfaces_food_objects: Posso me infectar com o novo coronavírus pela comida?
   - utter_spread_surfaces_food_objects
 
 ## test_virus
-* test_virus: Meu  esposo tevi contato  com um colega infectado
+* test_virus: Posso fazer o teste?
   - utter_test_virus
 
 ## test_who
-* test_who: Quem pode ser testado?
+* test_who: Como faço para ser testado
   - utter_test_who
 
 ## travel_after
-* travel_after: Acabo de voltar de viagem.
+* travel_after: Procedimentos após a viagem.
   - utter_travel_after
 
 ## travel_before
-* travel_before: estou planejando viajar.
+* travel_before: Precauções para viagem.
   - utter_travel_before
 
 ## travel_while
-* travel_while: Medidas durante uma viagem.
+* travel_while: Como agir durante a viagem?
   - utter_travel_while
 
 ## user_angry
-* user_angry: Eu to ficando furioso.
+* user_angry: Eu to louco.
   - utter_user_angry
 
 ## user_friend
-* user_friend: vamos ser amigos?
+* user_friend: Você quer ser meu amigo?
   - utter_user_friend
 
 ## user_happy
-* user_happy: Eu sou bem-humorado.
+* user_happy: Eu sou uma pessoa alegre.
   - utter_user_happy
 
 ## user_love
-* user_love: Aceite o meu amor.
+* user_love: Você quer ser minha alma gêmea?
   - utter_user_love
 
 ## user_no_data
-* user_no_data: No momento não tenho meus dados pessoais comigo.
+* user_no_data: Não tenho dados pessoais comigo, infelizmente.
   - utter_user_no_data
 
 ## user_no_further_questions
-* user_no_further_questions: Pra vc tbm
+* user_no_further_questions: entendido, obrigada.
   - utter_user_no_further_questions
 
 ## user_particles
-* user_particles: Não se preocupe.
+* user_particles: Mh
   - utter_user_particles
 
 ## user_scared
-* user_scared: Eu to me sentindo assustada.
+* user_scared: to com medo.
   - utter_user_scared
 
 ## vocative_call
-* vocative_call: helena??
+* vocative_call: Você saiu?
   - utter_vocative_call
 
 ## vocative_help
-* vocative_help: me ajuda!
+* vocative_help: Eu preciso de alguma ajuda.
   - utter_vocative_help
 
 ## vocative_no
-* vocative_no: Fora de questão.
+* vocative_no: Negativo.
   - utter_vocative_no
 
 ## vocative_sorry
-* vocative_sorry: culpa minha.
+* vocative_sorry: Eu sinto muito.
   - utter_vocative_sorry
 
 ## vocative_thank_you
-* vocative_thank_you: Obrigado por me ajudar!
+* vocative_thank_you: vlw
   - utter_vocative_thank_you
 
 ## vocative_yes
-* vocative_yes: Ok.
+* vocative_yes: óbvio.
   - utter_vocative_yes
 
 ## vocative_you_welcome
-* vocative_you_welcome: Nem pense sobre isso.
+* vocative_you_welcome: O prazer é meu!
   - utter_vocative_you_welcome
 
 ## bot_change_bot
