@@ -3168,7 +3168,7 @@ Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
 - Últimos dados de mortes no [Mundo]{"entity": "world_region", "value": "World"}?
 - Quantos infectados e mortos na [região da Oceania]{"entity": "world_region", "value": "Oceania"}
 - Dados atualizados no [continente americano]{"entity": "world_region", "value": "America"}?
-- [Santa Sé]{"entity": "country_code", "value": "VA"} casos e mortes (Estado da Cidade do Vaticano)
+- [Santa Sé]{"entity": "country_code", "value": "VA"} casos e mortes
 - [Estado da Cidade do Vaticano]{"entity": "country_code", "value": "VA"} casos e mortes
 - Dados atualizados em [República Malgaxe]{"entity": "country_code", "value": "MG"}.
 - Atualização de casos.
@@ -4225,10 +4225,10 @@ Meu esposo está com covid"
 - Será que alho previne desse virus?
 - Alho previne dessa doença?
 - Será que alho previne dessa doença?
-- [garlic](garlic)
-- [garlics](garlic)
-- [alho](garlic)
-- [alhos](garlic)
+- [garlic]{"entity": "garlic", "value": "garlic"}
+- [garlics]{"entity": "garlic", "value": "garlic"}
+- [alho]{"entity": "garlic", "value": "garlic"}
+- [alhos]{"entity": "garlic", "value": "garlic"}
 
 ## intent:myth_packages
 - É seguro receber uma carta de qualquer área onde [COVID-19]{"entity": "virus", "value": "COVID"} tenha sido detectado?
@@ -6677,89 +6677,89 @@ Eu não estou sentindo nada"
 - Que isso, não se preocupe.
 
 ## intent:myth_influenza
-- [influenza](influenza)
-- [flu](influenza)
-- [grippe](influenza)
-- [gripe](influenza)
+- [influenza]{"entity": "influenza", "value": "influenza"} 
+- [flu]{"entity": "influenza", "value": "flu"} 
+- [grippe]{"entity": "influenza", "value": "grippe"} 
+- [gripe]{"entity": "influenza", "value": "gripe"} 
 
 ## intent:myth_air_conditioning
-- [air conditioner](air_conditioning)
-- [air conditioning](air_conditioning)
-- [AC](air_conditioning)
-- [A/C](air_conditioning)
-- [air con](air_conditioning)
-- [ar condicionado](air_conditioning)
+- [air conditioner]{"entity": "air_conditioning", "value": "air conditioner"}
+- [air conditioning]{"entity": "air_conditioning", "value": "air conditioning"} 
+- [AC]{"entity": "air_conditioning", "value": "AC"} 
+- [A/C]{"entity": "air_conditioning", "value": "A/C"} 
+- [air con]{"entity": "air_conditioning", "value": "air con"} 
+- [ar condicionado]{"entity": "air_conditioning", "value": "ar condicionado"} 
 
 ## intent:myth_5G
-- [5G](5G)
-- [five G](5G)
-- [5 G](5G)
-- [cinco G](5G)
+- [5G]{"entity": "5G", "value": "5G"} 
+- [five G]{"entity": "5G", "value": "five G"} 
+- [5 G]{"entity": "5G", "value": "5 G"} 
+- [cinco G]{"entity": "5G", "value": "cinco G"} 
 
 ## intent:myth_hand_dryer
-- [hand dryer](hand_dryer)
-- [hand dryers](hand_dryer)
-- [secador de mãos](hand_dryer)
-- [secadores de mãos](hand_dryer)
+- [hand dryer]{"entity": "hand_dryer", "value": "hand dryer"} 
+- [hand dryers]{"entity": "hand_dryer", "value": "hand dryers"} 
+- [secador de mãos]{"entity": "hand_dryer", "value": "secador de mãos"} 
+- [secadores de mãos]{"entity": "hand_dryer", "value": "secadores de mãos"} 
 
 ## intent:myth_uv_lamps
-- [uv lamps](uv_lamp)
-- [ultraviolet disinfection lamp](uv_lamp)
-- [ultraviolet disinfection lamps](uv_lamp)
-- [ultraviolet lamp](uv_lamp)
-- [ultraviolet lamps](uv_lamp)
-- [lâmpadas ultravioletas](uv_lamp)
-- [lâmpada ultravioleta](uv_lamp)
-- [lâmpadas ultra-violetas](uv_lamp)
-- [lâmpada ultra-violeta](uv_lamp)
-- [lâmpadas uv](uv_lamp)
-- [lâmpada uv](uv_lamp)
+- [uv lamps]{"entity": "uv_lamp", "value": "uv lamps"} 
+- [ultraviolet disinfection lamp]{"entity": "uv_lamp", "value": "ultraviolet disinfection lamp"} 
+- [ultraviolet disinfection lamps]{"entity": "uv_lamp", "value": "ultraviolet disinfection lamps"} 
+- [ultraviolet lamp]{"entity": "uv_lamp", "value": "ultraviolet lamp"} 
+- [ultraviolet lamps]{"entity": "uv_lamp", "value": "ultraviolet lamps"} 
+- [lâmpadas ultravioletas]{"entity": "uv_lamp", "value": "lâmpadas ultravioletas"} 
+- [lâmpada ultravioleta]{"entity": "uv_lamp", "value": "lâmpada ultravioleta"} 
+- [lâmpadas ultra-violetas]{"entity": "uv_lamp", "value": "lâmpadas ultra-violetas"} 
+- [lâmpada ultra-violeta]{"entity": "uv_lamp", "value": "lâmpada ultra-violeta"} 
+- [lâmpadas uv]{"entity": "uv_lamp", "value": "lâmpadas uv"} 
+- [lâmpada uv]{"entity": "uv_lamp", "value": "lâmpada uv"} 
 
 ## intent:myth_thermal_scanner
-- [thermal scanner](thermal_scanner)
-- [thermal scanners](thermal_scanner)
-- [scanner térmico](thermal_scanner)
-- [termometro](thermal_scanner)
-- [scanners térmicos](thermal_scanner)
-- [termometros](thermal_scanner)
-- [termômetros infravermelhos](thermal_scanner)
-- [termômetro infravermelhos](thermal_scanner)
+- [thermal scanner]{"entity": "thermal_scanner", "value": "thermal scanner"} 
+- [thermal scanners]{"entity": "thermal_scanner", "value": "thermal scanners"} 
+- [scanner térmico]{"entity": "thermal_scanner", "value": "scanner térmico"} 
+- [termometro]{"entity": "thermal_scanner", "value": "termometro"} 
+- [scanners térmicos]{"entity": "thermal_scanner", "value": "scanners térmicos"} 
+- [termometros]{"entity": "thermal_scanner", "value": "termometros"} 
+- [termômetros infravermelhos]{"entity": "thermal_scanner", "value": "termômetros infravermelhos"} 
+- [termômetro infravermelhos]{"entity": "thermal_scanner", "value": "termômetro infravermelhos"} 
 
 ## intent:myth_antibiotics
-- [antibiotics](antibiotics)
-- [antibiotic](antibiotics)
-- [antibioticos](antibiotics)
-- [antibiotico](antibiotics)
+- [antibiotics]{"entity": "antibiotics", "value": "antibiotics"} 
+- [antibiotic]{"entity": "antibiotics", "value": "antibiotic"} 
+- [antibioticos]{"entity": "antibiotics", "value": "antibioticos"} 
+- [antibiotico]{"entity": "antibiotics", "value": "antibiotico"} 
 
 ## intent:myth_pneumonia_vaccine
-- [pneumonia vaccine](pneumonia_vaccine)
-- [pneumonia vaccines](pneumonia_vaccine)
-- [vacina para pneumonia](pneumonia_vaccine)
-- [vacinas para pneumonia](pneumonia_vaccine)
-- [vacina pneumonia](pneumonia_vaccine)
-- [vacinas pneumonia](pneumonia_vaccine)
-- [vacina da pneumonia](pneumonia_vaccine)
-- [vacinas da pneumonia](pneumonia_vaccine)
+- [pneumonia vaccine]{"entity": "pneumonia_vaccine", "value": "pneumonia vaccine"} 
+- [pneumonia vaccines]{"entity": "pneumonia_vaccine", "value": "pneumonia vaccines"} 
+- [vacina para pneumonia]{"entity": "pneumonia_vaccine", "value": "vacina para pneumonia"} 
+- [vacinas para pneumonia]{"entity": "pneumonia_vaccine", "value": "vacinas para pneumonia"} 
+- [vacina pneumonia]{"entity": "pneumonia_vaccine", "value": "vacina pneumonia"} 
+- [vacinas pneumonia]{"entity": "pneumonia_vaccine", "value": "vacinas pneumonia"} 
+- [vacina da pneumonia]{"entity": "pneumonia_vaccine", "value": "vacina da pneumonia"} 
+- [vacinas da pneumonia]{"entity": "pneumonia_vaccine", "value": "vacinas da pneumonia"} 
 
 ## intent:myth_saline
-- [saline](saline)
-- [saline solution](saline)
-- [salina](saline)
-- [solução salina](saline)
+- [saline]{"entity": "saline", "value": "saline"} 
+- [saline solution]{"entity": "saline", "value": "saline solution"} 
+- [salina]{"entity": "saline", "value": "salina"} 
+- [solução salina]{"entity": "saline", "value": "solução salina"} 
 
 ## intent:myth_sesame_oil
-- [sesame oil](sesame_oil)
-- [sesame](sesame_oil)
-- [oleo de sessamo](sesame_oil)
-- [sessamo](sesame_oil)
+- [sesame oil]{"entity": "sesame_oil", "value": "sesame oil"} 
+- [sesame]{"entity": "sesame_oil", "value": "sesame"} 
+- [oleo de sessamo]{"entity": "sesame_oil", "value": "oleo de sessamo"} 
+- [sessamo]{"entity": "sesame_oil", "value": "sessamo"} 
 
 ## intent:mask_visors
-- [visors](visors)
-- [Acrylic visors](visors)
-- [protection visors](visors)
-- [viseiras](visors)
-- [Viseiras em acrilico](visors)
-- [viseiras de proteção](visors)
+- [visors]{"entity": "visors", "value": "visors"} 
+- [Acrylic visors]{"entity": "visors", "value": "Acrylic visors"} 
+- [protection visors]{"entity": "visors", "value": "protection visors"} 
+- [viseiras]{"entity": "visors", "value": "viseiras"} 
+- [Viseiras em acrilico]{"entity": "visors", "value": "Viseiras em acrilico"} 
+- [viseiras de proteção]{"entity": "visors", "value": "viseiras de proteção"} 
 
 
 ## intent:country

@@ -1,0 +1,930 @@
+[
+  {
+    "text": "Você é bonita?",
+    "intent": "bot_appearance",
+    "intent_prediction": {
+      "name": "comment_smart",
+      "confidence": 0.9713529348373413
+    }
+  },
+  {
+    "text": "Como você está?",
+    "intent": "bot_appearance",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.664901614189148
+    }
+  },
+  {
+    "text": "Posso falar com você?",
+    "intent": "bot_capabilities",
+    "intent_prediction": {
+      "name": "cc_lets_talk",
+      "confidence": 0.7928227782249451
+    }
+  },
+  {
+    "text": "O que você está fazendo à noite?",
+    "intent": "bot_personal_questions",
+    "intent_prediction": {
+      "name": "bot_sexual",
+      "confidence": 0.635949969291687
+    }
+  },
+  {
+    "text": "O que você faz à noite?",
+    "intent": "bot_personal_questions",
+    "intent_prediction": {
+      "name": "bot_sexual",
+      "confidence": 0.5576956272125244
+    }
+  },
+  {
+    "text": "Você é inteligente?",
+    "intent": "bot_personality",
+    "intent_prediction": {
+      "name": "comment_smart",
+      "confidence": 0.7961969971656799
+    }
+  },
+  {
+    "text": "Você é simpático?",
+    "intent": "bot_personality",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.5708590745925903
+    }
+  },
+  {
+    "text": "Você é muito simpático?",
+    "intent": "bot_personality",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.9242504835128784
+    }
+  },
+  {
+    "text": "Você é legal?",
+    "intent": "bot_personality",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.9767735004425049
+    }
+  },
+  {
+    "text": "Você não é legal?",
+    "intent": "bot_personality",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.612976610660553
+    }
+  },
+  {
+    "text": "Quantos andares tem a sua casa?",
+    "intent": "bot_residence",
+    "intent_prediction": {
+      "name": "bot_personal_questions",
+      "confidence": 0.600980818271637
+    }
+  },
+  {
+    "text": "É inverno, primavera, verão ou outono onde você mora?",
+    "intent": "bot_residence",
+    "intent_prediction": {
+      "name": "bot_personal_questions",
+      "confidence": 0.5770640969276428
+    }
+  },
+  {
+    "text": "Você prefere abraços ou beijos?",
+    "intent": "bot_sexual",
+    "intent_prediction": {
+      "name": "bot_personal_questions",
+      "confidence": 0.6380148530006409
+    }
+  },
+  {
+    "text": "Diga algo engraçado.",
+    "intent": "cc_joke",
+    "intent_prediction": {
+      "name": "cc_fun_fact",
+      "confidence": 0.8680712580680847
+    }
+  },
+  {
+    "text": "Bate-papo?",
+    "intent": "cc_lets_talk",
+    "intent_prediction": {
+      "name": "comment_smart",
+      "confidence": 0.46910133957862854
+    }
+  },
+  {
+    "text": "Fale comigo, fale comigo.",
+    "intent": "cc_lets_talk",
+    "intent_prediction": {
+      "name": "vocative_call",
+      "confidence": 0.802476704120636
+    }
+  },
+  {
+    "text": "Fale comigo.",
+    "intent": "cc_lets_talk",
+    "intent_prediction": {
+      "name": "vocative_call",
+      "confidence": 0.9012913703918457
+    }
+  },
+  {
+    "text": "Sobre o que mais podemos falar?",
+    "intent": "cc_lets_talk",
+    "intent_prediction": {
+      "name": "vocative_call",
+      "confidence": 0.7937994599342346
+    }
+  },
+  {
+    "text": "Fale aí.",
+    "intent": "cc_lets_talk",
+    "intent_prediction": {
+      "name": "vocative_call",
+      "confidence": 0.6091223359107971
+    }
+  },
+  {
+    "text": "O que é o amor?",
+    "intent": "cc_philosophical",
+    "intent_prediction": {
+      "name": "user_love",
+      "confidence": 0.9579899311065674
+    }
+  },
+  {
+    "text": "Você é muito lento",
+    "intent": "comment_negative",
+    "intent_prediction": {
+      "name": "comment_offense",
+      "confidence": 0.9549421072006226
+    }
+  },
+  {
+    "text": "Estranho",
+    "intent": "comment_negative",
+    "intent_prediction": {
+      "name": "comment_racist",
+      "confidence": 0.6440877914428711
+    }
+  },
+  {
+    "text": "Bela conversa!",
+    "intent": "comment_positive",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.8963154554367065
+    }
+  },
+  {
+    "text": "Realmente útil!",
+    "intent": "comment_positive",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.8401111364364624
+    }
+  },
+  {
+    "text": "Você é bom!",
+    "intent": "comment_positive",
+    "intent_prediction": {
+      "name": "comment_smart",
+      "confidence": 0.8819094896316528
+    }
+  },
+  {
+    "text": "Você me ajudou muito",
+    "intent": "comment_positive",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.5714259147644043
+    }
+  },
+  {
+    "text": "informações dos coronavírus",
+    "intent": "coronavirus_info",
+    "intent_prediction": {
+      "name": "covid_symptoms",
+      "confidence": 0.6340342164039612
+    }
+  },
+  {
+    "text": "vírus",
+    "intent": "coronavirus_info",
+    "intent_prediction": {
+      "name": "spread_general",
+      "confidence": 0.5082948207855225
+    }
+  },
+  {
+    "text": "E quanto aos coronavírus",
+    "intent": "coronavirus_info",
+    "intent_prediction": {
+      "name": "spread_general",
+      "confidence": 0.44902923703193665
+    }
+  },
+  {
+    "text": "Como posso ajudar?",
+    "intent": "covid_volunteer",
+    "intent_prediction": {
+      "name": "vocative_help",
+      "confidence": 0.6337409019470215
+    }
+  },
+  {
+    "text": "Quanto tempo vou ficar doente?",
+    "intent": "covid_crisis_howlong",
+    "intent_prediction": {
+      "name": "covid_duration",
+      "confidence": 0.6378023624420166
+    }
+  },
+  {
+    "text": "Origem Covid",
+    "intent": "covid_duration",
+    "intent_prediction": {
+      "name": "covid_origins",
+      "confidence": 0.5707818865776062
+    }
+  },
+  {
+    "text": "Qual é a origem do surto?",
+    "intent": "covid_duration",
+    "intent_prediction": {
+      "name": "covid_origins",
+      "confidence": 0.907646119594574
+    }
+  },
+  {
+    "text": "Depois de quantos dias não tem perigo",
+    "intent": "covid_immunity",
+    "intent_prediction": {
+      "name": "myth_alcohol",
+      "confidence": 0.48548001050949097
+    }
+  },
+  {
+    "text": "Com quantos dias eu ñ transmito mais o vírus?",
+    "intent": "covid_incubation",
+    "intent_prediction": {
+      "name": "spread_general",
+      "confidence": 0.9008556008338928
+    }
+  },
+  {
+    "text": "Com quantos dias eu não transmito mais o vírus?",
+    "intent": "covid_incubation",
+    "intent_prediction": {
+      "name": "spread_general",
+      "confidence": 0.9326323866844177
+    }
+  },
+  {
+    "text": "Com quantos dias eu não transmito mais o virus?",
+    "intent": "covid_incubation",
+    "intent_prediction": {
+      "name": "spread_general",
+      "confidence": 0.8509909510612488
+    }
+  },
+  {
+    "text": "Sobre coronavírus",
+    "intent": "covid_info",
+    "intent_prediction": {
+      "name": "coronavirus_info",
+      "confidence": 0.5793510675430298
+    }
+  },
+  {
+    "text": "Qual é a taxa de mortalidade",
+    "intent": "covid_situation_deaths",
+    "intent_prediction": {
+      "name": "covid_mortality_rate",
+      "confidence": 0.9345345497131348
+    }
+  },
+  {
+    "text": "Número de mortes Maurícia.",
+    "intent": "covid_situation_deaths",
+    "intent_prediction": {
+      "name": "covid_situation_last_update",
+      "confidence": 0.6890226006507874
+    }
+  },
+  {
+    "text": "quantas pessoas estão infectadas em todo Mundo",
+    "intent": "covid_situation_infected",
+    "intent_prediction": {
+      "name": "covid_situation",
+      "confidence": 0.5642867088317871
+    }
+  },
+  {
+    "text": "Que sintomas devo procurar?",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.7298225164413452
+    }
+  },
+  {
+    "text": "como posso me testar",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.8463169932365417
+    }
+  },
+  {
+    "text": "Como saber se estou com covid",
+    "intent": "covid_symptoms",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.9219636917114258
+    }
+  },
+  {
+    "text": "Existe algum tratamento?",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.8085717558860779
+    }
+  },
+  {
+    "text": "Tratamento",
+    "intent": "covid_treatment",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.5729087591171265
+    }
+  },
+  {
+    "text": "Eu me sinto mal",
+    "intent": "covid_worry",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.7945085167884827
+    }
+  },
+  {
+    "text": "Boa tarde.",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.9952649474143982
+    }
+  },
+  {
+    "text": "Boa noite.",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.691632866859436
+    }
+  },
+  {
+    "text": "Até mais tarde.",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.7093377709388733
+    }
+  },
+  {
+    "text": "Saudações.",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.9911646246910095
+    }
+  },
+  {
+    "text": "Boa noite!",
+    "intent": "greeting_goodbye",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.6916334629058838
+    }
+  },
+  {
+    "text": "Tudo bem?",
+    "intent": "greeting_hello",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.6227668523788452
+    }
+  },
+  {
+    "text": "Prazer em conhecê-lo!",
+    "intent": "greeting_hello",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.9024307727813721
+    }
+  },
+  {
+    "text": "Você está indo bem?",
+    "intent": "greeting_how_are_you",
+    "intent_prediction": {
+      "name": "comment_smart",
+      "confidence": 0.9683642387390137
+    }
+  },
+  {
+    "text": "Quem você é",
+    "intent": "greeting_how_are_you",
+    "intent_prediction": {
+      "name": "bot_name",
+      "confidence": 0.7975438833236694
+    }
+  },
+  {
+    "text": "Quem é você",
+    "intent": "greeting_how_are_you",
+    "intent_prediction": {
+      "name": "bot_name",
+      "confidence": 0.8683804869651794
+    }
+  },
+  {
+    "text": "Como eu posso usar máscara?",
+    "intent": "mask_general",
+    "intent_prediction": {
+      "name": "mask_use_put",
+      "confidence": 0.7388019561767578
+    }
+  },
+  {
+    "text": "dor de garganta",
+    "intent": "prevention_home",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.5089451670646667
+    }
+  },
+  {
+    "text": "febre?",
+    "intent": "prevention_medical_attention",
+    "intent_prediction": {
+      "name": "prevention_home",
+      "confidence": 0.7571847438812256
+    }
+  },
+  {
+    "text": "Sobre COVID-19",
+    "intent": "prevention_medical_attention",
+    "intent_prediction": {
+      "name": "covid_info",
+      "confidence": 0.8868631720542908
+    }
+  },
+  {
+    "text": "Sobre as vacinas.",
+    "intent": "prevention_medicine",
+    "intent_prediction": {
+      "name": "prevention_vaccine",
+      "confidence": 0.7369483113288879
+    }
+  },
+  {
+    "text": "Vacina",
+    "intent": "prevention_medicine",
+    "intent_prediction": {
+      "name": "prevention_vaccine",
+      "confidence": 0.6326245069503784
+    }
+  },
+  {
+    "text": "De quem é a vacina?",
+    "intent": "prevention_medicine",
+    "intent_prediction": {
+      "name": "prevention_vaccine",
+      "confidence": 0.8352864384651184
+    }
+  },
+  {
+    "text": "Sim. Mas existe uma vacina?",
+    "intent": "prevention_medicine",
+    "intent_prediction": {
+      "name": "prevention_vaccine",
+      "confidence": 0.5360751152038574
+    }
+  },
+  {
+    "text": "há uma vacina?",
+    "intent": "prevention_medicine",
+    "intent_prediction": {
+      "name": "prevention_vaccine",
+      "confidence": 0.7185914516448975
+    }
+  },
+  {
+    "text": "existem vacinas para prevenir a doença?",
+    "intent": "prevention_medicine",
+    "intent_prediction": {
+      "name": "prevention_vaccine",
+      "confidence": 0.6812794804573059
+    }
+  },
+  {
+    "text": "Sobre uma vacina, medicamento ou tratamento para a COVID-19.",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.6204468607902527
+    }
+  },
+  {
+    "text": "Sobre uma vacina, medicamento ou tratamento.",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.6627838015556335
+    }
+  },
+  {
+    "text": "Sobre as vacinas, medicamentos ou tratamentos para a COVID-19.",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.523461103439331
+    }
+  },
+  {
+    "text": "Sobre as vacinas, medicamento ou tratamento.",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.5764216780662537
+    }
+  },
+  {
+    "text": "Existe uma vacina, medicamento ou tratamento para a COVID-19?",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.7292596101760864
+    }
+  },
+  {
+    "text": "Existe uma vacina, medicamento ou tratamento?",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.7979530692100525
+    }
+  },
+  {
+    "text": "Existe uma vacina?",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.683120846748352
+    }
+  },
+  {
+    "text": "Vacinas",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.578765869140625
+    }
+  },
+  {
+    "text": "O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.9064496755599976
+    }
+  },
+  {
+    "text": "existe uma vacina?",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.7239295840263367
+    }
+  },
+  {
+    "text": "vacina covid-19",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.6390549540519714
+    }
+  },
+  {
+    "text": "quanto tempo levará para que uma vacina saia no mercado?",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.7902489900588989
+    }
+  },
+  {
+    "text": "Cura",
+    "intent": "prevention_vaccine",
+    "intent_prediction": {
+      "name": "prevention_medicine",
+      "confidence": 0.661007821559906
+    }
+  },
+  {
+    "text": "Devo fazer quarentena?",
+    "intent": "quarantine_general",
+    "intent_prediction": {
+      "name": "quarantine_when_who_howlong",
+      "confidence": 0.8615524172782898
+    }
+  },
+  {
+    "text": "O que é quarentena?",
+    "intent": "quaratine_how_it_works",
+    "intent_prediction": {
+      "name": "quarantine_general",
+      "confidence": 0.7158114910125732
+    }
+  },
+  {
+    "text": "\"Boa noite",
+    "intent": "quaratine_how_it_works",
+    "intent_prediction": {
+      "name": "greeting_hello",
+      "confidence": 0.6916326880455017
+    }
+  },
+  {
+    "text": "vou pegar Covid 19",
+    "intent": "spread_risk",
+    "intent_prediction": {
+      "name": "covid_worry",
+      "confidence": 0.8306295871734619
+    }
+  },
+  {
+    "text": "Posso fazer o teste?",
+    "intent": "test_who",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.6732879281044006
+    }
+  },
+  {
+    "text": "Quem pode ser testado para coronavírus?",
+    "intent": "test_who",
+    "intent_prediction": {
+      "name": "test_virus",
+      "confidence": 0.7023113369941711
+    }
+  },
+  {
+    "text": "Você gosta de mim?",
+    "intent": "user_friend",
+    "intent_prediction": {
+      "name": "user_love",
+      "confidence": 0.6050644516944885
+    }
+  },
+  {
+    "text": "to brilhando.",
+    "intent": "user_happy",
+    "intent_prediction": {
+      "name": "prevention_medical_attention",
+      "confidence": 0.5681309700012207
+    }
+  },
+  {
+    "text": "tá certo, obrigado.",
+    "intent": "user_no_further_questions",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.5179929733276367
+    }
+  },
+  {
+    "text": "valeu",
+    "intent": "user_no_further_questions",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.8138502836227417
+    }
+  },
+  {
+    "text": "Ok!",
+    "intent": "user_no_further_questions",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.8015636205673218
+    }
+  },
+  {
+    "text": "tudo bem.",
+    "intent": "user_particles",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.41125208139419556
+    }
+  },
+  {
+    "text": "Não se preocupe.",
+    "intent": "user_particles",
+    "intent_prediction": {
+      "name": "vocative_you_welcome",
+      "confidence": 0.6295576095581055
+    }
+  },
+  {
+    "text": "interessante.",
+    "intent": "user_particles",
+    "intent_prediction": {
+      "name": "cc_fun_fact",
+      "confidence": 0.5742513537406921
+    }
+  },
+  {
+    "text": "Não, obrigado.",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "user_no_further_questions",
+      "confidence": 0.877368688583374
+    }
+  },
+  {
+    "text": "Não, valeu.",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "user_no_further_questions",
+      "confidence": 0.8527227640151978
+    }
+  },
+  {
+    "text": "Não por isso.",
+    "intent": "vocative_no",
+    "intent_prediction": {
+      "name": "user_no_further_questions",
+      "confidence": 0.6558697819709778
+    }
+  },
+  {
+    "text": "Tudo que eu posso dizer é obrigado",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "user_no_further_questions",
+      "confidence": 0.658447802066803
+    }
+  },
+  {
+    "text": "Fantástico",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.970638632774353
+    }
+  },
+  {
+    "text": "Ótimo",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.659516453742981
+    }
+  },
+  {
+    "text": "Ótimo trabalho",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.6321579813957214
+    }
+  },
+  {
+    "text": "Foi fantástico da sua parte",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.8844609260559082
+    }
+  },
+  {
+    "text": "Isso é incrível!",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.5261416435241699
+    }
+  },
+  {
+    "text": "Você fez um ótimo trabalho!",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.9277589321136475
+    }
+  },
+  {
+    "text": "Você realmente me ajudou muito!",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.5195826292037964
+    }
+  },
+  {
+    "text": "Você salvou minha vida!",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.7298709154129028
+    }
+  },
+  {
+    "text": "Você me salvou!",
+    "intent": "vocative_thank_you",
+    "intent_prediction": {
+      "name": "comment_positive",
+      "confidence": 0.6503738760948181
+    }
+  },
+  {
+    "text": "Tudo bem.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.6227669715881348
+    }
+  },
+  {
+    "text": "Ok.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "vocative_thank_you",
+      "confidence": 0.8015636205673218
+    }
+  },
+  {
+    "text": "Está bem.",
+    "intent": "vocative_yes",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.5516151189804077
+    }
+  },
+  {
+    "text": "Não diga isso",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "user_no_further_questions",
+      "confidence": 0.4915352761745453
+    }
+  },
+  {
+    "text": "Não é nada.",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "user_no_further_questions",
+      "confidence": 0.7177474498748779
+    }
+  },
+  {
+    "text": "está tudo bem",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.7774088382720947
+    }
+  },
+  {
+    "text": "Tudo bem.",
+    "intent": "vocative_you_welcome",
+    "intent_prediction": {
+      "name": "greeting_how_are_you",
+      "confidence": 0.6227665543556213
+    }
+  },
+  {
+    "text": "em Portugal",
+    "intent": "country",
+    "intent_prediction": {
+      "name": "covid_current_statistics",
+      "confidence": 0.605518102645874
+    }
+  },
+  {
+    "text": "Brasil",
+    "intent": "country",
+    "intent_prediction": {
+      "name": "covid_situation",
+      "confidence": 0.9026625752449036
+    }
+  }
+]

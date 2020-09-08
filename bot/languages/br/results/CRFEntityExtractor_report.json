@@ -1,0 +1,116 @@
+{
+  "5G": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7
+  },
+  "visors": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12
+  },
+  "garlic": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
+  },
+  "hand_dryer": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10
+  },
+  "influenza": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
+  },
+  "thermal_scanner": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14
+  },
+  "world_region": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 116
+  },
+  "virus": {
+    "precision": 0.9623915139826422,
+    "recall": 0.9832512315270936,
+    "f1-score": 0.9727095516569201,
+    "support": 1015
+  },
+  "country_code": {
+    "precision": 0.9855305466237942,
+    "recall": 0.9951298701298701,
+    "f1-score": 0.9903069466882067,
+    "support": 616
+  },
+  "pneumonia_vaccine": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20
+  },
+  "saline": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
+  },
+  "antibiotics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
+  },
+  "air_conditioning": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10
+  },
+  "sesame_oil": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "geography": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26
+  },
+  "uv_lamp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24
+  },
+  "micro avg": {
+    "precision": 0.9750260145681582,
+    "recall": 0.9889182058047493,
+    "f1-score": 0.9819229761592873,
+    "support": 1895
+  },
+  "macro avg": {
+    "precision": 0.9967451287879023,
+    "recall": 0.9897202474249888,
+    "f1-score": 0.9928808388388781,
+    "support": 1895
+  },
+  "weighted avg": {
+    "precision": 0.9751526139380682,
+    "recall": 0.9889182058047493,
+    "f1-score": 0.9819476583394446,
+    "support": 1895
+  }
+}
