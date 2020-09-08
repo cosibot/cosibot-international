@@ -588,6 +588,10 @@ Bot Traits
 * bot_personality
   - utter_bot_personality
 
+## bot_personal_questions
+* bot_personal_questions
+  - utter_bot_personal_questions
+
 ## bot_sexual
 * bot_sexual
   - utter_bot_sexual
