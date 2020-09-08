@@ -193,8 +193,8 @@ actions:
 - utter_prevention_informed
 - utter_prevention_measures
 - utter_prevention_medicine
-- prevention_cloroquina
-- prevention_ivermectina
+- utter_prevention_cloroquina
+- utter_prevention_ivermectina
 - utter_prevention_respiratory_hygiene
 - utter_prevention_touch
 - utter_quarantine_control
@@ -1732,6 +1732,22 @@ responses:
           value: Transmissão
         - label: Situação Mundial
           value: Situação Mundial
+  utter_prevention_cloroquina:
+  # @Atenção!!!
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Em Manutenção</speak>
+      - type: txt
+        text: Em Manutenção
+  utter_prevention_ivermectina:
+  # @Atenção!!!
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Em Manutenção</speak>
+      - type: txt
+        text: Em Manutenção
   utter_bot_capabilities:
   - custom:
       answers:
@@ -2832,8 +2848,8 @@ responses:
       - type: ssml
         ssml: '<speak> Os escudos faciais podem ser considerados uma alternativa às máscaras, mas não oferecem a proteção equivalente para evitar que o vírus seja transmitido a outros. Se for tomada a decisão de usar um escudo facial, ele deve cobrir toda a face, envolver os lados da face e estender-se até abaixo do queixo. Deve-se tomar cuidado ao usar um para evitar lesões que possam quebrá-lo e prejudicar os olhos ou o rosto.</speak>'
       - type: html
-        text: '<p> Os escudos faciais podem ser considerados uma alternativa às máscaras, mas não oferecem a proteção equivalente para evitar que o vírus seja transmitido a outros. Se for tomada a decisão de usar um escudo facial, ele deve cobrir toda a face, envolver os lados da face e estender-se até abaixo do queixo. Deve-se tomar cuidado ao usar um para evitar lesões que possam quebrá-lo e prejudicar os olhos ou o rosto.<a href='https://www.who.int/news-room/q-a-detail/q-a-children-and-masks-related-to-covid-19'
-          target='_blank'>(1)</a></p>
+        text: "<p> Os escudos faciais podem ser considerados uma alternativa às máscaras, mas não oferecem a proteção equivalente para evitar que o vírus seja transmitido a outros. Se for tomada a decisão de usar um escudo facial, ele deve cobrir toda a face, envolver os lados da face e estender-se até abaixo do queixo. Deve-se tomar cuidado ao usar um para evitar lesões que possam quebrá-lo e prejudicar os olhos ou o rosto.<a href='https://www.who.int/news-room/q-a-detail/q-a-children-and-masks-related-to-covid-19'
+          target='_blank'>(1)</a></p>"
   utter_mask_use_after:
   - custom:
       answers:
@@ -2945,7 +2961,7 @@ responses:
       - type: ssml
         ssml: <speak> Você pode ler sobre as últimas notícias nos links abaixo:</speak>
       - type: text
-        text: Você pode ler sobre as últimas notícias nos links abaixo:
+        text: "Você pode ler sobre as últimas notícias nos links abaixo:"
       - type: hints
         options:
         - label: Sobre COVID-19
