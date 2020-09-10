@@ -1146,6 +1146,7 @@
 - how to sex ?
 - penis
 - should i use underwear?
+- Smoke some dick
 
 ## intent:bot_sing
 - Are you a good singer?
@@ -2076,6 +2077,8 @@
 - Ok ur boring
 - Why are you doing this to me
 - Are you going to answer my question ??
+- U must b mad
+- U r very stupid
 - Bro, what wrong with you nah
 - Bt you not answering me
 - But I read to send a question about Corona so that I can get answer about my question
@@ -2253,6 +2256,7 @@
 - Yo crazy
 - You a bimbo.
 - You annoy me!
+- Kiss my ass
 - You are a dumbass!
 - You are a dummy!
 - You are a fucking ass hole!
@@ -2599,6 +2603,9 @@
 - What is Tech 4 COVID?
 
 ## intent:covid_crisis_howlong
+- Do u think next year there will no longer be corona
+- Do you think next year there will no longer be corona
+- next year there will no longer be corona
 - About when the pandemic will probably end?
 - Can Corona virus finish before this year ends?
 - Can the virus come to an end soon
@@ -5384,6 +5391,11 @@
 - Who to contact if you have this symptoms
 
 ## intent:prevention_medicine
+- Yes please, I'm call Brian,,my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
+- my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
+- how far hv researchers towards developing a vaccine of corona virus
+- how far haveS0
+p researchers towards developing a vaccine of corona virus
 - How far have they gone with the Vaccine.
 - How possible is discovering of the covid 19 vaccine this year
 - Like I was just asking that does it has vaccine ?
@@ -6794,6 +6806,7 @@
 - that's all for today
 
 ## intent:user_particles
+- Tell me more
 - Aaha
 - Ah
 - Aham
