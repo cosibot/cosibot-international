@@ -1,0 +1,1125 @@
+[
+  {
+    "text": "Quantos Estados o Brasil tem?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "BR",
+        "entity": "country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "O que vocÊ pode me dizer sobre os Estados Unidos?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 48,
+        "value": "US",
+        "entity": "country_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Como posso ajudar causas relaciodas ao COVID-19?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 39,
+        "end": 47,
+        "confidence_entity": 0.6025575377302741,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Quanto tempo dura o período de incubação COVID?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 41,
+        "end": 46,
+        "confidence_entity": 0.6310069389040835,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "covid informação",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Eu não sei o que é COVID-19",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Me conte mais sobre  a novela do COVID-19",
+    "entities": [
+      {
+        "start": 33,
+        "end": 41,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "O que é o novo coronavírus",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 10,
+        "end": 26,
+        "confidence_entity": 0.9556262831420925,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Olá, fale sobre a covid-19",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "E quanto ao novo coronavírus",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 12,
+        "end": 28,
+        "confidence_entity": 0.5983541474617832,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "O que é o corona vírus?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 22,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Sobre COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.604779659561311,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "O que é o COVID-19?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.810744276240998,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Sobre COVID-19.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.604779659561311,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "COVID-19 informação",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.8931034341726912,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Sobre COVID 19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.6794536698124161,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Sobre o novo vírus COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.8577708838450128,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Informações sobre COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.7019857584625444,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Informações sobre o COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.8107466204806725,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Conte-me mais sobre COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.7019841902868497,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Me conte mais sobre o COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.8107466158665426,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Me fale mais sobre o COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.8107466158659912,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Diga-me o que é o COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.8107442761240524,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Diga-me o que é um COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.5484217608799296,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "O que é um COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.5484217613976515,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "O que é o novo COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.7947486567800292,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Qual é a diferença entre COVID-19 e Corona?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.9305051914955106,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "info about COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.5781489899437383,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "informações sobre o COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.8107466160422488,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "E sobre COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.7020098230287862,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "E quanto ao novo COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.7941203025826588,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Probabilidade de morte por COVID-19?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.8903658362754897,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Você poderia me falar sobre a evolução da propagação do Covid-19?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 64,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Qual é a origem da Covid-19?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Sobre coronavírus e SARS.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "value": "COVID",
+        "entity": "virus"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "SARS",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9838429476771853,
+        "value": "SARS",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Sobre coronavírus e Síndrome Respiratória Aguda Grave .",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "value": "COVID",
+        "entity": "virus"
+      },
+      {
+        "start": 20,
+        "end": 53,
+        "value": "SARS",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 20,
+        "end": 53,
+        "confidence_entity": 0.9954140832313039,
+        "value": "SARS",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Sobre coronavirus e Síndrome Respiratória Aguda .",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "value": "COVID",
+        "entity": "virus"
+      },
+      {
+        "start": 20,
+        "end": 47,
+        "value": "SARS",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 20,
+        "end": 47,
+        "confidence_entity": 0.8930930882345217,
+        "value": "SARS",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "COVID e SARS.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9987274468948583,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "virus",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.9837986762553881,
+        "value": "SARS",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "O COVID-2019 é o mesmo que a SARS?",
+    "entities": [
+      {
+        "start": 2,
+        "end": 12,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 2,
+        "end": 12,
+        "confidence_entity": 0.9333095653551042,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "virus",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.7388142978274465,
+        "value": "SARS",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "O vírus que causa novo coronavírus é o mesmo que causa a SARS?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 34,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 18,
+        "end": 34,
+        "confidence_entity": 0.9286798066129637,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "virus",
+        "start": 57,
+        "end": 61,
+        "confidence_entity": 0.738812116147622,
+        "value": "SARS",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "O vírus que causa novel coronavirus é o mesmo que causa SARS?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 35,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 18,
+        "end": 35,
+        "confidence_entity": 0.9837336486065987,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "virus",
+        "start": 56,
+        "end": 60,
+        "confidence_entity": 0.9836989319894103,
+        "value": "SARS",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Quando é a reabertura de escolas na Nigéria?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 36,
+        "end": 43,
+        "confidence_entity": 0.5116909033346523,
+        "value": "NG",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "O Covid-19 pode ser transmitido pelo sexo?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 2,
+        "end": 10,
+        "confidence_entity": 0.794931761101339,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "o Covid-19 é uma doença sexualmente transmissível?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 2,
+        "end": 10,
+        "confidence_entity": 0.8629411273902841,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "o novo coronavirus pode ser trasmitido em relações sexuais?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 2,
+        "end": 18,
+        "confidence_entity": 0.6357232911695877,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quantos casos no Brasil?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.5490816059903224,
+        "value": "BR",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Brasil",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.7430131540831713,
+        "value": "BR",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Ta morrendo mas Idoso ou jovem no Brasil",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 34,
+        "end": 40,
+        "confidence_entity": 0.5490808496160398,
+        "value": "BR",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Está morrendo mais idosos ou jovens no Brasil?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.5490847736123761,
+        "value": "BR",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Quem mais morre no Brasil?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.54908671902654,
+        "value": "BR",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Qual grupo mais morre no Brasil?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.549086723916361,
+        "value": "BR",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Qual grupo de pessoas mais morre no Brasil?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.5490867223246513,
+        "value": "BR",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Durabilidade do novo coronavírus em superfícies.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 32,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "sobrevivência em superfícies do novo coronavírus.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 32,
+        "end": 48,
+        "confidence_entity": 0.595973765757612,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Quais são os sintomas do COVID2019?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.5936292480072377,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Você gostaria de saber mais sobre os efeitos do COVID-19?",
+    "entities": [
+      {
+        "start": 48,
+        "end": 56,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Eu tenho medo de pegar COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.8996784316787257,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tempo frio efetivo contra a COVID-19.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 36,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "O banho quente impede a COVID-19.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "O vírus COVID-19 pode ser disseminado através de picadas de mosquitos?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.8340739877682092,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Sobre COVID-19",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "virus",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.604779659561311,
+        "value": "COVID",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Alguma notícia sobre a vacina no Brasil?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country_code",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.5491867164410654,
+        "value": "BR",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "sem sintomas e sem testes e após duas semanas em casa com distância podemos nos considerar saudáveis em relação a Covid-19-",
+    "entities": [
+      {
+        "start": 114,
+        "end": 122,
+        "value": "COVID",
+        "entity": "virus"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "5G",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "5G",
+        "entity": "5G"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
