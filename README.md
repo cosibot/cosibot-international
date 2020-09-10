@@ -85,7 +85,7 @@ To interact with the bot locally you can run:
 rasa run actions
 ```
 ```bash
-rasa shell --model languages/en/models/model-en.tar.gz --endpoints 
+rasa shell --model languages/en/models/model-en.tar.gz
 ```
 
 ## Get in contact
