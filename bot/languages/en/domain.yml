@@ -158,6 +158,7 @@ actions:
   - utter_covid_worry
   - utter_economy_consequences
   - utter_features_date
+  - utter_bot_personal_questions
   - utter_features_time
   - utter_further_questions
   - utter_greeting_goodbye
@@ -1982,6 +1983,13 @@ responses:
             ssml: <speak>Most people would describe me as sympathetic.</speak>
           - type: text
             text: Most people would describe me as "sympathetic".
+  utter_bot_personal_questions:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>This is getting too personal for me.</speak>
+          - type: text
+            text: This is getting too personal for me.
   utter_bot_movies:
     - custom:
         answers:
