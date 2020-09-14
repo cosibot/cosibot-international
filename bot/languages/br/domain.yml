@@ -109,6 +109,7 @@ actions:
 - utter_bot_name
 - utter_bot_origin
 - utter_bot_personality
+- utter_bot_personal_questions
 - utter_bot_real
 - utter_bot_residence
 - utter_bot_sexual
@@ -192,6 +193,8 @@ actions:
 - utter_prevention_informed
 - utter_prevention_measures
 - utter_prevention_medicine
+- utter_prevention_cloroquina
+- utter_prevention_ivermectina
 - utter_prevention_respiratory_hygiene
 - utter_prevention_touch
 - utter_quarantine_control
@@ -1729,6 +1732,22 @@ responses:
           value: Transmissão
         - label: Situação Mundial
           value: Situação Mundial
+  utter_prevention_cloroquina:
+  # @Atenção!!!
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Em Manutenção</speak>
+      - type: txt
+        text: Em Manutenção
+  utter_prevention_ivermectina:
+  # @Atenção!!!
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Em Manutenção</speak>
+      - type: txt
+        text: Em Manutenção
   utter_bot_capabilities:
   - custom:
       answers:
@@ -1780,6 +1799,13 @@ responses:
         ssml: <speak>A maioria das pessoas me descreveria como simpático.</speak>
       - type: text
         text: A maioria das pessoas me descreveria como "simpático".
+  utter_bot_personal_questions:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Eu não gosto de responder perguntas pessoais.</speak>
+      - type: text
+        text: Eu não gosto de responder perguntas pessoais.
   utter_bot_movies:
   - custom:
       answers:
@@ -2783,13 +2809,13 @@ responses:
           soro fisiológico tenha protegido as pessoas da infecção pelo novo coronavírus.
           Há algumas evidências limitadas de que o enxágue regular do nariz com
           soro fisiológico pode ajudar as pessoas a se recuperarem mais rapidamente
-          do resfriado comum. No entanto
+          do resfriado comum. Entretanto, o enxágüe regular do nariz não demonstrou prevenir infecções respiratórias.</speak>
       - type: html
         text: <p>Não há evidências de que enxaguar regularmente o nariz com soro
           fisiológico tenha protegido as pessoas da infecção pelo novo coronavírus.
           Há algumas evidências limitadas de que o enxágue regular do nariz com
           soro fisiológico pode ajudar as pessoas a se recuperarem mais rapidamente
-          do resfriado comum. No entanto
+          do resfriado comum. Entretanto, o enxágüe regular do nariz não demonstrou prevenir infecções respiratórias.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters' target='_blank'>(1)</a></p>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2820,22 +2846,10 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: '<speak> Após o uso, retire a máscara: retire os laços elásticos
-          de trás das orelhas, mantendo a máscara afastada do rosto e da roupa,
-          para evitar tocar em superfícies potencialmente contaminadas da máscara.
-          Descarte a máscara em um recipiente fechado imediatamente após o uso.
-          Execute a higiene das mãos depois de tocar ou descartar a máscara, use
-          gel ou liquido  à base de álcool para esfregar as mãos ou, se estiver
-          visivelmente sujo, lave as mãos com água e sabão.</speak>'
+        ssml: '<speak> Os escudos faciais podem ser considerados uma alternativa às máscaras, mas não oferecem a proteção equivalente para evitar que o vírus seja transmitido a outros. Se for tomada a decisão de usar um escudo facial, ele deve cobrir toda a face, envolver os lados da face e estender-se até abaixo do queixo. Deve-se tomar cuidado ao usar um para evitar lesões que possam quebrá-lo e prejudicar os olhos ou o rosto.</speak>'
       - type: html
-        text: '<p> Após o uso, retire a máscara: retire os laços elásticos de
-          trás das orelhas, mantendo a máscara afastada do rosto e da roupa, para
-          evitar tocar em superfícies potencialmente contaminadas da máscara. Descarte
-          a máscara em um recipiente fechado imediatamente após o uso. Execute a
-          higiene das mãos depois de tocar ou descartar a máscara, use gel ou liquido  à
-          base de álcool para esfregar as mãos ou, se estiver visivelmente sujo,
-          lave as mãos com água e sabão. <a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks''
-          target=''_blank''>(1)</a></p>'
+        text: "<p> Os escudos faciais podem ser considerados uma alternativa às máscaras, mas não oferecem a proteção equivalente para evitar que o vírus seja transmitido a outros. Se for tomada a decisão de usar um escudo facial, ele deve cobrir toda a face, envolver os lados da face e estender-se até abaixo do queixo. Deve-se tomar cuidado ao usar um para evitar lesões que possam quebrá-lo e prejudicar os olhos ou o rosto.<a href='https://www.who.int/news-room/q-a-detail/q-a-children-and-masks-related-to-covid-19'
+          target='_blank'>(1)</a></p>"
   utter_mask_use_after:
   - custom:
       answers:

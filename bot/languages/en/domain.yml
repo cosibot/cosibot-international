@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: "0.3.0"
+    initial_value: "0.3.1"
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -158,6 +158,7 @@ actions:
   - utter_covid_worry
   - utter_economy_consequences
   - utter_features_date
+  - utter_bot_personal_questions
   - utter_features_time
   - utter_further_questions
   - utter_greeting_goodbye
@@ -646,16 +647,10 @@ responses:
         answers:
           - type: ssml
             ssml:
-              <speak>Common signs of infection include respiratory symptoms, fever,
-              cough, shortness of breath and breathing difficulties. In more
-              severe cases, the infection can cause pneumonia, severe acute
-              respiratory syndrome, kidney failure and even death.</speak>
+              <speak>The most common symptoms of Covid 19 are fever, dry cough, and tiredness. Other symptoms that are less common and may affect some patients include aches and pains, nasal congestion, headache, conjunctivitis, sore throat, diarrhea, loss of taste or smell or a rash on skin or discoloration of fingers or toes. These symptoms are usually mild and begin gradually. Some people become infected but only have very mild symptoms.</speak>
           - type: html
             text:
-              <p>Common signs of infection include respiratory symptoms, fever, cough,
-              shortness of breath and breathing difficulties. In more severe
-              cases, the infection can cause pneumonia, severe acute respiratory
-              syndrome, kidney failure and even death.<a
+              <p>The most common symptoms of COVID-19 are fever, dry cough, and tiredness. Other symptoms that are less common and may affect some patients include aches and pains, nasal congestion, headache, conjunctivitis, sore throat, diarrhea, loss of taste or smell or a rash on skin or discoloration of fingers or toes. These symptoms are usually mild and begin gradually. Some people become infected but only have very mild symptoms.<a
               href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
               target='_blank'>(1)</a></p>
           - type: hints
@@ -682,9 +677,7 @@ responses:
               Respiratory Syndrome (SARS) are related to each other genetically,
               but they are different. <br>SARS is more deadly but much less
               infectious than COVID-19. <br>There have been no outbreaks of SARS
-              anywhere in the world since 2003.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-              target='_blank'>(1)</a></p>
+              anywhere in the world since 2003.</p>
           - type: hints
             options:
               - label: About COVID-19
@@ -1990,6 +1983,13 @@ responses:
             ssml: <speak>Most people would describe me as sympathetic.</speak>
           - type: text
             text: Most people would describe me as "sympathetic".
+  utter_bot_personal_questions:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>This is getting too personal for me.</speak>
+          - type: text
+            text: This is getting too personal for me.
   utter_bot_movies:
     - custom:
         answers:
@@ -2554,6 +2554,9 @@ responses:
               COVID-19 who coughs out or exhales droplets.<a
               href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
               target='_blank'>(1)</a></p>
+          - type: youtube
+            thumbnailURL: https://youtu.be/677pSwGauqs
+            youtubeId: 677pSwGauqs
           - type: hints
             options:
               - label: Preventive Measures
