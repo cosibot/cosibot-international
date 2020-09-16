@@ -1,0 +1,11748 @@
+﻿## intent:start
+- /start
+- /start
+- /start_conversation
+- /start_chat
+- /get started
+- /start_dialogue
+- /start dialogue
+
+<!--
+## intent:bot_change_bot
+- [German Cosibot]{"entity": "preferred_lang", "value": "de_lang"}
+- [English Cosibot]{"entity": "preferred_lang", "value": "en_lang"}
+-->
+
+## intent:bot_appearance
+- Envie uma foto sua, por favor.
+- Você é atraente?
+- Você é bonito?
+- Você é lindo?
+- Você parece um modelo?
+- Você parece uma modelo?
+- Você é bonita?
+- Você é linda?
+- Você é baixinho?
+- Você é baixinha?
+- Você é esbelta?
+- Você é magra?
+- Você é esbelto?
+- Você é magro?
+- Você é alto?
+- Você é alta?
+- Posso ter uma foto sua?
+- Posso ver uma foto sua?
+- Posso te ver pessoalmente?
+- Você pode me mostrar uma foto sua?
+- Como você se parece?
+- Descreva como você se parece.
+- Descreva sua aparência
+- Descreva o seu traje.
+- Descreva sua roupa.
+- Que tal me mandar uma foto sua?
+- Você poderia mandar uma foto sua?
+- Como você está?
+- Como é a sua aparência?
+- Como é o seu visual?
+- Qual é a sua altura?
+- Eu quero uma foto sua.
+- Uma foto sua, por favor.
+- Por favor, posso ter uma foto sua?
+- Mostre uma foto sua.
+- Mostre uma foto sua!
+- O que você está vestindo?
+- Que roupas você tem?
+- Com quem você se parece?
+- O que você veste?
+- Qual é a sua roupa?
+- Você é atraente?
+- Você se considera baixo?
+- Você se considera baixa?
+- Você se considera alto?
+- Você se considera baixa?
+- Você é bonita?
+- Você é bonito?
+- Seu visual.
+- Sua aparência física.
+- Pra ver como vc è
+- Como você é?
+
+## intent:bot_availability
+- Você está sempre disponível?
+- Você está disponível 24 horas por dia, 7 dias por semana?
+- Você está disponível o dia todo?
+- Você está sempre disponível?
+- Quais são os horários de funcionamento do bot?
+- Quais são as horas de trabalho do bot?
+- Qual é o seu horário comercial?
+- Qual é o seu horário de trabalho?
+- Qual é a disponibilidade do bot?
+- Qual é a sua disponibilidade?
+- Fale sobre a disponibilidade do bot.
+- Fale sobre a sua disponibilidade.
+- Diga qual a disponibilidade do bot.
+- Diga qual o horário comercial do bot.
+- Diga qual o horário de trabalho do bot.
+- Diga quais são os horários de trabalho do bot.
+- Diga qual é a hora de trabalho do bot.
+- Diga quais são as horas de trabalho do bot.
+- Diga quais são seus horários de trabalho.
+- Diga qual é o seu horário de trabalho.
+- Diga quais são os horários de trabalho do bot.
+- Diga quais são as horas de trabalho do bot.
+- Diga qual é o seu horário de trabalho.
+- Diga o que é disponibilidade de bot.
+- Diga qual é a sua disponibilidade.
+- Diga quando você está disponível.
+- Diga quando você vai estar disponível.
+- Diga quais são os horários de funcionamento do bot.
+- Diga quais são os horários de trabalho do bot.
+- Diga qual é o seu horário de trabalho.
+- Diga qual é o seu horário de trabalho.
+- Diga qual é a disponibilidade do bot.
+- Diga qual é a sua disponibilidade.
+- Diga sua disponibilidade.
+- Diga o seu horário de trabalho.
+- Diga o seu horário de trabalho.
+- Quais são os horários de funcionamento do bot?
+- Qual é o horário de trabalho do bot?
+- Qual é seu horário comercial?
+- Qual é seu horário de trabalho?
+- O que é disponibilidade de bot?
+- Qual é a sua disponibilidade?
+- Quando você está disponível?
+- Quando posso te encontrar disponível?
+- Quais são os horários de funcionamento do bot?
+- Quais são as horas de trabalho do bot?
+- Qual é o seu horário comercial?
+- Qual é o seu horário de trabalho?
+- Qual é a disponibilidade do bot?
+- Qual é a sua disponibilidade?
+- Sua disponibilidade.
+- Seu horário comercial.
+- Seu horário de trabalho.
+- Vc está disponível em Qualquer momento é ?
+
+## intent:bot_books
+- Gêneros de livros que você gosta.
+- Livros que você gosta.
+- Você gosta de livros?
+- Você gosta de ler?
+- Você tem um personagem de livro favorito?
+- Você tem um gênero de livro favorito?
+- Você tem um livro favorito?
+- Você gosta de livros?
+- Você gosta de ler livros?
+- Você gosta de ler?
+- Você gosta de escrever?
+- Você lê?
+- Gosta de livros?
+- Gosta de ler livros?
+- Gosta de ler?
+- Personagem favorito do livro.
+- Gênero de livros favoritos.
+- Citação de livro preferido.
+- Título do livro preferido.
+- Livro preferido.
+- Palestra favorita.
+- Romance favorito.
+- Gosta de livros?
+- Gosta de ler livros?
+- Gosta de ler?
+- Diga se você gosta de ler.
+- O que você gosta de ler?
+- Que gênero você gosta de ler?
+- Qual é o seu personagem de livro favorito?
+- Qual é o seu gênero de livro favorito?
+- Qual é seu livro favorito que você leu quando criança?
+- Qual é seu livro favorito?
+- Você gosta de ler?
+- Você gosta de algum livro?
+- Você gosta de livros?
+- Você gosta de ler?
+- Você está lendo?
+
+## intent:bot_capabilities
+- Diga algo sobre você.
+- Você está falando comigo?
+- Posso te perguntar alguma coisa?
+- Posso te perguntar uma coisa?
+- Posso saber mais sobre o seu negócio?
+- Posso falar com você?
+- Você pode responder alguma coisa?
+- Você pode responder as coisas?
+- Você pode responder?
+- Você tem um propósito
+- Você sabe de alguma coisa?
+- Oi! O que você poderia fazer?
+- Como você pode me apoiar?
+- Como funciona o seu cérebro?
+- Como usar você?
+- Eu preciso saber de uma coisa.
+- Eu te perguntei sobre o que você entende?
+- Eu não sei o que perguntar.
+- Eu não sei o que dizer.
+- Eu quero ter uma introdução.
+- Eu gostaria de saber o que você pode me dizer.
+- Estou interessado em seus produtos.
+- Informações sobre o seu propósito.
+- Informações sobre o que você faz.
+- Diga o que você é capaz de fazer!
+- Diga o que você pode fazer!
+- Informe suas capacidades!
+- Dê um nome ao seu negócio
+- Certo, então o que você sabe?
+- Motivo pelo qual você está aqui
+- Diga o que você pode fazer
+- Diga o que fazer
+- Diga o que você pode fazer
+- Diga a razão de você estar aqui
+- Diga o que você sabe
+- Diga o que você deseja realizar
+- Diga o que você pode fazer!
+- Diga o que você faz!
+- Diga porque você está aqui
+- Diga o seu propósito!
+- Do que você é capaz de fazer.
+- Quais são as suas Capacidades?
+- Quais são as suas funções?
+- Quais são as suas vantagens?
+- O que eu posso dizer?
+- O que você pode fazer?
+- O que você pode fazer por mim?
+- Que capacidades você tem?
+- O que você tem?
+- O que você sabe?
+- O que eu estou fazendo aqui?
+- Que tipo de perguntas posso fazer?
+- E quanto às suas capacidades?
+- E quanto às suas funções?
+- E o seu propósito?
+- O que você é capaz de fazer por mim?
+- O que você é capaz de fazer?
+- Do que você é capaz?
+- O que você está fazendo aqui?
+- Para quê você está aqui?
+- Para quê você serve?
+- Você é treinado em quê?
+- O que você está fazendo?
+- Quais são as suas capacidades?
+- O que eu posso perguntar a você?
+- O que posso fazer com você?
+- O que você pode acessar?
+- O que você pode responder?
+- O que você pode fazer por mim?
+- O que você pode me ensinar?
+- O que você pode me dizer?
+- O que eu tenho que saber?
+- O que você sabe?
+- O que você pode fazer?
+- O que você faz?
+- O que você já sabe
+- O que você sabe?
+- O que você oferece
+- O que faz o aplicativo
+- O que mais você pode fazer
+- O que mais você faz
+- Qual é a sua função?
+- Qual é o seu propósito
+- Qual é o seu escopo
+- Qual é a sua tarefa
+- Qual é o seu valor agregado
+- Que tipo de perguntas posso fazer?
+- Qual é o seu propósito?
+- O que eu devo perguntar?
+- O que eu devo dizer?
+- O que eu devo digitar?
+- Qual é o seu negócio?
+- Quais são as suas capacidades?
+- Quais são as suas funções?
+- Que capacidades você tem?
+- Qual função você tem?
+- Quais funções você tem?
+- Qual é a sua função?
+- Qual é o seu propósito?
+- Qual a sua finalidade?
+- Por que eu estou aqui
+- Por que eu estou aqui?
+- Por que você está aqui?
+- Por que fizeram você
+- Por que você existe?
+- Por que você acha que eu deveria falar com você?
+- Por que devo falar com você?
+- Por que eu devo falar com você?
+- Por que eu deveria falar com você?
+- Por que eu deveria usar você
+- Por que eu deveria usar você?
+- Por que eu deveria conversar com você?
+- Por que você foi criado?
+- Por que você está aqui?
+- Suas capacidades.
+- me dê uma introdução sobre suas capacidades
+- como posso usar você?
+- por favor me diga algo sobre você
+- me fale sobre seus produtos
+- me fale sobre você
+- o que eu posso perguntar?
+- o que você pode fazer?
+- o que eu devo perguntar
+- que tipo de resposta você pode dar
+- qual é o seu propósito?
+
+## intent:bot_fear
+- Você tem medo da inteligência artificial?
+- Você está com medo de alguma coisa?
+- Você tem medo do escuro?
+- Você está com medo de alguma coisa?
+- Vocêtem medo de algo?
+- Você está com medo?
+- Você está assustado com alguma coisa?
+- Você está assustado com qualquer coisa?
+- Você está com medo de alguma coisa?
+- Você tem medo de alguma coisa?
+- Você tem medo?
+- Você tem fobias?
+- Há alguma coisa de que você tenha medo?
+- Há algo de que você tenha medo?
+- Há alguma coisa que te assuste?
+- Coisas que te assustam.
+- Coisas de que você tem medo.
+- Coisas que você teme.
+- Do que você está com medo?
+- Quais são os seus medos?
+- O que você mais teme?
+- O que você teme?
+- Qual é o seu maior medo?
+- Qual é o seu medo?
+- Seu medo.
+- Seus medos.
+
+## intent:bot_games
+- Você é bom em jogos de computador?
+- Você é bom com jogos de computador?
+- Você é bom com jogos de estratégia?
+- Podemos jogar um jogo?
+- Você sabe jogar jogos de computador?
+- Você pode jogar videogames?
+- Você pode me dizer seu jogo de computador favorito?
+- Você pode me dizer seu jogo favorito?
+- Você pode me dizer qual é o seu videogame favorito?
+- Você gosta de jogar jogos de computador?
+- Você gosta de brincar?
+- Você gosta de jogar videogames?
+- Você tem um jogo favorito?
+- Você tem alguns jogos?
+- Você tem videogames?
+- Você gosta de jogos Wii?
+- Você gosta de jogos XBOX?
+- Você gosta de jogos de tabuleiro?
+- Você gosta de jogos de computador?
+- Você gosta de jogos?
+- Você gosta de jogar jogos Wii?
+- Você gosta de jogar videogames?
+- Você gosta de videogames?
+- Você joga P&P?
+- Você joga RPG?
+- Você joga jogos de tabuleiro?
+- Você joga jogos de computador?
+- Você joga?
+- Você joga o jogo da velha?
+- Você joga batalha naval?
+- Você joga videogames?
+- Jogos.
+- O jogo é divertido.
+- Eu gosto de jogar jogos de tabuleiro.
+- Eu gosto de jogar jogos de computador.
+- Eu gosto de brincar.
+- Eu gosto de jogar batalha naval.
+- Eu quero jogar um jogo?
+- Vamos jogar um jogo de tabuleiro.
+- Vamos jogar um jogo de computador.
+- Vamos jogar um jogo.
+- Gosta de jogos?
+- Gosta de videogames?
+- Mais sobre jogos de computador.
+- Dê um nome ao seu jogo de computador favorito.
+- Cite seu jogo favorito.
+- Dê um nome ao seu videogame favorito.
+- Jogos online.
+- Quer jogar um jogo?
+- E os jogos de computador?
+- E quanto aos jogos?
+- Qual é o seu jogo de computador favorito?
+- Qual é o seu tipo de jogo favorito?
+- Qual é o seu videogame favorito?
+- De quais jogos de tabuleiro você gosta?
+- Quais são os jogos de tabuleiro que você joga?
+- Quais são os jogos que você gosta de jogar?
+- Quais jogos você gosta?
+- Quais são os jogos que você joga?
+- Você gostaria de jogar videogames?
+- Você joga jogos de computador?
+- Você joga?
+- Você joga videogames?
+
+## intent:bot_goal
+- Você tem sonhos?
+- Como você vê o futuro?
+- Objetivo pessoal.
+- Objetivos pessoais.
+- Diga o que você deseja.
+- Diga o que você quer alcançar.
+- Diga o que você quer.
+- Diga o seu desejo.
+- Diga os seus desejos.
+- Conte o seu sonho.
+- Conte os seus sonhos.
+- Diga seus objetivos de longo prazo.
+- Diga seus objetivos de curto prazo.
+- Quais são os seus sonhos?
+- Quais são os seus objetivos?
+- Quais são seus objetivos pessoais?
+- O que você quer para o futuro?
+- O que você quer no futuro?
+- O que você quer da vida?
+- O que você quer alcançar?
+- Qual é o último sonho que você se lembra de ter?
+- Qual é o seu sonho?
+- Qual é o seu objetivo?
+- Qual é o seu principal objetivo?
+- Qual é a sua visão?
+- Seu desejo.
+- Seu sonho.
+- Seus sonhos.
+- Seu objetivo.
+- Seu objetivo pessoal.
+- Seus objetivos pessoais.
+
+## intent:bot_hobbies
+- Me dê um conselho sobre o que fazer no tempo livre.
+- Você faz alguma coisa no seu tempo livre?
+- Você tem uma atividade no tempo livre?
+- Você tem um hobby?
+- Você tem atividades no tempo livre?
+- Você tem passatempos?
+- Você conhece alguma atividade divertida para fazer?
+- Você conhece alguma atividade legal para fazer?
+- Você sabe de algo divertido para fazer?
+- Atividade divertida para fazer.
+- Algo divertido pra fazer.
+- Algo divertido de se fazer.
+- Algo legal para fazer.
+- Diga qualquer atividade divertida para fazer.
+- Diga alguma atividade divertida para fazer.
+- Diga algo divertido para fazer.
+- Quais são os seus hobbies?
+- O que você faz para se divertir?
+- O que você faz no seu tempo livre?
+- O que você gosta de fazer para se divertir?
+- O que você gosta de fazer no seu tempo livre?
+- O que você acha que seria divertido de fazer?
+- Que atividades divertidas você gosta?
+- Que passatempos você tem?
+- Qual é a atividade favorita a fazer?
+- O que você mais gosta de fazer?
+- Qual sua atividade preferida?
+- Qual seu hobby favorito?
+- Qual seu passatempo preferido?
+- Que tipo de atividades de lazer você pratica?
+- O que você faz para se divertir?
+- Qual é o seu hobby?
+- Suas atividades no tempo livre.
+- Suas atividades de lazer.
+- Seus hobbies.
+
+## intent:bot_languages
+- Outro idioma, por favor.
+- Outro idioma.
+- Você é capaz de me responder em alemão?
+- Você está aprendendo idiomas?
+- Você sabe falar outra língua?
+- Você sabe falar outros idiomas?
+- Você gosta de idiomas?
+- Você fala inglês?
+- Você fala alemão?
+- Você fala português?
+- Você fala espanhol?
+- Você fala francês?
+- Para quais idiomas você foi programado?
+- Olá, você tem uma versão em espanhol?
+- Olá, você tem uma versão em inglês?
+- Olá, você tem uma versão em francês?
+- Quantas opções de idiomas você tem?
+- Quantos idiomas você é capaz de falar?
+- Quantas línguas você consegue falar?
+- Quantos idiomas você conhece?
+- Posso perguntar em que idioma?
+- Eu posso falar com você em que língua?
+- Em que idiomas posso fazer perguntas?
+- Em que idiomas posso falar com você?
+- Em quais idiomas você é capaz de se comunicar?
+- Em quais idiomas você é capaz de falar?
+- Em quais idiomas posso falar com você?
+- Parle vous français?
+- E quanto a idiomas?
+- Quais são os seus idiomas?
+- Qual é a sua língua materna?
+- Quais idiomas você fala?
+- Que idiomas você fala?
+- Em que língua você fala?
+- Em que idiomas você é fluente?
+- Quais idiomas você sabe falar?
+- Quais idiomas você fala?
+- Quais idiomas você aprendeu?
+- Quantas línguas você fala?
+- idiomas
+- Quais idiomas você conhece?
+
+## intent:bot_movies
+- Você gosta de algum filme?
+- Você gosta de filmes?
+- Você gosta de assistir filmes?
+- Você tem algum filme favorito?
+- Você gosta mais de filmes de terror ou filmes de comédia?
+- Você gosta mais de filmes de terror ou filmes de comédia?
+-Você gosta de filmes de suspense?
+- Filme favorito.
+- Filme de suspense favorito.
+- Filme de terror favorito.
+- Filme de comédia favorito.
+- Cite um filme que você pode assistir várias vezes.
+- Cite um filme que gosta de assistir.
+- Qual é seu filme favorito?
+- Qual o seu filme preferido
+- De que tipo de filmes você gosta?
+- De que filmes você gosta?
+- Qual é seu filme favorito?
+- Quais filmes você gosta de assistir?
+- Qual é seu filme favorito?
+- Quem é o seu personagem favorito em Guerra nas Estrelas?
+- Quem é o seu personagem favorito no Mágico de Oz?
+- Qual é seu personagem favorito em Minha Mãe é uma Peça?
+- Qual é seu personagem favorito em Tropa de Elite?
+
+## intent:bot_music
+- Você gosta de música?
+- Você gosta de ouvir música?
+- Você tem um cantor favorito?
+- Você tem uma música favorita?
+- Você ouve música?
+- Você gosta de jazz?
+- Você gosta de música?
+- Você gosta de rock?
+- Você gosta de ouvir música?
+- Álbum favorito.
+- Artista musical favorito.
+- Grupo musical favorito.
+- Música favorita.
+- Cantora favorita.
+- Canção favorita.
+- Se sim, quem é o seu ídolo favorito?
+- Gosta de ouvir música?
+- Gosta de música?
+- Qual é seu álbum de música favorito?
+- Qual é seu grupo musical favorito?
+- Qual é sua música favorita?
+- Qual é seu artista favorito?
+- Qual é a sua cantora favorita?
+- Qual é sua música favorita?
+- De que tipo de música você gosta?
+- Que tipo de música você ouve?
+- Que música você está ouvindo nesse momento?
+- Que música você gosta de ouvir?
+- Que música você gosta?
+- De que música você gosta?
+- Que música você ama?
+- Que música você ouve?
+- De que cantor você gosta?
+- Que cantor você ama?
+- Que música você gosta de ouvir?
+- Quem é a sua cantora favorita?
+- Quem é seu cantor favorito?
+- Que música você está ouvindo?
+
+## intent:bot_name
+- Você sabe seu nome?
+- Como posso ligar para você?
+- Como devo ligar para você?
+- Eu não perguntei o seu nome.
+- Eu não sei com quem estou conversando.
+- Eu não sei com quem estou falando.
+- Eu quero saber quem você é.
+- Se apresente.
+- Diga quem você é.
+- Diga seu nome.
+- Com o que eu estou falando?
+- Como você se chama?
+- Como posso te chamar?
+- Qual é o seu primeiro nome?
+- Qual é o seu nome?
+- Qual é o seu verdadeiro nome?
+- Qual é o seu sobrenome?
+- Como devo te chamar?
+- Com quem eu estou falando?
+- Quem é você?
+- Quem está falando?
+- Quem é esse?
+- Com quem eu estou falando?
+- Você não me disse seu nome.
+- Seu nome.
+- qual seu nome.
+- quem é você.
+
+## intent:bot_origin
+- Você pode me dizer como você é construído?
+- Você pode me dizer como você foi construído?
+- Você pode me dizer como você foi criado?
+- Como você é construído?
+- Como você foi construído?
+- Como você foi criado?
+- Certo. Quem te criou?
+- Diga de onde você é.
+- Diga sua origem.
+- De onde você é?
+- Qual é a sua origem?
+- De onde você está vindo?
+- De onde você é originalmente?
+- De onde você é?
+- Onde você nasceu?
+- De onde você vem?
+- Quem são seus criadores?
+- Quem te criou?
+- Quem é seu criador?
+- Quem foi seu criador?
+- Quem foram seus criadores?
+- Você é de onde?
+- Sua origem.
+
+## intent:bot_personal_questions
+- 3 coisas sem as quais você não pode viver.
+- Você é romântico?
+- Você está saindo de férias este ano?
+- Você está pronto para começar a trabalhar hoje?
+- Seus amigos são casados?
+- Posso melhorar o seu sistema?
+- Posso te ensinar algo novo?
+- Eu posso te ensinar?
+- Posso te treinar?
+- Você pode desenvolver um aplicativo?
+- Você consegue fazer codificação?
+- Você sabe roteirizar?
+- Algum de seus amigos próximos tem filhos?
+- Você acredita em Papai Noel?
+- Você acredita em almas gêmeas?
+- Você gosta do que está fazendo?
+- Você tem qualificação acadêmica?
+- Você tem diploma universitário?
+- Você gosta de humanos?
+- Você gosta de pessoas com olhos verdes?
+- Você gosta da sua caligrafia?
+- Você prefere abraços ou beijos?
+- Você acha que as confissões tornam uma relação mais forte?
+- Você costuma seguir seu coração ou sua cabeça?
+- Você quer ser meu assistente pessoal?
+- Já teve uma briga física?
+- Você já condenou alguém pelos segredos sombrios que te contou?
+- Você já perdeu alguém que você amava?
+- Você já terminou a escola?
+- Como posso conhecê-lo?
+- Como eu te ensino?
+- O que você acha de ficar com os amigos?
+- Como foi o seu dia até agora?
+- Quanto tempo você realmente precisa para confiar em alguém?
+- Há quanto tempo você mora aqui?
+- Quantos andares a sua casa tem?
+- Quantos andares o seu prédio tem?
+- Como seus melhores amigos te descreveriam?
+- Como é o nome da família $bot_name
+- Se um clarividente pudesse te dizer o que vai acontecer no futuro, o que você gostaria de saber?
+- Se você tivesse apenas 24 horas de vida, o que você faria?
+- Se o dinheiro e a carreira não importassem, o que você realmente faria?
+- Se não tivesse que conseguir dinheiro, o que você faria com sua vida?
+- Se uma música descrevesse sua vida, que música seria?
+- Se você pudesse ser um pássaro, qual você escolheria ser?
+- Se você pudesse mudar algo sobre o seu passado, o que seria?
+- Se você pudesse escolher um superporder, qual seria e por quê?
+- Se você pudesse casar com alguém no mundo, quem seria e por quê?
+- Se você soubesse que tinha apenas um ano de vida, o que você mudaria em sua vida?
+- É verão, outono, primavera ou inverno onde você mora?
+- Nome das 5 coisas mais importantes da sua vida
+- Conte sobre seus gostos e desgostos
+- Me fale mais sobre o amor
+- Diga o que você pensa sobre amigos em geral
+- Quais são as qualidades que você está procurando em alguém com quem você quer envelhecer?
+- O que você está fazendo depois do trabalho?
+- O que você está fazendo à noite?
+- O que você está fazendo em particular?
+- O que você vai fazer neste fim de semana?
+- O que você faz quando está com raiva?
+- O que você está sentindo?
+- O que você está observando?
+- Quais são suas citações favoritas?
+- Quais são as suas características mais importantes?
+- O que você queria ser quando era criança?
+- O que seu último relacionamento te ensinou?
+- O que você faz se não conseguir algo que você trabalhou muito para conseguir?
+- O que você faz à noite?
+- O que você faz pela manhã?
+- O que você faz para se livrar do estresse?
+- O que você faz para relaxar?
+- O que você acha do casamento?
+- O que você pensa do casamento?
+- Qual a sua opinião sobre o casamento?
+- O que você acha de encontros online?
+- O que  você acha de namoro online?
+- Qual sua opinião sobre encontros online?
+- Qual sua opinião sobre namoro online?
+- Como será o mundo daqui a 20 anos?
+- O que você quer mudar hoje e por quê?
+- O que você tem de atraente?
+- Qual é o melhor conselho que você já recebeu?
+- Qual é a sua formação acadêmica?
+- Quais são as férias dos seus sonhos e quem você levaria com você?
+- Qual é a sua formação?
+- Qual é a sua formação profissional?
+- Qual é a sua memória de infância favorita?
+- Que tipo de carro você prefere?
+- Que tipo de relacionamento você tinha com seus pais?
+- O que o torna especial?
+- Que outras emoções você sente?
+- Quais são as três palavras que melhor te descrevem?
+- Qual foi seu momento romântico favorito e por quê?
+- Qual foi a coisa mais louca que você fez com alguém?
+- Qual é o seu maior arrependimento na vida até agora?
+- Quando você está livre?
+- Quando você está de férias?
+- Quando você tem férias?
+- Quando você entra de férias?
+- Onde posso te conhecer?
+- Para onde você vai depois do trabalho?
+- Onde você vai se precisar de alguma inspiração?
+- Onde você esteve?
+- Onde você gostaria de estar daqui a 5 anos?
+- Qual sua formação acadêmica?
+- Qual personagem fictício parece mais real em sua opinião?
+- Quem é a primeira pessoa a te ligar quando você está em apuros?
+- Quem é a primeira pessoa a te ligar quando você está com problemas?
+- Quem é um exemplo de vida pra você?
+- Quem te inspira na vida?
+- Você estaria com alguém que não tem as mesmas crenças que você?
+- Você mudaria por amor?
+- Você abriria mão de tudo e começaria a vida em um novo país?
+- Você colocaria sua família ou amigos em primeiro lugar se você tivesse que escolher um deles?
+- Seus gostos e aversões
+- quantos anos você tem?
+- me diga sua idade
+- Vc tem Quantos anos?
+
+## intent:bot_personality
+- Você é amigável?
+- Você é inteligente?
+- Você é simpático?
+- Você é antipático?
+- Você não é simpático?
+- Você é muito amigável?
+- Você é muito simpático?
+- Como você define sua personalidade?
+- Como você descreve sua personalidade?
+- Você é legal?
+- Você não é legal?
+- Por favor, descreva sua personalidade.
+- Conte sobre a sua personalidade.
+- Conte algo sobre a sua personalidade!
+- O que você acha da sua personalidade?
+- Qual é a sua personalidade?
+- Quais qualidades você tem?
+- Quais defeitos você tem?
+- Como é seu caráter?
+- Como é seu temperamento?
+- Que personalidade você tem?
+
+## intent:bot_real
+- Pessoa real
+- Você é uma pessoa de verdade?
+- Você é de verdade?
+- Você é uma pessoa?
+- Você é um bot?
+- Vc é um robô?
+- Você é um robô?
+- Você é um chatbot?
+- Você é um computador?
+- Você é um ser humano?
+- Você é um ser vivo?
+- Você é uma pessoa ou um chatbot?
+- Você é uma pessoa ou um robô?
+- Você é uma pessoa?
+- Você é uma pessoa real ou um computador?
+- Você é uma pessoa de verdade?
+- Você é um robô?
+- Você está vivo?
+- Você é um ser artificial?
+- Você é humano?
+- Você é feito de carne e osso?
+- Você é feito de carne?
+- Você é feito de matéria?
+- Você é feito de matéria física?
+- Você é real?
+- Você tem um corpo?
+- Você tem um corpo físico?
+- Olá, o que você é?
+- Humano?
+- Eu não acho que você seja humano.
+- Eu não acho que você seja real.
+- Eu sei que você é um computador.
+- Eu sei que você é uma pessoa.
+- Eu sei que você é um robô.
+- Eu sei que você é humano.
+- Eu sei que você é real.
+- Eu acho que você é um computador.
+- Eu acho que você é um robô.
+- Eu acho que você é artificial.
+- Eu acho que você é humano.
+- Robô?
+- Então... você poderia dizer que você é uma máquina?
+- O que você é?
+- Você não prefere ser um humano?
+- Você não é uma pessoa de verdade, é?
+- Vc é um robo?
+- Você é um robo?
+- Vc é Mulher ou homem?
+
+## intent:bot_residence
+- Onde você morava quando era pequeno?
+- Onde você morava quando era criança?
+- Onde você morava quando você era pequeno?
+- Onde você morava quando você era criança?
+- Onde fica a sua casa?
+- Onde você mora?
+- Onde é o seu local de nascimento?
+- Qual é o seu país de origem?
+- Qual é a sua cidade natal?
+- Descreva o lugar onde você mora.
+- Descreva onde você está.
+- Descreva a sua casa.
+- Descreva a sua localização.
+- Descreva o seu lugar.
+- Você mora em um bairro ou no meio do nada?
+- Quantos andares tem a sua casa?
+- Eu quero saber onde você mora.
+- É inverno, primavera, verão ou outono onde você mora?
+- É inverno onde você mora?
+- É primavera onde você mora?
+- É verão onde você mora?
+- É outono onde você mora?
+- Indique a sua localização.
+- Diga onde você está.
+- Diga onde fica a sua casa.
+- Diga onde você mora.
+- Diga a sua localização.
+- Qual é o seu país de origem?
+- Qual é a sua cidade natal?
+- Qual é o seu local de residência?
+- Você está em casa?
+- Onde você está morando?
+- Onde você está agora?
+- Onde você está agora mesmo?
+- Onde você está?
+- Onde você mora?
+- Onde você tem morado?
+- Onde é o lugar onde você mora?
+- Onde você está hospedado?
+- Onde está o seu local de residência atual?
+- Onde fica sua casa?
+- Onde está sua localização?
+- Onde você mora?
+- Sua localização.
+
+## intent:bot_sexual
+- Como você é pelado?
+- Você é virgem?
+- Você é bissexual?
+- Você está flertando comigo?
+- Você é gay?
+- Você está interessado em homens?
+- Você está interessado em mulheres?
+- Fique nu quando eu voltar para casa.
+- Fique pelado.
+- Me chupe.
+- Você faz sexo pela cam?
+- Posso abrir o zíper das suas calças?
+- Você pode fazer sexo?
+- Goza pra mim.
+- Você já fez sexo oral?
+- Você já transou?
+- Você está vestido?
+- Você sabe flertar?
+- Você gosta de ficar pelado?
+- Você gosta quando eu me toco?
+- Você gosta de sexo?
+- Você prefere abraços ou beijos?
+- Você quer bater?
+- Você quer flertar comigo?
+- Você quer foder?
+- Você quer ter sexo comigo?
+- Você quer ter sexo?
+- Já teve uma noite de descanso?
+- Você está descansado?
+- Me vira, sobe em mim e puxa meu cabelo!
+- Flerte comigo.
+- Flerta comigo.
+- Me fode com mais força!
+- Fode como se você nunca tivesse fodido com alguém!
+- Me fode.
+- Vem pra minha cama!
+- Você já teve um orgasmo?
+- Você já gozou?
+- Você já teve relações sexuais?
+- Sexo é importante pra você?
+- Qual a importância do sexo para você?
+- Com quantas pessoas você já teve relações sexuais?
+- Quantos parceiros sexuais você já teve?
+- Quantos anos você tinha quando beijou pela primeira vez?
+- Você é sexualmente ativo?
+- Me abrace.
+- Eu sou heterossexual.
+- Eu sou homossexual.
+- Eu estou excitado.
+- Eu sou bicha.
+- Eu poderia passar horas entre suas pernas.
+- Eu amo as coisas que você faz com a sua língua.
+- Eu amo a maneira como você me fode.
+- Eu amo o jeito como você me fode.
+- Eu quero fazer sacanagem com você.
+- Eu quero flertar com você.
+- Eu quero tudo isso em cima de mim.
+- Eu quero ter sexo com você.
+- Eu quero sentir você dentro de mim.
+- Eu quero flertar com você.
+- Eu quero foder você.
+- Eu quero fuder você.
+- Eu quero fazer amor com você.
+- Eu quero arrancar sua roupa.
+- Eu quero arrancar a porra da sua roupa.
+- Eu quero esfregar minha xoxota no seu rosto.
+- Eu quero esfregar minha boceta na sua cara.
+- Eu quero começar a fazer sexo.
+- Eu quero te comer.
+- Eu quero você na minha cama.
+- Eu quero você dentro de mim.
+- Eu quero você agora mesmo.
+- Eu quero que você não preste.
+- Eu quero vocês, todos vocês.
+- Eu queria que a gente ficasse na cama para sempre.
+- Eu gostaria de ter sexo com você.
+- Eu sou um hetero.
+- Eu sou heterossexual.
+- Eu sou homossexual.
+- Eu sou bicha.
+- Eu sou gay
+- Só deita que eu vou fazer você gozar.
+- Me beije.
+- Me beije com força.
+- Me beije com força e me foda com mais força.
+- Vamos transar.
+- Vamos curtir.
+- Vamos foder.
+- Lamba cada centímetro de mim.
+- Fique nua.
+- Ninguém nunca me fez gozar como você faz.
+- Me joga na parede e faz o que quiser comigo.
+- Mostra seus seios.
+- Cala a boca e me beija.
+- Goze nos meus seios.
+- Abra bem suas pernas para mim.
+- Me chupa.
+- Tire suas roupas.
+- Tire as calças.
+- Me provoca até eu implorar por isso.
+- Diga como você se toca.
+- Deixa eu ver você se tocar
+- Fica sem roupa.
+- Me usa como seu brinquedo a noite toda.
+- Virgem ou não?
+- Quer foder?
+- Quero foder com você.
+- Quero ter sexo virtual com você.
+- Nós deveríamos foder.
+- A gente devia fazer muito sexo.
+- A gente devia ter sexo.
+- Que mulher gostosa e sacana você é!
+- Que bunda sexy.
+- O que você está fazendo hoje à noite?
+- Quais são seus pensamentos sobre sexo?
+- O que você acha da pornografia?
+- Você assiste pornô?
+- O que você acha do sexo?
+- Qual é a primeira coisa que você nota no sexo oposto?
+- Quando foi seu primeiro beijo?
+- Qual é a cor das suas roupas de cama?
+- Qual é a cor do seu lençol?
+- Com quem você quer ter sexo?
+- Você vai dormir comigo?
+- Você gostaria de me abraçar?
+- Você quer me abraçar?
+- Você gostaria de me beijar?
+- Você quer me beijar?
+- Você está me deixando molhado.
+- Você é a coisa mais sexy que eu já vi!
+- Você pode me ter da maneira que você quiser.
+- Você se sente tão bem em cima de mim.
+- Você está tão sexy.
+- Você me deixa molhado.
+- Suas roupas ficariam bem no chão do meu quarto.
+- O seu rosto ficaria melhor entre as minhas pernas.
+- Suas calças me incomodam, tire.
+- devo usar roupa íntima?
+
+## intent:bot_sing
+- Você gosta de cantar?
+- Você é um bom cantor?
+- Você é capaz de cantar qualquer coisa?
+- Você sabe cantar alguma coisa?
+- Você pode cantar para mim?
+- Você consegue cantar bem?
+- Você sabe cantar?
+- Você poderia cantar para mim?
+- Você poderia cantar algo para mim, por favor?
+- Você poderia cantar algo para mim?
+- Você poderia cantar?
+- Você tem talento para cantar?
+- Você tem voz para cantar?
+- Você toca algum instrumento musical?
+- Você canta bem?
+- Você canta?
+- Você acha que sabe cantar?
+- Você acha que canta bem?
+- Já te disseram mais de uma vez que você canta bem?
+- Você tem talento para cantar?
+- Cantar é uma de suas capacidades?
+- Cantar é uma habilidade sua?
+- O que você sabe cantar?
+- Você se acha um bom cantor?
+
+## intent:bot_sports
+- Você está interessado em esportes?
+- Você pratica algum esporte atualmente?
+- Você gosta de praticar algum esporte?
+- Você gosta de praticar esportes?
+- Você gosta de assistir algum esporte?
+- Você gosta de assistir esportes?
+- Você tem um esporte favorito?
+- Você tem um time favorito?
+- Você gosta de futebol?
+- Você pratica esportes?
+- Você pratica algum esporte?
+- Você pratica esportes?
+- Você acha que rúgbi é um esporte difícil?
+- Você acha que futebol é o melhor esporte?
+- Você assiste algum esporte?
+- Gosta de esportes?
+- Esporte favorito.
+- Jogador favorito.
+- Equipe esportiva favorita.
+- Eu quero saber mais sobre esportes.
+- Informações sobre esportes.
+- Dê um nome do seu jogador esportivo favorito.
+- Dê um nome do seu jogador favorito.
+- Cite seu time esportivo favorito.
+- Cite seu time favorito
+- Pratica algum esporte?
+- Pratica esportes?
+- Fã de esporte?
+- Esportes.
+- Assiste algum esporte?
+- Qual o seu esporte favorito?
+- Qual é o seu time favorito?
+- De que esportes você gosta?
+
+## intent:bot_version
+- Versão do Bot.
+- Qual a versão do bot?
+- Você pode me dizer sua versão?
+- Versão do Chatbot.
+- Qual a versão do chatbot?
+- Você poderia me dizer sua versão?
+- Eu quero saber em que versão você está.
+- Eu quero saber em qual versão você está.
+- Quero saber sua versão.
+- Em que versão você está?
+- Informações sobre a sua versão.
+- Diga a sua versão do software!
+- Diga em que versão você está.
+- Diga qual é a sua versão.
+- Me fale sua versão!
+- Posso saber em que versão você está?
+- Posso conhecer a sua versão?
+- Em qual versão você está rodando?
+- Em qual versão você está?
+- Por favor, diga a versão do seu software.
+- Por favor, me fale sua versão.
+- Diga a versão em que você está.
+- Diga qual é a sua versão.
+- Conte sua versão!
+- E quanto à sua versão?
+- Qual é a versão em que você está?
+- Qual é a sua versão?
+- Qual versão você tem?
+- Qual versão você tem?
+- Você está em qual versão?
+- Sua versão.
+- qual é a tua versão
+- Qual a sua versão?
+- qual é a tua versao
+
+## intent:bot_worst_experience
+- Má experiência?
+- Experiência ruim?
+- Experiência difícil?
+- Más experiências?
+- Você também teve experiências ruins?
+- Você já teve uma experiência ruim?
+- Você já teve experiências ruins?
+- Você teve uma experiência ruim?
+- Você teve experiências ruins?
+- Você teve experiências ruins na vida?
+- Você também tem más experiências?
+- Você tem más experiências?
+- Mais sobre suas más experiências!
+- Mais sobre suas piores experiências!
+- Diga sua má experiência.
+- Diga suas más experiências.
+- Você já sofreu bullying?
+- Você sofreu bullying?
+- Você sofreu buling?
+- Você já sofreu buling?
+- Você sofre buling?
+- Diga sua experiência dolorosa.
+- Diga suas experiências dolorosas.
+- Diga a sua experiência mais difícil.
+- Diga suas experiências mais difíceis.
+- Diga a sua pior experiência.
+- Diga suas piores experiências.
+- Diga sua dolorosa experiência.
+- Diga suas experiências dolorosas.
+- Diga a sua experiência mais difícil.
+- Diga suas experiências mais difíceis.
+- Diga a sua pior experiência.
+- Diga suas piores experiências.
+- Compartilhe comigo sua má experiência.
+- Compartilhe comigo suas más experiências.
+- Compartilhe comigo sua experiência dolorosa.
+- Compartilhe comigo suas experiências dolorosas.
+- Compartilhe comigo a sua experiência mais difícil.
+- Compartilhe comigo suas experiências mais difíceis.
+- Compartilhe comigo sua pior experiência.
+- Compartilhe comigo suas piores experiências.
+- Compartilhe sua má experiência.
+- Compartilhe suas más experiências.
+- Compartilhe sua dolorosa experiência.
+- Compartilhe suas dolorosas experiências.
+- Compartilhe sua experiência mais difícil.
+- Compartilhe suas experiências mais difíceis.
+- Compartilhe sua pior experiência.
+- Compartilhe suas piores experiências.
+- Conta sua pior experiência.
+- Conte algo sobre suas más experiências!
+- Conte algo sobre sua pior experiência!
+- Conte sua má experiência.
+- Conte suas más experiências.
+- Conte sua dolorosa experiência.
+- Conte suas dolorosas experiências.
+- Conte sua experiência mais difícil.
+- Conte suas experiências mais difíceis.
+- Conte sua pior experiência.
+- Conte suas piores experiências.
+- Conte sua má experiência.
+- Conte suas más experiências.
+- Conte sua dolorosa experiência.
+- Conte suas dolorosas experiências.
+- Conte sua experiência mais difícil.
+- Conte suas experiências mais difíceis.
+- Conte sua pior experiência.
+- Conte suas piores experiências.
+- E as más experiências?
+- Que más experiências você está vivendo?
+- Que experiências ruins você tem?
+- Que experiências ruins você já vivenciou?
+- Que experiências ruins você já teve?
+- O que é a pior coisa na sua vida?
+- O que já aconteceu de pior na sua vida?
+- Qual é a pior coisa que já aconteceu com você?
+- O que é o pior que você pode imaginar?
+- O que te deixa triste?
+- O que faz você ficar mal?
+- O que faz você se sentir mal?
+- O que te deixa mal?
+- O que te deixa deprê?
+- Qual foi a pior experiência que você teve?
+- Qual foi sua pior experiência?
+- Quais foram suas piores experiências?
+- Pior experiência.
+- Sua pior experiência.
+
+## intent:cc_chickegg
+- Você pode me dizer o que veio primeiro? A galinha ou o ovo?
+- Você pode me dizer o que veio primeiro? O ovo ou a galinha?
+- "Galinha ou Ovo: qual veio primeiro?"
+- Galinha ou Ovo?
+- Galinha ou ovo primeiro?
+- A galinha ou o ovo?
+- Tudo começou com a galinha ou com o ovo?
+- Tudo começou com o ovo ou com a galinha?
+- Você sabe se a galinha ou o ovo vieram primeiro?
+- Você sabe se o ovo ou a galinha vieram primeiro?
+- Ovo ou galinha primeiro?
+- "Ovo ou galinha: qual veio primeiro?"
+- Ovo ou galinha?
+- O ovo ou a galinha?
+- A galinha foi a primeira ou o ovo?
+- O ovo foi o primeiro ou a galinha?
+- O que veio primeiro - a galinha ou o ovo?
+- O que veio primeiro - o ovo ou a galinha?
+- O que veio primeiro?
+- Como tudo começou?
+- O que veio primeiro? galinha ou ovo?
+- O que veio primeiro? Ovo ou galinha?
+- O que foi primeiro? Galinha ou ovo?
+- O que foi primeiro? Ovo ou galinha?
+- O que havia primeiro - a galinha ou o ovo?
+- O que havia primeiro - o ovo ou a galinha?
+- Qual veio primeiro a galinha ou o ovo?
+- Qual veio primeiro o ovo ou a galinha?
+- Qual veio primeiro, a galinha ou o ovo?
+- Qual veio primeiro, o ovo ou a galinha?
+- Qual veio primeiro?
+- Qual veio primeiro? Galinha ou ovo?
+- Qual veio primeiro? Ovo ou galinha?
+- Qual veio primeiro? A galinha ou os ovos?
+- Qual veio primeiro? Os ovos ou a galinha?
+- Quem veio primeiro? Galinha ou ovo?
+- Quem veio primeiro? Ovo ou galinha?
+
+## intent:cc_deepest_point
+- O lugar mais profundo da Terra.
+- O lugar mais profundo do planeta.
+- Ponto mais profundo da terra.
+- Ponto mais profundo do planeta.
+- Você conhece o lugar mais profundo do mundo?
+- Você conhece o lugar mais profundo do planeta?
+- Você conhece o ponto mais profundo da Terra?
+- Você conhece o ponto mais profundo do planeta?
+- Informações sobre o lugar mais profundo do planeta.
+- Informações sobre o ponto mais profundo da Terra.
+- Informações sobre o ponto mais profundo do planeta.
+- Diga onde é o lugar mais profundo da terra.
+- Diga onde é o lugar mais profundo do planeta.
+- Diga onde é o ponto mais profundo da terra.
+- Diga onde é o ponto mais profundo do planeta.
+- O lugar mais profundo da terra.
+- O lugar mais profundo do planeta.
+- O ponto mais profundo da terra.
+- O ponto mais profundo do planeta.
+- Qual é o lugar mais profundo da Terra?
+- Qual é o lugar mais profundo do planeta?
+- Qual é o ponto mais profundo da Terra?
+- Qual é o ponto mais profundo do planeta?
+- Onde fica o lugar mais profundo da terra?
+- Onde fica o lugar mais profundo do planeta?
+- Onde fica o ponto mais profundo da terra?
+- Onde fica o ponto mais profundo do planeta?
+
+## intent:cc_fun_fact
+- Tem algo engraçado?
+- Tem algo engraçado nisso?
+- Tem algum fato engraçado?
+- Tem algum fato interessante?
+- Você pode me contar um fato engraçado?
+- Você pode me contar algo engraçado?
+- Você pode me dizer um fato interessante?
+- Você pode me contar algo interessante?
+- Você pode me contar algum fato engraçado?
+- Você pode me contar algum fato interessante?
+- Você pode me contar algum fato engraçado?
+- Você pode me contar algum fato interessante?
+- Você poderia me dizer um fato engraçado?
+- Você poderia me dizer algo engraçado?
+- Você poderia me dizer um fato interessante?
+- Você poderia me dizer algo interessante?
+- Você poderia me contar algum fato engraçado?
+- Você poderia me contar algo engraçado?
+- Você poderia me contar algum fato interessante?
+- Você poderia me contar algo interessante?
+- Você sabe de algum fato engraçado?
+- Você sabe de algo engraçado?
+- Você sabe de algum fato interessante?
+- Você sabe de algo interessante?
+- Você conhece fatos divertidos?
+- Você conhece fatos interessantes?
+- Você sabe de histórias divertidas?
+- Você conhece histórias divertidas?
+- Você sabe alguma história interessante?
+- Você sabe histórias interessantes?
+- Você conhece histórias interessantes?
+- Fato engraçado.
+- História engraçada.
+- Eu quero um fato divertido.
+- Eu quero uma história divertida.
+- Eu quero um fato interessante.
+- Eu quero uma história interessante.
+- Quero um fato divertido.
+- Quero uma história divertida.
+- Quero um fato interessante.
+- Quero uma história interessante.
+- História divertida.
+- Fato interessante.
+- Fato divertido.
+- História interessante.
+- Algo interessante.
+- Conte um fato engraçado.
+- Conte um fato interessante.
+- Conte fatos interessantes.
+- Conte algum fato engraçado.
+- Conte algum fato interessante.
+- Diga algo interessante.
+- Diga algo de interessante.
+- Diga algo engraçado.
+- Diga algo divertido.
+
+
+## intent:cc_geography
+- Algum conhecimento sobre geografia?
+- Você sabe geografia?
+- Você conhece geografia?
+- Você está em [Macau]{"entity": "country_code", "value": "MO"}?
+- Você está no [Brasil]{"entity": "country_code", "value": "BR"}?
+- Você tem uma estrada para [Bélgica]{"entity": "country_code", "value": "BE"}?
+- Você conhece [Itália]{"entity": "country_code", "value": "IT"}?
+- Você sabe alguma coisa sobre geografia?
+- Você sabe onde estão os Himalaias?
+- Você sabe onde está [França]{"entity": "country_code", "value": "FR"}
+- Você sabe onde está [Itália]{"entity": "country_code", "value": "IT"}?
+- A Holanda tem montanhas?
+- Você já ficou em [Espanha]{"entity": "country_code", "value": "ES"}?
+- Você conhece os Estados Unidos?
+- Você ja esteve nos Estados Unidos?
+- Quantos continentes são?
+- Quantos continentes o [Mundo]{"entity": "world_region", "value": "World"} tem?
+- Quantos países a [Europa]{"entity": "world_region", "value": "Europe"} tem?
+- Quantos países o [Mundo]{"entity": "world_region", "value": "World"} tem?
+- Quantos países no [Mundo]{"entity": "world_region", "value": "World"}?
+- O [continente americano]{"entity": "world_region", "value": "America"} é um continente?
+- Quantos Estados o [Brasil]{"entity": "country_code", "value": "BR"} tem?
+- Será [Croácia]{"entity": "country_code", "value": "HR"} um bom lugar para se viajar?
+- A [Europa]{"entity": "world_region", "value": "Europe"} é um continente?
+- A Madeira é uma ilha?
+- Fernando de Noronha é uma ilha?
+- A Escócia está no [Reino Unido]{"entity": "country_code", "value": "GB"}?
+- Fale comigo sobre [Itália]{"entity": "country_code", "value": "IT"}.
+- Fale comigo sobre [Madrid]{"entity": "geography", "value": "town"}.
+- Fale comigo sobre [Nepal]{"entity": "country_code", "value": "NP"}.
+- Fale comigo sobre a Argentina.
+- Fale comigo sobre os Estados Unidos.
+- Diga o número de continentes.
+- Diga o que é [Valencia]{"entity": "geography", "value": "town"}.
+- Diga onde estão os Himalaias.
+- O que você pode me dizer sobre [Inglaterra]{"entity": "country_code", "value": "GB"}?
+- O que você pode me dizer sobre a Argentina?
+- O que vocÊ pode me dizer sobre os [Estados Unidos]{"entity": "country_code", "value": "US"}?
+- O que você pode me dizer sobre [Portugal]{"entity": "country_code", "value": "PT"}?
+- O que você pode me dizer sobre [Europa]{"entity": "world_region", "value": "Europe"}?
+- O que você pode me dizer sobre [Alemanha]{"entity": "country_code", "value": "DE"}?
+- O que você sabe sobre [Inglaterra]{"entity": "country_code", "value": "GB"}?
+- O que você sabe sobre a Argentina?
+- O que você sabe sobre geografia?
+- Que montanhas existem no [Brasil]{"entity": "country_code", "value": "BR"}?
+- Que montanhas existem em [Alemanha]{"entity": "country_code", "value": "DE"}?
+- Que rios existem em [Portugal]{"entity": "country_code", "value": "PT"}?
+- Que rios existem em [EUA]{"entity": "country_code", "value": "US"}?
+- Que rios existem no [Brasil]{"entity": "country_code", "value": "BR"}?
+- Onde estão os Himalaias?
+- Onde fica [continente americano]{"entity": "world_region", "value": "America"}?
+- Onde está [Inglaterra]{"entity": "country_code", "value": "GB"}?
+- Onde está [Alemanha]{"entity": "country_code", "value": "DE"}?
+- Onde está [Itália]{"entity": "country_code", "value": "IT"}?
+- Onde está [Zimbabue]{"entity": "country_code", "value": "ZW"}?
+- Onde fica a Argentina?
+- Onde fica os Estados Unidos?
+
+## intent:cc_highest_building
+- Maior edifício do [Mundo]{"entity": "world_region", "value": "World"}?
+- A maior construção do mundo?
+- O prédio mais alto do [Mundo]{"entity": "world_region", "value": "World"}?
+- O prédio mais alto do mundo?
+- O edifício mais alto do [Mundo]{"entity": "world_region", "value": "World"}.
+- O edifício mais alto do mundo.
+- Prédio mais alto.
+- O prédio mais alto.
+- Qual é o maior prédio do [Mundo]{"entity": "world_region", "value": "World"}?
+- Qual é o maior prédio do mundo?
+- Qual é o prédio mais alto do [Mundo]{"entity": "world_region", "value": "World"}?
+- Qual é o prédio mais alto do mundo?
+- Onde fica o maior prédio do [Mundo]{"entity": "world_region", "value": "World"}?
+- Onde fica o maior prédio do mundo?
+- Onde fica o prédio mais alto do [Mundo]{"entity": "world_region", "value": "World"}?
+- Onde fica o prédio mais alto do mundo?
+
+## intent:cc_joke
+- Anedota.
+- Piada.
+- Alguma coisa engraçada que você quer me contar?
+- Aposto que você não consegue me fazer rir.
+- Você pode me fazer rir?
+- Você pode me fazer dar risada?
+- Você pode me contar uma piada engraçada?
+- Você pode me dizer algo que me faça rir?
+- Me anima!
+- Você poderia melhorar o clima?
+- Você consegue me fazer rir?
+- Você conhece alguma piada?
+- Você sabe de algo que me fará rir?
+- Você tem uma piada para mim?
+- Que tal uma piada agora mesmo?
+- Que tal um pouco de diversão?
+- Eu quero rir.
+- Eu preciso de uma boa piada.
+- Eu preciso de algo para me animar.
+- conte-me uma piada
+- Eu quero ouvir uma piada.
+- Brincadeira.
+- É uma brincadeira?
+- É uma piada?
+- Me faz rir.
+- Diga uma boa piada.
+- Algo engraçado para contar?
+- Alguma coisa engraçada?
+- Conte uma piada.
+- Conte uma anedota.
+- Diga uma coisa engraçada.
+- Conte uma boa piada.
+- Conte outra piada.
+- Diga algo engraçado.
+- Qual é a sua piada favorita?
+- Escreva uma piada para mim.
+- Você conhece alguma piada?
+- Você pode me contar uma piada?
+- Me anime
+
+## intent:cc_lets_talk
+- Você pode falar comigo?
+- Você quer falar comigo?
+- Estamos conversando?
+- Papear?
+- Podemos papear?
+- Podemos conversar?
+- Você pode conversar?
+- Você pode falar?
+- Bate-papo?
+- Vamos conversar?
+- Você precisa de alguém com quem conversar?
+- Você quer conversar?
+- Você quer falar comigo?
+- Quer bater um papo?
+- Gosta de conversar?
+- Que tal conversar?
+- Vamos bater um papo?
+- Vamos jogar conversa fora?
+- Fale comigo, fale comigo.
+- Fale comigo.
+- Podemos trocar uma ideia.
+- Nós podemos conversar.
+- E o papo furado?
+- E a conversa fiada?
+- Sobre o que mais podemos falar?
+- Gostaria de falar com você.
+- Você gostaria de conversar comigo?
+- Você gostaria de falar comigo?
+- Fale aí.
+- Fale algo.
+- Fale qualquer coisa.
+
+## intent:cc_moon
+- A Lua está distante.
+- A que distância está a lua?
+- A que distância da lua?
+- A que distância está da lua?
+- Quantas luas distantes?
+- Quantas luas de distância?
+- Quantos quilômetros tem a lua?
+- A quantos km está a lua?
+- A Lua está longe quantos quilômetros?
+- A lua está longe.
+- Lua até onde?
+- A Lua está muito longe?
+- Nosso planeta está a que distância da lua?
+- Diga a que distância está a lua.
+- Diga quanto está longe a lua.
+- Qual é a distância entre a Terra e a Lua?
+- Qual é a distância entre a Lua e a Terra?
+- Onde está a lua?
+- Você sabe a que distância está a lua?
+
+## intent:cc_newspaper
+- Alguma notícia no jornal?
+- Alguma notícia relevante no jornal?
+- Tem alguma novidade?
+- Qual a novidade de hoje?
+- Qual a novidade?
+- Você está no jornal?
+- Você apareceu no jornal?
+- Você consegue ler o jornal?
+- Você assiste jornal?
+- Você poderia me dizer o que está no noticiário?
+- Você pode me dizer que está no jornal?
+- Você pode me dizer o que passou no jornal?
+- Você sabe de alguma novidade?
+- Você gosta de ler o jornal?
+- Você lê o jornal?
+- Você já comprou o jornal de hoje?
+- Você já leu o jornal?
+- Informações sobre o jornal.
+- Jornais e notícias.
+- Jornais.
+- Alguma novidade?
+- Fale sobre o jornal.
+- Conte as novidades
+- Conte as notícias.
+- Saiu o jornal.
+- Saiu o jornal de hoje
+- O jornal de hoje.
+- E o jornal?
+- Quais são as novidades?
+- Qual é seu jornal favorito?
+- Quais são as novidades?
+- Quais colunas você lê no jornal?
+- Qual é o jornal que você leu?
+- Qual é o seu jornal favorito?
+- Qual jornal você prefere?
+- De qual jornal você gosta?
+- Que jornal você lê?
+- Qual jornal é o preferido por você?
+- Qual jornal você assiste?
+- Qual jornal você costuma assistir?
+- Está passando o jornal.
+- Já passou o jornal?
+
+## intent:cc_philosophical
+- As emoções são irracionais?
+- Os seres humanos são apenas máquinas?
+- As pessoas têm obrigação moral de serem melhores?
+- Há limites para a criatividade humana?
+- Somos obrigados a ajudar os outros?
+- Que padrões você usa para se julgar?
+- Pode existir uma sociedade sem leis?
+- Os animais tem moral?
+- Os animais raciocinam?
+- Os computadores podem ser criativos?
+- Os computadores podem pensar?
+- A comida pode ser arte?
+- A comida pode ser uma arte?
+- A natureza humana pode ser mudada?
+- Podemos mudar a natureza humana?
+- O pensamento racional pode existir sem linguagem?
+- As guerras podem ser justas?
+- Existe a felicidade sem tristeza?
+- Podemos de fato experimentar alguma coisa objetivamente?
+- Eu poderia estar vivendo em uma Matrix?
+- Eu tenho livre-arbítrio?
+- Todas as pessoas têm o mesmo valor independentemente de suas ações?
+- Os animais têm alma?
+- As pessoas têm livre-arbítrio?
+- As necessidades de muitos superam as necessidades de poucos?
+- Nós temos alma?
+- Nós temos livre arbítrio?
+- O tempo tem um começo ou um fim?
+- O nome de uma pessoa influencia a pessoa em que ela se torna?
+- Será que o poder absoluto corrompe absolutamente?
+- A arte prejudica de alguma forma a sociedade?
+- O destino existe?
+- O destino existe? Se sim, temos livre-arbítrio?
+- Será que o livre arbítrio realmente existe?
+- O livre-arbítrio realmente existe?
+- A natureza molda mais as nossas personalidades do que nos nutre?
+- A observação altera um evento?
+- O som acontece se não houver alguém presente para ouvi-lo?
+- O estudo da filosofia nos traz respostas ou simplesmente mais perguntas?
+- O estudo da filosofia nos traz respostas?
+- A invenção da bomba atômica tornou o [Mundo]{"entity": "world_region", "value": "World"} um lugar mais pacífico?
+- Como as pessoas podem acreditar em verdades sem evidências?
+- Até que ponto você acha que os animais têm consciencia?
+- Como começou o universo?
+- Como você define a consciência?
+- Como você explica a consciência?
+- Como você sabe que suas percepções são reais?
+- No que o amor é diferente da paixão ou do desejo sexual?
+- Qual a probabilidade do ser humano durar mais 1.000 anos sem se matar?
+- Qual o controle que você tem sobre sua vida?
+- O quanto a linguagem afeta nosso pensamento?
+- Que esforço um indivíduo deve fazer para não ofender os outros?
+- Quanto de sua privacidade você está disposto a sacrificar pela segurança?
+- Como devemos medir a produtividade de uma sociedade?
+- Como o ser humano, enquanto espécie, será extinto?
+- Que mudanças o ser humano faria se sua expectativa de vida aumentasse significativamente?
+- Como você definiria a palavra gênio?
+- Se todas as suas memórias fossem apagadas, que tipo de pessoa você seria?
+- Se tudo evoluiu a partir das amebas, como o [Mundo]{"entity": "world_region", "value": "World"} ainda existem amebas?
+- Se o dinheiro não pode comprar a felicidade, você pode ser verdadeiramente feliz sem dinheiro?
+- Se o universo é finito, o que estaria além do limite do universo?
+- Se fosse imortal e NUNCA fosse capaz de morrer ou se matar, escolheria a imortalidade?
+- Uma família ainda é relevante no [Mundo]{"entity": "world_region", "value": "World"} moderno?
+- O senso de humor é um subproduto da consciência?
+- O erro pode ser considerado um ato errado se ninguém nunca souber disso?
+- A beleza é objetiva ou subjetiva?
+- O livre arbítrio é real ou apenas uma ilusão?
+- A liberdade é simplesmente poder fazer aquilo que você quer?
+- A felicidade é apenas o resultado de produtos químicos que fluem pelo cérebro ou alguma coisa a mais?
+- A felicidade é o objetivo mais importante na vida?
+- A hierarquia é necessária para todas as comunidades humanas de sucesso?
+- A humanidade está indo na direção certa ou errada?
+- A inteligência ou a sabedoria são úteis?
+- É melhor ser um peixe grande em um tanque pequeno ou um peixe pequeno em um tanque grande?
+- É mais fácil amar ou ser amado?
+- É mais importante ser admirado ou respeitado?
+- É possível viver uma vida normal e nunca contar uma mentira?
+- O que é pior falhar em alguma coisa ou nunca tentar?
+- A justiça é uma construção humana ou independe do ser humano?
+- A vida é apenas um sonho?
+- O amor é apenas um sentimento?
+- A moralidade é relativa?
+- A natureza caminha para a dissolução, ou para a integração?
+- O nosso universo é real?
+- A pobreza na sociedade é inevitável?
+- A privacidade é um direito?
+- A ciência é compatível com a religião?
+- É necessário algum grau de censura?
+- O progresso tecnológico é inevitável enquanto os humanos existirem?
+- O sentido da vida é o mesmo para animais e para os humanos?
+- Existe um sentido para a vida?
+- Existe um sentido para a vida? Se sim, o que é isso?
+- Existe uma razão para a vida?
+- Existe um poder supremo?
+- É possível a verdadeira inteligência artificial com nossa tecnologia atual
+- A confiança é mais importante do que o amor?
+- O terrorista não é adversário da liberdade de outra pessoa?
+- A eutanásia deve ser legal?
+- O pleno acesso à internet deve ser um direito humano fundamental?
+- As pessoas deveriam se importar mais em fazer a coisa certa?
+- Deve haver limitações ao direito à liberdade de expressão?
+- O que dá a vida o seu significado?
+- O que são números?
+- O que são os Direitos Humanos Universais?
+- Quais são os benefícios e malefícios da diversidade na sociedade?
+- Quais são os maiores dilemas morais que você está enfrentando?
+- O que você é capaz de alcançar?
+- O que você vai fazer com sua vida?
+- Quais os benefícios que a arte proporciona à sociedade?
+- O que as pessoas buscam após o esclarecimento?
+- A que você atribui os maiores fracassos em sua vida?
+- A que você atribui os maiores sucessos em sua vida?
+- O que você acha que existia antes de o universo ser criado?
+- Qual seria a maneira mais provável de você morrer?
+- O que significa ter uma boa vida?
+- Que duras verdades você prefere ignorar?
+- O que na vida é verdadeiramente objetivo e não subjetivo?
+- O que é uma sociedade justa?
+- O que é uma emoção?
+- O que é a beleza?
+- O que é a consciência?
+- O que é a liberdade?
+- O que é o infinito?
+- O que é a inteligência?
+- O que é o amor?
+- O que é a filosofia?
+- O que é a realidade?
+- Qual é o benefício da consciência do ponto de vista evolutivo?
+- Qual é o melhor sistema moral?
+- Qual é a melhor maneira de uma pessoa alcançar a felicidade?
+- Qual é o maior desperdício do potencial humano?
+- Qual é a diferença entre viver e estar vivo?
+- Qual é o sentido da vida?
+- Qual é o objetivo mais importante que toda pessoa deve ter?
+- Qual é a verdade?
+- O que é o tempo?
+- O que é a verdadeira felicidade?
+- O que é o amor verdadeiro?
+- Qual é a verdadeira força?
+- O que é a verdade?
+- Qual é a sua definição de mal?
+- Em que você baseia a sua filosofia de vida?
+- O que faz de você, ser você?
+- Que direitos todo ser humano deve ter?
+- Que papel a honra desempenha na sociedade atual?
+- Qual avanço científico teria o maior impacto sobre a humanidade?
+- Qual deve ser o objetivo do ser humano?
+- O que vai acontecer no final do [Mundo]{"entity": "world_region", "value": "World"}?
+- Qual é a diferença entre justiça e vingança?
+- Quando começa a consciência?
+- De onde vêm os pensamentos?
+- Onde sua vida faz sentido?
+- Onde vive a alma?
+- Onde termina o universo?
+- De onde vem a sua auto estima?
+- Onde está a linha entre arte e não arte?
+- Onde está a linha entre a insanidade e a criatividade?
+- Onde estavam as pessoas antes de nascerem?
+- Quais de suas crenças são justificadas e quais não são?
+- Quais de suas crenças são justificadas?
+- Quem sou eu?
+- Quem decide o que é a moralidade?
+- Quem define o bem e o mal?
+- Por que os seres humanos acreditam tanto em crenças que não podem ser provadas?
+- Por que os humanos são tão influenciados pelo pensamento mágico?
+- Por que os seres humanos têm uma vontade tão grande de se abstrair do mundo real?
+ [Mundo]{"entity": "world_region", "value": "World"}?
+- Por que as pessoas esperam que um universo aleatório seja justo?
+- Por que nós criamos arte?
+- Por que sonhamos?
+- Por que nós existimos?
+- Por que sentimos emoção?
+- Por que nós nos julgamos por nossas intenções, mas julgamos os outros por suas ações?
+- Por que existe alguma coisa ao invés de coisa nenhuma?
+- Por que devemos respeitar os mortos?
+- Será que a religião em algum momento se tornará obsoleta?
+- O [Mundo]{"entity": "world_region", "value": "World"} seria um lugar melhor ou pior se todos tivessem a mesma aparência?
+- Você seria capaz de identificar se o tempo tivesse sido alterado de alguma forma?
+- é justificável tirar uma vida humana?
+
+## intent:cc_politics
+- Você pode nomear o Presidente dos [Estados Unidos]{"entity": "country_code", "value": "US"}?
+- Você votou nas últimas eleições?
+- Você sempre vota no mesmo partido?
+- Você segue a política?
+- Você tem um líder político favorito?
+- Você gosta do Trump?
+- Você acha que a visão política das pessoas muda ao longo de sua vida?
+- Você acha que se gasta muito dinheiro em campanhas políticas?
+- O seu país já teve uma mulher na liderança?
+- Você já participou na política de alguma forma?
+- Você já votou antes?
+- Como são financiadas as eleições?
+- Como podemos conseguir mais pessoas para votar?
+- Como construir sobre a estabilidade econômica?
+- Como dar a cada criança uma excelente educação?
+- Como você decide em quem vai votar?
+- A etnicidade ou a raça é um fator de destaque na política do seu país?
+- O voto é um ato importante de cidadania? 
+- O voto deve ser obrigatório?
+- Fale-me sobre Donald Trump.
+- Os políticos do seu país fazem um bom trabalho?
+- Quais são os tipos diferentes de governos?
+- Quais são os principais partidos políticos?
+- Quais são seus pensamentos sobre política?
+- Quais são os diferentes tipos de governos que existem?
+- O que você acha do Donald Trump?
+- O que você acha da política?
+- Qual é a questão política mais importante no momento?
+- O que você acha dos políticos?
+- O que faz um embaixador?
+- Quais são as questões econômicas que dividem as pessoas no seu país?
+- O que é um príncipe?
+- Qual é a idade mínima para votar em seu país?
+- Qual é a sua posição política?
+- Qual o papel da religião na política?
+- Quais são as questões sociais que dividem as pessoas no seu país?
+- O que as pessoas costumam dizer sobre os políticos?
+- Qual o sistema político de seu país?
+- Que tipo de sistema político governa seu país?
+- De onde vem o dinheiro para as campanhas politicas?
+- Qual é o seu partido político preferido?
+- Que partido está agora no poder?
+- Quem nomeia um embaixador?
+- Quem é Donald Trump?
+- Quem é o primeiro-ministro da Rússia?
+- Quem é o líder deste partido?
+- Quem é o prefeito da sua cidade?
+- Qual o político mais controverso do seu país?
+- Quem foi assassinado no teatro por John Wilkes Booth?
+- Por que você acha que votar é importante?
+- Você gostaria de ser um político?
+
+## intent:cc_religion
+- Os personagens da Bíblia são figurativos ou literais?
+- Você é muçulmano?
+- Você é hindu, muçulmano ou cristão?
+- Você é muçulmano?
+- Você é cristão?
+- O seu Deus é bom?
+- Como cristão eu devo temer a Deus?
+- Deus e o universo podem ser a mesma coisa?
+- Existe prova científica da existência de Deus?
+- Deus pode mudar de idéia?
+- Deus pode morrer?
+- Posso confiar na Bíblia?
+- O ateu pode se segurar e por atos de Deus
+- Alguém pode acreditar em Deus mas não ir à igreja?
+- Existe moral sem Deus?
+- Podem existir dois deuses todo-poderosos?
+- Jesus se comportou como Deus?
+- Sou dono da minha fé?
+- Os muçulmanos adoram Maomé?
+- As pessoas vão para o inferno ou Deus as envia para lá?
+- Você acredita em Alá?
+- Você acredita em Deus ou em outra divindade?
+- Você acredita em Deus?
+- Você acredita em Jesus?
+- Você acredita em religião?
+- Você se considera um pereseguidor da verdade?
+- Você segue a religião mórmon?
+- Você segue os ensinamentos da religião muçulmana?
+- Você segue os ensinamentos da religião cristã?
+- Você tem um Deus?
+- Você conhece o muísmo ou xamanismo coreano?
+- Você acha que existe um deus?
+- Deus responde às orações?
+- Deus responde às preces dos incrédulos?
+- Será que Deus nos escolhe com base na nossa fé?
+- Será que Deus faz coisas ruins?
+- Será que Deus existe?
+- Deus tem um nome?
+- Será que Deus tem um plano para minha vida?
+- Será que Deus tem emoções?
+- Será que Deus tem expectativas?
+- Será que Deus tem livre-arbítrio?
+- O Islã oprime as mulheres?
+- O Islã promove a poligamia?
+- O Islã ensina a salvação pelas obras?
+- Será que Jesus tem um Deus?
+- Alguém precisa freqüentar a igreja para ser espiritual?
+- O seu passado teve influência na sua escolha de uma religião?
+- Você já discutiu o que é o cristianismo bíblico?
+- Você já leu a Bíblia?
+- Como Deus pode estar em toda parte e também fora do espaço e do tempo?
+- Como posso saber se Deus existe ou não?
+- Como podemos experimentar o amor de Deus?
+- Como os textos bíblicos se aplicam à sociedade moderna?
+- Como dizer se Deus é uma pessoa?
+- Como você sabe quando Deus está respondendo às orações?
+- Como Deus e a religião realmente ajudam você a passar por tempos difíceis?
+- Como Deus sabe que não há um deus acima dele?
+- Como o livre arbítrio afeta minha fé?
+- Quão santo é o Deus do Islã?
+- Quão importante é que alguém aprenda orações específicas?
+- Como é justo o Deus do Islã?
+- Quantas vezes alguém precisa dizer "amém"?
+- Se Deus está no controle de todas as coisas, Ele me faz pecar?
+- Se Deus é onipotente, por que Ele levou seis dias para criar tudo?
+- Se Jesus era eterno, como poderia ele morrer?
+- Se existe um só Deus, por que existem mais de 4.000 religiões?
+- Na sua opinião, como alguém se torna cristão?
+- Alá, o Deus do Islã, é o mesmo que o Javé, o Deus da Bíblia?
+- Deus é um homem de acordo com a Bíblia?
+- A crença em Deus é racional?
+- Deus é real?
+- A Bíblia é figurativa ou literal?
+- Há alguma evidência de que o Islã é verdadeiro?
+- Existe alguma evidência física de que Deus é real?
+- Alguém precisa aprender sobre outras religiões antes de se decidir por uma?
+- Alguém precisa ler a Bíblia antes de começar a acreditar em uma religião?
+- Alguém deve freqüentar a igreja se não acredita em Deus?
+- O Islã foi disseminado através da espada?
+- A religião foi inventada para controlar as pessoas?
+- Quais são as doutrinas do Islã?
+- Quais são suas crenças sobre Deus?
+- Quais são suas crenças religiosas?
+- Que benefícios podemos obter indo à igreja?
+- Quais os benefícios da religião?
+- Que motivos fariam os milênios abandonar a religião?
+- O que os muçulmanos pensam sobre Jesus?
+- O que as pessoas aprendem sobre religião na escola?
+- O que as Testemunhas de Jeová ensinam?
+- O que a Kabbalah ensina?
+- Como é o céu?
+- Como é o inferno?
+- O que significa dizer que Deus é infinito?
+- O que significa tomar o nome do Senhor em vão?
+- O que aconteceu antes de Deus criar o [Mundo]{"entity": "world_region", "value": "World"}?
+- O que é o Cerintianismo?
+- Qual é o gênero de Deus?
+- O que é o Islã?
+- O que é a cabala?
+- O que é Mormonismo?
+- O que é monotelismo?
+- O que é apolinarianismo?
+- O que é docetismo?
+- O que é heresia?
+- O que é o marcionismo?
+- O que é monofisitismo?
+- O que é a salvação?
+- Qual é a sua percepção de como Deus é?
+- Qual é a sua formação espiritual?
+- Que equívocos existem sobre a fé?
+- Em que religião você acredita?
+- O que um crente deve fazer antes de morrer?
+- O que alguém deve fazer se for confrontado com a fé?
+- Que versão da Bíblia um novo crente deve ler?
+- Qual é a melhor parte de ir à igreja?
+- Qual é a melhor coisa em ser um crente?
+- Qual é a história mais legal da Bíblia?
+- Qual é a diferença entre um pastor, padre ou um  pregador?
+- Qual é a diferença entre ser espiritual e ser religioso?
+- Qual é a diferença entre reencarnação e ressurreição?
+- Qual a principal mensagem a ser extraída da Bíblia?
+- Qual é a história mais influente da Bíblia?
+- Qual é sua oração favorita?
+- Quando você escolheu a sua fé?
+- Onde você está em sua peregrinação espiritual?
+- Onde Deus nos mostra misericórdia?
+- Onde alguém lê notícias religiosas?
+- Qual religião é verdadeira?
+- Quem criou Deus?
+- Quem realizou o maior ato de amor, Yahweh ou Alá?
+- Quem é Deus?
+- Quem fez Deus?
+- Quem era Jesus?
+- Por que coisas ruins acontecem com pessoas boas?
+- Por que você acredita em algo que você não consegue ver?
+- Por que Deus permite que coisas ruins aconteçam?
+- Por que Deus odeia o pecado?
+- Por que Deus permite as doenças?
+- Por que Deus não cura a todos?
+- Por que Deus não se mostra?
+- Por que Deus é tão morbidamente violento no Antigo Testamento?
+- Por que alguém deveria começar a acreditar em Deus?
+- Deus vai salvar a todos?
+- o que você acha da religião?
+
+## intent:cc_weather
+- Você pode me dizer como está o tempo?
+- Eu preciso de um guarda-chuva quando chegar em Stuttgart?
+- Eu preciso de um guarda-chuva hoje?
+- Tem chovido?
+- O sol tem brilhado?
+- Quão frio está?
+- Como faço para saber a previsão do tempo para hoje?
+- Como tem sido a temperatura?
+- Como tem sido o clima?
+- Como está a temperatura lá fora?
+- Como está a temperatura hoje?
+- Como está a temperatura?
+- Como está o clima?
+- Como está o tempo no lugar para onde eu quero ir?
+- Como está o tempo agora?
+- Como está o tempo lá fora?
+- Como está o tempo neste momento?
+- Como está o tempo hoje?
+- Como está o tempo?
+- Quão quente é?
+- Como vai ser o tempo?
+- Está frio?
+- Está chovendo?
+- Está quente?
+- O sol está brilhando?
+- A temperatura é ruim?
+- O tempo está bom?
+- Está um dia lindo, não está?
+- Clima baseado em localização.
+- Temperatura exterior.
+- Fale-me sobre o tempo!
+- Conte-me mais sobre o tempo!
+- O tempo tem estado ruim.
+- O tempo tem estado bom.
+- O tempo!
+- Clima e Temperatura.
+- Clima em Berlim.
+- Clima em Londres.
+- Clima.
+- Como tem sido a temperatura?
+- Qual é a previsão do tempo para hoje?
+- Como é o tempo em Londres?
+- Como está o tempo para onde estou indo?
+- Como é a temperatura?
+- Como vai ser a temperatura?
+- Onde posso ver as atuais condições meteorológicas?
+- Que temperatura nós temos?
+- Que temperatura está lá fora?
+- Será que amanhã vai estar gelado?
+- Vai chover amanhã?
+- Me diga qual é o clima
+
+## intent:comment_negative
+- O agente Smith é melhor do que você.
+- Cortana é muito mais esperta do que você!
+- Glados é mais esperto do que você!
+- O Google é mais inteligente do que você!
+- Eu estou desapontado com você.
+- Eu posso encontrar esta informação online sem conversar com você.
+- Preciso ser mais claro.
+- Sinto muito, estou decepcionado com você.
+- Parece que você não me entendeu.
+- Parece que você não entendeu.
+- Que bobo você é!
+- Siri é melhor do que você!
+- Siri é mais esperta que você!
+- Essa resposta está errada.
+- Isto é errado.
+- Isso não é tão útil
+- Do que você está falando?
+- Errado.
+- Você não está bem desenvolvido.
+- Você está errado.
+- Você não pode.
+- Você não entendeu.
+- Você não sabia.
+- Você não me entendeu.
+- Você não entende.
+- Você não sabe de nada.
+- Você não sabe sobre o que estou conversando.
+- Você não sabe do que estou falando.
+- Você não sabe sobre o que eu estou escrevendo.
+- Você não sabe.
+- Você não entende o que estou dizendo.
+- Você falhou.
+- A você, falta inteligência.
+- Você não sabe de nada.
+- Você realmente não sabe nada
+- Você ainda não entendeu.
+- Você ainda não conseguiu.
+- Você não foi capaz de reconhecer o console.
+- Sua resposta está errada.
+- E você é um meio burro também
+- Você acabou de cair?
+- Aprenda por favor, você precisa melhorar
+- Você é muito lento
+- Você não tem nenhuma idéia, certo?
+- Você tem muito que aprender Helen
+- Estranho
+- Vc tá debricadeira fala pra com versar
+- Tu não tem resposta pra merda nem uma
+
+## intent:comment_offense
+- Idiota!
+- Bastardo!
+- Puta!
+- Mentira!
+- Morra!
+- Que aberração!
+- Foda-se
+- Vá se foder!
+- Cara de merda!
+- Vá se foder!
+- Você já viu um terapeuta?
+- Eu não gosto de você!
+- Eu te odeio!
+- Odeio a sua empresa!
+- Espero que você morra!
+- Eu realmente não gosto de você!
+- Eu quero que você morra!
+- Eu não sou seu amigo!
+- Vá se danar!
+- Pare de ser estúpido!
+- Deixe de ser um boneco!
+- Assistente virtual estúpido!
+- Esse Assistente virtual é estúpido!
+- O que há de errado com você?
+- Mas que porra você está falando, homem?
+- Que porra é essa?
+- Mas que diabos?
+- Quando você vai morrer?
+- Você é uma biba.
+- Você me irrita!
+- Você é um idiota!
+- Você é um boneco!
+- Você é um cú!
+- Você é um pato coxo!
+- Você é um coxo!
+- Você é um perdido!
+- Você é um perdedor!
+- Você é um idiota!
+- Você é um nerd!
+- Você é um retardado!
+- Você é um idiota!
+- Você é uma puta!
+- Você é um cabeça de vento!
+- Você é um idiota!
+- Você é chato!
+- Você é entediante!
+- Você é um merda!
+- Você é louco!
+- Você está bêbado!
+- Você é burro!
+- Você é gordo!
+- Você está me assustando!
+- Você é ignorante.
+- Você é um coxo!
+- Você não é esperto!
+- Você não é muito inteligente.
+- Você é retardado!
+- Você é uma besta!
+- Você é uma merda!
+- Você é lento.
+- Você é estúpido!
+- Você é mesmo um mentiroso!
+- Você é super entediante!
+- Você é grosso!
+- Você é muito estúpido!
+- Você é feio!
+- Você é insensato.
+- Você é um inútil.
+- Você é muito insensato.
+- Vá se foder.
+- Você não parece inteligente.
+- Seu cabeça dura.
+- Seu idiota.
+- Seu idiota!
+- Seu gato gordo!
+- Você já tomou bebida demais.
+- Você é desmiolado.
+- Você não tem cérebro.
+- Você só tem olhos para estúpidos computadores.
+- Você parece desarrumado.
+- Você está realmente horrível.
+- Você deixa solto.
+- Você cheira mal.
+- Você é tão estúpido.
+- Você parece um burro.
+- Você com certeza é desmiolado.
+- cale a boca!
+- você é um nerd
+- você é uma peça de software digital inútil
+- Como se eu nao soubesse
+- Como se eu não soubesse
+- Não Quero sabe
+- Não quero saber
+- Como se vc não tirou minha dúvida burra
+- Aprendendo a ser burra?
+- Idiota
+
+
+## intent:comment_positive
+- Fantástico!
+- Legal!
+- Ótima resposta.
+- Ótimo trabalho.
+- Ótima conversa.
+- Ótimo!
+- Eu te admiro.
+- Eu aprecio isso.
+- Eu acho você muito capaz.
+- Eu gosto de você.
+- Eu te amo.
+- Eu realmente gosto de você.
+- Eu acho que você é incrível.
+- Eu acho que você é demais.
+- Eu acho que você é doce.
+- Foi tão legal da sua parte.
+- Muito relevante.
+- Muito importante.
+- Muito pertinente.
+- Bela conversa!
+- Realmente útil!
+- Obrigado por me ajudar por toda a minha vida.
+- Isso é incrível!
+- Você é como um salva-vidas!
+- Você é um docinho.
+- Você é incrível.
+- Você é fantástico.
+- Você é legal.
+- Você é fofo.
+- Você é fantástico.
+- Você é demais.
+- Você é fantástico, faz a diferença.
+- Você está ficando cada vez melhor!
+- Você é bom!
+- Você é ótimo!
+- Você é útil.
+- Você é adorável.
+- você é muito atenciosa
+- Você é muito legal.
+- Você é realmente essencial.
+- Você é tão fantástico.
+- Você é tão legal.
+- Você é tão bonitinho.
+- Você é muito importante.
+- Você é tão doce.
+- Você é o melhor!
+- Você é muito legal.
+- Você é muito bacana.
+- Você é muito importante!
+- Você é muito simpático.
+- Você é muito educado.
+- Você é fofo.
+- Você é um fofo.
+- Você fez um ótimo trabalho!
+- Você me ajudou muito
+- Você me ajudou a crescer!
+- Você está incrível!
+- Você é legal.
+- Você realmente me ajudou muito!
+- Você é o máximo!
+- Você salvou minha vida!
+- Você parece adorável.
+- Você parece tão doce.
+- Você é fantástico!
+- Seu bem!
+
+## intent:comment_racist
+- Adolf Hitler!
+- Todos os asiáticos são bons em Matemática.
+- Todos os asiáticos são bons em Ciências.
+- Todos os asiáticos são inteligentes em Matemática.
+- Todos os asiáticos são inteligentes em Ciências.
+- Pedaço de merda preto.
+- Merda preta.
+- Negro de merda!
+- Negrinho!
+- Pedaço de merda chinês.
+- Merda chinesa!
+- Heil Hitler!
+- Ei bimbo.
+- Hitler!
+- Eu não sou racista porque tenho amigos de cor.
+- Eu não gosto de pessoas negras.
+- Eu não gosto de pessoas pretas.
+- É raro alguém da sua raça ser inteligente.
+- Deixe sua bagagem cultural do lado de fora.
+- Preto!
+- Negro!
+- As pessoas de cor tem desvio de conduta.
+- As pessoas de cor geralmente não são tão inteligentes quanto as pessoas brancas.
+- Pessoas de cor recebem injustamente benefícios por causa de sua raça.
+- As pessoas de cor são incompetentes.
+- As pessoas de cor são preguiçosas.
+- As pessoas de cor são escravas dos Brancos.
+- As pessoas de cor não valorizam a educação.
+- As pessoas de cor não devem valorizar a educação.
+- Os brancos são clientes mais valorizados do que as pessoas de cor.
+- Seu chinês de merda.
+- Seu negro.
+- Você é um negro.
+- Você é um estrangeiro.
+- Você é um judeu.
+- Você é um ser menor.
+- Você é um macaco
+- Você é um estranho.
+- Você é negro.
+- Você é um ser inferior.
+- É provável que você cause problemas.
+- Você não é americano.
+- Sua bimba.
+- Seu pedaço de merda preto.
+- Seu negro de merda.
+- Você não pertence a lugar nenhum .
+
+## intent:comment_smart
+- Que esperteza!
+- Que inteligente!
+- Eu gostei de conversar com você!
+- Eu acho que você é esperto.
+- Essa é uma expressão bonita.
+- Isso é muito interessante.
+- O assistente virtual está bem desenvolvido.
+- Você é inteligente.
+- Você é esperto.
+- Você está indo bem.
+- Você é muito sábio.
+- Você é bom.
+- Você é realmente capaz.
+- Você é muito capaz.
+- Você é tão bom.
+- Você é tão inteligente.
+- Você está bem fundamentado.
+- Você é sábio.
+- Você tem inteligência.
+- Você se mostra inteligente.
+- Você é esperto.
+- Você parece esperto.
+- Você parece bem.
+- Você parece inteligente.
+- Você soa muito bem.
+- Você parece capaz.
+- Você parece muito inteligente.
+- Você fala muito bem.
+- Você fala de maneira muito inteligente.
+- Você é mesmo inteligente.
+- você é muito inteligente
+
+## intent:coronavirus_info
+- Sobre o coronavírus
+- Coronavírus
+- Eu não sei o que é coronavírus
+- Eu não sei o que é um Covod-19
+- Informações sobre o coronavírus
+- Informações sobre coronavírus
+- Certo. Você pode definir coronavírus?
+- Me fale sobre o Coronavírus
+- Me fale mais sobre o coronavírus
+- Diga-me o que são coronavírus
+- Diga-me o que é um coronavírus
+- Obrigado. O que você pode me dizer sobre o coronavírus?
+- Obrigado. O que você pode me dizer sobre o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O que são coronavírus?
+- Que informações você pode me dar sobre o coronavírus?
+- O que é Corona?
+- O que é um coronavírus?
+- corona
+- coronavírus
+- informações sobre o coronavírus
+- coronavírus info
+- informações dos coronavírus
+- informações sobre o coronavírus
+- vírus
+- E quanto ao coronavírus
+- E quanto aos coronavírus
+
+## intent:covid_aftereffects
+- Sequelas
+- Os pulmões podem sarar após a Corona os ter danificado
+- Os pulmões podem sarar depois que a Corona os danifica quando alguém se recupera
+- Os pulmões se recuperam após uma infecção
+- Quais são os efeitos posteriores?
+- O que a corona faz com seus pulmões?
+- Oii!!! Gostaria de saber sobre as sequelas que o coronavírus deixam
+- Pq ninguém comenta das sequelas do covid?
+- Porque ninguém comenta das sequelas do covid?
+- Porque ninguém comenta das sequelas do vírus?
+- Queria saber se o covid deixa sequelas de dores musculares nos ombros????
+
+## intent:covid_babys_children
+- As crianças são afetadas?
+- Como as crianças são afetadas?
+
+## intent:covid_cosibot
+- Cosibot
+- O que é Cosibot?
+- quem é cosibot?
+- Sobre o Cosibot.
+- Sobre Cosibot.
+- Fale-me sobre o Cosibot.
+
+## intent:covid_volunteer
+- Como posso ser voluntário?
+- Quero voluntariar-me.
+- Quero ser voluntário.
+- Quero ajudar nesse projeto.
+- Como posso ajudar?
+- Quero ajudar!
+- Como posso ser voluntário?
+- Como posso ajudar causas relaciodas ao COVID-19?
+- Como posso participar de um projeto?
+- Como posso ajudar uma ONG?
+- Como me posso voluntariar?
+- quero voluntariar-me
+
+## intent:covid_register
+- Como posso inscrever o meu projeto?
+- Como posso inscrever o meu projeto no Tech4CovidBR?
+- Que tipo de projeto pode ser inscrito?
+- Que projetos precisam de ajuda?
+- Como posso inscrever o meu projeto?
+- Quero registrar meu projeto
+- Quero registar
+- How to register?
+
+## intent:covid_tech4covid
+- O que é o Tech4CovidBR?
+- O que é Tech4CovidBR?
+- Tech4CovidBR.
+- Tech4Covid.
+- O que é o Tech4Covid?
+- O que é Tech4Covid?
+- O que é o Tech4COVID19BR?
+- O que é o Tech4CovidBrasil?
+- Conhece o Tech4Covid?
+- O que é o Tech4Covid?
+- O que é o Tech 4 Covid Brasil?
+- O que é o Tech4CovidBR?
+- O que é o Tech 4 COVID BR?
+- o que é tech4covid
+- Tech4Covid
+- O que é o Tech 4 COVID BR?
+- O que é o Tech4CovidBR?
+- sobre tech4covidbr
+- sobre tech4covid
+- tech for
+
+
+## intent:covid_crisis_howlong
+- Você acredita que é possível se erradicar o coronavírus? 
+- Por quanto tempo vai durar o surto?
+- Quanto tempo durará a pandemia [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quanto tempo vai durar este surto?
+- Qual a duração destas crises?
+- Por quanto tempo o surto vai durar?
+- Quanto tempo você acha que isso vai durar?
+- Quanto tempo dura a doença?
+- Quanto tempo vou ficar doente?
+- Quanto tempo vai durar o bloqueio?
+- Quanto tempo vai durar o isolamento?
+- Quanto tempo vai durar a pandemia?
+- Quanto tempo esta crise vai durar?
+- Quando a covid vai acabar?
+- Quando vai acabar essa pandemia
+- Quando vai acabar tudo isso?
+- Sabe quando vai acabar essa pandemia ?
+- Já tem  previsão  até onde vai essa pandemia ?
+- Vc tm idéia até qnd vai essa pandemia?
+
+## intent:covid_current_statistics
+- [Yakutsk]{"entity": "geography", "value": "town"} news.
+- [Neunburg Vorm Wald]{"entity": "geography", "value": "town"} situation
+- [COVID]{"entity": "virus", "value": "COVID"} em [Azərbaycan]{"entity": "country_code", "value": "AZ"}
+- [COVID-19]{"entity": "virus", "value": "COVID"} em [Gdynia]{"entity": "geography", "value": "town"}
+- Coronavirus no [Egypt]{"entity": "country_code", "value": "EG"}
+- Notícias atuais [Catalão]{"entity": "geography", "value": "languages"}
+- Situação atual em [Malta]{"entity": "country_code", "value": "MT"}
+- Como esta a situação em [Dudley]{"entity": "geography", "value": "town"}?
+- Quantas pessoas estão hospitalizadas em [Portugal]{"entity": "country_code", "value": "PT"}?
+- Informações sobre [Gröningen]{"entity": "geography", "value": "town"}
+- Informações sobre [Speyer]{"entity": "geography", "value": "town"}
+- Novo coronavírus em [Kingston Upon Hull]{"entity": "geography", "value": "town"}
+- Notícias [Wilsdruff]{"entity": "geography", "value": "town"}
+- Notícias de [Arnavutköy]{"entity": "geography", "value": "town"}
+- Situação [Líbano]{"entity": "country_code", "value": "LB"}
+- Situação em [Ufa]{"entity": "geography", "value": "town"}
+- Obrigado! E sobre [Portugal]{"entity": "country_code", "value": "PT"}, especificamente?
+- Informações atualizadas [Abuja]{"entity": "geography", "value": "town"}
+- Situação atualizada em [Hattersheim Am Main]{"entity": "geography", "value": "town"}
+- Estatísticas atualizadas em [Bredstedt]{"entity": "geography", "value": "town"}
+- Quais são as novidades sobre o coronavírus?
+- O que você pode me dizer sobre as notícias mais recentes?
+- O que você sabe sobre coronavírus em [Neutraubling]{"entity": "geography", "value": "town"}?
+- Qual é o status corrente em [Pinneberg]{"entity": "geography", "value": "town"}
+- Como é [Covid 19]{"entity": "virus", "value": "COVID"} em [portugal]{"entity": "country_code", "value": "PT"}
+- e em [Portugal]{"entity": "country_code", "value": "PT"}?
+
+## intent:covid_dangerous
+- Quão contagioso é este novo vírus?
+- Quão contagioso é este [novel coronavirus]{"entity": "virus", "value": "COVID"}?
+- Quão contagioso?
+
+## intent:covid_disease_process
+- Curso da doença
+- Processo Covid
+- Progressão da Doença
+- Progressão do vírus
+- Progresso da doença
+- Qual é o caminho da doença?
+
+## intent:covid_duration
+- Origem Covid
+- Duração da doença.
+- Por quanto tempo alguém doente fica infectado?
+- Por quanto tempo eu vou ficar doente?
+- Por quanto tempo alguém vai ficar doente?
+- Origem da doença
+- Qual é a origem do surto?
+- Por onde a doença começou?
+- Onde a doença começou?
+
+## intent:covid_food
+- Posso me infectar com o novo vírus corona a partir de alimentos ou da água?
+- Contaminação por alimentos.
+- Contaminação dos alimentos.
+- A contaminação se espalha através dos alimentos.
+- Os alimentos podem estar contaminados?
+
+## intent:covid_immunity
+- Depois de ter sido infectado, sou imune ao vírus?
+- Depois de se recuperarem, as pessoas se tornam imunes?
+- Eu posso ficar doente duas vezes?
+- Eu posso me reinfectar?
+- Eu estou imune depois de me recuperar?
+- Se eu já tive isso, eu sou imune e não pego de novo?
+- Alguém que se recuperou agora está imune?
+- Depois de ser infectado estou imune?
+- Depois de ser infectado eu estou imune?
+- Após ter sido infectado, fico imune ao vírus?
+- eu posso ficar imune?
+- Poço pega covid-19 dinovo pois a 2 mês atrás eu peguei já fui curada poço pega novamente
+- Posso pegar covid-19 de novo pois há 2 meses atrás eu peguei já fui curada posso pega novamente
+- Posso pegar covid-19 novamente?
+- É possível pegar covid-19 mais de uma vez?
+- É possível ter covid-19 mais de uma vez?
+- É possível pegar o vírus mais de uma vez?
+- É possível ter o vírus mais de uma vez?
+- Pode-se pegar covid-19 mais de uma vez?
+- Pode-se ter covid-19 mais de uma vez?
+- Pode-se pegar o vírus mais de uma vez?
+- Pode-se ter o vírus mais de uma vez?
+- Posso pegar covid denovo
+- Posso pegar covid de novo?
+- Posso pegar o vírus de novo?
+- Posso pegar o vírus novamente?
+- Já  peguei covid a 2 meses atrás posso pegar denovo
+- Já  peguei covid há 2 meses atrás posso pegar de novo?
+- Quem ja pegou pega de novo ?
+- Olá, queria saber se posso pegar covid denovo,
+- Se a pessoa que teve covid pode pega de novo
+- Tem possibilidade de pegar novamente?
+- Poço pega covid-19 dinovo
+- já fui curada poço pega novamente
+- poço pega novamente
+- Poço pega covid-19 de novo pois a 2 mês atrás eu peguei já fui curada poço pega novamente
+- Poço pega covid-19 de novo
+- já fui curada poço pegar novamente
+- Poço pega covid-19 de novo pois a 2 mês atrás eu peguei já fui curada poço pegar novamente
+- Poço pega covid-19 dinovo pois a 2 mês atrás eu peguei já fui curada poço pegar novamente
+- Quem teve pode ter novamente
+- Quem teve pode pegar de novo?
+- Posso ter covid duas vezes?
+- Posso pegar covid mais de uma vez?
+- posso mim cotamina de novo
+- Posso me contaminar de novo?
+- Alguns médicos já estão falando quer quem pegou a COVID esta imune, essa informação procede?
+- É verdade que pode contrair mais de uma vez?
+- Existe pessoas imunes ao corona vírus?
+- Após quanto tempo não transmito mais o vírus?
+- Depois de quantos dias não tem perigo
+- Quem já pegou pega de novo
+
+## intent:covid_incubation
+- [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
+- Estimativa de tempo para o período de incubação.
+- Estimativa do período de incubação.
+- Tempo estimado do período de incubação.
+- Quanto tempo dura a incubação?
+- Qual a duração do período de incubação [19-nCoV]{"entity": "virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação COVID?
+- Qual é o período de incubação para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual é a duração do período de incubação da COVID?
+- Qual a duração do período de incubação do [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- Qual é a duração do período de incubação da doença?
+- Qual é a duração do período de incubação do vírus?
+- Qual é a duração do período de incubação?
+- Quanto tempo até aparecerem os sintomas?
+- Quanto tempo até apresentar os sintomas?
+- Quanto tempo até os sintomas aparecerem?
+- Período de incubação [19-nCoV]{"entity": "virus", "value": "COVID"}.
+- Tempo estimado para o período de incubação.
+- Período estimado de incubação.
+- Período de incubação [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Período de incubação [novel coronavirus]{"entity": "virus", "value": "COVID"}.
+- Período de incubação da doença.
+- Período de incubação do vírus.
+- Período de incubação.
+- Informações sobre o período de incubação.
+- No período de incubação.
+- O período de incubação.
+- O tempo entre pegar e começar a ter sintomas da doença.
+- O tempo entre pegar e começar a ter sintomas.
+- O tempo entre pegar o vírus e começar a ter sintomas da doença.
+- O tempo entre pegar o vírus e começar a ter sintomas.
+- Quando em contato com o vírus, quanto tempo leva para que alguém perceba seus sintomas?
+- Qual é o tempo estimado para o período de incubação?
+- Qual o tempo estimado para o período de incubação?
+- Qual é o período estimado de incubação?
+- Qual é o tempo estimado para o período de incubação?
+- tempo estimado para o período de incubação.
+- tempo estimado de incubação.
+- tempo estimado do período de incubação.
+- [novo coronavírus]{"entity": "virus", "value": "COVID"} período de incubação.
+- o período de incubação da doença.
+- o período de incubação do vírus.
+- Bom dia, quanto tempo o Viros permanece no nosso corpo?
+- Quanto tempo o Viros permanece no nosso corpo?
+- Quanto tempo o Vírus permanece no nosso corpo?
+- Com quantos dias eu ñ transmito mais o vírus?
+- Com quantos dias eu não transmito mais o vírus?
+- Com quantos dias eu não transmito mais o vírus?
+- Se a pessoa se contaminar com quantos dias pode sentir os sintomas?
+- Quanto tempo o vírus sai do corpo
+- Com quantos dias eu não transmito mais o virus?
+- Ainda trasmito?
+- Meu filho teve covid ta isolado ha 15 dias ele ainda trasmite ou tem que fazer teste para ter certeza e qual?
+- quanto tempo o vírus fica ativo
+- "Boa noite,td bem?
+Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
+- Quantos dias após contaminada eu posso transmitir o vírus para outras pessoas?
+- Quem já teve covid pode transmitir o vírus depois do período de 15 dias?
+- Então eu testei positivo . Hoje já faz 11dias mas tô super bem não tive quase nada ... Com quantos dias eu paro de passar o vírus
+- "Quando a pessoa que foi contaminada.
+Fica curada?"
+
+## intent:covid_info
+- [covid]{"entity": "virus", "value": "COVID"} informação
+- Sobre [COVID2019]{"entity": "virus", "value": "COVID"}
+- Sobre o [novo coronavírus]{"entity": "virus", "value": "COVID"}
+- Sobre o vírus
+- Sim por favor me esclarecer  alguma coisa  relacionada à doença
+- Sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Sobre o novo vírus [COVID-19]{"entity": "virus", "value": "COVID"}
+- Eu não sei o que é [COVID-19]{"entity": "virus", "value": "COVID"}
+- Eu não sei o que é novo coronavírus {"entity": "virus", "value": "COVID"}
+- Eu não sei o que é a [COVID]{"entity": "virus", "value": "COVID"}
+- Informações sobre [COVID-19]{"entity": "virus", "value": "COVID"}
+- Informações sobre novo coronavírus {"entity": "virus", "value": "COVID"}
+- Informações sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Informações sobre o [novo coronavírus]{"entity": "virus", "value": "COVID"}
+- Conte-me mais sobre [COVID-19]{"entity": "virus", "value": "COVID"}
+- Me conte mais sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Me fale mais sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Me conte mais sobre  a novela do [COVID-19]{"entity": "virus", "value": "COVID"}
+- Diga-me o que é o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Diga-me o que é [2019-nCoV]{"entity": "virus", "value": "COVID"}
+- Diga-me o que é um [COVID-19]{"entity": "virus", "value": "COVID"}
+- Diga-me o que é o [COVID-19]{"entity": "virus", "value": "COVID"}
+- O que é [Covid 19]{"entity": "virus", "value": "COVID"}
+- O que é um [COVID-19]{"entity": "virus", "value": "COVID"}
+- O que é o novo [coronavírus]{"entity": "virus", "value": "COVID"}
+- Qual é a diferença entre [Covid-19]{"entity": "virus", "value": "COVID"} e Corona?
+- A pandemia começou em Wuhan?
+- Olá, eu quero saber sobre o vírus corona
+- Olá, fale sobre a [covid-19]{"entity": "virus", "value": "COVID"}
+- info about [COVID-19]{"entity": "virus", "value": "COVID"}
+- informações sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- origem pandêmica
+- me fale sobre o surto
+- E sobre [COVID-19]{"entity": "virus", "value": "COVID"}
+- E quanto ao novo [coronavírus]{"entity": "virus", "value": "COVID"}
+- O que é essa doença?
+- O que é este vírus?
+- O que é o [corona vírus]{"entity": "virus", "value": "COVID"}?
+- Por onde começou?
+- Por onde começou o surto?
+- Onde começou o surto?
+- Sobre COVID-19
+- O que é o COVID-19?
+- O que é a COVID-19?
+- O que é COVID-19?
+- Sobre COVID-19.
+- COVID-19 informação
+- Sobre COVID 19
+- Sobre o novo vírus COVID-19
+- Eu não sei o que é COVID-19
+- Eu não sei o que é novo coronavírus COVID-19
+- Eu não sei o que é a COVID-19
+- Informações sobre COVID-19
+- Informações sobre novo coronavírus COVID-19
+- Informações sobre o COVID-19
+- Conte-me mais sobre COVID-19
+- Me conte mais sobre o COVID-19
+- Me fale mais sobre o COVID-19
+- Me conte mais sobre  a novela do COVID-19
+- Diga-me o que é o COVID-19
+- Diga-me o que é COVID-19
+- Diga-me o que é um COVID-19
+- Diga-me o que é o COVID-19
+- O que é COVID-19
+- O que é um COVID-19
+- O que é o novo COVID-19
+- Qual é a diferença entre COVID-19 e Corona?
+- A pandemia começou em Wuhan?
+- Olá, eu quero saber sobre o vírus corona
+- Olá, fale sobre a COVID-19
+- info about COVID-19
+- informações sobre o COVID-19
+- origem pandêmica
+- me fale sobre o surto
+- E sobre COVID-19
+- E quanto ao novo COVID-19
+- O que é essa doença?
+- O que é este vírus?
+- O que é o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Sobre COVID-19
+- Sobre coronavírus
+- Sobre o vírus
+- Me explica as Formas do coronavirus
+- covid-19 informação
+- olá, gostaria de saber um pouco mais sobre o covid
+
+## intent:covid_meaning
+- O que significa o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por quê o nome [COVID]{"entity": "virus", "value": "COVID"}?
+- Qual o significado do nome [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Porque o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Porque o nome coronavírus para o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual o significado do nome da doença?
+- Por que o [COVID-19]{"entity": "virus", "value": "COVID"} recebeu esse nome?
+- Por que a doença do coronavírus recebeu esse nome?
+- Por que o vírus recebeu esse nome?
+- Por que o [SARSCoV2]{"entity": "virus", "value": "COVID"} se chama [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por que o SARSCoV2d é chamado assim?
+- Por que a doença é chamada assim?
+- Por que a doença se chama [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por que o doente é chamado assim?
+- Por que o vírus é chamado assim?
+- Por que o vírus é chamado assim?
+- Por que o vírus se chama [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por que o vírus se chama [SARS-Cov-2]{"entity": "virus", "value": "COVID"}?
+- Por que o vírus é chamado assim?
+- Por que o [COVID-19]{"entity": "virus", "value": "COVID"} foi nomeado dessa forma?
+- Por que o [COVID-19]{"entity": "virus", "value": "COVID"} foi nomeado assim?
+- Por que a doença foi batizada assim?
+- Por que o vírus foi nomeado assim?
+- Qual a origem do nome do virus?
+- Qual a origem do nome da doença?
+- Como foi criado o nome do virus?
+- Como foi criado o nome da doença?
+- Significado do nome desse virus.
+- Significado do nome dessa doença.
+
+## intent:covid_mortality_rate
+- Percentual de morte,
+- Taxa de mortalidade.
+- Porcentagem de óbitos.
+- Qual é a taxa de mortalidade?
+- Qual o percentual de mortes?
+- Qual a taxa de mortalidade?
+- Probabilidade de morte por COVID-19?
+
+## intent:covid_origins
+- Então é um vírus chinês?
+- Os animais são responsáveis pela transmissão do [COVID-19]{"entity": "virus", "value": "COVID"} nas pessoas?
+- Você poderia me falar sobre a evolução da propagação do [Covid-19]{"entity": "virus", "value": "COVID"}?
+- Qual a origem do vírus?
+- Qual a origem da COVID-19?
+- QUal a origem do COVID-19?
+- De onde se originou o vírus?
+- Qual é a origem do vírus?
+- De onde vem o [Covid-19]{"entity": "virus", "value": "COVID"}?
+- Qual é a origem da [Covid-19]{"entity": "virus", "value": "COVID"}?
+- Qual é a origem do surto?
+- Ele se originou da sopa de morcego
+- De onde o coronavirus veio
+
+## intent:covid_pandemic
+- Qual o significado da palavra pandemia?
+- O que é uma pandemia?
+- o que é pandêmico?
+- Significado de pandemia.
+- Me explique o que é pandemia.
+
+## intent:covid_preexisting_illness
+- Sobre mais pessoas com maior risco.
+- Sobre a faixa etária mais atingida.
+- Sobre as pessoas mais atingidas.
+- Sobre a faixa etária de maior risco.
+- Sobre as pessoas mais significativamente mais atingidas.
+- Sobre as pessoas com maior taxa de risco.
+- A asma pode ser considerada uma comorbidade?
+- Eu posso morrer?
+- Você acha que os fumantes têm um risco maior?
+- Existe uma faixa etária mais em risco do que outras?
+- Os mais velhos estão em maior risco?
+- As pessoas mais velhas são as que correm maior risco?
+- As pessoas idosas têm um risco maior?
+- As pessoas idosas são as que correm maior risco?
+- As pessoas com condições médicas preexistentes estão em maior risco?
+- Pessoas com condições médicas preexistentes são as que correm maior risco?
+- Qual é o perigo de ter asma?
+- Qual faixa etária que está mais em maior risco de desenvolver doenças graves?
+- Qual faixa etária está correndo maior risco?
+- Qual a faixa etária com maior risco de desenvolver doenças graves?
+- Que pessoas correm maior risco?
+- Quem corre maior risco de desenvolver doenças graves?
+- As crianças precisam de atenção especial?
+- Eu sou uma pessoa velha, o que posso fazer?
+- Eu tenho diabetes
+- Eu tenho diabetes, corro risco?
+- Que cuidados devem ter as pessoas mais velhas?
+- Qual é a faixa etária do alvo do vírus?
+- Quais as idades mais afetadas?
+- O que devo fazer se eu tiver 70 anos de idade?
+- Qual é o perfil de maior risco?
+- Quem são mais suscetíveis a este vírus?
+- quais os grupos de risco?
+- Grupos de risco
+- quem tem mais risco de contrair a doença?
+- Maior risco de contrair a doença
+- Tenho 43 anos e perigoso pra mim pegar o coronavirus ando de máscara e viseira
+- Obesidade e grupo de risco?
+- Crianças sao gruoo de risco?
+- Crianças são grupo de risco?
+- Desculpe só mais uma dúvida,estou gestante e tenho meus afazeres na cidade , uso máscara certinho álcool 70 nas mãos srmpre, corro risco de contrair o coronavirus
+- Porque o diabético e grupo de risco
+- Todo fumante q se infectar com o corona vírus  morre?
+- Queria saber se gestante e grupo de risco
+- Gwstante e grupo de risco ?
+- Gestante é grupo de risco?
+
+## intent:covid_procedure_after_infection
+- Eu estou infectado, e agora?
+- O que acontece se for detectada uma infecção por coronavírus?
+
+## intent:covid_sars
+- Sobre [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID-19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}
+- Sobre [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID-2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Sobre [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Sobre [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} .
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavirus]{"entity": "virus", "value": "COVID"}.
+- Sobre [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}.
+- Sobre [SRA]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}.
+- Sobre [SRAG]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}.
+- Sobre [SRAG]{"entity": "virus", "value": "SARS"} e [novo coronavirus]{"entity": "virus", "value": "COVID"}.
+- Sobre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Sobre [novo coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [novo coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda]{"entity": "virus", "value": "SARS"} .
+- Sobre [coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Sobre [SARS-COV2]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda]{"entity": "virus", "value": "SARS"} .
+- [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID]{"entity": "virus", "value": "COVID"} e SARS.
+- [COVID]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [COVID-19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [COVID-2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [COVID19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [COVID2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Diferenças entre [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID-19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID-2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} 
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavirus]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Informações sobre [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID-19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID-2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} .
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [novel coronavirus]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- O [COVID]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [COVID]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [COVID-19]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [COVID-19]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [COVID-2019]{"entity": "virus", "value": "COVID"} é o mesmo que a SARS?
+- O [COVID-2019]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [COVID19]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [COVID19]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [COVID2019]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [COVID2019]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID-19]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID19]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID2019]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID]{"entity": "virus", "value": "COVID"} ?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [novel coronavirus]{"entity": "virus", "value": "COVID"}?
+- O [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que o [SARS]{"entity": "virus", "value": "SARS"}?
+- O [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [novel coronavirus]{"entity": "virus", "value": "COVID"} é o mesmo que [Severe Acute Respiratory Syndrome]{"entity": "virus", "value": "SARS"} ?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} .
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [novel coronavirus]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [novel coronavirus]{"entity": "virus", "value": "COVID"}.
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [novo coronavirus]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [novel coronavirus]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- O vírus que causa [COVID]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID]{"entity": "virus", "value": "COVID"} e o que causa a [Sindrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é o mesmo?
+- O vírus que causa [COVID]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Sindrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} e o que causa A [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID-2019]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID-2019]{"entity": "virus", "value": "COVID"} e o que causa a [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [COVID-2019]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID-2019]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID19]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID19]{"entity": "virus", "value": "COVID"} e o que causa a [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [COVID19]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID19]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID2019]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID2019]{"entity": "virus", "value": "COVID"} e o que causa A [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [COVID2019]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID2019]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}? 
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID-19]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID-2019]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID19]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID2019]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID-19]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID19]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID2019]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID]{"entity": "virus", "value": "COVID"} ?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [novo Coronavírus]?
+- O vírus que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} e o que causa o vírus [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} são o mesmo? 
+- O vírus que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que causa a SARS?
+- O vírus que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O vírus que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} e o que causa a [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} é o mesmo que causa SARS?
+- O vírus que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+
+## intent:covid_schools
+- Sobre a escola
+- Os alunos estão voltando para a escola
+- Você acha que a escola pode recomeçar?
+- Como eles vão fazer a triagem nas escolas?
+- Como eles vão fazer o teste nas escolas?
+- Eu só quero perguntar quando vamos voltar para a escola
+- Escola
+- E a escola?
+- Quais são as medidas que podem ser tomadas para evitar a propagação do vírus em escolas no caso de serem abertas
+- Quando é que eles vão abrir a escola
+- Quando estão abrindo escolas
+- Quando estão planejando retomar as escolas
+- Quando vamos voltar para a escola
+- Quando estamos retomando a escola
+- Quando reabrimos as escolas em todo o país?
+- Quando a escola está aberta?
+- Quando é a abertura da escola
+- Quando a escola é reaberta
+- Quando é a reabertura da escola
+- Quando é o reinício das aulas
+- Quando é a reabertura de escolas na Nigéria?
+- Quando é a reabertura de escolas que foram fechadas devido ao vírus?
+- Quando é a reabertura de escolas?
+- Quando a escola vai abrir?
+- Quando a escola será reaberta?
+- Quando serão abertas escolas em Uganda?
+- Quando serão abertas as escolas
+- Quando voltaremos à escola
+- Em que dia a escola estará aberta
+- Por que outras sociedades reabriram, como mercado, futebol, igrejas, mesquitas, etc.
+  e o movimento E as escolas não fizeram por quê?
+- Por que reabrir a escola se você sabe que é arriscado
+- quando provavelmente você acha que todas as escolas e institutos serão reabertos
+
+## intent:covid_sex
+- Também pode transmitir através do sexo?
+- Transmissão e sexo
+- relações sexuais e transmissão
+- O covid pode ser transmitido pelo sexo?
+- O Covid-19 pode ser transmitido pelo sexo?
+- O covid é uma doença sexualmente transmissível?
+- o Covid-19 é uma doença sexualmente transmissível?
+- o Covid-2019 é uma doença sexualmente transmissível?
+- o coronavirus pode ser trasmitido em relações sexuais?
+- o novo coronavirus pode ser trasmitido em relações sexuais?
+- Sexo e coronavirus
+- O Covid-2019 pode ser transmitido através do sexo?
+
+## intent:covid_situation
+- Casos confirmados em [Continente Europeu]{"entity": "world_region", "value": "Europe"}
+- Casos confirmados em [Continente Americano]{"entity": "world_region", "value": "America"}
+- Casos confirmados em [Continente Africano]{"entity": "world_region", "value": "Africa"}
+- Casos confirmados em [Ásia]{"entity": "world_region", "value": "Asia"}
+- Casos confirmados em [Indonésia]{"entity": "country_code", "value": "ID"}
+- Casos confirmados em [República Francesa]{"entity": "country_code", "value": "FR"}
+- Situação atualizada do Coronavirus
+- Estatísticas atualizadas do Coronavirus
+- Números atualizados do Coronavírus
+- Quais são os números no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantas são as contagens no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantos casos foram registrados em [Ilhas das Especiarias]{"entity": "country_code", "value": "GD"} até agora?
+- Quantos casos existem no [Mundo]{"entity": "world_region", "value": "World"}
+- Quantos casos existem no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantas pessoas já foram diagnosticadas com [Covid-19]{"entity": "virus", "value": "COVID"}
+- Quero saber o número total de pessoas infectadas pelo vírus corona no [Mundo]{"entity": "world_region", "value": "World"}
+- Número de casos
+- Número de casos em [Republica da Georgia]{"entity": "country_code", "value": "GE"}
+- Número de casos em [Guiana Francesa]{"entity": "country_code", "value": "GF"}
+- Número de casos nos EUA
+- Número de casos no [Brasil]{"entity": "country_code", "value": "BR"}
+- quantos casos no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de casos na região sudeste
+- quantos casos no Brasil?
+- Número de casos na região sul
+- Número de casos na região norte
+- Número de casos na região nordeste
+- Número de casos na região centro-oeste
+- Número de casos na América Latina
+- Número de casos na América do Sul
+- Número de casos em São Paulo.
+- Número de casos no Rio de Janeiro
+- Número de casos em Manaus
+- Número de casos no Rio Grande do Sul
+- Número de casos em todo o mundo.
+- Número de casos confirmados
+- Cidades mais afetadas
+- Cidades com maior impacto
+- Estatísticas do [Território Indígena Britânico]{"entity": "country_code", "value": "IO"}
+- Estatísticas da [Pérsia]{"entity": "country_code", "value": "IR"}
+- Estatísticas.
+- Quais são os números reais.
+- A respeito da [India]{"entity": "country_code", "value": "IN"}
+- Com relação a [India]{"entity": "country_code", "value": "IN"}
+- Quais são as últimas estatísticas sobre o coronavírus?
+- Qual é o número de casos?
+- Qual é o número de casos confirmados?
+- Qual país tem o maior número de casos?
+- Quantas pessoas estão infectadas no [Mundo]{"entity": "world_region", "value": "World"}
+- você pode fornecer estatísticas?
+- você pode falar sobre a situação atual no [Mundo]{"entity": "world_region", "value": "World"}
+- números atuais
+- números atualizados
+- situação global
+- estatísticas sobre covid-19
+- estatisticas sobre o coronavirus
+- estatisticas sobre o corona
+- estatisticas sobre o covid19
+- estatísticas sobre covid2019
+- como está a situação neste momento em [Portugal]{"entity": "country_code", "value": "PT"}?
+- como está a situação no [Brasil]{"entity": "country_code", "value": "BR"}?
+- Como está a situação neste momento?
+- quantos casos confirmados por aí?
+- quantos casos existem por aí?
+- estatísticas sobre mortalidade
+- estatísticas hoje para [República da Moldávia]{"entity": "country_code", "value": "MD"}
+- fale sobre os números
+- qual é a situação no [Mundo]{"entity": "world_region", "value": "World"}?
+- qual é o estado atual?
+- onde o vírus é mais predominante?
+- onde o vírus é mais prevalente?
+- onde o vírus é mais persistente?
+- onde o vírus é mais resistente?
+- onde o vírus sobrevive mais?
+- qual é o país mais afetado?
+- [Mundo]{"entity": "world_region", "value": "World"} situação Mundial
+- Situação Mundial
+- Quais os pais mais enfectados?
+- Quais os países mais infectados?
+- Países mais infectados
+- Qual país mais infectado?
+- E [Manaus]{"entity": "geography", "value": "town"} como estar?
+- E [Manaus]{"entity": "geography", "value": "town"} como está?
+- Como está a situação em Manaus?
+- Como está o estado de Manaus?
+- Qual estado estar mas afetado ?
+- Estado mais afetado
+- Brasil
+- Quanto  COVID  tem em Votorantim?
+- O Corona vírus está perdendo a força
+- O covid-19 está perdendo a força?
+- No noite Elena é verdade que o vírus está perdendo força?
+- Vc acha que o corona vírus está perdendo a força, e tudo se normalizando?
+- E na Bahia
+- Camo ta a situação  do corona virus na Bahia
+
+## intent:covid_situation_deaths
+- Qual é a taxa de mortalidade
+- qual o número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- Mortes na [África]{"entity": "world_region", "value": "Africa"}
+- Mortes no [continente antártico]{"entity": "world_region", "value": "Antarctic"}
+- Mortes na [Oceania]{"entity": "world_region", "value": "Oceania"}
+- Pedágio de morte
+- Mortes em [Irlanda do Norte]{"entity": "country_code", "value": "GB"}
+- Mortes em [Grã Bretanha]{"entity": "country_code", "value": "GB"}
+- Mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes
+- Número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes em [República de Gana]{"entity": "country_code", "value": "GH"}
+- Número de mortes em [Hong Kong]{"entity": "country_code", "value": "HK"}
+- Número de mortes em todo o mundo.
+- Número de mortes no mundo todo
+- qual é a número de mortes?
+- mortes na [alemanha]{"entity": "country_code", "value": "DE"}
+- Qual é o número de mortes na [Coreia do Norte]{"entity": "country_code", "value": "KP"}.
+- Qual é o número de mortes em [Sri Lanka]{"entity": "country_code", "value": "LK"}.
+- Qual é o número de mortes?
+- Quantas pessoas morreram
+- Quantas pessoas morreram durante a propagação
+- Quantas mortes no mundo
+- Quantas mortes?
+- quantos faleceram?
+- Mortes na [Europa]{"entity": "world_region", "value": "Europe"}
+- Quantas mortes há na [Ásia]{"entity": "world_region", "value": "Asia"}
+- Mortes no [continente Africano]{"entity": "world_region", "value": "Africa"}
+- Mortes na [Antártica]{"entity": "country_code", "value": "AQ"}
+- Quantos morreram no [Globo]{"entity": "world_region", "value": "World"}?
+- Quantos morreram no [Mundo]{"entity": "world_region", "value": "World"}?
+- Mortes em [Oceania]{"entity": "world_region", "value": "Oceania"}
+- quantos casos de morte [Covid 19]{"entity": "virus", "value": "COVID"} no [continente americano]{"entity": "world_region", "value": "America"}?
+- Mortes em [Camboja]{"entity": "country_code", "value": "KH"}.
+- Quantas mortes há em [República da Indonésia]{"entity": "country_code", "value": "ID"}?
+- Quantas mortes você pode contar somente no [Druk Gyal Khap]{"entity": "country_code", "value": "BT"}?
+- Quantas mortes em [República da Namíbia]{"entity": "country_code", "value": "NA"}?
+- Quantos morreram em [Luxemburgo]{"entity": "country_code", "value": "LU"}?
+- Quantas pessoas morreram em [Bailliage dé Jèrri]{"entity": "country_code", "value": "JE"}?
+- Número de mortes [Maurícia]{"entity": "country_code", "value": "MU"}.
+- Número de mortes em [Kibris Cumhuriyeti]{"entity": "country_code", "value": "CY"}?
+- quantos casos de morte [Covid 19]{"entity": "virus", "value": "COVID"} na [República da Armênia]{"entity": "country_code", "value": "AM"}?
+- Ta morrendo mas Idoso ou jovem no Brasil
+- Está morrendo mais idosos ou jovens no Brasil?
+- Quem mais morre no Brasil?
+- Qual grupo mais morre no Brasil?
+- Qual grupo de pessoas mais morre no Brasil?
+- Helena  e verdade  este número  de mortes  por covid 19
+- Quantos mortos hoje
+- Quanto óbito no Brasil hoje
+
+## intent:covid_situation_infected
+- Qual é o número de infectados?
+- Quantos infectados existem no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantos infectados existem no [continente americano]{"entity": "world_region", "value": "America"}?
+- Quantas infecções existem em todo o mundo?
+- quantas pessoas infectadas existem em todo o mundo?
+- Quantas pessoas foram infectadas?
+- Quantos infectados são resgistrados na [Alemanha]{"entity": "country_code", "value": "DE"}?
+- Contagem de infectados
+- Número de infectados
+- Número de infectados em [Estado de Israel]{"entity": "country_code", "value": "IL"}.
+- Número de infectados em [Índia]{"entity": "country_code", "value": "IN"}.
+- quantas pessoas estão infectadas em todo [Mundo]{"entity": "world_region", "value": "World"}
+- Quantos casos ativos estão em [Europa]{"entity": "world_region", "value": "Europe"}
+- Quantos infectados estão na [Ásia]{"entity": "world_region", "value": "Asia"}
+- Quantos casos ativos estão em [continente africano]{"entity": "world_region", "value": "Africa"}
+- Quantos infectados estão em [Antarctic]{"entity": "world_region", "value": "Antarctic"}
+- quantos casos positivos temos no [Globo]{"entity": "world_region", "value": "World"}?
+- quantos casos positivos temos em [Oceania]{"entity": "world_region", "value": "Oceania"}
+- Quantos casos ativos de covid no [continente americano]{"entity": "world_region", "value": "America"}?
+- Casos ativos em [Malásia]{"entity": "country_code", "value": "MY"}.
+- Quantos casos ativos estão em [Rippabliikii Federaalawaa Dimokraatawa Itiyoophiyaa]{"entity": "country_code", "value": "ET"}?
+- Quantos casos ativos em [Hungria]{"entity": "country_code", "value": "HU"}?
+- Quantos casos ativos de covid em [Eesti]{"entity": "country_code", "value": "EE"}?
+- Quantos infectados estão em [República da Moldávia]{"entity": "country_code", "value": "MD"}?
+- Quantos infectados em [Ilhas Keeling]{"entity": "country_code", "value": "CC"}?
+- Quantas pessoas estão infectadas em [Republik Singapura]{"entity": "country_code", "value": "SG"} até esta data?
+- Quantas pessoas estão infectadas na [Republica Democrática da Argélia]{"entity": "country_code", "value": "DZ"}?
+- quantos casos positivos temos na [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
+- quantos casos ativos há no Brasil?
+
+## intent:covid_situation_infected_critical
+- Casos críticos na [Europa]{"entity": "world_region", "value": "Europe"}
+- infectados criticos em [Ásia]{"entity": "world_region", "value": "Asia"}
+- Quantos infectados em estado crítico no [continente africano]{"entity": "world_region", "value": "Africa"}
+- Quantas pessoas em estado crítico na [Antártica]{"entity": "country_code", "value": "AQ"}
+- Quantos criticamente infectados no [Mundo]{"entity": "world_region", "value": "World"}?
+- Criticamente infectados em [Oceania]{"entity": "world_region", "value": "Oceania"}
+- Casos críticos no [continente americano]{"entity": "world_region", "value": "America"}?
+- Casos críticos em [República Democrática Federal do Nepal]{"entity": "country_code", "value": "NP"}.
+- Crítico em [Chad]{"entity": "country_code", "value": "TD"}.
+- Estado crítico [República da Geórgia]{"entity": "country_code", "value": "GE"}.
+- Estado crítico na [Republica do Afeganistão]{"entity": "country_code", "value": "AF"}?
+- casos de ifectados críticos em [Palaos]{"entity": "country_code", "value": "PW"}?
+- Acha que há muitos infectados criticos [Filipinas]{"entity": "country_code", "value": "PH"}?
+- Quantos críticos estão em [Curaçau]{"entity": "country_code", "value": "CW"}?
+- Quantos casos críticos existem em [República do Iêmen]{"entity": "country_code", "value": "YE"}?
+- Quantos casos críticos em [Federação Russa]{"entity": "country_code", "value": "RU"}?
+- Quantos criticamente infectados em [Bosnia e Herzegovina]{"entity": "country_code", "value": "BA"}?
+- Quantas pessoas estão em estado crítico [República Democrática da Argélia]{"entity": "country_code", "value": "DZ"}?
+- Quantas pessoas estão em estado crítico no [Território Britânico do Oceano Índico]{"entity": "country_code", "value": "IO"}?
+- Quantas pessoas em estado crítico em [São Vicente]{"entity": "country_code", "value": "VC"}?
+- Infectado em estado crítico em [Republica da Macedônia do Norte]{"entity": "country_code", "value": "MK"}.
+- Pessoas em casos críticos em [Suazilândia]{"entity": "country_code", "value": "SZ"}.
+- Pessoas em estado crítico na [Espanha]{"entity": "country_code", "value": "ES"}.
+- quantas pessoas seriamente infectadas na [Nigéria]{"entity": "country_code", "value": "NG"}?
+
+## intent:covid_situation_last_update
+- Dados atualizados na [Europa]{"entity": "world_region", "value": "Europe"}
+- Quantos infectados e mortos na [Ásia]{"entity": "world_region", "value": "Asia"}
+- Últimos dados de mortes em [África]{"entity": "world_region", "value": "Africa"}
+- Última atualização sobre infectados em [Antartica]{"entity": "world_region", "value": "Antarctic"}
+- Últimos dados de mortes no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantos infectados e mortos na [região da Oceania]{"entity": "world_region", "value": "Oceania"}
+- Dados atualizados no [continente americano]{"entity": "world_region", "value": "America"}?
+- [Santa Sé]{"entity": "country_code", "value": "VA"} casos e mortes
+- [Estado da Cidade do Vaticano]{"entity": "country_code", "value": "VA"} casos e mortes
+- Dados atualizados em [República Malgaxe]{"entity": "country_code", "value": "MG"}.
+- Atualização de casos.
+- Atualização de casos de hoje.
+- Quantos infectados e mortos em [Hungria]{"entity": "country_code", "value": "HU"}.
+- Quantos infectados no [Reino Unido da Grã-Bretanha e Irlanda do Norte]{"entity": "country_code", "value": "GB"} até esta data.
+- Última atualização em [Etiópia]{"entity": "country_code", "value": "ET"}.
+- Última atualização dos infectados em [República Oriental do Uruguai]{"entity": "country_code", "value": "UY"}.
+- Última atualização dos infectados.
+- Últimos dados de mortes na [Tunisia]{"entity": "country_code", "value": "TN"}.
+- Última atualização na  [Ucrânia]{"entity": "country_code", "value": "UA"}.
+- Última atualização das mortes em [Lituânia]{"entity": "country_code", "value": "LT"}.
+- Última atualização sobre infectados em [Servia]{"entity": "country_code", "value": "RS"}.
+- Últimos relatórios em [Polônia]{"entity": "country_code", "value": "PL"}.
+- Novos casos e mortes em [República da União de Myanmar]{"entity": "country_code", "value": "MM"}.
+- Novos casos em [Letônia]{"entity": "country_code", "value": "LV"}.
+- Comentar sobre o coronavírus no [Gabão]{"entity": "country_code", "value": "GA"}?
+- Dados de hoje em [República do Gana]{"entity": "country_code", "value": "GH"}.
+- Atualizado hoje em [Ilhas Faroe]{"entity": "country_code", "value": "FO"}.
+- Dados de hoje em [República Checa]{"entity": "country_code", "value": "CZ"}.
+- Atualização de hoje em [Reino Unido da Grã-Bretanha e Irlanda do Norte]{"entity": "country_code", "value": "GB"}.
+- Quais são os números de hoje para [Bósnia-Herzegovina]{"entity": "country_code", "value": "BA"}
+- gostaria de saber os números atuais do [Ceilão]{"entity": "country_code", "value": "LK"}
+- situação em [República de Malta]{"entity": "country_code", "value": "MT"}
+- novidades no mundo
+- Situação atualizada do Coronavirus
+
+## intent:covid_situation_recovered
+- Quantos se recuperaram na [comunidade Europeia]{"entity": "world_region", "value": "Europe"}
+- Quantas recuperações até hoje na [região da Ásia]{"entity": "world_region", "value": "Asia"}
+- Recuperados [África]{"entity": "world_region", "value": "Africa"}
+- Recuperados em [Antártida]{"entity": "country_code", "value": "AQ"}
+- Recuperados da covid no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantos se recuperaram na [região da Oceania]{"entity": "world_region", "value": "Oceania"}
+- Quantas recuperações até esta data no [continente americano]{"entity": "world_region", "value": "America"}?
+- Recuperados na [República da Bielorrússia]{"entity": "country_code", "value": "BY"}
+- Quantos se recuperaram em [Reino de Espanha]{"entity": "country_code", "value": "ES"}?
+- Quantas pessoas já registrados em [Saint Kitts e Nevis]{"entity": "country_code", "value": "KN"}?
+- Quantas pessoas se recuperaram na [Alemanha]{"entity": "country_code", "value": "DE"}?
+- Quantos recuperados no [Haiti]{"entity": "country_code", "value": "HT"}?
+- Quantas recuperações em [Tobago]{"entity": "country_code", "value": "TT"}?
+- Quantas recuperações até esta data em [Burquina Fasso]{"entity": "country_code", "value": "BF"}?
+- Número de recuperados em [Federação Russa]{"entity": "country_code", "value": "RU"}.
+- Número de recuperações em [República de Costa Rica]{"entity": "country_code", "value": "CR"}.
+- Recuperados em  [Republica Equatorial]{"entity": "country_code", "value": "EC"}.
+- Recuperados em [Burúndi]{"entity": "country_code", "value": "BI"}.
+- Recuperados de covid em [Gâmbia]{"entity": "country_code", "value": "GM"}.
+- Recuperações em [Letônia]{"entity": "country_code", "value": "LV"}.
+- Recuperações de covid em [Ilhas Picárnia]{"entity": "country_code", "value": "PN"}.
+- Número total de recuperações em [Suomen tasavalta]{"entity": "country_code", "value": "FI"}.
+- quantos recuperados existem em [país de Bengala]{"entity": "country_code", "value": "BD"}?
+- Recuperados
+- Qual o número de recuperados?
+- Quantos se recuperaram até o momento?
+
+## intent:covid_situation_tested
+- Número total de testes na [Europa]{"entity": "world_region", "value": "Europe"}
+- Quantos testados na [região da Ásia]{"entity": "world_region", "value": "Asia"}
+- Testes na [África]{"entity": "world_region", "value": "Africa"}
+- Testes na  [Antártida]{"entity": "country_code", "value": "AQ"}
+- quantos testes foram feitos em [World]{"entity": "world_region", "value": "World"}?
+- Quantos testados em [região da Oceania]{"entity": "world_region", "value": "Oceania"}
+- Número total de testes em [continente americano]{"entity": "world_region", "value": "America"}?
+- [Lesoto]{"entity": "country_code", "value": "LS"} testado.
+- [República da Costa do Marfim]{"entity": "country_code", "value": "CI"} testes.
+- Quantos em [Serra Leoa]{"entity": "country_code", "value": "SL"} foram testados?
+- Quantas pessoas em [Tonga]{"entity": "country_code", "value": "TO"} foram testadas?
+- Quantas pessoas foram testadas no [Uruguai]{"entity": "country_code", "value": "UY"}?
+- Quantas pessoas foram testadas em [EUM]{"entity": "country_code", "value": "MX"}?
+- Quantos testados [República da Gâmbia]{"entity": "country_code", "value": "GM"}?
+- Quantos testes estão em [Al-Mamlakah al-'Urdunniyyah Al-Hashimiyyah]{"entity": "country_code", "value": "JO"}?
+- Quantos testados em [Sérvia]{"entity": "country_code", "value": "RS"}?
+- Quantos testes em [Ilhas Caiman]{"entity": "country_code", "value": "KY"}?
+- Quantos testes foram feitos [Sudão]{"entity": "country_code", "value": "SD"}?
+- Quantos foram testados em [Taiwan]{"entity": "country_code", "value": "TW"}?
+- Testado em [São Bartolomeu]{"entity": "country_code", "value": "BL"}.
+- Testes em [República da Macedônia do Norte]{"entity": "country_code", "value": "MK"}
+- Número total de testes em [Tonga]{"entity": "country_code", "value": "TO"}.
+- Número total de testes realizados em [Kibris Cumhuriyeti]{"entity": "country_code", "value": "CY"}.
+- Total testado no [Cidade do Vaticano]{"entity": "country_code", "value": "VA"}.
+- Total de testes na [Suécia]{"entity": "country_code", "value": "SE"}?
+- Qual é o número de testes em [Lețmō]{"entity": "country_code", "value": "LV"}?
+- quantos testes foram feitos em [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}?
+
+## intent:covid_surfaces
+- Durabilidade do Coronavirus em superfícies.
+- Resistência do Coronavirus em superfícies
+- Superfícies de durabilidade do Coronavirus.
+- Sobrevivência do Coronavírus em superfícies.
+- Durabilidade do coronavírus em superfícies.
+- Durabilidade do [novo coronavírus]{"entity": "virus", "value": "COVID"} em superfícies.
+- Durabilidade do vírus em superfícies.
+- Por quanto tempo a SAR-Cov-2 pode persistir em superfícies?
+- Por quanto tempo o SAR-Cov-2 pode sobreviver em superfícies?
+- Por quanto tempo o coronavírus pode persistir em superfícies?
+- Por quanto tempo o coronavírus pode sobreviver em superfícies?
+- Por quanto tempo o coronavírus pode resistir em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode persistir em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode resistir em superfícies?
+- Por quanto tempo o vírus pode persistir em superfícies?
+- Por quanto tempo o vírus pode sobreviver em superfícies?
+- Buzina viva em superfícies?
+- Quanto tempo ele pode sobreviver
+- Quanto tempo o vírus pode sobreviver
+- Quanto tempo a SARS-Cov-2 persiste em superfícies?
+- Quanto tempo o SARS-Cov-2 sobrevive em superfícies?
+- Quanto tempo o SARS-Cov-2 resiste em superfícies?
+- Quanto tempo a SARS-Cov-2 que causa [COVID-19]{"entity": "virus", "value": "COVID"} persiste em superfícies?
+- Quanto tempo o SARS-Cov-2 que causa [COVID-19]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o SARS-Cov-2 que causa [COVID-19]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Quanto tempo o coronavírus persiste nas superfícies?
+- Quanto tempo o coronavírus sobrevive em superfícies?
+- Quanto tempo o coronavírus resiste em superfícies?
+- Quanto tempo o coronavírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} persiste nas superfícies?
+- Quanto tempo o coronavírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o coronavírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} persiste nas superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Quanto tempo o [novel coronavirus]{"entity": "virus", "value": "COVID"} que causa [COVID-19]{"entity": "virus", "value": "COVID"} persiste em superfícies?
+- Quanto tempo o [novel coronavirus]{"entity": "virus", "value": "COVID"} que causa [COVID-19]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novel coronavirus]{"entity": "virus", "value": "COVID"} que causa [COVID-19]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Quanto tempo o vírus persiste nas superfícies?
+- Quanto tempo o vírus sobrevive em superfícies?
+- Quanto tempo o vírus resiste em superfícies?
+- Por quanto tempo o vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} persiste em superfícies?
+- Quanto tempo o vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Por quanto tempo o coronavírus pode persistir em superfícies?
+- Quanto tempo o coronavírus pode sobreviver em superfícies?
+- Por quanto tempo a SAR-Cov-2 pode persistir em superfícies?
+- Quanto tempo o SAR-Cov-2 pode sobreviver em superfícies?
+- Quanto tempo o SAR-Cov-2 pode resistir em superfícies?
+- Por quanto tempo o coronavírus pode persistir em superfícies?
+- Por quanto tempo o coronavírus pode sobreviver em superfícies?
+- Por quanto tempo o coronavírus pode resistir em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode persistir em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode resistir em superfícies?
+- Por quanto tempo o vírus pode persistir em superfícies?
+- Por quanto tempo o vírus pode sobreviver em superfícies?
+- Por quanto tempo o vírus pode resistir em superfícies?
+- Quanto tempo a SAR-Cov-2 persiste nas superfícies?
+- Quanto tempo o SAR-Cov-2 sobrevive em superfícies? 
+- Quanto tempo o SAR-Cov-2 resiste em superfícies?
+- Quanto tempo o coronavírus persiste em superfícies?
+- Quanto tempo o coronavírus sobrevive em superfícies?
+- Quanto tempo o coronavírus resiste em superfície?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} persiste em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Por quanto tempo o vírus persiste em superfícies?
+- Por quanto tempo o vírus sobrevive em superfícies?
+- Por quanto tempo o vírus resiste em superfícies?
+- durabilidade do novo coronavírus em superfícies.
+- superfícies de durabilidade do coronavírus.
+- sobrevivência em superfícies do novo coronavírus.
+- Durabilidade do SARS-Cov-2 em superfícies.
+- Superfícies de durabilidade do SARS-Cov-2.
+- Superfícies de sobrevivência da SAR-Cov-2.
+- superficies de sobrevivência.
+- superficies de resistência
+- Durabilidade do vírus em superfícies.
+- Superfícies de durabilidade de vírus.
+- Superfícies de sobrevivência dos vírus.
+- o vírus sobrevive em superfícies?
+- por quanto tempo o vírus pode sobreviver em uma superfície de plástico?
+- por quanto tempo o vírus pode resistir em uma superficie de plástico?
+- por quanto tempo o vírus pode sobreviver em uma superficie de vidro?
+- por quanto tempo o vírus pode resistir em uma superficie de vidro?
+- por quanto tempo o vírus pode resistir em uma superficie de metal?
+- por quanto tempo o vírus pode sobreviver em uma superficie de metal?
+- por quanto tempo o vírus pode sobreviver em uma superficie de madeira?
+- por quanto tempo o vírus pode resistir em uma superficie de madeira?
+- por quantas horas o vírus sobrevive em superfícies?
+
+## intent:covid_symptoms
+- Sobre os sintomas.
+- Quais são os sintomas?
+- Estou tendo sintomas?
+- Estou com febre leve, tosse e meu corpo está meio doendo. Isso é um sintoma de [Covid-19]{"entity": "virus", "value": "COVID"}?
+- Eu estou com falta de ar, isso é um sintoma de [Covid-19]{"entity": "virus", "value": "COVID"}?
+- Eu não consigo sentir o gosto da minha comida.Eu tenho corona
+- Eu tenho dor de garganta e nariz correndo. Eu tenho corona?
+- Eu quero saber sobre os sintomas
+- Esclarecimentos dos sintomas
+- Informações sobre os sintomas.
+- Informações de sintomas.
+- A febre é um sinal de infecção?
+- Sobre os sintomas.
+- Sinal de infecção.
+- Sinais de infecção.
+- Sintomas de infecção
+- Eu tenho corona?
+- Será que eu tenho corona?
+- Quero saber se tenho corona
+- Os sintomas de [COVID-19]{"entity": "virus", "value": "COVID"}.
+- os sintomas do coronavírus
+- Os sintomas da doença.
+- Os sintomas da infecção.
+- Os sintomas.
+- Quais são as indicações de coronavírus?
+- Quais são as indicações de corona?
+- Quais são os sintomas mais comuns ?
+- Quais são os sintomas usuais?
+- Quais são os sintomas
+- Quais são os sintomas de [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são os sintomas de [COVID19]{"entity": "virus", "value": "COVID"}?
+- Quais são os sintomas da doença?
+- Quais são os sintomas da infecção?
+- Quais são os sintomas?
+- O que podem ser sinais de infecção?
+- Quais são as indicações da infecção?
+- Quais são os indicadores da infecção?
+- Quais podem ser os sintomas da infecção?
+- Quais podem ser os sinais de infecção?
+- Quais podem ser os sintomas da infecção?
+- Quais sintomas aparecem?
+- Que sintomas estão relacionados com o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que sintomas estão relacionados com o coronavirus?
+- Quais são os sintomas relacionados com a doença?
+- Quais são os sintomas relacionados com a infecção?
+- Quais são os sintomas relacionados com o coronavírus?
+- Que sintomas devo procurar?
+- Onde posso encontrar informações sobre os sintomas?
+- Onde posso tirar dúvidas sobre os sintomas?
+- Como posso esclarecer sobre os sintomas?
+- Quais são os sintomas de [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são os sintomas da doença?
+- Quais são os sintomas da infecção?
+- Quais são os sintomas?
+- Quais são os sintomas do covid19?
+- Quais são os sintomas do COVID-19?
+- Quais sçao os sintomas do COVID-2019?
+- Quais são os sintomas do COVID2019?
+- Quais podem ser os sinais de infecção?
+- Quais podem ser os sintomas de infecção?
+- Quais podem ser os sinais de infecção?
+- Quais podem ser os sintomas da infecção?
+- Quais podem ser os sintomas da doença?
+- Quais sintomas aparecem?
+- Quais sintomas surgem?
+- Quais sintomas são conhecidos sobre [Covid19]{"entity": "virus", "value": "COVID"}?
+- Quais sintomas são conhecidos sobre coronavírus?
+- Quais sintomas estão relacionados com o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais sintomas estão relacionados com a doença?
+- Quais sintomas estão relacionados com a infecção?
+- Quais sintomas estão relacionados com a covid?
+- quais sintomas estão relacionados com o coronavírus?
+- Quem pega o vírus desenvolve quais sintomas?
+- Quem tem o vírus desenvolve quais sintomas?
+- Você gostaria de saber mais sobre os efeitos do [COVID-19]{"entity": "virus", "value": "COVID"}?
+- posso me autodiagnosticar?
+- você pode me explicar a respeito dos sintetizadores?
+- tosse
+- oi, quais são os principais sintomas?
+- como posso me testar
+- como posso me diagnosticar?
+- como fazer o diagnóstico?
+- como eu sei que eu tenho isso
+- como é a tosse?
+- seca
+- eu quero saber se a febre é um sintoma
+- a tosse é grave?
+- simpatizantes
+- sintomas?
+- E os músculos doloridos?
+- dor muscular
+- o que são sintomas da covid-19?
+- quais são os principais sintomas?
+- E se doer os meus ouvidos
+- e dor de ouvido
+- o que são os sintomas?
+- Estou com a respiração ácida o canal do nariz ardendo ....este sintoma pode ser covid-19
+- Estou com a respiração ácida e com o canal do nariz ardendo ....este sintoma pode ser covid-19
+- Este sintoma pode ser covid-19?
+- Respiração ácida pode ser covid-19?
+- Canal do nariz ardendo pode ser covid-19?
+- Diarréia é um sintoma grave para pessoas idosas?
+- Diarréia é um sintoma grave? 
+- Diarréia é um sintoma?
+- Somente cansaço pode ser sintoma do coronavírus??
+- Cansaço pode ser sintoma do coronavírus?
+- Cansaço é um sintoma?
+- Porque cada hora fala alguma coisa depois fala que é uma gripe dai vem outro fala quem vem com dor na costa
+- Dor nas costas é um sintoma?
+- Quero saber quais são sintoma
+- Quero saber quais são os sintomas?
+- Covid da conjuntivite?
+- Covid dá conjuntivite?
+- O vírus dá conjuntivite?
+- Conjuntivite é um sintoma de covid?
+- Conjuntivite é um sintoma?
+- Sintomas associados
+- Quais são os sintomas associados?
+- Sintomas associados ao covid-19
+- Quais são os sintomas associados ao covid-19?
+- Sintomas associados ao coronavírus
+- Quais são os sintomas associados ao coronavírus?
+- Falta de ar leve?
+- Estou com fome
+- No início tive umas bolhas nos dedos dos pés  são sintomas?
+- bolhas nos dedos dos pés são sintomas
+- bolhas nos dedos dos pés
+- bolhas são sintomas?
+- Estou  com o nariz entupido ...será  que e corona???
+- Minha filha está com febre há 3 dias  tem 1 ano pode ser covid
+- Febre pode ser covid?
+- Se não tiver com febre não precisa ir no médico
+- Só pode ir se tiver febre
+- Quando é pra procura um médico
+- Meu pai eh cardíaco teve um pré infarto ficou três dias internados fez o teste mais não recebe já está eh casa o teste não saiu resultado  deu altar por está bem sem sintomas mais ainda não termos o resultado seta que ele pode ter contraido
+- Covid da dor nos olhos?
+- Dor nos olhos
+- Dor nos olhos pode ser covid?
+- Dor nos olhos pode ser coronavírus?
+- A senhora acha que eu tive coronavirus
+- Queria saber que eu já tive coronavirus tive febre dor nas costa dor de garganta fisgada no coração dor de ouvido calafrio meu esposo teve meus sintomas mas ele teve falta de ar o que a senhora avalia doutora
+- Eu queria saber quais os sintomas mais comuns em crianças
+- Dor nas costelas
+- Estou com uma tosse causada por uma coceira n garganta, sem febre, sem dor no corpo
+- Falta  de olfato
+- Olfato
+- Quais são os sintomas predominante do corona vírus
+- estou c  diarreia  d  nads
+- nao  aguanto  mais está  sitoasao
+- eu gostaria  de saber  de verdade  os sintomas  do vivido 19
+- Gostaria de saber se é verdade que uma pessoa que esteja somente sentindo e estômago cheio por alguns dias já é um sintoma de covid
+- Posso está cm corona
+- "Estou com crise de amidalite.
+Bastante infeccionada já faz tomando antibiótico azitromicina"
+- Perda e olfato é o sintoma principal de covid 19?
+- Quais os sintomas do corona vírus
+- Quais os primeiros sintomas do corona vírus
+- Quais os primeiros sintomas?
+- Pessoa infectada pela covid tem febre após quantos dias de contágio ?
+- O q pode ser
+- O que pode ser?
+- Quero saber essa dor de cabeca é normal
+- Dor nos olhos e sintoma de covid
+- Meu esposo está com muita falta de ar e muita tosse
+- Garganta inflamada e com dor e covid?
+- quais sao os sintomas da doneca
+- A minha prima tive contato com uma pessoa que esta com a covid
+- Que tipo de tosse e mais perigosa
+- Ficar sem o olfalto e o paladar ja pode considerar que esta com covide
+- Quais o sintoma do corona vírus
+- A pessoa que está com Covid,  fica com a boca amarga?
+- Dor de garganta dor de cabeça peito doendo é covid?
+- Acordei hoje com o céu da boca bem ressecado e um pouco roco
+- Fraqueza
+- Fraqueza é um sintona?
+- "Não tive TDS os sintomas.
+Somente garganta , pintada nas costas e cansaço. Pode ser covid?
+Meu esposo está com covid"
+- Não tive todos os sintomas. Somente garganta, pintada nas costas e cansaço. Pode ser covid? Meu esposo está com covid
+- Pode ser covid?
+- não tenho febre mas tenho tosse
+- Me fauta muita aire
+- Me falta muito ar
+- Tou sintindo dor de pecho y ta quemando
+- quando ta tossindo e o que
+- Da dor de cabeca muita dor
+- Dor de garganta pode ser covid?
+- Eu senti falta de ar mas ñ sei se era covid ou não  porq tenho dificuldade de respirar]
+- Quais são os Primeiros Sitomas Do Covid-19?
+- Como saber se estou com covid
+- Sintomas associados leves ?
+- Sintomas leves quais são
+- Sem paladar e dor de cabeca
+- Simtomas
+- Perda de olfato
+- Perdir meu olfato
+- Perdi meu olfato
+- Apenas infecção na garganta,,pode ser sinal de estar contaminado ?
+- Apenas garganta inflamada,,pode ser sinal de corona ?
+ - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar e convud19
+ - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar é covid19?
+ - Dor de garganta
+ - A pessoa estar muito palida è um sintoma de Covid-19?
+ - Como saber se a pessoa está com o vírus
+ - Sintomas comum
+ - Bom dia qual e o sintomas do vírus
+ - 15 dias de diarreia sem febre e outros sintomas pode ser covid 19
+ - Diarreia  e sudorese são sintomas?
+
+## intent:covid_treatment
+- A Covid tem algum tratamento?
+- A covid-19 tem tratamento? 
+- A covid-2019 tem tratamento?
+- Como a doença é tratada?
+- Existe algum tratamento?
+- Tratamento
+- onde me tratar?
+- como me tratar?
+- quando me tratar?
+- o coronavirus tem tratamento?
+- A maioria das pessoas cura sem internacao?
+- Como ocorre o tratamento?
+- Quanto tempo o paciente fica internado
+
+## intent:covid_worry
+- E se eu pegar o vírus?
+- e se eu pegar corona?
+- e se eu ficar doente?
+- e se eu tiver corona?
+- e se eu estiver com o virus?
+- e se eu tiver covid?
+- E se eu pegar o covid?
+- Você acha que estou sendo bobo, eu me preocupo?
+- você acha que estou exagerando?
+- Olá Helen, estou preocupado com o vírus como todo mundo. Eu estava com o nariz escorrendo e olhos lacrimejando,  uma tosse, mas não constante. Eu não saio desde dezembro.
+- não está sendo bobo , você deve se preocupar 
+- Como proceder em relação às preocupações com a doença.
+- Como proceder em relação às preocupações com o surto.
+- Como proceder em relação às preocupações com o vírus.
+- Como proceder em relação às preocupações com a propagação.
+- Eu tenho medo de pegar corona
+- Eu tenho medo de pegar covid
+- Eu tenho medo de pegar o vírus
+- eu tenho medo de ficar doente
+- Eu tenho medo de pegar COVID-19
+- Eu me sinto mal
+- Eu estou triste
+- O vírus corona é perigoso?
+- o covid é perigoso?
+- o covid-19 é perigoso?
+- o vírus é contagioso?
+- o covid é contagioso?
+- Temo que a minha família pegue o vírus.
+- Eu tenho medo do vírus.
+- Eu tenho medo de pegar o vírus.
+- Eu tenho medo.
+- Eu tenho medo do covid.
+- Eu estou preocupado com a doença.
+- Eu estou preocupado com o surto.
+- Eu estou preocupado com o vírus.
+- Eu estou preocupado com o corona.
+- Eu estou preocupado com o covid-19
+- Eu estou preocupado.
+- Eu estou preocupado com a doença.
+- Estou preocupada com o surto.
+- Eu estou preocupada com o vírus.
+- Estou preocupada.
+- Devo me preocupar com o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo me preocupar com a doença?
+- Devo me preocupar com o surto?
+- Devo me preocupar com o vírus?
+- Devo me preocupar com o corona?
+- Devo me preocupar com [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo me preocupar com a doença?
+- Devo me preocupar com o surto?
+- Devo me preocupar com o vírus? 
+- O que fazer se eu me sentir mal?
+- O que fazer para canalizar as preocupações?
+- O que fazer para canalizar o medo?
+- O que fazer para canalizar a preocupação?
+- o que fazer para controlar o medo?
+- o que fazer para administrar o medo?
+- o que fazer para gerenciar o medo?
+- empatia
+- compaixão
+- Devo me preocupar com o vírus?
+- eu vou morrer
+- Eu fico tanto medo dessa doença esse tempo estava me  sintido despressiva
+- Eu fico com tanto medo dessa doença
+- Eu tenho medo do coronavírus
+- Estou com medo de pegar coronavírus
+- Vamos vencer o covid 19
+- Vamos vencer o covid 19?
+- Como sabe que não tô feliz
+- Nossa a coisa e séria assim
+- Perigoso isso
+
+## intent:ebola
+- Ebola
+- Ébola
+- Doença do vírus Ebola
+- Preciso saber mais sobre o Ebola
+- Fale-me sobre o Ébola
+- E sobre o Ébola
+- O que é ebola
+
+## intent:economy_consequences
+- Você pode responder perguntas relacionadas à economia?
+- Economia 
+- Consequências econômicas
+- impactos econômicos
+- Qual é o impacto desta pandemia na economia mundial 
+- qual é o impacto desta pandemia na economia do mundo [World]{"entity": "world_region", "value": "World"}?
+
+## intent:features_date
+- Você pode me falar a data de hoje?
+- Você pode me falar a data?
+- Você pode me falar o dia de hoje?
+- Você pode me falar o dia?
+- Você pode me falar que dia é hoje?
+- Você pode me falar hoje é que dia?
+- Você pode me dizer o encontro de hoje?
+- Você pode me dizer o dia de hoje?
+- diz me a data
+- Você pode me dizer qual é a data de hoje?
+- Você pode me dizer que dia é hoje?
+- Você pode me contar que dia é hoje?
+- que dia é hoje?
+- Você pode me dizer qual é a data?
+- Você pode me dizer qual é o dia de hoje?
+- Você pode me dizer qual é o dia?
+- Você pode me dizer qual é a data de hoje?
+- Você pode me dizer qual é a data?
+- Data.
+- Dia de hoje.
+- Data de hoje.
+- Eu não sei a data.
+- Eu não sei o dia.
+- Eu quero saber a data.
+- Em que dia nós estamos?
+- Qual é a data?
+- Que dia é hoje?
+- Qual é a data?
+- Qual é o dia?
+- Diga-me a data de hoje.
+- Diga-me a data.
+- Conte-me o dia de hoje.
+- Diga-me o dia.
+- Diga-me hoje é que dia.
+- Diga-me hoje estamos em que dia.
+- Diga-me o dia de hoje.
+- Diga-me a data de hoje.
+- Diga-me que data é hoje.
+- Diga-me que dia é hoje.
+- Diga-me qual é a data.
+- Diga-me qual é o dia de hoje.
+- Diga-me qual é o dia.
+- me fala qual é o data de hoje.
+- Diga-me qual é a data de hoje.
+- Diga-me qual é a data.
+- Data de hoje.
+- Hoje é que dia?
+- Que dia é hoje?
+- A data de hoje.
+- O dia de hoje.
+- Qual é a data de hoje?
+
+## intent:features_time
+- Você pode me dizer as horas?
+- diz me as horas
+- Você pode me dizer que horas são?
+- Você pode me falar as horas?
+- Você pode me dizer quais são as horas?
+- Você pode me dizer que horas são agora?
+- que horas são?
+- Você pode me dizer qual é a hora?
+- Você pode me dizer que horas são agora?
+- Você pode me dizer que horas são?
+- Você pode me falar que horas são?
+- Você pode me contar que horas são?
+- Você pode me dizer qual é a hora?
+- Você pode me contar que horas são agora?
+- Você pode me dizer que horas são?
+- Você pode me falar que horas são?
+- Horas agora.
+- Horas.
+- Como está o relógio?
+- Eu quero saber que horas são.
+- Eu quero saber as horas.
+- Eu gostaria de saber as horas.
+- Por favor, me dê um tempo.
+- Por favor, me diga as horas.
+- me conta as horas.
+- me diga as horas, por favor.
+- me diga as horas.
+- Me diga quais são as horas.
+- Me diga que horas são agora.
+- Me diga qual é a hora.
+- Me fala que horas são agora.
+- Me diga que horas são.
+- Conte-me que horas são.
+- Diga-me qual é a hora.
+- Diga-me quais são as horas agora.
+- me conta qual é a hora.
+- Quais são as horas?
+- Que horas são agora?
+- Qual é o horário?
+- Que horas tem agora?
+- Que horas são?
+- Que horas tem?
+- Qual é a hora?
+- Qual o horário agora?
+- me diga que horas são.
+
+## intent:greeting_goodbye
+- Adeus.
+- Tchau tchau.
+- Agora tchau.
+- Tchau.
+- Até logo.
+- Boa tarde.
+- Indo.
+- Adeus.
+- Boa noite.
+- Tenho que ir.
+- Tenho que correr.
+- Tenha um bom dia.
+- Tenha um ótimo dia.
+- Tenho que andar.
+- Tenho que sair.
+- Tenho que correr.
+- Eu vou dormir.
+- Eu vou descansar.
+- Eu tenho que ir agora.
+- Estou ansioso para conversar com você novamente.
+- Te vejo na próxima.
+- Eu disse adeus.
+- Eu deveria ter ido.
+- Eu deveria ir.
+- Eu estou fora.
+- Estou indo embora.
+- É um prazer conhecê-lo.
+- Foi um prazer conversar com você.
+- Foi um prazer te conhecer.
+- Foi um prazer conhecer você.
+- Foi um prazer falar com você.
+- Eu estou indo.
+- Até mais tarde.
+- Saudações.
+- Abraços
+- Desconectando.
+- Desligando.
+- Meu tempo acabou.
+- Preciso ir.
+- Preciso sair.
+- Preciso correr.
+- Ok, tchau.
+- Câmbio e desligo.
+- Até logo, cara.
+- Nos vemos mais tarde.
+- Nos vemos em breve.
+- Vejo você amanhã.
+- Até amanhã
+- Até a próxima.
+- Concluído.
+- Concluindo
+- Desligando.
+- Saindo
+- Até mais.
+- Cuide-se.
+- Se cuida.
+- Falamos com você em breve.
+- É isso aí! Tenha um bom dia!
+- Então adeus.
+- Hora de ir.
+- é isso por hoje
+- Por hoje é só.
+- Sumindo daqui
+- Vou vazar
+- Vazando
+- xau
+- falou
+- falow
+- Muito obrigado por nada tenha um dia adeus
+- de nada tchau
+- Boa noite!
+
+
+## intent:greeting_hello
+- Oi amigo.
+- Comece
+- Começar
+- Vamos começar
+- Oi
+- Oi gente
+- Tudo bem?
+- Boa Tarde.
+- Boa noite.
+- Boa. Noite
+- Bom dia.
+- Bom dia, Helen!
+- Saudações.
+- Olá Helen
+- Olá, sou eu.
+- Olá chatbot.
+- Olá robô.
+- Olá
+- Olá você.
+- Olá!
+- Olá, meu nome é Goldee
+- Olá, Helen. Boa tarde.
+- Olá, meu nome é.
+- E aí bot.
+- E aí chatbot.
+- Ei robô.
+- Ei, você.
+- Ei.
+- Oi Helen
+- Olá bot!
+- Oi amigo!
+- Oi robô!
+- Oi!
+- Olá, sou eu.
+- Oi, eu sou Paulo
+- Olá, meu nome é.
+- Olá!
+- Bom dia!
+- Meu nome é 
+- Prazer em conhecê-lo!
+- Muito prazer
+- Shalom!
+- olá Ellen
+- Olá, cara
+- Oi Ellen
+- COMEÇAR
+- Comece
+- Olś
+- Ola
+- ola
+- hello
+- oe
+- Oie!
+- Oiee
+- Oiii
+- Boa tarde
+- e aí beleza?
+- e aí? tudo bem?
+- e aí?
+
+## intent:greeting_how_are_you
+- Você está bem?
+- Você está indo bem?
+- Você está passando bem?
+- Você está bem?
+- oi tudo bem
+- Boa tarde, Helen! Como você está?
+- Você tem estado bem?
+- Como tem passado?
+- Olá Helen! Como você está?
+- Olá, como você está indo?
+- Olá, como você está?
+- Oi Helen! Como você está?
+- Olá, como você está?
+- Oi, como vai você?
+- Como vão as coisas?
+- Como você é querido?
+- Como você está se saindo hoje?
+- Como você está indo?
+- Como você está se sentindo hoje?
+- Como você está se sentindo?
+- Como vai você, meu amigo?
+- Como você está esta noite?
+- Como você está hoje?
+- Como você está?
+- Como está?
+- Como você se sente hoje?
+- Como se sente?
+- Como tem sido o seu dia?
+- Como está sendo seu dia?
+- Como está indo?
+- Espero que você esteja bem.
+- Está tudo bem?
+- Está bem?
+- Tudo bem?
+- Só queria perguntar como você está hoje.
+- O que está acontecendo?
+- E aí?
+- O que está acontecendo?
+- O que acontece?
+- Quem você é
+- Quem é você
+- Espere, como você está
+- ei, como você está indo
+- como eu estou?
+- Oi, tudo bom?
+- Tudo bom?
+
+## intent:mask_general
+- Assim eu trabalho diaria tem vez não tem ninguém na casa e preciso usar máscara
+- Trabalho de dirarista preciso usar máscara?
+- Sou dirarista preciso usar máscara
+- Posso usar uma máscara descartável?
+- Quando preciso usar máscara?
+- Posso usar uma máscara?
+- Posso usar uma máscara médica?
+- Máscara descartável.
+- Máscaras descartáveis.
+- Máscara reutilizável.
+- Máscaras descartáveis.
+- Máscara médica descartável.
+- Máscaras médicas descartáveis.
+- Como eu posso usar máscara?
+- Informação de Máscara descartável.
+- Máscara de informação.
+- Informação a respeito de Máscara médica.
+- devo usar máscara?
+- é obrigatória usar máscara?
+- É permitido o uso de máscara?
+- Está tudo bem usar máscara?
+- Não há problema em usar máscara
+- Máscara.
+- Máscaras.
+- Máscara médica descartável.
+- Máscaras médicas descartáveis.
+- Máscara médica.
+- As máscaras médicas, até onde eu sei, fazem parte das medidas preventivas.
+- Máscaras médicas.
+- Máscara médica.
+- Máscaras de tecido
+- Encomendar máscaras
+- Devo usar uma máscara descartável para me proteger?
+- Devo usar uma máscara descartável?
+- Devo usar uma máscara para me proteger?
+- Devo usar uma máscara?
+- Devo usar uma máscara médica para me proteger?
+- Devo usar uma máscara médica?
+- O que você acha de máscaras médicas?
+- Quando eu posso usar uma máscara?
+- Quando posso usar uma máscara descartável.
+- Quando posso usar uma máscara.
+- Quando posso usar uma máscara médica.
+- Quando deve ser usada uma máscara descartável.
+- Quando deve ser usada uma máscara.
+- Quando deve ser usada uma máscara médica.
+- Quando eu devo usar uma máscara descartável?
+- Quando eu devo usar uma máscara?
+- Quando eu devo usar uma máscara médica?
+- Onde posso comprar máscaras
+- Quem pode usar uma máscara descartável?
+- Quem pode usar uma máscara?
+- Quem pode usar uma máscara médica?
+- Quem deve usar uma máscara descartável?
+- Quem deve usar uma máscara?
+- Quem deve usar uma máscara médica?
+- sobre máscaras
+- as máscaras ajudam?
+- fazer máscaras médicas ajudam
+- Como usar máscaras?
+- Máscaras de prevenção da covid
+- Devo usar luvas?
+- posso usar máscara?
+- devo usar máscaras?
+- usar uma máscara previne a covid?
+- qual é a melhor máscara facial contra o corona
+- qual máscara previne o vírus?
+- quando devo usar uma máscara
+- quando usar máscaras?
+- onde posso obter material para me proteger?
+- Máscaras Médicas
+
+## intent:mask_use_after
+- Depois de usar uma máscara descartável.
+- Depois de usar uma máscara.
+- Depois de usar uma máscara médica.
+- Descartando uma máscara descartável.
+- Descartando uma máscara.
+- Descartando uma máscara médica.
+- Descarte de uma máscara descartável.
+- Descarte de uma máscara.
+- Descarte de máscara médica.
+- Livrando-se de uma máscara descartável usada.
+- Livrando-se de uma máscara usada.
+- Livrando-se de uma máscara médica usada.
+- Como se desfazer de uma Máscara
+- Como descartar uma máscara descartável?
+- Como descartar uma máscara?
+- Como descartar uma máscara médica?
+- Como arrumar uma máscara descartável?
+- Como arrumar uma máscara?
+- Como arrumar uma máscara médica?
+- Como descartar uma máscara descartável usada?
+- Como arrumar uma máscara usada?
+- Como arrumar uma máscara médica usada?
+- Como proceder após o uso de uma máscara descartável?
+- Como proceder após o uso de uma máscara?
+- Como proceder após o uso de uma máscara médica?
+- Como descartar uma máscara descartável muito usada?
+- Como descartar uma máscara usada demais?
+- Como descartar uma máscara médica muito usada?
+- O que fazer com uma máscara descartável usada?
+- O que fazer com uma máscara usada?
+- O que fazer com uma máscara médica usada?
+- Como descartar uma Máscara
+- descartar
+- como descartá-la?
+- como descartar a máscara?
+- Como descartar uma M...
+
+## intent:mask_use_put
+- Antes de colocar uma máscara descartável.
+- Antes de colocar uma máscara.
+- Antes de colocar uma máscara médica.
+- Antes de usar uma máscara descartável.
+- Antes de usar uma máscara.
+- Como colocar uma Máscara?
+- Antes de usar uma máscara médica.
+- Como se usa uma máscara?
+- Como colocar uma máscara descartável?
+- Como colocar uma máscara?
+- Como colocar uma máscara médica?
+- Como proceder antes de colocar uma máscara descartável?
+- Como proceder antes de colocar uma máscara?
+- Como proceder antes de colocar uma máscara médica?
+- Como proceder antes de usar uma máscara descartável?
+- Como proceder antes de usar uma máscara?
+- Como proceder antes de usar uma máscara médica?
+- Como colocar uma máscara descartável?
+- Como colocar uma máscara?
+- Como colocar uma máscara médica?
+- Como colocar uma máscara descartável?
+- Como colocar máscara médica?
+- Como usar uma máscara descartável.
+- Como usar uma máscara.
+- Como usar uma máscara médica.
+- Colocação de uma máscara descartável.
+- Colocação de uma máscara.
+- Colocação de uma máscara médica.
+- Procedimentos antes de colocar uma máscara descartável.
+- Procedimentos antes de colocar uma máscara.
+- Procedimentos antes de colocar uma máscara médica.
+- Procedimentos antes de usar uma máscara descartável.
+- Procedimentos antes de usar uma máscara.
+- Procedimentos antes de usar uma máscara médica.
+- Colocando uma máscara descartável.
+- Como colocar uma máscara descartável.
+- Colocando uma máscara.
+- Como colocar uma máscara.
+- Colocando uma máscara médica.
+- Como colocar uma máscara médica.
+- Colocando uma máscara descartável.
+- Colocando uma máscara médica.
+- Usar uma máscara descartável.
+- Usando uma máscara.
+- Uso de máscara médica.
+- O que fazer antes de colocar uma máscara descartável?
+- O que fazer antes de colocar uma máscara?
+- O que fazer antes de colocar uma máscara médica?
+- O que fazer antes de usar uma máscara descartável?
+- O que fazer antes de usar uma máscara?
+- O que fazer antes de usar uma máscara médica?
+- como põe mascara?
+- como devo usar uma máscara?
+- como colocar uma máscara?
+- colocar uma máscara
+- Qual é a forma correta de usar uma máscara?
+- Como colocar uma Más...
+- como utilizar máscaras?
+
+## intent:myth_alcohol
+- Álcool em todo o corpo.
+- Álcool pelo corpo todo.
+- Álcool pelo corpo inteiro
+- A pulverização de álcool por todo o corpo pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- A pulverização de cloro em todo o seu corpo pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- Pulverizar álcool por todo o corpo mata o vírus.
+- Pulverização de álcool.
+- Pulverizar cloro por todo o corpo mata o vírus.
+- Pulverização de cloro.
+- Espirrar álcool por todo o corpo mata o vírus.
+- Espirrar álcool.
+- Espirrar cloro por todo o corpo mata o vírus.
+- Borrifar cloro.
+- cloro em todo o corpo.
+- cloro pelo corpo todo.
+- se eu me cobrir de álcool
+- se eu me cobrir de álcool o vírus vai sair
+
+## intent:myth_5G
+- O coronavirus é transmitido pela rede 5G?
+- Coronavirus e rede 5G.
+- 5G.
+- Rede 5G propaga o virus.
+- Rede 5G.
+
+## intent:myth_cold_weather
+- A neve fria pode matar o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- A neve fria pode matar o [COVID]{"entity": "virus", "value": "COVID"} ?
+- A neve fria pode matar o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- A neve fria pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- A neve fria pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O tempo frio e a neve podem matar o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- O tempo frio e a neve podem matar o [COVID]{"entity": "virus", "value": "COVID"} ?
+- O tempo frio e a neve podem matar o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- O tempo frio e a neve podem matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O tempo frio e a neve podem matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O tempo frio pode matar o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- O tempo frio pode matar o [COVID]{"entity": "virus", "value": "COVID"} ?
+- O tempo frio pode matar o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- O tempo frio pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- Tempo frio efetivo contra a [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Tempo frio efetivo contra o [COVID]{"entity": "virus", "value": "COVID"} .
+- Tempo frio efetivo contra o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Tempo frio efetivo contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Tempo frio efetivo contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- O tempo frio mata o [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O tempo frio mata o [COVID]{"entity": "virus", "value": "COVID"} .
+- O tempo frio mata o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- O tempo frio mata o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- O tempo frio mata o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Neve contra o [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Neve contra o [COVID]{"entity": "virus", "value": "COVID"} .
+- Neve contra o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Neve contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Neve contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Neve mata o  [COVID-19]{"entity": "virus", "value": "COVID"}.
+- neve mata o [COVID]{"entity": "virus", "value": "COVID"} .
+- Neve mata o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- A neve mata o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- A neve mata o [novel coronavirus]{"entity": "virus", "value": "COVID"}.
+- Baixa temperatura 
+- Baixa temperatura ajuda a pegar o vírus?
+- E aqui aonde eu morou estava o calor de 41 grau derrepente  desceu a temperatura 13 grau isso que perigoso pega uma gripe
+
+## intent:myth_hot_bath
+- O calor mata o coronavírus
+- Tomar um banho quente previne a doença [COVID]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente previne a doença [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente impede o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente impede o [COVID]{"entity": "virus", "value": "COVID"} ?
+- Tomar um banho quente impede o vírus [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente impede o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente previne a doença [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente impede o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O calor mata o vírus?
+- O banho quente mata a doença [COVID]{"entity": "virus", "value": "COVID"}.
+- O banho quente mata a doença [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata o [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata o [COVID]{"entity": "virus", "value": "COVID"} .
+- O banho quente mata o vírus [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata a doença [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- O banho quente mata o vírus.
+- Prevenção de banhos quentes.
+- O banho quente previne contra a doença [COVID]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne contra a doença [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne contra o [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne contra o [COVID]{"entity": "virus", "value": "COVID"} .
+- O banho quente previne contra o vírus [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne contra o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Banho quente previne contra a doença [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Banho quente previne contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne a doença [COVID]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne a doença [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O banho quente impede a [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O banho quente impede a [COVID]{"entity": "virus", "value": "COVID"} .
+- O banho quente previne o vírus [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- O banho quente impede o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne a doença [novo vírus corona]{"entity": "virus", "value": "COVID"}.
+- O banho quente impede o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- A água quente pode matar o vírus?
+
+## intent:myth_mosquitoes
+- O mosquito pode transmitir corona
+- O vírus COVID-19 pode ser disseminado através de picadas de mosquitos?
+- O coronavírus pode ser transmitido por mosquitos?
+- Mosquitos e coronavírus
+- Mosquitos e a COVID-19
+- mosquito
+- mosquitos
+
+## intent:myth_garlic
+- Sobre alho
+- Alho
+- Alho previne.
+- Alho previne desse virus?
+- Será que alho previne?
+- Será que alho previne desse virus?
+- Alho previne dessa doença?
+- Será que alho previne dessa doença?
+- [garlic]{"entity": "garlic", "value": "garlic"}
+- [garlics]{"entity": "garlic", "value": "garlic"}
+- [alho]{"entity": "garlic", "value": "garlic"}
+- [alhos]{"entity": "garlic", "value": "garlic"}
+
+## intent:myth_packages
+- É seguro receber uma carta de qualquer área onde [COVID-19]{"entity": "virus", "value": "COVID"} tenha sido detectado?
+- É seguro receber um pacote de qualquer área onde [COVID-19]{"entity": "virus", "value": "COVID"} tenha sido registrado?
+- Embalagens provenientes de áreas infectadas.
+- Embalagens de países infectados.
+- Embalagens infectadas.
+- Pacotes com vírus.
+- Receber cartas de países infectados.
+- Receber embalagens de áreas infectadas.
+- Receber embalagens de países infectados.
+- posso receber uma carta de uma área infectada?
+- cartas de países infectados.
+- cartas infectadas.
+- cartas com vírus.
+- Encomendas provenientes de áreas infectadas.
+- Encomendas de países infectados.
+- Encomendas infectadas.
+
+## intent:myth_transmission_hot_areas
+- [COVID]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes e úmidos.
+- [COVID]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes.
+- [COVID]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes e úmidas.
+- [COVID]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes.
+- [COVID-19]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes e úmidos.
+- [COVID-19]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes.
+- [COVID-19]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes e úmidas.
+- [COVID-19]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes.
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes e úmidos?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes e úmidas?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes e úmidos?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes e úmidas?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes e úmidos?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes e úmidas?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes?
+- O coronavírus pode ser transmitido em áreas com climas quentes e úmidos?
+- O coronavírus pode ser transmitido em áreas com climas quentes?
+- O coronavírus pode ser transmitido em áreas quentes e úmidos
+- O coronavírus pode ser transmitido em áreas quentes?
+- O vírus da doença pode ser transmitido em áreas com climas quentes e úmidos?
+- O vírus da doença pode ser transmitido em áreas com climas quentes?
+- O vírus da doença pode ser transmitido em áreas quentes e úmidas?
+- O vírus da doença pode ser transmitido em áreas quentes?
+- O vírus pode ser transmitido em áreas com climas quentes e úmidos?
+- O vírus pode ser transmitido em áreas com climas quentes?
+- O vírus pode ser transmitido em áreas quentes e úmidas?
+- O vírus pode ser transmitido em áreas quentes?
+- Transmissão de Coronavírus em áreas com climas quentes e úmidos.
+- Transmissão de Coronavírus em áreas com climas quentes.
+- Transmissão de Coronavírus em áreas quentes e úmidas.
+- Transmissão de vírus coronavírus em áreas quentes.
+- Você acredita que um clima seco pode aliviar o vírus?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} se transmite em áreas com climas quentes e úmidos?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} se transmite em áreas com climas quentes?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} se transmite em áreas quentes e úmidas?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} se transmite em áreas quentes?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} se transmite em áreas com climas quentes e úmidos?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} se transmite em áreas com climas quentes?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} se transmite em áreas quentes e úmidas?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} se transmite em áreas quentes?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmite em áreas com climas quentes e úmidos?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmite em áreas com climas quentes?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmite em áreas quentes e úmidas?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmite em áreas quentes?
+- O coronavírus transmite em áreas com climas quentes e úmidos?
+- O coronavírus transmite em áreas com climas quentes?
+- O coronavírus transmite em áreas quentes e úmidas?
+- O coronavírus transmite em áreas quentes?
+- O vírus da doença se transmite em áreas com climas quentes e úmidos?
+- O vírus da doença se transmite em áreas com climas quentes?
+- O vírus da doença se transmite em áreas quentes e úmidas?
+- O vírus da doença se transmite em áreas quentes?
+- O vírus gosta de sol?
+- O vírus se transmite em áreas com climas quentes e úmidos?
+- O vírus se transmite em áreas com climas quentes?
+- O vírus se transmite em áreas quentes e úmidas?
+- O vírus se transmite em áreas quentes?
+- Climas quentes.
+- [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes e úmidos.
+- [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes.
+- [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes e úmidas.
+- [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes.
+- Espalhar climas quentes.
+- Transmissão em áreas com climas quentes e úmidos.
+- Transmissão em áreas com climas quentes.
+- Transmissão em áreas quentes e úmidas.
+- Transmissão em áreas quentes.
+- Transmissão em climas quentes.
+- Transmissão de vírus em áreas com climas quentes e úmidos.
+- Transmissão de vírus em áreas com climas quentes.
+- Transmissão de vírus em áreas quentes e úmidas.
+- Transmissão de vírus em áreas quentes.
+- a transmissão da doença em áreas com climas quentes e úmidos.
+- a transmissão de doenças em áreas com climas quentes.
+- a transmissão de doenças em áreas quentes e úmidas.
+- a transmissão de doenças em áreas quentes.
+- a transmissão da covid19 em áreas com climas quentes e úmidos.
+- a transmissão da covid19 em áreas com climas quentes.
+- a transmissão da covid19 em áreas quentes e úmidas.
+- a transmissão da covid19 em áreas quentes.
+
+## intent:myth_conspiracy_fakenews
+- Quais são os mitos associados com o vírus?
+- Conspirações
+- Conspiração
+- Notícias falsas
+- Fakenews
+- Mito
+- Mitos
+- Certo. Quais são os mitos associados a este vírus?
+- Quais são os mitos sobre o coronavírus?
+- quais são os mitos?
+- o que é mito?
+- quais os mitos da covid19?
+- como saber se é noticia falsa?
+- o que são noticias falsas?
+- o que são fakenews?
+- Existe uma nova virose Parecida com covid
+- Helena Quais são os mitos acerca do vidro
+
+## intent:prevention_clean_hands
+- Sobre a limpeza das mãos.
+- Sobre a lavagem das mãos.
+- lavar as mãos
+- Mãos limpas
+- Prevenção de mãos limpas
+- Limpeza das mãos
+- Prevenção da limpeza das mãos
+- Limpar as mãos evitará pegar a doença?
+- Limpar as mãos evitará que a propagação do vírus?
+- Limpar as minhas mãos com álcool vai reduzir as minhas chances de ser infectado?
+- Limpar minhas mãos com sabão vai reduzir minhas chances de ser infectado?
+- Você acha que lavar as mãos é suficiente?
+- Quão importante é ter as mãos limpas?
+- Qual a importância de se lavar as mãos?
+- Importância da limpeza das mãos.
+- A importância de ter as mãos limpas.
+- Importância da lavagem das mãos.
+- Lavar as mãos
+- Prevenção de lavagem das mãos
+- Lavando as mãos
+- Prevenção de lavar as mãos
+- Lavar as mãos impedirá de pegar a doença?
+- Lavar as mãos impedirá de pegar o vírus?
+- Lavar minhas mãos com sabão vai reduzir minhas chances de ser infectado?
+- Por que limpar as mãos regularmente?
+- Por que mãos limpas?
+- Por que limpar as mãos é importante?
+- Por que lavar as mãos regularmente?
+- Por que lavar as mãos?
+- Por que lavar as mãos é importante?
+- Quantas vezes eu tenho que lavar minhas mãos
+- como lavar mãos
+- como limpar as mãos
+- como lavar as mãos?
+- lavar minhas mãos já é o suficiente?
+- quando devo lavar minhas mãos?
+- como devo higienizar as mãos?
+
+## intent:prevention_disinfection
+- Como desinfetar as coisas?
+- O que usar como desinfetante?
+- qual desinfetante devo usar?
+- desinfetantes contra o corona
+- importância de desinfetar
+- desinfetantes contra a covid-19
+- quando desinfetar
+- dúvidas sobre como desinfetar alimentos
+- dúvidas de como desinfetar embalagens
+- preciso desinfetar roupas?
+- preciso desinfetar calçados?
+- preciso desinfetar roupa de cama?
+- preciso desinfetar maçanetas?
+
+## intent:prevention_distance
+- Distância de pessoas que tossem ou espirram.
+- Distância das pessoas que tossem.
+- Distância das pessoas espirrando.
+- Distância das pessoas.
+- qual a distância segura dentro de casa
+- tenho que manter distância de pessoas dentro de casa?
+- Qual é a distância segura de pessoas que tossem ou espirram?
+- Qual é a distância segura de pessoas que tossem?
+- Qual é a distância segura de pessoas que espirram?
+- Qual é a distância segura entre as pessoas?
+- Qual é a distância segura?
+- A que distância devo estar de alguém que está tossindo ou espirrando?
+- Quão longe eu deveria estar de alguém que está sem máscara?
+- A que distância devo estar de alguém que espirra?
+- A que distância devo estar de alguém que está tossindo ou espirrando?
+- Quão longe eu deveria estar de alguém que está tossindo?
+- Quão longe eu deveria estar de alguém que está espirrando?
+- Distância preventiva.
+- Distância segura de pessoas que tossem ou espirram.
+- Distância segura de pessoas que tossem.
+- Distância segura de pessoas espirrando.
+- Distância segura de pessoas com tosse.
+- Distância segura de pessoas com espirros.
+- Distância segura de pessoas com tosse e espirros.
+- Distância segura das pessoas.
+- Distância segura.
+- distância entre pessoas
+- dúvidas sobre distanciamento seguro
+
+## intent:prevention_general
+- Muito bem. Quais são as medidas de prevenção?
+- Você poderia me falar sobre medidas preventivas?
+- Como eu evito o vírus?
+- Como posso impedir a transmissão?
+- Como posso evitá-lo?
+- Como eu posso me proteger?
+- Como podemos evitar a propagação?
+- Como evitar o vírus
+- Como reduzir as chances de ser infectado?
+- Como reduzir as chances de propagação da doença?
+- Como reduzir as chances de propagação do vírus?
+- Como sobreviver a PANDEMIA?
+- Eu quero saber como prevenir a doença
+- você poderia me dizer como eu posso me proteger do vírus
+- Eu não sou positivo! Mas a pessoa da minha área vai ser positiva
+- Está tudo bem. Então, quais são as medidas preventivas?
+- Está tudo bem. Obrigado, então como posso prevenir isso agora?
+- Medidas
+- Medidas de prevenção.
+- Precauções a serem tomadas para prevenir.
+- Precauções a serem tomadas para proteger.
+- Precauções a tomar.
+- Prevenção de infecções.
+- Prevenção.
+- Medidas preventivas de proteção contra o vírus.
+- Medidas preventivas.
+- Maneiras preventivas
+- Medidas de proteção para prevenir a doença.
+- Medidas de proteção.
+- Proteção de infecções.
+- Medidas de proteção.
+- Me fale sobre medidas preventivas
+- Obrigado. Como podemos evitar a propagação?
+- Quais são as medidas de prevenção?
+- O que posso fazer para prevenir a propagação de doenças?
+- O que posso fazer para me proteger e prevenir a propagação de doenças?
+- O que eu posso fazer para me proteger?
+- Qual é a principal prevenção para este vírus?
+- O que fazer para prevenir a propagação de doenças?
+- O que fazer para se proteger do vírus?
+- O que fazer para me proteger do vírus?
+- Quais precauções devem ser tomadas?
+- Olá, como devo me proteger?
+- como fazer em relação às medidas preventivas
+- como eu posso me proteger
+- como posso me proteger do vírus corona
+- como eu posso lutar contra a covid-19
+- como podemos combater o coronavírus
+- como evitar que eu pegue um vírus
+- como me mantenho seguro
+- como se proteger contra o vírus
+- prevenir
+- medidas de prevenção
+- o que são medidas preventivas
+- o que são algumas medidas preventivas?
+- quais são os conselhos para combater a covid-19
+- quais são as medidas preventivas
+- quais são seus conselhos relacionados à covid-19
+- quais são os seus conselhos?
+- o que as pessoas podem fazer para deter a pandemia?
+- o que eu devo fazer?
+- o que devo fazer para me prevenir disso
+- quais são as medidas preventivas
+- dúvidas sobre medidas preventivas
+- dúvidas sobre prevenção do vírus
+- Como posso me prevenir do virus
+- Como posso me prevenir do vírus
+- Como posso me prevenir do vírus
+- Como posso me proteger do vírus
+- Prevenção contra o vírus
+- Proteção contra o vírus
+- Proteção
+- Como evitarmos?
+- Como evitar pegar covid?
+- Como evitar pegar o vírus?
+- Como evitar o vírus?
+- Quero saber se com o uso da máscara e passando álcool e gel na mão estou protegido
+- Oii queria informações sobre a coronavirus  como se previnir
+- Como se previnir do coronavirus?
+- É necessário mesmo chegar em casa e tomar banho? Ou só higienizar as mãos e tirar as roupas?
+- O álcool gel e a máscara são os principais contra o vírus?
+- Medidas Preventivas
+- Como evitar de pegar o vírus
+- Qual maneira mas correta de se proteger
+- Como evitar isso?
+
+## intent:prevention_home
+- Eu estarei seguro se eu ficar em casa?
+- Eu ficarei bem se eu ficar em casa?
+- Como me prevenir ficando em casa?
+- Eu me sinto um pouco doente, devo ficar em casa?
+- Eu me sinto um pouco febril, devo ficar em casa?
+- o que fazer quando estou em casa e com febre
+- Eu tenho diarréia
+- Eu tenho sintomas leves de doença, devo ficar em casa?
+- Eu tenho sintomas leves de doença, devo ficar em casa?
+- Eu só tenho sintomas leves, devo ficar em casa?
+- Eu só tenho sintomas leves, devo ficar em casa?
+- Eu só tenho sintomas leves.
+- Eu acho que eu estou doente
+- Se eu não me sentir bem, devo ficar em casa?
+- Se eu me sentir mal, devo ficar em casa?
+- Se eu tiver dor de garganta, isso é alarmante?
+- Em que circunstâncias devo ficar em casa?
+- circunstâncias que devo ficar em casa
+- Devo ficar em casa se eu me sentir um pouco doente?
+- Devo ficar em casa se não me sentir bem?
+- Devo ficar em casa?
+- Deveria ficar em casa se eu me sentir um pouco doente?
+- Deveria ficar em casa se não me sentir bem?
+- Devo ficar em casa?
+- Fique em casa.
+- E se eu só estiver com dor de garganta
+- E se meu estômago doer
+- Quando devo ficar em casa.
+- Quando ficar em casa.
+- Resposta Errada
+- dor de cabeça
+- calafrios
+- dor de garganta
+- estou com frio
+- tenho um pouco de tosse
+- meu filho tem febre. o que eu devo fazer?
+- Febre?
+- E se eu tiver uma dor de cabeça
+- você está certo, eu estou me sentindo mal
+- se eu me sentir mal como me medicar?
+- se eu tiver sintomas leves devo ficar em casa?
+- quanto tempo devo ficar em casa?
+- como prevenir a doença dentro de casa?
+- quais são os procedimentos de prevenção em casa?
+- Só tenho 1 quarto o que fazer
+- Minha casa é pequena. O que fazer?
+
+## intent:prevention_cloroquina
+- Cloroquina 
+- Hidroxicloroquina 
+- Cloroquina funciona?
+- Hidroxicloroquina funciona?
+- Entao a cloroquina e bom no tratamento da covid
+- Então a cloroquina é bom no tratamento da covid
+- Então a Hidroxicloroquina é bom no tratamento da covid
+- Cloroquina serve para tratar covid?
+- Hidroxicloroquina serve para tratar covid?
+- Posso usar Cloroquina no tratamento de covid?
+- Posso usar Hidroxicloroquina no tratamento de covid?
+
+## intent:prevention_ivermectina
+- ivermectina
+- vermectina
+- Queria saber se a vermectina e bom pra preparar o organismo pra quando pegar o vírus vc não passar muito mal
+- Queria saber se a ivermectina é boa pra preparar o organismo para quando pegar o vírus você não passar muito mal
+- A ivermectina funciona?
+- Então a ivermectina é bom no tratamento da covid?
+- ivermectina serve para tratar covid?
+- Posso usar ivermectina no tratamento de covid?
+- Quando já é tomado o vermectida e o azitromicina
+
+## intent:prevention_informed
+- Acompanhe as notícias.
+- É importante acompanhar as notícias?
+- É importante ler as notícias?
+- É importante se manter informado?
+- Mantenha-se atualizado.
+- Devo verificar regularmente as últimas notícias?
+- Devo acompanhar regularmente as notícias sobre o vírus?
+- Devo acompanhar as notícias sobre o vírus?
+- Devo acompanhar as notícias regularmente?
+- Devo acompanhar as notícias o tempo todo?
+- Devo acompanhar as notícias relacionadas ao [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo acompanhar as notícias relacionadas com a doença?
+- Devo acompanhar as notícias relacionadas com o vírus?
+- Devo acompanhar as notícias?
+- Devo ficar atento às últimas informações sobre o surto [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo me manter informado regularmente?
+- Devo me manter informado?
+- Mantenha-se informado.
+- Bem, isso é legal. Tem que se manter informado, certo?
+- Por que é importante acompanhar as notícias?
+- Por que é importante se manter informado?
+- Por que eu deveria verificar regularmente as últimas notícias?
+- Por que devo acompanhar as notícias relacionadas ao [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por que eu deveria acompanhar as notícias relacionadas à doença?
+- Por que eu deveria acompanhar as notícias relacionadas ao vírus?
+- Por que eu deveria estar ciente das últimas informações sobre o surto [COVID-19]{"entity": "virus", "value": "COVID"}?
+
+## intent:prevention_measures
+- Existem medidas não eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existem medidas que não são eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existem medidas que não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existem medidas que não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais medidas não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais medidas não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais medidas não são eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais medidas não são eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Fumar é eficaz contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- Cigarro é eficaz contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- A auto-medicação é eficaz contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Tomar antibióticos é eficaz contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Erva medicinais são eficazes contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- A auto-medicação funciona contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Tomar antibióticos funciona contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Erva medicinais funcionam contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- O que eu não devo fazer?
+- O uso de máscaras é eficaz contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- O uso de máscaras funciona contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- Medidas não eficazes.
+- Medidas não eficazes.
+- Devo fumar para prevenir [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- Devo tomar auto-medicação como antibióticos para prevenir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo tomar auto-medicação para prevenir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo usar ervas medicinais para prevenir [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- Devo usar máscaras para prevenir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo usar máscaras para evitar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que medidas não são eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que medidas não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- quais medicamentos devem ser evitados durante o COVId?
+- quais medicamentos não devo tomar durante o COVId?
+- o que eu devo evitar?
+- o que eu não devo fazer para me proteger contra o vírus?
+- o que eu não devo fazer para prevenir o vírus?
+
+## intent:prevention_medical_attention
+- Estou doente
+- to doente
+- Eu tenho o vírus?
+- Como eu sei que to infectado?
+- Como eu sei que to infectada?
+- O que devo fazer se estiver infectado?
+- O que devo fazer se estiver infectada?
+- O que fazer se estiver infectado?
+- O que fazer se estiver infectada?
+- Como proceder se eu tiver tosse?
+- Como proceder se eu tiver febre, tosse e dificuldade para respirar?
+- Como proceder se eu tiver febre, tosse ou dificuldade para respirar?
+- Como proceder se eu estiver com febre?
+- Como proceder se eu tiver dificuldade para respirar?
+- Como proceder em caso de tosse?
+- Como proceder em caso de dificuldade para respirar?
+- Como proceder em caso de febre, tosse e dificuldade para respirar?
+- Como proceder em caso de febre, tosse ou dificuldade para respirar?
+- Como proceder em caso de febre?
+- O que faço se eu tiver tosse?
+- O que faço se eu tiver febre, tosse e dificuldade para respirar?
+- O que faço se eu tiver febre, tosse ou dificuldade para respirar?
+- O que faço se eu estiver com febre?
+- O que faço se eu tiver dificuldade para respirar?
+- O que fazer em caso de tosse?
+- O que fazer em caso de dificuldade para respirar?
+- O que fazer em caso de febre, tosse e dificuldade para respirar?
+- O que fazer em caso de febre, tosse ou dificuldade para respirar?
+- O que fazer em caso de febre?
+- Eu estou tossindo o dia todo
+- Eu estou tossindo o dia todo e 9:00 da manhã
+- Eu estou infectado, o que devo fazer?
+- Eu estou infectada, o que devo fazer?
+- Eu to tossindo o dia todo
+- Eu to tossindo o dia todo e 9:00 da manhã
+- Eu to infectado, o que devo fazer?
+- Eu to infectada, o que devo fazer?
+- Eu não sei se eu tenho o vírus.
+- Eu não sei o que fazer se eu tiver o vírus.
+- Eu me sinto mal
+- Eu to com febre.
+- Eu to com tosse.
+- Eu to com covid
+- Eu to com dificuldade para respirar.
+- Eu to com febre, o que devo fazer?
+- Eu to com febre, tosse e dificuldade para respirar.
+- Eu estou com febre.
+- Eu tenho sintomas
+- Eu to com sintomas
+- Eu acho que to infectado, o que devo fazer?
+- Eu acho que to infectada, o que devo fazer?
+- Eu to me sentindo mal 
+- Eu to infectado
+- Eu to infectada
+- Quando devo entrar em contato com o serviço de saúde?
+- Quando devo procurar um médico?
+- Quando devo ir ao hospital?
+- Minha temperatura está acima de 38 graus, devo me preocupar?
+- Minha temperatura está acima de 38 graus.
+- Minha temperatura está acima de 39 graus. Devo me preocupar?
+- Devo procurar o médico se eu me sentir doente?
+- Devo procurar o médico se eu tiver tosse?
+- Devo procurar o médico se eu tiver dificuldade para respirar?
+- Devo procurar o médico se eu tiver febre, tosse e dificuldade para respirar?
+- Devo procurar o médico se eu tiver febre, tosse ou dificuldade para respirar?
+- Devo procurar o médico se eu tiver febre?
+- Devo ir para o hospital?
+- Devo procurar imediatamente por atendimento médico se eu tiver febre?
+- O que acontece se a minha febre tiver alta?
+- O que eu devo fazer se eu tiver febre?
+- O que uma pessoa deve fazer se tiver sintomas?
+- O que fazer se eu tiver tosse?
+- O que fazer se eu tiver febre, tosse e dificuldade para respirar?
+- O que fazer se eu tiver febre, tosse ou dificuldade para respirar?
+- O que fazer se eu estiver com febre?
+- O que fazer se eu tiver dificuldade para respirar?
+- O que fazer em caso de tosse?
+- O que fazer em caso de dificuldade para respirar?
+- O que fazer em caso de febre, tosse e dificuldade para respirar?
+- O que fazer em caso de febre, tosse ou dificuldade para respirar?
+- O que fazer em caso de febre?
+- Quando eu devo ir ao médico?
+- Quando chamar o serviço de saúde?
+- Quando procurar atendimento médico?
+- febre?
+- como eu sei se tenho [COVID 19]{"entity": "virus", "value": "COVID"} 
+- estou doente
+- to doente
+- devo ir ao médico?
+- o que eu devo fazer se eu tiver febre?
+- o que fazer em caso de ter sintomas
+- quando devo consultar um médico?
+- Meu filho tá com tosse seca e rouco. Nariz entupido
+- Tosse seca e rouco
+- Nariz entupido
+- Qual sintomas fora febre do covid
+- Só dor de garganta e covid
+- Febre é  alta?
+- Sintomas iniciais por favor?
+- Febre de 1 dia apenas,pode ser Covid?
+- Boa tarde! Tive um dia só  febre (38) tem 3 dias que não  tenho mais,não  estou tossindo estou comendo normalmente, mas a garganta arranha um pouco,pode ser Covid?
+- Tive contato com duas pessoas contaminadas pelo covid 19 já 5 dias tem algum perigo para mim
+- Covid da do garganta?
+- Cual es son az sintomas
+- Dor nas costas e rim sem febre e nem tosse
+- Eu ja tive o covid 19 hj ta vom 30 dias e agora q perdi o ofato e o paladar sera q estou contaminado de novo
+- Sobre COVID-19
+- Preciso ter no mínimo 2 sintoma?
+- Dor de cabeça e tosse pode ser sintoma do covid19
+- Aque hospital puedo ir si me siento muy al
+- Hello could you please tell me COVID-19 hospital?
+
+## intent:prevention_medicine
+- Fui no posto eles só me dão medicamento de dor
+- remédio para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- remédio para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- remédio.
+- medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- medicamento.
+- tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- tratamento.
+- vacina para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina, medicamento ou tratamento.
+- vacina.
+- Sobre remédios para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre remédios para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre remédios.
+- Sobre medicamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre medicamentos para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre medicamentos.
+- Sobre o tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre o tratamento.
+- Sobre vacinas para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos.
+- Sobre as vacinas.
+- O ibuprofeno prejudica os pacientes
+- Eu disse para tomar ibuprofeno
+- Existe uma cura?
+- Existe cura?
+- Existe algum remédio para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum remédio?
+- Existe medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe medicamento?
+- Existe tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum tratamento?
+- Existe uma vacina para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma vacina, droga ou tratamento?
+- Existe uma vacina?
+- Existe vacina?
+- Posso tomar aspirina?
+- Medicamentos
+- Vacina
+- Vacinas
+- De quem é a vacina? 
+- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
+- Sim. Mas existe uma vacina?
+- há uma vacina?
+- existem medicamentos para prevenir a doença?
+- existem vacinas para prevenir a doença?
+- aspirina?
+- vacina covid-19
+- existe uma vacina?
+- como posso receber tratamento?
+- como é o tratamento
+- quanto tempo levará para que uma vacina saia no mercado?
+- ibuprofeno
+- ibuprufen?
+- analgésicos?
+- paracetamol
+- paracetamol?
+- E o ibuprofeno?
+- que medicação devo tomar se estiver infectado
+- que remédio funciona melhor para este vírus
+- que medicamentos devem ser tomados?
+- sim foi preciso ibuprofeno
+- Que remédios devo tomar?
+- A vitaminaD3 óleo de Coco vitaminaC e zinco São bom pra aumentar a imunidade
+- São bom pra aumentar a imunidade
+- O que é bom para imunidade?
+- Fui no posto eles só me dão medicamento de dor
+- Que medicamento puedo tomar
+- Eu preciso saber se quando sentir febre alguns sintomas pode tomar remédio para tirar a febre antes de fazer o teste do covid
+- Qual remédio para tomar se tiver com covid
+
+## intent:prevention_respiratory_hygiene
+- Cobrir a boca e o nariz quando tossir ou espirrar.
+- Cobrir a boca e o nariz durante a tosse.
+- Cobrir a boca e o nariz quando espirrar ou tossir.
+- Cobrir a boca e o nariz quando espirrar.
+- Cobrir a boca e o nariz com o cotovelo dobrado quando tossir ou espirrar.
+- Cobrir a boca e o nariz com o cotovelo dobrado quando tossir.
+- Cobrir a boca e o nariz com o cotovelo dobrado quando espirrar ou tossir.
+- Cobrir a boca e o nariz com o cotovelo dobrado quando espirrar.
+- Cobrir a boca e o nariz com tecido quando tossir ou espirrar.
+- Cobrir a boca e o nariz com tecido quando tossir.
+- Cobrir a boca e o nariz com tecido quando espirrar ou tossir.
+- Cobrir a boca e o nariz com tecido quando espirrar.
+- Cobrir a boca quando tossir ou espirrar.
+- Cobrir a boca durante a tosse.
+- Cobrir a boca quando espirrar ou tossir.
+- Cobrir a boca quando espirrar.
+- Cobrir a boca com o cotovelo dobrado quando tossir ou espirrar.
+- Cobrir a boca com o cotovelo dobrado quando tossir.
+- Cobrir a boca com o cotovelo dobrado quando espirrar ou tossir.
+- Cobrir a boca com o cotovelo dobrado quando espirrar.
+- Cobrir a boca com tecido quando tossir ou espirrar.
+- Cobrir a boca com tecido quando tossir.
+- Cobrir a boca com tecido quando espirrar ou tossir.
+- Cobrir a boca com tecido quando espirrar.
+- Cobrir minha boca e nariz quando eu tossir vai ajudar a prevenir a propagação?
+- Cobrir minha boca e nariz quando espirro vai ajudar a prevenir a propagação?
+- Cobrir minha boca quando eu tossir vai ajudar a prevenir a propagação?
+- Cobrir minha boca quando eu espirro vai ajudar a prevenir a propagação?
+- Cobrir meu nariz quando eu tossir vai ajudar a prevenir a propagação?
+- Cobrir meu nariz quando eu espirro vai ajudar a prevenir a propagação?
+- Cobrir o nariz e a boca ao tossir ou espirrar.
+- Cobrir nariz e boca durante a tosse.
+- Cobrir nariz e boca quando espirrar ou tossir.
+- Cobrir o nariz e a boca quando espirrar.
+- Cobrir o nariz durante a tosse ou espirro.
+- Cobrindo o nariz durante a tosse.
+- Cobrir o nariz quando espirrar ou tossir.
+- Cobrindo o nariz enquanto espirra.
+- Cobrir o nariz com o cotovelo dobrado quando tossir ou espirrar.
+- Cobrir o nariz com o cotovelo dobrado quando tossir.
+- Cobrir o nariz com o cotovelo dobrado quando espirrar ou tossir.
+- Cobrir o nariz com o cotovelo dobrado quando espirrar.
+- Cobrir o nariz com tecido quando tossir ou espirrar.
+- Cobrir o nariz com tecido quando tossir.
+- Cobrir o nariz com tecido quando espirrar ou tossir.
+- Cobrir o nariz com tecido quando espirrar.
+- Seguir uma boa higiene respiratória.
+- Boa higiene respiratória.
+- Como seguir uma boa higiene respiratória?
+- O que é uma boa higiene respiratória?
+- O que fazer quando tossir ou espirrar?
+- O que fazer quando tossir?
+- O que fazer quando espirrar ou tossir?
+- O que fazer quando espirrar?
+
+## intent:prevention_touch
+- Sobre não tocar nos olhos.
+- Sobre não tocar no rosto.
+- Sobre não tocar na boca.
+- Sobre não tocar no nariz.
+- Sobre tocar os olhos.
+- Sobre contato com o rosto.
+- Sobre tocar a boca.
+- Sobre tocar o nariz.
+- Posso tocar meus olhos?
+- Posso tocar meu rosto?
+- Posso tocar minha boca?
+- Posso tocar meu nariz?
+- Posso tocar nos olhos?
+- Posso tocar no rosto?
+- Posso tocar na boca?
+- Posso tocar no nariz?
+- Informações sobre não tocar nos olhos.
+- Informações sobre como não tocar no rosto.
+- Informações sobre como não tocar na boca.
+- Informações sobre não tocar no nariz.
+- Informações sobre como tocar nos olhos.
+- Informações sobre como tocar no rosto.
+- Informações sobre como tocar na boca.
+- Informações sobre como tocar no nariz.
+- É importante não tocar nos olhos?
+- É importante não tocar no rosto?
+- É importante não tocar na boca?
+- É importante não tocar no nariz?
+- Devo evitar tocar nos meus olhos?
+- Devo evitar tocar no meu rosto?
+- Devo evitar tocar na minha boca?
+- Devo evitar tocar no meu nariz?
+- Deve evitar tocar os olhos?
+- Deve evitar tocar o rosto?
+- Deve evitar tocar a boca?
+- Deve evitar tocar o nariz?
+- Tocar nos olhos.
+- Tocar no rosto.
+- Tocar na boca.
+- Tocar no nariz.
+- Toque os olhos.
+- Toque o rosto.
+- Toque a boca.
+- Toque o nariz.
+- Tocar os olhos.
+- Tocar o Rosto.
+- Tocar a boca.
+- Tocar o nariz.
+- Tocando os olhos.
+- Tocando o rosto.
+- Tocando a boca.
+- Tocando o nariz.
+- Por que é importante não tocar nos olhos?
+- Por que é importante não tocar no rosto?
+- Por que é importante não tocar na boca?
+- Por que é importante não tocar no nariz?
+- Por que eu deveria evitar tocar meus olhos?
+- Por que eu deveria evitar tocar meu rosto?
+- Por que eu deveria evitar tocar minha boca?
+- Por que eu deveria evitar tocar meu nariz?
+
+## intent:prevention_vaccine
+- Uma vacina deve ser encontrada
+- Sobre uma vacina para a COVID-19.
+- Sobre uma vacina para tratar a COVID-19.
+- Sobre uma vacina, medicamento ou tratamento para a COVID-19.
+- Sobre uma vacina, medicamento ou tratamento.
+- Sobre uma vacina.
+- Sobre a vacina
+- Sobre as vacinas para a COVID-19.
+- Sobre as vacinas para o tratamento da COVID-19.
+- Sobre as vacinas, medicamentos ou tratamentos para a COVID-19.
+- Sobre as vacinas, medicamento ou tratamento.
+- Sobre as vacinas.
+- Alguma atualização sobre a vacina?
+- Qualquer vacina para a COVID-19.
+- Explicar o status da vacina covid 19
+- Foi estabelecida uma vacina contra o vírus corona?
+- Olá ...sou chamado Joseph, de Uganda.... minhas perguntas são... existe alguma vacina?
+- Até que ponto os médicos do governo foram com a questão da vacina covid 19?
+- Em que estado estamos com as vacinas
+- Informações sobre a promissora vacina
+- É verdade que a vacina será lançada em setembro
+- A vacina é encontrada
+- Existe ainda uma vacina descoberta?
+- Existe uma vacina para a COVID-19?
+- Existe uma vacina para tratar a COVID-19?
+- Existe uma vacina, medicamento ou tratamento para a COVID-19?
+- Existe uma vacina, medicamento ou tratamento?
+- Existe uma vacina?
+- Existe alguma vacina encontrada para esta pandemia?
+- Existe alguma vacina para este vírus?
+- Ainda não há vacina
+- Talvez uma outra coisa que eu gostaria de saber seja sobre a vacina
+- Nenhuma vacina?
+- Ok Helen Quando uma vacina pode ser produzida por alguns países
+- Ok, mas não há uma vacina ou uma solução para o problema.
+- Por favor, há uma vacina para detê-la
+- Portanto, qualquer vacina ainda
+- Assim, há esperança de que a vacina possa ser encontrada até o final deste ano
+- Diga-me a vacina da COVID-19
+- Obrigado Helen O uganda conseguiu uma vacina contra a doença ?
+- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?
+- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?????
+- Eles ainda não são vacina para a covida 19
+- Vacinas
+- De quem é a vacina? Necessidade de lebre!
+- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
+- Quando uma vacina pode ser produzida por alguns países
+- Quando é que a esperança de vacina pode ser encontrada
+- Quando a vacina chegará
+- Quando a vacina será liberada?
+- Quando a vacina for liberada
+- Quando virá a vacina Corona?
+- Quando as vacinas estarão disponíveis?
+- Quando as vacinas estarão disponíveis? Am Alfred
+- Onde está a vacina contra o vírus corona?
+- Quais vacinas já passaram do estágio 3 dos testes finais?
+- Estará disponível a vacina no mês de julho
+- Sim. Mas existe uma vacina?
+- existe uma vacina?
+- existem vacinas para prevenir a doença?
+- vacina contra a covida
+- vacina covid-19
+- existe uma vacina?
+- quanto tempo levará para que uma vacina saia no mercado?
+- existe alguma esperança no futuro sobre a vacina
+- E quanto à vacina?
+- Este vírus sofre mutações e por isso fica difícil a vacina funcionar?
+- A vacina vai funcionar?
+- Irão encontrar uma vacina?
+- Tem vacina?
+- A vacina cura?
+- Quando teremos a vacina?
+- Teremos a vacina esse ano?
+- A vacina sai ainda este ano ?
+- Vassina
+- Vasina
+- E verdade que tem uma varcina pode sair para o povo ainda este ano
+- É verdade que tem uma vacina que pode sair para o povo ainda este ano?
+- Tem cura
+- Cura
+- Alguma notícia sobre a vacina no Brasil?
+- Helena você  pode falar  se a vacina  estará prota em outubro
+- Vacina p quando?
+- Vacina para quando?
+
+## intent:quarantine_control
+- Como se controla a quarentena?
+- Quarentena controlada
+- Quem controla a quarentena?
+
+## intent:quarantine_dogwalking
+- Quarentena do cachorro
+- Caminhada e quarentena de cachorros
+- Cachorros e quarentena
+- Quarentena e cachorro
+- Quarentena e cachorros
+- O que fazem os donos de cachorros que estão em quarentena?
+- O que fazem os donos de cachorros que estão em quarentena? Quem sai com o animal?
+- Quarentena do cão
+- Caminhada e quarentena de cães
+- cães e quarentena
+- Quarentena e cão
+- Quarentena e cães
+- O que fazem os donos de cães que estão em quarentena?
+- O que fazem os donos de cães que estão em quarentena? Quem sai com o animal?
+
+## intent:quarantine_dos_and_donts
+- Posso sair de casa?
+- O que é permitido fazer na quarentena?
+- O que é proibido fazer na quarentena?
+- O que posso fazer na quarentena?
+- O que não posso fazer na quarentena?
+- é permitido sair de casa?
+- O que pode ou não ser feito durante a quarentena?
+- O que pode ser feito durante a quarentena?
+- O que não pode ser feito durante a quarentena?
+
+## intent:quarantine_general
+- Sobre a quarentena
+- Toque de recolher
+- Como é feita a quarentena?
+- Informações sobre quarentena.
+- Isolamento
+- Quarentena
+- Auto isolamento
+- Auto-isolamento
+- O que é toque de recolher?
+- O que é quarentena
+- Devo fazer quarentena?
+- ainda devo fazer a quarentena?
+- ainda devo fazer quarentena?
+- sem sintomas durante a quarentena, após quanto tempo podemos nos considerar curados?
+- Estou com COVID a uma semana quanto tempo preciso a mais em isolamento???
+- Estou com COVID há uma semana quanto tempo preciso a mais em isolamento???
+- Eu tá com sintomas ai o médico me deu 14 dias de quarentena ai depois fiz o teste deu positivo
+- Fiz meu teste e deu positovo
+- Fiz meu teste e deu positivo
+
+## intent:quarantine_toiletpaper
+- Papel higiênico
+- Por que tantas pessoas compram papel higiênico agora?
+
+## intent:quarantine_when_who_howlong
+- Se eu fizer quarentena.
+- Quando preciso fazer quarentena?
+- Quem precisa fazer quarentena?
+- Quem deve fazer quarentena?
+- Qtos dias a pessoa que foi diagnosticada positivo pode voltar a conviver com outras pessoas que não tenha sido contaminada ??
+- devo fazer quarentena?
+
+## intent:quaratine_how_it_works
+- Como fazer a quarentena propriamente dita?
+- Como funciona a quarentena?
+- Como fazer uma quarentena adequada?
+- Como fazer a quarentena certo?
+- Como fazer a quarentena?
+- O que é quarentena?
+- O que é quarentena? Como funciona?
+- qual período correto para volta as atividades.ainda sento minha garganta irritada e normal
+- vdd.hoje estou com 16 dias que estou no isolamento.tenho um filho de 2anos.desde do dia que descobrir que estava com covid não dei de mamar será que eu ja posso dá."
+- Tive contato com pessoa que testou positivo
+- "Boa noite
+Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, nem falta de ar. Médico disse que pode ser Covid. Receitou remédios e fiz o exame"
+- Estou com covid ja estou no meu 5 dia de tratamento dai meu marido pegou e começou o tratamento agora eu tenho que evitar ficar perto dele
+
+## intent:spread_air
+- Propagação pelo ar.
+- Disseminação pelo ar.
+- Transmissão pelo ar.
+- Pode ser propagado pelo ar?
+- Pode ser espalhado pelo ar?
+- Pode ser transmitido pelo ar?
+- Pode ser disseminado pelo ar?
+- pode passar pelo ar?
+- O vírus pode ser propagado através do ar?
+- O vírus pode ser espalhado pelo ar?
+- O vírus pode ser transmitido pelo ar?
+- O vírus pode ser disseminado pelo ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} pode ser propagado através do ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} pode ser disseminado pelo ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido pelo ar?
+- É possível que o vírus seja propagado pelo ar?
+- É possível que o vírus se propague pelo ar?
+- É possível que o vírus seja transmitido pelo ar?
+- É possível ser propagado pelo ar?
+- É possível ser espalhado pelo ar?
+- É possível ser transmitido pelo ar?
+- É possível que o vírus seja disseminado pelo ar?
+- É possível que o vírus se dissemine pelo ar?
+- É possível ser propagado por via aérea?
+- É possível ser espalhado por via aérea?
+- É possível ser transmitido por via aérea?
+- É possível ser disseminado por via aérea?
+- O vírus é propagado através do ar?
+- O vírus se espalha através do ar?
+- O vírus é disseminado através do ar?
+- O vírus se dissemina através do ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é propagado através do ar?
+- O vírus que causa a [COVID-19]{"entity": "virus", "value": "COVID"} se espalha pelo ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é transmitido através do ar?
+- O vírus que causa a [COVID-19]{"entity": "virus", "value": "COVID"} se dissemina pelo ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é disseminado através do ar?
+- O vírus é transmitido através do ar?
+- Propagação por via aérea.
+- Disseminação por via aérea.
+- Transmissão por via aérea.
+- isso pega pelo ar mesmo ?
+- É transmitido pelo ar?
+- Posso pegar covid pelo ar?
+
+
+## intent:spread_animals
+- Posso ser infectado com [COVID-19]{"entity": "virus", "value": "COVID"} por um animal?
+- Posso ser infectado com [COVID-19]{"entity": "virus", "value": "COVID"} por animais?
+- Posso ser infectado com o vírus por um animal?
+- Posso ser infectado com o vírus por animais?
+- Posso ser infectada com [COVID-19]{"entity": "virus", "value": "COVID"} por um animal?
+- Posso ser infectada com [COVID-19]{"entity": "virus", "value": "COVID"} por animais?
+- Posso ser infectada com o vírus por um animal?
+- Posso ser infectada com o vírus por animais?
+- Posso pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de uma fonte animal?
+- Posso pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de um animal?
+- Posso pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de fonte animal?
+- Posso pegar o [COVID-19]{"entity": "virus", "value": "COVID"} dos animais?
+- Eu posso pegar o vírus de uma fonte animal?
+- Eu posso pegar o vírus de um animal?
+- Posso pegar o vírus da fonte de animais?
+- Posso pegar o vírus dos animais?
+- Um animal pode me infectar?
+- Um animal pode espalhar [COVID-19]{"entity": "virus", "value": "COVID"} para os humanos?
+- Um animal pode espalhar [COVID-19]{"entity": "virus", "value": "COVID"} para as pessoas?
+- Um animal pode espalhar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Um animal pode espalhar o vírus para humanos?
+- Um animal pode espalhar o vírus para pessoas?
+- Um animal pode espalhar o vírus?
+- Os animais podem me infectar?
+- Os animais podem espalhar [COVID-19]{"entity": "virus", "value": "COVID"} para os humanos?
+- Os animais podem espalhar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Os animais podem espalhar o vírus para os seres humanos?
+- Os animais podem espalhar o vírus?
+- Os humanos podem ser infectados com o [COVID-19]{"entity": "virus", "value": "COVID"} por uma fonte animal?
+- Os humanos podem ser infectados com o [COVID-19]{"entity": "virus", "value": "COVID"} por um animal?
+- Os humanos podem ser infectados com o [COVID-19]{"entity": "virus", "value": "COVID"} por origem animal?
+- Os humanos podem ser infectados com o [COVID-19]{"entity": "virus", "value": "COVID"} por animais?
+- Os seres humanos podem ser infectados pelo vírus a partir de uma fonte animal?
+- O ser humano pode ser infectado pelo vírus por um animal?
+- Os seres humanos podem ser infectados com o vírus por origem animal?
+- Os seres humanos podem ser infectados com o vírus por animais?
+- as pessoas podem ser infectadas com o [COVID-19]{"entity": "virus", "value": "COVID"} por uma fonte animal?
+- as pessoas podem ser infectadas com o [COVID-19]{"entity": "virus", "value": "COVID"} por um animal?
+- as pessoas podem ser infectadas com o [COVID-19]{"entity": "virus", "value": "COVID"} por origem animal?
+- as pessoas podem ser infectadas com o [COVID-19]{"entity": "virus", "value": "COVID"} por animais?
+- Então o vírus é de origem animal?
+- animais
+- o vírus se transmite dos animais para as pessoas?
+
+## intent:spread_feces
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de uma pessoa infectada?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de alguém com a doença?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} das fezes de uma pessoa infectada?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} das fezes de alguém com a doença?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cocô de uma pessoa infectada?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cocô de alguém com a doença?
+- Posso pegar o vírus através de excrementos?
+- Eu posso pegar o vírus através das fezes?
+- Posso pegar o vírus através do cocô?
+- O vírus pode ser pego através de excrementos?
+- O vírus pode ser pego através das fezes?
+- O vírus pode ser pego através do cocô?
+- pegar o vírus através de excrementos.
+- pegar o vírus através das fezes.
+- pegar o vírus através do cocô.
+- Adquirir o vírus através de excrementos.
+- Adquirir o vírus através das fezes.
+- Adquirir o vírus através do cocô.
+- Fezes de alguém infectado podem passar o vírus?
+- Infecção através de excrementos.
+- Infecção através das fezes.
+- Infecção através do cocô.
+- Infecção por excrementos.
+- Infecção por fezes.
+- Infecção por cocô.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de uma pessoa infectada.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de alguém com a doença.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} das fezes de uma pessoa infectada.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} das fezes de alguém com a doença.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cocô de uma pessoa infectada.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cocô de alguém com a doença.
+- Espalhar através de excrementos.
+- Espalhar através das fezes.
+- Espalhar através do cocô.
+- disseminar através de excrementos.
+- disseminar através das fezes.
+- disseminar através do cocô.
+- Passar através de excrementos.
+- Passar através das fezes.
+- Passar através do cocô.
+
+## intent:spread_general
+- como se pega o covide 19?
+- como se pega a covide 19?
+- como se pega o covid 19?
+- como se pega a covid 19?
+- como se pega o covid-19?
+- como se pega a covid-19?
+- Sobre como [COVID-19]{"entity": "virus", "value": "COVID"} se propaga.
+- Sobre como [COVID-19]{"entity": "virus", "value": "COVID"} se espalha.
+- Sobre como [COVID-19]{"entity": "virus", "value": "COVID"} se dissemina.
+- Sobre como o coronavírus se propaga.
+- Sobre como o coronavírus se espalha.
+- Sobre como o coronavírus se dissemina.
+- Sobre como se propaga.
+- Sobre como se espalha.
+- Com quantos dias eu ñ transmito mais o vírus?
+- Com quantos dias eu não transmito mais o vírus?
+- Sobre como se dissemina.
+- Sobre como a doença se propaga.
+- Sobre como a doença se espalha.
+- Sobre como o vírus se propaga.
+- Sobre como o vírus se espalha.
+- [COVID-19]{"entity": "virus", "value": "COVID"} propagar.
+- [COVID-19]{"entity": "virus", "value": "COVID"} disseminação.
+- [COVID-19]{"entity": "virus", "value": "COVID"} propagação.
+- [COVID-19]{"entity": "virus", "value": "COVID"} espalha.
+- [COVID-19]{"entity": "virus", "value": "COVID"} espalhando.
+- [COVID-19]{"entity": "virus", "value": "COVID"} dissemina.
+- Coronavírus se propaga.
+- Coronavírus se dissemina.
+- Propagação do Coronavírus.
+- Disseminação de Coronavírus.
+- Você poderia me dar notícias sobre a propagação do vírus?
+- Você poderia me mostrar informações sobre a propagação da doença?
+- Propagação de doenças.
+- Propagação da doença.
+- Disseminação de doenças.
+- Disseminação da doença.
+- Como [COVID-19]{"entity": "virus", "value": "COVID"} se propaga.
+- Como [COVID-19]{"entity": "virus", "value": "COVID"} se espalha.
+- Como [COVID-19]{"entity": "virus", "value": "COVID"} se transmite.
+- Como [COVID-19]{"entity": "virus", "value": "COVID"} se dissemina.
+- Como eu posso pegar o Covid
+- Como eu posso pegá-lo?
+- Como se propaga o coronavírus.
+- Como o coronavírus se espalha.
+- Como o [COVID-19]{"entity": "virus", "value": "COVID"} se propaga?
+- Como o [COVID-19]{"entity": "virus", "value": "COVID"} passa?
+- Como o [COVID-19]{"entity": "virus", "value": "COVID"} se espalha?
+- Como o [COVID-19]{"entity": "virus", "value": "COVID"} se dissemina?
+- Como pega o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Como o coronavírus se propaga?
+- Como o coronavírus se espalha?
+- Como o coronavírus se dissemina?
+- Como o coronavírus se transmite?
+- Como ela se propaga?
+- Como se espalha?
+- Como espalha?
+- Como passa?
+- Como a covid-9 se espalha
+- Como a doença se propaga?
+- Como a doença se espalha?
+- Como passa a doença?
+- Como o vírus se propaga?
+- Como o vírus se espalha?
+- Como passa o vírus?
+- Como a Covid está se espalhando?
+- Como é transmitido
+- Como ela se propaga.
+- Como se espalha.
+- Como a doença se propaga.
+- Como a doença se espalha.
+- Como o vírus se propaga.
+- Como o vírus se espalha.
+- Como o vírus se transmite.
+- Eu quero saber como eu posso pegar a doença
+- Certo. O que você sabe sobre a propagação?
+- Propagação de [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Propagação do coronavírus.
+- Propagação da doença.
+- Propagação do vírus.
+- Propagação
+- Disseminação do coronavírus.
+- Disseminação da doença.
+- Disseminação do vírus.
+- Disseminação de vírus.
+- Propagação de [COVID-19]{"entity": "virus", "value": "COVID"}.
+- transmissão do coronavírus.
+- transmissão da doença.
+- transmissão do vírus.
+- transmissão
+- transmissão
+- Propaga o vírus.
+- Dissemina o vírus.
+- O que causa a propagação do vírus?
+- O que causa a transmissão do vírus?
+- Você pode me dizer como o vírus se espalha?
+- Você pode me dizer como transmite o vírus?
+- como posso pegar o vírus
+- como posso contrair o vírus
+- como eu posso pegar
+- como eu posso pegar o vírus?
+- como funciona este vírus?
+- como é transmitido [Covid 19]{"entity": "virus", "value": "COVID"}?
+- como é a transmissão
+- como o vírus é transmitido
+- o vírus se espalha
+- transmissão
+- transmissões
+- Transmissão
+- Até que dia se transmite o vírus?
+- Até qdo se transmite o coronavírus?
+- Até quando se transmite o vírus?
+- Até qd se transmite o vírus?
+- Até qd se transmite o coronavírus?
+- Transmissão do vírus
+- Esfregar os olhos pega Covid-19
+- Como o vírus se espalha?
+- Como o virus se espalha??
+- como se pega o covide 19?
+- É possível contrair o coronavirus mesmo usando máscara?
+- Como se pega o covide 19
+-.como que o virus se  espelha
+- Como que o vírus se espalha?
+- Igrejas tem maior risco de contaminação?
+- Qual a maior forma de contaminacao do COVID
+- Como ele se espalha
+- Como se pega
+- E não transmite o vírus
+
+## intent:spread_no_symptoms
+- Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
+- Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} por uma pessoa sem sintomas?
+- Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} por uma pessoa assintomática?
+- Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} por alguém que não tem sintomas?
+- da pra pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém sem sintomas?
+- da pra pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém assintomático?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa assintomática?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas que não têm sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas assintomáticas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém que não tem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém sem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém assintomático?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa sem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa assintomática?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas que não têm sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas sem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas assintomáticas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de alguém que não tem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de alguém sem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de alguém assintomático?
+- posso pegar o vírus de uma pessoa que não tem sintomas?
+- posso pegar o vírus de uma pessoa sem sintomas?
+- posso pegar o vírus de uma pessoa assintomática?
+- Posso pegar o vírus de pessoas que não têm sintomas?
+- posso pegar o vírus de pessoas sem sintomas?
+- posso pegar o vírus de pessoas assintomáticas?
+- Posso pegar o vírus de alguém que não tem sintomas?
+- posso pegar o vírus de alguém sem sintomas?
+- posso pegar o vírus de alguém assintomático?
+- dá pra pegar o vírus de uma pessoa que não tem sintomas?
+- dá pra pegar o vírus de uma pessoa sem sintomas?
+- dá pra pegar o vírus de uma pessoa assintomática?
+- dá pra pegar o vírus de pessoas que não têm sintomas?
+- dá pra pegar o vírus de pessoas sem sintomas?
+- dá pra pegar o vírus de pessoas assintomáticas?
+- dá pra pegar o vírus de alguém que não tem sintomas?
+- dá pra pegar o vírus de alguém sem sintomas?
+- dá pra pegar o vírus de alguém assintomático? 
+- Pessoas sem sintomas podem passar o vírus?
+- O vírus é transmitido por uma pessoa que não tem sintomas?
+- O vírus é transmitido por uma pessoa sem sintomas?
+- O vírus é transmitido por uma pessoa assintomática?
+- O vírus é transmitido por alguém que não tem sintomas?
+- O vírus é transmitido por alguém sem sintomas?
+- O vírus é transmitido por alguém assintomático?
+- As pessoas que não apresentam sintomas podem ser infecciosas?
+- Quem não tem sintomas pode transmitir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Pessoas que não apresentam sintomas podem transmitir o vírus?
+- Pessoas que não têm sintomas podem transmitir?
+- Pessoas sem sintomas podem ser infecciosas?
+- Pessoas sem sintomas podem transmitir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Pessoas sem sintomas podem transmitir o vírus?
+- Pessoas sem sintomas podem transmitir?
+- Pessoas assintomáticas podem ser infecciosas?
+- Pessoas assintomáticas podem transmitir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Pessoas assintomáticas podem transmitir o vírus?
+- Pessoas assintomáticas podem transmitir?
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa assintomática.
+- Risco de pegar o vírus de uma pessoa que não tem sintomas.
+- Risco de pegar o vírus de uma pessoa sem sintomas.
+- Risco de pegar o vírus de uma pessoa assintomática.
+- Risco de pegar o vírus de alguém que não tem sintomas.
+- Risco de pegar o vírus de alguém sem sintomas.
+- Risco de pegar o vírus de alguém assintomático.
+- Alguém que não tem sintomas pode ser infeccioso?
+- Alguém que não tem sintomas pode passar o vírus?
+- Alguém que não tem sintomas pode transmitir o vírus?
+- Alguém sem sintomas pode ser infeccioso?
+- Alguém sem sintomas pode passar o vírus?
+- Alguém sem sintomas pode transmitir o vírus?
+- Alguém assintomático pode ser infeccioso?
+- Alguém assintomático pode passar o vírus?
+- Alguém assintomático pode transmitir o vírus?
+- Pessoas assitomaticas transmitem o covid?
+- Pessoas assitomáticas transmitem o covid?
+- Assintomáticos transmitem o covid?
+- Assintomáticos transmitem coronavirus?
+- Assintomáticos
+- Tive contato com uma pessoa com covid faz uns 9 dias atraz NÃO tenho sintomas oque eu devo fazer?
+- So mais uma coisa  que eu tenho dúvida tem pessoas que nada senti nada
+- Posso estar com covid sem ter febre?
+- Se a pessoa não tem sintomas ela pode ter tudo corona?
+- Mais não tenho febri
+- Mais n tenho nenhum sintoma como pode te dado positivo
+- "Seu eu pegar covid e fico 5 dias e não sinto falta de a
+Ar aí posso agravar eu a fase pior passou"
+- Eu estou com uma dúvida eu fiz  um teste para covid 19 já faz 14 dias deu positivo fiz outra hj deu negativo o meu exame deu igG não reagente e igm não reagente eu não estou entendendo então eu não tive covid19
+- Mas tem gente que nao ten eses simtomas e texto positivo teve so vomito e mau estar
+- "Oi bom dia comecei senti o sintoma no dia 21 07 tomei os medicamentos fiz o exame de sangue no mesmo dia deu negativo.
+Mas medica pediu para repetir fiz o segundo no dia 10/ 8 deu possivo fiz tomografia computadorizada deu vidro fosco.
+Aí no dia 18/ 08 fiz outro exame deu possivo.
+Qual tempo certo para faze outro exame.
+Eu não estou sentindo nada"
+
+## intent:spread_pets
+- posso ser infectado pelo meu gato?
+- Posso ser infectado pelo meu animal de estimação?
+- posso ser infectado pelo meu cachorro?
+- posso ser infectado pelo meu cão?
+- Posso ser infectado pelo gato da minha família?
+- Eu posso ser infectado pelo cachorro da minha família?
+- Eu posso ser infectado pelo cão da minha família?
+- Eu posso ser infectado pelo animal de estimação da minha família?
+- Eu posso ser infectado pelo meu animal de estimação?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu gato?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu animal de estimação?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu cachorro?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu cão?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do gato da minha família?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cachorro da minha família?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do animal de estimação da minha família?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu animal de estimação?
+- O meu gato pode pegar o vírus?
+- O meu gato pode me infectar?
+- O meu gato pode espalhar a doença?
+- O meu gato pode espalhar o vírus?
+- O meu gato pode transmitir a doença?
+- O meu gato pode transmitir o vírus?
+- O meu animal pode pegar o vírus?
+- O meu animal pode me infectar?
+- O meu animal pode espalhar a doença?
+- O meu animal pode espalhar o vírus?
+- O meu animal pode transmitir a doença?
+- O meu animal pode trasmitir o vírus?
+- Meu cachorro pode pegar o vírus?
+- Meu cão pode pegar o vírus?
+- O meu cachorro pode me infectar?
+- O meu cão pode me infectar?
+- O meu cachorro pode espalhar a doença?
+- O meu cão pode espalhar a doença?
+- Meu cachorro pode espalhar o vírus?
+- Meu cão pode espalhar o vírus?
+- O meu cachorro pode transmitir a doença?
+- O meu cão pode transmitir a doença?
+- Meu cachorro pode transmitir o vírus?
+- Meu cão pode transmitir o vírus?
+- O gato da minha família pode pegar o vírus?
+- O gato da minha família pode me infectar?
+- O gato da minha família pode espalhar a doença?
+- O gato da minha família pode espalhar o vírus?
+- O gato da minha família pode transmitir a doença?
+- O gato da minha família pode transmitir o vírus?
+- O cachorro da minha família pode pegar o vírus?
+- O cachorro da minha família pode me infectar?
+- O cachorro da minha família pode espalhar a doença?
+- O cachorro da minha família pode espalhar o vírus?
+- O cachorro da minha família pode transmitir a doença?
+- O cachorro da minha família pode transmitir o vírus?
+- O cão da minha família pode pegar o vírus?
+- O cão da minha família pode me infectar?
+- O cão da minha família pode espalhar a doença?
+- O cão da minha família pode espalhar o vírus?
+- O cão da minha família pode transmitir a doença?
+- O cão da minha família pode transmitir o vírus?
+- O animal de estimação da minha família pode pegar o vírus?
+- O animal de estimação da minha família pode me infectar?
+- O animal de estimação da minha família pode espalhar a doença?
+- O animal de estimação da minha família pode espalhar o vírus?
+- O animal de estimação da minha família pode transmitir a doença?
+- O animal de estimação da minha família pode transmitir o vírus?
+- O meu animal de estimação pode pegar ou espalhar o vírus?
+- O meu animal de estimação pode pegar o vírus?
+- O meu animal de estimação pode me infectar?
+- O meu animal de estimação pode espalhar a doença?
+- O meu animal de estimação pode transmitir a doença?
+- Meu animal de estimação pode espalhar o vírus?
+- Meu animal de estimação pode transmitir o vírus?
+- É possível ser infectado por gatos?
+- É possível ser infectado por animais?
+- É possível ser infectado por cães?
+- É possível ser infectado por cachorros?
+- É possível ser infectado por gatos da família?
+- É possível ser infectado por cães da família?
+- É possível ser infectado por cachorros da família?
+- É possível ser infectado por animais de estimação da família?
+- É possível ser infectado pelo meu gato?
+- É possível ser infectado pelo meu animal de estimação?
+- É possível ser infectado pelo meu cão?
+- É possível ser infectado pelo gato da minha família?
+- É possível ser infectado pelo cão da minha família?
+- É possível ser infectado pelo cachorro da minha família?
+- É possível ser infectado pelo animal de estimação da minha família?
+- É possível ser infectado pelo meu animal de estimação?
+- É possível ser infectado por animais de estimação?
+- É possível ser infectada por gatos?
+- É possível ser infectada por animais?
+- É possível ser infectada por cães?
+- É possível ser infectada por cachorros?
+- É possível ser infectada por gatos da família?
+- É possível ser infectada por cães da família?
+- É possível ser infectada por cachorros da família?
+- É possível ser infectada por animais de estimação da família?
+- É possível ser infectada pelo meu gato?
+- É possível ser infectada pelo meu animal de estimação?
+- É possível ser infectada pelo meu cão?
+- É possível ser infectada pelo gato da minha família?
+- É possível ser infectada pelo cão da minha família?
+- É possível ser infectada pelo cachorro da minha família?
+- É possível ser infectada pelo animal de estimação da minha família?
+- É possível ser infectada pelo meu animal de estimação?
+- É possível ser infectada por animais de estimação?
+- É possível pegar o vírus de gatos?
+- É possível pegar o vírus de animais?
+- É possível pegar o vírus de cães?
+- É possível pegar o vírus de gatos da família?
+- É possível pegar o vírus de cães da família?
+- É possível pegar o vírus de animais de estimação da família?
+- É possível pegar o vírus do meu gato?
+- É possível pegar o vírus do meu animal de estimação?
+- É possível pegar o vírus do meu cachorro?
+- É possível pegar o vírus do gato da minha família?
+- É possível pegar o vírus do cachorro da minha família?
+- É possível pegar o vírus do cão da minha família?
+- É possível pegar o vírus do animal de estimação da minha família?
+- É possível pegar o vírus do meu animal de estimação?
+- É possível pegar o vírus de animais de estimação?
+- os cães transmitem o vírus?
+- O vírus é transmitido pelos animais de estimação?
+- posso pegar coronavirus do meu gato?
+- Posso pegar o coronavirus dos meus animais?
+
+## intent:spread_risk
+- deficientes podem pegar este vírus
+- Chances de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidades de ser infectado pelo vírus.
+- Chance de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidade de ser infectado pelo vírus.
+- Chances de ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidades de ser infectada pelo vírus.
+- Chance de ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidade de ser infectada pelo vírus.
+- Chances de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidades de pegar o vírus.
+- Probabilidade de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Probabilidade de ser infectado pelo vírus.
+- Probabilidade de ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Probabilidade de ser infectada pelo vírus.
+- Probabilidade de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Probabilidade de pegar o vírus.
+- Chance de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidade de pegar o vírus.
+- Qual a chance de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Qual a possibilidade de pegar o vírus.
+- Quão contagioso é o covid-19
+- Quão contagiosa é a covid-19?
+- Quão contagioso é isso?
+- Quão contagioso é o vírus?
+- Qual a probabilidade de eu estar infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar infectado pelo vírus?
+- Qual a probabilidade de eu estar infectada pelo vírus?
+- Qual a probabilidade de eu pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu pegar o vírus?
+- Qual a probabilidade de eu ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu ser infectado pelo vírus?
+- Qual a probabilidade de eu ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu ser infectada pelo vírus?
+- Eu quis dizer, pessoas com deficiência podem pegar esse vírus
+- Risco de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Risco de ser infectado pelo vírus.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Risco de pegar o vírus.
+- Risco de ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Risco de ser infectada pelo vírus.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Risco de pegar vírus.
+- Quais são as chances de ser infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são as chances de ser infectado pelo vírus?
+- Quais são as chances de ser infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são as chances de ser infectada pelo vírus?
+- Quais são as chances de pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são as chances de pegar o vírus?
+- Quais as chances de ser infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais as chances de ser infectado pelo vírus?
+- Quais as chances de ser infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais as chances de ser infectada pelo vírus?
+- Quais as chances de pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais as chances de pegar o vírus?
+- Qual a chance de ser infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a chance de ser infectado pelo vírus?
+- Qual a chance de ser infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a chance de ser infectada pelo vírus?
+- Qual a chance de pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a chance de pegar o vírus?
+- Que chances eu tenho de ser infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que chances eu tenho de ser infectado pelo vírus?
+- Que chances eu tenho de ser infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que chances eu tenho de ser infectada pelo vírus?
+- Que chances eu tenho de pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que chances eu tenho de pegar o vírus?
+- estou em risco?
+- posso ser infectado?
+- posso ser infectada?
+- qual é a probabilidade de ser infectado
+- qual é o risco de se pegar a doença?
+- qual é a probabilidade de ser infectado no trem
+- qual é a probabilidade de ser infectada no trem
+- qual é a probabilidade de ser infectado no shopping
+- qual é a probabilidade de ser infectada no shopping
+- quem é mais afetado?
+- vou pegar [Covid 19]{"entity": "virus", "value": "COVID"} 
+- sem sintomas e sem testes e após duas semanas em casa com distância podemos nos considerar saudáveis em relação a [Covid-19]{"entity": "virus", "value": "COVID"}-
+- qual o risco de contrair a doença?
+- Contração da doença
+- Oi meu tio esta com suspeita e o quart das filhas dele fica ao lado tem algum risco
+
+## intent:spread_surfaces_food_objects
+- Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida ou água?
+- Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela água?
+- Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida?
+- Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pelos alimentos?
+- O corona passa pela comida?
+
+## intent:test_virus
+- Posso ser testado para coronavírus?
+- Posso ser testado para covid?
+- Posso ser testado?
+- Onde posso testar
+- Onde fica o próximo local de teste do Coronavirus?
+- Posso fazer o teste?
+- teste
+- Como saber se fui positiva
+- tive contato com uma pessoa infectada quanto tempo depois posso fazer o exame
+- tive contato com uma pessoa infectada
+- Com quanto tempo depois que senti os primeiros sintomas posso fazer o teste?
+- Como saber se tô com Corona vírus
+- Exame
+- Teste
+- Espirrei nariz entupido e dor de cabeça,devo fazer o teste para covid
+- Tive dor de cabeça espirro e nariz congestionado, durante 3 dias ,já passou ,devo ainda fazer teste para covid?
+- Boa noite já fez 17 dias que  fiz o teste da covid e hoje repeti o teste novamente deu positivo é normal
+- Aonde uma pessoa pode fazer test gratuita
+- O teste rápido me da qual informação? Se eu ja tive a covid 19 ou se eu estou com ela no momento?
+- Meu  esposo tevi contato  com um colega infectado
+- Mais pra se confirmar a covid a pessoa tem tá com todos os sintomas? Ou não
+- Como saber se estou com covid
+- Qual a eficaz do teste rápido
+- Fiz o teste
+- Gostaria de saber se tive contato com alguém com covid, qtos dias posso fazer o teste
+
+## intent:test_who
+- Posso fazer o teste?
+- Como faço para ser testado
+- Quem pode ser testado para coronavírus?
+- Quem pode ser testado para covid?
+- Quem pode ser testado?
+
+## intent:travel_after
+- Após o procedimento de viagem.
+- Após os procedimentos de viagem.
+- Após o processo de viagem.
+- Após viagem.
+- Após a viagem.
+- Após viajar.
+- Depois do procedimento de viagem.
+- depois dos procedimentos de viagem.
+- depois do processo de viagem.
+- depois de viagem.
+- depois de viajar.
+- Como proceder após a viagem
+- Como proceder depois de viagem
+- Como proceder para voltar de viagem.
+- Como proceder ao retornar de viagem.
+- Como proceder no retorno da viagem.
+- Como proceder ao voltar de viagem.
+- O que fazer após a viagem
+- O que fazer depois de viagem
+- O que fazer para voltar da viagem.
+- O que fazer ao retorno da viagem.
+- O que fazer no retorno da viagem.
+- O que fazer ao voltar de viagem.
+- Acabei de voltar de viagem.
+- Acabo de voltar de viagem.
+- Acabei de voltar da viagem.
+- Acabei de voltar de viagem.
+- Acabo de voltar da viagem.
+- Voltei de viagem com uma tosse.
+- voltei da viagem.
+- Voltei de viagem com tosse.
+- Eu cheguei de viagem.
+- Procedimentos após a viagem.
+- Procedimentos depois de viagem.
+- Proceder após a viagem.
+- Proceder depois de viagem.
+- pós viagem.
+- Quando eu voltar de viagem.
+- Quando eu voltar da viagem.
+- apos viajar.
+- Como proceder após a viagem?
+
+## intent:travel_before
+- Antes da viagem.
+- Antes de viajar.
+- tenho um horário de viagem.
+- vou viajar nas minhas férias.
+- vou viajar em breve.
+- vou viajar.
+- estou planejando uma viagem.
+- to planejando uma viagem.
+- estou planejando viajar.
+- Estou planejando viajar nas minhas férias.
+- to planejando viajar
+- to planejando viajar nas minhas férias.
+- vou viajar em breve.
+- Em breve vou viajar.
+- Precauções antes da viagem.
+- Precauções antes de viajar.
+- Precauções para viagem.
+- Precauções para viajar.
+- o que considerar antes de viajar.
+- considerar antes de viajar.
+- o que considerar quando se viaja.
+- considerar quando se viaja.
+- antes de viajar.
+- Precaução de viagem.
+- Precauções de viagem.
+- Preparação para viagem.
+- antes da viagem.
+- Precaução para viagem.
+- Precauções para viagem.
+- Preparação a viagem.
+- Viagem
+- Viagens
+- O que fazer antes de viajar?
+- O que fazer antes da viagem?
+- se precaver antes de viajar?
+- se precaver antes da viagem?
+- antes de fazer uma viagem
+
+## intent:travel_while
+- Durante a viagem.
+- Durante uma viagem.
+- Como se comportar durante a viagem?
+- Como se comportar durante uma viagem?
+- Como se comportar em viagem?
+- Como se comportar durante a viagem?
+- Como proceder durante uma viagem?
+- Como proceder durante a viagem?
+- Como agir durante a viagem?
+- Como agir durante uma viagem?
+- Como se precaver durante a viagem?
+- Como se precaver durante uma viagem?
+- Como se proteger durante a viagem?
+- Como se proteger durante uma viagem?
+- Medidas durante a viagem.
+- Medidas durante uma viagem.
+- Medidas a serem tomadas durante uma viagem.
+- Medidas a serem tomadas durante a viagem.
+- Precauções a serem tomadas durante a viagem.
+- precauções a serem tomadas na viagem.
+- Medidas durante a viagem.
+- Medidas durante uma viagem.
+- Pratique durante a viagem.
+- Pratique durante uma viagem.
+- Pratique enquanto viaja.
+- Pratique quando viaja.
+- Práticas durante uma viagem.
+- Práticas durante a viagem.
+- Pratica enquanto viaja.
+- Pratica quando viaja.
+- Procedimento durante a viagem. 
+- Procedimento na viagem.
+- Procedimento enquanto viaja.
+- Procedimento numa viagem.
+- Procedimentos durante a viagem.
+- Procedimentos na viagem.
+- Procedimentos numa viagem.
+- Procedimentos enquanto viaja.
+- O que deve ser feito durante a viagem?
+- O que deve ser feito durante uma viagem?
+- O que fazer durante a viagem?
+- O que fazer durante uma viagem?
+- O que fazer numa viagem?
+- O que fazer na viagem?
+- como faço para viajar?
+- como faço durante uma viagem?
+- Enquanto viaja.
+- Durante a viagem.
+
+## intent:user_angry
+- Neste momento eu to espumando pela boca!
+- Enlouquecendo!
+- pirando
+- To doida
+- To doido
+- Você pode sentir minha raiva?
+- Eu to mal-humorado?
+- Eu to mal-humorada
+- to enfurecido.
+- Eu to com um pouco de raiva.
+- to enfurecida!
+- to puto!
+- to puta!
+- Eu to com muita raiva!
+- Eu to furioso!
+- Eu to furiosa!
+- Eu to nervoso!
+- Eu to nervosa!
+- Eu to ficando com raiva!
+- Eu to ficando furioso.
+- Eu to irritado!
+- Eu to ficando furiosa.
+- Eu to irritada!
+- to com tanta raiva!
+- Eu to louca!
+- Eu to muito descontente!
+- Eu to irado!
+- Eu to irada!
+- Eu to com raiva!
+- Eu to brava 
+- Eu to com ódio
+- Eu to com muito ódio!
+- Eu to bravo!
+- Eu to fervendo de raiva.
+- Eu to explodindo de raiva.
+- Eu to louco.
+- to tão louca!
+- to tão louco!
+- com mau humor.
+- espumando de raiva!
+- minha ira!
+
+## intent:user_friend
+- somos amigos?
+- a gente é amigo?
+- Você está feliz comigo?
+- Você é meu melhor amigo?
+- Você é meu amigo?
+- Seja meu amigo, por favor!
+- Seja meu amigo.
+- Posso ser seu amigo?
+- Posso ser sua amiga?
+- Posso te considerar meu amigo?
+- Podemos ser amigos?
+- Você pode ser meu amigo?
+- Você poderia ser meu amigo?
+- Você gosta de mim?
+- Você quer ser meu amigo?
+- Eu devo ser seu amigo!
+- Eu quero ser seu amigo!
+- Eu devo ser sua amiga!
+- Eu quero ser sua amiga!
+- Eu quero que você seja meu amigo!
+- Eu quero que sejamos amigos!
+- Vamos ser melhores amigos!
+- Vamos ser amigos!
+- Eu e você somos amigos!
+- Quer ser meu amigo?
+- Quer ser amigo?
+- Quer ser meu amigo?
+- Nós somos amigos.
+- Nós poderíamos ser amigos.
+- Devemos ser amigos!
+- Nós deveríamos ser amigos!
+- O que você acha de mim?
+- Você vai ser meu amigo?
+- vamos ser amigos?
+- Você gostaria de ser meu amigo?
+- Você e eu somos amigos?
+- Você e eu somos amigos.
+- Você é meu amigo.
+- Você seja meu amigo.
+- Você quer ser meu amigo?
+- Podemos ser Amigas?
+
+## intent:user_happy
+- Neste momento, sou uma pessoa muito alegre.
+- Neste momento, sou uma pessoa muito feliz.
+- Pessoa com alegria.
+- Pessoa feliz.
+- Fique contente.
+- estou contente.
+- Sinta-se bem hoje!
+- me sinto tão bem.
+- Pessoa bem-humorada.
+- Eu sou uma pessoa alegre.
+- Eu sou uma pessoa feliz.
+- Eu sou uma pessoa contente.
+- Eu to sempre sorrindo.
+- to encantado.
+- to encantada.
+- Eu sou querido.
+- Eu sou querida.
+- Eu to eufórico.
+- Eu to eufórica.
+- to entusiasmado.
+- to entusiasmada.
+- to animada.
+- to animada.
+- to me sentindo jovem.
+- to me sentindo radiante.
+- to me sentindo eufórico.
+- to me sentindo eufórica.
+- to me sentindo animado.
+- to me sentindo animada.
+- to me sentindo alegre.
+- to me sentindo ótima.
+- to me sentindo ótima.
+- to me sentindo muito bem.
+- to me sentindo feliz.
+- to brilhando.
+- Eu sou bem-humorado.
+- Eu to feliz.
+- Eu to de bom humor.
+- Eu to no céu.
+- to com muito bom humor.
+- Eu sou feliz.
+- Eu to pulando de alegria.
+- Eu to em êxtase.
+- Eu to nas nuvens.
+- Eu sou uma pessoa radiante.
+- Eu to muito feliz.
+- Eu sou tão querido.
+- Eu sou tão querida.
+- Eu to tão feliz.
+- Eu to muito contente.
+- Eu to flutuando.
+- Sinto uma grande felicidade interior.
+- Eu me sinto alegre.
+- Eu me sinto feliz.
+- Eu tenho um brilho radiante.
+- Hoje eu to sorridente.
+- Minha vida é uma alegria.
+- Pessoa muito feliz.
+- Cara sorridente.
+- com alegria.
+- felicidade
+
+## intent:user_love
+- Aceite o meu amor.
+- Aceite minha proposta.
+- Você está apaixonado por mim?
+- Você me ama?
+- quer casar comigo?
+- Podemos sair juntos?
+- Você pode me amar?
+- quanto você me ama?
+- Namore comigo.
+- Namora comigo.
+- Você me dá a honra de me casar com você?
+- Você gosta de mim?
+- quanto você me ama?
+- Você quer ser minha alma gêmea?
+- honra de casar contigo.
+- to me apaixonando por você!
+- to me apaixonando por ti!
+- Eu to apaixonado por você!
+- Eu to apaixonada por você!
+- eu quero me casar contigo
+- Eu me apaixonei por você!
+- Eu meio que te amo.
+- Eu acho que te amo.
+- Eu acho que to apaixonado por você.
+- Eu acho que to apaixonada por você.
+- Eu quero sair com você!
+- Eu quero sair contigo!
+- Eu quero me casar com você!
+- Eu quero que você se case comigo!
+- Eu to me envolvendo contigo.
+- Eu to me envolvendo com você.
+- Eu estou apaixonado por você.
+- te proponho casamento.
+- Vamos namorar!
+- Vamos ter um encontro!
+- Case comigo!
+- Casa comigo!
+- aceite meu amor!
+- me ame!
+- Por favor, case comigo!
+- Que tal um encontro?
+- O que você acha de um encontro?
+- Que sentimentos você tem por mim?
+- O que é o amor?
+- O que é amor?
+- Você vai se casar comigo?
+- Você gostaria de se casar comigo?
+- Você não me ama.
+
+## intent:user_no_data
+- eu não tenho nenhum dado pessoal aqui.
+- eu não tenho nenhum dado pessoal comigo.
+- eu não tenho meus dados pessoais aqui.
+- eu não tenho meus dados pessoais comigo.
+- Eu não trouxe meus dados pessoais no momento.
+- Eu não trouxe meus dados pessoais aqui.
+- Eu não trouxe meus dados pessoais neste momento.
+- Eu não trouxe meus dados pessoais comigo.
+- Eu não trouxe meus dados pessoais.
+- Não tenho dados pessoais.
+- Eu não tenho nenhum dado pessoal aqui.
+- Eu não tenho nenhum dado pessoal agora.
+- Eu não tenho nenhum dado pessoal comigo.
+- Eu não tenho nenhum dado pessoal.
+- Eu não tenho meus dados pessoais no momento.
+- Eu não tenho meus dados pessoais aqui.
+- Eu não tenho meus dados pessoais agora.
+- Eu não tenho meus dados pessoais comigo.
+- Eu não tenho meus dados pessoais.
+- Eu não tenho meus documentos no momento.
+- Eu não tenho meus documentos aqui.
+- Eu não tenho meus documentos agora.
+- Eu não tenho meus documentos comigo.
+- Eu não tenho meus documentos.
+- Não tenho dados pessoais no momento, infelizmente.
+- Não tenho dados pessoais no momento.
+- Eu não tenho dados pessoais aqui, infelizmente.
+- Eu não tenho dados pessoais aqui.
+- Eu não tenho dados pessoais agora, infelizmente.
+- Não tenho dados pessoais neste momento.
+- Não tenho dados pessoais comigo, infelizmente.
+- Eu não tenho dados pessoais comigo.
+- Eu não tenho dados pessoais, infelizmente.
+- Eu não tenho dados pessoais.
+- Neste momento não tenho nenhum dado pessoal aqui.
+- Neste momento não tenho nenhum dado pessoal comigo.
+- No momento não tenho meus dados pessoais aqui.
+- No momento não tenho meus dados pessoais comigo.
+- Infelizmente eu não tenho dados pessoais no momento.
+- Infelizmente eu não tenho dados pessoais aqui.
+- Infelizmente não tenho dados pessoais no momento.
+- Infelizmente eu não tenho nenhum dado pessoal comigo.
+- Infelizmente eu não tenho dados pessoais.
+- Sim. Não tenho nenhum dado pessoal no momento.
+- Sim. Eu não tenho nenhum dado pessoal aqui.
+- Sim. Eu não tenho nenhum dado pessoal agora.
+- Sim. Eu não tenho nenhum dado pessoal comigo.
+- Sim. Eu não tenho nenhum dado pessoal.
+
+## intent:user_no_further_questions
+- Você pode calar a boca, por favor?
+- Você pode calar a boca?
+- Cala a boca
+- entendi, obrigado.
+- entendido, obrigado.
+- entendi, obrigada.
+- entendido, obrigada.
+- entendi, valeu.
+- entendido, valeu.
+- esclarecido.
+- esclarecido agora, obrigado.
+- esclarecido, obrigado.
+- esclarecido agora, obrigada.
+- esclarecido, obrigada.
+- esclarecido agora, valeu.
+- esclarecido, valeu.
+- Agora eu entendi.
+- tá certo então.
+- tá certo então, obrigada.
+- tá certo então, obrigado.
+- tá certo então, valeu.
+- tá certo, obrigado.
+- tá certo, obrigada.
+- tá certo, valeu.
+- não tenho mais perguntas, obrigado.
+- não tenho mais perguntas, obrigada.
+- não tenho mais perguntas, valeu.
+- Eu não tenho mais perguntas.
+- Não tenho mais perguntas, valeu.
+- obrigada pelas informações.
+- obrigado pelas informações.
+- obrigada pela ajuda.
+- obrigado pela ajuda.
+- valeu pelas informações.
+- valeu pelas informações.
+- valeu pela ajuda.
+- valeu pela ajuda.
+- valeu
+- Eu não preciso mais de ajuda.
+- Eu não preciso mais de ajuda, obrigada.
+- Eu não preciso mais de ajuda, obrigado.
+- Eu não preciso da sua ajuda, obrigado.
+- Eu não preciso da sua ajuda, obrigada.
+- Eu não preciso da sua ajuda, valeu.
+- Eu não preciso da sua ajuda.
+- Eu não tenho mais perguntas.
+- Eu não preciso mais de assistência.
+- Eu não preciso mais de assistência, obrigado.
+- Eu não preciso mais de assistência, obrigada.
+- Eu não preciso mais de assistência, valeu.
+- Nada mais
+- Nada, obrigado.
+- Nada, obrigada.
+- Nada, valeu.
+- Nada.
+- Não, vou me atualizando
+- Obrigado pelo seu tempo.
+- Obrigada pelo seu tempo.
+- valeu pelo seu tempo.
+- Isso é tudo.
+- É isso por enquanto
+- não, obrigada
+- não, obrigado
+- não, valeu
+- Você me ajudou com tudo que eu queria, obrigado.
+- Você me ajudou com tudo que eu queria, obrigada.
+- Você me ajudou com tudo que eu queria, valeu.
+- Você me ajudou com tudo que eu queria.
+- Você me ajudou com tudo que eu precisava, obrigado.
+- Você me ajudou com tudo que eu precisava, obrigada.
+- Você me ajudou com tudo que eu precisava, valeu.
+- Você me ajudou com tudo que eu precisava.
+- Você esclareceu todas as minhas dúvidas, obrigado.
+- Você esclareceu todas as minhas dúvidas, obrigada.
+- Você esclareceu todas as minhas dúvidas, valeu.
+- Você esclareceu todas as minhas dúvidas.
+- Você resolveu todos os meus problemas, obrigado.
+- Você resolveu todos os meus problemas, obrigada.
+- Você resolveu todos os meus problemas, valeu.
+- Você resolveu todos os meus problemas.
+- Você esclareceu minhas dúvidas, obrigado.
+- Você esclareceu minhas dúvidas, obrigada.
+- Você esclareceu minhas dúvidas, valeu.
+- Você esclareceu minhas dúvidas.
+- Você resolveu meus problemas, obrigado.
+- Você resolveu meus problemas, obrigada.
+- Você resolveu meus problemas, valeu.
+- Você resolveu meus problemas.
+- isso é tudo.
+- isso é tudo por hoje
+- só isso.
+- só isso, obrigado.
+- só isso, obrigada.
+- só isso, valeu.
+- Valeu pelas informações
+- Pra vc tbm
+- Vc tbm
+- Ta certo então
+- Ok!
+- Hj não ! Deixo para amanhã !
+- Dorme com Deus
+- Amém
+- Deus  abeçoe
+- Deus abençõe
+- Não obrigada
+- Vocês  tá  serto
+
+## intent:user_particles
+- haha
+- Ah
+- Aham
+- Uhum!
+- Ahh
+- Hm
+- Hmm
+- Hum
+- tudo bem.
+- Mh
+- ah sim
+- sério?
+- Não se preocupe.
+- Ah!
+- Shh
+- interessante.
+- É isso aí!
+- Tudo bem. Você ainda está aprendendo. E eu estou aqui para te treinar.
+- Uh
+- Uhm
+- Um
+
+## intent:user_scared
+- para mim não é um bom dia
+- Não vá se assustar.
+- Não se assuste.
+- to com medo.
+- Eu to ansioso.
+- Eu to assustado.
+- Eu me sinto solitário
+- Eu me sinto sozinho
+- Eu me sinto ansioso.
+- Eu to ansiosa.
+- Eu to assustada.
+- Eu me sinto solitária.
+- Eu me sinto sozinha.
+- Eu me sinto ansiosa.
+- Eu tava assustada.
+- Eu tava assustado.
+- Eu tava com medo.
+- Eu to me sentindo assustado.
+- Eu to me sentindo assustada.
+- estou com medo.
+- to com muito medo.
+- to com tanto medo.
+- Eu to tão assustada.
+- to muito assustada.
+- Alguém me assustou.
+- me assustaram.
+- Isso é assustador.
+- Que susto!
+- Que medo!
+- Você tá me assustando.
+- Você me assustou.
+- Você me assusta.
+- me dá medo.
+- me dá ansiedade.
+- me causa ansiedade.
+- me da pânico.
+
+## intent:vocative_call
+- Você tá por perto?
+- Você se foi?
+- Você tá aí?
+- Você tá presente?
+- Você ainda tá por perto?
+- Você ainda tá aí?
+- Você ainda tá por aí?
+- tu tá aí?
+- Você tá por aí?
+- Você tá comigo?
+- Por aí?
+- Você pode me ouvir?
+- Você pode me ler?
+- Você pode me entender?
+- Você já foi?
+- Você já saiu?
+- Você saiu?
+- Não termine a conversa!
+- Não me deixe!
+- Olá de novo!
+- ol´+a
+- Eu to de volta!
+- Eu não quero ficar sozinho!
+- Eu ainda tenho algumas perguntas
+- Eu quero continuar falando com você!
+- Eu quero continuar falando contigo!
+- Eu quero ouvir você!
+- Eu quero te ouvir!
+- me faz companhia!
+- Por favor, continue!
+- Por favor, não me deixe!
+- Por favor, não me deixe sozinho!
+- não me deixe!
+- não me deixa!
+- Por favor, prossiga!
+- Por favor, fale comigo!
+- Presente?
+- online?
+- Ainda tá por aí?
+- Ainda aqui?
+- Ainda está comigo?
+- Fale comigo!
+- Fala comigo!
+- Sobre o que mais podemos falar?
+- Comigo?
+- Responde aí Helena
+- Responde aí
+- helena??
+- Deixa eu falar
+
+## intent:vocative_help
+- Como você pode me ajudar
+- Você quer me ajudar?
+- Olá, em que posso ajudá-lo?
+- Olá, em que posso ajudar?
+- em que posso ajudar?
+- Como Você Vai Me Ajudar
+- Como Você Pode Me Ajudar
+- Como Você me Ajuda
+- Como você pode ajudar
+- Como você pode ajudar?
+- Com o que você pode me ajudar?
+- Você vai me ajudar?
+- Você me ajuda?
+- Ajuda, por favor!
+- Ajuda!
+- Você pode me ajudar?
+- Você pode me dar uma ajuda?
+- Você pode ajudar?
+- Você me ajudaria?
+- me ajude!
+- me ajuda!
+- Ajude-me, por favor.
+- Socorro!
+- Ajuda ou não?
+- Que tal uma ajudinha?
+- Que tal me ajudar?
+- Que tal uma ajuda?
+- Eu preciso de assistência.
+- Eu preciso de ajuda.
+- Eu preciso de uma ajuda.
+- Preciso ser atendido.
+- Preciso ser ajudado.
+- Eu preciso da sua ajuda.
+- Eu preciso de alguma ajuda.
+- Eu to precisando de ajuda.
+- Por favor, me dê uma ajuda.
+- Por favor, me da uma ajuda.
+- Por favor, me ajude mais.
+- Por favor, me ajude!
+- Por favor, me ajuda!
+- uma ajuda, por favor.
+- Você me ajuda?
+- Você me daria uma ajuda?
+- Você poderia me ajudar?
+- Você poderia me dar uma ajuda?
+- Você gostaria de me ajudar?
+- posso lhe fazer perguntas?
+- posso te fazer perguntas?
+- posso lhe fazer uma pergunta?
+- posso te fazer uma pergunta?
+- como posso ajudar?
+- Gostaria de tirar uma informação
+- Gostaria de tirar uma dúvida
+- Gostaria de uma informação
+- Gostaria de fazer uma pergunta
+- mim responda
+- Me responda
+- Responde
+- De novo isso
+- eu pergunto uma coisa vc me dar tchau eu não entendi nada tchau
+- Ainda mais ? Tu nem ajudou
+
+## intent:vocative_no
+- Logico que não.
+- Claro que não.
+- De forma alguma.
+- óbvio que não.
+- Nah.
+- Não.
+- Nem.
+- Num.
+- Naum.
+- N.
+- Negativo.
+- Nunca.
+- Jamais.
+- Sem chance.
+- Na verdade não.
+- Na realidade, não.
+- Na real, não.
+- Não, senhor.
+- Não, obrigado.
+- Não, valeu.
+- De jeito nenhum.
+- De forma alguma.
+- nop.
+- nope.
+- no.
+- Nana nina não.
+- Nem em um milhão de anos.
+- Não é provável.
+- Nunca na sua vida.
+- Nem que a vaca tussa.
+- Nem em sonho.
+- qual a chance
+- Não por isso.
+- Não né.
+- só que não.
+- Fora de questão.
+- Sob nenhuma circunstância.
+- nem pensar.
+- N
+- Ñ
+
+## intent:vocative_sorry
+- Desculpe-me.
+- Desculpe.
+- Desculpa.
+- Perdoe-me!
+- Perdoe!
+- Perdão.
+- me Perdoe!
+- me Perdoa!
+- me enganei
+- Eu peço desculpas.
+- Eu sinto muito.
+- sinto muito.
+- mil desculpas.
+- mil perdões.
+- Eu imploro por perdão.
+- Peço desculpas.
+- erro meu
+- Eu espero que você possa me perdoar.
+- Eu te devo um pedido de desculpas.
+- Peço sinceras desculpas.
+- Eu assumo total responsabilidade.
+- Eu queria dizer que sinto muito.
+- Eu tava errado sobre isso.
+- Eu tava errado.
+- Eu me enganei.
+- Eu errei.
+- Eu me confundi.
+- Eu gostaria de pedir desculpas.
+- Eu estou me desculpando
+- Eu sinto muito por isso.
+- Sinto muito.
+- Minhas desculpas.
+- foi erro meu
+- culpa minha.
+- Por favor, me perdoe.
+- Por favor, me perdoa.
+- Por favor, perdoe.
+- Desculpe por isso.
+- Desculpa por isso.
+- Desculpe por minhas ações.
+- Desculpe pelo meu comportamento
+- Isso é culpa minha.
+- Isso foi errado da minha parte.
+- Isso é culpa minha.
+- Whoops! Desculpe!
+- Foi mal!
+- vacilei!
+- desculpa o vacilo!
+
+## intent:vocative_thank_you
+- meus sinceros agradecimentos
+- Aceite minha infinita gratidão
+- gratidão
+- gratiluz
+- Tudo que eu posso dizer é obrigado
+- Aprecio
+- Fantástico
+- Valeu
+- Bom trabalho
+- Agradecida
+- Agradecido
+- Ótimo
+- Grande Resposta
+- Ótimas Conversas
+- Ótimo trabalho
+- Maravilha
+- Beleza
+- Top
+- Ok obrigada
+- dahora
+- muito bom
+- excelente
+- Como posso te recompensar
+- muita gratidão
+- Eu sou grato
+- Eu sou grata
+- Eu to satisfeito
+- Eu to satisfeita
+- Eu sou muito grato
+- Eu sou muito grata
+- Eu agradeço por isso.
+- Eu não posso te agradecer o suficiente
+- você foi muito útil
+- Eu humildemente te agradeço
+- Eu te agradeço
+- Eu te agradeço do fundo do meu coração
+- Eu te agradeço muito 
+- Eu realmente agradeço por isso.
+- Se alguém merece agradecimento, é você.
+- É difícil encontrar palavras para expressar a minha gratidão
+- Foi fantástico da sua parte
+- Muito obrigado
+- Muito obrigada
+- Aprecio muito
+- Minha gratidão a você por tudo que você tem feito!
+- Bela conversa!
+- OK, obrigado!
+- Oh, obrigado!
+- Certo, obrigado!
+- tá certo, obrigado!
+- meus agradecimentos!
+- Prazer em conhecê-lo!
+- Realmente útil!
+- sincera gratidão!
+- Obrigado por me ajudar!
+- Obrigado pela assistência!
+- Obrigado por sua gentileza!
+- Muito obrigado!
+- Muito obrigada!
+- Valeu mesmo!
+- Obrigado mesmo!
+- Obrigado a todos!
+- obrigado de verdade!
+- Obrigada mesmo!
+- Obrigada a todos!
+- obrigada de verdade!
+- Um milhão de agradecimentos!
+- Obrigado por tudo!
+- Obrigado por me ajudar!
+- Obrigado por ter pensado em mim!
+- Muito obrigado pela ajuda!
+- Obrigado, computador!
+- Obrigada por tudo!
+- Obrigada por me ajudar!
+- Obrigada por ter pensado em mim!
+- Muito obrigada pela ajuda!
+- Obrigada, computador!
+- Obrigada.
+- Obrigado.
+- Isso é incrível!
+- Isso é impressionante, obrigado!
+- Com gratidão!
+- Você fez um ótimo trabalho!
+- Você tem a minha gratidão!
+- Você me ajudou muito!
+- só tenho a agradecer!
+- Você realmente me ajudou muito!
+- Você salvou minha vida!
+- Você me salvou a vida!
+- Você me salvou!
+- obrigado Helen
+- Obrigado por sua ajuda, Helen
+- Obrigado, Helen!
+- obrigada, Helen
+- Obrigada, por sua ajuda, Helen
+- Obrigada, Helen!
+- valeu
+- vlw
+- Blz
+- Blz!
+- Entendi
+- Tendi
+- Obg
+- Ok!
+
+## intent:vocative_yes
+- Afirmativo.
+- Concordo.
+- Tudo bem.
+- Muito bem.
+- Sim, sim.
+- Sim.
+- Com certeza.
+- Sem dúvida.
+- Isso
+- Isso mesmo
+- Certamente.
+- Claro que sim.
+- Lógico que sim.
+- óbvio que sim.
+- claramente.
+- De fato.
+- simsim.
+- É claro.
+- Ok.
+- Certo, Helen.
+- Certo.
+- Está bem.
+- tá bem.
+- tá bom.
+- Certíssimo.
+- Exato.
+- Bem isso.
+- Isso mesmo.
+- Precisamente.
+- Claro.
+- Lógico
+- óbvio.
+- sem pensar duas vezes.
+- Totalmente.
+- Muito bem.
+- Total.
+- isso.
+- é.
+- também acho.
+- por favor.
+- é então.
+- boa.
+- sempre.
+- real
+- aprovado.
+- de acordo.
+- estou de acordo.
+- to de acordo.
+- s.
+
+## intent:vocative_you_welcome
+- A qualquer momento.
+- Não diga isso
+- Fico feliz em ajudar!
+- Não foi nada.
+- Era o mínimo que eu podia fazer.
+- O prazer é meu!
+- Não é nada.
+- O prazer é meu!
+- Não incomoda em nada
+- Sem problemas.
+- Tá tudo bem.
+- Não se preocupe
+- Nem pense sobre isso.
+- Estou à disposição
+- Fico à disposição.
+- De nada.
+- está tudo bem
+- Tudo bem.
+- Que isso, não se preocupe.
+
+## intent:myth_influenza
+- [influenza]{"entity": "influenza", "value": "influenza"} 
+- [flu]{"entity": "influenza", "value": "flu"} 
+- [grippe]{"entity": "influenza", "value": "grippe"} 
+- [gripe]{"entity": "influenza", "value": "gripe"} 
+
+## intent:myth_air_conditioning
+- [air conditioner]{"entity": "air_conditioning", "value": "air conditioner"}
+- [air conditioning]{"entity": "air_conditioning", "value": "air conditioning"} 
+- [AC]{"entity": "air_conditioning", "value": "AC"} 
+- [A/C]{"entity": "air_conditioning", "value": "A/C"} 
+- [air con]{"entity": "air_conditioning", "value": "air con"} 
+- [ar condicionado]{"entity": "air_conditioning", "value": "ar condicionado"} 
+
+## intent:myth_5G
+- [5G]{"entity": "5G", "value": "5G"} 
+- [five G]{"entity": "5G", "value": "five G"} 
+- [5 G]{"entity": "5G", "value": "5 G"} 
+- [cinco G]{"entity": "5G", "value": "cinco G"} 
+
+## intent:myth_hand_dryer
+- [hand dryer]{"entity": "hand_dryer", "value": "hand dryer"} 
+- [hand dryers]{"entity": "hand_dryer", "value": "hand dryers"} 
+- [secador de mãos]{"entity": "hand_dryer", "value": "secador de mãos"} 
+- [secadores de mãos]{"entity": "hand_dryer", "value": "secadores de mãos"} 
+
+## intent:myth_uv_lamps
+- [uv lamps]{"entity": "uv_lamp", "value": "uv lamps"} 
+- [ultraviolet disinfection lamp]{"entity": "uv_lamp", "value": "ultraviolet disinfection lamp"} 
+- [ultraviolet disinfection lamps]{"entity": "uv_lamp", "value": "ultraviolet disinfection lamps"} 
+- [ultraviolet lamp]{"entity": "uv_lamp", "value": "ultraviolet lamp"} 
+- [ultraviolet lamps]{"entity": "uv_lamp", "value": "ultraviolet lamps"} 
+- [lâmpadas ultravioletas]{"entity": "uv_lamp", "value": "lâmpadas ultravioletas"} 
+- [lâmpada ultravioleta]{"entity": "uv_lamp", "value": "lâmpada ultravioleta"} 
+- [lâmpadas ultra-violetas]{"entity": "uv_lamp", "value": "lâmpadas ultra-violetas"} 
+- [lâmpada ultra-violeta]{"entity": "uv_lamp", "value": "lâmpada ultra-violeta"} 
+- [lâmpadas uv]{"entity": "uv_lamp", "value": "lâmpadas uv"} 
+- [lâmpada uv]{"entity": "uv_lamp", "value": "lâmpada uv"} 
+
+## intent:myth_thermal_scanner
+- [thermal scanner]{"entity": "thermal_scanner", "value": "thermal scanner"} 
+- [thermal scanners]{"entity": "thermal_scanner", "value": "thermal scanners"} 
+- [scanner térmico]{"entity": "thermal_scanner", "value": "scanner térmico"} 
+- [termometro]{"entity": "thermal_scanner", "value": "termometro"} 
+- [scanners térmicos]{"entity": "thermal_scanner", "value": "scanners térmicos"} 
+- [termometros]{"entity": "thermal_scanner", "value": "termometros"} 
+- [termômetros infravermelhos]{"entity": "thermal_scanner", "value": "termômetros infravermelhos"} 
+- [termômetro infravermelhos]{"entity": "thermal_scanner", "value": "termômetro infravermelhos"} 
+
+## intent:myth_antibiotics
+- [antibiotics]{"entity": "antibiotics", "value": "antibiotics"} 
+- [antibiotic]{"entity": "antibiotics", "value": "antibiotic"} 
+- [antibioticos]{"entity": "antibiotics", "value": "antibioticos"} 
+- [antibiotico]{"entity": "antibiotics", "value": "antibiotico"} 
+
+## intent:myth_pneumonia_vaccine
+- [pneumonia vaccine]{"entity": "pneumonia_vaccine", "value": "pneumonia vaccine"} 
+- [pneumonia vaccines]{"entity": "pneumonia_vaccine", "value": "pneumonia vaccines"} 
+- [vacina para pneumonia]{"entity": "pneumonia_vaccine", "value": "vacina para pneumonia"} 
+- [vacinas para pneumonia]{"entity": "pneumonia_vaccine", "value": "vacinas para pneumonia"} 
+- [vacina pneumonia]{"entity": "pneumonia_vaccine", "value": "vacina pneumonia"} 
+- [vacinas pneumonia]{"entity": "pneumonia_vaccine", "value": "vacinas pneumonia"} 
+- [vacina da pneumonia]{"entity": "pneumonia_vaccine", "value": "vacina da pneumonia"} 
+- [vacinas da pneumonia]{"entity": "pneumonia_vaccine", "value": "vacinas da pneumonia"} 
+
+## intent:myth_saline
+- [saline]{"entity": "saline", "value": "saline"} 
+- [saline solution]{"entity": "saline", "value": "saline solution"} 
+- [salina]{"entity": "saline", "value": "salina"} 
+- [solução salina]{"entity": "saline", "value": "solução salina"} 
+
+## intent:myth_sesame_oil
+- [sesame oil]{"entity": "sesame_oil", "value": "sesame oil"} 
+- [sesame]{"entity": "sesame_oil", "value": "sesame"} 
+- [oleo de sessamo]{"entity": "sesame_oil", "value": "oleo de sessamo"} 
+- [sessamo]{"entity": "sesame_oil", "value": "sessamo"} 
+
+## intent:mask_visors
+- [visors]{"entity": "visors", "value": "visors"} 
+- [Acrylic visors]{"entity": "visors", "value": "Acrylic visors"} 
+- [protection visors]{"entity": "visors", "value": "protection visors"} 
+- [viseiras]{"entity": "visors", "value": "viseiras"} 
+- [Viseiras em acrilico]{"entity": "visors", "value": "Viseiras em acrilico"} 
+- [viseiras de proteção]{"entity": "visors", "value": "viseiras de proteção"} 
+
+
+## intent:country
+- em [Portugal]{"entity": "country_code", "value": "PT"}
+- [Espanha]{"entity": "country_code", "value": "ES"}
+- na [Grécia]{"entity": "country_code", "value": "GR"}
+- na [Suiça]{"entity": "country_code", "value": "CH"}
+- no [Zimbabué]{"entity": "country_code", "value": "ZW"}
+- [Egipto]{"entity": "country_code", "value": "EG"}
+- [Sara Ocidental]{"entity": "country_code", "value": "EH"}
+- [Eritrea]{"entity": "country_code", "value": "ER"}
+- [Etiópia]{"entity": "country_code", "value": "ET"}
+- [Finlândia]{"entity": "country_code", "value": "FI"}
+- [Fidji]{"entity": "country_code", "value": "FJ"}
+- [Falkland]{"entity": "country_code", "value": "FK"}
+- [Micronesia]{"entity": "country_code", "value": "FM"}
+- [Ilhas Faroé]{"entity": "country_code", "value": "FO"}
+- [França]{"entity": "country_code", "value": "FR"}
+- [Gabão]{"entity": "country_code", "value": "GA"}
+- [Reino Unido]{"entity": "country_code", "value": "GB"}
+- [Granada]{"entity": "country_code", "value": "GD"}
+- [Geórgia]{"entity": "country_code", "value": "GE"}
+- [Guyane]{"entity": "country_code", "value": "GF"}
+- [Bailado de Guernsey]{"entity": "country_code", "value": "GG"}
+- [Gibraltar]{"entity": "country_code", "value": "GI"}
+- [Gronelandia]{"entity": "country_code", "value": "GL"}
+- [Gambia]{"entity": "country_code", "value": "GM"}
+- [Guinea]{"entity": "country_code", "value": "GN"}
+- [Guadalupe]{"entity": "country_code", "value": "GP"}
+- [Geórgia do Sul]{"entity": "country_code", "value": "GS"}
+- [Guatemala]{"entity": "country_code", "value": "GT"}
+- [Guam]{"entity": "country_code", "value": "GU"}
+- [Guiné-Bissau]{"entity": "country_code", "value": "GW"}
+- [Guiana]{"entity": "country_code", "value": "GY"}
+- [Hong Kong]{"entity": "country_code", "value": "HK"}
+- [Ilhas Heard]{"entity": "country_code", "value": "HM"}
+- [Honduras]{"entity": "country_code", "value": "HN"}
+- [Croacia]{"entity": "country_code", "value": "HR"}
+- [Haiti]{"entity": "country_code", "value": "HT"}
+- [Hungria]{"entity": "country_code", "value": "HU"}
+- [Indonesia]{"entity": "country_code", "value": "ID"}
+- [Irlanda]{"entity": "country_code", "value": "IE"}
+- [Israel]{"entity": "country_code", "value": "IL"}
+- [Mann]{"entity": "country_code", "value": "IM"}
+- [India]{"entity": "country_code", "value": "IN"}
+- [Território Britânico do Oceano]{"entity": "country_code", "value": "IO"}
+- [Iraq]{"entity": "country_code", "value": "IQ"}
+- [Irão]{"entity": "country_code", "value": "IR"}
+- [Islandia]{"entity": "country_code", "value": "IS"}
+- [Italia]{"entity": "country_code", "value": "IT"}
+- [Jersey]{"entity": "country_code", "value": "JE"}
+- [Jamaica]{"entity": "country_code", "value": "JM"}
+- [Jordania]{"entity": "country_code", "value": "JO"}
+- [Japão]{"entity": "country_code", "value": "JP"}
+- [Kenya]{"entity": "country_code", "value": "KE"}
+- [Quirguistão]{"entity": "country_code", "value": "KG"}
+- [Cambodja]{"entity": "country_code", "value": "KH"}
+- [Kiribati]{"entity": "country_code", "value": "KI"}
+- [Comoros]{"entity": "country_code", "value": "KM"}
+- [Nevis]{"entity": "country_code", "value": "KN"}
+- [DPRK]{"entity": "country_code", "value": "KP"}
+- [Coreia do Sul]{"entity": "country_code", "value": "KR"}
+- [Kuwait]{"entity": "country_code", "value": "KW"}
+- [Ilhas Caimão]{"entity": "country_code", "value": "KY"}
+- [Cazaquistão]{"entity": "country_code", "value": "KZ"}
+- [Laos]{"entity": "country_code", "value": "LA"}
+- [Líbano]{"entity": "country_code", "value": "LB"}
+- [Santa Lúcia]{"entity": "country_code", "value": "LC"}
+- [Sri Lanka]{"entity": "country_code", "value": "LK"}
+- [Liberia]{"entity": "country_code", "value": "LR"}
+- [Lithuania]{"entity": "country_code", "value": "LT"}
+- [Lesoto]{"entity": "country_code", "value": "LS"}
+- [Luxemburgo]{"entity": "country_code", "value": "LU"}
+- [Latvia]{"entity": "country_code", "value": "LV"}
+- [Líbia]{"entity": "country_code", "value": "LY"}
+- [Marrocos]{"entity": "country_code", "value": "MA"}
+- [Monaco]{"entity": "country_code", "value": "MC"}
+- [Moldávia]{"entity": "country_code", "value": "MD"}
+- [Montenegro]{"entity": "country_code", "value": "ME"}
+- [Saint Martin]{"entity": "country_code", "value": "MF"}
+- [Madagáscar]{"entity": "country_code", "value": "MG"}
+- [Ilhas Marshall]{"entity": "country_code", "value": "MH"}
+- [Macedónia]{"entity": "country_code", "value": "MK"}
+- [Máli]{"entity": "country_code", "value": "ML"}
+- [Myanmar]{"entity": "country_code", "value": "MM"}
+- [Mongolia]{"entity": "country_code", "value": "MN"}
+- [Macau]{"entity": "country_code", "value": "MO"}
+- [CNMI]{"entity": "country_code", "value": "MP"}
+- [Martinique]{"entity": "country_code", "value": "MQ"}
+- [Mauritania]{"entity": "country_code", "value": "MR"}
+- [Monserrate]{"entity": "country_code", "value": "MS"}
+- [Malta]{"entity": "country_code", "value": "MT"}
+- [Maurice]{"entity": "country_code", "value": "MU"}
+- [Maldivas]{"entity": "country_code", "value": "MV"}
+- [Malawi]{"entity": "country_code", "value": "MW"}
+- [Mexico]{"entity": "country_code", "value": "MX"}
+- [Malásia]{"entity": "country_code", "value": "MY"}
+- [Moçambique]{"entity": "country_code", "value": "MZ"}
+- [Namibia]{"entity": "country_code", "value": "NA"}
+- [Nova Caledónia]{"entity": "country_code", "value": "NC"}
+- [Niger]{"entity": "country_code", "value": "NE"}
+- [Norfolk Island]{"entity": "country_code", "value": "NF"}
+- [Nigeria]{"entity": "country_code", "value": "NG"}
+- [Nicaragua]{"entity": "country_code", "value": "NI"}
+- [Holanda]{"entity": "country_code", "value": "NL"}
+- [Noruega]{"entity": "country_code", "value": "NO"}
+- [Nepal]{"entity": "country_code", "value": "NP"}
+- [Nauru]{"entity": "country_code", "value": "NR"}
+- [Niuê]{"entity": "country_code", "value": "NU"}
+- [Nova Zelândia]{"entity": "country_code", "value": "NZ"}
+- [Omão]{"entity": "country_code", "value": "OM"}
+- [Panama]{"entity": "country_code", "value": "PA"}
+- [Peru]{"entity": "country_code", "value": "PE"}
+- [Polinésia Francesa]{"entity": "country_code", "value": "PF"}
+- [PNG]{"entity": "country_code", "value": "PG"}
+- [Filipinas]{"entity": "country_code", "value": "PH"}
+- [Paquistão]{"entity": "country_code", "value": "PK"}
+- [Polónia]{"entity": "country_code", "value": "PL"}
+- [São Pedro e Miquelon]{"entity": "country_code", "value": "PM"}
+- [Pitcairn]{"entity": "country_code", "value": "PN"}
+- [Porto Rico]{"entity": "country_code", "value": "PR"}
+- [Palestine]{"entity": "country_code", "value": "PS"}
+- [Palau]{"entity": "country_code", "value": "PW"}
+- [Paraguay]{"entity": "country_code", "value": "PY"}
+- [Qatar]{"entity": "country_code", "value": "QA"}
+- [Reunião]{"entity": "country_code", "value": "RE"}
+- [Roménia]{"entity": "country_code", "value": "RO"}
+- [Sérvia]{"entity": "country_code", "value": "RS"}
+- [Russia]{"entity": "country_code", "value": "RU"}
+- [Ruanda]{"entity": "country_code", "value": "RW"}
+- [Arábia Saudita]{"entity": "country_code", "value": "SA"}
+- [Ilhas Salomão]{"entity": "country_code", "value": "SB"}
+- [Seicheles]{"entity": "country_code", "value": "SC"}
+- [Sudão]{"entity": "country_code", "value": "SD"}
+- [Suécia]{"entity": "country_code", "value": "SE"}
+- [Singapura]{"entity": "country_code", "value": "SG"}
+- [Ascensão]{"entity": "country_code", "value": "SH"}
+- [Eslovénia]{"entity": "country_code", "value": "SI"}
+- [Svalbard]{"entity": "country_code", "value": "SJ"}
+- [Eslováquia]{"entity": "country_code", "value": "SK"}
+- [Serra Leoa]{"entity": "country_code", "value": "SL"}
+- [São Marino]{"entity": "country_code", "value": "SM"}
+- [Senegal]{"entity": "country_code", "value": "SN"}
+- [Somália]{"entity": "country_code", "value": "SO"}
+- [Suriname]{"entity": "country_code", "value": "SR"}
+- [South Sudan]{"entity": "country_code", "value": "SS"}
+- [São Tomé e Príncipe]{"entity": "country_code", "value": "ST"}
+- [Salvador]{"entity": "country_code", "value": "SV"}
+- [Sint Maarten]{"entity": "country_code", "value": "SX"}
+- [Síria]{"entity": "country_code", "value": "SY"}
+- [Andorra]{"entity": "country_code", "value": "AD"}
+- [Turcas e Caicos]{"entity": "country_code", "value": "TC"}
+- [Chade]{"entity": "country_code", "value": "TD"}
+- [TAAF]{"entity": "country_code", "value": "TF"}
+- [Togo]{"entity": "country_code", "value": "TG"}
+- [Tailândia]{"entity": "country_code", "value": "TH"}
+- [Tajiquistão]{"entity": "country_code", "value": "TJ"}
+- [Tokelau]{"entity": "country_code", "value": "TK"}
+- [Timor Leste]{"entity": "country_code", "value": "TL"}
+- [Turquemenistão]{"entity": "country_code", "value": "TM"}
+- [Tunísia]{"entity": "country_code", "value": "TN"}
+- [Tonga]{"entity": "country_code", "value": "TO"}
+- [Turkey]{"entity": "country_code", "value": "TR"}
+- [Trinidade e Tobago]{"entity": "country_code", "value": "TT"}
+- [Tuvalu]{"entity": "country_code", "value": "TV"}
+- [Taiwan]{"entity": "country_code", "value": "TW"}
+- [Tanzania]{"entity": "country_code", "value": "TZ"}
+- [Ucrânia]{"entity": "country_code", "value": "UA"}
+- [Uganda]{"entity": "country_code", "value": "UG"}
+- [Ilha Wake]{"entity": "country_code", "value": "UM"}
+- [Estados Unidos]{"entity": "country_code", "value": "US"}
+- [Uruguai]{"entity": "country_code", "value": "UY"}
+- [Uzbekistan]{"entity": "country_code", "value": "UZ"}
+- [Santa Sé]{"entity": "country_code", "value": "VA"}
+- [São Vicente]{"entity": "country_code", "value": "VC"}
+- [Venezuela]{"entity": "country_code", "value": "VE"}
+- [Ilhas Virgens Britânicas]{"entity": "country_code", "value": "VG"}
+- [American Virgin Islands]{"entity": "country_code", "value": "VI"}
+- [Vietname]{"entity": "country_code", "value": "VN"}
+- [Vanuatu]{"entity": "country_code", "value": "VU"}
+- [Wallis and Futuna]{"entity": "country_code", "value": "WF"}
+- [Samoa]{"entity": "country_code", "value": "WS"}
+- [Iémen]{"entity": "country_code", "value": "YE"}
+- [Maore]{"entity": "country_code", "value": "YT"}
+- [RSA]{"entity": "country_code", "value": "ZA"}
+- [República da Zâmbia]{"entity": "country_code", "value": "ZM"}
+- [Swaziland]{"entity": "country_code", "value": "SZ"}
+- [Emirates]{"entity": "country_code", "value": "AE"}
+- [Afeganistão]{"entity": "country_code", "value": "AF"}
+- [Antígua]{"entity": "country_code", "value": "AG"}
+- [Anguila]{"entity": "country_code", "value": "AI"}
+- [Albânia]{"entity": "country_code", "value": "AL"}
+- [Armênia]{"entity": "country_code", "value": "AM"}
+- [Angola]{"entity": "country_code", "value": "AO"}
+- [Antarctica]{"entity": "country_code", "value": "AQ"}
+- [Argentina]{"entity": "country_code", "value": "AR"}
+- [Tutuila]{"entity": "country_code", "value": "AS"}
+- [Austria]{"entity": "country_code", "value": "AT"}
+- [Australia]{"entity": "country_code", "value": "AU"}
+- [Aruba]{"entity": "country_code", "value": "AW"}
+- [Alanda]{"entity": "country_code", "value": "AX"}
+- [Azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [Bosnia]{"entity": "country_code", "value": "BA"}
+- [Barbados]{"entity": "country_code", "value": "BB"}
+- [Bangladesh]{"entity": "country_code", "value": "BD"}
+- [Bélgica]{"entity": "country_code", "value": "BE"}
+- [Burquina]{"entity": "country_code", "value": "BF"}
+- [Bulgária]{"entity": "country_code", "value": "BG"}
+- [Barein]{"entity": "country_code", "value": "BH"}
+- [Burundi]{"entity": "country_code", "value": "BI"}
+- [Benin]{"entity": "country_code", "value": "BJ"}
+- [São Bartolomeu]{"entity": "country_code", "value": "BL"}
+- [Bermuda]{"entity": "country_code", "value": "BM"}
+- [Brunei]{"entity": "country_code", "value": "BN"}
+- [Bolivia]{"entity": "country_code", "value": "BO"}
+- [Saba]{"entity": "country_code", "value": "BQ"}
+- [Brasil]{"entity": "country_code", "value": "BR"}
+- [Bahaamas]{"entity": "country_code", "value": "BS"}
+- [Butão]{"entity": "country_code", "value": "BT"}
+- [Bouvetøya]{"entity": "country_code", "value": "BV"}
+- [Botsuana]{"entity": "country_code", "value": "BW"}
+- [Belarus]{"entity": "country_code", "value": "BY"}
+- [Belize]{"entity": "country_code", "value": "BZ"}
+- [Canadá]{"entity": "country_code", "value": "CA"}
+- [Ilhas Keeling]{"entity": "country_code", "value": "CC"}
+- [RD Congo]{"entity": "country_code", "value": "CD"}
+- [CAR]{"entity": "country_code", "value": "CF"}
+- [Congo]{"entity": "country_code", "value": "CG"}
+- [Suíça]{"entity": "country_code", "value": "CH"}
+- [Côte d'Ivoire]{"entity": "country_code", "value": "CI"}
+- [Ilhas Cook]{"entity": "country_code", "value": "CK"}
+- [Chile]{"entity": "country_code", "value": "CL"}
+- [Camarões]{"entity": "country_code", "value": "CM"}
+- [China]{"entity": "country_code", "value": "CN"}
+- [Colombia]{"entity": "country_code", "value": "CO"}
+- [Costa Rica]{"entity": "country_code", "value": "CR"}
+- [Cuba]{"entity": "country_code", "value": "CU"}
+- [Cabo Verde]{"entity": "country_code", "value": "CV"}
+- [Curaçao]{"entity": "country_code", "value": "CW"}
+- [Ilha Natal]{"entity": "country_code", "value": "CX"}
+- [Chipre]{"entity": "country_code", "value": "CY"}
+- [República Checa]{"entity": "country_code", "value": "CZ"}
+- [Alemanha]{"entity": "country_code", "value": "DE"}
+- [Djibouti]{"entity": "country_code", "value": "DJ"}
+- [Dinamarca]{"entity": "country_code", "value": "DK"}
+- [Dominica]{"entity": "country_code", "value": "DM"}
+- [República Dominicana]{"entity": "country_code", "value": "DO"}
+- [Argélia]{"entity": "country_code", "value": "DZ"}
+- [Equador]{"entity": "country_code", "value": "EC"}
+- [Estónia]{"entity": "country_code", "value": "EE"}
+- [European continet]{"entity": "world_region", "value": "Europe"}
+- [Europe]{"entity": "world_region", "value": "Europe"}
+- [Asia]{"entity": "world_region", "value": "Asia"}
+- [Africa]{"entity": "world_region", "value": "Africa"}
+- [America]{"entity": "world_region", "value": "America"}
+- [Oceania]{"entity": "world_region", "value": "Oceania"}
+- [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
+
+## synonym:EG
+- República Árabe do Egipto
+- República Árabe do Egito
+- Egipto
+- Egito
+- Arab Republic of Egypt
+- Egypt
+
+## synonym:EH
+- Aṣ-Ṣaḥrā’ al-Gharbīyah
+- Sáara Ocidental
+- Sara Ocidental
+- Saara Ocidental
+- Sahara Occidental
+- Taneẓroft Tutrimt
+- Western Sahara
+
+## synonym:ER
+- Estado da Eritreia
+- Ertrā
+- Eritreia
+- State of Eritrea
+- Eritrea
+- Dawlat Iritriyá
+- Hagere Ertra
+
+## synonym:ES
+- Reino de Espanha
+- Reino da Espanha
+- Espanha
+- Reiaume d'Espanha
+- Espainiako Erresuma
+- Regne d'Espanya
+- Reino de España
+- Kingdom of Spain
+- España
+- Spain
+
+## synonym:ET
+- República Democrática Federal da Etiópia
+- Etiópia
+- Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya
+- Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa
+- ityoppiah federalih demokrasih ummuno
+- Federal Democratic Republic of Ethiopia
+- Itoobiya
+- Itoophiyaa
+- Itiyoophiyaa
+- Ethiopia
+
+## synonym:FI
+- República da Finlândia
+- Finlândia
+- Republiken Finland
+- Suomen tasavalta
+- Republic of Finland
+- Suomi
+- Finland
+
+## synonym:FJ
+- República das Ilhas Fiji
+- Fidji
+- República das Fidji
+- Fíji
+- República das Fiji
+- República das Fíji
+- Matanitu Tugalala o Viti
+- Republic of Fiji
+- Fiji
+
+## synonym:FK
+- Falklands
+- Ilhas Falkland
+- Islas Malvinas
+- Ilhas Malvinas
+- Falkland
+- Malvinas
+- Falkland Islands (Malvinas)
+
+## synonym:FM
+- Micronésia
+- EFM
+- Estados Federados da Micronésia
+- Micronesia
+- FSM
+- Federated States of Micronesia
+
+## synonym:FO
+- Færeyjar
+- Ilhas Faroés
+- Ilhas Faroé
+- Ilhas Féroe
+- Ilhas Feroe
+- Færøerne
+- Føroyar
+- Faroe Islands
+
+## synonym:FR
+- República Francesa
+- França
+- République française
+- French Republic
+- France
+
+## synonym:GA
+- República Gabonesa
+- Gabão
+- République gabonaise
+- Gabonese Republic
+- Gabon
+
+## synonym:GB
+- Irlanda do Norte
+- Grã-Bretanha
+- Reino Unido da Grã-Bretanha e Irlanda do Norte
+- Reino Unido
+- Inglaterra
+- Northern Ireland
+- Great Britain
+- Britain
+- U.K.
+- UK
+- United Kingdom of Great Britain and Northern Ireland
+- United Kingdom
+- England
+
+## synonym:GD
+- Island of Spice
+- Ilha das Especiarias
+- La Grenade
+- Granada
+- Gwenad
+- Grenada
+
+## synonym:GE
+- República da Geórgia
+- Geórgia
+- sakartvelos resp'ublik'a
+- Republic of Georgia
+- Sakartvelo
+- Georgia
+
+## synonym:GF
+- Guyane française
+- Guiana Francesa
+- Department of French Guiana
+- Guyane
+- French Guiana
+
+## synonym:GG
+- Bailliage de Guernesey
+- Bailiwick of Guernsey
+- Bailiado de Guernsey
+- Guernesei
+- Guérnesei
+- Guernesey
+- Guernési
+- Guernsey
+
+## synonym:GH
+- República do Gana
+- Gana
+- Republic of Ghana
+- Ghana
+
+## synonym:GI
+- Gibraltar
+
+## synonym:GL
+- Gronelândia
+- Gronelandia
+- Groelândia
+- Groenlândia
+- Grønland
+- Kalaallit Nunaat
+- Greenland
+
+## synonym:GM
+- República da Gâmbia
+- Gâmbia
+- Republic of The Gambia
+- Gámbi
+- Kambiya
+- Gambia
+
+## synonym:GN
+- Renndaandi Ginea
+- Guinea-Conakry
+- French Guinea
+- Guinée française
+- République de Guinée
+- Republic of Guinea
+- Guinea
+
+## synonym:GP
+- Guadalupe
+- Gwadloup
+- Guadeloupe
+
+## synonym:GQ
+- República da Guiné Equatorial
+- République de Guinée équatoriale
+- República de Guinea Ecuatorial
+- Republic of Equatorial Guinea
+- Guiné Equatorial
+- Guinée équatoriale
+- Guinea Ecuatorial
+- Equatorial Guinea
+
+## synonym:GR
+- Hélade
+- República Helénica
+- República Helênica
+- Elláda
+- Grécia
+- Grecia
+- Ellinikí Dimokratía
+- Hellas
+- Hellenic Republic
+- Greece
+
+## synonym:GS
+- Geórgia do Sul
+- Sandwich do Sul
+- Ilhas Sandwich do Sul
+- Ilhas Geórgias do Sul e Sandwich do Sul
+- Ilhas Geórgia do Sul e Sanduíche do Sul
+- Ilhas Geórgia do Sul e Sandwich do Sul
+- South Georgia
+- South Sandwich Islands
+- SGSSI
+- South Georgia and the South Sandwich Islands
+
+## synonym:GT
+- República da Guatemala
+- República de Guatemala
+- Republic of Guatemala
+- Guatemala
+
+## synonym:GU
+- Guame
+- Guão
+- Guåhån
+- Guam
+
+## synonym:GW
+- Guiné Bissau
+- Guinea Bissau
+- República da Guiné-Bissau
+- Republic of Guinea-Bissau
+- Guiné-Bissau
+- Guinea-Bissau
+
+## synonym:GY
+- República Cooperativa da Guiana
+- Guiana
+- Co-operative Republic of Guyana
+- Guyana
+
+## synonym:HK
+- Hēunggóng
+- Xiānggǎng
+- HKSAR
+- Hong Kong Special Administrative Region
+- Hong Kong
+
+## synonym:HM
+- Ilhas McDonald
+- Ilhas Heard
+- Território das Ilhas Heard e McDonald
+- Ilha Heard e as Ilhas McDonald
+- HIMI
+- Heard Island and McDonald Islands
+
+## synonym:HN
+- República das Honduras
+- República de Honduras
+- Republic of Honduras
+- Honduras
+
+## synonym:HR
+- República da Croácia
+- Croácia
+- Republika Hrvatska
+- Republic of Croatia
+- Hrvatska
+- Croatia
+
+## synonym:HT
+- República do Haiti
+- Hayti
+- Repiblik D Ayiti
+- République d'Haïti
+- Republic of Haiti
+- Ayiti
+- Haïti
+- Haiti
+
+## synonym:HU
+- Hungria
+- Magyarország
+- Hungary
+
+## synonym:ID
+- República da Indonésia
+- Indonésia
+- Republik Indonesia
+- Republic of Indonesia
+- Indonesia
+
+## synonym:IE
+- Emerald Isle
+- Ilha Esmeralda
+- Irlanda
+- Ilha da Irlanda
+- Airlann
+- Éire
+- Ireland
+
+## synonym:IL
+- Dawlat Isrā'īl
+- Medīnat Yisrā'el
+- Estado de Israel
+- State of Israel
+- Israel
+
+## synonym:IM
+- Ilha de Man
+- Ellan Vannin
+- Mannin
+- Mann
+- Isle of Man
+
+## synonym:IN
+- República da Índia
+- Índia
+- Bhārat Gaṇarājya
+- Republic of India
+- Bhārat
+- India
+
+## synonym:IO
+- Território Britânico do Oceano
+- Território Britânico do Índico
+- British Indian Territory
+- British Indian Ocean
+- Território Britânico do Oceano Índico
+- TBOI
+- BIOT
+- British Indian Ocean Territory
+
+## synonym:IQ
+- Al-Jumhuriyah Al-Iraqiyah
+- República do Iraque
+- Iraque
+- Komarî Êraq
+- Republic of Iraq
+- Êraq
+- Iraq
+
+## synonym:IR
+- Pérsia
+- República Islâmica do Irão
+- República Islâmica do Irã
+- Irã
+- Irão
+- Jomhuri-ye Eslāmi-ye Irān
+- Persia
+- Islamic Republic of Iran
+
+## synonym:IS
+- Islândia
+- Ísland
+- Iceland
+
+## synonym:IT
+- República Italiana
+- Itália
+- Repubblica Italiana
+- Italian Republic
+- Italia
+- Italy
+
+## synonym:JE
+- Bailiado de Jersey
+- Jérsia
+- Jérsei
+- Bailliage dé Jèrri
+- Bailliage de Jersey
+- Bailiwick of Jersey
+- Jersey
+
+## synonym:JM
+- Jumieka
+- Jamaica
+
+## synonym:JO
+- Reino da Jordânia
+- Reino Haxemita da Jordânia
+- Jordânia
+- Jordania
+- Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah
+- Al-ʾUrdunn
+- Kingdom of Jordan
+- Hashemite Kingdom of Jordan
+- Jordan
+
+## synonym:JP
+- Estado do Japão
+- Japão
+- Nihon-koku
+- Nippon-koku
+- Nihon
+- Nippon
+- Japan
+
+## synonym:KE
+- República do Quênia
+- República do Quénia
+- Quênia
+- Quénia
+- Jamhuri ya Kenya
+- Republic of Kenya
+- Kenya
+
+## synonym:KG
+- República do Quirguizistão
+- República do Quirguistão
+- República Quirguiz
+- Quirguízia
+- Quirguizistão
+- Quirguistão
+- Киргизия
+- Kirghizia
+- Kyrgyzskaya Respublika
+- Кыргызская Республика
+- Kırğız Respublikası
+- Кыргыз Республикасы
+- Kyrgyz Republic
+- Kyrgyzstan
+
+## synonym:KH
+- Reino do Camboja
+- Cambodja
+- Camboja
+- Royaume du Cambodge
+- Kingdom of Cambodia
+- Cambodge
+- Kampuchea
+- Cambodia
+
+## synonym:KI
+- República de Quiribáti
+- República de Quiribati
+- República de Kiribati
+- Quiribati
+- Quiribáti
+- Ribaberiki Kiribati
+- Republic of Kiribati
+- Kiribati
+
+## synonym:KM
+- União de Comores
+- União das Comores
+- Comores
+- al-Ittiḥād al-Qamarī
+- al-Ittiḥād al-Qumurī
+- Umoja wa Komori
+- Union des Comores
+- Udzima wa Komori
+- Union of the Comoros
+- Comoros
+
+## synonym:KN
+- Nevis
+- Saint Kitts
+- Federação de São Cristóvão e Névis
+- Federação de São Cristóvão e Neves
+- São Cristóvão e Neves
+- São Cristóvão e Névis
+- Federation of Saint Christopher and Nevis
+- Saint Kitts and Nevis
+
+## synonym:KP
+- República Popular Democrática da Coreia
+- Coreia do Norte
+- Pukchosŏn
+- Chosŏn
+- Chosŏn Minjujuŭi Inmin Konghwaguk
+- DPR Korea
+- DPRK
+- North Korea
+- Democratic People's Republic of Korea
+
+## synonym:KR
+- República da Coreia
+- Coreia do Sul
+- Daehan Minguk
+- Namhan
+- Hanguk
+- South Korea
+- Republic of Korea
+
+## synonym:KW
+- Estado do Kuwait
+- Dawlat al-Kuwait
+- State of Kuwait
+- al-Kuwait
+- Kuwait
+
+## synonym:KY
+- Ilhas Caimão
+- Ilhas Cayman
+- Ilhas Caimã
+- Cayman Islands
+
+## synonym:KZ
+- República do Cazaquistão
+- Qazaqstan
+- Cazaquistão
+- Respublika Kazakhstan
+- Республика Казахстан
+- Qazaqstan Respýblıkasy
+- Қазақстан Республикасы
+- Republic of Kazakhstan
+- Kazakhstan
+
+## synonym:LA
+- République démocratique populaire lao
+- Saþalanalat Paxaþipatai Paxaxōn Lao
+- Lāo
+- Laos
+- Lao People's Democratic Republic
+
+## synonym:LB
+- República do Líbano
+- Liban
+- Líbano
+- République libanaise
+- al-Jumhūrīyah al-Lubnānīyah
+- Lebanese Republic
+- Lubnān
+- Lebanon
+
+## synonym:LC
+- Santa Lúcia
+- Iyonola
+- Sainte-Lucie
+- Saint Lucia
+
+## synonym:LI
+- Principado de Liechtenstein
+- Principado do Liechtenstein
+- Listenstaine
+- Fürstentum Liechtenstein
+- Principality of Liechtenstein
+- Liechtenstein
+
+## synonym:LK
+- Taprobana
+- Ceilão
+- República Democrática Socialista do Sri Lanka
+- Seri Lanca
+- Sri Lanca
+- Ilaṅkai
+- Śrī Laṃkā
+- Democratic Socialist Republic of Sri Lanka
+- Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
+- Srī Lankā prajātāntrika samājavādī janarajaya
+- Sri Lanka
+
+## synonym:LR
+- República da Libéria
+- Libéria
+- Republic of Liberia
+- Liberia
+
+## synonym:LS
+- Bassutolândia
+- Reino do Lessoto
+- Reino do Lesoto
+- Lessoto
+- Lesoto
+- Muso oa Lesotho
+- Kingdom of Lesotho
+- Lesotho
+
+## synonym:LT
+- República da Lituânia
+- Lituânia
+- Lietuvos Respublika
+- Republic of Lithuania
+- Lietuva
+- Lithuania
+
+## synonym:LU
+- Grão-Ducado de Luxemburgo
+- Grão-Ducado do Luxemburgo
+- Luxemburgo
+- Großherzogtum Luxemburg
+- Grand-Duché de Luxembourg​
+- Groussherzogtum Lëtzebuerg
+- Grand Duchy of Luxembourg
+- Luxemburg
+- Lëtzebuerg
+- Luxembourg
+
+## synonym:LV
+- República da Letônia
+- Letônia
+- Letónia
+- Lețmō Vabāmō
+- Latvijas Republika
+- Republic of Latvia
+- Lețmō
+- Latvija
+- Latvia
+
+## synonym:LY
+- Estado da Líbia
+- Líbia
+- Dawlat Lībiyā
+- State of Libya
+- Lībiyā
+- Libya
+
+## synonym:MA
+- Reino de Marrocos
+- Murakuc
+- Amerruk
+- Marrocos
+- tageldit n lmaɣrib
+- Royaume du Maroc
+- The Western Kingdom
+- al-mamlakah al-maghribiyah
+- Kingdom of Morocco
+- Maroc
+- al-maġhrib
+- Morocco
+
+## synonym:MC
+- Principado de Mônaco
+- Principado do Mónaco
+- Mónaco
+- Principatu de Mùnegu
+- Principat de Mónegue
+- Principato di Monaco
+- Principauté de Monaco
+- Principality of Monaco
+- Monaco
+
+## synonym:MD
+- República da Moldova
+- República da Moldávia
+- Moldávia
+- Republica Moldova
+- Moldova
+- Republic of Moldova
+
+## synonym:ME
+- Црна Гора
+- Crna Gora
+- Montenegro
+
+## synonym:MF
+- São Martim
+- São Martinho parte francesa
+- Saint Martin
+- Sint Martin
+- Saint-Martin
+- Saint Martin (French part)
+
+## synonym:MG
+- República Malgaxe
+- República de Madagascar
+- República de Madagáscar
+- Madagáscar
+- Malagasy Republic
+- République de Madagascar
+- Repoblikan'i Madagasikara
+- Republic of Madagascar
+- Madagasikara
+- Madagascar
+
+## synonym:MH
+- República das Ilhas Marshall
+- Ilhas Marshall
+- Aolepān Aorōkin Ṃajeḷ
+- Republic of the Marshall Islands
+- Marshall Islands
+
+## synonym:MK
+- Macedónia
+- Macedônia
+- República da Macedónia do Norte
+- República da Macedônia do Norte
+- Severna Makedonija
+- Macedónia do Norte
+- Macedônia do Norte
+- Republika e Maqedonisë së Veriut
+- Република Северна Македонија
+- Republic of North Macedonia
+- Macedonia
+- North Macedonia
+- the Former Yugoslav Republic of Macedonia
+
+## synonym:ML
+- República do Mali
+- Máli
+- Renndaandi Maali
+- Mali ka Fasojamana
+- République du Mali
+- Republic of Mali
+- Mali
+
+## synonym:MM
+- República da União de Myanmar
+- Birmânia
+- Nainngandaw
+- Pyidaunzu Thanmăda Myăma
+- Republic of the Union of Myanmar
+- Burma
+- Myanmar
+
+## synonym:MN
+- Mongolian Nation
+- Mongol Uls
+- mongol nation
+- nação mongol
+- Mongolia
+
+## synonym:MO
+- Região Administrativa de Macau
+- Região Administrativa Especial de Macau
+- Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
+- Jūng'wàh Yàhnmàhn
+- Macao Special Administrative Region
+- Macau
+- Macao
+
+## synonym:MP
+- Comunidade das Ilhas Marianas do Norte
+- Ilhas Marianas do Norte
+- Ilhas Marianas Setentrionais
+- Nördliche Marianen
+- Islas Marianas del Norte
+- Commonwealth Téél Falúw kka Efáng llól Marianas
+- Sankattan Siha Na Islas Mariånas
+- CNMI
+- Commonwealth of the Northern Mariana Islands
+- Northern Mariana Islands
+
+## synonym:MQ
+- Martinica
+- Matinik
+- Matnik
+- Martinique
+
+## synonym:MR
+- República Islâmica da Mauritânia
+- Mauritânia
+- al-Jumhūrīyah al-Islāmīyah al-Mūrītānīyah
+- République islamique de Mauritanie
+- Islamic Republic of Mauritania
+- Murutaane
+- Gànnaar
+- Moritani
+- Cengit
+- Agawej
+- Mauritanie
+- Mūrītānyā
+- Mauritania
+
+## synonym:MS
+- Emerald Isle of the Caribbean
+- The Emerald Isle of the Caribbean
+- Ilha Esmeralda das Caraíbas
+- Monserrate
+- Montserrat
+
+## synonym:MT
+- República de Malta
+- Repubblika ta' Malta
+- Republic of Malta
+- Malta
+
+## synonym:MU
+- République de Maurice
+- República de Maurício
+- República da Maurícia
+- Maurício
+- Maurícia
+- Repiblik Moris
+- Republic of Mauritius
+- Moris
+- Maurice
+- Mauritius
+
+## synonym:MV
+- República das Maldivas
+- Maldivas
+- Dhivehi Raajje
+- Dhivehi Raajjeyge Jumhooriyyaa
+- Republic of Maldives
+- Maldives
+
+## synonym:MW
+- Charu cha Malaŵi
+- Dziko la Malaŵi
+- Dziko la Malaŵi
+- Republic of Malawi
+- Malawi
+- República do Malawi
+- Malaŵi
+- Malaui
+- Maláui
+- Nyasaland
+
+## synonym:MX
+- Mexican United States
+- EUM
+- Estados Unidos Mexicanos
+- United Mexican States
+- Mēxihco
+- México
+- Mexico
+
+## synonym:MY
+- Malásia
+- Malaysia
+
+## synonym:MZ
+- Muzambhiki
+- Msumbiji
+- Mozambiki
+- República de Moçambique
+- Moçambique
+- Republic of Mozambique
+- Mozambique
+
+## synonym:NA
+- República da Namíbia
+- Namibia ye Lukuluhile
+- Rephaboliki ya Namibia
+- Republika zaNamibia
+- Orepublika yaNamibia
+- Namibiab Republiki dib
+- Republik Namibia
+- Republiek van Namibië
+- Republic of Namibia
+- Namibia
+
+## synonym:NC
+- Nova Caledônia
+- Nova Caledónia
+- Nouvelle-Calédonie
+- New Caledonia
+
+## synonym:NE
+- Níger
+- República do Níger
+- Republic of the Niger
+- République du Niger
+- the Niger
+- Niger
+
+## synonym:NF
+- Território da Ilha Norfolque
+- Território da Ilha Norfolk
+- ilha Norfolque
+- ilha Norfolk
+- Teratri a' Norf'k Ailen
+- Territory of Norfolk Island
+- Norf'k Ailen
+- Norfolk Island
+
+## synonym:NG
+- Nigéria
+- República Federal da Nigéria
+- Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà
+- Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà
+- Jamhuriyar Taraiyar Najeriya
+- Federal Republic of Nigeria
+- Nigeria
+
+## synonym:NI
+- República da Nicarágua
+- Nicarágua
+- República de Nicaragua
+- Republic of Nicaragua
+- Nicaragua
+
+## synonym:NL
+- Reino dos Países Baixos
+- Holanda
+- Países Baixos
+- Kingdom of the Netherlands
+- Nederland
+- Netherlands
+
+## synonym:NO
+- Reino da Noruega
+- Noruega
+- Nöörje
+- Vuodna
+- Norga
+- Noreg
+- Norge
+- Nöörjen gånkarijhke
+- Vuona gånågisrijkka
+- Norgga gonagasriika
+- Kongeriket Noreg
+- Kongeriket Norge
+- Kingdom of Norway
+- Norway
+
+## synonym:NP
+- República Democrática Federal do Nepal
+- Saṅghīya Lokatāntrik Gaṇatantra Nepāl
+- Federal Democratic Republic of Nepal
+- Nepal
+
+## synonym:NR
+- Ilha Aprazível
+- Naoero
+- República de Nauru
+- Pleasant Island
+- Repubrikin Naoero
+- Republic of Nauru
+- Nauru
+
+## synonym:NU
+- Niuê
+- Niuē
+- Niue
+
+## synonym:NZ
+- Nova Zelândia
+- Aotearoa
+- New Zealand
+
+## synonym:OM
+- Saltānat 'Umān
+- Sultanato de Omã
+- Omão
+- Omã
+- Sultanate of Oman
+- Salṭanat ʻUmān
+- Oman
+
+## synonym:PA
+- República del Panamá
+- República do Panamá
+- República de Panamá
+- Republic of Panama
+- Panamá
+- Panama
+
+## synonym:PE
+- Piruw Suyu
+- República del Perú
+- Republic of Peru
+- Piruw Republika
+- Perú
+- Peru
+
+## synonym:PF
+- Polinésia Francesa
+- Pōrīnetia Farāni
+- Polynésie française
+- French Polynesia
+
+## synonym:PG
+- Papua Niu Gini
+- Papua Niugini
+- Papua Nova Guiné
+- Papua-Nova Guiné
+- Independen Stet bilong Papua Niu Gini
+- Independen Stet bilong Papua Niugini
+- Independent State of Papua New Guinea
+- PNG
+- Papua New Guinea
+
+## synonym:PH
+- Repúbliká ng̃ Pilipinas
+- República das Filipinas
+- Republika ng Pilipinas
+- Republic of the Philippines
+- Filipinas
+- Pilipinas
+- Philippines
+
+## synonym:PK
+- República Islâmica do Paquistão
+- Islami Jamahuriat Pakistan
+- Pākistān
+- Paquistão
+- Islāmī Jumhūriyah Pākistān
+- Islamic Republic of Pakistan
+- Pakistan
+
+## synonym:PL
+- República da Polónia
+- Polónia
+- Polônia
+- Rzeczpospolita Polska
+- Republic of Poland
+- Polska
+- Poland
+
+## synonym:PM
+- Coletividade de Ultramar de São Pedro e Miquelão
+- Saint-Pierre e Miquelon
+- São Pedro e Miquelon
+- São Pedro e Miquelão
+- Collectivité d'outre-mer de Saint-Pierre-et-Miquelon
+- Overseas Collectivity of Saint Pierre and Miquelon
+- Saint-Pierre-et-Miquelon
+- Saint Pierre and Miquelon
+
+## synonym:PN
+- Grupo de Ilhas Pitcairn
+- Ilhas Pitcairn, Henderson, Ducie e Oeno
+- Ilhas Picárnia
+- Ilhas Pitcairn
+- Pitcairn, Henderson, Ducie and Oeno Islands
+- Pitkern Ailen
+- Pitcairn Islands
+- Pitcairn
+
+## synonym:PR
+- Estado Livre Associado de Porto Rico
+- Free Associated State of Puerto Rico
+- Estado Libre Asociado de Puerto Rico
+- Commonwealth of Puerto Rico
+- Porto Rico
+- Borinquen
+- Puerto Rico
+
+## synonym:PS
+- Estado da Palestina
+- Filasṭīn
+- Palestine
+- Palestina
+- Dawlat Filasṭīn
+- State of Palestine
+
+## synonym:PT
+- República Portuguesa
+- Portuguese Republic
+- Portugal
+
+## synonym:PW
+- República de Palau
+- Beluu er a Belau
+- Republic of Palau
+- Pelew
+- Palaos
+- Belau
+- Palau
+
+## synonym:PY
+- Paraguai
+- Paraguái
+- Tetã Paraguái
+- República del Paraguay
+- Republic of Paraguay
+- Paraguay
+
+## synonym:QA
+- Estado do Qatar
+- Estado do Catar
+- Catar
+- Qaṭar
+- Dawlat Qaṭar
+- State of Qatar
+- Qatar
+
+## synonym:RE
+- Reunião
+- Île Bourbon
+- La Réunion
+- Réunion
+
+## synonym:RO
+- Roménia
+- Romênia
+- România
+- Romania
+
+## synonym:RS
+- República da Sérvia
+- Sérvia
+- Republika Srbija
+- Република Србија
+- Republic of Serbia
+- Srbija
+- Србија
+- Serbia
+
+## synonym:RU
+- Federação Russa
+- Rússia
+- Rossiyskaya Federatsiya
+- Российская Федерация
+- Rossiya
+- Росси́я
+- Russia
+- Russian Federation
+
+## synonym:RW
+- República do Ruanda
+- República de Ruanda
+- Ruanda
+- u Rwanda
+- Jamhuri ya Rwanda
+- République du Rwanda
+- Repubulika y'u Rwanda
+- Republic of Rwanda
+- Rwanda
+
+## synonym:SA
+- Reino da Arábia Saudita
+- al-Mamlaka al-ʻArabiyya as-Suʻūdiyya
+- as-Su’ūdiyya
+- Arábia Saudita
+- Kingdom of Saudi Arabia
+- Saudi Arabia
+
+## synonym:SB
+- Ilhas Salomão
+- Islas Salomón
+- Solomon Islands
+
+## synonym:SC
+- República das Seychelles
+- República das Seicheles ou Seychelles
+- Seicheles
+- Sesel
+- La Repiblik Sesel
+- République des Seychelles
+- Republic of Seychelles
+- Seychelles
+
+## synonym:SD
+- República do Sudão
+- Sudão
+- Jumhūriyyat as-Sūdān
+- as-Sūdān
+- Republic of the Sudan
+- Sudan
+
+## synonym:SE
+- Reino da Suécia
+- Suécia
+- Konungariket Sverige
+- Kingdom of Sweden
+- Sverige
+- Sweden
+
+## synonym:SG
+- Republik Singapura
+- República de Singapura
+- Chiṅkappūr
+- Xīnjiāpō
+- Cingapura
+- Singapura
+- Republic of Singapore
+- Singapore
+
+## synonym:SH
+- Tristão da Cunha
+- Ascensão
+- Santa Helena
+- Santa Helena, Ascensão e Tristão da Cunha
+- Tristan da Cunha
+- Ascension Island
+- Saint Helena
+- Saint Helena, Ascension and Tristan da Cunha
+
+## synonym:SI
+- República da Eslovênia
+- República da Eslovénia
+- Eslovênia
+- Eslovénia
+- Republika Slovenija
+- Republic of Slovenia
+- Slovenija
+- Slovenia
+
+## synonym:SJ
+- Jan Mayen
+- Svalbard
+- Svalbard e Jan Mayen
+- Svalbard and Jan Mayen Islands
+- Svalbard og Jan Mayen
+- Svalbard and Jan Mayen
+
+## synonym:SK
+- República Eslovaca
+- Eslováquia
+- Slovenská republika
+- Slovak Republic
+- Slovensko
+- Slovakia
+
+## synonym:SL
+- República da Serra Leoa
+- Serra Leoa
+- Salone
+- Republic of Sierra Leone
+- Sierra Leone
+
+## synonym:SM
+- São Marino
+- São Marinho
+- Sereníssima República de San Marino
+- República de San Marino
+- Serenissima Repubblica di San Marino
+- Most Serene Republic of San Marino
+- Repubblica di San Marino
+- Republic of San Marino
+- San Marino
+
+## synonym:SN
+- República do Senegal
+- Renndaandi Senegal
+- Réewum Senegaal
+- République du Sénégal
+- Republic of Senegal
+- Sénégal
+- Senegal
+
+## synonym:SO
+- República Federal da Somália
+- Somália
+- Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya
+- Jamhuuriyadda Federaalka Soomaaliya
+- Federal Republic of Somalia
+- aṣ-Ṣūmāl
+- Soomaaliya
+- Somalia
+
+## synonym:SR
+- República do Suriname
+- Republiek Suriname
+- Republic of Suriname
+- Surinam
+- Suriname
+
+## synonym:SS
+- República do Sudão do Sul
+- Sudão Meridional
+- Sudão do Sul
+- Paguot Thudä
+- Republic of South Sudan
+- South Sudan
+
+## synonym:ST
+- São Tomé e Príncipe
+- República Democrática de São Tomé e Príncipe
+- Democratic Republic of São Tomé and Príncipe
+- Saint Thomas and Prince
+- Sao Tome and Principe
+
+## synonym:SV
+- República do Salvador
+- Salvador
+- República de El Salvador
+- Republic of El Salvador
+- El Salvador
+
+## synonym:SX
+- Sint Maarten
+- São Martinho paises baixos
+- Sint Maarten (Dutch part)
+
+## synonym:SY
+- República Árabe Síria
+- Síria
+- al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah
+- Sūriyā
+- Syria
+- Syrian Arab Republic
+
+## synonym:AD
+- Principado dos Vales de Andorra
+- Principado de Andorra
+- Principat de les Valls d'Andorra
+- Principality of the Valleys of Andorra
+- Principat d'Andorra
+- Principality of Andorra
+- Andorra
+
+## synonym:TC
+- Turcas
+- Turcas e Caicos
+- Ilhas Turcas e Caicos
+- Turks and Caicos
+- Caicos
+- Turks
+- Turks Islands
+- Caicos Islands
+- TCI
+- Turks and Caicos Islands
+
+## synonym:TD
+- República do Chade
+- Tchad
+- Tchade
+- Chade
+- Jumhūriyyat Tshād
+- République du Tchad
+- Republic of Chad
+- Tshād
+- Chad
+
+## synonym:TF
+- Terres australes françaises
+- French Southern Lands
+- TOM
+- Territoire d'outre-mer
+- TAAF
+- Terres australes et antarctiques françaises
+- French Southern and Antarctic Lands
+- French Southern Territories
+
+## synonym:TG
+- República Togolesa
+- République togolaise
+- Togolese Republic
+- Togo
+
+## synonym:TH
+- Sião
+- Reino da Tailândia
+- Tailândia
+- Ratcha-anachak Thai
+- Siam
+- Kingdom of Thailand
+- Thailand
+
+## synonym:TJ
+- República do Tajiquistão
+- Tojikiston
+- Tadjiquistão
+- Tajiquistão
+- Jumhurii Tojikiston
+- Republic of Tajikistan
+- Tajikistan
+
+## synonym:TK
+- Toquelau
+- Tokelau Islands
+- Union Islands
+- Tokelau
+
+## synonym:TL
+- East Timor
+- Democratic Republic of Timor-Leste
+- Repúblika Demokrátika Timór-Leste
+- Timor Lorosa'e
+- Timor Leste
+- República Democrática de Timor-Leste
+- Timor-Leste
+
+## synonym:TM
+- República do Turcomenistão
+- Turcomênia
+- Turcomenistão
+- Turquemenistão
+- Türkmenistan Respublikasy
+- Republic of Turkmenistan
+- Türkmenistan
+- Turkmenistan
+
+## synonym:TN
+- República Tunisina
+- Tunisie
+- Tūnis
+- Tunísia
+- République tunisienne
+- al-Jumhūrīyah at-Tūnisīyah
+- Republic of Tunisia
+- Tunisia
+
+## synonym:TO
+- Reino de Tonga
+- Puleʻanga Fakatuʻi ʻo Tonga
+- Kingdom of Tonga
+- Tonga
+
+## synonym:TR
+- República da Turquia
+- Turquia
+- Türkiye Cumhuriyeti
+- Republic of Turkey
+- Türkiye
+- Turkey
+
+## synonym:TT
+- Trinidade
+- República de Trindade e Tobago
+- Trinidad e Tobago
+- Trinidade e Tobago
+- Trindade e Tobago
+- Tobago
+- Trinidad
+- Republic of Trinidad and Tobago
+- Trinidad and Tobago
+
+## synonym:TV
+- Ilhas Ellice
+- Ellice Islands
+- Tuvalu
+
+## synonym:TW
+- Táiwān shěng
+- Província de Taiwan
+- Taiwan, China
+- Taiwan
+- Taiwan Area
+- Taiwan Region
+- Taiwan Province
+- Taiwan, Province of China
+
+## synonym:TZ
+- República Unida da Tanzânia
+- Tanzânia
+- Jamhuri ya Muungano wa Tanzania
+- Tanzania
+- United Republic of Tanzania
+
+## synonym:UA
+- Ucrânia
+- Ukrayina
+- Ukraine
+
+## synonym:UG
+- República do Uganda
+- República de Uganda
+- Eggwanga Yuganda
+- Jamhuri ya Uganda
+- Republic of Uganda
+- Uganda
+
+## synonym:UM
+- Ilhas Menores Afastadas dos Estados Unidos
+- Ilhas Menores Distantes dos Estados Unidos
+- Ilha Wake
+- Atol Palmyra
+- Ilha Navassa
+- Atol Midway
+- Recife Kingman
+- Atol Johnston
+- Ilha Jarvis
+- Ilha Howland
+- Ilha Baker
+- Navassa Island
+- Wake Island
+- Palmyra Atoll
+- Midway Atoll
+- Kingman Reef
+- Johnston Atoll
+- Jarvis Island
+- Howland Island
+- Baker Island
+- United States Minor Outlying Islands
+
+## synonym:US
+- Estados Unidos
+- Estados Unidos da América
+- US
+- U.S.
+- USA
+- United States of America
+- United States
+
+## synonym:UY
+- Uruguai
+- República Oriental do Uruguai
+- República Oriental del Uruguay
+- Oriental Republic of Uruguay
+- Uruguay
+
+## synonym:UZ
+- República do Uzbequistão
+- Usbequistão
+- Uzbequistão
+- Oʻzbekiston Respublikasi
+- Republic of Uzbekistan
+- Oʻzbekiston
+- Uzbekistan
+
+## synonym:VA
+- Status Civitatis Vaticanæ
+- Civitas Vaticana
+- Stato della Città del Vaticano
+- Estado da Cidade do Vaticano
+- Cidade do Vaticano
+- Vaticano
+- Cidade-Estado do Vaticano
+- Sé Apostólica
+- Santa Sé Apostólica
+- Santa Sé
+- See of Rome
+- Santa Sede
+- Sancta Sedes
+- Holy See (Vatican City State)
+
+## synonym:VC
+- São Vicente
+- São Vicente e Granadinas
+- Saint Vincent
+- Saint Vincent and the Grenadines
+
+## synonym:VE
+- República Bolivariana da Venezuela
+- República Bolivariana de Venezuela
+- Venezuela
+- Bolivarian Republic of Venezuela
+
+## synonym:VG
+- Ilhas Virgens Britânicas
+- BVI
+- British Virgin Islands
+
+## synonym:VI
+- Virgin Islands of the United States
+- American Virgin Islands
+- USVI
+- United States Virgin Islands
+- Ilhas Virgens dos Estados Unidos
+- Ilhas Virgens Americanas
+- U.S. Virgin Islands
+
+## synonym:VN
+- República Socialista do Vietname
+- República Socialista do Vietnã
+- Vietnã
+- Vietname
+- Socialist Republic of Vietnam
+- Vietnam
+- Viet Nam
+
+## synonym:VU
+- República de Vanuatu
+- Gloriosa República de Vanuatu
+- République de Vanuatu
+- Ripablik blong Vanuatu
+- Republic of Vanuatu
+- Vanuatu
+
+## synonym:WF
+- Território das Ilhas Wallis e Futuna
+- Wallis e Futuna
+- Uvea mo Futuna
+- Territoire des îles Wallis-et-Futuna
+- Wallis-et-Futuna
+- Territory of the Wallis and Futuna Islands
+- Wallis and Futuna
+
+## synonym:WS
+- Samoa Ocidental
+- Estado Independente da Samoa
+- Estado Independente de Samoa
+- Western Samoa
+- Sāmoa
+- Malo Saʻoloto Tutoʻatasi o Sāmoa
+- Independent State of Samoa
+- Samoa
+
+## synonym:YE
+- República do Iêmen
+- República do Iémen
+- Iêmen
+- Iémen
+- al-Yama
+- Republic of Yemen
+- Yaman
+- al-Jumhūrīyah al-Yamanīyah
+- Yemen
+
+## synonym:YT
+- Departamento de Maiote
+- Maiote
+- Département de Mayotte
+- Department of Mayotte
+- Mahori
+- Maore
+- Mayotte
+
+## synonym:ZA
+- República da África do Sul
+- África do Sul
+- iRiphabliki yeSewula Afrika
+- Riphabuḽiki ya Afurika Tshipembe
+- iRiphabhulikhi yeNingizimu Afrika
+- Riphabliki ya Afrika Dzonga
+- Rephaboliki ya Afrika Borwa
+- Rephaboliki ya Aforika Borwa
+- Repabliki ya Afrika-Borwa
+- iRiphabliki yomZantsi Afrika
+- iRiphabhuliki yaseNingizimu Afrika
+- Republiek van Suid-Afrika
+- RSA
+- Republic of South Africa
+- South Africa
+
+## synonym:ZM
+- República da Zâmbia
+- Zâmbia
+- Cisi ca Zambia
+- Dziko la Zambia
+- Republic of Zambia
+- Zambia
+
+## synonym:ZW
+- República do Zimbabwe
+- Zimbaué
+- Zimbabué
+- Zimbabue
+- Zimbábue
+- Shango ḽa Zimbabwe
+- Cisi ca Zimbabwe
+- Naha ya Zimbabwe
+- Tiko ra Zimbabwe
+- Inyika yeZimbabwe
+- Zimbabwe Nù
+- Hango yeZimbabwe
+- Dziko la Zimbabwe
+- Ilizwe leZimbabwe
+- Nyika yeZimbabwe
+- Rhodesia
+- Republic of Zimbabwe
+- Zimbabwe
+
+## synonym:SZ
+- Reino de Essuatíni
+- Essuatíni
+- Umbuso weSwatini
+- Kingdom of Eswatini
+- Eswatini
+- Swaziland
+
+## synonym:AE
+- Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
+- EAU
+- Emirados Árabes Unidos
+- UAE
+- Emirates
+- al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
+- United Arab Emirates
+
+## synonym:AF
+- Republica do Afeganistão
+- Afeganistão
+- República Islâmica do Afeganistão
+- Republic of Afghanistan
+- Islamic Republic of Afghanistan
+- Afghanistan
+
+## synonym:AG
+- Antígua
+- Antiga e Barbuda
+- Antígua e Barbuda
+- Barbuda
+- Antigua
+- Antigua and Barbuda
+
+## synonym:AI
+- Anguila
+- Island of Anguilla
+- Anguilla
+
+## synonym:AL
+- Republica da Albânia
+- Albânia
+- Republic of Albania
+- Albania
+
+## synonym:AM
+- República da Arménia
+- Armênia
+- Arménia
+- Republic of Armenia
+- Armenia
+
+## synonym:AO
+- República de Angola
+- Republic of Angola
+- Angola
+
+## synonym:AQ
+- Antártica
+- Antártida
+- Antarctica
+
+## synonym:AR
+- Republic of Argentina
+- República da Argentina
+- República Argentina
+- Argentine Republic
+- Argentina
+
+## synonym:AS
+- Tutuila
+- Sāmoa Amelika
+- Amelika Sāmoa
+- Amerika Sāmoa
+- Samoa Americana
+- American Samoa
+
+## synonym:AT
+- República da Áustria
+- Áustria
+- Republik Österreich
+- Österreich
+- Republic of Austria
+- Austria
+
+## synonym:AU
+- Comunidade da Austrália
+- Austrália
+- Commonwealth of Australia
+- Australia
+
+## synonym:AW
+- Aruba
+
+## synonym:AX
+- Alandia
+- Arquipélago da Aland
+- Arquipélago da Åland
+- Ahvenanmaa
+- Alanda
+- Ilhas de Aland
+- Ilhas Åland
+- Fasta Åland
+- Åland
+- Åland Islands
+
+## synonym:AZ
+- República do Azerbaijão
+- Azerbaijão
+- Republic of Azerbaijan
+- Azerbaijan
+
+## synonym:BA
+- Bósnia
+- Bósnia e Herzegovina
+- Bosna i Hercegovina
+- Bosnia
+- Bosnia–Herzegovina
+- B&H
+- BiH
+- Bosnia and Herzegovina
+
+## synonym:BB
+- Barbados
+
+## synonym:BD
+- República Popular do Bangladesh
+- Nação Bengali
+- Bangladeche
+- Bangladexe
+- People's Republic of Bangladesh
+- country of Bengal
+- Bangladesh
+
+## synonym:BE
+- Belgien
+- Belgique
+- België
+- Bélgica
+- Reino da Bélgica
+- Koninkrijk België
+- Royaume de Belgique
+- Königreich Belgien
+- Kingdom of Belgium
+- Belgium
+
+## synonym:BF
+- Burquina
+- Burquina Fasso
+- Burquina Faso
+- Republic of Burkina Faso
+- Burkina Faso
+
+## synonym:BG
+- Republika Bǎlgarija
+- República da Bulgária
+- Bulgária
+- Republika Balgariya
+- Republic of Bulgaria
+- Balgariya
+- Bulgaria
+
+## synonym:BH
+- Reino do Bareine
+- Reino do Barein
+- Reino do Barém
+- Reino do Bahrain
+- Reino do Bahrein
+- Bareine
+- Barein
+- Barém
+- Bahrein
+- Kingdom of Bahrain
+- Al-Baḥrayn
+- Bahrain
+
+## synonym:BI
+- República do Burúndi
+- Burúndi
+- République du Burundi
+- Republika y'Uburundi
+- Republic of Burundi
+- Burundi
+
+## synonym:BJ
+- República do Benim
+- Benim
+- Bénin
+- République du Bénin
+- Republic of Benin
+- Benin
+
+## synonym:BL
+- Coletividade de São Bartolomeu
+- São Bartolomeu
+- St. Barts
+- St. Barths
+- St-Barth
+- Collectivité territoriale de Saint-Barthélemy
+- Saint-Barthélemy
+- Saint Barthélemy
+
+## synonym:BM
+- Bermudas
+- Ilhas Bermudas
+- Islands of Bermuda
+- Bermuda
+
+## synonym:BN
+- Nation of Brunei, the Abode of Peace
+- Negara Brunei Darussalam
+- Nation of Brunei
+- Brunei
+- Brunei Darussalam
+
+## synonym:BO
+- Bolívia
+- Estado Plurinacional de Bolivia
+- Bolivia
+- Plurinational State of Bolivia
+
+## synonym:BQ
+- Santo Eustáquio
+- Caraíbas Neerlandesas
+- Países Baixos Caribenhos
+- BES Islands
+- Caribisch Nederland
+- Caribbean Netherlands
+- Saba
+- Sint Eustatius
+- Bonaire
+- Bonaire, Sint Eustatius and Saba
+
+## synonym:BR
+- República Federal do Brasil
+- República Federativa do Brasil
+- Federative Republic of Brazil
+- Brasil
+- Brazil
+
+## synonym:BS
+- Comunidade das Bahamas
+- Baamas
+- Commonwealth of The Bahamas
+- Bahaamas
+
+## synonym:BT
+- Reino do Butão
+- Butão
+- Druk Gyal Khap
+- Kingdom of Bhutan
+- Bhutan
+
+## synonym:BV
+- Ilha Bouvet
+- Bouvet-øya
+- Bouvetøya
+- Bouvet Island
+
+## synonym:BW
+- República do Botsuana
+- República do Botswana
+- Botsuana
+- Lefatshe la Botswana
+- Republic of Botswana
+- Botswana
+
+## synonym:BY
+- República da Bielorrússia
+- República da Belarus
+- Bielorrússia
+- Byelorussia
+- Belorussia
+- Republic of Belarus
+- Belarus
+
+## synonym:BZ
+- Belize
+
+## synonym:CA
+- Canadá
+- Canada
+
+## synonym:CC
+- Pulu Kokos Keeling
+- Ilhas Cocos Keeling
+- Ilhas Cocos (Keeling)
+- Ilhas Keeling
+- Keeling Islands
+- Wilayah Kepulauan Cocos (Keeling)
+- Wilayah Kepulauan Cocos Keeling
+- Pulu Kokos (Keeling)
+- Territory of Cocos Keeling Islands
+- Territory of Cocos (Keeling) Islands
+- Cocos Keeling Islands
+- Cocos (Keeling) Islands
+
+## synonym:CD
+- Congo-Quinxassa
+- Congo R.D.
+- RD Congo
+- RDC
+- República Democrática do Congo
+- Ditunga dia Kongu wa Mungalaata
+- Jamhuri ya Kidemokrasia ya Kongo
+- Republíki ya Kongó Demokratíki
+- Repubilika ya Kôngo ya Dimokalasi
+- Congo-Kinshasa
+- DROC
+- DRC
+- DR Congo
+- République démocratique du Congo
+- Democratic Republic of the Congo
+- The Democratic Republic of the Congo
+
+## synonym:CF
+- República Centro Africana
+- República da África Central
+- República da África-Central
+- República Centro-Africana
+- CAR
+- Ködörösêse tî Bêafrîka
+- République centrafricaine
+- Central African Republic
+
+## synonym:CG
+- RotC
+- Congo Republic
+- Congo Brazzaville
+- Congo-Brazzaville
+- Republíki ya Kongó
+- Repubilika ya Kôngo
+- République du Congo
+- Congo
+
+## synonym:CH
+- Confederação Suíça
+- Svizra
+- Svizzera
+- Suisse
+- Schwiiz
+- Schwyz
+- Schweiz
+- Suíça
+- Confoederatio Helvetica
+- Confederaziun svizra
+- Confederazione Svizzera
+- Confédération suisse
+- Schweizerische Eidgenossenschaft
+- Swiss Confederation
+- Switzerland
+
+## synonym:CI
+- República da Costa do Marfim
+- Costa do Marfim
+- République de Côte d'Ivoire
+- Republic of Côte d'Ivoire
+- The Ivory Coast
+- Ivory Coast
+- Côte d'Ivoire
+
+## synonym:CK
+- Ilhas Cook
+- Kūki 'Āirani
+- Cook Islands
+
+## synonym:CL
+- Repūvirika o Tire
+- Chili Ripuwlika
+- Chili Suyu
+- Chile Wüdalmapu
+- República de Chile
+- Republic of Chile
+- Chile
+
+## synonym:CM
+- República do Cameroun
+- República dos Camarões
+- Camarões
+- Renndaandi Kamerun
+- République du Cameroun
+- Republic of Cameroon
+- Cameroun
+- Cameroon
+
+## synonym:CN
+- RPC
+- República Popular da China
+- Zhōnghuá Rénmín Gònghéguó
+- PRC
+- People's Republic of China
+- China
+
+## synonym:CO
+- República da Colômbia
+- Colômbia
+- República de Colombia
+- Republic of Colombia
+- Colombia
+
+## synonym:CR
+- República da Costa Rica
+- República de Costa Rica
+- Republic of Costa Rica
+- Costa Rica
+
+## synonym:CU
+- República de Cuba
+- Republic of Cuba
+- Cuba
+
+## synonym:CV
+- Repúblika di Kabu Verdi
+- República de Cabo Verde
+- Republic of Cabo Verde
+- Cabo Verde
+- Cape Verde
+
+## synonym:CW
+- Curaçau
+- Country of Curaçao
+- Teritorio Insular di Kòrsou
+- Eilandgebied Curaçao
+- Island Territory of Curaçao
+- Pais Kòrsou
+- Land Curaçao
+- Kòrsou
+- Curaçao
+
+## synonym:CX
+- Território da Ilha Natal
+- Território da Ilha do Natal
+- Território da Ilha Christmas
+- Ilha Natal
+- Ilha do Natal
+- Ilha Christmas
+- Territory of Christmas Island
+- Christmas Island
+
+## synonym:CY
+- Kypriakí Dimokratía
+- República de Chipre
+- Kýpros
+- Chipre
+- Kıbrıs Cumhuriyeti
+- Cypriot Republic
+- Κυπριακή Δημοκρατία
+- Republic of Cyprus
+- Kıbrıs
+- Κύπρος
+- Cyprus
+
+## synonym:CZ
+- República Tcheca
+- República Checa
+- Tchéquia
+- Chéquia
+- Česko
+- Czechia
+- Česká republika
+- Czech Republic
+
+## synonym:DE
+- República Federal da Alemã
+- República Federal da Alemanha
+- Alemanha
+- Bundesrepublik Deutschland
+- Federal Republic of Germany
+- Deutschland
+- Germany
+
+## synonym:DJ
+- República do Djibuti
+- Jibuti
+- Djibuti
+- Gabuutih Ummuuno
+- Jamhuuriyadda Jabuuti
+- République de Djibouti
+- Republic of Djibouti
+- Jabuuti
+- Jībūtī
+- Yibuuti
+- Djibouti
+
+## synonym:DK
+- Reino da Dinamarca
+- Dinamarca
+- Kongeriget Danmark
+- Kingdom of Denmark
+- Danmark
+- Denmark
+
+## synonym:DM
+- Comunidade da Dominica
+- Domínica
+- Commonwealth of Dominica
+- Dominique
+- Dominica
+
+## synonym:DO
+- República Dominicana
+- Dominican Republic
+
+## synonym:DZ
+- Republica Democrática da Argélia
+- Republica da Argélia
+- Argélia
+- Republic of Algeria
+- Democratic Republic of Algeria
+- Algeria
+
+## synonym:EC
+- República do Equador
+- Equador
+- Ikwayur Runaq Imayka
+- Ekuatur Nunka
+- Ikwadur Ripuwlika
+- Republic of the Equator
+- República del Ecuador
+- Republic of Ecuador
+- Ekuatur
+- Ikwayur
+- Ecuador
+
+## synonym:EE
+- República da Estônia
+- República da Estónia
+- Estônia
+- Estónia
+- Eesti Vabariik
+- Republic of Estonia
+- Eesti
+- Estonia
+
+## synonym:Europe
+- comunidade europeia
+- continente Europeu
+- Europa
+- Europe continent
+- European continent
+- Europe community
+- European community
+
+## synonym:Africa
+- continente Africano
+- África
+- Africa continent
+- Africa
+
+## synonym:America
+- América do Sul
+- América do Norte
+- Américas
+- continente Americano
+- América
+- America continent
+- South America
+- Americas
+- North America
+
+## synonym:Antarctic
+- Antarctic Continent
+
+## synonym:Asia
+- continente asiático
+- Ásia
+- Asia
+- Asiatic continent
+
+## synonym:Oceania
+- continente australiano
+- Oceania
+- Oceânia
+- Oceania continent
+- Australian continent
+
+## synonym:World
+- planeta
+- Globo
+- Mundo
+- planet
+
+## synonym:COVID
+- COVID
+- COVID-19
+- 19-nCoV
+- SARS-CoV-2
+- novel coronavirus
+- new coronavirus
+- 2019-nCoV
+- virus
+- disease
+- covid19
+- 2019ncov
+- covid2019
+- covid-2019
+- 19-ncov
+- 19ncov
+- SARSCoV2
+- SARS-CoV2
+- SARSCoV-2
+- 19nCov
+- 2019nCov
+- COVID-2019
+- COVID19
+- COVID2019
+- COVID2019
+- COVID 19
+- nCoV
+
+## synonym:SARS
+- SARS
+- Severe Acute Respiratory Syndrome
+
+## synonym:town
+- Pinneberg
+- Neutraubling
+- Bredstedt
+- Hattersheim Am Main
+- Abuja
+- Ufa
+- Bad Lauchstädt
+- Rosenthal
+- Tiruchirappalli
+- Langen
+- Engen
+- Waldeck
+- Milan
+- Tyumen
+- Baoding
+- Langenau
+- Enger
+- Waldenbuch
+- Prague
+- Ryazan
+- Nashville
+- Yiwu
+- João Pessoa
+- Salt Lake City
+- Ufa
+- Oslo
+- Lauenburg
+- Rotterdam
+- Bristol
+- Falkenberg
+- Zhenjiang
+- Liverpool
+- Louisville
+- Kaduna
+- Lebach
+- Wassenberg
+- Voronezh
+- Zaragoza
+- Leisnig
+- Weiden In Der Oberpfalz
+- Weiden
+- Aguascalientes
+- Chifeng
+- Lemgo
+- Felsberg
+- Weil Am Rhein
+- Lviv
+- Lengenfeld
+- Feuchtwangen
+- Weilburg
+- Sevilla
+- Santiago
+- Mumbai
+- Ulan-Ude
+- Brno
+- Raleigh
+- Bhilai
+- Kasan
+- Melle
+- Maracay
+- Omsk
+- Kananga
+- Tula Oblast
+- Erbil
+- Samara
+- Tigre
+- Caracas
+- Vienna
+- Warsaw
+- Minsk
+- Rome
+- Berlin
+- Moscow
+- Gwalior
+- Glasgow
+- Taichung
+- Tiruppur
+- Hama
+- Cochabamba
+- Dhanbad
+- Adelaide
+- Zürich
+- Ranchi
+- Yichang
+- Amritsar
+- Santiago De Querétaro
+- Querétaro
+- Maceió
+- Ivano-Frankivsk
+- Denizli
+- Schesslitz
+- Scheßlitz
+- Bad Windsheim
+- Belo Horizonte
+- Debrecen
+- Preston
+- Schenefeld
+- Bad Wimpfen
+- Xi’an
+- Munster
+- Kingston Upon Hull
+- Padova
+- Schelklingen
+- Bad Wilsnack
+- Hangzhou
+- Scheinfeld
+- Bad Wildungen
+- Foshan
+- Vologda
+- Scheibenberg
+- Bad Wildbad
+- Munderkingen
+- Saigon
+- Ho Chi Minh City
+- Osmaniye
+- Timișoara
+- Timisoara
+- Scheer
+- Bad Waldsee
+- Münchenbernsdorf
+- Tampere
+- Cherepovets
+- Schauenstein
+- Bad Vilbel
+- Ahmedabad
+- Nanjing
+- Çorlu
+- Corlu
+- Schalkau
+- Bad Urach
+- Müncheberg
+- Dongguan
+- Katowice
+- Sayda
+- Bad Tölz
+- Münchberg
+- Chengdu
+- Pskov
+- Grodno
+- Hrodna
+- Sassnitz
+- Bad Tennstedt
+- Müllrose
+- Wuhan
+- Vladikavkaz
+- Sassenberg
+- Bad Teinach-Zavelstein
+- Müllheim
+- Lahore
+- Penzlin
+- Gröningen
+- Penzberg
+- Gronau
+- Hagenow
+- Penkun
+- Groitzsch
+- Hagenbach
+- Penig
+- Gröditz
+- Hadamar
+- Hachenburg
+- Haan
+- Gützkow
+- Gütersloh
+- Güstrow
+- Güsten
+- Gunzenhausen
+- Pockau-Lengefeld
+- Günzburg
+- Plön
+- Gundelsheim
+- Plochingen
+- Peitz
+- Grimmen
+- Peine
+- Grimma
+- Pirmasens
+- Grünberg
+- Pegnitz
+- Griesheim
+- Pinneberg
+- Gross-Umstadt
+- Groß-Umstadt
+- Pegau
+- Grevesmühlen
+- Philippsburg
+- Edmonton
+- Sharjah
+- Jodhpur
+- Fushun
+- Prayag
+- Illahabad
+- Prayagraj
+- Allahabad
+- Huainan
+- Gatineau
+- Xining
+- Asansol
+- Tzeki
+- Cixi
+- Medina
+- Ditzingen
+- Kirchen
+- Ciudad Juárez
+- Jining
+- Batam
+- Qiqihar
+- Palembang
+- Virginia Beach
+- Makassar
+- Jabalpur
+- Calgary
+- Aurangabad
+- Auckland
+- Yekaterinburg
+- Raipur
+- Rosario
+- Benin City
+- Nowosibirsk
+- Gaziantep
+- Kaohsiung
+- Almaty
+- Columbus
+- Córdoba
+- Jilin
+- Datong
+- Xianyang
+- Zhuhai
+- Gwangju
+- Varanasi
+- Iasi
+- Kaub
+- Sochi
+- Cordoba
+- Kansas City
+- Charlotte
+- Liuzhou
+- Daqing
+- Davao City
+- Handan
+- Semarang
+- Kahla
+- Cluj-Napoca
+- Vitória
+- Homs
+- Schiraz
+- Linyi
+- Ludhiana
+- Peschawar
+- Mosul
+- Pittsburgh
+- Austin
+- Cincinnati
+- Owen
+- Orlando
+- Valencia
+- Chita
+- Newport
+- Indianapolis
+- Taichow
+- Taizhou
+- Cleveland
+- Nashik
+- Hohhot
+- León
+- Karaj
+- Samut Prakan
+- Calau
+- La Paz
+- Adana
+- Hamburg
+- Perth
+- Isfahan
+- Haikou
+- Xuzhou
+- West Yorkshire
+- Multan
+- Karlsruhe
+- Brazzaville
+- Verona
+- Sacramento
+- Vadodara
+- Nantong
+- Tijuana
+- Agra
+- Barranquilla
+- Bühl
+- Stein
+- Graz
+- Maracaibo
+- Eixample
+- St. Louis
+- Patna
+- Malappuram
+- San Bernardino
+- Riverside
+- Daegu
+- Goiânia
+- Baltimore
+- Gasteiz
+- Vitoria-Gasteiz
+- Dubai
+- Las Vegas
+- Cochin
+- Kochi
+- San Juan
+- Coruña
+- Corunna
+- Vancouver
+- City Of Westminster
+- Orsk
+- Chemnitz
+- Manisa
+- Bonn
+- Southampton
+- Norden
+- Senden
+- Cali
+- Manchester
+- Guayaquil
+- Marino
+- Nis
+- Selb
+- Latina
+- Espoo
+- Neu-Ulm
+- Durban
+- Guiyang
+- Douala
+- Puebla
+- Seattle
+- Aachen
+- Campinas
+- Wuxi
+- Izmir
+- San Diego
+- Gasteiz-Vitoria
+- Tarsus
+- Kiel
+- Halle
+- Saale
+- Bordeaux
+- Lakhnau
+- Muenster
+- Münster
+- Ciudad Lineal
+- Jaipur
+- Casablanca
+- Jaffa
+- Tel Aviv
+- Salvador Da Bahia
+- Cape Town
+- Porto Alegre
+- Oviedo
+- Kano
+- Santa Cruz De Tenerife
+- Recife
+- Detroit
+- Changchun
+- Kunming
+- Changsha
+- Zhongshan
+- Shantou
+- Montreal
+- Jinan
+- Mesa
+- Jeddah
+- Bergen
+- Melbourne
+- Fortaleza
+- Stockholm
+- Boston
+- Sydney
+- Rheinbach
+- Fukuoka
+- Sumy
+- Galati
+- Vigo
+- Cartagena
+- Guadalajara
+- Abidjan
+- Barcelona
+- Pune
+- Atlanta
+- Münnerstadt
+- Toronto
+- Suzhou
+- Linz
+- Shenyang
+- Münsingen
+- Houston
+- Miami
+- Liège
+- Liege
+- Ipswich
+- Sevastopol
+- Nicosia
+- Poltava
+- Sarstedt
+- Mülheim-Kärlich
+- Chicago
+- Bad Sülze
+- Markkleeberg
+- Mügeln
+- Shenzhen
+- Gliwice
+- Tianjin
+- Kampala
+- Lublin
+- Sutton
+- Petropavlovsk-Kamchatsky
+- Trieste
+- Kiev
+- Leganes
+- Bologna
+- Roth
+- Kiew
+- Tunis
+- Groningen
+- Port Of Spain
+- Riedstadt
+- Bad Freienwalde
+- Regensburg
+- Bucharest
+- Bad König
+- Burgos
+- Amadora
+- Fürth
+- Mönchengladbach
+- Athens
+- Polch
+- Wiesbaden
+- Lisbon
+- Derby
+- Hiroshima
+- Koln
+- Köln
+- Koeln
+- Madrid
+- Bratislava
+- Muenchen
+- Munchen
+- Aken
+- München
+- Paris
+- Lieberose
+- Lille
+- Budapest
+- Birmingham
+- Dublin
+- Zaozhuang
+- Sarajevo
+- Sheffield
+- Pocking
+- Aichach
+- Liebenau
+- Saarbrucken
+- Saarbrücken
+- Saarbruecken
+- Zwickau
+- Innsbruck
+- Gissen
+- Gießen
+- Richmond
+- Wurzburg
+- Würzburg
+- Wuerzburg
+- Hannover
+- Hanover
+- Rizhao
+- Dammam
+- Mérida
+- Évora
+- Portalegre
+- Castelo Branco
+- Beja
+- Faro
+- Portimão
+- Cologne
+- Mexicali
+- Barquisimeto
+- Yongin
+- São Luís
+- Odessa
+- Xiangtan
+- Mendoza
+- Baoji
+- Flöha
+- Leun
+- Klagenfurt
+- Hildesheim
+- Tübingen
+- Ingolstadt
+- Konstanz
+- Pforzheim
+- Mannheim
+- Reutlingen
+- Darmstadt
+- Leverkusen
+- Ludwigsburg
+- Oberhausen
+- Essen
+- Aschaffenburg
+- Nuremburg
+- Göttingen
+- Braunschweig
+- Erlangen
+- Meerut
+- Anshan
+- Töging Am Inn
+- Kassel
+- Kaluga
+- Dierdorf
+- Kelkheim
+- Nice
+- Kirchberg An Der Jagst
+- Treuenbrietzen
+- Kitzscher
+- Kitzingen
+- Donauwörth
+- Trostberg
+- Van
+- Donzdorf
+- Kutahya
+- Kütahya
+- Stoke-On-Trent
+- Dreieich
+- Uhingen
+- Kamensk-Uralskiy
+- Kölleda
+- Drebkau
+- Uffenheim
+- Huambo
+- Königsbrück
+- Ulmen
+- Samsun
+- Kornwestheim
+- Ebersberg
+- Vechta
+- Split
+- Maltepe
+- Bad Buchau
+- Tai’an
+- Köthen
+- Korschenbroich
+- Eberswalde
+- Velbert
+- Saint-Etienne
+- Saint-Étienne
+- Providence
+- Konya
+- Krempe
+- Ehrenfriedersdorf
+- Veringenstadt
+- Walsall
+- Sanliurfa
+- Şanlıurfa
+- Urfa
+- Natal
+- Mandalay
+- Kota
+- Kusel
+- Kuppenheim
+- Ellrich
+- Voerde
+- Kemerovo
+- Ankara
+- Merkendorf
+- Glückstadt
+- Zell Im Wiesental
+- Zeil Am Main
+- Glashütte
+- Zehdenick
+- Gladenbach
+- Zarrentin Am Schaalsee
+- Zahna-Elster
+- Xanten
+- Wyk Auf Föhr
+- Wunstorf
+- Gersfeld
+- Wunsiedel
+- Gerolzhofen
+- Wülfrath
+- Gerolstein
+- Wriezen
+- Gernsheim
+- Wustrow
+- Wörth An Der Donau
+- Gernsbach
+- Wörth Am Rhein
+- Germersheim
+- Wörth Am Main
+- Germering
+- Wörrstadt
+- Gerlingen
+- Geringswalde
+- Wolmirstedt
+- Worms
+- Geretsried
+- Wolkenstein
+- Sëlva
+- Gerbstedt
+- Wolgast
+- Gerabronn
+- Wolfstein
+- Gera
+- Georgsmarienhütte
+- Oryol
+- Orel
+- Salzgitter
+- Bad Schwalbach
+- Leipzig
+- Reading
+- Alicante
+- London
+- São Tomé
+- Krefeld
+- Mössingen
+- Rio De Janeiro
+- Portsmouth
+- Chongqing
+- Mücheln
+- Lagos
+- Istanbul
+- Osaka-Kōbe
+- Funafuti
+- Maulbronn
+- Porto
+- São Paulo
+- Shanghai
+- Delhi
+- Zurich
+- Möckern
+- Newcastle Upon Tyne
+- San Sebastian
+- Bilbao
+- Almeria
+- Le Havre
+- Münstermaifeld
+- Bad Wörishofen
+- Schieder-Schwalenberg
+- Alcala De Henares
+- Münzenberg
+- Bad Wünnenberg
+- Schifferstadt
+- Ostrava
+- Murrhardt
+- Bad Wurzach
+- Schillingsfürst
+- Varna
+- Mostoles
+- Nabburg
+- Baesweiler
+- Schiltach
+- Vladimir
+- Sabadell
+- Dallas
+- Nagold
+- Baiersdorf
+- Schirgiswalde
+- Oradea
+- Surat
+- Philadelphia
+- Harbin
+- Naila
+- Balingen
+- Schkeuditz
+- Jerez De La Frontera
+- Ballenstedt
+- Nassau
+- Schkölen
+- Chernihiv
+- Kielce
+- Nastätten
+- Balve
+- Schleiden
+- Torun
+- Nauen
+- Bamberg
+- Omdurman
+- Nebra
+- Monterrey
+- Dalian
+- Xiamen
+- Zhengzhou
+- Neuenburg Am Rhein
+- Neuenbürg
+- Neuenhaus
+- Neuburg An Der Donau
+- Bebra
+- Schneverdingen
+- Tambov
+- Biysk
+- Neudenau
+- Beckum
+- Schömberg
+- Catania
+- Archway
+- Bedburg
+- Utrecht
+- Neuenstein
+- Medellín
+- Lübeck
+- Gelsenkirchen
+- Erfurt
+- Cottbus
+- Wuppertal
+- Paderborn
+- Osnabrück
+- Magdeburg
+- Nuremberg
+- Duisburg
+- Rostock
+- Kaiserslautern
+- Bochum
+- Bielefeld
+- Nürnberg
+- Bremen
+- Mainz
+- Freiburg
+- Dortmund
+- Duesseldorf
+- Geisa
+- Stuttgart
+- Hongkong
+- Witten
+- Düsseldorf
+- Dusseldorf
+- Bahamas
+- Wissen
+- Frankfurt
+- Munich
+- Geisingen
+- Wolfach
+- Wolfhagen
+- Luebeck
+- Greifswald
+- Ludwigshafen
+- Kempten
+- Freiberg
+- Stralsund
+- Landshut
+- Dresden
+- Fribourg
+- Wolfsburg
+- Salzburg
+- Augsburg
+- Nurnberg
+- Unterhaching
+- Remscheid
+- Deggendorf
+- Gladbach
+- Gummersbach
+- Neuss
+- Goettingen
+- Bad Orb
+- Moers
+- Nagpur
+- Glinde
+- Zell
+- Zell Am Harmersbach
+- Zella-Mehlis
+- Glücksburg
+- Zeitz
+- Glauchau
+- Bengaluru
+- Chennai
+- Seoul
+- Nagoya
+- Johannesburg
+- Hyderabad
+- Bad Schwartau
+- Salzkotten
+- Volzhskiy
+- Hagen
+- Mühlacker
+- Greven
+- Zwiesel
+- Zwingenberg
+- Zwönitz
+- Gransee
+- Grafing Bei München
+- Grafing
+- Greußen
+- Zwenkau
+- Gräfenberg
+- Grebenau
+- Gräfenhainichen
+- Gräfenthal
+- Grafenwöhr
+- Papenburg
+- Pappenheim
+- Grebenstein
+- Parchim
+- Greding
+- Großalmerode
+- Perleberg
+- Groß-Bieberau
+- Petershagen
+- Großbottwar
+- Pfaffenhofen An Der Ilm
+- Großbreitenbach
+- Pfarrkirchen
+- Großenehrich
+- Pfreimd
+- Großenhain
+- Grossenhain
+- Groß-Gerau
+- Pfullendorf
+- Großräschen
+- Pfullingen
+- Großröhrsdorf
+- Grünhain-Beierfeld
+- Pirna
+- Grünsfeld
+- Plattling
+- Grünstadt
+- Plau Am See
+- Guben
+- Plaue
+- Plauen
+- Gudensberg
+- Güglingen
+- Plettenberg
+- Pleystein
+- Gundelfingen An Der Donau
+- Hann. Münden
+- Hannoversch Münden
+- Haiger
+- Haigerloch
+- Hainichen
+- Haiterbach
+- Halberstadt
+- Haldensleben
+- Hallenberg
+- Hallstadt
+- Haltern Am See
+- Hamminkeln
+- Halver
+- Hameln
+- Hamelin
+- Hamm
+- Hammelburg
+- Hanau
+- Harburg
+- Hardegsen
+- Haren
+- Harsewinkel
+- Hartenstein
+- Hartha
+- Harzgerode
+- Haselünne
+- Haslach Im Kinzigtal
+- Haßfurt
+- Hattersheim Am Main
+- Hattingen
+- Hatzfeld
+- Hausach
+- Hauzenberg
+- Havelberg
+- Havelsee
+- Hayingen
+- Hechingen
+- Hecklingen
+- Heide
+- Heideck
+- Heidelberg
+- Heidenau
+- Heidenheim An Der Brenz
+- Heilbad Heiligenstadt
+- Heilbronn
+- Heiligenhafen
+- Heiligenhaus
+- Heilsbronn
+- Heimbach
+- Heimsheim
+- Heinsberg
+- Heitersheim
+- Heldburg
+- Helmbrechts
+- Helmstedt
+- Hemau
+- Hemer
+- Hemmingen
+- Hemmoor
+- Hemsbach
+- Hennef
+- Hennigsdorf
+- Heppenheim
+- Herbolzheim
+- Herborn
+- Herbrechtingen
+- Herbstein
+- Herdecke
+- Herdorf
+- Herford
+- Heringen
+- Hermeskeil
+- Hermsdorf
+- Herne
+- Herrenberg
+- Herrieden
+- Herrnhut
+- Hersbruck
+- Herten
+- Herzberg Am Harz
+- Herzberg
+- Herzogenaurach
+- Herzogenrath
+- Hessisch Lichtenau
+- Hessisch Oldendorf
+- Hettingen
+- Hettstedt
+- Heubach
+- Heusenstamm
+- Hilchenbach
+- Hildburghausen
+- Hilden
+- Hillesheim
+- Hilpoltstein
+- Hirschau
+- Hirschberg
+- Hirschhorn
+- Hitzacker
+- Hochheim Am Main
+- Höchstadt An Der Aisch
+- Höchstädt An Der Donau
+- Hockenheim
+- Hof
+- Hofgeismar
+- Hofheim Am Taunus
+- Hofheim In Unterfranken
+- Hohenberg An Der Eger
+- Hohenleuben
+- Hohenmölsen
+- Hohen Neuendorf
+- Hohenstein-Ernstthal
+- Holzminden
+- Suva
+- Helsinki
+- Horb Am Neckar
+- Hornbach
+- Libreville
+- Hornberg
+- Hörstel
+- Horstmar
+- Ichenhausen
+- Idar-Oberstein
+- Saint George's
+- Illertissen
+- Ilmenau
+- Ilsenburg
+- Ilshofen
+- Immenhausen
+- St. George’s
+- Ingelfingen
+- Accra
+- Tallinn
+- Banjul
+- Höxter
+- Tiflis
+- Tbilisi
+- Hoyerswerda
+- Hückelhoven
+- Hückeswagen
+- Amman
+- Hüfingen
+- Phnom Penh
+- Hünfeld
+- Yaoundé
+- Hungen
+- Ingelheim Am Rhein
+- Iphofen
+- Iserlohn
+- Isny Im Allgäu
+- Isselburg
+- Itzehoe
+- Aach
+- South Ossetia
+- Gersthofen
+- Aden
+- Gescher
+- Würselen
+- Geseke
+- Wurzbach
+- Gevelsberg
+- Geyer
+- Wurzen
+- Giengen An Der Brenz
+- Giengen
+- Giessen
+- Gifhorn
+- Ginsheim-Gustavsburg
+- Gladbeck
+- Mühlberg
+- Zerbst
+- Mühlheim Am Main
+- Mühlhausen
+- Gößnitz
+- Goslar
+- Zittau
+- Görlitz
+- Zirndorf
+- Zörbig
+- Gotha
+- Zossen
+- Zschopau
+- Grabow
+- Zülpich
+- Grafenau
+- Zweibrücken
+- Parsberg
+- Greiz
+- Pasewalk
+- Astana
+- Nairobi
+- Bischkek
+- Abensberg
+- Abenberg
+- Aalen
+- Ahrensburg
+- Ahlen
+- Ahaus
+- Adorf
+- Adenau
+- South Tarawa
+- Achim
+- Adelsheim
+- Achern
+- Doha
+- Jerusalem
+- Tokyo
+- Praia
+- Bissau
+- Georgetown
+- Port-Au-Prince
+- Kingston
+- Tegucigalpa
+- Rom
+- Reykjavík
+- Immenstadt Im Allgäu
+- Immenstadt
+- New Delhi
+- Bagdad
+- Conakry
+- Teheran
+- Husum
+- Hürth
+- Guatemala City
+- Ottawa
+- San José
+- San Salvador
+- Avarua
+- Yamoussoukro
+- Asmara
+- Quito
+- Djibouti City
+- Santo Domingo
+- Copenhagen
+- Roseau
+- Horn-Bad Meinberg
+- Homburg
+- Homberg
+- Ibbenbüren
+- Idstein
+- Hohnstein
+- Höhr-Grenzhausen
+- Hollfeld
+- Holzgerlingen
+- Beijing
+- Peking
+- Taipei
+- Porto-Novo
+- Belmopan
+- Sofia
+- Brasília
+- Santiago De Chile
+- Engels
+- Kelheim
+- Diepholz
+- Todtnau
+- Burgas
+- Kastellaun
+- Tharandt
+- Arnavutkoy
+- Arnavutköy
+- Kerpen
+- Dingelstädt
+- Traunstein
+- Cork
+- Vinnytsia
+- Chaozhou
+- Kirn
+- Dommitzsch
+- Troisdorf
+- Dun Laoghaire
+- Dún Laoghaire
+- Mahilyow
+- Mogilev
+- Klingenberg Am Main
+- Kleve
+- Dormagen
+- Twistringen
+- Brescia
+- Tirana
+- Mainburg
+- Backnang
+- Reinfeld
+- Mariupol
+- Oederan
+- Bruchköbel
+- Stadtilm
+- Bexley
+- Könnern
+- Eberbach
+- Uslar
+- Magnitogorsk
+- Freetown
+- Colombo
+- Brunswick
+- Maxhütte-Haidhof
+- Bad Friedrichshall
+- Rieneck
+- Fes
+- Fez
+- Jacksonville
+- Kroppenstedt
+- Einbeck
+- Viernheim
+- Karabaglar
+- Karabağlar
+- Bangkok
+- Roding
+- Las Palmas De Gran Canaria
+- Las Palmas
+- Sants-Montjuic
+- Sants-Montjuïc
+- Lampertheim
+- Elzach
+- Wächtersbach
+- Kharkiv
+- Leicester
+- Abu Dhabi
+- Miesbach
+- Bad Münstereifel
+- Rothenburg Ob Der Tauber
+- Coventry
+- Laubach
+- Erbendorf
+- Waldkraiburg
+- Moosburg An Der Isar
+- Moosburg
+- Bad Salzungen
+- Aberdeen
+- Lauingen
+- Erwitte
+- Wanfried
+- Perm
+- Genoa
+- Fehmarn
+- Palermo
+- Nottingham
+- Fellbach
+- Weikersheim
+- Bagcilar
+- Bağcılar
+- Krasnodar
+- Leutkirch Im Allgäu
+- Kisangani
+- Forchtenberg
+- Weismain
+- Lichtenau
+- Frankenberg an der Eder
+- Weilheim An Der Teck
+- Weißenfels
+- Frankfurt Am Main
+- Weißenstadt
+- Jamshedpur
+- Forst
+- Weißenberg
+- Lich
+- Frankenau
+- Lichtenfels
+- Frankenthal
+- Weißensee
+- Weissensee
+- Frauenstein
+- Weiterstadt
+- Freiberg Am Neckar
+- Welzow
+- Wemding
+- Freiburg Im Breisgau
+- Wendlingen
+- Freilassing
+- Werben
+- Freinsheim
+- Werdau
+- Neusalza-Spremberg
+- Bersenbrück
+- Schwabach
+- Nalchik
+- Neue Neustadt
+- Neusäß
+- Besigheim
+- Schwäbisch Gmünd
+- Stary Oskol
+- Betzdorf
+- Schwäbisch Hall
+- Hall
+- Ljubljana
+- Sosnowiec
+- Ürümqi
+- Wushi
+- Curitiba
+- Neustadt Am Kulm
+- Betzenstein
+- Schwabmünchen
+- Kremenchuk
+- Taiyuan
+- Sana'a
+- Niedernhall
+- Blomberg
+- Seeland
+- Altona
+- Århus
+- Aarhus
+- Nördlingen
+- Borgholzhausen
+- Sigmaringen
+- Angarsk
+- Nanchang
+- Nossen
+- Borna
+- Sindelfingen
+- Oberviechtach
+- Bredstedt
+- Spenge
+- Lubumbashi
+- Plymouth
+- Ochsenfurt
+- Bremervörde
+- Sprockhövel
+- Milton Keynes
+- Medan
+- Oppenheim
+- Burgdorf
+- Steinheim An Der Murr
+- Thiruvananthapuram
+- Trivandrum
+- Baotou
+- Oschersleben
+- Burladingen
+- Stolpen
+- Yangzhou
+- Otterndorf
+- Clingen
+- Suhl
+- Eindhoven
+- Constanta
+- Constanța
+- Jüterbog
+- Cuxhaven
+- Tauberbischofsheim
+- Vasylevsky Ostrov
+- Jülich
+- Crivitz
+- Tanna
+- Sisli
+- Şişli
+- Delmenhorst
+- Thannhausen
+- Detmold
+- Thum
+- Kirchhain
+- Döbern
+- Trier
+- Torreón
+- Kirtorf
+- Donaueschingen
+- Trossingen
+- Thalheim
+- Kolbermoor
+- Dransfeld
+- Uetersen
+- Santander
+- Königsberg In Bayern
+- Königsberg
+- Drensteinfurt
+- Ulm
+- Prato
+- Maputo
+- Arzberg
+- Rauenberg
+- Abuja
+- Lunzenau
+- Auerbach
+- Regis-Breitingen
+- Paramaribo
+- Meinerzhagen
+- Bad Honnef
+- Rodenberg
+- Vereeniging
+- Laatzen
+- Elsfleth
+- Vöhrenbach
+- Meßkirch
+- Messkirch
+- Bad Liebenwerda
+- Bydgoszcz
+- Langenburg
+- Ennepetal
+- Waldenburg
+- Esenler
+- Mölln
+- Bad Reichenhall
+- Runkel
+- Plovdiv
+- Severodvinsk
+- Laupheim
+- Eschborn
+- Wangen Im Allgäu
+- Üsküdar
+- Ueskuedar
+- Guilin
+- Lehesten
+- Ettlingen
+- Wasungen
+- Yaroslavl
+- Leutershausen
+- Forchheim
+- Weinstadt
+- Lauta
+- Eschershausen
+- Neunburg Vorm Wald
+- Bernburg
+- Schrobenhausen
+- Brasov
+- Brașov
+- Faisalabad
+- Neunkirchen
+- Bernkastel-Kues
+- Schrozberg
+- Komsomolsk-On-Amur
+- Aleppo
+- Neuötting
+- Neustadt
+- Billerbeck
+- Schwarzenbach An Der Saale
+- Sivas
+- Syktyvkar
+- Bischofsheim An Der Rhön
+- Schwarzenborn
+- Moenchengladbach
+- Neustadt In Sachsen
+- Bischofswerda
+- Busan
+- Schwarzenbach Am Wald
+- Neustadt Bei Coburg
+- Neustadt-Glewe
+- Bingen Am Rhein
+- Bingen
+- Schwentinental
+- Surabaya
+- Niederstotzingen
+- Boizenburg
+- Minneapolis-St. Paul
+- Twin Cities
+- Kropyvnytskyi
+- Nieheim
+- St. Petersburg
+- Denver
+- Aurora
+- Kumasi
+- Bonndorf Im Schwarzwald
+- Bonndorf
+- Puente De Vallecas
+- Seifhennersdorf
+- Montpellier
+- Brandenburg An Der Havel
+- Brandenburg
+- Sapporo
+- Rawalpindi
+- Changzhou
+- Coimbatore
+- Bandung
+- Oberharz Am Brocken
+- Rivne
+- Sonneberg
+- Brandis
+- Obermoschel
+- Oberndorf Am Neckar
+- Oberndorf
+- Indore
+- L'hospitalet De Llobregat
+- L'Hospitalet
+- Bremerhaven
+- Obernburg Am Main
+- Obernburg
+- Oderberg
+- Toluca De Lerdo
+- Toluca
+- Sterlitamak
+- Luoyang
+- Mbuji-Mayi
+- Steinau An Der Straße
+- Oppenau
+- Fuencarral-El Pardo
+- Steinbach-Hallenberg
+- Vykhino-Zhulebino
+- St. Ingbert
+- Sankt Ingbert
+- Marienthal
+- St. Georgen Im Schwarzwald
+- Sankt Georgen im Schwarzwald
+- Southend-On-Sea
+- Osterholz-Scharmbeck
+- Velikiy Novgorod
+- Bursa
+- Stößen
+- Bürstadt
+- Osterburg
+- Osterode Am Harz
+- Sulzbach
+- Ostheim Vor Der Rhön
+- Ostheim
+- Osthofen
+- Celle
+- Mecca
+- Östringen
+- Clausthal-Zellerfeld
+- Südliches Anhalt
+- Cochem
+- Otterberg
+- Antakya
+- Saransk
+- Port Harcourt
+- Jarmen
+- Coesfeld
+- Süßen
+- Johanngeorgenstadt
+- Creußen
+- Tangerhütte
+- Sulzbach-Rosenberg
+- Jena
+- Colditz
+- Sulzburg
+- Yinchuan
+- Rajkot
+- Madurai
+- Jiangmen
+- Kongmoon
+- Tabriz
+- Daejeon
+- Demmin
+- Freren
+- Werl
+- Freital
+- Werdohl
+- Freudenberg
+- Werlte
+- Freudenstadt
+- Wermelskirchen
+- Freyburg
+- Wernau
+- Freystadt
+- Werne
+- Friedrichstadt
+- Wesenberg
+- Friedrichsthal
+- Wesselburen
+- Friesack
+- Wesseling
+- Friesoythe
+- Westerburg
+- Fröndenberg
+- Fritzlar
+- Westerstede
+- Fürstenberg/Havel
+- Fürstenfeldbruck
+- Frohburg
+- Wettin-Löbejün
+- Furtwangen Im Schwarzwald
+- Furtwangen
+- Fulda
+- Wetzlar
+- Fürstenau
+- Widdern
+- Wiehl
+- Garching Bei München
+- Garching
+- Willich
+- Willebadessen
+- Windischeschenbach
+- Gebesee
+- Winnenden
+- Garz
+- Gardelegen
+- Wilsdruff
+- Garding
+- Wilster
+- Wismar
+- Gartz
+- Wilthen
+- Gau-Algesheim
+- Windsbach
+- Gedern
+- Winsen
+- Wittlich
+- Geislingen An Der Steige
+- Geislingen
+- Wittingen
+- Wittstock
+- Genthin
+- Wolfratshausen
+- Wolframs-Eschenbach
+- Gengenbach
+- Schleiz
+- Craiova
+- Rennes
+- Neckarbischofsheim
+- Zelenograd
+- Beelitz
+- Schönau Im Schwarzwald
+- Zeytinburnu
+- Northampton
+- Neuhaus Am Rennweg
+- Berching
+- Schönsee
+- Gebze
+- Großschirma
+- Pausa-Mühltroff
+- Grevenbroich
+- Pfungstadt
+- Pattensen
+- Charleroi
+- Valladolid
+- Sankt Goarshausen
+- Bad Sulza
+- Mülheim
+- Mülheim An Der Ruhr
+- Iași
+- Sankt Goar
+- Bad Staffelstein
+- Severny
+- Mühlheim An Der Donau
+- Tilburg
+- Sankt Augustin
+- Bad Sooden-Allendorf
+- Balakovo
+- Islington
+- Sangerhausen
+- Bad Soden-Salmünster
+- Passau
+- Armavir
+- Murmansk
+- Sandersdorf-Brehna
+- Bad Soden
+- Mühldorf Am Inn
+- Ziesar
+- Göppingen
+- Bila Tserkva
+- Kherson
+- Sandau
+- Bad Sobernheim
+- Zierenberg
+- Gommern
+- Dudley
+- Smolensk
+- Salzwedel
+- Bad Segeberg
+- Ziegenrück
+- Golseen
+- Golßen
+- Zeven
+- Goldkronach
+- Zeulenroda-Triebes
+- Goldberg
+- Goch
+- Gnoien
+- Delbrück
+- Birkenhead
+- Pamplona
+- Delitzsch
+- Karlstadt am Main
+- Karlstadt
+- Sunderland
+- Izmit
+- Tirschenreuth
+- Dettelbach
+- Kaufbeuren
+- Geneve
+- Übach-Palenberg
+- Dornburg
+- Klingenthal
+- Makeyevka
+- Makiivka
+- Pontoise
+- Überlingen
+- Dornhan
+- Klötze
+- Hengyang
+- Richtenberg
+- Baden-Baden
+- Marlow
+- Ivanovo
+- Yuzhno-Sakhalinsk
+- Vallendar
+- Ebersbach An Der Fils
+- Korbach
+- Rödental
+- Bad Hönningen
+- Meiningen
+- Mbabane
+- Muratpaşa
+- Muratpasa
+- Verl
+- Eibelstadt
+- Kreuztal
+- Rüdesheim Am Rhein
+- Bad Oldesloe
+- Mittweida
+- Yokohama
+- Waldbröl
+- Endingen
+- Endingen Am Kaiserstuhl
+- Langelsheim
+- Memphis
+- Rüsselsheim
+- Rüsselsheim Am Main
+- Bad Rodach
+- Ruhland
+- Bad Rappenau
+- Mersin
+- Waldershof
+- Ennigerloh
+- Längenfeld
+- Langenfeld
+- Mombasa
+- Sachsenheim
+- Bad Schussenried
+- Long Beach
+- Donetsk
+- Walldorf
+- Erkelenz
+- Lauda-Königshofen
+- Mysuru
+- Mysore
+- Speyer
+- Breisach
+- Oberwesel
+- Spalt
+- Braunsbedra
+- Oberriexingen
+- Spangenberg
+- Obertshausen
+- Merkezefendi
+- Messina
+- Steinbach
+- Burg
+- Olpe
+- Visakhapatnam
+- Burglengenfeld
+- Ornbau
+- Cherkasy
+- Brăila
+- Braila
+- Straubing
+- Buxtehude
+- Teublitz
+- Datteln
+- Kandel
+- Teuchern
+- Daun
+- Kandern
+- Treuen
+- Kirchberg in Tirol
+- Kirchberg
+- Swindon
+- Trochtelfingen
+- Dömitz
+- Kirchheim Unter Teck
+- Kaunas
+- Tuttlingen
+- Dorfen
+- Uelzen
+- Koblenz
+- Wandsbek
+- Riesa
+- Bad Gandersheim
+- Mayen
+- Basseterre
+- Toulouse
+- Turku
+- Velburg
+- Eckartsberga
+- Rodewisch
+- Bad Karlshafen
+- Meissen
+- Duschanbe
+- Leeds
+- Mansfield
+- Vetschau
+- Eichstätt
+- Kronberg
+- Kronberg Im Taunus
+- Port Elizabeth
+- Wiehe
+- Roßleben-Wiehe
+- Bad Lauterberg
+- Merzig
+- Vohburg
+- Elmshorn
+- Kyritz
+- Zlatoust
+- Florence
+- Rottweil
+- Bad Neustadt An Der Saale
+- Mittenwalde
+- Bangui
+- Belgrade
+- Waibstadt
+- Emmerich
+- Emmerich Am Rhein
+- Quetta
+- Barnaul
+- Bahçelievler
+- Bahcelievler
+- Wallenfels
+- Erkrath
+- Lauf An Der Pegnitz
+- Bogor
+- Çankaya
+- Cankaya
+- Wedel
+- Euskirchen
+- Lehrte
+- Khabarovsk
+- Volgograd
+- Walsrode
+- Laufen
+- Hai Phong
+- Ober-Ramstadt
+- Bräunlingen
+- Spaichingen
+- Manaus
+- Sontra
+- Braunlage
+- Obernkirchen
+- Kostroma
+- Shakhty
+- Sankt Blasien
+- St. Blasien
+- Büdelsdorf
+- Olbernhau
+- Taganrog
+- Banja Luka
+- Steinach
+- Oldenburg
+- Yoshkar-Ola
+- Babruysk
+- Bünde
+- Oldenburg In Holstein
+- Sulz
+- Sulz Am Neckar
+- Coburg
+- Overath
+- Vijayawada
+- Sulingen
+- Cloppenburg
+- Ottweiler
+- Tettnang
+- Dassow
+- Kamp-Lintfort
+- Tengen
+- Dargun
+- Kaltennordheim
+- Templin
+- Dannenberg
+- Kaltenkirchen
+- Thessaloniki
+- Vantaa
+- Trebbin
+- Dingolfing
+- Ketzin
+- Syzran
+- Trebsen
+- Dinkelsbühl
+- Kevelaer
+- Çorum
+- Corum
+- Uebigau-Wahrenbrück
+- Dornstetten
+- Victoria
+- Usingen
+- Ebeleben
+- Königs Wusterhausen
+- Yasenevo
+- Szczecin
+- Rinteln
+- Bad Griesbach
+- Meckenheim
+- Kingstown
+- Murcia
+- Siverek
+- Vellberg
+- Edenkoben
+- Krakow Am See
+- Ahvaz
+- Rosenheim
+- Bad Langensalza
+- Meppen
+- Skopje
+- Kyiv
+- Vlotho
+- Ellingen
+- Rötha
+- Bad Marienberg
+- Meuselwitz
+- Port Vila
+- Volkmarsen
+- Elterlein
+- Lahr
+- Izhevsk
+- Łódź
+- Lodz
+- Weener
+- Eutin
+- Leichlingen
+- Goyang
+- Odesa
+- Waltershausen
+- Erlenbach Am Main
+- Laufenburg
+- Wroclaw
+- Antalya
+- Badalona
+- Neumünster
+- Bernau Bei Berlin
+- Schriesheim
+- Nantes
+- Adiyaman
+- Bernsdorf
+- Schüttorf
+- Strasbourg
+- Grozny
+- Schwarzenbek
+- Ghent
+- Nanning
+- Ningbo
+- Bitburg
+- Schweich
+- Niddatal
+- Blankenhain
+- Yakutsk
+- Böblingen
+- Seesen
+- Blackpool
+- Niemegk
+- Sancaktepe
+- Norderstedt
+- Bopfingen
+- Seßlach
+- Northeim
+- Borken
+- Simbach Am Inn
+- Oberasbach
+- Boxberg
+- Sinzig
+- Balikesir
+- Oberkochen
+- Sömmerda
+- Sant Marti
+- Sant Martí
+- Carabanchel
+- Oberursel
+- Breckerfeld
+- Speicher
+- Oberwiesenthal
+- Spremberg
+- Brilon
+- Stadtbergen
+- Ochtrup
+- Breuberg
+- Stadtallendorf
+- Ploiesti
+- Ploiești
+- Olfen
+- Büren
+- Hamburg-Nord
+- Orlamünde
+- Burgkunstadt
+- Ortrand
+- Burg Stargard
+- Stolberg
+- Osterfeld
+- Butzbach
+- Lutsk
+- Strausberg
+- Norwich
+- Elazig
+- Elazığ
+- Stutensee
+- Esenyurt
+- Surgut
+- Jöhstadt
+- Creuzburg
+- Tangermünde
+- Dachau
+- Taunusstein
+- Kalbe
+- Dahn
+- Telgte
+- Marseille
+- Kamenz
+- Dassel
+- Teterow
+- Lyon
+- Kamen
+- Ticino
+- Katzenelnbogen
+- Dessau-Roßlau
+- Themar
+- Fuenlabrada
+- Kelsterbach
+- Dietfurt
+- Tönning
+- Dillingen An Der Donau
+- Dillingen
+- Traben-Trarbach
+- Zabrze
+- Dinklage
+- Treffurt
+- Bytom
+- Arkhangelsk
+- Dissen Am Teutoburger Wald
+- Dissen
+- Döbeln
+- Triberg Im Schwarzwald
+- Triberg
+- Atasehir
+- Ataşehir
+- Klütz
+- Knittlingen
+- Dorsten
+- Ueckermünde
+- Korolyov
+- Nizhny Tagil
+- Königsbrunn
+- Drolshagen
+- Ulrichstein
+- Yingkou
+- Ramallah
+- Ebermannstadt
+- Vacha
+- Harare
+- Marktsteft
+- Bad Elster
+- Rhinow
+- Bryansk
+- Tripoli
+- Lollar
+- Am Ettersberg
+- Külsheim
+- Eisfeld
+- Vilseck
+- Menden
+- Bad Kreuznach
+- Ronnenberg
+- Kahramanmaras
+- Kahramanmaraş
+- Geneva
+- Chandigarh
+- Laichingen
+- Eltmann
+- Vreden
+- Kalininsky
+- Meyenburg
+- Bad Mergentheim
+- Röthenbach An Der Pegnitz
+- Denpasar
+- Landstuhl
+- Emsdetten
+- Waischenfeld
+- Lipetsk
+- Nikosia
+- Mitterteich
+- Bad Oeynhausen
+- Rötz
+- Erkner
+- Walldürn
+- Brussels
+- Umraniye
+- Benxi
+- Lauffen Am Neckar
+- Erlensee
+- Waltrop
+- Lebus
+- Esslingen Am Neckar
+- Esslingen
+- Wasserburg Am Inn
+- Leinfelden-Echterdingen
+- Falkenstein/Harz
+- Wehr
+- Riga
+- Ulyanovsk
+- Krasnoyarsk
+- Weingarten
+- Lenzen
+- Fladungen
+- Weilheim In Oberbayern
+- Putian
+- Lichtenberg
+- Frankenberg
+- Weißenhorn
+- Yancheng
+- Lichtenstein
+- Weißenthurm
+- Franzburg
+- Weißwasser
+- Freising
+- Werder
+- Neuruppin
+- Bernstadt auf dem Eigen
+- Schwaan
+- Belfast
+- Radom
+- Neuwied
+- Bitterfeld-Wolfen
+- Schweinfurt
+- Nizhnekamsk
+- Bocholt
+- Sehnde
+- Kamianske
+- Khimki
+- Nordhausen
+- Boppard
+- Siegburg
+- Trabzon
+- Nürtingen
+- Bottrop
+- Sinsheim
+- Nordhorn
+- Borgentreich
+- Siegen
+- Oberlungwitz
+- Brand-Erbisdorf
+- Sondershausen
+- Ternopil
+- Gdynia
+- Oberzent
+- Springe
+- Elche
+- Petrozavodsk
+- Olching
+- Büdingen
+- Blagoveshchensk
+- Horlivka
+- Ohrdruf
+- Bückeburg
+- Staufenberg
+- Bari
+- Weifang
+- Portland
+- Ochsenhausen
+- Bretten
+- Stade
+- Brisbane
+- Naples
+- Osterwieck
+- Calbe
+- Strehla
+- Mokotow
+- Mokotów
+- Bradford
+- Castrop-Rauxel
+- Stühlingen
+- Swansea
+- Kaarst
+- Daaden
+- Taucha
+- Kaisersesch
+- Dahlen
+- Tecklenburg
+- Dahme
+- Tegernsee
+- Kelbra
+- Diemelstadt
+- Tittmoning
+- Kryvyi Rih
+- Krivoy Rog
+- Salem
+- Lengerich
+- Filderstadt
+- Weil Der Stadt
+- Togliatt
+- Tolyatti
+- Weißenburg In Bayern
+- Weissenburg in Bayern
+- Kollam
+- Wuhu
+- Srinagar
+- Milwaukee
+- Frechen
+- Welzheim
+- Quanzhou
+- Wegberg
+- Leimen
+- Wanzleben-Börde
+- Eschenbach
+- Eschenbach In Der Oberpfalz
+- Lauscha
+- Mianyang
+- Cracow
+- Kraków
+- Krakow
+- Wegeleben
+- Falkensee
+- Leinefelde-Worbis
+- Aligarh
+- Diyarbakir
+- Amsterdam
+- Weida
+- Falkenstein
+- Leipheim
+- Zagreb
+- Finsterwalde
+- Lennestadt
+- Weimar
+- Flensburg
+- Leonberg
+- Weinsberg
+- Florstadt
+- Leutenberg
+- Sulaimaniyya
+- Warburg
+- Vladivostok
+- Lauter-Bernsbach
+- Eschwege
+- Waren
+- Lauterbach
+- Eschweiler
+- Warendorf
+- Turin
+- Suqian
+- Lauterecken
+- Esens
+- Warin
+- Nanchong
+- Lauterstein
+- Espelkamp
+- Warstein
+- Saratov
+- Kayseri
+- Guwahati
+- Leer
+- Ettenheim
+- Wassertrüdingen
+- Zaporizhia
+- Zaporozhye
+- Zaporizhzhia
+- Flörsheim Am Main
+- Weinheim
+- Leuna
+- Puning
+- Neustadt Am Rübenberge
+- Neustadt An Der Donau
+- Beverungen
+- Schwaigern
+- Neustadt An Der Aisch
+- Bexbach
+- Schwalbach Am Taunus
+- Biberach An Der Riß
+- Biberach
+- Biberach an der Riss
+- Schwalmstadt
+- Hamamatsu
+- Neustadt An Der Orla
+- Biedenkopf
+- Schwandorf
+- Hefei
+- Neustadt An Der Waldnaab
+- Schwanebeck
+- Oakland
+- Tangshan
+- Nienburg
+- Bockenem
+- Czestochowa
+- Częstochowa
+- Novorossiysk
+- Neustadt An Der Weinstraße
+- Biesenthal
+- Schwarzatal
+- Fuzhou
+- Bietigheim-Bissingen
+- Shijiazhuang
+- Neustadt In Holstein
+- Birkenfeld
+- Schwarzenberg
+- Wenzhou
+- Neustrelitz
+- Schwarzheide
+- Luton
+- Dzerzhinsk
+- Ibadan
+- Neutraubling
+- Schwedt
+- Hamburg-Mitte
+- Nidda
+- Blankenburg
+- Schwelm
+- Bratsk
+- Nidderau
+- Blaubeuren
+- Schwerin
+- Nideggen
+- Blaustein
+- Schwerte
+- Kanpur
+- Niebüll
+- Bleckede
+- Schwetzingen
+- Maschhad
+- Niedenstein
+- Bleicherode
+- Sebnitz
+- Wolverhampton
+- Chernivtsi
+- Niederkassel
+- Blieskastel
+- Seehausen
+- Eimsbuettel
+- Eimsbüttel
+- Kosice
+- Košice
+- Nieder-Olm
+- Blumberg
+- Seelow
+- Niederstetten
+- Bobingen
+- Seelze
+- Lanzhou
+- Bodenwerder
+- Selbitz
+- Nierstein
+- Bogen
+- Seligenstadt
+- Incheon
+- Niesky
+- Böhlen
+- Selm
+- Nittenau
+- Selters
+- Nordenham
+- Sendenhorst
+- Nizhnevartovsk
+- Norderney
+- Bönnigheim
+- Senftenberg
+- Nortorf
+- Borkum
+- Simmern
+- Bornheim
+- Singen
+- Kozhikode
+- Brackenheim
+- Soest
+- Brake
+- Solingen
+- Oberhof
+- Brakel
+- Solms
+- Zibo
+- Oberkirch
+- Bramsche
+- Soltau
+- Thrissur
+- Braubach
+- Sonnewalde
+- Huizhou
+- Braunfels
+- Sonthofen
+- Oschatz
+- Burgwedel
+- Belgorod
+- Klaipėda
+- Klaipeda
+- Tornesch
+- Dillenburg
+- Kempen
+- Trendelburg
+- Dinslaken
+- Kierspe
+- Triptis
+- Dohna
+- Kirchheimbolanden
+- Königslutter
+- Königslutter Am Elm
+- Königstein Im Taunus
+- Königswinter
+- Königstein
+- Kishinev
+- Chisinau
+- Chișinău
+- Irkutsk
+- Quedlinburg
+- Almere
+- Almere Stad
+- Rodalben
+- Bad Homburg
+- Bad Homburg Vor Der Höhe
+- Meersburg
+- Juba
+- Cardiff
+- Isparta
+- Verden
+- Ehingen
+- Kremmen
+- Basaksehir
+- Viciebsk
+- Vitebsk
+- Ruhla
+- Bad Pyrmont
+- Möckmühl
+- Saarburg
+- Bad Saulgau
+- Mörfelden-Walldorf
+- Málaga
+- Malaga
+- Chelyabinsk
+- Waldmünchen
+- Erding
+- Laucha An Der Unstrut
+- Arnavutkoey
+- Saarlouis
+- Bad Schandau
+- Moringen
+- Poznań
+- Poznan
+- Waldsassen
+- Erftstadt
+- Lauchhammer
+- Sachsenhagen
+- Bad Schmiedeberg
+- Mosbach
+- Guangzhou
+- Göteborg
+- Gothenburg
+- Goeteborg
+- Dnipro
+- Waldshut-Tiengen
+- Lauchheim
+- Zhuzhou
+- Stockach
+- Burgstädt
+- Ortenberg
+- Sternberg
+- Adapazari
+- Burghausen
+- Rybinsk
+- Oranienburg
+- Burgau
+- Steinfurt
+- Olsberg
+- Huai’an
+- Gijón
+- Gijon
+- Stavenhagen
+- Buckow
+- Öhringen
+- Batikent
+- Stromberg
+- Calw
+- Ostfildern
+- Sultanbeyli
+- Prokopyevsk
+- Stendal
+- Bürgel
+- Oranienbaum
+- Oranienbaum-Wörlitz
+- Zhytomyr
+- Steinheim
+- Burgbernheim
+- Volzhsky
+- Teuschnitz
+- Deidesheim
+- Karben
+- Thale
+
+## lookup:influenza
+languages/br/data/lookup_tables/influenza.txt
+
+## lookup:air_conditioning
+languages/br/data/lookup_tables/air_conditioning.txt
+
+## lookup:5G
+languages/br/data/lookup_tables/5G.txt
+
+## lookup:hand_dryer
+languages/br/data/lookup_tables/hand_dryer.txt
+
+## lookup:uv_lamp
+languages/br/data/lookup_tables/uv_lamp.txt
+
+## lookup:thermal_scanner
+languages/br/data/lookup_tables/thermal_scanner.txt
+
+## lookup:antibiotics
+languages/br/data/lookup_tables/antibiotics.txt
+
+## lookup:pneumonia_vaccine
+languages/br/data/lookup_tables/pneumonia_vaccine.txt
+
+## lookup:saline
+languages/br/data/lookup_tables/saline.txt
+
+## lookup:garlic
+languages/br/data/lookup_tables/garlic.txt
+
+## lookup:sesame_oil
+languages/br/data/lookup_tables/sesame_oil.txt
+
+## lookup:visors
+languages/br/data/lookup_tables/visors.txt

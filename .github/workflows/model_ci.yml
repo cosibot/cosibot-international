@@ -1,0 +1,128 @@
+name: ci-tests
+on: [pull_request]
+
+jobs:
+
+  unit-tests:
+    name: Run unit tests
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - id: files
+      uses: jitterbit/get-changed-files@v1
+    - name: set_unit_test
+      if: |
+          contains(  steps.files.outputs.all, 'bot/actions'  )
+      run: echo "::set-env name=RUN_UNIT_TESTS::true"
+    - name: Set up Python 3.7
+      if: env.RUN_UNIT_TESTS == 'true'
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    
+    - name: Install dependencies
+      if: env.RUN_UNIT_TESTS == 'true'
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r model-ci-requirements.txt
+
+    - name: Run unit tests 
+      if: env.RUN_UNIT_TESTS == 'true'
+      run: |
+        cd bot
+        pytest --doctest-modules --cov=bot --cov-report=html
+
+    - name: Save tests
+      if: env.RUN_UNIT_TESTS == 'true'
+      uses: actions/upload-artifact@v2
+      with:
+        name: unit-tests
+        path: bot/htmlcov
+
+  training-testing-en:
+    name: Train and test en bot
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - id: files
+      uses: jitterbit/get-changed-files@v1
+    - name: set_training
+      if: |
+          contains(  steps.files.outputs.all, 'bot/languages/en/data/'  )
+          || contains( steps.files.outputs.all, 'bot/languages/en/config.yml'  )
+          || contains(  steps.files.outputs.all, 'bot/languages/en/domain.yml'  )
+          || contains(  steps.files.outputs.all, 'bot/languages/en/tests/conversation_tests.md'  )
+      run: echo "::set-env name=RUN_TRAINING::true"
+    - name: Set up Python 3.7
+      if: env.RUN_TRAINING == 'true'
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      if: env.RUN_TRAINING == 'true'
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r model-ci-requirements.txt
+
+    - name: en - Train model
+      if: env.RUN_TRAINING == 'true'
+      run: |
+        cd bot
+        rasa train --config languages/en/config.yml --domain languages/en/domain.yml --data languages/en/data languages/stories.md --augmentation 0 --out languages/en/models/
+
+    - name: en - Run Through Test stories
+      if: env.RUN_TRAINING == 'true'
+      run: |
+        cd bot
+        rasa test --model languages/en/models --nlu languages/en/data --stories languages/en/tests/conversation_tests.md --out languages/en/results
+    
+    - name: en - Save tests
+      if: env.RUN_TRAINING == 'true'
+      uses: actions/upload-artifact@v2
+      with:
+        name: en-tests
+        path: bot/languages/en/results
+  
+  training-testing-br:
+    name: Train and test br bot
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - id: files
+      uses: jitterbit/get-changed-files@v1
+    - name: set_training
+      if: |
+          contains(  steps.files.outputs.all, 'bot/languages/br/data/'  )
+          || contains( steps.files.outputs.all, 'bot/languages/br/config.yml'  )
+          || contains(  steps.files.outputs.all, 'bot/languages/br/domain.yml'  )
+          || contains(  steps.files.outputs.all, 'bot/languages/br/tests/conversation_tests.md'  )
+      run: echo "::set-env name=RUN_TRAINING::true"
+    - name: Set up Python 3.7
+      if: env.RUN_TRAINING == 'true'
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      if: env.RUN_TRAINING == 'true'
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r model-ci-requirements.txt
+
+    - name: br - Train model
+      if: env.RUN_TRAINING == 'true'
+      run: |
+        cd bot
+        rasa train --config languages/br/config.yml --domain languages/br/domain.yml --data languages/br/data languages/stories.md --augmentation 0 --out languages/br/models/  
+
+    - name: br - Run Through Test stories
+      if: env.RUN_TRAINING == 'true'
+      run: |
+        cd bot
+        rasa test --model languages/br/models --nlu languages/br/data --stories languages/br/tests/conversation_tests.md --out languages/br/results
+
+    - name: br - Save tests
+      if: env.RUN_TRAINING == 'true'
+      uses: actions/upload-artifact@v2
+      with:
+        name: br-tests
+        path: bot/languages/br/results
