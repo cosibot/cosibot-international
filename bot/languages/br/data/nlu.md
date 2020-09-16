@@ -64,6 +64,8 @@
 - Você é bonito?
 - Seu visual.
 - Sua aparência física.
+- Pra ver como vc è
+- Como você é?
 
 ## intent:bot_availability
 - Você está sempre disponível?
@@ -1303,6 +1305,7 @@
 - Diga algo engraçado.
 - Diga algo divertido.
 
+
 ## intent:cc_geography
 - Algum conhecimento sobre geografia?
 - Você sabe geografia?
@@ -1419,6 +1422,7 @@
 - Escreva uma piada para mim.
 - Você conhece alguma piada?
 - Você pode me contar uma piada?
+- Me anime
 
 ## intent:cc_lets_talk
 - Você pode falar comigo?
@@ -1999,6 +2003,7 @@
 - Você tem muito que aprender Helen
 - Estranho
 - Vc tá debricadeira fala pra com versar
+- Tu não tem resposta pra merda nem uma
 
 ## intent:comment_offense
 - Idiota!
@@ -2094,6 +2099,9 @@
 - Como se eu não soubesse
 - Não Quero sabe
 - Não quero saber
+- Como se vc não tirou minha dúvida burra
+- Aprendendo a ser burra?
+- Idiota
 
 
 ## intent:comment_positive
@@ -2309,6 +2317,7 @@
 - Como posso participar de um projeto?
 - Como posso ajudar uma ONG?
 - Como me posso voluntariar?
+- quero voluntariar-me
 
 ## intent:covid_register
 - Como posso inscrever o meu projeto?
@@ -2316,6 +2325,9 @@
 - Que tipo de projeto pode ser inscrito?
 - Que projetos precisam de ajuda?
 - Como posso inscrever o meu projeto?
+- Quero registrar meu projeto
+- Quero registar
+- How to register?
 
 ## intent:covid_tech4covid
 - O que é o Tech4CovidBR?
@@ -2531,6 +2543,11 @@
 - quanto tempo o vírus fica ativo
 - "Boa noite,td bem?
 Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
+- Quantos dias após contaminada eu posso transmitir o vírus para outras pessoas?
+- Quem já teve covid pode transmitir o vírus depois do período de 15 dias?
+- Então eu testei positivo . Hoje já faz 11dias mas tô super bem não tive quase nada ... Com quantos dias eu paro de passar o vírus
+- "Quando a pessoa que foi contaminada.
+Fica curada?"
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2616,6 +2633,8 @@ Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
 - Sobre coronavírus
 - Sobre o vírus
 - Me explica as Formas do coronavirus
+- covid-19 informação
+- olá, gostaria de saber um pouco mais sobre o covid
 
 ## intent:covid_meaning
 - O que significa o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
@@ -2723,6 +2742,9 @@ Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
 - Desculpe só mais uma dúvida,estou gestante e tenho meus afazeres na cidade , uso máscara certinho álcool 70 nas mãos srmpre, corro risco de contrair o coronavirus
 - Porque o diabético e grupo de risco
 - Todo fumante q se infectar com o corona vírus  morre?
+- Queria saber se gestante e grupo de risco
+- Gwstante e grupo de risco ?
+- Gestante é grupo de risco?
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -3051,7 +3073,12 @@ Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
 - Estado mais afetado
 - Brasil
 - Quanto  COVID  tem em Votorantim?
-
+- O Corona vírus está perdendo a força
+- O covid-19 está perdendo a força?
+- No noite Elena é verdade que o vírus está perdendo força?
+- Vc acha que o corona vírus está perdendo a força, e tudo se normalizando?
+- E na Bahia
+- Camo ta a situação  do corona virus na Bahia
 
 ## intent:covid_situation_deaths
 - Qual é a taxa de mortalidade
@@ -3102,6 +3129,8 @@ Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
 - Qual grupo mais morre no Brasil?
 - Qual grupo de pessoas mais morre no Brasil?
 - Helena  e verdade  este número  de mortes  por covid 19
+- Quantos mortos hoje
+- Quanto óbito no Brasil hoje
 
 ## intent:covid_situation_infected
 - Qual é o número de infectados?
@@ -3132,7 +3161,7 @@ Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
 - Quantas pessoas estão infectadas em [Republik Singapura]{"entity": "country_code", "value": "SG"} até esta data?
 - Quantas pessoas estão infectadas na [Republica Democrática da Argélia]{"entity": "country_code", "value": "DZ"}?
 - quantos casos positivos temos na [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
-
+- quantos casos ativos há no Brasil?
 
 ## intent:covid_situation_infected_critical
 - Casos críticos na [Europa]{"entity": "world_region", "value": "Europe"}
@@ -3194,6 +3223,7 @@ Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
 - gostaria de saber os números atuais do [Ceilão]{"entity": "country_code", "value": "LK"}
 - situação em [República de Malta]{"entity": "country_code", "value": "MT"}
 - novidades no mundo
+- Situação atualizada do Coronavirus
 
 ## intent:covid_situation_recovered
 - Quantos se recuperaram na [comunidade Europeia]{"entity": "world_region", "value": "Europe"}
@@ -3546,7 +3576,13 @@ Meu esposo está com covid"
 - Apenas garganta inflamada,,pode ser sinal de corona ?
  - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar e convud19
  - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar é covid19?
-
+ - Dor de garganta
+ - A pessoa estar muito palida è um sintoma de Covid-19?
+ - Como saber se a pessoa está com o vírus
+ - Sintomas comum
+ - Bom dia qual e o sintomas do vírus
+ - 15 dias de diarreia sem febre e outros sintomas pode ser covid 19
+ - Diarreia  e sudorese são sintomas?
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -3884,6 +3920,9 @@ Meu esposo está com covid"
 - Oiee
 - Oiii
 - Boa tarde
+- e aí beleza?
+- e aí? tudo bem?
+- e aí?
 
 ## intent:greeting_how_are_you
 - Você está bem?
@@ -4102,6 +4141,7 @@ Meu esposo está com covid"
 - colocar uma máscara
 - Qual é a forma correta de usar uma máscara?
 - Como colocar uma Más...
+- como utilizar máscaras?
 
 ## intent:myth_alcohol
 - Álcool em todo o corpo.
@@ -4352,6 +4392,7 @@ Meu esposo está com covid"
 - o que são noticias falsas?
 - o que são fakenews?
 - Existe uma nova virose Parecida com covid
+- Helena Quais são os mitos acerca do vidro
 
 ## intent:prevention_clean_hands
 - Sobre a limpeza das mãos.
@@ -4771,6 +4812,7 @@ Meu esposo está com covid"
 - Preciso ter no mínimo 2 sintoma?
 - Dor de cabeça e tosse pode ser sintoma do covid19
 - Aque hospital puedo ir si me siento muy al
+- Hello could you please tell me COVID-19 hospital?
 
 ## intent:prevention_medicine
 - Fui no posto eles só me dão medicamento de dor
@@ -4851,6 +4893,7 @@ Meu esposo está com covid"
 - Fui no posto eles só me dão medicamento de dor
 - Que medicamento puedo tomar
 - Eu preciso saber se quando sentir febre alguns sintomas pode tomar remédio para tirar a febre antes de fazer o teste do covid
+- Qual remédio para tomar se tiver com covid
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -5118,6 +5161,7 @@ Meu esposo está com covid"
 - Quando preciso fazer quarentena?
 - Quem precisa fazer quarentena?
 - Quem deve fazer quarentena?
+- Qtos dias a pessoa que foi diagnosticada positivo pode voltar a conviver com outras pessoas que não tenha sido contaminada ??
 - devo fazer quarentena?
 
 ## intent:quaratine_how_it_works
@@ -5395,6 +5439,8 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Igrejas tem maior risco de contaminação?
 - Qual a maior forma de contaminacao do COVID
 - Como ele se espalha
+- Como se pega
+- E não transmite o vírus
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -5741,6 +5787,7 @@ Eu não estou sentindo nada"
 - Como saber se estou com covid
 - Qual a eficaz do teste rápido
 - Fiz o teste
+- Gostaria de saber se tive contato com alguém com covid, qtos dias posso fazer o teste
 
 ## intent:test_who
 - Posso fazer o teste?
@@ -5790,6 +5837,7 @@ Eu não estou sentindo nada"
 - Quando eu voltar de viagem.
 - Quando eu voltar da viagem.
 - apos viajar.
+- Como proceder após a viagem?
 
 ## intent:travel_before
 - Antes da viagem.
@@ -6232,6 +6280,10 @@ Eu não estou sentindo nada"
 - Hj não ! Deixo para amanhã !
 - Dorme com Deus
 - Amém
+- Deus  abeçoe
+- Deus abençõe
+- Não obrigada
+- Vocês  tá  serto
 
 ## intent:user_particles
 - haha
@@ -6343,6 +6395,7 @@ Eu não estou sentindo nada"
 - Responde aí Helena
 - Responde aí
 - helena??
+- Deixa eu falar
 
 ## intent:vocative_help
 - Como você pode me ajudar
@@ -6405,6 +6458,7 @@ Eu não estou sentindo nada"
 - Responde
 - De novo isso
 - eu pergunto uma coisa vc me dar tchau eu não entendi nada tchau
+- Ainda mais ? Tu nem ajudou
 
 ## intent:vocative_no
 - Logico que não.
