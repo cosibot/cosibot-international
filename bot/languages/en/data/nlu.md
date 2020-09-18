@@ -726,7 +726,6 @@
 - But i want to see you
 - Can I improve your system?
 - Do you have a wife
-
 - Where are you from?
 - Can I teach you something new?
 - Can I teach you?
