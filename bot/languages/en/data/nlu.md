@@ -13828,10 +13828,10 @@ languages/en/data/lookup_tables/address.txt
 languages/en/data/lookup_tables/game.txt
 
 ## lookup:social media
-languages/en/data/lookup_tables/social media.txt
+languages/en/data/lookup_tables/social_media.txt
 
 ## lookup:form of address
-languages/en/data/lookup_tables/form of address.txt
+languages/en/data/lookup_tables/form_of_address.txt
 
 ## lookup:favorite
 languages/en/data/lookup_tables/favorite.txt
@@ -13840,7 +13840,7 @@ languages/en/data/lookup_tables/favorite.txt
 languages/en/data/lookup_tables/summarize.txt
 
 ## lookup:have to
-languages/en/data/lookup_tables/have to.txt
+languages/en/data/lookup_tables/have_to.txt
 
 ## lookup:pricelist
 languages/en/data/lookup_tables/pricelist.txt
@@ -13864,7 +13864,7 @@ languages/en/data/lookup_tables/garlic.txt
 languages/en/data/lookup_tables/photo.txt
 
 ## lookup:air conditioning
-languages/en/data/lookup_tables/air conditioning.txt
+languages/en/data/lookup_tables/air_conditioning.txt
 
 ## lookup:contact
 languages/en/data/lookup_tables/contact.txt
@@ -13873,7 +13873,7 @@ languages/en/data/lookup_tables/contact.txt
 languages/en/data/lookup_tables/phone.txt
 
 ## lookup:hand dryer
-languages/en/data/lookup_tables/hand dryer.txt
+languages/en/data/lookup_tables/hand_dryer.txt
 
 ## lookup:teach
 languages/en/data/lookup_tables/teach.txt
