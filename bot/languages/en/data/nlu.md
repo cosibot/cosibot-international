@@ -725,6 +725,8 @@
 - Are your friends married?
 - But i want to see you
 - Can I improve your system?
+- Do you have a wife
+- Where are you from?
 - Can I teach you something new?
 - Can I teach you?
 - Can I train you?
@@ -877,21 +879,27 @@
 ## intent:bot_real
 - Are you a bot?
 - Are you a chatbot?
+- Pls are you a robot
 - Are you a computer program ?
 - Are you a computer?
 - Are you a human
 - Are you a human being or robot?
 - Are you a human being?
 - Are you a living being?
+- Is person human beings like you
 - Are you a person or a chatbot?
+- Is this a human typing?
 - Are you a person or a robot?
 - Are you a person?
+- What are you?
 - Are you a program???
 - Are you a real person or a computer?
 - Are you a real person?
 - Are you a robot?
 - Are you alive?
 - Are you an artificial being?
+- Is this a human replying me?
+- Is this a human replying?
 - Are you automatically designed to respond
 - Are you human?
 - Are you made of flesh and bones?
@@ -984,14 +992,20 @@
 - Are you interested in women?
 - Be naked when I come home.
 - Be naked.
+- I love sex helen
+- Lets have sex
 - Blow me.
 - Nude
 - Cam you have sex
+- My penies small
+- I need ur ass
+- I heard you are a lesbian
 - Can I test the zipper of your pants?
 - Can you have sex?
 - Come fuck me
 - Cum for me baby.
 - Did you ever had oral sex?
+- Can i have sex with you
 - Did you have had coition
 - Did you have had coitus?
 - Do you have your clothes on?
@@ -2070,6 +2084,7 @@
 - give me the weather
 
 ## intent:comment_negative
+- U are wicked
 - BOOOORING
 - Ur boring me
 - Agent Smith is better than you.
@@ -2185,6 +2200,8 @@
 - Your are a slow learner
 
 ## intent:comment_offense
+- U deserve death
+- Stupid fool
 - Are you stupid
 - Ur a bitch
 - U crazy
@@ -2335,6 +2352,7 @@
 - Kill yourself
 
 ## intent:comment_positive
+- Okay, that's nice reply
 - Awesome!
 - Brilliant
 - Cool!
@@ -2551,6 +2569,7 @@
 - What does corona to your lungs?
 
 ## intent:covid_babys_children
+- Can covid19 kill a baby?
 - Are children affected?
 - How are child effected?
 - What are symptoms of covid19 in Kids?
@@ -2868,6 +2887,7 @@
 
 ## intent:covid_info
 - 19-nCoV
+- How much do you know about Corona Virus?
 - 19-nCoV info
 - 19-nCoV information
 - 19nCov
@@ -3353,6 +3373,9 @@
 - How long does it take for covid patient to die?
 - Mortality rate.
 - Percentage of deaths.
+- Does t kill?
+- Does covid l9 kill
+- Does it kill
 - Those who are infected are probably waiting to die?
 - What’s the mortality rate?
 - mortality
@@ -3360,6 +3383,11 @@
 - Does covid 19 kills
 
 ## intent:covid_origins
+- Which country did Corona virus start from
+- Which country did Corona virsus start from
+- In which country did Corona virus start from
+- Which country did Corona virsus start
+- In which country did Corona virus start
 - The origin of the virus
 - Are animals responsible for COVID-19 in people?
 - Could you please tell me about the evolution of the spreading of Covid-19?
@@ -3409,6 +3437,7 @@
 - Is it a pandemic
 
 ## intent:covid_preexisting_illness
+- Which ages are mostly affected
 - which groups are at a higher risk to con
 - which groups are at a higher risk on getting severe COVID-19?
 - About more risk people.
@@ -3667,6 +3696,7 @@
 - About school
 - Are students going back to school
 - Do u think school might resume
+- Opening schools in Uganda at high active cases
 - How are they going to do screening at schools?
 - How are they going to test at schools?
 - I just want to ask when we are going back to school
@@ -3696,6 +3726,7 @@
 - Why did other societies reopened such as market, football, churches, mosques and movement And schools didn't why?
 - Why reopening school if you know its risky
 - when probably do you think all schools and institutes will be reopened
+- When schools are to be reopened
 
 ## intent:covid_sex
 - But does covid 19 transmit through sex?
@@ -4024,6 +4055,7 @@
 - How long coronavirus stays on clothes?
 
 ## intent:covid_symptoms
+- Is dizziness a sign of COVID-19
 - I want to no how is the symptoms
 - About the symptoms.
 - Wat r d symtoms
@@ -4185,6 +4217,7 @@
 - Is there a treatment?
 - Treatment
 - Cure Of Coronavirus
+- What treatment do they give to patients
 - Does cure available?
 - So is the cure out
 - So is the cure out?
@@ -4525,6 +4558,7 @@
 - hi Ellen
 
 ## intent:greeting_how_are_you
+- My friend how are u
 - Are you OK?
 - Are you doing alright?
 - Are you doing well?
@@ -5077,6 +5111,21 @@
 
 ## intent:prevention_general
 - Alright. What are the preventing measures?
+- Okay how can I prevent. This covid 19 me as aschool boy
+- Okay how can I prevent.
+- how can I prevent.
+- Okay ow are we gonna prevent it at school if they are to be oppened
+- Okay ow are we gonna prevent it
+- Okay ow are we gonna prevent it at school
+- ow are we gonna prevent it at school if they are to be oppened
+- ow are we gonna prevent it
+- ow are we gonna prevent it at school
+- Okay how are we gonna prevent it at school if they are to be oppened
+- Okay how are we gonna prevent it
+- Okay how are we gonna prevent it at school
+- how are we gonna prevent it at school if they are to be oppened
+- how are we gonna prevent it
+- how are we gonna prevent it at school
 - What processes are being practiced globally to curtail the spread of the virus
 - Could you tell me about preventive measures?
 - Fine what are the preventive measures
@@ -5391,15 +5440,21 @@
 - Who to contact if you have this symptoms
 
 ## intent:prevention_medicine
+- Hey! Is there any hope for the corona vaccine, how far with invasion of the vaccine?
+- Is there any hope for the corona vaccine, how far with invasion of the vaccine?
+- Is there any hope for the corona vaccine?
+- How far with invasion of the vaccine?
+- Why is that the vaccine is not yet discovered yet it's a global pandamic.l mean many scientist are doing what
+- Why is that the vaccine is not yet discovered
 - Yes please, I'm call Brian,,my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - how far hv researchers towards developing a vaccine of corona virus
-- how far haveS0
-p researchers towards developing a vaccine of corona virus
+- how far have researchers towards developing a vaccine of corona virus
 - How far have they gone with the Vaccine.
 - How possible is discovering of the covid 19 vaccine this year
 - Like I was just asking that does it has vaccine ?
 - About a drug for COVID-19.
+- Well, is the vaccine out yet?
 - If there is no medicine for corona virus than how people are recovering?
 - Can it be treated
 - How do they treat it
@@ -6501,6 +6556,7 @@ p researchers towards developing a vaccine of corona virus
 - Can I have the pleasure to be your friend?
 - Can I have the pleasure to have you as my friend?
 - Can we be friends?
+- I just want to be your friend
 - Can you be my friend?
 - Could you be my friend?
 - Do you like me?
@@ -6690,6 +6746,9 @@ p researchers towards developing a vaccine of corona virus
 - Yes. I don’t have any personal data.
 
 ## intent:user_no_further_questions
+- I don't need your assistance
+- Go and talk no more
+- Am done here
 - Alright thank you very much i appreciate everything God bless you for her or him
 - Can you shut the boot for me, please?
 - Can you shut the boot for me?
@@ -6866,6 +6925,10 @@ p researchers towards developing a vaccine of corona virus
 - You scaring me.
 
 ## intent:vocative_call
+- Can I ask you a question?
+- Wait
+- You've gone?
+- Hi, am back with one other question
 - Answer please
 - Are you around?
 - Are you gone?

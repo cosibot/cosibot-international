@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: "0.3.1"
+    initial_value: "0.3.2"
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -3207,8 +3207,7 @@ responses:
               <br>Perform hand hygiene after touching or discarding the mask –
               use alcohol-based hand rub or, if visibly soiled, wash your hands
               with soap and water.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-\
-              2019/advice-for-public/when-and-how-to-use-masks'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks'
               target='_blank'>(1)</a></p>"
   utter_mask_use_after:
     - custom:
