@@ -3307,6 +3307,7 @@ Fica curada?"
 - quantos testes foram feitos em [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}?
 
 ## intent:covid_surfaces
+- Quanto tempo o vírus fica no cabelo
 - Durabilidade do Coronavirus em superfícies.
 - Resistência do Coronavirus em superfícies
 - Superfícies de durabilidade do Coronavirus.
