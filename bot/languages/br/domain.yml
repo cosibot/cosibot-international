@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: '0.0.5'
+    initial_value: '0.0.6'
   bot_time_acre:
     type: text
   bot_time_fnoronha:
