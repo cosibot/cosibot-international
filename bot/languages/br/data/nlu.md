@@ -1,4 +1,4 @@
-﻿## intent:start
+## intent:start
 - /start
 - /start
 - /start_conversation
@@ -734,6 +734,7 @@
 - quantos anos você tem?
 - me diga sua idade
 - Vc tem Quantos anos?
+- Qual a sua idade
 
 ## intent:bot_personality
 - Você é amigável?
@@ -1956,6 +1957,8 @@
 - Me diga qual é o clima
 
 ## intent:comment_negative
+- Não aguento mais essa história de covid 19
+- Não aguento mais essa história de COVID-19
 - O agente Smith é melhor do que você.
 - Cortana é muito mais esperta do que você!
 - Glados é mais esperto do que você!
@@ -2292,6 +2295,7 @@
 - Porque ninguém comenta das sequelas do covid?
 - Porque ninguém comenta das sequelas do vírus?
 - Queria saber se o covid deixa sequelas de dores musculares nos ombros????
+- Como fazer o paladar voltar?
 
 ## intent:covid_babys_children
 - As crianças são afetadas?
@@ -2485,6 +2489,10 @@
 - Após quanto tempo não transmito mais o vírus?
 - Depois de quantos dias não tem perigo
 - Quem já pegou pega de novo
+- Oi estive com covid a 90 dias. Estou com sintomas novamente tosse e dor no corpo
+- Quem teve covid  e quem teve contato com o vírus na mesma casa ...mas não teve sintomas pode transmitir ou pegar de novo ...depois de 3 meses já passado pelo contato mas sem sintomas ?
+- Pode ter reifeccao pelo covid
+- Pode ter reinfecção por COVID?
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -2548,6 +2556,9 @@ Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
 - Então eu testei positivo . Hoje já faz 11dias mas tô super bem não tive quase nada ... Com quantos dias eu paro de passar o vírus
 - "Quando a pessoa que foi contaminada.
 Fica curada?"
+- Quantos dias ela aparece?
+- Com quantos dias o vírus aparece?
+- Se uma pessoa  ter contato com  outra q testou positivo  pro covid pode pegar a doença  com quantos dias  o virus  se manifesta
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2635,6 +2646,7 @@ Fica curada?"
 - Me explica as Formas do coronavirus
 - covid-19 informação
 - olá, gostaria de saber um pouco mais sobre o covid
+- Quero saber mais sobre a COVID-19
 
 ## intent:covid_meaning
 - O que significa o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
@@ -2745,6 +2757,12 @@ Fica curada?"
 - Queria saber se gestante e grupo de risco
 - Gwstante e grupo de risco ?
 - Gestante é grupo de risco?
+- Quem tá com sinusite pode pega o coronavírus
+- Que tem sinusite pode pega o coronavírus
+- Tenho asma posso pegar covid ? Mesmo já tendo contato com o vírus mas sem sintomas?
+- Pessoa com bronquite e mais perigoso?
+- Eu estou com sintomas gripal pode ser covid
+- Coriza e congestao nasal é sintomas covid?
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -3079,6 +3097,10 @@ Fica curada?"
 - Vc acha que o corona vírus está perdendo a força, e tudo se normalizando?
 - E na Bahia
 - Camo ta a situação  do corona virus na Bahia
+- América do Sul
+- Número de casos na cidade de Itaperuna RJ
+- Itaperuna RJ
+- Passo fundo
 
 ## intent:covid_situation_deaths
 - Qual é a taxa de mortalidade
@@ -3162,6 +3184,7 @@ Fica curada?"
 - Quantas pessoas estão infectadas na [Republica Democrática da Argélia]{"entity": "country_code", "value": "DZ"}?
 - quantos casos positivos temos na [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
 - quantos casos ativos há no Brasil?
+- Sobre a pandemia
 
 ## intent:covid_situation_infected_critical
 - Casos críticos na [Europa]{"entity": "world_region", "value": "Europe"}
@@ -3224,6 +3247,7 @@ Fica curada?"
 - situação em [República de Malta]{"entity": "country_code", "value": "MT"}
 - novidades no mundo
 - Situação atualizada do Coronavirus
+- Sobre o nivel da covid
 
 ## intent:covid_situation_recovered
 - Quantos se recuperaram na [comunidade Europeia]{"entity": "world_region", "value": "Europe"}
@@ -3283,6 +3307,7 @@ Fica curada?"
 - quantos testes foram feitos em [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}?
 
 ## intent:covid_surfaces
+- Quanto tempo o vírus fica no cabelo
 - Durabilidade do Coronavirus em superfícies.
 - Resistência do Coronavirus em superfícies
 - Superfícies de durabilidade do Coronavirus.
@@ -3583,6 +3608,19 @@ Meu esposo está com covid"
  - Bom dia qual e o sintomas do vírus
  - 15 dias de diarreia sem febre e outros sintomas pode ser covid 19
  - Diarreia  e sudorese são sintomas?
+ - Perda do aufato  e tontura pode ser sintomas de covid
+ - Perda do olfato e tontura pode ser sintomas de covid?
+ - Esses sintomas  e de  covid
+ - O nariz entupido de um lado só
+ - Estou com a minha garganta coçando  muito isso  pode ser sintoma do covid
+ - Quais os sintomas de infecção por COVID19?
+ - Sintomas so com nariz congestionado poder ser. Covif
+ - Tem dor de cabeça também
+ - Dor de garganta é sintomas de covid?
+ - Estou com aperto no peito sem apetite
+ - Sem paladar nariz trancado
+ - Queria saber c tenho sintomas de xovid
+ - Queria saber se tenho sintomas de COVID
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -3671,6 +3709,8 @@ Meu esposo está com covid"
 - Como sabe que não tô feliz
 - Nossa a coisa e séria assim
 - Perigoso isso
+- Estou com pânico do medo
+- Tenho medo dessa doença
 
 ## intent:ebola
 - Ebola
@@ -4142,6 +4182,7 @@ Meu esposo está com covid"
 - Qual é a forma correta de usar uma máscara?
 - Como colocar uma Más...
 - como utilizar máscaras?
+- Como usar a máscara?
 
 ## intent:myth_alcohol
 - Álcool em todo o corpo.
@@ -4432,6 +4473,7 @@ Meu esposo está com covid"
 - lavar minhas mãos já é o suficiente?
 - quando devo lavar minhas mãos?
 - como devo higienizar as mãos?
+- Como lavar as mãos
 
 ## intent:prevention_disinfection
 - Como desinfetar as coisas?
@@ -4564,6 +4606,7 @@ Meu esposo está com covid"
 - Como evitar de pegar o vírus
 - Qual maneira mas correta de se proteger
 - Como evitar isso?
+- Quais precauções devo tomar?
 
 ## intent:prevention_home
 - Eu estarei seguro se eu ficar em casa?
@@ -4813,6 +4856,7 @@ Meu esposo está com covid"
 - Dor de cabeça e tosse pode ser sintoma do covid19
 - Aque hospital puedo ir si me siento muy al
 - Hello could you please tell me COVID-19 hospital?
+- Qnd devo procurar o médico..  se for positivo
 
 ## intent:prevention_medicine
 - Fui no posto eles só me dão medicamento de dor
@@ -5441,6 +5485,8 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Como ele se espalha
 - Como se pega
 - E não transmite o vírus
+- Trasmisao
+- O vírus se espalha
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -5542,6 +5588,7 @@ Mas medica pediu para repetir fiz o segundo no dia 10/ 8 deu possivo fiz tomogra
 Aí no dia 18/ 08 fiz outro exame deu possivo.
 Qual tempo certo para faze outro exame.
 Eu não estou sentindo nada"
+- Se eu tenho contato com uma pessoa com covid quanto tempo vou ter sintomas
 
 ## intent:spread_pets
 - posso ser infectado pelo meu gato?
