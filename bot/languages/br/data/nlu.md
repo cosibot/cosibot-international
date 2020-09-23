@@ -2437,6 +2437,7 @@
 - Os alimentos podem estar contaminados?
 
 ## intent:covid_immunity
+- 
 - Depois de ter sido infectado, sou imune ao vírus?
 - Depois de se recuperarem, as pessoas se tornam imunes?
 - Eu posso ficar doente duas vezes?
@@ -2493,6 +2494,7 @@
 - Quem teve covid  e quem teve contato com o vírus na mesma casa ...mas não teve sintomas pode transmitir ou pegar de novo ...depois de 3 meses já passado pelo contato mas sem sintomas ?
 - Pode ter reifeccao pelo covid
 - Pode ter reinfecção por COVID?
+- Posso pegar COVID-19 duas vezes?
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
