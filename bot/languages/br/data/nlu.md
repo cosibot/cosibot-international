@@ -2437,7 +2437,6 @@
 - Os alimentos podem estar contaminados?
 
 ## intent:covid_immunity
-- 
 - Depois de ter sido infectado, sou imune ao vírus?
 - Depois de se recuperarem, as pessoas se tornam imunes?
 - Eu posso ficar doente duas vezes?
