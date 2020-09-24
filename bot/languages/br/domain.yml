@@ -788,7 +788,7 @@ responses:
           pode se aplicar à Sars Cov 2, pois existem evidências emergentes de estudos
           iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
           e provavelmente são imunes à reinfecção a curto prazo.</speak>
-      - type: txt
+      - type: html
         text: <p>É muito cedo para saber quanto tempo durará a resposta imunológica
           protetora contra a SARS-CoV-2, uma vez que isto irá requerer estudos serológicos
           longitudinais que acompanham a imunidade dos doentes durante um período
@@ -798,8 +798,8 @@ responses:
           circulação sazonal na mesma estação ou na estação seguinte. Isso também
           pode se aplicar à SARS-CoV-2, pois existem evidências emergentes de estudos
           iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
-          e provavelmente são imunes à reinfecção a curto prazo.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf' target='_blank'>(1)</a></p>
-
+          e provavelmente são imunes à reinfecção a curto prazo.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'
+          target='_blank'>(1)</a></p>
   utter_covid_crisis_howlong:
   - custom:
       answers:
