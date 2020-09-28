@@ -2503,6 +2503,8 @@
 - Posso adquirir covid duas vezes?
 - Posso ser diagnosticado com COVID19  duas vezes?
 - Tive covid a 2 dias atras ja viltei minhas afazeres posso contaminar por agora  novamente
+- Posso pegar COVID-19 duas vezes?
+
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
