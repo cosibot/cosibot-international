@@ -3210,11 +3210,10 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Os consumidores se comportam de forma irracional porque fazem
-          compras em pânico que não são necessárias por medo da escassez de bens.
-          Isto inclui o papel higiênico. No entanto, o fornecimento de bens é absolutamente
-          garantido. Muitas vezes, os funcionários simplesmente não conseguiam recarregar
-          as prateleiras com rapidez suficiente.</speak>
+        ssml: <speak>São recomendadas atividades físicas, que podem ser realizadas no tempo 
+          livre ou durante os afazeres domésticos. Além disso, é importante evitar 
+          longos períodos sentado. Levante-se de tempos em tempos para se movimentar, 
+          seja para buscar água, ir ao banheiro ou até mesmo dar uma volta pela casa.</speak>
       - type: html
         text: <p>São recomendadas atividades físicas, que podem ser realizadas no tempo 
           livre ou durante os afazeres domésticos. Além disso, é importante evitar 
