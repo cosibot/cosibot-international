@@ -1,4 +1,4 @@
-## intent:start
+﻿## intent:start
 - /start
 - /start
 - /start_conversation
@@ -2007,6 +2007,8 @@
 - Estranho
 - Vc tá debricadeira fala pra com versar
 - Tu não tem resposta pra merda nem uma
+- Respondendo minha pergunta, mas tu não sabes a resposta.
+- Tu nem sabes qual é o vírus, e se achas entendida.
 
 ## intent:comment_offense
 - Idiota!
@@ -2282,6 +2284,7 @@
 - vírus
 - E quanto ao coronavírus
 - E quanto aos coronavírus
+- Qual é a espécie do vírus?
 
 ## intent:covid_aftereffects
 - Sequelas
@@ -2296,6 +2299,7 @@
 - Porque ninguém comenta das sequelas do vírus?
 - Queria saber se o covid deixa sequelas de dores musculares nos ombros????
 - Como fazer o paladar voltar?
+- Porque tem pessoas que teve covid19 a quatro meses com sintomas leves e agora continua com sintomas persistente?
 
 ## intent:covid_babys_children
 - As crianças são afetadas?
@@ -2376,6 +2380,7 @@
 - Sabe quando vai acabar essa pandemia ?
 - Já tem  previsão  até onde vai essa pandemia ?
 - Vc tm idéia até qnd vai essa pandemia?
+- Quando vai terminar essa pandemia
 
 ## intent:covid_current_statistics
 - [Yakutsk]{"entity": "geography", "value": "town"} news.
@@ -2428,6 +2433,8 @@
 - Qual é a origem do surto?
 - Por onde a doença começou?
 - Onde a doença começou?
+- A minha dúvida e quanto tempo os sintomas ficam
+- A minha dúvida é quanto tempo os sintomas ficam
 
 ## intent:covid_food
 - Posso me infectar com o novo vírus corona a partir de alimentos ou da água?
@@ -2493,6 +2500,9 @@
 - Quem teve covid  e quem teve contato com o vírus na mesma casa ...mas não teve sintomas pode transmitir ou pegar de novo ...depois de 3 meses já passado pelo contato mas sem sintomas ?
 - Pode ter reifeccao pelo covid
 - Pode ter reinfecção por COVID?
+- Posso adquirir covid duas vezes?
+- Posso ser diagnosticado com COVID19  duas vezes?
+- Tive covid a 2 dias atras ja viltei minhas afazeres posso contaminar por agora  novamente
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -2559,6 +2569,7 @@ Fica curada?"
 - Quantos dias ela aparece?
 - Com quantos dias o vírus aparece?
 - Se uma pessoa  ter contato com  outra q testou positivo  pro covid pode pegar a doença  com quantos dias  o virus  se manifesta
+- Estou com 14 dias do primeiro dia dos sintomas ainda posso transmitir o virus?
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2763,6 +2774,10 @@ Fica curada?"
 - Pessoa com bronquite e mais perigoso?
 - Eu estou com sintomas gripal pode ser covid
 - Coriza e congestao nasal é sintomas covid?
+- sinusite
+- Se eu tenho rinite vou pegar COVID?
+- Se eu tenho sinusite posso pegar covid?
+- Quem tem problemas respiratorios e mais facil de pegar a doença
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -2987,6 +3002,48 @@ Fica curada?"
 - Por que reabrir a escola se você sabe que é arriscado
 - quando provavelmente você acha que todas as escolas e institutos serão reabertos
 
+## intent:covid_mentalhealth
+- esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
+- Estou me sentido ansiosa. O que fazer?
+- Estou com ansiedade.
+- Ansiedade
+- Depressão
+- Síndrome do Pânico
+- Como me manter tranquila durante a quarentena?
+- Como manter a sanidade mental?
+- Como manter a saúde mental?
+- Como a quarentena afeta a saúde mental?
+- Saúde mental
+- Como lidar com a pressão da doença
+- Como ajudar pessoas com ansidade durante a pandemia?
+- Problemas mentais
+- Problemas psicológicos 
+
+## intent:quarantine_exercises
+- Exercícios 
+- Exercícios físicos
+- Exercicios
+- Exercicios fisicos
+- Atividade fisica
+- Como fazer atividade durante a pandemia?
+- Posso me exercitar em casa?
+- Posso fazer exercícios em casa?
+- Exercícios em casa
+
+## intent:covid_enem
+- Enem
+- Vai ter Enem mesmo com covid?
+- Quais as recomendações para participar do ENEM?
+- ENEM
+- Prova do enem
+
+## intent:covid_eleicao
+- Como serão as eleições esse ano?
+- Eleições
+- Eleição
+- Vai ter eleição esse ano?
+- Quais as medidas de prevenção durante as eleições?
+
 ## intent:covid_sex
 - Também pode transmitir através do sexo?
 - Transmissão e sexo
@@ -3101,6 +3158,7 @@ Fica curada?"
 - Número de casos na cidade de Itaperuna RJ
 - Itaperuna RJ
 - Passo fundo
+- No rio de janeiro está mais branda a doença
 
 ## intent:covid_situation_deaths
 - Qual é a taxa de mortalidade
@@ -3185,6 +3243,8 @@ Fica curada?"
 - quantos casos positivos temos na [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
 - quantos casos ativos há no Brasil?
 - Sobre a pandemia
+- Os casos de David está diminuindo
+- Os casos de Covid estão diminuindo?
 
 ## intent:covid_situation_infected_critical
 - Casos críticos na [Europa]{"entity": "world_region", "value": "Europe"}
@@ -3248,6 +3308,7 @@ Fica curada?"
 - novidades no mundo
 - Situação atualizada do Coronavirus
 - Sobre o nivel da covid
+- Quantos milhões de brasileiros já foi infectado  pelo covid19
 
 ## intent:covid_situation_recovered
 - Quantos se recuperaram na [comunidade Europeia]{"entity": "world_region", "value": "Europe"}
@@ -3398,6 +3459,7 @@ Fica curada?"
 - por quanto tempo o vírus pode sobreviver em uma superficie de madeira?
 - por quanto tempo o vírus pode resistir em uma superficie de madeira?
 - por quantas horas o vírus sobrevive em superfícies?
+- quanto tempo vive nas superficies?
 
 ## intent:covid_symptoms
 - Sobre os sintomas.
@@ -3621,6 +3683,13 @@ Meu esposo está com covid"
  - Sem paladar nariz trancado
  - Queria saber c tenho sintomas de xovid
  - Queria saber se tenho sintomas de COVID
+ - Estav com enjoos ontem... Meio ruim do estomago
+ - Diarréia é sintoma de covid?
+ - Covid sempre da febre
+ - Qual é os sintomas
+ - Quais são os sintomas?
+ - Qual verdadeiro sintoma do novo covid
+ - Ola quais sao os sintomas da covid19
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -3711,6 +3780,7 @@ Meu esposo está com covid"
 - Perigoso isso
 - Estou com pânico do medo
 - Tenho medo dessa doença
+- Deus deus vamos morer com este virus entao misericordia
 
 ## intent:ebola
 - Ebola
@@ -4415,6 +4485,7 @@ Meu esposo está com covid"
 - a transmissão da covid19 em áreas com climas quentes.
 - a transmissão da covid19 em áreas quentes e úmidas.
 - a transmissão da covid19 em áreas quentes.
+- Nesse tempo seco pode ser normal sentir a gargata seca
 
 ## intent:myth_conspiracy_fakenews
 - Quais são os mitos associados com o vírus?
@@ -4434,6 +4505,7 @@ Meu esposo está com covid"
 - o que são fakenews?
 - Existe uma nova virose Parecida com covid
 - Helena Quais são os mitos acerca do vidro
+- Ou é só politicagem
 
 ## intent:prevention_clean_hands
 - Sobre a limpeza das mãos.
@@ -4938,6 +5010,9 @@ Meu esposo está com covid"
 - Que medicamento puedo tomar
 - Eu preciso saber se quando sentir febre alguns sintomas pode tomar remédio para tirar a febre antes de fazer o teste do covid
 - Qual remédio para tomar se tiver com covid
+- O ibuprofeno prejudica os pacientes
+- Sera que iremos ter a tao sonhada varcina este ano ainda
+- Será que a vacina sai esse ano?
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -5142,6 +5217,7 @@ Meu esposo está com covid"
 - Helena você  pode falar  se a vacina  estará prota em outubro
 - Vacina p quando?
 - Vacina para quando?
+- Quando vamos ter a vacina
 
 ## intent:quarantine_control
 - Como se controla a quarentena?
@@ -5196,6 +5272,7 @@ Meu esposo está com covid"
 - Fiz meu teste e deu positovo
 - Fiz meu teste e deu positivo
 
+
 ## intent:quarantine_toiletpaper
 - Papel higiênico
 - Por que tantas pessoas compram papel higiênico agora?
@@ -5207,6 +5284,7 @@ Meu esposo está com covid"
 - Quem deve fazer quarentena?
 - Qtos dias a pessoa que foi diagnosticada positivo pode voltar a conviver com outras pessoas que não tenha sido contaminada ??
 - devo fazer quarentena?
+- Eu estou com o covid19
 
 ## intent:quaratine_how_it_works
 - Como fazer a quarentena propriamente dita?
@@ -5487,6 +5565,7 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - E não transmite o vírus
 - Trasmisao
 - O vírus se espalha
+- Como ele se espalha
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -5835,6 +5914,7 @@ Eu não estou sentindo nada"
 - Qual a eficaz do teste rápido
 - Fiz o teste
 - Gostaria de saber se tive contato com alguém com covid, qtos dias posso fazer o teste
+- Se eu preciso repetir o exame novamente depois dos 14 dias
 
 ## intent:test_who
 - Posso fazer o teste?
@@ -6704,6 +6784,7 @@ Eu não estou sentindo nada"
 - Tendi
 - Obg
 - Ok!
+- Obgda
 
 ## intent:vocative_yes
 - Afirmativo.
