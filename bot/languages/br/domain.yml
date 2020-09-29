@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: '0.0.6'
+    initial_value: '0.0.7'
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -248,6 +248,10 @@ actions:
 - utter_fallback_request_error
 - utter_fallback_request_hasdata
 - utter_command_change_bot
+- utter_quarantine_exercises
+- utter_covid_mentalhealth
+- utter_covid_enem
+- utter_covid_eleicao
 
 intents:
 - start_dialogue
@@ -409,6 +413,10 @@ intents:
 - vocative_yes
 - vocative_you_welcome
 - bot_change_bot
+- quarantine_exercises
+- covid_mentalhealth
+- covid_enem
+- covid_eleicao
 
 responses:
   utter_command_change_bot:
@@ -3196,3 +3204,59 @@ responses:
         links:
         - title: Novo coronavirus (COVID-19)
           url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+
+    
+  utter_quarantine_exercises:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>São recomendadas atividades físicas, que podem ser realizadas no tempo 
+          livre ou durante os afazeres domésticos. Além disso, é importante evitar 
+          longos períodos sentado. Levante-se de tempos em tempos para se movimentar, 
+          seja para buscar água, ir ao banheiro ou até mesmo dar uma volta pela casa.</speak>
+      - type: html
+        text: <p>São recomendadas atividades físicas, que podem ser realizadas no tempo 
+          livre ou durante os afazeres domésticos. Além disso, é importante evitar 
+          longos períodos sentado. Levante-se de tempos em tempos para se movimentar, 
+          seja para buscar água, ir ao banheiro ou até mesmo dar uma volta pela casa.<a href='https://saudebrasil.saude.gov.br/eu-quero-me-exercitar-mais/como-fica-a-pratica-de-atividade-fisica-durante-a-pandemia-de-coronavirus'
+          target='_blank'>(1)</a></p>
+  utter_covid_mentalhealth:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak> Durante uma pandemia é esperado que estejamos frequentemente em estado de alerta, preocupados, confusos, estressados 
+          e com sensação de falta de controle frente às incertezas do momento. Algumas estratégias de cuidado psíquico recomendadas são 
+          Investir em exercícios e ações que auxiliem na redução do nível de estresse, como meditação, leitura e exercícios de respiração. </speak>
+      - type: html
+        text: <p>Durante uma pandemia é esperado que estejamos frequentemente em estado de alerta, preocupados, confusos, estressados 
+          e com sensação de falta de controle frente às incertezas do momento. Algumas estratégias de cuidado psíquico recomendadas são 
+          Investir em exercícios e ações que auxiliem na redução do nível de estresse, como meditação, leitura e exercícios de respiração.<a href='https://www.fiocruzbrasilia.fiocruz.br/wp-content/uploads/2020/04/Sa%C3%BAde-Mental-e-Aten%C3%A7%C3%A3o-Psicossocial-na-Pandemia-Covid-19-recomenda%C3%A7%C3%B5es-gerais.pdf'
+          target='_blank'>(1)</a></p>
+  utter_covid_enem:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak> O ENEM 2020 será realizado nos dias 17 e 24 de janeiro de 2021, na versão tradicional impressa, 
+          e nos dias 31 de janeiro e 7 de fevereiro de 2021 na versão digital. As orientações relacionadas à COVID-19 
+          envolve o uso obrigatório de máscaras cobrindo totalmente o nariz e a boca, desde a entrada até a saída do 
+          local das provas e também o distanciamento social entre os participantes. </speak>
+      - type: html
+        text: <p>O ENEM 2020 será realizado nos dias 17 e 24 de janeiro de 2021, na versão tradicional impressa, 
+          e nos dias 31 de janeiro e 7 de fevereiro de 2021 na versão digital. As orientações relacionadas à COVID-19 
+          envolve o uso obrigatório de máscaras cobrindo totalmente o nariz e a boca, desde a entrada até a saída do 
+          local das provas e também o distanciamento social entre os participantes.<a href='http://portal.inep.gov.br/artigo/-/asset_publisher/B4AQV9zFY7Bv/content/publicados-novos-editais-do-enem-2020-com-prevencoes-a-covid-19/21206'
+          target='_blank'>(1)</a></p>
+  utter_covid_eleicao:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak> O Tribunal Superior Eleitoral estabeleceu um protocolo com medidas preventivas para eleitores e mesários 
+          para as eleições municipais que será realizada em novembro deste ano. Os eleitores só poderão entrar nos locais de 
+          votação se estiverem usando máscaras faciais e deverão higienizar as mãos com álcool em gel antes e depois de votar, 
+          além da distância mínima de um metro entre as pessoas. </speak>
+      - type: html
+        text: <p>O Tribunal Supe rior Eleitoral estabeleceu um protocolo com medidas preventivas para eleitores e mesários 
+          para as eleições municipais que será realizada em novembro deste ano. Os eleitores só poderão entrar nos locais de 
+          votação se estiverem usando máscaras faciais e deverão higienizar as mãos com álcool em gel antes e depois de votar, 
+          além da distância mínima de um metro entre as pessoas.<a href='http://www.tse.jus.br/imprensa/noticias-tse/arquivos/plano-de-seguranca-sanitaria-eleicoes-2020/rybena_pdf?file=http://www.tse.jus.br/imprensa/noticias-tse/arquivos/plano-de-seguranca-sanitaria-eleicoes-2020/at_download/file'
+          target='_blank'>(1)</a></p>
