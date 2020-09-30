@@ -646,8 +646,7 @@ responses:
           surtos de Sars em nenhuma parte do mundo desde 2003.</speak>
       - type: html
         text: <p>O vírus que causa a COVID-19 e o que causa a Síndrome Respiratória
-          Aguda (SARS) estão geneticamente relacionados entre si, mas são diferentes.
-          <br>A SARS é mais mortal, mas bem menos infecciosa do que a COVID-19. <br>Não
+          Aguda (SARS) estão geneticamente relacionados entre si, mas são diferentes. <br>A SARS é mais mortal, mas bem menos infecciosa do que a COVID-19. <br>Não
           existem surtos de SARS em nenhuma parte do mundo desde 2003.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
           target='_blank'>(1)</a></p>
       - type: hints
@@ -1170,7 +1169,7 @@ responses:
       - type: html
         text: <p>Cosibot é uma iniciativa sem fins lucrativos da ROBO.AI para fornecer
           informações confiáveis sobre a COVID-19 de fontes oficiais, como a Organização
-          Mundial da Saúde.<br>Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais:</p>
+          Mundial da Saúde. <br>Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais:</p>
       - type: links
         links:
         - title: Voluntariado Cosibot
@@ -1529,7 +1528,7 @@ responses:
       - type: ssml
         ssml: <speak>A pesquisa sobre vacinas está acontecendo em uma velocidade vertiginosa. Cerca de 140 estão em desenvolvimento inicial e cerca de duas dúzias estão agora sendo testadas em pessoas em ensaios clínicos. Uma vacina normalmente levaria anos, senão décadas, para se desenvolver. Os pesquisadores esperam alcançar a mesma quantidade de trabalho em apenas alguns meses. A maioria dos especialistas acredita que uma vacina provavelmente estará amplamente disponível em meados de 2021, cerca de 12 a 18 meses após o surgimento do Sars Cov 2. Isso seria um grande feito científico e não há garantias de que funcionará. Quatro coronavírus já circulam em seres humanos. Eles causam sintomas de resfriado comum e não temos vacinas para nenhum deles.</speak>
       - type: html
-        text: <p>A pesquisa sobre vacinas está acontecendo em uma velocidade vertiginosa. Cerca de 140 estão em desenvolvimento inicial e cerca de duas dúzias estão agora sendo testadas em pessoas em ensaios clínicos. Uma vacina normalmente levaria anos, senão décadas, para se desenvolver. Os pesquisadores esperam alcançar a mesma quantidade de trabalho em apenas alguns meses. A maioria dos especialistas acredita que uma vacina provavelmente estará amplamente disponível em meados de 2021, cerca de 12 a 18 meses após o surgimento do Sars-CoV-2. Isso seria um grande feito científico e não há garantias de que funcionará.<br>Quatro coronavírus já circulam em seres humanos. Eles causam sintomas de resfriado comum e não temos vacinas para nenhum deles.<a href='https://www.bbc.com/news/health-51665497'target='_blank'>(1)</a></p>
+        text: <p>A pesquisa sobre vacinas está acontecendo em uma velocidade vertiginosa. Cerca de 140 estão em desenvolvimento inicial e cerca de duas dúzias estão agora sendo testadas em pessoas em ensaios clínicos. Uma vacina normalmente levaria anos, senão décadas, para se desenvolver. Os pesquisadores esperam alcançar a mesma quantidade de trabalho em apenas alguns meses. A maioria dos especialistas acredita que uma vacina provavelmente estará amplamente disponível em meados de 2021, cerca de 12 a 18 meses após o surgimento do Sars-CoV-2. Isso seria um grande feito científico e não há garantias de que funcionará. <br>Quatro coronavírus já circulam em seres humanos. Eles causam sintomas de resfriado comum e não temos vacinas para nenhum deles.<a href='https://www.bbc.com/news/health-51665497'target='_blank'>(1)</a></p>
       - type: hints
         options:
         - label: Medidas de Prevenção
@@ -2310,7 +2309,7 @@ responses:
           do nariz ou da boca que são espalhadas quando uma pessoa com o vírus tosse
           ou exala. Essas gotículas pousam sobre objetos e superfícies ao redor
           da pessoa. Outras pessoas então pegam tocando nesses objetos ou superfícies
-          e depois tocando em seus olhos, nariz ou boca.<br>As pessoas também podem
+          e depois tocando em seus olhos, nariz ou boca. <br>As pessoas também podem
           pegar o COVID-19 se respirarem gotículas de uma pessoa com COVID-19 que
           tosse ou exala gotículas.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
           target='_blank'>(1)</a></p>
@@ -2589,7 +2588,7 @@ responses:
           está se espalhando em muitos países que não possuem redes móveis de
           5G.</speak>
       - type: html
-        text: <p> O vírus não viaja em ondas de rádio/redes móveis.<br>A COVID-19
+        text: <p> O vírus não viaja em ondas de rádio/redes móveis. <br>A COVID-19
           está se espalhando em muitos países que não possuem redes móveis 5G.<a
           href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
           target='_blank'>(1)</a></p>
@@ -2944,7 +2943,7 @@ responses:
       - type: ssml
         ssml: <speak>Foi um prazer. Você tem mais alguma pergunta que eu possa responder?</speak>
       - type: html
-        text: Foi um prazer.<br>Você tem mais alguma pergunta que eu possa responder?
+        text: Foi um prazer. <br>Você tem mais alguma pergunta que eu possa responder?
   - custom:
       answers:
       - type: ssml
