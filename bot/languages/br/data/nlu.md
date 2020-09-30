@@ -2444,6 +2444,9 @@
 - Os alimentos podem estar contaminados?
 
 ## intent:covid_immunity
+- ganho imunidade se pegar o vírus outra vez?
+- tenho imunidade se pegar o vírus outra vez?
+- Imunidade
 - Depois de ter sido infectado, sou imune ao vírus?
 - Depois de se recuperarem, as pessoas se tornam imunes?
 - Eu posso ficar doente duas vezes?
@@ -3216,6 +3219,7 @@ Fica curada?"
 
 ## intent:covid_situation_infected
 - Qual é o número de infectados?
+- quantos infetados?
 - Quantos infectados existem no [Mundo]{"entity": "world_region", "value": "World"}?
 - Quantos infectados existem no [continente americano]{"entity": "world_region", "value": "America"}?
 - Quantas infecções existem em todo o mundo?
@@ -9077,6 +9081,8 @@ Eu não estou sentindo nada"
 - Federative Republic of Brazil
 - Brasil
 - Brazil
+- brasil
+- brazil
 
 ## synonym:BS
 - Comunidade das Bahamas

@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: '0.0.7'
+    initial_value: '0.0.8'
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -2178,9 +2178,9 @@ responses:
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
   utter_spread_feces:
   - custom:
@@ -2206,9 +2206,9 @@ responses:
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
   utter_spread_risk:
   - custom:
@@ -2224,9 +2224,9 @@ responses:
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
         - label: Situação Mundial
           value: Situação Mundial
@@ -2252,9 +2252,9 @@ responses:
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
   utter_spread_air:
   - custom:
@@ -2274,9 +2274,9 @@ responses:
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
   utter_spread_surfaces_food_objects:
   - custom:
@@ -2310,7 +2310,7 @@ responses:
           do nariz ou da boca que são espalhadas quando uma pessoa com o vírus tosse
           ou exala. Essas gotículas pousam sobre objetos e superfícies ao redor
           da pessoa. Outras pessoas então pegam tocando nesses objetos ou superfícies
-          e depois tocando em seus olhos, nariz ou boca. <br>As pessoas também podem
+          e depois tocando em seus olhos, nariz ou boca.<br>As pessoas também podem
           pegar o COVID-19 se respirarem gotículas de uma pessoa com COVID-19 que
           tosse ou exala gotículas.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
           target='_blank'>(1)</a></p>
@@ -2320,9 +2320,9 @@ responses:
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Situação Mundial
+        - label: Situação Mundial
           value: Situação Mundial
   utter_greeting_goodbye:
   - custom:
