@@ -3085,7 +3085,9 @@ Fica curada?"
 - Número de casos em [Guiana Francesa]{"entity": "country_code", "value": "GF"}
 - Número de casos nos EUA
 - Número de casos no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de casos no [brasil]{"entity": "country_code", "value": "BR"}
 - quantos casos no [Brasil]{"entity": "country_code", "value": "BR"}
+- quantos casos no [brazil]{"entity": "country_code", "value": "BR"}
 - Número de casos na região sudeste
 - quantos casos no Brasil?
 - Número de casos na região sul
@@ -3125,6 +3127,7 @@ Fica curada?"
 - estatísticas sobre covid2019
 - como está a situação neste momento em [Portugal]{"entity": "country_code", "value": "PT"}?
 - como está a situação no [Brasil]{"entity": "country_code", "value": "BR"}?
+- como está a situação no [brasil]{"entity": "country_code", "value": "BR"}?
 - Como está a situação neste momento?
 - quantos casos confirmados por aí?
 - quantos casos existem por aí?
@@ -3168,6 +3171,7 @@ Fica curada?"
 ## intent:covid_situation_deaths
 - Qual é a taxa de mortalidade
 - qual o número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- qual o número de mortes no [brazil]{"entity": "country_code", "value": "BR"}
 - Mortes na [África]{"entity": "world_region", "value": "Africa"}
 - Mortes no [continente antártico]{"entity": "world_region", "value": "Antarctic"}
 - Mortes na [Oceania]{"entity": "world_region", "value": "Oceania"}
@@ -3177,6 +3181,8 @@ Fica curada?"
 - Mortes no [Brasil]{"entity": "country_code", "value": "BR"}
 - Número de mortes
 - Número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes no [brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes no [brazil]{"entity": "country_code", "value": "BR"}
 - Número de mortes em [República de Gana]{"entity": "country_code", "value": "GH"}
 - Número de mortes em [Hong Kong]{"entity": "country_code", "value": "HK"}
 - Número de mortes em todo o mundo.
