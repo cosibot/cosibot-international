@@ -2444,6 +2444,9 @@
 - Os alimentos podem estar contaminados?
 
 ## intent:covid_immunity
+- ganho imunidade se pegar o vírus outra vez?
+- tenho imunidade se pegar o vírus outra vez?
+- Imunidade
 - Depois de ter sido infectado, sou imune ao vírus?
 - Depois de se recuperarem, as pessoas se tornam imunes?
 - Eu posso ficar doente duas vezes?
@@ -3082,7 +3085,9 @@ Fica curada?"
 - Número de casos em [Guiana Francesa]{"entity": "country_code", "value": "GF"}
 - Número de casos nos EUA
 - Número de casos no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de casos no [brasil]{"entity": "country_code", "value": "BR"}
 - quantos casos no [Brasil]{"entity": "country_code", "value": "BR"}
+- quantos casos no [brazil]{"entity": "country_code", "value": "BR"}
 - Número de casos na região sudeste
 - quantos casos no Brasil?
 - Número de casos na região sul
@@ -3122,6 +3127,7 @@ Fica curada?"
 - estatísticas sobre covid2019
 - como está a situação neste momento em [Portugal]{"entity": "country_code", "value": "PT"}?
 - como está a situação no [Brasil]{"entity": "country_code", "value": "BR"}?
+- como está a situação no [brasil]{"entity": "country_code", "value": "BR"}?
 - Como está a situação neste momento?
 - quantos casos confirmados por aí?
 - quantos casos existem por aí?
@@ -3165,6 +3171,7 @@ Fica curada?"
 ## intent:covid_situation_deaths
 - Qual é a taxa de mortalidade
 - qual o número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- qual o número de mortes no [brazil]{"entity": "country_code", "value": "BR"}
 - Mortes na [África]{"entity": "world_region", "value": "Africa"}
 - Mortes no [continente antártico]{"entity": "world_region", "value": "Antarctic"}
 - Mortes na [Oceania]{"entity": "world_region", "value": "Oceania"}
@@ -3174,6 +3181,8 @@ Fica curada?"
 - Mortes no [Brasil]{"entity": "country_code", "value": "BR"}
 - Número de mortes
 - Número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes no [brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes no [brazil]{"entity": "country_code", "value": "BR"}
 - Número de mortes em [República de Gana]{"entity": "country_code", "value": "GH"}
 - Número de mortes em [Hong Kong]{"entity": "country_code", "value": "HK"}
 - Número de mortes em todo o mundo.
@@ -3216,6 +3225,7 @@ Fica curada?"
 
 ## intent:covid_situation_infected
 - Qual é o número de infectados?
+- quantos infetados?
 - Quantos infectados existem no [Mundo]{"entity": "world_region", "value": "World"}?
 - Quantos infectados existem no [continente americano]{"entity": "world_region", "value": "America"}?
 - Quantas infecções existem em todo o mundo?
@@ -7201,6 +7211,756 @@ Eu não estou sentindo nada"
 - [America]{"entity": "world_region", "value": "America"}
 - [Oceania]{"entity": "world_region", "value": "Oceania"}
 - [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
+- [Egypt]{"entity": "country_code", "value": "EG"}
+- [nepal]{"entity": "country_code", "value": "NP"}
+- [Nepal]{"entity": "country_code", "value": "NP"}
+- [Federal Democratic Republic of Nepal]{"entity": "country_code", "value": "NP"}
+- [italy]{"entity": "country_code", "value": "IT"}
+- [Italy]{"entity": "country_code", "value": "IT"}
+- [Italia]{"entity": "country_code", "value": "IT"}
+- [guernsey]{"entity": "country_code", "value": "GG"}
+- [Guernsey]{"entity": "country_code", "value": "GG"}
+- [Guernési]{"entity": "country_code", "value": "GG"}
+- [montserrat]{"entity": "country_code", "value": "MS"}
+- [Montserrat]{"entity": "country_code", "value": "MS"}
+- [Monserrate]{"entity": "country_code", "value": "MS"}
+- [seychelles]{"entity": "country_code", "value": "SC"}
+- [Seychelles]{"entity": "country_code", "value": "SC"}
+- [Republic of Seychelles]{"entity": "country_code", "value": "SC"}
+- [aland islands]{"entity": "country_code", "value": "AX"}
+- [Åland Islands]{"entity": "country_code", "value": "AX"}
+- [Åland]{"entity": "country_code", "value": "AX"}
+- [federated states of micronesia]{"entity": "country_code", "value": "FM"}
+- [Federated States of Micronesia]{"entity": "country_code", "value": "FM"}
+- [FSM]{"entity": "country_code", "value": "FM"}
+- [guam]{"entity": "country_code", "value": "GU"}
+- [Guam]{"entity": "country_code", "value": "GU"}
+- [Guåhån]{"entity": "country_code", "value": "GU"}
+- [portugal]{"entity": "country_code", "value": "PT"}
+- [Portugal]{"entity": "country_code", "value": "PT"}
+- [Portuguese Republic]{"entity": "country_code", "value": "PT"}
+- [japan]{"entity": "country_code", "value": "JP"}
+- [Japan]{"entity": "country_code", "value": "JP"}
+- [Nippon]{"entity": "country_code", "value": "JP"}
+- [colombia]{"entity": "country_code", "value": "CO"}
+- [Colombia]{"entity": "country_code", "value": "CO"}
+- [Republic of Colombia]{"entity": "country_code", "value": "CO"}
+- [malta]{"entity": "country_code", "value": "MT"}
+- [Malta]{"entity": "country_code", "value": "MT"}
+- [Republic of Malta]{"entity": "country_code", "value": "MT"}
+- [cuba]{"entity": "country_code", "value": "CU"}
+- [Cuba]{"entity": "country_code", "value": "CU"}
+- [Republic of Cuba]{"entity": "country_code", "value": "CU"}
+- [myanmar]{"entity": "country_code", "value": "MM"}
+- [Myanmar]{"entity": "country_code", "value": "MM"}
+- [Burma]{"entity": "country_code", "value": "MM"}
+- [guadeloupe]{"entity": "country_code", "value": "GP"}
+- [Guadeloupe]{"entity": "country_code", "value": "GP"}
+- [Gwadloup]{"entity": "country_code", "value": "GP"}
+- [argentina]{"entity": "country_code", "value": "AR"}
+- [Argentina]{"entity": "country_code", "value": "AR"}
+- [Argentine Republic]{"entity": "country_code", "value": "AR"}
+- [british virgin islands]{"entity": "country_code", "value": "VG"}
+- [British Virgin Islands]{"entity": "country_code", "value": "VG"}
+- [BVI]{"entity": "country_code", "value": "VG"}
+- [luxembourg]{"entity": "country_code", "value": "LU"}
+- [Luxembourg]{"entity": "country_code", "value": "LU"}
+- [Lëtzebuerg]{"entity": "country_code", "value": "LU"}
+- [gabon]{"entity": "country_code", "value": "GA"}
+- [Gabon]{"entity": "country_code", "value": "GA"}
+- [Gabonese Republic]{"entity": "country_code", "value": "GA"}
+- [uganda]{"entity": "country_code", "value": "UG"}
+- [Uganda]{"entity": "country_code", "value": "UG"}
+- [Republic of Uganda]{"entity": "country_code", "value": "UG"}
+- [tunisia]{"entity": "country_code", "value": "TN"}
+- [Tunisia]{"entity": "country_code", "value": "TN"}
+- [Republic of Tunisia]{"entity": "country_code", "value": "TN"}
+- [puerto rico]{"entity": "country_code", "value": "PR"}
+- [Puerto Rico]{"entity": "country_code", "value": "PR"}
+- [Borinquen]{"entity": "country_code", "value": "PR"}
+- [uruguay]{"entity": "country_code", "value": "UY"}
+- [Uruguay]{"entity": "country_code", "value": "UY"}
+- [Oriental Republic of Uruguay]{"entity": "country_code", "value": "UY"}
+- [sierra leone]{"entity": "country_code", "value": "SL"}
+- [Sierra Leone]{"entity": "country_code", "value": "SL"}
+- [Republic of Sierra Leone]{"entity": "country_code", "value": "SL"}
+- [palau]{"entity": "country_code", "value": "PW"}
+- [Palau]{"entity": "country_code", "value": "PW"}
+- [Belau]{"entity": "country_code", "value": "PW"}
+- [morocco]{"entity": "country_code", "value": "MA"}
+- [Morocco]{"entity": "country_code", "value": "MA"}
+- [al-maġhrib]{"entity": "country_code", "value": "MA"}
+- [tuvalu]{"entity": "country_code", "value": "TV"}
+- [Tuvalu]{"entity": "country_code", "value": "TV"}
+- [Ellice Islands]{"entity": "country_code", "value": "TV"}
+- [qatar]{"entity": "country_code", "value": "QA"}
+- [Qatar]{"entity": "country_code", "value": "QA"}
+- [State of Qatar]{"entity": "country_code", "value": "QA"}
+- [saint pierre and miquelon]{"entity": "country_code", "value": "PM"}
+- [Saint Pierre and Miquelon]{"entity": "country_code", "value": "PM"}
+- [Saint-Pierre-et-Miquelon]{"entity": "country_code", "value": "PM"}
+- [iraq]{"entity": "country_code", "value": "IQ"}
+- [Iraq]{"entity": "country_code", "value": "IQ"}
+- [Êraq]{"entity": "country_code", "value": "IQ"}
+- [sri lanka]{"entity": "country_code", "value": "LK"}
+- [Sri Lanka]{"entity": "country_code", "value": "LK"}
+- [Srī Lankā prajātāntrika samājavādī janarajaya]{"entity": "country_code", "value": "LK"}
+- [american samoa]{"entity": "country_code", "value": "AS"}
+- [American Samoa]{"entity": "country_code", "value": "AS"}
+- [Samoa Americana]{"entity": "country_code", "value": "AS"}
+- [state of palestine]{"entity": "country_code", "value": "PS"}
+- [State of Palestine]{"entity": "country_code", "value": "PS"}
+- [Dawlat Filasṭīn]{"entity": "country_code", "value": "PS"}
+- [togo]{"entity": "country_code", "value": "TG"}
+- [Togo]{"entity": "country_code", "value": "TG"}
+- [Togolese Republic]{"entity": "country_code", "value": "TG"}
+- [oman]{"entity": "country_code", "value": "OM"}
+- [Oman]{"entity": "country_code", "value": "OM"}
+- [Salṭanat ʻUmān]{"entity": "country_code", "value": "OM"}
+- [réunion]{"entity": "country_code", "value": "RE"}
+- [Réunion]{"entity": "country_code", "value": "RE"}
+- [La Réunion]{"entity": "country_code", "value": "RE"}
+- [kuwait]{"entity": "country_code", "value": "KW"}
+- [Kuwait]{"entity": "country_code", "value": "KW"}
+- [al-Kuwait]{"entity": "country_code", "value": "KW"}
+- [paraguay]{"entity": "country_code", "value": "PY"}
+- [Paraguay]{"entity": "country_code", "value": "PY"}
+- [Republic of Paraguay]{"entity": "country_code", "value": "PY"}
+- [french polynesia]{"entity": "country_code", "value": "PF"}
+- [French Polynesia]{"entity": "country_code", "value": "PF"}
+- [Polynésie française]{"entity": "country_code", "value": "PF"}
+- [svalbard and jan mayen]{"entity": "country_code", "value": "SJ"}
+- [Svalbard and Jan Mayen]{"entity": "country_code", "value": "SJ"}
+- [Svalbard og Jan Mayen]{"entity": "country_code", "value": "SJ"}
+- [congo]{"entity": "country_code", "value": "CG"}
+- [Congo]{"entity": "country_code", "value": "CG"}
+- [République du Congo]{"entity": "country_code", "value": "CG"}
+- [thailand]{"entity": "country_code", "value": "TH"}
+- [Thailand]{"entity": "country_code", "value": "TH"}
+- [Kingdom of Thailand]{"entity": "country_code", "value": "TH"}
+- [heard island and mcdonald islands]{"entity": "country_code", "value": "HM"}
+- [Heard Island and McDonald Islands]{"entity": "country_code", "value": "HM"}
+- [HIMI]{"entity": "country_code", "value": "HM"}
+- [yemen]{"entity": "country_code", "value": "YE"}
+- [Yemen]{"entity": "country_code", "value": "YE"}
+- [al-Jumhūrīyah al-Yamanīyah]{"entity": "country_code", "value": "YE"}
+- [solomon islands]{"entity": "country_code", "value": "SB"}
+- [Solomon Islands]{"entity": "country_code", "value": "SB"}
+- [Islas Salomón]{"entity": "country_code", "value": "SB"}
+- [norway]{"entity": "country_code", "value": "NO"}
+- [Norway]{"entity": "country_code", "value": "NO"}
+- [Kingdom of Norway]{"entity": "country_code", "value": "NO"}
+- [singapore]{"entity": "country_code", "value": "SG"}
+- [Singapore]{"entity": "country_code", "value": "SG"}
+- [Republic of Singapore]{"entity": "country_code", "value": "SG"}
+- [pakistan]{"entity": "country_code", "value": "PK"}
+- [Pakistan]{"entity": "country_code", "value": "PK"}
+- [Islamic Republic of Pakistan]{"entity": "country_code", "value": "PK"}
+- [malvinas]{"entity": "country_code", "value": "FK"}
+- [Malvinas]{"entity": "country_code", "value": "FK"}
+- [Falkland]{"entity": "country_code", "value": "FK"}
+- [nauru]{"entity": "country_code", "value": "NR"}
+- [Nauru]{"entity": "country_code", "value": "NR"}
+- [Republic of Nauru]{"entity": "country_code", "value": "NR"}
+- [brazil]{"entity": "country_code", "value": "BR"}
+- [Brazil]{"entity": "country_code", "value": "BR"}
+- [Brasil]{"entity": "country_code", "value": "BR"}
+- [turkey]{"entity": "country_code", "value": "TR"}
+- [Turkey]{"entity": "country_code", "value": "TR"}
+- [Türkiye]{"entity": "country_code", "value": "TR"}
+- [marshall islands]{"entity": "country_code", "value": "MH"}
+- [Marshall Islands]{"entity": "country_code", "value": "MH"}
+- [Republic of the Marshall Islands]{"entity": "country_code", "value": "MH"}
+- [estonia]{"entity": "country_code", "value": "EE"}
+- [Estonia]{"entity": "country_code", "value": "EE"}
+- [Eesti]{"entity": "country_code", "value": "EE"}
+- [sao tome and principe]{"entity": "country_code", "value": "ST"}
+- [Sao Tome and Principe]{"entity": "country_code", "value": "ST"}
+- [Saint Thomas and Prince]{"entity": "country_code", "value": "ST"}
+- [china]{"entity": "country_code", "value": "CN"}
+- [China]{"entity": "country_code", "value": "CN"}
+- [People's Republic of China]{"entity": "country_code", "value": "CN"}
+- [philippines]{"entity": "country_code", "value": "PH"}
+- [Philippines]{"entity": "country_code", "value": "PH"}
+- [Pilipinas]{"entity": "country_code", "value": "PH"}
+- [swaziland]{"entity": "country_code", "value": "SZ"}
+- [Swaziland]{"entity": "country_code", "value": "SZ"}
+- [Eswatini]{"entity": "country_code", "value": "SZ"}
+- [croatia]{"entity": "country_code", "value": "HR"}
+- [Croatia]{"entity": "country_code", "value": "HR"}
+- [Hrvatska]{"entity": "country_code", "value": "HR"}
+- [madagascar]{"entity": "country_code", "value": "MG"}
+- [Madagascar]{"entity": "country_code", "value": "MG"}
+- [Madagasikara]{"entity": "country_code", "value": "MG"}
+- [zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [Zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [Republic of Zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [uzbekistan]{"entity": "country_code", "value": "UZ"}
+- [Uzbekistan]{"entity": "country_code", "value": "UZ"}
+- [Oʻzbekiston]{"entity": "country_code", "value": "UZ"}
+- [pitcairn]{"entity": "country_code", "value": "PN"}
+- [Pitcairn]{"entity": "country_code", "value": "PN"}
+- [Pitcairn Islands]{"entity": "country_code", "value": "PN"}
+- [netherlands]{"entity": "country_code", "value": "NL"}
+- [Netherlands]{"entity": "country_code", "value": "NL"}
+- [Nederland]{"entity": "country_code", "value": "NL"}
+- [israel]{"entity": "country_code", "value": "IL"}
+- [Israel]{"entity": "country_code", "value": "IL"}
+- [State of Israel]{"entity": "country_code", "value": "IL"}
+- [ethiopia]{"entity": "country_code", "value": "ET"}
+- [Ethiopia]{"entity": "country_code", "value": "ET"}
+- [Itiyoophiyaa]{"entity": "country_code", "value": "ET"}
+- [timor-leste]{"entity": "country_code", "value": "TL"}
+- [Timor-Leste]{"entity": "country_code", "value": "TL"}
+- [República Democrática de Timor-Leste]{"entity": "country_code", "value": "TL"}
+- [u.s. virgin islands]{"entity": "country_code", "value": "VI"}
+- [U.S. Virgin Islands]{"entity": "country_code", "value": "VI"}
+- [Ilhas Virgens Americanas]{"entity": "country_code", "value": "VI"}
+- [azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [Azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [Republic of Azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [lesotho]{"entity": "country_code", "value": "LS"}
+- [Lesotho]{"entity": "country_code", "value": "LS"}
+- [Kingdom of Lesotho]{"entity": "country_code", "value": "LS"}
+- [cameroon]{"entity": "country_code", "value": "CM"}
+- [Cameroon]{"entity": "country_code", "value": "CM"}
+- [Cameroun]{"entity": "country_code", "value": "CM"}
+- [united states minor outlying islands]{"entity": "country_code", "value": "UM"}
+- [United States Minor Outlying Islands]{"entity": "country_code", "value": "UM"}
+- [Baker Island]{"entity": "country_code", "value": "UM"}
+- [zambia]{"entity": "country_code", "value": "ZM"}
+- [Zambia]{"entity": "country_code", "value": "ZM"}
+- [Republic of Zambia]{"entity": "country_code", "value": "ZM"}
+- [indonesia]{"entity": "country_code", "value": "ID"}
+- [Indonesia]{"entity": "country_code", "value": "ID"}
+- [Republic of Indonesia]{"entity": "country_code", "value": "ID"}
+- [dominican republic]{"entity": "country_code", "value": "DO"}
+- [Dominican Republic]{"entity": "country_code", "value": "DO"}
+- [República Dominicana]{"entity": "country_code", "value": "DO"}
+- [senegal]{"entity": "country_code", "value": "SN"}
+- [Senegal]{"entity": "country_code", "value": "SN"}
+- [Sénégal]{"entity": "country_code", "value": "SN"}
+- [antigua and barbuda]{"entity": "country_code", "value": "AG"}
+- [Antigua and Barbuda]{"entity": "country_code", "value": "AG"}
+- [Antigua]{"entity": "country_code", "value": "AG"}
+- [belgium]{"entity": "country_code", "value": "BE"}
+- [Belgium]{"entity": "country_code", "value": "BE"}
+- [Kingdom of Belgium]{"entity": "country_code", "value": "BE"}
+- [jamaica]{"entity": "country_code", "value": "JM"}
+- [Jamaica]{"entity": "country_code", "value": "JM"}
+- [Jumieka]{"entity": "country_code", "value": "JM"}
+- [spain]{"entity": "country_code", "value": "ES"}
+- [Spain]{"entity": "country_code", "value": "ES"}
+- [España]{"entity": "country_code", "value": "ES"}
+- [benin]{"entity": "country_code", "value": "BJ"}
+- [Benin]{"entity": "country_code", "value": "BJ"}
+- [Republic of Benin]{"entity": "country_code", "value": "BJ"}
+- [bermuda]{"entity": "country_code", "value": "BM"}
+- [Bermuda]{"entity": "country_code", "value": "BM"}
+- [Islands of Bermuda]{"entity": "country_code", "value": "BM"}
+- [sudan]{"entity": "country_code", "value": "SD"}
+- [Sudan]{"entity": "country_code", "value": "SD"}
+- [Republic of the Sudan]{"entity": "country_code", "value": "SD"}
+- [albania]{"entity": "country_code", "value": "AL"}
+- [Albania]{"entity": "country_code", "value": "AL"}
+- [Republic of Albania]{"entity": "country_code", "value": "AL"}
+- [suriname]{"entity": "country_code", "value": "SR"}
+- [Suriname]{"entity": "country_code", "value": "SR"}
+- [Surinam]{"entity": "country_code", "value": "SR"}
+- [india]{"entity": "country_code", "value": "IN"}
+- [India]{"entity": "country_code", "value": "IN"}
+- [Bhārat]{"entity": "country_code", "value": "IN"}
+- [bangladesh]{"entity": "country_code", "value": "BD"}
+- [Bangladesh]{"entity": "country_code", "value": "BD"}
+- [country of Bengal]{"entity": "country_code", "value": "BD"}
+- [ukraine]{"entity": "country_code", "value": "UA"}
+- [Ukraine]{"entity": "country_code", "value": "UA"}
+- [Ukrayina]{"entity": "country_code", "value": "UA"}
+- [cayman islands]{"entity": "country_code", "value": "KY"}
+- [Cayman Islands]{"entity": "country_code", "value": "KY"}
+- [Ilhas Caimã]{"entity": "country_code", "value": "KY"}
+- [montenegro]{"entity": "country_code", "value": "ME"}
+- [Montenegro]{"entity": "country_code", "value": "ME"}
+- [Crna Gora]{"entity": "country_code", "value": "ME"}
+- [equatorial guinea]{"entity": "country_code", "value": "GQ"}
+- [Equatorial Guinea]{"entity": "country_code", "value": "GQ"}
+- [Guinea Ecuatorial]{"entity": "country_code", "value": "GQ"}
+- [united states]{"entity": "country_code", "value": "US"}
+- [United States]{"entity": "country_code", "value": "US"}
+- [United States of America]{"entity": "country_code", "value": "US"}
+- [islamic republic of iran]{"entity": "country_code", "value": "IR"}
+- [Islamic Republic of Iran]{"entity": "country_code", "value": "IR"}
+- [Persia]{"entity": "country_code", "value": "IR"}
+- [slovakia]{"entity": "country_code", "value": "SK"}
+- [Slovakia]{"entity": "country_code", "value": "SK"}
+- [Slovensko]{"entity": "country_code", "value": "SK"}
+- [bhutan]{"entity": "country_code", "value": "BT"}
+- [Bhutan]{"entity": "country_code", "value": "BT"}
+- [Kingdom of Bhutan]{"entity": "country_code", "value": "BT"}
+- [austria]{"entity": "country_code", "value": "AT"}
+- [Austria]{"entity": "country_code", "value": "AT"}
+- [Republic of Austria]{"entity": "country_code", "value": "AT"}
+- [south korea]{"entity": "country_code", "value": "KR"}
+- [South Korea]{"entity": "country_code", "value": "KR"}
+- [Republic of Korea]{"entity": "country_code", "value": "KR"}
+- [saint helena, ascension and tristan da cunha]{"entity": "country_code", "value": "SH"}
+- [Saint Helena, Ascension and Tristan da Cunha]{"entity": "country_code", "value": "SH"}
+- [Saint Helena]{"entity": "country_code", "value": "SH"}
+- [laos]{"entity": "country_code", "value": "LA"}
+- [Laos]{"entity": "country_code", "value": "LA"}
+- [Lao People's Democratic Republic]{"entity": "country_code", "value": "LA"}
+- [somalia]{"entity": "country_code", "value": "SO"}
+- [Somalia]{"entity": "country_code", "value": "SO"}
+- [Soomaaliya]{"entity": "country_code", "value": "SO"}
+- [romania]{"entity": "country_code", "value": "RO"}
+- [Romania]{"entity": "country_code", "value": "RO"}
+- [România]{"entity": "country_code", "value": "RO"}
+- [guyana]{"entity": "country_code", "value": "GY"}
+- [Guyana]{"entity": "country_code", "value": "GY"}
+- [Co-operative Republic of Guyana]{"entity": "country_code", "value": "GY"}
+- [france]{"entity": "country_code", "value": "FR"}
+- [France]{"entity": "country_code", "value": "FR"}
+- [French Republic]{"entity": "country_code", "value": "FR"}
+- [liberia]{"entity": "country_code", "value": "LR"}
+- [Liberia]{"entity": "country_code", "value": "LR"}
+- [Republic of Liberia]{"entity": "country_code", "value": "LR"}
+- [russia]{"entity": "country_code", "value": "RU"}
+- [Russia]{"entity": "country_code", "value": "RU"}
+- [Russian Federation]{"entity": "country_code", "value": "RU"}
+- [tanzania]{"entity": "country_code", "value": "TZ"}
+- [Tanzania]{"entity": "country_code", "value": "TZ"}
+- [United Republic of Tanzania]{"entity": "country_code", "value": "TZ"}
+- [united arab emirates]{"entity": "country_code", "value": "AE"}
+- [United Arab Emirates]{"entity": "country_code", "value": "AE"}
+- [al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah]{"entity": "country_code", "value": "AE"}
+- [antarctica]{"entity": "country_code", "value": "AQ"}
+- [Antarctica]{"entity": "country_code", "value": "AQ"}
+- [Antártida]{"entity": "country_code", "value": "AQ"}
+- [cocos islands]{"entity": "country_code", "value": "CC"}
+- [Cocos Islands]{"entity": "country_code", "value": "CC"}
+- [Cocos Keeling Islands]{"entity": "country_code", "value": "CC"}
+- [brunei darussalam]{"entity": "country_code", "value": "BN"}
+- [Brunei Darussalam]{"entity": "country_code", "value": "BN"}
+- [Brunei]{"entity": "country_code", "value": "BN"}
+- [saint kitts and nevis]{"entity": "country_code", "value": "KN"}
+- [Saint Kitts and Nevis]{"entity": "country_code", "value": "KN"}
+- [Federation of Saint Christopher and Nevis]{"entity": "country_code", "value": "KN"}
+- [burkina faso]{"entity": "country_code", "value": "BF"}
+- [Burkina Faso]{"entity": "country_code", "value": "BF"}
+- [Republic of Burkina Faso]{"entity": "country_code", "value": "BF"}
+- [cyprus]{"entity": "country_code", "value": "CY"}
+- [Cyprus]{"entity": "country_code", "value": "CY"}
+- [Κύπρος]{"entity": "country_code", "value": "CY"}
+- [afghanistan]{"entity": "country_code", "value": "AF"}
+- [Afghanistan]{"entity": "country_code", "value": "AF"}
+- [Islamic Republic of Afghanistan]{"entity": "country_code", "value": "AF"}
+- [kiribati]{"entity": "country_code", "value": "KI"}
+- [Kiribati]{"entity": "country_code", "value": "KI"}
+- [Republic of Kiribati]{"entity": "country_code", "value": "KI"}
+- [grenada]{"entity": "country_code", "value": "GD"}
+- [Grenada]{"entity": "country_code", "value": "GD"}
+- [Gwenad]{"entity": "country_code", "value": "GD"}
+- [costa rica]{"entity": "country_code", "value": "CR"}
+- [Costa Rica]{"entity": "country_code", "value": "CR"}
+- [Republic of Costa Rica]{"entity": "country_code", "value": "CR"}
+- [french guiana]{"entity": "country_code", "value": "GF"}
+- [French Guiana]{"entity": "country_code", "value": "GF"}
+- [Guyane]{"entity": "country_code", "value": "GF"}
+- [curaçao]{"entity": "country_code", "value": "CW"}
+- [Curaçao]{"entity": "country_code", "value": "CW"}
+- [Kòrsou]{"entity": "country_code", "value": "CW"}
+- [georgia]{"entity": "country_code", "value": "GE"}
+- [Georgia]{"entity": "country_code", "value": "GE"}
+- [Republic of Georgia]{"entity": "country_code", "value": "GE"}
+- [kazakhstan]{"entity": "country_code", "value": "KZ"}
+- [Kazakhstan]{"entity": "country_code", "value": "KZ"}
+- [Republic of Kazakhstan]{"entity": "country_code", "value": "KZ"}
+- [turks and caicos islands]{"entity": "country_code", "value": "TC"}
+- [Turks and Caicos Islands]{"entity": "country_code", "value": "TC"}
+- [TCI]{"entity": "country_code", "value": "TC"}
+- [kyrgyzstan]{"entity": "country_code", "value": "KG"}
+- [Kyrgyzstan]{"entity": "country_code", "value": "KG"}
+- [Kyrgyz Republic]{"entity": "country_code", "value": "KG"}
+- [mali]{"entity": "country_code", "value": "ML"}
+- [Mali]{"entity": "country_code", "value": "ML"}
+- [Republic of Mali]{"entity": "country_code", "value": "ML"}
+- [fiji]{"entity": "country_code", "value": "FJ"}
+- [Fiji]{"entity": "country_code", "value": "FJ"}
+- [Republic of Fiji]{"entity": "country_code", "value": "FJ"}
+- [uk]{"entity": "country_code", "value": "GB"}
+- [united kingdom]{"entity": "country_code", "value": "GB"}
+- [United Kingdom]{"entity": "country_code", "value": "GB"}
+- [United Kingdom of Great Britain and Northern Ireland]{"entity": "country_code", "value": "GB"}
+- [dominica]{"entity": "country_code", "value": "DM"}
+- [Dominica]{"entity": "country_code", "value": "DM"}
+- [Dominique]{"entity": "country_code", "value": "DM"}
+- [comoros]{"entity": "country_code", "value": "KM"}
+- [Comoros]{"entity": "country_code", "value": "KM"}
+- [Union of the Comoros]{"entity": "country_code", "value": "KM"}
+- [mauritius]{"entity": "country_code", "value": "MU"}
+- [Mauritius]{"entity": "country_code", "value": "MU"}
+- [Maurice]{"entity": "country_code", "value": "MU"}
+- [guinea]{"entity": "country_code", "value": "GN"}
+- [Guinea]{"entity": "country_code", "value": "GN"}
+- [Republic of Guinea]{"entity": "country_code", "value": "GN"}
+- [trinidad and tobago]{"entity": "country_code", "value": "TT"}
+- [Trinidad and Tobago]{"entity": "country_code", "value": "TT"}
+- [Republic of Trinidad and Tobago]{"entity": "country_code", "value": "TT"}
+- [serbia]{"entity": "country_code", "value": "RS"}
+- [Serbia]{"entity": "country_code", "value": "RS"}
+- [Србија]{"entity": "country_code", "value": "RS"}
+- [greenland]{"entity": "country_code", "value": "GL"}
+- [Greenland]{"entity": "country_code", "value": "GL"}
+- [Kalaallit Nunaat]{"entity": "country_code", "value": "GL"}
+- [poland]{"entity": "country_code", "value": "PL"}
+- [Poland]{"entity": "country_code", "value": "PL"}
+- [Polska]{"entity": "country_code", "value": "PL"}
+- [tajikistan]{"entity": "country_code", "value": "TJ"}
+- [Tajikistan]{"entity": "country_code", "value": "TJ"}
+- [Republic of Tajikistan]{"entity": "country_code", "value": "TJ"}
+- [cambodia]{"entity": "country_code", "value": "KH"}
+- [Cambodia]{"entity": "country_code", "value": "KH"}
+- [Kampuchea]{"entity": "country_code", "value": "KH"}
+- [botswana]{"entity": "country_code", "value": "BW"}
+- [Botswana]{"entity": "country_code", "value": "BW"}
+- [Republic of Botswana]{"entity": "country_code", "value": "BW"}
+- [wallis and futuna]{"entity": "country_code", "value": "WF"}
+- [Wallis and Futuna]{"entity": "country_code", "value": "WF"}
+- [Territory of the Wallis and Futuna Islands]{"entity": "country_code", "value": "WF"}
+- [latvia]{"entity": "country_code", "value": "LV"}
+- [Latvia]{"entity": "country_code", "value": "LV"}
+- [Latvija]{"entity": "country_code", "value": "LV"}
+- [kenya]{"entity": "country_code", "value": "KE"}
+- [Kenya]{"entity": "country_code", "value": "KE"}
+- [Republic of Kenya]{"entity": "country_code", "value": "KE"}
+- [saint lucia]{"entity": "country_code", "value": "LC"}
+- [Saint Lucia]{"entity": "country_code", "value": "LC"}
+- [Sainte-Lucie]{"entity": "country_code", "value": "LC"}
+- [el salvador]{"entity": "country_code", "value": "SV"}
+- [El Salvador]{"entity": "country_code", "value": "SV"}
+- [Republic of El Salvador]{"entity": "country_code", "value": "SV"}
+- [taiwan]{"entity": "country_code", "value": "TW"}
+- [Taiwan]{"entity": "country_code", "value": "TW"}
+- [Taiwan, Province of China]{"entity": "country_code", "value": "TW"}
+- [ecuador]{"entity": "country_code", "value": "EC"}
+- [Ecuador]{"entity": "country_code", "value": "EC"}
+- [Ikwayur]{"entity": "country_code", "value": "EC"}
+- [angola]{"entity": "country_code", "value": "AO"}
+- [Angola]{"entity": "country_code", "value": "AO"}
+- [Republic of Angola]{"entity": "country_code", "value": "AO"}
+- [belize]{"entity": "country_code", "value": "BZ"}
+- [Belize]{"entity": "country_code", "value": "BZ"}
+- [syria]{"entity": "country_code", "value": "SY"}
+- [Syria]{"entity": "country_code", "value": "SY"}
+- [Syrian Arab Republic]{"entity": "country_code", "value": "SY"}
+- [jordan]{"entity": "country_code", "value": "JO"}
+- [Jordan]{"entity": "country_code", "value": "JO"}
+- [Hashemite Kingdom of Jordan]{"entity": "country_code", "value": "JO"}
+- [haiti]{"entity": "country_code", "value": "HT"}
+- [Haiti]{"entity": "country_code", "value": "HT"}
+- [Haïti]{"entity": "country_code", "value": "HT"}
+- [chad]{"entity": "country_code", "value": "TD"}
+- [Chad]{"entity": "country_code", "value": "TD"}
+- [Tshād]{"entity": "country_code", "value": "TD"}
+- [jersey]{"entity": "country_code", "value": "JE"}
+- [Jersey]{"entity": "country_code", "value": "JE"}
+- [Bailiwick of Jersey]{"entity": "country_code", "value": "JE"}
+- [vanuatu]{"entity": "country_code", "value": "VU"}
+- [Vanuatu]{"entity": "country_code", "value": "VU"}
+- [Republic of Vanuatu]{"entity": "country_code", "value": "VU"}
+- [central african republic]{"entity": "country_code", "value": "CF"}
+- [Central African Republic]{"entity": "country_code", "value": "CF"}
+- [République centrafricaine]{"entity": "country_code", "value": "CF"}
+- [faroe islands]{"entity": "country_code", "value": "FO"}
+- [Faroe Islands]{"entity": "country_code", "value": "FO"}
+- [Føroyar]{"entity": "country_code", "value": "FO"}
+- [egypt]{"entity": "country_code", "value": "EG"}
+- [Egypt]{"entity": "country_code", "value": "EG"}
+- [Arab Republic of Egypt]{"entity": "country_code", "value": "EG"}
+- [martinique]{"entity": "country_code", "value": "MQ"}
+- [Martinique]{"entity": "country_code", "value": "MQ"}
+- [Matnik]{"entity": "country_code", "value": "MQ"}
+- [czech republic]{"entity": "country_code", "value": "CZ"}
+- [Czech Republic]{"entity": "country_code", "value": "CZ"}
+- [Česká republika]{"entity": "country_code", "value": "CZ"}
+- [rwanda]{"entity": "country_code", "value": "RW"}
+- [Rwanda]{"entity": "country_code", "value": "RW"}
+- [Republic of Rwanda]{"entity": "country_code", "value": "RW"}
+- [armenia]{"entity": "country_code", "value": "AM"}
+- [Armenia]{"entity": "country_code", "value": "AM"}
+- [Republic of Armenia]{"entity": "country_code", "value": "AM"}
+- [rd congo]{"entity": "country_code", "value": "CD"}
+- [RD Congo]{"entity": "country_code", "value": "CD"}
+- [Democratic Republic of the Congo]{"entity": "country_code", "value": "CD"}
+- [christmas island]{"entity": "country_code", "value": "CX"}
+- [Christmas Island]{"entity": "country_code", "value": "CX"}
+- [Territory of Christmas Island]{"entity": "country_code", "value": "CX"}
+- [namibia]{"entity": "country_code", "value": "NA"}
+- [Namibia]{"entity": "country_code", "value": "NA"}
+- [Republic of Namibia]{"entity": "country_code", "value": "NA"}
+- [turkmenistan]{"entity": "country_code", "value": "TM"}
+- [Turkmenistan]{"entity": "country_code", "value": "TM"}
+- [Türkmenistan]{"entity": "country_code", "value": "TM"}
+- [saint barthélemy]{"entity": "country_code", "value": "BL"}
+- [Saint Barthélemy]{"entity": "country_code", "value": "BL"}
+- [Saint-Barthélemy]{"entity": "country_code", "value": "BL"}
+- [guinea-bissau]{"entity": "country_code", "value": "GW"}
+- [Guinea-Bissau]{"entity": "country_code", "value": "GW"}
+- [Guiné-Bissau]{"entity": "country_code", "value": "GW"}
+- [niue]{"entity": "country_code", "value": "NU"}
+- [Niue]{"entity": "country_code", "value": "NU"}
+- [Niuē]{"entity": "country_code", "value": "NU"}
+- [hong kong]{"entity": "country_code", "value": "HK"}
+- [Hong Kong]{"entity": "country_code", "value": "HK"}
+- [Hong Kong Special Administrative Region]{"entity": "country_code", "value": "HK"}
+- [algeria]{"entity": "country_code", "value": "DZ"}
+- [Algeria]{"entity": "country_code", "value": "DZ"}
+- [Democratic Republic of Algeria]{"entity": "country_code", "value": "DZ"}
+- [slovenia]{"entity": "country_code", "value": "SI"}
+- [Slovenia]{"entity": "country_code", "value": "SI"}
+- [Slovenija]{"entity": "country_code", "value": "SI"}
+- [new zealand]{"entity": "country_code", "value": "NZ"}
+- [New Zealand]{"entity": "country_code", "value": "NZ"}
+- [Aotearoa]{"entity": "country_code", "value": "NZ"}
+- [maldives]{"entity": "country_code", "value": "MV"}
+- [Maldives]{"entity": "country_code", "value": "MV"}
+- [Republic of Maldives]{"entity": "country_code", "value": "MV"}
+- [hagere ertra]{"entity": "country_code", "value": "ER"}
+- [Hagere Ertra]{"entity": "country_code", "value": "ER"}
+- [Dawlat Iritriyá]{"entity": "country_code", "value": "ER"}
+- [finland]{"entity": "country_code", "value": "FI"}
+- [Finland]{"entity": "country_code", "value": "FI"}
+- [Suomi]{"entity": "country_code", "value": "FI"}
+- [ireland]{"entity": "country_code", "value": "IE"}
+- [Ireland]{"entity": "country_code", "value": "IE"}
+- [Éire]{"entity": "country_code", "value": "IE"}
+- [sint maarten dutch part]{"entity": "country_code", "value": "SX"}
+- [Sint Maarten Dutch part]{"entity": "country_code", "value": "SX"}
+- [São Martinho paises baixos]{"entity": "country_code", "value": "SX"}
+- [south georgia and the south sandwich islands]{"entity": "country_code", "value": "GS"}
+- [South Georgia and the South Sandwich Islands]{"entity": "country_code", "value": "GS"}
+- [SGSSI]{"entity": "country_code", "value": "GS"}
+- [aruba]{"entity": "country_code", "value": "AW"}
+- [Aruba]{"entity": "country_code", "value": "AW"}
+- [niger]{"entity": "country_code", "value": "NE"}
+- [Niger]{"entity": "country_code", "value": "NE"}
+- [the Niger]{"entity": "country_code", "value": "NE"}
+- [anguilla]{"entity": "country_code", "value": "AI"}
+- [Anguilla]{"entity": "country_code", "value": "AI"}
+- [Island of Anguilla]{"entity": "country_code", "value": "AI"}
+- [cook islands]{"entity": "country_code", "value": "CK"}
+- [Cook Islands]{"entity": "country_code", "value": "CK"}
+- [Kūki 'Āirani]{"entity": "country_code", "value": "CK"}
+- [south sudan]{"entity": "country_code", "value": "SS"}
+- [South Sudan]{"entity": "country_code", "value": "SS"}
+- [Republic of South Sudan]{"entity": "country_code", "value": "SS"}
+- [vietnam]{"entity": "country_code", "value": "VN"}
+- [Vietnam]{"entity": "country_code", "value": "VN"}
+- [Viet Nam]{"entity": "country_code", "value": "VN"}
+- [moldova]{"entity": "country_code", "value": "MD"}
+- [Moldova]{"entity": "country_code", "value": "MD"}
+- [Republic of Moldova]{"entity": "country_code", "value": "MD"}
+- [lithuania]{"entity": "country_code", "value": "LT"}
+- [Lithuania]{"entity": "country_code", "value": "LT"}
+- [Lietuva]{"entity": "country_code", "value": "LT"}
+- [tokelau]{"entity": "country_code", "value": "TK"}
+- [Tokelau]{"entity": "country_code", "value": "TK"}
+- [Union Islands]{"entity": "country_code", "value": "TK"}
+- [british indian ocean territory]{"entity": "country_code", "value": "IO"}
+- [British Indian Ocean Territory]{"entity": "country_code", "value": "IO"}
+- [BIOT]{"entity": "country_code", "value": "IO"}
+- [bulgaria]{"entity": "country_code", "value": "BG"}
+- [Bulgaria]{"entity": "country_code", "value": "BG"}
+- [Balgariya]{"entity": "country_code", "value": "BG"}
+- [nigeria]{"entity": "country_code", "value": "NG"}
+- [Nigeria]{"entity": "country_code", "value": "NG"}
+- [Federal Republic of Nigeria]{"entity": "country_code", "value": "NG"}
+- [honduras]{"entity": "country_code", "value": "HN"}
+- [Honduras]{"entity": "country_code", "value": "HN"}
+- [Republic of Honduras]{"entity": "country_code", "value": "HN"}
+- [andorra]{"entity": "country_code", "value": "AD"}
+- [Andorra]{"entity": "country_code", "value": "AD"}
+- [Principality of Andorra]{"entity": "country_code", "value": "AD"}
+- [greece]{"entity": "country_code", "value": "GR"}
+- [Greece]{"entity": "country_code", "value": "GR"}
+- [Hellenic Republic]{"entity": "country_code", "value": "GR"}
+- [belarus]{"entity": "country_code", "value": "BY"}
+- [Belarus]{"entity": "country_code", "value": "BY"}
+- [Republic of Belarus]{"entity": "country_code", "value": "BY"}
+- [saint vincent]{"entity": "country_code", "value": "VC"}
+- [Saint Vincent]{"entity": "country_code", "value": "VC"}
+- [Saint Vincent and the Grenadines]{"entity": "country_code", "value": "VC"}
+- [sweden]{"entity": "country_code", "value": "SE"}
+- [Sweden]{"entity": "country_code", "value": "SE"}
+- [Sverige]{"entity": "country_code", "value": "SE"}
+- [guatemala]{"entity": "country_code", "value": "GT"}
+- [Guatemala]{"entity": "country_code", "value": "GT"}
+- [Republic of Guatemala]{"entity": "country_code", "value": "GT"}
+- [san marino]{"entity": "country_code", "value": "SM"}
+- [San Marino]{"entity": "country_code", "value": "SM"}
+- [Republic of San Marino]{"entity": "country_code", "value": "SM"}
+- [macao]{"entity": "country_code", "value": "MO"}
+- [Macao]{"entity": "country_code", "value": "MO"}
+- [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
+- [mozambique]{"entity": "country_code", "value": "MZ"}
+- [Mozambique]{"entity": "country_code", "value": "MZ"}
+- [Republic of Mozambique]{"entity": "country_code", "value": "MZ"}
+- [lebanon]{"entity": "country_code", "value": "LB"}
+- [Lebanon]{"entity": "country_code", "value": "LB"}
+- [Lubnān]{"entity": "country_code", "value": "LB"}
+- [bahamas]{"entity": "country_code", "value": "BS"}
+- [Bahamas]{"entity": "country_code", "value": "BS"}
+- [Commonwealth of The Bahamas]{"entity": "country_code", "value": "BS"}
+- [saudi arabia]{"entity": "country_code", "value": "SA"}
+- [Saudi Arabia]{"entity": "country_code", "value": "SA"}
+- [Kingdom of Saudi Arabia]{"entity": "country_code", "value": "SA"}
+- [barbados]{"entity": "country_code", "value": "BB"}
+- [Barbados]{"entity": "country_code", "value": "BB"}
+- [macedonia]{"entity": "country_code", "value": "MK"}
+- [Macedonia]{"entity": "country_code", "value": "MK"}
+- [North Macedonia]{"entity": "country_code", "value": "MK"}
+- [samoa]{"entity": "country_code", "value": "WS"}
+- [Samoa]{"entity": "country_code", "value": "WS"}
+- [Independent State of Samoa]{"entity": "country_code", "value": "WS"}
+- [chile]{"entity": "country_code", "value": "CL"}
+- [Chile]{"entity": "country_code", "value": "CL"}
+- [Republic of Chile]{"entity": "country_code", "value": "CL"}
+- [iceland]{"entity": "country_code", "value": "IS"}
+- [Iceland]{"entity": "country_code", "value": "IS"}
+- [Ísland]{"entity": "country_code", "value": "IS"}
+- [gambia]{"entity": "country_code", "value": "GM"}
+- [Gambia]{"entity": "country_code", "value": "GM"}
+- [Kambiya]{"entity": "country_code", "value": "GM"}
+- [liechtenstein]{"entity": "country_code", "value": "LI"}
+- [Liechtenstein]{"entity": "country_code", "value": "LI"}
+- [Principality of Liechtenstein]{"entity": "country_code", "value": "LI"}
+- [south africa]{"entity": "country_code", "value": "ZA"}
+- [South Africa]{"entity": "country_code", "value": "ZA"}
+- [Republic of South Africa]{"entity": "country_code", "value": "ZA"}
+- [saint martin french part]{"entity": "country_code", "value": "MF"}
+- [Saint Martin French part]{"entity": "country_code", "value": "MF"}
+- [Saint-Martin]{"entity": "country_code", "value": "MF"}
+- [mayotte]{"entity": "country_code", "value": "YT"}
+- [Mayotte]{"entity": "country_code", "value": "YT"}
+- [Maore]{"entity": "country_code", "value": "YT"}
+- [bonaire, sint eustatius and saba]{"entity": "country_code", "value": "BQ"}
+- [Bonaire, Sint Eustatius and Saba]{"entity": "country_code", "value": "BQ"}
+- [Bonaire]{"entity": "country_code", "value": "BQ"}
+- [isle of man]{"entity": "country_code", "value": "IM"}
+- [Isle of Man]{"entity": "country_code", "value": "IM"}
+- [Mann]{"entity": "country_code", "value": "IM"}
+- [mexico]{"entity": "country_code", "value": "MX"}
+- [Mexico]{"entity": "country_code", "value": "MX"}
+- [México]{"entity": "country_code", "value": "MX"}
+- [plurinational state of bolivia]{"entity": "country_code", "value": "BO"}
+- [Plurinational State of Bolivia]{"entity": "country_code", "value": "BO"}
+- [Bolivia]{"entity": "country_code", "value": "BO"}
+- [australia]{"entity": "country_code", "value": "AU"}
+- [Australia]{"entity": "country_code", "value": "AU"}
+- [Commonwealth of Australia]{"entity": "country_code", "value": "AU"}
+- [nyasaland]{"entity": "country_code", "value": "MW"}
+- [Nyasaland]{"entity": "country_code", "value": "MW"}
+- [Maláui]{"entity": "country_code", "value": "MW"}
+- [côte d'ivoire]{"entity": "country_code", "value": "CI"}
+- [Côte d'Ivoire]{"entity": "country_code", "value": "CI"}
+- [Ivory Coast]{"entity": "country_code", "value": "CI"}
+- [western sahara]{"entity": "country_code", "value": "EH"}
+- [Western Sahara]{"entity": "country_code", "value": "EH"}
+- [Taneẓroft Tutrimt]{"entity": "country_code", "value": "EH"}
+- [norfolk island]{"entity": "country_code", "value": "NF"}
+- [Norfolk Island]{"entity": "country_code", "value": "NF"}
+- [Norf'k Ailen]{"entity": "country_code", "value": "NF"}
+- [switzerland]{"entity": "country_code", "value": "CH"}
+- [Switzerland]{"entity": "country_code", "value": "CH"}
+- [Swiss Confederation]{"entity": "country_code", "value": "CH"}
+- [bouvet]{"entity": "country_code", "value": "BV"}
+- [Bouvet]{"entity": "country_code", "value": "BV"}
+- [Bouvet Island]{"entity": "country_code", "value": "BV"}
+- [canada]{"entity": "country_code", "value": "CA"}
+- [Canada]{"entity": "country_code", "value": "CA"}
+- [Canadá]{"entity": "country_code", "value": "CA"}
+- [papua new guinea]{"entity": "country_code", "value": "PG"}
+- [Papua New Guinea]{"entity": "country_code", "value": "PG"}
+- [PNG]{"entity": "country_code", "value": "PG"}
+- [venezuela]{"entity": "country_code", "value": "VE"}
+- [Venezuela]{"entity": "country_code", "value": "VE"}
+- [Bolivarian Republic of Venezuela]{"entity": "country_code", "value": "VE"}
+- [ghana]{"entity": "country_code", "value": "GH"}
+- [Ghana]{"entity": "country_code", "value": "GH"}
+- [Republic of Ghana]{"entity": "country_code", "value": "GH"}
+- [panama]{"entity": "country_code", "value": "PA"}
+- [Panama]{"entity": "country_code", "value": "PA"}
+- [Panamá]{"entity": "country_code", "value": "PA"}
+- [territoire d'outre-mer]{"entity": "country_code", "value": "TF"}
+- [Territoire d'outre-mer]{"entity": "country_code", "value": "TF"}
+- [TOM]{"entity": "country_code", "value": "TF"}
+- [mongolia]{"entity": "country_code", "value": "MN"}
+- [Mongolia]{"entity": "country_code", "value": "MN"}
+- [nação mongol]{"entity": "country_code", "value": "MN"}
+- [democratic people's republic of korea]{"entity": "country_code", "value": "KP"}
+- [Democratic People's Republic of Korea]{"entity": "country_code", "value": "KP"}
+- [North Korea]{"entity": "country_code", "value": "KP"}
+- [hungary]{"entity": "country_code", "value": "HU"}
+- [Hungary]{"entity": "country_code", "value": "HU"}
+- [Magyarország]{"entity": "country_code", "value": "HU"}
+- [denmark]{"entity": "country_code", "value": "DK"}
+- [Denmark]{"entity": "country_code", "value": "DK"}
+- [Danmark]{"entity": "country_code", "value": "DK"}
+- [bahrain]{"entity": "country_code", "value": "BH"}
+- [Bahrain]{"entity": "country_code", "value": "BH"}
+- [Al-Baḥrayn]{"entity": "country_code", "value": "BH"}
+- [gibraltar]{"entity": "country_code", "value": "GI"}
+- [Gibraltar]{"entity": "country_code", "value": "GI"}
+- [germany]{"entity": "country_code", "value": "DE"}
+- [Germany]{"entity": "country_code", "value": "DE"}
+- [Deutschland]{"entity": "country_code", "value": "DE"}
+- [bosnia and herzegovina]{"entity": "country_code", "value": "BA"}
+- [Bosnia and Herzegovina]{"entity": "country_code", "value": "BA"}
+- [BiH]{"entity": "country_code", "value": "BA"}
+- [libya]{"entity": "country_code", "value": "LY"}
+- [Libya]{"entity": "country_code", "value": "LY"}
+- [Lībiyā]{"entity": "country_code", "value": "LY"}
+- [malaysia]{"entity": "country_code", "value": "MY"}
+- [Malaysia]{"entity": "country_code", "value": "MY"}
+- [Malásia]{"entity": "country_code", "value": "MY"}
+- [monaco]{"entity": "country_code", "value": "MC"}
+- [Monaco]{"entity": "country_code", "value": "MC"}
+- [Principality of Monaco]{"entity": "country_code", "value": "MC"}
+- [new caledonia]{"entity": "country_code", "value": "NC"}
+- [New Caledonia]{"entity": "country_code", "value": "NC"}
+- [Nouvelle-Calédonie]{"entity": "country_code", "value": "NC"}
+- [cape verde]{"entity": "country_code", "value": "CV"}
+- [Cape Verde]{"entity": "country_code", "value": "CV"}
+- [Cabo Verde]{"entity": "country_code", "value": "CV"}
+- [tonga]{"entity": "country_code", "value": "TO"}
+- [Tonga]{"entity": "country_code", "value": "TO"}
+- [Kingdom of Tonga]{"entity": "country_code", "value": "TO"}
+- [vatican city]{"entity": "country_code", "value": "VA"}
+- [Holy See]{"entity": "country_code", "value": "VA"}
+- [Vatican City State]{"entity": "country_code", "value": "VA"}
+- [Sancta Sedes]{"entity": "country_code", "value": "VA"}
+- [nicaragua]{"entity": "country_code", "value": "NI"}
+- [Nicaragua]{"entity": "country_code", "value": "NI"}
+- [Republic of Nicaragua]{"entity": "country_code", "value": "NI"}
+- [djibouti]{"entity": "country_code", "value": "DJ"}
+- [Djibouti]{"entity": "country_code", "value": "DJ"}
+- [Yibuuti]{"entity": "country_code", "value": "DJ"}
+- [peru]{"entity": "country_code", "value": "PE"}
+- [Peru]{"entity": "country_code", "value": "PE"}
+- [Perú]{"entity": "country_code", "value": "PE"}
+- [northern mariana islands]{"entity": "country_code", "value": "MP"}
+- [Northern Mariana Islands]{"entity": "country_code", "value": "MP"}
+- [Commonwealth of the Northern Mariana Islands]{"entity": "country_code", "value": "MP"}
+- [burundi]{"entity": "country_code", "value": "BI"}
+- [Burundi]{"entity": "country_code", "value": "BI"}
+- [Republic of Burundi]{"entity": "country_code", "value": "BI"}
+- [European continet]{"entity": "world_region", "value": "Europe"}
+- [Europe]{"entity": "world_region", "value": "Europe"}
+- [Asia]{"entity": "world_region", "value": "Asia"}
+- [Africa]{"entity": "world_region", "value": "Africa"}
+- [America]{"entity": "world_region", "value": "America"}
+- [Oceania]{"entity": "world_region", "value": "Oceania"}
+- [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
 
 ## synonym:EG
 - República Árabe do Egipto
@@ -9077,6 +9837,8 @@ Eu não estou sentindo nada"
 - Federative Republic of Brazil
 - Brasil
 - Brazil
+- brasil
+- brazil
 
 ## synonym:BS
 - Comunidade das Bahamas
@@ -10181,7 +10943,6 @@ Eu não estou sentindo nada"
 - Witten
 - Düsseldorf
 - Dusseldorf
-- Bahamas
 - Wissen
 - Frankfurt
 - Munich
