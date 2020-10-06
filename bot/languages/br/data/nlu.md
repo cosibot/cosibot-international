@@ -1,4 +1,4 @@
-﻿## intent:start
+## intent:start
 - /start
 - /start
 - /start_conversation
@@ -2009,6 +2009,12 @@
 - Tu não tem resposta pra merda nem uma
 - Respondendo minha pergunta, mas tu não sabes a resposta.
 - Tu nem sabes qual é o vírus, e se achas entendida.
+- me da a buceta
+- aprende chupando um pau bem grande sua vadia
+- caralho se fuder, responde se confia ou não no bill gates
+- me responde sobre o bill gates sua vagabunda
+- chupa um pau
+- kill gates
 
 ## intent:comment_offense
 - Idiota!
@@ -2435,6 +2441,7 @@
 - Onde a doença começou?
 - A minha dúvida e quanto tempo os sintomas ficam
 - A minha dúvida é quanto tempo os sintomas ficam
+- Por quanto tempo, sinto os sintomas?
 
 ## intent:covid_food
 - Posso me infectar com o novo vírus corona a partir de alimentos ou da água?
@@ -2442,6 +2449,10 @@
 - Contaminação dos alimentos.
 - A contaminação se espalha através dos alimentos.
 - Os alimentos podem estar contaminados?
+- Alimento
+- Posso ser infectado por comida?
+- Comida
+- Alimentação
 
 ## intent:covid_immunity
 - ganho imunidade se pegar o vírus outra vez?
@@ -2574,6 +2585,14 @@ Fica curada?"
 - Quantos dias ela aparece?
 - Com quantos dias o vírus aparece?
 - Se uma pessoa  ter contato com  outra q testou positivo  pro covid pode pegar a doença  com quantos dias  o virus  se manifesta
+- Estou com 14 dias do primeiro dia dos sintomas ainda posso transmitir o virus?
+- Uma pessoa que esta contaminada com covid 19 pode transmitir até quantos dias
+- corona viros aparece com quantos dias  que passou   pegou
+- Qunto depois do contato a pessoa apresenta sintoma do covid
+- Qunto uma pessoa pode aparecer o sintomas do covid
+- Quanto tempo para aparecer sintomas?
+- Quanto tempo até sentir os primeiros sintomas?
+- Quando sentirei os primeiros sintomas?
 - Estou com 14 dias do primeiro dia dos sintomas ainda posso transmitir o virus?
 
 ## intent:covid_info
@@ -2783,6 +2802,10 @@ Fica curada?"
 - Se eu tenho rinite vou pegar COVID?
 - Se eu tenho sinusite posso pegar covid?
 - Quem tem problemas respiratorios e mais facil de pegar a doença
+- Sinusite tose
+- Se eu tenho rinite vou pegar COVID?
+- Se eu tenho sinusite posso pegar covid?
+- Quem tem problemas respiratorios e mais facil de pegar a doença
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -2971,6 +2994,7 @@ Fica curada?"
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Qual é a espécie do vírus?
 
 ## intent:covid_schools
 - Sobre a escola
@@ -3023,6 +3047,8 @@ Fica curada?"
 - Como ajudar pessoas com ansidade durante a pandemia?
 - Problemas mentais
 - Problemas psicológicos 
+- ansiedade
+- esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
 
 ## intent:quarantine_exercises
 - Exercícios 
@@ -3041,6 +3067,7 @@ Fica curada?"
 - Quais as recomendações para participar do ENEM?
 - ENEM
 - Prova do enem
+- quais as recomendações para participar do ENEM?
 
 ## intent:covid_eleicao
 - Como serão as eleições esse ano?
@@ -3222,6 +3249,11 @@ Fica curada?"
 - Helena  e verdade  este número  de mortes  por covid 19
 - Quantos mortos hoje
 - Quanto óbito no Brasil hoje
+- Qual a taxa de mortalidade?
+- Mortalidade
+- Qual a mortalidade
+- Qual a letalidade do vírus?
+- Quão letal é o vírus?
 
 ## intent:covid_situation_infected
 - Qual é o número de infectados?
@@ -3257,6 +3289,10 @@ Fica curada?"
 - Sobre a pandemia
 - Os casos de David está diminuindo
 - Os casos de Covid estão diminuindo?
+- Há quantos infectados atualmente?
+- Quantos infetados há?
+- No rio de janeiro está mais branda a doença
+- Quantos milhões de brasileiros já foi infectado  pelo covid19
 
 ## intent:covid_situation_infected_critical
 - Casos críticos na [Europa]{"entity": "world_region", "value": "Europe"}
@@ -3472,6 +3508,7 @@ Fica curada?"
 - por quanto tempo o vírus pode resistir em uma superficie de madeira?
 - por quantas horas o vírus sobrevive em superfícies?
 - quanto tempo vive nas superficies?
+- se eu tiver gripe posso pegar COVID?
 
 ## intent:covid_symptoms
 - Sobre os sintomas.
@@ -3702,6 +3739,14 @@ Meu esposo está com covid"
  - Quais são os sintomas?
  - Qual verdadeiro sintoma do novo covid
  - Ola quais sao os sintomas da covid19
+ - Ardencia nariz é  covid
+ - Dor nas amígdalas é  covid
+ - Eu tive contato com uma pessoa q testou positivo,posso tá contaminada?
+ - Estav com enjoos ontem... Meio ruim do estomago
+ - Qual é os sintomas
+ - Covid sempre da febre
+ - Diarréia é sintoma de covid?
+ - 37.5 grau é febre?
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -3717,6 +3762,7 @@ Meu esposo está com covid"
 - A maioria das pessoas cura sem internacao?
 - Como ocorre o tratamento?
 - Quanto tempo o paciente fica internado
+- Bom dia   A pessoa que só tem dor nas costas pode ser covid?
 
 ## intent:covid_worry
 - E se eu pegar o vírus?
@@ -3793,6 +3839,7 @@ Meu esposo está com covid"
 - Estou com pânico do medo
 - Tenho medo dessa doença
 - Deus deus vamos morer com este virus entao misericordia
+- Não aguento mais essa história de covid 19
 
 ## intent:ebola
 - Ebola
@@ -4166,6 +4213,9 @@ Meu esposo está com covid"
 - quando usar máscaras?
 - onde posso obter material para me proteger?
 - Máscaras Médicas
+- devemos utilizar uma mascara
+- mascara ou não mascara
+- mascaras são inuteis
 
 ## intent:mask_use_after
 - Depois de usar uma máscara descartável.
@@ -4265,6 +4315,7 @@ Meu esposo está com covid"
 - Como colocar uma Más...
 - como utilizar máscaras?
 - Como usar a máscara?
+- Como colocar uma Más...
 
 ## intent:myth_alcohol
 - Álcool em todo o corpo.
@@ -4603,6 +4654,9 @@ Meu esposo está com covid"
 - Distância segura.
 - distância entre pessoas
 - dúvidas sobre distanciamento seguro
+- Um De Máscara E O Outro Sem, Tem Risco De Alguém Infequita Alguem Caso Algum Dos Dois Esteja?
+- Um de máscara e outro sem. Tem risco de infectar se algum dos dois estiver com COVID?
+- Me Tire Uma Dúvida! Quando Duas Pessoas Sem Máscara Conversando A O Ar Livre  E Um Pouco Destante, Caso Uma Delas Tive O Vírus E Capaz De Infecta A Outra Pessoa?
 
 ## intent:prevention_general
 - Muito bem. Quais são as medidas de prevenção?
@@ -4752,6 +4806,7 @@ Meu esposo está com covid"
 - Hidroxicloroquina serve para tratar covid?
 - Posso usar Cloroquina no tratamento de covid?
 - Posso usar Hidroxicloroquina no tratamento de covid?
+- Hidroxicloroquina tem eficácia?
 
 ## intent:prevention_ivermectina
 - ivermectina
@@ -4941,6 +4996,7 @@ Meu esposo está com covid"
 - Aque hospital puedo ir si me siento muy al
 - Hello could you please tell me COVID-19 hospital?
 - Qnd devo procurar o médico..  se for positivo
+- Quando devo ir ao medico
 
 ## intent:prevention_medicine
 - Fui no posto eles só me dão medicamento de dor
@@ -5025,6 +5081,8 @@ Meu esposo está com covid"
 - O ibuprofeno prejudica os pacientes
 - Sera que iremos ter a tao sonhada varcina este ano ainda
 - Será que a vacina sai esse ano?
+- Qual remédio devemos tomar em caso de suspeita r tratamento em casa
+- Cura
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -5230,6 +5288,10 @@ Meu esposo está com covid"
 - Vacina p quando?
 - Vacina para quando?
 - Quando vamos ter a vacina
+- Já Tem Uma Vacina Segura?
+- Já fizeram alguma vacina pro covid ?
+- Sera que iremos ter a tao sonhada varcina este ano ainda
+- Vc acha que teremos uma varcina este ano ainda
 
 ## intent:quarantine_control
 - Como se controla a quarentena?
@@ -5403,6 +5465,9 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Então o vírus é de origem animal?
 - animais
 - o vírus se transmite dos animais para as pessoas?
+- Posso pegar COVID dos meus animais de estimação ?
+- Posso pegar COVID dos meus cachorros?
+- posso pegar o vídeo dos meus animais
 
 ## intent:spread_feces
 - Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de uma pessoa infectada?
@@ -5578,6 +5643,11 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Trasmisao
 - O vírus se espalha
 - Como ele se espalha
+- A Maneira Mas Fácil De Contrair?
+- Como Contrai ?
+- Como contraímos a doença?
+- A covid 19 é transmitida através   de que
+- Quais os sintomas do corona vírus? pois diz que tem vários agora!
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -5927,6 +5997,12 @@ Eu não estou sentindo nada"
 - Fiz o teste
 - Gostaria de saber se tive contato com alguém com covid, qtos dias posso fazer o teste
 - Se eu preciso repetir o exame novamente depois dos 14 dias
+- Mas em três dias de contato com o infectado já consta em meu exame se peguei ou não ?ou devo esperar mais um pouco pra fazer
+- Tive contato com uma pessoa que está com covid19 ,se eu fizer o exame já consta se peguei mesmo fazendo apenas três dias do contato
+- Minha irmã teve contato com uma pessoa positiva de coronavirus, ele deve fazer o teste
+- Tenho uma duvida o teste rapido e confiavel, aquela que fura o dedo
+- Fiz o exame sorológico e deu Igm reagente ainda
+- Se eu preciso repetir o exame novamente depois dos 14 dias
 
 ## intent:test_who
 - Posso fazer o teste?
@@ -6016,6 +6092,7 @@ Eu não estou sentindo nada"
 - se precaver antes de viajar?
 - se precaver antes da viagem?
 - antes de fazer uma viagem
+- Gostaria de saber se já é possivel viajar a Europa apresentando um teste PCR
 
 ## intent:travel_while
 - Durante a viagem.
@@ -6598,6 +6675,7 @@ Eu não estou sentindo nada"
 - De novo isso
 - eu pergunto uma coisa vc me dar tchau eu não entendi nada tchau
 - Ainda mais ? Tu nem ajudou
+- Me tirem a duvida
 
 ## intent:vocative_no
 - Logico que não.
@@ -6848,6 +6926,9 @@ Eu não estou sentindo nada"
 - estou de acordo.
 - to de acordo.
 - s.
+- Eu Tbem
+- Tb Acho
+- Também acho
 
 ## intent:vocative_you_welcome
 - A qualquer momento.
