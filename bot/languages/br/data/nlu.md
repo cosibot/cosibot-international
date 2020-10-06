@@ -1,4 +1,4 @@
-## intent:start
+﻿## intent:start
 - /start
 - /start
 - /start_conversation
@@ -2575,13 +2575,11 @@
 - Ainda trasmito?
 - Meu filho teve covid ta isolado ha 15 dias ele ainda trasmite ou tem que fazer teste para ter certeza e qual?
 - quanto tempo o vírus fica ativo
-- "Boa noite,td bem?
-Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
+- Boa noite,td bem? Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus
 - Quantos dias após contaminada eu posso transmitir o vírus para outras pessoas?
 - Quem já teve covid pode transmitir o vírus depois do período de 15 dias?
 - Então eu testei positivo . Hoje já faz 11dias mas tô super bem não tive quase nada ... Com quantos dias eu paro de passar o vírus
-- "Quando a pessoa que foi contaminada.
-Fica curada?"
+- Quando a pessoa que foi contaminada. Fica curada?
 - Quantos dias ela aparece?
 - Com quantos dias o vírus aparece?
 - Se uma pessoa  ter contato com  outra q testou positivo  pro covid pode pegar a doença  com quantos dias  o virus  se manifesta
@@ -2993,8 +2991,8 @@ Fica curada?"
 - [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
-- [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
 - Qual é a espécie do vírus?
+- [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
 
 ## intent:covid_schools
 - Sobre a escola
@@ -3046,7 +3044,7 @@ Fica curada?"
 - Como lidar com a pressão da doença
 - Como ajudar pessoas com ansidade durante a pandemia?
 - Problemas mentais
-- Problemas psicológicos 
+- Problemas psicológicos
 - ansiedade
 - esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
 
@@ -3066,8 +3064,8 @@ Fica curada?"
 - Vai ter Enem mesmo com covid?
 - Quais as recomendações para participar do ENEM?
 - ENEM
-- Prova do enem
 - quais as recomendações para participar do ENEM?
+- Prova do enem
 
 ## intent:covid_eleicao
 - Como serão as eleições esse ano?
@@ -5638,16 +5636,16 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Igrejas tem maior risco de contaminação?
 - Qual a maior forma de contaminacao do COVID
 - Como ele se espalha
-- Como se pega
-- E não transmite o vírus
-- Trasmisao
-- O vírus se espalha
-- Como ele se espalha
 - A Maneira Mas Fácil De Contrair?
 - Como Contrai ?
 - Como contraímos a doença?
 - A covid 19 é transmitida através   de que
 - Quais os sintomas do corona vírus? pois diz que tem vários agora!
+- Como se pega
+- E não transmite o vírus
+- Trasmisao
+- O vírus se espalha
+- Como ele se espalha
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -6092,7 +6090,7 @@ Eu não estou sentindo nada"
 - se precaver antes de viajar?
 - se precaver antes da viagem?
 - antes de fazer uma viagem
-- Gostaria de saber se já é possivel viajar a Europa apresentando um teste PCR
+- Gostaria de saber se já é possivel viajar a Europa apresentando um teste PC
 
 ## intent:travel_while
 - Durante a viagem.
