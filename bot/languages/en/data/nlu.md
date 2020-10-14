@@ -33,6 +33,7 @@
 - Describe how you look like.
 - Describe your appearance
 - Describe your outfit.
+- Helen, send a pic of you 😘
 - How about a photo of you?
 - How about a picture of you?
 - How are you looking?
@@ -47,6 +48,8 @@
 - Picture
 - Picture of you.
 - Please let me have a picture of you.
+- Send a pic of you
+- Send ur pic
 - Show me a photo of you.
 - Show me a picture of you!
 - Show you!
@@ -65,9 +68,6 @@
 - You pretty?
 - Your look.
 - Your physical appearance.
-- Helen, send a pic of you 😘
-- Send a pic of you
-- Send ur pic
 
 ## intent:bot_availability
 - Are you always available?
@@ -195,22 +195,24 @@
 - Do you need someone to talk to
 - Do you only educate about covid 19
 - Do you want to help me
+- give me an intro
 - Hello, how can I help you?
 - Hi! What Could You Do
 - How Are You Going To Help Me
-- How Can You Help Me
-- How Ken You Help me
+- how can I use you?
 - How can you assist me
 - How can you help
+- How Can You Help Me
 - How can you support me
 - How does your brain work
+- How Ken You Help me
 - How may I help you?
 - How to use you
-- I Need to know something.
 - I asked you what do you understand
 - I don't know what to ask.
 - I don't know what to say
 - I don't know what to say.
+- I Need to know something.
 - I want to have an introduction
 - I would like to know what you can tell me
 - I'm interested in your products
@@ -221,66 +223,73 @@
 - Name your business
 - Name your business.
 - Okay so what do you know
+- please tell me something about you
 - Reason you are here
 - Reason you are here.
 - Reason youre here
-- Tell Me What Things You Can Do
-- Tell Me What To Do
-- Tell Me What You Can Do
+- tell me about your products
+- tell me about yourself
 - Tell me the reason you are here
 - Tell me the reason you are here.
 - Tell me what do you know
 - Tell me what do you wish to accomplish
+- Tell Me What Things You Can Do
+- Tell Me What To Do
+- Tell Me What You Can Do
 - Tell me what you can do!
 - Tell me what you do!
 - Tell me why you here
 - Tell me why you here.
 - Tell me your purpose!
 - Then why are you here
-- What Are You Capable Of
-- What Are Your Capabilities
-- What Are Your Functions
-- What Are Your benefits
-- What Are Your benefits?
-- What Can I Say
-- What Can you Do
-- What Can you Do For Me
-- What Can you Help Me With
-- What Capabilities You Have
-- What Do You Have
-- What Do You Know
-- What I am doing here?
-- What Kind Of Questions Can I Ask
 - What about your capabilities?
 - What about your functions?
 - What about your purpose?
+- what all things can you assist you with
 - What are you able to do for me?
 - What are you able to do?
+- What Are You Capable Of
 - What are you capable of?
 - What are you doing here?
 - What are you here for?
 - What are you trained on
 - What are you up to
+- What Are Your benefits
+- What Are Your benefits?
+- What Are Your Capabilities
 - What are your capabilities?
+- What Are Your Functions
 - What can I ask you
+- what can I ask?
 - What can i do with you
+- What Can I Say
 - What can you access
 - What can you answer
 - What can you answer?
+- What Can you Do
+- What Can you Do For Me
 - What can you do for me?
+- what can you do?
+- What Can you Help Me With
 - What can you teach me
 - What can you tell me
+- What Capabilities You Have
 - What do I have to know
 - What do u know ?
 - What do you can?
 - What do you do
 - What do you do?
 - What do you ever know
+- What Do You Have
+- What Do You Know
 - What do you know?
 - What do you offer
 - What does the app do
+- What else are you capable of?A1:A1048576
+- What else can u do
 - What else can you do
 - What else do you do
+- What I am doing here?
 - What is your business
 - What is your business?
 - What is your function?
@@ -290,11 +299,16 @@
 - What is your task
 - What is your value add
 - What is your value add?
+- What Kind Of Questions Can I Ask
 - What kind of questions can I ask you
 - What purpose do you have?
+- what should I ask
 - What should I ask?
 - What should I say?
 - What should I type?
+- what type of answer you can give
+- What you can do
+- what's your purpose?
 - Whats your business
 - Which are your capabilities?
 - Which are your functions?
@@ -312,28 +326,15 @@
 - Why do you think I should talk with you?
 - Why shall I talk to you
 - Why shall I talk to you?
+- Why should i chat with you
+- Why should i chat with you?
 - Why should I talk with you?
 - Why should I use you
 - Why should I use you?
-- Why should i chat with you
-- Why should i chat with you?
 - Why were you created
 - Why you here?
 - You know how you can help me instead of asking me
 - Your capabilities.
-- give me an intro
-- how can I use you?
-- please tell me something about you
-- tell me about your products
-- tell me about yourself
-- what all things can you assist you with
-- what can I ask?
-- what can you do?
-- what should I ask
-- what type of answer you can give
-- what's your purpose?
-- What else can u do
-- What you can do
 
 ## intent:bot_fear
 - Are you afraid d of artificial jntelligance?
@@ -387,20 +388,20 @@
 - Do you have a favorite game?
 - Do you have some games?
 - Do you have video games?
-- Do you like Wii games?
-- Do you like XBOX games?
 - Do you like board games?
 - Do you like computer games?
 - Do you like games?
 - Do you like playing Wii games
 - Do you like to play video games?
 - Do you like video games?
-- Do you play P&P?
-- Do you play RPG?
+- Do you like Wii games?
+- Do you like XBOX games?
 - Do you play board games?
 - Do you play computer games?
 - Do you play games?
+- Do you play P&P?
 - Do you play pen and paper?
+- Do you play RPG?
 - Do you play shooters?
 - Do you play video games?
 - Games.
@@ -516,16 +517,17 @@
 - Can you speak other languages?
 - Do you like languages?
 - Do you speak English?
+- Do you speak french?
 - Do you speak German?
 - Do you speak Portuguese?
 - Do you speak Spanish?
-- Do you speak french?
 - For which languages were you programmed?
 - Hello do you have an spanish version?
 - How many language options do you have?
 - How many languages are you able to speak?
 - How many languages can you speak?
 - How many languages do you know?
+- how many languages do you speak?
 - I can question in what language?
 - I can speak with you in what language?
 - In what languages can I make questions?
@@ -533,6 +535,7 @@
 - In which languages are you able to communicate?
 - In which languages are you able to speak?
 - In which languages can I talk to you?
+- languages
 - Parle vous français?
 - What about languages?
 - What are your languages?
@@ -542,12 +545,10 @@
 - Which language do you speak?
 - Which languages are you fluent in?
 - Which languages can you speak?
+- which languages do you know?
 - Which languages do you speak?
 - Which languages have you learned?
 - You no dey understand English
-- how many languages do you speak?
-- languages
-- which languages do you know?
 
 ## intent:bot_movies
 - Do you enjoy any film?
@@ -574,10 +575,10 @@
 - What kind of movies do you like?
 - What movies do you like?
 - What's your favorite movie?
-- Whats your favorite film?
-- Whats your favorite movie?
 - What’s your favorite film?
 - What’s your favorite movie?
+- Whats your favorite film?
+- Whats your favorite movie?
 - Which films do you enjoy watching?
 - Which films do you like watching?
 - Which is your favorite film?
@@ -620,6 +621,7 @@
 - What kind of music do you listen to?
 - What kind ofmusic do you like?
 - What music are you listening right now?
+- what Music arw you listening to?
 - What music do you enjoy listening?
 - What music do you enjoy?
 - What music do you like listening?
@@ -630,9 +632,10 @@
 - What singer do you love?
 - Which music do you like to listen to?
 - Who is your favourite singer?
-- what Music arw you listening to?
 
 ## intent:bot_name
+- do you have a last name?
+- do you have a surname?
 - Do you know your name?
 - How can I call you?
 - How should I call you?
@@ -644,34 +647,32 @@
 - Please what is that your name
 - Tell me who you are.
 - Tell me your name.
-- What I am talking to?
 - What are you called?
 - What can I call you?
+- What I am talking to?
 - What is your first name?
 - What is your name?
 - What is your real name?
 - What is your surname?
 - What should I call you?
+- what your name
+- what your name
 - What's your name
 - Whats your first name?
 - Whats your name?
 - Whats your real name?
 - Whats your surname?
 - Who am I talking to?
+- who are you
 - Who are you?
 - Who is talking?
 - Who is this?
 - Whom am I talking to?
 - With who am I talking with?
+- Wow, so you have a name
 - You did not tell me your name.
 - Your name is Helen
 - Your name.
-- what your name
-- who are you
-- Wow, so you have a name
-- do you have a last name?
-- do you have a surname?
-- what your name
 
 ## intent:bot_origin
 - Can you tell me how are you built?
@@ -702,6 +703,7 @@
 - Where were you born?
 - Where you coming from?
 - Where you from?
+- whish country u from
 - Who are you makers?
 - Who are your creators?
 - Who created you?
@@ -714,7 +716,6 @@
 - Who's your creator
 - You from?
 - Your origin.
-- whish country u from
 
 ## intent:bot_personal_questions
 - 3 things you can not live without.
@@ -730,6 +731,7 @@
 - Can I teach you something new?
 - Can I teach you?
 - Can I train you?
+- Do u have gf
 - Can you develop an app?
 - Can you do coding?
 - Can you learn from me?
@@ -888,6 +890,7 @@
 - Are you a living being?
 - Is person human beings like you
 - Are you a person or a chatbot?
+- Nga you reply quickly are you human or computer
 - Is this a human typing?
 - Are you a person or a robot?
 - Are you a person?
@@ -2092,6 +2095,7 @@
 - Ok ur boring
 - Why are you doing this to me
 - Are you going to answer my question ??
+- I don't want robots they will steal my account
 - U must b mad
 - U r very stupid
 - Bro, what wrong with you nah
@@ -2515,6 +2519,7 @@
 - About coronavirus
 - About coronaviruses
 - Coronavírus
+- What is corona virus?
 - I don’t know what are coronaviruses
 - I don’t know what is a coronavirus
 - I don’t know what is coronavirus
@@ -2756,6 +2761,7 @@
 - After I've been infected, I'm immune to the virus?
 - After recovering, people become immune?
 - Can I person get sick twice?
+- if a person was infected, she can be infected again?
 - Can I reinfected myself?
 - Can a person can be affected twice by corona virus?
 - Can one get Coronavirus again?
@@ -4508,6 +4514,7 @@
 - Good Afternoon.
 - Good Day.
 - Good Evening.
+- Good morning
 - Good Morning.
 - Good morning, Helen!
 - Greetings.
@@ -5388,7 +5395,6 @@
 - I'm feeling sick should I call it
 - I'm infected
 - In which cases should I contact the health care?
-- Is the Vaccine already in existence
 - My breath is kinder difficult right now and I have some fever
 - My full family of 5 got infected with covid we got discharged on 28,29,3 5
 - My temperature is above 38 degrees, should I worry?
@@ -5440,24 +5446,7 @@
 - Who to contact if you have this symptoms
 
 ## intent:prevention_medicine
-- Hey! Is there any hope for the corona vaccine, how far with invasion of the vaccine?
-- Is there any hope for the corona vaccine, how far with invasion of the vaccine?
-- Is there any hope for the corona vaccine?
-- How far with invasion of the vaccine?
-- Why is that the vaccine is not yet discovered yet it's a global pandamic.l mean many scientist are doing what
-- Why is that the vaccine is not yet discovered
-- Yes please, I'm call Brian,,my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
-- my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
-- how far hv researchers towards developing a vaccine of corona virus
-- how far have researchers towards developing a vaccine of corona virus
-- How far have they gone with the Vaccine.
-- How possible is discovering of the covid 19 vaccine this year
-- Like I was just asking that does it has vaccine ?
 - About a drug for COVID-19.
-- Well, is the vaccine out yet?
-- If there is no medicine for corona virus than how people are recovering?
-- Can it be treated
-- How do they treat it
 - About a drug to treat COVID-19.
 - About a drug.
 - About a medicine for COVID-19.
@@ -5489,42 +5478,70 @@
 - Any treatment confirmed
 - Any update about the vaccine?
 - Any vaccines for covid-19
+- are there a vacine?
+- are there medication to prevent the disease?
+- are there vaccines to prevent the disease?
+- aspirin?
+- but there is hope that we will get a cure?
 - But they say that there 446 recoveries Hw do they recover without the medicine
 - Can corna be cured
 - Can covid 19 be cured
+- Can it be treated
 - Can it cure
 - Can this be cured?
+- covid vaccine
+- covid-19 vaccine
 - Cure
-- Cure to Covid 19
 - Cure for covid 19
-- Did coronavirus has a medicine
+- Cure to Covid 19
 - Did america get the correct medicine
+- Did coronavirus has a medicine
+- does a vaccine exist?
 - Does corona virus have a cure
 - Does corona viruses have cure
+- Does hydrpxilechloroqin cure thrthe virus as the USA president trump claims
 - Does ibuprofen harm patients
 - Does it have cure
 - Explain the status of covid 19 vaccine
 - Has a vaccine for corona virus been established?
 - Has any country as an idea about covid 19 cure
 - Has the cure been found
+- HAVEN'T YOU GOT A CURE YET
 - Hello will that be cured without any medicine.
 - Hey ...am called Joseph from Uganda....my questions is...is there any vaccine at hand that their working on to stop the spread of covid-19
+- Hey! Is there any hope for the corona vaccine, how far with invasion of the vaccine?
 - How can Corona virus be treated.
+- how can i get treatment ?
+- How do they treat it
+- how far have researchers towards developing a vaccine of corona virus
+- How far have they gone with the Vaccine.
 - How far hv doctors gone with issue of covid 19 vaccine?
+- how far hv researchers towards developing a vaccine of corona virus
+- How far with invasion of the vaccine?
 - How far with the vaccines
+- how is the treatment
+- how long will it take for a vaccine to come out in the market?
+- How possible is discovering of the covid 19 vaccine this year
+- how to destroy covid
+- Hydroxychloroquine
 - I am asking you Have a any solution of corona virus
 - I said take ibuprofen
 - I taught there is a cur for it
+- I’m asking about medicine
+- ibuprofen
+- ibuprufen?
+- If there is no medicine for corona virus than how people are recovering?
 - Information about the promising vaccine
+- Is covid vaccine out
 - Is it true that the vaccine will be out in September
 - Is medicine available for this
 - Is the cure for COVID19 found
 - Is the cure of Covid 19 there?
 - Is the medicine made?
+- Is the Vaccine already in existence
 - Is the vaccine found
-- Is vaccines out
-- Is covid vaccine out
 - Is there a cure for covid 19
+- Is there a cure for COVID 19
 - Is there a cure found for the Corona Virus
 - Is there a cure?
 - Is there a drug for COVID-19?
@@ -5535,35 +5552,44 @@
 - Is there a medicine?
 - Is there a treatment for COVID-19?
 - Is there a treatment?
+- is there a vaccine
 - Is there a vaccine discovered yet
 - Is there a vaccine for COVID-19?
 - Is there a vaccine to treat COVID-19?
 - Is there a vaccine, drug or treatment for COVID-19?
 - Is there a vaccine, drug or treatment?
 - Is there a vaccine?
-- Is there a cure for COVID 19
 - Is there any drug for COVID-19
 - Is there any drug for dis virus yet
 - Is there any good news about cure for Corona virus
+- Is there any hope for the corona vaccine, how far with invasion of the vaccine?
+- Is there any hope for the corona vaccine?
+- is there any hope in the future about vaccine
 - Is there any kind of treatment as per now
 - Is there any medicine came into existence
-- Is there any treatment yet?
 - Is there any treatment for corona or not
 - Is there any treatment for corona yet?
+- Is there any treatment yet?
+- Is there any treatment yet?
 - Is there any vaccine found for this pandemic
 - Is there any vacine for this virus?
 - Is there any vanicce yet for the virus
 - Is there no vaccine yet
 - Is they cure finally out
 - Is this disease curable
-- I’m asking about medicine
+- Is vaccines out
+- Like I was just asking that does it has vaccine ?
 - May I take aspirin
 - Medicine for covid
 - Medicines
+- my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - No medicine for covid19
 - No vaccine?
 - Ok but there isn't a vaccine or a solution for the problem
 - Ok...can I recover without special treatment
+- pain killers?
+- paracetamol
+- paracetamol?
 - Please there an vaccine to stop it
 - Recovery
 - So any vaccine yet
@@ -5577,11 +5603,19 @@
 - Updates about antidote
 - Vaccine
 - Vaccines
+- Well, is the vaccine out yet?
 - Whare is vaccine? Hare need!
+- what about ibuprofen
+- what about vaccine
+- what are the medicines to treat COVID-19?
 - What are the ways to treat corona
 - What can you tell me about the hypothesis of a vaccine for Coronavirus?
+- what is its treatment...?
 - What is the medicine for this
 - What is the. Solution of corona have any medicine???
+- what medication should I take if I'm infected
+- what medicine works best for this virus
+- what medicines should be taken?
 - When is the vaccine hope to be found
 - When r we expecting a cure
 - When the vaccine will come
@@ -5590,40 +5624,14 @@
 - When will a cure be invented?
 - When will the Corona vaccine come?
 - Where is vaccine of corona virus?
+- Why is that the vaccine is not yet discovered
+- Why is that the vaccine is not yet discovered yet it's a global pandamic.l mean many scientist are doing what
 - Will be vaccine available in the month of july
 - Will their be cure for covid 19
+- yes it did take ibuprofen
+- Yes please, I'm call Brian,,my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - Yes. But is there a vaccine?
 - You see, you say that coronavirus has no cure. Why people are recovering from the pandemic if there was no cure for it?
-- are there a vacine?
-- are there medication to prevent the disease?
-- are there vaccines to prevent the disease?
-- aspirin?
-- but there is hope that we will get a cure?
-- covid vaccine
-- covid-19 vaccine
-- does a vaccine exist?
-- how can i get treatment ?
-- how is the treatment
-- how long will it take for a vaccine to come out in the market?
-- how to destroy covid
-- ibuprofen
-- ibuprufen?
-- is there any hope in the future about vaccine
-- pain killers?
-- paracetamol
-- paracetamol?
-- what about ibuprofen
-- what about vaccine
-- what are the medicines to treat COVID-19?
-- what is its treatment...?
-- what medication should I take if I'm infected
-- what medicine works best for this virus
-- what medicines should be taken?
-- yes it did take ibuprofen
-- HAVEN'T YOU GOT A CURE YET
-- Is there any treatment yet?
-- Does hydrpxilechloroqin cure thrthe virus as the USA president trump claims
-- Hydroxychloroquine
 
 ## intent:prevention_respiratory_hygiene
 - Covering mouth and nose while coughing or sneezing.
@@ -6644,6 +6652,7 @@
 
 ## intent:user_love
 - But I like you
+- I love❤ you
 - Please give ur love you won't regret it
 - Accept my love.
 - Accept my proposal.
@@ -6755,6 +6764,7 @@
 - For now I am satisfied,Thank you
 - Go away
 - I am clarified now, thank you.
+- Get out
 - I am clarified now, thanks.
 - I am clarified now.
 - I am enlighten now, thank you.
