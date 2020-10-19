@@ -123,6 +123,21 @@
 - Seu horário de trabalho.
 - Vc está disponível em Qualquer momento é ?
 
+## intent:covid_vacinas_teste
+- Que vacinas estão sendo testadas?
+
+## intent:covid_covax_vacina
+- O que é a vacina covax?
+
+## intent:covid_oxford_vacina
+- O que é a vacina de Oxford?
+
+## intent:covid_china_vacina
+- Me fale sobre a vacina da China.
+
+## intent:covid_diferenca_testes
+- Diferentes testes.
+
 ## intent:bot_books
 - Gêneros de livros que você gosta.
 - Livros que você gosta.
