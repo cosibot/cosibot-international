@@ -3,42 +3,42 @@ session_config:
   carry_over_slots_to_new_session: true
 slots:
   world_region:
-    type: html
+    type: text
   total_nr_tries:
     type: float
     initial_value: 0.0
   bot_name:
-    type: html
+    type: text
     initial_value: Helena
   bot_location:
-    type: html
+    type: text
     initial_value: br
   bot_introduced:
     type: bool
     initial_value: false
   bot_version:
-    type: html
+    type: text
     initial_value: '0.1.0'
   bot_time_acre:
-    type: html
+    type: text
   bot_time_fnoronha:
-    type: html
+    type: text
   bot_time_brasilia:
-    type: html
+    type: text
   bot_time_amazonas:
-    type: html
+    type: text
   bot_date_acre:
-    type: html
+    type: text
   bot_date_fnoronha:
-    type: html
+    type: text
   bot_date_brasilia:
-    type: html
+    type: text
   bot_date_amazonas:
-    type: html
+    type: text
   bot_time:
-    type: html
+    type: text
   bot_date:
-    type: html
+    type: text
   language_slot:
     type: categorical
     values:
@@ -52,11 +52,11 @@ slots:
     - de
     initial_value: en
   country_code:
-    type: html
+    type: text
   active_cases:
     type: unfeaturized
   country:
-    type: html
+    type: text
   new_cases:
     type: unfeaturized
   new_deaths:
@@ -79,7 +79,7 @@ slots:
     - wrong-country
     - not-ok
   virus:
-    type: html
+    type: text
 
 entities:
 - virus
@@ -693,11 +693,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Para se manter atualizado sobre os números do avanço da doença
-          no mundo, por favor visite o link abaixo:</speak>
+        ssml: "<speak>Para se manter atualizado sobre os números do avanço da doença no mundo, por favor visite o link abaixo:</speak>"
       - type: html
-        text: Para se manter atualizado sobre os números do avanço da doença
-          no mundo, por favor visite o link abaixo:
+        text: "Para se manter atualizado sobre os números do avanço da doença no mundo, por favor visite o link abaixo:"
       - type: links
         links:
         - title: COVID-19 Situação
@@ -1174,13 +1172,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Cosibot é uma iniciativa sem fins lucrativos da Robo AI para
-          fornecer informações confiáveis sobre a Covid 19 de fontes oficiais,
-          como a Organização Mundial da Saúde. Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais.</speak>
+        ssml: <speak>Cosibot é uma iniciativa sem fins lucrativos da Robo AI para fornecer informações confiáveis sobre a Covid 19 de fontes oficiais, como a Organização Mundial da Saúde. Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais.</speak>
       - type: html
-        text: Cosibot é uma iniciativa sem fins lucrativos da ROBO.AI para fornecer
-          informações confiáveis sobre a COVID-19 de fontes oficiais, como a Organização
-          Mundial da Saúde.<br>Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais:
+        text: "Cosibot é uma iniciativa sem fins lucrativos da ROBO.AI para fornecer informações confiáveis sobre a COVID-19 de fontes oficiais, como a Organização Mundial da Saúde.<br>Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais:"
       - type: links
         links:
         - title: Voluntariado Cosibot
@@ -3035,13 +3029,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>O país que você está procurando não está disponível. Para
-          acompanhar a situação na época do novo coronavírus no mundo, clique
-          no link apresentado abaixo.</speak>
+        ssml: <speak>O país que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo.</speak>
       - type: html
-        text: O país que você está procurando não está disponível. Para acompanhar
-          a situação na época do novo coronavírus no mundo, clique no link apresentado
-          abaixo:
+        text: "O país que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo:"
       - type: links
         links:
         - title: COVID-19 Situação no Mundo
@@ -3313,16 +3303,6 @@ responses:
       - type: html
         text: A vacina da China, conhecida como Coronavac, está sendo produzida pelo laboratório Sinovac, junto com o Instituto Butantã, em São Paulo. A tecnologia empregada é de vírus inativado. Os estudos clínicos estão sendo realizados em 13 mil voluntários com mais de 18 anos. 
           No Brasil, participam dos testes pessoas que moram nos estados de São Paulo, Rio Grande do Sul, Minas Gerais, Paraná, Rio de Janeiro e Distrito Federal.<a href='https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/10/brasil-preve-140-milhoes-de-doses-de-vacina-contra-covid-19-para-o-1o-semestre-de-2021'
-          target='_blank'>(1)</a>
-  utter_covid_diferenca_testes:
-  - custom:
-      answers:
-      - type: ssml
-        ssml: <speak> O PCR serve para detectar a presença do vírus no organismo do paciente. 
-          O teste de sorologia diz se a pessoa já teve contato com o vírus SARS-CoV-2 e o sistema imunológico produziu os anticorpos contra a doença.  </speak>
-      - type: html
-        text: O PCR serve para detectar a presença do vírus no organismo do paciente. 
-          O teste de sorologia diz se a pessoa já teve contato com o vírus SARS-CoV-2 e o sistema imunológico produziu os anticorpos contra a doença.<a href='https://coronavirus.saude.gov.br/diagnostico-clinico-e-laboratorial'
           target='_blank'>(1)</a>
   utter_covid_diferenca_testes:
   - custom:
