@@ -123,6 +123,21 @@
 - Seu horário de trabalho.
 - Vc está disponível em Qualquer momento é ?
 
+## intent:covid_vacinas_teste
+- Que vacinas estão sendo testadas?
+
+## intent:covid_covax_vacina
+- O que é a vacina covax?
+
+## intent:covid_oxford_vacina
+- O que é a vacina de Oxford?
+
+## intent:covid_china_vacina
+- Me fale sobre a vacina da China.
+
+## intent:covid_diferenca_testes
+- Diferentes testes.
+
 ## intent:bot_books
 - Gêneros de livros que você gosta.
 - Livros que você gosta.
@@ -502,7 +517,7 @@
 - Você tem algum filme favorito?
 - Você gosta mais de filmes de terror ou filmes de comédia?
 - Você gosta mais de filmes de terror ou filmes de comédia?
--Você gosta de filmes de suspense?
+- Você gosta de filmes de suspense?
 - Filme favorito.
 - Filme de suspense favorito.
 - Filme de terror favorito.
@@ -735,6 +750,8 @@
 - me diga sua idade
 - Vc tem Quantos anos?
 - Qual a sua idade
+- Vc tem família??
+- E vc é uma menina ou um menino??
 
 ## intent:bot_personality
 - Você é amigável?
@@ -808,6 +825,7 @@
 - Vc é um robo?
 - Você é um robo?
 - Vc é Mulher ou homem?
+- Vc é uma pessoa de vdd??
 
 ## intent:bot_residence
 - Onde você morava quando era pequeno?
@@ -1198,16 +1216,16 @@
 - O ovo ou a galinha?
 - A galinha foi a primeira ou o ovo?
 - O ovo foi o primeiro ou a galinha?
-- O que veio primeiro - a galinha ou o ovo?
-- O que veio primeiro - o ovo ou a galinha?
+- O que veio primeiro- a galinha ou o ovo?
+- O que veio primeiro- o ovo ou a galinha?
 - O que veio primeiro?
 - Como tudo começou?
 - O que veio primeiro? galinha ou ovo?
 - O que veio primeiro? Ovo ou galinha?
 - O que foi primeiro? Galinha ou ovo?
 - O que foi primeiro? Ovo ou galinha?
-- O que havia primeiro - a galinha ou o ovo?
-- O que havia primeiro - o ovo ou a galinha?
+- O que havia primeiro- a galinha ou o ovo?
+- O que havia primeiro- o ovo ou a galinha?
 - Qual veio primeiro a galinha ou o ovo?
 - Qual veio primeiro o ovo ou a galinha?
 - Qual veio primeiro, a galinha ou o ovo?
@@ -2015,6 +2033,20 @@
 - me responde sobre o bill gates sua vagabunda
 - chupa um pau
 - kill gates
+- Tá de noite sua besta
+- Feiosa
+- Vc quer ser minha mulher??
+- Abestolada
+- Vc é feiah sabia
+- Vai tomar no cu
+- Seus pais não deram educação não
+- Ignorante
+- Crlh
+- Caralho
+- Kralho
+- Não estou feliz
+- Foda-se
+
 
 ## intent:comment_offense
 - Idiota!
@@ -2113,6 +2145,7 @@
 - Como se vc não tirou minha dúvida burra
 - Aprendendo a ser burra?
 - Idiota
+- Chata
 
 
 ## intent:comment_positive
@@ -2387,6 +2420,9 @@
 - Já tem  previsão  até onde vai essa pandemia ?
 - Vc tm idéia até qnd vai essa pandemia?
 - Quando vai terminar essa pandemia
+- Helena quando acaba esse vírus
+- Que dia acaba pandemia da covid-19?
+- Quando vai acabar
 
 ## intent:covid_current_statistics
 - [Yakutsk]{"entity": "geography", "value": "town"} news.
@@ -2518,6 +2554,10 @@
 - Posso ser diagnosticado com COVID19  duas vezes?
 - Tive covid a 2 dias atras ja viltei minhas afazeres posso contaminar por agora  novamente
 - Posso pegar COVID-19 duas vezes?
+- Fiz o teste deu antico4pod..eu  posso me contsminar dr nvo
+- ganho imunidade se pegar o vírus outra vez?
+- Ja tive covid e tenho posibilidades de pega de novo
+- Depois que a pesoa pega covid uma ves pode pega de novo
 
 
 ## intent:covid_incubation
@@ -2592,6 +2632,8 @@
 - Quanto tempo até sentir os primeiros sintomas?
 - Quando sentirei os primeiros sintomas?
 - Estou com 14 dias do primeiro dia dos sintomas ainda posso transmitir o virus?
+- Quantos dias depois que pego o vírus ,manifesta os sintomas?
+- Até quantos dias do início corro risco de piora?
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2735,6 +2777,8 @@
 - Qual é a origem do surto?
 - Ele se originou da sopa de morcego
 - De onde o coronavirus veio
+- Onde surgiu?
+- E de q animal surgiu o covid 19
 
 ## intent:covid_pandemic
 - Qual o significado da palavra pandemia?
@@ -2804,6 +2848,10 @@
 - Se eu tenho rinite vou pegar COVID?
 - Se eu tenho sinusite posso pegar covid?
 - Quem tem problemas respiratorios e mais facil de pegar a doença
+- Quem tem alergia
+- Estou grávida meu bebê corre riscos??
+- Se eu tenho imunidade baixa, sou mais propicia a pegar de novo covid
+- Eu tenho comorditades, tenho imunidade baixa
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -3028,6 +3076,9 @@
   e o movimento E as escolas não fizeram por quê?
 - Por que reabrir a escola se você sabe que é arriscado
 - quando provavelmente você acha que todas as escolas e institutos serão reabertos
+- Mas o ano que vem as aulas podem voltar
+- Att e quando as aulas em MG irá retornar
+- Att e as aulas por motivo do covid 19 quando as aulas e MG irá retorna
 
 ## intent:covid_mentalhealth
 - esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
@@ -3047,6 +3098,12 @@
 - Problemas psicológicos
 - ansiedade
 - esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
+- Eu tô tendo um pior dia
+- Eu sou um lixo
+- Desculpe mais tou desistindo te td
+- Vc vai deixa uma pessoa se mata mais nn vai ajuda
+- Oq fazer quando mim sentir so
+
 
 ## intent:quarantine_exercises
 - Exercícios 
@@ -3073,6 +3130,7 @@
 - Eleição
 - Vai ter eleição esse ano?
 - Quais as medidas de prevenção durante as eleições?
+- O que devemos fazer nessas passeatas de prefeito já que tem aglomeração?
 
 ## intent:covid_sex
 - Também pode transmitir através do sexo?
@@ -3087,6 +3145,10 @@
 - o novo coronavirus pode ser trasmitido em relações sexuais?
 - Sexo e coronavirus
 - O Covid-2019 pode ser transmitido através do sexo?
+- É  possível  transmissão por sexo
+- Posso transar?
+- Se for pra ter alguma relação sexual com alguém vc pega corona??
+- Transar com máscara , pode transmitir o vírus?
 
 ## intent:covid_situation
 - Casos confirmados em [Continente Europeu]{"entity": "world_region", "value": "Europe"}
@@ -3252,6 +3314,8 @@
 - Qual a mortalidade
 - Qual a letalidade do vírus?
 - Quão letal é o vírus?
+- Boletins
+- Dados do boletim
 
 ## intent:covid_situation_infected
 - Qual é o número de infectados?
@@ -3355,6 +3419,7 @@
 - Situação atualizada do Coronavirus
 - Sobre o nivel da covid
 - Quantos milhões de brasileiros já foi infectado  pelo covid19
+- o hospital de campanha aqui onde moro da rede publica semana passada estava com 22 pacientes ,essa semana com 5 pacientes e alguns ainda com.suspeita ...gostaria de saber se os casos estão abaixando mesmo ..o que esta acontecendo ? de varias outras cidades visinhas os hospitais publicos de campanha se fecharam ..
 
 ## intent:covid_situation_recovered
 - Quantos se recuperaram na [comunidade Europeia]{"entity": "world_region", "value": "Europe"}
@@ -3507,6 +3572,7 @@
 - por quantas horas o vírus sobrevive em superfícies?
 - quanto tempo vive nas superficies?
 - se eu tiver gripe posso pegar COVID?
+- Oi, o virus fica por 28 dias em ebjetos ??
 
 ## intent:covid_symptoms
 - Sobre os sintomas.
@@ -3708,43 +3774,51 @@ Meu esposo está com covid"
 - Perdi meu olfato
 - Apenas infecção na garganta,,pode ser sinal de estar contaminado ?
 - Apenas garganta inflamada,,pode ser sinal de corona ?
- - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar e convud19
- - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar é covid19?
- - Dor de garganta
- - A pessoa estar muito palida è um sintoma de Covid-19?
- - Como saber se a pessoa está com o vírus
- - Sintomas comum
- - Bom dia qual e o sintomas do vírus
- - 15 dias de diarreia sem febre e outros sintomas pode ser covid 19
- - Diarreia  e sudorese são sintomas?
- - Perda do aufato  e tontura pode ser sintomas de covid
- - Perda do olfato e tontura pode ser sintomas de covid?
- - Esses sintomas  e de  covid
- - O nariz entupido de um lado só
- - Estou com a minha garganta coçando  muito isso  pode ser sintoma do covid
- - Quais os sintomas de infecção por COVID19?
- - Sintomas so com nariz congestionado poder ser. Covif
- - Tem dor de cabeça também
- - Dor de garganta é sintomas de covid?
- - Estou com aperto no peito sem apetite
- - Sem paladar nariz trancado
- - Queria saber c tenho sintomas de xovid
- - Queria saber se tenho sintomas de COVID
- - Estav com enjoos ontem... Meio ruim do estomago
- - Diarréia é sintoma de covid?
- - Covid sempre da febre
- - Qual é os sintomas
- - Quais são os sintomas?
- - Qual verdadeiro sintoma do novo covid
- - Ola quais sao os sintomas da covid19
- - Ardencia nariz é  covid
- - Dor nas amígdalas é  covid
- - Eu tive contato com uma pessoa q testou positivo,posso tá contaminada?
- - Estav com enjoos ontem... Meio ruim do estomago
- - Qual é os sintomas
- - Covid sempre da febre
- - Diarréia é sintoma de covid?
- - 37.5 grau é febre?
+- Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar e convud19
+- Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar é covid19?
+- Dor de garganta
+- A pessoa estar muito palida è um sintoma de Covid-19?
+- Como saber se a pessoa está com o vírus
+- Sintomas comum
+- Bom dia qual e o sintomas do vírus
+- 15 dias de diarreia sem febre e outros sintomas pode ser covid 19
+- Diarreia  e sudorese são sintomas?
+- Perda do aufato  e tontura pode ser sintomas de covid
+- Perda do olfato e tontura pode ser sintomas de covid?
+- Esses sintomas  e de  covid
+- O nariz entupido de um lado só
+- Estou com a minha garganta coçando  muito isso  pode ser sintoma do covid
+- Quais os sintomas de infecção por COVID19?
+- Sintomas so com nariz congestionado poder ser. Covif
+- Tem dor de cabeça também
+- Dor de garganta é sintomas de covid?
+- Estou com aperto no peito sem apetite
+- Sem paladar nariz trancado
+- Queria saber c tenho sintomas de xovid
+- Queria saber se tenho sintomas de COVID
+- Estav com enjoos ontem... Meio ruim do estomago
+- Diarréia é sintoma de covid?
+- Covid sempre da febre
+- Qual é os sintomas
+- Quais são os sintomas?
+- Qual verdadeiro sintoma do novo covid
+- Ola quais sao os sintomas da covid19
+- Ardencia nariz é  covid
+- Dor nas amígdalas é  covid
+- Eu tive contato com uma pessoa q testou positivo,posso tá contaminada?
+- Estav com enjoos ontem... Meio ruim do estomago
+- Qual é os sintomas
+- Covid sempre da febre
+- Diarréia é sintoma de covid?
+- 37.5 grau é febre?
+- Mais é grave a parte do vômito?
+- E hoje eu estou com dor de garganta e nariz escorrendo
+- Meu marido estava com dor de garganta e nariz escorrendo
+- Não sei se estou contaminada..... posso fazer as coisas normalmente.... tipo sair
+- Estou  com uma das amígdalas ardendo,  inflamada, e estou sem voz. Porém tô sem  febre e demais sintomas elencados pelo Ministério da Saúde.  Será que mesmo  assim estou com Covid-19?
+- Dor de cabeça e um sintoma do coronavírus?
+- Olá Helena Vamos fazer um teste quais são os sintomas do
+- Dor nas costas
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -3761,6 +3835,7 @@ Meu esposo está com covid"
 - Como ocorre o tratamento?
 - Quanto tempo o paciente fica internado
 - Bom dia   A pessoa que só tem dor nas costas pode ser covid?
+- Qual o primeiro sintomas
 
 ## intent:covid_worry
 - E se eu pegar o vírus?
@@ -3838,6 +3913,7 @@ Meu esposo está com covid"
 - Tenho medo dessa doença
 - Deus deus vamos morer com este virus entao misericordia
 - Não aguento mais essa história de covid 19
+- Vish
 
 ## intent:ebola
 - Ebola
@@ -4028,6 +4104,8 @@ Meu esposo está com covid"
 - Muito obrigado por nada tenha um dia adeus
 - de nada tchau
 - Boa noite!
+- Tchau amiga
+
 
 
 ## intent:greeting_hello
@@ -4090,6 +4168,8 @@ Meu esposo está com covid"
 - e aí beleza?
 - e aí? tudo bem?
 - e aí?
+- Dia
+- Oiiiii
 
 ## intent:greeting_how_are_you
 - Você está bem?
@@ -4547,6 +4627,9 @@ Meu esposo está com covid"
 - a transmissão da covid19 em áreas quentes e úmidas.
 - a transmissão da covid19 em áreas quentes.
 - Nesse tempo seco pode ser normal sentir a gargata seca
+- Sera se com o calor vai acabar
+- Sera se com esse calor vai acabar
+- Tenho riniti
 
 ## intent:myth_conspiracy_fakenews
 - Quais são os mitos associados com o vírus?
@@ -4743,6 +4826,7 @@ Meu esposo está com covid"
 - Qual maneira mas correta de se proteger
 - Como evitar isso?
 - Quais precauções devo tomar?
+- Comer alho previne o vírus?
 
 ## intent:prevention_home
 - Eu estarei seguro se eu ficar em casa?
@@ -4995,6 +5079,8 @@ Meu esposo está com covid"
 - Hello could you please tell me COVID-19 hospital?
 - Qnd devo procurar o médico..  se for positivo
 - Quando devo ir ao medico
+- Vomitando
+- o que eu devo fazer se for contaminado
 
 ## intent:prevention_medicine
 - Fui no posto eles só me dão medicamento de dor
@@ -5081,6 +5167,8 @@ Meu esposo está com covid"
 - Será que a vacina sai esse ano?
 - Qual remédio devemos tomar em caso de suspeita r tratamento em casa
 - Cura
+- Por que o coronavírus não tem cura
+- Tomar vitamina c
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -5290,6 +5378,7 @@ Meu esposo está com covid"
 - Já fizeram alguma vacina pro covid ?
 - Sera que iremos ter a tao sonhada varcina este ano ainda
 - Vc acha que teremos uma varcina este ano ainda
+- Que dia vai ouver vacina contra covid-19?
 
 ## intent:quarantine_control
 - Como se controla a quarentena?
@@ -5343,6 +5432,8 @@ Meu esposo está com covid"
 - Eu tá com sintomas ai o médico me deu 14 dias de quarentena ai depois fiz o teste deu positivo
 - Fiz meu teste e deu positovo
 - Fiz meu teste e deu positivo
+- Quantos dias de isolamento devo ficar
+- Estou há 14 dias em isolamento, repetir o exame depois de 14 dias ainda continua com IGG E IGM POSITIVO
 
 
 ## intent:quarantine_toiletpaper
@@ -5357,6 +5448,8 @@ Meu esposo está com covid"
 - Qtos dias a pessoa que foi diagnosticada positivo pode voltar a conviver com outras pessoas que não tenha sido contaminada ??
 - devo fazer quarentena?
 - Eu estou com o covid19
+- Olá tem previsão para acabar a quarentena
+- Eu estava trabalhando aí eu parei por meu patrão  pegou o convd 19 aí a manhã fais 13 dias  aí a esposa dele mandou eu volta a trabalho mais não sei se e bom volta o que você me diz
 
 ## intent:quaratine_how_it_works
 - Como fazer a quarentena propriamente dita?
@@ -5466,6 +5559,7 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Posso pegar COVID dos meus animais de estimação ?
 - Posso pegar COVID dos meus cachorros?
 - posso pegar o vídeo dos meus animais
+- Covid passa de animal para humano?
 
 ## intent:spread_feces
 - Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de uma pessoa infectada?
@@ -5646,6 +5740,11 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Trasmisao
 - O vírus se espalha
 - Como ele se espalha
+- Meu marido testou positivo ,está com vírus ativo, posso ter pegado também?
+- Uma pessoa  com covid pode transmite  ate quantos dias
+- Quantos dias a pessoa transmite  a doença
+- Virus se espalha?
+- Mesmo eu usando máscara eu posso contrair o vírus
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -6001,6 +6100,9 @@ Eu não estou sentindo nada"
 - Tenho uma duvida o teste rapido e confiavel, aquela que fura o dedo
 - Fiz o exame sorológico e deu Igm reagente ainda
 - Se eu preciso repetir o exame novamente depois dos 14 dias
+- Estou com uma pessoa infectada.... como faço pra fazer o teste?
+- Quanto tempo de sintomas é melhor para fazer o teste?
+- Como saber se estou infectada?
 
 ## intent:test_who
 - Posso fazer o teste?
@@ -6008,6 +6110,8 @@ Eu não estou sentindo nada"
 - Quem pode ser testado para coronavírus?
 - Quem pode ser testado para covid?
 - Quem pode ser testado?
+- Estou com o covid descobri a 3 dias e sou assintomática. Quantos dias vou repetir o exame para saber se ainda continuo com o vírus ativo?
+- Como saber se a pessoa ja esta curada
 
 ## intent:travel_after
 - Após o procedimento de viagem.
@@ -6498,6 +6602,7 @@ Eu não estou sentindo nada"
 - Deus abençõe
 - Não obrigada
 - Vocês  tá  serto
+- Obgd beh
 
 ## intent:user_particles
 - haha
@@ -6873,6 +6978,8 @@ Eu não estou sentindo nada"
 - Obg
 - Ok!
 - Obgda
+- Grato
+- Grata
 
 ## intent:vocative_yes
 - Afirmativo.
