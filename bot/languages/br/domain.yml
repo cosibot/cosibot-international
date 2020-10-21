@@ -80,6 +80,22 @@ slots:
     - not-ok
   virus:
     type: text
+  country_state:
+    type: text
+  country_region:
+    type: text
+  country_region_confirmed_accum:
+    type: unfeaturized
+  country_region_confirmed_new:
+    type: unfeaturized
+  country_region_hospitalized_critical:
+    type: unfeaturized
+  country_region_search_successful:
+    type: categorical
+    values:
+      - ok
+      - empty
+      - not-ok
 
 entities:
 - virus
@@ -88,6 +104,8 @@ entities:
 - preferred_lang
 - country_code
 - world_region
+- country_state
+- country_region
 
 actions:
 - action_get_date
@@ -242,6 +260,9 @@ actions:
 - utter_covid_situation_last_update
 - utter_covid_situation_recovered
 - utter_covid_situation_tested
+- utter_country_state_hasdata
+- utter_country_region_nodata
+- utter_country_region_hasdata
 - utter_covid_schools
 - utter_fallback_first
 - utter_fallback_request_emptyanswer
@@ -427,6 +448,8 @@ intents:
 - covid_oxford_vacina
 - covid_china_vacina
 - covid_diferenca_testes
+- covid_situation_region
+- covid_situation_state
 
 responses:
   utter_command_change_bot:
@@ -3146,6 +3169,33 @@ responses:
       - type: html
         text: A última atualização de dados indica que em {country}, {total_tests}
           testes foram realizados desde o início da coleta de dados.
+  utter_country_state_hasdata:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19.</speak>
+      - type: text
+        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de COVID-19."
+  utter_country_region_nodata:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal.</speak>
+      - type: text
+        text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal."
+      - type: multichoice
+        options:
+          - label: Sim
+            value: Sim
+          - label: Não
+            value: Não
+  utter_country_region_hasdata:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos e {country_region_hospitalized_critical} estão em estado grave.</speak>
+      - type: text
+        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos e {country_region_hospitalized_critical} estão em estado grave."
   utter_covid_schools:
   - custom:
       answers:

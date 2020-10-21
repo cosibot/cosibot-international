@@ -41,3 +41,11 @@
 ## covid_china_vacina
 * covid_china_vacina
   - utter_covid_china_vacina
+
+## covid_situation_region
+* covid_situation_region
+  - action_search_stats_region
+
+## covid_situation_state
+* covid_situation_state
+  - action_search_stats_state

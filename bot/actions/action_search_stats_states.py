@@ -46,10 +46,10 @@ class DecsisAPI:
             return {'code': response.status_code, 'has_data': False}
 
 
-class ActionSearchStatsMunicipal(Action):
+class ActionSearchStatStates(Action):
 
     def name(self):
-        return "action_search_stats_municipal"
+        return "action_search_stats_state"
 
     def run(self, dispatcher, tracker, domain):
         
@@ -73,7 +73,7 @@ class ActionSearchStatsMunicipal(Action):
                 SlotSet('country_region_search_successful', 'ok'),
                 SlotSet('country_region', country_municipal), 
                 SlotSet('country_region_confirmed_accum', int(stats.get('confirmed_accum', None))),
-                FollowupAction("utter_country_municipal_hasdata")]
+                FollowupAction("utter_country_state_hasdata")]
         else:
             return [
                 SlotSet('country_region_search_successful', 'not-ok'),
