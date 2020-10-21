@@ -21,3 +21,23 @@
 ## covid_eleicao
 * covid_eleicao
   - utter_covid_eleicao
+
+## covid_diferenca_testes
+* covid_diferenca_testes
+  - utter_covid_diferenca_testes
+
+## covid_vacinas_teste
+* covid_vacinas_teste
+  - utter_covid_vacinas_teste
+
+## covid_covax_vacina
+* covid_covax_vacina
+  - utter_covid_covax_vacina
+  
+## covid_oxford_vacina
+* covid_oxford_vacina
+  - utter_covid_oxford_vacina
+
+## covid_china_vacina
+* covid_china_vacina
+  - utter_covid_china_vacina
