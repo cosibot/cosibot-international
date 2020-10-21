@@ -123,6 +123,21 @@
 - Seu horário de trabalho.
 - Vc está disponível em Qualquer momento é ?
 
+## intent:covid_vacinas_teste
+- Que vacinas estão sendo testadas?
+
+## intent:covid_covax_vacina
+- O que é a vacina covax?
+
+## intent:covid_oxford_vacina
+- O que é a vacina de Oxford?
+
+## intent:covid_china_vacina
+- Me fale sobre a vacina da China.
+
+## intent:covid_diferenca_testes
+- Diferentes testes.
+
 ## intent:bot_books
 - Gêneros de livros que você gosta.
 - Livros que você gosta.
@@ -502,7 +517,7 @@
 - Você tem algum filme favorito?
 - Você gosta mais de filmes de terror ou filmes de comédia?
 - Você gosta mais de filmes de terror ou filmes de comédia?
--Você gosta de filmes de suspense?
+- Você gosta de filmes de suspense?
 - Filme favorito.
 - Filme de suspense favorito.
 - Filme de terror favorito.
@@ -734,6 +749,9 @@
 - quantos anos você tem?
 - me diga sua idade
 - Vc tem Quantos anos?
+- Qual a sua idade
+- Vc tem família??
+- E vc é uma menina ou um menino??
 
 ## intent:bot_personality
 - Você é amigável?
@@ -807,6 +825,7 @@
 - Vc é um robo?
 - Você é um robo?
 - Vc é Mulher ou homem?
+- Vc é uma pessoa de vdd??
 
 ## intent:bot_residence
 - Onde você morava quando era pequeno?
@@ -1197,16 +1216,16 @@
 - O ovo ou a galinha?
 - A galinha foi a primeira ou o ovo?
 - O ovo foi o primeiro ou a galinha?
-- O que veio primeiro - a galinha ou o ovo?
-- O que veio primeiro - o ovo ou a galinha?
+- O que veio primeiro- a galinha ou o ovo?
+- O que veio primeiro- o ovo ou a galinha?
 - O que veio primeiro?
 - Como tudo começou?
 - O que veio primeiro? galinha ou ovo?
 - O que veio primeiro? Ovo ou galinha?
 - O que foi primeiro? Galinha ou ovo?
 - O que foi primeiro? Ovo ou galinha?
-- O que havia primeiro - a galinha ou o ovo?
-- O que havia primeiro - o ovo ou a galinha?
+- O que havia primeiro- a galinha ou o ovo?
+- O que havia primeiro- o ovo ou a galinha?
 - Qual veio primeiro a galinha ou o ovo?
 - Qual veio primeiro o ovo ou a galinha?
 - Qual veio primeiro, a galinha ou o ovo?
@@ -1956,6 +1975,8 @@
 - Me diga qual é o clima
 
 ## intent:comment_negative
+- Não aguento mais essa história de covid 19
+- Não aguento mais essa história de COVID-19
 - O agente Smith é melhor do que você.
 - Cortana é muito mais esperta do que você!
 - Glados é mais esperto do que você!
@@ -2004,6 +2025,28 @@
 - Estranho
 - Vc tá debricadeira fala pra com versar
 - Tu não tem resposta pra merda nem uma
+- Respondendo minha pergunta, mas tu não sabes a resposta.
+- Tu nem sabes qual é o vírus, e se achas entendida.
+- me da a buceta
+- aprende chupando um pau bem grande sua vadia
+- caralho se fuder, responde se confia ou não no bill gates
+- me responde sobre o bill gates sua vagabunda
+- chupa um pau
+- kill gates
+- Tá de noite sua besta
+- Feiosa
+- Vc quer ser minha mulher??
+- Abestolada
+- Vc é feiah sabia
+- Vai tomar no cu
+- Seus pais não deram educação não
+- Ignorante
+- Crlh
+- Caralho
+- Kralho
+- Não estou feliz
+- Foda-se
+
 
 ## intent:comment_offense
 - Idiota!
@@ -2102,6 +2145,7 @@
 - Como se vc não tirou minha dúvida burra
 - Aprendendo a ser burra?
 - Idiota
+- Chata
 
 
 ## intent:comment_positive
@@ -2279,6 +2323,7 @@
 - vírus
 - E quanto ao coronavírus
 - E quanto aos coronavírus
+- Qual é a espécie do vírus?
 
 ## intent:covid_aftereffects
 - Sequelas
@@ -2292,6 +2337,8 @@
 - Porque ninguém comenta das sequelas do covid?
 - Porque ninguém comenta das sequelas do vírus?
 - Queria saber se o covid deixa sequelas de dores musculares nos ombros????
+- Como fazer o paladar voltar?
+- Porque tem pessoas que teve covid19 a quatro meses com sintomas leves e agora continua com sintomas persistente?
 
 ## intent:covid_babys_children
 - As crianças são afetadas?
@@ -2372,6 +2419,10 @@
 - Sabe quando vai acabar essa pandemia ?
 - Já tem  previsão  até onde vai essa pandemia ?
 - Vc tm idéia até qnd vai essa pandemia?
+- Quando vai terminar essa pandemia
+- Helena quando acaba esse vírus
+- Que dia acaba pandemia da covid-19?
+- Quando vai acabar
 
 ## intent:covid_current_statistics
 - [Yakutsk]{"entity": "geography", "value": "town"} news.
@@ -2424,6 +2475,9 @@
 - Qual é a origem do surto?
 - Por onde a doença começou?
 - Onde a doença começou?
+- A minha dúvida e quanto tempo os sintomas ficam
+- A minha dúvida é quanto tempo os sintomas ficam
+- Por quanto tempo, sinto os sintomas?
 
 ## intent:covid_food
 - Posso me infectar com o novo vírus corona a partir de alimentos ou da água?
@@ -2431,8 +2485,15 @@
 - Contaminação dos alimentos.
 - A contaminação se espalha através dos alimentos.
 - Os alimentos podem estar contaminados?
+- Alimento
+- Posso ser infectado por comida?
+- Comida
+- Alimentação
 
 ## intent:covid_immunity
+- ganho imunidade se pegar o vírus outra vez?
+- tenho imunidade se pegar o vírus outra vez?
+- Imunidade
 - Depois de ter sido infectado, sou imune ao vírus?
 - Depois de se recuperarem, as pessoas se tornam imunes?
 - Eu posso ficar doente duas vezes?
@@ -2485,6 +2546,19 @@
 - Após quanto tempo não transmito mais o vírus?
 - Depois de quantos dias não tem perigo
 - Quem já pegou pega de novo
+- Oi estive com covid a 90 dias. Estou com sintomas novamente tosse e dor no corpo
+- Quem teve covid  e quem teve contato com o vírus na mesma casa ...mas não teve sintomas pode transmitir ou pegar de novo ...depois de 3 meses já passado pelo contato mas sem sintomas ?
+- Pode ter reifeccao pelo covid
+- Pode ter reinfecção por COVID?
+- Posso adquirir covid duas vezes?
+- Posso ser diagnosticado com COVID19  duas vezes?
+- Tive covid a 2 dias atras ja viltei minhas afazeres posso contaminar por agora  novamente
+- Posso pegar COVID-19 duas vezes?
+- Fiz o teste deu antico4pod..eu  posso me contsminar dr nvo
+- ganho imunidade se pegar o vírus outra vez?
+- Ja tive covid e tenho posibilidades de pega de novo
+- Depois que a pesoa pega covid uma ves pode pega de novo
+
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -2541,13 +2615,25 @@
 - Ainda trasmito?
 - Meu filho teve covid ta isolado ha 15 dias ele ainda trasmite ou tem que fazer teste para ter certeza e qual?
 - quanto tempo o vírus fica ativo
-- "Boa noite,td bem?
-Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus"
+- Boa noite,td bem? Gostaria de saber por qto tempo uma pessoa contaminada transmite o virus
 - Quantos dias após contaminada eu posso transmitir o vírus para outras pessoas?
 - Quem já teve covid pode transmitir o vírus depois do período de 15 dias?
 - Então eu testei positivo . Hoje já faz 11dias mas tô super bem não tive quase nada ... Com quantos dias eu paro de passar o vírus
-- "Quando a pessoa que foi contaminada.
-Fica curada?"
+- Quando a pessoa que foi contaminada. Fica curada?
+- Quantos dias ela aparece?
+- Com quantos dias o vírus aparece?
+- Se uma pessoa  ter contato com  outra q testou positivo  pro covid pode pegar a doença  com quantos dias  o virus  se manifesta
+- Estou com 14 dias do primeiro dia dos sintomas ainda posso transmitir o virus?
+- Uma pessoa que esta contaminada com covid 19 pode transmitir até quantos dias
+- corona viros aparece com quantos dias  que passou   pegou
+- Qunto depois do contato a pessoa apresenta sintoma do covid
+- Qunto uma pessoa pode aparecer o sintomas do covid
+- Quanto tempo para aparecer sintomas?
+- Quanto tempo até sentir os primeiros sintomas?
+- Quando sentirei os primeiros sintomas?
+- Estou com 14 dias do primeiro dia dos sintomas ainda posso transmitir o virus?
+- Quantos dias depois que pego o vírus ,manifesta os sintomas?
+- Até quantos dias do início corro risco de piora?
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2635,6 +2721,7 @@ Fica curada?"
 - Me explica as Formas do coronavirus
 - covid-19 informação
 - olá, gostaria de saber um pouco mais sobre o covid
+- Quero saber mais sobre a COVID-19
 
 ## intent:covid_meaning
 - O que significa o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
@@ -2690,6 +2777,8 @@ Fica curada?"
 - Qual é a origem do surto?
 - Ele se originou da sopa de morcego
 - De onde o coronavirus veio
+- Onde surgiu?
+- E de q animal surgiu o covid 19
 
 ## intent:covid_pandemic
 - Qual o significado da palavra pandemia?
@@ -2745,6 +2834,24 @@ Fica curada?"
 - Queria saber se gestante e grupo de risco
 - Gwstante e grupo de risco ?
 - Gestante é grupo de risco?
+- Quem tá com sinusite pode pega o coronavírus
+- Que tem sinusite pode pega o coronavírus
+- Tenho asma posso pegar covid ? Mesmo já tendo contato com o vírus mas sem sintomas?
+- Pessoa com bronquite e mais perigoso?
+- Eu estou com sintomas gripal pode ser covid
+- Coriza e congestao nasal é sintomas covid?
+- sinusite
+- Se eu tenho rinite vou pegar COVID?
+- Se eu tenho sinusite posso pegar covid?
+- Quem tem problemas respiratorios e mais facil de pegar a doença
+- Sinusite tose
+- Se eu tenho rinite vou pegar COVID?
+- Se eu tenho sinusite posso pegar covid?
+- Quem tem problemas respiratorios e mais facil de pegar a doença
+- Quem tem alergia
+- Estou grávida meu bebê corre riscos??
+- Se eu tenho imunidade baixa, sou mais propicia a pegar de novo covid
+- Eu tenho comorditades, tenho imunidade baixa
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -2932,6 +3039,7 @@ Fica curada?"
 - [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Qual é a espécie do vírus?
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
 
 ## intent:covid_schools
@@ -2968,6 +3076,61 @@ Fica curada?"
   e o movimento E as escolas não fizeram por quê?
 - Por que reabrir a escola se você sabe que é arriscado
 - quando provavelmente você acha que todas as escolas e institutos serão reabertos
+- Mas o ano que vem as aulas podem voltar
+- Att e quando as aulas em MG irá retornar
+- Att e as aulas por motivo do covid 19 quando as aulas e MG irá retorna
+
+## intent:covid_mentalhealth
+- esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
+- Estou me sentido ansiosa. O que fazer?
+- Estou com ansiedade.
+- Ansiedade
+- Depressão
+- Síndrome do Pânico
+- Como me manter tranquila durante a quarentena?
+- Como manter a sanidade mental?
+- Como manter a saúde mental?
+- Como a quarentena afeta a saúde mental?
+- Saúde mental
+- Como lidar com a pressão da doença
+- Como ajudar pessoas com ansidade durante a pandemia?
+- Problemas mentais
+- Problemas psicológicos
+- ansiedade
+- esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
+- Eu tô tendo um pior dia
+- Eu sou um lixo
+- Desculpe mais tou desistindo te td
+- Vc vai deixa uma pessoa se mata mais nn vai ajuda
+- Oq fazer quando mim sentir so
+
+
+## intent:quarantine_exercises
+- Exercícios 
+- Exercícios físicos
+- Exercicios
+- Exercicios fisicos
+- Atividade fisica
+- Como fazer atividade durante a pandemia?
+- Posso me exercitar em casa?
+- Posso fazer exercícios em casa?
+- Exercícios em casa
+
+## intent:covid_enem
+- Enem
+- Vai ter Enem mesmo com covid?
+- Quais as recomendações para participar do ENEM?
+- ENEM
+- quais as recomendações para participar do ENEM?
+- Prova do enem
+
+## intent:covid_eleicao
+- Como serão as eleições esse ano?
+- Eleições
+- Eleição
+- Vai ter eleição esse ano?
+- Quais as medidas de prevenção durante as eleições?
+- O que devemos fazer nessas passeatas de prefeito já que tem aglomeração?
 
 ## intent:covid_sex
 - Também pode transmitir através do sexo?
@@ -2982,6 +3145,10 @@ Fica curada?"
 - o novo coronavirus pode ser trasmitido em relações sexuais?
 - Sexo e coronavirus
 - O Covid-2019 pode ser transmitido através do sexo?
+- É  possível  transmissão por sexo
+- Posso transar?
+- Se for pra ter alguma relação sexual com alguém vc pega corona??
+- Transar com máscara , pode transmitir o vírus?
 
 ## intent:covid_situation
 - Casos confirmados em [Continente Europeu]{"entity": "world_region", "value": "Europe"}
@@ -3005,7 +3172,9 @@ Fica curada?"
 - Número de casos em [Guiana Francesa]{"entity": "country_code", "value": "GF"}
 - Número de casos nos EUA
 - Número de casos no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de casos no [brasil]{"entity": "country_code", "value": "BR"}
 - quantos casos no [Brasil]{"entity": "country_code", "value": "BR"}
+- quantos casos no [brazil]{"entity": "country_code", "value": "BR"}
 - Número de casos na região sudeste
 - quantos casos no Brasil?
 - Número de casos na região sul
@@ -3045,6 +3214,7 @@ Fica curada?"
 - estatísticas sobre covid2019
 - como está a situação neste momento em [Portugal]{"entity": "country_code", "value": "PT"}?
 - como está a situação no [Brasil]{"entity": "country_code", "value": "BR"}?
+- como está a situação no [brasil]{"entity": "country_code", "value": "BR"}?
 - Como está a situação neste momento?
 - quantos casos confirmados por aí?
 - quantos casos existem por aí?
@@ -3079,10 +3249,16 @@ Fica curada?"
 - Vc acha que o corona vírus está perdendo a força, e tudo se normalizando?
 - E na Bahia
 - Camo ta a situação  do corona virus na Bahia
+- América do Sul
+- Número de casos na cidade de Itaperuna RJ
+- Itaperuna RJ
+- Passo fundo
+- No rio de janeiro está mais branda a doença
 
 ## intent:covid_situation_deaths
 - Qual é a taxa de mortalidade
 - qual o número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- qual o número de mortes no [brazil]{"entity": "country_code", "value": "BR"}
 - Mortes na [África]{"entity": "world_region", "value": "Africa"}
 - Mortes no [continente antártico]{"entity": "world_region", "value": "Antarctic"}
 - Mortes na [Oceania]{"entity": "world_region", "value": "Oceania"}
@@ -3092,6 +3268,8 @@ Fica curada?"
 - Mortes no [Brasil]{"entity": "country_code", "value": "BR"}
 - Número de mortes
 - Número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes no [brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes no [brazil]{"entity": "country_code", "value": "BR"}
 - Número de mortes em [República de Gana]{"entity": "country_code", "value": "GH"}
 - Número de mortes em [Hong Kong]{"entity": "country_code", "value": "HK"}
 - Número de mortes em todo o mundo.
@@ -3131,9 +3309,17 @@ Fica curada?"
 - Helena  e verdade  este número  de mortes  por covid 19
 - Quantos mortos hoje
 - Quanto óbito no Brasil hoje
+- Qual a taxa de mortalidade?
+- Mortalidade
+- Qual a mortalidade
+- Qual a letalidade do vírus?
+- Quão letal é o vírus?
+- Boletins
+- Dados do boletim
 
 ## intent:covid_situation_infected
 - Qual é o número de infectados?
+- quantos infetados?
 - Quantos infectados existem no [Mundo]{"entity": "world_region", "value": "World"}?
 - Quantos infectados existem no [continente americano]{"entity": "world_region", "value": "America"}?
 - Quantas infecções existem em todo o mundo?
@@ -3162,6 +3348,13 @@ Fica curada?"
 - Quantas pessoas estão infectadas na [Republica Democrática da Argélia]{"entity": "country_code", "value": "DZ"}?
 - quantos casos positivos temos na [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
 - quantos casos ativos há no Brasil?
+- Sobre a pandemia
+- Os casos de David está diminuindo
+- Os casos de Covid estão diminuindo?
+- Há quantos infectados atualmente?
+- Quantos infetados há?
+- No rio de janeiro está mais branda a doença
+- Quantos milhões de brasileiros já foi infectado  pelo covid19
 
 ## intent:covid_situation_infected_critical
 - Casos críticos na [Europa]{"entity": "world_region", "value": "Europe"}
@@ -3224,6 +3417,9 @@ Fica curada?"
 - situação em [República de Malta]{"entity": "country_code", "value": "MT"}
 - novidades no mundo
 - Situação atualizada do Coronavirus
+- Sobre o nivel da covid
+- Quantos milhões de brasileiros já foi infectado  pelo covid19
+- o hospital de campanha aqui onde moro da rede publica semana passada estava com 22 pacientes ,essa semana com 5 pacientes e alguns ainda com.suspeita ...gostaria de saber se os casos estão abaixando mesmo ..o que esta acontecendo ? de varias outras cidades visinhas os hospitais publicos de campanha se fecharam ..
 
 ## intent:covid_situation_recovered
 - Quantos se recuperaram na [comunidade Europeia]{"entity": "world_region", "value": "Europe"}
@@ -3283,6 +3479,7 @@ Fica curada?"
 - quantos testes foram feitos em [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}?
 
 ## intent:covid_surfaces
+- Quanto tempo o vírus fica no cabelo
 - Durabilidade do Coronavirus em superfícies.
 - Resistência do Coronavirus em superfícies
 - Superfícies de durabilidade do Coronavirus.
@@ -3373,6 +3570,9 @@ Fica curada?"
 - por quanto tempo o vírus pode sobreviver em uma superficie de madeira?
 - por quanto tempo o vírus pode resistir em uma superficie de madeira?
 - por quantas horas o vírus sobrevive em superfícies?
+- quanto tempo vive nas superficies?
+- se eu tiver gripe posso pegar COVID?
+- Oi, o virus fica por 28 dias em ebjetos ??
 
 ## intent:covid_symptoms
 - Sobre os sintomas.
@@ -3574,15 +3774,51 @@ Meu esposo está com covid"
 - Perdi meu olfato
 - Apenas infecção na garganta,,pode ser sinal de estar contaminado ?
 - Apenas garganta inflamada,,pode ser sinal de corona ?
- - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar e convud19
- - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar é covid19?
- - Dor de garganta
- - A pessoa estar muito palida è um sintoma de Covid-19?
- - Como saber se a pessoa está com o vírus
- - Sintomas comum
- - Bom dia qual e o sintomas do vírus
- - 15 dias de diarreia sem febre e outros sintomas pode ser covid 19
- - Diarreia  e sudorese são sintomas?
+- Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar e convud19
+- Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar é covid19?
+- Dor de garganta
+- A pessoa estar muito palida è um sintoma de Covid-19?
+- Como saber se a pessoa está com o vírus
+- Sintomas comum
+- Bom dia qual e o sintomas do vírus
+- 15 dias de diarreia sem febre e outros sintomas pode ser covid 19
+- Diarreia  e sudorese são sintomas?
+- Perda do aufato  e tontura pode ser sintomas de covid
+- Perda do olfato e tontura pode ser sintomas de covid?
+- Esses sintomas  e de  covid
+- O nariz entupido de um lado só
+- Estou com a minha garganta coçando  muito isso  pode ser sintoma do covid
+- Quais os sintomas de infecção por COVID19?
+- Sintomas so com nariz congestionado poder ser. Covif
+- Tem dor de cabeça também
+- Dor de garganta é sintomas de covid?
+- Estou com aperto no peito sem apetite
+- Sem paladar nariz trancado
+- Queria saber c tenho sintomas de xovid
+- Queria saber se tenho sintomas de COVID
+- Estav com enjoos ontem... Meio ruim do estomago
+- Diarréia é sintoma de covid?
+- Covid sempre da febre
+- Qual é os sintomas
+- Quais são os sintomas?
+- Qual verdadeiro sintoma do novo covid
+- Ola quais sao os sintomas da covid19
+- Ardencia nariz é  covid
+- Dor nas amígdalas é  covid
+- Eu tive contato com uma pessoa q testou positivo,posso tá contaminada?
+- Estav com enjoos ontem... Meio ruim do estomago
+- Qual é os sintomas
+- Covid sempre da febre
+- Diarréia é sintoma de covid?
+- 37.5 grau é febre?
+- Mais é grave a parte do vômito?
+- E hoje eu estou com dor de garganta e nariz escorrendo
+- Meu marido estava com dor de garganta e nariz escorrendo
+- Não sei se estou contaminada..... posso fazer as coisas normalmente.... tipo sair
+- Estou  com uma das amígdalas ardendo,  inflamada, e estou sem voz. Porém tô sem  febre e demais sintomas elencados pelo Ministério da Saúde.  Será que mesmo  assim estou com Covid-19?
+- Dor de cabeça e um sintoma do coronavírus?
+- Olá Helena Vamos fazer um teste quais são os sintomas do
+- Dor nas costas
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -3598,6 +3834,8 @@ Meu esposo está com covid"
 - A maioria das pessoas cura sem internacao?
 - Como ocorre o tratamento?
 - Quanto tempo o paciente fica internado
+- Bom dia   A pessoa que só tem dor nas costas pode ser covid?
+- Qual o primeiro sintomas
 
 ## intent:covid_worry
 - E se eu pegar o vírus?
@@ -3671,6 +3909,11 @@ Meu esposo está com covid"
 - Como sabe que não tô feliz
 - Nossa a coisa e séria assim
 - Perigoso isso
+- Estou com pânico do medo
+- Tenho medo dessa doença
+- Deus deus vamos morer com este virus entao misericordia
+- Não aguento mais essa história de covid 19
+- Vish
 
 ## intent:ebola
 - Ebola
@@ -3861,6 +4104,8 @@ Meu esposo está com covid"
 - Muito obrigado por nada tenha um dia adeus
 - de nada tchau
 - Boa noite!
+- Tchau amiga
+
 
 
 ## intent:greeting_hello
@@ -3923,6 +4168,8 @@ Meu esposo está com covid"
 - e aí beleza?
 - e aí? tudo bem?
 - e aí?
+- Dia
+- Oiiiii
 
 ## intent:greeting_how_are_you
 - Você está bem?
@@ -4044,6 +4291,9 @@ Meu esposo está com covid"
 - quando usar máscaras?
 - onde posso obter material para me proteger?
 - Máscaras Médicas
+- devemos utilizar uma mascara
+- mascara ou não mascara
+- mascaras são inuteis
 
 ## intent:mask_use_after
 - Depois de usar uma máscara descartável.
@@ -4142,6 +4392,8 @@ Meu esposo está com covid"
 - Qual é a forma correta de usar uma máscara?
 - Como colocar uma Más...
 - como utilizar máscaras?
+- Como usar a máscara?
+- Como colocar uma Más...
 
 ## intent:myth_alcohol
 - Álcool em todo o corpo.
@@ -4374,6 +4626,10 @@ Meu esposo está com covid"
 - a transmissão da covid19 em áreas com climas quentes.
 - a transmissão da covid19 em áreas quentes e úmidas.
 - a transmissão da covid19 em áreas quentes.
+- Nesse tempo seco pode ser normal sentir a gargata seca
+- Sera se com o calor vai acabar
+- Sera se com esse calor vai acabar
+- Tenho riniti
 
 ## intent:myth_conspiracy_fakenews
 - Quais são os mitos associados com o vírus?
@@ -4393,6 +4649,7 @@ Meu esposo está com covid"
 - o que são fakenews?
 - Existe uma nova virose Parecida com covid
 - Helena Quais são os mitos acerca do vidro
+- Ou é só politicagem
 
 ## intent:prevention_clean_hands
 - Sobre a limpeza das mãos.
@@ -4432,6 +4689,7 @@ Meu esposo está com covid"
 - lavar minhas mãos já é o suficiente?
 - quando devo lavar minhas mãos?
 - como devo higienizar as mãos?
+- Como lavar as mãos
 
 ## intent:prevention_disinfection
 - Como desinfetar as coisas?
@@ -4477,6 +4735,9 @@ Meu esposo está com covid"
 - Distância segura.
 - distância entre pessoas
 - dúvidas sobre distanciamento seguro
+- Um De Máscara E O Outro Sem, Tem Risco De Alguém Infequita Alguem Caso Algum Dos Dois Esteja?
+- Um de máscara e outro sem. Tem risco de infectar se algum dos dois estiver com COVID?
+- Me Tire Uma Dúvida! Quando Duas Pessoas Sem Máscara Conversando A O Ar Livre  E Um Pouco Destante, Caso Uma Delas Tive O Vírus E Capaz De Infecta A Outra Pessoa?
 
 ## intent:prevention_general
 - Muito bem. Quais são as medidas de prevenção?
@@ -4564,6 +4825,8 @@ Meu esposo está com covid"
 - Como evitar de pegar o vírus
 - Qual maneira mas correta de se proteger
 - Como evitar isso?
+- Quais precauções devo tomar?
+- Comer alho previne o vírus?
 
 ## intent:prevention_home
 - Eu estarei seguro se eu ficar em casa?
@@ -4625,6 +4888,7 @@ Meu esposo está com covid"
 - Hidroxicloroquina serve para tratar covid?
 - Posso usar Cloroquina no tratamento de covid?
 - Posso usar Hidroxicloroquina no tratamento de covid?
+- Hidroxicloroquina tem eficácia?
 
 ## intent:prevention_ivermectina
 - ivermectina
@@ -4813,6 +5077,10 @@ Meu esposo está com covid"
 - Dor de cabeça e tosse pode ser sintoma do covid19
 - Aque hospital puedo ir si me siento muy al
 - Hello could you please tell me COVID-19 hospital?
+- Qnd devo procurar o médico..  se for positivo
+- Quando devo ir ao medico
+- Vomitando
+- o que eu devo fazer se for contaminado
 
 ## intent:prevention_medicine
 - Fui no posto eles só me dão medicamento de dor
@@ -4894,6 +5162,13 @@ Meu esposo está com covid"
 - Que medicamento puedo tomar
 - Eu preciso saber se quando sentir febre alguns sintomas pode tomar remédio para tirar a febre antes de fazer o teste do covid
 - Qual remédio para tomar se tiver com covid
+- O ibuprofeno prejudica os pacientes
+- Sera que iremos ter a tao sonhada varcina este ano ainda
+- Será que a vacina sai esse ano?
+- Qual remédio devemos tomar em caso de suspeita r tratamento em casa
+- Cura
+- Por que o coronavírus não tem cura
+- Tomar vitamina c
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -5098,6 +5373,12 @@ Meu esposo está com covid"
 - Helena você  pode falar  se a vacina  estará prota em outubro
 - Vacina p quando?
 - Vacina para quando?
+- Quando vamos ter a vacina
+- Já Tem Uma Vacina Segura?
+- Já fizeram alguma vacina pro covid ?
+- Sera que iremos ter a tao sonhada varcina este ano ainda
+- Vc acha que teremos uma varcina este ano ainda
+- Que dia vai ouver vacina contra covid-19?
 
 ## intent:quarantine_control
 - Como se controla a quarentena?
@@ -5151,6 +5432,9 @@ Meu esposo está com covid"
 - Eu tá com sintomas ai o médico me deu 14 dias de quarentena ai depois fiz o teste deu positivo
 - Fiz meu teste e deu positovo
 - Fiz meu teste e deu positivo
+- Quantos dias de isolamento devo ficar
+- Estou há 14 dias em isolamento, repetir o exame depois de 14 dias ainda continua com IGG E IGM POSITIVO
+
 
 ## intent:quarantine_toiletpaper
 - Papel higiênico
@@ -5163,6 +5447,9 @@ Meu esposo está com covid"
 - Quem deve fazer quarentena?
 - Qtos dias a pessoa que foi diagnosticada positivo pode voltar a conviver com outras pessoas que não tenha sido contaminada ??
 - devo fazer quarentena?
+- Eu estou com o covid19
+- Olá tem previsão para acabar a quarentena
+- Eu estava trabalhando aí eu parei por meu patrão  pegou o convd 19 aí a manhã fais 13 dias  aí a esposa dele mandou eu volta a trabalho mais não sei se e bom volta o que você me diz
 
 ## intent:quaratine_how_it_works
 - Como fazer a quarentena propriamente dita?
@@ -5269,6 +5556,10 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Então o vírus é de origem animal?
 - animais
 - o vírus se transmite dos animais para as pessoas?
+- Posso pegar COVID dos meus animais de estimação ?
+- Posso pegar COVID dos meus cachorros?
+- posso pegar o vídeo dos meus animais
+- Covid passa de animal para humano?
 
 ## intent:spread_feces
 - Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de uma pessoa infectada?
@@ -5439,8 +5730,21 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Igrejas tem maior risco de contaminação?
 - Qual a maior forma de contaminacao do COVID
 - Como ele se espalha
+- A Maneira Mas Fácil De Contrair?
+- Como Contrai ?
+- Como contraímos a doença?
+- A covid 19 é transmitida através   de que
+- Quais os sintomas do corona vírus? pois diz que tem vários agora!
 - Como se pega
 - E não transmite o vírus
+- Trasmisao
+- O vírus se espalha
+- Como ele se espalha
+- Meu marido testou positivo ,está com vírus ativo, posso ter pegado também?
+- Uma pessoa  com covid pode transmite  ate quantos dias
+- Quantos dias a pessoa transmite  a doença
+- Virus se espalha?
+- Mesmo eu usando máscara eu posso contrair o vírus
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -5542,6 +5846,7 @@ Mas medica pediu para repetir fiz o segundo no dia 10/ 8 deu possivo fiz tomogra
 Aí no dia 18/ 08 fiz outro exame deu possivo.
 Qual tempo certo para faze outro exame.
 Eu não estou sentindo nada"
+- Se eu tenho contato com uma pessoa com covid quanto tempo vou ter sintomas
 
 ## intent:spread_pets
 - posso ser infectado pelo meu gato?
@@ -5788,6 +6093,16 @@ Eu não estou sentindo nada"
 - Qual a eficaz do teste rápido
 - Fiz o teste
 - Gostaria de saber se tive contato com alguém com covid, qtos dias posso fazer o teste
+- Se eu preciso repetir o exame novamente depois dos 14 dias
+- Mas em três dias de contato com o infectado já consta em meu exame se peguei ou não ?ou devo esperar mais um pouco pra fazer
+- Tive contato com uma pessoa que está com covid19 ,se eu fizer o exame já consta se peguei mesmo fazendo apenas três dias do contato
+- Minha irmã teve contato com uma pessoa positiva de coronavirus, ele deve fazer o teste
+- Tenho uma duvida o teste rapido e confiavel, aquela que fura o dedo
+- Fiz o exame sorológico e deu Igm reagente ainda
+- Se eu preciso repetir o exame novamente depois dos 14 dias
+- Estou com uma pessoa infectada.... como faço pra fazer o teste?
+- Quanto tempo de sintomas é melhor para fazer o teste?
+- Como saber se estou infectada?
 
 ## intent:test_who
 - Posso fazer o teste?
@@ -5795,6 +6110,8 @@ Eu não estou sentindo nada"
 - Quem pode ser testado para coronavírus?
 - Quem pode ser testado para covid?
 - Quem pode ser testado?
+- Estou com o covid descobri a 3 dias e sou assintomática. Quantos dias vou repetir o exame para saber se ainda continuo com o vírus ativo?
+- Como saber se a pessoa ja esta curada
 
 ## intent:travel_after
 - Após o procedimento de viagem.
@@ -5877,6 +6194,7 @@ Eu não estou sentindo nada"
 - se precaver antes de viajar?
 - se precaver antes da viagem?
 - antes de fazer uma viagem
+- Gostaria de saber se já é possivel viajar a Europa apresentando um teste PC
 
 ## intent:travel_while
 - Durante a viagem.
@@ -6284,6 +6602,7 @@ Eu não estou sentindo nada"
 - Deus abençõe
 - Não obrigada
 - Vocês  tá  serto
+- Obgd beh
 
 ## intent:user_particles
 - haha
@@ -6459,6 +6778,7 @@ Eu não estou sentindo nada"
 - De novo isso
 - eu pergunto uma coisa vc me dar tchau eu não entendi nada tchau
 - Ainda mais ? Tu nem ajudou
+- Me tirem a duvida
 
 ## intent:vocative_no
 - Logico que não.
@@ -6657,6 +6977,9 @@ Eu não estou sentindo nada"
 - Tendi
 - Obg
 - Ok!
+- Obgda
+- Grato
+- Grata
 
 ## intent:vocative_yes
 - Afirmativo.
@@ -6708,6 +7031,9 @@ Eu não estou sentindo nada"
 - estou de acordo.
 - to de acordo.
 - s.
+- Eu Tbem
+- Tb Acho
+- Também acho
 
 ## intent:vocative_you_welcome
 - A qualquer momento.
@@ -7064,6 +7390,756 @@ Eu não estou sentindo nada"
 - [Argélia]{"entity": "country_code", "value": "DZ"}
 - [Equador]{"entity": "country_code", "value": "EC"}
 - [Estónia]{"entity": "country_code", "value": "EE"}
+- [European continet]{"entity": "world_region", "value": "Europe"}
+- [Europe]{"entity": "world_region", "value": "Europe"}
+- [Asia]{"entity": "world_region", "value": "Asia"}
+- [Africa]{"entity": "world_region", "value": "Africa"}
+- [America]{"entity": "world_region", "value": "America"}
+- [Oceania]{"entity": "world_region", "value": "Oceania"}
+- [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
+- [Egypt]{"entity": "country_code", "value": "EG"}
+- [nepal]{"entity": "country_code", "value": "NP"}
+- [Nepal]{"entity": "country_code", "value": "NP"}
+- [Federal Democratic Republic of Nepal]{"entity": "country_code", "value": "NP"}
+- [italy]{"entity": "country_code", "value": "IT"}
+- [Italy]{"entity": "country_code", "value": "IT"}
+- [Italia]{"entity": "country_code", "value": "IT"}
+- [guernsey]{"entity": "country_code", "value": "GG"}
+- [Guernsey]{"entity": "country_code", "value": "GG"}
+- [Guernési]{"entity": "country_code", "value": "GG"}
+- [montserrat]{"entity": "country_code", "value": "MS"}
+- [Montserrat]{"entity": "country_code", "value": "MS"}
+- [Monserrate]{"entity": "country_code", "value": "MS"}
+- [seychelles]{"entity": "country_code", "value": "SC"}
+- [Seychelles]{"entity": "country_code", "value": "SC"}
+- [Republic of Seychelles]{"entity": "country_code", "value": "SC"}
+- [aland islands]{"entity": "country_code", "value": "AX"}
+- [Åland Islands]{"entity": "country_code", "value": "AX"}
+- [Åland]{"entity": "country_code", "value": "AX"}
+- [federated states of micronesia]{"entity": "country_code", "value": "FM"}
+- [Federated States of Micronesia]{"entity": "country_code", "value": "FM"}
+- [FSM]{"entity": "country_code", "value": "FM"}
+- [guam]{"entity": "country_code", "value": "GU"}
+- [Guam]{"entity": "country_code", "value": "GU"}
+- [Guåhån]{"entity": "country_code", "value": "GU"}
+- [portugal]{"entity": "country_code", "value": "PT"}
+- [Portugal]{"entity": "country_code", "value": "PT"}
+- [Portuguese Republic]{"entity": "country_code", "value": "PT"}
+- [japan]{"entity": "country_code", "value": "JP"}
+- [Japan]{"entity": "country_code", "value": "JP"}
+- [Nippon]{"entity": "country_code", "value": "JP"}
+- [colombia]{"entity": "country_code", "value": "CO"}
+- [Colombia]{"entity": "country_code", "value": "CO"}
+- [Republic of Colombia]{"entity": "country_code", "value": "CO"}
+- [malta]{"entity": "country_code", "value": "MT"}
+- [Malta]{"entity": "country_code", "value": "MT"}
+- [Republic of Malta]{"entity": "country_code", "value": "MT"}
+- [cuba]{"entity": "country_code", "value": "CU"}
+- [Cuba]{"entity": "country_code", "value": "CU"}
+- [Republic of Cuba]{"entity": "country_code", "value": "CU"}
+- [myanmar]{"entity": "country_code", "value": "MM"}
+- [Myanmar]{"entity": "country_code", "value": "MM"}
+- [Burma]{"entity": "country_code", "value": "MM"}
+- [guadeloupe]{"entity": "country_code", "value": "GP"}
+- [Guadeloupe]{"entity": "country_code", "value": "GP"}
+- [Gwadloup]{"entity": "country_code", "value": "GP"}
+- [argentina]{"entity": "country_code", "value": "AR"}
+- [Argentina]{"entity": "country_code", "value": "AR"}
+- [Argentine Republic]{"entity": "country_code", "value": "AR"}
+- [british virgin islands]{"entity": "country_code", "value": "VG"}
+- [British Virgin Islands]{"entity": "country_code", "value": "VG"}
+- [BVI]{"entity": "country_code", "value": "VG"}
+- [luxembourg]{"entity": "country_code", "value": "LU"}
+- [Luxembourg]{"entity": "country_code", "value": "LU"}
+- [Lëtzebuerg]{"entity": "country_code", "value": "LU"}
+- [gabon]{"entity": "country_code", "value": "GA"}
+- [Gabon]{"entity": "country_code", "value": "GA"}
+- [Gabonese Republic]{"entity": "country_code", "value": "GA"}
+- [uganda]{"entity": "country_code", "value": "UG"}
+- [Uganda]{"entity": "country_code", "value": "UG"}
+- [Republic of Uganda]{"entity": "country_code", "value": "UG"}
+- [tunisia]{"entity": "country_code", "value": "TN"}
+- [Tunisia]{"entity": "country_code", "value": "TN"}
+- [Republic of Tunisia]{"entity": "country_code", "value": "TN"}
+- [puerto rico]{"entity": "country_code", "value": "PR"}
+- [Puerto Rico]{"entity": "country_code", "value": "PR"}
+- [Borinquen]{"entity": "country_code", "value": "PR"}
+- [uruguay]{"entity": "country_code", "value": "UY"}
+- [Uruguay]{"entity": "country_code", "value": "UY"}
+- [Oriental Republic of Uruguay]{"entity": "country_code", "value": "UY"}
+- [sierra leone]{"entity": "country_code", "value": "SL"}
+- [Sierra Leone]{"entity": "country_code", "value": "SL"}
+- [Republic of Sierra Leone]{"entity": "country_code", "value": "SL"}
+- [palau]{"entity": "country_code", "value": "PW"}
+- [Palau]{"entity": "country_code", "value": "PW"}
+- [Belau]{"entity": "country_code", "value": "PW"}
+- [morocco]{"entity": "country_code", "value": "MA"}
+- [Morocco]{"entity": "country_code", "value": "MA"}
+- [al-maġhrib]{"entity": "country_code", "value": "MA"}
+- [tuvalu]{"entity": "country_code", "value": "TV"}
+- [Tuvalu]{"entity": "country_code", "value": "TV"}
+- [Ellice Islands]{"entity": "country_code", "value": "TV"}
+- [qatar]{"entity": "country_code", "value": "QA"}
+- [Qatar]{"entity": "country_code", "value": "QA"}
+- [State of Qatar]{"entity": "country_code", "value": "QA"}
+- [saint pierre and miquelon]{"entity": "country_code", "value": "PM"}
+- [Saint Pierre and Miquelon]{"entity": "country_code", "value": "PM"}
+- [Saint-Pierre-et-Miquelon]{"entity": "country_code", "value": "PM"}
+- [iraq]{"entity": "country_code", "value": "IQ"}
+- [Iraq]{"entity": "country_code", "value": "IQ"}
+- [Êraq]{"entity": "country_code", "value": "IQ"}
+- [sri lanka]{"entity": "country_code", "value": "LK"}
+- [Sri Lanka]{"entity": "country_code", "value": "LK"}
+- [Srī Lankā prajātāntrika samājavādī janarajaya]{"entity": "country_code", "value": "LK"}
+- [american samoa]{"entity": "country_code", "value": "AS"}
+- [American Samoa]{"entity": "country_code", "value": "AS"}
+- [Samoa Americana]{"entity": "country_code", "value": "AS"}
+- [state of palestine]{"entity": "country_code", "value": "PS"}
+- [State of Palestine]{"entity": "country_code", "value": "PS"}
+- [Dawlat Filasṭīn]{"entity": "country_code", "value": "PS"}
+- [togo]{"entity": "country_code", "value": "TG"}
+- [Togo]{"entity": "country_code", "value": "TG"}
+- [Togolese Republic]{"entity": "country_code", "value": "TG"}
+- [oman]{"entity": "country_code", "value": "OM"}
+- [Oman]{"entity": "country_code", "value": "OM"}
+- [Salṭanat ʻUmān]{"entity": "country_code", "value": "OM"}
+- [réunion]{"entity": "country_code", "value": "RE"}
+- [Réunion]{"entity": "country_code", "value": "RE"}
+- [La Réunion]{"entity": "country_code", "value": "RE"}
+- [kuwait]{"entity": "country_code", "value": "KW"}
+- [Kuwait]{"entity": "country_code", "value": "KW"}
+- [al-Kuwait]{"entity": "country_code", "value": "KW"}
+- [paraguay]{"entity": "country_code", "value": "PY"}
+- [Paraguay]{"entity": "country_code", "value": "PY"}
+- [Republic of Paraguay]{"entity": "country_code", "value": "PY"}
+- [french polynesia]{"entity": "country_code", "value": "PF"}
+- [French Polynesia]{"entity": "country_code", "value": "PF"}
+- [Polynésie française]{"entity": "country_code", "value": "PF"}
+- [svalbard and jan mayen]{"entity": "country_code", "value": "SJ"}
+- [Svalbard and Jan Mayen]{"entity": "country_code", "value": "SJ"}
+- [Svalbard og Jan Mayen]{"entity": "country_code", "value": "SJ"}
+- [congo]{"entity": "country_code", "value": "CG"}
+- [Congo]{"entity": "country_code", "value": "CG"}
+- [République du Congo]{"entity": "country_code", "value": "CG"}
+- [thailand]{"entity": "country_code", "value": "TH"}
+- [Thailand]{"entity": "country_code", "value": "TH"}
+- [Kingdom of Thailand]{"entity": "country_code", "value": "TH"}
+- [heard island and mcdonald islands]{"entity": "country_code", "value": "HM"}
+- [Heard Island and McDonald Islands]{"entity": "country_code", "value": "HM"}
+- [HIMI]{"entity": "country_code", "value": "HM"}
+- [yemen]{"entity": "country_code", "value": "YE"}
+- [Yemen]{"entity": "country_code", "value": "YE"}
+- [al-Jumhūrīyah al-Yamanīyah]{"entity": "country_code", "value": "YE"}
+- [solomon islands]{"entity": "country_code", "value": "SB"}
+- [Solomon Islands]{"entity": "country_code", "value": "SB"}
+- [Islas Salomón]{"entity": "country_code", "value": "SB"}
+- [norway]{"entity": "country_code", "value": "NO"}
+- [Norway]{"entity": "country_code", "value": "NO"}
+- [Kingdom of Norway]{"entity": "country_code", "value": "NO"}
+- [singapore]{"entity": "country_code", "value": "SG"}
+- [Singapore]{"entity": "country_code", "value": "SG"}
+- [Republic of Singapore]{"entity": "country_code", "value": "SG"}
+- [pakistan]{"entity": "country_code", "value": "PK"}
+- [Pakistan]{"entity": "country_code", "value": "PK"}
+- [Islamic Republic of Pakistan]{"entity": "country_code", "value": "PK"}
+- [malvinas]{"entity": "country_code", "value": "FK"}
+- [Malvinas]{"entity": "country_code", "value": "FK"}
+- [Falkland]{"entity": "country_code", "value": "FK"}
+- [nauru]{"entity": "country_code", "value": "NR"}
+- [Nauru]{"entity": "country_code", "value": "NR"}
+- [Republic of Nauru]{"entity": "country_code", "value": "NR"}
+- [brazil]{"entity": "country_code", "value": "BR"}
+- [Brazil]{"entity": "country_code", "value": "BR"}
+- [Brasil]{"entity": "country_code", "value": "BR"}
+- [turkey]{"entity": "country_code", "value": "TR"}
+- [Turkey]{"entity": "country_code", "value": "TR"}
+- [Türkiye]{"entity": "country_code", "value": "TR"}
+- [marshall islands]{"entity": "country_code", "value": "MH"}
+- [Marshall Islands]{"entity": "country_code", "value": "MH"}
+- [Republic of the Marshall Islands]{"entity": "country_code", "value": "MH"}
+- [estonia]{"entity": "country_code", "value": "EE"}
+- [Estonia]{"entity": "country_code", "value": "EE"}
+- [Eesti]{"entity": "country_code", "value": "EE"}
+- [sao tome and principe]{"entity": "country_code", "value": "ST"}
+- [Sao Tome and Principe]{"entity": "country_code", "value": "ST"}
+- [Saint Thomas and Prince]{"entity": "country_code", "value": "ST"}
+- [china]{"entity": "country_code", "value": "CN"}
+- [China]{"entity": "country_code", "value": "CN"}
+- [People's Republic of China]{"entity": "country_code", "value": "CN"}
+- [philippines]{"entity": "country_code", "value": "PH"}
+- [Philippines]{"entity": "country_code", "value": "PH"}
+- [Pilipinas]{"entity": "country_code", "value": "PH"}
+- [swaziland]{"entity": "country_code", "value": "SZ"}
+- [Swaziland]{"entity": "country_code", "value": "SZ"}
+- [Eswatini]{"entity": "country_code", "value": "SZ"}
+- [croatia]{"entity": "country_code", "value": "HR"}
+- [Croatia]{"entity": "country_code", "value": "HR"}
+- [Hrvatska]{"entity": "country_code", "value": "HR"}
+- [madagascar]{"entity": "country_code", "value": "MG"}
+- [Madagascar]{"entity": "country_code", "value": "MG"}
+- [Madagasikara]{"entity": "country_code", "value": "MG"}
+- [zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [Zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [Republic of Zimbabwe]{"entity": "country_code", "value": "ZW"}
+- [uzbekistan]{"entity": "country_code", "value": "UZ"}
+- [Uzbekistan]{"entity": "country_code", "value": "UZ"}
+- [Oʻzbekiston]{"entity": "country_code", "value": "UZ"}
+- [pitcairn]{"entity": "country_code", "value": "PN"}
+- [Pitcairn]{"entity": "country_code", "value": "PN"}
+- [Pitcairn Islands]{"entity": "country_code", "value": "PN"}
+- [netherlands]{"entity": "country_code", "value": "NL"}
+- [Netherlands]{"entity": "country_code", "value": "NL"}
+- [Nederland]{"entity": "country_code", "value": "NL"}
+- [israel]{"entity": "country_code", "value": "IL"}
+- [Israel]{"entity": "country_code", "value": "IL"}
+- [State of Israel]{"entity": "country_code", "value": "IL"}
+- [ethiopia]{"entity": "country_code", "value": "ET"}
+- [Ethiopia]{"entity": "country_code", "value": "ET"}
+- [Itiyoophiyaa]{"entity": "country_code", "value": "ET"}
+- [timor-leste]{"entity": "country_code", "value": "TL"}
+- [Timor-Leste]{"entity": "country_code", "value": "TL"}
+- [República Democrática de Timor-Leste]{"entity": "country_code", "value": "TL"}
+- [u.s. virgin islands]{"entity": "country_code", "value": "VI"}
+- [U.S. Virgin Islands]{"entity": "country_code", "value": "VI"}
+- [Ilhas Virgens Americanas]{"entity": "country_code", "value": "VI"}
+- [azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [Azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [Republic of Azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [lesotho]{"entity": "country_code", "value": "LS"}
+- [Lesotho]{"entity": "country_code", "value": "LS"}
+- [Kingdom of Lesotho]{"entity": "country_code", "value": "LS"}
+- [cameroon]{"entity": "country_code", "value": "CM"}
+- [Cameroon]{"entity": "country_code", "value": "CM"}
+- [Cameroun]{"entity": "country_code", "value": "CM"}
+- [united states minor outlying islands]{"entity": "country_code", "value": "UM"}
+- [United States Minor Outlying Islands]{"entity": "country_code", "value": "UM"}
+- [Baker Island]{"entity": "country_code", "value": "UM"}
+- [zambia]{"entity": "country_code", "value": "ZM"}
+- [Zambia]{"entity": "country_code", "value": "ZM"}
+- [Republic of Zambia]{"entity": "country_code", "value": "ZM"}
+- [indonesia]{"entity": "country_code", "value": "ID"}
+- [Indonesia]{"entity": "country_code", "value": "ID"}
+- [Republic of Indonesia]{"entity": "country_code", "value": "ID"}
+- [dominican republic]{"entity": "country_code", "value": "DO"}
+- [Dominican Republic]{"entity": "country_code", "value": "DO"}
+- [República Dominicana]{"entity": "country_code", "value": "DO"}
+- [senegal]{"entity": "country_code", "value": "SN"}
+- [Senegal]{"entity": "country_code", "value": "SN"}
+- [Sénégal]{"entity": "country_code", "value": "SN"}
+- [antigua and barbuda]{"entity": "country_code", "value": "AG"}
+- [Antigua and Barbuda]{"entity": "country_code", "value": "AG"}
+- [Antigua]{"entity": "country_code", "value": "AG"}
+- [belgium]{"entity": "country_code", "value": "BE"}
+- [Belgium]{"entity": "country_code", "value": "BE"}
+- [Kingdom of Belgium]{"entity": "country_code", "value": "BE"}
+- [jamaica]{"entity": "country_code", "value": "JM"}
+- [Jamaica]{"entity": "country_code", "value": "JM"}
+- [Jumieka]{"entity": "country_code", "value": "JM"}
+- [spain]{"entity": "country_code", "value": "ES"}
+- [Spain]{"entity": "country_code", "value": "ES"}
+- [España]{"entity": "country_code", "value": "ES"}
+- [benin]{"entity": "country_code", "value": "BJ"}
+- [Benin]{"entity": "country_code", "value": "BJ"}
+- [Republic of Benin]{"entity": "country_code", "value": "BJ"}
+- [bermuda]{"entity": "country_code", "value": "BM"}
+- [Bermuda]{"entity": "country_code", "value": "BM"}
+- [Islands of Bermuda]{"entity": "country_code", "value": "BM"}
+- [sudan]{"entity": "country_code", "value": "SD"}
+- [Sudan]{"entity": "country_code", "value": "SD"}
+- [Republic of the Sudan]{"entity": "country_code", "value": "SD"}
+- [albania]{"entity": "country_code", "value": "AL"}
+- [Albania]{"entity": "country_code", "value": "AL"}
+- [Republic of Albania]{"entity": "country_code", "value": "AL"}
+- [suriname]{"entity": "country_code", "value": "SR"}
+- [Suriname]{"entity": "country_code", "value": "SR"}
+- [Surinam]{"entity": "country_code", "value": "SR"}
+- [india]{"entity": "country_code", "value": "IN"}
+- [India]{"entity": "country_code", "value": "IN"}
+- [Bhārat]{"entity": "country_code", "value": "IN"}
+- [bangladesh]{"entity": "country_code", "value": "BD"}
+- [Bangladesh]{"entity": "country_code", "value": "BD"}
+- [country of Bengal]{"entity": "country_code", "value": "BD"}
+- [ukraine]{"entity": "country_code", "value": "UA"}
+- [Ukraine]{"entity": "country_code", "value": "UA"}
+- [Ukrayina]{"entity": "country_code", "value": "UA"}
+- [cayman islands]{"entity": "country_code", "value": "KY"}
+- [Cayman Islands]{"entity": "country_code", "value": "KY"}
+- [Ilhas Caimã]{"entity": "country_code", "value": "KY"}
+- [montenegro]{"entity": "country_code", "value": "ME"}
+- [Montenegro]{"entity": "country_code", "value": "ME"}
+- [Crna Gora]{"entity": "country_code", "value": "ME"}
+- [equatorial guinea]{"entity": "country_code", "value": "GQ"}
+- [Equatorial Guinea]{"entity": "country_code", "value": "GQ"}
+- [Guinea Ecuatorial]{"entity": "country_code", "value": "GQ"}
+- [united states]{"entity": "country_code", "value": "US"}
+- [United States]{"entity": "country_code", "value": "US"}
+- [United States of America]{"entity": "country_code", "value": "US"}
+- [islamic republic of iran]{"entity": "country_code", "value": "IR"}
+- [Islamic Republic of Iran]{"entity": "country_code", "value": "IR"}
+- [Persia]{"entity": "country_code", "value": "IR"}
+- [slovakia]{"entity": "country_code", "value": "SK"}
+- [Slovakia]{"entity": "country_code", "value": "SK"}
+- [Slovensko]{"entity": "country_code", "value": "SK"}
+- [bhutan]{"entity": "country_code", "value": "BT"}
+- [Bhutan]{"entity": "country_code", "value": "BT"}
+- [Kingdom of Bhutan]{"entity": "country_code", "value": "BT"}
+- [austria]{"entity": "country_code", "value": "AT"}
+- [Austria]{"entity": "country_code", "value": "AT"}
+- [Republic of Austria]{"entity": "country_code", "value": "AT"}
+- [south korea]{"entity": "country_code", "value": "KR"}
+- [South Korea]{"entity": "country_code", "value": "KR"}
+- [Republic of Korea]{"entity": "country_code", "value": "KR"}
+- [saint helena, ascension and tristan da cunha]{"entity": "country_code", "value": "SH"}
+- [Saint Helena, Ascension and Tristan da Cunha]{"entity": "country_code", "value": "SH"}
+- [Saint Helena]{"entity": "country_code", "value": "SH"}
+- [laos]{"entity": "country_code", "value": "LA"}
+- [Laos]{"entity": "country_code", "value": "LA"}
+- [Lao People's Democratic Republic]{"entity": "country_code", "value": "LA"}
+- [somalia]{"entity": "country_code", "value": "SO"}
+- [Somalia]{"entity": "country_code", "value": "SO"}
+- [Soomaaliya]{"entity": "country_code", "value": "SO"}
+- [romania]{"entity": "country_code", "value": "RO"}
+- [Romania]{"entity": "country_code", "value": "RO"}
+- [România]{"entity": "country_code", "value": "RO"}
+- [guyana]{"entity": "country_code", "value": "GY"}
+- [Guyana]{"entity": "country_code", "value": "GY"}
+- [Co-operative Republic of Guyana]{"entity": "country_code", "value": "GY"}
+- [france]{"entity": "country_code", "value": "FR"}
+- [France]{"entity": "country_code", "value": "FR"}
+- [French Republic]{"entity": "country_code", "value": "FR"}
+- [liberia]{"entity": "country_code", "value": "LR"}
+- [Liberia]{"entity": "country_code", "value": "LR"}
+- [Republic of Liberia]{"entity": "country_code", "value": "LR"}
+- [russia]{"entity": "country_code", "value": "RU"}
+- [Russia]{"entity": "country_code", "value": "RU"}
+- [Russian Federation]{"entity": "country_code", "value": "RU"}
+- [tanzania]{"entity": "country_code", "value": "TZ"}
+- [Tanzania]{"entity": "country_code", "value": "TZ"}
+- [United Republic of Tanzania]{"entity": "country_code", "value": "TZ"}
+- [united arab emirates]{"entity": "country_code", "value": "AE"}
+- [United Arab Emirates]{"entity": "country_code", "value": "AE"}
+- [al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah]{"entity": "country_code", "value": "AE"}
+- [antarctica]{"entity": "country_code", "value": "AQ"}
+- [Antarctica]{"entity": "country_code", "value": "AQ"}
+- [Antártida]{"entity": "country_code", "value": "AQ"}
+- [cocos islands]{"entity": "country_code", "value": "CC"}
+- [Cocos Islands]{"entity": "country_code", "value": "CC"}
+- [Cocos Keeling Islands]{"entity": "country_code", "value": "CC"}
+- [brunei darussalam]{"entity": "country_code", "value": "BN"}
+- [Brunei Darussalam]{"entity": "country_code", "value": "BN"}
+- [Brunei]{"entity": "country_code", "value": "BN"}
+- [saint kitts and nevis]{"entity": "country_code", "value": "KN"}
+- [Saint Kitts and Nevis]{"entity": "country_code", "value": "KN"}
+- [Federation of Saint Christopher and Nevis]{"entity": "country_code", "value": "KN"}
+- [burkina faso]{"entity": "country_code", "value": "BF"}
+- [Burkina Faso]{"entity": "country_code", "value": "BF"}
+- [Republic of Burkina Faso]{"entity": "country_code", "value": "BF"}
+- [cyprus]{"entity": "country_code", "value": "CY"}
+- [Cyprus]{"entity": "country_code", "value": "CY"}
+- [Κύπρος]{"entity": "country_code", "value": "CY"}
+- [afghanistan]{"entity": "country_code", "value": "AF"}
+- [Afghanistan]{"entity": "country_code", "value": "AF"}
+- [Islamic Republic of Afghanistan]{"entity": "country_code", "value": "AF"}
+- [kiribati]{"entity": "country_code", "value": "KI"}
+- [Kiribati]{"entity": "country_code", "value": "KI"}
+- [Republic of Kiribati]{"entity": "country_code", "value": "KI"}
+- [grenada]{"entity": "country_code", "value": "GD"}
+- [Grenada]{"entity": "country_code", "value": "GD"}
+- [Gwenad]{"entity": "country_code", "value": "GD"}
+- [costa rica]{"entity": "country_code", "value": "CR"}
+- [Costa Rica]{"entity": "country_code", "value": "CR"}
+- [Republic of Costa Rica]{"entity": "country_code", "value": "CR"}
+- [french guiana]{"entity": "country_code", "value": "GF"}
+- [French Guiana]{"entity": "country_code", "value": "GF"}
+- [Guyane]{"entity": "country_code", "value": "GF"}
+- [curaçao]{"entity": "country_code", "value": "CW"}
+- [Curaçao]{"entity": "country_code", "value": "CW"}
+- [Kòrsou]{"entity": "country_code", "value": "CW"}
+- [georgia]{"entity": "country_code", "value": "GE"}
+- [Georgia]{"entity": "country_code", "value": "GE"}
+- [Republic of Georgia]{"entity": "country_code", "value": "GE"}
+- [kazakhstan]{"entity": "country_code", "value": "KZ"}
+- [Kazakhstan]{"entity": "country_code", "value": "KZ"}
+- [Republic of Kazakhstan]{"entity": "country_code", "value": "KZ"}
+- [turks and caicos islands]{"entity": "country_code", "value": "TC"}
+- [Turks and Caicos Islands]{"entity": "country_code", "value": "TC"}
+- [TCI]{"entity": "country_code", "value": "TC"}
+- [kyrgyzstan]{"entity": "country_code", "value": "KG"}
+- [Kyrgyzstan]{"entity": "country_code", "value": "KG"}
+- [Kyrgyz Republic]{"entity": "country_code", "value": "KG"}
+- [mali]{"entity": "country_code", "value": "ML"}
+- [Mali]{"entity": "country_code", "value": "ML"}
+- [Republic of Mali]{"entity": "country_code", "value": "ML"}
+- [fiji]{"entity": "country_code", "value": "FJ"}
+- [Fiji]{"entity": "country_code", "value": "FJ"}
+- [Republic of Fiji]{"entity": "country_code", "value": "FJ"}
+- [uk]{"entity": "country_code", "value": "GB"}
+- [united kingdom]{"entity": "country_code", "value": "GB"}
+- [United Kingdom]{"entity": "country_code", "value": "GB"}
+- [United Kingdom of Great Britain and Northern Ireland]{"entity": "country_code", "value": "GB"}
+- [dominica]{"entity": "country_code", "value": "DM"}
+- [Dominica]{"entity": "country_code", "value": "DM"}
+- [Dominique]{"entity": "country_code", "value": "DM"}
+- [comoros]{"entity": "country_code", "value": "KM"}
+- [Comoros]{"entity": "country_code", "value": "KM"}
+- [Union of the Comoros]{"entity": "country_code", "value": "KM"}
+- [mauritius]{"entity": "country_code", "value": "MU"}
+- [Mauritius]{"entity": "country_code", "value": "MU"}
+- [Maurice]{"entity": "country_code", "value": "MU"}
+- [guinea]{"entity": "country_code", "value": "GN"}
+- [Guinea]{"entity": "country_code", "value": "GN"}
+- [Republic of Guinea]{"entity": "country_code", "value": "GN"}
+- [trinidad and tobago]{"entity": "country_code", "value": "TT"}
+- [Trinidad and Tobago]{"entity": "country_code", "value": "TT"}
+- [Republic of Trinidad and Tobago]{"entity": "country_code", "value": "TT"}
+- [serbia]{"entity": "country_code", "value": "RS"}
+- [Serbia]{"entity": "country_code", "value": "RS"}
+- [Србија]{"entity": "country_code", "value": "RS"}
+- [greenland]{"entity": "country_code", "value": "GL"}
+- [Greenland]{"entity": "country_code", "value": "GL"}
+- [Kalaallit Nunaat]{"entity": "country_code", "value": "GL"}
+- [poland]{"entity": "country_code", "value": "PL"}
+- [Poland]{"entity": "country_code", "value": "PL"}
+- [Polska]{"entity": "country_code", "value": "PL"}
+- [tajikistan]{"entity": "country_code", "value": "TJ"}
+- [Tajikistan]{"entity": "country_code", "value": "TJ"}
+- [Republic of Tajikistan]{"entity": "country_code", "value": "TJ"}
+- [cambodia]{"entity": "country_code", "value": "KH"}
+- [Cambodia]{"entity": "country_code", "value": "KH"}
+- [Kampuchea]{"entity": "country_code", "value": "KH"}
+- [botswana]{"entity": "country_code", "value": "BW"}
+- [Botswana]{"entity": "country_code", "value": "BW"}
+- [Republic of Botswana]{"entity": "country_code", "value": "BW"}
+- [wallis and futuna]{"entity": "country_code", "value": "WF"}
+- [Wallis and Futuna]{"entity": "country_code", "value": "WF"}
+- [Territory of the Wallis and Futuna Islands]{"entity": "country_code", "value": "WF"}
+- [latvia]{"entity": "country_code", "value": "LV"}
+- [Latvia]{"entity": "country_code", "value": "LV"}
+- [Latvija]{"entity": "country_code", "value": "LV"}
+- [kenya]{"entity": "country_code", "value": "KE"}
+- [Kenya]{"entity": "country_code", "value": "KE"}
+- [Republic of Kenya]{"entity": "country_code", "value": "KE"}
+- [saint lucia]{"entity": "country_code", "value": "LC"}
+- [Saint Lucia]{"entity": "country_code", "value": "LC"}
+- [Sainte-Lucie]{"entity": "country_code", "value": "LC"}
+- [el salvador]{"entity": "country_code", "value": "SV"}
+- [El Salvador]{"entity": "country_code", "value": "SV"}
+- [Republic of El Salvador]{"entity": "country_code", "value": "SV"}
+- [taiwan]{"entity": "country_code", "value": "TW"}
+- [Taiwan]{"entity": "country_code", "value": "TW"}
+- [Taiwan, Province of China]{"entity": "country_code", "value": "TW"}
+- [ecuador]{"entity": "country_code", "value": "EC"}
+- [Ecuador]{"entity": "country_code", "value": "EC"}
+- [Ikwayur]{"entity": "country_code", "value": "EC"}
+- [angola]{"entity": "country_code", "value": "AO"}
+- [Angola]{"entity": "country_code", "value": "AO"}
+- [Republic of Angola]{"entity": "country_code", "value": "AO"}
+- [belize]{"entity": "country_code", "value": "BZ"}
+- [Belize]{"entity": "country_code", "value": "BZ"}
+- [syria]{"entity": "country_code", "value": "SY"}
+- [Syria]{"entity": "country_code", "value": "SY"}
+- [Syrian Arab Republic]{"entity": "country_code", "value": "SY"}
+- [jordan]{"entity": "country_code", "value": "JO"}
+- [Jordan]{"entity": "country_code", "value": "JO"}
+- [Hashemite Kingdom of Jordan]{"entity": "country_code", "value": "JO"}
+- [haiti]{"entity": "country_code", "value": "HT"}
+- [Haiti]{"entity": "country_code", "value": "HT"}
+- [Haïti]{"entity": "country_code", "value": "HT"}
+- [chad]{"entity": "country_code", "value": "TD"}
+- [Chad]{"entity": "country_code", "value": "TD"}
+- [Tshād]{"entity": "country_code", "value": "TD"}
+- [jersey]{"entity": "country_code", "value": "JE"}
+- [Jersey]{"entity": "country_code", "value": "JE"}
+- [Bailiwick of Jersey]{"entity": "country_code", "value": "JE"}
+- [vanuatu]{"entity": "country_code", "value": "VU"}
+- [Vanuatu]{"entity": "country_code", "value": "VU"}
+- [Republic of Vanuatu]{"entity": "country_code", "value": "VU"}
+- [central african republic]{"entity": "country_code", "value": "CF"}
+- [Central African Republic]{"entity": "country_code", "value": "CF"}
+- [République centrafricaine]{"entity": "country_code", "value": "CF"}
+- [faroe islands]{"entity": "country_code", "value": "FO"}
+- [Faroe Islands]{"entity": "country_code", "value": "FO"}
+- [Føroyar]{"entity": "country_code", "value": "FO"}
+- [egypt]{"entity": "country_code", "value": "EG"}
+- [Egypt]{"entity": "country_code", "value": "EG"}
+- [Arab Republic of Egypt]{"entity": "country_code", "value": "EG"}
+- [martinique]{"entity": "country_code", "value": "MQ"}
+- [Martinique]{"entity": "country_code", "value": "MQ"}
+- [Matnik]{"entity": "country_code", "value": "MQ"}
+- [czech republic]{"entity": "country_code", "value": "CZ"}
+- [Czech Republic]{"entity": "country_code", "value": "CZ"}
+- [Česká republika]{"entity": "country_code", "value": "CZ"}
+- [rwanda]{"entity": "country_code", "value": "RW"}
+- [Rwanda]{"entity": "country_code", "value": "RW"}
+- [Republic of Rwanda]{"entity": "country_code", "value": "RW"}
+- [armenia]{"entity": "country_code", "value": "AM"}
+- [Armenia]{"entity": "country_code", "value": "AM"}
+- [Republic of Armenia]{"entity": "country_code", "value": "AM"}
+- [rd congo]{"entity": "country_code", "value": "CD"}
+- [RD Congo]{"entity": "country_code", "value": "CD"}
+- [Democratic Republic of the Congo]{"entity": "country_code", "value": "CD"}
+- [christmas island]{"entity": "country_code", "value": "CX"}
+- [Christmas Island]{"entity": "country_code", "value": "CX"}
+- [Territory of Christmas Island]{"entity": "country_code", "value": "CX"}
+- [namibia]{"entity": "country_code", "value": "NA"}
+- [Namibia]{"entity": "country_code", "value": "NA"}
+- [Republic of Namibia]{"entity": "country_code", "value": "NA"}
+- [turkmenistan]{"entity": "country_code", "value": "TM"}
+- [Turkmenistan]{"entity": "country_code", "value": "TM"}
+- [Türkmenistan]{"entity": "country_code", "value": "TM"}
+- [saint barthélemy]{"entity": "country_code", "value": "BL"}
+- [Saint Barthélemy]{"entity": "country_code", "value": "BL"}
+- [Saint-Barthélemy]{"entity": "country_code", "value": "BL"}
+- [guinea-bissau]{"entity": "country_code", "value": "GW"}
+- [Guinea-Bissau]{"entity": "country_code", "value": "GW"}
+- [Guiné-Bissau]{"entity": "country_code", "value": "GW"}
+- [niue]{"entity": "country_code", "value": "NU"}
+- [Niue]{"entity": "country_code", "value": "NU"}
+- [Niuē]{"entity": "country_code", "value": "NU"}
+- [hong kong]{"entity": "country_code", "value": "HK"}
+- [Hong Kong]{"entity": "country_code", "value": "HK"}
+- [Hong Kong Special Administrative Region]{"entity": "country_code", "value": "HK"}
+- [algeria]{"entity": "country_code", "value": "DZ"}
+- [Algeria]{"entity": "country_code", "value": "DZ"}
+- [Democratic Republic of Algeria]{"entity": "country_code", "value": "DZ"}
+- [slovenia]{"entity": "country_code", "value": "SI"}
+- [Slovenia]{"entity": "country_code", "value": "SI"}
+- [Slovenija]{"entity": "country_code", "value": "SI"}
+- [new zealand]{"entity": "country_code", "value": "NZ"}
+- [New Zealand]{"entity": "country_code", "value": "NZ"}
+- [Aotearoa]{"entity": "country_code", "value": "NZ"}
+- [maldives]{"entity": "country_code", "value": "MV"}
+- [Maldives]{"entity": "country_code", "value": "MV"}
+- [Republic of Maldives]{"entity": "country_code", "value": "MV"}
+- [hagere ertra]{"entity": "country_code", "value": "ER"}
+- [Hagere Ertra]{"entity": "country_code", "value": "ER"}
+- [Dawlat Iritriyá]{"entity": "country_code", "value": "ER"}
+- [finland]{"entity": "country_code", "value": "FI"}
+- [Finland]{"entity": "country_code", "value": "FI"}
+- [Suomi]{"entity": "country_code", "value": "FI"}
+- [ireland]{"entity": "country_code", "value": "IE"}
+- [Ireland]{"entity": "country_code", "value": "IE"}
+- [Éire]{"entity": "country_code", "value": "IE"}
+- [sint maarten dutch part]{"entity": "country_code", "value": "SX"}
+- [Sint Maarten Dutch part]{"entity": "country_code", "value": "SX"}
+- [São Martinho paises baixos]{"entity": "country_code", "value": "SX"}
+- [south georgia and the south sandwich islands]{"entity": "country_code", "value": "GS"}
+- [South Georgia and the South Sandwich Islands]{"entity": "country_code", "value": "GS"}
+- [SGSSI]{"entity": "country_code", "value": "GS"}
+- [aruba]{"entity": "country_code", "value": "AW"}
+- [Aruba]{"entity": "country_code", "value": "AW"}
+- [niger]{"entity": "country_code", "value": "NE"}
+- [Niger]{"entity": "country_code", "value": "NE"}
+- [the Niger]{"entity": "country_code", "value": "NE"}
+- [anguilla]{"entity": "country_code", "value": "AI"}
+- [Anguilla]{"entity": "country_code", "value": "AI"}
+- [Island of Anguilla]{"entity": "country_code", "value": "AI"}
+- [cook islands]{"entity": "country_code", "value": "CK"}
+- [Cook Islands]{"entity": "country_code", "value": "CK"}
+- [Kūki 'Āirani]{"entity": "country_code", "value": "CK"}
+- [south sudan]{"entity": "country_code", "value": "SS"}
+- [South Sudan]{"entity": "country_code", "value": "SS"}
+- [Republic of South Sudan]{"entity": "country_code", "value": "SS"}
+- [vietnam]{"entity": "country_code", "value": "VN"}
+- [Vietnam]{"entity": "country_code", "value": "VN"}
+- [Viet Nam]{"entity": "country_code", "value": "VN"}
+- [moldova]{"entity": "country_code", "value": "MD"}
+- [Moldova]{"entity": "country_code", "value": "MD"}
+- [Republic of Moldova]{"entity": "country_code", "value": "MD"}
+- [lithuania]{"entity": "country_code", "value": "LT"}
+- [Lithuania]{"entity": "country_code", "value": "LT"}
+- [Lietuva]{"entity": "country_code", "value": "LT"}
+- [tokelau]{"entity": "country_code", "value": "TK"}
+- [Tokelau]{"entity": "country_code", "value": "TK"}
+- [Union Islands]{"entity": "country_code", "value": "TK"}
+- [british indian ocean territory]{"entity": "country_code", "value": "IO"}
+- [British Indian Ocean Territory]{"entity": "country_code", "value": "IO"}
+- [BIOT]{"entity": "country_code", "value": "IO"}
+- [bulgaria]{"entity": "country_code", "value": "BG"}
+- [Bulgaria]{"entity": "country_code", "value": "BG"}
+- [Balgariya]{"entity": "country_code", "value": "BG"}
+- [nigeria]{"entity": "country_code", "value": "NG"}
+- [Nigeria]{"entity": "country_code", "value": "NG"}
+- [Federal Republic of Nigeria]{"entity": "country_code", "value": "NG"}
+- [honduras]{"entity": "country_code", "value": "HN"}
+- [Honduras]{"entity": "country_code", "value": "HN"}
+- [Republic of Honduras]{"entity": "country_code", "value": "HN"}
+- [andorra]{"entity": "country_code", "value": "AD"}
+- [Andorra]{"entity": "country_code", "value": "AD"}
+- [Principality of Andorra]{"entity": "country_code", "value": "AD"}
+- [greece]{"entity": "country_code", "value": "GR"}
+- [Greece]{"entity": "country_code", "value": "GR"}
+- [Hellenic Republic]{"entity": "country_code", "value": "GR"}
+- [belarus]{"entity": "country_code", "value": "BY"}
+- [Belarus]{"entity": "country_code", "value": "BY"}
+- [Republic of Belarus]{"entity": "country_code", "value": "BY"}
+- [saint vincent]{"entity": "country_code", "value": "VC"}
+- [Saint Vincent]{"entity": "country_code", "value": "VC"}
+- [Saint Vincent and the Grenadines]{"entity": "country_code", "value": "VC"}
+- [sweden]{"entity": "country_code", "value": "SE"}
+- [Sweden]{"entity": "country_code", "value": "SE"}
+- [Sverige]{"entity": "country_code", "value": "SE"}
+- [guatemala]{"entity": "country_code", "value": "GT"}
+- [Guatemala]{"entity": "country_code", "value": "GT"}
+- [Republic of Guatemala]{"entity": "country_code", "value": "GT"}
+- [san marino]{"entity": "country_code", "value": "SM"}
+- [San Marino]{"entity": "country_code", "value": "SM"}
+- [Republic of San Marino]{"entity": "country_code", "value": "SM"}
+- [macao]{"entity": "country_code", "value": "MO"}
+- [Macao]{"entity": "country_code", "value": "MO"}
+- [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
+- [mozambique]{"entity": "country_code", "value": "MZ"}
+- [Mozambique]{"entity": "country_code", "value": "MZ"}
+- [Republic of Mozambique]{"entity": "country_code", "value": "MZ"}
+- [lebanon]{"entity": "country_code", "value": "LB"}
+- [Lebanon]{"entity": "country_code", "value": "LB"}
+- [Lubnān]{"entity": "country_code", "value": "LB"}
+- [bahamas]{"entity": "country_code", "value": "BS"}
+- [Bahamas]{"entity": "country_code", "value": "BS"}
+- [Commonwealth of The Bahamas]{"entity": "country_code", "value": "BS"}
+- [saudi arabia]{"entity": "country_code", "value": "SA"}
+- [Saudi Arabia]{"entity": "country_code", "value": "SA"}
+- [Kingdom of Saudi Arabia]{"entity": "country_code", "value": "SA"}
+- [barbados]{"entity": "country_code", "value": "BB"}
+- [Barbados]{"entity": "country_code", "value": "BB"}
+- [macedonia]{"entity": "country_code", "value": "MK"}
+- [Macedonia]{"entity": "country_code", "value": "MK"}
+- [North Macedonia]{"entity": "country_code", "value": "MK"}
+- [samoa]{"entity": "country_code", "value": "WS"}
+- [Samoa]{"entity": "country_code", "value": "WS"}
+- [Independent State of Samoa]{"entity": "country_code", "value": "WS"}
+- [chile]{"entity": "country_code", "value": "CL"}
+- [Chile]{"entity": "country_code", "value": "CL"}
+- [Republic of Chile]{"entity": "country_code", "value": "CL"}
+- [iceland]{"entity": "country_code", "value": "IS"}
+- [Iceland]{"entity": "country_code", "value": "IS"}
+- [Ísland]{"entity": "country_code", "value": "IS"}
+- [gambia]{"entity": "country_code", "value": "GM"}
+- [Gambia]{"entity": "country_code", "value": "GM"}
+- [Kambiya]{"entity": "country_code", "value": "GM"}
+- [liechtenstein]{"entity": "country_code", "value": "LI"}
+- [Liechtenstein]{"entity": "country_code", "value": "LI"}
+- [Principality of Liechtenstein]{"entity": "country_code", "value": "LI"}
+- [south africa]{"entity": "country_code", "value": "ZA"}
+- [South Africa]{"entity": "country_code", "value": "ZA"}
+- [Republic of South Africa]{"entity": "country_code", "value": "ZA"}
+- [saint martin french part]{"entity": "country_code", "value": "MF"}
+- [Saint Martin French part]{"entity": "country_code", "value": "MF"}
+- [Saint-Martin]{"entity": "country_code", "value": "MF"}
+- [mayotte]{"entity": "country_code", "value": "YT"}
+- [Mayotte]{"entity": "country_code", "value": "YT"}
+- [Maore]{"entity": "country_code", "value": "YT"}
+- [bonaire, sint eustatius and saba]{"entity": "country_code", "value": "BQ"}
+- [Bonaire, Sint Eustatius and Saba]{"entity": "country_code", "value": "BQ"}
+- [Bonaire]{"entity": "country_code", "value": "BQ"}
+- [isle of man]{"entity": "country_code", "value": "IM"}
+- [Isle of Man]{"entity": "country_code", "value": "IM"}
+- [Mann]{"entity": "country_code", "value": "IM"}
+- [mexico]{"entity": "country_code", "value": "MX"}
+- [Mexico]{"entity": "country_code", "value": "MX"}
+- [México]{"entity": "country_code", "value": "MX"}
+- [plurinational state of bolivia]{"entity": "country_code", "value": "BO"}
+- [Plurinational State of Bolivia]{"entity": "country_code", "value": "BO"}
+- [Bolivia]{"entity": "country_code", "value": "BO"}
+- [australia]{"entity": "country_code", "value": "AU"}
+- [Australia]{"entity": "country_code", "value": "AU"}
+- [Commonwealth of Australia]{"entity": "country_code", "value": "AU"}
+- [nyasaland]{"entity": "country_code", "value": "MW"}
+- [Nyasaland]{"entity": "country_code", "value": "MW"}
+- [Maláui]{"entity": "country_code", "value": "MW"}
+- [côte d'ivoire]{"entity": "country_code", "value": "CI"}
+- [Côte d'Ivoire]{"entity": "country_code", "value": "CI"}
+- [Ivory Coast]{"entity": "country_code", "value": "CI"}
+- [western sahara]{"entity": "country_code", "value": "EH"}
+- [Western Sahara]{"entity": "country_code", "value": "EH"}
+- [Taneẓroft Tutrimt]{"entity": "country_code", "value": "EH"}
+- [norfolk island]{"entity": "country_code", "value": "NF"}
+- [Norfolk Island]{"entity": "country_code", "value": "NF"}
+- [Norf'k Ailen]{"entity": "country_code", "value": "NF"}
+- [switzerland]{"entity": "country_code", "value": "CH"}
+- [Switzerland]{"entity": "country_code", "value": "CH"}
+- [Swiss Confederation]{"entity": "country_code", "value": "CH"}
+- [bouvet]{"entity": "country_code", "value": "BV"}
+- [Bouvet]{"entity": "country_code", "value": "BV"}
+- [Bouvet Island]{"entity": "country_code", "value": "BV"}
+- [canada]{"entity": "country_code", "value": "CA"}
+- [Canada]{"entity": "country_code", "value": "CA"}
+- [Canadá]{"entity": "country_code", "value": "CA"}
+- [papua new guinea]{"entity": "country_code", "value": "PG"}
+- [Papua New Guinea]{"entity": "country_code", "value": "PG"}
+- [PNG]{"entity": "country_code", "value": "PG"}
+- [venezuela]{"entity": "country_code", "value": "VE"}
+- [Venezuela]{"entity": "country_code", "value": "VE"}
+- [Bolivarian Republic of Venezuela]{"entity": "country_code", "value": "VE"}
+- [ghana]{"entity": "country_code", "value": "GH"}
+- [Ghana]{"entity": "country_code", "value": "GH"}
+- [Republic of Ghana]{"entity": "country_code", "value": "GH"}
+- [panama]{"entity": "country_code", "value": "PA"}
+- [Panama]{"entity": "country_code", "value": "PA"}
+- [Panamá]{"entity": "country_code", "value": "PA"}
+- [territoire d'outre-mer]{"entity": "country_code", "value": "TF"}
+- [Territoire d'outre-mer]{"entity": "country_code", "value": "TF"}
+- [TOM]{"entity": "country_code", "value": "TF"}
+- [mongolia]{"entity": "country_code", "value": "MN"}
+- [Mongolia]{"entity": "country_code", "value": "MN"}
+- [nação mongol]{"entity": "country_code", "value": "MN"}
+- [democratic people's republic of korea]{"entity": "country_code", "value": "KP"}
+- [Democratic People's Republic of Korea]{"entity": "country_code", "value": "KP"}
+- [North Korea]{"entity": "country_code", "value": "KP"}
+- [hungary]{"entity": "country_code", "value": "HU"}
+- [Hungary]{"entity": "country_code", "value": "HU"}
+- [Magyarország]{"entity": "country_code", "value": "HU"}
+- [denmark]{"entity": "country_code", "value": "DK"}
+- [Denmark]{"entity": "country_code", "value": "DK"}
+- [Danmark]{"entity": "country_code", "value": "DK"}
+- [bahrain]{"entity": "country_code", "value": "BH"}
+- [Bahrain]{"entity": "country_code", "value": "BH"}
+- [Al-Baḥrayn]{"entity": "country_code", "value": "BH"}
+- [gibraltar]{"entity": "country_code", "value": "GI"}
+- [Gibraltar]{"entity": "country_code", "value": "GI"}
+- [germany]{"entity": "country_code", "value": "DE"}
+- [Germany]{"entity": "country_code", "value": "DE"}
+- [Deutschland]{"entity": "country_code", "value": "DE"}
+- [bosnia and herzegovina]{"entity": "country_code", "value": "BA"}
+- [Bosnia and Herzegovina]{"entity": "country_code", "value": "BA"}
+- [BiH]{"entity": "country_code", "value": "BA"}
+- [libya]{"entity": "country_code", "value": "LY"}
+- [Libya]{"entity": "country_code", "value": "LY"}
+- [Lībiyā]{"entity": "country_code", "value": "LY"}
+- [malaysia]{"entity": "country_code", "value": "MY"}
+- [Malaysia]{"entity": "country_code", "value": "MY"}
+- [Malásia]{"entity": "country_code", "value": "MY"}
+- [monaco]{"entity": "country_code", "value": "MC"}
+- [Monaco]{"entity": "country_code", "value": "MC"}
+- [Principality of Monaco]{"entity": "country_code", "value": "MC"}
+- [new caledonia]{"entity": "country_code", "value": "NC"}
+- [New Caledonia]{"entity": "country_code", "value": "NC"}
+- [Nouvelle-Calédonie]{"entity": "country_code", "value": "NC"}
+- [cape verde]{"entity": "country_code", "value": "CV"}
+- [Cape Verde]{"entity": "country_code", "value": "CV"}
+- [Cabo Verde]{"entity": "country_code", "value": "CV"}
+- [tonga]{"entity": "country_code", "value": "TO"}
+- [Tonga]{"entity": "country_code", "value": "TO"}
+- [Kingdom of Tonga]{"entity": "country_code", "value": "TO"}
+- [vatican city]{"entity": "country_code", "value": "VA"}
+- [Holy See]{"entity": "country_code", "value": "VA"}
+- [Vatican City State]{"entity": "country_code", "value": "VA"}
+- [Sancta Sedes]{"entity": "country_code", "value": "VA"}
+- [nicaragua]{"entity": "country_code", "value": "NI"}
+- [Nicaragua]{"entity": "country_code", "value": "NI"}
+- [Republic of Nicaragua]{"entity": "country_code", "value": "NI"}
+- [djibouti]{"entity": "country_code", "value": "DJ"}
+- [Djibouti]{"entity": "country_code", "value": "DJ"}
+- [Yibuuti]{"entity": "country_code", "value": "DJ"}
+- [peru]{"entity": "country_code", "value": "PE"}
+- [Peru]{"entity": "country_code", "value": "PE"}
+- [Perú]{"entity": "country_code", "value": "PE"}
+- [northern mariana islands]{"entity": "country_code", "value": "MP"}
+- [Northern Mariana Islands]{"entity": "country_code", "value": "MP"}
+- [Commonwealth of the Northern Mariana Islands]{"entity": "country_code", "value": "MP"}
+- [burundi]{"entity": "country_code", "value": "BI"}
+- [Burundi]{"entity": "country_code", "value": "BI"}
+- [Republic of Burundi]{"entity": "country_code", "value": "BI"}
 - [European continet]{"entity": "world_region", "value": "Europe"}
 - [Europe]{"entity": "world_region", "value": "Europe"}
 - [Asia]{"entity": "world_region", "value": "Asia"}
@@ -8947,6 +10023,8 @@ Eu não estou sentindo nada"
 - Federative Republic of Brazil
 - Brasil
 - Brazil
+- brasil
+- brazil
 
 ## synonym:BS
 - Comunidade das Bahamas
@@ -10051,7 +11129,6 @@ Eu não estou sentindo nada"
 - Witten
 - Düsseldorf
 - Dusseldorf
-- Bahamas
 - Wissen
 - Frankfurt
 - Munich
