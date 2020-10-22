@@ -43,9 +43,27 @@
   - utter_covid_china_vacina
 
 ## covid_situation_region
-* covid_situation_region
-  - action_search_stats_region
+* covid_situation_region{"country_region": "Nordeste"}
+    - slot{"country_region": "Nordeste"}
+    - action_search_stats_region
+    - slot{"country_region_search_successful": "ok"}
+    - slot{"country_region": "Nordeste"}
+    - slot{"country_region_confirmed_accum": 1425893}
+    - slot{"country_region_confirmed_new": 4623}
+    - slot{"country_region_deaths_accum": 41264}
+    - slot{"country_region_deaths_new": 89}
+    - followup{"name": "utter_country_region_hasdata"}
+    - utter_country_region_hasdata
 
 ## covid_situation_state
-* covid_situation_state
-  - action_search_stats_state
+* covid_situation_state{"country_state": "PA"}
+    - slot{"country_state": "PA"}
+    - action_search_stats_state
+    - slot{"country_region_search_successful": "ok"}
+    - slot{"country_region": "Pará  "}
+    - slot{"country_region_confirmed_accum": 243118}
+    - slot{"country_region_confirmed_new": 989}
+    - slot{"country_region_deaths_accum": 6690}
+    - slot{"country_region_deaths_new": 4}
+    - followup{"name": "utter_country_state_hasdata"}
+    - utter_country_state_hasdata

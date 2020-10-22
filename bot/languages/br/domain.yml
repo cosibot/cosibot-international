@@ -88,7 +88,9 @@ slots:
     type: unfeaturized
   country_region_confirmed_new:
     type: unfeaturized
-  country_region_hospitalized_critical:
+  country_region_deaths_accum:
+    type: unfeaturized
+  country_region_deaths_new:
     type: unfeaturized
   country_region_search_successful:
     type: categorical
@@ -115,6 +117,8 @@ actions:
 - action_change_preferred_language
 - action_search_stats
 - action_check_Bot_Introduced
+- action_search_stats_state
+- action_search_stats_region
 - utter_bot_appearance
 - utter_bot_availability
 - utter_bot_books
@@ -3173,16 +3177,16 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19.</speak>
+        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de COVID-19."
+        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_country_region_nodata:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal.</speak>
+        ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Brasil.</speak>
       - type: text
-        text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Portugal."
+        text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Brasil."
       - type: multichoice
         options:
           - label: Sim
@@ -3193,9 +3197,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos e {country_region_hospitalized_critical} estão em estado grave.</speak>
+        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor total de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos e {country_region_hospitalized_critical} estão em estado grave."
+        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_covid_schools:
   - custom:
       answers:
