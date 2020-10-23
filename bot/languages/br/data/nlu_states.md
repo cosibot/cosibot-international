@@ -5,6 +5,7 @@
 - Atualização em [alagoas]{"entity": "country_state", "value": "AL"}
 - Atualização em [Amapá]{"entity": "country_state", "value": "AP"}
 - Atualização em [amapá]{"entity": "country_state", "value": "AP"}
+- Atualização em [amapa]{"entity": "country_state", "value": "AP"}
 - Atualização em [Amazonas]{"entity": "country_state", "value": "AM"}
 - Atualização em [amazonas]{"entity": "country_state", "value": "AM"}
 - Atualização em [Bahia]{"entity": "country_state", "value": "BA"}
@@ -3347,6 +3348,64 @@
 - Últimos dados de [sergipe]{"entity": "country_state", "value": "SE"}
 - Últimos dados de [Tocantins]{"entity": "country_state", "value": "TO"}
 - Últimos dados de [tocantins]{"entity": "country_state", "value": "TO"}
+
+## intent:state_br
+- [Acre]{"entity": "country_state", "value": "AC"}
+- [acre]{"entity": "country_state", "value": "AC"}
+- [Alagoas]{"entity": "country_state", "value": "AL"}
+- [alagoas]{"entity": "country_state", "value": "AL"}
+- [Amapá]{"entity": "country_state", "value": "AP"}
+- [amapá]{"entity": "country_state", "value": "AP"}
+- [amapa]{"entity": "country_state", "value": "AP"}
+- [Amazonas]{"entity": "country_state", "value": "AM"}
+- [amazonas]{"entity": "country_state", "value": "AM"}
+- [Bahia]{"entity": "country_state", "value": "BA"}
+- [bahia]{"entity": "country_state", "value": "BA"}
+- [Ceará]{"entity": "country_state", "value": "CE"}
+- [ceará]{"entity": "country_state", "value": "CE"}
+- [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- [distrito federal]{"entity": "country_state", "value": "DF"}
+- [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- [espírito santo]{"entity": "country_state", "value": "ES"}
+- [Goiás]{"entity": "country_state", "value": "GO"}
+- [goiás]{"entity": "country_state", "value": "GO"}
+- [Maranhão]{"entity": "country_state", "value": "MA"}
+- [maranhão]{"entity": "country_state", "value": "MA"}
+- [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- [mato grosso]{"entity": "country_state", "value": "MT"}
+- [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- [minas gerais]{"entity": "country_state", "value": "MG"}
+- [Pará]{"entity": "country_state", "value": "PA"}
+- [pará]{"entity": "country_state", "value": "PA"}
+- [Paraíba]{"entity": "country_state", "value": "PB"}
+- [paraíba]{"entity": "country_state", "value": "PB"}
+- [Paraná]{"entity": "country_state", "value": "PR"}
+- [paraná]{"entity": "country_state", "value": "PR"}
+- [Pernambuco]{"entity": "country_state", "value": "PE"}
+- [pernambuco]{"entity": "country_state", "value": "PE"}
+- [Piauí]{"entity": "country_state", "value": "PI"}
+- [piauí]{"entity": "country_state", "value": "PI"}
+- [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- [Rondônia]{"entity": "country_state", "value": "RO"}
+- [rondônia]{"entity": "country_state", "value": "RO"}
+- [Roraima]{"entity": "country_state", "value": "RR"}
+- [roraima]{"entity": "country_state", "value": "RR"}
+- [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- [santa catarina]{"entity": "country_state", "value": "SC"}
+- [São Paulo]{"entity": "country_state", "value": "SP"}
+- [são paulo]{"entity": "country_state", "value": "SP"}
+- [Sergipe]{"entity": "country_state", "value": "SE"}
+- [sergipe]{"entity": "country_state", "value": "SE"}
+- [Tocantins]{"entity": "country_state", "value": "TO"}
+- [tocantins]{"entity": "country_state", "value": "TO"}
+
 
 ## synonym:AC
 - acre

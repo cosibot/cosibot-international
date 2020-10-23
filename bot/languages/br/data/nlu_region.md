@@ -930,6 +930,22 @@
 - Últimos dados de [Região Sul]{"entity": "country_region", "value": "Sul"}
 - Últimos dados de [sul]{"entity": "country_region", "value": "Sul"}
 
+## intent:region_br
+- [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- [Norte]{"entity": "country_region", "value": "Norte"}
+- [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- [norte]{"entity": "country_region", "value": "Norte"}
+- [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- [Sul]{"entity": "country_region", "value": "Sul"}
+- [Região Sul]{"entity": "country_region", "value": "Sul"}
+- [sul]{"entity": "country_region", "value": "Sul"}
 
 ## synonym:Centro-Oeste
 - Região Centro-Oeste

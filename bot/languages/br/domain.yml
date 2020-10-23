@@ -454,6 +454,8 @@ intents:
 - covid_diferenca_testes
 - covid_situation_region
 - covid_situation_state
+- state_br
+- region_br
 
 responses:
   utter_command_change_bot:
