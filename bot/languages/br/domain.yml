@@ -1934,7 +1934,7 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>O meu objetivo é dar todas as informações necessárias ao
-          público relativas à COVID 19.</speak>
+          público relativas à Covid 19.</speak>
       - type: html
         text: Meu objetivo é dar todas as informações necessárias ao público
           a respeito da COVID-19.
@@ -2315,7 +2315,7 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Não houve relato de transmissão da COVID-19 via alimentos e,
+        ssml: <speak>Não houve relato de transmissão da Covid 19 via alimentos e,
           portanto, não há evidências de que os alimentos importados para a União
           Européia de acordo com os regulamentos aplicáveis de saúde pública e
           animal, representem um risco para a saúde dos cidadãos da UE em relação
@@ -2562,7 +2562,7 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak> Em tempos de propagação da COVID-19, a crescente incerteza
+        ssml: <speak> Em tempos de propagação da Covid 19, a crescente incerteza
           e preocupação das pessoas são o terreno ideal para teorias conspiratórias,
           relatos falsos ou mitos. As pessoas frequentemente se informam sobre o vírus
           em canais do YouTube onde ativistas online acreditam que sabem a verdadeira
@@ -2618,7 +2618,7 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak> O vírus não viaja em ondas de rádio ou redes móveis. A COVID-19
+        ssml: <speak> O vírus não viaja em ondas de rádio ou redes móveis. A Covid 19
           está se espalhando em muitos países que não possuem redes móveis de
           5G.</speak>
       - type: html
@@ -2746,7 +2746,7 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Os secadores de mãos não são eficazes para matar o vírus.
-          Para se proteger contra a COVID-19, você deve limpar frequentemente as
+          Para se proteger contra a Covid 19, você deve limpar frequentemente as
           mãos com uma massagem a base de álcool ou lavá-las com água e sabão.
           Uma vez que suas mãos estejam limpas, você deve secá-las cuidadosamente
           usando toalhas de papel ou um secador de ar quente.</speak>
@@ -2871,7 +2871,7 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Estudos até o momento sugerem que o vírus que causa a COVID-19
+        ssml: <speak>Estudos até o momento sugerem que o vírus que causa a Covid 19
           é transmitido principalmente pelo contato com gotículas respiratórias
           e não pelo ar. Entretanto, de acordo com um estudo do EID Journal, acredita-se
           que a transmissão das gotículas foi causada por ventilação com ar condicionado
@@ -3081,7 +3081,7 @@ responses:
       - type: ssml
         ssml: <speak>A última atualização indica que {country} possui um total
           de {active_cases} casos ativos. {total_recovered} recuperados e {total_deaths}
-          não resistiram à COVID-19. </speak>
+          não resistiram à Covid 19. </speak>
       - type: html
         text: A última atualização indica que {country} possui um total de {active_cases}
           casos ativos. {total_recovered} recuperados e {total_deaths} não resistiram
@@ -3091,7 +3091,7 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Segundo a última atualização, {country} possui um total de
-          {total_deaths} fatalidades da COVID-19.</speak>
+          {total_deaths} fatalidades da Covid 19.</speak>
       - type: html
         text: De acordo com a última atualização, {country} possui um total de
           {total_deaths} fatalidades da COVID-19.
@@ -3179,9 +3179,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
+        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
+        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_country_region_nodata:
   - custom:
       answers:
@@ -3199,9 +3199,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
+        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de covid-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
+        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_covid_schools:
   - custom:
       answers:
@@ -3294,7 +3294,7 @@ responses:
       answers:
       - type: ssml
         ssml: <speak> O ENEM 2020 será realizado nos dias 17 e 24 de janeiro de 2021, na versão tradicional impressa, 
-          e nos dias 31 de janeiro e 7 de fevereiro de 2021 na versão digital. As orientações relacionadas à COVID-19 
+          e nos dias 31 de janeiro e 7 de fevereiro de 2021 na versão digital. As orientações relacionadas à Covid 19 
           envolve o uso obrigatório de máscaras cobrindo totalmente o nariz e a boca, desde a entrada até a saída do 
           local das provas e também o distanciamento social entre os participantes. </speak>
       - type: html
@@ -3323,11 +3323,11 @@ responses:
       answers:
       - type: ssml
         ssml: <speak> A aliança Covax, coordenada pela Organização Mundial da Saúde, é uma coalizão que reúne mais de 150 países 
-          criada para impulsionar o desenvolvimento de vacinas para a Covid-19, e prevê 42 milhões de doses para o Brasil, que serão 
+          criada para impulsionar o desenvolvimento de vacinas para a Covid 19, e prevê 42 milhões de doses para o Brasil, que serão 
           distribuídas de acordo com critérios técnicos.  </speak>
       - type: html
         text: A aliança Covax, coordenada pela Organização Mundial da Saúde, é uma coalizão que reúne mais de 150 países 
-          criada para impulsionar o desenvolvimento de vacinas para a Covid-19, e prevê 42 milhões de doses para o Brasil, que serão 
+          criada para impulsionar o desenvolvimento de vacinas para a COVID-19, e prevê 42 milhões de doses para o Brasil, que serão 
           distribuídas de acordo com critérios técnicos.<a href='https://www.in.gov.br/en/web/dou/-/medida-provisoria-n-1.003-de-24-de-setembro-de-2020-279272787'
           target='_blank'>(1)</a>
   utter_covid_vacinas_teste:
