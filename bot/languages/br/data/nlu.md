@@ -125,18 +125,74 @@
 
 ## intent:covid_vacinas_teste
 - Que vacinas estão sendo testadas?
+- Vacinas no Brasil
+- Quais vacinas estão sendo testadas no Brasil?
+- Vacinas em fase de teste
+- Vacinas em teste 
+- Quais vacinas existem?
+- Testes das vacinas
+- Existe alguma vacina para prevenir o coronavírus?
+- Existe uma vacina e tratamento especificos contra o novo coronavírus?
+- quais os estados do Brasil que compraram?
+- quais são vacinas disponíveis?
+- A vacina ja chegou no brazil ??
 
 ## intent:covid_covax_vacina
 - O que é a vacina covax?
+- Vacina Covax
+- Sobre a vacina Covax
+- Covax
+- Informações sobre a vacina Covax
+- A Covax é segura?
 
 ## intent:covid_oxford_vacina
 - O que é a vacina de Oxford?
+- Vacina de Oxford
+- Sobre a vacina de Oxford
+- Informações sobre a vacina de Oxford
+- Etapa de teste da vacina de Oxford
+- A vacina de Oxford é segura?
 
 ## intent:covid_china_vacina
 - Me fale sobre a vacina da China.
+- Vacina da China
+- Vacina Coronavac
+- Coronavac
+- CoronaVac
+- O que é a coronavac?
+- Sobre a vacina da China
+- Informações sobre a vacina da China
+- Etapa de teste da vacina da China
+- A vacina da China é segura?
 
 ## intent:covid_diferenca_testes
 - Diferentes testes.
+- Quais são os testes de COVID?
+- Quais são os teste do coronavirus?
+- Qual teste posso fazer?
+- Qual teste de COVID?
+- Testes do Covid
+- Testes
+- Sobre o teste PCR
+- PCR
+- Teste PCR
+- Como funciona o teste PCR?
+- Teste de sorologia
+- Como funciona o teste de sorologia?
+- Como funciona o teste PCR?
+- Sorologia
+- Poderia me explicar sobre o IGM ..IGG do meu resultado
+- Estou há 14 dias em isolamento, repetir o exame depois de 14 dias ainda continua com IGG E IGM POSITIVO
+- Gostaria de saber se após 1 mês ter constatado positivo para igg e igm...ainda continuo com covid se ainda hj der reagente os dois?
+- Igm
+- Gostaria de saber se após 1 mês ter constatado positivo para igg e igm...ainda continuo com covid se ainda hj der reagente os dois?
+- "Gostaria de saber sobre o exame de anticorpos totais
+Ele mostra q a pessoa está com covid ou só q já teve ou nao"
+- Já tive Covid a 5 meses, precisei fazer um procedimento nessa semana e meu IgG e IgM positivaram . O que significa isso, que riscos traz a minha saúde e a dos q estão a minha volta?
+- Meu teste rápido deu presença de igg e igm, eu já estou curada?
+- Oi bom dia meu teste do covid deu presença de igg  e igm, eu ainda estou com o vírus?
+- Só queria saber sobre o teste rápido
+- Com quantos dias posso fazer o teste rápido?
 
 ## intent:bot_books
 - Gêneros de livros que você gosta.
@@ -2046,7 +2102,12 @@
 - Kralho
 - Não estou feliz
 - Foda-se
-
+- Vai se fude
+- Então deixa de putaria de falsas informações
+- Se fude fdp
+- Palhaçada do caralho
+- A da um tempo fake safado
+- Vai dar o teu cu
 
 ## intent:comment_offense
 - Idiota!
@@ -2343,6 +2404,7 @@
 ## intent:covid_babys_children
 - As crianças são afetadas?
 - Como as crianças são afetadas?
+- e verdade que criança de dois anos nao presisa usar mascara?
 
 ## intent:covid_cosibot
 - Cosibot
@@ -2423,6 +2485,7 @@
 - Helena quando acaba esse vírus
 - Que dia acaba pandemia da covid-19?
 - Quando vai acabar
+- A pandemia  te passando ? Porque todo mundo ta se desculpando?
 
 ## intent:covid_current_statistics
 - [Yakutsk]{"entity": "geography", "value": "town"} news.
@@ -2634,6 +2697,8 @@
 - Estou com 14 dias do primeiro dia dos sintomas ainda posso transmitir o virus?
 - Quantos dias depois que pego o vírus ,manifesta os sintomas?
 - Até quantos dias do início corro risco de piora?
+- Quanto tempo VEI o sintomas pode q estive com o virus
+- Quanto tempo demora pra aparece se o sintoma
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2779,6 +2844,7 @@
 - De onde o coronavirus veio
 - Onde surgiu?
 - E de q animal surgiu o covid 19
+- Qual é a origem do surto?
 
 ## intent:covid_pandemic
 - Qual o significado da palavra pandemia?
@@ -2852,6 +2918,7 @@
 - Estou grávida meu bebê corre riscos??
 - Se eu tenho imunidade baixa, sou mais propicia a pegar de novo covid
 - Eu tenho comorditades, tenho imunidade baixa
+- O fumante tem risco
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -3254,6 +3321,8 @@
 - Itaperuna RJ
 - Passo fundo
 - No rio de janeiro está mais branda a doença
+- quantos carros há no Brasil
+- com esse bote quantos carros há no Brasilquantos carros há no Brasil
 
 ## intent:covid_situation_deaths
 - Qual é a taxa de mortalidade
@@ -3573,6 +3642,8 @@
 - quanto tempo vive nas superficies?
 - se eu tiver gripe posso pegar COVID?
 - Oi, o virus fica por 28 dias em ebjetos ??
+- "Bom dia!
+Preciso tirar o calçado ao entrar em casa??"
 
 ## intent:covid_symptoms
 - Sobre os sintomas.
@@ -3819,6 +3890,8 @@ Meu esposo está com covid"
 - Dor de cabeça e um sintoma do coronavírus?
 - Olá Helena Vamos fazer um teste quais são os sintomas do
 - Dor nas costas
+- Estou com sintomas de falta de ar   será que é covid  ?
+- Viajei sesta feira....agora estou como se mim quisesse faltar de ar....será que peguei couvid  19 ?
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -4332,6 +4405,7 @@ Meu esposo está com covid"
 - como descartá-la?
 - como descartar a máscara?
 - Como descartar uma M...
+- Ao lavar a máscara pode colocar água sanitária?
 
 ## intent:mask_use_put
 - Antes de colocar uma máscara descartável.
@@ -4827,6 +4901,7 @@ Meu esposo está com covid"
 - Como evitar isso?
 - Quais precauções devo tomar?
 - Comer alho previne o vírus?
+- Como fazer com as visitas que querem conhecer os bebês ?
 
 ## intent:prevention_home
 - Eu estarei seguro se eu ficar em casa?
@@ -5169,6 +5244,7 @@ Meu esposo está com covid"
 - Cura
 - Por que o coronavírus não tem cura
 - Tomar vitamina c
+- Gengibre é limão é bom pra combater o covid-19?
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -5384,6 +5460,8 @@ Meu esposo está com covid"
 - Como se controla a quarentena?
 - Quarentena controlada
 - Quem controla a quarentena?
+- Estou contaminada e moro com meus filhos e marido e estou com medo de contaminalos
+- Eu testei positivo quantos dias pra  me recuperar
 
 ## intent:quarantine_dogwalking
 - Quarentena do cachorro
@@ -5745,6 +5823,12 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Quantos dias a pessoa transmite  a doença
 - Virus se espalha?
 - Mesmo eu usando máscara eu posso contrair o vírus
+- No mês de maio tive tosse,coriza e perdi o olfato e paladar e fiquei 3 meses com tosse, é possível que tive covid19 sendo que não fiz o teste?
+- Estou gripada mais sem febre pode ser covid?
+- Diarreia e vomito pode ser o virus
+- Do no corpo e a covid
+- covid da corceira onde
+- Coceira
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -7069,6 +7153,7 @@ Eu não estou sentindo nada"
 - [A/C]{"entity": "air_conditioning", "value": "A/C"} 
 - [air con]{"entity": "air_conditioning", "value": "air con"} 
 - [ar condicionado]{"entity": "air_conditioning", "value": "ar condicionado"} 
+- Se ficar em um ambiente usando máscara com muitas pessoas e teno apenas o ar condicionado circulando no ambiente pode se contagiar com o corona vírus?
 
 ## intent:myth_5G
 - [5G]{"entity": "5G", "value": "5G"} 
