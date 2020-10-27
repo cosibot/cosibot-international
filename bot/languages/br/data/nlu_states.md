@@ -1,0 +1,3489 @@
+## intent:covid_situation_state
+- Atualização em [Acre]{"entity": "country_state", "value": "AC"}
+- Atualização em [acre]{"entity": "country_state", "value": "AC"}
+- Atualização em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Atualização em [alagoas]{"entity": "country_state", "value": "AL"}
+- Atualização em [Amapá]{"entity": "country_state", "value": "AP"}
+- Atualização em [amapá]{"entity": "country_state", "value": "AP"}
+- Atualização em [amapa]{"entity": "country_state", "value": "AP"}
+- Atualização em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Atualização em [amazonas]{"entity": "country_state", "value": "AM"}
+- Atualização em [Bahia]{"entity": "country_state", "value": "BA"}
+- Atualização em [bahia]{"entity": "country_state", "value": "BA"}
+- Atualização em [Ceará]{"entity": "country_state", "value": "CE"}
+- Atualização em [ceará]{"entity": "country_state", "value": "CE"}
+- Atualização em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Atualização em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Atualização em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Atualização em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Atualização em [Goiás]{"entity": "country_state", "value": "GO"}
+- Atualização em [goiás]{"entity": "country_state", "value": "GO"}
+- Atualização em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Atualização em [maranhão]{"entity": "country_state", "value": "MA"}
+- Atualização em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Atualização em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Atualização em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Atualização em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Atualização em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Atualização em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Atualização em [Pará]{"entity": "country_state", "value": "PA"}
+- Atualização em [pará]{"entity": "country_state", "value": "PA"}
+- Atualização em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Atualização em [paraíba]{"entity": "country_state", "value": "PB"}
+- Atualização em [Paraná]{"entity": "country_state", "value": "PR"}
+- Atualização em [paraná]{"entity": "country_state", "value": "PR"}
+- Atualização em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Atualização em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Atualização em [Piauí]{"entity": "country_state", "value": "PI"}
+- Atualização em [piauí]{"entity": "country_state", "value": "PI"}
+- Atualização em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Atualização em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Atualização em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Atualização em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Atualização em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Atualização em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Atualização em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Atualização em [rondônia]{"entity": "country_state", "value": "RO"}
+- Atualização em [Roraima]{"entity": "country_state", "value": "RR"}
+- Atualização em [roraima]{"entity": "country_state", "value": "RR"}
+- Atualização em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Atualização em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Atualização em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Atualização em [são paulo]{"entity": "country_state", "value": "SP"}
+- Atualização em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Atualização em [sergipe]{"entity": "country_state", "value": "SE"}
+- Atualização em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Atualização em [tocantins]{"entity": "country_state", "value": "TO"}
+- Atualização na [Acre]{"entity": "country_state", "value": "AC"}
+- Atualização na [acre]{"entity": "country_state", "value": "AC"}
+- Atualização na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Atualização na [alagoas]{"entity": "country_state", "value": "AL"}
+- Atualização na [Amapá]{"entity": "country_state", "value": "AP"}
+- Atualização na [amapá]{"entity": "country_state", "value": "AP"}
+- Atualização na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Atualização na [amazonas]{"entity": "country_state", "value": "AM"}
+- Atualização na [Bahia]{"entity": "country_state", "value": "BA"}
+- Atualização na [bahia]{"entity": "country_state", "value": "BA"}
+- Atualização na [Ceará]{"entity": "country_state", "value": "CE"}
+- Atualização na [ceará]{"entity": "country_state", "value": "CE"}
+- Atualização na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Atualização na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Atualização na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Atualização na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Atualização na [Goiás]{"entity": "country_state", "value": "GO"}
+- Atualização na [goiás]{"entity": "country_state", "value": "GO"}
+- Atualização na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Atualização na [maranhão]{"entity": "country_state", "value": "MA"}
+- Atualização na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Atualização na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Atualização na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Atualização na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Atualização na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Atualização na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Atualização na [Pará]{"entity": "country_state", "value": "PA"}
+- Atualização na [pará]{"entity": "country_state", "value": "PA"}
+- Atualização na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Atualização na [paraíba]{"entity": "country_state", "value": "PB"}
+- Atualização na [Paraná]{"entity": "country_state", "value": "PR"}
+- Atualização na [paraná]{"entity": "country_state", "value": "PR"}
+- Atualização na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Atualização na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Atualização na [Piauí]{"entity": "country_state", "value": "PI"}
+- Atualização na [piauí]{"entity": "country_state", "value": "PI"}
+- Atualização na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Atualização na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Atualização na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Atualização na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Atualização na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Atualização na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Atualização na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Atualização na [rondônia]{"entity": "country_state", "value": "RO"}
+- Atualização na [Roraima]{"entity": "country_state", "value": "RR"}
+- Atualização na [roraima]{"entity": "country_state", "value": "RR"}
+- Atualização na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Atualização na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Atualização na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Atualização na [são paulo]{"entity": "country_state", "value": "SP"}
+- Atualização na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Atualização na [sergipe]{"entity": "country_state", "value": "SE"}
+- Atualização na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Atualização na [tocantins]{"entity": "country_state", "value": "TO"}
+- Atualização no [Acre]{"entity": "country_state", "value": "AC"}
+- Atualização no [acre]{"entity": "country_state", "value": "AC"}
+- Atualização no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Atualização no [alagoas]{"entity": "country_state", "value": "AL"}
+- Atualização no [Amapá]{"entity": "country_state", "value": "AP"}
+- Atualização no [amapá]{"entity": "country_state", "value": "AP"}
+- Atualização no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Atualização no [amazonas]{"entity": "country_state", "value": "AM"}
+- Atualização no [Bahia]{"entity": "country_state", "value": "BA"}
+- Atualização no [bahia]{"entity": "country_state", "value": "BA"}
+- Atualização no [Ceará]{"entity": "country_state", "value": "CE"}
+- Atualização no [ceará]{"entity": "country_state", "value": "CE"}
+- Atualização no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Atualização no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Atualização no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Atualização no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Atualização no [Goiás]{"entity": "country_state", "value": "GO"}
+- Atualização no [goiás]{"entity": "country_state", "value": "GO"}
+- Atualização no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Atualização no [maranhão]{"entity": "country_state", "value": "MA"}
+- Atualização no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Atualização no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Atualização no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Atualização no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Atualização no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Atualização no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Atualização no [Pará]{"entity": "country_state", "value": "PA"}
+- Atualização no [pará]{"entity": "country_state", "value": "PA"}
+- Atualização no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Atualização no [paraíba]{"entity": "country_state", "value": "PB"}
+- Atualização no [Paraná]{"entity": "country_state", "value": "PR"}
+- Atualização no [paraná]{"entity": "country_state", "value": "PR"}
+- Atualização no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Atualização no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Atualização no [Piauí]{"entity": "country_state", "value": "PI"}
+- Atualização no [piauí]{"entity": "country_state", "value": "PI"}
+- Atualização no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Atualização no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Atualização no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Atualização no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Atualização no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Atualização no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Atualização no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Atualização no [rondônia]{"entity": "country_state", "value": "RO"}
+- Atualização no [Roraima]{"entity": "country_state", "value": "RR"}
+- Atualização no [roraima]{"entity": "country_state", "value": "RR"}
+- Atualização no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Atualização no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Atualização no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Atualização no [são paulo]{"entity": "country_state", "value": "SP"}
+- Atualização no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Atualização no [sergipe]{"entity": "country_state", "value": "SE"}
+- Atualização no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Atualização no [tocantins]{"entity": "country_state", "value": "TO"}
+- Casos confirmados em [Acre]{"entity": "country_state", "value": "AC"}
+- Casos confirmados em [acre]{"entity": "country_state", "value": "AC"}
+- Casos confirmados em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Casos confirmados em [alagoas]{"entity": "country_state", "value": "AL"}
+- Casos confirmados em [Amapá]{"entity": "country_state", "value": "AP"}
+- Casos confirmados em [amapá]{"entity": "country_state", "value": "AP"}
+- Casos confirmados em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Casos confirmados em [amazonas]{"entity": "country_state", "value": "AM"}
+- Casos confirmados em [Bahia]{"entity": "country_state", "value": "BA"}
+- Casos confirmados em [bahia]{"entity": "country_state", "value": "BA"}
+- Casos confirmados em [Ceará]{"entity": "country_state", "value": "CE"}
+- Casos confirmados em [ceará]{"entity": "country_state", "value": "CE"}
+- Casos confirmados em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Casos confirmados em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Casos confirmados em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Casos confirmados em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Casos confirmados em [Goiás]{"entity": "country_state", "value": "GO"}
+- Casos confirmados em [goiás]{"entity": "country_state", "value": "GO"}
+- Casos confirmados em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Casos confirmados em [maranhão]{"entity": "country_state", "value": "MA"}
+- Casos confirmados em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Casos confirmados em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Casos confirmados em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Casos confirmados em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Casos confirmados em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Casos confirmados em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Casos confirmados em [Pará]{"entity": "country_state", "value": "PA"}
+- Casos confirmados em [pará]{"entity": "country_state", "value": "PA"}
+- Casos confirmados em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Casos confirmados em [paraíba]{"entity": "country_state", "value": "PB"}
+- Casos confirmados em [Paraná]{"entity": "country_state", "value": "PR"}
+- Casos confirmados em [paraná]{"entity": "country_state", "value": "PR"}
+- Casos confirmados em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Casos confirmados em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Casos confirmados em [Piauí]{"entity": "country_state", "value": "PI"}
+- Casos confirmados em [piauí]{"entity": "country_state", "value": "PI"}
+- Casos confirmados em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Casos confirmados em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Casos confirmados em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Casos confirmados em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Casos confirmados em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Casos confirmados em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Casos confirmados em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Casos confirmados em [rondônia]{"entity": "country_state", "value": "RO"}
+- Casos confirmados em [Roraima]{"entity": "country_state", "value": "RR"}
+- Casos confirmados em [roraima]{"entity": "country_state", "value": "RR"}
+- Casos confirmados em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Casos confirmados em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Casos confirmados em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Casos confirmados em [são paulo]{"entity": "country_state", "value": "SP"}
+- Casos confirmados em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Casos confirmados em [sergipe]{"entity": "country_state", "value": "SE"}
+- Casos confirmados em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Casos confirmados em [tocantins]{"entity": "country_state", "value": "TO"}
+- Casos confirmados na [Acre]{"entity": "country_state", "value": "AC"}
+- Casos confirmados na [acre]{"entity": "country_state", "value": "AC"}
+- Casos confirmados na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Casos confirmados na [alagoas]{"entity": "country_state", "value": "AL"}
+- Casos confirmados na [Amapá]{"entity": "country_state", "value": "AP"}
+- Casos confirmados na [amapá]{"entity": "country_state", "value": "AP"}
+- Casos confirmados na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Casos confirmados na [amazonas]{"entity": "country_state", "value": "AM"}
+- Casos confirmados na [Bahia]{"entity": "country_state", "value": "BA"}
+- Casos confirmados na [bahia]{"entity": "country_state", "value": "BA"}
+- Casos confirmados na [Ceará]{"entity": "country_state", "value": "CE"}
+- Casos confirmados na [ceará]{"entity": "country_state", "value": "CE"}
+- Casos confirmados na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Casos confirmados na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Casos confirmados na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Casos confirmados na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Casos confirmados na [Goiás]{"entity": "country_state", "value": "GO"}
+- Casos confirmados na [goiás]{"entity": "country_state", "value": "GO"}
+- Casos confirmados na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Casos confirmados na [maranhão]{"entity": "country_state", "value": "MA"}
+- Casos confirmados na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Casos confirmados na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Casos confirmados na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Casos confirmados na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Casos confirmados na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Casos confirmados na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Casos confirmados na [Pará]{"entity": "country_state", "value": "PA"}
+- Casos confirmados na [pará]{"entity": "country_state", "value": "PA"}
+- Casos confirmados na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Casos confirmados na [paraíba]{"entity": "country_state", "value": "PB"}
+- Casos confirmados na [Paraná]{"entity": "country_state", "value": "PR"}
+- Casos confirmados na [paraná]{"entity": "country_state", "value": "PR"}
+- Casos confirmados na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Casos confirmados na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Casos confirmados na [Piauí]{"entity": "country_state", "value": "PI"}
+- Casos confirmados na [piauí]{"entity": "country_state", "value": "PI"}
+- Casos confirmados na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Casos confirmados na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Casos confirmados na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Casos confirmados na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Casos confirmados na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Casos confirmados na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Casos confirmados na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Casos confirmados na [rondônia]{"entity": "country_state", "value": "RO"}
+- Casos confirmados na [Roraima]{"entity": "country_state", "value": "RR"}
+- Casos confirmados na [roraima]{"entity": "country_state", "value": "RR"}
+- Casos confirmados na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Casos confirmados na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Casos confirmados na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Casos confirmados na [são paulo]{"entity": "country_state", "value": "SP"}
+- Casos confirmados na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Casos confirmados na [sergipe]{"entity": "country_state", "value": "SE"}
+- Casos confirmados na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Casos confirmados na [tocantins]{"entity": "country_state", "value": "TO"}
+- Casos confirmados no [Acre]{"entity": "country_state", "value": "AC"}
+- Casos confirmados no [acre]{"entity": "country_state", "value": "AC"}
+- Casos confirmados no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Casos confirmados no [alagoas]{"entity": "country_state", "value": "AL"}
+- Casos confirmados no [Amapá]{"entity": "country_state", "value": "AP"}
+- Casos confirmados no [amapá]{"entity": "country_state", "value": "AP"}
+- Casos confirmados no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Casos confirmados no [amazonas]{"entity": "country_state", "value": "AM"}
+- Casos confirmados no [Bahia]{"entity": "country_state", "value": "BA"}
+- Casos confirmados no [bahia]{"entity": "country_state", "value": "BA"}
+- Casos confirmados no [Ceará]{"entity": "country_state", "value": "CE"}
+- Casos confirmados no [ceará]{"entity": "country_state", "value": "CE"}
+- Casos confirmados no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Casos confirmados no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Casos confirmados no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Casos confirmados no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Casos confirmados no [Goiás]{"entity": "country_state", "value": "GO"}
+- Casos confirmados no [goiás]{"entity": "country_state", "value": "GO"}
+- Casos confirmados no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Casos confirmados no [maranhão]{"entity": "country_state", "value": "MA"}
+- Casos confirmados no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Casos confirmados no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Casos confirmados no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Casos confirmados no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Casos confirmados no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Casos confirmados no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Casos confirmados no [Pará]{"entity": "country_state", "value": "PA"}
+- Casos confirmados no [pará]{"entity": "country_state", "value": "PA"}
+- Casos confirmados no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Casos confirmados no [paraíba]{"entity": "country_state", "value": "PB"}
+- Casos confirmados no [Paraná]{"entity": "country_state", "value": "PR"}
+- Casos confirmados no [paraná]{"entity": "country_state", "value": "PR"}
+- Casos confirmados no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Casos confirmados no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Casos confirmados no [Piauí]{"entity": "country_state", "value": "PI"}
+- Casos confirmados no [piauí]{"entity": "country_state", "value": "PI"}
+- Casos confirmados no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Casos confirmados no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Casos confirmados no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Casos confirmados no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Casos confirmados no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Casos confirmados no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Casos confirmados no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Casos confirmados no [rondônia]{"entity": "country_state", "value": "RO"}
+- Casos confirmados no [Roraima]{"entity": "country_state", "value": "RR"}
+- Casos confirmados no [roraima]{"entity": "country_state", "value": "RR"}
+- Casos confirmados no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Casos confirmados no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Casos confirmados no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Casos confirmados no [são paulo]{"entity": "country_state", "value": "SP"}
+- Casos confirmados no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Casos confirmados no [sergipe]{"entity": "country_state", "value": "SE"}
+- Casos confirmados no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Casos confirmados no [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados ativos em [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados ativos em [acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados ativos em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados ativos em [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados ativos em [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados ativos em [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados ativos em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados ativos em [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados ativos em [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados ativos em [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados ativos em [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados ativos em [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados ativos em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados ativos em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados ativos em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados ativos em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados ativos em [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados ativos em [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados ativos em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados ativos em [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados ativos em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados ativos em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados ativos em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados ativos em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados ativos em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados ativos em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados ativos em [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados ativos em [pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados ativos em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados ativos em [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados ativos em [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados ativos em [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados ativos em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados ativos em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados ativos em [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados ativos em [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados ativos em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados ativos em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados ativos em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados ativos em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados ativos em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados ativos em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados ativos em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados ativos em [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados ativos em [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados ativos em [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados ativos em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados ativos em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados ativos em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados ativos em [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados ativos em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados ativos em [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados ativos em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados ativos em [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados ativos na [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados ativos na [acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados ativos na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados ativos na [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados ativos na [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados ativos na [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados ativos na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados ativos na [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados ativos na [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados ativos na [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados ativos na [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados ativos na [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados ativos na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados ativos na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados ativos na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados ativos na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados ativos na [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados ativos na [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados ativos na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados ativos na [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados ativos na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados ativos na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados ativos na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados ativos na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados ativos na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados ativos na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados ativos na [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados ativos na [pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados ativos na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados ativos na [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados ativos na [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados ativos na [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados ativos na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados ativos na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados ativos na [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados ativos na [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados ativos na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados ativos na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados ativos na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados ativos na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados ativos na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados ativos na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados ativos na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados ativos na [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados ativos na [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados ativos na [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados ativos na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados ativos na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados ativos na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados ativos na [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados ativos na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados ativos na [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados ativos na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados ativos na [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados ativos no [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados ativos no [acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados ativos no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados ativos no [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados ativos no [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados ativos no [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados ativos no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados ativos no [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados ativos no [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados ativos no [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados ativos no [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados ativos no [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados ativos no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados ativos no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados ativos no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados ativos no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados ativos no [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados ativos no [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados ativos no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados ativos no [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados ativos no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados ativos no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados ativos no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados ativos no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados ativos no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados ativos no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados ativos no [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados ativos no [pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados ativos no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados ativos no [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados ativos no [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados ativos no [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados ativos no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados ativos no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados ativos no [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados ativos no [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados ativos no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados ativos no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados ativos no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados ativos no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados ativos no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados ativos no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados ativos no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados ativos no [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados ativos no [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados ativos no [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados ativos no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados ativos no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados ativos no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados ativos no [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados ativos no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados ativos no [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados ativos no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados ativos no [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados no total em [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados no total em [acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados no total em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados no total em [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados no total em [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados no total em [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados no total em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados no total em [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados no total em [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados no total em [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados no total em [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados no total em [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados no total em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados no total em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados no total em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados no total em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados no total em [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados no total em [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados no total em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados no total em [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados no total em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados no total em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados no total em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados no total em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados no total em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados no total em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados no total em [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados no total em [pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados no total em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados no total em [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados no total em [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados no total em [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados no total em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados no total em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados no total em [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados no total em [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados no total em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados no total em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados no total em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados no total em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados no total em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados no total em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados no total em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados no total em [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados no total em [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados no total em [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados no total em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados no total em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados no total em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados no total em [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados no total em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados no total em [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados no total em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados no total em [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados no total na [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados no total na [acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados no total na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados no total na [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados no total na [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados no total na [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados no total na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados no total na [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados no total na [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados no total na [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados no total na [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados no total na [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados no total na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados no total na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados no total na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados no total na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados no total na [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados no total na [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados no total na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados no total na [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados no total na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados no total na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados no total na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados no total na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados no total na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados no total na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados no total na [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados no total na [pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados no total na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados no total na [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados no total na [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados no total na [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados no total na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados no total na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados no total na [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados no total na [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados no total na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados no total na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados no total na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados no total na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados no total na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados no total na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados no total na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados no total na [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados no total na [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados no total na [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados no total na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados no total na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados no total na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados no total na [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados no total na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados no total na [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados no total na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados no total na [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados no total no [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados no total no [acre]{"entity": "country_state", "value": "AC"}
+- Contagem de infectados no total no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados no total no [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem de infectados no total no [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados no total no [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem de infectados no total no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados no total no [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem de infectados no total no [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados no total no [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem de infectados no total no [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados no total no [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem de infectados no total no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados no total no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem de infectados no total no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados no total no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem de infectados no total no [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados no total no [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem de infectados no total no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados no total no [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem de infectados no total no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados no total no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem de infectados no total no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados no total no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem de infectados no total no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados no total no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem de infectados no total no [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados no total no [pará]{"entity": "country_state", "value": "PA"}
+- Contagem de infectados no total no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados no total no [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem de infectados no total no [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados no total no [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem de infectados no total no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados no total no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem de infectados no total no [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados no total no [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem de infectados no total no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados no total no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem de infectados no total no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados no total no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem de infectados no total no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados no total no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem de infectados no total no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados no total no [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem de infectados no total no [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados no total no [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem de infectados no total no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados no total no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem de infectados no total no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados no total no [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem de infectados no total no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados no total no [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem de infectados no total no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem de infectados no total no [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectada ativa em [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectada ativa em [acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectada ativa em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectada ativa em [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectada ativa em [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectada ativa em [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectada ativa em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectada ativa em [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectada ativa em [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectada ativa em [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectada ativa em [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectada ativa em [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectada ativa em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectada ativa em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectada ativa em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectada ativa em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectada ativa em [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectada ativa em [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectada ativa em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectada ativa em [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectada ativa em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectada ativa em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectada ativa em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectada ativa em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectada ativa em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectada ativa em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectada ativa em [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectada ativa em [pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectada ativa em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectada ativa em [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectada ativa em [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectada ativa em [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectada ativa em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectada ativa em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectada ativa em [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectada ativa em [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectada ativa em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectada ativa em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectada ativa em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectada ativa em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectada ativa em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectada ativa em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectada ativa em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectada ativa em [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectada ativa em [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectada ativa em [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectada ativa em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectada ativa em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectada ativa em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectada ativa em [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectada ativa em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectada ativa em [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectada ativa em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectada ativa em [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectada ativa na [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectada ativa na [acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectada ativa na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectada ativa na [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectada ativa na [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectada ativa na [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectada ativa na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectada ativa na [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectada ativa na [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectada ativa na [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectada ativa na [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectada ativa na [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectada ativa na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectada ativa na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectada ativa na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectada ativa na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectada ativa na [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectada ativa na [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectada ativa na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectada ativa na [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectada ativa na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectada ativa na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectada ativa na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectada ativa na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectada ativa na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectada ativa na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectada ativa na [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectada ativa na [pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectada ativa na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectada ativa na [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectada ativa na [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectada ativa na [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectada ativa na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectada ativa na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectada ativa na [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectada ativa na [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectada ativa na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectada ativa na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectada ativa na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectada ativa na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectada ativa na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectada ativa na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectada ativa na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectada ativa na [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectada ativa na [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectada ativa na [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectada ativa na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectada ativa na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectada ativa na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectada ativa na [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectada ativa na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectada ativa na [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectada ativa na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectada ativa na [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectada ativa no [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectada ativa no [acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectada ativa no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectada ativa no [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectada ativa no [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectada ativa no [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectada ativa no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectada ativa no [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectada ativa no [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectada ativa no [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectada ativa no [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectada ativa no [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectada ativa no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectada ativa no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectada ativa no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectada ativa no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectada ativa no [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectada ativa no [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectada ativa no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectada ativa no [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectada ativa no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectada ativa no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectada ativa no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectada ativa no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectada ativa no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectada ativa no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectada ativa no [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectada ativa no [pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectada ativa no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectada ativa no [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectada ativa no [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectada ativa no [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectada ativa no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectada ativa no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectada ativa no [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectada ativa no [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectada ativa no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectada ativa no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectada ativa no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectada ativa no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectada ativa no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectada ativa no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectada ativa no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectada ativa no [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectada ativa no [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectada ativa no [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectada ativa no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectada ativa no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectada ativa no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectada ativa no [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectada ativa no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectada ativa no [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectada ativa no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectada ativa no [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados ativos em [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados ativos em [acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados ativos em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados ativos em [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados ativos em [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados ativos em [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados ativos em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados ativos em [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados ativos em [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados ativos em [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados ativos em [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados ativos em [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados ativos em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados ativos em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados ativos em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados ativos em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados ativos em [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados ativos em [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados ativos em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados ativos em [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados ativos em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados ativos em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados ativos em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados ativos em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados ativos em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados ativos em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados ativos em [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados ativos em [pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados ativos em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados ativos em [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados ativos em [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados ativos em [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados ativos em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados ativos em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados ativos em [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados ativos em [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados ativos em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados ativos em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados ativos em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados ativos em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados ativos em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados ativos em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados ativos em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados ativos em [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados ativos em [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados ativos em [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados ativos em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados ativos em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados ativos em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados ativos em [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados ativos em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados ativos em [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados ativos em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados ativos em [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados ativos na [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados ativos na [acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados ativos na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados ativos na [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados ativos na [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados ativos na [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados ativos na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados ativos na [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados ativos na [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados ativos na [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados ativos na [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados ativos na [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados ativos na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados ativos na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados ativos na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados ativos na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados ativos na [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados ativos na [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados ativos na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados ativos na [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados ativos na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados ativos na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados ativos na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados ativos na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados ativos na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados ativos na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados ativos na [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados ativos na [pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados ativos na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados ativos na [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados ativos na [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados ativos na [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados ativos na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados ativos na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados ativos na [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados ativos na [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados ativos na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados ativos na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados ativos na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados ativos na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados ativos na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados ativos na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados ativos na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados ativos na [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados ativos na [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados ativos na [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados ativos na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados ativos na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados ativos na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados ativos na [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados ativos na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados ativos na [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados ativos na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados ativos na [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados ativos no [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados ativos no [acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados ativos no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados ativos no [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados ativos no [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados ativos no [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados ativos no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados ativos no [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados ativos no [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados ativos no [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados ativos no [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados ativos no [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados ativos no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados ativos no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados ativos no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados ativos no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados ativos no [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados ativos no [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados ativos no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados ativos no [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados ativos no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados ativos no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados ativos no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados ativos no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados ativos no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados ativos no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados ativos no [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados ativos no [pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados ativos no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados ativos no [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados ativos no [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados ativos no [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados ativos no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados ativos no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados ativos no [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados ativos no [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados ativos no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados ativos no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados ativos no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados ativos no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados ativos no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados ativos no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados ativos no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados ativos no [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados ativos no [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados ativos no [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados ativos no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados ativos no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados ativos no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados ativos no [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados ativos no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados ativos no [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados ativos no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados ativos no [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados no total em [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados no total em [acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados no total em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados no total em [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados no total em [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados no total em [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados no total em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados no total em [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados no total em [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados no total em [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados no total em [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados no total em [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados no total em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados no total em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados no total em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados no total em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados no total em [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados no total em [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados no total em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados no total em [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados no total em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados no total em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados no total em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados no total em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados no total em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados no total em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados no total em [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados no total em [pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados no total em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados no total em [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados no total em [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados no total em [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados no total em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados no total em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados no total em [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados no total em [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados no total em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados no total em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados no total em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados no total em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados no total em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados no total em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados no total em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados no total em [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados no total em [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados no total em [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados no total em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados no total em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados no total em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados no total em [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados no total em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados no total em [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados no total em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados no total em [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados no total na [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados no total na [acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados no total na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados no total na [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados no total na [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados no total na [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados no total na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados no total na [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados no total na [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados no total na [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados no total na [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados no total na [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados no total na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados no total na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados no total na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados no total na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados no total na [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados no total na [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados no total na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados no total na [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados no total na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados no total na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados no total na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados no total na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados no total na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados no total na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados no total na [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados no total na [pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados no total na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados no total na [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados no total na [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados no total na [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados no total na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados no total na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados no total na [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados no total na [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados no total na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados no total na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados no total na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados no total na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados no total na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados no total na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados no total na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados no total na [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados no total na [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados no total na [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados no total na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados no total na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados no total na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados no total na [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados no total na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados no total na [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados no total na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados no total na [tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados no total no [Acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados no total no [acre]{"entity": "country_state", "value": "AC"}
+- Contagem infectados no total no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados no total no [alagoas]{"entity": "country_state", "value": "AL"}
+- Contagem infectados no total no [Amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados no total no [amapá]{"entity": "country_state", "value": "AP"}
+- Contagem infectados no total no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados no total no [amazonas]{"entity": "country_state", "value": "AM"}
+- Contagem infectados no total no [Bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados no total no [bahia]{"entity": "country_state", "value": "BA"}
+- Contagem infectados no total no [Ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados no total no [ceará]{"entity": "country_state", "value": "CE"}
+- Contagem infectados no total no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados no total no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Contagem infectados no total no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados no total no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Contagem infectados no total no [Goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados no total no [goiás]{"entity": "country_state", "value": "GO"}
+- Contagem infectados no total no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados no total no [maranhão]{"entity": "country_state", "value": "MA"}
+- Contagem infectados no total no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados no total no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Contagem infectados no total no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados no total no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Contagem infectados no total no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados no total no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Contagem infectados no total no [Pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados no total no [pará]{"entity": "country_state", "value": "PA"}
+- Contagem infectados no total no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados no total no [paraíba]{"entity": "country_state", "value": "PB"}
+- Contagem infectados no total no [Paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados no total no [paraná]{"entity": "country_state", "value": "PR"}
+- Contagem infectados no total no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados no total no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Contagem infectados no total no [Piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados no total no [piauí]{"entity": "country_state", "value": "PI"}
+- Contagem infectados no total no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados no total no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Contagem infectados no total no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados no total no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Contagem infectados no total no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados no total no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Contagem infectados no total no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados no total no [rondônia]{"entity": "country_state", "value": "RO"}
+- Contagem infectados no total no [Roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados no total no [roraima]{"entity": "country_state", "value": "RR"}
+- Contagem infectados no total no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados no total no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Contagem infectados no total no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados no total no [são paulo]{"entity": "country_state", "value": "SP"}
+- Contagem infectados no total no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados no total no [sergipe]{"entity": "country_state", "value": "SE"}
+- Contagem infectados no total no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Contagem infectados no total no [tocantins]{"entity": "country_state", "value": "TO"}
+- Coronavirus em [Acre]{"entity": "country_state", "value": "AC"}
+- Coronavirus em [acre]{"entity": "country_state", "value": "AC"}
+- Coronavirus em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Coronavirus em [alagoas]{"entity": "country_state", "value": "AL"}
+- Coronavirus em [Amapá]{"entity": "country_state", "value": "AP"}
+- Coronavirus em [amapá]{"entity": "country_state", "value": "AP"}
+- Coronavirus em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Coronavirus em [amazonas]{"entity": "country_state", "value": "AM"}
+- Coronavirus em [Bahia]{"entity": "country_state", "value": "BA"}
+- Coronavirus em [bahia]{"entity": "country_state", "value": "BA"}
+- Coronavirus em [Ceará]{"entity": "country_state", "value": "CE"}
+- Coronavirus em [ceará]{"entity": "country_state", "value": "CE"}
+- Coronavirus em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Coronavirus em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Coronavirus em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Coronavirus em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Coronavirus em [Goiás]{"entity": "country_state", "value": "GO"}
+- Coronavirus em [goiás]{"entity": "country_state", "value": "GO"}
+- Coronavirus em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Coronavirus em [maranhão]{"entity": "country_state", "value": "MA"}
+- Coronavirus em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Coronavirus em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Coronavirus em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Coronavirus em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Coronavirus em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Coronavirus em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Coronavirus em [Pará]{"entity": "country_state", "value": "PA"}
+- Coronavirus em [pará]{"entity": "country_state", "value": "PA"}
+- Coronavirus em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Coronavirus em [paraíba]{"entity": "country_state", "value": "PB"}
+- Coronavirus em [Paraná]{"entity": "country_state", "value": "PR"}
+- Coronavirus em [paraná]{"entity": "country_state", "value": "PR"}
+- Coronavirus em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronavirus em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronavirus em [Piauí]{"entity": "country_state", "value": "PI"}
+- Coronavirus em [piauí]{"entity": "country_state", "value": "PI"}
+- Coronavirus em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronavirus em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronavirus em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Coronavirus em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Coronavirus em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Coronavirus em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Coronavirus em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Coronavirus em [rondônia]{"entity": "country_state", "value": "RO"}
+- Coronavirus em [Roraima]{"entity": "country_state", "value": "RR"}
+- Coronavirus em [roraima]{"entity": "country_state", "value": "RR"}
+- Coronavirus em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Coronavirus em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Coronavirus em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Coronavirus em [são paulo]{"entity": "country_state", "value": "SP"}
+- Coronavirus em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Coronavirus em [sergipe]{"entity": "country_state", "value": "SE"}
+- Coronavirus em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Coronavirus em [tocantins]{"entity": "country_state", "value": "TO"}
+- Coronavirus na [Acre]{"entity": "country_state", "value": "AC"}
+- Coronavirus na [acre]{"entity": "country_state", "value": "AC"}
+- Coronavirus na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Coronavirus na [alagoas]{"entity": "country_state", "value": "AL"}
+- Coronavirus na [Amapá]{"entity": "country_state", "value": "AP"}
+- Coronavirus na [amapá]{"entity": "country_state", "value": "AP"}
+- Coronavirus na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Coronavirus na [amazonas]{"entity": "country_state", "value": "AM"}
+- Coronavirus na [Bahia]{"entity": "country_state", "value": "BA"}
+- Coronavirus na [bahia]{"entity": "country_state", "value": "BA"}
+- Coronavirus na [Ceará]{"entity": "country_state", "value": "CE"}
+- Coronavirus na [ceará]{"entity": "country_state", "value": "CE"}
+- Coronavirus na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Coronavirus na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Coronavirus na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Coronavirus na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Coronavirus na [Goiás]{"entity": "country_state", "value": "GO"}
+- Coronavirus na [goiás]{"entity": "country_state", "value": "GO"}
+- Coronavirus na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Coronavirus na [maranhão]{"entity": "country_state", "value": "MA"}
+- Coronavirus na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Coronavirus na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Coronavirus na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Coronavirus na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Coronavirus na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Coronavirus na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Coronavirus na [Pará]{"entity": "country_state", "value": "PA"}
+- Coronavirus na [pará]{"entity": "country_state", "value": "PA"}
+- Coronavirus na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Coronavirus na [paraíba]{"entity": "country_state", "value": "PB"}
+- Coronavirus na [Paraná]{"entity": "country_state", "value": "PR"}
+- Coronavirus na [paraná]{"entity": "country_state", "value": "PR"}
+- Coronavirus na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronavirus na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronavirus na [Piauí]{"entity": "country_state", "value": "PI"}
+- Coronavirus na [piauí]{"entity": "country_state", "value": "PI"}
+- Coronavirus na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronavirus na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronavirus na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Coronavirus na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Coronavirus na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Coronavirus na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Coronavirus na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Coronavirus na [rondônia]{"entity": "country_state", "value": "RO"}
+- Coronavirus na [Roraima]{"entity": "country_state", "value": "RR"}
+- Coronavirus na [roraima]{"entity": "country_state", "value": "RR"}
+- Coronavirus na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Coronavirus na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Coronavirus na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Coronavirus na [são paulo]{"entity": "country_state", "value": "SP"}
+- Coronavirus na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Coronavirus na [sergipe]{"entity": "country_state", "value": "SE"}
+- Coronavirus na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Coronavirus na [tocantins]{"entity": "country_state", "value": "TO"}
+- Coronavirus no [Acre]{"entity": "country_state", "value": "AC"}
+- Coronavirus no [acre]{"entity": "country_state", "value": "AC"}
+- Coronavirus no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Coronavirus no [alagoas]{"entity": "country_state", "value": "AL"}
+- Coronavirus no [Amapá]{"entity": "country_state", "value": "AP"}
+- Coronavirus no [amapá]{"entity": "country_state", "value": "AP"}
+- Coronavirus no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Coronavirus no [amazonas]{"entity": "country_state", "value": "AM"}
+- Coronavirus no [Bahia]{"entity": "country_state", "value": "BA"}
+- Coronavirus no [bahia]{"entity": "country_state", "value": "BA"}
+- Coronavirus no [Ceará]{"entity": "country_state", "value": "CE"}
+- Coronavirus no [ceará]{"entity": "country_state", "value": "CE"}
+- Coronavirus no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Coronavirus no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Coronavirus no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Coronavirus no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Coronavirus no [Goiás]{"entity": "country_state", "value": "GO"}
+- Coronavirus no [goiás]{"entity": "country_state", "value": "GO"}
+- Coronavirus no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Coronavirus no [maranhão]{"entity": "country_state", "value": "MA"}
+- Coronavirus no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Coronavirus no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Coronavirus no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Coronavirus no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Coronavirus no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Coronavirus no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Coronavirus no [Pará]{"entity": "country_state", "value": "PA"}
+- Coronavirus no [pará]{"entity": "country_state", "value": "PA"}
+- Coronavirus no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Coronavirus no [paraíba]{"entity": "country_state", "value": "PB"}
+- Coronavirus no [Paraná]{"entity": "country_state", "value": "PR"}
+- Coronavirus no [paraná]{"entity": "country_state", "value": "PR"}
+- Coronavirus no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronavirus no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronavirus no [Piauí]{"entity": "country_state", "value": "PI"}
+- Coronavirus no [piauí]{"entity": "country_state", "value": "PI"}
+- Coronavirus no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronavirus no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronavirus no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Coronavirus no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Coronavirus no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Coronavirus no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Coronavirus no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Coronavirus no [rondônia]{"entity": "country_state", "value": "RO"}
+- Coronavirus no [Roraima]{"entity": "country_state", "value": "RR"}
+- Coronavirus no [roraima]{"entity": "country_state", "value": "RR"}
+- Coronavirus no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Coronavirus no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Coronavirus no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Coronavirus no [são paulo]{"entity": "country_state", "value": "SP"}
+- Coronavirus no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Coronavirus no [sergipe]{"entity": "country_state", "value": "SE"}
+- Coronavirus no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Coronavirus no [tocantins]{"entity": "country_state", "value": "TO"}
+- Coronovirus em [Acre]{"entity": "country_state", "value": "AC"}
+- Coronovirus em [acre]{"entity": "country_state", "value": "AC"}
+- Coronovirus em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Coronovirus em [alagoas]{"entity": "country_state", "value": "AL"}
+- Coronovirus em [Amapá]{"entity": "country_state", "value": "AP"}
+- Coronovirus em [amapá]{"entity": "country_state", "value": "AP"}
+- Coronovirus em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Coronovirus em [amazonas]{"entity": "country_state", "value": "AM"}
+- Coronovirus em [Bahia]{"entity": "country_state", "value": "BA"}
+- Coronovirus em [bahia]{"entity": "country_state", "value": "BA"}
+- Coronovirus em [Ceará]{"entity": "country_state", "value": "CE"}
+- Coronovirus em [ceará]{"entity": "country_state", "value": "CE"}
+- Coronovirus em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Coronovirus em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Coronovirus em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Coronovirus em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Coronovirus em [Goiás]{"entity": "country_state", "value": "GO"}
+- Coronovirus em [goiás]{"entity": "country_state", "value": "GO"}
+- Coronovirus em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Coronovirus em [maranhão]{"entity": "country_state", "value": "MA"}
+- Coronovirus em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Coronovirus em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Coronovirus em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Coronovirus em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Coronovirus em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Coronovirus em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Coronovirus em [Pará]{"entity": "country_state", "value": "PA"}
+- Coronovirus em [pará]{"entity": "country_state", "value": "PA"}
+- Coronovirus em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Coronovirus em [paraíba]{"entity": "country_state", "value": "PB"}
+- Coronovirus em [Paraná]{"entity": "country_state", "value": "PR"}
+- Coronovirus em [paraná]{"entity": "country_state", "value": "PR"}
+- Coronovirus em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronovirus em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronovirus em [Piauí]{"entity": "country_state", "value": "PI"}
+- Coronovirus em [piauí]{"entity": "country_state", "value": "PI"}
+- Coronovirus em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronovirus em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronovirus em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Coronovirus em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Coronovirus em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Coronovirus em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Coronovirus em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Coronovirus em [rondônia]{"entity": "country_state", "value": "RO"}
+- Coronovirus em [Roraima]{"entity": "country_state", "value": "RR"}
+- Coronovirus em [roraima]{"entity": "country_state", "value": "RR"}
+- Coronovirus em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Coronovirus em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Coronovirus em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Coronovirus em [são paulo]{"entity": "country_state", "value": "SP"}
+- Coronovirus em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Coronovirus em [sergipe]{"entity": "country_state", "value": "SE"}
+- Coronovirus em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Coronovirus em [tocantins]{"entity": "country_state", "value": "TO"}
+- Coronovirus no [Acre]{"entity": "country_state", "value": "AC"}
+- Coronovirus no [acre]{"entity": "country_state", "value": "AC"}
+- Coronovirus no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Coronovirus no [alagoas]{"entity": "country_state", "value": "AL"}
+- Coronovirus no [Amapá]{"entity": "country_state", "value": "AP"}
+- Coronovirus no [amapá]{"entity": "country_state", "value": "AP"}
+- Coronovirus no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Coronovirus no [amazonas]{"entity": "country_state", "value": "AM"}
+- Coronovirus no [Bahia]{"entity": "country_state", "value": "BA"}
+- Coronovirus no [bahia]{"entity": "country_state", "value": "BA"}
+- Coronovirus no [Ceará]{"entity": "country_state", "value": "CE"}
+- Coronovirus no [ceará]{"entity": "country_state", "value": "CE"}
+- Coronovirus no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Coronovirus no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Coronovirus no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Coronovirus no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Coronovirus no [Goiás]{"entity": "country_state", "value": "GO"}
+- Coronovirus no [goiás]{"entity": "country_state", "value": "GO"}
+- Coronovirus no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Coronovirus no [maranhão]{"entity": "country_state", "value": "MA"}
+- Coronovirus no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Coronovirus no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Coronovirus no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Coronovirus no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Coronovirus no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Coronovirus no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Coronovirus no [Pará]{"entity": "country_state", "value": "PA"}
+- Coronovirus no [pará]{"entity": "country_state", "value": "PA"}
+- Coronovirus no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Coronovirus no [paraíba]{"entity": "country_state", "value": "PB"}
+- Coronovirus no [Paraná]{"entity": "country_state", "value": "PR"}
+- Coronovirus no [paraná]{"entity": "country_state", "value": "PR"}
+- Coronovirus no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronovirus no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Coronovirus no [Piauí]{"entity": "country_state", "value": "PI"}
+- Coronovirus no [piauí]{"entity": "country_state", "value": "PI"}
+- Coronovirus no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronovirus no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Coronovirus no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Coronovirus no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Coronovirus no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Coronovirus no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Coronovirus no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Coronovirus no [rondônia]{"entity": "country_state", "value": "RO"}
+- Coronovirus no [Roraima]{"entity": "country_state", "value": "RR"}
+- Coronovirus no [roraima]{"entity": "country_state", "value": "RR"}
+- Coronovirus no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Coronovirus no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Coronovirus no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Coronovirus no [são paulo]{"entity": "country_state", "value": "SP"}
+- Coronovirus no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Coronovirus no [sergipe]{"entity": "country_state", "value": "SE"}
+- Coronovirus no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Coronovirus no [tocantins]{"entity": "country_state", "value": "TO"}
+- Covid 19 em [Acre]{"entity": "country_state", "value": "AC"}
+- Covid 19 em [acre]{"entity": "country_state", "value": "AC"}
+- Covid 19 em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Covid 19 em [alagoas]{"entity": "country_state", "value": "AL"}
+- Covid 19 em [Amapá]{"entity": "country_state", "value": "AP"}
+- Covid 19 em [amapá]{"entity": "country_state", "value": "AP"}
+- Covid 19 em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Covid 19 em [amazonas]{"entity": "country_state", "value": "AM"}
+- Covid 19 em [Bahia]{"entity": "country_state", "value": "BA"}
+- Covid 19 em [bahia]{"entity": "country_state", "value": "BA"}
+- Covid 19 em [Ceará]{"entity": "country_state", "value": "CE"}
+- Covid 19 em [ceará]{"entity": "country_state", "value": "CE"}
+- Covid 19 em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Covid 19 em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Covid 19 em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Covid 19 em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Covid 19 em [Goiás]{"entity": "country_state", "value": "GO"}
+- Covid 19 em [goiás]{"entity": "country_state", "value": "GO"}
+- Covid 19 em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Covid 19 em [maranhão]{"entity": "country_state", "value": "MA"}
+- Covid 19 em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Covid 19 em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Covid 19 em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Covid 19 em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Covid 19 em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Covid 19 em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Covid 19 em [Pará]{"entity": "country_state", "value": "PA"}
+- Covid 19 em [pará]{"entity": "country_state", "value": "PA"}
+- Covid 19 em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Covid 19 em [paraíba]{"entity": "country_state", "value": "PB"}
+- Covid 19 em [Paraná]{"entity": "country_state", "value": "PR"}
+- Covid 19 em [paraná]{"entity": "country_state", "value": "PR"}
+- Covid 19 em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Covid 19 em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Covid 19 em [Piauí]{"entity": "country_state", "value": "PI"}
+- Covid 19 em [piauí]{"entity": "country_state", "value": "PI"}
+- Covid 19 em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Covid 19 em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Covid 19 em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Covid 19 em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Covid 19 em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Covid 19 em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Covid 19 em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Covid 19 em [rondônia]{"entity": "country_state", "value": "RO"}
+- Covid 19 em [Roraima]{"entity": "country_state", "value": "RR"}
+- Covid 19 em [roraima]{"entity": "country_state", "value": "RR"}
+- Covid 19 em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Covid 19 em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Covid 19 em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Covid 19 em [são paulo]{"entity": "country_state", "value": "SP"}
+- Covid 19 em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Covid 19 em [sergipe]{"entity": "country_state", "value": "SE"}
+- Covid 19 em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Covid 19 em [tocantins]{"entity": "country_state", "value": "TO"}
+- Covid 19 na [Acre]{"entity": "country_state", "value": "AC"}
+- Covid 19 na [acre]{"entity": "country_state", "value": "AC"}
+- Covid 19 na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Covid 19 na [alagoas]{"entity": "country_state", "value": "AL"}
+- Covid 19 na [Amapá]{"entity": "country_state", "value": "AP"}
+- Covid 19 na [amapá]{"entity": "country_state", "value": "AP"}
+- Covid 19 na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Covid 19 na [amazonas]{"entity": "country_state", "value": "AM"}
+- Covid 19 na [Bahia]{"entity": "country_state", "value": "BA"}
+- Covid 19 na [bahia]{"entity": "country_state", "value": "BA"}
+- Covid 19 na [Ceará]{"entity": "country_state", "value": "CE"}
+- Covid 19 na [ceará]{"entity": "country_state", "value": "CE"}
+- Covid 19 na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Covid 19 na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Covid 19 na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Covid 19 na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Covid 19 na [Goiás]{"entity": "country_state", "value": "GO"}
+- Covid 19 na [goiás]{"entity": "country_state", "value": "GO"}
+- Covid 19 na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Covid 19 na [maranhão]{"entity": "country_state", "value": "MA"}
+- Covid 19 na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Covid 19 na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Covid 19 na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Covid 19 na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Covid 19 na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Covid 19 na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Covid 19 na [Pará]{"entity": "country_state", "value": "PA"}
+- Covid 19 na [pará]{"entity": "country_state", "value": "PA"}
+- Covid 19 na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Covid 19 na [paraíba]{"entity": "country_state", "value": "PB"}
+- Covid 19 na [Paraná]{"entity": "country_state", "value": "PR"}
+- Covid 19 na [paraná]{"entity": "country_state", "value": "PR"}
+- Covid 19 na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Covid 19 na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Covid 19 na [Piauí]{"entity": "country_state", "value": "PI"}
+- Covid 19 na [piauí]{"entity": "country_state", "value": "PI"}
+- Covid 19 na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Covid 19 na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Covid 19 na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Covid 19 na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Covid 19 na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Covid 19 na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Covid 19 na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Covid 19 na [rondônia]{"entity": "country_state", "value": "RO"}
+- Covid 19 na [Roraima]{"entity": "country_state", "value": "RR"}
+- Covid 19 na [roraima]{"entity": "country_state", "value": "RR"}
+- Covid 19 na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Covid 19 na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Covid 19 na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Covid 19 na [são paulo]{"entity": "country_state", "value": "SP"}
+- Covid 19 na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Covid 19 na [sergipe]{"entity": "country_state", "value": "SE"}
+- Covid 19 na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Covid 19 na [tocantins]{"entity": "country_state", "value": "TO"}
+- Covid 19 no [Acre]{"entity": "country_state", "value": "AC"}
+- Covid 19 no [acre]{"entity": "country_state", "value": "AC"}
+- Covid 19 no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Covid 19 no [alagoas]{"entity": "country_state", "value": "AL"}
+- Covid 19 no [Amapá]{"entity": "country_state", "value": "AP"}
+- Covid 19 no [amapá]{"entity": "country_state", "value": "AP"}
+- Covid 19 no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Covid 19 no [amazonas]{"entity": "country_state", "value": "AM"}
+- Covid 19 no [Bahia]{"entity": "country_state", "value": "BA"}
+- Covid 19 no [bahia]{"entity": "country_state", "value": "BA"}
+- Covid 19 no [Ceará]{"entity": "country_state", "value": "CE"}
+- Covid 19 no [ceará]{"entity": "country_state", "value": "CE"}
+- Covid 19 no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Covid 19 no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Covid 19 no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Covid 19 no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Covid 19 no [Goiás]{"entity": "country_state", "value": "GO"}
+- Covid 19 no [goiás]{"entity": "country_state", "value": "GO"}
+- Covid 19 no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Covid 19 no [maranhão]{"entity": "country_state", "value": "MA"}
+- Covid 19 no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Covid 19 no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Covid 19 no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Covid 19 no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Covid 19 no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Covid 19 no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Covid 19 no [Pará]{"entity": "country_state", "value": "PA"}
+- Covid 19 no [pará]{"entity": "country_state", "value": "PA"}
+- Covid 19 no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Covid 19 no [paraíba]{"entity": "country_state", "value": "PB"}
+- Covid 19 no [Paraná]{"entity": "country_state", "value": "PR"}
+- Covid 19 no [paraná]{"entity": "country_state", "value": "PR"}
+- Covid 19 no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Covid 19 no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Covid 19 no [Piauí]{"entity": "country_state", "value": "PI"}
+- Covid 19 no [piauí]{"entity": "country_state", "value": "PI"}
+- Covid 19 no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Covid 19 no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Covid 19 no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Covid 19 no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Covid 19 no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Covid 19 no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Covid 19 no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Covid 19 no [rondônia]{"entity": "country_state", "value": "RO"}
+- Covid 19 no [Roraima]{"entity": "country_state", "value": "RR"}
+- Covid 19 no [roraima]{"entity": "country_state", "value": "RR"}
+- Covid 19 no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Covid 19 no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Covid 19 no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Covid 19 no [são paulo]{"entity": "country_state", "value": "SP"}
+- Covid 19 no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Covid 19 no [sergipe]{"entity": "country_state", "value": "SE"}
+- Covid 19 no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Covid 19 no [tocantins]{"entity": "country_state", "value": "TO"}
+- COVID-19 em [Acre]{"entity": "country_state", "value": "AC"}
+- COVID-19 em [acre]{"entity": "country_state", "value": "AC"}
+- COVID-19 em [Alagoas]{"entity": "country_state", "value": "AL"}
+- COVID-19 em [alagoas]{"entity": "country_state", "value": "AL"}
+- COVID-19 em [Amapá]{"entity": "country_state", "value": "AP"}
+- COVID-19 em [amapá]{"entity": "country_state", "value": "AP"}
+- COVID-19 em [Amazonas]{"entity": "country_state", "value": "AM"}
+- COVID-19 em [amazonas]{"entity": "country_state", "value": "AM"}
+- COVID-19 em [Bahia]{"entity": "country_state", "value": "BA"}
+- COVID-19 em [bahia]{"entity": "country_state", "value": "BA"}
+- COVID-19 em [Ceará]{"entity": "country_state", "value": "CE"}
+- COVID-19 em [ceará]{"entity": "country_state", "value": "CE"}
+- COVID-19 em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- COVID-19 em [distrito federal]{"entity": "country_state", "value": "DF"}
+- COVID-19 em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- COVID-19 em [espírito santo]{"entity": "country_state", "value": "ES"}
+- COVID-19 em [Goiás]{"entity": "country_state", "value": "GO"}
+- COVID-19 em [goiás]{"entity": "country_state", "value": "GO"}
+- COVID-19 em [Maranhão]{"entity": "country_state", "value": "MA"}
+- COVID-19 em [maranhão]{"entity": "country_state", "value": "MA"}
+- COVID-19 em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- COVID-19 em [mato grosso]{"entity": "country_state", "value": "MT"}
+- COVID-19 em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- COVID-19 em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- COVID-19 em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- COVID-19 em [minas gerais]{"entity": "country_state", "value": "MG"}
+- COVID-19 em [Pará]{"entity": "country_state", "value": "PA"}
+- COVID-19 em [pará]{"entity": "country_state", "value": "PA"}
+- COVID-19 em [Paraíba]{"entity": "country_state", "value": "PB"}
+- COVID-19 em [paraíba]{"entity": "country_state", "value": "PB"}
+- COVID-19 em [Paraná]{"entity": "country_state", "value": "PR"}
+- COVID-19 em [paraná]{"entity": "country_state", "value": "PR"}
+- COVID-19 em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- COVID-19 em [pernambuco]{"entity": "country_state", "value": "PE"}
+- COVID-19 em [Piauí]{"entity": "country_state", "value": "PI"}
+- COVID-19 em [piauí]{"entity": "country_state", "value": "PI"}
+- COVID-19 em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- COVID-19 em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- COVID-19 em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- COVID-19 em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- COVID-19 em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- COVID-19 em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- COVID-19 em [Rondônia]{"entity": "country_state", "value": "RO"}
+- COVID-19 em [rondônia]{"entity": "country_state", "value": "RO"}
+- COVID-19 em [Roraima]{"entity": "country_state", "value": "RR"}
+- COVID-19 em [roraima]{"entity": "country_state", "value": "RR"}
+- COVID-19 em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- COVID-19 em [santa catarina]{"entity": "country_state", "value": "SC"}
+- COVID-19 em [São Paulo]{"entity": "country_state", "value": "SP"}
+- COVID-19 em [são paulo]{"entity": "country_state", "value": "SP"}
+- COVID-19 em [Sergipe]{"entity": "country_state", "value": "SE"}
+- COVID-19 em [sergipe]{"entity": "country_state", "value": "SE"}
+- COVID-19 em [Tocantins]{"entity": "country_state", "value": "TO"}
+- COVID-19 em [tocantins]{"entity": "country_state", "value": "TO"}
+- COVID-19 na [Acre]{"entity": "country_state", "value": "AC"}
+- COVID-19 na [acre]{"entity": "country_state", "value": "AC"}
+- COVID-19 na [Alagoas]{"entity": "country_state", "value": "AL"}
+- COVID-19 na [alagoas]{"entity": "country_state", "value": "AL"}
+- COVID-19 na [Amapá]{"entity": "country_state", "value": "AP"}
+- COVID-19 na [amapá]{"entity": "country_state", "value": "AP"}
+- COVID-19 na [Amazonas]{"entity": "country_state", "value": "AM"}
+- COVID-19 na [amazonas]{"entity": "country_state", "value": "AM"}
+- COVID-19 na [Bahia]{"entity": "country_state", "value": "BA"}
+- COVID-19 na [bahia]{"entity": "country_state", "value": "BA"}
+- COVID-19 na [Ceará]{"entity": "country_state", "value": "CE"}
+- COVID-19 na [ceará]{"entity": "country_state", "value": "CE"}
+- COVID-19 na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- COVID-19 na [distrito federal]{"entity": "country_state", "value": "DF"}
+- COVID-19 na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- COVID-19 na [espírito santo]{"entity": "country_state", "value": "ES"}
+- COVID-19 na [Goiás]{"entity": "country_state", "value": "GO"}
+- COVID-19 na [goiás]{"entity": "country_state", "value": "GO"}
+- COVID-19 na [Maranhão]{"entity": "country_state", "value": "MA"}
+- COVID-19 na [maranhão]{"entity": "country_state", "value": "MA"}
+- COVID-19 na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- COVID-19 na [mato grosso]{"entity": "country_state", "value": "MT"}
+- COVID-19 na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- COVID-19 na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- COVID-19 na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- COVID-19 na [minas gerais]{"entity": "country_state", "value": "MG"}
+- COVID-19 na [Pará]{"entity": "country_state", "value": "PA"}
+- COVID-19 na [pará]{"entity": "country_state", "value": "PA"}
+- COVID-19 na [Paraíba]{"entity": "country_state", "value": "PB"}
+- COVID-19 na [paraíba]{"entity": "country_state", "value": "PB"}
+- COVID-19 na [Paraná]{"entity": "country_state", "value": "PR"}
+- COVID-19 na [paraná]{"entity": "country_state", "value": "PR"}
+- COVID-19 na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- COVID-19 na [pernambuco]{"entity": "country_state", "value": "PE"}
+- COVID-19 na [Piauí]{"entity": "country_state", "value": "PI"}
+- COVID-19 na [piauí]{"entity": "country_state", "value": "PI"}
+- COVID-19 na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- COVID-19 na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- COVID-19 na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- COVID-19 na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- COVID-19 na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- COVID-19 na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- COVID-19 na [Rondônia]{"entity": "country_state", "value": "RO"}
+- COVID-19 na [rondônia]{"entity": "country_state", "value": "RO"}
+- COVID-19 na [Roraima]{"entity": "country_state", "value": "RR"}
+- COVID-19 na [roraima]{"entity": "country_state", "value": "RR"}
+- COVID-19 na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- COVID-19 na [santa catarina]{"entity": "country_state", "value": "SC"}
+- COVID-19 na [São Paulo]{"entity": "country_state", "value": "SP"}
+- COVID-19 na [são paulo]{"entity": "country_state", "value": "SP"}
+- COVID-19 na [Sergipe]{"entity": "country_state", "value": "SE"}
+- COVID-19 na [sergipe]{"entity": "country_state", "value": "SE"}
+- COVID-19 na [Tocantins]{"entity": "country_state", "value": "TO"}
+- COVID-19 na [tocantins]{"entity": "country_state", "value": "TO"}
+- COVID-19 no [Acre]{"entity": "country_state", "value": "AC"}
+- COVID-19 no [acre]{"entity": "country_state", "value": "AC"}
+- COVID-19 no [Alagoas]{"entity": "country_state", "value": "AL"}
+- COVID-19 no [alagoas]{"entity": "country_state", "value": "AL"}
+- COVID-19 no [Amapá]{"entity": "country_state", "value": "AP"}
+- COVID-19 no [amapá]{"entity": "country_state", "value": "AP"}
+- COVID-19 no [Amazonas]{"entity": "country_state", "value": "AM"}
+- COVID-19 no [amazonas]{"entity": "country_state", "value": "AM"}
+- COVID-19 no [Bahia]{"entity": "country_state", "value": "BA"}
+- COVID-19 no [bahia]{"entity": "country_state", "value": "BA"}
+- COVID-19 no [Ceará]{"entity": "country_state", "value": "CE"}
+- COVID-19 no [ceará]{"entity": "country_state", "value": "CE"}
+- COVID-19 no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- COVID-19 no [distrito federal]{"entity": "country_state", "value": "DF"}
+- COVID-19 no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- COVID-19 no [espírito santo]{"entity": "country_state", "value": "ES"}
+- COVID-19 no [Goiás]{"entity": "country_state", "value": "GO"}
+- COVID-19 no [goiás]{"entity": "country_state", "value": "GO"}
+- COVID-19 no [Maranhão]{"entity": "country_state", "value": "MA"}
+- COVID-19 no [maranhão]{"entity": "country_state", "value": "MA"}
+- COVID-19 no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- COVID-19 no [mato grosso]{"entity": "country_state", "value": "MT"}
+- COVID-19 no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- COVID-19 no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- COVID-19 no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- COVID-19 no [minas gerais]{"entity": "country_state", "value": "MG"}
+- COVID-19 no [Pará]{"entity": "country_state", "value": "PA"}
+- COVID-19 no [pará]{"entity": "country_state", "value": "PA"}
+- COVID-19 no [Paraíba]{"entity": "country_state", "value": "PB"}
+- COVID-19 no [paraíba]{"entity": "country_state", "value": "PB"}
+- COVID-19 no [Paraná]{"entity": "country_state", "value": "PR"}
+- COVID-19 no [paraná]{"entity": "country_state", "value": "PR"}
+- COVID-19 no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- COVID-19 no [pernambuco]{"entity": "country_state", "value": "PE"}
+- COVID-19 no [Piauí]{"entity": "country_state", "value": "PI"}
+- COVID-19 no [piauí]{"entity": "country_state", "value": "PI"}
+- COVID-19 no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- COVID-19 no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- COVID-19 no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- COVID-19 no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- COVID-19 no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- COVID-19 no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- COVID-19 no [Rondônia]{"entity": "country_state", "value": "RO"}
+- COVID-19 no [rondônia]{"entity": "country_state", "value": "RO"}
+- COVID-19 no [Roraima]{"entity": "country_state", "value": "RR"}
+- COVID-19 no [roraima]{"entity": "country_state", "value": "RR"}
+- COVID-19 no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- COVID-19 no [santa catarina]{"entity": "country_state", "value": "SC"}
+- COVID-19 no [São Paulo]{"entity": "country_state", "value": "SP"}
+- COVID-19 no [são paulo]{"entity": "country_state", "value": "SP"}
+- COVID-19 no [Sergipe]{"entity": "country_state", "value": "SE"}
+- COVID-19 no [sergipe]{"entity": "country_state", "value": "SE"}
+- COVID-19 no [Tocantins]{"entity": "country_state", "value": "TO"}
+- COVID-19 no [tocantins]{"entity": "country_state", "value": "TO"}
+- Dados atualizados em [Acre]{"entity": "country_state", "value": "AC"}
+- Dados atualizados em [acre]{"entity": "country_state", "value": "AC"}
+- Dados atualizados em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Dados atualizados em [alagoas]{"entity": "country_state", "value": "AL"}
+- Dados atualizados em [Amapá]{"entity": "country_state", "value": "AP"}
+- Dados atualizados em [amapá]{"entity": "country_state", "value": "AP"}
+- Dados atualizados em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Dados atualizados em [amazonas]{"entity": "country_state", "value": "AM"}
+- Dados atualizados em [Bahia]{"entity": "country_state", "value": "BA"}
+- Dados atualizados em [bahia]{"entity": "country_state", "value": "BA"}
+- Dados atualizados em [Ceará]{"entity": "country_state", "value": "CE"}
+- Dados atualizados em [ceará]{"entity": "country_state", "value": "CE"}
+- Dados atualizados em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Dados atualizados em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Dados atualizados em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Dados atualizados em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Dados atualizados em [Goiás]{"entity": "country_state", "value": "GO"}
+- Dados atualizados em [goiás]{"entity": "country_state", "value": "GO"}
+- Dados atualizados em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Dados atualizados em [maranhão]{"entity": "country_state", "value": "MA"}
+- Dados atualizados em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Dados atualizados em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Dados atualizados em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Dados atualizados em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Dados atualizados em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Dados atualizados em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Dados atualizados em [Pará]{"entity": "country_state", "value": "PA"}
+- Dados atualizados em [pará]{"entity": "country_state", "value": "PA"}
+- Dados atualizados em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Dados atualizados em [paraíba]{"entity": "country_state", "value": "PB"}
+- Dados atualizados em [Paraná]{"entity": "country_state", "value": "PR"}
+- Dados atualizados em [paraná]{"entity": "country_state", "value": "PR"}
+- Dados atualizados em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Dados atualizados em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Dados atualizados em [Piauí]{"entity": "country_state", "value": "PI"}
+- Dados atualizados em [piauí]{"entity": "country_state", "value": "PI"}
+- Dados atualizados em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Dados atualizados em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Dados atualizados em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Dados atualizados em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Dados atualizados em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Dados atualizados em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Dados atualizados em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Dados atualizados em [rondônia]{"entity": "country_state", "value": "RO"}
+- Dados atualizados em [Roraima]{"entity": "country_state", "value": "RR"}
+- Dados atualizados em [roraima]{"entity": "country_state", "value": "RR"}
+- Dados atualizados em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Dados atualizados em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Dados atualizados em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Dados atualizados em [são paulo]{"entity": "country_state", "value": "SP"}
+- Dados atualizados em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Dados atualizados em [sergipe]{"entity": "country_state", "value": "SE"}
+- Dados atualizados em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Dados atualizados em [tocantins]{"entity": "country_state", "value": "TO"}
+- Dados atualizados na [Acre]{"entity": "country_state", "value": "AC"}
+- Dados atualizados na [acre]{"entity": "country_state", "value": "AC"}
+- Dados atualizados na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Dados atualizados na [alagoas]{"entity": "country_state", "value": "AL"}
+- Dados atualizados na [Amapá]{"entity": "country_state", "value": "AP"}
+- Dados atualizados na [amapá]{"entity": "country_state", "value": "AP"}
+- Dados atualizados na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Dados atualizados na [amazonas]{"entity": "country_state", "value": "AM"}
+- Dados atualizados na [Bahia]{"entity": "country_state", "value": "BA"}
+- Dados atualizados na [bahia]{"entity": "country_state", "value": "BA"}
+- Dados atualizados na [Ceará]{"entity": "country_state", "value": "CE"}
+- Dados atualizados na [ceará]{"entity": "country_state", "value": "CE"}
+- Dados atualizados na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Dados atualizados na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Dados atualizados na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Dados atualizados na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Dados atualizados na [Goiás]{"entity": "country_state", "value": "GO"}
+- Dados atualizados na [goiás]{"entity": "country_state", "value": "GO"}
+- Dados atualizados na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Dados atualizados na [maranhão]{"entity": "country_state", "value": "MA"}
+- Dados atualizados na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Dados atualizados na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Dados atualizados na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Dados atualizados na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Dados atualizados na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Dados atualizados na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Dados atualizados na [Pará]{"entity": "country_state", "value": "PA"}
+- Dados atualizados na [pará]{"entity": "country_state", "value": "PA"}
+- Dados atualizados na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Dados atualizados na [paraíba]{"entity": "country_state", "value": "PB"}
+- Dados atualizados na [Paraná]{"entity": "country_state", "value": "PR"}
+- Dados atualizados na [paraná]{"entity": "country_state", "value": "PR"}
+- Dados atualizados na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Dados atualizados na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Dados atualizados na [Piauí]{"entity": "country_state", "value": "PI"}
+- Dados atualizados na [piauí]{"entity": "country_state", "value": "PI"}
+- Dados atualizados na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Dados atualizados na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Dados atualizados na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Dados atualizados na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Dados atualizados na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Dados atualizados na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Dados atualizados na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Dados atualizados na [rondônia]{"entity": "country_state", "value": "RO"}
+- Dados atualizados na [Roraima]{"entity": "country_state", "value": "RR"}
+- Dados atualizados na [roraima]{"entity": "country_state", "value": "RR"}
+- Dados atualizados na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Dados atualizados na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Dados atualizados na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Dados atualizados na [são paulo]{"entity": "country_state", "value": "SP"}
+- Dados atualizados na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Dados atualizados na [sergipe]{"entity": "country_state", "value": "SE"}
+- Dados atualizados na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Dados atualizados na [tocantins]{"entity": "country_state", "value": "TO"}
+- Dados atualizados no [Acre]{"entity": "country_state", "value": "AC"}
+- Dados atualizados no [acre]{"entity": "country_state", "value": "AC"}
+- Dados atualizados no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Dados atualizados no [alagoas]{"entity": "country_state", "value": "AL"}
+- Dados atualizados no [Amapá]{"entity": "country_state", "value": "AP"}
+- Dados atualizados no [amapá]{"entity": "country_state", "value": "AP"}
+- Dados atualizados no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Dados atualizados no [amazonas]{"entity": "country_state", "value": "AM"}
+- Dados atualizados no [Bahia]{"entity": "country_state", "value": "BA"}
+- Dados atualizados no [bahia]{"entity": "country_state", "value": "BA"}
+- Dados atualizados no [Ceará]{"entity": "country_state", "value": "CE"}
+- Dados atualizados no [ceará]{"entity": "country_state", "value": "CE"}
+- Dados atualizados no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Dados atualizados no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Dados atualizados no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Dados atualizados no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Dados atualizados no [Goiás]{"entity": "country_state", "value": "GO"}
+- Dados atualizados no [goiás]{"entity": "country_state", "value": "GO"}
+- Dados atualizados no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Dados atualizados no [maranhão]{"entity": "country_state", "value": "MA"}
+- Dados atualizados no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Dados atualizados no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Dados atualizados no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Dados atualizados no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Dados atualizados no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Dados atualizados no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Dados atualizados no [Pará]{"entity": "country_state", "value": "PA"}
+- Dados atualizados no [pará]{"entity": "country_state", "value": "PA"}
+- Dados atualizados no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Dados atualizados no [paraíba]{"entity": "country_state", "value": "PB"}
+- Dados atualizados no [Paraná]{"entity": "country_state", "value": "PR"}
+- Dados atualizados no [paraná]{"entity": "country_state", "value": "PR"}
+- Dados atualizados no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Dados atualizados no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Dados atualizados no [Piauí]{"entity": "country_state", "value": "PI"}
+- Dados atualizados no [piauí]{"entity": "country_state", "value": "PI"}
+- Dados atualizados no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Dados atualizados no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Dados atualizados no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Dados atualizados no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Dados atualizados no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Dados atualizados no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Dados atualizados no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Dados atualizados no [rondônia]{"entity": "country_state", "value": "RO"}
+- Dados atualizados no [Roraima]{"entity": "country_state", "value": "RR"}
+- Dados atualizados no [roraima]{"entity": "country_state", "value": "RR"}
+- Dados atualizados no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Dados atualizados no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Dados atualizados no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Dados atualizados no [são paulo]{"entity": "country_state", "value": "SP"}
+- Dados atualizados no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Dados atualizados no [sergipe]{"entity": "country_state", "value": "SE"}
+- Dados atualizados no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Dados atualizados no [tocantins]{"entity": "country_state", "value": "TO"}
+- Número de casos confirmados em [Acre]{"entity": "country_state", "value": "AC"}
+- Número de casos confirmados em [acre]{"entity": "country_state", "value": "AC"}
+- Número de casos confirmados em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Número de casos confirmados em [alagoas]{"entity": "country_state", "value": "AL"}
+- Número de casos confirmados em [Amapá]{"entity": "country_state", "value": "AP"}
+- Número de casos confirmados em [amapá]{"entity": "country_state", "value": "AP"}
+- Número de casos confirmados em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Número de casos confirmados em [amazonas]{"entity": "country_state", "value": "AM"}
+- Número de casos confirmados em [Bahia]{"entity": "country_state", "value": "BA"}
+- Número de casos confirmados em [bahia]{"entity": "country_state", "value": "BA"}
+- Número de casos confirmados em [Ceará]{"entity": "country_state", "value": "CE"}
+- Número de casos confirmados em [ceará]{"entity": "country_state", "value": "CE"}
+- Número de casos confirmados em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Número de casos confirmados em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Número de casos confirmados em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Número de casos confirmados em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Número de casos confirmados em [Goiás]{"entity": "country_state", "value": "GO"}
+- Número de casos confirmados em [goiás]{"entity": "country_state", "value": "GO"}
+- Número de casos confirmados em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Número de casos confirmados em [maranhão]{"entity": "country_state", "value": "MA"}
+- Número de casos confirmados em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Número de casos confirmados em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Número de casos confirmados em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Número de casos confirmados em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Número de casos confirmados em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Número de casos confirmados em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Número de casos confirmados em [Pará]{"entity": "country_state", "value": "PA"}
+- Número de casos confirmados em [pará]{"entity": "country_state", "value": "PA"}
+- Número de casos confirmados em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Número de casos confirmados em [paraíba]{"entity": "country_state", "value": "PB"}
+- Número de casos confirmados em [Paraná]{"entity": "country_state", "value": "PR"}
+- Número de casos confirmados em [paraná]{"entity": "country_state", "value": "PR"}
+- Número de casos confirmados em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Número de casos confirmados em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Número de casos confirmados em [Piauí]{"entity": "country_state", "value": "PI"}
+- Número de casos confirmados em [piauí]{"entity": "country_state", "value": "PI"}
+- Número de casos confirmados em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Número de casos confirmados em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Número de casos confirmados em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Número de casos confirmados em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Número de casos confirmados em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Número de casos confirmados em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Número de casos confirmados em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Número de casos confirmados em [rondônia]{"entity": "country_state", "value": "RO"}
+- Número de casos confirmados em [Roraima]{"entity": "country_state", "value": "RR"}
+- Número de casos confirmados em [roraima]{"entity": "country_state", "value": "RR"}
+- Número de casos confirmados em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Número de casos confirmados em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Número de casos confirmados em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Número de casos confirmados em [são paulo]{"entity": "country_state", "value": "SP"}
+- Número de casos confirmados em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Número de casos confirmados em [sergipe]{"entity": "country_state", "value": "SE"}
+- Número de casos confirmados em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Número de casos confirmados em [tocantins]{"entity": "country_state", "value": "TO"}
+- Número de casos confirmados na [Acre]{"entity": "country_state", "value": "AC"}
+- Número de casos confirmados na [acre]{"entity": "country_state", "value": "AC"}
+- Número de casos confirmados na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Número de casos confirmados na [alagoas]{"entity": "country_state", "value": "AL"}
+- Número de casos confirmados na [Amapá]{"entity": "country_state", "value": "AP"}
+- Número de casos confirmados na [amapá]{"entity": "country_state", "value": "AP"}
+- Número de casos confirmados na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Número de casos confirmados na [amazonas]{"entity": "country_state", "value": "AM"}
+- Número de casos confirmados na [Bahia]{"entity": "country_state", "value": "BA"}
+- Número de casos confirmados na [bahia]{"entity": "country_state", "value": "BA"}
+- Número de casos confirmados na [Ceará]{"entity": "country_state", "value": "CE"}
+- Número de casos confirmados na [ceará]{"entity": "country_state", "value": "CE"}
+- Número de casos confirmados na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Número de casos confirmados na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Número de casos confirmados na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Número de casos confirmados na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Número de casos confirmados na [Goiás]{"entity": "country_state", "value": "GO"}
+- Número de casos confirmados na [goiás]{"entity": "country_state", "value": "GO"}
+- Número de casos confirmados na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Número de casos confirmados na [maranhão]{"entity": "country_state", "value": "MA"}
+- Número de casos confirmados na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Número de casos confirmados na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Número de casos confirmados na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Número de casos confirmados na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Número de casos confirmados na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Número de casos confirmados na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Número de casos confirmados na [Pará]{"entity": "country_state", "value": "PA"}
+- Número de casos confirmados na [pará]{"entity": "country_state", "value": "PA"}
+- Número de casos confirmados na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Número de casos confirmados na [paraíba]{"entity": "country_state", "value": "PB"}
+- Número de casos confirmados na [Paraná]{"entity": "country_state", "value": "PR"}
+- Número de casos confirmados na [paraná]{"entity": "country_state", "value": "PR"}
+- Número de casos confirmados na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Número de casos confirmados na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Número de casos confirmados na [Piauí]{"entity": "country_state", "value": "PI"}
+- Número de casos confirmados na [piauí]{"entity": "country_state", "value": "PI"}
+- Número de casos confirmados na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Número de casos confirmados na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Número de casos confirmados na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Número de casos confirmados na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Número de casos confirmados na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Número de casos confirmados na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Número de casos confirmados na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Número de casos confirmados na [rondônia]{"entity": "country_state", "value": "RO"}
+- Número de casos confirmados na [Roraima]{"entity": "country_state", "value": "RR"}
+- Número de casos confirmados na [roraima]{"entity": "country_state", "value": "RR"}
+- Número de casos confirmados na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Número de casos confirmados na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Número de casos confirmados na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Número de casos confirmados na [são paulo]{"entity": "country_state", "value": "SP"}
+- Número de casos confirmados na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Número de casos confirmados na [sergipe]{"entity": "country_state", "value": "SE"}
+- Número de casos confirmados na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Número de casos confirmados na [tocantins]{"entity": "country_state", "value": "TO"}
+- Número de casos confirmados no [Acre]{"entity": "country_state", "value": "AC"}
+- Número de casos confirmados no [acre]{"entity": "country_state", "value": "AC"}
+- Número de casos confirmados no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Número de casos confirmados no [alagoas]{"entity": "country_state", "value": "AL"}
+- Número de casos confirmados no [Amapá]{"entity": "country_state", "value": "AP"}
+- Número de casos confirmados no [amapá]{"entity": "country_state", "value": "AP"}
+- Número de casos confirmados no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Número de casos confirmados no [amazonas]{"entity": "country_state", "value": "AM"}
+- Número de casos confirmados no [Bahia]{"entity": "country_state", "value": "BA"}
+- Número de casos confirmados no [bahia]{"entity": "country_state", "value": "BA"}
+- Número de casos confirmados no [Ceará]{"entity": "country_state", "value": "CE"}
+- Número de casos confirmados no [ceará]{"entity": "country_state", "value": "CE"}
+- Número de casos confirmados no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Número de casos confirmados no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Número de casos confirmados no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Número de casos confirmados no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Número de casos confirmados no [Goiás]{"entity": "country_state", "value": "GO"}
+- Número de casos confirmados no [goiás]{"entity": "country_state", "value": "GO"}
+- Número de casos confirmados no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Número de casos confirmados no [maranhão]{"entity": "country_state", "value": "MA"}
+- Número de casos confirmados no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Número de casos confirmados no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Número de casos confirmados no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Número de casos confirmados no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Número de casos confirmados no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Número de casos confirmados no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Número de casos confirmados no [Pará]{"entity": "country_state", "value": "PA"}
+- Número de casos confirmados no [pará]{"entity": "country_state", "value": "PA"}
+- Número de casos confirmados no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Número de casos confirmados no [paraíba]{"entity": "country_state", "value": "PB"}
+- Número de casos confirmados no [Paraná]{"entity": "country_state", "value": "PR"}
+- Número de casos confirmados no [paraná]{"entity": "country_state", "value": "PR"}
+- Número de casos confirmados no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Número de casos confirmados no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Número de casos confirmados no [Piauí]{"entity": "country_state", "value": "PI"}
+- Número de casos confirmados no [piauí]{"entity": "country_state", "value": "PI"}
+- Número de casos confirmados no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Número de casos confirmados no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Número de casos confirmados no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Número de casos confirmados no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Número de casos confirmados no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Número de casos confirmados no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Número de casos confirmados no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Número de casos confirmados no [rondônia]{"entity": "country_state", "value": "RO"}
+- Número de casos confirmados no [Roraima]{"entity": "country_state", "value": "RR"}
+- Número de casos confirmados no [roraima]{"entity": "country_state", "value": "RR"}
+- Número de casos confirmados no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Número de casos confirmados no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Número de casos confirmados no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Número de casos confirmados no [são paulo]{"entity": "country_state", "value": "SP"}
+- Número de casos confirmados no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Número de casos confirmados no [sergipe]{"entity": "country_state", "value": "SE"}
+- Número de casos confirmados no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Número de casos confirmados no [tocantins]{"entity": "country_state", "value": "TO"}
+- numeros para hoje [Acre]{"entity": "country_state", "value": "AC"}
+- números para hoje em [Acre]{"entity": "country_state", "value": "AC"}
+- números para hoje na [Acre]{"entity": "country_state", "value": "AC"}
+- números para hoje no [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos confirmados em [Acre]{"entity": "country_state", "value": "AC"}
+- numeros para hoje [acre]{"entity": "country_state", "value": "AC"}
+- números para hoje em [acre]{"entity": "country_state", "value": "AC"}
+- números para hoje na [acre]{"entity": "country_state", "value": "AC"}
+- números para hoje no [acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos confirmados em [acre]{"entity": "country_state", "value": "AC"}
+- numeros para hoje [Alagoas]{"entity": "country_state", "value": "AL"}
+- números para hoje em [Alagoas]{"entity": "country_state", "value": "AL"}
+- números para hoje na [Alagoas]{"entity": "country_state", "value": "AL"}
+- números para hoje no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos confirmados em [Alagoas]{"entity": "country_state", "value": "AL"}
+- numeros para hoje [alagoas]{"entity": "country_state", "value": "AL"}
+- números para hoje em [alagoas]{"entity": "country_state", "value": "AL"}
+- números para hoje na [alagoas]{"entity": "country_state", "value": "AL"}
+- números para hoje no [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos confirmados em [alagoas]{"entity": "country_state", "value": "AL"}
+- numeros para hoje [Amapá]{"entity": "country_state", "value": "AP"}
+- números para hoje em [Amapá]{"entity": "country_state", "value": "AP"}
+- números para hoje na [Amapá]{"entity": "country_state", "value": "AP"}
+- números para hoje no [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos confirmados em [Amapá]{"entity": "country_state", "value": "AP"}
+- numeros para hoje [amapá]{"entity": "country_state", "value": "AP"}
+- números para hoje em [amapá]{"entity": "country_state", "value": "AP"}
+- números para hoje na [amapá]{"entity": "country_state", "value": "AP"}
+- números para hoje no [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos confirmados em [amapá]{"entity": "country_state", "value": "AP"}
+- numeros para hoje [Amazonas]{"entity": "country_state", "value": "AM"}
+- números para hoje em [Amazonas]{"entity": "country_state", "value": "AM"}
+- números para hoje na [Amazonas]{"entity": "country_state", "value": "AM"}
+- números para hoje no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos confirmados em [Amazonas]{"entity": "country_state", "value": "AM"}
+- numeros para hoje [amazonas]{"entity": "country_state", "value": "AM"}
+- números para hoje em [amazonas]{"entity": "country_state", "value": "AM"}
+- números para hoje na [amazonas]{"entity": "country_state", "value": "AM"}
+- números para hoje no [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos confirmados em [amazonas]{"entity": "country_state", "value": "AM"}
+- numeros para hoje [Bahia]{"entity": "country_state", "value": "BA"}
+- números para hoje em [Bahia]{"entity": "country_state", "value": "BA"}
+- números para hoje na [Bahia]{"entity": "country_state", "value": "BA"}
+- números para hoje no [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos confirmados em [Bahia]{"entity": "country_state", "value": "BA"}
+- numeros para hoje [bahia]{"entity": "country_state", "value": "BA"}
+- números para hoje em [bahia]{"entity": "country_state", "value": "BA"}
+- números para hoje na [bahia]{"entity": "country_state", "value": "BA"}
+- números para hoje no [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos confirmados em [bahia]{"entity": "country_state", "value": "BA"}
+- numeros para hoje [Ceará]{"entity": "country_state", "value": "CE"}
+- números para hoje em [Ceará]{"entity": "country_state", "value": "CE"}
+- números para hoje na [Ceará]{"entity": "country_state", "value": "CE"}
+- números para hoje no [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos confirmados em [Ceará]{"entity": "country_state", "value": "CE"}
+- numeros para hoje [ceará]{"entity": "country_state", "value": "CE"}
+- números para hoje em [ceará]{"entity": "country_state", "value": "CE"}
+- números para hoje na [ceará]{"entity": "country_state", "value": "CE"}
+- números para hoje no [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos confirmados em [ceará]{"entity": "country_state", "value": "CE"}
+- numeros para hoje [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- números para hoje em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- números para hoje na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- números para hoje no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos confirmados em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- numeros para hoje [distrito federal]{"entity": "country_state", "value": "DF"}
+- números para hoje em [distrito federal]{"entity": "country_state", "value": "DF"}
+- números para hoje na [distrito federal]{"entity": "country_state", "value": "DF"}
+- números para hoje no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos confirmados em [distrito federal]{"entity": "country_state", "value": "DF"}
+- numeros para hoje [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- números para hoje em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- números para hoje na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- números para hoje no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos confirmados em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- numeros para hoje [espírito santo]{"entity": "country_state", "value": "ES"}
+- números para hoje em [espírito santo]{"entity": "country_state", "value": "ES"}
+- números para hoje na [espírito santo]{"entity": "country_state", "value": "ES"}
+- números para hoje no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos confirmados em [espírito santo]{"entity": "country_state", "value": "ES"}
+- numeros para hoje [Goiás]{"entity": "country_state", "value": "GO"}
+- números para hoje em [Goiás]{"entity": "country_state", "value": "GO"}
+- números para hoje na [Goiás]{"entity": "country_state", "value": "GO"}
+- números para hoje no [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos confirmados em [Goiás]{"entity": "country_state", "value": "GO"}
+- numeros para hoje [goiás]{"entity": "country_state", "value": "GO"}
+- números para hoje em [goiás]{"entity": "country_state", "value": "GO"}
+- números para hoje na [goiás]{"entity": "country_state", "value": "GO"}
+- números para hoje no [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos confirmados em [goiás]{"entity": "country_state", "value": "GO"}
+- numeros para hoje [Maranhão]{"entity": "country_state", "value": "MA"}
+- números para hoje em [Maranhão]{"entity": "country_state", "value": "MA"}
+- números para hoje na [Maranhão]{"entity": "country_state", "value": "MA"}
+- números para hoje no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos confirmados em [Maranhão]{"entity": "country_state", "value": "MA"}
+- numeros para hoje [maranhão]{"entity": "country_state", "value": "MA"}
+- números para hoje em [maranhão]{"entity": "country_state", "value": "MA"}
+- números para hoje na [maranhão]{"entity": "country_state", "value": "MA"}
+- números para hoje no [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos confirmados em [maranhão]{"entity": "country_state", "value": "MA"}
+- numeros para hoje [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- números para hoje em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- números para hoje na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- números para hoje no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos confirmados em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- numeros para hoje [mato grosso]{"entity": "country_state", "value": "MT"}
+- números para hoje em [mato grosso]{"entity": "country_state", "value": "MT"}
+- números para hoje na [mato grosso]{"entity": "country_state", "value": "MT"}
+- números para hoje no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos confirmados em [mato grosso]{"entity": "country_state", "value": "MT"}
+- numeros para hoje [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- números para hoje em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- números para hoje na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- números para hoje no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos confirmados em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- numeros para hoje [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- números para hoje em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- números para hoje na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- números para hoje no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos confirmados em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- numeros para hoje [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- números para hoje em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- números para hoje na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- números para hoje no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos confirmados em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- numeros para hoje [minas gerais]{"entity": "country_state", "value": "MG"}
+- números para hoje em [minas gerais]{"entity": "country_state", "value": "MG"}
+- números para hoje na [minas gerais]{"entity": "country_state", "value": "MG"}
+- números para hoje no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos confirmados em [minas gerais]{"entity": "country_state", "value": "MG"}
+- numeros para hoje [Pará]{"entity": "country_state", "value": "PA"}
+- números para hoje em [Pará]{"entity": "country_state", "value": "PA"}
+- números para hoje na [Pará]{"entity": "country_state", "value": "PA"}
+- números para hoje no [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos confirmados em [Pará]{"entity": "country_state", "value": "PA"}
+- numeros para hoje [pará]{"entity": "country_state", "value": "PA"}
+- números para hoje em [pará]{"entity": "country_state", "value": "PA"}
+- números para hoje na [pará]{"entity": "country_state", "value": "PA"}
+- números para hoje no [pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos confirmados em [pará]{"entity": "country_state", "value": "PA"}
+- numeros para hoje [Paraíba]{"entity": "country_state", "value": "PB"}
+- números para hoje em [Paraíba]{"entity": "country_state", "value": "PB"}
+- números para hoje na [Paraíba]{"entity": "country_state", "value": "PB"}
+- números para hoje no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos confirmados em [Paraíba]{"entity": "country_state", "value": "PB"}
+- numeros para hoje [paraíba]{"entity": "country_state", "value": "PB"}
+- números para hoje em [paraíba]{"entity": "country_state", "value": "PB"}
+- números para hoje na [paraíba]{"entity": "country_state", "value": "PB"}
+- números para hoje no [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos confirmados em [paraíba]{"entity": "country_state", "value": "PB"}
+- numeros para hoje [Paraná]{"entity": "country_state", "value": "PR"}
+- números para hoje em [Paraná]{"entity": "country_state", "value": "PR"}
+- números para hoje na [Paraná]{"entity": "country_state", "value": "PR"}
+- números para hoje no [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos confirmados em [Paraná]{"entity": "country_state", "value": "PR"}
+- numeros para hoje [paraná]{"entity": "country_state", "value": "PR"}
+- números para hoje em [paraná]{"entity": "country_state", "value": "PR"}
+- números para hoje na [paraná]{"entity": "country_state", "value": "PR"}
+- números para hoje no [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos confirmados em [paraná]{"entity": "country_state", "value": "PR"}
+- numeros para hoje [Pernambuco]{"entity": "country_state", "value": "PE"}
+- números para hoje em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- números para hoje na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- números para hoje no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos confirmados em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- numeros para hoje [pernambuco]{"entity": "country_state", "value": "PE"}
+- números para hoje em [pernambuco]{"entity": "country_state", "value": "PE"}
+- números para hoje na [pernambuco]{"entity": "country_state", "value": "PE"}
+- números para hoje no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos confirmados em [pernambuco]{"entity": "country_state", "value": "PE"}
+- numeros para hoje [Piauí]{"entity": "country_state", "value": "PI"}
+- números para hoje em [Piauí]{"entity": "country_state", "value": "PI"}
+- números para hoje na [Piauí]{"entity": "country_state", "value": "PI"}
+- números para hoje no [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos confirmados em [Piauí]{"entity": "country_state", "value": "PI"}
+- numeros para hoje [piauí]{"entity": "country_state", "value": "PI"}
+- números para hoje em [piauí]{"entity": "country_state", "value": "PI"}
+- números para hoje na [piauí]{"entity": "country_state", "value": "PI"}
+- números para hoje no [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos confirmados em [piauí]{"entity": "country_state", "value": "PI"}
+- numeros para hoje [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- números para hoje em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- números para hoje na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- números para hoje no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos confirmados em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- numeros para hoje [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- números para hoje em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- números para hoje na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- números para hoje no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos confirmados em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- numeros para hoje [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- números para hoje em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- números para hoje na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- números para hoje no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos confirmados em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- numeros para hoje [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- números para hoje em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- números para hoje na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- números para hoje no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos confirmados em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- numeros para hoje [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- números para hoje em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- números para hoje na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- números para hoje no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos confirmados em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- numeros para hoje [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- números para hoje em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- números para hoje na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- números para hoje no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos confirmados em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- numeros para hoje [Rondônia]{"entity": "country_state", "value": "RO"}
+- números para hoje em [Rondônia]{"entity": "country_state", "value": "RO"}
+- números para hoje na [Rondônia]{"entity": "country_state", "value": "RO"}
+- números para hoje no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos confirmados em [Rondônia]{"entity": "country_state", "value": "RO"}
+- numeros para hoje [rondônia]{"entity": "country_state", "value": "RO"}
+- números para hoje em [rondônia]{"entity": "country_state", "value": "RO"}
+- números para hoje na [rondônia]{"entity": "country_state", "value": "RO"}
+- números para hoje no [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos confirmados em [rondônia]{"entity": "country_state", "value": "RO"}
+- numeros para hoje [Roraima]{"entity": "country_state", "value": "RR"}
+- números para hoje em [Roraima]{"entity": "country_state", "value": "RR"}
+- números para hoje na [Roraima]{"entity": "country_state", "value": "RR"}
+- números para hoje no [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos confirmados em [Roraima]{"entity": "country_state", "value": "RR"}
+- numeros para hoje [roraima]{"entity": "country_state", "value": "RR"}
+- números para hoje em [roraima]{"entity": "country_state", "value": "RR"}
+- números para hoje na [roraima]{"entity": "country_state", "value": "RR"}
+- números para hoje no [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos confirmados em [roraima]{"entity": "country_state", "value": "RR"}
+- numeros para hoje [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- números para hoje em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- números para hoje na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- números para hoje no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos confirmados em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- numeros para hoje [santa catarina]{"entity": "country_state", "value": "SC"}
+- números para hoje em [santa catarina]{"entity": "country_state", "value": "SC"}
+- números para hoje na [santa catarina]{"entity": "country_state", "value": "SC"}
+- números para hoje no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos confirmados em [santa catarina]{"entity": "country_state", "value": "SC"}
+- numeros para hoje [São Paulo]{"entity": "country_state", "value": "SP"}
+- números para hoje em [São Paulo]{"entity": "country_state", "value": "SP"}
+- números para hoje na [São Paulo]{"entity": "country_state", "value": "SP"}
+- números para hoje no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos confirmados em [São Paulo]{"entity": "country_state", "value": "SP"}
+- numeros para hoje [são paulo]{"entity": "country_state", "value": "SP"}
+- números para hoje em [são paulo]{"entity": "country_state", "value": "SP"}
+- números para hoje na [são paulo]{"entity": "country_state", "value": "SP"}
+- números para hoje no [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos confirmados em [são paulo]{"entity": "country_state", "value": "SP"}
+- numeros para hoje [Sergipe]{"entity": "country_state", "value": "SE"}
+- números para hoje em [Sergipe]{"entity": "country_state", "value": "SE"}
+- números para hoje na [Sergipe]{"entity": "country_state", "value": "SE"}
+- números para hoje no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos confirmados em [Sergipe]{"entity": "country_state", "value": "SE"}
+- numeros para hoje [sergipe]{"entity": "country_state", "value": "SE"}
+- números para hoje em [sergipe]{"entity": "country_state", "value": "SE"}
+- números para hoje na [sergipe]{"entity": "country_state", "value": "SE"}
+- números para hoje no [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos confirmados em [sergipe]{"entity": "country_state", "value": "SE"}
+- numeros para hoje [Tocantins]{"entity": "country_state", "value": "TO"}
+- números para hoje em [Tocantins]{"entity": "country_state", "value": "TO"}
+- números para hoje na [Tocantins]{"entity": "country_state", "value": "TO"}
+- números para hoje no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos confirmados em [Tocantins]{"entity": "country_state", "value": "TO"}
+- numeros para hoje [tocantins]{"entity": "country_state", "value": "TO"}
+- números para hoje em [tocantins]{"entity": "country_state", "value": "TO"}
+- números para hoje na [tocantins]{"entity": "country_state", "value": "TO"}
+- números para hoje no [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos confirmados em [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos confirmados na [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos confirmados na [acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos confirmados na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos confirmados na [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos confirmados na [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos confirmados na [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos confirmados na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos confirmados na [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos confirmados na [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos confirmados na [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos confirmados na [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos confirmados na [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos confirmados na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos confirmados na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos confirmados na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos confirmados na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos confirmados na [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos confirmados na [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos confirmados na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos confirmados na [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos confirmados na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos confirmados na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos confirmados na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos confirmados na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos confirmados na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos confirmados na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos confirmados na [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos confirmados na [pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos confirmados na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos confirmados na [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos confirmados na [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos confirmados na [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos confirmados na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos confirmados na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos confirmados na [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos confirmados na [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos confirmados na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos confirmados na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos confirmados na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos confirmados na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos confirmados na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos confirmados na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos confirmados na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos confirmados na [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos confirmados na [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos confirmados na [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos confirmados na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos confirmados na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos confirmados na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos confirmados na [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos confirmados na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos confirmados na [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos confirmados na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos confirmados na [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos confirmados no [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos confirmados no [acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos confirmados no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos confirmados no [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos confirmados no [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos confirmados no [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos confirmados no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos confirmados no [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos confirmados no [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos confirmados no [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos confirmados no [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos confirmados no [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos confirmados no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos confirmados no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos confirmados no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos confirmados no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos confirmados no [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos confirmados no [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos confirmados no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos confirmados no [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos confirmados no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos confirmados no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos confirmados no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos confirmados no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos confirmados no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos confirmados no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos confirmados no [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos confirmados no [pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos confirmados no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos confirmados no [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos confirmados no [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos confirmados no [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos confirmados no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos confirmados no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos confirmados no [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos confirmados no [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos confirmados no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos confirmados no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos confirmados no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos confirmados no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos confirmados no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos confirmados no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos confirmados no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos confirmados no [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos confirmados no [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos confirmados no [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos confirmados no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos confirmados no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos confirmados no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos confirmados no [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos confirmados no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos confirmados no [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos confirmados no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos confirmados no [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos existem em [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos existem em [acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos existem em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos existem em [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos existem em [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos existem em [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos existem em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos existem em [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos existem em [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos existem em [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos existem em [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos existem em [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos existem em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos existem em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos existem em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos existem em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos existem em [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos existem em [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos existem em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos existem em [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos existem em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos existem em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos existem em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos existem em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos existem em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos existem em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos existem em [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos existem em [pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos existem em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos existem em [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos existem em [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos existem em [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos existem em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos existem em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos existem em [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos existem em [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos existem em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos existem em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos existem em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos existem em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos existem em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos existem em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos existem em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos existem em [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos existem em [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos existem em [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos existem em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos existem em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos existem em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos existem em [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos existem em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos existem em [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos existem em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos existem em [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos existem na [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos existem na [acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos existem na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos existem na [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos existem na [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos existem na [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos existem na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos existem na [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos existem na [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos existem na [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos existem na [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos existem na [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos existem na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos existem na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos existem na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos existem na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos existem na [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos existem na [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos existem na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos existem na [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos existem na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos existem na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos existem na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos existem na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos existem na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos existem na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos existem na [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos existem na [pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos existem na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos existem na [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos existem na [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos existem na [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos existem na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos existem na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos existem na [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos existem na [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos existem na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos existem na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos existem na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos existem na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos existem na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos existem na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos existem na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos existem na [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos existem na [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos existem na [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos existem na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos existem na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos existem na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos existem na [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos existem na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos existem na [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos existem na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos existem na [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos existem no [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos existem no [acre]{"entity": "country_state", "value": "AC"}
+- Quantos casos existem no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos existem no [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos casos existem no [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos existem no [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos casos existem no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos existem no [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos casos existem no [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos existem no [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos casos existem no [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos existem no [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos casos existem no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos existem no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos casos existem no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos existem no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos casos existem no [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos existem no [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos casos existem no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos existem no [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos casos existem no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos existem no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos casos existem no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos existem no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos casos existem no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos existem no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos casos existem no [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos existem no [pará]{"entity": "country_state", "value": "PA"}
+- Quantos casos existem no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos existem no [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos casos existem no [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos existem no [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos casos existem no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos existem no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos casos existem no [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos existem no [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos casos existem no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos existem no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos casos existem no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos existem no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos casos existem no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos existem no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos casos existem no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos existem no [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos casos existem no [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos existem no [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos casos existem no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos existem no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos casos existem no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos existem no [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos casos existem no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos existem no [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos casos existem no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos casos existem no [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados em [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados em [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados em [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados em [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados em [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados em [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados em [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados em [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados em [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados em [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados em [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados em [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados em [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados em [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados em [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados em [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados em [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados em [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados em [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados em [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados em [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados em [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados em [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados em [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados em [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados em [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem actualmente em [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem actualmente em [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem actualmente em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem actualmente em [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem actualmente em [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem actualmente em [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem actualmente em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem actualmente em [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem actualmente em [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem actualmente em [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem actualmente em [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem actualmente em [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem actualmente em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem actualmente em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem actualmente em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem actualmente em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem actualmente em [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem actualmente em [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem actualmente em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem actualmente em [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem actualmente em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem actualmente em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem actualmente em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem actualmente em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem actualmente em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem actualmente em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem actualmente em [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem actualmente em [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem actualmente em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem actualmente em [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem actualmente em [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem actualmente em [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem actualmente em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem actualmente em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem actualmente em [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem actualmente em [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem actualmente em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem actualmente em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem actualmente em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem actualmente em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem actualmente em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem actualmente em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem actualmente em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem actualmente em [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem actualmente em [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem actualmente em [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem actualmente em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem actualmente em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem actualmente em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem actualmente em [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem actualmente em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem actualmente em [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem actualmente em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem actualmente em [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem actualmente na [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem actualmente na [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem actualmente na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem actualmente na [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem actualmente na [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem actualmente na [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem actualmente na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem actualmente na [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem actualmente na [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem actualmente na [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem actualmente na [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem actualmente na [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem actualmente na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem actualmente na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem actualmente na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem actualmente na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem actualmente na [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem actualmente na [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem actualmente na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem actualmente na [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem actualmente na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem actualmente na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem actualmente na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem actualmente na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem actualmente na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem actualmente na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem actualmente na [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem actualmente na [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem actualmente na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem actualmente na [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem actualmente na [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem actualmente na [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem actualmente na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem actualmente na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem actualmente na [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem actualmente na [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem actualmente na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem actualmente na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem actualmente na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem actualmente na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem actualmente na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem actualmente na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem actualmente na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem actualmente na [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem actualmente na [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem actualmente na [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem actualmente na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem actualmente na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem actualmente na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem actualmente na [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem actualmente na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem actualmente na [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem actualmente na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem actualmente na [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem actualmente no [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem actualmente no [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem actualmente no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem actualmente no [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem actualmente no [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem actualmente no [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem actualmente no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem actualmente no [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem actualmente no [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem actualmente no [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem actualmente no [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem actualmente no [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem actualmente no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem actualmente no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem actualmente no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem actualmente no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem actualmente no [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem actualmente no [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem actualmente no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem actualmente no [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem actualmente no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem actualmente no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem actualmente no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem actualmente no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem actualmente no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem actualmente no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem actualmente no [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem actualmente no [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem actualmente no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem actualmente no [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem actualmente no [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem actualmente no [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem actualmente no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem actualmente no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem actualmente no [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem actualmente no [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem actualmente no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem actualmente no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem actualmente no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem actualmente no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem actualmente no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem actualmente no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem actualmente no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem actualmente no [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem actualmente no [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem actualmente no [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem actualmente no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem actualmente no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem actualmente no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem actualmente no [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem actualmente no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem actualmente no [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem actualmente no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem actualmente no [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem neste momento em [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem neste momento em [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem neste momento em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem neste momento em [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem neste momento em [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem neste momento em [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem neste momento em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem neste momento em [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem neste momento em [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem neste momento em [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem neste momento em [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem neste momento em [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem neste momento em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem neste momento em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem neste momento em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem neste momento em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem neste momento em [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem neste momento em [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem neste momento em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem neste momento em [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem neste momento em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem neste momento em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem neste momento em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem neste momento em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem neste momento em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem neste momento em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem neste momento em [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem neste momento em [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem neste momento em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem neste momento em [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem neste momento em [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem neste momento em [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem neste momento em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem neste momento em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem neste momento em [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem neste momento em [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem neste momento em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem neste momento em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem neste momento em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem neste momento em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem neste momento em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem neste momento em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem neste momento em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem neste momento em [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem neste momento em [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem neste momento em [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem neste momento em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem neste momento em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem neste momento em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem neste momento em [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem neste momento em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem neste momento em [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem neste momento em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem neste momento em [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem neste momento na [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem neste momento na [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem neste momento na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem neste momento na [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem neste momento na [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem neste momento na [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem neste momento na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem neste momento na [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem neste momento na [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem neste momento na [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem neste momento na [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem neste momento na [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem neste momento na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem neste momento na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem neste momento na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem neste momento na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem neste momento na [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem neste momento na [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem neste momento na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem neste momento na [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem neste momento na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem neste momento na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem neste momento na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem neste momento na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem neste momento na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem neste momento na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem neste momento na [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem neste momento na [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem neste momento na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem neste momento na [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem neste momento na [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem neste momento na [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem neste momento na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem neste momento na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem neste momento na [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem neste momento na [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem neste momento na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem neste momento na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem neste momento na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem neste momento na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem neste momento na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem neste momento na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem neste momento na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem neste momento na [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem neste momento na [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem neste momento na [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem neste momento na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem neste momento na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem neste momento na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem neste momento na [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem neste momento na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem neste momento na [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem neste momento na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem neste momento na [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem neste momento no [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem neste momento no [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existem neste momento no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem neste momento no [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existem neste momento no [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem neste momento no [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existem neste momento no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem neste momento no [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existem neste momento no [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem neste momento no [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existem neste momento no [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem neste momento no [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existem neste momento no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem neste momento no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existem neste momento no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem neste momento no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existem neste momento no [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem neste momento no [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existem neste momento no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem neste momento no [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existem neste momento no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem neste momento no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existem neste momento no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem neste momento no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existem neste momento no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem neste momento no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existem neste momento no [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem neste momento no [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existem neste momento no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem neste momento no [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existem neste momento no [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem neste momento no [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existem neste momento no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem neste momento no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existem neste momento no [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem neste momento no [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existem neste momento no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem neste momento no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existem neste momento no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem neste momento no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existem neste momento no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem neste momento no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existem neste momento no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem neste momento no [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existem neste momento no [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem neste momento no [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existem neste momento no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem neste momento no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existem neste momento no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem neste momento no [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existem neste momento no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem neste momento no [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existem neste momento no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existem neste momento no [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existno actualmente na [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existno actualmente na [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados existno actualmente na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existno actualmente na [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados existno actualmente na [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existno actualmente na [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados existno actualmente na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existno actualmente na [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados existno actualmente na [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existno actualmente na [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados existno actualmente na [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existno actualmente na [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados existno actualmente na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existno actualmente na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados existno actualmente na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existno actualmente na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados existno actualmente na [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existno actualmente na [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados existno actualmente na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existno actualmente na [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados existno actualmente na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existno actualmente na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados existno actualmente na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existno actualmente na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados existno actualmente na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existno actualmente na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados existno actualmente na [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existno actualmente na [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados existno actualmente na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existno actualmente na [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados existno actualmente na [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existno actualmente na [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados existno actualmente na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existno actualmente na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados existno actualmente na [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existno actualmente na [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados existno actualmente na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existno actualmente na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados existno actualmente na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existno actualmente na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados existno actualmente na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existno actualmente na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados existno actualmente na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existno actualmente na [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados existno actualmente na [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existno actualmente na [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados existno actualmente na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existno actualmente na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados existno actualmente na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existno actualmente na [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados existno actualmente na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existno actualmente na [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados existno actualmente na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados existno actualmente na [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados na [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados na [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados na [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados na [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados na [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados na [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados na [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados na [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados na [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados na [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados na [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados na [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados na [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados na [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados na [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados na [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados na [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados na [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados na [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados na [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados na [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados na [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados na [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados na [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados na [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados na [tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados no [Acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados no [acre]{"entity": "country_state", "value": "AC"}
+- Quantos infectados no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados no [alagoas]{"entity": "country_state", "value": "AL"}
+- Quantos infectados no [Amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados no [amapá]{"entity": "country_state", "value": "AP"}
+- Quantos infectados no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados no [amazonas]{"entity": "country_state", "value": "AM"}
+- Quantos infectados no [Bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados no [bahia]{"entity": "country_state", "value": "BA"}
+- Quantos infectados no [Ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados no [ceará]{"entity": "country_state", "value": "CE"}
+- Quantos infectados no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Quantos infectados no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Quantos infectados no [Goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados no [goiás]{"entity": "country_state", "value": "GO"}
+- Quantos infectados no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados no [maranhão]{"entity": "country_state", "value": "MA"}
+- Quantos infectados no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Quantos infectados no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Quantos infectados no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Quantos infectados no [Pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados no [pará]{"entity": "country_state", "value": "PA"}
+- Quantos infectados no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados no [paraíba]{"entity": "country_state", "value": "PB"}
+- Quantos infectados no [Paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados no [paraná]{"entity": "country_state", "value": "PR"}
+- Quantos infectados no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Quantos infectados no [Piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados no [piauí]{"entity": "country_state", "value": "PI"}
+- Quantos infectados no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Quantos infectados no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Quantos infectados no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Quantos infectados no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados no [rondônia]{"entity": "country_state", "value": "RO"}
+- Quantos infectados no [Roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados no [roraima]{"entity": "country_state", "value": "RR"}
+- Quantos infectados no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Quantos infectados no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados no [são paulo]{"entity": "country_state", "value": "SP"}
+- Quantos infectados no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados no [sergipe]{"entity": "country_state", "value": "SE"}
+- Quantos infectados no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Quantos infectados no [tocantins]{"entity": "country_state", "value": "TO"}
+- Total de infetados existem em [Acre]{"entity": "country_state", "value": "AC"}
+- Total de infetados existem em [acre]{"entity": "country_state", "value": "AC"}
+- Total de infetados existem em [Alagoas]{"entity": "country_state", "value": "AL"}
+- Total de infetados existem em [alagoas]{"entity": "country_state", "value": "AL"}
+- Total de infetados existem em [Amapá]{"entity": "country_state", "value": "AP"}
+- Total de infetados existem em [amapá]{"entity": "country_state", "value": "AP"}
+- Total de infetados existem em [Amazonas]{"entity": "country_state", "value": "AM"}
+- Total de infetados existem em [amazonas]{"entity": "country_state", "value": "AM"}
+- Total de infetados existem em [Bahia]{"entity": "country_state", "value": "BA"}
+- Total de infetados existem em [bahia]{"entity": "country_state", "value": "BA"}
+- Total de infetados existem em [Ceará]{"entity": "country_state", "value": "CE"}
+- Total de infetados existem em [ceará]{"entity": "country_state", "value": "CE"}
+- Total de infetados existem em [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Total de infetados existem em [distrito federal]{"entity": "country_state", "value": "DF"}
+- Total de infetados existem em [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Total de infetados existem em [espírito santo]{"entity": "country_state", "value": "ES"}
+- Total de infetados existem em [Goiás]{"entity": "country_state", "value": "GO"}
+- Total de infetados existem em [goiás]{"entity": "country_state", "value": "GO"}
+- Total de infetados existem em [Maranhão]{"entity": "country_state", "value": "MA"}
+- Total de infetados existem em [maranhão]{"entity": "country_state", "value": "MA"}
+- Total de infetados existem em [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Total de infetados existem em [mato grosso]{"entity": "country_state", "value": "MT"}
+- Total de infetados existem em [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Total de infetados existem em [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Total de infetados existem em [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Total de infetados existem em [minas gerais]{"entity": "country_state", "value": "MG"}
+- Total de infetados existem em [Pará]{"entity": "country_state", "value": "PA"}
+- Total de infetados existem em [pará]{"entity": "country_state", "value": "PA"}
+- Total de infetados existem em [Paraíba]{"entity": "country_state", "value": "PB"}
+- Total de infetados existem em [paraíba]{"entity": "country_state", "value": "PB"}
+- Total de infetados existem em [Paraná]{"entity": "country_state", "value": "PR"}
+- Total de infetados existem em [paraná]{"entity": "country_state", "value": "PR"}
+- Total de infetados existem em [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Total de infetados existem em [pernambuco]{"entity": "country_state", "value": "PE"}
+- Total de infetados existem em [Piauí]{"entity": "country_state", "value": "PI"}
+- Total de infetados existem em [piauí]{"entity": "country_state", "value": "PI"}
+- Total de infetados existem em [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Total de infetados existem em [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Total de infetados existem em [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Total de infetados existem em [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Total de infetados existem em [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Total de infetados existem em [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Total de infetados existem em [Rondônia]{"entity": "country_state", "value": "RO"}
+- Total de infetados existem em [rondônia]{"entity": "country_state", "value": "RO"}
+- Total de infetados existem em [Roraima]{"entity": "country_state", "value": "RR"}
+- Total de infetados existem em [roraima]{"entity": "country_state", "value": "RR"}
+- Total de infetados existem em [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Total de infetados existem em [santa catarina]{"entity": "country_state", "value": "SC"}
+- Total de infetados existem em [São Paulo]{"entity": "country_state", "value": "SP"}
+- Total de infetados existem em [são paulo]{"entity": "country_state", "value": "SP"}
+- Total de infetados existem em [Sergipe]{"entity": "country_state", "value": "SE"}
+- Total de infetados existem em [sergipe]{"entity": "country_state", "value": "SE"}
+- Total de infetados existem em [Tocantins]{"entity": "country_state", "value": "TO"}
+- Total de infetados existem em [tocantins]{"entity": "country_state", "value": "TO"}
+- Total de infetados existem na [Acre]{"entity": "country_state", "value": "AC"}
+- Total de infetados existem na [acre]{"entity": "country_state", "value": "AC"}
+- Total de infetados existem na [Alagoas]{"entity": "country_state", "value": "AL"}
+- Total de infetados existem na [alagoas]{"entity": "country_state", "value": "AL"}
+- Total de infetados existem na [Amapá]{"entity": "country_state", "value": "AP"}
+- Total de infetados existem na [amapá]{"entity": "country_state", "value": "AP"}
+- Total de infetados existem na [Amazonas]{"entity": "country_state", "value": "AM"}
+- Total de infetados existem na [amazonas]{"entity": "country_state", "value": "AM"}
+- Total de infetados existem na [Bahia]{"entity": "country_state", "value": "BA"}
+- Total de infetados existem na [bahia]{"entity": "country_state", "value": "BA"}
+- Total de infetados existem na [Ceará]{"entity": "country_state", "value": "CE"}
+- Total de infetados existem na [ceará]{"entity": "country_state", "value": "CE"}
+- Total de infetados existem na [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Total de infetados existem na [distrito federal]{"entity": "country_state", "value": "DF"}
+- Total de infetados existem na [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Total de infetados existem na [espírito santo]{"entity": "country_state", "value": "ES"}
+- Total de infetados existem na [Goiás]{"entity": "country_state", "value": "GO"}
+- Total de infetados existem na [goiás]{"entity": "country_state", "value": "GO"}
+- Total de infetados existem na [Maranhão]{"entity": "country_state", "value": "MA"}
+- Total de infetados existem na [maranhão]{"entity": "country_state", "value": "MA"}
+- Total de infetados existem na [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Total de infetados existem na [mato grosso]{"entity": "country_state", "value": "MT"}
+- Total de infetados existem na [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Total de infetados existem na [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Total de infetados existem na [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Total de infetados existem na [minas gerais]{"entity": "country_state", "value": "MG"}
+- Total de infetados existem na [Pará]{"entity": "country_state", "value": "PA"}
+- Total de infetados existem na [pará]{"entity": "country_state", "value": "PA"}
+- Total de infetados existem na [Paraíba]{"entity": "country_state", "value": "PB"}
+- Total de infetados existem na [paraíba]{"entity": "country_state", "value": "PB"}
+- Total de infetados existem na [Paraná]{"entity": "country_state", "value": "PR"}
+- Total de infetados existem na [paraná]{"entity": "country_state", "value": "PR"}
+- Total de infetados existem na [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Total de infetados existem na [pernambuco]{"entity": "country_state", "value": "PE"}
+- Total de infetados existem na [Piauí]{"entity": "country_state", "value": "PI"}
+- Total de infetados existem na [piauí]{"entity": "country_state", "value": "PI"}
+- Total de infetados existem na [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Total de infetados existem na [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Total de infetados existem na [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Total de infetados existem na [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Total de infetados existem na [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Total de infetados existem na [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Total de infetados existem na [Rondônia]{"entity": "country_state", "value": "RO"}
+- Total de infetados existem na [rondônia]{"entity": "country_state", "value": "RO"}
+- Total de infetados existem na [Roraima]{"entity": "country_state", "value": "RR"}
+- Total de infetados existem na [roraima]{"entity": "country_state", "value": "RR"}
+- Total de infetados existem na [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Total de infetados existem na [santa catarina]{"entity": "country_state", "value": "SC"}
+- Total de infetados existem na [São Paulo]{"entity": "country_state", "value": "SP"}
+- Total de infetados existem na [são paulo]{"entity": "country_state", "value": "SP"}
+- Total de infetados existem na [Sergipe]{"entity": "country_state", "value": "SE"}
+- Total de infetados existem na [sergipe]{"entity": "country_state", "value": "SE"}
+- Total de infetados existem na [Tocantins]{"entity": "country_state", "value": "TO"}
+- Total de infetados existem na [tocantins]{"entity": "country_state", "value": "TO"}
+- Total de infetados existem no [Acre]{"entity": "country_state", "value": "AC"}
+- Total de infetados existem no [acre]{"entity": "country_state", "value": "AC"}
+- Total de infetados existem no [Alagoas]{"entity": "country_state", "value": "AL"}
+- Total de infetados existem no [alagoas]{"entity": "country_state", "value": "AL"}
+- Total de infetados existem no [Amapá]{"entity": "country_state", "value": "AP"}
+- Total de infetados existem no [amapá]{"entity": "country_state", "value": "AP"}
+- Total de infetados existem no [Amazonas]{"entity": "country_state", "value": "AM"}
+- Total de infetados existem no [amazonas]{"entity": "country_state", "value": "AM"}
+- Total de infetados existem no [Bahia]{"entity": "country_state", "value": "BA"}
+- Total de infetados existem no [bahia]{"entity": "country_state", "value": "BA"}
+- Total de infetados existem no [Ceará]{"entity": "country_state", "value": "CE"}
+- Total de infetados existem no [ceará]{"entity": "country_state", "value": "CE"}
+- Total de infetados existem no [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Total de infetados existem no [distrito federal]{"entity": "country_state", "value": "DF"}
+- Total de infetados existem no [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Total de infetados existem no [espírito santo]{"entity": "country_state", "value": "ES"}
+- Total de infetados existem no [Goiás]{"entity": "country_state", "value": "GO"}
+- Total de infetados existem no [goiás]{"entity": "country_state", "value": "GO"}
+- Total de infetados existem no [Maranhão]{"entity": "country_state", "value": "MA"}
+- Total de infetados existem no [maranhão]{"entity": "country_state", "value": "MA"}
+- Total de infetados existem no [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Total de infetados existem no [mato grosso]{"entity": "country_state", "value": "MT"}
+- Total de infetados existem no [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Total de infetados existem no [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Total de infetados existem no [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Total de infetados existem no [minas gerais]{"entity": "country_state", "value": "MG"}
+- Total de infetados existem no [Pará]{"entity": "country_state", "value": "PA"}
+- Total de infetados existem no [pará]{"entity": "country_state", "value": "PA"}
+- Total de infetados existem no [Paraíba]{"entity": "country_state", "value": "PB"}
+- Total de infetados existem no [paraíba]{"entity": "country_state", "value": "PB"}
+- Total de infetados existem no [Paraná]{"entity": "country_state", "value": "PR"}
+- Total de infetados existem no [paraná]{"entity": "country_state", "value": "PR"}
+- Total de infetados existem no [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Total de infetados existem no [pernambuco]{"entity": "country_state", "value": "PE"}
+- Total de infetados existem no [Piauí]{"entity": "country_state", "value": "PI"}
+- Total de infetados existem no [piauí]{"entity": "country_state", "value": "PI"}
+- Total de infetados existem no [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Total de infetados existem no [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Total de infetados existem no [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Total de infetados existem no [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Total de infetados existem no [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Total de infetados existem no [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Total de infetados existem no [Rondônia]{"entity": "country_state", "value": "RO"}
+- Total de infetados existem no [rondônia]{"entity": "country_state", "value": "RO"}
+- Total de infetados existem no [Roraima]{"entity": "country_state", "value": "RR"}
+- Total de infetados existem no [roraima]{"entity": "country_state", "value": "RR"}
+- Total de infetados existem no [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Total de infetados existem no [santa catarina]{"entity": "country_state", "value": "SC"}
+- Total de infetados existem no [São Paulo]{"entity": "country_state", "value": "SP"}
+- Total de infetados existem no [são paulo]{"entity": "country_state", "value": "SP"}
+- Total de infetados existem no [Sergipe]{"entity": "country_state", "value": "SE"}
+- Total de infetados existem no [sergipe]{"entity": "country_state", "value": "SE"}
+- Total de infetados existem no [Tocantins]{"entity": "country_state", "value": "TO"}
+- Total de infetados existem no [tocantins]{"entity": "country_state", "value": "TO"}
+- Últimos dados de [Acre]{"entity": "country_state", "value": "AC"}
+- Últimos dados de [acre]{"entity": "country_state", "value": "AC"}
+- Últimos dados de [Alagoas]{"entity": "country_state", "value": "AL"}
+- Últimos dados de [alagoas]{"entity": "country_state", "value": "AL"}
+- Últimos dados de [Amapá]{"entity": "country_state", "value": "AP"}
+- Últimos dados de [amapá]{"entity": "country_state", "value": "AP"}
+- Últimos dados de [Amazonas]{"entity": "country_state", "value": "AM"}
+- Últimos dados de [amazonas]{"entity": "country_state", "value": "AM"}
+- Últimos dados de [Bahia]{"entity": "country_state", "value": "BA"}
+- Últimos dados de [bahia]{"entity": "country_state", "value": "BA"}
+- Últimos dados de [Ceará]{"entity": "country_state", "value": "CE"}
+- Últimos dados de [ceará]{"entity": "country_state", "value": "CE"}
+- Últimos dados de [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- Últimos dados de [distrito federal]{"entity": "country_state", "value": "DF"}
+- Últimos dados de [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- Últimos dados de [espírito santo]{"entity": "country_state", "value": "ES"}
+- Últimos dados de [Goiás]{"entity": "country_state", "value": "GO"}
+- Últimos dados de [goiás]{"entity": "country_state", "value": "GO"}
+- Últimos dados de [Maranhão]{"entity": "country_state", "value": "MA"}
+- Últimos dados de [maranhão]{"entity": "country_state", "value": "MA"}
+- Últimos dados de [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- Últimos dados de [mato grosso]{"entity": "country_state", "value": "MT"}
+- Últimos dados de [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- Últimos dados de [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- Últimos dados de [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- Últimos dados de [minas gerais]{"entity": "country_state", "value": "MG"}
+- Últimos dados de [Pará]{"entity": "country_state", "value": "PA"}
+- Últimos dados de [pará]{"entity": "country_state", "value": "PA"}
+- Últimos dados de [Paraíba]{"entity": "country_state", "value": "PB"}
+- Últimos dados de [paraíba]{"entity": "country_state", "value": "PB"}
+- Últimos dados de [Paraná]{"entity": "country_state", "value": "PR"}
+- Últimos dados de [paraná]{"entity": "country_state", "value": "PR"}
+- Últimos dados de [Pernambuco]{"entity": "country_state", "value": "PE"}
+- Últimos dados de [pernambuco]{"entity": "country_state", "value": "PE"}
+- Últimos dados de [Piauí]{"entity": "country_state", "value": "PI"}
+- Últimos dados de [piauí]{"entity": "country_state", "value": "PI"}
+- Últimos dados de [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- Últimos dados de [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- Últimos dados de [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- Últimos dados de [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- Últimos dados de [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- Últimos dados de [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- Últimos dados de [Rondônia]{"entity": "country_state", "value": "RO"}
+- Últimos dados de [rondônia]{"entity": "country_state", "value": "RO"}
+- Últimos dados de [Roraima]{"entity": "country_state", "value": "RR"}
+- Últimos dados de [roraima]{"entity": "country_state", "value": "RR"}
+- Últimos dados de [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- Últimos dados de [santa catarina]{"entity": "country_state", "value": "SC"}
+- Últimos dados de [São Paulo]{"entity": "country_state", "value": "SP"}
+- Últimos dados de [são paulo]{"entity": "country_state", "value": "SP"}
+- Últimos dados de [Sergipe]{"entity": "country_state", "value": "SE"}
+- Últimos dados de [sergipe]{"entity": "country_state", "value": "SE"}
+- Últimos dados de [Tocantins]{"entity": "country_state", "value": "TO"}
+- Últimos dados de [tocantins]{"entity": "country_state", "value": "TO"}
+
+## intent:state_br
+- [Acre]{"entity": "country_state", "value": "AC"}
+- [acre]{"entity": "country_state", "value": "AC"}
+- [Alagoas]{"entity": "country_state", "value": "AL"}
+- [alagoas]{"entity": "country_state", "value": "AL"}
+- [Amapá]{"entity": "country_state", "value": "AP"}
+- [amapá]{"entity": "country_state", "value": "AP"}
+- [amapa]{"entity": "country_state", "value": "AP"}
+- [Amazonas]{"entity": "country_state", "value": "AM"}
+- [amazonas]{"entity": "country_state", "value": "AM"}
+- [Bahia]{"entity": "country_state", "value": "BA"}
+- [bahia]{"entity": "country_state", "value": "BA"}
+- [Ceará]{"entity": "country_state", "value": "CE"}
+- [ceará]{"entity": "country_state", "value": "CE"}
+- [Distrito Federal]{"entity": "country_state", "value": "DF"}
+- [distrito federal]{"entity": "country_state", "value": "DF"}
+- [Espírito Santo]{"entity": "country_state", "value": "ES"}
+- [espírito santo]{"entity": "country_state", "value": "ES"}
+- [Goiás]{"entity": "country_state", "value": "GO"}
+- [goiás]{"entity": "country_state", "value": "GO"}
+- [Maranhão]{"entity": "country_state", "value": "MA"}
+- [maranhão]{"entity": "country_state", "value": "MA"}
+- [Mato Grosso]{"entity": "country_state", "value": "MT"}
+- [mato grosso]{"entity": "country_state", "value": "MT"}
+- [Mato Grosso do Sul]{"entity": "country_state", "value": "MS"}
+- [mato grosso do sul]{"entity": "country_state", "value": "MS"}
+- [Minas Gerais]{"entity": "country_state", "value": "MG"}
+- [minas gerais]{"entity": "country_state", "value": "MG"}
+- [Pará]{"entity": "country_state", "value": "PA"}
+- [pará]{"entity": "country_state", "value": "PA"}
+- [Paraíba]{"entity": "country_state", "value": "PB"}
+- [paraíba]{"entity": "country_state", "value": "PB"}
+- [Paraná]{"entity": "country_state", "value": "PR"}
+- [paraná]{"entity": "country_state", "value": "PR"}
+- [Pernambuco]{"entity": "country_state", "value": "PE"}
+- [pernambuco]{"entity": "country_state", "value": "PE"}
+- [Piauí]{"entity": "country_state", "value": "PI"}
+- [piauí]{"entity": "country_state", "value": "PI"}
+- [Rio de Janeiro]{"entity": "country_state", "value": "RJ"}
+- [rio de janeiro]{"entity": "country_state", "value": "RJ"}
+- [Rio Grande do Norte]{"entity": "country_state", "value": "RN"}
+- [rio grande do norte]{"entity": "country_state", "value": "RN"}
+- [Rio Grande do Sul]{"entity": "country_state", "value": "RS"}
+- [rio grande do sul]{"entity": "country_state", "value": "RS"}
+- [Rondônia]{"entity": "country_state", "value": "RO"}
+- [rondônia]{"entity": "country_state", "value": "RO"}
+- [Roraima]{"entity": "country_state", "value": "RR"}
+- [roraima]{"entity": "country_state", "value": "RR"}
+- [Santa Catarina]{"entity": "country_state", "value": "SC"}
+- [santa catarina]{"entity": "country_state", "value": "SC"}
+- [São Paulo]{"entity": "country_state", "value": "SP"}
+- [são paulo]{"entity": "country_state", "value": "SP"}
+- [Sergipe]{"entity": "country_state", "value": "SE"}
+- [sergipe]{"entity": "country_state", "value": "SE"}
+- [Tocantins]{"entity": "country_state", "value": "TO"}
+- [tocantins]{"entity": "country_state", "value": "TO"}
+
+
+## synonym:AC
+- acre
+
+## synonym:AL
+- alagoas
+
+## synonym:AP
+- amapa
+
+## synonym:AM
+- amazonas
+
+## synonym:BA
+- bahia
+
+## synonym:CE
+- ceara
+
+## synonym:DF
+- distrito federal
+
+## synonym:ES
+- espirito santo
+
+## synonym:GO
+- goias
+
+## synonym:MA
+- maranhao
+
+## synonym:MT
+- mato grosso
+
+## synonym:MS
+- mato grosso do sul
+
+## synonym:MG
+- minas gerais
+
+## synonym:PA
+- para
+
+## synonym:PB
+- paraiba
+
+## synonym:PR
+- parana
+
+## synonym:PE
+- pernambuco
+
+## synonym:PI
+- piaui
+
+## synonym:RJ
+- rio de janeiro
+
+## synonym:RN
+- rio grande do norte
+
+## synonym:RS
+- rio grande do sul
+
+## synonym:RO
+- rondonia
+
+## synonym:RR
+- roraima
+
+## synonym:SC
+- santa catarina
+
+## synonym:SP
+- sao paulo
+
+## synonym:SE
+- sergipe
+
+## synonym:TO
+- tocantins

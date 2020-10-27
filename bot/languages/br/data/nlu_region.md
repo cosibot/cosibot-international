@@ -1,0 +1,983 @@
+## intent:covid_situation_region
+- Atualização em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Atualização em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Atualização em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Atualização em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Atualização em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Atualização em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Atualização em [Norte]{"entity": "country_region", "value": "Norte"}
+- Atualização em [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Atualização em [norte]{"entity": "country_region", "value": "Norte"}
+- Atualização em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Atualização em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Atualização em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Atualização em [Sul]{"entity": "country_region", "value": "Sul"}
+- Atualização em [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Atualização em [sul]{"entity": "country_region", "value": "Sul"}
+- Atualização na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Atualização na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Atualização na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Atualização na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Atualização na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Atualização na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Atualização na [Norte]{"entity": "country_region", "value": "Norte"}
+- Atualização na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Atualização na [norte]{"entity": "country_region", "value": "Norte"}
+- Atualização na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Atualização na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Atualização na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Atualização na [Sul]{"entity": "country_region", "value": "Sul"}
+- Atualização na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Atualização na [sul]{"entity": "country_region", "value": "Sul"}
+- Atualização no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Atualização no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Atualização no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Atualização no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Atualização no [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Atualização no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Atualização no [Norte]{"entity": "country_region", "value": "Norte"}
+- Atualização no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Atualização no [norte]{"entity": "country_region", "value": "Norte"}
+- Atualização no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Atualização no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Atualização no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Atualização no [Sul]{"entity": "country_region", "value": "Sul"}
+- Atualização no [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Atualização no [sul]{"entity": "country_region", "value": "Sul"}
+- Casos confirmados em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Casos confirmados em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Casos confirmados em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Casos confirmados em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Casos confirmados em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Casos confirmados em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Casos confirmados em [Norte]{"entity": "country_region", "value": "Norte"}
+- Casos confirmados em [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Casos confirmados em [norte]{"entity": "country_region", "value": "Norte"}
+- Casos confirmados em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Casos confirmados em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Casos confirmados em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Casos confirmados em [Sul]{"entity": "country_region", "value": "Sul"}
+- Casos confirmados em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Casos confirmados em [sul]{"entity": "country_region", "value": "Sul"}
+- Casos confirmados na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Casos confirmados na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Casos confirmados na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Casos confirmados na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Casos confirmados na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Casos confirmados na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Casos confirmados na [Norte]{"entity": "country_region", "value": "Norte"}
+- Casos confirmados na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Casos confirmados na [norte]{"entity": "country_region", "value": "Norte"}
+- Casos confirmados na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Casos confirmados na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Casos confirmados na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Casos confirmados na [Sul]{"entity": "country_region", "value": "Sul"}
+- Casos confirmados na [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Casos confirmados na [sul]{"entity": "country_region", "value": "Sul"}
+- Casos confirmados no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Casos confirmados no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Casos confirmados no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Casos confirmados no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Casos confirmados no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Casos confirmados no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Casos confirmados no [Norte]{"entity": "country_region", "value": "Norte"}
+- Casos confirmados no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Casos confirmados no [norte]{"entity": "country_region", "value": "Norte"}
+- Casos confirmados no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Casos confirmados no [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Casos confirmados no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Casos confirmados no [Sul]{"entity": "country_region", "value": "Sul"}
+- Casos confirmados no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Casos confirmados no [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados ativos em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados ativos em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados ativos em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados ativos em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados ativos em [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados ativos em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados ativos em [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados ativos em [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados ativos em [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados ativos em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados ativos em [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados ativos em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados ativos em [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados ativos em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados ativos em [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados ativos na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados ativos na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados ativos na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados ativos na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados ativos na [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados ativos na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados ativos na [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados ativos na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados ativos na [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados ativos na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados ativos na [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados ativos na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados ativos na [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados ativos na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados ativos na [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados ativos no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados ativos no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados ativos no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados ativos no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados ativos no [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados ativos no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados ativos no [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados ativos no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados ativos no [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados ativos no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados ativos no [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados ativos no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados ativos no [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados ativos no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados ativos no [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados no total em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados no total em [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados no total em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados no total em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados no total em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados no total em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados no total em [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados no total em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados no total em [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados no total em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados no total em [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados no total em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados no total em [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados no total em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados no total em [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados no total na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados no total na [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados no total na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados no total na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados no total na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados no total na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados no total na [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados no total na [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados no total na [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados no total na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados no total na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados no total na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados no total na [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados no total na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados no total na [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados no total no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados no total no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados no total no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem de infectados no total no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados no total no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados no total no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem de infectados no total no [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados no total no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados no total no [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem de infectados no total no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados no total no [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados no total no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem de infectados no total no [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados no total no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem de infectados no total no [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectada ativa em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectada ativa em [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectada ativa em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectada ativa em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectada ativa em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectada ativa em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectada ativa em [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectada ativa em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectada ativa em [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectada ativa em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectada ativa em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectada ativa em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectada ativa em [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectada ativa em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectada ativa em [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectada ativa na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectada ativa na [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectada ativa na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectada ativa na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectada ativa na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectada ativa na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectada ativa na [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectada ativa na [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectada ativa na [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectada ativa na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectada ativa na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectada ativa na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectada ativa na [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectada ativa na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectada ativa na [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectada ativa no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectada ativa no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectada ativa no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectada ativa no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectada ativa no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectada ativa no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectada ativa no [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectada ativa no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectada ativa no [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectada ativa no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectada ativa no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectada ativa no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectada ativa no [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectada ativa no [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectada ativa no [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados ativos em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados ativos em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados ativos em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados ativos em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados ativos em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados ativos em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados ativos em [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados ativos em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados ativos em [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados ativos em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados ativos em [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados ativos em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados ativos em [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados ativos em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados ativos em [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados ativos na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados ativos na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados ativos na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados ativos na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados ativos na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados ativos na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados ativos na [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados ativos na [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados ativos na [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados ativos na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados ativos na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados ativos na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados ativos na [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados ativos na [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados ativos na [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados ativos no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados ativos no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados ativos no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados ativos no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados ativos no [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados ativos no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados ativos no [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados ativos no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados ativos no [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados ativos no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados ativos no [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados ativos no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados ativos no [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados ativos no [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados ativos no [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados no total em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados no total em [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados no total em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados no total em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados no total em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados no total em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados no total em [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados no total em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados no total em [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados no total em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados no total em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados no total em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados no total em [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados no total em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados no total em [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados no total na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados no total na [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados no total na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados no total na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados no total na [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados no total na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados no total na [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados no total na [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados no total na [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados no total na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados no total na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados no total na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados no total na [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados no total na [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados no total na [sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados no total no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados no total no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados no total no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Contagem infectados no total no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados no total no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados no total no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Contagem infectados no total no [Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados no total no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados no total no [norte]{"entity": "country_region", "value": "Norte"}
+- Contagem infectados no total no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados no total no [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados no total no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Contagem infectados no total no [Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados no total no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Contagem infectados no total no [sul]{"entity": "country_region", "value": "Sul"}
+- Coronavirus em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronavirus em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronavirus em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronavirus em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronavirus em [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronavirus em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronavirus em [Norte]{"entity": "country_region", "value": "Norte"}
+- Coronavirus em [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Coronavirus em [norte]{"entity": "country_region", "value": "Norte"}
+- Coronavirus em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronavirus em [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronavirus em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronavirus em [Sul]{"entity": "country_region", "value": "Sul"}
+- Coronavirus em [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Coronavirus em [sul]{"entity": "country_region", "value": "Sul"}
+- Coronavirus na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronavirus na [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronavirus na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronavirus na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronavirus na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronavirus na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronavirus na [Norte]{"entity": "country_region", "value": "Norte"}
+- Coronavirus na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Coronavirus na [norte]{"entity": "country_region", "value": "Norte"}
+- Coronavirus na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronavirus na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronavirus na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronavirus na [Sul]{"entity": "country_region", "value": "Sul"}
+- Coronavirus na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Coronavirus na [sul]{"entity": "country_region", "value": "Sul"}
+- Coronavirus no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronavirus no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronavirus no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronavirus no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronavirus no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronavirus no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronavirus no [Norte]{"entity": "country_region", "value": "Norte"}
+- Coronavirus no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Coronavirus no [norte]{"entity": "country_region", "value": "Norte"}
+- Coronavirus no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronavirus no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronavirus no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronavirus no [Sul]{"entity": "country_region", "value": "Sul"}
+- Coronavirus no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Coronavirus no [sul]{"entity": "country_region", "value": "Sul"}
+- Coronovirus em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronovirus em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronovirus em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronovirus em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronovirus em [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronovirus em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronovirus em [Norte]{"entity": "country_region", "value": "Norte"}
+- Coronovirus em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Coronovirus em [norte]{"entity": "country_region", "value": "Norte"}
+- Coronovirus em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronovirus em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronovirus em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronovirus em [Sul]{"entity": "country_region", "value": "Sul"}
+- Coronovirus em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Coronovirus em [sul]{"entity": "country_region", "value": "Sul"}
+- Coronovirus no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronovirus no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronovirus no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Coronovirus no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronovirus no [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronovirus no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Coronovirus no [Norte]{"entity": "country_region", "value": "Norte"}
+- Coronovirus no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Coronovirus no [norte]{"entity": "country_region", "value": "Norte"}
+- Coronovirus no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronovirus no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronovirus no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Coronovirus no [Sul]{"entity": "country_region", "value": "Sul"}
+- Coronovirus no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Coronovirus no [sul]{"entity": "country_region", "value": "Sul"}
+- Covid 19 em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Covid 19 em [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Covid 19 em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Covid 19 em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Covid 19 em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Covid 19 em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Covid 19 em [Norte]{"entity": "country_region", "value": "Norte"}
+- Covid 19 em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Covid 19 em [norte]{"entity": "country_region", "value": "Norte"}
+- Covid 19 em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Covid 19 em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Covid 19 em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Covid 19 em [Sul]{"entity": "country_region", "value": "Sul"}
+- Covid 19 em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Covid 19 em [sul]{"entity": "country_region", "value": "Sul"}
+- Covid 19 na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Covid 19 na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Covid 19 na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Covid 19 na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Covid 19 na [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Covid 19 na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Covid 19 na [Norte]{"entity": "country_region", "value": "Norte"}
+- Covid 19 na [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Covid 19 na [norte]{"entity": "country_region", "value": "Norte"}
+- Covid 19 na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Covid 19 na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Covid 19 na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Covid 19 na [Sul]{"entity": "country_region", "value": "Sul"}
+- Covid 19 na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Covid 19 na [sul]{"entity": "country_region", "value": "Sul"}
+- Covid 19 no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Covid 19 no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Covid 19 no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Covid 19 no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Covid 19 no [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Covid 19 no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Covid 19 no [Norte]{"entity": "country_region", "value": "Norte"}
+- Covid 19 no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Covid 19 no [norte]{"entity": "country_region", "value": "Norte"}
+- Covid 19 no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Covid 19 no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Covid 19 no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Covid 19 no [Sul]{"entity": "country_region", "value": "Sul"}
+- Covid 19 no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Covid 19 no [sul]{"entity": "country_region", "value": "Sul"}
+- COVID-19 em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- COVID-19 em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- COVID-19 em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- COVID-19 em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- COVID-19 em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- COVID-19 em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- COVID-19 em [Norte]{"entity": "country_region", "value": "Norte"}
+- COVID-19 em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- COVID-19 em [norte]{"entity": "country_region", "value": "Norte"}
+- COVID-19 em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- COVID-19 em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- COVID-19 em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- COVID-19 em [Sul]{"entity": "country_region", "value": "Sul"}
+- COVID-19 em [Região Sul]{"entity": "country_region", "value": "Sul"}
+- COVID-19 em [sul]{"entity": "country_region", "value": "Sul"}
+- COVID-19 na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- COVID-19 na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- COVID-19 na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- COVID-19 na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- COVID-19 na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- COVID-19 na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- COVID-19 na [Norte]{"entity": "country_region", "value": "Norte"}
+- COVID-19 na [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- COVID-19 na [norte]{"entity": "country_region", "value": "Norte"}
+- COVID-19 na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- COVID-19 na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- COVID-19 na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- COVID-19 na [Sul]{"entity": "country_region", "value": "Sul"}
+- COVID-19 na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- COVID-19 na [sul]{"entity": "country_region", "value": "Sul"}
+- COVID-19 no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- COVID-19 no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- COVID-19 no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- COVID-19 no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- COVID-19 no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- COVID-19 no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- COVID-19 no [Norte]{"entity": "country_region", "value": "Norte"}
+- COVID-19 no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- COVID-19 no [norte]{"entity": "country_region", "value": "Norte"}
+- COVID-19 no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- COVID-19 no [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- COVID-19 no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- COVID-19 no [Sul]{"entity": "country_region", "value": "Sul"}
+- COVID-19 no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- COVID-19 no [sul]{"entity": "country_region", "value": "Sul"}
+- Dados atualizados em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Dados atualizados em [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Dados atualizados em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Dados atualizados em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Dados atualizados em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Dados atualizados em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Dados atualizados em [Norte]{"entity": "country_region", "value": "Norte"}
+- Dados atualizados em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Dados atualizados em [norte]{"entity": "country_region", "value": "Norte"}
+- Dados atualizados em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Dados atualizados em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Dados atualizados em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Dados atualizados em [Sul]{"entity": "country_region", "value": "Sul"}
+- Dados atualizados em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Dados atualizados em [sul]{"entity": "country_region", "value": "Sul"}
+- Dados atualizados na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Dados atualizados na [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Dados atualizados na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Dados atualizados na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Dados atualizados na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Dados atualizados na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Dados atualizados na [Norte]{"entity": "country_region", "value": "Norte"}
+- Dados atualizados na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Dados atualizados na [norte]{"entity": "country_region", "value": "Norte"}
+- Dados atualizados na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Dados atualizados na [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Dados atualizados na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Dados atualizados na [Sul]{"entity": "country_region", "value": "Sul"}
+- Dados atualizados na [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Dados atualizados na [sul]{"entity": "country_region", "value": "Sul"}
+- Dados atualizados no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Dados atualizados no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Dados atualizados no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Dados atualizados no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Dados atualizados no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Dados atualizados no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Dados atualizados no [Norte]{"entity": "country_region", "value": "Norte"}
+- Dados atualizados no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Dados atualizados no [norte]{"entity": "country_region", "value": "Norte"}
+- Dados atualizados no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Dados atualizados no [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Dados atualizados no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Dados atualizados no [Sul]{"entity": "country_region", "value": "Sul"}
+- Dados atualizados no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Dados atualizados no [sul]{"entity": "country_region", "value": "Sul"}
+- Número de casos confirmados em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Número de casos confirmados em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Número de casos confirmados em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Número de casos confirmados em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Número de casos confirmados em [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Número de casos confirmados em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Número de casos confirmados em [Norte]{"entity": "country_region", "value": "Norte"}
+- Número de casos confirmados em [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Número de casos confirmados em [norte]{"entity": "country_region", "value": "Norte"}
+- Número de casos confirmados em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Número de casos confirmados em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Número de casos confirmados em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Número de casos confirmados em [Sul]{"entity": "country_region", "value": "Sul"}
+- Número de casos confirmados em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Número de casos confirmados em [sul]{"entity": "country_region", "value": "Sul"}
+- Número de casos confirmados na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Número de casos confirmados na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Número de casos confirmados na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Número de casos confirmados na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Número de casos confirmados na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Número de casos confirmados na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Número de casos confirmados na [Norte]{"entity": "country_region", "value": "Norte"}
+- Número de casos confirmados na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Número de casos confirmados na [norte]{"entity": "country_region", "value": "Norte"}
+- Número de casos confirmados na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Número de casos confirmados na [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Número de casos confirmados na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Número de casos confirmados na [Sul]{"entity": "country_region", "value": "Sul"}
+- Número de casos confirmados na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Número de casos confirmados na [sul]{"entity": "country_region", "value": "Sul"}
+- Número de casos confirmados no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Número de casos confirmados no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Número de casos confirmados no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Número de casos confirmados no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Número de casos confirmados no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Número de casos confirmados no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Número de casos confirmados no [Norte]{"entity": "country_region", "value": "Norte"}
+- Número de casos confirmados no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Número de casos confirmados no [norte]{"entity": "country_region", "value": "Norte"}
+- Número de casos confirmados no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Número de casos confirmados no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Número de casos confirmados no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Número de casos confirmados no [Sul]{"entity": "country_region", "value": "Sul"}
+- Número de casos confirmados no [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Número de casos confirmados no [sul]{"entity": "country_region", "value": "Sul"}
+- numeros para hoje [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- números para hoje em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- números para hoje na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- números para hoje no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos confirmados em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- numeros para hoje [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- números para hoje em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- números para hoje na [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- números para hoje no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos confirmados em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- numeros para hoje [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- números para hoje em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- números para hoje na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- números para hoje no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos confirmados em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- numeros para hoje [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- números para hoje em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- números para hoje na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- números para hoje no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos confirmados em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- numeros para hoje [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- números para hoje em [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- números para hoje na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- números para hoje no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos confirmados em [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- numeros para hoje [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- números para hoje em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- números para hoje na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- números para hoje no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos confirmados em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- numeros para hoje [Norte]{"entity": "country_region", "value": "Norte"}
+- números para hoje em [Norte]{"entity": "country_region", "value": "Norte"}
+- números para hoje na [Norte]{"entity": "country_region", "value": "Norte"}
+- números para hoje no [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos confirmados em [Norte]{"entity": "country_region", "value": "Norte"}
+- numeros para hoje [Região Norte]{"entity": "country_region", "value": "Norte"}
+- números para hoje em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- números para hoje na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- números para hoje no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos confirmados em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- numeros para hoje [norte]{"entity": "country_region", "value": "Norte"}
+- números para hoje em [norte]{"entity": "country_region", "value": "Norte"}
+- números para hoje na [norte]{"entity": "country_region", "value": "Norte"}
+- números para hoje no [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos confirmados em [norte]{"entity": "country_region", "value": "Norte"}
+- numeros para hoje [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- números para hoje em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- números para hoje na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- números para hoje no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos confirmados em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- numeros para hoje [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- números para hoje em [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- números para hoje na [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- números para hoje no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos confirmados em [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- numeros para hoje [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- números para hoje em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- números para hoje na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- números para hoje no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos confirmados em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- numeros para hoje [Sul]{"entity": "country_region", "value": "Sul"}
+- números para hoje em [Sul]{"entity": "country_region", "value": "Sul"}
+- números para hoje na [Sul]{"entity": "country_region", "value": "Sul"}
+- números para hoje no [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos confirmados em [Sul]{"entity": "country_region", "value": "Sul"}
+- numeros para hoje [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- números para hoje em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- números para hoje na [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- números para hoje no [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos confirmados em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- numeros para hoje [sul]{"entity": "country_region", "value": "Sul"}
+- números para hoje em [sul]{"entity": "country_region", "value": "Sul"}
+- números para hoje na [sul]{"entity": "country_region", "value": "Sul"}
+- números para hoje no [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos confirmados em [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos confirmados na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos confirmados na [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos confirmados na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos confirmados na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos confirmados na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos confirmados na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos confirmados na [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos confirmados na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos confirmados na [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos confirmados na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos confirmados na [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos confirmados na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos confirmados na [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos confirmados na [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos confirmados na [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos confirmados no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos confirmados no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos confirmados no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos confirmados no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos confirmados no [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos confirmados no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos confirmados no [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos confirmados no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos confirmados no [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos confirmados no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos confirmados no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos confirmados no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos confirmados no [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos confirmados no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos confirmados no [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos existem em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos existem em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos existem em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos existem em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos existem em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos existem em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos existem em [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos existem em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos existem em [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos existem em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos existem em [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos existem em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos existem em [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos existem em [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos existem em [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos existem na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos existem na [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos existem na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos existem na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos existem na [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos existem na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos existem na [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos existem na [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos existem na [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos existem na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos existem na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos existem na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos existem na [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos existem na [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos existem na [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos existem no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos existem no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos existem no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos casos existem no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos existem no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos existem no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos casos existem no [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos existem no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos existem no [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos casos existem no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos existem no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos existem no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos casos existem no [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos existem no [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos casos existem no [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados em [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados em [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados em [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados em [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados em [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados em [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem actualmente em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem actualmente em [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem actualmente em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem actualmente em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem actualmente em [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem actualmente em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem actualmente em [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem actualmente em [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem actualmente em [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem actualmente em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem actualmente em [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem actualmente em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem actualmente em [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem actualmente em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem actualmente em [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem actualmente na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem actualmente na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem actualmente na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem actualmente na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem actualmente na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem actualmente na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem actualmente na [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem actualmente na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem actualmente na [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem actualmente na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem actualmente na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem actualmente na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem actualmente na [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem actualmente na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem actualmente na [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem actualmente no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem actualmente no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem actualmente no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem actualmente no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem actualmente no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem actualmente no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem actualmente no [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem actualmente no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem actualmente no [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem actualmente no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem actualmente no [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem actualmente no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem actualmente no [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem actualmente no [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem actualmente no [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem neste momento em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem neste momento em [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem neste momento em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem neste momento em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem neste momento em [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem neste momento em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem neste momento em [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem neste momento em [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem neste momento em [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem neste momento em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem neste momento em [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem neste momento em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem neste momento em [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem neste momento em [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem neste momento em [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem neste momento na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem neste momento na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem neste momento na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem neste momento na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem neste momento na [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem neste momento na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem neste momento na [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem neste momento na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem neste momento na [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem neste momento na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem neste momento na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem neste momento na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem neste momento na [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem neste momento na [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem neste momento na [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem neste momento no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem neste momento no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem neste momento no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existem neste momento no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem neste momento no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem neste momento no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existem neste momento no [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem neste momento no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem neste momento no [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existem neste momento no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem neste momento no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem neste momento no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existem neste momento no [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem neste momento no [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existem neste momento no [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existno actualmente na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existno actualmente na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existno actualmente na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados existno actualmente na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existno actualmente na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existno actualmente na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados existno actualmente na [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existno actualmente na [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existno actualmente na [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados existno actualmente na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existno actualmente na [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existno actualmente na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados existno actualmente na [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existno actualmente na [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados existno actualmente na [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados na [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados na [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados na [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados na [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados na [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados na [sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados no [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Quantos infectados no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Quantos infectados no [Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados no [Região Norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados no [norte]{"entity": "country_region", "value": "Norte"}
+- Quantos infectados no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados no [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Quantos infectados no [Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados no [Região a Sul]{"entity": "country_region", "value": "Sul"}
+- Quantos infectados no [sul]{"entity": "country_region", "value": "Sul"}
+- Total de infetados existem em [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Total de infetados existem em [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Total de infetados existem em [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Total de infetados existem em [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Total de infetados existem em [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Total de infetados existem em [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Total de infetados existem em [Norte]{"entity": "country_region", "value": "Norte"}
+- Total de infetados existem em [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Total de infetados existem em [norte]{"entity": "country_region", "value": "Norte"}
+- Total de infetados existem em [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Total de infetados existem em [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Total de infetados existem em [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Total de infetados existem em [Sul]{"entity": "country_region", "value": "Sul"}
+- Total de infetados existem em [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Total de infetados existem em [sul]{"entity": "country_region", "value": "Sul"}
+- Total de infetados existem na [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Total de infetados existem na [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Total de infetados existem na [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Total de infetados existem na [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Total de infetados existem na [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Total de infetados existem na [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Total de infetados existem na [Norte]{"entity": "country_region", "value": "Norte"}
+- Total de infetados existem na [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Total de infetados existem na [norte]{"entity": "country_region", "value": "Norte"}
+- Total de infetados existem na [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Total de infetados existem na [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Total de infetados existem na [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Total de infetados existem na [Sul]{"entity": "country_region", "value": "Sul"}
+- Total de infetados existem na [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Total de infetados existem na [sul]{"entity": "country_region", "value": "Sul"}
+- Total de infetados existem no [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Total de infetados existem no [Região Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Total de infetados existem no [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Total de infetados existem no [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Total de infetados existem no [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Total de infetados existem no [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Total de infetados existem no [Norte]{"entity": "country_region", "value": "Norte"}
+- Total de infetados existem no [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Total de infetados existem no [norte]{"entity": "country_region", "value": "Norte"}
+- Total de infetados existem no [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Total de infetados existem no [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Total de infetados existem no [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Total de infetados existem no [Sul]{"entity": "country_region", "value": "Sul"}
+- Total de infetados existem no [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Total de infetados existem no [sul]{"entity": "country_region", "value": "Sul"}
+- Últimos dados de [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Últimos dados de [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Últimos dados de [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- Últimos dados de [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Últimos dados de [Região a Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Últimos dados de [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- Últimos dados de [Norte]{"entity": "country_region", "value": "Norte"}
+- Últimos dados de [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- Últimos dados de [norte]{"entity": "country_region", "value": "Norte"}
+- Últimos dados de [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Últimos dados de [Região a Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Últimos dados de [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- Últimos dados de [Sul]{"entity": "country_region", "value": "Sul"}
+- Últimos dados de [Região Sul]{"entity": "country_region", "value": "Sul"}
+- Últimos dados de [sul]{"entity": "country_region", "value": "Sul"}
+
+## intent:region_br
+- [Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- [Região a Centro-Oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- [centro-oeste]{"entity": "country_region", "value": "Centro-Oeste"}
+- [Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- [Região Nordeste]{"entity": "country_region", "value": "Nordeste"}
+- [nordeste]{"entity": "country_region", "value": "Nordeste"}
+- [Norte]{"entity": "country_region", "value": "Norte"}
+- [Região a Norte]{"entity": "country_region", "value": "Norte"}
+- [norte]{"entity": "country_region", "value": "Norte"}
+- [Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- [Região Sudeste]{"entity": "country_region", "value": "Sudeste"}
+- [sudeste]{"entity": "country_region", "value": "Sudeste"}
+- [Sul]{"entity": "country_region", "value": "Sul"}
+- [Região Sul]{"entity": "country_region", "value": "Sul"}
+- [sul]{"entity": "country_region", "value": "Sul"}
+
+## synonym:Centro-Oeste
+- Região Centro-Oeste
+- região a centro-oeste
+- Região a Centro-Oeste
+- região centro-oeste
+- centro oeste
+
+## synonym:Nordeste
+- Região a Nordeste
+- região a nordeste
+- Região a Nordeste
+- região a nordeste
+- nordeste
+
+## synonym:Norte
+- Região Norte
+- região a norte
+- Região a Norte
+- região a norte
+- norte
+
+## synonym:Sudeste
+- Região a Sudeste
+- região sudeste
+- Região Sudeste
+- região sudeste
+- sudeste
+
+## synonym:Sul
+- Região Sul
+- região sul
+- Região Sul
+- região sul
+- sul

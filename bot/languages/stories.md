@@ -13,6 +13,19 @@ Others
 Greetings 
 ------------------->
 ## start1
+* start
+  - action_check_Bot_Introduced
+
+## start2
+* start-dialogue
+  - action_check_Bot_Introduced
+
+## greeting_hello
+* greeting_hello
+  - action_check_Bot_Introduced
+
+<!--
+## start1
 * start{"bot_introduced": "False"}
   - action_check_Bot_Introduced
   - slot{"bot_introduced": "True"}
@@ -55,7 +68,7 @@ Greetings
 * greeting_hello{"bot_introduced": "True"}
   - action_check_Bot_Introduced
   - utter_greeting_hello
-
+-->
 ## greeting_goodbye
 * greeting_goodbye
   - utter_greeting_goodbye
