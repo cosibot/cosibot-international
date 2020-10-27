@@ -15,10 +15,10 @@ slots:
     initial_value: br
   bot_introduced:
     type: bool
-    initial_value: false
+    initial_value: False
   bot_version:
     type: text
-    initial_value: '0.1.0'
+    initial_value: '0.1.1'
   bot_time_acre:
     type: text
   bot_time_fnoronha:

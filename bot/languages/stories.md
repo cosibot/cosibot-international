@@ -39,6 +39,7 @@ Greetings
 
 ## start1_2
 * start_dialogue{"bot_introduced": "True"}
+  - action_check_Bot_Introduced
   - utter_greeting_hello
 
 ## start1_3
@@ -49,10 +50,12 @@ Greetings
 
 ## start1_4
 * start-dialogue{"bot_introduced": "True"}
+  - action_check_Bot_Introduced
   - utter_greeting_hello
 
 ## start2
 * start{"bot_introduced": "True"}
+  - action_check_Bot_Introduced
   - utter_greeting_hello
 
 ## greeting_hello1
@@ -63,6 +66,7 @@ Greetings
 
 ## greeting_hello2
 * greeting_hello{"bot_introduced": "True"}
+  - action_check_Bot_Introduced
   - utter_greeting_hello
 -->
 ## greeting_goodbye
