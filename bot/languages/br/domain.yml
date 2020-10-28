@@ -3051,16 +3051,16 @@ responses:
   - custom:
       answers:
       - type: html
-        text: Que país devo adicionar à sua busca?
+        text: Que país ou região devo adicionar à sua busca?
       - type: ssml
-        ssml: <speak>Qual país devo adicionar à sua busca?</speak>
+        ssml: <speak>Que país ou região devo adicionar à sua busca?</speak>
   utter_covid_no_country_current_statistics:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>O país que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo.</speak>
+        ssml: <speak>O país ou região que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo.</speak>
       - type: html
-        text: "O país que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo:"
+        text: "O país ou região que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo:"
       - type: links
         links:
         - title: COVID-19 Situação no Mundo
@@ -3170,18 +3170,18 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>A última atualização de dados indica que em {country}, {total_tests}
-          testes foram realizados desde o início da coleta de dados.</speak>
+        ssml: <speak>Segundo a última atualização, {country} realizou {total_tests}
+          testes desde o início da coleta de dados.</speak>
       - type: html
-        text: A última atualização de dados indica que em {country}, {total_tests}
-          testes foram realizados desde o início da coleta de dados.
+        text: Segundo a última atualização, {country} realizou {total_tests}
+          testes desde o início da coleta de dados.
   utter_country_state_hasdata:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
+        ssml: <speak>De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
+        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_country_region_nodata:
   - custom:
       answers:
@@ -3199,9 +3199,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
+        ssml: <speak>De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, neste momento em {country_region} existe um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
+        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_covid_schools:
   - custom:
       answers:
