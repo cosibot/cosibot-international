@@ -11114,7 +11114,6 @@ Eu não estou sentindo nada"
 - Funafuti
 - Maulbronn
 - Porto
-- São Paulo
 - Shanghai
 - Delhi
 - Zurich
