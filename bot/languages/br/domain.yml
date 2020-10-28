@@ -3051,16 +3051,16 @@ responses:
   - custom:
       answers:
       - type: html
-        text: Que país devo adicionar à sua busca?
+        text: Que país ou região devo adicionar à sua busca?
       - type: ssml
-        ssml: <speak>Qual país devo adicionar à sua busca?</speak>
+        ssml: <speak>Que país ou região devo adicionar à sua busca?</speak>
   utter_covid_no_country_current_statistics:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>O país que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo.</speak>
+        ssml: <speak>O país ou região que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo.</speak>
       - type: html
-        text: "O país que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo:"
+        text: "O país ou região que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo:"
       - type: links
         links:
         - title: COVID-19 Situação no Mundo
