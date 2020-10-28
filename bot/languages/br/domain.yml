@@ -3181,7 +3181,7 @@ responses:
       - type: ssml
         ssml: <speak>De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
+        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_country_region_nodata:
   - custom:
       answers:
@@ -3201,7 +3201,7 @@ responses:
       - type: ssml
         ssml: <speak>De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
+        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_covid_schools:
   - custom:
       answers:
