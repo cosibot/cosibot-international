@@ -123,7 +123,7 @@
 - Seu horário de trabalho.
 - Vc está disponível em Qualquer momento é ?
 
-## intent:covid_vacinas_teste
+## intent:prevention_vaccine
 - Que vacinas estão sendo testadas?
 - Vacinas no Brasil
 - Quais vacinas estão sendo testadas no Brasil?
@@ -136,6 +136,121 @@
 - quais os estados do Brasil que compraram?
 - quais são vacinas disponíveis?
 - A vacina ja chegou no brazil ??
+- A vacina cura?
+- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?
+- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?????
+- A vacina é encontrada
+- A vacina sai ainda este ano ?
+- A vacina vai funcionar?
+- Ainda não há vacina
+- Alguma atualização sobre a vacina?
+- Alguma notícia sobre a vacina no Brasil?
+- Assim, há esperança de que a vacina possa ser encontrada até o final deste ano
+- Até que ponto os médicos do governo foram com a questão da vacina covid 19?
+- De quem é a vacina? 
+- De quem é a vacina? Necessidade de lebre!
+- Diga-me a vacina da COVID-19
+- E quanto à vacina?
+- É verdade que a vacina será lançada em setembro
+- É verdade que tem uma vacina que pode sair para o povo ainda este ano?
+- E verdade que tem uma varcina pode sair para o povo ainda este ano
+- Eles ainda não são vacina para a covida 19
+- Em que estado estamos com as vacinas
+- Estará disponível a vacina no mês de julho
+- Este vírus sofre mutações e por isso fica difícil a vacina funcionar?
+- Existe ainda uma vacina descoberta?
+- existe alguma esperança no futuro sobre a vacina
+- Existe alguma vacina encontrada para esta pandemia?
+- Existe alguma vacina para este vírus?
+- Existe uma vacina para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma vacina para a COVID-19?
+- Existe uma vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma vacina para tratar a COVID-19?
+- Existe uma vacina, droga ou tratamento?
+- Existe uma vacina, medicamento ou tratamento para a COVID-19?
+- Existe uma vacina, medicamento ou tratamento?
+- Existe uma vacina?
+- existe uma vacina?
+- existe uma vacina?
+- Existe uma vacina?
+- existe uma vacina?
+- Existe vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe vacina?
+- existem vacinas para prevenir a doença?
+- existem vacinas para prevenir a doença?
+- Explicar o status da vacina covid 19
+- Foi estabelecida uma vacina contra o vírus corona?
+- há uma vacina?
+- Helena você  pode falar  se a vacina  estará prota em outubro
+- Informações sobre a promissora vacina
+- Irão encontrar uma vacina?
+- Já fizeram alguma vacina pro covid ?
+- Já Tem Uma Vacina Segura?
+- Nenhuma vacina?
+- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
+- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
+- Obrigado Helen O uganda conseguiu uma vacina contra a doença ?
+- Ok Helen Quando uma vacina pode ser produzida por alguns países
+- Ok, mas não há uma vacina ou uma solução para o problema.
+- Olá ...sou chamado Joseph, de Uganda.... minhas perguntas são... existe alguma vacina?
+- Onde está a vacina contra o vírus corona?
+- Por favor, há uma vacina para detê-la
+- Portanto, qualquer vacina ainda
+- Quais vacinas já passaram do estágio 3 dos testes finais?
+- Qualquer vacina para a COVID-19.
+- Quando a vacina chegará
+- Quando a vacina for liberada
+- Quando a vacina será liberada?
+- Quando as vacinas estarão disponíveis?
+- Quando as vacinas estarão disponíveis? Am Alfred
+- Quando é que a esperança de vacina pode ser encontrada
+- Quando teremos a vacina?
+- Quando uma vacina pode ser produzida por alguns países
+- Quando vamos ter a vacina
+- Quando virá a vacina Corona?
+- quanto tempo levará para que uma vacina saia no mercado?
+- quanto tempo levará para que uma vacina saia no mercado?
+- Que dia vai ouver vacina contra covid-19?
+- Será que a vacina sai esse ano?
+- Sera que iremos ter a tao sonhada varcina este ano ainda
+- Sim. Mas existe uma vacina?
+- Sim. Mas existe uma vacina?
+- Sobre a vacina
+- Sobre as vacinas para a COVID-19.
+- Sobre as vacinas para o tratamento da COVID-19.
+- Sobre as vacinas, medicamento ou tratamento.
+- Sobre as vacinas, medicamentos ou tratamentos para a COVID-19.
+- Sobre as vacinas.
+- Sobre as vacinas.
+- Sobre uma vacina para a COVID-19.
+- Sobre uma vacina para tratar a COVID-19.
+- Sobre uma vacina, medicamento ou tratamento para a COVID-19.
+- Sobre uma vacina, medicamento ou tratamento.
+- Sobre uma vacina.
+- Sobre vacinas para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos.
+- Talvez uma outra coisa que eu gostaria de saber seja sobre a vacina
+- Tem vacina?
+- Teremos a vacina esse ano?
+- Uma vacina deve ser encontrada
+- Vacina
+- vacina contra a covida
+- vacina covid-19
+- vacina covid-19
+- Vacina p quando?
+- vacina para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Vacina para quando?
+- vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina, medicamento ou tratamento.
+- vacina.
+- Vacinas
+- Vacinas
+- Vasina
+- Vassina
+- Vc acha que teremos uma varcina este ano ainda
 
 ## intent:covid_covax_vacina
 - O que é a vacina covax?
@@ -186,8 +301,7 @@
 - Gostaria de saber se após 1 mês ter constatado positivo para igg e igm...ainda continuo com covid se ainda hj der reagente os dois?
 - Igm
 - Gostaria de saber se após 1 mês ter constatado positivo para igg e igm...ainda continuo com covid se ainda hj der reagente os dois?
-- "Gostaria de saber sobre o exame de anticorpos totais
-Ele mostra q a pessoa está com covid ou só q já teve ou nao"
+- Gostaria de saber sobre o exame de anticorpos totais Ele mostra q a pessoa está com covid ou só q já teve ou nao
 - Já tive Covid a 5 meses, precisei fazer um procedimento nessa semana e meu IgG e IgM positivaram . O que significa isso, que riscos traz a minha saúde e a dos q estão a minha volta?
 - Meu teste rápido deu presença de igg e igm, eu já estou curada?
 - Oi bom dia meu teste do covid deu presença de igg  e igm, eu ainda estou com o vírus?
@@ -5158,93 +5272,66 @@ Meu esposo está com covid"
 - o que eu devo fazer se for contaminado
 
 ## intent:prevention_medicine
+- A vitaminaD3 óleo de Coco vitaminaC e zinco São bom pra aumentar a imunidade
+- analgésicos?
+- aspirina?
+- como é o tratamento
+- como posso receber tratamento?
+- Cura
+- E o ibuprofeno?
+- Eu disse para tomar ibuprofeno
+- Eu preciso saber se quando sentir febre alguns sintomas pode tomar remédio para tirar a febre antes de fazer o teste do covid
+- Existe algum medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum remédio para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum remédio?
+- Existe algum tratamento?
+- Existe cura?
+- Existe medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe medicamento?
+- Existe tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma cura?
+- existem medicamentos para prevenir a doença?
 - Fui no posto eles só me dão medicamento de dor
-- remédio para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- remédio para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
-- remédio.
+- Fui no posto eles só me dão medicamento de dor
+- Gengibre é limão é bom pra combater o covid-19?
+- ibuprofeno
+- ibuprufen?
 - medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
 - medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
 - medicamento.
-- tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- tratamento.
-- vacina para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
-- vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- vacina, medicamento ou tratamento.
-- vacina.
-- Sobre remédios para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre remédios para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre remédios.
+- Medicamentos
+- O ibuprofeno prejudica os pacientes
+- O ibuprofeno prejudica os pacientes
+- O que é bom para imunidade?
+- paracetamol
+- paracetamol?
+- Por que o coronavírus não tem cura
+- Posso tomar aspirina?
+- Qual remédio devemos tomar em caso de suspeita r tratamento em casa
+- Qual remédio para tomar se tiver com covid
+- que medicação devo tomar se estiver infectado
+- Que medicamento puedo tomar
+- que medicamentos devem ser tomados?
+- que remédio funciona melhor para este vírus
+- Que remédios devo tomar?
+- remédio para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- remédio para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- remédio.
+- São bom pra aumentar a imunidade
+- Sera que iremos ter a tao sonhada varcina este ano ainda
+- sim foi preciso ibuprofeno
 - Sobre medicamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
 - Sobre medicamentos para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
 - Sobre medicamentos.
 - Sobre o tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
 - Sobre o tratamento.
-- Sobre vacinas para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre vacinas para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre vacinas, medicamentos ou tratamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre vacinas, medicamentos ou tratamentos.
-- Sobre as vacinas.
-- O ibuprofeno prejudica os pacientes
-- Eu disse para tomar ibuprofeno
-- Existe uma cura?
-- Existe cura?
-- Existe algum remédio para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe algum medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe algum remédio?
-- Existe medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe medicamento?
-- Existe tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe algum tratamento?
-- Existe uma vacina para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe uma vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe uma vacina, droga ou tratamento?
-- Existe uma vacina?
-- Existe vacina?
-- Posso tomar aspirina?
-- Medicamentos
-- Vacina
-- Vacinas
-- De quem é a vacina? 
-- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
-- Sim. Mas existe uma vacina?
-- há uma vacina?
-- existem medicamentos para prevenir a doença?
-- existem vacinas para prevenir a doença?
-- aspirina?
-- vacina covid-19
-- existe uma vacina?
-- como posso receber tratamento?
-- como é o tratamento
-- quanto tempo levará para que uma vacina saia no mercado?
-- ibuprofeno
-- ibuprufen?
-- analgésicos?
-- paracetamol
-- paracetamol?
-- E o ibuprofeno?
-- que medicação devo tomar se estiver infectado
-- que remédio funciona melhor para este vírus
-- que medicamentos devem ser tomados?
-- sim foi preciso ibuprofeno
-- Que remédios devo tomar?
-- A vitaminaD3 óleo de Coco vitaminaC e zinco São bom pra aumentar a imunidade
-- São bom pra aumentar a imunidade
-- O que é bom para imunidade?
-- Fui no posto eles só me dão medicamento de dor
-- Que medicamento puedo tomar
-- Eu preciso saber se quando sentir febre alguns sintomas pode tomar remédio para tirar a febre antes de fazer o teste do covid
-- Qual remédio para tomar se tiver com covid
-- O ibuprofeno prejudica os pacientes
-- Sera que iremos ter a tao sonhada varcina este ano ainda
-- Será que a vacina sai esse ano?
-- Qual remédio devemos tomar em caso de suspeita r tratamento em casa
-- Cura
-- Por que o coronavírus não tem cura
+- Sobre remédios para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre remédios para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre remédios.
 - Tomar vitamina c
-- Gengibre é limão é bom pra combater o covid-19?
+- tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- tratamento.
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -5363,98 +5450,6 @@ Meu esposo está com covid"
 - Por que eu deveria evitar tocar meu rosto?
 - Por que eu deveria evitar tocar minha boca?
 - Por que eu deveria evitar tocar meu nariz?
-
-## intent:prevention_vaccine
-- Uma vacina deve ser encontrada
-- Sobre uma vacina para a COVID-19.
-- Sobre uma vacina para tratar a COVID-19.
-- Sobre uma vacina, medicamento ou tratamento para a COVID-19.
-- Sobre uma vacina, medicamento ou tratamento.
-- Sobre uma vacina.
-- Sobre a vacina
-- Sobre as vacinas para a COVID-19.
-- Sobre as vacinas para o tratamento da COVID-19.
-- Sobre as vacinas, medicamentos ou tratamentos para a COVID-19.
-- Sobre as vacinas, medicamento ou tratamento.
-- Sobre as vacinas.
-- Alguma atualização sobre a vacina?
-- Qualquer vacina para a COVID-19.
-- Explicar o status da vacina covid 19
-- Foi estabelecida uma vacina contra o vírus corona?
-- Olá ...sou chamado Joseph, de Uganda.... minhas perguntas são... existe alguma vacina?
-- Até que ponto os médicos do governo foram com a questão da vacina covid 19?
-- Em que estado estamos com as vacinas
-- Informações sobre a promissora vacina
-- É verdade que a vacina será lançada em setembro
-- A vacina é encontrada
-- Existe ainda uma vacina descoberta?
-- Existe uma vacina para a COVID-19?
-- Existe uma vacina para tratar a COVID-19?
-- Existe uma vacina, medicamento ou tratamento para a COVID-19?
-- Existe uma vacina, medicamento ou tratamento?
-- Existe uma vacina?
-- Existe alguma vacina encontrada para esta pandemia?
-- Existe alguma vacina para este vírus?
-- Ainda não há vacina
-- Talvez uma outra coisa que eu gostaria de saber seja sobre a vacina
-- Nenhuma vacina?
-- Ok Helen Quando uma vacina pode ser produzida por alguns países
-- Ok, mas não há uma vacina ou uma solução para o problema.
-- Por favor, há uma vacina para detê-la
-- Portanto, qualquer vacina ainda
-- Assim, há esperança de que a vacina possa ser encontrada até o final deste ano
-- Diga-me a vacina da COVID-19
-- Obrigado Helen O uganda conseguiu uma vacina contra a doença ?
-- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?
-- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?????
-- Eles ainda não são vacina para a covida 19
-- Vacinas
-- De quem é a vacina? Necessidade de lebre!
-- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
-- Quando uma vacina pode ser produzida por alguns países
-- Quando é que a esperança de vacina pode ser encontrada
-- Quando a vacina chegará
-- Quando a vacina será liberada?
-- Quando a vacina for liberada
-- Quando virá a vacina Corona?
-- Quando as vacinas estarão disponíveis?
-- Quando as vacinas estarão disponíveis? Am Alfred
-- Onde está a vacina contra o vírus corona?
-- Quais vacinas já passaram do estágio 3 dos testes finais?
-- Estará disponível a vacina no mês de julho
-- Sim. Mas existe uma vacina?
-- existe uma vacina?
-- existem vacinas para prevenir a doença?
-- vacina contra a covida
-- vacina covid-19
-- existe uma vacina?
-- quanto tempo levará para que uma vacina saia no mercado?
-- existe alguma esperança no futuro sobre a vacina
-- E quanto à vacina?
-- Este vírus sofre mutações e por isso fica difícil a vacina funcionar?
-- A vacina vai funcionar?
-- Irão encontrar uma vacina?
-- Tem vacina?
-- A vacina cura?
-- Quando teremos a vacina?
-- Teremos a vacina esse ano?
-- A vacina sai ainda este ano ?
-- Vassina
-- Vasina
-- E verdade que tem uma varcina pode sair para o povo ainda este ano
-- É verdade que tem uma vacina que pode sair para o povo ainda este ano?
-- Tem cura
-- Cura
-- Alguma notícia sobre a vacina no Brasil?
-- Helena você  pode falar  se a vacina  estará prota em outubro
-- Vacina p quando?
-- Vacina para quando?
-- Quando vamos ter a vacina
-- Já Tem Uma Vacina Segura?
-- Já fizeram alguma vacina pro covid ?
-- Sera que iremos ter a tao sonhada varcina este ano ainda
-- Vc acha que teremos uma varcina este ano ainda
-- Que dia vai ouver vacina contra covid-19?
 
 ## intent:quarantine_control
 - Como se controla a quarentena?

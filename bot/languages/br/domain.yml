@@ -277,7 +277,6 @@ actions:
 - utter_covid_mentalhealth
 - utter_covid_enem
 - utter_covid_eleicao
-- utter_covid_vacinas_teste
 - utter_covid_covax_vacina
 - utter_covid_oxford_vacina
 - utter_covid_china_vacina
@@ -447,7 +446,6 @@ intents:
 - covid_mentalhealth
 - covid_enem
 - covid_eleicao
-- covid_vacinas_teste
 - covid_covax_vacina
 - covid_oxford_vacina
 - covid_china_vacina
@@ -1560,9 +1558,12 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>A pesquisa sobre vacinas está acontecendo em uma velocidade vertiginosa. Cerca de 140 estão em desenvolvimento inicial e cerca de duas dúzias estão agora sendo testadas em pessoas em ensaios clínicos. Uma vacina normalmente levaria anos, senão décadas, para se desenvolver. Os pesquisadores esperam alcançar a mesma quantidade de trabalho em apenas alguns meses. A maioria dos especialistas acredita que uma vacina provavelmente estará amplamente disponível em meados de 2021, cerca de 12 a 18 meses após o surgimento do Sars Cov 2. Isso seria um grande feito científico e não há garantias de que funcionará. Quatro coronavírus já circulam em seres humanos. Eles causam sintomas de resfriado comum e não temos vacinas para nenhum deles.</speak>
+        ssml: "<speak>Segundo a Agência Nacional de Vigilância Sanitária, quatro vacinas contra a Covid 19 estão sendo testadas no Brasil: 
+          Uma do Reino Unido; uma da China; uma dos Estados Unidos em parceria com a Europa; e outra da Europa.</speak>"
       - type: html
-        text: A pesquisa sobre vacinas está acontecendo em uma velocidade vertiginosa. Cerca de 140 estão em desenvolvimento inicial e cerca de duas dúzias estão agora sendo testadas em pessoas em ensaios clínicos. Uma vacina normalmente levaria anos, senão décadas, para se desenvolver. Os pesquisadores esperam alcançar a mesma quantidade de trabalho em apenas alguns meses. A maioria dos especialistas acredita que uma vacina provavelmente estará amplamente disponível em meados de 2021, cerca de 12 a 18 meses após o surgimento do Sars-CoV-2. Isso seria um grande feito científico e não há garantias de que funcionará.<br>Quatro coronavírus já circulam em seres humanos. Eles causam sintomas de resfriado comum e não temos vacinas para nenhum deles.<a href='https://www.bbc.com/news/health-51665497'target='_blank'>(1)</a>
+        text: "Segundo a Agência Nacional de Vigilância Sanitária, quatro vacinas contra a COVID-19 estão sendo testadas no Brasil: 
+          Uma do Reino Unido; uma da China; uma dos Estados Unidos em parceria com a Europa; e outra da Europa.<a href='https://www.in.gov.br/en/web/dou/-/medida-provisoria-n-1.003-de-24-de-setembro-de-2020-279272787'
+          target='_blank'>(1)</a>"
       - type: hints
         options:
         - label: Medidas de Prevenção
@@ -3181,7 +3182,7 @@ responses:
       - type: ssml
         ssml: <speak>De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
+        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_country_region_nodata:
   - custom:
       answers:
@@ -3201,7 +3202,7 @@ responses:
       - type: ssml
         ssml: <speak>De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
+        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_covid_schools:
   - custom:
       answers:
@@ -3317,7 +3318,6 @@ responses:
           votação se estiverem usando máscaras faciais e deverão higienizar as mãos com álcool em gel antes e depois de votar, 
           além da distância mínima de um metro entre as pessoas.<a href='http://www.tse.jus.br/imprensa/noticias-tse/arquivos/plano-de-seguranca-sanitaria-eleicoes-2020/rybena_pdf?file=http://www.tse.jus.br/imprensa/noticias-tse/arquivos/plano-de-seguranca-sanitaria-eleicoes-2020/at_download/file'
           target='_blank'>(1)</a>
-
   utter_covid_covax_vacina:
   - custom:
       answers:
@@ -3330,16 +3330,6 @@ responses:
           criada para impulsionar o desenvolvimento de vacinas para a COVID-19, e prevê 42 milhões de doses para o Brasil, que serão 
           distribuídas de acordo com critérios técnicos.<a href='https://www.in.gov.br/en/web/dou/-/medida-provisoria-n-1.003-de-24-de-setembro-de-2020-279272787'
           target='_blank'>(1)</a>
-  utter_covid_vacinas_teste:
-  - custom:
-      answers:
-      - type: ssml
-        ssml: "<speak>Segundo a Agência Nacional de Vigilância Sanitária, quatro vacinas contra a Covid 19 estão sendo testadas no Brasil: 
-          Uma do Reino Unido; uma da China; uma dos Estados Unidos em parceria com a Europa; e outra da Europa.</speak>"
-      - type: html
-        text: "Segundo a Agência Nacional de Vigilância Sanitária, quatro vacinas contra a COVID-19 estão sendo testadas no Brasil: 
-          Uma do Reino Unido; uma da China; uma dos Estados Unidos em parceria com a Europa; e outra da Europa.<a href='https://www.in.gov.br/en/web/dou/-/medida-provisoria-n-1.003-de-24-de-setembro-de-2020-279272787'
-          target='_blank'>(1)</a>"
   utter_covid_oxford_vacina:
   - custom:
       answers:
