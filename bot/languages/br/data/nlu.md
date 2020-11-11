@@ -1,4 +1,4 @@
-﻿## intent:start
+## intent:start
 - /start
 - /start
 - /start_conversation
@@ -251,6 +251,7 @@
 - Vasina
 - Vassina
 - Vc acha que teremos uma varcina este ano ainda
+- Como se curar do covil 19
 
 ## intent:covid_covax_vacina
 - O que é a vacina covax?
@@ -279,6 +280,7 @@
 - Informações sobre a vacina da China
 - Etapa de teste da vacina da China
 - A vacina da China é segura?
+- Posso confiar na vacina proveniente da China ?
 
 ## intent:covid_diferenca_testes
 - Diferentes testes.
@@ -307,6 +309,9 @@
 - Oi bom dia meu teste do covid deu presença de igg  e igm, eu ainda estou com o vírus?
 - Só queria saber sobre o teste rápido
 - Com quantos dias posso fazer o teste rápido?
+- Boa noite! Estou com os sintomas de covid 19 há dez dias,fiz o teste rápido, resultado IgG não reagente e IgM não reagente. Quero saber sobre esse resultado
+- Qual o melhor exame para detectar
+- Com quantos  dias de sintomas tem que fazer  o exame do cotonete
 
 ## intent:bot_books
 - Gêneros de livros que você gosta.
@@ -776,29 +781,31 @@
 - quem é você.
 
 ## intent:bot_origin
-- Você pode me dizer como você é construído?
-- Você pode me dizer como você foi construído?
-- Você pode me dizer como você foi criado?
-- Como você é construído?
-- Como você foi construído?
-- Como você foi criado?
-- Certo. Quem te criou?
-- Diga de onde você é.
-- Diga sua origem.
-- De onde você é?
-- Qual é a sua origem?
-- De onde você está vindo?
 - De onde você é originalmente?
 - De onde você é?
-- Onde você nasceu?
+- De onde você está vindo?
 - De onde você vem?
-- Quem são seus criadores?
-- Quem te criou?
+- Diga de onde você é.
+- Diga sua origem.
+- Onde você nasceu?
+- Qual é a sua origem?
+- Quem construiu vc?
+- Quem construiu você?
+- Quem criou vc?
+- Quem criou você?
+- Quem desenvolveu vc?
+- Quem desenvolveu você?
 - Quem é seu criador?
 - Quem foi seu criador?
 - Quem foram seus criadores?
-- Você é de onde?
+- Quem são seus criadores?
+- Quem te construiu?
+- Quem te criou?
 - Sua origem.
+- Você é de onde?
+- Você pode me dizer como você é construído?
+- Você pode me dizer como você foi construído?
+- Você pode me dizer como você foi criado?
 
 ## intent:bot_personal_questions
 - 3 coisas sem as quais você não pode viver.
@@ -2222,6 +2229,12 @@
 - Palhaçada do caralho
 - A da um tempo fake safado
 - Vai dar o teu cu
+- Não cai forakk
+- Meu ânus
+- tu e feia
+- Cu
+- Cú
+- Seu cu
 
 ## intent:comment_offense
 - Idiota!
@@ -2735,7 +2748,10 @@
 - ganho imunidade se pegar o vírus outra vez?
 - Ja tive covid e tenho posibilidades de pega de novo
 - Depois que a pesoa pega covid uma ves pode pega de novo
-
+- Boa tarde,  existe comprovação de quem teve covid uma vez pode ter outra vez?
+- Sei dor de estômago e vomito e sinal de covid 19
+- Boa noite dor de estômago e vomito pertence ao sintoma de covid 19?
+- Estou com tosse com um pouco de catarro e dor de garganta
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -2813,6 +2829,9 @@
 - Até quantos dias do início corro risco de piora?
 - Quanto tempo VEI o sintomas pode q estive com o virus
 - Quanto tempo demora pra aparece se o sintoma
+- A incubação do vírus é até 14 dias?
+- quantos dias apos o contato com a pessoa com covid Posso manifestar sintomas
+- Boa noite,  se eu tiver contato com alguém que teve covid quanto tempo depois eu posso apresentar sintomas?
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2959,6 +2978,12 @@
 - Onde surgiu?
 - E de q animal surgiu o covid 19
 - Qual é a origem do surto?
+- O covid 19 já existia antes?
+- Isso e obra da china
+- A china criou esse virus
+- O covid 19 já existia antes?
+- Qual a origem DO corona
+- Esse virus veio de la
 
 ## intent:covid_pandemic
 - Qual o significado da palavra pandemia?
@@ -3033,6 +3058,7 @@
 - Se eu tenho imunidade baixa, sou mais propicia a pegar de novo covid
 - Eu tenho comorditades, tenho imunidade baixa
 - O fumante tem risco
+- Sobre mulheres grávidas
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -3330,6 +3356,8 @@
 - Posso transar?
 - Se for pra ter alguma relação sexual com alguém vc pega corona??
 - Transar com máscara , pode transmitir o vírus?
+- Ejaculação pega o vírus?
+- Ejaculação
 
 ## intent:covid_situation
 - Casos confirmados em [Continente Europeu]{"entity": "world_region", "value": "Europe"}
@@ -3499,6 +3527,7 @@
 - Quão letal é o vírus?
 - Boletins
 - Dados do boletim
+- quantos mortos?
 
 ## intent:covid_situation_infected
 - Qual é o número de infectados?
@@ -4006,6 +4035,9 @@ Meu esposo está com covid"
 - Dor nas costas
 - Estou com sintomas de falta de ar   será que é covid  ?
 - Viajei sesta feira....agora estou como se mim quisesse faltar de ar....será que peguei couvid  19 ?
+- Sentir pouco cheiro pode ser covid
+- Qual sintomas da covid 19
+- Eu gostaria  de saber se estou ou ñ
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -4292,7 +4324,9 @@ Meu esposo está com covid"
 - de nada tchau
 - Boa noite!
 - Tchau amiga
-
+- Boa noite rdorme com Deus
+- Fique com Deus
+- Durma com Deus
 
 
 ## intent:greeting_hello
@@ -4838,6 +4872,7 @@ Meu esposo está com covid"
 - Existe uma nova virose Parecida com covid
 - Helena Quais são os mitos acerca do vidro
 - Ou é só politicagem
+- Quais são as fale News sobre o covid
 
 ## intent:prevention_clean_hands
 - Sobre a limpeza das mãos.
@@ -5523,6 +5558,10 @@ Meu esposo está com covid"
 - Eu estou com o covid19
 - Olá tem previsão para acabar a quarentena
 - Eu estava trabalhando aí eu parei por meu patrão  pegou o convd 19 aí a manhã fais 13 dias  aí a esposa dele mandou eu volta a trabalho mais não sei se e bom volta o que você me diz
+- Quantos dias após o ultimo sintomas de covid posso ir a rua?
+- "Olá. Eu fui positivada.  Hj fazem 11 dias. O vírus permanece em mim quantos dias.
+Falam que é 14 dias"
+- Preciso ate ter certeza ficar no isolamento quantos dias
 
 ## intent:quaratine_how_it_works
 - Como fazer a quarentena propriamente dita?
@@ -5633,6 +5672,7 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Posso pegar COVID dos meus cachorros?
 - posso pegar o vídeo dos meus animais
 - Covid passa de animal para humano?
+- Cachorro pega corona virus
 
 ## intent:spread_feces
 - Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de uma pessoa infectada?
@@ -5824,6 +5864,16 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Do no corpo e a covid
 - covid da corceira onde
 - Coceira
+- Contágio
+- Informações
+- Virus contagio
+- O que acontece se eu pega corona vírus e toca em várias pessoas e em vários objetos
+- E verdade que o corona vírus transmite por espirro?
+- Só tand com a garganta emflamada sem tosse. Nem febre
+- Minha filha está com a garganta inflamada  mas não tem febre nem tosse
+- Quai os sitomas da covid 19
+- Estou com dor de garganta e gripe
+
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -6145,6 +6195,7 @@ Eu não estou sentindo nada"
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida?
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pelos alimentos?
 - O corona passa pela comida?
+- Teclado de computador pega corona vírus
 
 ## intent:test_virus
 - Posso ser testado para coronavírus?
@@ -6234,6 +6285,8 @@ Eu não estou sentindo nada"
 - Quando eu voltar da viagem.
 - apos viajar.
 - Como proceder após a viagem?
+- Viajei recentemente
+- Viajei
 
 ## intent:travel_before
 - Antes da viagem.
@@ -6274,6 +6327,8 @@ Eu não estou sentindo nada"
 - se precaver antes da viagem?
 - antes de fazer uma viagem
 - Gostaria de saber se já é possivel viajar a Europa apresentando um teste PC
+- Vou viajar
+- Viajarei em breve
 
 ## intent:travel_while
 - Durante a viagem.
