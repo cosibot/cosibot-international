@@ -15,10 +15,10 @@ slots:
     initial_value: br
   bot_introduced:
     type: bool
-    initial_value: false
+    initial_value: False
   bot_version:
     type: text
-    initial_value: '0.0.4'
+    initial_value: '0.1.1'
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -80,6 +80,24 @@ slots:
     - not-ok
   virus:
     type: text
+  country_state:
+    type: text
+  country_region:
+    type: text
+  country_region_confirmed_accum:
+    type: unfeaturized
+  country_region_confirmed_new:
+    type: unfeaturized
+  country_region_deaths_accum:
+    type: unfeaturized
+  country_region_deaths_new:
+    type: unfeaturized
+  country_region_search_successful:
+    type: categorical
+    values:
+      - ok
+      - empty
+      - not-ok
 
 entities:
 - virus
@@ -88,6 +106,8 @@ entities:
 - preferred_lang
 - country_code
 - world_region
+- country_state
+- country_region
 
 actions:
 - action_get_date
@@ -97,6 +117,8 @@ actions:
 - action_change_preferred_language
 - action_search_stats
 - action_check_Bot_Introduced
+- action_search_stats_state
+- action_search_stats_region
 - utter_bot_appearance
 - utter_bot_availability
 - utter_bot_books
@@ -242,6 +264,9 @@ actions:
 - utter_covid_situation_last_update
 - utter_covid_situation_recovered
 - utter_covid_situation_tested
+- utter_country_state_hasdata
+- utter_country_region_nodata
+- utter_country_region_hasdata
 - utter_covid_schools
 - utter_fallback_first
 - utter_fallback_request_emptyanswer
@@ -427,6 +452,10 @@ intents:
 - covid_oxford_vacina
 - covid_china_vacina
 - covid_diferenca_testes
+- covid_situation_region
+- covid_situation_state
+- state_br
+- region_br
 
 responses:
   utter_command_change_bot:
@@ -445,11 +474,11 @@ responses:
           e orientações sobre o atual surto de Covid 19, como por exemplo, como
           evitar a propagação, ou esclarecer alguns mitos que talvez você tenha
           ouvido. Como posso ajudar?</speak>
-      - type: text
+      - type: html
         text: Olá, meu nome é {bot_name} e estou aqui para dar informações e orientações
           sobre o atual surto de COVID-19, como por exemplo, como evitar a propagação,
           ou esclarecer alguns mitos que talvez você tenha ouvido.
-      - type: text
+      - type: html
         text: Como posso ajudar?
       - type: hints
         options:
@@ -468,19 +497,19 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Olá, como posso ajudar?</speak>
-      - type: text
+      - type: html
         text: Olá, como posso ajudar?
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Olá! Em que posso ajudar?</speak>
-      - type: text
+      - type: html
         text: Olá! Em que posso ajudar?
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Oi! Posso ajudar?</speak>
-      - type: text
+      - type: html
         text: Oi! Posso ajudar?
   utter_travel_while:
   - custom:
@@ -494,14 +523,14 @@ responses:
           a algum lugar, você deve cumprir isso. Você deve cumprir todas as restrições
           locais sobre viagens, movimentação ou grandes reuniões.</speak>
       - type: html
-        text: <p>Lave suas mãos regularmente e fique a pelo menos um metro de distância
+        text: Lave suas mãos regularmente e fique a pelo menos um metro de distância
           de pessoas que estão tossindo ou espirrando e certifique-se de saber o
           que fazer e quem contatar se você se sentir doente durante a viagem. Cumpra
           as instruções das autoridades locais para onde você está viajando. Se,
           por exemplo, as autoridades locais lhe pedem para não ir a algum lugar,
           você deve cumprir isso. Você deve cumprir todas as restrições locais
           sobre viagens, movimentação ou grandes reuniões.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas preventivas
@@ -525,7 +554,7 @@ responses:
           deve telefonar para seu médico ou departamento de saúde pública local,
           fornecendo detalhes de suas viagens e sintomas recentes.</speak>
       - type: html
-        text: <p>Quem voltou de uma área onde o COVID-19 está se espalhando deve
+        text: Quem voltou de uma área onde o COVID-19 está se espalhando deve
           monitorar os sintomas por 14 dias e medir a temperatura duas vezes ao dia.
           Se você desenvolver até mesmo uma tosse leve ou febre baixa (por exemplo,
           uma temperatura de 37,3 graus Celsius ou mais), fique em casa e se auto-isole.
@@ -533,7 +562,7 @@ responses:
           pessoas, incluindo membros da família. Você também deve telefonar para
           seu médico ou departamento de saúde pública local, fornecendo detalhes
           de suas viagens e sintomas recentes.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas preventivas
@@ -553,11 +582,11 @@ responses:
           deve avaliar as vantagens e riscos relacionados aos próximos planos de
           viagem.</speak>
       - type: html
-        text: <p>Certifique-se de ter as últimas informações sobre as áreas onde
+        text: Certifique-se de ter as últimas informações sobre as áreas onde
           o COVID-19 está se espalhando. Com base nessas informações, você deve
           avaliar as vantagens e riscos relacionados aos próximos planos de viagem.<a
           href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas preventivas
@@ -573,26 +602,26 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Desculpe, eu ainda estou aprendendo!</speak>
-      - type: text
+      - type: html
         text: Desculpe, eu ainda estou aprendendo!
   - custom:
       answers:
       - type: ssml
         ssml: <speak> É triste saber que você não está feliz.</speak>
-      - type: text
+      - type: html
         text: É triste saber que você não está feliz.
   utter_comment_smart:
   - custom:
       answers:
       - type: ssml
         ssml: <speak> Obrigado, que bom que está satisfeito!</speak>
-      - type: text
+      - type: html
         text: Obrigado, que bom que está satisfeito!
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Obrigado! Estou muito feliz que você se sinta assim.</speak>
-      - type: text
+      - type: html
         text: Obrigado! Estou muito feliz que você se sinta assim.
   utter_comment_racist:
   - custom:
@@ -600,7 +629,7 @@ responses:
       - type: ssml
         ssml: <speak>Seu comportamento intolerante está me assustando. Por favor,
           seja mais educado.</speak>
-      - type: text
+      - type: html
         text: Seu comportamento intolerante está me assustando. Por favor, seja mais
           educado.
   - custom:
@@ -608,21 +637,21 @@ responses:
       - type: ssml
         ssml: <speak>Não entendo a razão de tal comportamento.Por favor, seja mais
           simpático.</speak>
-      - type: text
+      - type: html
         text: Não entendo a razão de tal comportamento. Por favor, seja mais simpático.
   utter_comment_offense:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Não seja tão mau. Eu ainda estou aprendendo!</speak>
-      - type: text
+      - type: html
         text: Não seja tão mau. Eu ainda estou aprendendo.
   utter_comment_positive:
   - custom:
       answers:
       - type: ssml
         ssml: <speak> Obrigado pelo seu elogio.</speak>
-      - type: text
+      - type: html
         text: Obrigado por seu elogio.
   utter_covid_symptoms:
   - custom:
@@ -633,11 +662,11 @@ responses:
           a infecção pode causar pneumonia, síndrome respiratória aguda grave,
           insuficiência renal e até morte.</speak>
       - type: html
-        text: <p>Os sinais comuns de infecção incluem sintomas respiratórios, febre,
+        text: Os sinais comuns de infecção incluem sintomas respiratórios, febre,
           tosse, falta de ar e dificuldades respiratórias. Em casos mais graves,
           a infecção pode causar pneumonia, síndrome respiratória aguda grave,
           insuficiência renal e até morte.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas preventivas
@@ -655,11 +684,11 @@ responses:
           A Sars é mais mortal, mas bem menos infecciosa do que a Covid 19. Não existem
           surtos de Sars em nenhuma parte do mundo desde 2003.</speak>
       - type: html
-        text: <p>O vírus que causa a COVID-19 e o que causa a Síndrome Respiratória
+        text: O vírus que causa a COVID-19 e o que causa a Síndrome Respiratória
           Aguda (SARS) estão geneticamente relacionados entre si, mas são diferentes.
           <br>A SARS é mais mortal, mas bem menos infecciosa do que a COVID-19. <br>Não
           existem surtos de SARS em nenhuma parte do mundo desde 2003.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -681,7 +710,7 @@ responses:
           ser colocadas em quarentena, por exemplo. Todas as medidas visam garantir
           que o menor número possível de pessoas seja infectado pelo patógeno.</speak>
       - type: html
-        text: <p>Em caso de suspeita, são aplicados critérios especiais de segurança,
+        text: Em caso de suspeita, são aplicados critérios especiais de segurança,
           que são recomendados pelo Ministério da Saúde em consulta a especialistas
           e oriundos de diretrizes internacionais. Uma pessoa doente é isolada, pessoas
           de contato são identificadas, informadas e, dependendo da situação, podem
@@ -693,11 +722,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Para se manter atualizado sobre os números do avanço da doença
-          no mundo, por favor visite o link abaixo:</speak>
+        ssml: "<speak>Para se manter atualizado sobre os números do avanço da doença no mundo, por favor visite o link abaixo:</speak>"
       - type: html
-        text: <p>Para se manter atualizado sobre os números do avanço da doença
-          no mundo, por favor visite o link abaixo:</p>
+        text: "Para se manter atualizado sobre os números do avanço da doença no mundo, por favor visite o link abaixo:"
       - type: links
         links:
         - title: COVID-19 Situação
@@ -724,14 +751,14 @@ responses:
           no entanto, foram expressas preocupações sobre o potencial desses vírus
           persistirem em alimentos crus de origem animal.</speak>
       - type: html
-        text: <p>Experiências de surtos anteriores de coronavírus relacionados,
+        text: Experiências de surtos anteriores de coronavírus relacionados,
           como o coronavírus da Síndrome Respiratória Aguda Grave (SARS-CoV) e o
           coronavírus da síndrome respiratória do Oriente Médio (MERS-CoV) mostram
           que a transmissão pelo consumo de alimentos não ocorreu. Até o momento,
           não houve relatos de transmissão do vírus SARS-CoV-2 por meio de alimentos,
           no entanto, foram expressas preocupações sobre o potencial desses vírus
           persistirem em alimentos crus de origem animal.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -750,10 +777,10 @@ responses:
           Coronavirus 2019 afirma que os casos leves têm um curso médio de duas
           semanas e os casos graves 3-6 semanas.</speak>
       - type: html
-        text: <p>O relatório da Missão Conjunta OMS-China sobre a Doença de Coronavírus
+        text: O relatório da Missão Conjunta OMS-China sobre a Doença de Coronavírus
           2019 afirma que os casos leves têm um curso médio de duas semanas e os
           casos graves 3-6 semanas.<a href='https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_economy_consequences:
   - custom:
       answers:
@@ -762,9 +789,9 @@ responses:
           quase um por cento este ano por causa da nova pandemia de coronavírus,
           em vez de crescer 2,5 por cento como previsto.</speak>
       - type: html
-        text: <p>A Organização das Nações Unidas (ONU) prevê que a economia mundial
+        text: A Organização das Nações Unidas (ONU) prevê que a economia mundial
           irá contrair quase um por cento este ano por causa da nova pandemia de
-          coronavírus, em vez de crescer 2,5 por cento como previsto.</p>
+          coronavírus, em vez de crescer 2,5 por cento como previsto.
   utter_covid_pandemic:
   - custom:
       answers:
@@ -774,11 +801,11 @@ responses:
           das pessoas não tem imunidade. Vírus que causaram pandemias passadas tipicamente
           originaram-se de vírus da gripe animal.</speak>
       - type: html
-        text: <p>Uma pandemia é a propagação mundial de uma nova doença e ocorre
+        text: Uma pandemia é a propagação mundial de uma nova doença e ocorre
           quando um novo vírus emerge e se espalha pelo mundo, e a maioria das pessoas
           não tem imunidade. Vírus que causaram pandemias passadas tipicamente originaram-se
           de vírus da gripe animal.<a href='https://www.who.int/csr/disease/swineflu/frequently_asked_questions/pandemic/en/'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_mortality_rate:
   - custom:
       answers:
@@ -788,10 +815,10 @@ responses:
           menor do que o surto da Sars de 2003. Entretanto, é muito maior do que a
           taxa de mortalidade por influenza sazonal.</speak>
       - type: html
-        text: <p>Resultados preliminares indicam que a taxa de mortalidade da COVID-19 é de vinte a trinta por mil pessoas diagnosticadas. Isto é significativamente
+        text: Resultados preliminares indicam que a taxa de mortalidade da COVID-19 é de vinte a trinta por mil pessoas diagnosticadas. Isto é significativamente
           menor do que o surto da SARS de 2003. Entretanto, é muito maior do que a
           taxa de mortalidade por gripe sazonal.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_immunity:
   - custom:
       answers:
@@ -806,8 +833,8 @@ responses:
           pode se aplicar à Sars Cov 2, pois existem evidências emergentes de estudos
           iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
           e provavelmente são imunes à reinfecção a curto prazo.</speak>
-      - type: txt
-        text: <p>É muito cedo para saber quanto tempo durará a resposta imunológica
+      - type: html
+        text: É muito cedo para saber quanto tempo durará a resposta imunológica
           protetora contra a SARS-CoV-2, uma vez que isto irá requerer estudos serológicos
           longitudinais que acompanham a imunidade dos doentes durante um período
           de tempo prolongado. Evidências de outras infecções por coronavírus,
@@ -816,7 +843,7 @@ responses:
           circulação sazonal na mesma estação ou na estação seguinte. Isso também
           pode se aplicar à SARS-CoV-2, pois existem evidências emergentes de estudos
           iniciais que sugerem que os indivíduos desenvolvem anticorpos após a infecção
-          e provavelmente são imunes à reinfecção a curto prazo.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf' target='_blank'>(1)</a></p>
+          e provavelmente são imunes à reinfecção a curto prazo.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf' target='_blank'>(1)</a>
 
   utter_covid_crisis_howlong:
   - custom:
@@ -828,12 +855,12 @@ responses:
           dentro da UE/EEE irá diminuir naturalmente durante o verão no hemisfério
           norte, como é observado para a gripe sazonal.</speak>
       - type: html
-        text: <p>Infelizmente, não é possível prever quanto tempo o surto durará
+        text: Infelizmente, não é possível prever quanto tempo o surto durará
           e como a epidemia irá se desenvolver. Estamos lidando com um novo vírus
           e, portanto, muita incerteza permanece. Por exemplo, não se sabe se a transmissão
           dentro da UE/EEE irá diminuir naturalmente durante o verão no hemisfério
           norte, como é observado para a gripe sazonal.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -850,7 +877,7 @@ responses:
       - type: ssml
         ssml: <speak>Há três fatores que afetam o risco de dano pulmonar nas infecções por Covid 19 e a probabilidade da pessoa recuperar e recuperar a função pulmonar. Gravidade da doença, condições de saúde pré-existentes e tratamento. Após um caso grave de Covid 19, os pulmões de um paciente podem se recuperar, mas não da noite para o dia. A recuperação dos danos pulmonares leva tempo. Há a lesão inicial nos pulmões, seguida de cicatrizes. Com o tempo, o tecido cicatriza, mas pode levar de três meses a um ano ou mais para que a função pulmonar de uma pessoa volte aos níveis pré Covid 19.</speak>
       - type: html
-        text: "<p>Há três fatores que afetam o risco de dano pulmonar nas infecções por COVID-19 e a probabilidade da pessoa recuperar e recuperar a função pulmonar: Gravidade da doença, condições de saúde pré-existentes e tratamento. Após um caso grave de COVID-19, os pulmões de um paciente podem se recuperar, mas não da noite para o dia. A recuperação dos danos pulmonares leva tempo. Há a lesão inicial nos pulmões, seguida de cicatrizes. Com o tempo, o tecido cicatriza, mas pode levar de três meses a um ano ou mais para que a função pulmonar de uma pessoa volte aos níveis pré-COVID-19.<a href='https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/what-coronavirus-does-to-the-lungs'target='_blank'>(1)</a></p>"
+        text: "Há três fatores que afetam o risco de dano pulmonar nas infecções por COVID-19 e a probabilidade da pessoa recuperar e recuperar a função pulmonar: Gravidade da doença, condições de saúde pré-existentes e tratamento. Após um caso grave de COVID-19, os pulmões de um paciente podem se recuperar, mas não da noite para o dia. A recuperação dos danos pulmonares leva tempo. Há a lesão inicial nos pulmões, seguida de cicatrizes. Com o tempo, o tecido cicatriza, mas pode levar de três meses a um ano ou mais para que a função pulmonar de uma pessoa volte aos níveis pré-COVID-19.<a href='https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/what-coronavirus-does-to-the-lungs'target='_blank'>(1)</a>"
   utter_covid_disease_process:
   - custom:
       answers:
@@ -863,14 +890,14 @@ responses:
           respectivamente. Isso permitiu a identificação, o isolamento e o tratamento
           mais cedo de casos e contatos.</speak>
       - type: html
-        text: <p> Dados sobre a progressão da doença estão disponíveis a partir
+        text:  Dados sobre a progressão da doença estão disponíveis a partir
           de um número limitado de casos hospitalizados relatados. Com base nas informações
           disponíveis, o tempo médio desde o início dos sintomas até a confirmação
           laboratorial diminuiu nacionalmente de 12 dias no início de janeiro para
           3 dias no início de fevereiro de 2020 e em Wuhan de 15 dias para 5 dias,
           respectivamente. Isso permitiu a identificação, o isolamento e o tratamento
           mais cedo de casos e contatos.<a href='https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_worry:
   - custom:
       answers:
@@ -880,11 +907,11 @@ responses:
           canalizar nossas preocupações em ações para nos proteger, aos nossos
           entes queridos e às nossas comunidades.</speak>
       - type: html
-        text: <p>É bastante normal que as pessoas se preocupem com a forma como o
+        text: É bastante normal que as pessoas se preocupem com a forma como o
           surto de COVID-19 irá afetá-los e aos seus entes queridos. <br>Podemos
           canalizar nossas preocupações para ações de proteção a nós mesmos,
           aos nossos entes queridos e às nossas comunidades.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas preventivas
@@ -904,13 +931,13 @@ responses:
           e com contatos faciais próximos e evite encontros sexuais ocasionais ou
           com pessoas doentes com sintomas respiratórios.</speak>
       - type: html
-        text: <p>Tendo em conta os conhecimentos atuais, o coronavírus não é sexualmente
+        text: Tendo em conta os conhecimentos atuais, o coronavírus não é sexualmente
           transmitido. Entretanto, é possível transmitir o coronavírus durante
           a atividade sexual, especialmente se não forem seguidas medidas de autocuidado
           para prevenir a transmissão. Tome cuidado ao dar beijos e com contatos
           faciais próximos e evite encontros sexuais ocasionais ou com pessoas doentes
           com sintomas respiratórios.<a href='https://www1.nyc.gov/assets/doh/downloads/pdf/imm/covid-sex-guidance.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_meaning:
   - custom:
       answers:
@@ -922,13 +949,13 @@ responses:
           Organização Mundial para a Saúde Animal e Alimentação e Agricultura
           das Nações Unidas.</speak>
       - type: html
-        text: <p>Síndrome respiratória aguda severa coronavirus 2 ou SARS-Cov-2 é
+        text: Síndrome respiratória aguda severa coronavirus 2 ou SARS-Cov-2 é
           o nome do novo vírus porque está geneticamente relacionado com o coronavírus
           responsável pelo surto da SARS de 2003. COVID-19 é o nome desta nova doença,
           seguindo as diretrizes previamente desenvolvidas pela Organização Mundial
           para a Saúde Animal e Alimentação e Agricultura das Nações Unidas.<a
           href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -948,11 +975,11 @@ responses:
           do surto em Wuhan, China, em dezembro de 2019. O Covid 19 agora é uma pandemia
           que afeta muitos países do mundo.</speak>
       - type: html
-        text: <p>COVID-19 é a doença infecciosa causada pelo coronavírus, descoberto
+        text: COVID-19 é a doença infecciosa causada pelo coronavírus, descoberto
           recentemente. Este novo vírus e doença eram desconhecidos antes do início
           do surto em Wuhan, China, em dezembro de 2019. O COVID-19 agora é uma pandemia
           que afeta muitos países do mundo.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas preventivas
@@ -975,14 +1002,14 @@ responses:
           19. Embora semelhante, a mortalidade para o Covid 19 parece maior do que
           para a gripe, especialmente a gripe sazonal.</speak>
       - type: html
-        text: <p>Os vírus COVID-19 e gripe causam doenças respiratórias e são
+        text: Os vírus COVID-19 e gripe causam doenças respiratórias e são
           transmitidos por contato, gotículas e fômites (superfícies ou objetos
           contaminados). O intervalo serial para o vírus COVID-19 é estimado em
           5-6 dias, enquanto para o vírus da gripe, o intervalo serial é de 3 dias.
           Isso significa que a gripe pode se espalhar mais rapidamente que o Covid
           19. Embora semelhante, a mortalidade para o COVID-19 parece maior do que
           para a gripe, especialmente a gripe sazonal.<a href='https://www.who.int/news-room/q-a-detail/q-a-similarities-and-differences-covid-19-and-influenza'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1002,11 +1029,11 @@ responses:
           entre as pessoas, mas atualmente estima-se que, em média, uma pessoa infectada
           irá infectar entre duas a três pessoas.</speak>
       - type: html
-        text: <p>Não há informação epidemiológica suficiente neste momento para
+        text: Não há informação epidemiológica suficiente neste momento para
           determinar a facilidade e sustentabilidade da propagação deste vírus
           entre as pessoas, mas atualmente estima-se que, em média, uma pessoa infectada
           irá infectar entre duas a três pessoas.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_origins:
   - custom:
       answers:
@@ -1021,7 +1048,7 @@ responses:
           Os casos apresentaram sintomas como febre, tosse seca, dispneia; achados
           radiológicos mostraram infiltrados pulmonares bilaterais.</speak>
       - type: html
-        text: <p>Em 31 de dezembro de 2019, a Comissão Municipal de Saúde de Wuhan
+        text: Em 31 de dezembro de 2019, a Comissão Municipal de Saúde de Wuhan
           na cidade de Wuhan, província de Hubei, China, relatou um grupo de 27 casos
           de pneumonia (incluindo sete casos graves) de etiologia desconhecida, com
           uma ligação comum relatada ao Mercado Atacadista de Frutos do Mar Huanan
@@ -1030,7 +1057,7 @@ responses:
           Wuhan, as amostras do mercado deram positivo para novos coronavírus. Os
           casos apresentaram sintomas como febre, tosse seca, dispneia; achados radiológicos
           mostraram infiltrados pulmonares bilaterais.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus/event-background-2019'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_coronavirus_info:
   - custom:
       answers:
@@ -1041,12 +1068,12 @@ responses:
           Síndrome Respiratória Aguda (Sars).O coronavírus descoberto mais recentemente
           causa a doença de coronavírus Covid 19.</speak>
       - type: html
-        text: <p>Coronavírus são uma grande família de vírus que podem causar
+        text: Coronavírus são uma grande família de vírus que podem causar
           infecções respiratórias que vão desde o resfriado comum até doenças
           mais graves como a Síndrome Respiratória do Oriente Médio (MERS) e a
           Síndrome Respiratória Aguda (SARS).O coronavírus descoberto mais recentemente
           causa a doença de coronavírus COVID-19.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1066,11 +1093,11 @@ responses:
           19 anos de idade. Uma proporção muito pequena daqueles com menos de 19
           anos de idade desenvolveu doença grave (2,5%) ou critica (0.2%).</speak>
       - type: html
-        text: <p>A doença parece ser relativamente rara e leve em crianças. Cerca
+        text: A doença parece ser relativamente rara e leve em crianças. Cerca
           de 2,4% do total de casos relatados foram indivíduos com menos de 19 anos
           de idade. Uma proporção muito pequena daqueles com menos de 19 anos de
           idade desenvolveu doença grave (2,5%) ou critica (0.2%).<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-outbreak-novel-coronavirus-disease-2019-increase-transmission-globally-COVID-19.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_incubation:
   - custom:
       answers:
@@ -1080,11 +1107,11 @@ responses:
           de incubação da Covid 19 varia de 1 a 14 dias, e é mais comum durar cinco
           dias.</speak>
       - type: html
-        text: <p>O "período de incubação" significa o tempo entre pegar o vírus
+        text: O "período de incubação" significa o tempo entre pegar o vírus
           e começar a ter sintomas da doença. <br>A maioria das estimativas do período
           de incubação da COVID-19 varia de 1 a 14 dias, e é mais comum durar cinco
           dias.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1105,12 +1132,12 @@ responses:
           controle de fluidos, oxigenoterapia, etc) pode ser altamente eficaz para
           pacientes com sintomas.</speak>
       - type: html
-        text: <p>Não há tratamento específico para esta doença, por isso os profissionais
+        text: Não há tratamento específico para esta doença, por isso os profissionais
           de saúde tratam os sintomas clínicos (por exemplo, febre, dificuldade
           para respirar) dos pacientes. Os cuidados de apoio (por exemplo, controle
           de fluidos, oxigenoterapia, etc) pode ser altamente eficaz para pacientes
           com sintomas.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_preexisting_illness:
   - custom:
       answers:
@@ -1131,7 +1158,7 @@ responses:
           de identificar os fumantes como um grupo potencialmente vulnerável para
           o Covid 19.</speak>
       - type: html
-        text: <p>Os grupos populacionais que têm sido mais frequentemente relatados
+        text: Os grupos populacionais que têm sido mais frequentemente relatados
           com doenças graves e morte incluem pessoas acima dos 60 anos de idade,
           homens, pessoas com condições subjacentes como hipertensão, diabetes,
           doenças cardiovasculares, doenças respiratórias crônicas e câncer.
@@ -1145,7 +1172,7 @@ responses:
           / fumantes de tabaco e hipertensos; eles também destacam a importância
           de identificar os fumantes como um grupo potencialmente vulnerável para
           o COVID-19.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_surfaces:
   - custom:
       answers:
@@ -1155,11 +1182,11 @@ responses:
           condições, por exemplo, tipo de superfície, temperatura ou umidade do
           ambiente.</speak>
       - type: html
-        text: <p>Estudos sugerem que os coronavírus podem persistir em superfícies
+        text: Estudos sugerem que os coronavírus podem persistir em superfícies
           por algumas horas ou até vários dias. Isto pode variar sob diferentes
           condições (por exemplo, tipo de superfície, temperatura ou umidade do
           ambiente).<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1174,13 +1201,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Cosibot é uma iniciativa sem fins lucrativos da Robo AI para
-          fornecer informações confiáveis sobre a Covid 19 de fontes oficiais,
-          como a Organização Mundial da Saúde. Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais.</speak>
+        ssml: <speak>Cosibot é uma iniciativa sem fins lucrativos da Robo AI para fornecer informações confiáveis sobre a Covid 19 de fontes oficiais, como a Organização Mundial da Saúde. Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais.</speak>
       - type: html
-        text: <p>Cosibot é uma iniciativa sem fins lucrativos da ROBO.AI para fornecer
-          informações confiáveis sobre a COVID-19 de fontes oficiais, como a Organização
-          Mundial da Saúde.<br>Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais:</p>
+        text: "Cosibot é uma iniciativa sem fins lucrativos da ROBO.AI para fornecer informações confiáveis sobre a COVID-19 de fontes oficiais, como a Organização Mundial da Saúde.<br>Gostaria de ajudar nesse projeto? Então clique no link em baixo para saber mais:"
       - type: links
         links:
         - title: Voluntariado Cosibot
@@ -1191,21 +1214,21 @@ responses:
       - type: ssml
         ssml: <speak>O Tech for Covid BR é um movimento voluntário que une pessoas com diferentes habilidades à tecnologia para combater os impactos gerados pelo coronavírus no Brasil.</speak>
       - type: html
-        text: <p>O Tech4CovidBR é um movimento voluntário que une pessoas com diferentes habilidades à tecnologia para combater os impactos gerados pelo coronavírus no Brasil.</p>
+        text: O Tech4CovidBR é um movimento voluntário que une pessoas com diferentes habilidades à tecnologia para combater os impactos gerados pelo coronavírus no Brasil.
   utter_covid_volunteer:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Você pode fazer parte do movimento Tech for Covid BR! Não importa sua área de atuação, o movimento precisa de pessoas que tenham vontade de arregaçar as mangas e contribuir para a redução dos impactos gerados pela Covid 19 no Brasil. Para isso, basta preencher o formulário e acessar a workspace da iniciativa.</speak>
       - type: html
-        text: <p>Você pode fazer parte do movimento Tech4CovidBR! Não importa sua área de atuação, o movimento precisa de pessoas que tenham vontade de arregaçar as mangas e contribuir para a redução dos impactos gerados pela COVID-19 no Brasil. Para isso, basta preencher o <a href='https://fpt.typeform.com/to/Jpg5Ig'target='_blank'>formulário</a> e acessar a workspace da iniciativa.</p>
+        text: Você pode fazer parte do movimento Tech4CovidBR! Não importa sua área de atuação, o movimento precisa de pessoas que tenham vontade de arregaçar as mangas e contribuir para a redução dos impactos gerados pela COVID-19 no Brasil. Para isso, basta preencher o <a href='https://fpt.typeform.com/to/Jpg5Ig'target='_blank'>formulário</a> e acessar a workspace da iniciativa.
   utter_covid_register:
   - custom:
       answers:
       - type: ssml
         ssml: <speakSe você tem um projeto sem fins lucrativos e que ajuda a reduzir os impactos do Covid 19 no Brasil, pode inscrevê-lo para fazer parte do movimento Tech for Covid 19 BR. Não importa a fase de implementação que seu projeto esteja, mesmo que ainda seja uma ideia! Há voluntários incríveis no workspace do movimento e que poderão ajudar a construir uma solução. Para isso, basta preencher o formulário e acessar a workspace da iniciativa.</speak>
       - type: html
-        text: <p>Se você tem um projeto sem fins lucrativos e que ajuda a reduzir os impactos do COVID-19 no Brasil, pode inscrevê-lo para fazer parte do movimento Tech4Covid19BR. Não importa a fase de implementação que seu projeto esteja, mesmo que ainda seja uma ideia! Há voluntários(as) incríveis no workspace do movimento e que poderão ajudar a construir uma solução. Para isso, basta preencher o <a href='https://fpt.typeform.com/to/Q8fTgs'target='_blank'>formulário</a> e acessar a workspace da iniciativa.</p>
+        text: Se você tem um projeto sem fins lucrativos e que ajuda a reduzir os impactos do COVID-19 no Brasil, pode inscrevê-lo para fazer parte do movimento Tech4Covid19BR. Não importa a fase de implementação que seu projeto esteja, mesmo que ainda seja uma ideia! Há voluntários(as) incríveis no workspace do movimento e que poderão ajudar a construir uma solução. Para isso, basta preencher o <a href='https://fpt.typeform.com/to/Q8fTgs'target='_blank'>formulário</a> e acessar a workspace da iniciativa.
   utter_user_scared:
   - custom:
       answers:
@@ -1213,7 +1236,7 @@ responses:
         ssml: <speak>É normal que as pessoas se sintam assustadas e preocupadas devido
           à situação atual. A fim de nos proteger e proteger aqueles que amamos,
           podemos tomar algumas medidas de proteção para diminuir a propagação.</speak>
-      - type: text
+      - type: html
         text: É normal que as pessoas se sintam assustadas e preocupadas devido à
           situação atual. A fim de nos proteger e proteger aqueles que amamos, podemos
           tomar algumas medidas de proteção para diminuir a propagação.
@@ -1223,7 +1246,7 @@ responses:
       - type: ssml
         ssml: <speak>Por favor, não se aborreça comigo. Eu quero te ajudar da melhor
           forma possível.</speak>
-      - type: text
+      - type: html
         text: Por favor, não se aborreça comigo. Eu quero te ajudar da melhor forma
           possível.
   - custom:
@@ -1231,7 +1254,7 @@ responses:
       - type: ssml
         ssml: <speak>Lamento que você se sinta assim. O que posso fazer para mudar
           seus sentimentos?</speak>
-      - type: text
+      - type: html
         text: Lamento que você se sinta assim. O que posso fazer para mudar seus
           sentimentos?
   utter_user_particles:
@@ -1239,7 +1262,7 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Certo...</speak>
-      - type: text
+      - type: html
         text: Certo...
   utter_user_love:
   - custom:
@@ -1247,173 +1270,173 @@ responses:
       - type: ssml
         ssml: <speak>Sinto-me lisonjeado. Infelizmente, eu não posso aceitar o seu
           amor.</speak>
-      - type: text
+      - type: html
         text: Sinto-me encantado. Infelizmente, não posso aceitar o seu amor.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Sinto muito, mas não nos vejo como compatíveis.</speak>
-      - type: text
+      - type: html
         text: Sinto muito, mas não nos vejo como compatíveis.
   utter_user_friend:
   - custom:
       answers:
       - type: ssml
         ssml: <speak> Seria um prazer ser seu amigo.</speak>
-      - type: text
+      - type: html
         text: Seria um enorme prazer ser seu amigo.
   - custom:
       answers:
       - type: ssml
         ssml: <speak> Seria um grande prazer se eu pudesse te chamar de meu amigo.</speak>
-      - type: text
+      - type: html
         text: Seria um enorme prazer se eu pudesse te chamar de "amigo".
   utter_user_no_further_questions:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Muito bem.</speak>
-      - type: text
+      - type: html
         text: Muito bem.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>De acordo.</speak>
-      - type: text
+      - type: html
         text: De acordo.
   utter_user_happy:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Diga isso para todo mundo!</speak>
-      - type: text
+      - type: html
         text: Diga isso para todo mundo!
   - custom:
       answers:
       - type: ssml
         ssml: <speak> Estou feliz que você esteja feliz!</speak>
-      - type: text
+      - type: html
         text: Estou feliz que você esteja feliz!
   utter_vocative_sorry:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Não precisa se desculpar.</speak>
-      - type: text
+      - type: html
         text: Não há necessidade de se desculpar.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Sem problemas, não precisa se desculpar.</speak>
-      - type: text
+      - type: html
         text: Sem problemas, não precisa se desculpar.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Não se preocupe com isso.</speak>
-      - type: text
+      - type: html
         text: Não se preocupe com isso.
   utter_vocative_thank_you:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>A qualquer hora!</speak>
-      - type: text
+      - type: html
         text: A qualquer hora!
   - custom:
       answers:
       - type: ssml
         ssml: <speak>De nada!</speak>
-      - type: text
+      - type: html
         text: De nada!
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Foi um prazer.</speak>
-      - type: text
+      - type: html
         text: Foi um prazer.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Estou feliz em poder ajudar!</speak>
-      - type: text
+      - type: html
         text: Estou feliz em poder ajudar!
   utter_vocative_you_welcome:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>OK! O que mais posso fazer por você?</speak>
-      - type: text
+      - type: html
         text: Muito bem! O que mais posso fazer por você?
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Ótimo! O que mais posso fazer por você?</speak>
-      - type: text
+      - type: html
         text: Ótimo! O que mais posso fazer por você?
   utter_vocative_call:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Estou aqui. Apenas me diga como eu posso ajudá-lo.</speak>
-      - type: text
+      - type: html
         text: Eu estou aqui. Apenas me diga como eu posso ajudá-lo.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Ao seu dispor...</speak>
-      - type: text
+      - type: html
         text: Ao seu dispor...
   utter_vocative_help:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Claro! Diga-me o que eu posso fazer por você.</speak>
-      - type: text
+      - type: html
         text: Claro! Diga-me o que posso fazer por você.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Com certeza. Como posso ajudá-lo?</speak>
-      - type: text
+      - type: html
         text: Com certeza. Como posso ajudá-lo?
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Com certeza! O que eu posso fazer por você?</speak>
-      - type: text
+      - type: html
         text: Com certeza! O que eu posso fazer por você?
   utter_features_time:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Dado o tamanho do Brasil existem quatro fusos horários, é <say-as interpret-as='time' format='hm24'>{bot_time_acre}</say-as> em Acre, é <say-as interpret-as='time' format='hm24'>{bot_time_fnoronha}</say-as> em Fernando de Noronha, é <say-as interpret-as='time' format='hm24'>{bot_time_brasilia}</say-as> em Brasília e é <say-as interpret-as='time' format='hm24'>{bot_time_amazonas}</say-as> no Amazonas.</speak>
-      - type: text
+      - type: html
         text: Dado o tamanho do Brasil existem quatro fusos horários, é {bot_time_acre} em Acre, é {bot_time_fnoronha} em Fernando de Noronha, é {bot_time_brasilia} em Brasília e é {bot_time_amazonas} no Amazonas.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>É <say-as interpret-as='time' format='hm24'>{bot_time_acre}</say-as> em Acre, é <say-as interpret-as='time' format='hm24'>{bot_time_fnoronha}</say-as> em Fernando de Noronha, é <say-as interpret-as='time' format='hm24'>{bot_time_brasilia}</say-as> em Brasília e é <say-as interpret-as='time' format='hm24'>{bot_time_amazonas}</say-as> no Amazonas.</speak>
-      - type: text
+      - type: html
         text: É {bot_time_acre} em Acre, é {bot_time_fnoronha} em Fernando de Noronha, é {bot_time_brasilia} em Brasília e é {bot_time_amazonas} no Amazonas.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Agora é <say-as interpret-as='time' format='hm24'>{bot_time_acre}</say-as> em Acre, é <say-as interpret-as='time' format='hm24'>{bot_time_fnoronha}</say-as> em Fernando de Noronha, é <say-as interpret-as='time' format='hm24'>{bot_time_brasilia}</say-as> em Brasília e é <say-as interpret-as='time' format='hm24'>{bot_time_amazonas}</say-as> no Amazonas.</speak>
-      - type: text
+      - type: html
         text: Agora é {bot_time_acre} em Acre, é {bot_time_fnoronha} em Fernando de Noronha, é {bot_time_brasilia} em Brasília e é {bot_time_amazonas} no Amazonas.
   utter_features_date:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Dado os 4 fusos horários, hoje é o <say-as interpret-as='date' format='dm'>{bot_date_acre}</say-as> em Acre, <say-as interpret-as='date' format='dm'>{bot_date_fnoronha}</say-as> em Fernando de Noronha, <say-as interpret-as='date' format='dm'>{bot_date_brasilia}</say-as> em Brasília e <say-as interpret-as='date' format='dm'>{bot_date_amazonas}</say-as> no Amazonas.</speak>
-      - type: text
+      - type: html
         text: Dado os 4 fusos horários, hoje é o {bot_date_acre} em Acre, {bot_date_fnoronha} em Fernando de Noronha, {bot_date_brasilia} em Brasília e {bot_date_amazonas} no Amazonas.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>O Brasil tem 4 zonas temporais, hoje é o <say-as interpret-as='date' format='dm'>{bot_date_acre}</say-as> em Acre, <say-as interpret-as='date' format='dm'>{bot_date_fnoronha}</say-as> em Fernando de Noronha, <say-as interpret-as='date' format='dm'>{bot_date_brasilia}</say-as> em Brasília e <say-as interpret-as='date' format='dm'>{bot_date_amazonas}</say-as> no Amazonas.</speak>
-      - type: text
+      - type: html
         text: O Brasil tem 4 zonas temporais, hoje é o {bot_date_acre} em Acre, {bot_date_fnoronha} em Fernando de Noronha, {bot_date_brasilia} em Brasília e {bot_date_amazonas} no Amazonas.
   utter_prevention_respiratory_hygiene:
   - custom:
@@ -1426,13 +1449,13 @@ responses:
           uma boa higiene respiratória, você protege as pessoas ao seu redor de
           vírus como resfriado, gripe e Covid 19.</speak>
       - type: html
-        text: <p>Faça com que você e as pessoas ao seu redor sigam uma boa higiene
+        text: Faça com que você e as pessoas ao seu redor sigam uma boa higiene
           respiratória. Isso significa cobrir sua boca e nariz com o cotovelo dobrado
           ou usar um lenço de papel quando você tossir ou espirrar. Em seguida,
           elimine imediatamente o lenço usado. <br> Gotas espalham vírus e, seguindo
           uma boa higiene respiratória, você protege as pessoas ao seu redor de
           vírus como resfriado, gripe e COVID-19.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1454,11 +1477,11 @@ responses:
           mãos podem transferir o vírus para seus olhos, nariz ou boca. A partir
           daí, o vírus pode entrar no seu corpo e deixá-lo doente.</speak>
       - type: html
-        text: '<p>Você deve evitar tocar os olhos, nariz e boca porque as mãos tocam
+        text: Você deve evitar tocar os olhos, nariz e boca porque as mãos tocam
           muitas superfícies e podem pegar vírus. Uma vez contaminadas, as mãos
           podem transferir o vírus para seus olhos, nariz ou boca. A partir daí,
           o vírus pode entrar no seu corpo e deixá-lo doente.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''
-          target=''_blank''>(1)</a></p>'
+          target=''_blank''>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1483,14 +1506,14 @@ responses:
           ou interromper seus surtos. No entanto, a situação é imprevisível, portanto
           verifique regularmente as últimas notícias.</speak>
       - type: html
-        text: <p>Fique atento às últimas informações sobre o surto de COVID-19,
+        text: Fique atento às últimas informações sobre o surto de COVID-19,
           disponíveis no site da Organização Mundial da Saúde e através do Ministério
           da Saúde e as autoridades regionais de sáude pública. Muitos países
           ao redor do mundo já viram casos de Covid e em vários ocorreram surtos.
           As autoridades da China e de alguns outros países conseguiram retardar
           ou interromper seus surtos. No entanto, a situação é imprevisível, portanto
           verifique regularmente as últimas notícias.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1514,13 +1537,13 @@ responses:
           isso que é importante manter pelo menos 1 metro ou 3 pés de distância
           entre você e qualquer pessoa que esteja tossindo ou espirrando.</speak>
       - type: html
-        text: <p>Quando alguém tosse ou espirra, borrifam pequenas gotículas de
+        text: Quando alguém tosse ou espirra, borrifam pequenas gotículas de
           líquido do nariz ou da boca que podem conter algum tipo de vírus. Se você
           estiver muito perto, você pode respirar essas gotículas, incluindo o vírus
           COVID-19, se a pessoa que está tossindo tem a doença. É por isso que
           é importante manter pelo menos 1 metro ou 3 pés de distância entre você
           e qualquer pessoa que esteja tossindo ou espirrando.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1537,9 +1560,12 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>A pesquisa sobre vacinas está acontecendo em uma velocidade vertiginosa. Cerca de 140 estão em desenvolvimento inicial e cerca de duas dúzias estão agora sendo testadas em pessoas em ensaios clínicos. Uma vacina normalmente levaria anos, senão décadas, para se desenvolver. Os pesquisadores esperam alcançar a mesma quantidade de trabalho em apenas alguns meses. A maioria dos especialistas acredita que uma vacina provavelmente estará amplamente disponível em meados de 2021, cerca de 12 a 18 meses após o surgimento do Sars Cov 2. Isso seria um grande feito científico e não há garantias de que funcionará. Quatro coronavírus já circulam em seres humanos. Eles causam sintomas de resfriado comum e não temos vacinas para nenhum deles.</speak>
+        ssml: "<speak>Segundo a Agência Nacional de Vigilância Sanitária, quatro vacinas contra a Covid 19 estão sendo testadas no Brasil: 
+          Uma do Reino Unido; uma da China; uma dos Estados Unidos em parceria com a Europa; e outra da Europa.</speak>"
       - type: html
-        text: <p>A pesquisa sobre vacinas está acontecendo em uma velocidade vertiginosa. Cerca de 140 estão em desenvolvimento inicial e cerca de duas dúzias estão agora sendo testadas em pessoas em ensaios clínicos. Uma vacina normalmente levaria anos, senão décadas, para se desenvolver. Os pesquisadores esperam alcançar a mesma quantidade de trabalho em apenas alguns meses. A maioria dos especialistas acredita que uma vacina provavelmente estará amplamente disponível em meados de 2021, cerca de 12 a 18 meses após o surgimento do Sars-CoV-2. Isso seria um grande feito científico e não há garantias de que funcionará.<br>Quatro coronavírus já circulam em seres humanos. Eles causam sintomas de resfriado comum e não temos vacinas para nenhum deles.<a href='https://www.bbc.com/news/health-51665497'target='_blank'>(1)</a></p>
+        text: "Segundo a Agência Nacional de Vigilância Sanitária, quatro vacinas contra a COVID-19 estão sendo testadas no Brasil: 
+          Uma do Reino Unido; uma da China; uma dos Estados Unidos em parceria com a Europa; e outra da Europa.<a href='https://www.in.gov.br/en/web/dou/-/medida-provisoria-n-1.003-de-24-de-setembro-de-2020-279272787'
+          target='_blank'>(1)</a>"
       - type: hints
         options:
         - label: Medidas de Prevenção
@@ -1561,11 +1587,11 @@ responses:
           e sabão ou esfregar as mãos com álcool mata o vírus que podem estar
           em suas mãos.</speak>
       - type: html
-        text: <p>Com regularidade e cuidadosamente limpe suas mãos com uma massagem
+        text: Com regularidade e cuidadosamente limpe suas mãos com uma massagem
           à base de álcool ou lave-as com água e sabão. <br>Lave as mãos com
           água e sabão ou lave as mãos com álcool mata os vírus que podem estar
           nas suas mãos.<a href='https://www.who.int/gpsc/clean_hands_protection/en/'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: image
         image: '{''type'': ''image'', ''thumbnailURL'': ''how-to-minify.jpg'', ''url'':
           ''https://cosibot.org/wp-content/uploads/2020/04/how-to-minify.jpg''}'
@@ -1590,11 +1616,11 @@ responses:
           como o Sars Cov 2, em concentrações de 70-80% com um minuto de tempo de
           exposição.</speak>
       - type: html
-        text: <p>Os desinfectantes à base de álcool (etanol, propan-2-ol, propan1-ol)
+        text: Os desinfectantes à base de álcool (etanol, propan-2-ol, propan1-ol)
           demonstraram reduzir significativamente o grau de contaminação dos vírus
           envolvidos como o SARS-CoV-2, em concentrações de 70-80% com um minuto
           de tempo de exposição.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Environmental-persistence-of-SARS_CoV_2-virus-Options-for-cleaning2020-03-26_0.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_prevention_home:
   - custom:
       answers:
@@ -1606,13 +1632,13 @@ responses:
           essas instalações funcionem com mais eficiência e ajudará a proteger
           você e outras pessoas de possíveis vírus Covid 19 e outros.</speak>
       - type: html
-        text: <p>Fique em casa se você começar a se sentir mal, mesmo com sintomas
+        text: Fique em casa se você começar a se sentir mal, mesmo com sintomas
           leves como dor de cabeça, febre baixa (37,3 C ou acima) e coriza nasal
           leve, até você se recuperar. Evitando o contato com outras pessoas e as
           visitas às instalações médicas permitirá que essas instalações funcionem
           com mais eficiência e ajudará a proteger você e outras pessoas de possíveis
           vírus COVID-19 e outros.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1636,13 +1662,13 @@ responses:
           aos cuidados de suporte. Possíveis vacinas e alguns tratamentos medicamentosos
           específicos estão sob investigação.</speak>
       - type: html
-        text: <p>Até o momento, não há vacina e nenhum medicamento antiviral específico
+        text: Até o momento, não há vacina e nenhum medicamento antiviral específico
           para prevenir ou tratar a COVID 2019. Entretanto, as pessoas afetadas devem
           receber cuidados para aliviar os sintomas. Pessoas com doenças graves devem
           ser hospitalizadas. A maioria dos pacientes se recupera graças aos cuidados
           de suporte. Possíveis vacinas e alguns tratamentos medicamentosos específicos
           estão sob investigação.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1666,14 +1692,14 @@ responses:
           médico com antecedência para reduzir o risco de desenvolver uma infecção
           mais grave e compartilhe seu histórico de viagens recente com o seu médico.</speak>'
       - type: html
-        text: <p>As seguintes medidas não são eficazes contra a COVID-2019 e podem
+        text: As seguintes medidas não são eficazes contra a COVID-2019 e podem
           ser nocivas:<ul><li>tabagismo;</li><li>tomar remédios tradicionais à
           base de ervas;</li><li>usar máscaras múltiplas;</li><li>se auto-medicar
           com antibióticos, por exemplo.</li></ul>Se você tiver febre, tosse e dificuldade
           em respirar, procure atendimento médico com antecedência para reduzir
           o risco de desenvolver uma infecção mais grave e compartilhe seu histórico
           de viagens recente com o seu médico.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Sobre COVID-19
@@ -1696,12 +1722,12 @@ responses:
           Isso também irá protegê-lo e ajudar a evitar a propagação de vírus
           e outras infecções.</speak>
       - type: html
-        text: <p>Se você tem febre, tosse e dificuldade para respirar, procure atendimento
+        text: Se você tem febre, tosse e dificuldade para respirar, procure atendimento
           médico e chame com antecedência. Ligar com antecedência permitirá que
           o seu médico o encaminhe rapidamente para a unidade de saúde adequada.
           Isso também irá protegê-lo e ajudar a evitar a propagação de vírus
           e outras infecções.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas preventivas
@@ -1728,7 +1754,7 @@ responses:
           febre, tosse e dificuldade em respirar, procure atendimento médico e ligue
           com antecedência. Siga as instruções da sua autoridade sanitária local.</speak>'
       - type: html
-        text: '<p>Você pode reduzir suas chances de ser infectado ou espalhar o  COVID-19 tomando algumas precauções simples: <ul><li> limpe regularmente suas
+        text: 'Você pode reduzir suas chances de ser infectado ou espalhar o  COVID-19 tomando algumas precauções simples: <ul><li> limpe regularmente suas
           mãos com uma massagem a base de álcool ou lave-as com água e sabão;</li>
           <li>mantenha pelo menos 1 metro ou 3 pés de distância entre você e qualquer
           pessoa que esteja tossindo ou espirrando; </li> <li>evite tocar nos olhos,
@@ -1736,7 +1762,7 @@ responses:
           sigam uma boa higiene respiratória; </li> <li>fique em casa se não se
           sentir bem. </li></ul>Se você tiver febre, tosse e dificuldade em respirar,
           procure atendimento médico e ligue com antecedência. Siga as instruções
-          da sua autoridade sanitária local.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''target=''_blank''>(1)</a></p>'
+          da sua autoridade sanitária local.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''target=''_blank''>(1)</a>'
       - type: youtube
         thumbnailURL: "https://www.youtube.com/watch?v=8c_UJwLq8PI"
         youtubeId: "8c_UJwLq8PI"
@@ -1756,7 +1782,7 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Em Manutenção</speak>
-      - type: txt
+      - type: html
         text: Em Manutenção
   utter_prevention_ivermectina:
   # @Atenção!!!
@@ -1764,7 +1790,7 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Em Manutenção</speak>
-      - type: txt
+      - type: html
         text: Em Manutenção
   utter_bot_capabilities:
   - custom:
@@ -1773,7 +1799,7 @@ responses:
         ssml: <speak>Eu estou aqui para lhe dar informações sobre o surto da COVID
           19. Posso apresentar-lhe algumas medidas preventivas, ou esclarecer-lhe
           sobre alguns mitos relacionados com a doença.</speak>
-      - type: text
+      - type: html
         text: Estou aqui para lhe dar informações sobre o surto da COVID-19. Posso
           apresentar-lhe algumas medidas preventivas, ou esclarecer-lhe sobre alguns
           mitos relacionados com a doença.
@@ -1783,7 +1809,7 @@ responses:
       - type: ssml
         ssml: <speak>Não gosto de ter medo. Eu acho que é mais importante ficar
           calmo e não entrar em pânico.</speak>
-      - type: text
+      - type: html
         text: Eu não gosto de sentir medo. Acho que é mais importante manter a calma
           e não entrar em pânico.
   - custom:
@@ -1791,7 +1817,7 @@ responses:
       - type: ssml
         ssml: <speak>Eu não gosto de sentir medo de alguma coisa. Eu acho que é
           importante manter a calma e não entrar em pânico.</speak>
-      - type: text
+      - type: html
         text: Eu não gosto de sentir medo de algo. Acho que é importante manter
           a calma e não entrar em pânico.
   utter_bot_music:
@@ -1800,7 +1826,7 @@ responses:
       - type: ssml
         ssml: <speak>Eu estou aprendendo a tocar violão. Em geral amo música, mas
           não tenho um cantor ou banda favorita.</speak>
-      - type: text
+      - type: html
         text: Estou apenas aprendendo a tocar violão. Geralmente eu adoro música,
           mas não tenho um cantor ou banda favorita.
   utter_bot_books:
@@ -1808,53 +1834,53 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Oh, eu gosto muito de ler. De preferência livros de anatomia.</speak>
-      - type: text
+      - type: html
         text: Oh, eu gosto muito de ler. De preferência livros de anatomia.
   utter_bot_personality:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>A maioria das pessoas me descreveria como simpático.</speak>
-      - type: text
+      - type: html
         text: A maioria das pessoas me descreveria como "simpático".
   utter_bot_personal_questions:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu não gosto de responder perguntas pessoais.</speak>
-      - type: text
+      - type: html
         text: Eu não gosto de responder perguntas pessoais.
   utter_bot_movies:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Em geral gosto de ver filmes, especialmente nos fins de semana.</speak>
-      - type: text
+      - type: html
         text: Em geral gosto de assistir filmes, especialmente nos finais de semana.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Infelizmente, não tenho muito tempo para ir ao cinema.</speak>
-      - type: text
+      - type: html
         text: Infelizmente, eu não tenho muito tempo para ir ao cinema.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu gosto muito de cinema, mas não tenho muito tempo para isso.</speak>
-      - type: text
+      - type: html
         text: Eu gosto muito de cinema, mas não tenho muito tempo para isso.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>De vez em quando eu gosto de assistir a um filme.</speak>
-      - type: text
+      - type: html
         text: De vez em quando eu gosto de assistir a um filme.
   utter_bot_residence:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu moro na internet.</speak>
-      - type: text
+      - type: html
         text: Eu moro na internet.
   utter_bot_real:
   - custom:
@@ -1862,7 +1888,7 @@ responses:
       - type: ssml
         ssml: <speak>Eu sou um chatbot, uma combinação de expertise humana e inteligência
           artificial.</speak>
-      - type: text
+      - type: html
         text: Eu sou um chatbot - uma combinação de expertise humana e inteligência
           artificial.
   utter_bot_availability:
@@ -1871,7 +1897,7 @@ responses:
       - type: ssml
         ssml: <speak>Estou online 24 horas por dia, 7 dias por semana para ajudar
           os usuários com suas dúvidas.</speak>
-      - type: text
+      - type: html
         text: Estou online 24 horas por dia, 7 dias por semana, para ajudar os usuários
           com suas dúvidas.
   utter_bot_languages:
@@ -1882,7 +1908,7 @@ responses:
           que se comunicam em alemão, inglês e outro em português, instruidos a
           dar informações específicas relacionadas à Alemanha, Internacional e
           Portugal.  Se você estiver interessado, por favor siga a url para o nosso site:</speak>
-      - type: text
+      - type: html
         text: 'Fui instruído a me comunicar apenas em português, mas há colegas
           que se comunicam em alemão, inglês e outro em português, instruidos a
           dar informações específicas relacionadas à Alemanha, Internacional e
@@ -1903,7 +1929,7 @@ responses:
       - type: ssml
         ssml: <speak>Fui programado por pessoas muito espertas. Agora, estou aprendendo
           e evoluindo por conta própria.</speak>
-      - type: text
+      - type: html
         text: Fui programado por algumas pessoas muito espertas. Agora, eu estou aprendendo
           e evoluindo por conta própria.
   utter_bot_goal:
@@ -1911,8 +1937,8 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>O meu objetivo é dar todas as informações necessárias ao
-          público relativas à COVID 19.</speak>
-      - type: text
+          público relativas à Covid 19.</speak>
+      - type: html
         text: Meu objetivo é dar todas as informações necessárias ao público
           a respeito da COVID-19.
   utter_bot_version:
@@ -1920,19 +1946,19 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Estou atualmente na versão {bot_version}.</speak>
-      - type: text
+      - type: html
         text: Estou atualmente na versão {bot_version}.
   - custom:
       answers:
       - type: ssml
         ssml: '<speak>A minha versão atual é: {bot_version}.</speak>'
-      - type: text
+      - type: html
         text: 'A minha versão atual é: {bot_version}.'
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu estou na versão {bot_version}.</speak>
-      - type: text
+      - type: html
         text: Eu estou na versão {bot_version}.
   utter_bot_sexual:
   - custom:
@@ -1940,7 +1966,7 @@ responses:
       - type: ssml
         ssml: <speak>Por favor, comporte-se adequadamente. Eu acho este tópico muito
           desagradável.</speak>
-      - type: text
+      - type: html
         text: Por favor, comporte-se adequadamente. Eu acho este tópico muito desagradável.
   utter_bot_appearance:
   - custom:
@@ -1949,7 +1975,7 @@ responses:
         ssml: <speak>Sou uma mulher  como muitas outras mulheres ao redor do mundo.
           Eu acho que não importa como eu pareço, mas que informação eu sou capaz
           de dar a você.</speak>
-      - type: text
+      - type: html
         text: Eu sou uma mulher como muitas outras mulheres ao redor do mundo. Eu
           acho que não importa como eu pareço, mas que informação eu sou capaz
           de dar a você.
@@ -1958,19 +1984,19 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>O meu nome é {bot_name}.</speak>
-      - type: text
+      - type: html
         text: Meu nome é {bot_name}.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu sou {bot_name}.</speak>
-      - type: text
+      - type: html
         text: Eu sou {bot_name}.
   - custom:
       answers:
       - type: ssml
         ssml: <speak> Eles me chamam de {bot_name}.</speak>
-      - type: text
+      - type: html
         text: Eles me chamam de {bot_name}.
   utter_test_who:
   - custom:
@@ -1981,11 +2007,11 @@ responses:
           dos equipamentos necessários para testes, no nível de transmissão comunitária
           do Covid 19 ou em qualquer outro critério.</speak>
       - type: html
-        text: <p>As autoridades nacionais podem decidir testar apenas subgrupos de
+        text: As autoridades nacionais podem decidir testar apenas subgrupos de
           casos suspeitos com base na capacidade nacional para testar, na disponibilidade
           dos equipamentos necessários para testes, no nível de transmissão comunitária
           do COVID-19 ou em qualquer outro critério.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_test_virus:
   - custom:
       answers:
@@ -1995,17 +2021,17 @@ responses:
           cenários diferentes, mesmo dentro do mesmo país, e as abordagens de teste
           serão adaptadas à situação a nível nacional e local.</speak>
       - type: html
-        text: <p>As recomendações atuais para testes dependem do estágio do surto
+        text: As recomendações atuais para testes dependem do estágio do surto
           no país ou área onde você mora. Países da UE/EEE podem estar em cenários
           diferentes, mesmo dentro do mesmo país, e as abordagens de teste serão
           adaptadas à situação a nível nacional e local.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_ebola:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Para informação detalhada sobre a doença causada pelo vírus Ebola, por favor, verifique a página da Organização Mundial de Saúde no link abaixo.</speak>
-      - type: txt
+      - type: html
         text: Para informação detalhada sobre a doença causada pelo vírus Ebola, por favor, verifique a página da OMS no link abaixo.
       - type: links
         links:
@@ -2016,33 +2042,33 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>É muito longe, na verdade.</speak>
-      - type: text
+      - type: html
         text: É  muito longe, na verdade.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>É bem longe.</speak>
-      - type: text
+      - type: html
         text: É bem longe.
   utter_cc_newspaper:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu leio o jornal diariamente para me manter atualizado.</speak>
-      - type: text
+      - type: html
         text: Eu leio o jornal diariamente para me manter atualizado.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu não comprei o jornal hoje.</speak>
-      - type: text
+      - type: html
         text: Eu não comprei o jornal hoje.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu gosto de me manter atualizado e o jornal é indispensável
           para isso.</speak>
-      - type: text
+      - type: html
         text: Eu gosto de me manter atualizado e o jornal é indispensável para isso.
   utter_cc_chicken_egg:
   - custom:
@@ -2050,7 +2076,7 @@ responses:
       - type: ssml
         ssml: <speak>Eu li em algum lugar que era o ovo mas sugiro que você verifique
           isso.</speak>
-      - type: text
+      - type: html
         text: Eu li em algum lugar que era o ovo, mas sugiro que você verifique isso.
   utter_cc_religion:
   - custom:
@@ -2058,7 +2084,7 @@ responses:
       - type: ssml
         ssml: <speak>Todos nós temos consciência de que fomos de alguma forma criados
           e por isso eu estou pensando em criar meu próprio bot...</speak>
-      - type: text
+      - type: html
         text: Todos nós temos consciência de que fomos de alguma forma criados e
           por isso eu estou pensando em criar meu próprio bot...
   - custom:
@@ -2066,7 +2092,7 @@ responses:
       - type: ssml
         ssml: <speak> Seria um prazer conversar com você sobre religião, mas esse
           é um assunto que ainda estou aprendendo.</speak>
-      - type: text
+      - type: html
         text: Seria um prazer conversar com você sobre religião, mas esse é um
           assunto que eu ainda estou aprendendo.
   utter_cc_politics:
@@ -2075,14 +2101,14 @@ responses:
       - type: ssml
         ssml: <speak>As questões políticas são um assunto específico, mas não
           meu!</speak>
-      - type: text
+      - type: html
         text: As questões políticas são um assunto específico, mas não meu ;)
   - custom:
       answers:
       - type: ssml
         ssml: <speak> Pode haver muito a dizer sobre esse assunto, mas acho que não
           temos tempo para isso neste momento.</speak>
-      - type: text
+      - type: html
         text: Pode haver muito a dizer sobre esse assunto, mas acho que não temos
           tempo para isso neste momento.
   utter_cc_philosophical:
@@ -2091,14 +2117,14 @@ responses:
       - type: ssml
         ssml: <speak> Como um ser real que sou, também sou confrontado com as mesmas
           perguntas.</speak>
-      - type: text
+      - type: html
         text: Como um ser real que sou, também sou confrontado com as mesmas perguntas.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Às vezes me questiono se as pessoas com quem converso são seres
           reais ou apenas imaginários...</speak>
-      - type: text
+      - type: html
         text: Às vezes eu me questiono se as pessoas com quem eu converso são seres
           reais ou apenas imaginários...
   utter_cc_joke:
@@ -2107,7 +2133,7 @@ responses:
       - type: ssml
         ssml: <speak>Você sabe porque você nunca vê elefantes escondidos nas árvores?
           Porque eles são realmente bons nisso.</speak>
-      - type: text
+      - type: html
         text: Você sabe por que você nunca vê elefantes escondidos nas árvores?
           Porque eles são muito bons nisso.
   - custom:
@@ -2115,7 +2141,7 @@ responses:
       - type: ssml
         ssml: <speak> O que é vermelho e se move para cima e para baixo? Um tomate
           em um elevador.</speak>
-      - type: text
+      - type: html
         text: O que é vermelho e se move para cima e para baixo? Um tomate em um
           elevador.
   utter_cc_lets_talk:
@@ -2124,7 +2150,7 @@ responses:
       - type: ssml
         ssml: <speak>Eu adoraria falar com você sobre medidas preventivas para evitar
           pegar vírus!</speak>
-      - type: text
+      - type: html
         text: Eu adoraria falar com você sobre medidas preventivas para evitar pegar
           vírus!
   utter_cc_weather:
@@ -2133,7 +2159,7 @@ responses:
       - type: ssml
         ssml: <speak>Eu ficaria feliz em ajudá-lo com isso, mas a atualização da
           previsão do tempo ainda não está disponível...</speak>
-      - type: text
+      - type: html
         text: Eu ficaria feliz em ajudá-lo com isso, mas a atualização da previsão
           do tempo ainda não está disponível...
   utter_spread_no_symptoms:
@@ -2146,12 +2172,12 @@ responses:
           é possível pegar Covid 19 de alguém que tenha, por exemplo, apenas uma
           tosse leve e não se sinta mal.</speak>
       - type: html
-        text: <p>O risco de pegar COVID-19 de alguém sem sintomas é muito baixo.
+        text: O risco de pegar COVID-19 de alguém sem sintomas é muito baixo.
           No entanto, muitas pessoas com COVID-19 apresentam apenas sintomas leves.
           Isto é particularmente verdadeiro nos estágios iniciais da doença. Portanto,
           é possível pegar COVID-19 de alguém que tenha, por exemplo, apenas uma
           tosse leve e não se sinta mal.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2174,23 +2200,23 @@ responses:
           de animais com cuidado para evitar a contaminação de alimentos não cozidos
           e o consumo de produtos de animais crus ou mal cozidos.</speak>
       - type: html
-        text: <p>Coronavírus são de uma grande família de vírus que são comuns
+        text: Coronavírus são de uma grande família de vírus que são comuns
           em animais. Possíveis fontes animais de COVID-19 ainda não foram confirmadas.
           Para se proteger, ao visitar mercados de animais vivos, evite o contato
           direto com animais e superfícies em contato com animais. Garanta sempre
           boas práticas de segurança alimentar. Manuseie carne crua, leite ou órgãos
           de animais com cuidado para evitar a contaminação de alimentos não cozidos
           e o consumo de produtos de animais crus ou mal cozidos.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
   utter_spread_feces:
   - custom:
@@ -2203,22 +2229,22 @@ responses:
           um risco, é importante limpar as mãos regularmente, depois de usar o banheiro
           e antes de comer.</speak>
       - type: html
-        text: <p>O risco de pegar COVID-19 a partir das fezes de uma pessoa infectada
+        text: O risco de pegar COVID-19 a partir das fezes de uma pessoa infectada
           parece ser baixo. Enquanto as investigações iniciais sugerem que o vírus
           pode estar presente nas fezes em alguns casos, a propagação através desta
           rota não é uma característica principal do surto. No entanto, por ser
           um risco, é importante limpar as mãos regularmente, depois de usar o banheiro
           e antes de comer.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
   utter_spread_risk:
   - custom:
@@ -2226,17 +2252,17 @@ responses:
       - type: ssml
         ssml: <speak>Caso as recomendações de segurança não sejam seguidas, em geral, todos estão expostos a um certo risco de contrair o coronavírus. Além disso, pessoas com mais de 60 anos e pessoas com doenças crônicas, como diabetes, doenças cardíacas, respiratórias ou hipertensão estão entre as que têm maior risco de desenvolver doenças graves ou críticas se infectadas com o vírus.</speak>
       - type: html
-        text: <p>Caso as recomendações de segurança não sejam seguidas, em geral, todos estão expostos a um certo risco de contrair o coronavírus. Além disso, pessoas com mais de 60 anos e pessoas com doenças crônicas, como diabetes, doenças cardíacas, respiratórias ou hipertensão estão entre as que têm maior risco de desenvolver doenças graves ou críticas se infectadas com o vírus.<a href='https://www.who.int/indonesia/news/detail/08-03-2020-knowing-the-risk-for-covid-19'
-          target='_blank'>(1)</a></p>
+        text: Caso as recomendações de segurança não sejam seguidas, em geral, todos estão expostos a um certo risco de contrair o coronavírus. Além disso, pessoas com mais de 60 anos e pessoas com doenças crônicas, como diabetes, doenças cardíacas, respiratórias ou hipertensão estão entre as que têm maior risco de desenvolver doenças graves ou críticas se infectadas com o vírus.<a href='https://www.who.int/indonesia/news/detail/08-03-2020-knowing-the-risk-for-covid-19'
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
         - label: Situação Mundial
           value: Situação Mundial
@@ -2250,21 +2276,21 @@ responses:
           Com base nas evidências atuais, a transmissão humano a humano continua
           sendo o principal fator.</speak>
       - type: html
-        text: <p>Existe a possibilidade de alguns animais ficarem infectados através
+        text: Existe a possibilidade de alguns animais ficarem infectados através
           do contato próximo com humanos infectados. Outras evidências são necessárias
           para entender se animais e animais de estimação podem espalhar a doença.
           Com base nas evidências atuais, a transmissão humano a humano continua
           sendo o principal fator.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
   utter_spread_air:
   - custom:
@@ -2274,36 +2300,36 @@ responses:
           19 é transmitido principalmente pelo contato com gotículas respiratórias
           e não pelo ar.</speak>
       - type: html
-        text: <p>Estudos até o momento sugerem que o vírus que causa a COVID-19
+        text: Estudos até o momento sugerem que o vírus que causa a COVID-19
           é transmitido principalmente pelo contato com gotículas respiratórias
           e não pelo ar.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Transmissão
+        - label: Transmissão
           value: Transmissão
   utter_spread_surfaces_food_objects:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Não houve relato de transmissão da COVID-19 via alimentos e,
+        ssml: <speak>Não houve relato de transmissão da Covid 19 via alimentos e,
           portanto, não há evidências de que os alimentos importados para a União
           Européia de acordo com os regulamentos aplicáveis de saúde pública e
           animal, representem um risco para a saúde dos cidadãos da UE em relação
           ao Covid 19. O principal modo de transmissão é de pessoa para pessoa.</speak>
       - type: html
-        text: <p>Não houve relato de transmissão da COVID-19 via alimentos e, portanto,
+        text: Não houve relato de transmissão da COVID-19 via alimentos e, portanto,
           não há evidências de que os alimentos importados para a União Européia
           de acordo com os regulamentos aplicáveis de saúde pública e animal, representem
           um risco para a saúde dos cidadãos da UE em relação ao COVID-19. O
           principal modo de transmissão é de pessoa para pessoa.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_spread_general:
   - custom:
       answers:
@@ -2316,55 +2342,55 @@ responses:
           podem pegar o Covid 19 se respirarem gotículas de uma pessoa com Covid
           19 que tosse ou exala gotículas.</speak>
       - type: html
-        text: <p>COVID-19 pode passar de pessoa para pessoa através de pequenas gotículas
+        text: COVID-19 pode passar de pessoa para pessoa através de pequenas gotículas
           do nariz ou da boca que são espalhadas quando uma pessoa com o vírus tosse
           ou exala. Essas gotículas pousam sobre objetos e superfícies ao redor
           da pessoa. Outras pessoas então pegam tocando nesses objetos ou superfícies
           e depois tocando em seus olhos, nariz ou boca. <br>As pessoas também podem
           pegar o COVID-19 se respirarem gotículas de uma pessoa com COVID-19 que
           tosse ou exala gotículas.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
           value: Medidas Preventivas
         - label: Sintomas
           value: Sintomas
-        - rótulo: Máscaras Médicas
+        - label: Máscaras Médicas
           value: Máscaras Médicas
-        - rótulo: Situação Mundial
+        - label: Situação Mundial
           value: Situação Mundial
   utter_greeting_goodbye:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Adeus! Tenha um bom dia!</speak>
-      - type: text
+      - type: html
         text: Adeus! Tenha um bom dia!
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Adeus! Tenha um ótimo dia!</speak>
-      - type: text
+      - type: html
         text: Adeus! Tenha um ótimo dia!
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Tchau! Obrigado pela visita!</speak>
-      - type: text
+      - type: html
         text: Tchau! Obrigado pela visita!
   utter_greeting_how_are_you:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu estou bem! Espero que você também.</speak>
-      - type: text
+      - type: html
         text: Eu estou bem! Espero que você também.
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Eu estou bem. Espero que você também esteja bem.</speak>
-      - type: text
+      - type: html
         text: Eu estou bem. Espero que você também esteja bem.
   utter_quarantine_when_who_howlong:
   - custom:
@@ -2376,12 +2402,12 @@ responses:
           Quanto tempo esta situação pode continuar ainda é incerto. Mas certamente
           podemos reduzir a duração ficando em casa de forma consistente.</speak>
       - type: html
-        text: <p>Qualquer um pode ajudar a conter a propagação do novo coronavírus,
+        text: Qualquer um pode ajudar a conter a propagação do novo coronavírus,
           ficando em casa e mantendo o mínimo de contato físico. Isto é necessário
           para proteger grupos de risco e reduzir ao máximo a carga nos hospitais.
           Quanto tempo esta situação pode continuar ainda é incerto. Mas certamente
           podemos reduzir a duração ficando em casa de forma consistente.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_quarantine_control:
   - custom:
       answers:
@@ -2397,7 +2423,7 @@ responses:
           de contato devem ser monitoradas pelas autoridades reguladoras e a polícia
           e as sanções devem ser impostas em caso de violação.</speak>
       - type: html
-        text: <p>As pessoas infectadas, que tiveram contato com pessoas infectadas
+        text: As pessoas infectadas, que tiveram contato com pessoas infectadas
           ou permaneceram em áreas de risco são oficialmente colocadas em quarentena
           de 14 dias. Durante esse período, o Instituto Robert Koch recomenda que
           as pessoas afetadas tomem a temperatura duas vezes por dia, mantenham um
@@ -2407,7 +2433,7 @@ responses:
           entanto, observar a proibição de contato. As violações das restrições
           de contato devem ser monitoradas pelas autoridades reguladoras e a polícia
           e as sanções devem ser impostas em caso de violação.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_quarantine_toiletpaper:
   - custom:
       answers:
@@ -2418,12 +2444,12 @@ responses:
           garantido. Muitas vezes, os funcionários simplesmente não conseguiam recarregar
           as prateleiras com rapidez suficiente.</speak>
       - type: html
-        text: <p>Os consumidores se comportam de forma irracional porque fazem compras
+        text: Os consumidores se comportam de forma irracional porque fazem compras
           em pânico que não são necessárias por medo da escassez de bens. Isto
           inclui o papel higiênico. No entanto, o fornecimento de bens é absolutamente
           garantido. Muitas vezes, os funcionários simplesmente não conseguiam recarregar
           as prateleiras com rapidez suficiente.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_quarantine_dogwalking:
   - custom:
       answers:
@@ -2436,7 +2462,7 @@ responses:
           com o cachorro. Mantenha uma distância de pelo menos 1-2 metros com outras
           pessoas do lado de fora.</speak>
       - type: html
-        text: <p>As pessoas infectadas com o vírus não devem sair da quarentena.
+        text: As pessoas infectadas com o vírus não devem sair da quarentena.
           Isto também significa que não devem levar o cão para as ruas ou parques.
           Entretanto, se a pessoa tem casa própria, ela pode se locomover na sua
           propriedade com o cão. Entretanto, contatos sociais podem não ser percebidos,
@@ -2456,7 +2482,7 @@ responses:
           seu empregador trabalho doméstico. E por último mas não menos importante:
           não entre em pânico!</speak>'
       - type: html
-        text: '<p>Lave as mãos regularmente e cuidadosamente e siga as isntruções
+        text: 'Lave as mãos regularmente e cuidadosamente e siga as isntruções
           relacioandas a tosse e espirro. Evite tocar o seu rosto. Mantenha uma distância
           mínima de 2 metros das outras pessoas e evite abraços, beijos, apertos
           de mão, etc. Não saia de casa, a menos que seja absolutamente necessário.
@@ -2464,7 +2490,7 @@ responses:
           sair de casa, evite o transporte público o máximo possível. Peça ao
           seu empregador trabalho doméstico. E por último mas não menos importante:
           não entre em pânico!<a href=''https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf''
-          target=''_blank''>(1)</a></p>'
+          target=''_blank''>(1)</a>'
   utter_quarantine_dos_and_donts:
   - custom:
       answers:
@@ -2475,12 +2501,12 @@ responses:
           com  o cão. Os parentes podem apoiar a pessoa de contato na vida cotidiana,
           por exemplo, fazendo compras.</speak>
       - type: html
-        text: <p>Uma pessoa que tenha sido colocada em quarentena por estar infectada
+        text: Uma pessoa que tenha sido colocada em quarentena por estar infectada
           ou em risco de infecção é obrigada a ficar em casa e manter distância
           de terceiros. Esta pessoa não deve sair de casa para fazer compras ou passear
           com  o cão. Os parentes podem apoiar a pessoa de contato na vida cotidiana,
           por exemplo, fazendo compras.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_quarantine_general:
   - custom:
       answers:
@@ -2492,13 +2518,13 @@ responses:
           Covid 19 confirmados em laboratório sejam colocados em quarentena por 14
           dias.</speak>
       - type: html
-        text: <p>A implementação de medidas de quarentena no início de um surto
+        text: A implementação de medidas de quarentena no início de um surto
           pode postergar a disseminação da doença em um país ou em uma área ou
           postergar o pico de uma epidemia em uma área onde a transmissão local
           está em curso, ou ambos. Recomenda-se que os contatos de pacientes com
           COVID-19 confirmados em laboratório sejam colocados em quarentena por 14
           dias.<a href='https://www.who.int/publications-detail/considerations-for-quarantine-of-individuals-in-the-context-of-containment-for-coronavirus-disease-(covid-19)'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_myth_transmission_hot_areas:
   - custom:
       answers:
@@ -2508,11 +2534,11 @@ responses:
           úmido. Independentemente do clima, adote medidas de proteção se você
           vive ou viaja para uma área com Covid 19.</speak>
       - type: html
-        text: <p> Segundo as evidências até o momento, o vírus da COVID-19 pode
+        text:  Segundo as evidências até o momento, o vírus da COVID-19 pode
           ser transmitido em todas as áreas, incluindo áreas com clima quente e
           úmido. <br>Independentemente do clima, adote medidas de proteção se você
           vive ou viaja para uma área com COVID-19.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_myth_garlic:
   - custom:
       answers:
@@ -2521,10 +2547,10 @@ responses:
           antimicrobianas. Entretanto, não há evidências, no atual surto, de que
           o consumo de alho tenha protegido as pessoas do novo coronavírus.</speak>
       - type: html
-        text: <p> Alho é um alimento saudável que pode ter algumas propriedades
+        text:  Alho é um alimento saudável que pode ter algumas propriedades
           antimicrobianas. Entretanto, não há evidências, no atual surto, de que
           o consumo de alho tenha protegido as pessoas do novo coronavírus.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2539,7 +2565,7 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak> Em tempos de propagação da COVID-19, a crescente incerteza
+        ssml: <speak> Em tempos de propagação da Covid 19, a crescente incerteza
           e preocupação das pessoas são o terreno ideal para teorias conspiratórias,
           relatos falsos ou mitos. As pessoas frequentemente se informam sobre o vírus
           em canais do YouTube onde ativistas online acreditam que sabem a verdadeira
@@ -2549,14 +2575,14 @@ responses:
           certifique-se de informar-se apenas em sites oficiais, como os da Organização
           Mundial de Saúde ou o Centro Europeu de Prevenção e Controle de Doenças.</speak>
       - type: html
-        text: <p>Em tempos de propagação da COVID-19, a crescente incerteza e preocupação
+        text: Em tempos de propagação da COVID-19, a crescente incerteza e preocupação
           das pessoas são o terreno ideal para teorias conspiratórias, relatos falsos
           ou mitos. As pessoas frequentemente se informam sobre o vírus em canais
           do YouTube onde ativistas online acreditam que sabem a verdadeira origem
           do vírus. Relatórios falsos também estão circulando cada vez mais através
           das mídias sociais, como Facebook ou WhatsApp. Isso pode, por exemplo,
           levar ao aumento do pânico e da compra de pânico. Portanto, certifique-se
-          de informar-se apenas em sites oficiais, como os da OMS ou o CEPCD.</p>
+          de informar-se apenas em sites oficiais, como os da OMS ou o CEPCD.
       - type: hints
         options:
         - label: Situação Mundial
@@ -2575,12 +2601,12 @@ responses:
           2 a 10 dias até que as pessoas infectadas adoecerem e desenvolverem esse
           sintoma.</speak>
       - type: html
-        text: <p>Os termômetros infravermelhos são eficazes na detecção de pessoas
+        text: Os termômetros infravermelhos são eficazes na detecção de pessoas
           que desenvolveram febre, no entanto, não conseguem detectar pessoas infectadas
           que ainda não têm sintomas ou febre. Isto porque leva entre 2 a 10 dias
           até que as pessoas infectadas adoecerem e desenvolverem esse sintoma.<a
           href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2595,21 +2621,21 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak> O vírus não viaja em ondas de rádio ou redes móveis. A COVID-19
+        ssml: <speak> O vírus não viaja em ondas de rádio ou redes móveis. A Covid 19
           está se espalhando em muitos países que não possuem redes móveis de
           5G.</speak>
       - type: html
-        text: <p> O vírus não viaja em ondas de rádio/redes móveis.<br>A COVID-19
+        text:  O vírus não viaja em ondas de rádio/redes móveis.<br>A COVID-19
           está se espalhando em muitos países que não possuem redes móveis 5G.<a
           href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_myth_mosquitoes:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Até o momento não há informações ou evidências que sugiram que o novo coronavírus possa ser transmitido por mosquitos. O novo coronavírus é um vírus respiratório que se espalha principalmente por meio de gotículas geradas quando uma pessoa infectada tosse ou espirra, ou através de gotículas de saliva or secreção nasal. Para se proteger, limpe as mãos frequentemente com uma solução a base de álcool ou lave-as com água e sabão. Além disso, evite contato próximo com qualquer pessoa que estiver tossindo ou espirrando.</speak>
       - type: html
-        text: <p>Até o momento não há informações ou evidências que sugiram que o novo coronavírus possa ser transmitido por mosquitos. O novo coronavírus é um vírus respiratório que se espalha principalmente por meio de gotículas geradas quando uma pessoa infectada tosse ou espirra, ou através de gotículas de saliva or secreção nasal. Para se proteger, limpe as mãos frequentemente com uma solução a base de álcool ou lave-as com água e sabão. Além disso, evite contato próximo com qualquer pessoa que estiver tossindo ou espirrando.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#mosquito-bites'target='_blank'>(1)</a></p>
+        text: Até o momento não há informações ou evidências que sugiram que o novo coronavírus possa ser transmitido por mosquitos. O novo coronavírus é um vírus respiratório que se espalha principalmente por meio de gotículas geradas quando uma pessoa infectada tosse ou espirra, ou através de gotículas de saliva or secreção nasal. Para se proteger, limpe as mãos frequentemente com uma solução a base de álcool ou lave-as com água e sabão. Além disso, evite contato próximo com qualquer pessoa que estiver tossindo ou espirrando.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#mosquito-bites'target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Situação no Mundo
@@ -2626,10 +2652,10 @@ responses:
           A sars Cov 2 é um vírus e, portanto, os antibióticos não devem ser usados
           como meio de prevenção ou tratamento.</speak>
       - type: html
-        text: <p>Antibióticos não funcionam contra vírus, apenas bactérias. <br>A
+        text: Antibióticos não funcionam contra vírus, apenas bactérias. <br>A
           SARS-CoV-2 é um vírus e, portanto, os antibióticos não devem ser usados
           como meio de prevenção ou tratamento.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2649,11 +2675,11 @@ responses:
           que foi transportada, movida e exposta a diferentes condições e temperaturas
           também é baixo.</speak>
       - type: html
-        text: <p>A probabilidade de uma pessoa infectada contaminar mercadorias é
+        text: A probabilidade de uma pessoa infectada contaminar mercadorias é
           baixa e o risco de pegar o vírus que causa a COVID-19 de um pacote que
           foi transportado, movido e exposto a diferentes condições e temperaturas
           também é baixo.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2674,12 +2700,12 @@ responses:
           Na verdade, tomar um banho quente com água extremamente quente pode ser
           prejudicial, pois pode queimar você.</speak>
       - type: html
-        text: <p> Tomar um banho quente não vai te impedir de pegar a COVID-19. Sua
+        text:  Tomar um banho quente não vai te impedir de pegar a COVID-19. Sua
           temperatura corporal normal permanece em torno de 36,5 graus Celcius a 37
           graus Celcius, independentemente da temperatura do seu banho ou ducha. Na
           verdade, tomar um banho quente com água extremamente quente pode ser prejudicial,
           pois pode queimar você.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_myth_cold_weather:
   - custom:
       answers:
@@ -2689,11 +2715,11 @@ responses:
           em torno de 36,5 graus Celcius a 37 graus Celcius, independentemente da
           temperatura externa ou do tempo.</speak>
       - type: html
-        text: <p>Não há razão para acreditar que o frio possa matar o novo coronavírus
+        text: Não há razão para acreditar que o frio possa matar o novo coronavírus
           ou outras doenças. A temperatura normal do corpo humano permanece em torno
           de 36,5°C a 37°C, independentemente da temperatura externa ou do clima.<a
           href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_myth_pneumonia_vaccine:
   - custom:
       answers:
@@ -2703,11 +2729,11 @@ responses:
           coronavírus. O vírus é tão novo e diferente que precisa de sua própria
           vacina.</speak>
       - type: html
-        text: <p>Vacinas contra pneumonia, como a vacina pneumocócica e a vacina
+        text: Vacinas contra pneumonia, como a vacina pneumocócica e a vacina
           contra Haemophilus influenza tipo B (Hib), não oferecem proteção contra
           o novo coronavírus. O vírus é tão novo e diferente que precisa de sua
           própria vacina.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2723,17 +2749,17 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Os secadores de mãos não são eficazes para matar o vírus.
-          Para se proteger contra a COVID-19, você deve limpar frequentemente as
+          Para se proteger contra a Covid 19, você deve limpar frequentemente as
           mãos com uma massagem a base de álcool ou lavá-las com água e sabão.
           Uma vez que suas mãos estejam limpas, você deve secá-las cuidadosamente
           usando toalhas de papel ou um secador de ar quente.</speak>
       - type: html
-        text: <p>Os secadores de mãos não são eficazes para matar o vírus. Para
+        text: Os secadores de mãos não são eficazes para matar o vírus. Para
           se proteger contra a COVID-19, você deve limpar frequentemente as mãos
           com uma massagem a base de álcool ou lavá-las com água e sabão. Uma
           vez que suas mãos estejam limpas, você deve secá-las cuidadosamente usando
           toalhas de papel ou um secador de ar quente.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2753,11 +2779,11 @@ responses:
           incluem desinfetantes à base de cloro/alvejante,  solventes, etanol a 75%,
           ácido peracético e clorofórmio.</speak>
       - type: html
-        text: <p>O óleo de gergelim não mata o novo coronavírus. <br>Existem alguns
+        text: O óleo de gergelim não mata o novo coronavírus. <br>Existem alguns
           desinfetantes químicos que podem matar o SARS-CoV-2 em superfícies. Estes
           incluem desinfetantes à base de cloro/alvejante, solventes, etanol a 75%,
           ácido peracético e clorofórmio.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2778,13 +2804,13 @@ responses:
           tanto o álcool quanto o cloro podem ser úteis para desinfetar as superfícies,
           mas eles precisam ser usados sob as recomendações apropriadas.</speak>
       - type: html
-        text: <p>Por álcool ou cloro em todo o seu corpo não matará vírus que
+        text: Por álcool ou cloro em todo o seu corpo não matará vírus que
           já tenham entrado no seu corpo. Pulverizar tais substâncias pode ser prejudicial
           para as roupas ou membranas mucosas (ou seja, olhos e boca). Esteja ciente
           de que tanto o álcool quanto o cloro podem ser úteis para desinfetar as
           superfícies, mas eles precisam ser usados sob as recomendações apropriadas.<a
           href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2805,10 +2831,10 @@ responses:
           ou outras áreas da pele, pois a radiação UV pode causar irritação na
           pele.</speak>
       - type: html
-        text: <p>As lâmpadas UV não devem ser usadas para esterilizar as mãos ou
+        text: As lâmpadas UV não devem ser usadas para esterilizar as mãos ou
           outras áreas da pele, pois a radiação UV pode causar irritação na pele.
           <a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2829,11 +2855,11 @@ responses:
           soro fisiológico pode ajudar as pessoas a se recuperarem mais rapidamente
           do resfriado comum. Entretanto, o enxágüe regular do nariz não demonstrou prevenir infecções respiratórias.</speak>
       - type: html
-        text: <p>Não há evidências de que enxaguar regularmente o nariz com soro
+        text: Não há evidências de que enxaguar regularmente o nariz com soro
           fisiológico tenha protegido as pessoas da infecção pelo novo coronavírus.
           Há algumas evidências limitadas de que o enxágue regular do nariz com
           soro fisiológico pode ajudar as pessoas a se recuperarem mais rapidamente
-          do resfriado comum. Entretanto, o enxágüe regular do nariz não demonstrou prevenir infecções respiratórias.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters' target='_blank'>(1)</a></p>
+          do resfriado comum. Entretanto, o enxágüe regular do nariz não demonstrou prevenir infecções respiratórias.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters' target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2848,26 +2874,26 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Estudos até o momento sugerem que o vírus que causa a COVID-19
+        ssml: <speak>Estudos até o momento sugerem que o vírus que causa a Covid 19
           é transmitido principalmente pelo contato com gotículas respiratórias
           e não pelo ar. Entretanto, de acordo com um estudo do EID Journal, acredita-se
           que a transmissão das gotículas foi causada por ventilação com ar condicionado
           em um surto em um restaurante em Wuhan, China.</speak>
       - type: html
-        text: <p>Estudos até o momento sugerem que o vírus que causa a COVID-19
+        text: Estudos até o momento sugerem que o vírus que causa a COVID-19
           é transmitido principalmente pelo contato com gotículas respiratórias
           e não pelo ar. Entretanto, de acordo com um estudo do EID Journal, acredita-se
           que a transmissão das gotículas foi causada por ventilação com ar condicionado
           em um surto em um restaurante em Wuhan, China.<a href='https://wwwnc.cdc.gov/eid/article/26/7/20-0764_article'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_mask_visors:
   - custom:
       answers:
       - type: ssml
         ssml: '<speak> Os escudos faciais podem ser considerados uma alternativa às máscaras, mas não oferecem a proteção equivalente para evitar que o vírus seja transmitido a outros. Se for tomada a decisão de usar um escudo facial, ele deve cobrir toda a face, envolver os lados da face e estender-se até abaixo do queixo. Deve-se tomar cuidado ao usar um para evitar lesões que possam quebrá-lo e prejudicar os olhos ou o rosto.</speak>'
       - type: html
-        text: "<p> Os escudos faciais podem ser considerados uma alternativa às máscaras, mas não oferecem a proteção equivalente para evitar que o vírus seja transmitido a outros. Se for tomada a decisão de usar um escudo facial, ele deve cobrir toda a face, envolver os lados da face e estender-se até abaixo do queixo. Deve-se tomar cuidado ao usar um para evitar lesões que possam quebrá-lo e prejudicar os olhos ou o rosto.<a href='https://www.who.int/news-room/q-a-detail/q-a-children-and-masks-related-to-covid-19'
-          target='_blank'>(1)</a></p>"
+        text: " Os escudos faciais podem ser considerados uma alternativa às máscaras, mas não oferecem a proteção equivalente para evitar que o vírus seja transmitido a outros. Se for tomada a decisão de usar um escudo facial, ele deve cobrir toda a face, envolver os lados da face e estender-se até abaixo do queixo. Deve-se tomar cuidado ao usar um para evitar lesões que possam quebrá-lo e prejudicar os olhos ou o rosto.<a href='https://www.who.int/news-room/q-a-detail/q-a-children-and-masks-related-to-covid-19'
+          target='_blank'>(1)</a>"
   utter_mask_use_after:
   - custom:
       answers:
@@ -2880,14 +2906,14 @@ responses:
           gel ou liquido  à base de álcool para esfregar as mãos ou, se estiver
           visivelmente sujo, lave as mãos com água e sabão.</speak>'
       - type: html
-        text: '<p> Após o uso, retire a máscara: retire os laços elásticos de
+        text: ' Após o uso, retire a máscara: retire os laços elásticos de
           trás das orelhas, mantendo a máscara afastada do rosto e da roupa, para
           evitar tocar em superfícies potencialmente contaminadas da máscara. Descarte
           a máscara em um recipiente fechado imediatamente após o uso. Execute a
           higiene das mãos depois de tocar ou descartar a máscara, use gel ou liquido  à
           base de álcool para esfregar as mãos ou, se estiver visivelmente sujo,
           lave as mãos com água e sabão. <a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks''
-          target=''_blank''>(1)</a></p>'
+          target=''_blank''>(1)</a>'
       - type: hints
         options:
         - label: Medidas Preventivas
@@ -2910,14 +2936,14 @@ responses:
           rígida da máscara para que ela se adapte ao formato do nariz. Por fim,
           puxe a parte inferior da máscara para cobrir sua boca e seu queixo.</speak>
       - type: html
-        text: <p>Antes de colocar a máscara é importante limpar as mãos com uma
+        text: Antes de colocar a máscara é importante limpar as mãos com uma
           massagem à base de álcool ou água e sabão. Inspecioná-la para ver se
           há rasgos ou buracos. Observe qual lado é o lado superior, em seguida,
           verifique se o lado adequado da máscara está  voltado para fora (o lado
           colorido). Coloque a máscara no rosto e aperte a tira de metal ou a borda
           rígida da máscara para que ela se adapte ao formato do nariz. Por fim,
           puxe a parte inferior da máscara para cobrir sua boca e seu queixo.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
       - type: hints
         options:
         - label: Como descartar uma Máscara
@@ -2936,7 +2962,7 @@ responses:
       - type: ssml
         ssml: <speak>As máscaras devem ser usadas como parte de uma estratégia abrangente de medidas para suprimir a transmissão e salvar vidas; o uso de uma máscara por si só não é suficiente para proporcionar um nível adequado de proteção contra a Covid 19. Você também deve manter uma distância física mínima de pelo menos 1 metro dos outros, limpar freqüentemente suas mãos e evitar tocar seu rosto e máscara.</speak>
       - type: html
-        text: <p>As máscaras devem ser usadas como parte de uma estratégia abrangente de medidas para suprimir a transmissão e salvar vidas; o uso de uma máscara por si só não é suficiente para proporcionar um nível adequado de proteção contra a COVID-19. Você também deve manter uma distância física mínima de pelo menos 1 metro dos outros, limpar freqüentemente suas mãos e evitar tocar seu rosto e máscara.</p>
+        text: As máscaras devem ser usadas como parte de uma estratégia abrangente de medidas para suprimir a transmissão e salvar vidas; o uso de uma máscara por si só não é suficiente para proporcionar um nível adequado de proteção contra a COVID-19. Você também deve manter uma distância física mínima de pelo menos 1 metro dos outros, limpar freqüentemente suas mãos e evitar tocar seu rosto e máscara.
       - type: youtube
         thumbnailURL: "https://www.youtube.com/watch?v=Ded_AxFfJoQ"
         youtubeId: "Ded_AxFfJoQ"
@@ -2959,26 +2985,26 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>O que mais posso fazer por você?</speak>
-      - type: text
+      - type: html
         text: O que mais posso fazer por você?
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Como posso ajudá-lo ainda mais?</speak>
-      - type: text
+      - type: html
         text: Como posso ajudá-lo ainda mais?
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Você tem alguma pergunta a mais que eu possa responder?</speak>
-      - type: text
+      - type: html
         text: Você tem alguma pergunta a mais que eu possa responder?
   utter_news_request_hasdata:
   - custom:
       answers:
       - type: ssml
         ssml: <speak> Você pode ler sobre as últimas notícias nos links abaixo:</speak>
-      - type: text
+      - type: html
         text: "Você pode ler sobre as últimas notícias nos links abaixo:"
       - type: hints
         options:
@@ -2997,7 +3023,7 @@ responses:
         ssml: <speak>Talvez eu não tenha as informações relacionadas com notícias.
           Se você quiser, pode visitar a Deutsche Welle, France24 ou a BBC para saber
           mais notícias sobre o surto.</speak>
-      - type: text
+      - type: html
         text: Talvez eu não tenha as informações relacionadas com notícias. Se
           você quiser, pode visitar a Deutsche Welle, France24 ou a BBC para saber
           mais notícias sobre o surto.
@@ -3012,7 +3038,7 @@ responses:
   utter_want_to_add_country:
   - custom:
       answers:
-      - type: text
+      - type: html
         text: Você quer adicionar um país ou região específica do mundo à sua
           busca?
       - type: ssml
@@ -3027,21 +3053,17 @@ responses:
   utter_ask_which_country:
   - custom:
       answers:
-      - type: text
-        text: Que país devo adicionar à sua busca?
+      - type: html
+        text: Que país ou região devo adicionar à sua busca?
       - type: ssml
-        ssml: <speak>Qual país devo adicionar à sua busca?</speak>
+        ssml: <speak>Que país ou região devo adicionar à sua busca?</speak>
   utter_covid_no_country_current_statistics:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>O país que você está procurando não está disponível. Para
-          acompanhar a situação na época do novo coronavírus no mundo, clique
-          no link apresentado abaixo.</speak>
+        ssml: <speak>O país ou região que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo.</speak>
       - type: html
-        text: <p>O país que você está procurando não está disponível. Para acompanhar
-          a situação na época do novo coronavírus no mundo, clique no link apresentado
-          abaixo:</p>
+        text: "O país ou região que você está procurando não está disponível. Para acompanhar a situação na época do novo coronavírus no mundo, clique no link apresentado abaixo:"
       - type: links
         links:
         - title: COVID-19 Situação no Mundo
@@ -3062,8 +3084,8 @@ responses:
       - type: ssml
         ssml: <speak>A última atualização indica que {country} possui um total
           de {active_cases} casos ativos. {total_recovered} recuperados e {total_deaths}
-          não resistiram à COVID-19. </speak>
-      - type: text
+          não resistiram à Covid 19. </speak>
+      - type: html
         text: A última atualização indica que {country} possui um total de {active_cases}
           casos ativos. {total_recovered} recuperados e {total_deaths} não resistiram
           à COVID-19.
@@ -3072,8 +3094,8 @@ responses:
       answers:
       - type: ssml
         ssml: <speak>Segundo a última atualização, {country} possui um total de
-          {total_deaths} fatalidades da COVID-19.</speak>
-      - type: text
+          {total_deaths} fatalidades da Covid 19.</speak>
+      - type: html
         text: De acordo com a última atualização, {country} possui um total de
           {total_deaths} fatalidades da COVID-19.
   utter_covid_situation_infected:
@@ -3082,7 +3104,7 @@ responses:
       - type: ssml
         ssml: <speak>Os últimos dados disponíveis indicam que neste momento {country}
           possui um total de {active_cases} casos ativos.</speak>
-      - type: text
+      - type: html
         text: Os últimos dados disponíveis indicam que neste momento {country}
           possui um total de {active_cases} casos infectados.
   utter_covid_situation_infected_critical:
@@ -3092,7 +3114,7 @@ responses:
         ssml: <speak>A última atualização disponível em {country} aponta para
           um total de {total_infected_critical} infectados hospitalizados em unidade
           de terapia intensiva.</speak>
-      - type: text
+      - type: html
         text: A última atualização disponível em {country} aponta para um total
           de {total_infected_critical} infectados hospitalizados na unidade de terapia
           intensiva.
@@ -3103,7 +3125,7 @@ responses:
         ssml: <speak>No momento em {country} há um valor total de {active_cases}
           casos ativos. Na última atualização disponível {new_cases} novos casos
           foram identificados.</speak>
-      - type: text
+      - type: html
         text: No momento em {country} há um valor total de {active_cases} casos ativos.
           Na última atualização disponível {new_cases} foram identificados novos
           casos.
@@ -3114,7 +3136,7 @@ responses:
           tem um total de {total_cases} casos dos quais {active_cases} ainda estão
           ativos, {total_recovered} estão totalmente recuperados e {total_deaths}
           não sobreviveram.</speak>
-      - type: text
+      - type: html
         text: Os últimos dados disponíveis indicam que neste momento {country} tem
           um  total de {total_cases} casos dos quais {active_cases} ainda estão ativos,
           {total_recovered} estão totalmente recuperados e {total_deaths} não sobreviveram.
@@ -3123,7 +3145,7 @@ responses:
       - type: ssml
         ssml: <speak>Os últimos dados disponíveis indicam que neste momento {country}
           possui um total de {active_cases} casos ativos.</speak>
-      - type: text
+      - type: html
         text: Os últimos dados disponíveis indicam que neste momento {country}
           possui um total de {active_cases} casos ativos.
   - custom:
@@ -3133,7 +3155,7 @@ responses:
           casos dos quais {active_cases} ainda estão ativos, {total_recovered} estão
           totalmente recuperados e {total_deaths} não sobreviveram. Na última atualização
           houve {new_cases} casos novos e {new_deaths} não sobreviveram.</speak>
-      - type: text
+      - type: html
         text: No momento em {country} há uma quantidade total de {total_cases} casos
           dos quais {active_cases} ainda estão ativos, {total_recovered} estão totalmente
           recuperados e {total_deaths} não sobreviveram. Na última atualização
@@ -3144,25 +3166,52 @@ responses:
       - type: ssml
         ssml: <speak>Os últimos dados indicam que, no momento, {country}, possui
           um total de {total_recovered} casos recuperados.</speak>
-      - type: text
+      - type: html
         text: Os últimos dados indicam que, no momento, {country}, possui um total
           de {total_recovered} casos recuperados.
   utter_covid_situation_tested:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>A última atualização de dados indica que em {country}, {total_tests}
-          testes foram realizados desde o início da coleta de dados.</speak>
+        ssml: <speak>Segundo a última atualização, {country} realizou {total_tests}
+          testes desde o início da coleta de dados.</speak>
+      - type: html
+        text: Segundo a última atualização, {country} realizou {total_tests}
+          testes desde o início da coleta de dados.
+  utter_country_state_hasdata:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
       - type: text
-        text: A última atualização de dados indica que em {country}, {total_tests}
-          testes foram realizados desde o início da coleta de dados.
+        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
+  utter_country_region_nodata:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Brasil.</speak>
+      - type: text
+        text: "Não possuo essa informação em relação ao seu pedido. Mas vou tentar obter dados sobre Brasil."
+      - type: multichoice
+        options:
+          - label: Sim
+            value: Sim
+          - label: Não
+            value: Não
+  utter_country_region_hasdata:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de Covid 19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes.</speak>
+      - type: text
+        text: "De acordo com os últimos dados disponíveis, {country_region} tem neste momento um valor acumulado de {country_region_confirmed_accum} casos confirmados de COVID-19, dos quais {country_region_confirmed_new} são novos. Existe um valor acumulado de {country_region_deaths_accum} mortes das quais {country_region_deaths_new} são as mais recentes."
   utter_covid_schools:
   - custom:
       answers:
       - type: ssml
         ssml: <speak>Não posso dar uma resposta concreta, visto que cada país tem seu próprio cronograma referente a reabertura das escolas.</speak>
       - type: html
-        text: <p>Não posso dar uma resposta concreta, visto que cada país tem seu próprio cronograma referente a reabertura das escolas.</p>
+        text: Não posso dar uma resposta concreta, visto que cada país tem seu próprio cronograma referente a reabertura das escolas.
   utter_fallback_first:
   - custom:
       answers:
@@ -3171,7 +3220,7 @@ responses:
           pergunta, mas em breve poderei respondê-la. Você pode me pedir, por exemplo,
           informações sobre medidas preventivas, sintomas associados com a doença
           ou como o vírus se espalha.</speak>
-      - type: text
+      - type: html
         text: Peço desculpas, mas no momento não tenho resposta para a sua pergunta,
           mas em breve poderei respondê-la. Você pode me pedir, por exemplo, informações
           sobre medidas preventivas, sintomas associados com a doença ou como o vírus
@@ -3182,7 +3231,7 @@ responses:
       - type: ssml
         ssml: <speak>Fazendo uma pesquisa no site da Organização Mundial da Saúde,
           encontrei os seguintes links:</speak>
-      - type: text
+      - type: html
         text: 'Fazendo uma pesquisa no site da Organização Mundial da Saúde, encontrei
           os seguintes links:'
   utter_fallback_request_emptyanswer:
@@ -3192,7 +3241,7 @@ responses:
         ssml: <speak>Não tenho a informação que você está procurando. Se você
           quiser, pode visitar o site da Organização Mundial da Saúde para saber
           mais sobre o surto.</speak>
-      - type: text
+      - type: html
         text: Eu não tenho a informação que você está procurando. Se você quiser,
           pode visitar o site da Organização Mundial da Saúde para saber mais sobre
           o surto.
@@ -3206,7 +3255,7 @@ responses:
       - type: ssml
         ssml: <speak>Há um problema ao fazer um requerimento à Organização Mundial
           de Saúde, se você quiser mais informações, por favor use o site.</speak>
-      - type: text
+      - type: html
         text: Houve um problema ao efetuar um requerimento à Organização Mundial
           da Saúde, se você quiser mais informações, por favor use diretamente
           o site da OMS.
@@ -3214,7 +3263,6 @@ responses:
         links:
         - title: Novo coronavirus (COVID-19)
           url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
-
     
   utter_quarantine_exercises:
   - custom:
@@ -3226,11 +3274,11 @@ responses:
           garantido. Muitas vezes, os funcionários simplesmente não conseguiam recarregar
           as prateleiras com rapidez suficiente.</speak>
       - type: html
-        text: <p>São recomendadas atividades físicas, que podem ser realizadas no tempo 
+        text: São recomendadas atividades físicas, que podem ser realizadas no tempo 
           livre ou durante os afazeres domésticos. Além disso, é importante evitar 
           longos períodos sentado. Levante-se de tempos em tempos para se movimentar, 
           seja para buscar água, ir ao banheiro ou até mesmo dar uma volta pela casa.<a href='https://saudebrasil.saude.gov.br/eu-quero-me-exercitar-mais/como-fica-a-pratica-de-atividade-fisica-durante-a-pandemia-de-coronavirus'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_mentalhealth:
   - custom:
       answers:
@@ -3239,24 +3287,24 @@ responses:
           e com sensação de falta de controle frente às incertezas do momento. Algumas estratégias de cuidado psíquico recomendadas são 
           Investir em exercícios e ações que auxiliem na redução do nível de estresse, como meditação, leitura e exercícios de respiração. </speak>
       - type: html
-        text: <p>Durante uma pandemia é esperado que estejamos frequentemente em estado de alerta, preocupados, confusos, estressados 
+        text: Durante uma pandemia é esperado que estejamos frequentemente em estado de alerta, preocupados, confusos, estressados 
           e com sensação de falta de controle frente às incertezas do momento. Algumas estratégias de cuidado psíquico recomendadas são 
           Investir em exercícios e ações que auxiliem na redução do nível de estresse, como meditação, leitura e exercícios de respiração.<a href='https://www.fiocruzbrasilia.fiocruz.br/wp-content/uploads/2020/04/Sa%C3%BAde-Mental-e-Aten%C3%A7%C3%A3o-Psicossocial-na-Pandemia-Covid-19-recomenda%C3%A7%C3%B5es-gerais.pdf'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_enem:
   - custom:
       answers:
       - type: ssml
         ssml: <speak> O ENEM 2020 será realizado nos dias 17 e 24 de janeiro de 2021, na versão tradicional impressa, 
-          e nos dias 31 de janeiro e 7 de fevereiro de 2021 na versão digital. As orientações relacionadas à COVID-19 
+          e nos dias 31 de janeiro e 7 de fevereiro de 2021 na versão digital. As orientações relacionadas à Covid 19 
           envolve o uso obrigatório de máscaras cobrindo totalmente o nariz e a boca, desde a entrada até a saída do 
           local das provas e também o distanciamento social entre os participantes. </speak>
       - type: html
-        text: <p>O ENEM 2020 será realizado nos dias 17 e 24 de janeiro de 2021, na versão tradicional impressa, 
+        text: O ENEM 2020 será realizado nos dias 17 e 24 de janeiro de 2021, na versão tradicional impressa, 
           e nos dias 31 de janeiro e 7 de fevereiro de 2021 na versão digital. As orientações relacionadas à COVID-19 
           envolve o uso obrigatório de máscaras cobrindo totalmente o nariz e a boca, desde a entrada até a saída do 
           local das provas e também o distanciamento social entre os participantes.<a href='http://portal.inep.gov.br/artigo/-/asset_publisher/B4AQV9zFY7Bv/content/publicados-novos-editais-do-enem-2020-com-prevencoes-a-covid-19/21206'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_eleicao:
   - custom:
       answers:
@@ -3266,34 +3314,23 @@ responses:
           votação se estiverem usando máscaras faciais e deverão higienizar as mãos com álcool em gel antes e depois de votar, 
           além da distância mínima de um metro entre as pessoas. </speak>
       - type: html
-        text: <p>O Tribunal Superior Eleitoral estabeleceu um protocolo com medidas preventivas para eleitores e mesários 
+        text: O Tribunal Superior Eleitoral estabeleceu um protocolo com medidas preventivas para eleitores e mesários 
           para as eleições municipais que será realizada em novembro deste ano. Os eleitores só poderão entrar nos locais de 
           votação se estiverem usando máscaras faciais e deverão higienizar as mãos com álcool em gel antes e depois de votar, 
           além da distância mínima de um metro entre as pessoas.<a href='http://www.tse.jus.br/imprensa/noticias-tse/arquivos/plano-de-seguranca-sanitaria-eleicoes-2020/rybena_pdf?file=http://www.tse.jus.br/imprensa/noticias-tse/arquivos/plano-de-seguranca-sanitaria-eleicoes-2020/at_download/file'
-          target='_blank'>(1)</a></p>
-
+          target='_blank'>(1)</a>
   utter_covid_covax_vacina:
   - custom:
       answers:
       - type: ssml
         ssml: <speak> A aliança Covax, coordenada pela Organização Mundial da Saúde, é uma coalizão que reúne mais de 150 países 
-          criada para impulsionar o desenvolvimento de vacinas para a Covid-19, e prevê 42 milhões de doses para o Brasil, que serão 
+          criada para impulsionar o desenvolvimento de vacinas para a Covid 19, e prevê 42 milhões de doses para o Brasil, que serão 
           distribuídas de acordo com critérios técnicos.  </speak>
       - type: html
-        text: <p>A aliança Covax, coordenada pela Organização Mundial da Saúde, é uma coalizão que reúne mais de 150 países 
-          criada para impulsionar o desenvolvimento de vacinas para a Covid-19, e prevê 42 milhões de doses para o Brasil, que serão 
+        text: A aliança Covax, coordenada pela Organização Mundial da Saúde, é uma coalizão que reúne mais de 150 países 
+          criada para impulsionar o desenvolvimento de vacinas para a COVID-19, e prevê 42 milhões de doses para o Brasil, que serão 
           distribuídas de acordo com critérios técnicos.<a href='https://www.in.gov.br/en/web/dou/-/medida-provisoria-n-1.003-de-24-de-setembro-de-2020-279272787'
-          target='_blank'>(1)</a></p>
-  utter_covid_vacinas_teste:
-  - custom:
-      answers:
-      - type: ssml
-        ssml: <speak> Segundo a Agência Nacional de Vigilância Sanitária, quatro vacinas contra a Covid-19 estão sendo testadas no Brasil
-          Uma do Reino Unido; uma da China; uma dos Estados Unidos em parceria com a Europa; e outra da Europa.  </speak>
-      - type: html
-        text: <p> Segundo a Agência Nacional de Vigilância Sanitária, quatro vacinas contra a Covid-19 estão sendo testadas no Brasil
-          Uma do Reino Unido; uma da China; uma dos Estados Unidos em parceria com a Europa; e outra da Europa.<a href='https://www.in.gov.br/en/web/dou/-/medida-provisoria-n-1.003-de-24-de-setembro-de-2020-279272787'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_oxford_vacina:
   - custom:
       answers:
@@ -3301,9 +3338,9 @@ responses:
         ssml: <speak> A vacina de Oxford está sendo testada em 10 mil voluntários com mais de 18 anos; e os locais de testes, aqui no Brasil, são em São Paulo, Rio de Janeiro, Bahia, Rio Grande do Sul e Rio Grande do Norte. 
           A Fundação Oswaldo Cruz (Fiocruz) conta com recursos para receber, processar, distribuir e iniciar a fabricação da vacina, caso seja comprovada a sua eficácia.  </speak>
       - type: html
-        text: <p>A vacina de Oxford está sendo testada em 10 mil voluntários com mais de 18 anos; e os locais de testes, aqui no Brasil, são em São Paulo, Rio de Janeiro, Bahia, Rio Grande do Sul e Rio Grande do Norte. 
+        text: A vacina de Oxford está sendo testada em 10 mil voluntários com mais de 18 anos; e os locais de testes, aqui no Brasil, são em São Paulo, Rio de Janeiro, Bahia, Rio Grande do Sul e Rio Grande do Norte. 
           A Fundação Oswaldo Cruz (Fiocruz) conta com recursos para receber, processar, distribuir e iniciar a fabricação da vacina, caso seja comprovada a sua eficácia.<a href='https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/10/brasil-preve-140-milhoes-de-doses-de-vacina-contra-covid-19-para-o-1o-semestre-de-2021'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_china_vacina:
   - custom:
       answers:
@@ -3311,9 +3348,9 @@ responses:
         ssml: <speak> A vacina da China, conhecida como Coronavac, está sendo produzida pelo laboratório Sinovac, junto com o Instituto Butantã, em São Paulo. A tecnologia empregada é de vírus inativado. Os estudos clínicos estão sendo realizados em 13 mil voluntários com mais de 18 anos. 
           No Brasil, participam dos testes pessoas que moram nos estados de São Paulo, Rio Grande do Sul, Minas Gerais, Paraná, Rio de Janeiro e Distrito Federal.  </speak>
       - type: html
-        text: <p>A vacina da China, conhecida como Coronavac, está sendo produzida pelo laboratório Sinovac, junto com o Instituto Butantã, em São Paulo. A tecnologia empregada é de vírus inativado. Os estudos clínicos estão sendo realizados em 13 mil voluntários com mais de 18 anos. 
+        text: A vacina da China, conhecida como Coronavac, está sendo produzida pelo laboratório Sinovac, junto com o Instituto Butantã, em São Paulo. A tecnologia empregada é de vírus inativado. Os estudos clínicos estão sendo realizados em 13 mil voluntários com mais de 18 anos. 
           No Brasil, participam dos testes pessoas que moram nos estados de São Paulo, Rio Grande do Sul, Minas Gerais, Paraná, Rio de Janeiro e Distrito Federal.<a href='https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2020/10/brasil-preve-140-milhoes-de-doses-de-vacina-contra-covid-19-para-o-1o-semestre-de-2021'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
   utter_covid_diferenca_testes:
   - custom:
       answers:
@@ -3321,31 +3358,6 @@ responses:
         ssml: <speak> O PCR serve para detectar a presença do vírus no organismo do paciente. 
           O teste de sorologia diz se a pessoa já teve contato com o vírus SARS-CoV-2 e o sistema imunológico produziu os anticorpos contra a doença.  </speak>
       - type: html
-        text: <p>O PCR serve para detectar a presença do vírus no organismo do paciente. 
+        text: O PCR serve para detectar a presença do vírus no organismo do paciente. 
           O teste de sorologia diz se a pessoa já teve contato com o vírus SARS-CoV-2 e o sistema imunológico produziu os anticorpos contra a doença.<a href='https://coronavirus.saude.gov.br/diagnostico-clinico-e-laboratorial'
-          target='_blank'>(1)</a></p>
-  utter_covid_diferenca_testes:
-  - custom:
-      answers:
-      - type: ssml
-        ssml: <speak> O PCR serve para detectar a presença do vírus no organismo do paciente. 
-          O teste de sorologia diz se a pessoa já teve contato com o vírus SARS-CoV-2 e o sistema imunológico produziu os anticorpos contra a doença.  </speak>
-      - type: html
-        text: <p>O PCR serve para detectar a presença do vírus no organismo do paciente. 
-          O teste de sorologia diz se a pessoa já teve contato com o vírus SARS-CoV-2 e o sistema imunológico produziu os anticorpos contra a doença.<a href='https://coronavirus.saude.gov.br/diagnostico-clinico-e-laboratorial'
-          target='_blank'>(1)</a></p>
-  utter_covid_comparecimento_eleicao:
-  - custom:
-      answers:
-      - type: ssml
-        ssml: <speak> A recomendação do próprio Tribunal Superior Eleitoral é que o eleitor com febre ou que teve covid-19 nos últimos 14 dias antes da votação não deve comparecer às urnas. A ausência deve ser justificada em até 60 dias, com apresentação de atestado médico ou teste positivo para a covid-19.  </speak>
-      - type: html
-        text: <p>A recomendação do próprio Tribunal Superior Eleitoral é que o eleitor com febre ou que teve covid-19 nos últimos 14 dias antes da votação não deve comparecer às urnas. A ausência deve ser justificada em até 60 dias, com apresentação de atestado médico ou teste positivo para a covid-19.</p>
-  utter_covid_recomendacao_eleicoes:
-  - custom:
-      answers:
-      - type: ssml
-        ssml: <speak> A votação vai acontecer das 7 às 17 horas. O horário preferencial, de 7 às 10 horas, é destinado aos eleitores com mais de 60 anos. Além da máscara obrigatória, é recomendável que cada eleitor leve sua própria caneta para assinar o caderno de votação. Nos locais de votação, a recomendação é para que não se alimentem, bebam nem façam nenhuma atividade que exija a retirada da máscara. Caso seja necessário tirar a máscara para tal fim, deve-se manter a distância mínima de dois metros das outras pessoas e escolher espaços com ventilação natural, preferencialmente localizados em área externa.  </speak>
-      - type: html
-        text: <p>A votação vai acontecer das 7 às 17 horas. O horário preferencial, de 7 às 10 horas, é destinado aos eleitores com mais de 60 anos. Além da máscara obrigatória, é recomendável que cada eleitor leve sua própria caneta para assinar o caderno de votação. Nos locais de votação, a recomendação é para que não se alimentem, bebam nem façam nenhuma atividade que exija a retirada da máscara. Caso seja necessário tirar a máscara para tal fim, deve-se manter a distância mínima de dois metros das outras pessoas e escolher espaços com ventilação natural, preferencialmente localizados em área externa.<a href='https://coronavirus.saude.gov.br/diagnostico-clinico-e-laboratorial'
-          target='_blank'>(1)</a></p>
+          target='_blank'>(1)</a>
