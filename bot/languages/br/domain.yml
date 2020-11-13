@@ -277,19 +277,18 @@ actions:
 - utter_covid_mentalhealth
 - utter_covid_enem
 - utter_covid_eleicao
-- utter_covid_vacinas_teste
 - utter_covid_covax_vacina
 - utter_covid_oxford_vacina
 - utter_covid_china_vacina
 - utter_covid_diferenca_testes
-- utter_covid_positive_covid_exam
 - utter_quick_exam_results
 - utter_covid_exam_when_and_who
-- utter_covid_exams_limitations
 - utter_covid_dexametasona		   
 - utter_covid_nosymptons_spread
 - utter_covid_exams_limitations
 - utter_covid_publicplaces_cleansing
+- utter_positive_covid_exam
+- utter_prevention_vaccine
 
 
 intents:
@@ -456,7 +455,6 @@ intents:
 - covid_mentalhealth
 - covid_enem
 - covid_eleicao
-- covid_vacinas_teste
 - covid_covax_vacina
 - covid_oxford_vacina
 - covid_china_vacina
@@ -465,14 +463,13 @@ intents:
 - covid_situation_state
 - state_br
 - region_br
-- covid_positive_covid_exam
 - quick_exam_results
 - covid_exam_when_and_who
 - covid_exams_limitations
 - covid_dexametasona		   
 - covid_nosymptons_spread
 - covid_publicplaces_cleansing
-
+- positive_covid_exam
 
 responses:
   utter_command_change_bot:

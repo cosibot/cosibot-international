@@ -67,6 +67,16 @@
 - Pra ver como vc è
 - Como você é?
 
+## intent:covid_exams_limitations
+- Quais as limitações dos testes?
+- Quais as limitações dos exames?
+- Me diga sobre limitações dos testes.
+- Me fale sobre limitações dos testes.
+- Me diga sobre limitações dos exames.
+- Me fale sobre limitações dos exames.
+- Limitações dos testes?
+- Limitações dos exames?
+
 ## intent:bot_availability
 - Você está sempre disponível?
 - Você está disponível 24 horas por dia, 7 dias por semana?
@@ -312,6 +322,15 @@
 - Boa noite! Estou com os sintomas de covid 19 há dez dias,fiz o teste rápido, resultado IgG não reagente e IgM não reagente. Quero saber sobre esse resultado
 - Qual o melhor exame para detectar
 - Com quantos  dias de sintomas tem que fazer  o exame do cotonete
+
+## intent:positive_covid_exam
+- Meu teste deu positivo
+- Deu resultado positivo
+- Sou positivo de covid
+- Sou positivo
+- Meu teste é positivo
+- Psitivo
+- Positivo, e agora?
 
 ## intent:bot_books
 - Gêneros de livros que você gosta.
