@@ -14,9 +14,21 @@
 * covid_mentalhealth
   - utter_covid_mentalhealth
 
+## covid_exams_limitations
+* covid_exams_limitations
+  - utter_covid_exams_limitations
+
+## prevention_vaccine
+* prevention_vaccine
+  - utter_prevention_vaccine
+
 ## covid_enem
 * covid_enem
   - utter_covid_enem
+
+## positive_covid_exam
+* positive_covid_exam
+  - utter_positive_covid_exam
 
 ## covid_eleicao
 * covid_eleicao

@@ -18,7 +18,7 @@ slots:
     initial_value: False
   bot_version:
     type: text
-    initial_value: '0.1.1'
+    initial_value: '0.1.2'
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -281,6 +281,15 @@ actions:
 - utter_covid_oxford_vacina
 - utter_covid_china_vacina
 - utter_covid_diferenca_testes
+- utter_quick_exam_results
+- utter_covid_exam_when_and_who
+- utter_covid_dexametasona		   
+- utter_covid_nosymptons_spread
+- utter_covid_exams_limitations
+- utter_covid_publicplaces_cleansing
+- utter_positive_covid_exam
+- utter_prevention_vaccine
+
 
 intents:
 - start_dialogue
@@ -454,6 +463,13 @@ intents:
 - covid_situation_state
 - state_br
 - region_br
+- quick_exam_results
+- covid_exam_when_and_who
+- covid_exams_limitations
+- covid_dexametasona		   
+- covid_nosymptons_spread
+- covid_publicplaces_cleansing
+- positive_covid_exam
 
 responses:
   utter_command_change_bot:
@@ -3261,7 +3277,6 @@ responses:
         links:
         - title: Novo coronavirus (COVID-19)
           url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
-
     
   utter_quarantine_exercises:
   - custom:
@@ -3360,3 +3375,77 @@ responses:
         text: O PCR serve para detectar a presença do vírus no organismo do paciente. 
           O teste de sorologia diz se a pessoa já teve contato com o vírus SARS-CoV-2 e o sistema imunológico produziu os anticorpos contra a doença.<a href='https://coronavirus.saude.gov.br/diagnostico-clinico-e-laboratorial'
           target='_blank'>(1)</a>
+  utter_positive_covid_exam:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak>Depois que um teste para detectar a Covid-19 dá positivo é imprescindível ao cidadão saber como deve proceder a partir desse momento. Conforme o alerta dos especialistas da Secretaria de Saúde, a unidade básica de saúde (UBS) mais próxima da residência dos usuários será o ponto de partida para qualquer providência que precise ser tomada. “Depois do resultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequada, seja isolamento domiciliar ou internação, dependendo do quadro clínico”, informa o subsecretário de Vigilância à Saúde, Eduardo Hage.</speak>
+      - type: html
+        text: Depois que um teste para detectar a Covid-19 dá positivo é imprescindível ao cidadão saber como deve proceder a partir desse momento. Conforme o alerta dos especialistas da Secretaria de Saúde, a unidade básica de saúde (UBS) mais próxima da residência dos usuários será o ponto de partida para qualquer providência que precise ser tomada. “Depois do resultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequada, seja isolamento domiciliar ou internação, dependendo do quadro clínico”, informa o subsecretário de Vigilância à Saúde, Eduardo Hage.<a href='http://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/'
+          target='_blank'>(1)</a>
+  utter_quick_exam_results:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak> Os testes atuais avaliam a presença de dois tipos de anticorpos diferentes, IgG e IgM. O significado do teste depende de quais dessas proteínas foi identificada. Quando o resultado é positivo apenas para IgM, significa que a pessoa está ou esteve recentemente infectada. Quando o resultado é positivo para IgG significa que a pessoa já entrou em contato com o vírus no passado. Vale ressaltar que o resultado positivo para anticorpos não significa que a pessoa está com o vírus no momento do teste pois tanto a IgM e, especialmente, a IgG permanecem presentes no sangue por longos períodos após o fim da infecção. </speak>
+      - type: html
+        text: Os testes atuais avaliam a presença de dois tipos de anticorpos diferentes, IgG e IgM. O significado do teste depende de quais dessas proteínas foi identificada. Quando o resultado é positivo apenas para IgM, significa que a pessoa está ou esteve recentemente infectada. Quando o resultado é positivo para IgG significa que a pessoa já entrou em contato com o vírus no passado. Vale ressaltar que o resultado positivo para anticorpos não significa que a pessoa está com o vírus no momento do teste pois tanto a IgM e, especialmente, a IgG permanecem presentes no sangue por longos períodos após o fim da infecção. 
+      - type: links
+        links:
+        - title: AFINAL, COMO FUNCIONA O TESTE RÁPIDO PARA COVID-19?
+          url: http://coronavirus.saude.mg.gov.br/blog/68-teste-rapido-covid-19
+  utter_covid_exam_when_and_who:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak> Se estamos falando de teste molecular para detecção do vírus através de amostras de secreção nasal ou da garganta do paciente, a partir do terceiro até o sétimo dia de sintomas pode fazer o teste. Já existem evidências que períodos anteriores e posteriores a esses, podem apresentar ainda resultados positivos para a Covid-19, no entanto, aumenta bastante a chance de um teste falso negativo, ou seja, a pessoa está infectada, mas não é detectado pelo teste. No caso dos testes para detecção de anticorpos, as informações são ainda mais controversas, mas de maneira geral, acredita-se que após sete dias de sintomas, inicia-se a detecção no sangue de anticorpos na fase aguda da doença (IgM), indicando contato recente com o vírus. Após 11 dias de sintomas, anticorpos associados à fase convalescente da doença (IgG) começam a ser detectados no soro e permanecem por um período maior no nosso organismo e indicam desenvolvimento de imunidade mas não garantem a proteção. No entanto, essa dinâmica de geração de anticorpos ainda não está totalmente confirmada, além que muitos fabricantes apresentam diferente performance dos testes, tornando as interpretações e conclusões sobre a fase da doença e certeza diagnóstica ainda mais complexas. </speak>
+      - type: html
+        text: Se estamos falando de teste molecular para detecção do vírus através de amostras de secreção nasal ou da garganta do paciente, a partir do terceiro até o sétimo dia de sintomas pode fazer o teste. Já existem evidências que períodos anteriores e posteriores a esses, podem apresentar ainda resultados positivos para a Covid-19, no entanto, aumenta bastante a chance de um teste falso negativo, ou seja, a pessoa está infectada, mas não é detectado pelo teste. No caso dos testes para detecção de anticorpos, as informações são ainda mais controversas, mas de maneira geral, acredita-se que após sete dias de sintomas, inicia-se a detecção no sangue de anticorpos na fase aguda da doença (IgM), indicando contato recente com o vírus. Após 11 dias de sintomas, anticorpos associados à fase convalescente da doença (IgG) começam a ser detectados no soro e permanecem por um período maior no nosso organismo e indicam desenvolvimento de imunidade mas não garantem a proteção. No entanto, essa dinâmica de geração de anticorpos ainda não está totalmente confirmada, além que muitos fabricantes apresentam diferente performance dos testes, tornando as interpretações e conclusões sobre a fase da doença e certeza diagnóstica ainda mais complexas.
+      - type: links
+        links:
+      - title: Quando uma pessoa deve procurar fazer o teste?
+        url: https://portal.fiocruz.br/noticia/testes-para-covid-19-como-sao-e-quando-devem-ser-feitos
+  utter_covid_exams_limitations:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak> Como todos exames médicos, o teste rápido possui algumas limitações. Algumas delas estão relacionadas às taxas de resultados incorretos que podem ocorrer. </speak>
+      - type: html
+        text: Como todos exames médicos, o teste rápido possui algumas limitações. Algumas delas estão relacionadas às taxas de resultados incorretos que podem ocorrer. 
+      - type: links
+        links:
+        - title: QUAIS SÃO AS LIMITAÇÕES DO TESTE RÁPIDO?
+          url: http://coronavirus.saude.mg.gov.br/blog/68-teste-rapido-covid-19
+  utter_covid_nosymptons_spread:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak> A principal maneira pela qual a doença se espalha é através de gotículas respiratórias expelidas por alguém que está tossindo ou tem outros sintomas como febre e cansaço. Muitas pessoas com COVID-19 experimentam apenas sintomas leves, particularmente nos estágios iniciais da doença. É possível pegar COVID-19 de alguém com tosse leve e que não se sente doente. Alguns relatórios indicaram que pessoas sem sintomas podem transmitir o vírus. Ainda não se sabe com que frequência isso acontece. Como podemos proteger aos outros e a nós mesmos se não sabemos quem está infectado? Praticar a higiene das mãos e respiratória é importante em TODOS os momentos e é a melhor maneira de proteger aos outros e a si mesma(o) Sempre que possível, mantenha uma distância de pelo menos 1 metro entre você e os outros, principalmente se você estiver ao lado de alguém que tosse ou espirra. Como algumas pessoas infectadas podem não estar ainda apresentando sintomas ou os sintomas podem ser leves, manter uma distância física de todos é uma boa ideia se você estiver em uma área onde a COVID-19 está circulando. </speak>
+      - type: html
+        text: A principal maneira pela qual a doença se espalha é através de gotículas respiratórias expelidas por alguém que está tossindo ou tem outros sintomas como febre e cansaço. Muitas pessoas com COVID-19 experimentam apenas sintomas leves, particularmente nos estágios iniciais da doença. É possível pegar COVID-19 de alguém com tosse leve e que não se sente doente. Alguns relatórios indicaram que pessoas sem sintomas podem transmitir o vírus. Ainda não se sabe com que frequência isso acontece. Como podemos proteger aos outros e a nós mesmos se não sabemos quem está infectado? Praticar a higiene das mãos e respiratória é importante em TODOS os momentos e é a melhor maneira de proteger aos outros e a si mesma(o). Sempre que possível, mantenha uma distância de pelo menos 1 metro entre você e os outros, principalmente se você estiver ao lado de alguém que tosse ou espirra. Como algumas pessoas infectadas podem não estar ainda apresentando sintomas ou os sintomas podem ser leves, manter uma distância física de todos é uma boa ideia se você estiver em uma área onde a COVID-19 está circulando.
+      - type: links
+        links:
+        - title: É possível pegar COVID-19 de uma pessoa que não apresenta sintomas? Como podemos proteger aos outros e a nós mesmos se não sabemos quem está infectadoz
+          url: https://www.paho.org/pt/covid19
+  utter_covid_dexametasona:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak> A dexametasona é um corticosteroide usado para o tratamento de várias doenças por seus efeitos anti-inflamatórios e imunossupressores. O medicamento foi testado em pacientes hospitalizados com COVID-19 nos testes clínicos Recovery, do Reino Unido, e descobriu-se que há benefícios para pacientes em situações graves. De acordo com descobertas preliminares, o tratamento reduziu a mortalidade em aproximadamente um terço nos pacientes em ventilação mecânica, e a mortalidade foi reduzida em cerca de um quinto nos pacientes que precisavam apenas de oxigênio. </speak>
+      - type: html
+        text: A dexametasona é um corticosteroide usado para o tratamento de várias doenças por seus efeitos anti-inflamatórios e imunossupressores. O medicamento foi testado em pacientes hospitalizados com COVID-19 nos testes clínicos Recovery, do Reino Unido, e descobriu-se que há benefícios para pacientes em situações graves. De acordo com descobertas preliminares, o tratamento reduziu a mortalidade em aproximadamente um terço nos pacientes em ventilação mecânica, e a mortalidade foi reduzida em cerca de um quinto nos pacientes que precisavam apenas de oxigênio.
+      - type: links
+        links:
+        - title: O que é a dexametasona?
+          url: https://www.paho.org/pt/covid19
+  utter_covid_publicplaces_cleansing:
+  - custom:
+      answers:
+      - type: ssml
+        ssml: <speak> Recomendações da OPAS/Paho para a limpeza e desinfecção em locais públicos, supermercados, mercados, lojas de bairro, bancos, transporte público e outros </speak> 
+      - type: html
+        text: "Recomendações da OPAS/Paho para a limpeza e desinfecção em locais públicos: supermercados, mercados, lojas de bairro, bancos, transporte público e outros"
+      - type: links
+        links:
+        - title: RECOMENDAÇÕES PARA A LIMPEZA E DESINFECÇÃO EM LOCAIS PÚBLICOS Supermercados, mercados, lojas de bairro, bancos, transporte público e outros 
+        url: https://iris.paho.org/bitstream/handle/10665.2/52310/OPASBRACDECOVID-19200015_por.pdf?sequence=1&isAllowed=y 

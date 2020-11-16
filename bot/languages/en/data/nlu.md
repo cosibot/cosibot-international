@@ -703,9 +703,12 @@
 - Where were you born?
 - Where you coming from?
 - Where you from?
+- which country u from
+- which country you from
 - whish country u from
 - Who are you makers?
 - Who are your creators?
+- Who built you?
 - Who created you?
 - Who is your creator?
 - Who is your maker
@@ -716,6 +719,7 @@
 - Who's your creator
 - You from?
 - Your origin.
+- Who is your builder?
 
 ## intent:bot_personal_questions
 - 3 things you can not live without.
