@@ -66,6 +66,7 @@
 - Sua aparência física.
 - Pra ver como vc è
 - Como você é?
+- Manda foto sua aí para mim ver o que você pediu o Face manda aí tem como se tu mandar tu ligar para mim te conhecer melhor
 
 ## intent:covid_exams_limitations
 - Quais as limitações dos testes?
@@ -4033,6 +4034,7 @@ Meu esposo está com covid"
 - Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar é covid19?
 - A pessoa que só tem dor nas costas pode ser covid?
 - Qual o primeiro sintomas
+- Dor de cabeça e coriza e covid
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -5293,6 +5295,8 @@ Meu esposo está com covid"
 - Quando devo ir ao medico
 - Vomitando
 - o que eu devo fazer se for contaminado
+- Minha filha está grávida e não está sentindo cheiro e nem gosto de nada
+
 
 ## intent:prevention_medicine
 - A vitaminaD3 óleo de Coco vitaminaC e zinco São bom pra aumentar a imunidade
@@ -5616,6 +5620,7 @@ Meu esposo está com covid"
 - Fiz meu teste e deu positivo
 - Quantos dias de isolamento devo ficar
 - Estou há 14 dias em isolamento, repetir o exame depois de 14 dias ainda continua com IGG E IGM POSITIVO
+- Gostaria de saber meu pai testou positivo pra covid e minha mãe ta bem mal mas testou negativo oque devemos fazer
 
 ## intent:quarantine_toiletpaper
 - Papel higiênico
@@ -5635,6 +5640,7 @@ Meu esposo está com covid"
 - "Olá. Eu fui positivada.  Hj fazem 11 dias. O vírus permanece em mim quantos dias.
 Falam que é 14 dias"
 - Preciso ate ter certeza ficar no isolamento quantos dias
+- Aff estou há quinze dias MT ruim
 
 ## intent:quaratine_how_it_works
 - Como fazer a quarentena propriamente dita?
@@ -6305,6 +6311,7 @@ Eu não estou sentindo nada"
 - Estou com uma pessoa infectada.... como faço pra fazer o teste?
 - Quanto tempo de sintomas é melhor para fazer o teste?
 - Como saber se estou infectada?
+- Qual o protocolo a ser seguido para obter de maneira acertiva se está com covid?
 
 ## intent:test_who
 - Posso fazer o teste?
