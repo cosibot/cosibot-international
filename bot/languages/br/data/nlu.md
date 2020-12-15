@@ -66,6 +66,17 @@
 - Sua aparência física.
 - Pra ver como vc è
 - Como você é?
+- Manda foto sua aí para mim ver o que você pediu o Face manda aí tem como se tu mandar tu ligar para mim te conhecer melhor
+
+## intent:covid_exams_limitations
+- Quais as limitações dos testes?
+- Quais as limitações dos exames?
+- Me diga sobre limitações dos testes.
+- Me fale sobre limitações dos testes.
+- Me diga sobre limitações dos exames.
+- Me fale sobre limitações dos exames.
+- Limitações dos testes?
+- Limitações dos exames?
 
 ## intent:bot_availability
 - Você está sempre disponível?
@@ -123,20 +134,204 @@
 - Seu horário de trabalho.
 - Vc está disponível em Qualquer momento é ?
 
-## intent:covid_vacinas_teste
+## intent:prevention_vaccine
 - Que vacinas estão sendo testadas?
+- Vacinas no Brasil
+- Quais vacinas estão sendo testadas no Brasil?
+- Vacinas em fase de teste
+- Vacinas em teste 
+- Quais vacinas existem?
+- Testes das vacinas
+- Existe alguma vacina para prevenir o coronavírus?
+- Existe uma vacina e tratamento especificos contra o novo coronavírus?
+- quais os estados do Brasil que compraram?
+- quais são vacinas disponíveis?
+- A vacina ja chegou no brazil ??
+- A vacina cura?
+- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?
+- A vacina deve ser encontrada Eu disse: como você não entendeu meu pedido?????
+- A vacina é encontrada
+- A vacina sai ainda este ano ?
+- A vacina vai funcionar?
+- Ainda não há vacina
+- Alguma atualização sobre a vacina?
+- Alguma notícia sobre a vacina no Brasil?
+- Assim, há esperança de que a vacina possa ser encontrada até o final deste ano
+- Até que ponto os médicos do governo foram com a questão da vacina covid 19?
+- De quem é a vacina? 
+- De quem é a vacina? Necessidade de lebre!
+- Diga-me a vacina da COVID-19
+- E quanto à vacina?
+- É verdade que a vacina será lançada em setembro
+- É verdade que tem uma vacina que pode sair para o povo ainda este ano?
+- E verdade que tem uma varcina pode sair para o povo ainda este ano
+- Eles ainda não são vacina para a covida 19
+- Em que estado estamos com as vacinas
+- Estará disponível a vacina no mês de julho
+- Este vírus sofre mutações e por isso fica difícil a vacina funcionar?
+- Existe ainda uma vacina descoberta?
+- existe alguma esperança no futuro sobre a vacina
+- Existe alguma vacina encontrada para esta pandemia?
+- Existe alguma vacina para este vírus?
+- Existe uma vacina para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma vacina para a COVID-19?
+- Existe uma vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma vacina para tratar a COVID-19?
+- Existe uma vacina, droga ou tratamento?
+- Existe uma vacina, medicamento ou tratamento para a COVID-19?
+- Existe uma vacina, medicamento ou tratamento?
+- Existe uma vacina?
+- existe uma vacina?
+- existe uma vacina?
+- Existe uma vacina?
+- existe uma vacina?
+- Existe vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe vacina?
+- existem vacinas para prevenir a doença?
+- existem vacinas para prevenir a doença?
+- Explicar o status da vacina covid 19
+- Foi estabelecida uma vacina contra o vírus corona?
+- há uma vacina?
+- Helena você  pode falar  se a vacina  estará prota em outubro
+- Informações sobre a promissora vacina
+- Irão encontrar uma vacina?
+- Já fizeram alguma vacina pro covid ?
+- Já Tem Uma Vacina Segura?
+- Nenhuma vacina?
+- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
+- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
+- Obrigado Helen O uganda conseguiu uma vacina contra a doença ?
+- Ok Helen Quando uma vacina pode ser produzida por alguns países
+- Ok, mas não há uma vacina ou uma solução para o problema.
+- Olá ...sou chamado Joseph, de Uganda.... minhas perguntas são... existe alguma vacina?
+- Onde está a vacina contra o vírus corona?
+- Por favor, há uma vacina para detê-la
+- Portanto, qualquer vacina ainda
+- Quais vacinas já passaram do estágio 3 dos testes finais?
+- Qualquer vacina para a COVID-19.
+- Quando a vacina chegará
+- Quando a vacina for liberada
+- Quando a vacina será liberada?
+- Quando as vacinas estarão disponíveis?
+- Quando as vacinas estarão disponíveis? Am Alfred
+- Quando é que a esperança de vacina pode ser encontrada
+- Quando teremos a vacina?
+- Quando uma vacina pode ser produzida por alguns países
+- Quando vamos ter a vacina
+- Quando virá a vacina Corona?
+- quanto tempo levará para que uma vacina saia no mercado?
+- quanto tempo levará para que uma vacina saia no mercado?
+- Que dia vai ouver vacina contra covid-19?
+- Será que a vacina sai esse ano?
+- Sera que iremos ter a tao sonhada varcina este ano ainda
+- Sim. Mas existe uma vacina?
+- Sim. Mas existe uma vacina?
+- Sobre a vacina
+- Sobre as vacinas para a COVID-19.
+- Sobre as vacinas para o tratamento da COVID-19.
+- Sobre as vacinas, medicamento ou tratamento.
+- Sobre as vacinas, medicamentos ou tratamentos para a COVID-19.
+- Sobre as vacinas.
+- Sobre as vacinas.
+- Sobre uma vacina para a COVID-19.
+- Sobre uma vacina para tratar a COVID-19.
+- Sobre uma vacina, medicamento ou tratamento para a COVID-19.
+- Sobre uma vacina, medicamento ou tratamento.
+- Sobre uma vacina.
+- Sobre vacinas para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos.
+- Talvez uma outra coisa que eu gostaria de saber seja sobre a vacina
+- Tem vacina?
+- Teremos a vacina esse ano?
+- Uma vacina deve ser encontrada
+- Vacina
+- vacina contra a covida
+- vacina covid-19
+- vacina covid-19
+- Vacina p quando?
+- vacina para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Vacina para quando?
+- vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina, medicamento ou tratamento.
+- vacina.
+- Vacinas
+- Vacinas
+- Vasina
+- Vassina
+- Vc acha que teremos uma varcina este ano ainda
+- Como se curar do covil 19
 
 ## intent:covid_covax_vacina
 - O que é a vacina covax?
+- Vacina Covax
+- Sobre a vacina Covax
+- Covax
+- Informações sobre a vacina Covax
+- A Covax é segura?
 
 ## intent:covid_oxford_vacina
 - O que é a vacina de Oxford?
+- Vacina de Oxford
+- Sobre a vacina de Oxford
+- Informações sobre a vacina de Oxford
+- Etapa de teste da vacina de Oxford
+- A vacina de Oxford é segura?
 
 ## intent:covid_china_vacina
 - Me fale sobre a vacina da China.
+- Vacina da China
+- Vacina Coronavac
+- Coronavac
+- CoronaVac
+- O que é a coronavac?
+- Sobre a vacina da China
+- Informações sobre a vacina da China
+- Etapa de teste da vacina da China
+- A vacina da China é segura?
+- Posso confiar na vacina proveniente da China ?
 
 ## intent:covid_diferenca_testes
 - Diferentes testes.
+- Quais são os testes de COVID?
+- Quais são os teste do coronavirus?
+- Qual teste posso fazer?
+- Qual teste de COVID?
+- Testes do Covid
+- Testes
+- Sobre o teste PCR
+- PCR
+- Teste PCR
+- Como funciona o teste PCR?
+- Teste de sorologia
+- Como funciona o teste de sorologia?
+- Como funciona o teste PCR?
+- Sorologia
+- Poderia me explicar sobre o IGM ..IGG do meu resultado
+- Estou há 14 dias em isolamento, repetir o exame depois de 14 dias ainda continua com IGG E IGM POSITIVO
+- Gostaria de saber se após 1 mês ter constatado positivo para igg e igm...ainda continuo com covid se ainda hj der reagente os dois?
+- Igm
+- Gostaria de saber se após 1 mês ter constatado positivo para igg e igm...ainda continuo com covid se ainda hj der reagente os dois?
+- Gostaria de saber sobre o exame de anticorpos totais Ele mostra q a pessoa está com covid ou só q já teve ou nao
+- Já tive Covid a 5 meses, precisei fazer um procedimento nessa semana e meu IgG e IgM positivaram . O que significa isso, que riscos traz a minha saúde e a dos q estão a minha volta?
+- Meu teste rápido deu presença de igg e igm, eu já estou curada?
+- Oi bom dia meu teste do covid deu presença de igg  e igm, eu ainda estou com o vírus?
+- Só queria saber sobre o teste rápido
+- Com quantos dias posso fazer o teste rápido?
+- Boa noite! Estou com os sintomas de covid 19 há dez dias,fiz o teste rápido, resultado IgG não reagente e IgM não reagente. Quero saber sobre esse resultado
+- Qual o melhor exame para detectar
+- Com quantos  dias de sintomas tem que fazer  o exame do cotonete
+
+## intent:positive_covid_exam
+- Meu teste deu positivo
+- Deu resultado positivo
+- Sou positivo de covid
+- Sou positivo
+- Meu teste é positivo
+- Psitivo
+- Positivo, e agora?
 
 ## intent:bot_books
 - Gêneros de livros que você gosta.
@@ -606,29 +801,31 @@
 - quem é você.
 
 ## intent:bot_origin
-- Você pode me dizer como você é construído?
-- Você pode me dizer como você foi construído?
-- Você pode me dizer como você foi criado?
-- Como você é construído?
-- Como você foi construído?
-- Como você foi criado?
-- Certo. Quem te criou?
-- Diga de onde você é.
-- Diga sua origem.
-- De onde você é?
-- Qual é a sua origem?
-- De onde você está vindo?
 - De onde você é originalmente?
 - De onde você é?
-- Onde você nasceu?
+- De onde você está vindo?
 - De onde você vem?
-- Quem são seus criadores?
-- Quem te criou?
+- Diga de onde você é.
+- Diga sua origem.
+- Onde você nasceu?
+- Qual é a sua origem?
+- Quem construiu vc?
+- Quem construiu você?
+- Quem criou vc?
+- Quem criou você?
+- Quem desenvolveu vc?
+- Quem desenvolveu você?
 - Quem é seu criador?
 - Quem foi seu criador?
 - Quem foram seus criadores?
-- Você é de onde?
+- Quem são seus criadores?
+- Quem te construiu?
+- Quem te criou?
 - Sua origem.
+- Você é de onde?
+- Você pode me dizer como você é construído?
+- Você pode me dizer como você foi construído?
+- Você pode me dizer como você foi criado?
 
 ## intent:bot_personal_questions
 - 3 coisas sem as quais você não pode viver.
@@ -824,8 +1021,8 @@
 - Você não é uma pessoa de verdade, é?
 - Vc é um robo?
 - Você é um robo?
-- Vc é Mulher ou homem?
 - Vc é uma pessoa de vdd??
+- Vc é Mulher ou homem?
 
 ## intent:bot_residence
 - Onde você morava quando era pequeno?
@@ -1216,16 +1413,16 @@
 - O ovo ou a galinha?
 - A galinha foi a primeira ou o ovo?
 - O ovo foi o primeiro ou a galinha?
-- O que veio primeiro- a galinha ou o ovo?
-- O que veio primeiro- o ovo ou a galinha?
+- O que veio primeiro - a galinha ou o ovo?
+- O que veio primeiro - o ovo ou a galinha?
 - O que veio primeiro?
 - Como tudo começou?
 - O que veio primeiro? galinha ou ovo?
 - O que veio primeiro? Ovo ou galinha?
 - O que foi primeiro? Galinha ou ovo?
 - O que foi primeiro? Ovo ou galinha?
-- O que havia primeiro- a galinha ou o ovo?
-- O que havia primeiro- o ovo ou a galinha?
+- O que havia primeiro - a galinha ou o ovo?
+- O que havia primeiro - o ovo ou a galinha?
 - Qual veio primeiro a galinha ou o ovo?
 - Qual veio primeiro o ovo ou a galinha?
 - Qual veio primeiro, a galinha ou o ovo?
@@ -1323,7 +1520,6 @@
 - Diga algo de interessante.
 - Diga algo engraçado.
 - Diga algo divertido.
-
 
 ## intent:cc_geography
 - Algum conhecimento sobre geografia?
@@ -2046,7 +2242,18 @@
 - Kralho
 - Não estou feliz
 - Foda-se
-
+- Vai se fude
+- Então deixa de putaria de falsas informações
+- Se fude fdp
+- Palhaçada do caralho
+- A da um tempo fake safado
+- Vai dar o teu cu
+- Não cai forakk
+- Meu ânus
+- tu e feia
+- Cu
+- Cú
+- Seu cu
 
 ## intent:comment_offense
 - Idiota!
@@ -2146,7 +2353,6 @@
 - Aprendendo a ser burra?
 - Idiota
 - Chata
-
 
 ## intent:comment_positive
 - Fantástico!
@@ -2343,6 +2549,7 @@
 ## intent:covid_babys_children
 - As crianças são afetadas?
 - Como as crianças são afetadas?
+- e verdade que criança de dois anos nao presisa usar mascara?
 
 ## intent:covid_cosibot
 - Cosibot
@@ -2374,7 +2581,7 @@
 - Como posso inscrever o meu projeto?
 - Quero registrar meu projeto
 - Quero registar
-- How to register?
+- How to register
 
 ## intent:covid_tech4covid
 - O que é o Tech4CovidBR?
@@ -2423,6 +2630,7 @@
 - Helena quando acaba esse vírus
 - Que dia acaba pandemia da covid-19?
 - Quando vai acabar
+- A pandemia  te passando ? Porque todo mundo ta se desculpando?
 
 ## intent:covid_current_statistics
 - [Yakutsk]{"entity": "geography", "value": "town"} news.
@@ -2558,7 +2766,10 @@
 - ganho imunidade se pegar o vírus outra vez?
 - Ja tive covid e tenho posibilidades de pega de novo
 - Depois que a pesoa pega covid uma ves pode pega de novo
-
+- Boa tarde,  existe comprovação de quem teve covid uma vez pode ter outra vez?
+- Sei dor de estômago e vomito e sinal de covid 19
+- Boa noite dor de estômago e vomito pertence ao sintoma de covid 19?
+- Estou com tosse com um pouco de catarro e dor de garganta
 
 ## intent:covid_incubation
 - [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
@@ -2634,6 +2845,11 @@
 - Estou com 14 dias do primeiro dia dos sintomas ainda posso transmitir o virus?
 - Quantos dias depois que pego o vírus ,manifesta os sintomas?
 - Até quantos dias do início corro risco de piora?
+- Quanto tempo VEI o sintomas pode q estive com o virus
+- Quanto tempo demora pra aparece se o sintoma
+- A incubação do vírus é até 14 dias?
+- quantos dias apos o contato com a pessoa com covid Posso manifestar sintomas
+- Boa noite,  se eu tiver contato com alguém que teve covid quanto tempo depois eu posso apresentar sintomas?
 
 ## intent:covid_info
 - [covid]{"entity": "virus", "value": "COVID"} informação
@@ -2779,6 +2995,13 @@
 - De onde o coronavirus veio
 - Onde surgiu?
 - E de q animal surgiu o covid 19
+- Qual é a origem do surto?
+- O covid 19 já existia antes?
+- Isso e obra da china
+- A china criou esse virus
+- O covid 19 já existia antes?
+- Qual a origem DO corona
+- Esse virus veio de la
 
 ## intent:covid_pandemic
 - Qual o significado da palavra pandemia?
@@ -2852,6 +3075,8 @@
 - Estou grávida meu bebê corre riscos??
 - Se eu tenho imunidade baixa, sou mais propicia a pegar de novo covid
 - Eu tenho comorditades, tenho imunidade baixa
+- O fumante tem risco
+- Sobre mulheres grávidas
 
 ## intent:covid_procedure_after_infection
 - Eu estou infectado, e agora?
@@ -3039,7 +3264,6 @@
 - [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
-- Qual é a espécie do vírus?
 - [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
 
 ## intent:covid_schools
@@ -3079,31 +3303,6 @@
 - Mas o ano que vem as aulas podem voltar
 - Att e quando as aulas em MG irá retornar
 - Att e as aulas por motivo do covid 19 quando as aulas e MG irá retorna
-
-## intent:covid_mentalhealth
-- esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
-- Estou me sentido ansiosa. O que fazer?
-- Estou com ansiedade.
-- Ansiedade
-- Depressão
-- Síndrome do Pânico
-- Como me manter tranquila durante a quarentena?
-- Como manter a sanidade mental?
-- Como manter a saúde mental?
-- Como a quarentena afeta a saúde mental?
-- Saúde mental
-- Como lidar com a pressão da doença
-- Como ajudar pessoas com ansidade durante a pandemia?
-- Problemas mentais
-- Problemas psicológicos
-- ansiedade
-- esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
-- Eu tô tendo um pior dia
-- Eu sou um lixo
-- Desculpe mais tou desistindo te td
-- Vc vai deixa uma pessoa se mata mais nn vai ajuda
-- Oq fazer quando mim sentir so
-
 
 ## intent:quarantine_exercises
 - Exercícios 
@@ -3149,6 +3348,8 @@
 - Posso transar?
 - Se for pra ter alguma relação sexual com alguém vc pega corona??
 - Transar com máscara , pode transmitir o vírus?
+- Ejaculação pega o vírus?
+- Ejaculação
 
 ## intent:covid_situation
 - Casos confirmados em [Continente Europeu]{"entity": "world_region", "value": "Europe"}
@@ -3254,6 +3455,8 @@
 - Itaperuna RJ
 - Passo fundo
 - No rio de janeiro está mais branda a doença
+- quantos carros há no Brasil
+- com esse bote quantos carros há no Brasilquantos carros há no Brasil
 
 ## intent:covid_situation_deaths
 - Qual é a taxa de mortalidade
@@ -3316,6 +3519,7 @@
 - Quão letal é o vírus?
 - Boletins
 - Dados do boletim
+- quantos mortos?
 
 ## intent:covid_situation_infected
 - Qual é o número de infectados?
@@ -3570,9 +3774,11 @@
 - por quanto tempo o vírus pode sobreviver em uma superficie de madeira?
 - por quanto tempo o vírus pode resistir em uma superficie de madeira?
 - por quantas horas o vírus sobrevive em superfícies?
-- quanto tempo vive nas superficies?
 - se eu tiver gripe posso pegar COVID?
 - Oi, o virus fica por 28 dias em ebjetos ??
+- "Bom dia!
+Preciso tirar o calçado ao entrar em casa??"
+- quanto tempo vive nas superficies?
 
 ## intent:covid_symptoms
 - Sobre os sintomas.
@@ -3819,6 +4025,16 @@ Meu esposo está com covid"
 - Dor de cabeça e um sintoma do coronavírus?
 - Olá Helena Vamos fazer um teste quais são os sintomas do
 - Dor nas costas
+- Estou com sintomas de falta de ar   será que é covid  ?
+- Viajei sesta feira....agora estou como se mim quisesse faltar de ar....será que peguei couvid  19 ?
+- Sentir pouco cheiro pode ser covid
+- Qual sintomas da covid 19
+- Eu gostaria  de saber se estou ou ñ
+- Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar e convud19
+- Estou com o nariz entupido e dai de vez enquanto é ruim pra respirar é covid19?
+- A pessoa que só tem dor nas costas pode ser covid?
+- Qual o primeiro sintomas
+- Dor de cabeça e coriza e covid
 
 ## intent:covid_treatment
 - A Covid tem algum tratamento?
@@ -3834,8 +4050,6 @@ Meu esposo está com covid"
 - A maioria das pessoas cura sem internacao?
 - Como ocorre o tratamento?
 - Quanto tempo o paciente fica internado
-- Bom dia   A pessoa que só tem dor nas costas pode ser covid?
-- Qual o primeiro sintomas
 
 ## intent:covid_worry
 - E se eu pegar o vírus?
@@ -3912,8 +4126,6 @@ Meu esposo está com covid"
 - Estou com pânico do medo
 - Tenho medo dessa doença
 - Deus deus vamos morer com este virus entao misericordia
-- Não aguento mais essa história de covid 19
-- Vish
 
 ## intent:ebola
 - Ebola
@@ -4104,9 +4316,9 @@ Meu esposo está com covid"
 - Muito obrigado por nada tenha um dia adeus
 - de nada tchau
 - Boa noite!
-- Tchau amiga
-
-
+- Boa noite rdorme com Deus
+- Fique com Deus
+- Durma com Deus
 
 ## intent:greeting_hello
 - Oi amigo.
@@ -4221,8 +4433,8 @@ Meu esposo está com covid"
 
 ## intent:mask_general
 - Assim eu trabalho diaria tem vez não tem ninguém na casa e preciso usar máscara
-- Trabalho de dirarista preciso usar máscara?
-- Sou dirarista preciso usar máscara
+- Trabalho de diarista preciso usar máscara?
+- Sou diarista preciso usar máscara
 - Posso usar uma máscara descartável?
 - Quando preciso usar máscara?
 - Posso usar uma máscara?
@@ -4332,6 +4544,7 @@ Meu esposo está com covid"
 - como descartá-la?
 - como descartar a máscara?
 - Como descartar uma M...
+- Ao lavar a máscara pode colocar água sanitária?
 
 ## intent:mask_use_put
 - Antes de colocar uma máscara descartável.
@@ -4650,6 +4863,7 @@ Meu esposo está com covid"
 - Existe uma nova virose Parecida com covid
 - Helena Quais são os mitos acerca do vidro
 - Ou é só politicagem
+- Quais são as fale News sobre o covid
 
 ## intent:prevention_clean_hands
 - Sobre a limpeza das mãos.
@@ -4689,7 +4903,6 @@ Meu esposo está com covid"
 - lavar minhas mãos já é o suficiente?
 - quando devo lavar minhas mãos?
 - como devo higienizar as mãos?
-- Como lavar as mãos
 
 ## intent:prevention_disinfection
 - Como desinfetar as coisas?
@@ -4827,6 +5040,7 @@ Meu esposo está com covid"
 - Como evitar isso?
 - Quais precauções devo tomar?
 - Comer alho previne o vírus?
+- Como fazer com as visitas que querem conhecer os bebês ?
 
 ## intent:prevention_home
 - Eu estarei seguro se eu ficar em casa?
@@ -5081,94 +5295,70 @@ Meu esposo está com covid"
 - Quando devo ir ao medico
 - Vomitando
 - o que eu devo fazer se for contaminado
+- Minha filha está grávida e não está sentindo cheiro e nem gosto de nada
+
 
 ## intent:prevention_medicine
+- A vitaminaD3 óleo de Coco vitaminaC e zinco São bom pra aumentar a imunidade
+- analgésicos?
+- aspirina?
+- como é o tratamento
+- como posso receber tratamento?
+- Cura
+- E o ibuprofeno?
+- Eu disse para tomar ibuprofeno
+- Eu preciso saber se quando sentir febre alguns sintomas pode tomar remédio para tirar a febre antes de fazer o teste do covid
+- Existe algum medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum remédio para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum remédio?
+- Existe algum tratamento?
+- Existe cura?
+- Existe medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe medicamento?
+- Existe tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma cura?
+- existem medicamentos para prevenir a doença?
 - Fui no posto eles só me dão medicamento de dor
-- remédio para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- remédio para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
-- remédio.
+- Fui no posto eles só me dão medicamento de dor
+- Gengibre é limão é bom pra combater o covid-19?
+- ibuprofeno
+- ibuprufen?
 - medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
 - medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
 - medicamento.
-- tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- tratamento.
-- vacina para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
-- vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- vacina, medicamento ou tratamento.
-- vacina.
-- Sobre remédios para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre remédios para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre remédios.
+- Medicamentos
+- O ibuprofeno prejudica os pacientes
+- O ibuprofeno prejudica os pacientes
+- O que é bom para imunidade?
+- paracetamol
+- paracetamol?
+- Por que o coronavírus não tem cura
+- Posso tomar aspirina?
+- Qual remédio devemos tomar em caso de suspeita r tratamento em casa
+- Qual remédio para tomar se tiver com covid
+- que medicação devo tomar se estiver infectado
+- Que medicamento puedo tomar
+- que medicamentos devem ser tomados?
+- que remédio funciona melhor para este vírus
+- Que remédios devo tomar?
+- remédio para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- remédio para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- remédio.
+- São bom pra aumentar a imunidade
+- Sera que iremos ter a tao sonhada varcina este ano ainda
+- sim foi preciso ibuprofeno
 - Sobre medicamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
 - Sobre medicamentos para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
 - Sobre medicamentos.
 - Sobre o tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
 - Sobre o tratamento.
-- Sobre vacinas para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre vacinas para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre vacinas, medicamentos ou tratamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
-- Sobre vacinas, medicamentos ou tratamentos.
-- Sobre as vacinas.
-- O ibuprofeno prejudica os pacientes
-- Eu disse para tomar ibuprofeno
-- Existe uma cura?
-- Existe cura?
-- Existe algum remédio para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe algum medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe algum remédio?
-- Existe medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe medicamento?
-- Existe tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe algum tratamento?
-- Existe uma vacina para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe uma vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
-- Existe uma vacina, droga ou tratamento?
-- Existe uma vacina?
-- Existe vacina?
-- Posso tomar aspirina?
-- Medicamentos
-- Vacina
-- Vacinas
-- De quem é a vacina? 
-- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
-- Sim. Mas existe uma vacina?
-- há uma vacina?
-- existem medicamentos para prevenir a doença?
-- existem vacinas para prevenir a doença?
-- aspirina?
-- vacina covid-19
-- existe uma vacina?
-- como posso receber tratamento?
-- como é o tratamento
-- quanto tempo levará para que uma vacina saia no mercado?
-- ibuprofeno
-- ibuprufen?
-- analgésicos?
-- paracetamol
-- paracetamol?
-- E o ibuprofeno?
-- que medicação devo tomar se estiver infectado
-- que remédio funciona melhor para este vírus
-- que medicamentos devem ser tomados?
-- sim foi preciso ibuprofeno
-- Que remédios devo tomar?
-- A vitaminaD3 óleo de Coco vitaminaC e zinco São bom pra aumentar a imunidade
-- São bom pra aumentar a imunidade
-- O que é bom para imunidade?
-- Fui no posto eles só me dão medicamento de dor
-- Que medicamento puedo tomar
-- Eu preciso saber se quando sentir febre alguns sintomas pode tomar remédio para tirar a febre antes de fazer o teste do covid
-- Qual remédio para tomar se tiver com covid
-- O ibuprofeno prejudica os pacientes
-- Sera que iremos ter a tao sonhada varcina este ano ainda
-- Será que a vacina sai esse ano?
-- Qual remédio devemos tomar em caso de suspeita r tratamento em casa
-- Cura
-- Por que o coronavírus não tem cura
+- Sobre remédios para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre remédios para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre remédios.
 - Tomar vitamina c
+- tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- tratamento.
 
 ## intent:prevention_respiratory_hygiene
 - Cobrir a boca e o nariz quando tossir ou espirrar.
@@ -5373,17 +5563,13 @@ Meu esposo está com covid"
 - Helena você  pode falar  se a vacina  estará prota em outubro
 - Vacina p quando?
 - Vacina para quando?
-- Quando vamos ter a vacina
-- Já Tem Uma Vacina Segura?
-- Já fizeram alguma vacina pro covid ?
-- Sera que iremos ter a tao sonhada varcina este ano ainda
-- Vc acha que teremos uma varcina este ano ainda
-- Que dia vai ouver vacina contra covid-19?
 
 ## intent:quarantine_control
 - Como se controla a quarentena?
 - Quarentena controlada
 - Quem controla a quarentena?
+- Estou contaminada e moro com meus filhos e marido e estou com medo de contaminalos
+- Eu testei positivo quantos dias pra  me recuperar
 
 ## intent:quarantine_dogwalking
 - Quarentena do cachorro
@@ -5434,7 +5620,7 @@ Meu esposo está com covid"
 - Fiz meu teste e deu positivo
 - Quantos dias de isolamento devo ficar
 - Estou há 14 dias em isolamento, repetir o exame depois de 14 dias ainda continua com IGG E IGM POSITIVO
-
+- Gostaria de saber meu pai testou positivo pra covid e minha mãe ta bem mal mas testou negativo oque devemos fazer
 
 ## intent:quarantine_toiletpaper
 - Papel higiênico
@@ -5450,6 +5636,11 @@ Meu esposo está com covid"
 - Eu estou com o covid19
 - Olá tem previsão para acabar a quarentena
 - Eu estava trabalhando aí eu parei por meu patrão  pegou o convd 19 aí a manhã fais 13 dias  aí a esposa dele mandou eu volta a trabalho mais não sei se e bom volta o que você me diz
+- Quantos dias após o ultimo sintomas de covid posso ir a rua?
+- "Olá. Eu fui positivada.  Hj fazem 11 dias. O vírus permanece em mim quantos dias.
+Falam que é 14 dias"
+- Preciso ate ter certeza ficar no isolamento quantos dias
+- Aff estou há quinze dias MT ruim
 
 ## intent:quaratine_how_it_works
 - Como fazer a quarentena propriamente dita?
@@ -5560,6 +5751,7 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Posso pegar COVID dos meus cachorros?
 - posso pegar o vídeo dos meus animais
 - Covid passa de animal para humano?
+- Cachorro pega corona virus
 
 ## intent:spread_feces
 - Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de uma pessoa infectada?
@@ -5745,6 +5937,21 @@ Estou com o nariz machucado. Nem tem muita coriza, não tenho febre, nem tosse, 
 - Quantos dias a pessoa transmite  a doença
 - Virus se espalha?
 - Mesmo eu usando máscara eu posso contrair o vírus
+- No mês de maio tive tosse,coriza e perdi o olfato e paladar e fiquei 3 meses com tosse, é possível que tive covid19 sendo que não fiz o teste?
+- Estou gripada mais sem febre pode ser covid?
+- Diarreia e vomito pode ser o virus
+- Do no corpo e a covid
+- covid da corceira onde
+- Coceira
+- Contágio
+- Informações
+- Virus contagio
+- O que acontece se eu pega corona vírus e toca em várias pessoas e em vários objetos
+- E verdade que o corona vírus transmite por espirro?
+- Só tand com a garganta emflamada sem tosse. Nem febre
+- Minha filha está com a garganta inflamada  mas não tem febre nem tosse
+- Quai os sitomas da covid 19
+- Estou com dor de garganta e gripe
 
 ## intent:spread_no_symptoms
 - Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
@@ -6066,6 +6273,7 @@ Eu não estou sentindo nada"
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida?
 - Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pelos alimentos?
 - O corona passa pela comida?
+- Teclado de computador pega corona vírus
 
 ## intent:test_virus
 - Posso ser testado para coronavírus?
@@ -6103,6 +6311,7 @@ Eu não estou sentindo nada"
 - Estou com uma pessoa infectada.... como faço pra fazer o teste?
 - Quanto tempo de sintomas é melhor para fazer o teste?
 - Como saber se estou infectada?
+- Qual o protocolo a ser seguido para obter de maneira acertiva se está com covid?
 
 ## intent:test_who
 - Posso fazer o teste?
@@ -6155,6 +6364,8 @@ Eu não estou sentindo nada"
 - Quando eu voltar da viagem.
 - apos viajar.
 - Como proceder após a viagem?
+- Viajei recentemente
+- Viajei
 
 ## intent:travel_before
 - Antes da viagem.
@@ -6195,6 +6406,8 @@ Eu não estou sentindo nada"
 - se precaver antes da viagem?
 - antes de fazer uma viagem
 - Gostaria de saber se já é possivel viajar a Europa apresentando um teste PC
+- Vou viajar
+- Viajarei em breve
 
 ## intent:travel_while
 - Durante a viagem.
@@ -7069,6 +7282,7 @@ Eu não estou sentindo nada"
 - [A/C]{"entity": "air_conditioning", "value": "A/C"} 
 - [air con]{"entity": "air_conditioning", "value": "air con"} 
 - [ar condicionado]{"entity": "air_conditioning", "value": "ar condicionado"} 
+- Se ficar em um ambiente usando máscara com muitas pessoas e teno apenas o ar condicionado circulando no ambiente pode se contagiar com o corona vírus?
 
 ## intent:myth_5G
 - [5G]{"entity": "5G", "value": "5G"} 
@@ -7141,7 +7355,7 @@ Eu não estou sentindo nada"
 - [Viseiras em acrilico]{"entity": "visors", "value": "Viseiras em acrilico"} 
 - [viseiras de proteção]{"entity": "visors", "value": "viseiras de proteção"} 
 
-
+## intent:country
 ## intent:country
 - em [Portugal]{"entity": "country_code", "value": "PT"}
 - [Espanha]{"entity": "country_code", "value": "ES"}
@@ -10023,8 +10237,6 @@ Eu não estou sentindo nada"
 - Federative Republic of Brazil
 - Brasil
 - Brazil
-- brasil
-- brazil
 
 ## synonym:BS
 - Comunidade das Bahamas
@@ -11129,6 +11341,7 @@ Eu não estou sentindo nada"
 - Witten
 - Düsseldorf
 - Dusseldorf
+- Bahamas
 - Wissen
 - Frankfurt
 - Munich
@@ -12823,3 +13036,56 @@ languages/br/data/lookup_tables/sesame_oil.txt
 
 ## lookup:visors
 languages/br/data/lookup_tables/visors.txt
+
+
+## intent:exercises
+- Atividade física
+- Exercícios
+
+## intent:covid_mentalhealth
+- esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
+- Estou me sentido ansiosa. O que fazer?
+- Estou com ansiedade.
+- Ansiedade
+- Depressão
+- Síndrome do Pânico
+- Como me manter tranquila durante a quarentena?
+- Como manter a sanidade mental?
+- Como manter a saúde mental?
+- Como a quarentena afeta a saúde mental?
+- Saúde mental
+- Como lidar com a pressão da doença
+- Como ajudar pessoas com ansidade durante a pandemia?
+- Problemas mentais
+- Problemas psicológicos
+- ansiedade
+- esou suspeita mais ainda n fiz o exame..estou aguardando...to mto desesperada o q faco p amenizar ja que tenho crises de ansiedade
+- Eu tô tendo um pior dia
+- Eu sou um lixo
+- Desculpe mais tou desistindo te td
+- Vc vai deixa uma pessoa se mata mais nn vai ajuda
+- Oq fazer quando mim sentir so
+
+## intent:covid_enem
+- Enem
+
+## intent:covid_eleicao
+- Como serão as eleições esse ano?
+- Eleições
+- Eleição
+- Vai ter eleição esse ano?
+- Quais as medidas de prevenção durante as eleições?
+
+## intent:covid_comparecimento_eleicao
+- Devo ir votar?
+- Devo comparecer as eleições?
+- Peguei covid, posso ir votar?
+- Comparecimento eleições
+- Votar
+
+## intent: covid_recomendacao_eleicoes
+- Quais são as recomendações para as eleições?
+- Quais são as recomendações para a eleição?
+- Recomendações para eleição
+- Recomendação para votar
+- Como votar

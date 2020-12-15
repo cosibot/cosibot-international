@@ -703,9 +703,12 @@
 - Where were you born?
 - Where you coming from?
 - Where you from?
+- which country u from
+- which country you from
 - whish country u from
 - Who are you makers?
 - Who are your creators?
+- Who built you?
 - Who created you?
 - Who is your creator?
 - Who is your maker
@@ -716,6 +719,7 @@
 - Who's your creator
 - You from?
 - Your origin.
+- Who is your builder?
 
 ## intent:bot_personal_questions
 - 3 things you can not live without.
@@ -4419,6 +4423,7 @@
 - Bye have a nice day
 - Bye now.
 - Bye.
+- Have anice day
 - Cya.
 - Farewell.
 - Go and sleep
@@ -5117,6 +5122,7 @@
 - which is the safety distance recommended?
 
 ## intent:prevention_general
+- What can do avoid covid
 - Alright. What are the preventing measures?
 - Okay how can I prevent. This covid 19 me as aschool boy
 - Okay how can I prevent.
@@ -6756,6 +6762,8 @@
 
 ## intent:user_no_further_questions
 - I don't need your assistance
+- If I have any questions I shall tell
+- No question rest
 - Go and talk no more
 - Am done here
 - Alright thank you very much i appreciate everything God bless you for her or him
@@ -7133,6 +7141,7 @@
 - Whoops! Sorry!
 
 ## intent:vocative_thank_you
+- Ok thanks for your feedback
 - Accept my deepest thanks
 - Accept my endless gratitude
 - All I can say is thanks
