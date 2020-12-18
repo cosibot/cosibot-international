@@ -78,6 +78,60 @@
 - Limitações dos testes?
 - Limitações dos exames?
 
+## intent:quick_exam_results
+- Como funciona o teste rápido?
+- Teste rápido
+- O que é um teste sorológico?
+- Teste rápido covid-19
+- Teste rápido coronavírus
+- O que significa o resultado do teste rápido?
+- Qual a diferença de IgG e IgM?
+- Quando devo fazer o teste rápido?
+- Devo fazer o teste rápido?
+
+## intent:covid_exam_when_and_who
+- Quais são os tipos de testes disponíveis hoje para a Covid-19?
+- Existe algum tipo de fiscalização dos testes disponíveis hoje?
+- O que buscam os testes?
+- Se a pessoa apresenta anticorpos significa que é imune à Covid-19?
+- Uma pessoa com anticorpos pode transmitir o vírus?
+- As farmácias estão autorizadas para realizar testes do coronavírus?
+- Teste de farmácia funciona?
+- Quem precisa fazer o teste?
+- Quando fazer o teste?
+
+## intent:covid_dexametasona
+- dexametasona
+- Queria saber se a dexametasona é boa pra preparar o organismo para quando pegar o vírus você não passar muito mal
+- A dexametasona funciona?
+- Então a dexametasona é bom no tratamento da covid?
+- dexametasona serve para tratar covid?
+- Posso usar dexametasona no tratamento de covid?
+- Quando já é tomado o dexametasona
+- dexametasona funciona?
+- dexametasona funciona?
+- Então a dexametasona é bom no tratamento da covid
+- dexametasona serve para tratar covid?
+- dexametasona serve para tratar covid?
+- Posso usar dexametasona no tratamento de covid?
+- Posso usar dexametasona no tratamento de covid?
+- dexametasona tem eficácia?
+
+## intent:covid_nosymptons_spread
+- É possível pegar COVID de pessoas assintomática?
+- Pegar covid de pessoas sem sintomas?
+- Pessoas sem sintomas espalham covid?
+- Pessoas sem sintomas transmitem covid?
+
+## intent:covid_publicplaces_cleansing
+- Quais as recomendações para limpeza de lugares públicos?
+- Como limpar locais públicos?
+- Como se dá a limpeza de locais públicas?
+- limpeza de locais públicas
+- Como preparar meu estabelecimento para combate ao covid?
+- Recomendações para limpeza de estabelecimentos
+
+
 ## intent:bot_availability
 - Você está sempre disponível?
 - Você está disponível 24 horas por dia, 7 dias por semana?
@@ -5114,6 +5168,8 @@ Meu esposo está com covid"
 - ivermectina serve para tratar covid?
 - Posso usar ivermectina no tratamento de covid?
 - Quando já é tomado o vermectida e o azitromicina
+
+
 
 ## intent:prevention_informed
 - Acompanhe as notícias.
