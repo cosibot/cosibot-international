@@ -5460,11 +5460,6 @@
 - About a medicine.
 - About a treatment for COVID-19.
 - About a treatment.
-- About a vaccine for COVID-19.
-- About a vaccine to treat COVID-19.
-- About a vaccine, drug or treatment for COVID-19.
-- About a vaccine, drug or treatment.
-- About a vaccine.
 - About drugs for COVID-19.
 - About drugs to treat COVID-19.
 - About drugs.
@@ -5473,20 +5468,11 @@
 - About medicines.
 - About treatment for COVID-19.
 - About treatment.
-- About vaccine
-- About vaccines for COVID-19.
-- About vaccines to treat COVID-19.
-- About vaccines, drug or treatment for COVID-19.
-- About vaccines, drug or treatment.
-- About vaccines.
 - Any chance of getting Cour for corona
 - Any cure for it
 - Any treatment confirmed
-- Any update about the vaccine?
-- Any vaccines for covid-19
 - are there a vacine?
 - are there medication to prevent the disease?
-- are there vaccines to prevent the disease?
 - aspirin?
 - but there is hope that we will get a cure?
 - But they say that there 446 recoveries Hw do they recover without the medicine
@@ -5495,39 +5481,24 @@
 - Can it be treated
 - Can it cure
 - Can this be cured?
-- covid vaccine
-- covid-19 vaccine
 - Cure
 - Cure for covid 19
 - Cure to Covid 19
 - Did america get the correct medicine
 - Did coronavirus has a medicine
-- does a vaccine exist?
 - Does corona virus have a cure
 - Does corona viruses have cure
 - Does hydrpxilechloroqin cure thrthe virus as the USA president trump claims
 - Does ibuprofen harm patients
 - Does it have cure
-- Explain the status of covid 19 vaccine
-- Has a vaccine for corona virus been established?
 - Has any country as an idea about covid 19 cure
 - Has the cure been found
 - HAVEN'T YOU GOT A CURE YET
 - Hello will that be cured without any medicine.
-- Hey ...am called Joseph from Uganda....my questions is...is there any vaccine at hand that their working on to stop the spread of covid-19
-- Hey! Is there any hope for the corona vaccine, how far with invasion of the vaccine?
 - How can Corona virus be treated.
 - how can i get treatment ?
 - How do they treat it
-- how far have researchers towards developing a vaccine of corona virus
-- How far have they gone with the Vaccine.
-- How far hv doctors gone with issue of covid 19 vaccine?
-- how far hv researchers towards developing a vaccine of corona virus
-- How far with invasion of the vaccine?
-- How far with the vaccines
 - how is the treatment
-- how long will it take for a vaccine to come out in the market?
-- How possible is discovering of the covid 19 vaccine this year
 - how to destroy covid
 - Hydroxychloroquine
 - I am asking you Have a any solution of corona virus
@@ -5537,15 +5508,10 @@
 - ibuprofen
 - ibuprufen?
 - If there is no medicine for corona virus than how people are recovering?
-- Information about the promising vaccine
-- Is covid vaccine out
-- Is it true that the vaccine will be out in September
 - Is medicine available for this
 - Is the cure for COVID19 found
 - Is the cure of Covid 19 there?
 - Is the medicine made?
-- Is the Vaccine already in existence
-- Is the vaccine found
 - Is there a cure for covid 19
 - Is there a cure for COVID 19
 - Is there a cure found for the Corona Virus
@@ -5558,86 +5524,49 @@
 - Is there a medicine?
 - Is there a treatment for COVID-19?
 - Is there a treatment?
-- is there a vaccine
-- Is there a vaccine discovered yet
-- Is there a vaccine for COVID-19?
-- Is there a vaccine to treat COVID-19?
-- Is there a vaccine, drug or treatment for COVID-19?
-- Is there a vaccine, drug or treatment?
-- Is there a vaccine?
 - Is there any drug for COVID-19
 - Is there any drug for dis virus yet
 - Is there any good news about cure for Corona virus
-- Is there any hope for the corona vaccine, how far with invasion of the vaccine?
-- Is there any hope for the corona vaccine?
-- is there any hope in the future about vaccine
 - Is there any kind of treatment as per now
 - Is there any medicine came into existence
 - Is there any treatment for corona or not
 - Is there any treatment for corona yet?
 - Is there any treatment yet?
 - Is there any treatment yet?
-- Is there any vaccine found for this pandemic
 - Is there any vacine for this virus?
 - Is there any vanicce yet for the virus
-- Is there no vaccine yet
 - Is they cure finally out
 - Is this disease curable
-- Is vaccines out
-- Like I was just asking that does it has vaccine ?
 - May I take aspirin
 - Medicine for covid
 - Medicines
-- my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - No medicine for covid19
-- No vaccine?
-- Ok but there isn't a vaccine or a solution for the problem
 - Ok...can I recover without special treatment
 - pain killers?
 - paracetamol
 - paracetamol?
-- Please there an vaccine to stop it
 - Recovery
-- So any vaccine yet
 - Tell me Abt the the drug,have u got it yet
-- Tell me vaccine of COVID-19
 - The cure of covid 19
-- They is still no vaccine for covid 19
 - Treatment for covid19
 - Update me on da therapies being used
 - Update me with corona virus medicine
 - Updates about antidote
-- Vaccine
-- Vaccines
-- Well, is the vaccine out yet?
-- Whare is vaccine? Hare need!
 - what about ibuprofen
-- what about vaccine
 - what are the medicines to treat COVID-19?
 - What are the ways to treat corona
-- What can you tell me about the hypothesis of a vaccine for Coronavirus?
 - what is its treatment...?
 - What is the medicine for this
 - What is the. Solution of corona have any medicine???
 - what medication should I take if I'm infected
 - what medicine works best for this virus
 - what medicines should be taken?
-- When is the vaccine hope to be found
 - When r we expecting a cure
-- When the vaccine will come
-- When the vaccine will release?
-- When vaccine is com out
 - When will a cure be invented?
-- When will the Corona vaccine come?
-- Where is vaccine of corona virus?
-- Why is that the vaccine is not yet discovered
-- Why is that the vaccine is not yet discovered yet it's a global pandamic.l mean many scientist are doing what
-- Will be vaccine available in the month of july
 - Will their be cure for covid 19
 - yes it did take ibuprofen
-- Yes please, I'm call Brian,,my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
-- Yes. But is there a vaccine?
 - You see, you say that coronavirus has no cure. Why people are recovering from the pandemic if there was no cure for it?
+- Hi I'd like to know if there's treatment for corona virus yet
 
 ## intent:prevention_respiratory_hygiene
 - Covering mouth and nose while coughing or sneezing.
@@ -5771,42 +5700,98 @@
 - About vaccines, drug or treatment for COVID-19.
 - About vaccines, drug or treatment.
 - About vaccines.
+- Any available vaccine
 - Any update about the vaccine?
+- Any vaccine
+- Any vaccine news baby
 - Any vaccines for covid-19
+- Any vaccines yet?
+- are there a vacine?
+- are there vaccines to prevent the disease?
+- Can you tell me more about the covid vaccine
+- covid vaccine
+- covid-19 vaccine
+- Do you have a vaccine?
+- does a vaccine exist?
+- Does Uganda have a vaccine
 - Explain the status of covid 19 vaccine
 - Has a vaccine for corona virus been established?
 - Hey ...am called Joseph from Uganda....my questions is...is there any vaccine at hand that their working on to stop the spread of covid-19
+- Hey! Is there any hope for the corona vaccine, how far with invasion of the vaccine?
+- how about the vaccine?
+- How far has Uganda reached with the clinical trial for Corona vaccine
+- How far has USA gone in research for the vaccine
+- How far have doctors gone with issue of covid 19 vaccine?
+- how far have researchers towards developing a vaccine of corona virus
+- How far have they gone with the Vaccine.
 - How far hv doctors gone with issue of covid 19 vaccine?
+- how far hv researchers towards developing a vaccine of corona virus
+- How far with covid vaccine?
+- How far with invasion of the vaccine?
+- How far with making vaccine for corona virus
+- How far with the Corona virus vaccine?
 - How far with the vaccines
+- How is the world healthy organization working on covid vaccine
+- how long will it take for a vaccine to come out in the market?
+- How possible is discovering of the covid 19 vaccine this year
+- I heard that the US has got the vaccine for covid. Is it true?
+- I'm Tom, has the vaccine been found
 - Information about the promising vaccine
+- Is covid vaccine out
+- is it true or false that there is a vaccines
 - Is it true that the vaccine will be out in September
+- is it true that the vaccines are out
+- Is the Vaccine already in existence
 - Is the vaccine found
+- Is the vaccine out
+- is there a vaccine
 - Is there a vaccine discovered yet
+- Is there a vaccine for Corona virus now
+- Is there a vaccine for covid 19
 - Is there a vaccine for COVID-19?
 - Is there a vaccine to treat COVID-19?
 - Is there a vaccine, drug or treatment for COVID-19?
 - Is there a vaccine, drug or treatment?
 - Is there a vaccine?
+- Is there any close to the vaccine
+- Is there any hope for the corona vaccine, how far with invasion of the vaccine?
+- Is there any hope for the corona vaccine?
+- is there any hope in the future about vaccine
+- Is there any vaccine for this virus?
 - Is there any vaccine found for this pandemic
 - Is there any vacine for this virus?
 - Is there no vaccine yet
+- is there vaccine?
+- Is vaccines out
+- Like I was just asking that does it has vaccine ?
 - Maybe one other thing I would like to know is about the vaccine how far they have gone with it and how many types are being processed
+- More about the covid-19 vaccine
+- my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - No vaccine?
-- Ok Helen When can a vaccine be produced by some countries
 - Ok but there isn't a vaccine or a solution for the problem
+- Ok Helen When can a vaccine be produced by some countries
 - Please there an vaccine to stop it
+- Secondly  how far is with the vaccine discovery for corona virus
 - So any vaccine yet
 - So is there hope that the vaccine can be found by end of this year
+- Tell about a vaccine discovery
 - Tell me vaccine of COVID-19
 - Thank you Helen Has uganda got a vaccine against the disease ?
 - The vaccine must be found I said how didn't you understand my request
-- The vaccine must be found I said how didn't you understand my request????
+- there a vaccines in the philippines right now?
 - They is still no vaccine for covid 19
+- Vaccine
 - Vaccines
+- Well, is the vaccine out yet?
 - Whare is vaccine? Hare need!
+- what about vaccine
+- what are the vaccines that have been tested?
+- what are the vaccines?
 - What can you tell me about the hypothesis of a vaccine for Coronavirus?
 - When can a vaccine be produced by some countries
 - When is the vaccine hope to be found
+- When should we expect covid 19 vaccine,,, THAX HELLEN
+- When should we expect vaccine
 - When the vaccine will come
 - When the vaccine will release?
 - When vaccine is com out
@@ -5815,16 +5800,155 @@
 - When will the vaccines be available? Am Alfred
 - Where is vaccine of corona virus?
 - Which vaccines have passed stage 3 of the final testing already
+- Why is that the vaccine is not yet discovered
+- Why is that the vaccine is not yet discovered yet it's a global pandamic.l mean many scientist are doing what
 - Will be vaccine available in the month of july
+- Yes please, I'm call Brian,,my inquiry is that,how far have researchers towards developing a vaccine of corona virus
+- Yes please, I'm call Brian,,my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - Yes. But is there a vaccine?
-- are there a vacine?
-- are there vaccines to prevent the disease?
-- covid vaccine
-- covid-19 vaccine
-- does a vaccine exist?
-- how long will it take for a vaccine to come out in the market?
-- is there any hope in the future about vaccine
-- what about vaccine
+
+## intent:vaccine_pfizer_about
+- About Pfizer Vaccine
+- About the pfizer vaccine
+- Pfizer vaccine
+- The pfizer vaccine
+- More about pfizer vaccine
+- On pfizer vaccine
+- Info pfizer vaccine
+- Info about pfizer vaccine
+- Information about pfizer vaccine
+- Infomration pfizer vaccine
+- Info on pfizer vaccine
+- Information on pfizer vaccine
+- More on pfizer vaccine
+- About Pfizer-BioNTech Vaccine
+- About the Pfizer-BioNTech vaccine
+- Pfizer-BioNTech vaccine
+- The Pfizer-BioNTech vaccine
+- More about Pfizer-BioNTech vaccine
+- On Pfizer-BioNTech vaccine
+- Info Pfizer-BioNTech vaccine
+- Info about Pfizer-BioNTech vaccine
+- Information about Pfizer-BioNTech vaccine
+- Infomration Pfizer-BioNTech vaccine
+- Info on Pfizer-BioNTech vaccine
+- Information on Pfizer-BioNTech vaccine
+- More on Pfizer-BioNTech vaccine
+- About Pfizer BioNTech Vaccine
+- About the Pfizer BioNTech vaccine
+- Pfizer BioNTech vaccine
+- The Pfizer BioNTech vaccine
+- More about Pfizer BioNTech vaccine
+- On Pfizer BioNTech vaccine
+- Info Pfizer BioNTech vaccine
+- Info about Pfizer BioNTech vaccine
+- Information about Pfizer BioNTech vaccine
+- Infomration Pfizer BioNTech vaccine
+- Info on Pfizer BioNTech vaccine
+- Information on Pfizer BioNTech vaccine
+- More on Pfizer BioNTech vaccine
+- Pfizer
+- Pfizer BioNTech
+- Pfizer-BioNTech
+
+## intent:vaccine_moderna_about
+- About moderna Vaccine
+- About the moderna vaccine
+- moderna vaccine
+- The moderna vaccine
+- More about moderna vaccine
+- On moderna vaccine
+- Info moderna vaccine
+- Info about moderna vaccine
+- Information about moderna vaccine
+- Infomration moderna vaccine
+- Info on moderna vaccine
+- Information on moderna vaccine
+- More on moderna vaccine
+- Moderna
+
+## intent:vaccine_take_or_not
+- Should I take the covid vaccine, is it good fo health?
+- Some people say that, the vaccine is scam, is that real ma'am?
+- Should I take the covid vaccine
+- Should I take the vaccine?
+- Should I be vaccinated?
+- Should I take the vaccine?
+- Should I take the vaccine or not?
+- Should I be vaccinated or nor?
+- Is it safe to take the vaccine?
+- Is it safe to be vaccinated?
+- Is the vaccine safe?
+- Are the vaccines safe?
+- Is the vaccine safe to be taken?
+- Take the vaccine or not?
+- Would be better to be vaccinated or not?
+- Would be better to receive the vaccine or not?
+- Would be better to be vaccinated?
+- Would be better to recieve the vaccine?
+- Should I receive the vaccine?
+- Should I receive the covid vaccine?
+- I don't know if the vaccine is safe
+- I don't know if I should take the vaccine
+- I don't know either or not to take the vaccine
+- I don't know if I should receive the vaccine
+- I don't know either or not to receive the vaccine
+
+## intent:vaccine_ingredients
+- What the ingredient of vaccine corona virus?
+- Vaccine ingredients
+- Vaccines ingredients
+- Which are the vaccine ingredients?
+- Which ingredients have the vaccine?
+- Which ingredients have the vaccines?
+- Which are the vaccines ingredients?
+- Does the vaccine contain eggs?
+- Does the vaccine contain latex?
+- Does the vaccine contain preservatives?
+- Do the vaccines contain eggs?
+- Do the vaccines contain latex?
+- Do the vaccines contain preservatives?
+- List of ingredients of the vaccine.
+- List of the vaccine's ingredients.
+- What is the vaccine's list of ingredients?
+- More about the vaccine's list of ingredients
+- More about the vaccine's ingredients
+- More about the vaccine ingredients
+- What are the ingredients of vaccine corona virus?
+- What are the ingredients of the vaccine?
+- What are the ingredients of the vaccines?
+- Ingredients vaccine
+- Ingredients vaccines
+
+## intent:vaccine_when
+- When is the vaccine on market
+- Is there a possibility of getting a vaccine with in this year
+- When could I be vaccinated?
+- When can I be vaccinated?
+- Priority groups for vaccination
+- Vaccination when
+- How many time should I wait to be vaccinated
+- When will the vaccine be available for all?
+- When will the vaccine be available for me?
+- When will the vaccine be available?
+- Waiting list vaccination
+- Vaccination waiting list
+- Vaccination priority
+- Vaccination priority list
+
+## intent:vaccine_administration
+- How is the vaccine administrated
+- How is the vaccine given?
+- About vaccine administration
+- Info vaccine administration
+- Vaccine administration
+- How are the vaccines administrated
+- How are the vaccines given?
+- About vaccines administration
+- Info vaccines administration
+- Vaccines administration
+- Administration vaccine
+- Administration vaccines
 
 ## intent:quarantine_control
 - How is the quarantine controlled?

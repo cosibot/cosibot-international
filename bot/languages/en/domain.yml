@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: "0.3.4"
+    initial_value: "0.3.5"
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -246,6 +246,13 @@ actions:
   - utter_fallback_request_error
   - utter_fallback_request_hasdata
   - utter_command_change_bot
+  - utter_vaccine_pfizer_about
+  - utter_vaccine_moderna_about
+  - utter_vaccine_take_or_not
+  - utter_vaccine_when
+  - utter_vaccine_ingredients
+  - utter_vaccine_administration
+
 
 intents:
   - start_dialogue
@@ -405,6 +412,13 @@ intents:
   - vocative_yes
   - vocative_you_welcome
   - bot_change_bot
+  - vaccine_pfizer_about
+  - vaccine_moderna_about
+  - vaccine_take_or_not
+  - vaccine_when
+  - vaccine_ingredients
+  - vaccine_administration
+
 
 responses:
   utter_command_change_bot:
@@ -1533,9 +1547,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Research about vaccines is happening at breakneck speed. About 140 are in early development, and around two dozen are now being tested on people in clinical trials. A vaccine would normally take years, if not decades, to develop. Researchers hope to achieve the same amount of work in only a few months. Most experts think a vaccine is likely to become widely available by mid-2021, about 12-18 months after Sars Cov 2 first emerged. That would be a huge scientific feat and there are no guarantees it will work. Four coronaviruses already circulate in human beings. They cause common cold symptoms and we don't have vaccines for any of them.</speak>
+            ssml: <speak>Currently, two vaccines are authorized and recommended to prevent Covid 19, ​​​​Pfizer bionyech Covid 19 vaccine and Moderna’s Covid 19 vaccine​​. Multiple Covid 19 vaccines are also still under development. Large-scale clinical trials are in progress or being planned for two additional Covid 19 vaccines in the United States alone.</speak>
           - type: html
-            text: Research about vaccines is happening at breakneck speed. About 140 are in early development, and around two dozen are now being tested on people in clinical trials. A vaccine would normally take years, if not decades, to develop. Researchers hope to achieve the same amount of work in only a few months. Most experts think a vaccine is likely to become widely available by mid-2021, about 12-18 months after Sars Cov 2 first emerged. That would be a huge scientific feat and there are no guarantees it will work. Four coronaviruses already circulate in human beings. They cause common cold symptoms and we don't have vaccines for any of them.<ahref='https://www.bbc.com/news/health-51665497'target='_blank'>(1)</a>
+            text: "Currently, two vaccines are authorized and recommended to prevent COVID-19: ​​​​<ul><li>Pfizer-BioNTech COVID-19 vaccine </li><li>Moderna’s COVID-19 vaccine​​. </li></ul>Multiple COVID-19 vaccines are also still under development. Large-scale clinical trials are in progress or being planned for two additional COVID-19 vaccines in the United States alone.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/faq.html'target='_blank'>(1)</a>"
           - type: hints
             options:
               - label: Preventive Measures
@@ -1548,6 +1562,56 @@ responses:
                 value: Transmission
               - label: World Situation
                 value: World Situation
+  utter_vaccine_pfizer_about:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>The Pfizer Biontech Covid 19 Vaccine is a vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Pfizer Biontech Covid 19 Vaccine to prevent Covid 19 in individuals 16 years of age and older under an Emergency Use Authorization. </speak>
+          - type: html
+            text: The Pfizer-BioNTech COVID-19 Vaccine is a vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Pfizer-BioNTech COVID-19 Vaccine to prevent COVID-19 in individuals 16 years of age and older under an Emergency Use Authorization (USA).<ahref='https://www.fda.gov/media/144414/download'target='_blank'>(1)</a>     
+  utter_vaccine_moderna_about:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>The Moderna Covid 19 Vaccine is an unapproved vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Moderna Covid 19 Vaccine to prevent Covid 19 in individuals 18 years of age and older under an Emergency Use Authorization.</speak>
+          - type: html
+            text: The Moderna COVID-19 Vaccine is an unapproved vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Moderna COVID-19 Vaccine to prevent COVID-19 in individuals 18 years of age and older under an Emergency Use Authorization (EUA).<ahref='https://www.fda.gov/media/144638/download'target='_blank'>(1)</a>          
+  utter_vaccine_take_or_not:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>It is understandable that some people may be concerned about getting vaccinated now that Covid 19 vaccines are available. While more Covid 19 vaccines are being developed as quickly as possible, routine processes and procedures remain in place to ensure the safety of any vaccine that is authorized or approved for use. Safety is a top priority, and there are many reasons to get vaccinated, it will help keep you from getting COVID-19, it's a safer way to help build protection, it will be an important tool to help stop the pandemic.</speak>
+          - type: html
+            text: "It is understandable that some people may be concerned about getting vaccinated now that COVID-19 vaccines are available. While more COVID-19 vaccines are being developed as quickly as possible, routine processes and procedures remain in place to ensure the safety of any vaccine that is authorized or approved for use. Safety is a top priority, and there are many reasons to get vaccinated: <ul><li>it will help keep you from getting COVID-19; </li><li>it's a safer way to help build protection; </li><li>it will be an important tool to help stop the pandemic.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html'target='_blank'>(1)</a>"   
+  utter_vaccine_when:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>The goal is for everyone to be able to easily get a Covid 19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. Right now the priority group is the healthcare personnel and long-term care facility residents.</speak>
+          - type: html
+            text: The goal is for everyone to be able to easily get a COVID-19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. <br>Right now the priority group is the healthcare personnel and long-term care facility residents.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html'target='_blank'>(1)</a>      
+  utter_vaccine_ingredients:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Both the Pfizer Biontech Covid 19 Vaccine and the Moderna Covid 19 Vaccine do not contain Eggs, Preservatives or Latex. For a full list of ingredients, see the Vaccines Fact Sheet provided below.</speak>
+          - type: html
+            text: "Both the Pfizer-BioNTech COVID-19 Vaccine and the Moderna COVID-19 Vaccine do not contain Eggs, Preservatives or Latex. For a full list of ingredients, see the Vaccines Fact Sheet provided below:"
+          - type: links
+            links:
+              - title: Pfizer-BioNTech COVID-19 Vaccine
+                url: https://www.fda.gov/media/144414/download
+          - type: links
+            links:
+              - title: Moderna COVID-19 Vaccine
+                url: https://www.fda.gov/media/144638/download    
+  utter_vaccine_administration:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Both the Pfizer-BioNTech Covid 19 Vaccine and the Moderna Covid 19 Vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.</speak>
+          - type: html
+            text: Both the Pfizer-BioNTech COVID-19 Vaccine and the Moderna COVID-19 Vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>                                                       
   utter_prevention_clean_hands:
     - custom:
         answers:

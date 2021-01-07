@@ -303,6 +303,30 @@ COVID-19 Prevention
 * prevention_vaccine
   - utter_prevention_vaccine
 
+## vaccine_pfizer_about
+* vaccine_pfizer_about
+  - utter_vaccine_pfizer_about
+
+## vaccine_moderna_about
+* vaccine_moderna_about
+  - utter_vaccine_moderna_about
+
+## vaccine_take_or_not
+* vaccine_take_or_not
+  - utter_vaccine_take_or_not
+
+## vaccine_when
+* vaccine_when
+  - utter_vaccine_when
+
+## vaccine_ingredients
+* vaccine_ingredients
+  - utter_vaccine_ingredients
+
+## vaccine_administration
+* vaccine_administration
+  - utter_vaccine_administration
+
 
 <!------------------ 
 Myths
