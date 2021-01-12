@@ -377,6 +377,7 @@
 - Boa noite! Estou com os sintomas de covid 19 há dez dias,fiz o teste rápido, resultado IgG não reagente e IgM não reagente. Quero saber sobre esse resultado
 - Qual o melhor exame para detectar
 - Com quantos  dias de sintomas tem que fazer  o exame do cotonete
+- Quais tipos de exames?
 
 ## intent:positive_covid_exam
 - Meu teste deu positivo
@@ -2740,6 +2741,8 @@
 - A minha dúvida e quanto tempo os sintomas ficam
 - A minha dúvida é quanto tempo os sintomas ficam
 - Por quanto tempo, sinto os sintomas?
+- Quando tempo uma pessoa que tem sintomas leves leva pra se recopera
+- Quanto tempo dura os sintomas da covid?
 
 ## intent:covid_food
 - Posso me infectar com o novo vírus corona a partir de alimentos ou da água?
@@ -4560,6 +4563,7 @@ Meu esposo está com covid"
 - devemos utilizar uma mascara
 - mascara ou não mascara
 - mascaras são inuteis
+- posso usar a mesma máscara dpor quanto tempo?
 
 ## intent:mask_use_after
 - Depois de usar uma máscara descartável.
@@ -13145,3 +13149,33 @@ languages/br/data/lookup_tables/visors.txt
 - Recomendações para eleição
 - Recomendação para votar
 - Como votar
+
+## intent:vaccine_pfizer_about
+- Sobre a vacina pfizer
+- Sobre a vacina da pfizer
+- Vacina da pfizer
+
+## intent:vaccine_moderna_about
+- Sobre a vacina moderna
+- Sobre a vacina da moderna
+- Vacina da moderna
+
+## intent:vaccine_take_or_not
+- Devo ser vacinado?
+- Devo levar a vacina?
+- Não sei se devo ser vacinado contra a Covid
+
+## intent:vaccine_ingredients
+- Quais os ingredientes da vacina?
+- Ingredientes da vacina
+- Ingredientes das vacinas
+
+## intent:vaccine_when
+- Quando poderei ser vacinado?
+- Quando posso ser vacinado?
+- Tempo de espera para ser vacinado
+
+## intent:vaccine_administration
+- Como é dada a vacina?
+- Como é admnistrada a vacina?
+- Como é a administração da vacina?

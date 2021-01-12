@@ -18,7 +18,7 @@ slots:
     initial_value: False
   bot_version:
     type: text
-    initial_value: '0.1.2'
+    initial_value: '0.1.4'
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -289,6 +289,12 @@ actions:
 - utter_covid_publicplaces_cleansing
 - utter_positive_covid_exam
 - utter_prevention_vaccine
+- utter_vaccine_pfizer_about
+- utter_vaccine_moderna_about
+- utter_vaccine_take_or_not
+- utter_vaccine_when
+- utter_vaccine_ingredients
+- utter_vaccine_administration
 
 
 intents:
@@ -470,6 +476,12 @@ intents:
 - covid_nosymptons_spread
 - covid_publicplaces_cleansing
 - positive_covid_exam
+- vaccine_pfizer_about
+- vaccine_moderna_about
+- vaccine_take_or_not
+- vaccine_when
+- vaccine_ingredients
+- vaccine_administration
 
 responses:
   utter_command_change_bot:
@@ -484,28 +496,9 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Olá, meu nome é {bot_name} e estou aqui para dar informações
-          e orientações sobre o atual surto de Covid 19, como por exemplo, como
-          evitar a propagação, ou esclarecer alguns mitos que talvez você tenha
-          ouvido. Como posso ajudar?</speak>
+        ssml: <speak>Olá! Chamo-me Helena, a assistente virtual para dar informações sobre a Covid 19. <br>Estive ao dispor durante 8 meses e desde Novembro de 2020 fui desativada, sendo que não tenho mais atualizações. Pode consultar a minha colega Helen, disponível em inglês, para continuar atualizado. Pode entrar em contato com ela através da web, facebook, whatsapp ou sms. Cuide-se e mantenha-se seguro. Obrigada por tudo!</speak>
       - type: html
-        text: Olá, meu nome é {bot_name} e estou aqui para dar informações e orientações
-          sobre o atual surto de COVID-19, como por exemplo, como evitar a propagação,
-          ou esclarecer alguns mitos que talvez você tenha ouvido.
-      - type: html
-        text: Como posso ajudar?
-      - type: hints
-        options:
-        - label: Sobre COVID-19
-          value: Sobre COVID-19
-        - label: Medidas preventivas
-          value: Medidas preventivas
-        - label: Transmissão
-          value: Transmissão
-        - label: Sintomas
-          value: Sintomas
-        - label: Mitos
-          value: Mitos
+        text: Olá! Chamo-me Helena, a assistente virtual para dar informações sobre a COVID-19. <br>Estive ao dispor durante 8 meses e desde Novembro de 2020 fui desativada, sendo que não tenho mais atualizações. <br>Pode consultar a minha colega Helen, disponível em inglês, para continuar atualizado. Pode entrar em contato com ela através da <a href='https://cosibot.org/'target='_blank'>Web</a>, <a href='https://m.me/cosibot'target='_blank'>Facebook</a>, <a href='https://cosibot.org/'target='_blank'>Web</a>, <a href='https://wa.me/4915735989133'target='_blank'>WhatsApp</a> ou <a href='sms:+4915735989133'target='_blank'>SMS</a>. <br>Cuide-se e mantenha-se seguro. Obrigada por tudo!
   utter_greeting_hello:
   - custom:
       answers:
@@ -3449,3 +3442,53 @@ responses:
         links:
         - title: RECOMENDAÇÕES PARA A LIMPEZA E DESINFECÇÃO EM LOCAIS PÚBLICOS Supermercados, mercados, lojas de bairro, bancos, transporte público e outros 
         url: https://iris.paho.org/bitstream/handle/10665.2/52310/OPASBRACDECOVID-19200015_por.pdf?sequence=1&isAllowed=y 
+  utter_vaccine_pfizer_about:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>The Pfizer Biontech Covid 19 Vaccine is a vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Pfizer Biontech Covid 19 Vaccine to prevent Covid 19 in individuals 16 years of age and older under an Emergency Use Authorization. </speak>
+          - type: html
+            text: The Pfizer-BioNTech COVID-19 Vaccine is a vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Pfizer-BioNTech COVID-19 Vaccine to prevent COVID-19 in individuals 16 years of age and older under an Emergency Use Authorization (USA).<ahref='https://www.fda.gov/media/144414/download'target='_blank'>(1)</a>     
+  utter_vaccine_moderna_about:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>The Moderna Covid 19 Vaccine is an unapproved vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Moderna Covid 19 Vaccine to prevent Covid 19 in individuals 18 years of age and older under an Emergency Use Authorization.</speak>
+          - type: html
+            text: The Moderna COVID-19 Vaccine is an unapproved vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Moderna COVID-19 Vaccine to prevent COVID-19 in individuals 18 years of age and older under an Emergency Use Authorization (EUA).<ahref='https://www.fda.gov/media/144638/download'target='_blank'>(1)</a>          
+  utter_vaccine_take_or_not:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>It is understandable that some people may be concerned about getting vaccinated now that Covid 19 vaccines are available. While more Covid 19 vaccines are being developed as quickly as possible, routine processes and procedures remain in place to ensure the safety of any vaccine that is authorized or approved for use. Safety is a top priority, and there are many reasons to get vaccinated, it will help keep you from getting COVID-19, it's a safer way to help build protection, it will be an important tool to help stop the pandemic.</speak>
+          - type: html
+            text: "It is understandable that some people may be concerned about getting vaccinated now that COVID-19 vaccines are available. While more COVID-19 vaccines are being developed as quickly as possible, routine processes and procedures remain in place to ensure the safety of any vaccine that is authorized or approved for use. Safety is a top priority, and there are many reasons to get vaccinated: <ul><li>it will help keep you from getting COVID-19; </li><li>it's a safer way to help build protection; </li><li>it will be an important tool to help stop the pandemic.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html'target='_blank'>(1)</a>"   
+  utter_vaccine_when:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>The goal is for everyone to be able to easily get a Covid 19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. Right now the priority group is the healthcare personnel and long-term care facility residents.</speak>
+          - type: html
+            text: The goal is for everyone to be able to easily get a COVID-19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. <br>Right now the priority group is the healthcare personnel and long-term care facility residents.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html'target='_blank'>(1)</a>      
+  utter_vaccine_ingredients:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Both the Pfizer Biontech Covid 19 Vaccine and the Moderna Covid 19 Vaccine do not contain Eggs, Preservatives or Latex. For a full list of ingredients, see the Vaccines Fact Sheet provided below.</speak>
+          - type: html
+            text: "Both the Pfizer-BioNTech COVID-19 Vaccine and the Moderna COVID-19 Vaccine do not contain Eggs, Preservatives or Latex. For a full list of ingredients, see the Vaccines Fact Sheet provided below:"
+          - type: links
+            links:
+              - title: Pfizer-BioNTech COVID-19 Vaccine
+                url: https://www.fda.gov/media/144414/download
+          - type: links
+            links:
+              - title: Moderna COVID-19 Vaccine
+                url: https://www.fda.gov/media/144638/download    
+  utter_vaccine_administration:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Both the Pfizer-BioNTech Covid 19 Vaccine and the Moderna Covid 19 Vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.</speak>
+          - type: html
+            text: Both the Pfizer-BioNTech COVID-19 Vaccine and the Moderna COVID-19 Vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>                                                               
