@@ -105,6 +105,10 @@ About Covid-19
 * covid_tech4covid
   - utter_covid_tech4covid
 
+## covid_new_strain
+* covid_new_strain
+  - utter_covid_new_strain
+
 ## covid_volunteer
 * covid_volunteer
   - utter_covid_volunteer
