@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: "0.3.5"
+    initial_value: "0.3.6"
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -252,6 +252,7 @@ actions:
   - utter_vaccine_when
   - utter_vaccine_ingredients
   - utter_vaccine_administration
+  - utter_covid_new_strain
 
 
 intents:
@@ -418,6 +419,7 @@ intents:
   - vaccine_when
   - vaccine_ingredients
   - vaccine_administration
+  - covid_new_strain
 
 
 responses:
@@ -3325,6 +3327,15 @@ responses:
           - type: html
             text: I am unable to give you a concrete answer since each country has its
               own schedule regarding  the re-opening of schools.
+  utter_covid_new_strain:
+    - custom:
+        answers:
+          - type: ssml
+            ssml: <speak>Multiple Covid 19 variants are circulating globally. In the United Kingdom, a new variant has emerged with an unusually large number of mutations. This variant seems to spread more easily and quickly than other variants. Currently, there is no evidence that it causes more severe illness or increased risk of death.</speak>
+          - type: html
+            text: Multiple COVID-19 variants are circulating globally. In the United Kingdom (UK), a new variant has emerged with an unusually large number of mutations. This variant seems to spread more easily and quickly than other variants. Currently, there is no evidence that it causes more severe illness or increased risk of death.<a
+              href='https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html.'
+              target='_blank'>(1)</a>              
   utter_fallback_first:
     - custom:
         answers:

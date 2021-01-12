@@ -3753,6 +3753,8 @@
 - Is it sexually transmitted
 - Ok sex
 - Sex
+- My dick isn't getting hard anymore
+- My dick is permanently flaccid now,did the Corona virus affect this?
 - Transmission and sex
 - Why we mustn't do sex
 - sexual relations and transmission
@@ -6338,6 +6340,32 @@
 - Someone without symptoms can pass the virus?
 - Someone without symptoms can transmit the virus?
 - Those who are asymptomatic to Covid-19; how can they know they are infected without testing and how long can they live with the virus before they die?
+
+## intent:covid_new_strain
+- new strain
+- new variant
+- new variants
+- new strains
+- What is the new strain?
+- What are the new strains?
+- What is the new variant?
+- What are the new variants?
+- New COVID-19 Variants
+- New COVID-19 Strains
+- What is the new strain of covid?
+- What are the new strains of covid?
+- What is the new variant of covid?
+- What are the new variants of covid?
+- New COVID-19 Variant
+- New COVID-19 Strain
+- COVID-19 Variants
+- COVID-19 Strains
+- COVID-19 Variant
+- COVID-19 Strain
+- Variants covid
+- Strains covid
+- Variant covid
+- Strain covid
 
 ## intent:spread_pets
 - Can I be infected from my cat?
