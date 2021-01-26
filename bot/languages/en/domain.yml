@@ -926,12 +926,12 @@ responses:
               developed with the World Organisation for Animal Health and the
               Food and Agriculture Organization of the United Nations.</speak>
           - type: html
-            text: "Severe acute respiratory syndrome coronavirus 2" (SARS-CoV-2) is the
+            text: "'Severe acute respiratory syndrome coronavirus 2' (SARS-CoV-2) is the
               name of the new virus because it is genetically related to the
-              coronavirus responsible for the SARS outbreak of 2003. <br>"COVID-19" is the name of this new disease, following
+              coronavirus responsible for the SARS outbreak of 2003. <br>'COVID-19' is the name of this new disease, following
               guidelines previously developed with the World Organisation for
               Animal Health (OIE) and the Food and Agriculture Organization of
-              the United Nations (FAO).<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it'target='_blank'>(1)</a>
+              the United Nations (FAO).<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it'target='_blank'>(1)</a>"
           - type: hints
             options:
               - label: About COVID-19
