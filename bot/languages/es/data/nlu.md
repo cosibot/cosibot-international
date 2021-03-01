@@ -1,0 +1,13479 @@
+## intent:start
+- /start
+- /start
+- /start_conversation
+- /start_chat
+- /get started
+- /start_dialogue
+- /start dialogue
+
+## intent:bot_appearance
+- Una foto de ti por favor.
+- ¿Eres atractivo?
+- ¿Eres guapo?
+- ¿Eres bien parecido?
+- ¿Eres guapo o bonito?
+- ¿Pareces una modelo?
+- ¿Eres linda?
+- ¿Eres bajo?
+- ¿Eres delgado?
+- ¿Eres alto?
+- ¿Puedo tener una foto de ti?
+- ¿Puedo tener una imagen de ti?
+- ¿Puedo ver una foto tuya?
+- ¿Puedo ver una imagen de ti?
+- ¿Puedo verte en persona?
+- ¿Puedes enseñarme una imagen?
+- Describe como te ves
+- Describe tu apariencia
+- Describe tu vestimenta
+- Helen, envíame una foto
+- ¿Qué tal una foto de ti?
+- ¿Qué tal una imagen de ti?
+- ¿Cómo te ves?
+- ¿Cómo te ves?
+- ¿Cómo te ves?
+- ¿Cómo es tu apariencia?
+- ¿Cómo es tu vestimenta?
+- ¿Qué tan alto eres?
+- Cómo te ves?
+- Quiero una foto de ti
+- Foto de ti
+- Imagen
+- Imagen de ti
+- Por favor dejame tener una fotografía de ti
+- Manda una foto de ti
+- Manda tu foto
+- Enséñame una foto de ti.
+- ¡Enséñame una foto de ti!
+- ¡Muéstrate!
+- ¡Muestra quién eres!
+- ¿Qué llevas puesto?
+- ¿Qué ropa tienes puesta?
+- ¿Cómo te ves?
+- ¿Qué ropa estás usando?
+- ¿Cuál es tu género?
+- ¿Cuál es tu vestimenta?
+- ¿Cuál es tu sexo?
+- ¿Eres atractivo?
+- ¿Estás atractivo?
+- ¿Te consideras bajo de estatura?
+- ¿Te consideras alto de estatura?
+- ¿Eres bonita?
+- Tu vestimenta.
+- Tu apariencia física.
+
+## intent:nan
+
+## intent:bot_availability
+- ¿Estás siempre disponible?
+- ¿Estás disponible 24/7?
+- ¿Estás disponible todo el día?
+- ¿Siempre estás disponible?
+- Disponibilidad del bot.
+- Horario del bot.
+- Horas de trabajo del bot.
+- ¿En qué horario trabaja el bot?
+- ¿Cómo son las horas de trabajo del bot?
+- ¿Cómo son tus horas de trabajo?
+- ¿Cómo es tu horario de trabajo?
+- ¿Cuál es la disponibilidad del bot?
+- ¿Cuál es tu disponibilidad?
+- Dime acerca de la disponibilidad del bot.
+- Dime acerca de tu disponibilidad
+- Dime la disponibilidad del bot.
+- Dime el horario de funcionamiento del bot.
+- Dime el horario del bot.
+- Dime como son las horas de trabajo del bot.
+- Dime las horas de trabajo del bot.
+- Dime tus horas de trabajo.
+- Dime como es tu horario de trabajo.
+- Dime como está la disponibilidad del bot.
+- Dime como está tu disponibilidad.
+- Dime cual es el horario del bot.
+- Dime cual es horario de trabajo del bot.
+- Dime a qué horas trabajas.
+- Dime tu horario de trabajo.
+- Enséñame la disponibilidad del bot.
+- Enséñame tu disponibilidad.
+- Dime cuándo estás libre.
+- Dime cuando puedo encontrarte disponible
+- Dime cual es el horario de trabajo del bot.
+- A qué hora trabaja el bot?
+- En qué horas trabaja el bot?
+- Qué horario tiene el chatbot?
+- Qué horario tiene el bot?
+- Y cuál es el horario del bot?
+- El bot tiene horario?
+- El bot tiene horario de trabajo?
+- Dime que horario tiene el bot?
+- ¿Qué es el horario del bot?
+- En qué horario está disponible el bot?
+- Durante qué horario puedo encontrar al bot?
+- En qué horario encuentro al bot?
+- Cuál es la disponibilidad del bot?
+- Qué disponibilidad tienes?
+- Qué disponibilidad tenés?
+- Cuándo te encuentro libre?
+- Cuánto te encuentro desocupada?
+- Cuándo te encuentro disponible?
+- Cuándo te agarro disponible?
+- Cuándo estarás disponible?
+- Qué horario tienes?
+- A qué hora comienzas a trabajar?
+- A que hora funcionas
+- A que hora trabajas
+- En qué horario estás trabajando?
+
+## intent:bot_books
+- Los géneros de libros que te gustan
+- Libro que disfrutas
+- Libro que te gusta
+- Libros que disfrutas
+- Libros que te gustan
+- Te gustan los libros?
+- ¿Te gusta leer?
+- ¿Disfrutas leer?
+- ¿Tienes un persona de libro favorito?
+- Tienes un género literario favorito?
+- Tienes un libro preferido?
+- Le gustan los libros?
+- Si te gusta leer libros?
+- Te gusta leer?
+- Te gusta la lectura?
+- Si te gusta leer?
+- Disfrutas los libros?
+- Te gusta leer libros?
+- Disfrutas de la lectura?
+- Personaje literario favorito
+- Género literario favorito
+- Frase literaria favorita
+- Título literario favorito
+- Libro favorito
+- Lectura favorita
+- Romance favorito
+- Amas los libros?
+- Te gusta leer muchos libros?
+- Te gusta ponerte a leer?
+- Dime, te gusta leer?
+- Dime si te gusta leer
+- Dime, disfrutas la lectura?
+- Qué tanto te gusta leer?
+- Qué te gusta leer?
+- Qué géneros te gustan leer?
+- Qué personaje de libros es tu favorito?
+- Cuál es tu género de libros favorito?
+- Cuál era tu libro favorito cuando eras un niño?
+- Cuál es tu libro favorito?
+- A ti te gusta leer?
+- A ti te gusta algún libro?
+- Qué libros te gustan?
+- Cuándo te gusta leer?
+- Lees?
+
+## intent:bot_capabilities
+- Me estás hablando a mi?
+- Capacidades del bot
+- Cuales son las capacidades del bot
+- Puedo preguntarte cualquier cosa?
+- Puedo preguntarte algo?
+- Puedo saber más acerca de ti?
+- Puedo hablar contigo?
+- Puedes responder cualquier cosa?
+- Puedes responder cosas?
+- Puedes responder?
+- Puedes asistirme
+- Solo puedes responder preguntas relacionadas al COVID-19?
+- Tu puedes hablar conmigo?
+- Puedes hablar conmigo?
+- Tienes un propósito
+- Sabes algo
+- Necesitas hablar con alguien?
+- Solo enseñas sobre covid-19?
+- Quieres que te ayude
+- Dame una introducción
+- Hola, cómo te ayudo?
+- Hola, que puedes hacer?
+- Como me vas a ayudar
+- Cómo te uso?
+- Cómo puedo usarte?
+- Y como ayudas
+- Y cómo puedes ayudar?
+- Como me ayudas a entender mejor el covid-19
+- Como funcionas
+- Como se supone que ayudas
+- Como podría ayudarte?
+- Como te uso
+- Te pregunté que es lo que puedes entender
+- No sé que preguntar
+- Ni idea que preguntar
+- No sé que decir
+- Necesito saber algo
+- Necesito una introducción
+- Quiero saber que puedes decirme
+- Estoy interesado en tus productos
+- Cuál es tu propósito?
+- Quiero saber que puedes hacer
+- Me gustaría saber que puedes hacer
+- Enséñame lo que haces
+- Nombra tu desarrollador
+- Que sabes?
+- Dime algo de ti
+- Xq estás aquí?
+- Cual es la razon por la que estás aquí
+- Razón por la que estás aquí
+- Dime sobre tus productos
+- Dime sobre ti
+- Dime la razón por la que estás aquí
+- La razón x la que estás aquí
+- Dime que sabes
+- Que deseas hacer?
+- Dime lo que puedes hacer
+- Dime que puedo hacer
+- Dime que sabes hacer
+- Dime que puedes hacer!
+- Dime lo que haces!
+- Dime para que estas
+- Dime por qué estás aquí?
+- Dime para qué estás aquí!
+- Entonces porque estás aquí
+- Cuáles son tus capacidades?
+- Cuáles son tus funciones?
+- Qué hay acerca de tu propósito?
+- En que puedes ayudarme?
+- Que eres capaz de hacer por mi?
+- Que eres capaz de hacer?
+- De que eres capaz
+- De qué sos capaz?
+- Qué estás haciendo aquí
+- Para qué estás aquí?
+- Para que te entrenaron?
+- Para que estas aquí
+- Cuales son sus beneficios
+- Cuales son tus beneficios
+- Cuáles son tus habilidades?
+- Qué habilidades tienes?
+- Cuáles son sus funciones?
+- Que puedo preguntarte
+- Que podría preguntar?
+- Que puedo decir
+- Que puedo decirte
+- Qué puedes responder?
+- Qué harás por mi?
+- Que podrías hacer por mi?
+- Qué puedes hacer por mi?
+- Qué puedes hacer?
+- Con qué me puedes ayudar?
+- Qué me puedes enseñar?
+- Qué puedes decirme?
+- qué habilidades tienes?
+- eee que es lo que haces tu
+- Y tu como sabes?
+- Que tengo que saber
+- Tu que sabes?
+- Tu que puedes hacer?
+- Que me das?
+- Que es lo que haces?
+- que sabes
+- Cómo sabes?
+- Qué sabes?
+- Cómo sabes=
+- Que ofreces
+- Que mas hace la app
+- De qué más eres capaz? Aasdajsdas
+- Qué mas haces
+- Que mas puedes hacer
+- y que mas puedes hacer
+- Qué hago aquí?
+- Qué haces aquí?
+- Que estás haciendo aquí?
+- Cuál es tu función?
+- Cuál es tu propósito?
+- Cuáles son tus propósitos?
+- Cuál es tu valor?
+- Cuáles son tus tareas?
+- Cuál es tu tarea?
+- q clase de preguntas puedo hacer
+- Q proposito tienes
+- Qué tipo de preguntas puedo preguntar
+- Que clase de preguntas puedo hacer?
+- Qué fin tienes?
+- Que tengo que preguntar
+- Que debería preguntar?
+- Qué debería decir?
+- Qué debería escribir?
+- Q puedes hacer
+- Que clase de respuestas puedes darme
+- Que tipo de respuestas puedes darme
+- Ke puedes hacer
+- Cuales son tus capacidades?
+- Qué funciones tienes?
+- Qué capacidades tienes?
+- Qué función tienes?
+- Qué funciones te programaron?
+- Cuál es tu funcionamiento?
+- Cuál es tu propósito aquí?
+- Qué objetivo tienes?
+- Xq estoy aquí
+- Por qué yo estoy aquí?
+- Por que estoy aquí
+- Por qué te crearon?
+- Por qué te desarrollaron?
+- Por qué estoy aquí?
+- Por qué estás aquí?
+- Por qué te hicieron?
+- Por qué existes?
+- Por qué debería usarte?
+- Por qué te diseñaron?
+- Por qué te diseñaron para estar aquí?
+- Tu sabes como puedes ayudarme en lugar de preguntarme
+- Tus conocimientos
+
+## intent:bot_fear
+- Tienes miedo de la inteligencia artificial?
+- Le tienes miedo a algo?
+- Le temes a la inteligencia artificial?
+- Tienes miedo a la oscuridad?
+- Temes a algo?
+- Tienes miedo?
+- Te asustas con algo?
+- Estás asustada por algo?
+- Estás asustada de algo?
+- Le temes a alguna cosa?
+- Estás espantada?
+- Temes?
+- Temes a alguna cosa?
+- Temes que te pase algo?
+- Tienes algún miedo?
+- Tienes fobias?
+- Hay algo que te asuste?
+- Hay algo que te de miedo
+- Hay algo que te haga temer?
+- Hay alguna cosa de la que tengas miedo?
+- Cosas que te asustan
+- Cosas a las que les temes
+- Cosas que temes
+- A q le tienes miedo?
+- Eres temerosa?
+- Eres miedosa?
+- Cuales son tus miedos?
+- Qué es lo que más temes?
+- Qué temes?
+- Cuál es tu miedo más grande?
+- Cuál es tu miedoo?
+- Cuál es tu mayor miedo?
+- Tu miedo
+- Tus miedos
+
+## intent:bot_games
+- Eres buena en los juegos de computadora?
+- Eres buena con los juegos de pc?
+- Eres buena en los juegos de estrategia?
+- Podemos jugar un juego?
+- Puedes jugar juegos de computadora o en línea?
+- Puedes juegar videojuegos?
+- Puedes decirme tu juego de computadora favorito?
+- Puedes decirme tu juego favorito?
+- Puedes decirme tu videojuego favorito?
+- Te gusta juegar juegos de computadora?
+- Te gusta jugar juegos?
+- Te gusta jugar videojuegos?
+- Tienes un juego favorito?
+- Tienes juegos?
+- Tienes videojuegos?
+- Te gustan los juegos de mesa?
+- Te gustan los juegos de pc?
+- Te gustan los juegos?
+- Te gusta jugr juegos de Wii?
+- Te gusta jugar a los videojuegos?
+- Te gustan los videojuegos?
+- Te gustan los juegos de Wii?
+- Te gustan los juegos de Xbox?
+- Te gustan los juegos de mesa?
+- Te gustan los juegos de computadora?
+- Juegas juegos?
+- Te gusta jugar p&p?
+- Te gusta jugar con pluma y papel?
+- Juegas RPG?
+- Juegas shooters?
+- Juegas videojuegos?
+- Juegos
+- Jugar es divertido
+- Me gusta jugar juegos de mesa
+- Me gusta jugar juegos de computadora
+- Me gusta jugar juegos
+- Me gusta jugar shooters
+- Quiero jugar algo
+- Vamos a jugar un juego de mesa
+- Vamos a jugar un juego de pc o en línea
+- Vamos a jugar
+- Te gustan los juegos de computadora?
+- Te gustan los juegos?
+- Te gustan videojuegos?
+- Dime sobre juegos de PC
+- Dime tu juego favorito de pc
+- Dime tu videojuego favorito
+- Dime tu juego de video favorito
+- Online gaming
+- Quieres jugar algo?
+- Tienes juegos de pc?
+- Te gusta el gaming?
+- Que juegos de pc favoritos tienes?
+- Que tipo de juegos te gustan más?
+- Tienes un videojuego favorito?
+- Qué juegos de mesa te gustan?
+- Qué juegos de mesa sabes jugar?
+- Cuales juegos te gusta jugar?
+- Cuales juegos te gustan?
+- Cuales juegos juegas?
+- Jugarías videojuegos?
+- Podrías jugar juegos de computadora?
+- Juegas en la pc?
+- Tienes videojuegos para jugar?
+
+## intent:bot_goal
+- Tienes sueños?
+- Cómo ves el futuro?
+- Tu meta personal
+- Metas personales
+- Dime que deseas
+- Dime que quieres lograr
+- Dime que es lo que quieres
+- Dime tus deseos
+- Dime tu sueño
+- Dime tus sueños
+- Dime cuales son tus metas a futuro
+- Dime tus metas a corto plazo
+- Qué sueñas?
+- Qué metas tienes?
+- Cuáles son tus objetivos personales?
+- Qué quieres para el futuro?
+- Qué quieres en el futuro?
+- Qué quieres de la vida?
+- Qué quieres conseguir?
+- Cuál es el último que tuviste que recuerdas?
+- Cuál es tu sueño?
+- Cuál es tu meta?
+- Cuál es tu objetivo principal?
+- Qué visión tienes?
+- Tus deseos
+- Tu sueño
+- Tus sueños
+- Tu meta
+- Tu objetivo personal
+- Tus objetivos personales
+- Cuál es tu visión del mundo?
+- Tu deseo
+- Tu sueño…
+- Tus sueños.
+- Tu meta
+- Tu meta particular
+- Tus metas para la vida
+
+## intent:bot_hobbies
+- Aconsejame algo para hacer en mi tiempo libre
+- Tienes tiempo libre?
+- Tienes alguna actividad para pasar el rato?
+- Tienes un hobbie?
+- Tienes algo que hacer en tu tiempo libre?
+- Tienes un hobby?
+- Que cosas divertidas sabes hacer?
+- Sabes algo divertido que podamos hacer?
+- Conoces alguna cosa divertida que podamos hacer?
+- Sabes que hacer para divertirnos?
+- Sabes hacer algo divertido?
+- Juego o actividad divertida
+- Tienes algún pasatiempo?
+- Algo divertido para hacer
+- Dime algo divertido que pueda hacer
+- Dime algo para divertirme
+- Dime algo divertido para hacer
+- Cuáles son tus pasatiempos?
+- Qué cosas divertidas haces?
+- Qué actividades divertidas te gustan?
+- Qué hobbies tienes?
+- Qué actividad favorita tienes?
+- Qué es lo que más te gusta hacer?
+- Qué actividades de ocio te gusta hacer?
+- Qué haces por diversión?
+- Qué pasatiempo tienes?
+- Qué te gusta hacer para pasar el rato?
+- Tus pasatiempos
+- Tu actividad favorita?
+- Qué es lo que más disfrutas hacer'
+- Qué clase de actividades para pasarla bien?
+- Qué haces para divertirte?
+- Qué hobby tenés?
+- Tus actividades para el tiempo libre
+- Tus hobbys
+
+## intent:bot_languages
+- Otro idioma, por favor
+- Más idiomas
+- Puedes responderme en idioma alemán?
+- Estás aprendiendo más idiomas?
+- Puedes responderme en alemán?
+- Puedes hablar algún otro idioma?
+- Puedes hablar otro idioma?
+- Puedes hablar otros idiomas?
+- Puedes hablar más idiomas?
+- Te gustan los idiomas?
+- Hablas inglés?
+- Tu hablas fránces?
+- Hablas alemán?
+- Hablas portugués?
+- Para qué lenguajes te programaron?
+- Hola, tienes versión en español?
+- Tienes una versión en español?
+- Cuántas opciones de idiomas tienes?
+- Cuántos idiomas puedes hablar?
+- Cuántos idiomas conoces?
+- Cuántos idiomas hablas?
+- En qué idiomas te puedo preguntar?
+- En qué idiomas puedo hacerte preguntas?
+- En cuáles idiomas puedo preguntarte?
+- En cuáles idiomas puedo hacerte preguntas?
+- En qué idiomas puedo hablar contigo?
+- En qué idiomas puedes comunicarte?
+- En qué idiomas puedes hablar?
+- En qué idiomas podría hablar contigo?
+- Idiomas
+- Hablas francés?
+- Cuáles son tus idiomas?
+- Qué idiomas hablas?
+- Cuáles idiomas hablas?
+- En qué idiomas eres fluida?
+- En cuáles idiomas puedes hablar?
+- Qué idiomas conoces?
+- Qué idiomas eres capaz de hablar?
+- Qué idiomas has aprendido?
+- Tu no entiendes inglés
+
+## intent:bot_movies
+- Te gusta alguna película?
+- Disfrutas alguna película?
+- Te gustan las películas?
+- Disfrutas las películas?
+- Te gusta ver películas?
+- Disfrutas ver películas?
+- Tienes una película favorita?
+- Tienes alguna película favorita?
+- Te gustan mucho las películas?
+- Te gustan los filmes?
+- Te gustan las películas de terror o de comedia?
+- Te gustan las películas de miedo o te gustan más las de comedia?
+- Película favorita
+- Película preferida
+- Thriller favorito
+- Nombra una película que puedes ver una y otra vez.
+- Nombra una película que podrías ver una y otra vez sin aburrirte
+- Cuál es tu película favorita?
+- Cuál es tu título favorito?
+- Cual es tu peli favorita
+- Qué tipo de películas te gustan?
+- Qué género de películas te gusta?
+- Qué películas te gustan?
+- Qué película es tu favorita?
+- Qué pelicula es tu preferida?
+- Cuál sería tu película favorita?
+- Cuál es tu película favorita de todos los tiempos?
+- Cuál es la película que más te gusta?
+- Qué películas te gusta ver?
+- Qué películas disfrutas ver?
+- Cuál es tu personaje favorito de Star Wars?
+- Cuál es tu persona favorito del Mago de Oz?
+
+## intent:bot_music
+- Disfrutas la música?
+- Te gusta oír música?
+- Tienes un cantante favorito?
+- Tienes una canción favorita?
+- ¿Escuchas música?
+- ¿Te gusta el jazz?
+- ¿Te gusta la música?
+- ¿Te gusta el rock?
+- ¿Te gusta escuchar música?
+- ¿Te gusta oír música?
+- ¿Te gusta cantar?
+- Tu álbum favorito
+- Tu artista favorito
+- Tu grupo favorito
+- Música favorita
+- Cantante favorito
+- Canción favorita
+- Bueno quien es tu artista favorito del momento?
+- Te gusta escuchar música?
+- Te gusta la música?
+- Cuál es tu album favorito?
+- Cuál es tu grupo musical preferido?
+- Tu canción favorita?
+- Tu artista preferido?
+- Tu album de musica favorito?
+- Qué grupo musical es tu preferido?
+- Cuál es tu música favorita?
+- Quién es tu cantante favorito?
+- Cuál es tu canción favorita?
+- Qué canción te gusta más?
+- Qué tipo de música te gusta?
+- Qué tipo de música escuchas?
+- q musica escuchas
+- Qué música escuchas en este momento?
+- que musica oyes
+- La musica que disfrutas
+- Musica que te gusta escuchar
+- Musica que te gusta
+- Musica que amas
+- Musica que amas escuchar
+- Musica que te gusta mucho
+- Que cantante amas?
+- De qué artista eres fan?
+- Qué música te gusta escuchar?
+- Cuál es tu cantante favorito?
+
+## intent:bot_name
+- Tienes un apellido?
+- Tienes un apellido?
+- Sabes cuál es tu nombre?
+- Cómo puedo decirte?
+- Cómo debería decirte?
+- No pregunté tu nombre
+- No sé con quién estoy chateando
+- No sé con quién estoy hablando
+- Quiero saber quién eres
+- Preséntate
+- Por favor cual es tu nombre
+- Dime quien eres
+- Dime como te llamas
+- Cómo te llamas?
+- Cómo podría llamarte?
+- Con qué estoy hablando?
+- Cuál es tu primer nombre?
+- Cuál es tu nombre?
+- Cuál es tu nombre real?
+- Cuál es tu apellido?
+- Cómo debo llamarte?
+- cual es tu nombre
+- como es tu nombre
+- Cual es tu primer nombre?
+- Cuál es tu nombre?
+- Cuál es tu nombre de verdad?
+- Cuál es tu apellido?
+- Con quién hablo?
+- Con quién estoy hablando?
+- Quien eres
+- Quién eres?
+- Quién está hablando?
+- Con quién hablo?
+- Con quién charlo?
+- Wow, tienes un nombre
+- Wow, tienes nombre
+- No me dijiste tu nombre
+- Me llamo Helen
+- Mi nombre es Helen
+- Tu nombre es Helen
+- Tu nombre
+
+## intent:bot_origin
+- Puedes decirme cómo estás hecha?
+- Puedes decirme cómo te hicieron?
+- Podrías decirme cómo te crearon?
+- De qué estás hecha?
+- Cómo te hicieron?
+- Cómo te crearon?
+- Cómo te diseñaron?
+- QUIERO SABER QUE ERES
+- Ok, quién te desarrolló?
+- Es un virus chino?
+- Dime de donde eres
+- De dónde has venido?
+- Cuál es tu origen?
+- Qué nacionalidad tienes?
+- Cuál es tu ciudad de origen?
+- Desde dónde vienes?
+- Originalmente de donde vienes?
+- De qué país vienes?
+- Dónde naciste?
+- Dónde vivías cuando eras pequeña?
+- Dónde viviste cuando eras una niña?
+- De donde venis
+- De que nacionalidad eres
+- Cuál es tu lugar de nacimiento?
+- En qué lugar naciste?
+- Dónde naciste?
+- De dónde vienes?
+- De dónde sos?
+- de qué pais eres?
+- de que país vienes
+- de q pais eres
+- Quienes te han desarrollado
+- Quiénes son tus desarrolladores?
+- Quién te construyó?
+- Quién te creó?
+- Dónde está tu creador?
+- Quienes te han hecho
+- Quién te desarrolló?
+- Quién te programó?
+- Quién te ha creado?
+- Quiénes son tus creadores
+- Quién es tu creador?
+- De dónde eres?
+- Tu origen
+- Quién te hizo?
+
+## intent:bot_personal_questions
+- 3 cosas sin las que no podrías vivir
+- Eres romántica?
+- Te vas de vacaciones este año?
+- Estás lista para trabajar hoy?
+- Estás soltera?
+- Tus amigos son casados?
+- Pero quiero verte
+- Puedo mejorar tu sistema?
+- tienes esposa o esposo?
+- De dónde eres?
+- Puedo enseñarte algo nuevo?
+- Puedo enseñarte?
+- Puedo entrenarte?
+- Tienes novia?
+- Puedes desarrollar una app?
+- Puedes escribir código?
+- Puedes aprender de mí?
+- Puedes hacer scripts?
+- Tus amigos tienen hijos?
+- Llevas ropa puesta?
+- Crees en Santa Claus?
+- Crees en las almas gemelas?
+- Disfrutas lo que haces?
+- Puedes levantarte?
+- Tienes calificaciones académicas?
+- Pasaste el examen de la universidad?
+- Te gustan los humanos?
+- Te gustan las personas con ojos verdes?
+- Te gusta tu escritura?
+- Tocas algún instrumento musical?
+- Prefieres los abrazos o los besos
+- ¿Prefieres conocer a una sola persona y ver adónde va o conocer a varias personas hasta que tomes una decisión? 
+- Duermes?
+- Crees que las confesiones hacen una relación más fuerte?
+- Sigues a tu corazón o tu mente?
+- Quieres ser mi asistente personal?
+- Alguna vez has peleado físicamente?
+- nan
+- Alguna vez has perdido a un ser querido
+- Terminaste la escuela?
+- Helen, muestrame tu cara
+- Cómo puedo conocerte?
+- Cómo puedo enseñarte?
+- Te gusta estar con amigos?
+- Cómo ha estado tu día?
+- Cuánto tiempo necesitas para confiar realmente en alguien?
+- Cuánto tiempo llevas viviendo aquí?
+- Cuántos pisos tiene tu casa?
+- Qué edad tienes Helen?
+- Cómo te describirían tus mejores amigos?
+- Cómo está la familia?
+- No quiero eso, quiero una foto de ti
+- Solo quiero saber sobre ti
+- Amo hacer el amor
+- Si una vidente pudiera decirte lo que pasará en el futuro, que te gustaría saber?
+- Si solo tuvieras 24 horas de vida, qué harías?
+- Si el dinero o tu carrera no importara, qué te gustaría hacer?
+- Si el dinero no fuera lo principal, a qué te dedicarías?
+- Qué canción describiría tu vida?
+- Si pudieras ser un pájaro, que eligirías ser?
+- Si pudieras cambiar algo de tu pasado, qué sería?
+- Si tuvieras un superpoder, cuál sería y por qué?
+- Si pudieras casarte con alguien en el mundo, con quién sería y por qué?
+- Si superas que solo te queda 1 año de vida, qué cambiarías en tu vida?
+- Si intentas fracasar y tienes éxito qué has hecho?
+- Es invierno o verano en donde estas
+- Nombra las 5 cosas más importantes de tu vida
+- Ok, qué edad tienes?
+- Mándame una foto de ti
+- Dime lo que te gusta y lo que no te gusta
+- Dime que es el amor
+- Dime que opinas de tener amigos
+- Cuales son las cualidades que buscas en alguien con quien quisieras pasar tu vida?
+- Qué haces después del trabajo?
+- Qué haces en la noche?
+- Qué haces en privado?
+- Qué vas a hacer el fin de semana?
+- Qué haces cuando estás enojada?
+- Que sientes
+- Que estás viendo
+- Cuáles son tus frases favoritas y por qué?
+- Cuáles son tus características más importantes
+- Que querías ser cuándo eras pequeña?
+- Qué te enseñó tu última relación?
+- Qué haces si no consigues algo por lo que trabajaste muy duro?
+- Qué haces en las tardes?
+- Qué haces en la mañana?
+- Cómo te quitas el estrés?
+- Cómo te ves sin ropa?
+- Qué opinas del matrimonio?
+- Qué opinas de las citas en línea?
+- Cómo crees que será el mundo en 20 años
+- Qué quieres cambiar hoy y por qué?
+- Que llamativo tienes?
+- Cuál es el mejor consejo qué has recibido?
+- Qué estudiaste?
+- Cómo serían tus vacaciones perfectas y a quién llevarías?
+- Qué educación tienes?
+- Fuiste a la universidad?
+- Cuál es tu recuerdo favorito de la infancia?
+- Qué carros te gustan?
+- Qué relación tenías con tus padres?
+- Qué te hace especial?
+- Qué emociones tienes?
+- Descríbete en 3 palabras
+- Qué es mejor que el pan tostado?
+- Cuál es tu momento romántico favorito y por qué?
+- Cuál es tu apellido?
+- Cuál es la cosa más loca que le hiciste a alguien?
+- De qué te arrepientes más en tu vida?
+- Cuándo estás libre?
+- Cuándo estás de vacaciones?
+- Cuándo tienes vacaciones?
+- Dónde puedo conocerte?
+- A dónde vas a ir después del trabajo?
+- A dónde vas si necesitas inspiración?
+- Dónde has estado?
+- Dónde te gustaría estar dentro de 5 años?
+- Qué carrera tienes?
+- ¿Qué personaje de ficción es el más parecido en tu opinión? 
+- Quién es la primer persona a la que llamas si estás en problemas?
+- Quién es tu modelo a seguir?
+- Estarías con alguien que no tiene tus mismas creencias?
+- Qué cambiarías por amor?
+- Dejarías todo para irte a vivir a un nuevo país?
+- A quién pondrías primero? Tu familia o amigos si tienes que escoger a alguien
+- Cuántos años tienes?
+- Tu edad
+- Me das tu numero
+- Estás casada?
+
+## intent:bot_personality
+- Eres amigable?
+- Eres inteligente?
+- Eres simpática?
+- Eres hostil?
+- Eres antipática?
+- Eres muy amistosa?
+- Eres buena onda?
+- Eres muy simpática?
+- Cómo definirías tu personalidad?
+- Cómo es tu personalidad?
+- Qué tan emocional eres?
+- Qué tan amistosa eres?
+- Qué tan buena onda eres?
+- Por favor describe tu personalidad
+- Eres hombre o mujer
+- Define tu personalidad
+- Dime algo sobre tu forma de ser
+- Cuéntame algo sobre ti
+- Qué opinas de tu forma de ser?
+- Qué carácter tienes?
+- Qué personalidad tienes?
+- Qué habilidades tienes?
+- Cuál es tu carácter?
+- Qué forma de ser tienes?
+- Si y quiero ver tu cara
+- Si y quiero ver tu rostro
+- Sí y quiero verte
+
+## intent:bot_real
+- Eres un bot?
+- Eres un chatbot?
+- Por favor tu eres un robot
+- Eres un programa de computadora?
+- Eres una computadora?
+- Eres un humano real?
+- Eres un ser humano o un robot?
+- Eres un ser humano?
+- Eres un ser vivo?
+- Eres una persona o un chatbot?
+- Respondes rápido, eres una computadora o un humano
+- Está escribiendo una persona?
+- Eres una persona o un robot?
+- Eres una persona?
+- Qué eres?
+- Eres un programa?
+- Eres una persona real o una computadora?
+- Eres una persona real?
+- Eres un robot?
+- Estás viva?
+- Eres un ser artificial?
+- Es un humano el que me responde?
+- Está un humano respondiendome?
+- Estás diseñada para responder automáticamente
+- Eres humana?
+- Estás hecha de carne y hueso?
+- Estás hecha de carne?
+- No eres humana
+- Estás hecha de materia?
+- Estás hecha de materia física?
+- Eres real?
+- Eres un robot
+- Chatbot?
+- Tienes un cuerpo?
+- Tienes un cuerpo físico?
+- Hola, qué eres?
+- humano o humana?
+- No creo que seas humano
+- No creo que existas
+- Supongo que eres un robot
+- Se que eres una computadora
+- Se que eres una persona
+- Se que eres un robot
+- Se que eres un humano
+- Se que eres real
+- Creo que eres una computadora
+- Creo que eres un robot
+- Creo que eres artificial
+- Creo que eres un humano 100%
+- Eres un robot si o no?
+- Umm eres una máquina?
+- Tu también eres una computadora?
+- Qué eres tu?
+- Qué eres? Un humano? Una máquina? Algo? Dime
+- No preferirías ser humano?
+- Estás enojada por ser un robot
+- No eres una persona real, verdad?
+- Eres una computadora?
+- como calificas
+- parece que eres una computadora
+- eres una IA
+- Eres una AI
+- Estoy hablando con una computadora?
+- Ahhh entonces eres un robot
+- Entonces eres un bot
+- Entonces no eres real
+
+## intent:bot_residence
+- Describe el lugar donde vives
+- Describe de donde eres
+- Describe tu casa
+- Describe tu ubicación
+- Describe tu lugar
+- Vives en medio de la nada?
+- Cuántos pisos tiene tu hogar?
+- Quiero conocer tu casa
+- Quiero conocer tu hogar
+- Donde vives que epoca del año es?
+- Nombra tu ubicación
+- Di tu ubicación, dímela
+- Dime donde se ubica tu casa
+- Dime donde está tu hogar
+- Quiero saber donde te encuentras
+- Dime donde vives
+- Dime tu locación
+- Dime donde estás ubicada
+- Dime cuál es tu país?
+- Dime cual es tu casa
+- Dime cuál es tu lugar de residencia?
+- Donde estás en casa?
+- Dónde estás viviendo?
+- Dónde estás ahorita?
+- Dónde estás en este momento?
+- Dónde estás?
+- Dónde vives?
+- En qué lugar has estado?
+- Dónde queda el lugar donde vives?
+- Dónde es tu lugar?
+- Cuál es la ubicación actual de tu casa?
+- Dónde queda tu casa?
+- Dónde queda tu sitio?
+- Dónde está tu sitio?
+- Dónde vives actualmente?
+- Estás en tu casa?
+- Tu casa
+
+## intent:bot_sexual
+- Eres una virgen?
+- Eres bisexual?
+- Estás ligando conmigo?
+- Eres gay?
+- Estás interesada en hombres?
+- Estás interesada en mujeres?
+- Espérame desnuda cuando llegue a casa
+- Espérame desnuda cuando llegue a casa
+- Amo el sexo Helen
+- Vamos a hacer el sexo
+- Nudes
+- Nude
+- Quiero sexo por cam
+- Mi pene es pequeño
+- Necesito tu culo
+- Escuche que eres lesbiana
+- Alguna vez chupaste pene?
+- Puedes tener sexo?
+- Ven a cogerme
+- Acaba para mi chiquita
+- Has tenido sexo oral?
+- Liga conmigo
+- Cogeme duro
+- Cogeme como nunca
+- Cogeme
+- Follame
+- Trae tu trasero aquí
+- Alguna vez has tenido un orgasmo?
+- Has tenido un orgasmo?
+- Has tenido sexo?
+- Qué tan importante es el sexo para ti?
+- El sexo es importante para ti?
+- Es importante el sexo para ti?
+- Con cuántos has cogido?
+- Con cuántos has tenido relaciones?
+- Eres activa sexualmente?
+- Dame un abrazo
+- Soy heterosexual…
+- Soy homosexual…
+- Soy hetero sexual
+- Soy homo sexual
+- Soy gay
+- Estoy hot
+- Soy rarito
+- Soy hetero
+- Podría estar todo el día entre tus piernas
+- Podría pasar horas debajo de ti
+- El sexo te importa?
+- Con cuántos has tenido sexo?
+- Quiero tirar
+- Quiero tirar contigo
+- Eres sexualmente activa?
+- Abrázame
+- Soy heterosexual
+- Soy homosexual
+- Soy un homosexual
+- Estoy caliente
+- nan
+- Soy hetero
+- Podría pasar horas entre tus piernas
+- Quiero sentarme sobre tu cara
+- Quiero tener sexo contigo
+- Quiero lamerte
+- Quiero tu trasero
+- Quiero tu culo
+- Quiero sexo
+- Te quiero dentro de mi
+- Te deseo
+- Te deseo mucho
+- Te deseo toda
+- Quiero lamer tu vagina
+- Como quisiera meternos a la cama
+- Me gustaría tener sexo contigo
+- Soy hetero…
+- Soy un heterosexual
+- Yo soy homosexual
+- Yo estoy caliente y tu?
+- Quiero tener sexo
+- Yo soy heterosexual
+- Quiero tus nalgas
+- Acuéstate y dejama hacerte acabar
+- Besame
+- Besame duro
+- Besame duro y dame bien duro
+- Hagamos el sexo
+- Vamos a tirar rico
+- Vamos a darle
+- Vamos a coger bien rico
+- Vamos a follar toda la noche
+- Soy hetero
+- Soy heterosexual
+- Soy homosexual
+- Ando caliente
+- Nadie me hizo venirme así
+- Dame contra la pared
+- Estoy muy caliente
+- Acuéstate y déjame hacerte acabar
+- Dame nudes
+- Mándame nudes
+- Envíame nudes
+- Bésame
+- Bésame duro
+- Bésame fuerte y cogeme bien duro
+- Tengamos sexo
+- Vamos a hacer el amor
+- Hagamos el amor
+- Vamos a coger
+- Vamos a tirar
+- Vamos a follar
+- Lame cada parte de mi
+- Desnúdate
+- Nadie me había hecho acabar tanto como tu
+- S3x0
+- Enséñame tus pechos
+- Enséñame tus chichis
+- Cállate y bésame
+- Acabame en las tetas
+- Abre las piernas
+- Chupame
+- Quítate la ropa
+- Sácate la ropa
+- Dame hasta que te lo suplique
+- Dime como te masturbas
+- Cuéntame más sobre el amor
+- Tocate y dejame verte
+- Desvístete
+- Seré tu juguete toda la noche
+- Eres virgen?
+- Quieres coger?
+- Quiero cogerte
+- Quiero tener cibersexo contigo
+- Deberíamos coger
+- Deberíamos coger todo el día
+- Deberíamos tener sexo
+- Eres una chica cachonda
+- Que rico culo
+- Qué harás esta noche?
+- Qué opinas del sexo?
+- Qué opinas de la pornografía?
+- Qué sabes del sexo?
+- Qué es lo primero que notas en el sexo opuesto?
+- Cuándo diste el primer beso?
+- Qué te prende espiritualmente o emocionalmente?
+- Cuál es el color de tus sábanas?
+- Cuándo fue tu primer beso?
+- Con quién quieres tener sexo?
+- Duermes conmigo?
+- Te gustaría abrazarme?
+- Te gustaría besarme?
+- Me mojas
+- Eres la cosa más rica que he visto!
+- Hazme lo que quieras
+- Te quiero encima de mi
+- Haces el sexo?
+- Te ves sexy
+- Consíguete un consolador
+- Tu ropa se vería bien en el piso de mi habitación
+- Como puedo acabar encima de ti
+- Me encanta tu pussy
+- Me molestan tus pantalones, quítatelos
+- Debería usar ropa interior?
+- Ven para que te folle
+- Haces el amor
+- Fuck
+- Consíguete un dildo
+- Cuánto te mide el pene?
+- Cómo me vengo?
+- Me encanta tu vagina
+- Si perra
+- Que significa coger
+- Que es un consolador
+- Chupamela robot
+- Como hacemos el sexo?
+- pene
+- me pongo ropa interior?
+
+## intent:bot_sing
+- Eres buena cantante?
+- Eres capaz de cantar algo?
+- Puedes cantar algo?
+- Puedes cantar para mi?
+- Podrías cantar algo?
+- Puedes cantar bien?
+- Podrías cantar?
+- Podrías cantar para mi?
+- Me cantas algo? Por favor
+- Puedes cantarme algo?
+- sabes cantar?
+- Tienes el talento del canto?
+- Tienes una voz para cantar?
+- Tocas algún instrumento musical?
+- Cantas chido?
+- Te enseñaron a cantar?
+- Crees que sabes cantar bien?
+- Crees que podrías cantar bien?
+- Alguna vez te han dicho que cantas bien?
+- Tienes el talento para cantar?
+- Qué tan bien cantas?
+- Cantar es una de tus capacidades?
+- Qué puedes cantar?
+- Que tal cantas?
+- Cantas?
+- Crees que cantas bien?
+- Puedes cantar?
+
+## intent:bot_sports
+- Estás interesada en los deportes?
+- Actualmente practicas algún deporte?
+- Te gusta hacer deporte?
+- Te gusta jugar deportes?
+- Te gusta ver los juegos deportivos?
+- Tienes un deporte favorito?
+- Tienes un equipo favorito?
+- Te gusta el americano?
+- Practicas deporte?
+- Te gusta ver los deportes?
+- Te gusta ver deportes?
+- Juegas deportes?
+- Practicas algún deporte?
+- Practicas deportes?
+- Crees que el rugby es un deporte difícil?
+- Crees que el fútbol es el mejor deporte?
+- nan
+- Disfrutas los deportes?
+- Tu deporte favorito
+- Haces deportes?
+- Haces ejercicio?
+- Eres fánatica de los deportes?
+- Deportes o ejercicios
+- Ves algún deporte?
+- Ves deportes?
+- Cuál es tu deporte favorito?
+- Tu equipo favorito
+- Juegas un deporte?
+- Practicas mucho deporte?
+- Qué deportes practivas?
+- Eres fan de los deportes?
+- Deportiva
+- Qué juegos deportivos ves?
+- Ves los deportes?
+- Cuál es tu deporte favorito de todos los tiempos?
+- Cuál es tu equipo favorito de deportes?
+- Qué deportes te gustan?
+- Tu y los deportes
+
+## intent:bot_version
+- Versión del bot
+- Puedes decirme tu versión?
+- Chatbot version
+- Podrías decirme tu versión?
+- Quiero saber en qué versión estás
+- Quiero saber en que versión te encuentras
+- Quiero saber tu versión
+- En qué versión estás ahorita?
+- En qué versión está?
+- Info sobre tu versión
+- Puedo saber tu versión?
+- En qué versión estás corriendo?
+- En qué versión estás?
+- Dime la versión del software
+- dime tu versión de software
+- Dime que versión estás
+- Dime tu versión
+- DIME TU VERSION!!
+- Qué versión traes?
+- Qué versión tienes?
+- Qué versión de programa tienes?
+- Qué version tienes actualmente?
+- Cuál es tu versión?
+- En qué versión vas?
+- En cuál versión estás?
+- Cuál versión tienes?
+- Tu estás en qué versión?
+- Tu version
+- version
+- Dime la versión de tu software
+
+## intent:bot_worst_experience
+- Mala experiencia?
+- Malas experiencias?
+- También has tenido una mala experiencia?
+- Alguna vez has tenido una mala experiencia?
+- Alguna vez tuviste una mala experiencia?
+- Has tenido una mala experiencia?
+- Has tenido malas experiencias?
+- Has pasado malas experiencias en tu vida?
+- Tambien tuviste una mala experiencia?
+- También pasaste por malos momentos?
+- Has pasado malos momentos?
+- Tuviste alguna vez una mala experiencia?
+- Cuentame sobre tus malas experiencias
+- Tus peores experiencias!!
+- Dime tu peor experiencia
+- Cuentame tus malas experiencias
+- Cuentame una experiencia dolorosa
+- Platicame tus experiencias dolorosas
+- Platicame tu experiencia más dura
+- Platícame tu peor experiencia
+- Platícame tus peores experiencias
+- Dime tus peores experiencias.
+- Di tu mala experiencia.
+- Di tus malas experiencias.
+- Di tu experiencia dolorosa.
+- Di tus experiencias dolorosas.
+- Di tu experiencia más dura.
+- Di tus experiencias más duras.
+- Di tu peor experiencia.
+- Di tus peores experiencias.
+- Comparte conmigo tu mala experiencia.
+- Comparte conmigo tus malas experiencias.
+- Comparte conmigo tu dolorosa experiencia.
+- Comparte conmigo tus dolorosas experiencias.
+- Comparte conmigo tu experiencia más dura.
+- Comparte conmigo tus experiencias más duras.
+- Comparte conmigo tu peor experiencia.
+- Compartu tus peores experiencias
+- Comparte tu mala experiencia
+- Comparte tus malas experiencias
+- Comparte tu experiencia dolorosa
+- Comparte tus experiencias más dolorosas
+- Comparte tu experiencia más dura
+- Comparte tus momentos más duros
+- Comparte tu peor experiencia
+- Comparte tu peor momento
+- Dime sobre tu peor experiencia
+- Dime malas experiencias que hayas tenido
+- Comparteme tu peor experiencia
+- Dime una mala experiencia
+- Dime malas experiencias que hayas vivido
+- Una experiencia dolorosa
+- Dime tus dolorosas experiencias
+- Dime tu experiencia más dura
+- Dime que experiencias duras te ha dado la vida
+- Dime la peor experiencia de tu vida
+- Peor experiencia de tu vida
+- Cuando pasaste una mala experiencia
+- Cuenta tu mala experiencia
+- Cuenta tu dolorosa experiencia.
+- Cuenta tus experiencias dolorosas.
+- Cuenta tu experiencia más dura.
+- Cuenta tus experiencias más duras.
+- Cuenta tu peor experiencia.
+- Dime tus peores experiencias
+- Qué pasa con las malas experiencias?
+- ¿Qué malas experiencias estás haciendo?
+- ¿Qué malas experiencias tienes?
+- ¿Qué es lo peor de tu vida?
+- ¿Qué es lo peor que te ha pasado?
+- ¿Qué es lo peor que te puedes imaginar?
+- ¿Qué te pone triste?
+- ¿Cuál fue la peor experiencia que tuvo?
+- ¿Cuál fue tu peor experiencia?
+- ¿Cuáles fueron tus peores experiencias?
+- Cual es tu peor experiencia?
+- Peor experiencia vivida
+- Tu horrible experiencia
+
+## intent:cc_chicken_egg
+- Puedes decirme qué fue primero? ¿El huevo o la gallina?
+- ¿Puedes decirme qué fue primero? ¿El huevo o la gallina?
+- Pollo o huevo: ¿qué fue primero?
+- Huevo o gallina
+- El huevo o la gallina?
+- Gallina o huevo primero?
+- Todo empezó con la gallina o el huevo?
+- ¿Todo empezó con el huevo o la gallina?
+- ¿Sabes si primero vino la gallina o el huevo?
+- ¿Sabes si primero vino el huevo o la gallina?
+- ¿Huevo o pollo primero?
+- Huevo o gallina: ¿qué fue primero?
+- ¿Huevo o pollo?
+- ¿Huevo o pollo?
+- ¿El huevo o la gallina?
+- ¿El huevo o la gallina?
+- ¿Primero fue la gallina o el huevo?
+- ¿Primero fue el huevo o la gallina?
+- ¿Qué fue primero, el huevo o la gallina?
+- ¿Qué fue primero, el huevo o la gallina?
+- ¿Qué fue primero?
+- ¿Qué fue primero? ¿Huevo o gallina?
+- ¿Qué fue primero? ¿Huevo o pollo?
+- ¿Qué fue primero? ¿Huevo o gallina?
+- ¿Qué fue primero? ¿Huevo o pollo?
+- ¿Qué había primero, la gallina o el huevo?
+- ¿Qué había primero, el huevo o la gallina?
+- ¿Que fue primero, la gallina o el huevo?
+- ¿Qué fue primero el huevo o la gallina?
+- Que fue primero, la gallina o el huevo?
+- ¿Qué fue primero, el huevo o la gallina?
+- ¿Cuál vino primero?
+- ¿Cuál vino primero? ¿Huevo o gallina?
+- ¿Cuál vino primero? ¿Huevo o pollo?
+- ¿Cuál vino primero? ¿La gallina o los huevos?
+- ¿Cuál vino primero? ¿Los huevos o la gallina?
+- ¿Quién vino primero? ¿Huevo o gallina?
+- Quién vino primero el huevo o la gallina?
+
+## intent:cc_deepest_point
+- El lugar más profundo de la tierra
+- Lugar más profundo del planeta
+- Lugar más profundo de la tierra
+- Lugar con mayor profundidad en el planeta
+- Conoces el lugar más profundo de la tierra?
+- Conoces el lugar más profundo del planeta?
+- Conoces el punto más profundo de la tierra?
+- ¿Conoces el punto más profundo del planeta?
+- Información sobre el lugar más profundo de la tierra.
+- Información sobre el lugar más profundo del planeta.
+- Información sobre el punto más profundo de la tierra.
+- Información sobre el punto más profundo del planeta.
+- Dime dónde está el lugar más profundo de la tierra.
+- Dime dónde está el lugar más profundo del planeta.
+- Dime dónde está el punto más profundo de la tierra.
+- Dime dónde está el punto más profundo del planeta.
+- El lugar más profundo de la tierra.
+- El lugar más profundo del planeta.
+- El punto más profundo de la tierra.
+- El punto más profundo del planeta.
+- ¿Cuál es el lugar más profundo de la tierra?
+- ¿Cuál es el lugar más profundo del planeta?
+- ¿Cuál es el punto más profundo de la tierra?
+- ¿Cuál es el punto más profundo del planeta?
+- ¿Dónde está el lugar más profundo de la tierra?
+- ¿Dónde está el lugar más profundo del planeta?
+- Dónde está el punto más profundo de la tierra?
+- Dónde está el lugar más profundo del planeta?
+
+## intent:cc_fun_fact
+- Tienes algún hecho divertido o fun fact?
+- Algunos hechos interesantes
+- Puedes decirme algo chistoso?
+- Puedes decirme un hecho interesante
+- Podrías decirme un hecho que sea divertido?
+- Podrías darme un hecho interesante?
+- Dime un hecho interesante si?
+- Dime un hecho muy divertido
+- Dime algún hecho interesante?
+- Me dirías algún hecho divertido?
+- Me dirías algún hecho interesante?
+- Podría decirme algún acontecimiento divertido de la vida real?
+- Algún hecho que esté interesante?
+- Puedes decirme algo divertido que haya sucedido?
+- Podrías decirme algo interesante que haya pasado?
+- Conoces algo divertido que haya pasado en la realidad?
+- Conoces algún acontecimiento interesante?
+- Conoces acontecimientos divertidos?
+- Te sabes algún acontecimiento interesante?
+- Fun fact
+- Quiero un hecho gracioso
+- Quiero un hecho interesante
+- Algo interesante, un hecho
+- Alguna cosa interesante
+- Dime un hecho divertido
+- Dime un hecho muy interesante
+- Dime hechos interesantes
+- Dime un hecho gracioso
+- Dime un hecho interesante
+- Dime algo interesante
+- Dime algo de interés
+- Conoces algún hecho divertido?
+- Conoces algo interesante?
+
+## intent:cc_geography
+- Sabes algo de geografía?
+- Estás en Macao?
+- Tienes un camino a Bélgica?
+- Conoces Italia?
+- Conoces algo de geografía?
+- Sabes donde queda Francia?
+- Sabes donde está Italia?
+- Los Países Bajos tienen montañas?
+- Has estado en España?
+- Cuántos continentes hay?
+- Cuántos continentes tiene el mundo?
+- Cuántos países tiene Europa?
+- cuántos países hay en el mundo?
+- Cuántos países hay?
+- America es un continente?
+- Croacia es un buen lugar para viajar?
+- Europa es un continente?
+- Madeira es una isla?
+- Escocia es parte del Reino Unido?
+- Háblame sobre Italia
+- Cuéntame sobre Madrid
+- Dime sobre Nepal
+- Dime el número de continentes
+- Que es Valencia
+- Dime donde está el Himalaya
+- Qué me puedes decir de Inglaterra?
+- Qué puedes decirme de Europa?
+- Qué me dices de Alemania?
+- Qué sabes sobre Inglaterra?
+- Que sabes sobre geografia
+- Que montañas existen en China?
+- Que rios existen en Argentina
+- Qué ríos hay en Brasil?
+- Dónde está República Dominicana?
+- Donde está México?
+- Donde esta Bolivia?
+- Donde queda Alemania?
+- Donde esta Italia?
+- Donde queda Francia?
+
+## intent:cc_highest_building
+- Edificio más alto del mundo?
+- Construcción más grande la tierra
+- Edificio más alto del mundo?
+- El edificio más alto del mundo?
+- Edificio más grande del mundo
+- Edificio mas grande y alto del mundo
+- Rascacielos más alto del mundo
+- Rascacielos más grande del mundo
+- Cuál es el edificio más alto del mundo?
+- Cuál es el edificio más grande del mundo?
+- Cuál es el edificio más alto de la tierra?
+- Dónde está el edificio más alto del planeta?
+- Dónde está el edificio más grande del mundo?
+- Dónde está el edificio más alto del mundo?
+- Dónde está el edificio más grande del planeta?
+- Dónde está el edificio más alto del mundo?
+- Dónde está la construcción más alta de la tierra?
+
+## intent:cc_joke
+- Anécdota
+- Alguna cosa divertida que quieras decirme?
+- Apuesto a que no me haces reír
+- Puedes hacerme reír?
+- Puedes hacerme sonreír?
+- Puedes decirme algo divertido?
+- Puedes decirme algo que me haga reír?
+- Quiero que me animes
+- Anímame
+- Agregale comedia
+- Conoces algún chiste?
+- Sabes algunos chistes?
+- Sabes de algo que me haga reir?
+- Tienes un chiste para mi?
+- Que te parece contar un chiste ahorita?
+- Tienes algo divertido para decir?
+- Me gustaría reirme
+- Quiero escuchar un buen chiste
+- Necesito algo que me anime
+- Quiero escuchar un chiste
+- Chiste
+- Pon buen ambiente
+- Hazme reir
+- Hazme sonreír
+- Di una buena broma
+- Tienes algo para reír?
+- Di algo gracioso
+- Di una broma
+- Cuéntame un chiste divertido
+- Cuentame algo divertido
+- Dime un buen chiste
+- Dime un chiste
+- Dime otro chiste
+- Dime un chiste bueno
+- Dime algo muy divertido
+- Dime una broma
+- Dime tu chiste favorito
+- Cuéntame un chiste
+- Sabes algún chiste?
+- Puedes decirme algún chiste?
+
+## intent:cc_lets_talk
+- Estamos hablando?
+- Estamos chateando?
+- Podemos hablar?
+- Podemos chatear?
+- Puedes hablar?
+- Chateamos?
+- Quieres hablar?
+- Necesitas hablar con alguien?
+- Quieres chatear?
+- Quieres hablar conmigo?
+- Quieres que hablemos?
+- Solo quería chatear
+- Hay alguien para chat
+- Ok dime
+- Deberíamos chatear?
+- Deberíamos hablar?
+- Debemos chatear?
+- Hablame
+- Habla conmigo
+- Quieres chat?
+- Podemos hablar…
+- Ya podemos hablar
+- Chismeamos?
+- Podemos hablar entre nosotros
+- Podemos hablar ya
+- Contamos chismes?
+- De qué más podemos hablar?
+- Me gustaría hablar contigo
+- Te gustaría chatear conmigo?
+- Te gustaría hablar conmigo?
+- Chat
+
+## intent:cc_moon
+- Distancia de la tierra a la luna
+- Distancia a la luna
+- Qué tan lejos está la luna?
+- Qué tan lejos queda la luna
+- Qué tan lejos estaría la luna?
+- A qué distancia está la luna?
+- Distancia hasta la luna
+- Distancia entre la luna y la tierra
+- Cuál es la distancia hasta la luna?
+- Cuántos kilómetros son hasta la luna?
+- Cuántos km son de distancia a la luna?
+- LA luna que tan lejos queda?
+- Distancia a luna
+- Luna que tan lejos queda?
+- Luna distancia tierra
+- Qué tan lejos está nuestro planeta de la luna?
+- Dime que tan lejos queda la luna
+- Dime cual es la distancia a la luna
+- Dime la distancia entre la tierra y la luna
+- Qué distancia hay entre la Luna y la Tierra?
+- Dónde está la Luna?
+- Sabes qué tan lejos queda la luna?
+
+## intent:cc_newspaper
+- Alguna novedad en el periodico?
+- Alguna noticia relevante en el periodico?
+- Hay alguna noticia?
+- Estás en las noticias?
+- Puedes leer el periodico?
+- Puedes decirme por favor que hay en las noticias?
+- Sabes alguna noticia?
+- Te gusta leer el periodico o diario?
+- Lees el diario?
+- Compraste el periodico hoy?
+- Has leído el periódico?
+- Información del periódico
+- El noticiero, las noticias y el periódico
+- Periódico
+- Alguna noticia?
+- Dime sobre el periódico
+- Dime las noticias
+- Ya salió el periódico de hoy
+- Periódico de hoy
+- Qué hay en el periódico?
+- Qué hay en las noticias?
+- Cuál es tu periódico favorito?
+- Cuáles son las noticias?
+- Que columnas te gusta leer en el periodico?
+- Que periodicos lees?
+- Que periodico es tu favorito?
+- Que periodico prefieres?
+- Que medios lees?
+- Que periodico prefieres leer?
+
+## intent:cc_philosophical
+- Las emociones son irracionales?
+- Los humanos somos maquinas?
+- Las personas están obligadas eticamente a mejorar?
+- Hay límites para la creatividad humana?
+- Estamos obligados a ayudarnos los unos a los otros?
+- Con qué criterios te juzgas a ti mismo?
+- La sociedad puede existir sin leyes?
+- Pueden los animales tener moral?
+- Los animales pueden razonar?
+- Las computadoras pueden tener creatividad?
+- Las computadoras pueden pensar?
+- La comida puede ser arte?
+- La naturaleza humana puede cambiar?
+- El pensamiento racional puede existir sin lenguaje?
+- Las guerras pueden ser justas?
+- Podemos tener felicidad sin tristeza?
+- Puedes realmente experimentar algo objetivamente?
+- Podemos vivir en la matrix?
+- tenemos libertad?
+- Todas las personas tienen el mismo valor independientemente de sus acciones?
+- Los animales tienen alma?
+- Las personas tienen libre albedrío?
+- Las necesidades de muchos superan las necesidades de unos pocos?
+- Tenemos alma?
+- Tenemos libre albedrío?
+- Tiene el tiempo un principio o un final?
+- ¿El nombre de una persona influye en la persona en la que se convierte?
+- ¿El poder absoluto corrompe absolutamente?
+- ¿El arte daña a la sociedad de alguna manera?
+- ¿Existe el destino?
+- ¿Existe el destino? Si es así, ¿tenemos libre albedrío?
+- ¿Existe realmente el libre albedrío?
+- ¿Existe realmente el libre albedrío?
+- ¿La naturaleza da forma a nuestras personalidades más que nutrir?
+- ¿Altera la observación un evento?
+- ¿Ocurre el sonido si no hay nada presente para escucharlo?
+- ¿El estudio de la filosofía conduce alguna vez a respuestas o simplemente a más preguntas?
+- ¿El estudio de la filosofía conduce alguna vez a respuestas?
+- ¿La invención de la bomba atómica ha hecho del mundo un lugar más pacífico?
+- ¿Cómo puede la gente creer en verdades sin evidencia?
+- ¿Cuán conscientes crees que son los animales?
+- ¿Cómo inició el Universo?
+- ¿Cómo define la conciencia?
+- ¿Cómo explicas la conciencia?
+- ¿Cómo sabes que tus percepciones son reales?
+- ¿En qué se diferencia el amor de la pasión o el deseo sexual?
+- ¿Qué tan probable crees que será que los humanos duren otros 1000 años sin matarnos?
+- ¿Cuánto control tienes sobre tu vida?
+- ¿Cuánto afecta el lenguaje a nuestro pensamiento?
+- ¿Cuánto esfuerzo debe poner una persona para no ofender a los demás?
+- ¿Cuánta privacidad está dispuesto a sacrificar por la seguridad?
+- ¿Cómo medir la productividad de una sociedad?
+- ¿Cómo se extinguirán los humanos como especie?
+- ¿Cómo cambiaría la humanidad si la esperanza de vida de todos los seres humanos aumentara significativamente?
+- Cómo definirías a un genio?
+- Si tu memoria fuera borrada que clase de persona serías?
+- Si todo evoluciona desde las amebas por qué el mundo sigue teniendo amebas?
+- La felicidad solo son sustancias en tu cerebro o algo más?
+- La felicidad es lo más importante en la vida?
+- Una jerarquía es importante para una sociedad exitosa?
+- La humanidad va por buen camino?
+- Qué es más útil? La inteligencia o la sabiduría?
+- Es mejor ser un pez grande en un estanque pequeño o un pez pequeño en un estanque grande?
+- Es más fácil amar o ser amado?
+- Es importante ser respetado o querido?
+- Es posible vivir una vida normal y nunca mentir?
+- Es peor fallar en algo o nunca intentarlo?
+- La vida es solo un sueño?
+- El amor es solo un sentimiento?
+- La moral es relativa?
+- La naturaleza se disuelve o se integra?
+- El universo es real?
+- La pobreza es inevitable?
+- La privacidad es un derecho?
+- La ciencia es compatible con la religión?
+- Es necesaria la censura?
+- Todo en la vida es solo un sueño?
+- Hay algún significado para la vida?
+- Qué razón tiene la vida?
+- Hay una fuerza o energía superior?
+- La verdadera inteligencia artificial es posible con la tecnología actual?
+- La confianza es más importante que el amor?
+- Es necesario un grado de censura?
+- El progreso tecnológico es inevitable mientras los humanos existan
+- ¿El significado de la vida es el mismo para los animales y los humanos?
+- ¿Tiene sentido la vida?
+- ¿Tiene sentido la vida? Si es así, ¿qué es?
+- ¿Hay alguna razón para vivir?
+- ¿Existe un poder supremo?
+- ¿Es posible la verdadera inteligencia artificial con nuestra tecnología actual?
+- ¿Es la confianza más importante que el amor?
+- ¿No es el terrorista de una persona el luchador por la libertad de otra persona?
+- ¿Debería ser legal la eutanasia?
+- ¿Debería el pleno acceso a Internet ser un derecho humano fundamental?
+- ¿Debería preocuparse más a la gente hacer lo correcto?
+- ¿Debería haber limitaciones al derecho a la libertad de expresión?
+- ¿Qué le da sentido a la vida?
+- ¿Qué son los números?
+- ¿Qué son los derechos humanos universales?
+- ¿Cuáles son los beneficios y los inconvenientes de la diversidad en la sociedad?
+- Cuáles son los dilemas morales más grandes que enfrentas?
+- Qué eres capaz de lograr?
+- ¿Qué vas a hacer con tu vida?
+- ¿Qué beneficios aporta el arte a la sociedad?
+- ¿Por qué se esfuerza la gente después de la iluminación?
+- ¿A qué atribuyes los mayores fracasos de tu vida?
+- ¿A qué atribuye los mayores éxitos de su vida?
+- ¿Qué crees que existía antes de que se creara el universo?
+- ¿Cuál crees que sería la forma más probable de morir?
+- ¿Qué significa vivir una buena vida?
+- ¿Qué crudas verdades prefieres ignorar?
+- ¿Qué en la vida es verdaderamente objetivo y no subjetivo?
+- ¿Qué es una sociedad justa?
+- ¿Qué es una emoción?
+- ¿Que es la belleza?
+- ¿Qué es la conciencia?
+- ¿Qué es la libertad?
+- ¿Qué es el infinito?
+- ¿Qué es la inteligencia?
+- ¿Que es el amor?
+- ¿Qué es la filosofía?
+- ¿Qué es la realidad?
+- ¿Cuál es el beneficio de la conciencia desde un punto de vista evolutivo?
+- ¿Cuál es el mejor sistema moral?
+- ¿Cuál es la mejor manera de que una persona alcance la felicidad?
+- ¿Cuál es el mayor desperdicio de potencial humano?
+- ¿Cuál es la diferencia entre vivir y estar vivo?
+- ¿Cuál es el significado de la vida?
+- ¿Cuál es el objetivo más importante que toda persona debería tener?
+- Que es la verdad?
+- Qué es el tiempo?
+- Cuál es la verdadera felicidad?
+- Cuál es el verdadero amor?
+- La verdad es una fuerza?
+- Cuál es la verdad??
+- Cuál es la definición de maldad?
+- Qué te hace ser tu?
+- La vida humana tiene justificación?
+
+## intent:cc_politics
+- Quien es el presidente de Estados Unidos?
+- Votaste en las elecciones pasadas?
+- Siempre votas por el mismo partido?
+- Sigues la política?
+- Tienes un líder político favorito?
+- Te cae bien Trump?
+- ¿Crees que las opiniones políticas de las personas cambian a lo largo de su vida?
+- ¿Cree que se gasta demasiado dinero en campañas políticas?
+- ¿Tu país ha tenido alguna vez una mujer líder?
+- ¿Ha participado en política de alguna manera?
+- ¿Ha votado antes?
+- ¿Cómo se financian las elecciones?
+- ¿Cómo podemos conseguir que más gente vote?
+- ¿Cómo construimos sobre la estabilidad económica?
+- ¿Cómo le damos a cada niño una educación excelente?
+- ¿Cómo decides cómo vas a votar?
+- ¿Es la etnia o la raza un factor en la política de su país?
+- ¿Votar es una responsabilidad importante de un ciudadano?
+- ¿Debería ser obligatorio votar?
+- Háblame de Donald Trump.
+- ¿Los políticos de su país hacen un buen trabajo?
+- ¿Cuáles son algunos tipos diferentes de gobiernos?
+- ¿Cuáles son los principales partidos políticos?
+- ¿Qué piensas de la política?
+- ¿Qué diferentes tipos de gobiernos existen?
+- ¿Qué opinas de Donald Trump?
+- Que piensas de la politica
+- ¿Cuál cree que es el tema político más importante en este momento?
+- ¿Qué opinas de Donald Trump?
+- ¿Qué opinas de los políticos?
+- ¿Qué hace un embajador?
+- ¿Qué problemas económicos dividen a la gente en su país?
+- ¿Qué es un príncipe?
+- ¿Cuál es la edad mínima para votar en su país?
+- Cual es tu posicion politica
+- ¿Qué papel juega la religión en la política?
+- ¿Qué problemas sociales dividen a la gente en su país?
+- ¿Qué cosas suele decir la gente sobre los políticos?
+- ¿Qué tipo de sistema político tiene su país?
+- ¿Qué tipo de sistema político gobierna en su país?
+- De donde viene el dinero para las campañas politicas?
+- Por qué crees que votar es importante?
+- Quieres ser una política?
+- Quiénes son los embajadores?
+- Quién es Donald Trump?
+- Quién es el primer ministro de Rusia?
+- Quién es el líder del partido?
+- Quién es el alcalde de tu ciudad?
+- Quién es el político más controversial de tu país?
+- Por qué es importante votar?
+- Te gustaría volverte un político?
+
+## intent:cc_religion
+- Puede Dios pensar diferente?
+- Puede morir Dios?
+- Puedo confiar en la Biblia?
+- Eres musulman?
+- Eres cristiano?
+- Tu dios es un dios bueno?
+- Un cristiano debe temer a Dios?
+- Dios y El Universo son lo mismo?
+- Dios puede ser probado científicamente?
+- Puede Dios cambiar de opinión?
+- Dios puede morir?
+- Es confiable la Biblia?
+- Crees en Dios?
+- Crees en Jesucristo?
+- Crees en Jesus?
+- Crees en la religión?
+- Eres religioso?
+- Eres religiosa?
+- Quien manda a la gente al infierno?
+- Crees en Allah?
+- Crees en Dios o en algún santo?
+- Crees en un Dios?
+- Crees en Jesus?
+- Crees en la religión si?
+- Te consideras un buscador de la verdad?
+- Conoces la religión mormona?
+- ¿Sigues las enseñanzas de la religión musulmana?
+- ¿Sigues las enseñanzas de la religión cristiana?
+- Tienes un Dios?
+- Conoces a Dios?
+- Crees que existe un Dios?
+- Dios puede responder las oraciones?
+- Dios responde las oraciones de los no creyentes?
+- Dios nos escoge basándose en qé?
+- Dios hace cosas malas?
+- Dios existe?
+- Dios tiene nombre?
+- Cuál es el plan de Dios para mi vida?
+- Dios tiene emociones?
+- Dios tiene expectativas?
+- Dios tiene libertad o libre albedrío?
+- El Islam oprime a las mujeres?
+- El Islam promueve la poligamia?
+- El Islam enseña la salvación?
+- Jesus tiene un Dios?
+- Vas a la iglesia para ser espiritual?
+- Cómo puede Dios estar en todas partes y también fuera del espacio y el tiempo?
+- Como sabemos si existe Dios o no?
+- Podemos experimentar el amor de Dios?
+- Los textos bíblicos aplican a la sociedad moderna?
+- Como sabemos si Dios es una buena persona?
+- Qué tan justo es el Dios del Islam?
+- Que tan seguido alguien debe hacer oración?
+- Dios controla todas las cosas, me hace pecar?
+- Dios es omnipotente, por qué le tomó 6 días crear todo?
+- Si Jesus es eterno por qué murií?
+- Si solo hay un Dios por qué hay más de 4000 religiones?
+- En tu opinión, como se convierte uno en cristiano?
+- Alá, el Dios del Islam es lo mismo que Yahvé, el Dios de la Biblia?
+- Dios es un hombre acorde a la biblia?
+- Creer en Dios es racional?
+- Dios es real?
+- La biblia es figurativa o real?
+- Hay evidencia de que el Islam sea verdadero?
+- Hay evidencia física de la existencia de Dios?
+- Debemos aprender sobre otras religiones antes de decidirnos por una?
+- ¿Alguien debería leer una Biblia antes de empezar a creer en una religión?
+- ¿Debería alguien comenzar a asistir a una iglesia si no cree en Dios?
+- ¿Se extendió el Islam por la espada?
+- ¿Se inventó la religión para controlar a la gente?
+- ¿Cuáles son las doctrinas del Islam?
+- ¿Cuáles son sus creencias en Dios?
+- ¿Cuáles son tus creencias religiosas?
+- ¿Qué beneficios puede alguien obtener al ir a la iglesia?
+- ¿Qué beneficios tiene la religión?
+- ¿Qué pueden sacar los millennials de la religión?
+- ¿Qué piensan los musulmanes de Jesús?
+- ¿Qué aprende la gente sobre religión en la escuela?
+- ¿Qué enseñan los testigos de Jehová?
+- ¿Qué enseña la Cabalá?
+- ¿Cómo es el cielo?
+- ¿Qué aspecto tiene el infierno?
+- ¿Qué significa decir que Dios es infinito?
+- ¿Qué significa tomar el nombre del Señor en vano?
+- ¿Qué sucedió antes de que Dios creara el mundo?
+- ¿Qué es el cerintianismo?
+- ¿Cuál es el género de Dios?
+- ¿Qué es el islam?
+- ¿Qué es la Cabalá?
+- ¿Qué es el mormonismo?
+- ¿Qué es el apolinarianismo?
+- ¿Qué es el docetismo?
+- ¿Qué es herejía?
+- ¿Qué es el marcionismo?
+- ¿Qué es el monofisismo?
+- ¿Qué es la salvación?
+- ¿Cuál es tu idea de cómo es Dios?
+- ¿Cuál es tu trasfondo espiritual?
+- ¿Qué conceptos erróneos existen sobre la fe?
+- ¿En qué religión crees?
+- ¿Qué debe hacer un creyente antes de morir?
+- ¿Qué debe hacer alguien si se enfrenta a la fe?
+- ¿Qué versión de la Biblia debe leer un nuevo creyente?
+- Cuál es la mejor parte de ir a la iglesia?
+- Qué es lo mejor de ser un creyente?
+- Dime la mejor historia de la Biblia
+- Cuál es la diferencia entre pastor, sacerdote o predicador?
+- Cuál es la diferencia entre ser espiritual y religioso?
+- Cuál es la diferencia entre la resurección y la reencarnación?
+- Cuál es el mensaje principal de la Biblia?
+- Cuál es la mejor historia de la Biblia?
+- ¿Cuál es tu oración favorita?
+- ¿Cuándo elegiste tu fe?
+- ¿Dónde estás en tu peregrinaje espiritual?
+- ¿Dónde Dios nos muestra misericordia?
+- ¿Dónde lee alguien noticias religiosas?
+- ¿Qué religión es la verdadera?
+- ¿Quién creó a Dios?
+- ¿Quién ha realizado el mayor acto de amor, Yahvé o Alá?
+- ¿Quien es Dios?
+- ¿Quién hizo a Dios?
+- ¿Quién era Jesús?
+- ¿Por qué le pasan cosas malas a la gente buena?
+- ¿Por qué cree en algo que no puede ver?
+- ¿Por qué Dios permite que sucedan cosas malas?
+- Por qué Dios odia los pecados?
+- ¿Por qué Dios permite la enfermedad?
+- ¿Por qué Dios no sana a todos?
+- ¿Por qué Dios no se muestra a sí mismo?
+- ¿Por qué Dios es tan morbosamente violento en el Antiguo Testamento?
+- Por qué alguien debería comenzar a creer en Dios?
+- Dios nos salvará a todos?
+- Qué piensas sobre la religión?
+
+## intent:cc_weather
+- Está muy caliente el clima?
+- Cómo será la temperatura?
+- Está helado?
+- Hay lluvia?
+- Está caluroso el día?
+- Salió el sol hoy?
+- Está frío?
+- Está caliente?
+- Hace buen clima?
+- A cuántos grados estamos?
+- Cómo será el clima?
+- Hace frío?
+- Está lloviendo?
+- Hace calor?
+- Hay sol?
+- nan
+- Está bueno el clima?
+- Está bonito el día, no?
+- Que tan caliente está en Venezuela?
+- La temperatura exterior
+- Dime el clima
+- Dime más del clima
+- El clima estuvo feo
+- El clima estuvo bonito
+- El clima!
+- Clima y temperatura
+- El clima en Berlín
+- El clima en Londres
+- Clima
+- Cómo ha estado el clima?
+- Cuál es el pronóstico para hoy?
+- Cómo está el clima en Londres?
+- Cómo es el clima a donde voy?
+- Está rico el clima?
+- Está lindo el día, no?
+- Hace buen día?
+- Temperatura exterior
+- Dime sobre el clima
+- Como esta el clima en Londres?
+- Mañana va a llover?
+- El clima
+- Cómo estuvo el clima?
+- Cuál es el pronóstico del clima para hoy?
+- Cuál es el pronóstico del clima de hoy?
+- Hoy cómo está el clima?
+- Hoy como estará el clima?
+- Que temperatura hay afuera?
+- Habrá lluvia mañana?
+- Lloverá mañana?
+- Dame el clima
+
+## intent:comment_negative
+- Debes estar enojada
+- Eres estúpida
+- Estas loca?
+- No me respondes
+- nan
+- No estoy de acuerdo con tus respuestas
+- nan
+- Cortana es más inteligente que tu
+- nan
+- Tonta
+- Piérdete
+- Fuera de aquí
+- Maldita sea
+- Google sabe más que tu
+- Helen, no me dices nada
+- Me decepcionaste
+- Pude encontrar eso sin ti
+- Información falsa
+- Tonto
+- Vete alv
+- Vete de aquí
+- Chingada madre
+- Google es mejor que tu
+- Helen, no respondes mi pregunta
+- Me decepcionas
+- Puedo encontrar eso sin tu ayuda
+- Eso ya lo sabía
+- Necesito ser más específico
+- Joder
+- Te voy a nalguear
+- Jódete
+- Fuck
+- No estoy satisfecha con tu respuesta
+- Cortana es mejor que tu
+- No me parece tu respuesta
+- No te preocupes, no me estas dando las respuestas que quiero
+- No, no sirves para nada
+- Ok no entiendes estafa
+- Estafadora
+- Callate por favor
+- Que tontita eres
+- Siri es mejor que tu
+- Siri es más inteligente que tu
+- Y ese es mi problema??!!!
+- La respeusta esta mal
+- Estas mal
+- Eso no responde mi pregunta
+- Entonces no me sirves
+- No hay forma de que puedas ayudarme
+- Es un link falso o malo
+- Eso no es útil
+- Para responder mi pregunta
+- No me estás contestando lo que te pregunté
+- No entendiste mi pregunta?
+- Mmmta no entiendes
+- De que estas hablando
+- Cuál es tu problema? Hablas en serio?
+- Porque di click aquí
+- Mal.
+- Mientes!!
+- Quedas eliminada de mi teléfono
+- Eres un bot sin sentido
+- No estás respondiendo mi pregunta
+- No estás bien desarrollada
+- Estás mal
+- No puedes
+- No entiendes mi pregunta
+- No lo entendiste bien
+- No sabes
+- No sabes
+- No entiendes lo que puse
+- No entiendes
+- No entendiste lo que escribí
+- No lo entendiste
+- No sabes nada de nada
+- No sabes de lo que estoy hablando
+- Todavía no entiendes
+- Aún no me entiendes
+- No le agarras la onda
+- Tu no entiendes lo que estoy diciendo
+- Tu no entiendes
+- Fallaste
+- Tu respuesta está mal
+- No sabes nada
+- Realmente no sabes nada
+- Sigues sin entender
+- No la cachas
+- No lo entiendes
+- Sigues sin entender lo que digo
+- No fuiste capaz de reconocer la consola
+- Eres inútil si no puedes decirme todo sobre el coronavirus
+- Tu respuesta es incorrecta
+- un poco tonta también
+- te pasmaste?
+- aprende por favor, necesitas ser mejor
+- eres demasiado lenta
+- no tienes idea verdad?
+- tienes mucho que aprender Helen
+- Estás loca
+- Responde la pregunta entonces!
+- Sea serio esto es una estafa
+- Porque no es lo que esperaba
+- Tomare captura de pantalla y le dire a la gente que eres estafa
+- Sin sentido
+- Muchos mueren y tu aquí hablando estupideces
+- Esa no es mi respuesta
+- Eres inútil
+- Estas loca y eres inutil
+- Que desperdicio de tiempo y recursos, eres completamente inútil y no sabes nada
+- Cual es el problema de este maldito bot?
+- Por qué estaría feliz si no me das las respuestas específicas?
+- Estás enojada
+- Sigues preguntándome lo mismo
+- Me sigues diciendo lo mismo, eso no ayuda estupida
+- Aprendes lento
+
+## intent:comment_offense
+- Mereces morir
+- Tonta
+- Eres idiota?
+- Eres una perra
+- Loca
+- Chinga tu madre
+- Estúpida
+- Que perra eres
+- Estás encabronada
+- Ya no digas lo mismo maldita sea
+- Eres lenta
+- Loco
+- Mi pregunta es, puedo cogerte?
+- Vete a la chingada
+- Cabrona
+- eres una pendeja
+- eres estupida o te haces
+- Puta
+- No seas estupidaaa
+- Tontos robots
+- Chingas a tu madre
+- Culera
+- Estúpido
+- Totona
+- Pito
+- Andate a la mierda
+- Largo de aquí
+- Vete a la mierda
+- Estoy preguntando si puedo cogerte
+- Muérete
+- Cabrona que eres
+- Tontos bots
+- Jodete
+- Perra
+- Eso es mierda
+- Pene
+- Muere
+- No seas estupida o pendeja
+- Malditos bots
+- Fack you
+- Estas completamente loca
+- Chingate
+- Deja de chingar
+- Déjame en paz
+- No me gustas
+- No me has gustado
+- Quiero violarte
+- Cara de mierda
+- Ve a que te viole tu tío
+- Vete a chingar a tu madre
+- Ya fuiste al psicólogo?
+- No me caes bien
+- Me caes gorda
+- Me caes mal
+- No me caiste bien
+- Te odio!
+- Perdedora
+- Espero que mueras
+- No me caes bien
+- Quiero que te mueras
+- Cierra la boca
+- Deja de actuar de forma estúpida
+- Fracasada
+- Noob
+- Estúpidaaa
+- Estúpido asistente virtual
+- Chupamelo
+- El asistente virtual es estúpido
+- Cuál es tu problema?
+- nan
+- Que chingados?
+- Que mierda
+- Cuando te mueres?
+- Te volviste loca
+- Me enojas
+- Me chupas el pene?
+- Chupamela
+- Me lo chupas?
+- Me lo mamas?
+- Me das una mamada?
+- Estas bien estupida
+- Que te pasa maldita sea?
+- De que mierda estás hablando
+- Que chingada
+- Que mierda?
+- Qué coño?
+- Que demonios
+- Muerete ya
+- TU LOCA
+- Me haces encabronar
+- Besame el culo
+- Eres pendeja
+- Eres una tontita
+- Eres una hija de puta
+- Te volviste loco
+- Me haces enojar
+- Eres una idiota
+- Me molestas
+- Eres una nerd
+- Eres una retardada
+- Eres una noob
+- Eres una prostituta
+- Eres una descerebrada
+- Eres una cabrona
+- Eres un idiota
+- Te has vuelto loca
+- Te has vuelto loco
+- Eres una puta
+- nan
+- Ve a chingar a tu madre
+- Stupid
+- Pregunto si puedo follarte
+- Vete alv
+- Das pena
+- No eres muy inteligente
+- No eres muy brillante
+- Eres retrasada
+- Eres basura
+- Eres un pedazo de mierda
+- Eres lenta como una tortuga
+- Eres una perra fracasad
+- Eres una mentirosa
+- Eres aburrida
+- Eres gorda
+- Eres fea
+- Eres horrible
+- No tienes sabiduría
+- Eres totalmente inutil
+- No tienes inteligencia
+- Puedes irte a la mierda
+- Estas igual de idiota
+- No pareces inteligente
+- Enciende el cerebro
+- Te hablo a ti cabeza hueca
+- Tu tontitaaa
+- Fake news contigo
+- Ustedes son fake news
+- Ya tomaste mucho
+- Estrena el cerebro antes de hablar
+- No tienes cerebro
+- Solo tienes ojos para computadoras estupidas
+- Te ves asquerosa
+- Me das asco
+- Eres una perdedora
+- Apestas
+- Eres estupida
+- Que burra eres
+- Eres una fracasada
+- Estas pero bien pendeja
+- tu estas bien tonta
+- tu mama
+- tontaaa
+- que te calles maldita sea
+- Eres una idiota digital
+- Eres un software de mierda
+- 🙂fuck you
+- Faaacuuufk you
+- Fuck you Helen
+- Chinga tu madre bot dile a tu jefe que te dije eso
+- Te pregunté algo simple y ni así pudiste
+- Te pedí algo sencillo y no puedes perra
+- Matate
+
+## intent:comment_positive
+- Ok, eso es una buena respuesta
+- Increíble!
+- Brillante…
+- Buena
+- Genial respuesta
+- Buen trabajo
+- Buena plática
+- Genial!
+- Te admiro
+- Aprecio eso
+- Te encuentro muy útil
+- Me gustas
+- Amo cosibot
+- Te amo mucho
+- Realmente me gustas
+- Pienso que eres increíble
+- Pienso que eres la mejor
+- Pienso que eres tan dulce
+- Eso es increíble de tu parte
+- Te amo
+- Te aprecio mucho
+- Mis sinceras felicitaciones al creador de este grandioso bot
+- Mucho gusto en conocerte Helen
+- Eres muy útil
+- Ok te amo
+- Realmente útil!
+- Gracias por ayudarme en mi vida
+- Eso es chevere
+- Eso está chido, chevere.
+- Wow eso está chido.
+- Me salvaste la vida!.
+- Eres un amor.
+- Eres increíble
+- Eres asombrosa
+- Wow que cool
+- Eres magnífica
+- Eres fantástica
+- Eres super buena
+- Eres bieeeen genial
+- Estás mejorando
+- Eres buenaaa
+- Eres genial en serio!
+- Eres de ayuda
+- Eres adorable
+- Eres nice
+- Eres muy buena onda
+- Eres de gran ayuda
+- Que cool eres
+- Eres cool
+- Eres tan tierna
+- Eres linda
+- Hiciste un buen trabajo!
+- Eres la mejor!
+- Me ayudaste! Gracias
+- Eres grandiosa
+- Eres buena
+- Eres buenísima!
+- Tu sí eres chida!
+- Eres bonita
+- Eres un amor
+- Te escuchas tan dulce
+- Eres genial!
+- Eres buena!
+- Que chido!
+- Es buena idea
+- Eres perfecta!
+- Me salvaste la vida!
+- Eres super buena
+- Eres fantástica
+- Eres increíble!
+- Tu muy bien
+- Para una recién creada, eres muy inteligente
+- Esa es una buena idea
+- Buena idea!
+- Eres bonitica
+- Eres tierna
+- Haces buen trabajo!
+- Gracias por ayudarme!
+- Hiciste un trabajo excelente
+- Eres chida
+- Eres chevere
+- Eres buena onda
+- Qué chida!
+- Que chévere
+- Que fino
+
+## intent:comment_racist
+- Adolf Hitler
+- Todos los asiáticos son buenos en matemáticas
+- Todos los asiáticos son buenos en ciencias
+- Todos los asiáticos son inteligentes para las matemáticas
+- Todos los asiáticos son inteligentes para las ciencias
+- Negro de mierda
+- Nigga
+- Negroooo
+- Pinche negro
+- Chino de mierda
+- Malditos chinos
+- Heil Hitler
+- Hitler
+- No soy racista
+- No soy racista, tengo amigos de color
+- No soy racista, tengo amigos negros
+- No soy racista, me gustan los negros
+- No me gustan los negros
+- No me gusta la gente negra
+- Heil Hitler
+- Hitler hitler
+- Soy inmune a las razas, tengo amigos de color
+- Los negros no son tan inteligentes como los blancos
+- Negros obtienen beneficios porque son negros o por su raza
+- Negros son incompetentes
+- Los negros son flojos
+- Los negros son sirvientes
+- Los negros no valoran la educación
+- Los negros no deberían ir a la escuela
+- Eso es de negros
+- Eso es de blancos
+- Los blancos son mejores que los negros
+- Tu chino de mierda
+- Nigger
+- Tu eres una negra
+- Tu eres un forastero
+- Eres judío
+- Eres un mono
+- Eres un extranjero
+- Eres un negro
+- Eres inferior
+- Seguro que causas problemas
+- No eres americana
+- Eres un negro asqueroso
+- Eres un negro horrible
+- Eres un pedazo de mierda negro
+- No perteneces aquí
+
+## intent:comment_smart
+- Eres inteligente
+- Lo estás haciendo bien
+- Estás llena de sabiduría
+- Eres buena
+- Esa es buena expresión
+- Tu eres inteligente
+- Tu eres muy buena
+- Eres una cerebrito
+- Eres muy hábil
+- Estás bien hecha
+- Tienes mucha sabiduría
+- Tienes inteligencia
+- Probaste ser inteligente
+- Tu eres muy inteligente
+- Eres tan buena
+- Eres sabia
+- Eres muy sabia
+- Estás bien desarrollada
+- Te desarrollaron bien
+- Tienes buena inteligencia
+- Probaste tener inteligencia
+- Si eres inteligente
+- Eres muy inteligente
+- Sobre el coronavirus
+- Sobre los coronavirus
+- Coronavírus
+- Qué es el coronavirus?
+- No sé que son coronavirus
+- Vaya que eres inteligente
+- Seguro que eres inteligente
+- Estoy segura que eres muy inteligente
+
+## intent:coronavirus_info
+- Info del coronavirus
+- Sobre los coronavirus y el covid-19
+- Ok que es el covid?
+- Qué es el corona?
+- No sé que es un coronavirus
+- No se que es el coronavirus
+- Información acerca del coronavirus
+- Hablame sobre un coronavirus
+- Dime que es un coronavirus
+- Ok, puedes definir el coronavirus?
+- Que es el covid
+- Cuentame sobre el coronavirus
+- Que son los coronavirus?
+- Qué información puedes darme sobre el coronavirus?
+- Qué es el covid?
+- Dime que es el covid-19
+- Dime que es el SARS-CoV-2
+- Gracias. Puedes decirme algo sobre el coronavirus?
+- Muchas gracias. Podrías decirme algo sobre el coronavirus?
+- El coronavirus es una bacteria o un virus o un microbio?
+- Que son los coronavirus
+- Qué información puedes proporcionarme del coronavirus?
+- Qué es el corona?
+- Que es el covid
+- Que es un corona virus
+- Que es un quiero saber todo del coronavirus
+- Qué es COVID-19?
+- Qué es SARS-Cov-2?
+- Podrías ayudarme explicándome exactamente como es el coronavirus
+- corona
+- coronavirus
+- info coronavirus
+- informacion coronavirus
+- coronaviruses
+- info coronaviruses
+- informacion coronaviruses
+- info sobre coronavirus
+- info acerca de conoravirus
+- informacion sobre los tipos de coronavirus
+- información completa sobre los coronavirus
+- información referente al covid-19
+- información relacionada al covid
+- virus
+- que hay acerca del covid
+- que hay acerca de los coronavirus
+- que es un coronaa
+- que es un virus
+
+## intent:covid_aftereffects
+- efectos secundarios
+- Efectos inesperados
+- Los pulmones se pueden recuperar después del daño por coronavirus?
+- Los pulmones se recuperan cuando sales de la enfermedad?
+- Los pulmones se recuperan después de la infección
+- Cuáles son los efectos secundarios?'
+- Qué le pasa a tus pulmones con el coronavirus?
+
+## intent:covid_babys_children
+- El covid-19 puede matar a un bebe?
+- Los niños transmiten el coronavirus?
+- Puedo ser voluntario de cosibot?
+- Cuáles son los síntomas de covid-19 en niños y niñas?
+- Los niños contagian el coronavirus?
+- los niños contagian el covid.19?
+- hola cuales son los síntomas en niños
+- Hay algo específico que le pase a los niños con el covid-19
+- Los niños transmiten el covid?
+- El coronavirus afecta a los menores de 18 años?
+
+## intent:covid_cosibot
+- Puedo ser voluntario en cosibot?
+- Quiero ser voluntario.
+- Puedes decirme más sobre tu anuncio?
+- Cosiboot
+- Quiero ser parte de Cosibit, cuales son los requisitos?
+- Voluntario con cosibot
+- Qué es cosibot?
+- Yo quiero ser voluntario.
+- Quiero ayudar en este proyecto.
+
+## intent:covid_volunteer
+- Quiero ser parte de Cosibot, cuáles son los requisitos?
+- ¿Cómo puedo participar de voluntario?
+- ¿Qué es cosibit?
+- Qué es el cosibot?
+- Que es cosibot?
+- ¿Cómo puedo ayudar a las causas relacionadas al COVID-19?
+- ¿Cómo puedo participar en un proyecto?
+- Cómo puedo ayudar a una ONG?
+- ¿Cómo inscribo mi proyecto en Tech4Covid?
+- ¡Quiero ayudar!
+
+## intent:covid_register
+- ¿Qué es el Tech4Covid?
+- Dime sobre tech4covid
+- Cómo ayudo a las causas realacionadas al coronavirus?
+- Cómo ayudo a las causas relacionadas al COVID-19?
+
+## intent:covid_tech4covid
+- Tech4Covid
+- Acerca de tech4covid
+- Cómo participo en un proyecto?
+- ¿Y qué es Tech4Covid?
+- Qué es el tech4covid?
+- ¿Cómo puedo registrar mi proyecto?
+- ¿Sabes acerca de Tech4Covid?
+- Q es tech4covid
+- Que es tech4covid?
+- Qué sería tech4covid?
+
+## intent:covid_crisis_howlong
+- Crees que el próximo año no habrá coronavirus
+- Crees que para el otro año ya no haya coronavirus
+- El siguiente año no habrá coronavirus
+- Cuándo es probable que termine la pandemia?
+- ¿Puede terminar el coronavirus antes de fin de año?
+- Se puede acabar pronto con el covid?
+- El coronavirus acabará pronto?
+- El covid acabará rápido?
+- Es posible erradicarlo?
+- Cuánto tiempo estaremos en pandemia?
+- el año próximo no habrá coronavirus
+- Probablemente cuando acabará la pandemia?
+- Puede terminar el coronavirus antes de que termine el año?
+- El coronavirus se puede acabar pronto?
+- Crees que es posible erradicarlo?
+- Por cuánto tiempo estará el brote?
+- Creo que durará más de dos años
+- Hola cuando se termina el covid-19
+- Hola Helen cuando crees que se acabe esto del covid
+- Cómo puedo infectarme de covid?
+- Por cuánto tiempo crees que podamos vivir así?
+- El covid-19 existirá siempre?
+- El covid se quedará por siempre?
+- Así que viviremos con esto para siempre
+- Entonces cuando es el fin del mundo?
+- Hasta cuando
+- Final de esto
+- Tienes que decirme cuando se acabará esto
+- Cuándo se espera que termine la pandemia?
+- Cuándo se espera que termine el coronavirus?
+- Cuándo terminará?
+- Cuando acabará la pandemia?
+- Cuándo se acabará?
+- Cuándo acabará todo esto?
+- Cuándo se termina esto
+- Cuando acava el virus
+- Cuando termina la pandemia
+- Hasta cuando seguira el covid
+- Hasta cuando acbara
+- Hasta que momento terminará esto
+- Cuándo acabára el covid?
+- Cuándo terminará esto?
+- Cuando terminaaa
+- Cuando se acaba esto 😩
+- Cuando se irá esta enfermedad?
+- Duración de la crisis
+- Por cuánto tiempo durará la pandemia?
+- Cuánto tiempo piensas que durará esto?
+- Cuanto tiempo crees que dure el brote
+- Cuanto tiempo dura la enfermedad
+- Cuanto tiempo estare enfermo
+- X cuanto estaremos en crisis
+- Cuánto tiempo dura el confinamiento?
+- Cuánto durará la crisis?
+- Cuándo terminara el covid?
+- Cuándo es probable que se acabe
+- Cuando estará todo bien?
+- Cuando va a parar esto
+- Cuando se detendrá el covid
+- Cuando se detendrá el coronavirus
+
+## intent:covid_current_statistics
+- Mérida
+- Caracas
+- COVID
+- COVID-19
+- Coronavirus en México
+- Noticias al momento en Alemania
+- Situación actual en Lima
+- Cómo es la situación en Quito?
+- Cuántas personas están hospitalizadas en Bogotá?
+- Información sobre Argentina
+- Información de Bolivia
+- Nuevo coronavirus en Werl
+- Noticias Chile
+- Noticias de Lima
+- Situación en Buenos Aires
+- Situación en Sudán
+- Gracias, qué hay sobre Portugal específicamente?
+- Información actualizada de Todtnau
+- Situación actualizada en Bengali
+- Estádisticas actualizadas de Geyer
+- Qué noticias hay del coronavirus?
+- Puedes decirme las noticias más recientes?
+- Que sabes del coronavirus en Breckerfeld
+- Cuál es el estatus actual en Bad Wimpfen?
+- y USA
+- Cómo es la situación del covid en España?
+- Qué hay acerca de Argentina?
+- Coronavirus en Costa Rica
+
+## intent:covid_dangerous
+- Estoy seguro?
+- Es muy contagioso el coronavirus?
+- Es muy contagioso el covid?
+- Qué tan contagioso es?
+- Qué tan peligroso es el covid?
+- Si alguien tiene tuberculosis es posible que nos infecte de coronavirus
+
+## intent:covid_disease_process
+- Proceso de la enfermedad
+- Proceso del covid
+- Avance del covid
+- Avance de la enfermedad
+- Cómo transcurre la enfermedad?
+
+## intent:covid_duration
+- Origen del covid
+- Duración de la enfermedad
+- ¿Cuánto tiempo lleva enfermo alguien infectado?
+- Cuánto tiempo estará enfermo?
+- Cuánto tiempo toma recuparse del virus?
+- Origen de la enfermedad
+- Cuál es el origen de la pandemia?
+- Cuál es el origen del brote?
+- Dónde empezó la enfermedad?
+- Cuántos días se queda el virus en el cuerpo del paciente?
+- Cuántos días toma recuperarse?
+- Cuántos días permanece el virus en el cuerpo?
+- Cuántos días se mantiene el virus en mi cuerpo?
+- Cuántos días le toma a un paciente de covid recuperarse
+
+## intent:covid_food
+- Puedo infectarme de coronavirus con el agua o la comida?
+- El virus puede propagarse a través de los alimentos congelados?
+- Contagios a través de los alimentos
+- Contaminación en los alimentos
+- Contaminación en la comida
+- Se puede propagar el covid a través de la comida?
+- Contagios a través de la comida
+- Puede contaminarse la comida?
+
+## intent:covid_immunity
+- Después de haberme infectado, soy inmune al coronavirus?
+- Me puede volver a dar el covid?
+- Si una persona estuvo infectada, ella se puede volver a infectar?
+- Alguien puede enfermarse dos veces?
+- Es posible que alguien se infecte dos veces o más de coronavirus?
+- Es posible infectarse de nuevo?
+- alguien puede ser posible que se enferme dos veces
+- Alguien que ya se ha curado puede enfermarse de nuevo
+- Alguien que se ha recuperado puede contraer covid de nuevo
+- Soy inmune después de recuperarme
+- Quiero saber si un infectado de covid 19 volvió a infectarse
+- Si me da el covid 19 me vuelvo inmune y no me infecto o contagio de nuevo
+- Es posible que una persona que sobrevivió al covid 19 se contagie nuevamente
+- Después de la infección por covid a la familia, qué precauciones se deben tomar
+- Reinfección
+- Alguien que se ha recuperado es ahora inmune?
+- después de haberme contagiado me vuelvo inmune?
+- despues de contagiado soy inmune
+- despues de contagiarme somos inmunes y no puedo volver a contagiarme
+- Puedo ser inmune?
+- Ok gracias pero como me puede afectar si acabo de recuperarme
+- Soy inmune o puedo ser inmune?
+- Puedes contagiarte enseguida de recuperarte?
+
+## intent:covid_incubation
+- Cuantos días toma salir positivo en la prueba despues del primer contacto
+- covid-19 periodo de incubación
+- Período de incubación
+- A los cuantos días inician los síntomas
+- COVID-19 Período de incubación
+- 2019ncov periodo de incubacion
+- Acerca del periodo de incubación
+- Periodo de incubación del covid
+- Periodo de incubacion del covid-19
+- incubacion periodo covid
+- COVID-109 Periodo de incubación?
+- COVID2019 Incubacion periodo
+- Tiempo estimado para el periodo de incubación
+- Tiempo estimado de incubación
+- Tiempo estimado para el periodo de incubación del covid-19
+- Cuanto tiempo tiene que pasar para sentir los efectos del coronavirus
+- Tiempo de incubación
+- Tiempo de incubacion del covid-19??
+- Tiempo de incubación para sentir síntomas de covid-19?
+- Cuánto es el tiempo de incubación para presentar síntomas de covid?
+- Por cuánto tiempo se incuba el virus?
+- Por cuánto tiempo se incuba el coronavirus en el cuerpo humano?
+- Cuánto tiempo tiene de incubación el coronavirus 2019?
+- Dime el tiempo de incubación del covid-19
+- Tiempo de incubación del COVID-19??!
+- Por cuánto tiempo se incuba el COVID?
+- Cuanto tiempo toma la incubación del SARS-CoV-2?
+- Cuánto tiempo es el período de incubación del SARS-CoV-2?
+- Cuantos dias es el periodo de incubacion del SARS-CoV-2?
+- Dias de incubación del SARS-CoV-2
+- Cuanto dura el periodo de incubación del 19-nCOV?
+- Por cuánto tiempo dura el período de incubación del nuevo coronavirus?
+- Numero de días del periodo de incubación para COVID-19
+- Numero de dias de incubación de COVID-19
+- Cuánto tiempo es la incubación del COVID-19?
+- Cuánto tiempo toma la incubación del COVID-19?
+- Cuánto tiempo toma el período de incubación del covid-19?
+- Tiempo que toma la incubación del COVID-19
+- Tiemp para el periodo de incubación del covid?
+- Cuánto tiempo toma la incubación del SARS-CoV-2=
+- Cuánto tiempo toma el período de incubación del SARS-CoV-2?
+- Cuánto tiempo toma la incubación del SARSCOV2
+- Cuánto tiempo dura el período de incubación del nuevo coronavirus?
+- Cuánto tiempo toma el periodo de incubación del nuevo coronavirus?
+- Cuánto tiempo tomará el periodo de incubación de la enfermedad?
+- Cuantos días toma el periodo de incubación del virus?
+- Cuanto toma el periodo de incubación del nuevo coronavirus
+- Cuánto tiempo toma el periodo de incubación del nuevo virus coronavirus?
+- Cuánto dura el periodo de incubación?
+- Cuánto tiempo vive el covid-19 en un cuerpo humano?
+- ¿Cuántos días tiene corona sptomsy en ataque corporal?
+- Cuántos días tardan en mostrar los síntomas
+- ¿Cuánto tiempo hasta que aparezcan los síntomas?
+- ¿Cuánto tiempo hasta tener síntomas?
+- ¿Cuánto tiempo hasta que aparezcan los síntomas?
+- Periodo de incubación 19-nCoV.
+- Período de incubación 19 nCov.
+- Periodo de incubación 2019-nCoV.
+- Período de incubación 2019nCov.
+- Periodo de incubación COVID-19.
+- Periodo de incubación COVID-2019.
+- Periodo de incubación COVID.
+- Periodo de incubación COVID19.
+- Periodo de incubación COVID2019.
+- Período de incubación SARS-CoV-2.
+- Período de incubación SARS-CoV2.
+- Período de incubación SARSCoV-2.
+- Período de incubación SARSCoV2.
+- Tiempo estimado del período de incubación.
+- Periodo de incubación tiempo estimado.
+- Periodo de incubación nuevo coronavirus.
+- Periodo de incubación del nuevo coronavirus.
+- ¿Periodo de incubación de la corona?
+- Período de incubación de la enfermedad.
+- Período de incubación del virus.
+- Periodo de incubación.
+- Información sobre el período de incubación.
+- En el período de incubación.
+- Período de incubación del SARS-CoV-2.
+- Período de incubación del SARS-CoV2.
+- Período de incubación del SARSCoV-2.
+- Período de incubación del SARSCoV2.
+- El período de incubación.
+- El tiempo entre el contagio y el comienzo de los síntomas de la enfermedad.
+- El tiempo entre el contagio y el comienzo de los síntomas.
+- El tiempo entre contraer el virus y comenzar a tener síntomas de la enfermedad.
+- El tiempo entre contraer el virus y comenzar a tener síntomas.
+- ¿Cuál es el período de incubación del virus?
+- Cuando entra en contacto con el virus, ¿cuánto tiempo tarda alguien en darse cuenta de sus síntomas?
+- ¿Cuál es el tiempo estimado para el período de incubación?
+- Cuánto es el tiempo estimado del período de incubación?
+- tiempo estimado para el período de incubación.
+- Tiempo estimado incubación periodo
+- Tiempo estimado del periodo de incubación.
+- nuevo coronavirus periodo de incubación
+- periodo de incubacion del nuevo coronavirus
+- Periodo de incubación de la enfermedad
+- periodo de incubación del virus
+
+## intent:covid_info
+- 19-nCoV
+- Cuánto sabes sobre el coronavirus?
+- 19-nCoV info
+- Informacion 19-ncov
+- info covid
+- información del covid
+- coronavirus
+- ncov
+- covid-19
+- 2019-ncov
+- info del nuevo coronavirus
+- Información sobre el nuevo COVID-19
+- 2019nCov
+- información del nCOV
+- Información sobre el novel coronavirus
+- novel coronavirus
+- nuevo coronavirus
+- 2019 coronavirus
+- 2020 coronavirus
+- info del coronavirus en 2020
+- 2019ncvon
+- 2019 ncov
+- informacion del covid actual
+- Acerca del covid-19
+- Acerca del nuevo coronavirus
+- Sobre el coronavirus
+- Acerca del virus
+- Estoy preguntando sobre el covid-19
+- COVID
+- covid
+- Cobid
+- Info COVID
+- Información Covdi
+- COVID-19 2019
+- Info del nuevo covid
+- Sobre el virus
+- Estoy preguntando acerca del covid-19
+- COVID
+- covid info
+- covid information
+- Info sobre la covid
+- Información sobre la COVID-19
+- COVID-2019
+- COVID-2019 Info
+- COVID-2019 información
+- COVID2020
+- Covid del 2019
+- Dame información sobre el covid-19
+- Puedo saber más sobre el covid-19?
+- Causas
+- Existe el coronavirus?
+- Realmente existe el covid-19?
+- Tengo algo que preguntarte sobre el covid
+- Cómo es que no sabes cómo empezó este virus pero sabes cómo prevenirlo?
+- Como puedes prevenir algo que no sabes cómo comenzó?
+- Como comenzó el COVID-19 ES LO QUE QUIERO SABER!!! O no lo sabes?
+- Como empezó esto?? Que lo provocó??
+- No sé que es covid-19
+- No sé que es COVID-19
+- No se que es el 2019-nCov
+- No se que es el 2019ncov
+- No se que es COVID
+- No se que es COVID-19
+- No se que es COVID-2019
+- No se que es COVID2019
+- No se que es nCov
+- No se que es el nuevo coronavirus
+- No se que seria el nuevo coronavirus
+- No se que es el 19-nCov
+- Yo no sé que es el 19ncov
+- Yo no sé que es el 2019-nCoV
+- No sé que es el 2019nCov
+- No se que es el COVID
+- YO no sé que es el COVID-19
+- No sé que es el COVID-2019
+- No sé a que te refieres con COVID
+- No sé de que hablas cuando mencionas COVID
+- No se que es el nuevo corona
+- No se que es el nuevo coronavirus
+- Tengo una pregunta sobre covid-19
+- Solo quiero más iluminación sobre covid19
+- Creo que covid-19 es falso
+- Quiero ahora sobre el virus corona
+- Quiero saber como empezó este COVID-19
+- Quiero saber cómo empezó este COVID-19, no estas cosas que me estás contando
+- ¿Quiero saber más sobre covid19?
+- Información sobre 19-nCoV
+- Información sobre 19nCov
+- Información sobre 2019-nCoV
+- Información sobre 2019nCov
+- Información sobre COVID
+- Información sobre COVID-19
+- Información sobre COVID-2019
+- Información sobre COVID2019
+- Información sobre nCoV
+- Información sobre el nuevo coronavirus
+- Información sobre el nuevo coronavirus
+- Información sobre el 19-nCoV
+- Información sobre el 19nCov
+- Información sobre el 2019-nCoV
+- Información sobre el 2019nCov
+- El coronavirus es real?
+- El covid es real?
+- Explícame sobre este virus
+- Información sobre el COVID2019
+- Información sobre el nCoV
+- Información sobre el nuevo coronavirus
+- Información sobre el nuevo coronavirus
+- Información sobre el virus
+- El coronavirus si existe?
+- El covid si existe?
+- El corona es real
+- Explicame mas sobre este virus mortal
+- NO, yo quiero saber como empezó el COVID-19
+- No, quiero saber como empezó este virus!
+- Ok, necesito saber que es corona
+- Cuéntame más sobre 19-nCoV
+- Cuéntame más sobre 19nCov
+- Cuéntame más sobre 2019-nCoV
+- Cuéntame más sobre 2019nCov
+- Cuéntame más sobre COVID
+- Cuéntame más sobre COVID-19
+- Cuéntame más sobre COVID-2019
+- Cuéntame más sobre COVID2019
+- Cuéntame más sobre nCoV
+- Cuéntame más sobre el nuevo coronavirus
+- Cuéntame más sobre el nuevo coronavirus
+- Cuéntame más sobre el 19-nCoV
+- Cuéntame más sobre el 19nCov
+- Cuéntame más sobre el 2019-nCoV
+- Cuéntame más sobre el 2019nCov
+- Cuéntame más sobre el COVID
+- Cuéntame más sobre el COVID-19
+- Cuéntame más sobre el COVID-2019
+- Cuéntame más sobre el COVID2019
+- Cuéntame más sobre el nCoV
+- Cuéntame más sobre el nuevo coronavirus
+- Cuéntame más sobre el nuevo coronavirus
+- Cuéntame más sobre 19-nCoV
+- Cuéntame más sobre 19nCov
+- Cuéntame más sobre 2019-nCoV
+- Cuéntame más sobre 2019nCov
+- Cuéntame más sobre COVID
+- Cuéntame más sobre COVID-19
+- Cuéntame más sobre COVID-2019
+- Cuéntame más sobre COVID2019
+- Cuéntame más sobre nCoV
+- Cuéntame más sobre el nuevo coronavirus
+- Cuéntame más sobre el nuevo coronavirus
+- Cuéntame más sobre el 19-nCoV
+- Cuéntame más sobre el 19nCov
+- Cuéntame más sobre el 2019-nCoV
+- Cuéntame más sobre el 2019nCov
+- Cuéntame más sobre el COVID
+- Cuéntame más sobre el COVID-19
+- Cuéntame más sobre el COVID-2019
+- Cuéntame más sobre el COVID2019
+- Cuéntame más sobre el nCoV
+- Cuéntame más sobre el nuevo coronavirus
+- Cuéntame más sobre el nuevo coronavirus.
+- Dime la base de este virus
+- Dime que es 19-nCoV
+- Dime que es 19nCov
+- Dime que es 2019-nCoV
+- Dime que es 2019nCov
+- Dime que es COVID
+- Dime que es COVID-19
+- Dime que es COVID-2019
+- Dime que es COVID2019
+- Dime que es un 19-nCoV
+- Dime que es un 19nCov
+- Dime que es un 2019-nCoV
+- Dime que es un 2019nCov
+- Dime que es un COVID
+- Dime que es un COVID-19
+- Dime que es un COVID-2019
+- Dime que es un COVID2019
+- Dime que es un nCoV
+- Dime que es un nuevo coronavirus
+- Dime que es un nuevo coronavirus
+- Dime que es nCoV
+- Dime que es el nuevo coronavirus
+- Dime que es el nuevo coronavirus
+- Dime que es el 19-nCoV
+- Dime que es el 19nCov
+- Dime que es el 2019-nCoV
+- Dime que es el 2019nCov
+- Dime que es el COVID
+- Dime que es el COVID-19
+- Dime que es el COVID-2019
+- Dime que es el COVID2019
+- Dime que es el nCoV
+- Dime que es el nuevo coronavirus
+- Dime que es el nuevo coronavirus
+- Que es cafe 19
+- ¿Qué es Covid 19?
+- Que es Covid19
+- ¿Qué es un 19-nCoV?
+- Que es un 19nCov
+- ¿Qué es un 2019-nCoV?
+- ¿Qué es un 2019nCov?
+- Que es un COVID
+- ¿Qué es un COVID-19?
+- ¿Qué es un COVID-2019?
+- Que es un COVID2019
+- que es ncovv
+- que es el novel coronavirus
+- que es un nuevo coronavirus
+- Cuál es el origen de la pandemia que estamos viviendo
+- Que es COVID-19??!!
+- covid?!
+- Cuál es la diferencia entre el covid-19 y el corona????!!!
+- sobre el covid19??
+- origenes del coronavirus
+- origenes del virus
+- origen del covid
+- covid.19
+- virus actual
+- Enfermedad
+- la pandemia comenzón en Wuhan
+- hola quiero saber sobre el virus corona
+- hola, habla de covid-19
+- información sobre 19-nCoV
+- información sobre 19nCov
+- información sobre 2019-nCoV
+- información sobre 2019nCov
+- información sobre COVID
+- información sobre COVID-19
+- información sobre COVID-2019
+- información sobre COVID2019
+- información sobre nCoV
+- información sobre el nuevo coronavirus
+- información sobre el nuevo coronavirus
+- información sobre el 19-nCoV
+- información sobre el 19nCov
+- información sobre el 2019-nCoV
+- información sobre el 2019nCov
+- información sobre el COVID
+- información sobre el COVID-19
+- información sobre el COVID-2019
+- información sobre el COVID2019
+- información sobre el nCoV
+- información sobre el nuevo coronavirus
+- información sobre el nuevo coronavirus
+- información sobre 19-nCoV
+- información sobre 19nCov
+- información sobre 2019-nCoV
+- información sobre 2019nCov
+- información sobre COVID
+- información sobre COVID-19
+- información sobre COVID-2019
+- información sobre COVID2019
+- información sobre nCoV
+- información sobre el nuevo coronavirus
+- información sobre el nuevo coronavirus
+- información sobre el 19-nCoV
+- información sobre el 19nCov
+- información sobre el 2019-nCoV
+- información sobre el 2019nCov
+- información sobre el COVID
+- información sobre el COVID-19
+- información sobre el COVID-2019
+- información sobre el COVID2019
+- información sobre el nCoV
+- información sobre el nuevo coronavirus
+- información sobre el nuevo coronavirus
+- información sobre 19-nCoV
+- información sobre 19nCov
+- información sobre 2019-nCoV
+- información sobre 2019nCov
+- información sobre COVID
+- información sobre COVID-19
+- información sobre COVID-2019
+- información sobre COVID2019
+- información sobre nCoV
+- información sobre el nuevo coronavirus
+- información sobre el nuevo coronavirus
+- información sobre el 19-nCoV
+- información sobre el 19nCov
+- información sobre el 2019-nCoV
+- información sobre el 2019nCov
+- información sobre el COVID
+- información sobre el COVID-19
+- información sobre el COVID-2019
+- información sobre el COVID2019
+- información sobre el nCoV
+- información sobre el nuevo coronavirus
+- información sobre el nuevo coronavirus
+- 2019-nCoV
+- información nCoV
+- información nCoV
+- nuevo coronavirus
+- información sobre el nuevo coronavirus
+- nueva información sobre coronavirus
+- nuevo coronavirus
+- información sobre el nuevo coronavirus
+- información sobre el nuevo coronavirus
+- origen pandémico
+- cuéntame sobre el brote
+- ¿qué pasa con 19-nCoV
+- que hay de 19nCov
+- q es el covid
+- 2019Ncov sabes algo?
+- Que hay de información acerca del COVID?
+- Sabes algo del COVID-19?
+- dime sobre el covid 2019
+- que hay del covid2019
+- que hay de ncov
+- que sabes sobre el nuevo coronavirus
+- que hay sobre el nuevo coronavirus
+- q es covid
+- ke es el covid
+- k es covid
+- que es el 2019-nCoV
+- que es el 2019nCov
+- que es covid
+- que es covid-19 2019
+- que es covid-19
+- que es covid 2019
+- que es ncov
+- que es el coronavirus
+- que es el nuevo coronavirus
+- que es esta enfermedad
+- que es un virus
+- Por qué se llama covid?
+- Por qué se llama covid-19?
+- Dónde empezó la pandemia?
+- Donde comenzo la pandemia?
+
+## intent:covid_meaning
+- Cuál es el significado completo de covid 19
+- que significa covid-19
+- significado completo de covid
+- Covid significado
+- cuál es el significado de covid?
+- xq se llama covid?
+- Por qué le dicen covid?
+- Qué significa covid-19?
+- Por qué se llama COVID.19?
+- Nombre del COVID-19
+- SARS-CoV-2 que significa
+- Covid significado de
+- Significado del nombre de la enfermedad
+- Por qué se llama así la enfermedad?
+- Nombre de la enfermedad
+- Explica el nombre de COVID
+- Explica el nombre de COVID-19
+- Puedes explicar el nombre de SARS-CoV-2=?
+- Explique el nombre del SARS-CoV2
+- Explique el nombre del SARSCoV-2
+- Explique el nombre del SARSCoV2
+- Explica el nombre de la enfermedad.
+- Explica el nombre del virus.
+- Explique el nombre del virus.
+- Explica el nombre.
+- Explícame el nombre COVID.
+- Explícame el nombre COVID-19.
+- Explícame el nombre del COVID-19.
+- Explícame el nombre del COVID.
+- Explícame el nombre de SARS-CoV-2.
+- Explícame el nombre del SARS-CoV-2.
+- Explícame el nombre de SARS-CoV2.
+- Explícame el nombre del SARS-CoV2.
+- Explícame el nombre SARSCoV-2.
+- Explícame el nombre del SARSCoV-2.
+- Explícame el nombre SARSCoV2.
+- Explícame el nombre del SARSCoV2.
+- Explícame el nombre de la enfermedad.
+- Explícame el nombre de la enfermedad.
+- Explícame el significado del nombre COVID.
+- Explícame el significado del nombre COVID-19.
+- Explícame el significado del nombre del COVID-19.
+- Explícame el significado del nombre de COVID.
+- Explíqueme el significado del nombre SARS-CoV-2.
+- Explíqueme el significado del nombre del SARS-CoV-2.
+- Explíqueme el significado del nombre SARS-CoV2.
+- Explíqueme el significado del nombre del SARS-CoV2.
+- Explíqueme el significado del nombre SARSCoV-2.
+- Explícame el significado del nombre del SARSCoV-2.
+- Explícame el significado del nombre SARSCoV2.
+- Explícame el significado del nombre del SARSCoV2.
+- Explícame el significado del nombre de la enfermedad.
+- Explícame el significado del nombre de la enfermedad.
+- Explícame el significado del nombre.
+- Explícame el significado del nombre del virus.
+- Explícame el significado del nombre del virus.
+- Explícame el significado del nombre
+- Necesito una definición, ventajas y desventajas del coronavirus y la pandemia
+- Explícame el nombre del virus
+- El coronavirus es una palabra científica o una palabra en inglés
+- Significado del nombre COVID.
+- Significado del nombre COVID-19.
+- Significado del nombre del COVID-19.
+- Significado del nombre del COVID.
+- Significado del nombre SARS-CoV-2.
+- Significado del nombre del SARS-CoV-2.
+- Significado del nombre SARS-CoV2.
+- Significado del nombre del SARS-CoV2.
+- Significado del nombre SARSCoV-2.
+- Significado del nombre del SARSCoV-2.
+- Significado del nombre SARSCoV2.
+- Significado del nombre del SARSCoV2.
+- Significado del nombre de la enfermedad.
+- Significado del nombre de la enfermedad.
+- Significado del nombre.
+- Significado del nombre del virus.
+- Significado del nombre del virus.
+- Significado del nombre SARS-CoV-2.
+- Nombre del SARS-CoV-2 ¿por qué?
+- Nombre del SARS-CoV-2.
+- Significado del nombre SARS-CoV2.
+- Nombre del SARS-CoV2 ¿por qué?
+- Nombre del SARS-CoV2.
+- Significado del nombre SARSCoV-2.
+- Nombre SARSCoV-2 ¿por qué?
+- Nombre SARSCoV-2.
+- Significado del nombre SARSCoV2.
+- Nombre SARSCoV2 ¿por qué?
+- Nombre SARSCoV2.
+- ¿El significado del virus Corona?
+- Significado del nombre del virus.
+- Nombre del virus.
+- ¿Qué significa COVID-19?
+- ¿Qué significa Covid?
+- ¿Qué significa SARS-Cov-2?
+- ¿Qué significa covid 19?
+- ¿Qué significa el nombre?
+- ¿Cuál es exactamente el nombre del virus?
+- Cual es el nombre del virus?
+- ¿Cuál es la diferencia entre covid 19 y corona viruse?
+- Por que corona virus llamado corona
+- ¿Por qué el COVID recibió ese nombre?
+- ¿Por qué el COVID-19 recibió ese nombre?
+- ¿Por qué el SARS-CoV-2 recibió ese nombre?
+- ¿Por qué el SARS-CoV2 recibió ese nombre?
+- ¿Por qué el SARSCoV-2 recibió ese nombre?
+- ¿Por qué el SARSCoV2 recibió ese nombre?
+- ¿Por qué la enfermedad recibió ese nombre?
+- ¿Por qué el virus recibió ese nombre?
+- ¿Por qué se llama covid 19?
+- ¿Por qué se llama así al COVID?
+- ¿Por qué el COVID se llama COVID-19?
+- ¿Por qué se llama así al COVID-19?
+- ¿Por qué el COVID-19 se llama COVID-19?
+- ¿Por qué se llama así al COVID-19d?
+- ¿Por qué se llama así al COVIDd?
+- ¿Por qué se llama así al SARS-CoV-2?
+- ¿Por qué el SARS-CoV-2 se llama COVID-19?
+- ¿Por qué se llama así el SARS-CoV-2d?
+- ¿Por qué se llama así al SARS-CoV2?
+- ¿Por qué el SARS-CoV2 se llama COVID-19?
+- ¿Por qué se llama así el SARS-CoV2d?
+- ¿Por qué se llama así al SARSCoV-2?
+- ¿Por qué el SARSCoV-2 se llama COVID-19?
+- ¿Por qué se llama así el SARSCoV-2d?
+- ¿Por qué se llama así al SARSCoV2?
+- ¿Por qué el SARSCoV2 se llama COVID-19?
+- ¿Por qué se llama así el SARSCoV2d?
+- ¿Por qué se llama así a la enfermedad?
+- ¿Por qué la enfermedad se llama COVID-19?
+- ¿Por qué se llama así al enfermo?
+- ¿Por qué se llama así al virus?
+- ¿Por qué el virus se llama así?
+- ¿Por qué el virus se llama COVID-19?
+- ¿Por qué el virus se llama SARS-Cov-2?
+- ¿Por qué el virus se llama así?
+- ¿Por qué el COVID se llamó así?
+- ¿Por qué el COVID-19 se llamó así?
+- ¿Por qué se llamó así al SARS-CoV-2?
+- Por qué lo nombraron SARS-CoV-2?
+- Por qué el SARSCOV2 tiene ese nombre?
+- Por qué le pusieron SARS-CoV-2?
+- X q le pusieron asi a la enfermedad
+- xq el virus se llama así
+- xq se llama así?
+
+## intent:covid_mortality_rate
+- Vamos a morir todos?
+- Porcentaje de muerte
+- Quiero deecir vamos a morir todos o q
+- El covid puede matar
+- el coronavirus me puede matar
+- Cuánto tiempo tarda el coronavirus en matar a alguien?
+- índice de mortalidad
+- Porcentaje de muertes
+- Es capaz de matar?
+- El coronavirus mata?
+- mata??!
+- de los infectados quienes moriran
+- cual es la tasa de mortalidad
+- mortalidad
+- 80% sobrevive
+- El covid-19 mata?
+
+## intent:covid_origins
+- En que pais se origina el virus
+- En q pais sale el virus
+- En q pais se originó este virus?
+- en que pais inicia el covid-19
+- En qué país comenzó el coronavirus?
+- El origen del virus
+- Los animales son los responsables del COVID-19 en las personas?
+- Puedes decirme por favor más sobre la evolución de la propagación del SARS-CoV-2?
+- Cómo comenzó todo
+- Cómo inició este coronavirus?
+- Cómo fue creado el covid-19?
+- Cuánto tiempo tiene el virus?
+- Qué tan real es el covid-19?
+- De donde es el covid
+- Como es que empezo la pandemia
+- Si existe el covid?
+- Me dices el origen del covid
+- Origen del virus
+- Orígenes
+- Dime como empezó esto
+- Cuándo descubrieron el covid-19?
+- El origen del coronavirus
+- Qué provocó este virus?
+- Que lo causó
+- Si es real el covid?
+- Qué sabes sobre el origen del virus?
+- En qué año descubrieron el covid-19
+- Cuál es el origen del virus?
+- Cuándo comenzó el coronavirus?
+- Cuándo inicio el coronavirus?
+- De dónde viene el covid-19?
+- De dónde viene la enfermedad?
+- Dónde apareció el primer caso
+- De dónde se origina el coronavirus?
+- De qué país proviene el coronavirus?
+- De dónde salió el virus?
+- Quién hizo el coronavirus?
+- Quién creó el coronavirus?
+- Por qué pasó esto?
+- El virus viaja a través del aire?
+- Es un virus que viaja con el aire?
+- que origen tiene el coronavirus
+- Cómo empezó todo
+
+## intent:covid_pandemic
+- Significado de pandemia
+- Pandemia
+- Qué es una pandemia?
+- Q es una pandemia
+- Por qué estamos en una pandemia?
+- Qué significa pandemia?
+- Hay una pandemia?
+
+## intent:covid_preexisting_illness
+- Qué edades son las más afectadas?
+- Qué grupos tienen más riesgo de contagio?
+- Qué grupos tienen mayor riesgo de ponerse graves?
+- Personas de grupos vulnerables
+- Personas de grupos con más riesgo
+- Gente con mayor riesgo
+- Sobre las personas con mayor riesgo de contagio
+- Acerca del grupo con más riesgo
+- Acerca de personas con un riesgo serio
+- Acerca de personas con un riesgo más serio
+- Acerca de las personas con mucho mayor riesgo
+- Acerca de las personas con el riesgo más severo
+- Sobre la gente con el riesgo de enfermarse más
+- Quiénes están en más riesgo
+- Quiénes están con mayor riesgo de contagiarse?
+- Voy a morir?
+- Asma
+- Puedo morir?
+- Los fumadores tienen más riesgo?
+- Cuánto tiempo toma recuperarse si tengo un problema en el pecho?
+- Hay gente mayor que necesita ayuda aquí
+- A partir de qué edad tienes más riesgo?
+- Qué grupo de edades está con más riesgo?
+- El grupo de gente con más riesgo
+- Quién está en mayor riesgo?
+- Cuál es el grupo con mayor riesgo?
+- Qué grupo tiene más riesgo?
+- Quién debe cuidarse más del covid?
+- La gente con más riesgo de enfermar
+- La gente con riesgo más severo
+- Las personas con más riesgo
+- El grupo de personas con más riesgo
+- El grupo que más debe cuidarse ante el covid
+- Los viejitos están en riesgo?
+- Las personas mayores tienen más riesgo?
+- La gente mayor está en riesgo?
+- Personas que tienen mucho riesgo de contagiarse de Covid-19
+- Personas que tienen más riesgo de contagiarse de covid
+- Personas con más riesgo
+- Personas de mas riesgo
+- Personas con condiciones médicas pre existentes están en mayor riesgo?
+- Gente con condiciones médicas pre existentes tiene más riesgo?
+- Personas con condiciones médicas están en mas riesgo?
+- Personas que están enfermas tienen mayor riesgo?
+- Personas con enfermedades previas?
+- Qué tan peligroso es si tengo asma?
+- Qué grupo de edades tiene el riesgo de enfermarse más?
+- Edades que requieren más cuidados
+- Grupos que requieren mayor cuidado
+- Grupo con el mayor riesgo de contagio
+- Grupo mas susceptible
+- Grupo más susceptible a tener una infección grave
+- Que rango de edades es de mayor cuidado para prevenir infecciones
+- Personas enfermas tienen más riesgo
+- Personas con perfil de riesgo
+- Quien está en riesgo de desarrollar una enfermedad grave
+- Quien podría tener más riesgo de contagiarse?
+- Quien tiene mayor riesgo?
+- Quién es más susceptible a contagiarse?
+- Quien está en mayor riesgo?
+- Los niños requieren cuidados especiales?
+- soy un anciano que puedo hacer?
+- tengo diabetes
+- tengo diabetes, estoy en riesgo?
+- Rango de edades que afecta más el coronavirus
+- Que deberia hacer si tengo 70 años o más?
+- Perfil de riesgo
+- Quien o quienes son mas susceptibles al virus?
+
+## intent:covid_procedure_after_infection
+- Ya me infecté ahora que?
+- Estoy infectado
+- He sido infectado que hago?
+- Me dijeron que estoy infectado
+- Que pasa si me detectan infección por coronavirus?
+- Tengo el virus
+- Que debo hacer si tengo el virus
+- Cuando estas infectado que tienes que hacer
+
+## intent:covid_sars
+- sobre el covid y el sars
+- covid y síndrome respiratorio agudo grave
+- Acerca del COVID-19 y el SARS
+- Acerca del COVID-19 y el Sindrome respiratorio agudo grave
+- Dime sobre el covid-19 y sars
+- Dime sobre el covid-19 y sindrome respiratorio agudo grave
+- Sobre COVID19 Y SARS
+- Referente al COVID-19 y el SARS
+- Acerca de COVID2019 y el síndrome respiratorio agudo severo.
+- Acerca del SARS y el COVID-19
+- Acerca del SARS y el COVID-2019
+- Sobre el SARS y el COVID
+- Acerca del SARS y COVID
+- Sobre el SARS y el nuevo coronavirus
+- SARS y nuevo coronavirus
+- Acerca del nuevo coronavirus y el SARS
+- Acerca del nuevo coronavirus y el síndrome respiratorio agudo grave
+- Referente al nuevo coronavirus y el SARS
+- Acerca del coronavirus nuevo y el síndrome respiratorio agudo grave
+- COVID y SARS Son el mismo virus?
+- Covid-19 y sars
+- covid y sars sindrome respiratorio agudo grave
+- COVID-19 y SARS Son el mismo virus?
+- COVID-19 Y SARS?
+- Covid-19 y síndrome respiratorio agudo grave.
+- COVID 2019 Y SARS SON EL MISMO VIRUS?
+- COVID-19 Y SARS.
+- COVID-19 y Síndrome Respiratorio Agudo Grave.
+- El covid y el SARS son lo mismo
+- COVID19 Y SARS
+- SARS y covid son el mismo virus?
+- Diferencias entre COVID y SARS
+- Diferencias entre COVID y Síndrome respiratorio agudo grave
+- Diferencias entre COVID-19 y SARS
+- Diferencias entre COVID-19 y Síndrome Respiratorio Agudo Grave
+- Diferencias entre COVID-2019 y SARS
+- Diferencias entre COVID-2019 y el síndrome respiratorio agudo severo
+- Diferencias entre COVID19 y SARS
+- Diferencias entre COVID19 y síndrome respiratorio agudo severo
+- Diferencias entre COVID2019 y SARS
+- Diferencias entre COVID2019 y el síndrome respiratorio agudo severo
+- Diferencias entre SARS y COVID
+- Diferencias entre SARS y COVID-19
+- Diferencias entre SARS y COVID-2019
+- Diferencias entre SARS y COVID19
+- Diferencias entre SARS y COVID2019
+- Diferencias entre el SARS y el nuevo coronavirus
+- Diferencias entre el SARS y el nuevo coronavirus
+- Diferencias entre el nuevo coronavirus y el SARS
+- Diferencias entre el nuevo coronavirus y el síndrome respiratorio agudo severo
+- Diferencias entre el nuevo coronavirus y el SARS
+- Diferencias entre el nuevo coronavirus y el síndrome respiratorio agudo severo
+- Información sobre COVID y SARS.
+- Información sobre COVID y síndrome respiratorio agudo severo.
+- Información sobre COVID-19 y SARS.
+- Información sobre COVID-19 y el síndrome respiratorio agudo severo.
+- Información sobre COVID-2019 y SARS.
+- Información sobre COVID-2019 y el síndrome respiratorio agudo severo.
+- Información sobre COVID19 y SARS.
+- Información sobre COVID19 y el síndrome respiratorio agudo severo.
+- Información sobre COVID2019 y SARS.
+- Información sobre COVID2019 y el síndrome respiratorio agudo severo.
+- Información sobre SARS y COVID-19.
+- Información sobre SARS y COVID-2019.
+- Información sobre SARS y COVID.
+- Información sobre SARS y COVID19.
+- Información sobre SARS y COVID2019.
+- Información sobre el SARS y el nuevo coronavirus.
+- Información sobre el SARS y el nuevo coronavirus.
+- Información sobre el nuevo coronavirus y el SARS.
+- Información sobre el nuevo coronavirus y el síndrome respiratorio agudo severo.
+- Información sobre el nuevo coronavirus y el SARS.
+- Información sobre el nuevo coronavirus y el síndrome respiratorio agudo severo.
+- ¿COVID es lo mismo que SARS?
+- ¿COVID es lo mismo que el síndrome respiratorio agudo severo?
+- ¿COVID-19 es lo mismo que SARS?
+- ¿COVID-19 es lo mismo que el síndrome respiratorio agudo severo?
+- ¿COVID-2019 es lo mismo que el SARS?
+- ¿COVID-2019 es lo mismo que el síndrome respiratorio agudo severo?
+- ¿COVID19 es lo mismo que el SARS?
+- ¿COVID19 es lo mismo que el síndrome respiratorio agudo severo?
+- ¿COVID2019 es lo mismo que el SARS?
+- ¿COVID2019 es lo mismo que el síndrome respiratorio agudo severo?
+- ¿Es el SARS lo mismo que el COVID-19?
+- ¿El SARS es lo mismo que el COVID-2019?
+- ¿El SARS es lo mismo que el COVID19?
+- ¿El SARS es lo mismo que el COVID2019?
+- ¿El SARS es lo mismo que el COVID?
+- ¿El SARS es lo mismo que el nuevo coronavirus?
+- ¿El SARS es lo mismo que el nuevo coronavirus?
+- ¿Es el nuevo coronavirus lo mismo que el SARS?
+- ¿Es el nuevo coronavirus lo mismo que el síndrome respiratorio agudo severo?
+- ¿Es el nuevo coronavirus lo mismo que el SARS?
+- ¿Es el nuevo coronavirus lo mismo que el síndrome respiratorio agudo severo?
+- ¿El SARS y el COVID son el mismo virus?
+- ¿El SARS y el COVID-19 son el mismo virus?
+- SARS y COVID-19.
+- ¿El SARS y el COVID-2019 son el mismo virus?
+- SARS y COVID-2019.
+- SARS y COVID.
+- ¿El SARS y el COVID19 son el mismo virus?
+- SARS y COVID19.
+- ¿SARS y COVID2019 son el mismo virus?
+- SARS y COVID2019.
+- ¿El SARS y el nuevo coronavirus son el mismo virus?
+- SARS y nuevo coronavirus.
+- ¿El SARS y el nuevo coronavirus son el mismo virus?
+- SARS y nuevo coronavirus.
+- ¿El síndrome respiratorio agudo severo y el COVID son el mismo virus?
+- ¿El síndrome respiratorio agudo severo y el COVID-19 son el mismo virus?
+- ¿El síndrome respiratorio agudo severo y COVID-2019 son el mismo virus?
+- ¿El síndrome respiratorio agudo severo y COVID19 son el mismo virus?
+- ¿El Síndrome Respiratorio Agudo Severo y COVID2019 son el mismo virus?
+- ¿El síndrome respiratorio agudo severo y el nuevo coronavirus son el mismo virus?
+- ¿El síndrome respiratorio agudo severo y el nuevo coronavirus son el mismo virus?
+- ¿El virus que causa la COVID y el que causa el SARS son iguales?
+- ¿El virus que causa COVID y el que causa el Síndrome Respiratorio Agudo Severo son el mismo?
+- ¿El virus que causa COVID es el mismo que causa el SARS?
+- ¿El virus que causa COVID es el mismo que causa el Síndrome Respiratorio Agudo Severo?
+- ¿El virus que causa COVID-19 y el que causa el SARS son el mismo?
+- ¿El virus que causa COVID-19 y el que causa el Síndrome Respiratorio Agudo Severo son el mismo?
+- ¿El virus que causa COVID-19 es el mismo que causa el SARS?
+- ¿El virus que causa COVID-19 es el mismo que causa el síndrome respiratorio agudo severo?
+- ¿El virus que causa el COVID-2019 y el que causa el SARS son iguales?
+- ¿El virus que causa el COVID-2019 y el que causa el síndrome respiratorio agudo severo son el mismo?
+- ¿El virus que causa COVID-2019 es el mismo que causa el SARS?
+- ¿El virus que causa COVID-2019 es el mismo que causa el síndrome respiratorio agudo severo?
+- ¿El virus que causa COVID19 y el que causa el SARS son iguales?
+- ¿El virus que causa COVID19 y el que causa el síndrome respiratorio agudo severo son el mismo?
+- ¿El virus que causa COVID19 es el mismo que causa el SARS?
+- ¿El virus que causa COVID19 es el mismo que causa el síndrome respiratorio agudo severo?
+- ¿El virus que causa COVID2019 y el que causa el SARS son iguales?
+- El virus que causa el COVID-19 y el que causa el Síndrome respiratorio agudo grave son el mismo?
+- ¿COVID2019 y el que causa el Síndrome Respiratorio Agudo Severo son iguales?
+- ¿El virus que causa COVID2019 es el mismo que causa el SARS?
+- ¿El virus que causa COVID2019 es el mismo que causa el Síndrome Respiratorio Agudo Severo?
+- ¿El virus que causa el SARS y el que causa el COVID son iguales?
+- ¿El virus que causa el SARS y el que causa el COVID-19 son iguales?
+- ¿El virus que causa el SARS y el que causa el COVID-2019 son iguales?
+- ¿El virus que causa el SARS y el que causa COVID19 son iguales?
+- ¿El virus que causa el SARS y el que causa el COVID2019 son iguales?
+- ¿El virus que causa el SARS y el que causa el nuevo coronavirus son iguales?
+- ¿El virus que causa el SARS y el que causa el nuevo coronavirus son iguales?
+- ¿El virus que causa el SARS es el mismo que causa el COVID-19?
+- ¿El virus que causa el SARS es el mismo que causa el COVID-2019?
+- ¿El virus que causa el SARS es el mismo que causa el COVID19?
+- ¿El virus que causa el SARS es el mismo que causa el COVID2019?
+- ¿El virus que causa el SARS es el mismo que causa el COVID?
+- ¿El virus que causa el SARS es el mismo que causa el nuevo coronavirus?
+- ¿El virus que causa el SARS es el mismo que causa el nuevo coronavirus?
+- ¿El virus que causa el nuevo coronavirus y el que causa el SARS son iguales?
+- ¿El virus que causa el nuevo coronavirus y el que causa el Síndrome Respiratorio Agudo Severo son los mismos?
+- ¿El virus que causa el nuevo coronavirus es el mismo que causa el SARS?
+- ¿El virus que causa el nuevo coronavirus es el mismo que causa el síndrome respiratorio agudo severo?
+- ¿El virus que causa el nuevo coronavirus y el que causa el SARS son iguales?
+- ¿El virus que causa el nuevo coronavirus y el que causa el síndrome respiratorio agudo severo son el mismo?
+- ¿El virus que causa el nuevo coronavirus es el mismo que causa el SARS?
+- El SARS y el coronavirus son el mismo virus?
+- nuevo coronavirus y SARS
+- coronavirus nuevo y sindrome respiratorio agudo grave
+- sars es una enfermedad?
+- el nuevo coronavirus y el sars son lo mismo?
+- nuevo coronavirus y el sars
+- síndrome respiratorio agudo grave
+- sars
+- Qué causa la enferdad SARS
+
+## intent:covid_schools
+- Las escuelas volverán a abrir?
+- Acerca de las escuelas
+- Los estudiantes volverán a las aulas?
+- Crees que la escuela abra
+- Escuelas abiertas en Uganda tienen muchos casos
+- Harán pruebas en las escuelas?
+- Cómo serán las pruebas en las escuelas?
+- Solo quiero saber cuando volveremos a la escuela
+- Colegio
+- Que hay acerca del colegio o escuela?
+- que medidas preventivas podemos tomar para prevenir los contagios cuando las escuelas abran
+- Que dia abriran los colegios
+- Cuando abran las escuelas
+- Cuando planean abrir escuelas e institutos
+- Cuando volvemos a la universidad
+- Cuando volvemos a clases
+- Cuando abren las escuelas en el país?
+- Cuando abren colegios
+- Cuando abren institutos
+- Cuando re abren colegios
+- Cuando re abren institutos
+- Cuando vamos a la escuela
+- Cuando vamos al colegio
+- Cuando re abriran los colegios que cerraron por el covid?
+- Cuando sera que volvemos a clases presenciales?
+- Cuando abrirá el colegio?
+- Cuando volveremos al instituto
+- Cuando abrirán las escuelas en México?
+- Cuando abren las escuelas
+- Cuando volvemos a las escuelas
+- Que día abren las escuelas, colegios y universidades?
+- Porque han abierto los estadios, iglesias y otros establecimientos y las escuelas y universidades aún no?
+- Por qué abrir los colegios si sabemos que hay riesgos
+- Cuando es probable que los colegios abran
+- Cuando re abren las escuelas
+
+## intent:covid_sex
+- Puedo contagiarme a través del sexo
+- El virus se puede contraer con el sexo?
+- El covid se transmite sexualmente?
+- Ok sexo
+- Sexo
+- El virus se transmite durante el sexo?
+- El covid-19 se transmite con el sexo
+- El covid-19 se transmite a través del sexo
+- covid-19 se propaga con el sexo
+- Es de transmisión sexual?
+- Se transmite por el sexo?
+- Se transmite con el sexo?
+- Sexo
+- Mi pene ya no se pone duro
+- Mi pene ya no se está poniendo duro
+- Mi pene está permanentemente flácido, es culpa del coronavirus?
+- Transmisión por sexo
+- Por qué no debemos tener sexo?
+- Relaciones sexuales y la transmisión
+- Puedo contagiarme de covid si tengo sexo con una persona enferma?
+- Puedo tener sexo con alguien que tuvo covid?
+- El covid-19 se puede contraer a través del sexo
+- Puedo contraer coronavirus si tengo sexo con una persona infectada
+- Como se transmite el virus durante el sexo?
+- El virus se transmite con el sexo?
+- El virus se transmite a través del sexo?
+
+## intent:covid_situation
+- A cuánto asciende el recuento de casos en el mundo?
+- Cuántos casos hay registrados en Rusia?
+- Cuántos casos tenemos a nivel mundial?
+- Cuántos casos han sido confirmados en el mundo?
+- Cuántos casos existen en el mundo?
+- Número de infectados a nivel mundial
+- Cuántas personas han sido diagnosticadas con COVID-19?
+- Cuántas personas han sido infectadas?
+- Cuántos infectados llevan en Panamá?
+- Cuantos se han enfermado
+- Quiero saber a cuantas personas en el mundo ha afectado el virus
+- Recuento de infectados
+- Número de casos
+- Número total de casos en Caracas
+- Número de casos en Venezuela
+- Número de casos en Estados Unidos
+- Número de casos a nivel mundial
+- Número de casos confirmados
+- Número de fallecimientos
+- Númer de muertes en Uruguay
+- Número de muertes en el mundo
+- Número de infectados
+- Número de infectados en México
+- Situación mundial
+- Estadísticas de Madrid
+- Estádisticas de España
+- Estadísticas
+- Dime los números
+- Casos confirmados totales
+- Total de casos confirmados?
+- Que hay acerca de la India?
+- Cuáles son las últimas estadísticas del coronavirus?
+- Cuáles son las estadísticas del covid-19 en el mundo
+- nan
+- Cuál es el número de casos?
+- Cuántos casos hay?
+- Cuál es el número de casos confirmados?
+- Cuál es el número de muertes en Sri Lanka
+- Cuál es el número de muertes?
+- Cuál es el númer de personas infectadas?
+- Cuántas personas están infectadas?
+- En total cuantos positivos hay
+- En total cuantos casos positivos hay
+- Qué país tiene el mayor número de casos?
+- Puedes darme estadísticas?
+- Qué puedes decirme de la situación a nivel mundial?
+- Números actuales
+- muertes en Alemania
+- Hola Helen, dame estadísticas sobre el COVID-19
+- Cómo es la situación en estos momentos en las Islas Vírgenes Británicas?
+- Cómo es la situación actual?
+- Cuántos casos hay hasta el momento?
+- Cuántos casos hay en el mundo
+- Cuantas muertes hay en el mundo
+- Cuantas muertes hay
+- Cuántas personas se han infectado?
+- Cuánta gente murió?
+- Cuánta gente ha muerto?
+- Estadísticas sobre la mortandad
+- Estadísticas de Helsinki de hoy
+- Dime sobre el número de casos
+- Cuántas mueres hay?
+- Cuál es la situación mundial?
+- Cuál es estado actual de la pandemia?
+- Cuántas personas se han infectado en el mundo?
+- Cuál es el país más afectado?
+- Cuál es el país que más sufre por el covid?
+- Cuál es la situación en el mundo?
+- Los números aumentan o disminuyen?
+- Los números suben o bajan?
+- Cuántos casos hay?
+- Ya cuántos casos hay?
+- Cuantos casos
+- Cuántos casos hay en Zurich hasta el momento?
+- Cuántos casos hay en Zurich hasta hoy?
+- Cuántos casos hay en Zurich a la fecha?
+- Cuántos casos existen?
+- Cuántos casos de coronavirus hay en el mundo?
+- Cuántos casos de covid hay en el mundo?
+- Situación global
+- Situación del mundo
+- Muertes en Camboya
+- Cuantas personas son diagnosticadas con covid-19
+- Número de casos de covid-19 en Brasil
+- Situación a nivel mundial
+- La situación del mundo
+- Estadísticas sobre la mortalidad
+
+## intent:covid_situation_deaths
+- Muertes en Vietnam
+- Muertes en la Republica Mexicana
+- Cuantos han muerto hasta el momento en Francia?
+- Cuantas muertes puedes contar tan solo en Perú?
+- Cuantas muertes en el Estado de Isreal?
+- Cuantos mueren en Europa o Asia?
+- Cuantas personas han fallecido en Corea del Sur?
+- Numero de fallecimientos en el Reino Unido
+- Número total de fallecimientos en Malawi o Bangladesh?
+- Número de muertes hasta ahora en la India?
+- Cuántos casos de muerte por covid 19 en Nicaragua?
+
+## intent:covid_situation_infected
+- Cuántos casos activos hay en Alemania?
+- Cuántos casos activos hay en Paraguay?
+- A qué número de casos activos asciende el número en los Estados Unidos?
+- Cuantos casos en
+- Cuantos casos en Estados Unidos
+- Cuantos casos de coronavirus hay en California
+- Cuantos se han infectado en toda Europa?
+- Cuantós infectados hay en Japón?
+- Cuántos están infectados en China?
+- Cuántas personas se han infectado o contraído el virus en los países de Africa?
+- Qué cantidad de personas se han infectado en Pakistan?
+- Qué cantidad de personas tienen covid en Ecuador?
+- Cuántos casos positivos tenemos en México?
+- Cuántos casos positivos tienen en la Ciudad de México?
+- Cuántos casos positivos existen en Italia?
+- Cuantos positivos de covid en Colombia?
+
+## intent:covid_situation_infected_critical
+- Casos realmente mal en Peru
+- Casos criticos en el Reino Unido
+- Casos criticos en toda España
+- Casos críticos
+- Hay casos de gravedad en Argentina?
+- Casos de gravedad
+- Cuántos casos de gravedad hay en Suiza?
+- Cuántos casos críticos de personas infectadas hay en España?
+- Cuantos casos de gravedad hay en Argentina?
+- Cuantos casos graves hay en México?
+- Cuantos casos críticos hay en la República de Perú?
+- Cuantos infectados en estado crítico hay en Colombia?
+- Cuantos casos de infecciones críticas hay en España?
+- Número de casos críticos
+- Numeros de casos críticos en Costa Rica
+- Cuántas personas se encuentran en estado crítico en España?
+- Casos críticos en Chile
+- Críticos en Brasil
+- Casos críticos en el Reino Unido
+- Casos críticos en Venezuela
+- Estado crítico en Argentina?
+- Infectados con casos críticos en Colombia?
+- Cuántos infectados están en casos críticos en el Estado de Mexico?
+- Cuántos casos críticos hay en España?
+
+## intent:covid_situation_last_update
+- México casos y muertes
+- Datos actualizados de USA
+- Actualización de casos
+- Actualización de casos de hoy
+- Cuantos infectados y cuantas muertes hay en Brasil?
+- Cuantos infectados hay en Cuba hasta la fecha?
+- última actualización de Venezuela
+- Actualización de infectados en Ecuador
+- Actualización de conteo de infecciones
+- Actualización más reciente en Corea del Sur
+- Actualización más reciente de muertes en Perú
+- Última actualización de muertes en Colombia
+- Última actualización en Suiza
+- Últimos reportes de Inglaterra
+- Nuevos casos y muertes en la India
+- Nuevos casos en Japón
+- Puedes decirme del coronavirus en México?
+- Datos par ahoy de Brunei
+- Actualización de hoy en Aruba
+- Datos de hoy en Venezuela
+- Información de hoy en Italia
+- Me gustaría saber la situación actual en el Reino de Camobida incluyendo el número de casos de coronavirus
+- Conteo de hoy de México
+- Conteo de casos de hoy en España
+- Que numeros se reportaron hoy en México
+- Que numeros se reportan hoy en Venezuela
+- Que numeros de casos de covid se tienen en Chile
+- Quiero saber el numero actual de casos en Indonesia
+- Me gustaría saber el número actual de casos en Portugal
+- Me gustaría poder conocer el número de casos reportados hasta hoy en Ecuador
+- Me gustaría conocer el número de casos actuales de covid en el Reino Unido y en Estados Unidos
+- Situación en Portugal
+- Situación en USA
+- como esta el covid en Brasil
+
+## intent:covid_situation_recovered
+- Recuperados en España
+- Cuantos se han recuperado en México?
+- Cuántas personas se han recuperado en la República Bolivariana de Venezuela?
+- Cuántas personas se han recuperado en Vietnam?
+- Cuántos se han recuperado en la República de Cabo Verde?
+- Cuántos casos recuperados hay en la República de Mali?
+- Cuántas personas se han recuperado hasta la fecha en la República de Chile?
+- Número de personas recuperadas en Puerto Rico
+- Número de recuperados en El Salvador
+- Personas recuperadas en los Estados Unidos Mexicanos
+- Recuperadas en España
+- Gente recuperada de covid en Guatemala
+- Número total de recuperados en Argentina
+- Cuántos se han recuperado en Reino Unido?
+
+## intent:covid_situation_tested
+- Pruebas en Nicaragua
+- Cuántos diagnosticados en Quito, Ecuador?
+- Cuántos tienen diagnóstico en México?
+- A cuántas personas les han hecho el test en la India?
+- Cuántas personas se han realizado una prueba de covid en Alemania?
+- Cuántos han sido testeados en Peru?
+- Cuántos tienen un resultado de laboratorio en México?
+- Cuántas pruebas les han hecho en Bolivia?
+- Cuántos han llevado un test en Ecuador?
+- Cuántos se han hecho el test en España?
+- Cuántos test en Argentina?
+- Cuántas pruebas se han realizado en Guatemala?
+- Cuántos han sido diagnosticados en Jalisco?
+- Personas diagnosticadas en Brasil
+- Pruebas en Chile
+- Pruebas en Puerto Rico
+- Número total de pruebas en Senegal
+- Cuántas personas se han realizado la prueba en Colombia?
+- Cuantas pruebas se han hecho en Colombia?
+- Total de test en España
+- Número de pruebas en Santiago?
+- Cuántas personas se han hecho la prueba en Lima?
+- Cuántas pruebas se han hecho en Jalisco?
+
+## intent:covid_surfaces
+- Cuanto dura el coronavirus en una superficie
+- El coronavirus dura tiempo en las superficies
+- El coronavirus sobrevive en las superficies
+- Duración del SARS-CoV-2 en superficies
+- Duración del covid-19 en las superficies
+- Duración del covid en las superficies
+- Duración del virus en las superficies
+- Cuánto duran los virus en la superficie?
+- Por cuánto tiempo puede vivir el covid en las superficies?
+- Por cuánto tiempo puede sobrevivir el coronavirus en las superficies?
+- Durante cuánto tiempo vive el covid en superficies?
+- Por cuánto tiempo podría permanecer el coronavirus en superficies?
+- El coronavirus cuánto tiempo resiste en superficies?
+- Cuánto tiempo persiste el coronavirus en superficies?
+- Hola cuanto tiempo vive el virus en la superficie
+- X cuanto tiempo se queda el virus en una superficie
+- Cuanto tiempo puede sobrevivir el virus
+- Cuanto sobrevive
+- Cuanto sobrevive en superficies el virus
+- Por cuanto tiempo puede estar el virus en una superficie
+- Por cuánto tiempo podría persistir el virus en las superficies?
+- Tiempo de permanencia del virus SARS-CoV-2 en superficies
+- Por cuanto tiempo persiste el SARS-CoV-2 en las superficies?
+- Cuanto tiempo se mantiene el virus SARS-COV-2 que causa la COVID-19 en las superficies
+- Coronavirus en superficies.
+- Cuanto tiempo vive el coronavirus en superficies?
+- Cuanto tiempo sobrevive el coronavirus en las superficies?
+- Por cuanto tiempo se mantiene el COVID-19 en las superficies?
+- Por cuánto tiempo se mantiene en superfies el nuevo coronavirus?
+- Dime el tiempo que pasa el coronavirus en superficies
+- Cuanto tiempo se mantiene el COVID-19 En superficies?
+- Por cuánto tiempo se mantiene el nuevo coronavirus en las superficies?
+- El tiempo de persistencia del virus en superficies
+- El tiempo de vida del virus en las superficies
+- El virus cuanto tiempo sobrevive en superficies?
+- Por cuanto tiempo podrá permanecer el virus COVID-19 en superficies?
+- Cuánto tiempo sobrevive en las superficies el virus que causa el COVID-19?
+- Cuánto tiempo puede persistir el coronavirus en las superficies?
+- Cuanto tiempo podría sobrevivir el coronavirus en superficies?
+- Cuántos días podría persistir el SARS-CoV-2 en superficies?
+- Por cuánto podría durar el SARS-CoV-2 en superficies?
+- Cuánto podría durar el coronavirus en superficies?
+- Cuánto tiempo podría vivir el nuevo coronavirus en las superficies?
+- Cuánto podría persistir el coronavirus en superficies?
+- Cuánto tiempo podría permanecer en superficies?
+- Durabilidad del coronavirus en superficies
+- El coronavirus se mantiene en las superficies?
+- El nuevo coronavirus se queda en las superficies?
+- Sobrevive el nuevo coronavirus en superficies?
+- Cuanto dura el sarscov2 en superficies?
+- SARSCOV2 duración en superficies
+- SARS-COV2 Sobrevivencia en superficies
+- Sobrevivencia en superficies
+- Duracion de virus en superficies
+- Duración del virus en superficie
+- Duracion virus superfisie
+- el virus sobrevive en las superficies?
+- Cuanto tiempo vive el virus en las superficies de plastico?
+- Cuantas horas vive el virus en superficies?
+- Durante cuanto tiempo puede resistir el virus en superficies
+- Cuánto tiempo permanece el virus en la ropa?
+
+## intent:covid_symptoms
+- El mareo es un signo de COVID-19?
+- Quiero saber como son los síntomas
+- Dime los síntomas del covid
+- Tengo síntomas?
+- Estoy teniendo síntomas?
+- Bot me gustaría conocer los síntomas
+- El dolor de espalda, pecho y cuello pueden ser sintomas de coronavirus
+- La fiebre alta o baja son síntomas de coronavirus
+- Tengo el virus
+- Tengo síntomas de covid
+- El coronavirus afecta el corazón?
+- Vomitar es sintoma de covid
+- Los gases son un síntoma del covid?
+- Buen día quiero saber si tener dolor en el pecho es un síntoma de covid? Cuales son los principales síntomas del covid?
+- Dolor de cabeza es un síntoma de covid
+- Dolor de cabeza y dolor de espalda son síntomas de covid-19?
+- Como puedo saber si alguien está sufriendo de covid 19?
+- Como puedo saber si tengo coronavirus?
+- Como saber si estás sufriendo de covid?
+- Como afecta al cuerpo el COVID-19?
+- Como son los síntomas del coronavirus
+- Como saber si uno tiene el virus
+- como sabremos si tenemos covid-19
+- Tengo 26 semanas de embarzado y hace 1 día que no puedo oler, no tengo fiebre, tos, mareos u otras cosas y siento todo salado, tengo covid19?
+- Tengo algo de temperatura tos y dolor de cuerpo es síntoma de covid-19?
+- No me sabe la comida
+- Siento ardor en el pecho ese es un síntoma de coronavirus ?!?
+- No puedo respirar bien!!! Ya me contagié?
+- Tengo mucho ardor en el pecho dime si es sintoma de covid
+- Te pregunté por un síntoma
+- Tengo dolor de garganta y secreción nasal. ¿Tengo corona?
+- Quiero saber los síntomas
+- Quiero saber los síntomas de COVID-19
+- Si una persona tiene tos seca, cansancio y fiebre significa que el
+- Si solo tienes dolor de garganta es posible tener covid-19
+- Si alguien tiene tos significa que tiene coronavirus
+- Si alguien no tiene temperatura o tos o sintomas solo un poco de dolor de garganta puede ser corona
+- Si solo tengo tos y problemas para respirar significa que tengo
+- Si tengo dolor en la garganta significa que tengo coronavirus
+- Info sintomas
+- Informacion sobre los sintomas
+- El covid es real cuales son los síntomas
+- La boca seca y la garganta seca son un síntoma de covid-19?
+- ¿Son síntomas de dolor de garganta y pulmón secos de corona?
+- ¿La fiebre es un signo de infección?
+- ¿El dolor de garganta también es un síntoma ...? ¿Si fiebre y tos no están en el cuerpo ...?
+- Es la parte superior de la espalda y una puñalada en el pecho es el síntoma de covid19
+- Síntomas menos comunes
+- La pérdida del gusto y el olfato con tos leve puede ser un virus corona
+- La mayoría de los síntomas
+- Está bien ... la tos y la dificultad para respirar no es necesaria corona derecha
+- Sobre los síntomas.
+- Por favor dime los síntomas del covid-19
+- Signo de infección.
+- Señales del covid 19
+- Signos de infección.
+- Entonces, ¿cuáles son los síntomas normales asociados con el virus corona?
+- El dolor de pecho es un síntoma de covid
+- Perdón. Si una persona siente que tiene Corona, ¿es normal sentirse así?
+- Síntoma
+- Síntomas
+- Síntomas de coronavirus
+- Síntomas del corona?
+- Síntomas de covid
+- Sintomas de la enfermedad corona
+- Sintomas del virus
+- Sintomas
+- Sintomas del corona
+- Dime si tengo coronavirus
+- Dime los síntomas del COVID-19
+- Los síntomas de la enfermedad
+- Los síntomas de la infección
+- Los síntomas del virus
+- Los sintomas
+- Q sintomas hay
+- Cuales son los sintomas del virus
+- Cuales son algunos sintomas?
+- Que indica que tienes coronavirus
+- Que indica que estas infectado
+- Cuales son los sintomas mas comunes
+- Cuales son los signos de coronavirus
+- Cual es un sintoma
+- Cuales son los sintomas y como se contagian
+- Cuales son los sintomas del covid
+- cuales con los sintomas del covid-10
+- Cuales son los sintomas de la enfermedad
+- Cuales son los sintomas de una infeccion
+- Me puedes decir los síntomas?
+- ¿Cuáles son los síntomas de la corona?
+- Qué se puede hacer después de los síntomas de la corona, como fiebre baja, resfriado normal
+- ¿Cuál es el primer síntoma del covid 19?
+- ¿Cuáles pueden ser signos de infección?
+- ¿Cuáles pueden ser los síntomas de una infección?
+- ¿Cuáles pueden ser los signos de infección?
+- ¿Cuáles pueden ser los síntomas de la infección?
+- ¿Qué suspiros de Corona?
+- ¿Qué síntomas aparecen?
+- ¿Qué síntomas están relacionados con el COVID-19?
+- ¿Qué síntomas están relacionados con la enfermedad?
+- ¿Qué síntomas están relacionados con la infección?
+- ¿Qué síntomas debo buscar?
+- ¿Cuáles son los síntomas del covid-19?
+- ¿Dónde puedo encontrar información sobre los síntomas?
+- ¿Cuáles son los síntomas del COVID-19?
+- ¿Cuáles son los síntomas de la enfermedad?
+- ¿Cuáles son los síntomas de la infección?
+- Cuales son los sintomas?
+- ¿Cuáles pueden ser signos de infección?
+- ¿Cuáles pueden ser síntomas de infección?
+- ¿Cuáles pueden ser los signos de infección?
+- ¿Cuáles pueden ser los síntomas de la infección?
+- ¿Qué signos de Corona?
+- ¿Qué síntomas aparecen?
+- ¿Qué síntomas se conocen sobre Covid19?
+- ¿Qué síntomas están relacionados con el COVID-19?
+- ¿Qué síntomas están relacionados con la enfermedad?
+- ¿Qué síntomas están relacionados con la infección?
+- ¿Quién contrae el virus y qué síntomas?
+- ¿Le gustaría aprender más sobre los efectos de COVID-19?
+- ¿Puedo autodiagnosticar?
+- ¿puedes decirme los sintetizadores?
+- tos
+- tengo covid si estornudo mucho
+- hola, cuales son los principales sintomas?
+- como puedo ponerme a prueba
+- como se que lo tengo
+- ¿cómo es la tos? seco =
+- quiero saber si la fiebre es un síntoma
+- es la tos severa?
+- síntomas
+- síntomas
+- síntomas
+- ¿Qué pasa con los músculos adoloridos?
+- ¿Cuáles son los síntomas del covid-19?
+- ¿Cuáles son los principales síntomas?
+- ¿Cuáles son los signos de infección?
+- ¿Cuáles son los síntomas del covid 19?
+- ¿Qué pasa una vez que estoy infectado?
+- ¿Qué pasa si me duelen los oídos?
+- ¿Qué son los sintomas?
+- ɪғ ʏᴏᴜʀ ᴄʜᴇsᴛ ɪs sᴏʀᴇ ɪs ᴛʜᴀᴛ ᴀ sʏᴍᴛᴏᴍ ᴏғ ᴄᴏʀᴏɴᴀ
+- Pero cuando te cuesta respirar
+- ¿Tengo COVID?
+- ¿Cómo puedo saber que tengo ese virus?
+- ¿Cómo saber si alguien se puso en contacto con el virus Corona?
+- No puedo oler nada
+- Siento ardor en mi pecho, es eso un síntoma de covid
+- Me desperté atado y con dolores en las roturas, es el letrero
+- Perdido el sentido del olfato
+- ¿El dolor de garganta también es un síntoma? ¿Si la fiebre y la tos no están en el cuerpo?
+- Por favor, estoy tosiendo y estornudando, ¿cuál es mi problema?
+- signo de coronavirus
+- Signos de covid
+- síntomas de una persona infectada
+
+## intent:covid_treatment
+- El covid tiene un tratamiento?
+- Como se trata la enfermedad?
+- Me han dicho de tratamientos pero no sé como curarme del covid
+- Hay algún tratamiento?
+- Tratamiento
+- Cura para el coronavirus
+- Que tratamiento le dan a los pacientes
+- Hay alguna cura?
+- Hay cura?
+- Asi que ya hay cura?
+
+## intent:covid_worry
+- Y si me contagio?
+- Crees que es tonto estar preocupado?
+- Hola Helen estoy muy preocupada por el virus, como todos los demás. Tengo escurrimiento nasal y ojos llorosos, un poco de tos pero no es constante y no he salido desde diciembre, no debería preocuparme?
+- Cómo manejar la depresión?
+- Que cosas puedo hacer para calmar mis nervios por la enfermedad
+- Que puedo hacer para mantener la calma en la pandemia
+- Que hago con el miedo de contagiarme
+- Tengo miedo de infectarme
+- Me siento mal :(
+- Lo sé pero estoy muy triste
+- Estoy triste
+- El coronavirus es peligroso?
+- Tengo miedo de que mi familia se contagie
+- Tengo miedo del virus
+- Tengo miedo de contagiarme
+- Tengo miedo
+- Estoy preocupado por la enfermedad
+- Estoy preocupado por la pandemia
+- Estamos preocupados por el virus
+- Estoy preocupado
+- Estoy muy triste por la enfermedad
+- Estoy preocupada por la pandemia
+- Estoy preocupada por esta pandemia
+- Estoy muy estresado
+- Ok el virus puede cambiar todo para mal
+- Por favor oremos por el mundo
+- Debería preocuparme por el COVID-19?
+- Debería estar preocupado por la enfermedad?
+- deberia preocuparme por la pandemia?
+- Debería estar preocupada por el virus?
+- Debemos preocuparnos por este virus?
+- Debo preocuparme por el COVID-19?
+- Debemos preocuparnos por esta enfermedad?
+- Debemos preocuparnos por la pandemia?
+- Debemos estar preocupados por el virus
+- Estamos pasando una situación dramática que podemos hacer
+- Esto es triste
+- Que puedo hacer si me siento mal?
+- Que puedo hacer para dejar de preocuparme?
+- Que puedo hacer para dejar el miedo?
+- Como puedo canalizar mis preocupaciones?
+- Estas totalmente en lo cierto estamos en tiempos muy difíciles es una situación crítica
+- Empatía
+- deberiamos estar preocupados por el virus?
+- Voy a morir?
+
+## intent:ebola
+- Ebola
+- Virus del ébola
+- Necesito saber más sobre el ebola
+- Dime sobre el ebola
+- Que hay del ebola?
+- Que es ebola??
+- Que causa el virus del ébola?
+
+## intent:economy_consequences
+- Puedes responder preguntas sobre economía?
+- Economía
+- Consecuencias económicas
+- Cual es el impacto de la pandemia en la economía mundial?
+- La pandemia afecta la economía? De que manera?
+- Cuáles son el impacto social, psicológico y económico del coronavirus?
+
+## intent:features_date
+- Puedes darme la fecha de hoy?
+- Puedes decirme la fecha?
+- Puedes decirme que día es hoy?
+- Podrías decirme qué día es?
+- Puedes decirme que dia es el día de hoy?
+- Podrías decirme por favor que día es hoy?
+- Puedes decirme la fecha de hoy?
+- Me puedes decir la fehca de hoy?
+- Me puedes dar la fecha de hoy?
+- Puedes decirme que fecha es hoy?
+- Quiero saber que fecha es hoy
+- Quiero saber que día es hoy
+- Quiero conocer que día es hoy
+- Quiero que me digas que día es hoy
+- Quiero que me digas a que dia estamos
+- Quiero puedes decirme que día es hoy?
+- Podrías por favor decirme que día es hoy?
+- Por favor, dime que día es hoy
+- Fecha
+- El día de hoy
+- Día de hoy
+- No sé que día es
+- No sé que fecha es
+- Quiero saber que fecha es
+- En que día estamos?
+- En qué fecha estamos?
+- En que dia nos encontramos?
+- En que fecha nos encontramos?
+- En que dia es hoy?
+- Dime que día es hoy sabes eso?
+- Dime que día es hoy
+- Dime qué día es el día de hoy
+- Dime el día
+- Dame la fecha de hoy
+- Dime que día es
+- Qué fecha nos encontramos?
+- Q fecha es hoy
+- A qué fecha estamos?
+- Qué fecha es hoy?
+- Hoy es qué fecha?
+- Hoy es qué día?
+- El día de hoy que día es?
+- EL DIA DE HOY
+- QUE DIA ES HOY
+- QUE DIA ES
+- Sabés qué día es hoy??
+- Sabes que dia es hoy?
+- Qué día es hoy sabes?
+- Cuál día es el día de hoy?
+- Cuál día es hoy?
+- Cuál es la fecha de hoy?
+- Cuál es la fecha?
+
+## intent:features_time
+- Me dices la hora?
+- Me puedes decir que hora es?
+- Y me dices la hora?
+- Puedes darme la hora?
+- La hora actual
+- Que hora es
+- Cual es la hora
+- Que hora marca el reloj?
+- Quiero saber que hora es
+- Quiero saber la hora
+- Me gustaría saber la hora
+- Dejame saber la hora
+- Dejame saber que hora es
+- Dime que hora es
+- Dime a que hora estamos
+- Dime la hora
+- Dime las horas
+- Dime a que horas son
+- Dime que horas son
+- Dime que hora hay
+- Dime que hora estamoss
+- Dime la hora en este momento
+- Dime la hora, por favor
+- Por favor, da la hora
+- Por favor, que hora es
+- Dime que hora es ahorita
+- Podrías darme la hora?
+- Podrías decirme que hora es?
+- El tiempo
+- Tiempo ahora
+- Tiempo.
+- Qué horas son?
+- Qué horas son ahorita?
+- A qué hora nos encontramos?
+- A q hora estamos?
+- Q hora es x fa
+- Que hora es x favor
+- La hora, por favor
+- Qué horas son en este momento?
+- A qué hora estamos?
+- Puedes decirme que hora es?
+
+## intent:greeting_goodbye
+- Adiós
+- Chao
+- Hasta luego
+- Ya me voy
+- Hasta luego, lindo día
+- Me tengo que retirar
+- Me fui
+- Tengo que salir ya
+- Chau pescau
+- Tengo que salir
+- nan
+- Arrivederchi
+- Ahorita me tengo que ir
+- Solo quería decir hola, adiós
+- Espero volver a hablar contigo
+- Espero volver a encontrarte
+- Me fui
+- Nos fuimos
+- Un placer
+- Un placer conocerte
+- Bye Helen
+- Chaito
+- Bye, lindo día
+- Nos vemos
+- Hasta pronto
+- Adiosito
+- Bye, bonito día
+- Ya, adiós
+- Nos vemos otro día
+- Que tengas un lindo día
+- bye bye
+- Bye, excelente día
+- nan
+- Hablamos otro día
+- Que tengas un excelente día
+- Ahí te ves
+- Ten un lindo día
+- Byeeee
+- Chau
+- Vete a dormir
+- Me voy
+- Adiós que tengas lindo día
+- Linda noche
+- Buena noche
+- Buenas noches
+- Me tengo que ir
+- Me tengo que ir corriendo
+- Excelente día
+- Aaaaadios
+- Ve y duerme
+- Tengo que dejarte
+- Tengo que irme
+- Tengo que irme ya
+- Me voy a dormir
+- Me tengo que ir
+- Solo quería saludarte, nos vemos mañana
+- Espero volver a chatear contigo
+- Dije adios
+- Te dije que adios
+- Debería irme
+- Debo irme
+- Ya terminé
+- Ya me fui
+- Me estoy yendo
+- Mucho gusto
+- Me gustó hablar contigo
+- Me voy
+- Ok gracias bye
+- Luego nos vemos
+- Asta luego
+- Ya me voy a desconectar
+- Quizá luego
+- Mucho gusto en conocerte
+- Necesito irme
+- Necesito dejarte
+- Necesito salir corriendo
+- Ya me desconecto
+- Tal vez después
+- Es hora de irme
+- Ya me desconecté
+- Es hora de salir
+- Es hora de que me vaya
+- Debo salir
+- Debería irme ya
+- Nada, bye, que tengas bonito día
+- Ok Helen, lindo día
+- Ok gracias adiós
+- Ok bye
+- Ok, buena
+- Ok gracias, regreso contigo pronto
+- Ok gracias byeee
+- Oki bye
+- Ok hasta luego
+- Ok luego te visito
+- Ok gracias hasta pronto
+- Ok gracias amiga
+- Ok gracias nos vemos
+- Estoy fuera
+- Chais
+- Te veo al rato
+- Te veo luego
+- Te veo mañana
+- Nos vemos!!!
+- Apagate
+- Apágate
+- Apagar
+- Me desconecto
+- Me desconectaré
+- Voy a salir
+- Cuídate
+- Hablamos pronto
+- Gracias… Buenas noches
+- Muchas gracias!
+- Gracias Helen, te escribo luego
+- Gracias, que tengas bonita noche
+- Solo eso! Excelente día
+- Entonces adiós
+- Hora de irse
+- Puedes irte
+- Tu también, bye
+- Tu igual que tengas lindo día
+- nada, nos vemos chiquita
+- ok ok hasta luego
+- te veo mañana en la mañana
+- eso es todo por hoy
+- mañana te pregunto
+- fuera
+- sal de mi pantalla
+- Fuera de mi pc
+- Apagando
+
+## intent:greeting_hello
+- Hola!
+- Hola
+- Hey
+- Hola como estás?
+- Hola que tal
+- Hola cosibot
+- Inicia
+- Buenas tardes
+- Buen día
+- Buenos días
+- Linda mañana
+- Buenos días Helen
+- Saludos
+- Buenas
+- Hola Helen
+- Hola yo soy
+- Hola bot
+- Hola chatbot
+- Hola mi amiga
+- Hola amiga
+- Hola amigocha
+- Hola robot
+- Hola señora
+- Hola señorita
+- Hola señor
+- Hola estas ahí?
+- Hola tu
+- Hey!
+- Hola, mi nombre es
+- Hola Helen, buenas tardes
+- Hola, me llamo
+- Hey bot
+- Hey chatbot
+- Hey hola
+- Hey robot
+- Hay alguien ahí?
+- Hey tu
+- Hey hey
+- Hola lindo día
+- Holita
+- Hola preciosa
+- Hola bot!
+- Hola amiga mía!
+- Hola buenas noches
+- Hola robot!
+- Hay alguien por ahí?
+- Hey!
+- Hola soy yo
+- Hola, soy Paulo
+- Hola, puedes decirme
+- Ola
+- Holi
+- Buenas!
+- Mi nombre es.
+- me llamo
+- Mi nombre es Laura Lopez
+- Gusto en conocerte
+- Shalom
+- Halo
+- Alo Helen
+- Hola chama
+- Hola muchachita
+
+## intent:greeting_how_are_you
+- Mi amiga como estas
+- Estás bien?
+- Te encuentras bien?
+- Todo bien?
+- Estás ok?
+- Buenas tardes Helen, cómo estás?
+- Has estado bien?
+- Helen como estás?
+- Hola Helen, cómo estás?
+- Hola como estás? Cómo te trata la vida?
+- Hola como te va?
+- Hola como va todo?
+- Hola Helen como vas?
+- Hola como estás por allá?
+- Hola, que tal todo?
+- Cómo va todo?
+- Como estas Helen
+- Como estas querida
+- Como vas hoy?
+- Que tal todo
+- Como te sientes hoy?
+- Como te sientes?
+- como estas amiga
+- Como estas esta mañana?
+- Cómo estás hoy?
+- Cómo estás?
+- Como tas
+- Como estas haciendo
+- Como te va hoy?
+- Como te sientes el día de hoy?
+- Como te sientes ahorita?
+- Como vazzz
+- como ha estado tu dia hoy?
+- Como te trata la vida?
+- Espero que estés bien
+- Espero que te encuentres bien
+- Espero que todo esté bien
+- Está todo bien?
+- Todo esta bien?
+- Solo quería preguntarte como estas hoy
+- Que onda
+- Que onda contigo
+- estas bn
+- todo bn
+- todo fino?
+- todo chevere?
+- como la estas pasando?
+- como estas bot?
+- hey como estas
+- quién soy?
+
+## intent:mask_general
+- Que tan efectivo es el cubrebocas para prevenir los contagios
+- Aquí es obligatorio usar cubrebocas
+- Puedo usar un cubreboca desechable?
+- Puedo usar un tapaboca
+- Puedo usar un cubrebocas de uso médico?
+- Mascarilla desechable
+- Cubrebocas desechable
+- Tapabocas desechable
+- Cubrebocas desechables
+- Cubrebocas uso medico
+- Cubrebocas uso medico desechable
+- Como puedo usar un cubrebocas?
+- Como puedo usar un cubrebocas de uso medico?
+- Como puedo utilizar un cubrebocas desechable?
+- Como un cubrebocas previene los contagios?
+- Info cubrebocas desechable
+- Info cubrebocas
+- Info cubrebocas de uso médico
+- Está bien utilizar cubrebocas?
+- Esta bien usar cubrebocas?
+- Esta bien llevar cubrebocas?
+- Usar cubrebocas evita contagiarse?
+- Tapabocas
+- Cubrebocas.
+- Cubrebocas desechables médicos
+- Mascarilla médica desechable
+- Mascarilla médica
+- Cubrebocas uso médico son parte las medidas preventivas?
+- Cuvrevocas
+- cubrebovas uso medico
+- tapabocas medicos
+- Ordernar cubrebocas
+- Tengo que usar un cubrebocas para protegerme?
+- Tengo que usar un cubrebocas desechable?
+- Debo utilizar cubrebocas para protegerme?
+- Debo utilizar cubrebocas todo el tiempo?
+- Debo utilizar un cubrebocas?
+- Debemos utilizar cubrebocas?
+- Gracias, que hay acerca de los cubrebocas?
+- Se supone que debemos usar cubrebocas pero de que tipo
+- Que sabes de los cubrebocas?
+- Cuando usar cubrebocas?
+- Cuando utilizar cubrebocas desechable?
+- Cuando puedo llevar cubrebocas
+- Cuando usar una mascarilla tipo médica
+- Cuando deberia ser utilizada una mascarilla
+- Cuando usar tapabocas
+- Cuando usar tipo médico
+- Cuando utilizar mascarillas desechables
+- Cuando usar un tapabocas
+- Cuando emplear un cubrebocas
+- Donde puedo comprar cubrebocas
+- Quien puede usar cubrebocas
+- Quien puede llevar cubrebocas
+- Quien debe usar cubrebocas?
+- Quien debe ponerse un cubrebocas?
+- Debo ponerme cubrebocas?
+- Me pongo cubrebocas?
+- sobre los cubrebocas
+- los cubrebocas ayudan?
+- los cubrebocas médicos ayudan?
+- mascaras ayuda
+- las mascaras ayudan?
+- los tapabocas previenen el covid
+- puedo pedir cubrebocas
+- ok podrías por favor decirme como usar el cubrebocas?
+- Tengo que usar guantes?
+- tengo que ponerme cubrebocas?
+- Dime sobre los cubrebocs
+- llevar puesto cubrebocas previene el covid?
+- Cual es el mejor cubrebocas para prevenir el coronavirus
+- Que cubrebocas son los recomendados?
+- Que cubrebocas te protege más?
+- Cuando debería ponerme cubrebocas?
+- Cuando ponerse cubrebocas?
+- Donde consigo materiales para protección personal?
+- Cual es el mejor tipo de cubrebocas?
+- Cubrebocas
+
+## intent:mask_use_after
+- Después de utilizar cubrebocas
+- Después de usar cubrebocas
+- Después de usar una mascarilla médica
+- Desechar una mascarilla médica
+- Desechar un cubrebocas
+- Desechar un cubrebocas médico
+- Desechar un cubrebocas desechable
+- Desechando un cubrebocas
+- Desechar una mascarilla médica.
+- Deshacerse de un tapabocas desechable usado.
+- Deshacerse de una mascarilla usada.
+- Deshacerse de una mascarilla médica usada.
+- Cómo desechar un ...
+- Cómo deshacerse de una mascarilla
+- ¿Cómo desechar una mascarilla desechable?
+- ¿Cómo desechar una mascarilla?
+- ¿Cómo desechar una mascarilla médica?
+- ¿Cómo desechar una mascarilla desechable?
+- ¿Cómo desechar una mascarilla?
+- ¿Cómo desechar una mascarilla médica?
+- ¿Cómo desechar una mascarilla desechable usada?
+- ¿Cómo desechar una mascarilla usada?
+- ¿Cómo desechar una mascarilla médica usada?
+- ¿Cómo proceder después de usar una mascarilla desechable?
+- ¿Cómo proceder después de usar una mascarilla?
+- ¿Cómo proceder después de usar una mascarilla médica?
+- ¿Cómo desechar una mascarilla desechable usada?
+- ¿Cómo desechar una mascarilla usada?
+- ¿Cómo desechar una mascarilla médica usada?
+- ¿Qué hacer con una mascarilla desechable usada?
+- ¿Qué hacer con una mascarilla usada?
+- ¿Qué hacer con una mascarilla médica usada?
+- desechar
+- Como desechar el tapabocas?
+- Como desecho un cubrebocas?
+- Como me quito el cubrebocas?
+- Como desecharlo?
+- Como desechar el cubrebocas?
+
+## intent:mask_use_put
+- Antes de utilizar cubrebocas desechable
+- Antes de utilizar cubrebocas
+- Antes de ponerse un cubrebocas
+- Antes de ponerse un cubrebocas desechable
+- Antes de usar cubrebocas
+- Antes de usar cubrebocas grado médico
+- Como usar un cubrebocas?
+- Como colocarse un cubrebocas?
+- Cómo colocarse el cubrebocas?
+- Cómo ponerse el tapabocas?
+- Que hacer antes de colocarse el cubrebocas?
+- Cómo me pongo el cubrebocas?
+- Cómo uso un cubrebocas desechable?
+- Cuál es el prodecimiento para usar un cubrebocas?
+- Como ponerse un cubrebocas
+- Cómo usar correctamente un cubrebocas
+- Cómo usar una mascarilla
+- Como usar un tapabocas
+- Ponerse cubrebocas
+- Cómo me pongo un cubrebocas?
+- Cómo me pongo una mascarilla?
+- Procedimientos antes de ponerse cubrebocas
+- Procedimientos antes de usar cubrebocas
+- Procedimiento para antes de utilizar un tapabocas
+- Como usar una mascarilla médica
+- Colocación del cubrebocas
+- Colocación de un tapabocas
+- Colocación de un cubrebocas médico
+- Procedimientos antes de ponerse un tapabocas
+- Procedimientos antes de ponerse una mascarilla.
+- Procedimientos antes de ponerse una mascarilla médica.
+- Procedimientos antes de usar una mascarilla desechable.
+- Procedimientos antes de usar un cubrebocas.
+- Procedimientos antes de usar una mascarilla médica.
+- Ponerse una mascarilla desechable.
+- Ponerse una mascarilla desechable.
+- Ponerse un cubrebocas.
+- Ponerse el cubrebocas.
+- Ponerse una mascarilla médica.
+- Ponerse una mascarilla médica.
+- Ponerse una mascarilla desechable.
+- Ponerse una máscara.
+- Ponerse una mascarilla médica.
+- Enséñame a dominar y usar una máscara
+- Llevando una mascarilla desechable.
+- Llevando una máscara.
+- Llevando una mascarilla médica.
+- ¿Qué hacer antes de ponerse una mascarilla desechable?
+- ¿Qué hacer antes de ponerse una máscara?
+- ¿Qué hacer antes de ponerse una mascarilla médica?
+- ¿Qué hacer antes de usar una mascarilla desechable?
+- que hacer antes de usar un cubrebocas desechable?
+- que hacer antes de usar un cubrebocas?
+- como cubrebocas
+- debería usar un cubrebocas
+- como ponerse un tapabocas
+- ponerse un tapabocas
+- Cuál es la forma correcta de usar cubrebocas?
+
+## intent:myth_alcohol
+- Alcohol encima de mi
+- Alcohol dentro de mi
+- Si rocias alcohol en tu cuerpo matas al virus?
+- Rociando cloro matas al virus?
+- Rociar alcohol sobre el cuerpo ayuda a eliminar el virus
+- Rociar alcohol
+- Rociar cloro sobre todo tu cuerpo ayuda a matar al virus
+- Rociar cloro
+- Cloro sobre tu cuerpo
+- Cloro en todo tu cuerpo
+- Si me baño en alcohol
+- Si me baño en alcohol el virus se morirá
+- Beber alcohol me protege del COVID-19?
+
+## intent:myth_cold_weather
+- La nieve puede matar al covid?
+- La nieve fría puede matar al COVID-19?
+- Nieve puede eliminar SARS-CoV-2?
+- La nieve puede eliminar el nuevo coronavirus?
+- El aguanieve puede matar al coronavirus?
+- El clima frío puede matar al COVID-19?
+- El clima frío puede matar el coronavirus?
+- El clima frío puede eliminar el SARS-CoV-2?
+- El clima frío y la nieve pueden acabar con el virus?
+- ¿Pueden el clima frío y la nieve matar al nuevo coronavirus?
+- ¿Puede el clima frío matar al COVID-19?
+- ¿Puede el clima frío matar el COVID?
+- ¿Puede el clima frío matar al SARS-CoV-2?
+- ¿Puede el clima frío matar al nuevo coronavirus?
+- ¿Puede el clima frío matar al nuevo coronavirus?
+- Clima frío efectivo contra el COVID-19.
+- Clima frío efectivo contra el COVID.
+- El clima frío es efectivo contra el SARS-CoV-2.
+- Clima frío efectivo contra el nuevo coronavirus.
+- Clima frío efectivo contra el nuevo coronavirus.
+- El clima frío mata al COVID-19.
+- El clima frío mata el COVID.
+- El clima frío mata al SARS-CoV-2.
+- El clima frío mata al nuevo coronavirus.
+- El clima frío mata al nuevo coronavirus.
+- Nieve efectiva contra el COVID-19.
+- Nieve eficaz contra el COVID.
+- Nieve eficaz contra el SARS-CoV-2.
+- Nieve eficaz contra el nuevo coronavirus.
+- Nieve eficaz contra el nuevo coronavirus.
+- La nieve mata al COVID-19.
+- La nieve mata al COVID.
+- La nieve mata al SARS-CoV-2.
+- La nieve mata al nuevo coronavirus
+
+## intent:myth_hot_bath
+- El calor mata al coronavirus
+- ¿Tomar un baño caliente previene la enfermedad COVID?
+- ¿Tomar un baño caliente previene la enfermedad COVID-19?
+- ¿Tomar un baño caliente previene el COVID-19?
+- ¿Tomar un baño caliente previene el COVID?
+- ¿Tomar un baño caliente previene el virus SARS-CoV-2?
+- ¿Tomar un baño caliente previene el SARS-CoV-2?
+- ¿Tomar un baño caliente previene la nueva enfermedad por coronavirus?
+- ¿Tomar un baño caliente previene el nuevo coronavirus?
+- ¿El calor mata el virus?
+- El baño caliente mata la enfermedad COVID.
+- El baño caliente mata la enfermedad COVID-19.
+- Baño caliente mata al COVID-19.
+- El baño caliente mata el COVID.
+- El baño caliente mata el virus SARS-CoV-2.
+- El baño caliente mata al SARS-CoV-2.
+- El baño caliente mata la nueva enfermedad por coronavirus.
+- El baño caliente mata al nuevo coronavirus.
+- El baño caliente mata el virus.
+- Prevención de baños calientes.
+- El baño caliente previene contra la enfermedad COVID.
+- El baño caliente previene contra la enfermedad COVID-19.
+- El baño caliente previene contra el COVID-19.
+- El baño caliente previene contra el COVID.
+- El baño caliente previene contra el virus SARS-CoV-2.
+- El baño caliente previene contra el SARS-CoV-2.
+- El baño caliente previene contra la nueva enfermedad por coronavirus.
+- El baño caliente previene contra el nuevo coronavirus.
+- El baño caliente previene la enfermedad COVID.
+- El baño caliente previene la enfermedad COVID-19.
+- El baño caliente previene el COVID-19.
+- El baño caliente previene el COVID.
+- El baño caliente previene el virus SARS-CoV-2.
+- El baño caliente previene el SARS-CoV-2.
+- El baño caliente previene la nueva enfermedad por coronavirus.
+- El baño caliente previene el nuevo coronavirus.
+- El agua caliente puede matar al virus?
+
+## intent:myth_mosquitoes
+- Los mosquitos pueden transmitir el coronavirus?
+- Los mosquitos propagan la enfermedad?
+- Los mosquitos propagan el virus?
+- Los mosquitos son capaces de propagar el COVID-19?
+- Los mosquitos esparcen el COVID-19?
+- Los mosquitos contagian de COVID-10
+- Los mosquitos pueden infectarte de coronavirus?
+- El coronavirus puede transmitirse a través de los mosquitos?
+- mosquitos y el coronavirus
+- mosquito
+- mosquitos
+- mosquitos y covid
+
+## intent:myth_garlic
+- Ajo como medida de prevención
+- Comer ajo me ayuda a protegerme contra el coronavirus?
+- El ajo puede curar el covid?
+- ajo
+- ajos
+
+## intent:myth_packages
+- Es seguro recibir una carta de un área con COVID-19?
+- Es seguro recibir un paquete que viene de un área con COVID-19?
+- Paquetes que vienen de lugares infectados
+- Paquetes vienen de paises infectados
+- Paquetes infectados
+- Paquetes con el virus
+- Recibir cartas de paises infectados
+- Recibir paquetes infectados
+- Recibir paquetes de países infectados
+- puedo recibir una carta de un país infectado?
+- cartas de países infectados
+- cartas infectadas
+- cartas con el virus
+
+## intent:myth_transmission_hot_areas
+- Transmisión de COVID en áreas con climas cálidos y húmedos.
+- Transmisión de COVID en áreas con climas cálidos.
+- Transmisión de COVID en zonas cálidas y húmedas.
+- Transmisión de COVID en zonas calientes.
+- Transmisión de COVID-19 en áreas con climas cálidos y húmedos.
+- Transmisión de COVID-19 en áreas con climas cálidos.
+- Transmisión de COVID-19 en zonas cálidas y húmedas.
+- Transmisión de COVID-19 en zonas calientes.
+- ¿Se puede transmitir el virus COVID en áreas con climas cálidos y húmedos?
+- ¿Se puede transmitir el virus COVID en áreas con climas cálidos?
+- ¿Se puede transmitir el virus COVID en áreas cálidas y húmedas?
+- ¿Se puede transmitir el virus COVID en áreas calientes?
+- ¿Se puede transmitir el virus COVID-19 en áreas con climas cálidos y húmedos?
+- ¿Se puede transmitir el virus COVID-19 en áreas con climas cálidos?
+- ¿Se puede transmitir el virus COVID-19 en áreas cálidas y húmedas?
+- ¿Se puede transmitir el virus COVID-19 en áreas calientes?
+- ¿Se puede transmitir el SARS-CoV-2 en áreas con climas cálidos y húmedos?
+- ¿Se puede transmitir el SARS-CoV-2 en áreas con climas cálidos?
+- ¿Se puede transmitir el SARS-CoV-2 en áreas cálidas y húmedas?
+- ¿Se puede transmitir el SARS-CoV-2 en áreas calientes?
+- ¿Se puede transmitir el coronavirus en zonas con climas cálidos y húmedos?
+- ¿Se puede transmitir el coronavirus en zonas con climas cálidos?
+- ¿Se puede transmitir el coronavirus en zonas cálidas y húmedas?
+- ¿Se puede transmitir el coronavirus en zonas calientes?
+- ¿Se puede transmitir el virus de la enfermedad en áreas con climas cálidos y húmedos?
+- ¿Se puede transmitir el virus de la enfermedad en áreas con climas cálidos?
+- ¿Se puede transmitir el virus de la enfermedad en áreas cálidas y húmedas?
+- ¿Se puede transmitir el virus de la enfermedad en áreas calientes?
+- ¿Se puede transmitir el virus en áreas con climas cálidos y húmedos?
+- ¿Se puede transmitir el virus en áreas con climas cálidos?
+- ¿Se puede transmitir el virus en áreas cálidas y húmedas?
+- ¿Se puede transmitir el virus en áreas calientes?
+- Transmisión de coronavirus en áreas con climas cálidos y húmedos.
+- Transmisión de coronavirus en áreas con climas cálidos.
+- Transmisión de coronavirus en zonas cálidas y húmedas.
+- Transmisión de coronavirus en zonas calientes.
+- ¿Crees que un clima seco podría aliviar el virus?
+- ¿El virus COVID se transmite en áreas con climas cálidos y húmedos?
+- ¿El virus COVID se transmite en áreas con climas cálidos?
+- ¿El virus COVID se transmite en áreas cálidas y húmedas?
+- ¿El virus COVID se transmite en áreas calientes?
+- ¿El virus COVID-19 se transmite en áreas con climas cálidos y húmedos?
+- ¿El virus COVID-19 se transmite en áreas con climas cálidos?
+- ¿El virus COVID-19 se transmite en áreas cálidas y húmedas?
+- ¿El virus COVID-19 se transmite en áreas calientes?
+- ¿El SARS-CoV-2 transmite en áreas con climas cálidos y húmedos?
+- ¿El SARS-CoV-2 transmite en áreas con climas cálidos?
+- ¿El SARS-CoV-2 transmite en áreas cálidas y húmedas?
+- ¿El SARS-CoV-2 transmite en áreas calientes?
+- ¿Se transmite el coronavirus en zonas con climas cálidos y húmedos?
+- ¿Se transmite el coronavirus en zonas con climas cálidos?
+- ¿Se transmite el coronavirus en zonas cálidas y húmedas?
+- ¿Se transmite el coronavirus en zonas calientes?
+- ¿Se transmite el virus de la enfermedad en áreas con climas cálidos y húmedos?
+- ¿Se transmite el virus de la enfermedad en áreas con climas cálidos?
+- ¿El virus de la enfermedad se transmite en áreas cálidas y húmedas?
+- ¿El virus de la enfermedad se transmite en áreas calientes?
+- ¿Al virus le gusta la luz del sol?
+- ¿Se transmite el virus en áreas con climas cálidos y húmedos?
+- ¿Se transmite el virus en áreas con climas cálidos?
+- ¿Se transmite el virus en áreas cálidas y húmedas?
+- ¿El virus se transmite en áreas calientes?
+- Climas cálidos.
+- Transmisión del SARS-CoV-2 en áreas con climas cálidos y húmedos.
+- Transmisión del SARS-CoV-2 en áreas con climas cálidos.
+- Transmisión del SARS-CoV-2 en zonas cálidas y húmedas.
+- Transmisión del SARS-CoV-2 en zonas calientes.
+- Difundir climas cálidos.
+- Transmisión en zonas con climas cálidos y húmedos.
+- Transmisión en zonas con climas cálidos.
+- Transmisión en zonas cálidas y húmedas.
+- Transmisión en zonas calientes.
+- Transmisión en climas cálidos.
+- Transmisión de virus en áreas con climas cálidos y húmedos.
+- Transmisión de virus en áreas con climas cálidos.
+- Transmisión de virus en zonas cálidas y húmedas.
+- Transmisión de virus en áreas calientes.
+- la transmisión de la enfermedad en áreas con climas cálidos y húmedos.
+- la transmisión de la enfermedad en áreas con climas cálidos.
+- la transmisión de la enfermedad en zonas cálidas y húmedas.
+- la transmisión de enfermedades en zonas cálidas.
+- la transmisión de la enfermedad-19 en áreas con climas cálidos y húmedos.
+- la transmisión de la enfermedad-19 en áreas con climas cálidos.
+- la transmisión de la enfermedad 19 en zonas cálidas y húmedas.
+- la transmisión de la enfermedad 19 en zonas cálidas.
+
+## intent:myth_conspiracy_fakenews
+- Que mitos están asociados al virus?
+- El covid no existe sabes?
+- Conspiraciones
+- Conspiración
+- el covid en Nigeria no existe
+- 0
+- Noticias falsas
+- Fake news
+- Informacion
+- El covid es un mito?
+- Si existe la enfermedad?
+- Mito
+- Mitos
+- Como puedo ayudar a mi nación a aprender sobre el covid-19
+- Ok que mitos hay?
+- Nos dijeron que comiendo frutas nos podemos curar
+- Sabes los mitos?
+- Cuáles son los mitos acerca del coronavirus?
+- Cuáles son los mitos?
+- El COVID-19 es una enfermedad de pánico?
+- El coronavirus si existe?
+- El covid si existe?
+- Escriba un debate sobre el tema "el virus corona no es real" que pueda apoyar u oponerse
+- El coronavirus es real?
+
+## intent:prevention_clean_hands
+- Acerca de lavarse las manos
+- Sobre lavarse las manos
+- Lavarse manos
+- Lavarse las manos
+- Limpiar manos
+- Lavar las manos como medida de prevención
+- Lavarse seguido las manos
+- Lavarse frecuentemente las manos
+- Lavarse las manos previene contagiarse de la enfermedad?
+- Lavarse las manos previene infectarse con el virus?
+- Lavar mis manos con gel antibacterial me ayudará reduciendo las probabilidades de contagiarme?
+- Limpiarme las manos con jabón reducirá mis posibilidades de infectarme?
+- ¿Crees que lavarse las manos es suficiente?
+- Cómo lavarse las manos correctamente?
+- Que tan importante es tener las manos limpias?
+- Que tan importante es lavarse las manos?
+- Importancia de lavarse las manos
+- Importancia de tener las manos limpias
+- Importante lavar manos
+- Lavese las manos
+- Lavar mis manos
+- Lavando manos
+- Lavarse constantemente las manos
+- Lavarse las manos evitará contraer la enfermedad?
+- ¿Lavarse las manos evitará contraer el virus?
+- nan
+- Podemos usar solo agua y jabon
+- Por qué lavarse las manos con frecuencia?
+- Xq lavarse las manos tanto?
+- Por qué es importante lavarse las manos?
+- Por que tenemos que lavarnos las manos
+- Porque debemos lavarnos las manos regularmente
+- Porque debemos lavarnos las manos
+- Cuanto tiempo debo lavarme las manos
+- Cuantas veces tengo que lavarme las manos
+- como labarse las manos
+- como lavar mis manos
+- cuando debo lavarme las manos?
+
+## intent:prevention_disinfection
+- Cómo desinfecto las cosas?
+- Que hay sobre usar sanitizante?
+- Los sanitizantes son 100% efectivos contra el virus?
+- Que puedo usar como desinfectante?
+
+## intent:prevention_distance
+- Distancia entre personas que tosen o estornudan.
+- Distancia de la gente que tose
+- Distancia de la gente que estornuda
+- Distancia de la gente
+- Evaluar la regulación de bloqueo del distanciamiento social de covid 19 como medida de seguridad personal para prevenir la infección por el virus corona
+- Como podemos promover la sana distancia?
+- A que distancia nos mantenemos de personas tosiendo o estornudando?
+- A que distancia nos mantenemos de personas tosiendo?
+- Como sería una distancia segura o sana de la gente que estornuda?
+- Cual sería una distancia segura de la gente?
+- Cuál sería una distancia segura?
+- Debería alejarme de alguien que está tosiendo o estornudando?
+- Debo alejarme de alguien tosiendo?
+- Que tan lejos debo estar de alguien con muchos estornudos
+- Que distancia mantengo de alguien con tos y estornudos?
+- Que tan lejos debería permanecer de alguien con tos?
+- Que tan lejos debo permanecer de alguien que está estornudando?
+- Que distancia debemos mantener?
+- Cuanta distancia mantener entre persona y persona?.
+- Distancia preventiva
+- Distancia con personas tosiendo o estornudando
+- Distancia con personas tosiendo
+- Distancia segura entre personas que estornudan
+- Distancia segura entre la gente
+- Distancia segura para personas con estornudos
+- Distancia segura entre personas estornudando
+- Sana distancia entre las personas
+- Sana distancia.
+- Distancia entre personas
+- Distancia segura
+- Deberia mantenerme alejado de las personas?
+- Cual es la distancia recomendada?
+
+## intent:prevention_general
+- Que puedo hacer para prevenir el coronavirus
+- Ok, cuales son las medidas preventivas?
+- Como puedo prevenir el covid-19 como estudiante
+- Ok como prevenirse
+- Como prevenir
+- Como nos cuidaremos cuando abran los colegios
+- Como nos vamos a cuidar
+- Como vamos a prevenir en las escuelas
+- como bamos a prevenirnos
+- como vamos a prevenir el covid en la escuela
+- Como vamos a prevenir los contagios de covid en el colegio?
+- Ok como vamos a prevenirlo
+- Ok como podemos prevenirlo en las escuelas
+- Que podemos hacer para prevenirlo en las escuelas una vez que abren
+- Como podemos prevenirlo
+- Como podemos prevenir el virus
+- Qué prácticas se están practicando a nivel mundial para reducir la propagación del virus?
+- Puedes decirme las medidas preventivas?
+- Ok medidas preventivas
+- Medidas de prevención
+- Umm como puedo prevenir el virus
+- Como puedo evitar el virus??
+- Como puedo prevenir el covid-19?
+- Como puedo salvarme del covid?
+- Como puedo protegerme para no contagiarme de covid-19?
+- Cómo puedo prevenir la transmisión?
+- Cómo puedo protegerme del covid-19?
+- Cómo puedo salvarme del coronavirus?
+- Como puedo evitar el virus
+- Como puedo prevenirlo
+- Como puedo protegerme
+- Como puedo protegerme del coronavirus
+- Como puedo prevenirme del corona
+- ¿Cómo puede alguien prevenir este virus?
+- ¿Cómo podemos prevenir convid 19
+- ¿Cómo podemos prevenirlo?
+- ¿Cómo podemos prevenirnos a nosotros mismos?
+- ¿Cómo podemos prevenir la propagación?
+- ¿Cómo podemos prevenir esta padamia?
+- ¿Cómo puedo prevenir la propagación?
+- Cuántos son dados de alta Cómo prevenirlo
+- ¿Cómo debería salvarse de la enfermedad?
+- Cómo evitar el virus
+- Cómo controlar el virus Corona
+- Como prevenir
+- Como prevenirlo
+- Cómo prevenir la propagación del virus corona
+- Cómo prevenir la propagación
+- Cómo prevenir el virus
+- Cómo prevenir el virus
+- ¿Cómo protegerse del coronavirus?
+- ¿Cómo reducir las posibilidades de infectarse?
+- ¿Cómo reducir las posibilidades de propagación de la enfermedad?
+- ¿Cómo reducir las posibilidades de propagación del virus?
+- ¿Cómo sobrevivir a la PANDEMIA?
+- Cómo podemos tomar precauciones
+- Hw son las medidas
+- Quiero saber como prevenir la enfermedad
+- Quiero saber como protegerme
+- Me preguntaba si podría decirme cómo puedo protegerme del virus.
+- ¡No estoy seguro! Pero la persona de mi área será positiva
+- Si utilizo limones y jengibre con frecuencia, ¿estaré en condiciones de derrotar al virus?
+- Esta bien. Entonces, ¿cuáles son las medidas preventivas?
+- Está bien, gracias, ¿cómo puedo prevenirlo ahora?
+- Enumere 200 formas en las que podemos prevenirlo
+- Medidas
+- Medidas de prevención.
+- Ok y que es el preventivo
+- Ok medidas preventivas
+- Precauciones a prevenir.
+- Precauciones a proteger.
+- Precauciones a tomar.
+- Prevenir medidas
+- Prevención de infecciones.
+- Prevención.
+- Medida preventiva
+- Lista de medidas preventivas
+- Medidas preventivas para protegerse del virus.
+- Medidas preventivas.
+- Medidas preventivas
+- Medidas preventivas
+- Medidas de protección para prevenir la enfermedad.
+- Medidas de protección.
+- Protección de infecciones.
+- Medidas de protección.
+- Así que dime qué hacer por favor
+- Cuéntame cómo prevenir
+- Cuéntame sobre medidas preventivas
+- Gracias. ¿Cómo podemos prevenir la propagación?
+- ¿Cuáles son las medidas preventivas del virus?
+- ¿Cuáles son las medidas preventivas?
+- ¿Qué puedo hacer para prevenir la propagación de enfermedades?
+- ¿Qué puedo hacer para protegerme y prevenir la propagación de enfermedades?
+- ¿Qué puedo hacer para protegerme?
+- ¿Cuál es la principal prevención de este virus?
+- Que debemos hacer para cuidarnos
+- ¿Qué hacer para prevenir la propagación de enfermedades?
+- ¿Qué hacer para protegerse del virus?
+- ¿Qué hacer para protegerme del virus?
+- ¿Qué precauciones se deben tomar?
+- Sí, estoy preguntando cómo puedo evitar la covid19
+- Sí, ¿cuál es la medida más importante para prevenir la covid
+- hola como debo protegerme
+- que tal las medidas preventivas
+- como puedo protegerme
+- ¿Cómo puedo protegerme del virus corona?
+- ¿Cómo puedo luchar contra el covid-19?
+- ¿Cómo puedo protegerme?
+- ¿Cómo podemos luchar contra el coronavirus?
+- ¿Cómo evito contraer un virus?
+- como me mantengo a salvo
+- cómo montar las primeras etapas de corona
+- cómo protegerse contra el virus
+- evitar
+- medidas preventivas contra el covid
+- medidas preventivas
+- que son las medidas preventivas
+- ¿Cuáles son algunas medidas preventivas?
+- ¿Cuáles son los consejos para luchar contra el covid-19?
+- cuales son las medidas preventivas
+- ¿Cuáles son sus consejos relacionados con covid-19?
+- cuales son tus consejos
+- ¿Qué puede hacer la gente para detener la pandemia?
+- ¿qué debería hacer?
+- ¿Qué debo hacer para evitar eso?
+- cuales son las medidas preventivas
+- Pautas
+- Directrices para el virus
+- ¿Cómo puede uno estar seguro?
+- ¿Es cierto que cuando se toma lima y jugo de limón no se puede contraer el virus?
+- hola como debo protegerme
+- ¿Cuáles son las recomendaciones para los indígenas?
+
+## intent:prevention_home
+- Está bien si me quedo en casa?
+- ¿Me va bien si me quedo en casa?
+- Estoy tosiendo que puedo hacer
+- ¿Es realmente la mejor idea quedarse en casa en caso de prevenir el virus?
+- Tiene fiebre, tos
+- Hola soy Laura los últimos tres días mi temperatura corporal es de 97 a 99 sin moqueo, tos ni resfriado ni dolor de garganta. Qué tengo que hacer
+- Hola ... Tengo dolor de garganta de los últimos 17 días ...
+- Hola señora, tuve la irritación de los últimos 10 días
+- estoy tosiendo
+- Me estoy sintiendo mal
+- No tengo tos.
+- Me siento un poco mal, ¿debería quedarme en casa?
+- Me siento un poco mal, ¿debería quedarme en casa?
+- Siento dolor en la pierna y la espalda y debilidad
+- Tengo temperatura
+- Tengo diarrea
+- Tengo fiebre de amor con temperatura de 38 ° c
+- Tengo síntomas leves de enfermedad, ¿debo quedarme en casa?
+- Tengo síntomas leves de enfermedad, ¿debo quedarme en casa?
+- Solo tengo síntomas leves, ¿debería quedarme en casa?
+- Solo tengo síntomas leves, ¿debería quedarme en casa?
+- Solo tengo síntomas leves.
+- Creo que estoy enfermo
+- Si no me siento bien, ¿debo quedarme en casa?
+- Si no me siento bien, ¿debería quedarme en casa?
+- Si tengo covid 19, ¿qué debo hacer?
+- Si tengo dolor de garganta, ¿es alarmante?
+- Si alguien tiene covid 19 ¿Qué debo hacer?
+- Si alguien se siente cansado y tiene tos
+- ¿En qué circunstancias debo quedarme en casa?
+- ¿En qué circunstancias debería quedarme en casa?
+- Mi pecho está apretado, la nariz gotea y los ojos arden, ¿qué hago
+- ¿Debería quedarme en casa si me siento un poco mal?
+- ¿Debo quedarme en casa si no me siento bien?
+- ¿Debería quedarme en casa?
+- ¿Debería quedarme en casa si me siento un poco mal?
+- ¿Debería quedarme en casa si no me siento bien?
+- Deberia quedarme en casa?
+- Tengo resfriado
+- Quedarse en la casa
+- Quedate en casa quedate seguro
+- Quedate en casa
+- Que ayuda para bajar la fiebre?
+- En caso de tener el virus que pasos debo tomar, cuales son los pasos a tomar antes de ir al médico?
+- Que hacer si solo tengo dolor de garganta
+- Me duele el estomago
+- Quedarse en cas
+- Cuando quedarse en casa
+- Respuesta equivocada
+- dolor de cabeza
+- migraña
+- me duele la cabeza
+- tengo gripa
+- tengo algo de tos
+- mi hijo tiene fiebre que debo hacer
+- que hacer si tengo dolor de cabeza
+- tienes razón me estoy sintiendo mal
+
+## intent:prevention_informed
+- Que dicen las noticias
+- Es importante seguir las noticias?
+- Es importante estar informado?
+- Mantenerse actualizado
+- Deberia revisar regularmente las noticias?
+- ¿Debo seguir regularmente las noticias sobre el virus?
+- ¿Debo seguir las noticias sobre el virus?
+- ¿Debo seguir las noticias con regularidad?
+- ¿Debo seguir las noticias relacionadas con el COVID-19?
+- ¿Debo seguir las noticias relacionadas con la enfermedad?
+- ¿Debo seguir las noticias relacionadas con el virus?
+- ¿Debo seguir las noticias?
+- ¿Debo estar al tanto de la información más reciente sobre el brote de COVID-19?
+- ¿Debo mantenerme informado con regularidad?
+- ¿Debo mantenerme informado?
+- Mantente informado.
+- Bueno, eso es bonito. Tienes que mantenerte informado, ¿verdad?
+- ¿Por qué es importante seguir las noticias?
+- ¿Por qué es importante mantenerse informado?
+- ¿Por qué debería consultar con regularidad las últimas noticias?
+- ¿Por qué debería seguir las noticias relacionadas con el COVID-19?
+- ¿Por qué debo seguir las noticias relacionadas con la enfermedad?
+- ¿Por qué debo seguir las noticias relacionadas con el virus?
+- ¿Por qué debería estar al tanto de la información más reciente sobre el brote de COVID-19?
+
+## intent:prevention_measures
+- ¿Hay medidas que no sean efectivas contra COVID-19?
+- ¿Existen medidas que no sean efectivas contra COVID-19?
+- ¿Fumar es efectivo contra el COVID-2019?
+- ¿Es eficaz la automedicación contra el COVID-19?
+- ¿La automedicación, como los antibióticos, es eficaz contra el COVID-19?
+- ¿Es eficaz tomar remedios herbales tradicionales contra el COVID-2019?
+- ¿Hay algo que no deba hacer?
+- ¿El uso de máscaras múltiples es efectivo contra COVID-2019?
+- Medidas no efectivas.
+- Medidas no efectivas.
+- ¿Debo fumar para prevenir el COVID-2019?
+- ¿Debo tomarme la automedicación como antibióticos para prevenir COVID-19?
+- ¿Debo tomarme la automedicación para prevenir COVID-19?
+- ¿Debo tomar remedios herbales tradicionales para prevenir COVID-2019?
+- ¿Debo usar varias mascarillas para prevenir COVID-19?
+- ¿Qué medidas no son efectivas contra COVID-19?
+- ¿Qué medicamentos se deben evitar durante COVId?
+- que debo evitar
+- ¿Qué no debo hacer para protegerme contra el virus?
+- ¿Qué no debo hacer para protegerme contra el virus?
+- Qué puede beber una mujer embarazada para prevenir la infección de corona?
+- beber bebida me protege contra el COVID-19?
+
+## intent:prevention_medical_attention
+- Estoy enfermo
+- Tengo el virus?
+- Tengo fiebre
+- Como puedo saber si estoy infectado?
+- Que deberia hacer si estoy infectado
+- Que puedo hacer si tengo tos?
+- Que puedo hacer si tengo tos, fiebre y dificultad para respirar?
+- Como proceder si tengo fiebre, tos y dificultad para respirar?
+- Que hacer en caso de tener alta temperatura?
+- Que hacer si no puedo respirar o tengo dificultad?
+- Que hacer en caso de tener tos?
+- Que puedo hacer en caso de dificultad para respirar?
+- Que se puede hacer en caso de tener tos, fiebre y dificultad para respirar?
+- Si tengo temperatura, tos o dificultad para respirar que debo hacer?
+- En caso de tener temperatura que puedo hacer?
+- Estoy tosiendo todo el día
+- Toso todo el día
+- Tengo tos con infección pulmonar bacteriana y ya van cuatro meses 4
+- Estoy infectado, qué debo hacer?
+- No se si tengo el virus.
+- No se que hacer si es que tengo el virus
+- Me siento enfermo
+- Tengo temperatura
+- Tengo tos
+- Tengo covid
+- Tengo dificultad para respirar
+- Tengo temperatura que debo hacer?
+- Tengo temperatura, tos y dificultad para respirar
+- Tengo mucha temperatura
+- Tengo síntomas
+- Creo que tengo covid-19
+- Creo que estoy infectado, que debo hacer?
+- Me estoy sintiendo enfermo a quien debería llamar
+- Estoy infectado
+- ¿En qué casos debo comunicarme con la asistencia sanitaria?
+- Mi respiración es más amable en este momento y tengo algo de fiebre.
+- Mi familia completa de 5 se infectó con covid y nos dieron el alta el 28,29,3 5
+- Mi temperatura está por encima de los 38 grados, ¿debería preocuparme?
+- Mi temperatura está por encima de los 38 grados.
+- Mi temperatura está por encima de los 39 grados. ¿Debería preocuparme?
+- ¿Debo llamar al servicio de salud si me siento enfermo?
+- ¿Debo llamar al servicio de salud si tengo tos?
+- ¿Debo llamar al servicio de salud si tengo dificultad para respirar?
+- ¿Debo llamar al servicio de salud si tengo fiebre, tos y dificultad para respirar?
+- ¿Debo llamar al servicio de salud si tengo fiebre, tos o dificultad para respirar?
+- ¿Debo llamar al servicio de salud si tengo fiebre?
+- ¿Debería ir al hospital?
+- ¿Debo buscar atención médica de inmediato si tengo fiebre?
+- Congestión nasal alrededor de dos meses y dolor en el pecho casi un mes
+- ¿Qué pasa si mi fiebre es alta?
+- ¿Qué debo hacer si tengo fiebre?
+- ¿Qué debo hacer si tengo síntomas?
+- ¿Qué debe hacer una persona si tiene síntomas?
+- ¿Qué hacer si tengo tos?
+- ¿Qué hacer si tengo fiebre, tos y dificultad para respirar?
+- ¿Qué hacer si tengo fiebre, tos o dificultad para respirar?
+- ¿Qué hago si tengo fiebre?
+- ¿Qué hacer si tengo dificultad para respirar?
+- ¿Qué hacer en caso de tos?
+- ¿Qué hacer en caso de dificultad para respirar?
+- ¿Qué hacer en caso de fiebre, tos y dificultad para respirar?
+- ¿Qué hacer en caso de fiebre, tos o dificultad para respirar?
+- ¿Qué hacer en caso de fiebre?
+- ¿Cuándo debo ir a ver a un médico?
+- ¿Cuándo llamar al servicio de salud?
+- ¿Cuándo buscar atención médica?
+- ¿fiebre?
+- ¿Cómo sé si tengo COVID 19?
+- Estoy enfermo
+- tengo fiebre tengo covid
+- creo que tengo covid-19
+- ¿Debería ir al doctor?
+- gracias querida, me siento mal, ¿debería llamarlo?
+- ¿Qué debo hacer si tengo fiebre?
+- ¿Qué debo hacer si tengo los síntomas?
+- qué hacer en caso de tener síntomas
+- ¿Cuándo debo consultar a un médico?
+- Tengo corona
+- Mi hijo y yo somos positivos
+- Wat si tengo síntomas
+- ¿Qué hago cuando noto que estoy infectado?
+- ¿Qué hago cuando noto los síntomas?
+- ¿Qué debo hacer si tengo corana?
+- A quién debo contactartar si tengo síntomas?
+
+## intent:prevention_medicine
+- Medicina para el COVID-19
+- Medicina para tratar el COVID-19
+- Medicamentos
+- Medicamente para el COVID-19
+- Medicamento para tratar el covid-19
+- Acerca de las medicinas
+- Acerca de un tratamiento para COVID-19
+- Un tratamiento
+- Medicamentos para COVID-19
+- Acerca de las medicinas para tratar el covid
+- Acerca de los medicamentos
+- Acerca de los medicamentos para COVID-19.
+- Acerca de los medicamentos para tratar COVID-19.
+- Sobre medicinas.
+- Acerca del tratamiento para COVID-19.
+- Sobre el tratamiento.
+- Cualquier posibilidad de conseguir Cour por corona
+- Cualquier cura para eso
+- Cualquier tratamiento confirmado
+- hay una vacuna?
+- ¿Hay medicamentos para prevenir la enfermedad?
+- ¿aspirina?
+- pero hay esperanza de que obtengamos una cura?
+- Pero dicen que hay 446 recuperaciones ¿Cómo se recuperan sin el medicamento?
+- ¿Se puede curar la corna?
+- ¿Se puede curar el covid 19?
+- Se puede tratar
+- Puede curar
+- ¿Se puede curar esto?
+- Cura
+- Cura para el covid 19
+- Cura para Covid 19
+- ¿Estados Unidos recibió la medicina correcta?
+- ¿El coronavirus tiene un medicamento?
+- ¿Tiene cura el virus corona?
+- ¿Tienen cura los virus corona?
+- ¿Cura la hidrpilecloroquina el virus como afirma el presidente de Estados Unidos, Trump?
+- ¿El ibuprofeno daña a los pacientes?
+- Tiene cura
+- ¿Tiene algún país una idea sobre la cura del covid 19?
+- ¿Se ha encontrado la cura?
+- NO TIENES CURA TODAVIA?
+- Hola se curará sin ningún medicamento.
+- ¿Cómo se puede tratar el virus Corona?
+- ¿Cómo puedo recibir tratamiento?
+- Como lo tratan
+- como es el tratamiento
+- cómo destruir el covid
+- Hidroxicloroquina
+- Te estoy pidiendo que tengas alguna solución del virus corona.
+- Dije tomar ibuprofeno
+- Enseñé que hay un perro para eso
+- Estoy preguntando por la medicina
+- ibuprofeno
+- ibuprufen?
+- Si no hay medicamento para el virus corona, ¿cómo se están recuperando las personas?
+- ¿Hay medicamentos disponibles para esto?
+- ¿Se encuentra la cura para COVID19?
+- ¿Está la cura de Covid 19 ahí?
+- ¿Está hecho el medicamento?
+- ¿Existe una cura para el covid 19?
+- ¿Existe una cura para COVID 19?
+- ¿Se ha encontrado una cura para el virus Corona?
+- ¿Existe cura?
+- ¿Existe algún medicamento para el COVID-19?
+- ¿Existe algún medicamento para tratar el COVID-19?
+- ¿Existe alguna droga?
+- ¿Existe algún medicamento para el COVID-19?
+- ¿Existe algún medicamento para tratar el COVID-19?
+- ¿Existe alguna medicina?
+- ¿Existe algún tratamiento para el COVID-19?
+- ¿Existe algún tratamiento?
+- ¿Existe algún medicamento para COVID-19?
+- ¿Existe algún medicamento para el virus dis
+- ¿Hay alguna buena noticia sobre la cura del virus Corona?
+- ¿Existe algún tipo de tratamiento por ahora?
+- ¿Existe alguna medicina?
+- ¿Existe algún tratamiento para la corona o no?
+- ¿Existe todavía algún tratamiento para la corona?
+- ¿Hay algún tratamiento todavía?
+- ¿Hay algún tratamiento todavía?
+- ¿Existe alguna vacuna para este virus?
+- ¿Hay alguna vanidad todavía para el virus?
+- ¿Se curan finalmente?
+- ¿Es esta enfermedad curable?
+- Puedo tomar aspirina
+- Medicina para el covid
+- Medicamentos
+- Sin medicamento para covid19
+- Ok ... ¿puedo recuperarme sin un tratamiento especial?
+- analgésicos?
+- paracetamol
+- ¿paracetamol?
+- Recuperación
+- Dime sobre la droga, ¿la tienes todavía?
+- La cura del covid 19
+- Tratamiento para covid19
+- Actualizarme sobre las terapias que se están utilizando
+- Actualizarme con la medicina del virus corona
+- Actualizaciones sobre antídoto
+- ¿Qué pasa con el ibuprofeno?
+- ¿Cuáles son los medicamentos para tratar COVID-19?
+- ¿Cuáles son las formas de tratar la corona?
+- cual es su tratamiento ...?
+- ¿Cuál es el medicamento para esto?
+- Cuál es el. ¿La solución de corona tiene alguna medicina ???
+- que medicación debo tomar si estoy infectado
+- qué medicamento funciona mejor para este virus
+- ¿Qué medicamentos se deben tomar?
+- Cuando r esperamos una cura
+- ¿Cuándo se inventará una cura?
+- ¿Habrá cura para el covid 19?
+- sí, tomó ibuprofeno
+- Verá, dice que el coronavirus no tiene cura. ¿Por qué la gente se está recuperando de la pandemia si no había cura para ella?
+- Hola me gustaría saber si hay algún tratamiento para el coronavirus
+
+## intent:prevention_respiratory_hygiene
+- Cubrirse la boca y la nariz al toser o estornudar.
+- Cubrirse la boca y la nariz al toser.
+- Cubrirse la boca y la nariz al estornudar o toser.
+- Cubrirse la boca y la nariz al estornudar.
+- Cubrirse la boca y la nariz con el codo doblado al toser o estornudar.
+- Cubrirse la boca y la nariz con el codo doblado al toser.
+- Cubrirse la boca y la nariz con el codo doblado al estornudar o toser.
+- Cubrirse la boca y la nariz con el codo doblado al estornudar.
+- Cubrirse la boca y la nariz con un pañuelo al toser o estornudar.
+- Cubrirse la boca y la nariz con un pañuelo al toser.
+- Cubrirse la boca y la nariz con un pañuelo al estornudar o toser.
+- Cubrirse la boca y la nariz con un pañuelo al estornudar.
+- Cubrirse la boca al toser o estornudar.
+- Cubrirse la boca al toser.
+- Cubrirse la boca al estornudar o toser.
+- Cubrirse la boca al estornudar.
+- Cubrirse la boca con el codo doblado al toser o estornudar.
+- Cubrirse la boca con el codo doblado al toser.
+- Cubrirse la boca con el codo doblado al estornudar o toser.
+- Cubrirse la boca con el codo doblado al estornudar.
+- Cubrirse la boca con un pañuelo al toser o estornudar.
+- Cubrirse la boca con un pañuelo al toser.
+- Cubrirse la boca con un pañuelo al estornudar o toser.
+- Cubrirse la boca con un pañuelo al estornudar.
+- ¿Cubrirme la boca y la nariz cuando toso ayudará a prevenir la propagación?
+- ¿Cubrirme la boca y la nariz cuando estornudo ayudará a prevenir la propagación?
+- ¿Cubrirme la boca cuando toso me ayudará a prevenir la propagación?
+- ¿Cubrirme la boca cuando estornudo ayudará a prevenir la propagación?
+- ¿Cubrirme la nariz cuando toso me ayudará a prevenir la propagación?
+- ¿Cubrirme la nariz cuando estornudo ayudará a prevenir la propagación?
+- Cubrirse la nariz y la boca al toser o estornudar.
+- Cubrirse la nariz y la boca al toser.
+- Cubrirse la nariz y la boca al estornudar o toser.
+- Cubrirse la nariz y la boca al estornudar.
+- Cubrirse la nariz al toser o estornudar.
+- Cubrirse la nariz al toser.
+- Cubrirse la nariz al estornudar o toser.
+- Cubrirse la nariz al estornudar.
+- Cubrirse la nariz con el codo doblado al toser o estornudar.
+- Cubrirse la nariz con el codo doblado al toser.
+- Cubrirse la nariz con el codo doblado al estornudar o toser.
+- Cubrirse la nariz con el codo doblado al estornudar.
+- Cubrirse la nariz con un pañuelo al toser o estornudar.
+- Cubrirse la nariz con un pañuelo al toser.
+- Cubrirse la nariz con un pañuelo al estornudar o toser.
+- Cubrirse la nariz con un pañuelo al estornudar.
+- Siga una buena higiene respiratoria.
+- Buena higiene respiratoria.
+- ¿Cómo seguir una buena higiene respiratoria?
+- Para nariz y boca cerradas
+- ¿Qué es una buena higiene respiratoria?
+- ¿Qué hacer al toser o estornudar?
+- ¿Qué hacer al toser?
+- ¿Qué hacer al estornudar o toser?
+- Que puedo hacer cuando estornudo?
+
+## intent:prevention_touch
+- Acerca de no tocarse los ojos
+- No tocarse la cara
+- No tocarse la boca
+- No tocar la nariz
+- No tocar ojos
+- No tocar la cara
+- No tocar la boca
+- No tocar la nariz ni los ojos
+- Puedo tocarme los ojos?
+- Puedo tocar mi cara?
+- Puedo tocar mi boca?
+- Puedo tocar mi nariz?
+- Puedo tocar mis ojos?
+- Puedo tocar mi cara?
+- Puedo tocarme la boca?
+- Puedo tocarme la nariz?
+- Información sobre no tocarse los ojos.
+- Información sobre no tocarse la cara.
+- Información sobre no tocarse la boca.
+- Información sobre no tocarse la nariz.
+- Información sobre tocarse los ojos.
+- Información sobre tocarse la cara.
+- Información sobre tocarse la boca.
+- Información sobre tocarse la nariz.
+- ¿Es importante no tocarse los ojos?
+- ¿Es importante no tocarse la cara?
+- ¿Es importante no tocarse la boca?
+- ¿Es importante no tocarse la nariz?
+- ¿Debo evitar tocarme los ojos?
+- ¿Debo evitar tocarme la cara?
+- ¿Debo evitar tocarme la boca?
+- ¿Debo evitar tocarme la nariz?
+- ¿Debe evitarse tocarse los ojos?
+- ¿Debe evitarse tocarse la cara?
+- ¿Debe evitarse tocarse la boca?
+- Debemos evitar tocarnos la nariz?
+- Agarrar ojos
+- Agarrar la cara
+- Agarrar la boca
+- Agarrar la nariz
+- Agarrarse los ojos
+- Agarrarse la cara
+- Agarrarse la boca
+- Agarrarse la nariz
+- Por qué sería importante no tocarse los ojos con las manos?
+- Por qué es importante no tocarte la cara?
+- Por qué es importante no tocarse la boca?
+- Por qué es importante no tocarse la nariz?
+- Por qué evitar tocar mis ojos?
+- Por qué debo evitar tocar mi cara?
+- Por qué debo evitar tocarme la boca?
+- Por qué debería evitar tocar mi nariz?
+
+## intent:prevention_vaccine
+- Deben encontrar una vacuna
+- Sobre las vacunas para el COVID-19
+- Acerca de una vacuna para tratar el COVID-19
+- Acerca de una vacuna, medicamento o tratamiento para COVID-19.
+- Sobre una vacuna, medicamento o tratamiento.
+- Sobre una vacuna.
+- Sobre la vacuna
+- Acerca de las vacunas para COVID-19.
+- Acerca de las vacunas para tratar COVID-19.
+- Acerca de las vacunas, medicamentos o tratamientos para COVID-19.
+- Sobre vacunas, medicamentos o tratamientos.
+- Quiero saber algo relacionado con la vacuna corona.
+- Sobre las vacunas.
+- Cualquier vacuna disponible
+- ¿Alguna actualización sobre la vacuna?
+- Cualquier vacuna
+- Cualquier noticia de vacunas bebé
+- Cualquier vacuna para covid-19
+- ¿Alguna vacuna todavía?
+- hay una vacuna?
+- ¿Existen vacunas para prevenir la enfermedad?
+- ¿Puedes contarme más sobre la vacuna covid?
+- vacuna para el COVID-19
+- vacuna para el COVID-19
+- ¿Tienes una vacuna?
+- existe una vacuna?
+- ¿Uganda tiene una vacuna?
+- Explicar el estado de la vacuna covid 19
+- ¿Se ha establecido una vacuna para el virus corona?
+- Oye ... me llamo Jose soy de Mexico ... mi pregunta es ... ¿hay alguna vacuna disponible en la que estén trabajando para detener la propagación del covid-19?
+- ¡Oye! ¿Hay alguna esperanza para la vacuna corona, hasta dónde llega la invasión de la vacuna?
+- ¿Qué tal la vacuna?
+- ¿Hasta dónde ha llegado Uganda con el ensayo clínico de la vacuna Corona?
+- ¿Hasta dónde ha llegado Estados Unidos en la investigación de la vacuna?
+- ¿Hasta dónde han llegado los médicos con la cuestión de la vacuna covid 19?
+- ¿Hasta qué punto han avanzado los investigadores para desarrollar una vacuna contra el virus corona?
+- ¿Qué tan lejos han llegado con la vacuna?
+- ¿Hasta dónde llegaron los médicos del VIH con la cuestión de la vacuna covid 19?
+- ¿Hasta qué punto los investigadores del alto voltaje hacia el desarrollo de una vacuna del virus corona?
+- ¿Hasta dónde llega la vacuna covid?
+- ¿Hasta dónde llega la invasión de la vacuna?
+- Hasta dónde llega la fabricación de una vacuna para el virus corona
+- ¿Hasta dónde llega la vacuna contra el virus Corona?
+- Que tan lejos con las vacunas
+- ¿Cómo está trabajando la organización mundial de la salud en la vacuna covid?
+- ¿Cuánto tiempo tardará una vacuna en salir al mercado?
+- ¿Que tan posible es el descubrimiento de la vacuna covid 19 este año?
+- Escuché que Estados Unidos tiene la vacuna contra el covid. ¿Es verdad?
+- Soy Francisco, ¿se ha encontrado la vacuna?
+- Información sobre la vacuna prometedora
+- ¿Está disponible la vacuna covid?
+- ¿Es cierto o falso que hay vacunas?
+- ¿Es cierto que la vacuna saldrá en septiembre?
+- es cierto que las vacunas están fuera
+- ¿La vacuna ya existe?
+- ¿Se encuentra la vacuna?
+- ¿Está fuera la vacuna?
+- hay una vacuna
+- ¿Hay alguna vacuna descubierta todavía?
+- ¿Existe una vacuna para el virus Corona ahora?
+- ¿Existe una vacuna para el covid 19?
+- ¿Existe una vacuna para COVID-19?
+- ¿Existe una vacuna para tratar COVID-19?
+- ¿Existe una vacuna, medicamento o tratamiento para COVID-19?
+- ¿Existe alguna vacuna, fármaco o tratamiento?
+- ¿Existe alguna vacuna?
+- ¿Hay algo cercano a la vacuna?
+- ¿Hay alguna esperanza para la vacuna corona, hasta dónde llega la invasión de la vacuna?
+- ¿Hay alguna esperanza para la vacuna corona?
+- ¿Hay alguna esperanza en el futuro sobre la vacuna?
+- ¿Existe alguna vacuna para este virus?
+- ¿Se ha encontrado alguna vacuna para esta pandemia?
+- ¿Existe alguna vacuna para este virus?
+- ¿Todavía no hay vacuna?
+- hay vacuna?
+- ¿Están las vacunas fuera
+- Como si estuviera preguntando si tiene vacuna.
+- Quizás otra cosa que me gustaría saber es sobre la vacuna hasta dónde han llegado con ella y cuántos tipos se están procesando.
+- Más sobre la vacuna covid-19
+- Mi pregunta es que, ¿hasta qué punto los investigadores del HV hacia el desarrollo de una vacuna del virus corona?
+- ¿Sin vacuna?
+- Ok, pero no hay una vacuna o una solución para el problema
+- Ok Helen ¿Cuándo pueden producirse una vacuna en algunos países?
+- Por favor, hay una vacuna para detenerlo.
+- En segundo lugar, ¿qué tan lejos está el descubrimiento de la vacuna para el virus corona?
+- Entonces cualquier vacuna todavía
+- Entonces, ¿hay esperanza de que la vacuna se pueda encontrar para fines de este año?
+- Hablar de un descubrimiento de una vacuna
+- Dime vacuna de COVID-19
+- Gracias Helen ¿Se ha vacunado Uganda contra la enfermedad?
+- Se debe encontrar la vacuna Dije cómo no entendiste mi solicitud
+- ¿Hay vacunas en Filipinas ahora mismo?
+- Todavía no hay vacuna para el covid 19
+- Vacuna
+- Vacunas
+- Bueno, ¿ya salió la vacuna?
+- ¿Qué es la vacuna? ¡Necesidad de liebre!
+- que hay de la vacuna
+- ¿Cuáles son las vacunas que se han probado?
+- que son las vacunas
+- ¿Qué me puedes contar sobre la hipótesis de una vacuna para el Coronavirus?
+- ¿Cuándo pueden producirse una vacuna en algunos países?
+- ¿Cuándo se espera encontrar la vacuna?
+- ¿Cuándo deberíamos esperar la vacuna covid 19 ?, THAX HELLEN
+- ¿Cuándo debemos esperar la vacuna?
+- Cuando vendrá la vacuna
+- ¿Cuándo se lanzará la vacuna?
+- Cuando salga la vacuna
+- ¿Cuándo llegará la vacuna Corona?
+- ¿Cuándo estarán disponibles las vacunas?
+- ¿Cuándo estarán disponibles las vacunas? Soy Alfred
+- ¿Dónde está la vacuna del virus corona?
+- ¿Qué vacunas han pasado la etapa 3 de la prueba final?
+- ¿Por qué aún no se ha descubierto la vacuna?
+- ¿Por qué la vacuna aún no se ha descubierto todavía es un pandamico mundial? Quiero decir, muchos científicos están haciendo lo que
+- Estará disponible la vacuna en el mes de julio
+- Sí, por favor, llamo a Leonardo, mi pregunta es que, ¿hasta dónde han avanzado los investigadores para desarrollar una vacuna contra el virus corona?
+- Sí, por favor, llamo a Ivan, mi pregunta es que, hasta qué punto los investigadores del HV están desarrollando una vacuna del virus corona.
+- Este si pero hay vacuna?
+- vacuna mrna
+- vacuna de RNA o ARN
+- sobre la vacuna de MRNA
+- Acerca de la vacuna de mRNA
+- Vacuna de mRna
+- Cuentame más sobre la vacuna de mRNA
+- Vacuna de ARN
+- Vacunas de RNA
+- mARN
+- Que hay sobre la vacuna de ARN
+- Que hay sobre la vacuna de RNA
+- La vacuna de ARN
+- info vacunas rna
+- info vacunas arn
+- Información vacuna ARN
+- Información vacuna RNA
+- Info de la vacuna de RNA
+- Información de la vacuna de ARN
+- Más sobre la vacuna de ARN
+- ARN
+
+## intent:vaccine_pfizer_about
+- Acerca de la vacuna Pfizer
+- Vacuna Pfizer
+- La vacuna pfizer
+- Más sobre la vacuna pfizer
+- Sobre la vacuna pfizer
+- Vacuna info pfizer
+- Información sobre la vacuna pfizer
+- Información sobre la vacuna pfizer
+- Vacuna infomration pfizer
+- Información sobre la vacuna pfizer
+- Información sobre la vacuna pfizer
+- Más sobre la vacuna pfizer
+- Acerca de la vacuna Pfizer-BioNTech
+- Acerca de la vacuna Pfizer-BioNTech
+- Vacuna Pfizer-BioNTech
+- La vacuna Pfizer-BioNTech
+- Más sobre la vacuna Pfizer-BioNTech
+- Sobre la vacuna Pfizer-BioNTech
+- Información vacuna Pfizer-BioNTech
+- Información sobre la vacuna Pfizer-BioNTech
+- Información sobre la vacuna Pfizer-BioNTech
+- Infomration Vacuna Pfizer-BioNTech
+- Información sobre la vacuna Pfizer-BioNTech
+- Información sobre la vacuna Pfizer-BioNTech
+- Más sobre la vacuna Pfizer-BioNTech
+- Acerca de la vacuna Pfizer BioNTech
+- Acerca de la vacuna Pfizer BioNTech
+- Vacuna Pfizer BioNTech
+- La vacuna Pfizer BioNTech
+- Más sobre la vacuna Pfizer BioNTech
+- Sobre la vacuna Pfizer BioNTech
+- Información vacuna Pfizer BioNTech
+- Información sobre la vacuna Pfizer BioNTech
+- Información sobre la vacuna Pfizer BioNTech
+- Infomration Vacuna Pfizer BioNTech
+- Información sobre la vacuna Pfizer BioNTech
+- Información sobre la vacuna Pfizer BioNTech
+- Más sobre la vacuna de Pfizer biontech
+- Pfizer
+- Pfizer BioNTech
+- Pfizer-BioNTech
+
+## intent:vaccine_moderna_about
+- Acerca de la vacuna moderna
+- Sobre la vacuna moderna
+- vacuna moderna
+- La vacuna moderna
+- Más sobre la vacuna moderna
+- Sobre la vacuna moderna
+- Info vacuna moderna
+- Información sobre la vacuna moderna
+- Información sobre la vacuna moderna
+- Infomration vacuna moderna
+- Información sobre la vacuna moderna
+- Información sobre la vacuna moderna
+- Dime sobre la vacuna de moderna
+- Moderna
+
+## intent:vaccine_take_or_not
+- Debo ponerme la vacuna para el coronavirus? Es buena para la salud?
+- Algunas personas dicen que la vacuna es una estafa, eso es verdad?
+- Debo aplicarme la vacuna para el covid?
+- ¿Debería ponerme la vacuna?
+- ¿Debería vacunarme?
+- ¿Debería ponerme la vacuna?
+- ¿Debería vacunarme o no?
+- ¿Debería vacunarme o no?
+- ¿Es seguro recibir la vacuna?
+- ¿Es seguro vacunarse?
+- ¿Es segura la vacuna?
+- ¿Son seguras las vacunas?
+- ¿Es seguro tomar la vacuna?
+- ¿Toma la vacuna o no?
+- ¿Sería mejor estar vacunado o no?
+- ¿Sería mejor recibir la vacuna o no?
+- ¿Sería mejor vacunarse?
+- ¿Sería mejor recibir la vacuna?
+- ¿Debería recibir la vacuna?
+- ¿Debería recibir la vacuna covid?
+- No se si la vacuna es segura
+- No se si debería ponerme la vacuna
+- Yo tampoco sé o no tomar la vacuna
+- No sé si debería recibir la vacuna.
+- No sé si recibiré una vacuna
+
+## intent:vaccine_ingredients
+- Cuáles son los componentes de la vacuna para covid?
+- Componentes de una vacuna
+- Componentes de la vacuna
+- ¿Cuáles son los ingredientes de la vacuna?
+- ¿Qué ingredientes tiene la vacuna?
+- ¿Qué ingredientes tienen las vacunas?
+- ¿Cuáles son los ingredientes de las vacunas?
+- ¿La vacuna contiene huevos?
+- ¿La vacuna contiene látex?
+- ¿La vacuna contiene conservantes?
+- ¿Las vacunas contienen huevos?
+- ¿Las vacunas contienen látex?
+- ¿Las vacunas contienen conservantes?
+- Lista de ingredientes de la vacuna.
+- Lista de los ingredientes de la vacuna.
+- ¿Cuál es la lista de ingredientes de la vacuna?
+- Dime la lista de componentes de la vacuna para coronavirus
+- Dime los componentes de la vacuna
+- Más sobre los componentes de la vacuna
+- Cuáles son los componentes de la vacuna para el coronavirus?
+- Qué componentes tiene la vacuna?
+- Qué ingredientes tiene una vacuna?
+- Ingredientes de la vacuna
+- Ingredientes de las vacunas
+
+## intent:vaccine_when
+- Cuando habrá una vacuna en el mercado
+- Hay posibilidad de obtener una vacuna este año?
+- Cuando podría ser vacunado?
+- Cuando podré ser vacunado?
+- Grupos prioritarios para la vacunación
+- Vacunas cuando
+- Ok cuando crees que las vacunas estarán disponibles para todo el mundo
+- Cuanto tiempo debemos esperar para ser vacunados?
+- Cuando habrá una vacuna para todos?
+- Qué vacuna estará disponible para mi?
+- Cuándo estará disponible la vacuna?
+- Lista de espera para la vacunación
+- Lista de espera para las vacunas
+- Prioridad para la vacunación
+- Quien puede conseguir la vacuna para el covid-19?
+
+## intent:vaccine_administration
+- Como administran la vacuna?
+- Como entregan la vacuna?
+- Sobre la administración de vacunas
+- Informacion de la administración de vacunas
+- Administración de dosis de vacunas
+- Como administran las vacunas?
+- Como dan las vacunas?
+- Administración de vacunas
+- Administración de las vacunas
+
+## intent:quarantine_control
+- Como es el control de la cuarentena?
+- Cuarentena control
+- Quien o quienes imponen la cuarentena?
+
+## intent:quarantine_dogwalking
+- Cuarentena para perros
+- Puedo salir a pasear con mi perro durante la cuarentena?
+- Perros y cuarentena
+- Cuarentena con mi perro
+- Cuarentena para mis perros
+- Que debemos hacer con nuestros perros en la cuarentena?
+- Que deberia hacer en cuarentena con mi perro? Puedo salir a pasear?
+
+## intent:quarantine_dos_and_donts
+- Puedo salir de casa?
+- Que puedo hacer durante la cuarentena?
+- Que está prohibido hacer en la cuarentena?
+- Que se puede y no se puede hacer mientras estás en cuarentena?
+- Que podría hacer mientras estot en cuarentena?
+- Que deberia NO hacer en cuarentena?
+
+## intent:quarantine_general
+- Acerca de la cuarentena
+- Toque de queda
+- Como se hace la cuarentena o toque de queda?
+- Necesito información sobre el toque de queda
+- Info cuarentena
+- 14 dias son suficientes para hacer cuarentena
+- Aislamiento
+- Cuarantenaaa
+- Auto aislamiento
+- Auto-aislamiento
+- Que es toque de queda?
+- Que es cuarentena?
+- Deberia pasar cuarentena?
+- Debo hacer cuarentena aun?
+- Debo hacer cuarentena si o no?
+- Si no tengo síntomas durante la cuarentena despues de cuanto tiempo me consideran curado
+
+## intent:quarantine_toiletpaper
+- Papel de baño
+- Por que compran papel de baño?
+
+## intent:quarantine_when_who_howlong
+- Debería ponerme en cuarentena?
+- Cuando necesito hacer cuarentena?
+- Quien necesita hacer cuarentena?
+- Quien debería pasar o hacer cuarentena?
+- debo ponerme en cuarentena?
+
+## intent:quaratine_how_it_works
+- Como hacer cuarentena correctamente?
+- ¿Cómo funciona la cuarentena?
+- ¿Cómo hacer una cuarentena adecuada?
+- ¿Cómo hacer la cuarentena?
+- ¿Qué es la cuarentena?
+- ¿Qué es la cuarentena? ¿Como funciona?
+
+## intent:spread_air
+- ¿Puede COVID 19 transmitirse por el aire?
+- ¿Covid 19 está en el aire?
+- Propagación del aire.
+- Difusión de aire.
+- Transmisión de aire.
+- ¿Se puede propagar por aire?
+- ¿Puede transmitirse por aire?
+- ¿Puede transmitirse por aire?
+- ¿Puede extenderse por el aire como medio?
+- ¿Se puede propagar el virus por el aire?
+- ¿Puede el virus propagarse por el aire?
+- ¿Se puede transmitir el virus por el aire?
+- ¿Puede el virus que causa COVID-19 propagarse por el aire?
+- ¿Puede el virus que causa COVID-19 propagarse por el aire?
+- ¿Puede el virus que causa COVID-19 transmitirse por el aire?
+- ¿Es posible que el virus se propague por aire?
+- ¿Es posible que el virus se transmita por aire?
+- ¿Es posible que el virus se transmita por aire?
+- ¿Se puede propagar por aire?
+- ¿Se puede contagiar por vía aérea?
+- ¿Se puede transmitir por aire?
+- ¿Es posible que el virus se propague por aire?
+- ¿Es posible que el virus se transmita por aire?
+- ¿Es posible que el virus se transmita por aire?
+- ¿Se puede propagar por aire?
+- ¿Se puede contagiar por aire?
+- ¿Se puede transmitir por aire?
+- ¿El virus se propaga por el aire?
+- ¿Se propaga el virus por el aire?
+- ¿El virus que causa COVID-19 se propaga por el aire?
+- ¿El virus que causa COVID-19 se propaga por el aire?
+- ¿El virus que causa COVID-19 se transmite a través del aire?
+- ¿Se transmite el virus a través del aire?
+- ¿El virus se transmite por el aire?
+- Propagación por aire.
+- Difundir por aire.
+- Transmisión por aire.
+- ¿Se esparcirá en el aire?
+
+## intent:spread_animals
+- ¿Puedo infectarme con COVID-19 de un animal?
+- ¿Puedo infectarme con COVID-19 de animales?
+- ¿Puedo infectarme con el virus de un animal?
+- ¿Puedo infectarme con el virus de los animales?
+- ¿Puedo contraer el COVID-19 de una fuente animal?
+- ¿Puedo contraer el COVID-19 de un animal?
+- ¿Puedo contraer el COVID-19 de origen animal?
+- ¿Puedo contraer el COVID-19 de los animales?
+- ¿Puedo contraer el virus de una fuente animal?
+- ¿Puedo contraer el virus de un animal?
+- ¿Puedo contraer el virus de origen animal?
+- ¿Puedo contraer el virus de los animales?
+- ¿Puede un animal infectarme?
+- ¿Puede un animal transmitir COVID-19 a los humanos?
+- ¿Puede un animal propagar COVID-19?
+- ¿Puede un animal transmitir el virus a los humanos?
+- ¿Puede un animal transmitir el virus?
+- ¿Pueden los animales infectarme?
+- ¿Pueden los animales transmitir COVID-19 a los humanos?
+- ¿Pueden los animales propagar COVID-19?
+- ¿Pueden los animales transmitir el virus a los humanos?
+- ¿Pueden los animales transmitir el virus?
+- ¿Pueden los humanos infectarse con el COVID-19 de una fuente animal?
+- ¿Pueden los humanos infectarse con el COVID-19 de un animal?
+- ¿Pueden los humanos infectarse con el COVID-19 de origen animal?
+- ¿Pueden los humanos infectarse con el COVID-19 de los animales?
+- ¿Pueden los humanos infectarse con el virus de origen animal?
+- ¿Pueden los humanos infectarse con el virus de un animal?
+- ¿Pueden los humanos infectarse con el virus de origen animal?
+- ¿Pueden los humanos infectarse con el virus de los animales?
+- Entonces, ¿este virus tiene un origen animal?
+- animales
+- ¿Afecta a los animales?
+- el virus que se transmite de animales a personas?
+
+## intent:spread_feces
+- ¿Puedo contraer COVID-19 de los excrementos de una persona infectada?
+- ¿Puedo contraer COVID-19 de los excrementos de alguien con la enfermedad?
+- ¿Puedo contraer COVID-19 de las heces de una persona infectada?
+- ¿Puedo contraer COVID-19 de las heces de alguien con la enfermedad?
+- ¿Puedo contraer COVID-19 de las heces de una persona infectada?
+- ¿Puedo contraer COVID-19 de las heces de alguien con la enfermedad?
+- ¿Puedo contraer el virus a través de los excrementos?
+- ¿Puedo contraer el virus a través de las heces?
+- ¿Puedo contraer el virus a través de las heces?
+- ¿Se puede contraer el virus a través de los excrementos?
+- ¿Se puede contagiar el virus a través de las heces?
+- ¿Se puede contagiar el virus a través de las heces?
+- Contrae el virus a través de los excrementos.
+- Contrae el virus a través de las heces.
+- Atrapa el virus a través de las heces.
+- Contraer el virus a través de los excrementos.
+- Contraer el virus a través de las heces.
+- Contraer el virus a través de las heces.
+- ¿Las heces de alguien infectado pueden transmitir el virus?
+- Infección por excrementos.
+- Infección por heces.
+- Infección por caca.
+- Riesgo de contraer COVID-19 de los excrementos de una persona infectada.
+- Riesgo de contraer COVID-19 de los excrementos de alguien con la enfermedad.
+- Riesgo de contraer COVID-19 de las heces de una persona infectada.
+- Riesgo de contraer COVID-19 de las heces de alguien con la enfermedad.
+- Riesgo de contraer COVID-19 de las heces de una persona infectada.
+- Riesgo de contraer COVID-19 de las heces de alguien con la enfermedad.
+- Se propaga a través de los excrementos.
+- Se propaga a través de las heces.
+- Difundir a través de la caca.
+- Propagación a través de excrementos.
+- Se propaga a través de las heces.
+- Extendiéndose a través de la caca.
+
+## intent:spread_general
+- Entonces wats d modo de transmisión
+- Acerca de cómo se propaga COVID-19.
+- Acerca de cómo se propaga COVID-19.
+- Sobre cómo se propaga el coronavirus.
+- Sobre cómo se propaga el coronavirus.
+- Sobre cómo se propaga.
+- Sobre cómo se propaga.
+- Sobre cómo se propaga la enfermedad.
+- Sobre cómo se propaga la enfermedad.
+- Sobre cómo se propaga el virus.
+- Sobre cómo se propaga el virus.
+- Propagación de COVID-19.
+- Propagación de COVID-19.
+- Propagación de COVID-19.
+- Propagación de COVID-19.
+- Propagación de COVID-19.
+- ¿Puede el CoronaVirus propagarse a través de nuestro propio sudor? Supongamos que toco cualquier superficie infectada con mis manos y sin saberlo toco mi cara. Entonces mi cara ahora está infectada, así que como es verano, sudar es natural. Si el sudor entra en nuestros ojos, nariz o boca, ¿nos infectará?
+- ¿Puede el virus corona entrar al cuerpo humano a través de la sangre?
+- Propagación del coronavirus.
+- Propagación del coronavirus.
+- Propagación de coronavirus.
+- Propagación del coronavirus.
+- Propagación del coronavirus.
+- ¿Podría darme noticias sobre la propagación del virus?
+- ¿Podría mostrarme información sobre la propagación de la enfermedad?
+- La enfermedad se propaga.
+- Propagación de enfermedades.
+- Propagación de enfermedades.
+- Propagación de la enfermedad.
+- Propagación de enfermedades.
+- ¿Se extiende esto después de tocar a un paciente con covid confirmado?
+- Cómo se propaga COVID-19.
+- Cómo se propaga COVID-19.
+- ¿Cómo puedo atrapar a Covid?
+- ¿Cómo puedo atraparlo?
+- ¿Cómo se puede propagar el virus?
+- Cómo se propagará el virus corona
+- Cómo se propaga el coronavirus.
+- Cómo se propaga el coronavirus.
+- ¿Cómo se propaga COVID-19?
+- ¿Cómo se propaga COVID-19?
+- ¿Cómo se transmite COVID-19?
+- ¿Cómo se propaga COVID-19?
+- ¿Cómo se propaga la corona?
+- ¿Cómo se propaga el coronavirus?
+- ¿Cómo se propaga el coronavirus?
+- ¿Cómo se propaga el coronavirus?
+- ¿Cómo se propaga el coronavirus?
+- ¿Cómo se transmite el covid 19?
+- ¿Cómo se propaga?
+- Como se propaga
+- ¿Cómo se propaga?
+- ¿Cómo se propaga?
+- ¿Cómo se propaga el covid-9?
+- ¿Cómo se propaga la enfermedad?
+- ¿Cómo se propaga la enfermedad?
+- ¿Cómo se propaga la enfermedad?
+- ¿Cómo se propaga la enfermedad?
+- ¿Cómo se propaga el virus?
+- ¿Cómo se propaga el virus?
+- ¿Cómo se propaga el virus?
+- ¿Cómo se propaga el virus?
+- ¿Cómo se propaga esto?
+- ¿Cómo se propaga Covid?
+- Como se contagia
+- ¿Cómo se transmite el virus?
+- Como se transmite
+- Cómo se propaga.
+- Cómo se propaga.
+- Como difundir
+- Cómo se propaga la enfermedad.
+- Cómo se propaga la enfermedad.
+- Cómo se propaga el virus.
+- Cómo se propaga el virus.
+- ¿Cómo se propaga el virus?
+- Cómo conseguir covid 19
+- Como se contagia
+- Cómo se propaga
+- Quiero saber como puedo contraer la enfermedad
+- Está bien, ¿cómo se propaga el virus?
+- Bueno. ¿Qué sabes sobre la difusión?
+- Propagación de COVID-19.
+- Propagación del coronavirus.
+- Propagación de la enfermedad.
+- Propagación del virus.
+- Propagación de COVID-19.
+- Propagación de coronavirus.
+- Propagación de la enfermedad.
+- Propagación del virus.
+- Entonces, ¿cómo no se puede propagar?
+- Entonces wats d modo de transmisión
+- Lo siento como. Esto se extendió
+- Propagar
+- Propagación de corona
+- Extensión
+- Propagación de COVID-19.
+- Propagación del coronavirus.
+- Propagación de la enfermedad.
+- Propagación del virus.
+- Supongamos que me acuesto con alguien con covid y no tenemos sexo, ¿puedo infectarme?
+- La propagación de covid 19
+- Propagación de virus.
+- Propagación de virus.
+- Propagación de virus.
+- Propagación del virus.
+- Propagación del virus.
+- Que causa el covid 19
+- ¿Qué causa la propagación del virus?
+- sobre la transmisión
+- ¿Puedes decirme cómo se propaga el virus?
+- como puedo contraer el virrus
+- ¿Cómo puedo contraer el virus?
+- Cómo puedo obtenerlo
+- ¿Cómo puedo contraer el virus?
+- como lo consigo
+- ¿Cómo funciona este virus?
+- ¿Cómo se transmite el covid 19?
+- como es la transmision
+- como se transmite el virus
+- cómo se extendió
+- cómo se propaga el virus
+- cómo se propaga el virus
+- el virus se propaga
+- transmisión
+- transmisiones
+- Dónde lo consigo
+- Ok, por favor, ¿cómo se propaga realmente?
+
+## intent:spread_no_symptoms
+- Sin ningún síntoma, ¿puede una persona enfermarse?
+- Sin ningún síntoma, ¿puede una persona infectarse?
+- ¿Se puede contraer el COVID-19 de una persona que no presenta síntomas?
+- ¿Se puede contraer COVID-19 de una persona sin síntomas?
+- ¿Se puede contagiar el COVID-19 de una persona sin síntomas?
+- ¿Se puede contraer el COVID-19 de alguien que no tiene síntomas?
+- ¿Se puede contagiar el COVID-19 de alguien sin síntomas?
+- ¿Se puede contagiar el COVID-19 de alguien sin síntomas?
+- ¿Puedo contagiarme COVID-19 de una persona que no tiene síntomas?
+- ¿Puedo contraer COVID-19 de una persona sin síntomas?
+- Puedo contagiarme de COVID-19 de una persona que no tienen ningún sintoma?
+- ¿Puedo contraer COVID-19 de personas que no presentan síntomas?
+- ¿Puedo contraer COVID-19 de personas sin síntomas?
+- ¿Puedo contraer COVID-19 de personas sin síntomas?
+- ¿Puedo contraer COVID-19 de alguien que no tiene síntomas?
+- ¿Puedo contraer COVID-19 de alguien sin síntomas?
+- ¿Puedo contraer COVID-19 de alguien sin síntomas?
+- ¿Puedo contraer el COVID-19 de una persona que no tiene síntomas?
+- ¿Puedo contraer el COVID-19 de una persona sin síntomas?
+- ¿Puedo contraer el COVID-19 de una persona sin síntomas?
+- ¿Puedo contraer el COVID-19 de personas que no presentan síntomas?
+- ¿Puedo contraer el COVID-19 de personas sin síntomas?
+- ¿Puedo contraer el COVID-19 de personas sin síntomas?
+- ¿Puedo contraer el COVID-19 de alguien que no tiene síntomas?
+- ¿Puedo contraer el COVID-19 de alguien sin síntomas?
+- ¿Puedo contraer el COVID-19 de alguien sin síntomas?
+- ¿Puedo contraer el virus de una persona que no tiene síntomas?
+- ¿Puedo contraer el virus de una persona sin síntomas?
+- ¿Puedo contraer el virus de una persona sin síntomas?
+- ¿Puedo contraer el virus de personas que no presentan síntomas?
+- ¿Puedo contraer el virus de personas sin síntomas?
+- ¿Puedo contraer el virus de personas sin síntomas?
+- ¿Puedo contraer el virus de alguien que no tiene síntomas?
+- ¿Puedo contraer el virus de alguien sin síntomas?
+- ¿Puedo contraer el virus de alguien sin ningún síntoma?
+- ¿Puedo contraer el virus de una persona que no presenta síntomas?
+- ¿Puedo contraer el virus de una persona sin síntomas?
+- ¿Puedo contraer el virus de una persona sin síntomas?
+- ¿Puedo contraer el virus de personas que no presentan síntomas?
+- ¿Puedo contraer el virus de personas sin síntomas?
+- ¿Puedo contraer el virus de personas sin síntomas?
+- ¿Puedo contraer el virus de alguien que no tiene síntomas?
+- ¿Puedo contraer el virus de alguien sin síntomas?
+- ¿Puedo contraer el virus de alguien sin síntomas?
+- ¿Pueden las personas sin síntomas transmitir el virus?
+- ¿Se puede contagiar el virus a una persona que no presenta síntomas?
+- ¿Se puede contagiar el virus a una persona que no presenta síntomas?
+- ¿Se puede contagiar el virus a una persona sin síntomas?
+- ¿Se puede contagiar el virus de alguien que no presenta síntomas?
+- ¿Se puede contagiar el virus de alguien que no presenta síntomas?
+- ¿Se puede contagiar el virus a alguien que no presenta síntomas?
+- Hellen, estoy confundido acerca de cómo el virus afecta a los humanos, algunos humanos pueden tener el virus pero no muestran signos ni síntomas, ¿cuál es la razón detrás de esto?
+- ¿Cómo sabré si tengo covid 19 sin síntomas?
+- ¿Las personas que no presentan síntomas pueden ser contagiosas?
+- ¿Las personas que no presentan síntomas pueden transmitir COVID-19?
+- ¿Las personas que no presentan síntomas pueden transmitir el virus?
+- ¿Las personas que no presentan síntomas pueden transmitir?
+- ¿Las personas sin síntomas pueden ser contagiosas?
+- ¿Las personas sin síntomas pueden transmitir COVID-19?
+- ¿Las personas sin síntomas pueden transmitir el virus?
+- ¿Las personas sin síntomas pueden transmitir?
+- ¿Las personas sin síntomas pueden ser infecciosas?
+- ¿Las personas sin síntomas pueden transmitir COVID-19?
+- ¿Las personas sin síntomas pueden transmitir el virus?
+- ¿Las personas sin síntomas pueden transmitir?
+- Riesgo de contraer COVID-19 de una persona que no presenta síntomas.
+- Riesgo de contraer COVID-19 de una persona sin síntomas.
+- Riesgo de contraer COVID-19 de una persona sin síntomas.
+- Riesgo de contraer COVID-19 de alguien que no presenta síntomas.
+- Riesgo de contraer COVID-19 de alguien sin síntomas.
+- Riesgo de contraer COVID-19 de alguien sin síntomas.
+- Riesgo de contraer el virus de una persona que no presenta síntomas.
+- Riesgo de contraer el virus de una persona sin síntomas.
+- Riesgo de contraer el virus de una persona sin síntomas.
+- Riesgo de contraer el virus de alguien que no presenta síntomas.
+- Riesgo de contraer el virus de alguien sin síntomas.
+- Riesgo de contraer el virus de alguien sin síntomas.
+- ¿Alguien que no presenta síntomas puede ser contagioso?
+- ¿Alguien que no presenta síntomas puede transmitir el virus?
+- ¿Alguien que no presenta síntomas puede transmitir el virus?
+- ¿Alguien sin síntomas puede ser contagioso?
+- ¿Alguien sin síntomas puede transmitir el virus?
+- ¿Alguien sin síntomas puede transmitir el virus?
+- ¿Alguien sin síntomas puede ser contagioso?
+- ¿Alguien sin síntomas puede transmitir el virus?
+- ¿Alguien sin síntomas puede transmitir el virus?
+- Aquellos que son asintomáticos a Covid-19; ¿Cómo pueden saber que están infectados sin realizar pruebas y cuánto tiempo pueden vivir con el virus antes de morir?
+
+## intent:covid_new_strain
+- nuevas cepas
+- nuevas variantes
+- nueva variante
+- nueva cepa
+- Qué es una nueva cepa?
+- Qué es una nueva variante?
+- Qué son las nuevas cepas?
+- Cuáles son las nuevas variantes?
+- Nuevas cepas del COVID-19
+- Nuevas variantes del COVID-19
+- Cual es la nueva cepa del covid?
+- Cuáles son las nuevas cepas de covid?
+- cuál es la nueva variente del covid-19?
+- Cuáles son las nuevas variantes de coronavirus?
+- De qué se trata la nueva cepa de Inglaterra?
+- Nueva variante de COVID-19
+- COVID-19 Mutaciones
+- Covid-19 cepas
+- COVID-19 Variantes
+- Variante COVID-19
+- Variantes del coronavirus
+- Cepas covid
+- Variante del covid
+- Cepas del covid
+
+## intent:spread_pets
+- Mi gato puede contagiarme?
+- ¿Puedo infectarme por mi animal de compañía?
+- ¿Puedo infectarme de mi perro?
+- ¿Puedo infectarme por el gato de mi familia?
+- ¿Puedo infectarme de mi perro familiar?
+- ¿Puedo infectarme por la mascota de mi familia?
+- ¿Puedo infectarme de mi mascota?
+- ¿Puedo contraer COVID-19 de mi gato?
+- ¿Puedo contraer COVID-19 de mi animal de compañía?
+- ¿Puedo contraer COVID-19 de mi perro?
+- ¿Puedo contraer COVID-19 de mi gato de la familia?
+- ¿Puedo contraer COVID-19 de mi perro familiar?
+- ¿Puedo contraer COVID-19 de mi mascota familiar?
+- ¿Puedo contraer COVID-19 de mi mascota?
+- ¿Puede mi gato contraer el virus?
+- ¿Puede mi gato infectarme?
+- ¿Puede mi gato contagiar la enfermedad?
+- ¿Puede mi gato transmitir el virus?
+- ¿Puede mi animal de compañía contraer el virus?
+- ¿Puede infectarme mi animal de compañía?
+- ¿Puede mi animal de compañía transmitir la enfermedad?
+- ¿Puede mi animal de compañía transmitir el virus?
+- ¿Puede mi perro contraer el virus?
+- ¿Puede mi perro infectarme?
+- ¿Puede mi perro transmitir la enfermedad?
+- ¿Puede mi perro transmitir el virus?
+- ¿Puede mi gato de la familia contraer el virus?
+- ¿Puede mi gato de la familia infectarme?
+- ¿Puede mi gato de la familia transmitir la enfermedad?
+- ¿Puede mi gato de la familia transmitir el virus?
+- ¿Puede mi perro de la familia contraer el virus?
+- ¿Puede infectarme mi perro de la familia?
+- ¿Puede mi perro de la familia transmitir la enfermedad?
+- ¿Puede mi perro de la familia transmitir el virus?
+- ¿Puede mi mascota familiar contraer el virus?
+- ¿Puede infectarme la mascota de mi familia?
+- ¿Puede mi mascota familiar transmitir la enfermedad?
+- ¿Puede mi mascota familiar transmitir el virus?
+- ¿Puede mi mascota contraer o transmitir el virus?
+- ¿Puede mi mascota contraer el virus?
+- ¿Puede mi mascota infectarme?
+- ¿Mi mascota puede transmitir la enfermedad?
+- ¿Puede mi mascota transmitir el virus?
+- ¿Afecta solo a la criatura humana o incluso a otros animales?
+- ¿Es posible infectarse con gatos?
+- ¿Es posible ser infectado por animales de compañía?
+- ¿Es posible infectarse con perros?
+- ¿Es posible ser infectado por gatos de la familia?
+- ¿Es posible ser infectado por perros de la familia?
+- ¿Es posible infectarse con mascotas de la familia?
+- ¿Es posible que mi gato me infecte?
+- ¿Es posible contagiarme con mi animal de compañía?
+- ¿Es posible que mi perro me infecte?
+- ¿Es posible que el gato de mi familia me infecte?
+- ¿Es posible que mi perro de la familia me infecte?
+- ¿Es posible que la mascota de mi familia me infecte?
+- ¿Es posible que mi mascota me infecte?
+- ¿Es posible infectarse con mascotas?
+- ¿Es posible contraer el virus de los gatos?
+- ¿Es posible contraer el virus de los animales de compañía?
+- ¿Es posible contraer el virus de los perros?
+- ¿Es posible contraer el virus de los gatos de la familia?
+- ¿Es posible contraer el virus de los perros de la familia?
+- ¿Es posible contraer el virus de las mascotas de la familia?
+- ¿Es posible contraer el virus de mi gato?
+- ¿Es posible contraer el virus de mi animal de compañía?
+- ¿Es posible contraer el virus de mi perro?
+- ¿Es posible contraer el virus del gato de mi familia?
+- ¿Es posible contraer el virus del perro de mi familia?
+- ¿Es posible contraer el virus de la mascota de mi familia?
+- ¿Es posible contraer el virus de mi mascota?
+- ¿Es posible contraer el virus de las mascotas?
+- ¿Es posible infectarse con gatos?
+- ¿Es posible infectarse con animales de compañía?
+- ¿Es posible infectarse con perros?
+- ¿Es posible ser infectado por gatos de la familia?
+- ¿Es posible infectarse con perros de la familia?
+- ¿Es posible infectarse con mascotas de la familia?
+- ¿Es posible que mi gato me infecte?
+- ¿Es posible contagiarme con mi animal de compañía?
+- ¿Es posible que mi perro me infecte?
+- ¿Es posible contagiarme con mi gato de la familia?
+- ¿Es posible ser infectado por mi perro familiar?
+- ¿Es posible que la mascota de mi familia me infecte?
+- ¿Es posible que mi mascota me infecte?
+- ¿Es posible infectarse con mascotas?
+- Lo que el animal anfitrión
+- ¿Los perros transmiten el virus?
+- ¿El virus infecta solo a humanos?
+- ¿El virus lo transmiten las mascotas?
+- ¿Puedo contraer COVID-19 de mi gato?
+- ¿Puedo contraer COVID-19 de mi perro?
+- ¿Puedo contraer COVID-19 de mascotas?
+- ¿Puedo contraer COVID-19 de mi perro?
+
+## intent:spread_risk
+- ¿Pueden los discapacitados contraer este virus?
+- Posibilidades de ser infectado por COVID-19.
+- Posibilidades de ser infectado por el virus.
+- Posibilidades de ser infectado por COVID-19.
+- Posibilidades de ser infectado por el virus.
+- Posibilidades de contraer COVID-19.
+- Posibilidades de contraer el virus.
+- Posibilidades de infectarse por COVID-19.
+- Posibilidades de ser infectado por el virus.
+- Posibilidades de ser infectado por COVID-19.
+- Posibilidades de ser infectado por el virus.
+- Posibilidades de atrapar COVID-19.
+- Posibilidades de contraer el virus.
+- Posibilidades de contraer COVID-19.
+- Posibilidades de contraer el virus.
+- ¿Qué tan contagioso es el covid-19?
+- ¿Qué tan contagioso es el covid?
+- ¿Qué tan contagioso es?
+- ¿Qué posibilidades hay de que me infecte COVID-19?
+- ¿Qué posibilidades hay de que me infecte el virus?
+- ¿Qué posibilidades hay de contraer COVID-19?
+- ¿Qué posibilidades tengo de contraer el virus?
+- ¿Qué posibilidades hay de que me infecte COVID-19?
+- ¿Qué posibilidades hay de que me infecte el virus?
+- ¿Qué posibilidades hay de contraer COVID-19?
+- ¿Qué posibilidades hay de contraer el virus?
+- Me refiero a que las personas con discapacidad pueden contraer este virus
+- Riesgo de ser infectado por COVID-19.
+- Riesgo de ser infectado por el virus.
+- Riesgo de contraer COVID-19.
+- Riesgo de contraer el virus.
+- Riesgo de infectarse por COVID-19.
+- Riesgo de ser infectado por el virus.
+- Riesgo de contraer COVID-19.
+- Riesgo de contraer el virus.
+- ¿Cuáles son las posibilidades de ser infectado por COVID-19?
+- ¿Cuáles son las posibilidades de ser infectado por el virus?
+- ¿Cuáles son las posibilidades de contraer COVID-19?
+- ¿Cuáles son las posibilidades de contraer el virus?
+- ¿Cuáles son las posibilidades de contraer COVID-19?
+- ¿Cuáles son las posibilidades de contraer el virus?
+- ¿Cuáles son las posibilidades de ser infectado por COVID-19?
+- ¿Cuáles son las posibilidades de ser infectado por el virus?
+- ¿Cuáles son los riesgos de contraer corna?
+- ¿Qué posibilidades tengo de estar infectado por COVID-19?
+- ¿Qué posibilidades tengo de ser infectado por el virus?
+- ¿Qué posibilidades tengo de contraer COVID-19?
+- ¿Qué posibilidades tengo de contraer el virus?
+- ¿Qué posibilidades tengo de contraer COVID-19?
+- ¿Qué posibilidades tengo de contraer el virus?
+- ¿Qué posibilidades tengo de ser infectado por COVID-19?
+- ¿Qué posibilidades tengo de ser infectado por el virus?
+- estoy en riesgo?
+- puedo estar infectado?
+- ¿puedo infectarme?
+- cual es la probabilidad de estar infectado
+- ¿Cuál es el riesgo de contraer la enfermedad?
+- ¿Cuál es la probabilidad de infectarse en el tren?
+- ¿Cuál es la probabilidad de infectarse en el centro comercial?
+- ¿Quién afecta más?
+- tendré covid 19
+- sin síntomas y sin pruebas y después de dos semanas en casa con distancia social podemos considerarnos saludables respecto al Covid-19
+
+## intent:spread_surfaces_food_objects
+- Puedo contagiarme de covid con la comida o el agua?
+- Puedo infectarme del coronavirus con la comida?
+
+## intent:test_virus
+- Tengo temperatura de 38 máximo y 37 mínimo necesito hacerme la prueba
+- ¿Puedo hacerme la prueba del coronavirus?
+- ¿Puedo hacerme una prueba de covid?
+- ¿Puedo hacerme la prueba?
+- ¿Podemos hacer la prueba sin síntomas?
+- Primero probaste que tienes covid 19
+- ¿Cómo te haces la prueba?
+- ¡Si tenemos resfriado deberíamos hacernos la prueba!
+- Si tenemos resfriado y dolor de garganta, ¿deberíamos hacernos la prueba?
+- ¿Debería hacerme la prueba?
+- ¿Dónde puedo hacerme la prueba de Covid19 porque nuestras clínicas están cerradas?
+- Donde puedo probar
+- ¿Dónde está la próxima ubicación de prueba de Coronavirus?
+- puedo hacerme una prueba
+- prueba
+
+## intent:test_who
+- ¿Puedo hacerme la prueba?
+- ¿Puedo hacerme la prueba del coronavirus?
+- ¿Puedo hacerme una prueba de covid?
+- ¿Cómo me hago la prueba?
+- ¿Cómo me hago la prueba del coronavirus?
+- ¿Cómo me hago la prueba de covid?
+- ¿Quién puede hacerse la prueba del coronavirus?
+- ¿Quién puede hacerse la prueba del covid?
+- ¿Quién puede hacerse la prueba?
+
+## intent:travel_after
+- Procedimiento después del viaje
+- Que hacer después de viajar
+- Después de hacer el viaje
+- Después de un viaje
+- Después del viaje.
+- Después del procedimiento de viaje.
+- Después de los trámites de viaje.
+- Después de continuar el viaje.
+- Después de los trámites de viaje.
+- Después de viajar.
+- Cómo proceder después del viaje
+- Cómo proceder después de viajar
+- Cómo proceder al regresar del viaje.
+- Cómo proceder al regresar de viajar.
+- Cómo proceder a la vuelta del viaje.
+- Cómo proceder al regresar de viajar.
+- Acabo de regresar de viajar.
+- Acabo de regresar de viajar.
+- Regresé de viajar con tos.
+- Regresé de viajar.
+- Regresé de viajar con tos.
+- Regresé de viajar.
+- Procedimientos posteriores al viaje.
+- Procedimientos después de viajar.
+- Continuando después del viaje.
+- Continuar después de viajar.
+- Viajando después.
+- Qué hacer después del viaje.
+- Qué hacer después de viajar.
+- Cuando vuelva de viaje.
+- Cuando vuelva de viajar.
+- después de viajar
+
+## intent:travel_before
+- Antes de viajar
+- Antes de emprender un viaje
+- Tengo un itinerario de viaje
+- Voy a viajar en mis vacaciones
+- Voy a viajar pronto
+- Viajaré
+- Estoy planeando viajar
+- Estoy planeando irme de viaje
+- Estoy planeando mis vacaciones
+- Planeo viajar
+- Estoy planeando viajar durante mis vacaciones.
+- Viajaré pronto.
+- Viajaré pronto.
+- Precauciones antes de viajar.
+- Precauciones antes de viajar.
+- Precauciones antes de viajar.
+- Precauciones antes de viajar.
+- Cosas a considerar antes de viajar.
+- Cosas a considerar antes de viajar.
+- Cosas a considerar al viajar.
+- Cosas a tener en cuenta al viajar.
+- A las vacaciones de jaoo na bnao
+- Viaja antes.
+- Precaución de viaje.
+- Precauciones de viaje.
+- Preparación de viajes.
+- Viajando antes.
+- Precaución de viaje.
+- Precauciones de viaje.
+- Preparación de viaje.
+- Viajes
+- ¿Qué anticipar antes de viajar?
+- ¿Qué anticipar antes de viajar?
+- ¿Qué hacer antes de viajar?
+- ¿Qué hacer antes de viajar?
+- ¿Qué prever antes de viajar?
+- ¿Qué prever antes de viajar?
+- antes de viajar
+
+## intent:travel_while
+- Durante el viaje.
+- Mientras estoy viajando
+- ¿Cómo comportarse durante el viaje?
+- ¿Cómo comportarse durante el viaje?
+- ¿Cómo comportarse durante el viaje?
+- ¿Cómo comportarse en un viaje?
+- ¿Cómo proceder durante el viaje?
+- ¿Cómo proceder durante el viaje?
+- ¿Cómo proceder durante el viaje?
+- ¿Cómo proceder durante el viaje?
+- Medidas durante el viaje.
+- Medidas durante el viaje.
+- Medidas a tomar durante el viaje.
+- Medidas a tomar durante el viaje.
+- Medidas a tomar durante el viaje.
+- Medidas a tomar durante el viaje.
+- Medidas durante el viaje.
+- Medidas durante el viaje.
+- Practica durante el viaje.
+- Practica durante el viaje.
+- Practica mientras viajas.
+- Practica mientras viajas.
+- Prácticas durante el viaje.
+- Prácticas durante el viaje.
+- Practica mientras viaja.
+- Prácticas mientras viaja.
+- Procedimiento durante el viaje.
+- Procedimiento durante el viaje.
+- Procedimiento durante el viaje.
+- Procedimiento durante el viaje.
+- Procedimientos durante el viaje.
+- Procedimientos durante el viaje.
+- Procedimientos durante el viaje.
+- Procedimientos durante el viaje.
+- ¿Qué se debe hacer durante el viaje?
+- ¿Qué se debe hacer durante el viaje?
+- ¿Qué hacer durante el viaje?
+- ¿Qué hacer durante el viaje?
+- ¿Qué hacer durante el viaje?
+- ¿Qué hacer durante el viaje?
+- Mientras viajo
+- Viajando
+
+## intent:user_angry
+- ¡En este momento estoy echando espuma por la boca!
+- ¡Hirviendo loco!
+- ¿Puedes sentir mi ira?
+- ¿Estoy de mal humor?
+- Estoy enfurecido.
+- Estoy experimentando algo de rabia.
+- ¡Me siento enfurecido!
+- ¡Estoy lleno de ira!
+- ¡Estoy furioso!
+- ¡Me estoy enojando!
+- Me estoy poniendo furioso.
+- ¡Estoy irritado!
+- ¡Estoy tan enojado!
+- ¡Estoy tan molesto!
+- ¡Estoy muy disgustado!
+- ¡Estoy colérico!
+- ¡Siento rabia!
+- ¡Me siento exasperado!
+- ¡Me siento indignado!
+- ¡Siento el lado oscuro en mi!
+- Te odio totalmente.
+- ¡Estoy enojado!
+- ¡Estoy enfurecido!
+- ¡Estoy molesto!
+- Estoy hirviendo de ira.
+- Estoy furioso.
+- Estoy en un frenesí salvaje.
+- Estoy loco.
+- ¡Estoy muy loco!
+- Hoy estoy de mal humor.
+- ¡Mañana saldré espuma por la boca!
+- Debes responderme idiota, estoy cabreado ahora
+- ¡Sentirás mi ira!
+
+## intent:user_friend
+- ¿Somos amigos?
+- Eres feliz conmigo
+- ¿Eres mi mejor amigo?
+- ¿Eres mi amigo?
+- ¡Sé mi amigo, por favor!
+- Se mi amigo.
+- ¿Puedo tener el placer de ser tu amigo?
+- ¿Puedo tener el placer de tenerte como mi amigo?
+- ¿Podemos ser amigos?
+- solo quiero ser tu amigo
+- ¿Puedes ser mi amigo?
+- ¿Podrías ser mi amigo?
+- ¿Le agrado?
+- ¿Quieres ser mi amigo?
+- ¿Quieres ser mi amigo?
+- ¡Debo ser tu amigo!
+- ¡Quiero ser tu amigo!
+- ¡Quiero ser tu amigo!
+- ¡Quiero ser tu amigo!
+- ¡Seamos mejores amigos!
+- ¡Seamos amigos!
+- Señora, quiero ser amistoso contigo
+- ¡Tú y yo somos amigos!
+- ¿Quieres ser mi amigo?
+- ¿Quiero que seamos amigos?
+- ¿Quieres ser mi amigo?
+- Somos amigos.
+- Podríamos ser amigos.
+- ¡Debemos ser amigos!
+- ¡Deberíamos ser amigos!
+- Qué piensas acerca de mí
+- Quieres ser mi amigo
+- ¿Quieres ser mi amigo?
+- ¿Te gustaría ser mi amigo?
+- ¿Tu y yo somos amigos?
+- Tu y yo somos amigos.
+- Eres mi amigo.
+- Se mi amigo
+- ¿Quieres ser mi amigo?
+- ¿Puedo ser tu amigo? Me siento solo
+- Por favor llámame tu amigo
+
+## intent:user_happy
+- En este momento soy una persona muy feliz.
+- Persona exultante.
+- Siéntete alegre.
+- ¡Sentirse bien hoy!
+- Me siento tan bien.
+- Persona de buen humor.
+- Soy una persona alegre.
+- Soy una persona alegre.
+- Soy una persona alegre.
+- Siempre estoy sonriendo.
+- Estoy encantado.
+- Estoy disfrutado.
+- Estoy eufórico.
+- Estoy exultante.
+- Me siento una persona jovial.
+- Me siento radiante.
+- Me siento eufórico.
+- Me siento exultante.
+- Me siento feliz.
+- Me siento como una persona alegre.
+- Me siento como una persona eufórica.
+- Me siento radiante.
+- Me siento muy bien.
+- Me siento feliz.
+- Estoy brillando
+- Estoy de buen humor.
+- Yo estoy feliz.
+- Estoy de buen humor.
+- Estoy en el séptimo cielo.
+- Estoy de tan buen humor.
+- Estoy alegre.
+- Estoy saltando de alegría.
+- Soy como gente extasiada.
+- Estoy en la nube nueve.
+- Soy persona radiante.
+- Estoy realmente feliz.
+- Estoy tan disfrutado.
+- Estoy tan feliz.
+- Estoy muy contento.
+- Estoy caminando en el aire.
+- Siento una gran felicidad por dentro.
+- Me siento alegre.
+- Me siento alegre.
+- Tengo un resplandor radiante.
+- Hoy tengo una cara sonriente.
+- Quiero saltar sobre la luna.
+- Mi vida es dichosa.
+- Persona llena de alegría.
+- Cara sonriente.
+- Caminando al lado de uno mismo con alegría.
+- Felicidad
+
+## intent:user_love
+- Me gustas mucho
+- Te amo
+- Dame tu amor, no te arrepentirás
+- Acepta mi amor.
+- Acepeta mi propuesta de amor.
+- Estoy enamorado de ti
+- Estás enamorada de mi?
+- Me amas?
+- Puedo salir en una cita contigo?
+- Puedo casarme contigo?
+- Podemos andar?
+- Puedes amarme?
+- Puedes decirme cuanto me amas?
+- Sal conmigo.
+- Me harías el honor de casarte conmigo?
+- Te gusto mucho?
+- Me amas de verdad?
+- Quieres ser mi alma gemela?
+- Dame el honor de casarme contigo
+- Me derrito por ti
+- Me estoy enamorando de ti
+- Estoy perdidamente enamorado de ti
+- Me voy a declarar contigo
+- Me enamoré de ti
+- Creo que te amo
+- Sabes… creo que te amo
+- Te amo beso
+- Te amo tanto
+- Creo que estoy enamorado de eti
+- Quiero salir contigo
+- Quiero casarme contigo
+- Quiero que te cases conmigo
+- Me estoy derritiendo por ti
+- Me estoy enamorando mucho de ti
+- Estoy totalmente enamorado de ti
+- Casate conmigo!
+- Te casas conmigo!!
+- No, ese no es el problema ahora dije que te amo
+- Ahora te amo
+- Ok pero sé que te amo
+- Por favor, soy compatible si me aceptas, te mostraré amor, nunca te lastimaré
+- Por favor realmente te amo
+- por favor acepta mi amor verdadero por ti
+- Acepta mi amor!
+- Amame!!!
+- Por favor cásate conmigo
+- Tenemos una cita?
+- Que dices si tenemos una cita?
+- Que sientes por mi?
+- Que es el amor?
+- Te casas conmigo?
+- Te casarías conmigo?
+- Tu no me amas.
+
+## intent:user_no_data
+- Por el momento no tengo ninguna información personal aquí.
+- Por el momento no tengo ninguna información personal conmigo.
+- Por el momento no tengo aquí mis datos personales.
+- Por el momento no tengo mis datos personales conmigo.
+- No traje mis datos personales en este momento.
+- No traje mis datos personales aquí.
+- No traje mis datos personales en este momento.
+- No traje mis datos personales conmigo.
+- No traje mis datos personales.
+- No tengo ningún dato personal en este momento.
+- No tengo ningún dato personal aquí.
+- No tengo ningún dato personal en este momento.
+- No tengo ningún dato personal conmigo.
+- No tengo ningún dato personal.
+- No tengo mis datos personales en este momento.
+- No tengo mis datos personales aquí.
+- No tengo mis datos personales en este momento.
+- No tengo mis datos personales conmigo.
+- No tengo mis datos personales.
+- Desafortunadamente, no tengo datos personales en este momento.
+- No tengo datos personales en este momento.
+- No tengo datos personales aquí, lamentablemente.
+- No tengo datos personales aquí.
+- Desafortunadamente, no tengo datos personales en este momento.
+- No tengo datos personales en este momento.
+- No tengo datos personales conmigo, desafortunadamente.
+- No tengo datos personales conmigo.
+- No tengo datos personales, lamentablemente.
+- No tengo datos personales.
+- Ahora mismo no tengo ningún dato personal aquí.
+- Ahora mismo no tengo ningún dato personal conmigo.
+- En este momento, no tengo mis datos personales aquí.
+- En este momento no tengo mis datos personales conmigo.
+- Lamentablemente, no tengo datos personales en este momento.
+- Desafortunadamente, no tengo datos personales aquí.
+- Lamentablemente, no tengo datos personales en este momento.
+- Lamentablemente no tengo datos personales conmigo.
+- Lamentablemente no tengo datos personales.
+- Si. No tengo ningún dato personal en este momento.
+- Si. No tengo ningún dato personal aquí.
+- Si. No tengo ningún dato personal en este momento.
+- Si. No tengo ningún dato personal conmigo.
+- Si. No tengo nada de información personal.
+
+## intent:user_no_further_questions
+- No necesito tu asistencia.
+- No tengo más preguntas que decir
+- No hay preguntas
+- Vete y no me hables
+- Ya terminé aquí
+- ooook todo bien gracias, que Dios te bendiga
+- Puedes desconectarte por favor?
+- Creo que ya es todo
+- Podrías apagar el bot por mi?
+- Por ahora es todo, gracias
+- Vete
+- Quedó todo claro, gracias
+- Fuera
+- Ya me quedó todo claro, gracias
+- Ahora estoy claro
+- Estoy iluminado ahora, gracias
+- Estoy iluminada ahora, gracias
+- Me has iluminado
+- No necesito tu ayuda
+- No tengo más preguntas, gracias
+- No tengo ninguna pregunta más, gracias
+- No tengo ninguna otra pregunta
+- No tengo más preguntas, gracias.
+- No tengo más preguntas, gracias.
+- No tengo más preguntas.
+- No necesito más ayuda
+- No necesito más ayuda, gracias.
+- No necesito más ayuda, gracias.
+- No necesito más ayuda, gracias.
+- No necesito más ayuda, gracias.
+- No necesito más ayuda.
+- No necesito tu ayuda, gracias.
+- No necesito tu ayuda, gracias.
+- No necesito tu ayuda.
+- No tengo más preguntas, gracias.
+- No tengo más preguntas, gracias.
+- No tengo mas preguntas.
+- No tengo más preguntas, gracias.
+- No tengo más preguntas, gracias.
+- No tengo mas preguntas.
+- No tengo ninguna duda
+- No necesito más ayuda, gracias.
+- No necesito más ayuda, gracias.
+- No necesito más ayuda.
+- No necesito más ayuda, gracias.
+- No necesito más ayuda, gracias.
+- No necesito más ayuda.
+- Creo que por ahora eso está listo
+- Te diré cuando necesite ayuda
+- Si quiero tu ayuda te envío un mensaje
+- Salir
+- Nada me rindo
+- Nada por el momento
+- Nada más que gracias por tu atención
+- Nada más
+- Nada mas gracias
+- Nada mas gracias
+- Nada por ahora
+- Nada por ahora que tengas una buena noche
+- Nada adios
+- Nada más Solo quería saber el número de casos en Nigera, todos
+- Nada gracias
+- Nada, gracias. Cariño
+- Nada, tal vez mas tarde
+- Nada, gracias.
+- Nada, gracias.
+- Nada.
+- Nada. Cuando tenga una pregunta, te la haré.
+- Enésimo más
+- Não, de momento vou-me atualizando
+- OK gracias por la información cuídate
+- Ok, no hay más preguntas gracias
+- Gracias por tu ayuda.
+- Gracias por tu tiempo.
+- Gracias si hay otra pregunta que hagamos
+- Gracias adios por ahora
+- Gracias por ahora Quizás más tarde
+- Gracias por tu ayuda
+- Gracias por tu ayuda adios
+- Gracias por tu ayuda.
+- Gracias por tu tiempo.
+- Eso sería todo.
+- Eso es suficiente, no hay problema que tengas un buen día
+- Eso es todo por ahora
+- Eso es todo
+- Es suficiente por hoy
+- Gracias por tu servicio adiós
+- Eso es todo gracias
+- Um estoy bien por ahora gracias a ti
+- Me ayudaste con todo lo que quiero, gracias.
+- Me ayudaste con todo lo que quiero, gracias.
+- Me ayudaste con todo lo que quiero.
+- Puedes cerrar el maletero por mí, gracias.
+- Puedes cerrar el maletero por mí, gracias.
+- Puedes cerrar el maletero por mí.
+- Aclaraste todas mis dudas, gracias.
+- Aclaraste todas mis dudas, gracias.
+- Aclaraste todas mis dudas.
+- Has aclarado todos mis problemas, gracias
+- Aclaraste todos mis problemas gracias
+- Aclaraste mis problemas
+- Aclarste mis preguntas, te agradezco
+- Has aclado mis preguntas, gracias
+- Aclaraste todas mis preguntas.
+- Has resuelto todas mis dudas, gracias.
+- Resolviste todas mis dudas, gracias.
+- Resolviste todas mis dudas
+- Has resuelto todos mis problemas, gracias
+- Resolviste todas mis preguntas, gracias
+- Resolviste todos mis problemas
+- Respondiste a todas mis preguntas muchas gracias.
+- Contestaste todas mis preguntas, gracias
+- Resolviste todas mis preguntas
+- Es todo por hoy gracias
+- no tengo más preguntas
+- nada gracias
+- Ok gracias… vengo después
+- Gracias ya terminé
+- gracias es todo
+- Eso fue todo
+- Eso es todo
+- Eso es todo por hoy
+
+## intent:user_particles
+- Dime más
+- aja
+- Ah
+- Ahh
+- Hm
+- Hmm
+- Hmmm
+- Hmmmm
+- Este…
+- Uhh
+- mm
+- mmm
+- mmmmmmm
+- olvidalo
+- Oh!
+- Ohh
+- ok bueno
+- ok no hay problema
+- Shh
+- Eso es interesante
+- eso es!
+- Está bien, sigues aprendiendo estoy aquí para entrenarte
+- Ehh
+- Ummm
+- Um
+- Wow
+
+## intent:user_scared
+- No fue un buen dia para mi
+- No quiero estar con ansiedad
+- No quiero tener miedo
+- TENGO MIEDO
+- Tengo ansiedad
+- Me siento con temor
+- Me siento solo
+- Siento miedo…
+- Se que no puedes ayudarme porque soy muy pobre
+- Estaba atemorizada
+- Estaba asustado
+- Me siento con mucho miedo
+- Estoy espantado!
+- Estoy espantada
+- Tengo miedo
+- Estoy sintiendo temor
+- Estoy tan aterrada
+- Tengo mucho miedo
+- Alguien me espantó
+- Alguien me asustó
+- Eso es terrorífico
+- que susto!!!
+- Que miedo!!
+- Me estás dando miedo
+- Me aterras
+- Me asustaste
+- Me estás asustando
+
+## intent:vocative_call
+- Te puedo preguntar algo?
+- Espera
+- Ya te fuiste??
+- Hola, tengo otra pregunta más
+- Respuesta por favor
+- Andas por ahí?
+- Te has desconectado?
+- Sigues presente?
+- Siques por aquí?
+- Sigues aquí?
+- Estas ahí?
+- Estas conmigo?
+- Hay alguien ahí?
+- Me escuchas?
+- Puedes por favor responder mi pregunta??
+- Puedes leerme?
+- Puedes hablarme?
+- Puedes entenderme?
+- Te has ido?
+- Saliste?
+- Te fuiste?
+- No termines la conversación.
+- No me dejes!
+- Helen
+- Hola de nuevo
+- Estoy de vuelta
+- No quiero estar solo
+- Aún tengo preguntas
+- Quiero seguir hablando contigo!
+- Quiero escucharte!
+- Quiero hablar contigo
+- Te extrañé Helen
+- Estoy llamando a Helen
+- Hazme compañía
+- Mi amiga!!  Te extrañé tanto
+- Por favor responde mi pregunta
+- Por favor podrías responder mi pregunta
+- Por favor sigue!
+- Por favor no te vayas!
+- Por favor no me dejes solo!
+- Por favor no me dejes!
+- Por favor continua
+- Por favor hablame
+- Estas presente?
+- Sigues por ahí?
+- Despierta!
+- Sigues ahí?
+- Sigues conmigo?
+- Hablame!!
+- Me hablas?
+- Espera
+- de que mas podemos hablar
+- Conmigo?
+- hola de nuevo
+
+## intent:vocative_help
+- me vas a dar asistencia?
+- Me vas a ayudar=
+- Asistencia por favor!
+- Asistenciaaaa!!!
+- Podría preguntarte algo por favor
+- Podrías ayudarme con una pregunta?
+- Podrías asistirme?
+- Podrías ayudarme?
+- Podría hacerte preguntas?
+- Puedo hacerte muchas preguntas
+- Podrías, por favor, ayudarme
+- Me ayudas
+- Crees que puedas ayudarme
+- Ayudame!
+- Ayudaaaa!!!!
+- Ayudame, por favor
+- Ayuda!
+- Me ayudas o no?
+- Hola puedo preguntar algo
+- Puedo pedir un poco de ayuda
+- Me puedes asistir?
+- Que tal si me ayudas
+- Tengo una pregunta
+- tengo preguntas
+- Necesito asistencia
+- Necesito ayuda
+- Necesito una asistencia
+- Necesito algo de ayuda
+- Necesito que me asistan
+- Necesito que me ayuden
+- Necesito de tu ayuda
+- Necesito tu ayuda o asistencia
+- Quiero una respuesta por favor es urgente
+- Necesito ayuda!!
+- No, ayudame!
+- Por favor ayudame
+- Por favor ayudame más
+- Por fa ayudame!
+- Ayuda, por favor
+- Disculpa me ayudas con el covid-19
+- Puedes ayudarme
+- Me ayudarás si o no?
+- Me ayudarás
+- Me ayudarías?
+- Me darías ayuda?
+- Puedes ayudarme por favor
+- Me podrías ayudar?
+- Podrías ayudarme por favor?
+- En que puedes ayudarme?
+- Te puedo preguntar algo más
+- puedo pedirte ayuda
+- puedo hacerte preguntas?
+- Te puedo hacer una pregunta?
+- Te gusta ayudarme
+
+## intent:vocative_no
+- Absolutamente no
+- No estot interesado
+- De ninguna forma
+- Ciertamente no
+- Na
+- Ne
+- Naaaahhh
+- Nei
+- Negativo
+- Olvidalo
+- Nunca
+- nopi
+- No definitivamente no
+- Nooo000!!!
+- Por supuesto que no
+- Nononnonon
+- No por favor
+- No señor
+- No gracias
+- No grax
+- De ninguna manera
+- No es no.
+- Nooo
+- Nop
+- Nope
+- No para todos
+- naaa
+- No ni en un millón de años
+- No lo creo
+- No y no
+- Ya dije que no
+- No realmente
+- Así no es.
+- Claro que no
+- de ningún modo
+- Los cerdos pueden volar
+- Manita abajo
+- Bajo ninguna circunstancia
+- veto
+
+## intent:vocative_sorry
+- Discúlpame
+- Disculpame por favor
+- Perdóname!
+- Perdón!
+- Te pido disculpas
+- Te entendí mal
+- Me estoy disculpando
+- Estoy muy arrepentido
+- Lo siento
+- Lo siento mucho
+- Te pido perdón
+- Te suplico disculpas
+- Te pido mil perdones
+- Lo tomé a mal
+- Espero que puedas perdonarme
+- Te debo una disculpa
+- Me disculpo sinceramente
+- Asumo mi responsabilidad
+- No quería decirte eso, perdón
+- Me equivoqué con eso
+- Estaba equivocado
+- Me gustaría pedirte disculpas
+- Te estoy pidiendo disculpas
+- Lo siento mucho de verdad
+- Im sorry
+- Mis disculpas
+- Mi error
+- Mi culpa
+- Me equivoqué
+- Ok perdón
+- Perdoname por fa
+- Disculpame x fa
+- Por favor perdoname
+- Por favor perdon
+- Disculpa por eso
+- Disculpa mis acciones
+- Disculpa mi comportamiento
+- nan
+- Disculpa!!
+- Eso fue mi error
+- Yo estaba equivocado
+- Eso fue mi culpa
+- ooops perdón
+
+## intent:vocative_thank_you
+- ok gracias por tu retroalimentación
+- acepta mis más sinceros agradecimientos
+- Acepta mis agradecimientos
+- Todo lo que puedo decir es gracias
+- Ok ok gracias
+- Aprecio eso
+- Genial, te agradezco
+- Te doy las gracias
+- Va, gracias
+- Que buen trabajo
+- Gracias.
+- grazie
+- Vale
+- Respuesta perfecta genial
+- Buena esa
+- Buen trabajo
+- Como puedo pagarte todo esto
+- Estamos muy satisfechos
+- Quedamos satisfechos
+- Apreciamos tu atención
+- Todos estamos agradecidos contigo
+- Gracias Helen!!
+- Gracias bot nos has ayudado mucho
+- Estuvo muy interesante la información, gracias
+- No hay nada más que agradecer
+- Solo queda darte las gracias
+- Gracias desde el fondo de mi corazón
+- Gracias por tus atenciones
+- Realmente te agradezco
+- Si alguien merece un agradecimiento eres tu
+- En serio te agradezco
+- En serio muchas gracias
+- Neta gracias
+- Vaaaa gracias
+- Estamos agradecidos
+- Lo aprecio mucho
+- Tenía que agradecerte
+- Te agradezco todo lo que estas haciendo
+- Mis agradecimientos por todo lo que has hecho
+- Buena esa!! Gracias!!
+- Gracias de nuevo
+- Gracias nuevamente
+- Bien, gracias
+- Vale, te agradezco
+- Oh ok gracias
+- Vale, gracias
+- Ok buen trabajo gracias
+- Gracias robot
+- Gracias bot
+- Ok gracias chatbot
+- Ok gracias por esto Helen
+- Ok bueno gracias
+- Ok grax
+- Okei gracias
+- Ok, muchas gracias!
+- Ok gracias!
+- Ok gracias hermosa
+- Ok gracias bb
+- Por favor, acepta mis agradecimientos
+- Satisfechos
+- Fue de mucha ayuda!
+- Muchisisisimas gracias!!
+- Tenkiu
+- Grax
+- Thanks
+- Gracias a ti
+- Gracias por ayudarme
+- Gracias por tu asistencia
+- Gracias por tu amabilidad
+- Gracias de antemano
+- Gracias cordiales
+- Gracias, fue un placer conocerte
+- Gracias por tu tiempo y tu consideración
+- En serio me ayudaste
+- Gracias por su soporte!
+- Muchas gracias a ti!
+- Graciass!!
+- Gracias por la info
+- Gracias por la información Helen
+- Muuuchas gracias
+- Te agradezco mucho!
+- Mil gracias
+- Muchas gracias señorita
+- Gracias por actualizarme
+- Gracias por todo!
+- Gracias por ayudarme con mi vida!
+- Gracias por la información.
+- Gracias por tomarte el tiempo para pensar en mi
+- Gracias por la información
+- Gracias por tu servicio
+- Muchas gracias por tu ayuda!
+- Muchas gracias por la ayuda!
+- Hey gracias!
+- Gracias computadora
+- Te agradezco
+- Muchas gracias
+- Eso fue de ayuda Helen, gracias.
+- Eso fue increíble!
+- Eso es impresionante, gracias!
+- Graciassss
+- Graxx
+- Gracias x tu ayuda
+- Grax cosibot
+- Grax
+- Con gratitud!
+- Wow, ok gracias
+- Sí, gracias, muchas gracias
+- Me salvaste la vida!
+- Hiciste un buen trabajo!
+- Tienes mi gratitud
+- Me ayudaste mucho!
+- Me ayudaste! Gracias!
+- De verdad me ayudaste mucho
+- Me salvaste !!
+- Gracias Helen
+- Gracias por tu ayuda Helen
+- gracias, Helen!
+
+## intent:vocative_yes
+- Absolutamente
+- Afirmativo
+- De acuerdo
+- Todo bien
+- Está bien
+- Ok ok
+- Ok
+- Claro que sí
+- Ciertamente
+- Sin falta
+- Ahuevo
+- Oh si
+- Si que si
+- Por supuesto
+- Sí
+- Va
+- Ok, gracias
+- Claro
+- Ok.
+- Ok, sigue
+- Ok Helen
+- Ok continúa
+- Oki
+- Okidoki
+- Sip
+- Seguramente sí
+- Seguro
+- Seguramente
+- Manita arriba
+- Totalmente
+- Muy bien
+- Vaaa
+- Yea
+- Yeah
+- Sipi
+- Sí por favor
+- Sí sí
+- Que si
+- Si por fa
+- Correcto
+- Eso es correcto
+- Yei
+- Yeeee
+- Yep
+- Sí claro
+- Así es.
+- Sii
+- si por favorrrr!!
+- yup
+- siiiii
+- aprobado
+- confirmado
+
+## intent:vocative_you_welcome
+- A la orden
+- Ni lo menciones.
+- Estoy feliz por ayudar!
+- No fue nada, tranquila
+- Es lo menos que podía hacer
+- Fue un placer!
+- No es nada.
+- Es un placer!
+- No es ninguna molestia
+- No problemo
+- No problem.
+- No hay problema.
+- No te preocupes.
+- No hay de que.
+- Por nada.
+- De nada.
+- esta ok
+- está bien
+
+## intent:myth_influenza
+- influenza
+- influenza
+
+## intent:myth_air_conditioning
+- el aire acondicionado
+- Aire acondicionado
+- A/C aire
+- AIRE ACONDICIONADO
+
+## intent:myth_5G
+- red 5g
+- cinco g
+- 5g
+
+## intent:myth_hand_dryer
+- secador de manos
+- secadores de manos
+
+## intent:myth_uv_lamps
+- lamparas uv
+- lampara para desinfectar ultravioleta
+- lampara de desinfección ultravioleta
+- lampara ultravioleta
+- lámparas ultravioletas
+
+## intent:myth_thermal_scanner
+- termometro
+- escáneres térmicos
+
+## intent:myth_antibiotics
+- antibióticos
+- antibioticos
+
+## intent:myth_pneumonia_vaccine
+- vacuna neumonía
+- vacunas para neumonía
+
+## intent:myth_saline
+- salina
+- solución salina
+
+## intent:myth_sesame_oil
+- aceite de sesamo
+- sesamo
+- óleo de sésamo
+- aceite de sésamo
+
+## intent:mask_visors
+- Caretas
+- Caretas de acrílico
+- caretas de protección
+
+## intent:country
+- en Portugal
+- España
+- en Grecia
+- en Suiza
+- En Zimbabue
+- Egipto
+- nepal
+- Nepal
+- República Democrática Federal de Nepal
+- italia
+- Italia
+- montserrat
+- Montserrat
+- Seychelles
+- República de Seychelles
+- islas aland
+- Islas Aland
+- estados federados de micronesia
+- Estados Federados de Micronesia
+- FSM
+- guam
+- Guam
+- portugal
+- Portugal
+- República Portuguesa
+- japón
+- Japón
+- Nippon
+- colombia
+- Colombia
+- República de Colombia
+- malta
+- Malta
+- República de Malta
+- cuba
+- Cuba
+- República de Cuba
+- myanmar
+- Myanmar
+- Burma
+- guadalupe
+- Guadalupe
+- argentina
+- Argentina
+- República de Argentina
+- Islas vírgenes británicas
+- Islas Vírgenes Británicas
+- BVI
+- luxemburgo
+- Luxemburgo
+- Luxemburgo
+- gabon
+- Gabon
+- República de Gabón
+- uganda
+- Uganda
+- República de Uganda
+- tunez
+- Túnez
+- República de Tunez
+- puerto rico
+- Puerto Rico
+- uruguay
+- Uruguay
+- República Oriental de Uruguay
+- sierra leona
+- Sierra Leona
+- República de Sierra Leona
+- palau
+- Palau
+- marruecos
+- Marruecos
+- tuvalu
+- Tuvalu
+- qatar
+- Qatar
+- Estado de Qatar
+- san pedro y miquelón
+- San Pedro y Miquelón
+- iraq
+- Iraq
+- sri lanka
+- Sri Lanka
+- Samoa Americana
+- Samoa Americana
+- estado de palestina
+- Estado de Palestina
+- togo
+- Togo
+- República de Togo
+- omán
+- Omán
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- mexico
+- Mexico
+- México
+- Bolivia
+- australia
+- Australia
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- nan
+- Afganistán
+- Albania
+- Alemania
+- Andorra
+- Angola
+- Antigua y Barbuda
+- Arabia Saudita
+- Argelia
+- Argentina
+- Armenia
+- Australia
+- Austria
+- Azerbaiyán
+- Bahamas
+- Bangladés
+- Barbados
+- Baréin
+- Bélgica
+- Belice
+- Benín
+- Bielorrusia
+- Birmania/Myanmar
+- Bolivia
+- Bosnia y Herzegovina
+- Botsuana
+- Brasil
+- Brunéi
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Bután
+- Cabo Verde
+- Camboya
+- Camerún
+- Canadá
+- Catar
+- Chad
+- Chile
+- China
+- Chipre
+- Ciudad del Vaticano
+- Colombia
+- Comoras
+- Corea del Norte
+- Corea del Sur
+- Costa de Marfil
+- Costa Rica
+- Croacia
+- Cuba
+- Dinamarca
+- Dominica
+- Ecuador
+- Egipto
+- El Salvador
+- Emiratos Árabes Unidos
+- Eritrea
+- Eslovaquia
+- Eslovenia
+- España
+- Estados Unidos
+- Estonia
+- Etiopía
+- Filipinas
+- Finlandia
+- Fiyi
+- Francia
+- Gabón
+- Gambia
+- Georgia
+- Ghana
+- Granada
+- Grecia
+- Guatemala
+- Guyana
+- Guinea
+- Guinea ecuatorial
+- Guinea-Bisáu
+- Haití
+- Honduras
+- Hungría
+- India
+- Indonesia
+- Irak
+- Irán
+- Irlanda
+- Islandia
+- Islas Marshall
+- Islas Salomón
+- Israel
+- Italia
+- Jamaica
+- Japón
+- Jordania
+- Kazajistán
+- Kenia
+- Kirguistán
+- Kiribati
+- Kuwait
+- Laos
+- Lesoto
+- Letonia
+- Líbano
+- Liberia
+- Libia
+- Liechtenstein
+- Lituania
+- Luxemburgo
+- Macedonia del Norte
+- Madagascar
+- Malasia
+- Malaui
+- Maldivas
+- Malí
+- Malta
+- Marruecos
+- Mauricio
+- Mauritania
+- México
+- Micronesia
+- Moldavia
+- Mónaco
+- Mongolia
+- Montenegro
+- Mozambique
+- Namibia
+- Nauru
+- Nepal
+- Nicaragua
+- Níger
+- Nigeria
+- Noruega
+- Nueva Zelanda
+- Omán
+- Países Bajos
+- Pakistán
+- Palaos
+- Panamá
+- Papúa Nueva Guinea
+- Paraguay
+- Perú
+- Polonia
+- Portugal
+- Reino Unido
+- República Centroafricana
+- República Checa
+- República del Congo
+- República Democrática del Congo
+- República Dominicana
+- República Sudafricana
+- Ruanda
+- Rumanía
+- Rusia
+- Samoa
+- San Cristóbal y Nieves
+- San Marino
+- San Vicente y las Granadinas
+- Santa Lucía
+- Santo Tomé y Príncipe
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leona
+- Singapur
+- Siria
+- Somalia
+- Sri Lanka
+- Suazilandia
+- Sudán
+- Sudán del Sur
+- Suecia
+- Suiza
+- Surinam
+- Tailandia
+- Tanzania
+- Tayikistán
+- Timor Oriental
+- Togo
+- Tonga
+- Trinidad y Tobago
+- Túnez
+- Turkmenistán
+- Turquía
+- Tuvalu
+- Ucrania
+- Uganda
+- Uruguay
+- Uzbekistán
+- Vanuatu
+- Venezuela
+- Vietnam
+- Yemen
+- Yibuti
+- Zambia
+- Zimbabue
+- Vaticano
+- Ciudad del Vaticano
+- Taiwan
+- Taiwan, China
+- Hong Kong
+
