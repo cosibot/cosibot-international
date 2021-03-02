@@ -7766,3 +7766,2184 @@
 - Taiwan, China
 - Hong Kong
 
+## synonym:GH
+- Ghana
+- Republic of Ghana
+- Gana
+- República do Gana
+
+## synonym:PA
+- Panama
+- Panamá
+- Republic of Panama
+- República de Panamá
+- República do Panamá
+- República del Panamá
+
+## synonym:TF
+- Territoire d'outre-mer
+- TOM
+- French Southern Lands
+- Terres australes françaises
+- French Southern Territories
+- French Southern and Antarctic Lands
+- Terres australes et antarctiques françaises
+- TAAF
+
+## synonym:MN
+- Mongolia
+- nação mongol
+- mongol nation
+- Mongol Uls
+- Mongolian Nation
+
+## synonym:sesame oil
+- sesame oil
+- sesame
+
+## synonym:KP
+- Democratic People's Republic of Korea
+- North Korea
+- north korea
+- DPRK
+- DPR Korea
+- Chosŏn Minjujuŭi Inmin Konghwaguk
+- Chosŏn
+- Pukchosŏn
+- Coreia do Norte
+- República Popular Democrática da Coreia
+
+## synonym:HU
+- Hungary
+- Magyarország
+- Hungria
+
+## synonym:DK
+- Denmark
+- Danmark
+- Kingdom of Denmark
+- Kongeriget Danmark
+- Dinamarca
+- Reino da Dinamarca
+
+## synonym:BH
+- Bahrain
+- Al-Baḥrayn
+- Kingdom of Bahrain
+- Bahrein
+- Barém
+- Barein
+- Bareine
+- Reino do Bahrein
+- Reino do Bahrain
+- Reino do Barém
+- Reino do Barein
+- Reino do Bareine
+
+## synonym:GI
+- Gibraltar
+
+## synonym:DE
+- Germany
+- Deutschland
+- Federal Republic of Germany
+- Bundesrepublik Deutschland
+- Alemanha
+- República Federal da Alemanha
+- República Federal da Alemã
+
+## synonym:BA
+- Bosnia and Herzegovina
+- BiH
+- B&H
+- Bosnia–Herzegovina
+- Bosnia
+- Bosna i Hercegovina
+- Bósnia e Herzegovina
+- Bósnia
+
+## synonym:LY
+- Libya
+- Lībiyā
+- State of Libya
+- Dawlat Lībiyā
+- Líbia
+- Estado da Líbia
+
+## synonym:MY
+- Malaysia
+- Malásia
+
+## synonym:MC
+- Monaco
+- Principality of Monaco
+- Principauté de Monaco
+- Principato di Monaco
+- Principat de Mónegue
+- Principatu de Mùnegu
+- Mónaco
+- Principado do Mónaco
+- Principado de Mônaco
+
+## synonym:Europa
+- comunidade europeia
+- continente Europeu
+- Europa
+
+## synonym:NC
+- New Caledonia
+- Nouvelle-Calédonie
+- Nova Caledónia
+- Nova Caledônia
+
+## synonym:CV
+- Cape Verde
+- Cabo Verde
+- Republic of Cabo Verde
+- República de Cabo Verde
+- Repúblika di Kabu Verdi
+
+## synonym:America
+- América do Sul
+- América do Norte
+- Américas
+- continente Americano
+- América
+
+## synonym:TO
+- Tonga
+- Kingdom of Tonga
+- Puleʻanga Fakatuʻi ʻo Tonga
+- Reino de Tonga
+
+## synonym:VA
+- Holy See (Vatican City State)
+- Sancta Sedes
+- Santa Sede
+- See of Rome
+- Santa Sé
+- Santa Sé Apostólica
+- Sé Apostólica
+- Cidade-Estado do Vaticano
+- Vaticano
+- Cidade do Vaticano
+- Estado da Cidade do Vaticano
+- Stato della Città del Vaticano
+- Civitas Vaticana
+- Status Civitatis Vaticanæ
+
+## synonym:NI
+- Nicaragua
+- Republic of Nicaragua
+- República de Nicaragua
+- Nicarágua
+- República da Nicarágua
+
+## synonym:DJ
+- Djibouti
+- Yibuuti
+- Jībūtī
+- Jabuuti
+- Republic of Djibouti
+- République de Djibouti
+- Jamhuuriyadda Jabuuti
+- Gabuutih Ummuuno
+- Djibuti
+- Jibuti
+- República do Djibuti
+
+## synonym:PE
+- Peru
+- Perú
+- Piruw Republika
+- Republic of Peru
+- República del Perú
+- Piruw Suyu
+
+## synonym:MP
+- Northern Mariana Islands
+- Commonwealth of the Northern Mariana Islands
+- CNMI
+- Sankattan Siha Na Islas Mariånas
+- Commonwealth Téél Falúw kka Efáng llól Marianas
+- Islas Marianas del Norte
+- Nördliche Marianen
+- Ilhas Marianas Setentrionais
+- Ilhas Marianas do Norte
+- Comunidade das Ilhas Marianas do Norte
+
+## synonym:BI
+- Burundi
+- Republic of Burundi
+- Republika y'Uburundi
+- République du Burundi
+- Burúndi
+- República do Burúndi
+
+## synonym:EH
+- Western Sahara
+- Taneẓroft Tutrimt
+- Sahara Occidental
+- Saara Ocidental
+- Sara Ocidental
+- Sáara Ocidental
+- Aṣ-Ṣaḥrā’ al-Gharbīyah
+
+## synonym:NF
+- Norfolk Island
+- Norf'k Ailen
+- Territory of Norfolk Island
+- Teratri a' Norf'k Ailen
+- ilha Norfolk
+- ilha Norfolque
+- Território da Ilha Norfolk
+- Território da Ilha Norfolque
+
+## synonym:CH
+- Switzerland
+- Swiss Confederation
+- Schweizerische Eidgenossenschaft
+- Confédération suisse
+- Confederazione Svizzera
+- Confederaziun svizra
+- Confoederatio Helvetica
+- Suíça
+- Schweiz
+- Schwyz
+- Schwiiz
+- Suisse
+- Svizzera
+- Svizra
+- Confederação Suíça
+
+## synonym:BV
+- Bouvet Island
+- Bouvetøya
+- Bouvet-øya
+- Ilha Bouvet
+
+## synonym:CA
+- Canada
+- Canadá
+
+## synonym:PG
+- Papua New Guinea
+- PNG
+- Independent State of Papua New Guinea
+- Independen Stet bilong Papua Niugini
+- Independen Stet bilong Papua Niu Gini
+- Papua-Nova Guiné
+- Papua Nova Guiné
+- Papua Niugini
+- Papua Niu Gini
+
+## synonym:VE
+- Bolivarian Republic of Venezuela
+- Venezuela
+- República Bolivariana de Venezuela
+- República Bolivariana da Venezuela
+
+## synonym:MF
+- Saint Martin (French part)
+- Saint-Martin
+- Sint Maarten
+- São Martinho parte francesa
+- São Martim
+
+## synonym:YT
+- Mayotte
+- Maore
+- Mahori
+- Department of Mayotte
+- Département de Mayotte
+- Maiote
+- Departamento de Maiote
+
+## synonym:BQ
+- Bonaire, Sint Eustatius and Saba
+- Bonaire
+- Sint Eustatius
+- Saba
+- Caribbean Netherlands
+- Caribisch Nederland
+- BES Islands
+- Países Baixos Caribenhos
+- Caraíbas Neerlandesas
+- Santo Eustáquio
+
+## synonym:IM
+- Isle of Man
+- Mann
+- Mannin
+- Ellan Vannin
+- Ilha de Man
+
+## synonym:MX
+- Mexico
+- México
+- Mēxihco
+- United Mexican States
+- Estados Unidos Mexicanos
+- EUM
+- Mexican United States
+
+## synonym:BO
+- Plurinational State of Bolivia
+- Bolivia
+- Estado Plurinacional de Bolivia
+- Bolívia
+
+## synonym:AU
+- Australia
+- Commonwealth of Australia
+- Austrália
+- Comunidade da Austrália
+
+## synonym:MW
+- Nyasaland
+- Maláui
+- Malaui
+- Malaŵi
+- República do Malawi
+- Malawi
+- Republic of Malawi
+- Dziko la Malaŵi
+- Charu cha Malaŵi
+
+## synonym:CI
+- Côte d'Ivoire
+- Ivory Coast
+- The Ivory Coast
+- Republic of Côte d'Ivoire
+- République de Côte d'Ivoire
+- Costa do Marfim
+- República da Costa do Marfim
+
+## synonym:CL
+- Chile
+- Republic of Chile
+- República de Chile
+- Chile Wüdalmapu
+- Chili Suyu
+- Chili Ripuwlika
+- Repūvirika o Tire
+
+## synonym:IS
+- Iceland
+- Ísland
+- Islândia
+
+## synonym:GM
+- Gambia
+- Kambiya
+- Gámbi
+- Republic of The Gambia
+- Gâmbia
+- República da Gâmbia
+
+## synonym:LI
+- Liechtenstein
+- Principality of Liechtenstein
+- Fürstentum Liechtenstein
+- Listenstaine
+- Principado do Liechtenstein
+- Principado de Liechtenstein
+
+## synonym:ZA
+- South Africa
+- Republic of South Africa
+- RSA
+- Republiek van Suid-Afrika
+- iRiphabhuliki yaseNingizimu Afrika
+- iRiphabliki yomZantsi Afrika
+- Repabliki ya Afrika-Borwa
+- Rephaboliki ya Aforika Borwa
+- Rephaboliki ya Afrika Borwa
+- Riphabliki ya Afrika Dzonga
+- iRiphabhulikhi yeNingizimu Afrika
+- Riphabuḽiki ya Afurika Tshipembe
+- iRiphabliki yeSewula Afrika
+- África do Sul
+- República da África do Sul
+
+## synonym:SM
+- San Marino
+- Republic of San Marino
+- Repubblica di San Marino
+- Most Serene Republic of San Marino
+- Serenissima Repubblica di San Marino
+- República de San Marino
+- Sereníssima República de San Marino
+- São Marinho
+- São Marino
+
+## synonym:MO
+- Região Administrativa de Macau
+- Macao
+- Macau
+- Macao Special Administrative Region
+- Jūng'wàh Yàhnmàhn
+- Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui
+- Região Administrativa Especial de Macau
+
+## synonym:MZ
+- Mozambique
+- Republic of Mozambique
+- Moçambique
+- República de Moçambique
+- Mozambiki
+- Msumbiji
+- Muzambhiki
+
+## synonym:LB
+- Lebanon
+- Lubnān
+- Lebanese Republic
+- al-Jumhūrīyah al-Lubnānīyah
+- République libanaise
+- Líbano
+- Liban
+- República do Líbano
+
+## synonym:BS
+- Bahamas
+- Commonwealth of The Bahamas
+- Baamas
+- Comunidade das Bahamas
+
+## synonym:SA
+- Saudi Arabia
+- Kingdom of Saudi Arabia
+- Arábia Saudita
+- as-Su’ūdiyya
+- al-Mamlaka al-ʻArabiyya as-Suʻūdiyya
+- Reino da Arábia Saudita
+
+## synonym:BB
+- Barbados
+
+## synonym:MK
+- the Former Yugoslav Republic of Macedonia
+- North Macedonia
+- Macedonia
+- Republic of North Macedonia
+- Република Северна Македонија
+- Republika e Maqedonisë së Veriut
+- Macedônia do Norte
+- Macedónia do Norte
+- Severna Makedonija
+- República da Macedônia do Norte
+- República da Macedónia do Norte
+- Macedônia
+- Macedónia
+
+## synonym:WS
+- Samoa
+- Independent State of Samoa
+- Malo Saʻoloto Tutoʻatasi o Sāmoa
+- Sāmoa
+- Western Samoa
+- Estado Independente de Samoa
+- Estado Independente da Samoa
+- Samoa Ocidental
+
+## synonym:SE
+- Sweden
+- Sverige
+- Kingdom of Sweden
+- Konungariket Sverige
+- Suécia
+- Reino da Suécia
+
+## synonym:GT
+- Guatemala
+- Republic of Guatemala
+- República de Guatemala
+- República da Guatemala
+
+## synonym:GR
+- Greece
+- Hellenic Republic
+- Hellas
+- Ellinikí Dimokratía
+- Grécia
+- Elláda
+- República Helênica
+- República Helénica
+- Hélade
+
+## synonym:BY
+- Belarus
+- Republic of Belarus
+- Belorussia
+- Byelorussia
+- Bielorrússia
+- República da Belarus
+- República da Bielorrússia
+
+## synonym:LT
+- Lithuania
+- Lietuva
+- Republic of Lithuania
+- Lietuvos Respublika
+- Lituânia
+- República da Lituânia
+
+## synonym:TK
+- Tokelau
+- Union Islands
+- Tokelau Islands
+- Toquelau
+
+## synonym:IO
+- British Indian Ocean Territory
+- BIOT
+- TBOI
+- Território Britânico do Oceano Índico
+- British Indian Ocean
+- British Indian Territory
+- Território Britânico do Índico
+- Território Britânico do Oceano
+
+## synonym:BG
+- Bulgaria
+- Balgariya
+- Republic of Bulgaria
+- Republika Balgariya
+- Bulgária
+- República da Bulgária
+- Republika Bǎlgarija
+
+## synonym:NG
+- Nigeria
+- Federal Republic of Nigeria
+- Jamhuriyar Taraiyar Najeriya
+- Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà
+- Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà
+- República Federal da Nigéria
+- Nigéria
+
+## synonym:HN
+- Honduras
+- Republic of Honduras
+- República de Honduras
+- República das Honduras
+
+## synonym:AD
+- Andorra
+- Principality of Andorra
+- Principat d'Andorra
+- Principality of the Valleys of Andorra
+- Principat de les Valls d'Andorra
+- Principado de Andorra
+- Principado dos Vales de Andorra
+
+## synonym:IE
+- Ireland
+- Éire
+- Airlann
+- Ilha da Irlanda
+- Irlanda
+- Ilha Esmeralda
+- Emerald Isle
+
+## synonym:SX
+- Sint Maarten (Dutch part)
+- São Martinho paises baixos
+
+## synonym:GS
+- South Georgia and the South Sandwich Islands
+- SGSSI
+- South Sandwich Islands
+- South Georgia
+- Ilhas Geórgia do Sul e Sandwich do Sul
+- Ilhas Geórgia do Sul e Sanduíche do Sul
+- Ilhas Geórgias do Sul e Sandwich do Sul
+- Ilhas Sandwich do Sul
+- Sandwich do Sul
+- Geórgia do Sul
+
+## synonym:AW
+- Aruba
+
+## synonym:NE
+- Niger
+- the Niger
+- République du Niger
+- Republic of the Niger
+- República do Níger
+- Níger
+
+## synonym:AI
+- Anguilla
+- Island of Anguilla
+- Anguila
+
+## synonym:CK
+- Cook Islands
+- Kūki 'Āirani
+- Ilhas Cook
+
+## synonym:SS
+- South Sudan
+- Republic of South Sudan
+- Paguot Thudä
+- Sudão do Sul
+- Sudão Meridional
+- República do Sudão do Sul
+
+## synonym:VN
+- Viet Nam
+- Vietnam
+- Socialist Republic of Vietnam
+- Vietname
+- Vietnã
+- República Socialista do Vietnã
+- República Socialista do Vietname
+
+## synonym:MD
+- Republic of Moldova
+- Moldova
+- Republica Moldova
+- Moldávia
+- República da Moldávia
+- República da Moldova
+
+## synonym:NZ
+- New Zealand
+- Aotearoa
+- Nova Zelândia
+
+## synonym:MV
+- Maldives
+- Republic of Maldives
+- Dhivehi Raajjeyge Jumhooriyyaa
+- Dhivehi Raajje
+- Maldivas
+- República das Maldivas
+
+## synonym:ER
+- Hagere Ertra
+- Dawlat Iritriyá
+- Eritrea
+- State of Eritrea
+- Eritreia
+- Ertrā
+- Estado da Eritreia
+
+## synonym:FI
+- Finland
+- Suomi
+- Republic of Finland
+- Suomen tasavalta
+- Republiken Finland
+- Finlândia
+- República da Finlândia
+
+## synonym:TM
+- Turkmenistan
+- Türkmenistan
+- Republic of Turkmenistan
+- Türkmenistan Respublikasy
+- Turquemenistão
+- Turcomenistão
+- Turcomênia
+- República do Turcomenistão
+
+## synonym:BL
+- Saint Barthélemy
+- Saint-Barthélemy
+- Collectivité territoriale de Saint-Barthélemy
+- St-Barth
+- St. Barths
+- St. Barts
+- São Bartolomeu
+- Coletividade de São Bartolomeu
+
+## synonym:GW
+- Guinea-Bissau
+- Guiné-Bissau
+- Republic of Guinea-Bissau
+- República da Guiné-Bissau
+- Guinea Bissau
+- Guiné Bissau
+
+## synonym:NU
+- Niue
+- Niuē
+- Niuê
+
+## synonym:HK
+- Hong Kong
+- Hong Kong Special Administrative Region
+- HKSAR
+- Xiānggǎng
+- Hēunggóng
+
+## synonym:DZ
+- Algeria
+- Democratic Republic of Algeria
+- Republic of Algeria
+- Argélia
+- Republica da Argélia
+- Republica Democrática da Argélia
+
+## synonym:SI
+- Slovenia
+- Slovenija
+- Republic of Slovenia
+- Republika Slovenija
+- Eslovénia
+- Eslovênia
+- República da Eslovénia
+- República da Eslovênia
+
+## synonym:Africa
+- continente Africano
+- África
+
+## synonym:MQ
+- Martinique
+- Matnik
+- Matinik
+- Martinica
+
+## synonym:CZ
+- Czech Republic
+- Česká republika
+- Czechia
+- Česko
+- Chéquia
+- Tchéquia
+- República Checa
+- República Tcheca
+
+## synonym:RW
+- Rwanda
+- Republic of Rwanda
+- Repubulika y'u Rwanda
+- République du Rwanda
+- Jamhuri ya Rwanda
+- u Rwanda
+- Ruanda
+- República de Ruanda
+- República do Ruanda
+
+## synonym:AM
+- Armenia
+- Republic of Armenia
+- Arménia
+- Armênia
+- República da Arménia
+
+## synonym:CD
+- The Democratic Republic of the Congo
+- Democratic Republic of the Congo
+- République démocratique du Congo
+- DR Congo
+- DRC
+- DROC
+- Congo-Kinshasa
+- Repubilika ya Kôngo ya Dimokalasi
+- Republíki ya Kongó Demokratíki
+- Jamhuri ya Kidemokrasia ya Kongo
+- Ditunga dia Kongu wa Mungalaata
+- República Democrática do Congo
+- RDC
+- RD Congo
+- Congo R.D.
+- Congo-Quinxassa
+
+## synonym:CX
+- Christmas Island
+- Territory of Christmas Island
+- Ilha Christmas
+- Ilha do Natal
+- Ilha Natal
+- Território da Ilha Christmas
+- Território da Ilha do Natal
+- Território da Ilha Natal
+
+## synonym:NA
+- Namibia
+- Republic of Namibia
+- Republiek van Namibië
+- Republik Namibia
+- Namibiab Republiki dib
+- Orepublika yaNamibia
+- Republika zaNamibia
+- Rephaboliki ya Namibia
+- Namibia ye Lukuluhile
+- República da Namíbia
+
+## synonym:FO
+- Faroe Islands
+- Føroyar
+- Færøerne
+- Ilhas Feroe
+- Ilhas Féroe
+- Ilhas Faroé
+- Ilhas Faroés
+- Færeyjar
+
+## synonym:EG
+- Egypt
+- Arab Republic of Egypt
+- Egito
+- Egipto
+- República Árabe do Egito
+- República Árabe do Egipto
+
+## synonym:SY
+- Syrian Arab Republic
+- Syria
+- Sūriyā
+- al-Jumhūrīyah al-ʻArabīyah as-Sūrīyah
+- Síria
+- República Árabe Síria
+
+## synonym:JO
+- Jordan
+- Hashemite Kingdom of Jordan
+- Kingdom of Jordan
+- Al-ʾUrdunn
+- Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah
+- Jordânia
+- Reino Haxemita da Jordânia
+- Reino da Jordânia
+
+## synonym:HT
+- Haiti
+- Haïti
+- Ayiti
+- Republic of Haiti
+- République d'Haïti
+- Repiblik D Ayiti
+- Hayti
+- República do Haiti
+
+## synonym:TD
+- Chad
+- Tshād
+- Republic of Chad
+- République du Tchad
+- Jumhūriyyat Tshād
+- Chade
+- Tchade
+- Tchad
+- República do Chade
+
+## synonym:Oceania
+- continente australiano
+- Oceania
+
+## synonym:JE
+- Jersey
+- Bailiwick of Jersey
+- Bailliage de Jersey
+- Bailliage dé Jèrri
+- Jérsei
+- Jérsia
+- Bailiado de Jersey
+
+## synonym:VU
+- Vanuatu
+- Republic of Vanuatu
+- Ripablik blong Vanuatu
+- République de Vanuatu
+- Gloriosa República de Vanuatu
+- República de Vanuatu
+
+## synonym:CF
+- Central African Republic
+- République centrafricaine
+- Ködörösêse tî Bêafrîka
+- CAR
+- República Centro-Africana
+- República da África-Central
+- República da África Central
+- República Centro Africana
+
+## synonym:GL
+- Greenland
+- Kalaallit Nunaat
+- Grønland
+- Groenlândia
+- Groelândia
+- Gronelândia
+
+## synonym:PL
+- Poland
+- Polska
+- Republic of Poland
+- Rzeczpospolita Polska
+- Polônia
+- Polónia
+- República da Polónia
+
+## synonym:TJ
+- Tajikistan
+- Republic of Tajikistan
+- Jumhurii Tojikiston
+- Tajiquistão
+- Tadjiquistão
+- Tojikiston
+- República do Tajiquistão
+
+## synonym:KH
+- Cambodia
+- Kampuchea
+- Cambodge
+- Kingdom of Cambodia
+- Royaume du Cambodge
+- Camboja
+- Cambodja
+- Reino do Camboja
+
+## synonym:BW
+- Botswana
+- Republic of Botswana
+- Lefatshe la Botswana
+- Botsuana
+- República do Botswana
+- República do Botsuana
+
+## synonym:WF
+- Wallis and Futuna
+- Territory of the Wallis and Futuna Islands
+- Wallis-et-Futuna
+- Territoire des îles Wallis-et-Futuna
+- Uvea mo Futuna
+- Wallis e Futuna
+- Território das Ilhas Wallis e Futuna
+
+## synonym:LV
+- Latvia
+- Latvija
+- Lețmō
+- Republic of Latvia
+- Latvijas Republika
+- Lețmō Vabāmō
+- Letónia
+- Letônia
+- República da Letônia
+
+## synonym:KE
+- Kenya
+- Republic of Kenya
+- Jamhuri ya Kenya
+- Quénia
+- Quênia
+- República do Quénia
+- República do Quênia
+
+## synonym:LC
+- Saint Lucia
+- Sainte-Lucie
+- Iyonola
+- Santa Lúcia
+
+## synonym:SV
+- El Salvador
+- Republic of El Salvador
+- República de El Salvador
+- Salvador
+- República do Salvador
+
+## synonym:TW
+- Taiwan, Province of China
+- Taiwan Province
+- Taiwan Region
+- Taiwan Area
+- Taiwan
+- Taiwan, China
+- Província de Taiwan
+- Táiwān shěng
+
+## synonym:EC
+- Ecuador
+- Ikwayur
+- Ekuatur
+- Republic of Ecuador
+- República del Ecuador
+- Republic of the Equator
+- Ikwadur Ripuwlika
+- Ekuatur Nunka
+- Ikwayur Runaq Imayka
+- Equador
+- República do Equador
+
+## synonym:AO
+- Angola
+- Republic of Angola
+- República de Angola
+
+## synonym:Asia
+- continente asiático
+- Ásia
+
+## synonym:BZ
+- Belize
+
+## synonym:CW
+- Curaçao
+- Kòrsou
+- Land Curaçao
+- Pais Kòrsou
+- Island Territory of Curaçao
+- Eilandgebied Curaçao
+- Teritorio Insular di Kòrsou
+- Country of Curaçao
+- Curaçau
+
+## synonym:GE
+- República da Geórgia
+- Georgia
+- Sakartvelo
+- Republic of Georgia
+- sakartvelos resp'ublik'a
+- Geórgia
+
+## synonym:KZ
+- Kazakhstan
+- Republic of Kazakhstan
+- Қазақстан Республикасы
+- Qazaqstan Respýblıkasy
+- Республика Казахстан
+- Respublika Kazakhstan
+- Cazaquistão
+- Qazaqstan
+- República do Cazaquistão
+
+## synonym:TC
+- Turks and Caicos Islands
+- TCI
+- Caicos Islands
+- Turks Islands
+- Turks
+- Caicos
+- Turks and Caicos
+- Ilhas Turcas e Caicos
+- Turcas e Caicos
+- Turcas
+
+## synonym:KG
+- Kyrgyzstan
+- Kyrgyz Republic
+- Кыргыз Республикасы
+- Kırğız Respublikası
+- Кыргызская Республика
+- Kyrgyzskaya Respublika
+- Kirghizia
+- Киргизия
+- Quirguistão
+- Quirguizistão
+- Quirguízia
+- República Quirguiz
+- República do Quirguistão
+- República do Quirguizistão
+
+## synonym:ML
+- Mali
+- Republic of Mali
+- République du Mali
+- Mali ka Fasojamana
+- Renndaandi Maali
+- Máli
+- República do Mali
+
+## synonym:FJ
+- Fiji
+- Republic of Fiji
+- Matanitu Tugalala o Viti
+- República das Fíji
+- República das Fiji
+- Fíji
+- República das Fidji
+- Fidji
+- República das Ilhas Fiji
+
+## synonym:GB
+- Inglaterra
+- United Kingdom
+- United Kingdom of Great Britain and Northern Ireland
+- UK
+- uk
+- U.K.
+- Britain
+- Great Britain
+- Northern Ireland
+- Reino Unido
+- Reino Unido da Grã-Bretanha e Irlanda do Norte
+- Grã-Bretanha
+- Irlanda do Norte
+- England
+
+## synonym:DM
+- Dominica
+- Dominique
+- Commonwealth of Dominica
+- Domínica
+- Comunidade da Dominica
+
+## synonym:KM
+- Comoros
+- Union of the Comoros
+- Udzima wa Komori
+- Union des Comores
+- Umoja wa Komori
+- al-Ittiḥād al-Qumurī
+- al-Ittiḥād al-Qamarī
+- Comores
+- União das Comores
+- União de Comores
+
+## synonym:MU
+- Mauritius
+- Maurice
+- Moris
+- Republic of Mauritius
+- Repiblik Moris
+- Maurícia
+- Maurício
+- República da Maurícia
+- República de Maurício
+- République de Maurice
+
+## synonym:GN
+- Guinea
+- Republic of Guinea
+- République de Guinée
+- Guinée française
+- French Guinea
+- Guinea-Conakry
+- Renndaandi Ginea
+
+## synonym:TT
+- Trinidad and Tobago
+- Republic of Trinidad and Tobago
+- Trinidad
+- Tobago
+- Trindade e Tobago
+- Trinidade e Tobago
+- Trinidad e Tobago
+- República de Trindade e Tobago
+- Trinidade
+
+## synonym:RS
+- Serbia
+- Србија
+- Srbija
+- Republic of Serbia
+- Република Србија
+- Republika Srbija
+- Sérvia
+- República da Sérvia
+
+## synonym:GF
+- French Guiana
+- Guyane
+- Department of French Guiana
+- Guiana Francesa
+- Guyane française
+
+## synonym:GD
+- Grenada
+- Gwenad
+- Granada
+- La Grenade
+- Ilha das Especiarias
+- Island of Spice
+
+## synonym:CR
+- Costa Rica
+- Republic of Costa Rica
+- República de Costa Rica
+- República da Costa Rica
+
+## synonym:CY
+- Cyprus
+- Κύπρος
+- Kıbrıs
+- Republic of Cyprus
+- Κυπριακή Δημοκρατία
+- Cypriot Republic
+- Kıbrıs Cumhuriyeti
+- Chipre
+- Kýpros
+- República de Chipre
+- Kypriakí Dimokratía
+
+## synonym:AF
+- Afghanistan
+- Islamic Republic of Afghanistan
+- Republic of Afghanistan
+- República Islâmica do Afeganistão
+- Afeganistão
+- Republica do Afeganistão
+
+## synonym:AE
+- United Arab Emirates
+- al-ʾImārāt al-ʿArabīyyah al-Muttaḥidah
+- Emirates
+- UAE
+- Emirados Árabes Unidos
+- EAU
+- Dawlat al-Imārāt al-‘Arabīyah al-Muttaḥidah
+
+## synonym:AQ
+- Antarctica
+- Antártida
+- Antártica
+
+## synonym:CC
+- Cocos (Keeling) Islands
+- Cocos Keeling Islands
+- Territory of Cocos (Keeling) Islands
+- Territory of Cocos Keeling Islands
+- Pulu Kokos (Keeling)
+- Wilayah Kepulauan Cocos (Keeling)
+- Keeling Islands
+- Ilhas Keeling
+- Ilhas Cocos (Keeling)
+- Ilhas Cocos Keeling
+- Pulu Kokos Keeling
+
+## synonym:BN
+- Brunei Darussalam
+- Brunei
+- Nation of Brunei
+- Negara Brunei Darussalam
+- Nation of Brunei, the Abode of Peace
+
+## synonym:KN
+- Saint Kitts and Nevis
+- Federation of Saint Christopher and Nevis
+- São Cristóvão e Névis
+- São Cristóvão e Neves
+- Federação de São Cristóvão e Neves
+- Federação de São Cristóvão e Névis
+- Saint Kitts
+- Nevis
+
+## synonym:BF
+- Burkina Faso
+- Republic of Burkina Faso
+- Burquina Faso
+- Burquina Fasso
+- Burquina
+
+## synonym:TZ
+- United Republic of Tanzania
+- Tanzania
+- Jamhuri ya Muungano wa Tanzania
+- Tanzânia
+- República Unida da Tanzânia
+
+## synonym:RU
+- Russian Federation
+- Russia
+- Росси́я
+- Rossiya
+- Российская Федерация
+- Rossiyskaya Federatsiya
+- Rússia
+- Federação Russa
+
+## synonym:GY
+- Guyana
+- Co-operative Republic of Guyana
+- Guiana
+- República Cooperativa da Guiana
+
+## synonym:FR
+- France
+- French Republic
+- République française
+- França
+- República Francesa
+
+## synonym:LR
+- Liberia
+- Republic of Liberia
+- Libéria
+- República da Libéria
+
+## synonym:KY
+- Cayman Islands
+- Ilhas Caimã
+- Ilhas Cayman
+- Ilhas Caimão
+
+## synonym:ME
+- Montenegro
+- Crna Gora
+- Црна Гора
+
+## synonym:GQ
+- Equatorial Guinea
+- Guinea Ecuatorial
+- Guinée équatoriale
+- Guiné Equatorial
+- Republic of Equatorial Guinea
+- República de Guinea Ecuatorial
+- République de Guinée équatoriale
+- República da Guiné Equatorial
+
+## synonym:US
+- United States
+- United States of America
+- USA
+- usa
+- U.S.
+- US
+- America
+- Estados Unidos da América
+- Estados Unidos
+- EUA
+- eua
+
+## synonym:IR
+- Islamic Republic of Iran
+- Persia
+- Jomhuri-ye Eslāmi-ye Irān
+- Irão
+- Irã
+- República Islâmica do Irã
+- República Islâmica do Irão
+- Pérsia
+
+## synonym:SK
+- Slovakia
+- Slovensko
+- Slovak Republic
+- Slovenská republika
+- Eslováquia
+- República Eslovaca
+
+## synonym:BT
+- Bhutan
+- Kingdom of Bhutan
+- Druk Gyal Khap
+- Butão
+- Reino do Butão
+
+## synonym:AT
+- Austria
+- Republic of Austria
+- Österreich
+- Republik Österreich
+- Áustria
+- República da Áustria
+
+## synonym:KR
+- Republic of Korea
+- South Korea
+- south korea
+- Hanguk
+- Namhan
+- Daehan Minguk
+- Coreia do Sul
+- República da Coreia
+
+## synonym:SH
+- Saint Helena, Ascension and Tristan da Cunha
+- Saint Helena
+- Ascension Island
+- Tristan da Cunha
+- Santa Helena, Ascensão e Tristão da Cunha
+- Santa Helena
+- Ascensão
+- Tristão da Cunha
+
+## synonym:LA
+- Lao People's Democratic Republic
+- Laos
+- Lāo
+- Saþalanalat Paxaþipatai Paxaxōn Lao
+- République démocratique populaire lao
+
+## synonym:SO
+- Somalia
+- Soomaaliya
+- aṣ-Ṣūmāl
+- Federal Republic of Somalia
+- Jamhuuriyadda Federaalka Soomaaliya
+- Jumhūrīyat aṣ-Ṣūmāl al-Itihadiya
+- Somália
+- República Federal da Somália
+
+## synonym:RO
+- Romania
+- România
+- Romênia
+- Roménia
+
+## synonym:UA
+- Ukraine
+- Ukrayina
+- Ucrânia
+
+## synonym:SR
+- Suriname
+- Surinam
+- Republic of Suriname
+- Republiek Suriname
+- República do Suriname
+
+## synonym:IN
+- India
+- Bhārat
+- Republic of India
+- Bhārat Gaṇarājya
+- Índia
+- República da Índia
+
+## synonym:BD
+- Bangladesh
+- country of Bengal
+- People's Republic of Bangladesh
+- Bangladexe
+- Bangladeche
+- Nação Bengali
+- República Popular do Bangladesh
+
+## synonym:SN
+- Senegal
+- Sénégal
+- Republic of Senegal
+- République du Sénégal
+- Réewum Senegaal
+- Renndaandi Senegal
+- República do Senegal
+
+## synonym:AG
+- Antigua and Barbuda
+- Antigua
+- Barbuda
+- Antígua e Barbuda
+- Antiga e Barbuda
+- Antígua
+
+## synonym:BE
+- Belgium
+- Kingdom of Belgium
+- Königreich Belgien
+- Royaume de Belgique
+- Koninkrijk België
+- Reino da Bélgica
+- Bélgica
+- België
+- Belgique
+- Belgien
+
+## synonym:JM
+- Jamaica
+- Jumieka
+
+## synonym:ES
+- Spain
+- España
+- Kingdom of Spain
+- Reino de España
+- Regne d'Espanya
+- Espainiako Erresuma
+- Reiaume d'Espanha
+- Espanha
+- Reino da Espanha
+- Reino de Espanha
+
+## synonym:BJ
+- Benin
+- Republic of Benin
+- République du Bénin
+- Bénin
+- Benim
+- República do Benim
+
+## synonym:BM
+- Bermuda
+- Islands of Bermuda
+- Ilhas Bermudas
+- Bermudas
+
+## synonym:SD
+- Sudan
+- Republic of the Sudan
+- as-Sūdān
+- Jumhūriyyat as-Sūdān
+- Sudão
+- República do Sudão
+
+## synonym:AL
+- Albania
+- Republic of Albania
+- Albânia
+- Republica da Albânia
+
+## synonym:LS
+- Lesotho
+- Kingdom of Lesotho
+- Muso oa Lesotho
+- Lesoto
+- Lessoto
+- Reino do Lesoto
+- Reino do Lessoto
+- Bassutolândia
+
+## synonym:CM
+- Cameroon
+- Cameroun
+- Republic of Cameroon
+- République du Cameroun
+- Renndaandi Kamerun
+- Camarões
+- República dos Camarões
+- República do Cameroun
+
+## synonym:UM
+- United States Minor Outlying Islands
+- Baker Island
+- Howland Island
+- Jarvis Island
+- Johnston Atoll
+- Kingman Reef
+- Midway Atoll
+- Palmyra Atoll
+- Wake Island
+- Navassa Island
+- Ilha Baker
+- Ilha Howland
+- Ilha Jarvis
+- Atol Johnston
+- Recife Kingman
+- Atol Midway
+- Ilha Navassa
+- Atol Palmyra
+- Ilha Wake
+- Ilhas Menores Distantes dos Estados Unidos
+- Ilhas Menores Afastadas dos Estados Unidos
+
+## synonym:ZM
+- Zambia
+- Republic of Zambia
+- Dziko la Zambia
+- Cisi ca Zambia
+- Zâmbia
+- República da Zâmbia
+
+## synonym:ID
+- Indonesia
+- Republic of Indonesia
+- Republik Indonesia
+- Indonésia
+- República da Indonésia
+
+## synonym:DO
+- Dominican Republic
+- República Dominicana
+
+## synonym:NL
+- Netherlands
+- Nederland
+- Kingdom of the Netherlands
+- Países Baixos
+- Holanda
+- Reino dos Países Baixos
+
+## synonym:IL
+- Israel
+- State of Israel
+- Estado de Israel
+- Medīnat Yisrā'el
+- Dawlat Isrā'īl
+
+## synonym:ET
+- Ethiopia
+- Itiyoophiyaa
+- Itoophiyaa
+- Itoobiya
+- Federal Democratic Republic of Ethiopia
+- ityoppiah federalih demokrasih ummuno
+- Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa
+- Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya
+- Etiópia
+- República Democrática Federal da Etiópia
+
+## synonym:TL
+- Timor-Leste
+- República Democrática de Timor-Leste
+- Timor Leste
+- Timor Lorosa'e
+- Repúblika Demokrátika Timór-Leste
+- Democratic Republic of Timor-Leste
+- East Timor
+
+## synonym:VI
+- U.S. Virgin Islands
+- Ilhas Virgens Americanas
+- Ilhas Virgens dos Estados Unidos
+- United States Virgin Islands
+- USVI
+- American Virgin Islands
+- Virgin Islands of the United States
+
+## synonym:AZ
+- Azerbaijan
+- Republic of Azerbaijan
+- Azerbaijão
+- República do Azerbaijão
+
+## synonym:ZW
+- Zimbabwe
+- Republic of Zimbabwe
+- Rhodesia
+- Nyika yeZimbabwe
+- Ilizwe leZimbabwe
+- Dziko la Zimbabwe
+- Hango yeZimbabwe
+- Zimbabwe Nù
+- Inyika yeZimbabwe
+- Tiko ra Zimbabwe
+- Naha ya Zimbabwe
+- Cisi ca Zimbabwe
+- Shango ḽa Zimbabwe
+- Zimbábue
+- Zimbabué
+- Zimbaué
+- República do Zimbabwe
+
+## synonym:UZ
+- Uzbekistan
+- Oʻzbekiston
+- Republic of Uzbekistan
+- Oʻzbekiston Respublikasi
+- Uzbequistão
+- Usbequistão
+- República do Uzbequistão
+
+## synonym:PN
+- Pitcairn
+- Pitcairn Islands
+- Pitkern Ailen
+- Pitcairn, Henderson, Ducie and Oeno Islands
+- Ilhas Pitcairn
+- Ilhas Picárnia
+- Ilhas Pitcairn, Henderson, Ducie e Oeno
+- Grupo de Ilhas Pitcairn
+
+## synonym:MH
+- Marshall Islands
+- Republic of the Marshall Islands
+- Aolepān Aorōkin Ṃajeḷ
+- Ilhas Marshall
+- República das Ilhas Marshall
+
+## synonym:EE
+- Estonia
+- Eesti
+- Republic of Estonia
+- Eesti Vabariik
+- Estónia
+- Estônia
+- República da Estónia
+- República da Estônia
+
+## synonym:ST
+- Sao Tome and Principe
+- Saint Thomas and Prince
+- Democratic Republic of São Tomé and Príncipe
+- República Democrática de São Tomé e Príncipe
+- São Tomé e Príncipe
+
+## synonym:CN
+- China
+- People's Republic of China
+- PRC
+- Zhōnghuá Rénmín Gònghéguó
+- República Popular da China
+- RPC
+
+## synonym:PH
+- Philippines
+- Pilipinas
+- Filipinas
+- Republic of the Philippines
+- Republika ng Pilipinas
+- República das Filipinas
+- Repúbliká ng̃ Pilipinas
+
+## synonym:SZ
+- Swaziland
+- Eswatini
+- Kingdom of Eswatini
+- Umbuso weSwatini
+- Essuatíni
+- Reino de Essuatíni
+
+## synonym:MR
+- Mauritania
+- Mūrītānyā
+- Mauritanie
+- Agawej
+- Cengit
+- Moritani
+- Gànnaar
+- Murutaane
+- Islamic Republic of Mauritania
+- République islamique de Mauritanie
+- al-Jumhūrīyah al-Islāmīyah al-Mūrītānīyah
+- Mauritânia
+- República Islâmica da Mauritânia
+
+## synonym:HR
+- Croatia
+- Hrvatska
+- Republic of Croatia
+- Republika Hrvatska
+- Croácia
+- República da Croácia
+
+## synonym:MG
+- Madagascar
+- Madagasikara
+- Republic of Madagascar
+- Repoblikan'i Madagasikara
+- République de Madagascar
+- Malagasy Republic
+- Madagáscar
+- República de Madagáscar
+- República de Madagascar
+- República Malgaxe
+
+## synonym:TR
+- Turkey
+- Türkiye
+- Republic of Turkey
+- Türkiye Cumhuriyeti
+- Turquia
+- República da Turquia
+
+## synonym:PF
+- French Polynesia
+- Polynésie française
+- Pōrīnetia Farāni
+- Polinésia Francesa
+
+## synonym:SJ
+- Svalbard and Jan Mayen
+- Svalbard og Jan Mayen
+- Svalbard and Jan Mayen Islands
+- Svalbard e Jan Mayen
+- Svalbard
+- Jan Mayen
+
+## synonym:CG
+- Congo
+- République du Congo
+- Repubilika ya Kôngo
+- Republíki ya Kongó
+- Congo-Brazzaville
+- Congo Brazzaville
+- Congo Republic
+- RotC
+
+## synonym:TH
+- Thailand
+- Kingdom of Thailand
+- Siam
+- Ratcha-anachak Thai
+- Tailândia
+- Reino da Tailândia
+- Sião
+
+## synonym:HM
+- Heard Island and McDonald Islands
+- HIMI
+- Ilha Heard e as Ilhas McDonald
+- Território das Ilhas Heard e McDonald
+- Ilhas Heard
+- Ilhas McDonald
+
+## synonym:YE
+- Yemen
+- al-Jumhūrīyah al-Yamanīyah
+- Yaman
+- Republic of Yemen
+- al-Yama
+- Iémen
+- Iêmen
+- República do Iémen
+- República do Iêmen
+
+## synonym:SB
+- Solomon Islands
+- Islas Salomón
+- Ilhas Salomão
+
+## synonym:NO
+- Norway
+- Kingdom of Norway
+- Kongeriket Norge
+- Kongeriket Noreg
+- Norgga gonagasriika
+- Vuona gånågisrijkka
+- Nöörjen gånkarijhke
+- Norge
+- Noreg
+- Norga
+- Vuodna
+- Nöörje
+- Noruega
+- Reino da Noruega
+
+## synonym:SG
+- Singapore
+- Republic of Singapore
+- Singapura
+- Cingapura
+- Xīnjiāpō
+- Chiṅkappūr
+- República de Singapura
+- Republik Singapura
+
+## synonym:PK
+- Pakistan
+- Islamic Republic of Pakistan
+- Islāmī Jumhūriyah Pākistān
+- Paquistão
+- Pākistān
+- Islami Jamahuriat Pakistan
+- República Islâmica do Paquistão
+
+## synonym:FK
+- Falkland Islands (Malvinas)
+- Malvinas
+- Falkland
+- Ilhas Malvinas
+- Islas Malvinas
+- Ilhas Falkland
+- Falklands
+
+## synonym:NR
+- Nauru
+- Republic of Nauru
+- Repubrikin Naoero
+- Pleasant Island
+- República de Nauru
+- Naoero
+- Ilha Aprazível
+
+## synonym:BR
+- Brazil
+- Brasil
+- Federative Republic of Brazil
+- República Federativa do Brasil
+- República Federal do Brasil
+
+## synonym:RE
+- Réunion
+- La Réunion
+- Île Bourbon
+- Reunião
+
+## synonym:KW
+- Kuwait
+- al-Kuwait
+- State of Kuwait
+- Dawlat al-Kuwait
+- Estado do Kuwait
+
+## synonym:PY
+- Paraguay
+- Republic of Paraguay
+- República del Paraguay
+- Tetã Paraguái
+- Paraguái
+- Paraguai
+
+## synonym:PR
+- Puerto Rico
+- Borinquen
+- Porto Rico
+- Commonwealth of Puerto Rico
+- Estado Libre Asociado de Puerto Rico
+- Free Associated State of Puerto Rico
+- Estado Livre Associado de Porto Rico
+
+## synonym:UY
+- Uruguay
+- Oriental Republic of Uruguay
+- República Oriental del Uruguay
+- República Oriental do Uruguai
+- Uruguai
+
+## synonym:SL
+- Sierra Leone
+- Republic of Sierra Leone
+- Salone
+- Serra Leoa
+- República da Serra Leoa
+
+## synonym:PW
+- Palau
+- Belau
+- Palaos
+- Pelew
+- Republic of Palau
+- Beluu er a Belau
+- República de Palau
+
+## synonym:MA
+- Morocco
+- al-maġhrib
+- Maroc
+- Kingdom of Morocco
+- al-mamlakah al-maghribiyah
+- The Western Kingdom
+- Royaume du Maroc
+- tageldit n lmaɣrib
+- Marrocos
+- Amerruk
+- Murakuc
+- Reino de Marrocos
+
+## synonym:TV
+- Tuvalu
+- Ellice Islands
+- Ilhas Ellice
+
+## synonym:QA
+- Qatar
+- State of Qatar
+- Dawlat Qaṭar
+- Qaṭar
+- Catar
+- Estado do Catar
+- Estado do Qatar
+
+## synonym:PM
+- Saint Pierre and Miquelon
+- Saint-Pierre-et-Miquelon
+- Overseas Collectivity of Saint Pierre and Miquelon
+- Collectivité d'outre-mer de Saint-Pierre-et-Miquelon
+- São Pedro e Miquelão
+- São Pedro e Miquelon
+- Saint-Pierre e Miquelon
+- Coletividade de Ultramar de São Pedro e Miquelão
+
+## synonym:IQ
+- Iraq
+- Êraq
+- Republic of Iraq
+- Komarî Êraq
+- Iraque
+- República do Iraque
+- Al-Jumhuriyah Al-Iraqiyah
+
+## synonym:LK
+- Sri Lanka
+- Srī Lankā prajātāntrika samājavādī janarajaya
+- Ilaṅkai caṉanāyaka cōcalicak kuṭiyaracu
+- Democratic Socialist Republic of Sri Lanka
+- Śrī Laṃkā
+- Ilaṅkai
+- Sri Lanca
+- Seri Lanca
+- República Democrática Socialista do Sri Lanka
+- Ceilão
+- Taprobana
+
+## synonym:AS
+- American Samoa
+- Samoa Americana
+- Amerika Sāmoa
+- Amelika Sāmoa
+- Sāmoa Amelika
+- Tutuila
+
+## synonym:PS
+- State of Palestine
+- Dawlat Filasṭīn
+- Palestine
+- Filasṭīn
+- Estado da Palestina
+
+## synonym:TG
+- Togo
+- Togolese Republic
+- République togolaise
+- República Togolesa
+
+## synonym:OM
+- Oman
+- Salṭanat ʻUmān
+- Sultanate of Oman
+- Omã
+- Omão
+- Sultanato de Omã
+- Saltānat 'Umān
+
+## synonym:UG
+- Uganda
+- Republic of Uganda
+- Jamhuri ya Uganda
+- Eggwanga Yuganda
+- República de Uganda
+- República do Uganda
+
+## synonym:TN
+- Tunisia
+- Republic of Tunisia
+- al-Jumhūrīyah at-Tūnisīyah
+- République tunisienne
+- Tunísia
+- Tūnis
+- Tunisie
+- República Tunisina
+
+## synonym:CU
+- Cuba
+- Republic of Cuba
+- República de Cuba
+
+## synonym:MM
+- Myanmar
+- Burma
+- Republic of the Union of Myanmar
+- Pyidaunzu Thanmăda Myăma
+- Nainngandaw
+- Birmânia
+- República da União de Myanmar
+
+## synonym:GP
+- Guadeloupe
+- Gwadloup
+- Guadalupe
+
+## synonym:AR
+- Argentina
+- Argentine Republic
+- República Argentina
+- República da Argentina
+- Republic of Argentina
+
+## synonym:VG
+- British Virgin Islands
+- BVI
+- Ilhas Virgens Britânicas
+
+## synonym:LU
+- Luxembourg
+- Lëtzebuerg
+- Luxemburg
+- Grand Duchy of Luxembourg
+- Groussherzogtum Lëtzebuerg
+- Grand-Duché de Luxembourg​
+- Großherzogtum Luxemburg
+- Luxemburgo
+- Grão-Ducado do Luxemburgo
+- Grão-Ducado de Luxemburgo
+
+## synonym:GA
+- Gabon
+- Gabonese Republic
+- République gabonaise
+- Gabão
+- República Gabonesa
+
+## synonym:CO
+- Colombia
+- Republic of Colombia
+- República de Colombia
+- Colômbia
+- República da Colômbia
+
+## synonym:MT
+- Malta
+- Republic of Malta
+- Repubblika ta' Malta
+- República de Malta
+
+## synonym:GG
+- Guernsey
+- Guernési
+- Guernesey
+- Guérnesei
+- Guernesei
+- Bailiado de Guernsey
+- Bailiwick of Guernsey
+- Bailliage de Guernesey
+
+## synonym:MS
+- Montserrat
+- Monserrate
+- Ilha Esmeralda das Caraíbas
+- The Emerald Isle of the Caribbean
+- Emerald Isle of the Caribbean
+
+## synonym:SC
+- Seychelles
+- Republic of Seychelles
+- République des Seychelles
+- La Repiblik Sesel
+- Sesel
+- Seicheles
+- República das Seicheles ou Seychelles
+- República das Seychelles
+
+## synonym:AX
+- Åland Islands
+- Åland
+- Fasta Åland
+- Ilhas Åland
+- Ilhas de Aland
+- Alanda
+- Ahvenanmaa
+- Arquipélago da Åland
+- Arquipélago da Aland
+- Alandia
+
+## synonym:FM
+- Federated States of Micronesia
+- FSM
+- Micronesia
+- Estados Federados da Micronésia
+- EFM
+- Micronésia
+
+## synonym:GU
+- Guam
+- Guåhån
+- Guão
+- Guame
+
+## synonym:PT
+
+- Portugal
+- Portuguese Republic
+- República Portuguesa
+- portugal
+
+## synonym:JP
+- Japan
+- Nippon
+- Nihon
+- Nippon-koku
+- Nihon-koku
+- Japão
+- Estado do Japão
+
+## synonym:IT
+- Italy
+- Italia
+- Italian Republic
+- Repubblica Italiana
+- Itália
+- República Italiana
+
+## synonym:NP
+- Nepal
+- Federal Democratic Republic of Nepal
+- Saṅghīya Lokatāntrik Gaṇatantra Nepāl
+- República Democrática Federal do Nepal
