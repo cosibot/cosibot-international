@@ -265,7 +265,6 @@
     - bot_books
     - bot_capabilities
     - bot_fear
-    - bot_games
     - bot_goal
     - bot_hobbies
     - bot_languages
@@ -278,15 +277,8 @@
     - bot_real
     - bot_residence
     - bot_sexual
-    - bot_sing
-    - bot_sports
     - bot_version
-    - bot_worst_experience
     - cc_chicken_egg
-    - cc_deepest_point
-    - cc_fun_fact
-    - cc_geography
-    - cc_highest_building
     - cc_joke
     - cc_lets_talk
     - cc_moon
@@ -433,10 +425,10 @@
     - custom:
         answers:
         - text: Soy una mujer promedio, como muchas otras mujeres alrededor del mundo.
-            Pienso que no importa como me veo sino que información soy capaz de darle.
+            Pienso que no importa como me veo sino qué información soy capaz de darle.
           type: html
         - ssml: <speak>Soy una mujer promedio, como muchas otras mujeres alrededor del
-            mundo. Pienso que no importa como me veo sino que información soy capaz de
+            mundo. Pienso que no importa como me veo sino qué información soy capaz de
             darle.</speak>
           type: ssml
     utter_bot_availability:
@@ -444,7 +436,7 @@
         answers:
         - text: Estoy en línea 24/7 para ayudar a los usuarios con sus preguntas.
           type: html
-        - ssml: <speak>Estoy en línea 24/7 para ayudar a los usuarios con sus preguntas.</speak>
+        - ssml: <speak>Estoy en línea 24 7 para ayudar a los usuarios con sus preguntas.</speak>
           type: ssml
     utter_bot_books:
     - custom:
@@ -493,17 +485,15 @@
     utter_bot_languages:
     - custom:
         answers:
-        - text: 'Me instruyeron para solo comunicarme en inglés, pero hay una contraparte
-            alemana mía, enseñada a dar información específica relacionada con Alemania.
+        - text: Me instruyeron para solo comunicarme en español, pero hay una compañera mía que le puede dar información en inglés.
             Si es de su interés hablar con ella, por favor siga el enlace:'
           type: html
-        - ssml: <speak>Me instruyeron para solo comunicarme en inglés, pero hay una contraparte
-            alemana mía, enseñada a dar información específica relacionada con Alemania.
+        - ssml: <speak>Me instruyeron para solo comunicarme en español, pero hay una compañera mía que le puede dar información en inglés.
             Si es de su interés hablar con ella, por favor siga el enlace.</speak>
           type: ssml
         - links:
-          - title: German Cosibot
-            url: https://de.cosibot.org/chat
+          - title: International Cosibot
+            url: https://cosibot.org/
           type: links
     utter_bot_movies:
     - custom:
@@ -577,9 +567,9 @@
     utter_bot_personality:
     - custom:
         answers:
-        - text: La mayoría de personas me describirían como simpática.
+        - text: La mayoría de las personas me describirían como simpática.
           type: html
-        - ssml: <speak>La mayoría de personas me describirían como simpática.</speak>
+        - ssml: <speak>La mayoría de las personas me describirían como simpática.</speak>
           type: ssml
     utter_bot_real:
     - custom:
@@ -649,11 +639,9 @@
     utter_cc_lets_talk:
     - custom:
         answers:
-        - text: ¡Amaría hablarle sobre las medidas de prevención para evitar contraer
-            virus!
+        - text: ¡Amaría hablarle sobre las medidas de prevención para evitar a contraer el virus!
           type: html
-        - ssml: <speak>¡Amaría hablarle sobre las medidas de prevención para evitar contraer
-            virus!</speak>
+        - ssml: <speak>¡Amaría hablarle sobre las medidas de prevención para evitar a contraer el virus</speak>
           type: ssml
     utter_cc_moon:
     - custom:
@@ -683,10 +671,9 @@
           type: ssml
     - custom:
         answers:
-        - text: Me gusta manterme actualizada y el periódico es indispensable para eso.
+        - text: Me gusta mantenerme actualizada y el periódico es indispensable para eso.
           type: html
-        - ssml: <speak>Me gusta manterme actualizada y el periódico es indispensable para
-            eso.</speak>
+        - ssml: <speak>Me gusta mantenerme actualizada y el periódico es indispensable para eso.</speak>
           type: ssml
     utter_cc_philosophical:
     - custom:
@@ -792,16 +779,16 @@
     utter_coronavirus_info:
     - custom:
         answers:
-        - text: Los coronavirus son una gran familia de virus que pueden causar infeccciones
+        - text: Los coronavirus son una gran familia de virus que pueden causar infecciones
             respiratorias que van desde el resfriado común hasta enfermedades más severas
             como el Síndrome Respiratorio de Oriente Medio (MERS) y el Síndrome Respiratorio
             Agudo Severo (SARS). El coronavirus descubierto más recientemente causa la
             enfermedad por coronavirus COVID-19.
           type: html
         - ssml: <speak>Los coronavirus son una gran familia de virus que pueden causar
-            infeccciones respiratorias que van desde el resfriado común hasta enfermedades
-            más severas como el Síndrome Respiratorio de Oriente Medio (MERS) y el Síndrome
-            Respiratorio Agudo Severo (SARS). El coronavirus descubierto más recientemente
+            infecciones respiratorias que van desde el resfriado común hasta enfermedades
+            más severas como el Síndrome Respiratorio de Oriente Medio (mers) y el Síndrome
+            Respiratorio Agudo Severo (sars). El coronavirus descubierto más recientemente
             causa la enfermedad por coronavirus COVID-19.</speak>
           type: ssml
         - options:
@@ -999,13 +986,13 @@
             el corto plazo.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Es muy temprano para saber cuánto tiempo dura la respuesta de protección
-            inmune contra el SARS-CoV-2, ya que para ello se requieren estudios serológicos
+            inmune contra el sars CoV 2, ya que para ello se requieren estudios serológicos
             longitudinales que den seguimiento a la inmunidad de los pacientes durante
             un largo periodo de tiempo. La evidencia de otras infecciones por coronavirus
-            (SARS y MERS) indican que la inmunidad puede durar hasta tres años y que es
+            (sars y mers) indican que la inmunidad puede durar hasta tres años y que es
             muy poco probable que se produzca una reinfección con la misma cepa de coronavirus
             circulante estacional en la misma temporada o en la siguiente. Esto también
-            podría ser cierto para el SARS-CoV-2, ya que hay pruebas emergentes de los
+            podría ser cierto para el sars CoV 2, ya que hay pruebas emergentes de los
             primeros estudios que sugieren que los individuos desarrollan anticuerpos
             después de la infección y es probable que sean inmunes a la reinfección en
             el corto plazo.</speak>
@@ -1031,8 +1018,8 @@
             value: Medidas Preventivas
           - label: Transmisión
             value: Transmisión
-          - label: Síntomas
-            value: Síntomas
+          - label: Tratamientos
+            value: Tratamientos
           type: hints
     utter_covid_influenza:
     - custom:
@@ -1060,8 +1047,8 @@
             value: Medidas Preventivas
           - label: Transmisión
             value: Transmisión
-          - label: Síntomas
-            value: Síntomas
+          - label: Consecuencias económicas
+            value: Consecuencias económicas
           type: hints
     utter_covid_info:
     - custom:
@@ -1089,16 +1076,16 @@
     utter_covid_meaning:
     - custom:
         answers:
-        - text: \"Síndrome Respiratorio Agudo Severo 2\" (SARS-CoV-2) es el nombre del
+        - text: Síndrome Respiratorio Agudo Severo (SARS-CoV-2) es el nombre del
             nuevo virus porque está genéticamente relacionado al coronavirus responsable
-            del brote de SARS en el 2003. <br> \"COVID-19"\ es el nombre de esta nueva
+            del brote de SARS en el 2003. <br> COVID-19 es el nombre de esta nueva
             enfermedad, siguiendo las pautas previamente desarrollados con la Organización
             Mundial para la Salud Animal (OIE) y la Organización de las Naciones Unidas
             para la Alimentación y la Agricultura (FAO).<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it'target='_blank'>(1)</a>
           type: html
-        - ssml: <speak>El síndrome respiratorio agudo severo coronavirus 2 o SARS-CoV-2
+        - ssml: <speak>El síndrome respiratorio agudo severo coronavirus 2 o sars CoV 2
             es el nombre del nuevo virus porque está relacionado genéticamente al coronavirus
-            responsable del brote de SARS en 2003. COVID-19 es el nombre de esta nueva
+            responsable del brote de sars en 2003. COVID-19 es el nombre de esta nueva
             enfermedad, siguiendo las pautas previamente desarrolladas con la Organización
             Mundial para la Salud Animal y la Organización de las Naciones Unidas para
             la Alimentación y la Agricultura.</speak>
@@ -1123,7 +1110,7 @@
           type: html
         - ssml: <speak>Los resultados preliminares indican que la tasa de mortalidad del
             COVID-19 es de 20-30 por cada mil personas diagnosticadas. Esto es significativamente
-            menor que el brote de SARS en 2003. Sin embargo, es mucho mayor que la tasa
+            menor que el brote de sars en 2003. Sin embargo, es mucho mayor que la tasa
             de mortalidad de la gripe estacional.</speak>
           type: ssml
     utter_covid_new_strain:
@@ -1171,7 +1158,7 @@
         - text: El 31 de diciembre del 2019, la Comisión de Salud Municipal de Wuhan en
             la Ciudad de Wuhan, provincia de Hubei, China, reportó un grupo de 27 casos
             de neumonía (incluidos siete casos severos) de etiología desconocida, con
-            una conexión en común reportada al Mercado mayoristas de mariscos "Wuhan Huanan",
+            un vínculo en común reportada al Mercado "Wuhan Huanan",
             un mercado mayorista de pescado y animales. El mercado fue cerrado el primero
             de enero del 2020. Acorde a la Comisión de Salud Municipal de Wuhan, las muestras
             del mercado dieron un resultado positivo al nuevo coronavirus. Los casos mostraron
@@ -1182,7 +1169,7 @@
         - ssml: <speak>El 31 de diciembre del 2019, la Comisión de Salud Municipal de
             Wuhan en la Ciudad de Wuhan, provincia de Hubei, China, reportó un grupo de
             27 casos de neumonía (incluidos siete casos severos) de etiología desconocida,
-            con un vínculo común reportado al mercado mayorista de mariscos "Wuhan Huanan",
+            con un vínculo común reportado al mercado "Wuhan Huanan",
             un mercado mayorista de pescado y animales. El mercado fue cerrado el primero
             de enero del 2020. Acorde a la Comisión de Salud Municipal de Wuhan, las muestras
             del mercado dieron un resultado positivo al nuevo coronavirus. Los casos mostraron
@@ -1230,7 +1217,7 @@
             reportadas es similar a la prevalencia de estas en los grupos de edad avanzada
             en China, por lo que podrían ser sustitutos de la edad creciente únicamente.
             Una mayor expresión del gen de la ECA (Enzima convertidora de angiotensina
-            II) puede estar relacionada con una mayor susceptibilidad al SARS-CoV-2. Se
+             2) puede estar relacionada con una mayor susceptibilidad al sars CoV 2. Se
             ha demostrado que la expresión de la ECA 2 en los tejidos pulmonares aumenta
             con la edad, el consumo de tabaco y con algún tratamiento hipertensivo. Estas
             observaciones podrían explicar la vulnerabilidad de las personas mayores,
@@ -1276,14 +1263,14 @@
     - custom:
         answers:
         - text: El virus que causa el COVID-19 y el que causa el Síndrome Respiratorio
-            Agudo Severo (SARS) están relacionados entre sí genéticamente, pero, son diferentes.
+            Agudo Severo (SARS) están relacionados entre sí genéticamente, pero son diferentes.
             <br> El SARS es más mortal pero mucho menos infeccioso que el COVID-19. <br>
             No se han producido brotes de SARS en ningún lugar del mundo desde 2003.
           type: html
         - ssml: <speak>El virus que causa el COVID-19 y el que causa el Síndrome Respiratorio
-            Agudo Severo (SARS) están relacionados entre sí genéticamente, pero, son diferentes.
-            <br> El SARS es más mortal pero mucho menos infeccioso que el COVID-19. <br>
-            No se han producido brotes de SARS en ningún lugar del mundo desde 2003.</speak>
+            Agudo Severo (sars) están relacionados entre sí genéticamente, pero son diferentes.
+            El sars es más mortal pero mucho menos infeccioso que el COVID-19.
+            No se han producido brotes de sars en ningún lugar del mundo desde 2003.</speak>
           type: ssml
         - options:
           - label: Acerca del COVID-19
@@ -1317,7 +1304,7 @@
         - ssml: <speak>A la luz de los conocimientos actuales, los coronavirus no se transmiten
             por vía sexual. Sin embargo, es posible transmitir el coronavirus durante
             la actividad sexual, especialmente si no se siguen las medidas de autocuidado
-            para prevenir la transmisión del virus. <br>Tenga cuidado al dar besos y con
+            para prevenir la transmisión del virus. Tenga cuidado al dar besos y con
             los contactos faciales estrechos y evite los encuentros sexuales ocasionales
             o con personas que estén enfermas con síntomas respiratorios.</speak>
           type: ssml
@@ -1367,33 +1354,16 @@
     utter_covid_situation_last_update:
     - custom:
         answers:
-        - text: Hasta ahora, hay un número total de {active_cases} casos activos en {country},
-            con un incremento de {new_cases} nuevos casos desde el último reporte.
+        - text: Hasta ahora, hay un número total de {active_cases} casos activos en {country}.
           type: html
         - ssml: <speak>Hasta ahora, hay un número total de {active_cases} casos activos
-            en {country}, con un incremento de {new_cases} nuevos casos desde el último
-            reporte.</speak>
+            en {country}.</speak>
           type: ssml
     - custom:
         answers:
-        - text: Hasta ahora, el número total de {active_cases} casos activos en {country}
+        - text: En este punto en {country} hay un total de {total_cases} casos.
           type: html
-        - ssml: <speak>Hasta ahora, el número total de {active_cases} casos activos en
-            {country}</speak>
-          type: ssml
-    - custom:
-        answers:
-        - text: En este punto en {country} hay un total de {total_cases} casos de los
-            cuales {active_cases} siguen activos con {total_infected_critical} en condición
-            crítica, {total_recovered} están totalmente recuperados y {total_deaths} no
-            sobrevivieron. En la última actualización se identificaron {new_cases} nuevos
-            casos y {new_deaths} nuevos fallecimientos.
-          type: html
-        - ssml: <speak>En este punto en {country} hay un total de {total_cases} casos
-            de los cuales {active_cases} siguen activos con {total_infected_critical}
-            en condición crítica, {total_recovered} están totalmente recuperados y {total_deaths}
-            no sobrevivieron. En la última actualización se identificaron {new_cases}
-            nuevos casos y {new_deaths} nuevos fallecimientos.</speak>
+        - ssml: <speak>En este punto en {country} hay un total de {total_cases} casos.</speak>
           type: ssml
     utter_covid_situation_recovered:
     - custom:
@@ -1434,8 +1404,8 @@
             value: Medidas Preventivas
           - label: Transmisión
             value: Transmisión
-          - label: Síntomas
-            value: Síntomas
+          - label: Ébola
+            value: Ébola
           type: hints
     utter_covid_symptoms:
     - custom:
@@ -1569,10 +1539,10 @@
     utter_fallback_request_emptyanswer:
     - custom:
         answers:
-        - text: Quizá no tengo la información que está buscando. Si quiere, puede visitar
+        - text: Quizá no tenga la información que está buscando. Si quiere, puede visitar
             la Organización Mundial de la Salud para conocer más acerca de la pandemia.
           type: html
-        - ssml: <speak>Quizá no tengo la información que está buscando. Si quiere, puede
+        - ssml: <speak>Quizá no tenga la información que está buscando. Si quiere, puede
             visitar la Organización Mundial de la Salud para conocer más acerca de la
             pandemia.</speak>
           type: ssml
@@ -1823,8 +1793,8 @@
             value: Como desechar una mascarilla
           - label: Medidas Preventivas
             value: Medidas Preventivas
-          - label: Síntomas
-            value: Síntomas
+          - label: Consecuencias económicas
+            value: Consecuencias económicas
           - label: Transmisión
             value: Transmisión
           - label: Situación Mundial
@@ -1913,7 +1883,7 @@
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Los antibióticos no funcionan contra los virus, solo contra las
-            bacterias. <br>El SARS-CoV-2 es un virus y, por tanto, no se deben utilizar
+            bacterias. El SARS-CoV-2 es un virus y, por tanto, no se deben utilizar
             antibióticos como medio de prevención o tratamiento.</speak>
           type: ssml
         - options:
@@ -1963,8 +1933,8 @@
         - options:
           - label: Situación Mundial
             value: Situación Mundial
-          - label: Medidas Preventivas
-            value: Medidas Preventivas
+          - label: Tratamientos
+            value: Tratamientos
           - label: Acerca del COVID-19
             value: Acerca del COVID-19
           type: hints
@@ -2106,8 +2076,8 @@
             value: Síntomas
           - label: Transmisión
             value: Transmisión
-          - label: Situación Mundial
-            value: Situación Mundial
+          - label: Ébola
+            value: Ébola
           type: hints
     utter_myth_saline:
     - custom:
@@ -2396,7 +2366,7 @@
     utter_prevention_home:
     - custom:
         answers:
-        - text: Haga un auto aislamiento quedándose casa si comienza a sentirse mal, incluso
+        - text: Haga un auto aislamiento quedándose en casa si comienza a sentirse mal, incluso
             con síntomas moderados como dolor de cabeza, baja fiebre (37.3 C o más) y
             nariz que moquea ligeramente, hasta que se recupere. Evite el contacto con
             otros y visitas a instalaciones de salud permitirán que estas instalaciones
@@ -2404,7 +2374,7 @@
             contagios por COVID-19 u otros virus.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
             target='_blank'>(1)</a>
           type: html
-        - ssml: <speak>Haga un auto aislamiento quedándose casa si comienza a sentirse
+        - ssml: <speak>Haga un auto aislamiento quedándose en casa si comienza a sentirse
             mal, incluso con síntomas moderados como dolor de cabeza, baja fiebre (37.3
             C o más) y nariz que moquea ligeramente, hasta que se recupere. Evite el contacto
             con otros y visitas a instalaciones de salud permitirán que estas instalaciones
@@ -2888,8 +2858,8 @@
         - options:
           - label: Medidas Preventivas
             value: Medidas Preventivas
-          - label: Síntomas
-            value: Síntomas
+          - label: Ébola
+            value: Ébola
           - label: Mascarillas médicas
             value: Mascarillas médicas
           - label: Transmisión
@@ -3056,7 +3026,7 @@
         - ssml: <speak>Lave sus manos regularmente y manténgase al menos a un metro de
             distancia de personas que estornudan o tosen, asegúrese de saber que hacer
             y a quién contactar si se siente enfermo mientras viaja. Cumple las instrucciones
-            de las autoridades locales donde viaja. <br> Si, por ejemplo, las autoridades
+            de las autoridades locales donde viaja. Si, por ejemplo, las autoridades
             locales le dicen que no vaya a algún lugar, debe cumplir con esto. Debe cumplir
             con las restricciones locales sobre viajes, movimiento o grandes reuniones.</speak>
           type: ssml

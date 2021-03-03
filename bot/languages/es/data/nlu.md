@@ -363,7 +363,7 @@
 - Tu miedo
 - Tus miedos
 
-## intent:bot_games
+<!-- ## intent:bot_games
 - Eres buena en los juegos de computadora?
 - Eres buena con los juegos de pc?
 - Eres buena en los juegos de estrategia?
@@ -427,7 +427,7 @@
 - Jugarías videojuegos?
 - Podrías jugar juegos de computadora?
 - Juegas en la pc?
-- Tienes videojuegos para jugar?
+- Tienes videojuegos para jugar? -->
 
 ## intent:bot_goal
 - Tienes sueños?
@@ -1161,7 +1161,7 @@
 - pene
 - me pongo ropa interior?
 
-## intent:bot_sing
+<!-- ## intent:bot_sing
 - Eres buena cantante?
 - Eres capaz de cantar algo?
 - Puedes cantar algo?
@@ -1188,9 +1188,9 @@
 - Que tal cantas?
 - Cantas?
 - Crees que cantas bien?
-- Puedes cantar?
+- Puedes cantar? -->
 
-## intent:bot_sports
+<!-- ## intent:bot_sports
 - Estás interesada en los deportes?
 - Actualmente practicas algún deporte?
 - Te gusta hacer deporte?
@@ -1227,7 +1227,7 @@
 - Cuál es tu deporte favorito de todos los tiempos?
 - Cuál es tu equipo favorito de deportes?
 - Qué deportes te gustan?
-- Tu y los deportes
+- Tu y los deportes -->
 
 ## intent:bot_version
 - Versión del bot
@@ -1261,7 +1261,7 @@
 - version
 - Dime la versión de tu software
 
-## intent:bot_worst_experience
+<!-- ## intent:bot_worst_experience
 - Mala experiencia?
 - Malas experiencias?
 - También has tenido una mala experiencia?
@@ -1339,7 +1339,7 @@
 - ¿Cuáles fueron tus peores experiencias?
 - Cual es tu peor experiencia?
 - Peor experiencia vivida
-- Tu horrible experiencia
+- Tu horrible experiencia -->
 
 ## intent:cc_chicken_egg
 - Puedes decirme qué fue primero? ¿El huevo o la gallina?
@@ -1381,7 +1381,7 @@
 - ¿Quién vino primero? ¿Huevo o gallina?
 - Quién vino primero el huevo o la gallina?
 
-## intent:cc_deepest_point
+<!-- ## intent:cc_deepest_point
 - El lugar más profundo de la tierra
 - Lugar más profundo del planeta
 - Lugar más profundo de la tierra
@@ -1409,9 +1409,9 @@
 - ¿Dónde está el lugar más profundo de la tierra?
 - ¿Dónde está el lugar más profundo del planeta?
 - Dónde está el punto más profundo de la tierra?
-- Dónde está el lugar más profundo del planeta?
+- Dónde está el lugar más profundo del planeta? -->
 
-## intent:cc_fun_fact
+<!-- ## intent:cc_fun_fact
 - Tienes algún hecho divertido o fun fact?
 - Algunos hechos interesantes
 - Puedes decirme algo chistoso?
@@ -1444,9 +1444,9 @@
 - Dime algo interesante
 - Dime algo de interés
 - Conoces algún hecho divertido?
-- Conoces algo interesante?
+- Conoces algo interesante? -->
 
-## intent:cc_geography
+<!-- ## intent:cc_geography
 - Sabes algo de geografía?
 - Estás en Macao?
 - Tienes un camino a Bélgica?
@@ -1485,9 +1485,9 @@
 - Donde esta Bolivia?
 - Donde queda Alemania?
 - Donde esta Italia?
-- Donde queda Francia?
+- Donde queda Francia? -->
 
-## intent:cc_highest_building
+<!-- ## intent:cc_highest_building
 - Edificio más alto del mundo?
 - Construcción más grande la tierra
 - Edificio más alto del mundo?
@@ -1504,7 +1504,7 @@
 - Dónde está el edificio más alto del mundo?
 - Dónde está el edificio más grande del planeta?
 - Dónde está el edificio más alto del mundo?
-- Dónde está la construcción más alta de la tierra?
+- Dónde está la construcción más alta de la tierra? -->
 
 ## intent:cc_joke
 - Anécdota
@@ -2531,45 +2531,50 @@
 - El coronavirus afecta a los menores de 18 años?
 
 ## intent:covid_cosibot
-- Puedo ser voluntario en cosibot?
-- Quiero ser voluntario.
 - Puedes decirme más sobre tu anuncio?
 - Cosiboot
-- Quiero ser parte de Cosibit, cuales son los requisitos?
-- Voluntario con cosibot
 - Qué es cosibot?
-- Yo quiero ser voluntario.
-- Quiero ayudar en este proyecto.
-
-## intent:covid_volunteer
-- Quiero ser parte de Cosibot, cuáles son los requisitos?
-- ¿Cómo puedo participar de voluntario?
 - ¿Qué es cosibit?
 - Qué es el cosibot?
 - Que es cosibot?
+- Contáme más sobre cosibot
+- Cosibot
+- Que es cosibot
+- Que significa cosibot
+
+## intent:covid_volunteer
+- Puedo ser voluntario en cosibot?
+- Quiero ser voluntario.
+- Quiero ser parte de Cosibit, cuales son los requisitos?
+- Voluntario con cosibot
+- ¿Cómo puedo participar de voluntario?
+- Yo quiero ser voluntario.
+- Quiero ayudar en este proyecto.
 - ¿Cómo puedo ayudar a las causas relacionadas al COVID-19?
 - ¿Cómo puedo participar en un proyecto?
 - Cómo puedo ayudar a una ONG?
-- ¿Cómo inscribo mi proyecto en Tech4Covid?
 - ¡Quiero ayudar!
 
 ## intent:covid_register
-- ¿Qué es el Tech4Covid?
-- Dime sobre tech4covid
+- ¿Cómo puedo registrar mi proyecto?
 - Cómo ayudo a las causas realacionadas al coronavirus?
 - Cómo ayudo a las causas relacionadas al COVID-19?
+- ¿Cómo inscribo mi proyecto en Tech4Covid?
+- Cómo participo en un proyecto?
+- inscribirse Tech4Covid
+- inscripción Tech4Covid
 
 ## intent:covid_tech4covid
 - Tech4Covid
 - Acerca de tech4covid
-- Cómo participo en un proyecto?
 - ¿Y qué es Tech4Covid?
 - Qué es el tech4covid?
-- ¿Cómo puedo registrar mi proyecto?
 - ¿Sabes acerca de Tech4Covid?
 - Q es tech4covid
 - Que es tech4covid?
 - Qué sería tech4covid?
+- ¿Qué es el Tech4Covid?
+- Dime sobre tech4covid
 
 ## intent:covid_crisis_howlong
 - Crees que el próximo año no habrá coronavirus
@@ -2636,8 +2641,6 @@
 ## intent:covid_current_statistics
 - Mérida
 - [Caracas]{"entity": "geography", "value": "town"}
-- COVID
-- COVID-19
 - Coronavirus en [México]{"entity": "country_code", "value": "MX"}
 - Noticias al momento en [Alemania]{"entity": "country_code", "value": "DE"}
 - Situación actual en [Lima]{"entity": "geography", "value": "town"}
@@ -3980,8 +3983,6 @@
 - El mareo es un signo de COVID-19?
 - Quiero saber como son los síntomas
 - Dime los síntomas del covid
-- Tengo síntomas?
-- Estoy teniendo síntomas?
 - Bot me gustaría conocer los síntomas
 - El dolor de espalda, pecho y cuello pueden ser sintomas de coronavirus
 - La fiebre alta o baja son síntomas de coronavirus
@@ -4505,6 +4506,12 @@
 - Te encuentras bien?
 - Todo bien?
 - Estás ok?
+- Cómo andás?
+- Todo tranqui?
+- Qué ondis
+- Qué ondazo?
+- Quá onda vos
+- Cómo va?
 - Buenas tardes Helen, cómo estás?
 - Has estado bien?
 - Helen como estás?
@@ -4617,6 +4624,7 @@
 - las mascaras ayudan?
 - los tapabocas previenen el covid
 - puedo pedir cubrebocas
+- barbijo
 - ok podrías por favor decirme como usar el cubrebocas?
 - Tengo que usar guantes?
 - tengo que ponerme cubrebocas?
@@ -4670,6 +4678,7 @@
 - Como me quito el cubrebocas?
 - Como desecharlo?
 - Como desechar el cubrebocas?
+- Después de usar el barbijo
 
 ## intent:mask_use_put
 - Antes de utilizar cubrebocas desechable
@@ -4730,6 +4739,7 @@
 - como ponerse un tapabocas
 - ponerse un tapabocas
 - Cuál es la forma correcta de usar cubrebocas?
+- Cómo me pongo el barbijo
 
 ## intent:myth_alcohol
 - Alcohol encima de mi
