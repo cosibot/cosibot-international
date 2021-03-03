@@ -2661,7 +2661,7 @@
 - y USA
 - Cómo es la situación del covid en [España]{"entity": "country_code", "value": "ES"}?
 - Qué hay acerca de [Argentina]{"entity": "country_code", "value": "AR"}?
-- Coronavirus en [Costa Rica]
+- Coronavirus en [Costa Rica]{"entity": "country_code", "value": "CR"}
 
 ## intent:covid_dangerous
 - Estoy seguro?
