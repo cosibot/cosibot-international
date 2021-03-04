@@ -82,7 +82,6 @@
       type: text
 
   entities:
-    - virus
     - language
     - bot_language_code
     - preferred_lang
@@ -1009,7 +1008,7 @@
         - ssml: <speak>El período de incubación es el tiempo que transcurre entre la contracción
             del virus y comenzar a tener síntomas de la enfermedad. La mayoría de las
             estimaciones para el período de incubación para COVID-19 van desde 1 hasta
-            14 días, lo más común es alrededor de 5 días.</speak
+            14 días, lo más común es alrededor de 5 días.</speak>
           type: ssml
         - options:
           - label: Acerca del COVID-19
@@ -3092,7 +3091,7 @@
         answers:
         - text: Lo siento pero no nos veo compatibles.
           type: html
-        - ssml: <speak>Lo siento pero no nos veo compatibles.</speak
+        - ssml: <speak>Lo siento pero no nos veo compatibles.</speak>
           type: ssml
     utter_user_no_further_questions:
     - custom:
@@ -3315,7 +3314,7 @@
               value: Si
             - label: No
               value: No
-            type: hints
+            type: multichoice
     utter_welcome:
       - custom:
           answers:
