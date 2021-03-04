@@ -794,12 +794,12 @@
         - options:
           - label: Acerca del COVID-19
             value: Acerca del COVID-19
-          - label: Transmisión
-            value: Transmisión
-          - label: Síntomas
-            value: Síntomas
-          - label: Medidas Preventivas
-            value: Medidas Preventivas
+          - label: Lamparas UV
+            value: Lamparas UV
+          - label: Mitos
+            value: Mitos
+          - label: Cuarentena
+            value: Cuarentena
           type: hints
     utter_covid_aftereffects:
     - custom:
@@ -875,10 +875,10 @@
             value: Acerca del COVID-19
           - label: Medidas Preventivas
             value: Medidas Preventivas
-          - label: Transmisión
-            value: Transmisión
-          - label: Síntomas
-            value: Síntomas
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: 5G
+            value: 5G
           type: hints
     utter_covid_current_statistics:
     - custom:
@@ -892,12 +892,12 @@
         - options:
           - label: Acerca del COVID-19
             value: Acerca del COVID-19
-          - label: Medidas Preventivas
-            value: Medidas Preventivas
+          - label: Medidas durante el viaje
+            value: Medidas durante el viaje
           - label: Transmisión
             value: Transmisión
-          - label: Síntomas
-            value: Síntomas
+          - label: Mitos
+            value: Mitos
           type: hints
         - links:
           - title: COVID-19 Situation
@@ -963,12 +963,12 @@
         - options:
           - label: Acerca del COVID-19
             value: Acerca del COVID-19
-          - label: Medidas Preventivas
-            value: Medidas Preventivas
-          - label: Transmisión
-            value: Transmisión
-          - label: Síntomas
-            value: Síntomas
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
+          - label: Cuarentena
+            value: Cuarentena
+          - label: Antibióticos
+            value: Antibióticos
           type: hints
     utter_covid_immunity:
     - custom:
@@ -1026,7 +1026,7 @@
         answers:
         - text: Tanto el COVID-19 como los virus de la influenza causan enfermedades respiratorias
             y son transmitidos por contacto, gotas o fómites. Se estima que el intervalo
-            de serie para el virus COVID-19 es de a 5 a 6 días, mientras que para el virus
+            de serie para el virus COVID-19 es de 5 a 6 días, mientras que para el virus
             de la influenza el intervalo es de 3 días. Esto significa que la influenza
             se puede propagar más rápido que el COVID-19. Aunque similar, la mortalidad
             por COVID-19 parece más alta que por la influenza, especialmente la influenza
@@ -1034,7 +1034,7 @@
           type: html
         - ssml: <speak>Tanto el COVID-19 como los virus de la influenza causan enfermedades
             respiratorias y son transmitidos por contacto, gotas o fómites. Se estima
-            que el intervalo de serie para el virus COVID-19 es de a 5 a 6 días, mientras
+            que el intervalo de serie para el virus COVID-19 es de 5 a 6 días, mientras
             que para el virus de la influenza el intervalo es de 3 días. Esto significa
             que la influenza se puede propagar más rápido que el COVID-19. Aunque similar,
             la mortalidad por COVID-19 parece más alta que por la influenza, especialmente
@@ -1064,14 +1064,14 @@
             es ahora una pandemia que afecta a muchos países a nivel mundial.</speak>
           type: ssml
         - options:
-          - label: Medidas Preventivas
-            value: Medidas Preventivas
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
           - label: Transmisión
             value: Transmisión
-          - label: Síntomas
-            value: Síntomas
-          - label: Situación Mundial
-            value: Situación Mundial
+          - label: Cuarentena
+            value: Cuarentena
+          - label: Medidas durante el viaje
+            value: Medidas durante el viaje
           type: hints
     utter_covid_meaning:
     - custom:
@@ -1095,8 +1095,8 @@
             value: Acerca del COVID-19
           - label: Medidas Preventivas
             value: Medidas Preventivas
-          - label: Transmisión
-            value: Transmisión
+          - label: Mitos
+            value: Mitos
           - label: Síntomas
             value: Síntomas
           type: hints
@@ -1145,8 +1145,8 @@
             value: Medidas Preventivas
           - label: Transmisión
             value: Transmisión
-          - label: Síntomas
-            value: Síntomas
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
           type: hints
         - links:
           - title: COVID-19 World Situation
@@ -1234,7 +1234,7 @@
             Si es posible, es recomendable llamar primero al médico o al centro de salud
             para que el paciente pueda ser trasladado a la clínica correcta.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a>
           type: html
-        - ssml: <speak>Las personas de todas las edades que experimentan fiebre y/o tos
+        - ssml: <speak>Las personas de todas las edades que experimentan fiebre y, o tos
             asociada a la dificultad para respirar o a la falta de aire, dolor o presión
             en el pecho, pérdida del habla o movimiento deben buscar atención médica inmediatamente.
             Si es posible, es recomendable llamar primero al médico o al centro de salud
@@ -1485,12 +1485,12 @@
             seres queridos y a la comunidad.</speak>
           type: ssml
         - options:
-          - label: Medidas Preventivas
-            value: Medidas Preventivas
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
           - label: Transmisión
             value: Transmisión
-          - label: Síntomas
-            value: Síntomas
+          - label: Cuarentena
+            value: Cuarentena
           type: hints
     utter_ebola:
     - custom:
@@ -1651,8 +1651,8 @@
             value: Medidas Preventivas
           - label: Transmisión
             value: Transmision
-          - label: Síntomas
-            value: Síntomas
+          - label: Animales
+            value: Animales
           - label: Mitos
             value: Mitos
           type: hints
@@ -1724,14 +1724,14 @@
             y la máscarilla, cubrebocas o tapabocas.</speak>
           type: ssml
         - options:
-          - label: Como ponerse una mascarilla
-            value: Como ponerse una mascarilla
+          - label: Después de un viaje
+            value: Después de un viaje
           - label: Medidas Preventivas
             value: Medidas Preventivas
           - label: Síntomas
             value: Síntomas
-          - label: Transmisión
-            value: Transmisión
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
           - label: Situación Mundial
             value: Situación Mundial
           type: hints
@@ -1795,8 +1795,8 @@
             value: Medidas Preventivas
           - label: Consecuencias económicas
             value: Consecuencias económicas
-          - label: Transmisión
-            value: Transmisión
+          - label: Animales
+            value: Animales
           - label: Situación Mundial
             value: Situación Mundial
           type: hints
@@ -1883,7 +1883,7 @@
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Los antibióticos no funcionan contra los virus, solo contra las
-            bacterias. El SARS-CoV-2 es un virus y, por tanto, no se deben utilizar
+            bacterias. El sars CoV 2 es un virus y, por tanto, no se deben utilizar
             antibióticos como medio de prevención o tratamiento.</speak>
           type: ssml
         - options:
@@ -1893,8 +1893,8 @@
             value: Síntomas
           - label: Transmisión
             value: Transmisión
-          - label: Situación Mundial
-            value: Situación Mundial
+          - label: Después de un viaje
+            value: Después de un viaje
           type: hints
     utter_myth_cold_weather:
     - custom:
@@ -1931,8 +1931,8 @@
             los de la OMS o el ECDC.</speak>
           type: ssml
         - options:
-          - label: Situación Mundial
-            value: Situación Mundial
+          - label: Animales
+            value: Animales
           - label: Tratamientos
             value: Tratamientos
           - label: Acerca del COVID-19
@@ -1957,8 +1957,8 @@
             value: Síntomas
           - label: Transmisión
             value: Transmisión
-          - label: Situación Mundial
-            value: Situación Mundial
+          - label: Antes de viajar
+            value: Antes de viajar
           type: hints
     utter_myth_hand_dryer:
     - custom:
@@ -1979,8 +1979,8 @@
         - options:
           - label: Medidas Preventivas
             value: Medidas Preventivas
-          - label: Síntomas
-            value: Síntomas
+          - label: Animales
+            value: Animales
           - label: Transmisión
             value: Transmisión
           - label: Situación Mundial
@@ -2050,8 +2050,8 @@
             value: Medidas Preventivas
           - label: Síntomas
             value: Síntomas
-          - label: Transmisión
-            value: Transmisión
+          - label: Animales
+            value: Animales
           - label: Situación Mundial
             value: Situación Mundial
           type: hints
@@ -2122,12 +2122,12 @@
             ácido peracético y cloroformo.</speak>
           type: ssml
         - options:
-          - label: Medidas Preventivas
-            value: Medidas Preventivas
-          - label: Síntomas
-            value: Síntomas
-          - label: Transmisión
-            value: Transmisión
+          - label: Antes de viajar
+            value: Antes de viajar
+          - label: Propagación
+            value: Propagación
+          - label: Animales
+            value: Animales
           - label: Situación Mundial
             value: Situación Mundial
           type: hints
@@ -2261,13 +2261,13 @@
     - custom:
         answers:
         - text: Lávese las manos a fondo y con regularidad con un desinfectante para manos
-            a base de alcohol o lávelas con agua y jabón <br>Lavarse las manos con agua
+            a base de alcohol o lávelas con agua y jabón. <br>Lavarse las manos con agua
             y jabón o usar un desinfectante para manos a base de alcohol mata los virus
             que puedan estar en sus manos.<a href='https://www.who.int/gpsc/clean_hands_protection/en/'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Lávese las manos a fondo y con regularidad con un desinfectante
-            para manos a base de alcohol o lávelas con agua y jabón.  Lavarse las manos
+            para manos a base de alcohol o lávelas con agua y jabón. Lavarse las manos
             con agua y jabón o usar un desinfectante para manos a base de alcohol mata
             los virus que puedan estar en sus manos.</speak>
           type: ssml
@@ -2278,8 +2278,8 @@
             value: Síntomas
           - label: Mascarillas médicas
             value: Mascarillas médicas
-          - label: Transmisión
-            value: Transmisión
+          - label: Propagación
+            value: Propagación
           - label: Situación Mundial
             value: Situación Mundial
           type: hints
@@ -2287,14 +2287,14 @@
     - custom:
         answers:
         - text: En general, se ha demostrado que los desinfectantes a base de alcohol
-            (etanol, propan-2-ol, propan1-ol) reducen significativamente la infectividad
+            (etanol, propan-2-ol, propan-1-ol) reducen significativamente la infectividad
             de virus envueltos como el SARS-CoV-2, en concentraciones de 70-80% con un
             tiempo de exposición de un minuto.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Environmental-persistence-of-SARS_CoV_2-virus-Options-for-cleaning2020-03-26_0.pdf'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>En general, se ha demostrado que los desinfectantes a base de alcohol
-            (etanol, propan-2-ol, propan1-ol) reducen significativamente la infectividad
-            de virus envueltos como el SARS-CoV-2, en concentraciones de 70-80% con un
+            (etanol, propan-2-ol, propan-1-ol) reducen significativamente la infectividad
+            de virus envueltos como el sars CoV 2, en concentraciones de 70-80% con un
             tiempo de exposición de un minuto.</speak>
           type: ssml
     utter_prevention_distance:
@@ -2445,8 +2445,8 @@
             servicios de salud.</speak>
           type: ssml
         - options:
-          - label: Medidas Preventivas
-            value: Medidas Preventivas
+          - label: Propagación
+            value: Propagación
           - label: Síntomas
             value: Síntomas
           - label: Mascarillas médicas
@@ -2533,14 +2533,14 @@
         - options:
           - label: Medidas Preventivas
             value: Medidas Preventivas
-          - label: Síntomas
-            value: Síntomas
+          - label: Nuevas cepas
+            value: Nuevas cepas
           - label: Mascarillas médicas
             value: Mascarillas médicas
           - label: Transmisión
             value: Transmisión
-          - label: Situación Mundial
-            value: Situación Mundial
+          - label: Propagación
+            value: Propagación
           type: hints
     utter_prevention_vaccine:
     - custom:
@@ -2552,7 +2552,7 @@
             dos vacunas adicionales para COVID-19 tan solo en los Estados Unidos.
           type: html
         - ssml: <speak>Actualmente, dos vacunas están autorizadas y recomendadas para
-            prevenir el COVID-19, la vacuna para COVID-19 de Pfizer-BioNTech y la vacuna
+            prevenir el COVID-19 , la vacuna para COVID-19 de Pfizer-BioNTech y la vacuna
             para COVID-19 de Moderna. Múltiples vacunas para COVID-19 también están en
             desarrollo. Estudios clínicos a gran escala están en progreso o siendo planeados
             para dos vacunas adicionales para COVID-19 tan solo en los Estados Unidos.</speak>
@@ -2611,7 +2611,7 @@
             Sin embargo, si la persona tiene su propia casa, se le permite moverse por
             su propiedad con el perro. Sin embargo, los contactos sociales pueden no percibirse
             incluso en este caso. Si la persona no está infectada, se permiten paseos
-            con el perro. Mantenga una distancia de al menos 1-2 metros con otras personas
+            con el perro. Mantenga una distancia de al menos 1 a 2 metros con otras personas
             en el exterior.</speak>
           type: ssml
     utter_quarantine_dos_and_donts:
@@ -2837,8 +2837,8 @@
             value: Síntomas
           - label: Mascarillas médicas
             value: Mascarillas médicas
-          - label: Transmisión
-            value: Transmisión
+          - label: Nuevas cepas
+            value: Nuevas cepas
           type: hints
     utter_spread_pets:
     - custom:
@@ -2880,8 +2880,8 @@
             local ha sido reducida o mantenida en niveles bajos.</speak>
           type: ssml
         - options:
-          - label: Medidas Preventivas
-            value: Medidas Preventivas
+          - label: Nuevas cepas
+            value: Nuevas cepas
           - label: Síntomas
             value: Síntomas
           - label: Mascarillas médicas
@@ -2961,7 +2961,7 @@
         - text: 'Quien haya regresado de una zona en la que se esté propagando el COVID-19
             debe vigilar sus síntomas durante 14 días y tomarse la temperatura dos veces
             al día. Si desarrolla incluso una tos leve o fiebre baja (es decir, una temperatura
-            de 37,3 C o más) debe permanecer en casa y autoaislarse. Esto significa evitar
+            de 37,3 C° o más) debe permanecer en casa y autoaislarse. Esto significa evitar
             el contacto cercano (un metro o menos) con otras personas, incluidos los miembros
             de la familia. También debe llamar por teléfono a su proveedor de atención
             médica o al departamento de salud pública local, dando detalles de su viaje
@@ -2973,7 +2973,7 @@
         - ssml: <speak>Quien haya regresado de una zona en la que se esté propagando el
             COVID-19 debe vigilar sus síntomas durante 14 días y tomarse la temperatura
             dos veces al día. Si desarrolla incluso una tos leve o fiebre baja (es decir,
-            una temperatura de 37,3 C o más) debe permanecer en casa y autoaislarse. Esto
+            una temperatura de 37,3 grados o más) debe permanecer en casa y autoaislarse. Esto
             significa evitar el contacto cercano (un metro o menos) con otras personas,
             incluidos los miembros de la familia. También debe llamar por teléfono a su
             proveedor de atención médica o al departamento de salud pública local, dando
@@ -3033,8 +3033,8 @@
         - options:
           - label: Medidas Preventivas
             value: Medidas Preventivas
-          - label: Síntomas
-            value: Síntomas
+          - label: Nuevas cepas
+            value: Nuevas cepas
           - label: Transmisión
             value: Transmisión
           - label: Situación Mundial
@@ -3077,9 +3077,9 @@
           type: ssml
     - custom:
         answers:
-        - text: ¡Estoy contenta de que estés feliz!
+        - text: ¡Estoy contenta de que esté feliz!
           type: html
-        - ssml: <speak>¡Estoy contenta de que esté feliz!</speak
+        - ssml: <speak>¡Estoy contenta de que esté feliz!</speak>
           type: ssml
     utter_user_love:
     - custom:
@@ -3110,9 +3110,9 @@
     utter_user_particles:
     - custom:
         answers:
-        - text: Ok…
+        - text: Ok...
           type: html
-        - ssml: <speak>Ok…<speak>
+        - ssml: <speak>Ok...</speak>
           type: ssml
     utter_user_scared:
     - custom:
@@ -3165,7 +3165,7 @@
             para COVID-19 de Moderna para prevenir el COVID-19 en personas de 18 años
             o más bajo la Autorización de Uso de Emergencia.
           type: html
-        - ssml: <speak>La vacuna para COVID-19 de Moderna es una vacuna sin aprobación
+        - ssml: <speak>La vacuna para COVID-19 de Moderna es una vacuna no aprobada
             que podría prevenir el COVID-19. La FDA ha autorizado el uso de emergencia
             de la vacuna para COVID-19 de Moderna para prevenir el COVID-19 en personas
             de 18 años o más bajo la Autorización de Uso de Emergencia.</speak>
@@ -3301,7 +3301,7 @@
         answers:
         - text: ¡Muy bien!, ¿Qué más puedo hacer por usted?
           type: html
-        - ssml: <speak>¡Muy bien!, ¿Qué más puedo hacer por usted?</speak
+        - ssml: <speak>¡Muy bien!, ¿Qué más puedo hacer por usted?</speak>
           type: ssml
     utter_want_to_add_country:
       - custom:
