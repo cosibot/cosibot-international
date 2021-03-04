@@ -546,6 +546,16 @@
 - Qué idiomas eres capaz de hablar?
 - Qué idiomas has aprendido?
 - Tu no entiendes inglés
+- inglés
+- ingles
+- español
+- espanol
+- frances
+- francés
+- aleman
+- alemán
+- portugues
+- portugués
 
 ## intent:bot_movies
 - Te gusta alguna película?
