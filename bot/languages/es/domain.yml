@@ -1257,7 +1257,7 @@
     #         en el espacio de trabajo del movimiento que pueden ayudar a construir una
     #         solución. Para hacerlo, simplemente llene la forma y acceda al espacio de
     #         trabajo de la iniciativa.</speak>
-          type: ssml
+          # type: ssml
     utter_covid_sars:
     - custom:
         answers:
