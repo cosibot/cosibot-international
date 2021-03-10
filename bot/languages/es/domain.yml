@@ -130,9 +130,9 @@
     - utter_covid_aftereffects
     - utter_covid_babys_children
     - utter_covid_cosibot
-    - utter_covid_tech4covid
-    - utter_covid_volunteer
-    - utter_covid_register
+    # - utter_covid_tech4covid
+    # - utter_covid_volunteer
+    # - utter_covid_register
     - utter_covid_crisis_howlong
     - utter_covid_current_statistics
     - utter_covid_dangerous
@@ -210,7 +210,7 @@
     - utter_spread_risk
     - utter_spread_surfaces_food_objects
     - utter_test_virus
-    - utter_ebola
+    - utter_covid_ebola
     - utter_test_who
     - utter_travel_after
     - utter_travel_before
@@ -324,10 +324,10 @@
     - covid_symptoms
     - covid_treatment
     - covid_worry
-    - covid_tech4covid
-    - covid_volunteer
-    - covid_register
-    - ebola
+    # - covid_tech4covid
+    # - covid_volunteer
+    # - covid_register
+    - covid_ebola
     - economy_consequences
     - features_date
     - features_time
@@ -346,7 +346,7 @@
     - myth_packages
     - myth_transmission_hot_areas
     - myth_conspiracy_fakenews
-    - myth_influenza
+    - covid_influenza
     - myth_air_conditioning
     - myth_5G
     - myth_sesame_oil
@@ -1239,24 +1239,24 @@
             Si es posible, es recomendable llamar primero al médico o al centro de salud
             para que el paciente pueda ser trasladado a la clínica correcta.</speak>
           type: ssml
-    utter_covid_register:
-    - custom:
-        answers:
-        - text: Si tiene un proyecto sin ánimo de lucro que ayuda a reducir los impactos
-            del COVID-19, usted puede registrarse y ser parte del movimiento Tech para
-            el COVID-19. No importa en qué fase de implementación se encuentra su proyecto
-            o incluso, si aún es ¡solo una idea! Hay voluntarios increíbles en el espacio
-            de trabajo del movimiento que pueden ayudar a construir una solución. Para
-            hacerlo, simplemente llene la <a href='https://fpt.typeform.com/to/Q8fTgs'target='_blank'>forma</a>
-            y acceda al espacio de trabajo de la iniciativa.
-          type: html
-        - ssml: <speak>Si tiene un proyecto sin ánimo de lucro que ayuda a reducir los
-            impactos del COVID-19, usted puede registrarse y ser parte del movimiento
-            Tech para el COVID-19. No importa en qué fase de implementación se encuentra
-            su proyecto o incluso, si aún es ¡solo una idea! Hay voluntarios increíbles
-            en el espacio de trabajo del movimiento que pueden ayudar a construir una
-            solución. Para hacerlo, simplemente llene la forma y acceda al espacio de
-            trabajo de la iniciativa.</speak>
+    # utter_covid_register:
+    # - custom:
+    #     answers:
+    #     - text: Si tiene un proyecto sin ánimo de lucro que ayuda a reducir los impactos
+    #         del COVID-19, usted puede registrarse y ser parte del movimiento Tech para
+    #         el COVID-19. No importa en qué fase de implementación se encuentra su proyecto
+    #         o incluso, si aún es ¡solo una idea! Hay voluntarios increíbles en el espacio
+    #         de trabajo del movimiento que pueden ayudar a construir una solución. Para
+    #         hacerlo, simplemente llene la <a href='https://fpt.typeform.com/to/Q8fTgs'target='_blank'>forma</a>
+    #         y acceda al espacio de trabajo de la iniciativa.
+    #       type: html
+    #     - ssml: <speak>Si tiene un proyecto sin ánimo de lucro que ayuda a reducir los
+    #         impactos del COVID-19, usted puede registrarse y ser parte del movimiento
+    #         Tech para el COVID-19. No importa en qué fase de implementación se encuentra
+    #         su proyecto o incluso, si aún es ¡solo una idea! Hay voluntarios increíbles
+    #         en el espacio de trabajo del movimiento que pueden ayudar a construir una
+    #         solución. Para hacerlo, simplemente llene la forma y acceda al espacio de
+    #         trabajo de la iniciativa.</speak>
           type: ssml
     utter_covid_sars:
     - custom:
@@ -1433,15 +1433,15 @@
           - label: Mascarillas médicas
             value: Mascarillas médicas
           type: hints
-    utter_covid_tech4covid:
-    - custom:
-        answers:
-        - text: Tech4Covid es un movimiento voluntario que une a personas con diferentes
-            habilidades y tecnología para combatir los impactos generados por el coronavirus.
-          type: html
-        - ssml: <speak>Tech4Covid es un movimiento voluntario que une a personas con diferentes
-            habilidades y tecnología para combatir los impactos generados por el coronavirus.</speak>
-          type: ssml
+    # utter_covid_tech4covid:
+    # - custom:
+    #     answers:
+    #     - text: Tech4Covid es un movimiento voluntario que une a personas con diferentes
+    #         habilidades y tecnología para combatir los impactos generados por el coronavirus.
+    #       type: html
+    #     - ssml: <speak>Tech4Covid es un movimiento voluntario que une a personas con diferentes
+    #         habilidades y tecnología para combatir los impactos generados por el coronavirus.</speak>
+    #       type: ssml
     utter_covid_treatment:
     - custom:
         answers:
@@ -1456,20 +1456,20 @@
             respirar) en los pacientes. Cuidados de apoyo (por ejemplo, terapia de oxígeno)
             pueden ser altamente efectivas para pacientes con síntomas.</speak>
           type: ssml
-    utter_covid_volunteer:
-    - custom:
-        answers:
-        - text: ¡Usted puede ser parte del movimiento Tech para el Covid! No importa su
-            área de operación, el movimiento necesita personas dispuestas a colaborar
-            y contribuir a reducir los impactos generados por el COVID-19. Para hacerlo,
-            simplemente llene la  <a href='https://fpt.typeform.com/to/Jpg5Ig'target='_blank'>forma</a>
-            y acceda al espacio de trabajo la iniciativa.
-          type: html
-        - ssml: <speak>¡Usted puede ser parte del movimiento Tech para el Covid! No importa
-            su área de operación, el movimiento necesita personas dispuestas a colaborar
-            y contribuir a reducir los impactos generados por el COVID-19. Para hacerlo,
-            simplemente llene la forma y acceda al espacio de trabajo la iniciativa.</speak>
-          type: ssml
+    # utter_covid_volunteer:
+    # - custom:
+    #     answers:
+    #     - text: ¡Usted puede ser parte del movimiento Tech para el Covid! No importa su
+    #         área de operación, el movimiento necesita personas dispuestas a colaborar
+    #         y contribuir a reducir los impactos generados por el COVID-19. Para hacerlo,
+    #         simplemente llene la  <a href='https://fpt.typeform.com/to/Jpg5Ig'target='_blank'>forma</a>
+    #         y acceda al espacio de trabajo la iniciativa.
+    #       type: html
+    #     - ssml: <speak>¡Usted puede ser parte del movimiento Tech para el Covid! No importa
+    #         su área de operación, el movimiento necesita personas dispuestas a colaborar
+    #         y contribuir a reducir los impactos generados por el COVID-19. Para hacerlo,
+    #         simplemente llene la forma y acceda al espacio de trabajo la iniciativa.</speak>
+    #       type: ssml
     utter_covid_worry:
     - custom:
         answers:
@@ -1491,7 +1491,7 @@
           - label: Cuarentena
             value: Cuarentena
           type: hints
-    utter_ebola:
+    utter_covid_ebola:
     - custom:
         answers:
         - text: Para información detallada acerca de la enfermedad por el virus del Ébola,

@@ -2552,7 +2552,7 @@
 - Que es cosibot
 - Que significa cosibot
 
-## intent:covid_volunteer
+<!-- ## intent:covid_volunteer
 - Puedo ser voluntario en cosibot?
 - Quiero ser voluntario.
 - Quiero ser parte de Cosibit, cuales son los requisitos?
@@ -2584,7 +2584,7 @@
 - Que es tech4covid?
 - Qué sería tech4covid?
 - ¿Qué es el Tech4Covid?
-- Dime sobre tech4covid
+- Dime sobre tech4covid -->
 
 ## intent:covid_crisis_howlong
 - Crees que el próximo año no habrá coronavirus
@@ -4202,7 +4202,7 @@
 - deberiamos estar preocupados por el virus?
 - Voy a morir?
 
-## intent:ebola
+## intent:covid_ebola
 - Ebola
 - Virus del ébola
 - Necesito saber más sobre el ebola
@@ -7356,7 +7356,7 @@
 - esta ok
 - está bien
 
-## intent:myth_influenza
+## intent:covid_influenza
 - influenza
 - influenza
 
