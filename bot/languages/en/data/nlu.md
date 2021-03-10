@@ -2600,36 +2600,6 @@
 - What procedure can I follow to be part of Cosibot?
 - who is cosibot?
 
-## intent:covid_volunteer
-- How can I volunteer?
-- I want to volunteer.
-- I want to be a volunteer.
-- I want to help in this project.
-- How can I help?
-- I want to help!
-- How can I volunteer?
-- How can I help causes related to COVID-19?
-- How can I participate in a project?
-- How can I help an NGO?
-
-## intent:covid_register
-- How can I register my project?
-- How can I enroll my project in Tech4Covid?
-- What kind of project can I subscribe to?
-- What projects need help?
-
-## intent:covid_tech4covid
-- What is Tech4Covid?
-- What is the Tech4Covid?
-- Tech4Covid.
-- About Tech4Covid.
-- What is Tech4Covid?
-- What is the Tech4Covid?
-- Do you know Tech4Covid?
-- What is Tech4Covid?
-- What is Tech4 Covid?
-- What is Tech 4 COVID?
-
 ## intent:covid_crisis_howlong
 - Do u think next year there will no longer be corona
 - Do you think next year there will no longer be corona
@@ -4282,11 +4252,12 @@
 - should I be concerned with the virus?
 - will I die
 
-## intent:ebola
+## intent:covid_ebola
 - Ebola
 - Ebola virus disease
 - I need to know more about corona brother Ebola
 - Tell me about Ebola
+- Tell me about the Ebola virus
 - What about Ebola
 - What is ebola
 - What causes Ebola virus
@@ -4910,6 +4881,7 @@
 ## intent:myth_garlic
 - Garlic prevents
 - eating garlic will protect me against the virus?
+- Can garlic cure covid?
 - [garlic](garlic)
 - [garlics](garlic)
 
@@ -5701,6 +5673,7 @@
 - About vaccines to treat COVID-19.
 - About vaccines, drug or treatment for COVID-19.
 - About vaccines, drug or treatment.
+- I want to know something related to corona vaccine
 - About vaccines.
 - Any available vaccine
 - Any update about the vaccine?
@@ -5808,6 +5781,34 @@
 - Yes please, I'm call Brian,,my inquiry is that,how far have researchers towards developing a vaccine of corona virus
 - Yes please, I'm call Brian,,my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - Yes. But is there a vaccine?
+- - mRNA vaccine
+- RNA vaccine
+- About mRNA Vaccine
+- About the mRNA vaccine
+- The mRNA vaccine
+- More about mRNA vaccine
+- On mRNA vaccine
+- Info mRNA vaccine
+- Info about mRNA vaccine
+- Information about mRNA vaccine
+- Infomration mRNA vaccine
+- Info on mRNA vaccine
+- Information on mRNA vaccine
+- More on mRNA vaccine
+- mRNA
+- About RNA Vaccine
+- About the RNA vaccine
+- The RNA vaccine
+- More about mRNA vaccine
+- On RNA vaccine
+- Info RNA vaccine
+- Info about RNA vaccine
+- Information about RNA vaccine
+- Infomration RNA vaccine
+- Info on RNA vaccine
+- Information on RNA vaccine
+- More on RNA vaccine
+- RNA
 
 ## intent:vaccine_pfizer_about
 - About Pfizer Vaccine
@@ -5863,7 +5864,7 @@
 - Info moderna vaccine
 - Info about moderna vaccine
 - Information about moderna vaccine
-- Infomration moderna vaccine
+- Information moderna vaccine
 - Info on moderna vaccine
 - Information on moderna vaccine
 - More on moderna vaccine
@@ -5929,6 +5930,7 @@
 - When can I be vaccinated?
 - Priority groups for vaccination
 - Vaccination when
+- Ok, when do you think vaccines will be able to be given to everyone around the world
 - How many time should I wait to be vaccinated
 - When will the vaccine be available for all?
 - When will the vaccine be available for me?
@@ -5937,6 +5939,7 @@
 - Vaccination waiting list
 - Vaccination priority
 - Vaccination priority list
+- Who can get the COVID-19 vaccine?
 
 ## intent:vaccine_administration
 - How is the vaccine administrated
@@ -6357,6 +6360,7 @@
 - What is the new variant of covid?
 - What are the new variants of covid?
 - New COVID-19 Variant
+- What is the new strain in England about?
 - New COVID-19 Strain
 - COVID-19 Variants
 - COVID-19 Strains
@@ -6920,6 +6924,7 @@
 - Am done here
 - Alright thank you very much i appreciate everything God bless you for her or him
 - Can you shut the boot for me, please?
+- I think that is all
 - Can you shut the boot for me?
 - For now I am satisfied,Thank you
 - Go away
@@ -6998,6 +7003,7 @@
 - That's it for now
 - Thats all
 - Thats enough for today
+- Thank you for your service.bye
 - That’s it thanks
 - Um I am fine for now thanks to you
 - You assisted me with everything I want, thank you.
@@ -7478,11 +7484,18 @@
 - it's ok
 - that's ok
 
-## intent:myth_influenza
+## intent:covid_influenza
 - [influenza](influenza)
 - [flu](influenza)
+- Influenza
+- Influenza virus
+- Influenza disease
+- About influenza
+- About influenza virus
+- About the influenza virus
 
 ## intent:myth_air_conditioning
+- Spread through air conditioning
 - [air conditioner](air_conditioning)
 - [air conditioning](air_conditioning)
 - [AC](air_conditioning)
@@ -7490,6 +7503,8 @@
 - [air con](air_conditioning)
 
 ## intent:myth_5G
+- 5G spread the virus
+- Does 5G spread the virus?
 - [5G](5G)
 - [five G](5G)
 - [5 G](5G)
@@ -7499,6 +7514,7 @@
 - [hand dryers](hand_dryer)
 
 ## intent:myth_uv_lamps
+- UV lamps disinfect the coronavirus
 - [uv lamps](uv_lamp)
 - [ultraviolet disinfection lamp](uv_lamp)
 - [ultraviolet disinfection lamps](uv_lamp)
@@ -7528,6 +7544,10 @@
 - [sessamo](sesame_oil)
 
 ## intent:mask_visors
+- About visors
+- About visor
+- Masks visor
+- Masks visors
 - [visors](visors)
 - [Acrylic visors](visors)
 - [protection visors](visors)

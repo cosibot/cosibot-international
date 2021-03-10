@@ -101,21 +101,9 @@ Traveling
 About Covid-19 
 ------------------->
 
-## covid_tech4covid
-* covid_tech4covid
-  - utter_covid_tech4covid
-
 ## covid_new_strain
 * covid_new_strain
   - utter_covid_new_strain
-
-## covid_volunteer
-* covid_volunteer
-  - utter_covid_volunteer
-
-## covid_register
-* covid_register
-  - utter_covid_register
 
 ## covid_cosibot
 * covid_cosibot
@@ -170,8 +158,8 @@ About Covid-19
   - slot{"virus": "SARS"}
   - utter_covid_sars
 
-## influenza
-* myth_influenza
+## covid_influenza
+* covid_influenza
   - utter_covid_influenza
 
 ## covid_incubation
@@ -250,9 +238,9 @@ About Covid-19
 * covid_schools
   - utter_covid_schools
 
-## ebola
-* ebola
-  - utter_ebola
+## covid_ebola
+* covid_ebola
+  - utter_covid_ebola
 
 
 <!------------------ 
