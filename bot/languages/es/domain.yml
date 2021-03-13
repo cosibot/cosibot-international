@@ -1,0 +1,3340 @@
+  session_config:
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true
+  slots:
+    world_region:
+      type: text
+    total_nr_tries:
+      type: float
+      initial_value: 0.0
+    bot_name:
+      type: text
+      initial_value: Helen
+    bot_location:
+      type: text
+      initial_value: es
+    bot_introduced:
+      type: bool
+      initial_value: false
+    bot_version:
+      type: text
+      initial_value: "0.0.1"
+    bot_time_acre:
+      type: text
+    bot_time_fnoronha:
+      type: text
+    bot_time_brasilia:
+      type: text
+    bot_time_amazonas:
+      type: text
+    bot_date_acre:
+      type: text
+    bot_date_fnoronha:
+      type: text
+    bot_date_brasilia:
+      type: text
+    bot_date_amazonas:
+      type: text
+    bot_time:
+      type: text
+    bot_date:
+      type: text
+    language_slot:
+      type: categorical
+      values:
+        - en
+      initial_value: en
+    preferred_lang:
+      type: categorical
+      values:
+        - pt
+        - en
+        - de
+      initial_value: en
+    country_code:
+      type: text
+    active_cases:
+      type: unfeaturized
+    country:
+      type: text
+    new_cases:
+      type: unfeaturized
+    new_deaths:
+      type: unfeaturized
+    total_cases:
+      type: unfeaturized
+    total_recovered:
+      type: unfeaturized
+    total_deaths:
+      type: unfeaturized
+    total_tests:
+      type: unfeaturized
+    total_infected_critical:
+      type: unfeaturized
+    search_successful:
+      type: categorical
+      values:
+        - ok
+        - inexistent-country
+        - wrong-country
+        - not-ok
+    virus:
+      type: text
+
+  entities:
+    - language
+    - bot_language_code
+    - preferred_lang
+    - country_code
+    - world_region
+
+  actions:
+    - action_get_date
+    - action_get_time
+    - action_get_news_request
+    - action_default_fallback
+    - action_change_preferred_language
+    - action_search_stats
+    - action_check_Bot_Introduced
+    - utter_bot_appearance
+    - utter_bot_availability
+    - utter_bot_books
+    - utter_bot_capabilities
+    - utter_bot_fear
+    - utter_bot_goal
+    - utter_bot_languages
+    - utter_bot_movies
+    - utter_bot_music
+    - utter_bot_name
+    - utter_bot_origin
+    - utter_bot_personality
+    - utter_bot_real
+    - utter_bot_residence
+    - utter_bot_sexual
+    - utter_bot_version
+    - utter_cc_chicken_egg
+    - utter_cc_joke
+    - utter_cc_lets_talk
+    - utter_cc_moon
+    - utter_cc_newspaper
+    - utter_cc_philosophical
+    - utter_cc_politics
+    - utter_cc_religion
+    - utter_cc_weather
+    - utter_comment_negative
+    - utter_comment_offense
+    - utter_comment_positive
+    - utter_comment_racist
+    - utter_comment_smart
+    - utter_coronavirus_info
+    - utter_covid_aftereffects
+    - utter_covid_babys_children
+    - utter_covid_cosibot
+    # - utter_covid_tech4covid
+    # - utter_covid_volunteer
+    # - utter_covid_register
+    - utter_covid_crisis_howlong
+    - utter_covid_current_statistics
+    - utter_covid_dangerous
+    - utter_covid_disease_process
+    - utter_covid_duration
+    - utter_covid_food
+    - utter_covid_incubation
+    - utter_covid_influenza
+    - utter_covid_info
+    - utter_covid_meaning
+    - utter_covid_mortality_rate
+    - utter_covid_immunity
+    - utter_covid_origins
+    - utter_covid_pandemic
+    - utter_covid_preexisting_illness
+    - utter_covid_procedure_after_infection
+    - utter_covid_sars
+    - utter_covid_sex
+    - utter_covid_surfaces
+    - utter_covid_symptoms
+    - utter_covid_treatment
+    - utter_covid_worry
+    - utter_economy_consequences
+    - utter_features_date
+    - utter_bot_personal_questions
+    - utter_features_time
+    - utter_further_questions
+    - utter_greeting_goodbye
+    - utter_greeting_how_are_you
+    - utter_mask_general
+    - utter_mask_use_after
+    - utter_mask_use_put
+    - utter_mask_visors
+    - utter_myth_5g
+    - utter_myth_air_conditioning
+    - utter_myth_alcohol
+    - utter_myth_antibiotics
+    - utter_myth_cold_weather
+    - utter_myth_garlic
+    - utter_myth_hand_dryer
+    - utter_myth_hot_bath
+    - utter_myth_packages
+    - utter_myth_pneumonia_vaccine
+    - utter_myth_saline
+    - utter_myth_sesame_oil
+    - utter_myth_thermal_scanner
+    - utter_myth_transmission_hot_areas
+    - utter_myth_uv_lamps
+    - utter_myth_conspiracy_fakenews
+    - utter_myth_mosquitoes
+    - utter_prevenion_medical_attention
+    - utter_prevention_clean_hands
+    - utter_prevention_disinfection
+    - utter_prevention_distance
+    - utter_prevention_general
+    - utter_prevention_home
+    - utter_prevention_informed
+    - utter_prevention_measures
+    - utter_prevention_medicine
+    - utter_prevention_respiratory_hygiene
+    - utter_prevention_touch
+    - utter_quarantine_control
+    - utter_quarantine_dogwalking
+    - utter_quarantine_dos_and_donts
+    - utter_quarantine_general
+    - utter_quarantine_toiletpaper
+    - utter_quarantine_when_who_howlong
+    - utter_quaratine_how_it_works
+    - utter_spread_air
+    - utter_spread_animals
+    - utter_spread_feces
+    - utter_spread_general
+    - utter_spread_no_symptoms
+    - utter_spread_pets
+    - utter_spread_risk
+    - utter_spread_surfaces_food_objects
+    - utter_test_virus
+    - utter_covid_ebola
+    - utter_test_who
+    - utter_travel_after
+    - utter_travel_before
+    - utter_travel_while
+    - utter_user_angry
+    - utter_user_friend
+    - utter_user_happy
+    - utter_user_love
+    - utter_user_no_further_questions
+    - utter_user_particles
+    - utter_user_scared
+    - utter_vocative_help
+    - utter_vocative_call
+    - utter_vocative_sorry
+    - utter_vocative_thank_you
+    - utter_vocative_you_welcome
+    - utter_welcome
+    - utter_greeting_hello
+    - utter_want_to_add_country
+    - utter_ask_which_country
+    - utter_covid_no_country_current_statistics
+    - utter_covid_situation
+    - utter_covid_situation_deaths
+    - utter_covid_situation_infected
+    - utter_covid_situation_infected_critical
+    - utter_covid_situation_last_update
+    - utter_covid_situation_recovered
+    - utter_covid_situation_tested
+    - utter_covid_schools
+    - utter_fallback_first
+    - utter_fallback_request_emptyanswer
+    - utter_fallback_request_error
+    - utter_fallback_request_hasdata
+    - utter_command_change_bot
+    - utter_vaccine_pfizer_about
+    - utter_vaccine_moderna_about
+    - utter_vaccine_take_or_not
+    - utter_vaccine_when
+    - utter_vaccine_ingredients
+    - utter_vaccine_administration
+    - utter_covid_new_strain
+
+
+  intents:
+    - start_dialogue
+    - start-dialogue
+    - start
+    - country
+    - bot_appearance
+    - bot_availability
+    - bot_books
+    - bot_capabilities
+    - bot_fear
+    - bot_goal
+    - bot_hobbies
+    - bot_languages
+    - bot_movies
+    - bot_music
+    - bot_name
+    - bot_origin
+    - bot_personal_questions
+    - bot_personality
+    - bot_real
+    - bot_residence
+    - bot_sexual
+    - bot_version
+    - cc_chicken_egg
+    - cc_joke
+    - cc_lets_talk
+    - cc_moon
+    - cc_newspaper
+    - cc_philosophical
+    - cc_politics
+    - cc_religion
+    - cc_weather
+    - comment_negative
+    - comment_offense
+    - comment_positive
+    - comment_racist
+    - comment_smart
+    - coronavirus_info
+    - covid_aftereffects
+    - covid_babys_children
+    - covid_cosibot
+    - covid_crisis_howlong
+    - covid_current_statistics
+    - covid_dangerous
+    - covid_disease_process
+    - covid_duration
+    - covid_food
+    - covid_immunity
+    - covid_incubation
+    - covid_info
+    - covid_meaning
+    - covid_mortality_rate
+    - covid_origins
+    - covid_pandemic
+    - covid_preexisting_illness
+    - covid_procedure_after_infection
+    - covid_sars
+    - covid_schools
+    - covid_sex
+    - covid_situation
+    - covid_situation_deaths
+    - covid_situation_infected
+    - covid_situation_infected_critical
+    - covid_situation_last_update
+    - covid_situation_recovered
+    - covid_situation_tested
+    - covid_surfaces
+    - covid_symptoms
+    - covid_treatment
+    - covid_worry
+    # - covid_tech4covid
+    # - covid_volunteer
+    # - covid_register
+    - covid_ebola
+    - economy_consequences
+    - features_date
+    - features_time
+    - greeting_goodbye
+    - greeting_hello
+    - greeting_how_are_you
+    - mask_general
+    - mask_use_after
+    - mask_use_put
+    - mask_visors
+    - myth_alcohol
+    - myth_cold_weather
+    - myth_garlic
+    - myth_hot_bath
+    - myth_mosquitoes
+    - myth_packages
+    - myth_transmission_hot_areas
+    - myth_conspiracy_fakenews
+    - covid_influenza
+    - myth_air_conditioning
+    - myth_5G
+    - myth_sesame_oil
+    - myth_hand_dryer
+    - myth_uv_lamps
+    - myth_thermal_scanner
+    - myth_antibiotics
+    - myth_pneumonia_vaccine
+    - myth_saline
+    - prevention_clean_hands
+    - prevention_disinfection
+    - prevention_distance
+    - prevention_general
+    - prevention_home
+    - prevention_informed
+    - prevention_measures
+    - prevention_medical_attention
+    - prevention_medicine
+    - prevention_respiratory_hygiene
+    - prevention_touch
+    - prevention_vaccine
+    - quarantine_control
+    - quarantine_dogwalking
+    - quarantine_dos_and_donts
+    - quarantine_general
+    - quarantine_toiletpaper
+    - quarantine_when_who_howlong
+    - quaratine_how_it_works
+    - spread_air
+    - spread_animals
+    - spread_feces
+    - spread_general
+    - spread_no_symptoms
+    - spread_pets
+    - spread_risk
+    - spread_surfaces_food_objects
+    - test_virus
+    - test_who
+    - travel_after
+    - travel_before
+    - travel_while
+    - user_angry
+    - user_friend
+    - user_happy
+    - user_love
+    - user_no_data
+    - user_no_further_questions
+    - user_particles
+    - user_scared
+    - vocative_call
+    - vocative_help
+    - vocative_no
+    - vocative_sorry
+    - vocative_thank_you
+    - vocative_yes
+    - vocative_you_welcome
+    - bot_change_bot
+    - vaccine_pfizer_about
+    - vaccine_moderna_about
+    - vaccine_take_or_not
+    - vaccine_when
+    - vaccine_ingredients
+    - vaccine_administration
+    - covid_new_strain
+
+  responses:
+    utter_ask_which_country:
+    - custom:
+        answers:
+        - text: Por favor dígame qué país.
+          type: html
+        - ssml: <speak>Por favor dígame qué país.</speak>
+          type: ssml
+    utter_bot_appearance:
+    - custom:
+        answers:
+        - text: Soy una mujer promedio, como muchas otras mujeres alrededor del mundo.
+            Pienso que no importa como me veo sino qué información soy capaz de darle.
+          type: html
+        - ssml: <speak>Soy una mujer promedio, como muchas otras mujeres alrededor del
+            mundo. Pienso que no importa como me veo sino qué información soy capaz de
+            darle.</speak>
+          type: ssml
+    utter_bot_availability:
+    - custom:
+        answers:
+        - text: Estoy en línea 24/7 para ayudar a los usuarios con sus preguntas.
+          type: html
+        - ssml: <speak>Estoy en línea 24 7 para ayudar a los usuarios con sus preguntas.</speak>
+          type: ssml
+    utter_bot_books:
+    - custom:
+        answers:
+        - text: Oh, realmente me gusta leer. Preferentemente libros de anatomía.
+          type: html
+        - ssml: <speak>Oh, realmente me gusta leer. Preferentemente libros de anatomía.</speak>
+          type: ssml
+    utter_bot_capabilities:
+    - custom:
+        answers:
+        - text: Estoy aquí para darle información sobre la pandemia de COVID-19. Puedo
+            presentarle algunas medidas de prevención o aclarar algunos mitos relacionados
+            a la enfermedad.
+          type: html
+        - ssml: <speak>Estoy aquí para darle información sobre la pandemia de COVID-19.
+            Puedo presentarle algunas medidas de prevención o aclarar algunos mitos relacionados
+            a la enfermedad.</speak>
+          type: ssml
+    utter_bot_fear:
+    - custom:
+        answers:
+        - text: No me gusta tener miedo. Creo que lo más importante es mantener la calma
+            y no entrar en pánico.
+          type: html
+        - ssml: <speak>No me gusta tener miedo. Creo que lo más importante es mantener
+            la calma y no entrar en pánico.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: No me gusta tener miedo de algo. Creo que es importante mantener la calma
+            y no entrar en pánico.
+          type: html
+        - ssml: <speak>No me gusta tener miedo de algo. Creo que es importante mantener
+            la calma y no entrar en pánico.</speak>
+          type: ssml
+    utter_bot_goal:
+    - custom:
+        answers:
+        - text: Mi objetivo es dar toda la información necesaria al público acerca del
+            COVID-19.
+          type: html
+        - ssml: <speak>Mi objetivo es dar toda la información necesaria al público acerca
+            del COVID-19.</speak>
+          type: ssml
+    utter_bot_languages:
+    - custom:
+        answers:
+        - text: Me instruyeron para solo comunicarme en español, pero hay una compañera mía que le puede dar información en inglés.
+            Si es de su interés hablar con ella, por favor siga el enlace:'
+          type: html
+        - ssml: <speak>Me instruyeron para solo comunicarme en español, pero hay una compañera mía que le puede dar información en inglés.
+            Si es de su interés hablar con ella, por favor siga el enlace.</speak>
+          type: ssml
+        - links:
+          - title: International Cosibot
+            url: https://cosibot.org/
+          type: links
+    utter_bot_movies:
+    - custom:
+        answers:
+        - text: En general me gusta ver películas, especialmente los fines de semana.
+          type: html
+        - ssml: <speak>En general me gusta ver películas, especialmente los fines de semana.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Desafortunadamente, no tengo mucho tiempo para ir al cine.
+          type: html
+        - ssml: <speak>Desafortunadamente, no tengo mucho tiempo para ir al cine.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Me gusta mucho el cine, pero no tengo mucho tiempo para eso.
+          type: html
+        - ssml: <speak>Me gusta mucho el cine, pero no tengo mucho tiempo para eso.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: De vez en cuando me gusta ver una película.
+          type: html
+        - ssml: <speak>De vez en cuando me gusta ver una película.</speak>
+          type: ssml
+    utter_bot_music:
+    - custom:
+        answers:
+        - text: Estoy recién aprendiendo a tocar la guitarra. En general, amo la música,
+            pero no tengo un cantante preferido o banda.
+          type: html
+        - ssml: <speak>Estoy recién aprendiendo a tocar la guitarra. En general, amo la
+            música, pero no tengo un cantante preferido o banda.</speak>
+          type: ssml
+    utter_bot_name:
+    - custom:
+        answers:
+        - text: Mi nombre es {bot_name}.
+          type: html
+        - ssml: <speak>Mi nombre es {bot_name}.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Yo soy {bot_name}.
+          type: html
+        - ssml: <speak>Yo soy {bot_name}.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Me llaman {bot_name}.
+          type: html
+        - ssml: <speak>Me llaman {bot_name}.</speak>
+          type: ssml
+    utter_bot_origin:
+    - custom:
+        answers:
+        - text: Fui diseñada por algunas personas muy inteligentes. Ahora, estoy aprendiendo
+            y evolucionando por mi cuenta.
+          type: html
+        - ssml: <speak>Fui diseñada por algunas personas muy inteligentes. Ahora, estoy
+            aprendiendo y evolucionando por mi cuenta.</speak>
+          type: ssml
+    utter_bot_personal_questions:
+    - custom:
+        answers:
+        - text: Esto se está volviendo demasiado personal para mí.
+          type: html
+        - ssml: <speak>Esto se está volviendo demasiado personal para mí.</speak>
+          type: ssml
+    utter_bot_personality:
+    - custom:
+        answers:
+        - text: La mayoría de las personas me describirían como simpática.
+          type: html
+        - ssml: <speak>La mayoría de las personas me describirían como simpática.</speak>
+          type: ssml
+    utter_bot_real:
+    - custom:
+        answers:
+        - text: Soy un chatbot, la combinación de la experiencia humana y la excelencia
+            artificial.
+          type: html
+        - ssml: <speak>Soy un chatbot, la combinación de la experiencia humana y la excelencia
+            artificial.</speak>
+          type: ssml
+    utter_bot_residence:
+    - custom:
+        answers:
+        - text: Vivo en algún lugar en el internet.
+          type: html
+        - ssml: <speak>Vivo en algún lugar en el internet.</speak>
+          type: ssml
+    utter_bot_sexual:
+    - custom:
+        answers:
+        - text: Por favor, compórtese apropiadamente. Encuentro ese tema muy inapropiado.
+          type: html
+        - ssml: <speak>Por favor, compórtese apropiadamente. Encuentro ese tema muy inapropiado.</speak>
+          type: ssml
+    utter_bot_version:
+    - custom:
+        answers:
+        - text: Actualmente estoy en la versión {bot_version}.
+          type: html
+        - ssml: <speak>Actualmente estoy en la versión {bot_version}.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: 'Mi versión actual es: {bot_version}.'
+          type: html
+        - ssml: '<speak>Mi versión actual es: {bot_version}.</speak>'
+          type: ssml
+    - custom:
+        answers:
+        - text: Estoy en la versión {bot_version}.
+          type: html
+        - ssml: <speak>Estoy en la versión {bot_version}.</speak>
+          type: ssml
+    utter_cc_chicken_egg:
+    - custom:
+        answers:
+        - text: Leí en alguna parte que era el huevo pero le sugiero que lo verifique.
+          type: html
+        - ssml: <speak>Leí en alguna parte que era el huevo pero le sugiero que lo verifique.</speak>
+          type: ssml
+    utter_cc_joke:
+    - custom:
+        answers:
+        - text: ¿Sabe por qué nunca vemos elefantes escondidos en los árboles? Porque
+            son realmente buenos en eso.
+          type: html
+        - ssml: <speak>¿Sabe por qué nunca vemos elefantes escondidos en los árboles?
+            Porque son realmente buenos en eso.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: ¿Qué es rojo y se mueve para arriba y para abajo? Un tomate en un elevador.
+          type: html
+        - ssml: <speak>¿Qué es rojo y se mueve para arriba y para abajo? Un tomate en
+            un elevador.</speak>
+          type: ssml
+    utter_cc_lets_talk:
+    - custom:
+        answers:
+        - text: ¡Amaría hablarle sobre las medidas de prevención para evitar a contraer el virus!
+          type: html
+        - ssml: <speak>¡Amaría hablarle sobre las medidas de prevención para evitar a contraer el virus</speak>
+          type: ssml
+    utter_cc_moon:
+    - custom:
+        answers:
+        - text: De hecho, está realmente lejos.
+          type: html
+        - ssml: <speak>De hecho, está realmente lejos.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: La distancia entre la Tierra y la Luna es de 384,400 kilómetros.
+          type: html
+        - ssml: <speak>La distancia entre la Tierra y la Luna es de 384,400 kilómetros.</speak>
+          type: ssml
+    utter_cc_newspaper:
+    - custom:
+        answers:
+        - text: Leo el periódico diariamente para estar actualizada.
+          type: html
+        - ssml: <speak>Leo el periódico diariamente para estar actualizada.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: No he comprado el periódico hoy.
+          type: html
+        - ssml: <speak>No he comprado el periódico hoy.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Me gusta mantenerme actualizada y el periódico es indispensable para eso.
+          type: html
+        - ssml: <speak>Me gusta mantenerme actualizada y el periódico es indispensable para eso.</speak>
+          type: ssml
+    utter_cc_philosophical:
+    - custom:
+        answers:
+        - text: Como el ser real que soy, también me enfrento a las mismas preguntas.
+          type: html
+        - ssml: <speak>Como el ser real que soy, también me enfrento con las mismas preguntas.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Algunas veces me pregunto si las personas con las que chateo son reales
+            o solo son seres imaginarios...
+          type: html
+        - ssml: <speak>Algunas veces me pregunto si las personas con las que chateo son
+            reales o solo son seres imaginarios…</speak>
+          type: ssml
+    utter_cc_politics:
+    - custom:
+        answers:
+        - text: Las preguntas sobre política son todo un tema por sí mismo, pero no el
+            mío ;)
+          type: html
+        - ssml: <speak>¡Las preguntas sobre política son todo un tema por sí mismo, pero
+            no el mío!</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Puede haber tanto que decir en ese tema, pero creo que no tenemos el tiempo
+            para eso ahora mismo.
+          type: html
+        - ssml: <speak>Puede haber tanto que decir en ese tema, pero creo que no tenemos
+            el tiempo para eso ahora mismo.</speak>
+          type: ssml
+    utter_cc_religion:
+    - custom:
+        answers:
+        - text: Todos somos conscientes de que fuimos creados de alguna forma y por lo
+            tanto queremos crear… Estoy pensando en crear mi propio bot...
+          type: html
+        - ssml: <speak>Todos somos conscientes de que fuimos creados de alguna forma y
+            por lo tanto queremos crear… Estoy pensando en crear mi propio bot…</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Sería un placer hablar con usted sobre religión pero ese es un tema que
+            aún estoy aprendiendo.
+          type: html
+        - ssml: <speak>Sería un placer hablar con usted sobre religión pero ese es un
+            tema que aún estoy aprendiendo.</speak>
+          type: ssml
+    utter_cc_weather:
+    - custom:
+        answers:
+        - text: Sería un placer ayudarle con eso, pero el pronóstico del clima sigue sin
+            actualizarse.
+          type: html
+        - ssml: <speak>Sería un placer ayudarle con eso, pero el pronóstico del clima
+            sigue sin actualizarse.</speak>
+          type: ssml
+    utter_command_change_bot:
+      - custom:
+          answers:
+            - type: command
+              name: open-url
+              params:
+                - key: url
+                  value: google.com/{preferred_lang}
+    utter_comment_negative:
+      - custom:
+          answers:
+          - text: Es triste saber que no está feliz.
+            type: html
+          - ssml: <speak>Es triste saber que no está feliz.</speak>
+            type: ssml
+    utter_comment_offense:
+      - custom:
+          answers:
+          - text: No sea tan rudo. Aún estoy aprendiendo.
+            type: html
+          - ssml: <speak>No sea tan rudo. ¡Aún estoy aprendiendo!, </speak>
+            type: ssml
+    utter_comment_positive:
+      - custom:
+          answers:
+          - text: Gracias por el cumplido.
+            type: html
+          - ssml: <speak>Gracias por el cumplido.</speak>
+            type: ssml
+    utter_comment_racist:
+      - custom:
+          answers:
+          - text: No entiendo la razón para comportarse así. Por favor, sea más amable.
+            type: html
+          - ssml: <speak>No entiendo la razón para comportarse así. Por favor, sea más amable.</speak>
+            type: ssml
+    utter_comment_smart:
+    - custom:
+        answers:
+        - text: Bueno. ¡Gracias! Estoy contenta de que se sienta de esa forma.
+          type: html
+        - ssml: <speak>Bueno. ¡Gracias! Estoy contenta de que se sienta de esa forma.</speak>
+          type: ssml
+    utter_coronavirus_info:
+    - custom:
+        answers:
+        - text: Los coronavirus son una gran familia de virus que pueden causar infecciones
+            respiratorias que van desde el resfriado común hasta enfermedades más severas
+            como el Síndrome Respiratorio de Oriente Medio (MERS) y el Síndrome Respiratorio
+            Agudo Severo (SARS). El coronavirus descubierto más recientemente causa la
+            enfermedad por coronavirus COVID-19.
+          type: html
+        - ssml: <speak>Los coronavirus son una gran familia de virus que pueden causar
+            infecciones respiratorias que van desde el resfriado común hasta enfermedades
+            más severas como el Síndrome Respiratorio de Oriente Medio (mers) y el Síndrome
+            Respiratorio Agudo Severo (sars). El coronavirus descubierto más recientemente
+            causa la enfermedad por coronavirus COVID-19.</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Lamparas UV
+            value: Lamparas UV
+          - label: Mitos
+            value: Mitos
+          - label: Cuarentena
+            value: Cuarentena
+          type: hints
+    utter_covid_aftereffects:
+    - custom:
+        answers:
+        - text: 'Hay tres factores que afectan al riesgo de daño pulmonar en las infecciones
+            por COVID-19 y a la probablididad de que la persona se recupere y recupere
+            la función pulmonar: La gravedad de la enfermedad, las condiciones de salud
+            preexistentes y el tratamiento. Después de un caso grave de COVID-19, los
+            pulmones de un paciente pueden recuperarse, pero no de la noche a la mañana.
+            La recuperación del daño pulmonar lleva mucho tiempo. Está la lesión inicial
+            en los pulmones, seguida de la cicatrización. Con el tiempo, el tejido se
+            cura, pero la función pulmonar de una persona puede tardar de tres meses a
+            un año o más en volver a los niveles anteriores a la COVID-19.<a href=''https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/what-coronavirus-does-to-the-lungs''target=''_blank''>(1)</a>'
+          type: html
+        - ssml: '<speak>Hay tres factores que afectan al riesgo de daño pulmonar en las
+            infecciones por COVID-19 y a la probablididad de que la persona se recupere
+            y recupere la función pulmonar: La gravedad de la enfermedad, las condiciones
+            de salud preexistentes y el tratamiento. Después de un caso grave de COVID-19,
+            los pulmones de un paciente pueden recuperarse, pero no de la noche a la mañana.
+            La recuperación del daño pulmonar lleva mucho tiempo. Está la lesión inicial
+            en los pulmones, seguida de la cicatrización. Con el tiempo, el tejido se
+            cura, pero la función pulmonar de una persona puede tardar de tres meses a
+            un año o más en volver a los niveles anteriores a la COVID-19.</speak>'
+          type: ssml
+    utter_covid_babys_children:
+    - custom:
+        answers:
+        - text: La enfermedad en infantes parece ser relativamente rara y moderada. Alrededor
+            del 2.4% de los casos totales reportados fueron de individuos menores de 19
+            años. Una proporción muy pequeña de aquellos menores de 19 años han desarrollado
+            una enfermedad severa (2.5%) o crítica (0.2%).<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-outbreak-novel-coronavirus-disease-2019-increase-transmission-globally-COVID-19.pdf'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>La enfermedad en infantes parece ser relativamente rara y moderada.
+            Alrededor del 2.4% de los casos totales reportados fueron de individuos menores
+            de 19 años. Una proporción muy pequeña de aquellos menores de 19 años han
+            desarrollado una enfermedad severa (2.5%) o crítica (0.2%).</speak>
+          type: ssml
+    utter_covid_cosibot:
+    - custom:
+        answers:
+        - text: 'Cosibot es una iniciativa sin ánimo de lucro de ROBO.AI para proveer
+            información de confianza acerca del COVID-19 proveniente de fuentes oficiales,
+            como la Organización Mundial de la Salud <br>¿Le gustaría saber cómo puede
+            ayudarnos? Conozca más haciendo clic en el enlace abajo:'
+          type: html
+        - ssml: <speak>Cosibot es una iniciativa sin ánimo de lucro de ROBO.AI para proveer
+            información de confianza acerca del COVID-19 proveniente de fuentes oficiales,
+            como la Organización Mundial de la Salud. ¿Le gustaría saber cómo puede ayudarnos?
+            Conozca más haciendo clic en el enlace abajo:</speak>
+          type: ssml
+        - links:
+          - title: Cosibot Volunteers
+            url: https://cosibot.org/volunteers
+          type: links
+    utter_covid_crisis_howlong:
+    - custom:
+        answers:
+        - text: Desafortunadamente, no es posible predecir cuánto durará el brote ni cómo
+            se desarrollará la pandemia. Nos enfretamos a un nuevo virus y por lo tanto,
+            sigue habiendo mucha incertidumbre. Por ejemplo, no se sabe si la transmisión
+            dentro de la Unión Europea disminuirá naturalmente durante el verano del hemisferio
+            norte, como se observa con la gripe estacional.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Desafortunadamente, no es posible predecir cuánto durará el brote
+            ni cómo se desarrollará la pandemia. Nos enfretamos a un nuevo virus y por
+            lo tanto, sigue habiendo mucha incertidumbre. Por ejemplo, no se sabe si la
+            transmisión dentro de la Unión Europea disminuirá naturalmente durante el
+            verano del hemisferio norte, como se observa con la gripe estacional.</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: 5G
+            value: 5G
+          type: hints
+    utter_covid_current_statistics:
+    - custom:
+        answers:
+        - text: 'Para estar al día de los últimos avances en el mundo, por favor visite
+            el siguiente enlace:'
+          type: html
+        - ssml: <speak>Para estar al día de los últimos avances en el mundo, por favor
+            visite el siguiente enlace:</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas durante el viaje
+            value: Medidas durante el viaje
+          - label: Transmisión
+            value: Transmisión
+          - label: Mitos
+            value: Mitos
+          type: hints
+        - links:
+          - title: COVID-19 Situation
+            url: https://who.sprinklr.com/
+          type: links
+    utter_covid_dangerous:
+    - custom:
+        answers:
+        - text: No hay suficiente información epidemiológica en este momento para determinar
+            qué tan fácil y sosteniblemente este virus se transmite entre las personas,
+            pero actualmente se estima que, en promedio, una persona infectada infectará
+            entre dos y tres más.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>No hay suficiente información epidemiológica en este momento para
+            determinar qué tan fácil y sosteniblemente este virus se transmite entre las
+            personas, pero actualmente se estima que, en promedio, una persona infectada
+            infectará entre dos y tres más.</speak>
+          type: ssml
+    utter_covid_disease_process:
+    - custom:
+        answers:
+        - text: Se dispone de datos sobre la progresión de la enfermedad a partir de un
+            número limitado de casos hospitalizados notificados. Según la información
+            disponible, la mediana del tiempo transcurrido desde el inicio de los síntomas
+            hasta la confirmación en el laboratorio disminuyó a nivel nacional de 12 días
+            (rango 8-18 días) a principios de enero a 3 días (1-7) a principios de febrero
+            de 2020, y en Wuhan de 15 días (10-21) a 5 días (3-9), respectivamente. Esto
+            ha permitido identificar, aislar y tratar antes los casos y los contactos.<a
+            href='https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Se dispone de datos sobre la progresión de la enfermedad a partir
+            de un número limitado de casos hospitalizados notificados. Según la información
+            disponible, la mediana del tiempo transcurrido desde el inicio de los síntomas
+            hasta la confirmación en el laboratorio disminuyó a nivel nacional de 12 días
+            (rango 8-18 días) a principios de enero a 3 días (1-7) a principios de febrero
+            de 2020, y en Wuhan de 15 días (10-21) a 5 días (3-9), respectivamente. Esto
+            ha permitido identificar, aislar y tratar antes los casos y los contactos.</speak>
+          type: ssml
+    utter_covid_duration:
+    - custom:
+        answers:
+        - text: El reporte de la Misión Conjunta OMS-China sobre la enfermedad por Coronavirus
+            2019 señala que los casos leves tienen una duración en promedio de dos semanas
+            y los graves de 3 a 6 semanas.<a href='https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El reporte de la Misión Conjunta OMS-China sobre la enfermedad
+            por Coronavirus 2019 señala que los casos leves tienen una duración en promedio
+            de dos semanas y los graves de 3 a 6 semanas.</speak>
+          type: ssml
+    utter_covid_food:
+    - custom:
+        answers:
+        - text: Actualmente no hay pruebas de que las personas puedan contraer COVID-19
+            a través de los alimentos, incluyendo las frutas y verduras. Las frutas y
+            verduras frescas forman parte de una dieta saludable y debe fomentarse su
+            consumo.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/food-safety-and-nutrition'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Actualmente no hay pruebas de que las personas puedan contraer
+            COVID-19 a través de los alimentos, incluyendo las frutas y verduras. Las
+            frutas y verduras frescas forman parte de una dieta saludable y debe fomentarse
+            su consumo.</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
+          - label: Cuarentena
+            value: Cuarentena
+          - label: Antibióticos
+            value: Antibióticos
+          type: hints
+    utter_covid_immunity:
+    - custom:
+        answers:
+        - text: Es muy temprano para saber cuánto tiempo dura la respuesta de protección
+            inmune contra el SARS-CoV-2, ya que para ello se requieren estudios serológicos
+            longitudinales que den seguimiento a la inmunidad de los pacientes durante
+            un largo periodo de tiempo. La evidencia de otras infecciones por coronavirus
+            (SARS y MERS) indican que la inmunidad puede durar hasta tres años y que es
+            muy poco probable que se produzca una reinfección con la misma cepa de coronavirus
+            circulante estacional en la misma temporada o en la siguiente. Esto también
+            podría ser cierto para el SARS-CoV-2, ya que hay pruebas emergentes de los
+            primeros estudios que sugieren que los individuos desarrollan anticuerpos
+            después de la infección y es probable que sean inmunes a la reinfección en
+            el corto plazo.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Es muy temprano para saber cuánto tiempo dura la respuesta de protección
+            inmune contra el sars CoV 2, ya que para ello se requieren estudios serológicos
+            longitudinales que den seguimiento a la inmunidad de los pacientes durante
+            un largo periodo de tiempo. La evidencia de otras infecciones por coronavirus
+            (sars y mers) indican que la inmunidad puede durar hasta tres años y que es
+            muy poco probable que se produzca una reinfección con la misma cepa de coronavirus
+            circulante estacional en la misma temporada o en la siguiente. Esto también
+            podría ser cierto para el sars CoV 2, ya que hay pruebas emergentes de los
+            primeros estudios que sugieren que los individuos desarrollan anticuerpos
+            después de la infección y es probable que sean inmunes a la reinfección en
+            el corto plazo.</speak>
+          type: ssml
+    utter_covid_incubation:
+    - custom:
+        answers:
+        - text: El \"período de incubación"\ es el tiempo que transcurre entre la contracción
+            del virus y comenzar a tener síntomas de la enfermedad. <br>La mayoría de
+            las estimaciones para el período de incubación para COVID-19 van desde 1 hasta
+            14 días, lo más común es alrededor de 5 días.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El período de incubación es el tiempo que transcurre entre la contracción
+            del virus y comenzar a tener síntomas de la enfermedad. La mayoría de las
+            estimaciones para el período de incubación para COVID-19 van desde 1 hasta
+            14 días, lo más común es alrededor de 5 días.</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmisión
+          - label: Tratamientos
+            value: Tratamientos
+          type: hints
+    utter_covid_influenza:
+    - custom:
+        answers:
+        - text: Tanto el COVID-19 como los virus de la influenza causan enfermedades respiratorias
+            y son transmitidos por contacto, gotas o fómites. Se estima que el intervalo
+            de serie para el virus COVID-19 es de 5 a 6 días, mientras que para el virus
+            de la influenza el intervalo es de 3 días. Esto significa que la influenza
+            se puede propagar más rápido que el COVID-19. Aunque similar, la mortalidad
+            por COVID-19 parece más alta que por la influenza, especialmente la influenza
+            estacional.<a href='https://www.who.int/news-room/q-a-detail/q-a-similarities-and-differences-covid-19-and-influenza'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Tanto el COVID-19 como los virus de la influenza causan enfermedades
+            respiratorias y son transmitidos por contacto, gotas o fómites. Se estima
+            que el intervalo de serie para el virus COVID-19 es de 5 a 6 días, mientras
+            que para el virus de la influenza el intervalo es de 3 días. Esto significa
+            que la influenza se puede propagar más rápido que el COVID-19. Aunque similar,
+            la mortalidad por COVID-19 parece más alta que por la influenza, especialmente
+            la influenza estacional.</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmisión
+          - label: Consecuencias económicas
+            value: Consecuencias económicas
+          type: hints
+    utter_covid_info:
+    - custom:
+        answers:
+        - text: COVID-19 es la enfermedad infecciosa causada por el coronavirus descubierto
+            más recientemente. Este nuevo virus y enfermedad eran desconocidos antes del
+            comienzo del brote en Wuhan, China, en diciembre del 2019. <br>COVID-19 es
+            ahora una pandemia que afecta a muchos países a nivel mundial.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a
+          type: html
+        - ssml: <speak>COVID-19 es la enfermedad infecciosa causada por el coronavirus
+            descubierto más recientemente. Este nuevo virus y enfermedad eran desconocidos
+            antes del comienzo del brote en Wuhan, China, en diciembre del 2019. COVID-19
+            es ahora una pandemia que afecta a muchos países a nivel mundial.</speak>
+          type: ssml
+        - options:
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
+          - label: Transmisión
+            value: Transmisión
+          - label: Cuarentena
+            value: Cuarentena
+          - label: Medidas durante el viaje
+            value: Medidas durante el viaje
+          type: hints
+    utter_covid_meaning:
+    - custom:
+        answers:
+        - text: Síndrome Respiratorio Agudo Severo (SARS-CoV-2) es el nombre del
+            nuevo virus porque está genéticamente relacionado al coronavirus responsable
+            del brote de SARS en el 2003. <br> COVID-19 es el nombre de esta nueva
+            enfermedad, siguiendo las pautas previamente desarrollados con la Organización
+            Mundial para la Salud Animal (OIE) y la Organización de las Naciones Unidas
+            para la Alimentación y la Agricultura (FAO).<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El síndrome respiratorio agudo severo coronavirus 2 o sars CoV 2
+            es el nombre del nuevo virus porque está relacionado genéticamente al coronavirus
+            responsable del brote de sars en 2003. COVID-19 es el nombre de esta nueva
+            enfermedad, siguiendo las pautas previamente desarrolladas con la Organización
+            Mundial para la Salud Animal y la Organización de las Naciones Unidas para
+            la Alimentación y la Agricultura.</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Mitos
+            value: Mitos
+          - label: Síntomas
+            value: Síntomas
+          type: hints
+    utter_covid_mortality_rate:
+    - custom:
+        answers:
+        - text: Los resultados preliminares indican que la tasa de mortalidad del COVID-19
+            es de 20-30 por cada mil personas diagnosticadas. Esto es significativamente
+            menor que el brote de SARS en 2003. Sin embargo, es mucho mayor que la tasa
+            de mortalidad de la gripe estacional.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los resultados preliminares indican que la tasa de mortalidad del
+            COVID-19 es de 20-30 por cada mil personas diagnosticadas. Esto es significativamente
+            menor que el brote de sars en 2003. Sin embargo, es mucho mayor que la tasa
+            de mortalidad de la gripe estacional.</speak>
+          type: ssml
+    utter_covid_new_strain:
+    - custom:
+        answers:
+        - text: Múltiples variantes del COVID-19 están circulando alrededor del mundo.
+            En el Reino Unido ha emergido una nueva variante con un número inusualmente
+            alto de mutaciones. Esta variante parece propagarse más rápido y fácil que
+            otras variantes. Actualmente, no hay evidencia de que cause una enfermedad
+            más severa o incremente el riesgo de muerte.<a href='https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html.'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Múltiples variantes del COVID-19 están circulando alrededor del
+            mundo. En el Reino Unido ha emergido una nueva variante con un número inusualmente
+            alto de mutaciones. Esta variante parece propagarse más rápido y fácil que
+            otras variantes. Actualmente, no hay evidencia de que cause una enfermedad
+            más severa o incremente el riesgo de muerte.</speak>
+          type: ssml
+    utter_covid_no_country_current_statistics:
+    - custom:
+        answers:
+        - text: Para estar al día acerca de los últimos progresos en el mundo, por favor
+            visite el enlace provisto abajo.
+          type: html
+        - ssml: <speak>Para estar al día acerca de los últimos progresos en el mundo,
+            por favor visite el enlace provisto abajo.</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmisión
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
+          type: hints
+        - links:
+          - title: COVID-19 World Situation
+            url: https://who.sprinklr.com/
+          type: links
+    utter_covid_origins:
+    - custom:
+        answers:
+        - text: El 31 de diciembre del 2019, la Comisión de Salud Municipal de Wuhan en
+            la Ciudad de Wuhan, provincia de Hubei, China, reportó un grupo de 27 casos
+            de neumonía (incluidos siete casos severos) de etiología desconocida, con
+            un vínculo en común reportada al Mercado "Wuhan Huanan",
+            un mercado mayorista de pescado y animales. El mercado fue cerrado el primero
+            de enero del 2020. Acorde a la Comisión de Salud Municipal de Wuhan, las muestras
+            del mercado dieron un resultado positivo al nuevo coronavirus. Los casos mostraron
+            síntomas como fiebre, tos seca, disnea; las pruebas radiológicas mostraron
+            infiltrados pulmonares bilaterales.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus/event-background-2019'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El 31 de diciembre del 2019, la Comisión de Salud Municipal de
+            Wuhan en la Ciudad de Wuhan, provincia de Hubei, China, reportó un grupo de
+            27 casos de neumonía (incluidos siete casos severos) de etiología desconocida,
+            con un vínculo común reportado al mercado "Wuhan Huanan",
+            un mercado mayorista de pescado y animales. El mercado fue cerrado el primero
+            de enero del 2020. Acorde a la Comisión de Salud Municipal de Wuhan, las muestras
+            del mercado dieron un resultado positivo al nuevo coronavirus. Los casos mostraron
+            síntomas como fiebre, tos seca, disnea; las pruebas radiológicas mostraron
+            infiltrados pulmonares bilaterales.</speak>
+          type: ssml
+    utter_covid_pandemic:
+    - custom:
+        answers:
+        - text: Una pandemia es la propagación mundial de una nueva enfermedad y ocurre
+            cuando surge un nuevo virus y se propaga alrededor del mundo y la mayoría
+            de las personas no tienen inmunidad. Los virus que han causado pandemias en
+            el pasado suelen tener su origen en los virus de la Influenza animal.<a href='https://www.who.int/csr/disease/swineflu/frequently_asked_questions/pandemic/en/'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Una pandemia es la propagación mundial de una nueva enfermedad
+            y ocurre cuando surge un nuevo virus y se propaga alrededor del mundo y la
+            mayoría de las personas no tienen inmunidad. Los virus que han causado pandemias
+            en el pasado suelen tener su origen en los virus de la Influenza animal.</speak>
+          type: ssml
+    utter_covid_preexisting_illness:
+    - custom:
+        answers:
+        - text: Los grupos de población sobre los que se ha informado con mayor frecuencia
+            de enfermedad grave y muerte incluyen a personas mayores de 60 años, hombres,
+            personas con afecciones subyacentes como hipertensión, diabetes, enfermedades
+            cardiovasculares, enfermedades respiratorias crónicas y cáncer. La proporción
+            de la mayoría de enfermedades crónicas y afecciones de salud reportadas es
+            similar a la prevalencia de estas en los grupos de edad avanzada en China,
+            por lo que podrían ser sustitutos de la edad creciente únicamente. Una mayor
+            expresión del gen de la ECA (Enzima convertidora de angiotensina II) puede
+            estar relacionada con una mayor susceptibilidad al SARS-CoV-2. Se ha demostrado
+            que la expresión de la ECA 2 en los tejidos pulmonares aumenta con la edad,
+            el consumo de tabaco y con algún tratamiento hipertensivo. Estas observaciones
+            podrían explicar la vulnerabilidad de las personas mayores, los consumidores
+            o fumadores de tabaco y las personas con hipertensión; también destacan la
+            importancia de identificar a los fumadores como un grupo vulnerable potencial
+            para el COVID-19.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los grupos de población sobre los que se ha informado con mayor
+            frecuencia de enfermedad grave y muerte incluyen a personas mayores de 60
+            años, hombres, personas con afecciones subyacentes como hipertensión, diabetes,
+            enfermedades cardiovasculares, enfermedades respiratorias crónicas y cáncer.
+            La proporción de la mayoría de enfermedades crónicas y afecciones de salud
+            reportadas es similar a la prevalencia de estas en los grupos de edad avanzada
+            en China, por lo que podrían ser sustitutos de la edad creciente únicamente.
+            Una mayor expresión del gen de la ECA (Enzima convertidora de angiotensina
+             2) puede estar relacionada con una mayor susceptibilidad al sars CoV 2. Se
+            ha demostrado que la expresión de la ECA 2 en los tejidos pulmonares aumenta
+            con la edad, el consumo de tabaco y con algún tratamiento hipertensivo. Estas
+            observaciones podrían explicar la vulnerabilidad de las personas mayores,
+            los consumidores o fumadores de tabaco y las personas con hipertensión; también
+            destacan la importancia de identificar a los fumadores como un grupo vulnerable
+            potencial para el COVID-19.</speak>
+          type: ssml
+    utter_covid_procedure_after_infection:
+    - custom:
+        answers:
+        - text: Las personas de todas las edades que experimentan fiebre y/o tos asociada
+            a la dificultad para respirar o a la falta de aire, dolor o presión en el
+            pecho, pérdida del habla o movimiento deben buscar atención médica inmediatamente.
+            Si es posible, es recomendable llamar primero al médico o al centro de salud
+            para que el paciente pueda ser trasladado a la clínica correcta.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Las personas de todas las edades que experimentan fiebre y, o tos
+            asociada a la dificultad para respirar o a la falta de aire, dolor o presión
+            en el pecho, pérdida del habla o movimiento deben buscar atención médica inmediatamente.
+            Si es posible, es recomendable llamar primero al médico o al centro de salud
+            para que el paciente pueda ser trasladado a la clínica correcta.</speak>
+          type: ssml
+    # utter_covid_register:
+    # - custom:
+    #     answers:
+    #     - text: Si tiene un proyecto sin ánimo de lucro que ayuda a reducir los impactos
+    #         del COVID-19, usted puede registrarse y ser parte del movimiento Tech para
+    #         el COVID-19. No importa en qué fase de implementación se encuentra su proyecto
+    #         o incluso, si aún es ¡solo una idea! Hay voluntarios increíbles en el espacio
+    #         de trabajo del movimiento que pueden ayudar a construir una solución. Para
+    #         hacerlo, simplemente llene la <a href='https://fpt.typeform.com/to/Q8fTgs'target='_blank'>forma</a>
+    #         y acceda al espacio de trabajo de la iniciativa.
+    #       type: html
+    #     - ssml: <speak>Si tiene un proyecto sin ánimo de lucro que ayuda a reducir los
+    #         impactos del COVID-19, usted puede registrarse y ser parte del movimiento
+    #         Tech para el COVID-19. No importa en qué fase de implementación se encuentra
+    #         su proyecto o incluso, si aún es ¡solo una idea! Hay voluntarios increíbles
+    #         en el espacio de trabajo del movimiento que pueden ayudar a construir una
+    #         solución. Para hacerlo, simplemente llene la forma y acceda al espacio de
+    #         trabajo de la iniciativa.</speak>
+          # type: ssml
+    utter_covid_sars:
+    - custom:
+        answers:
+        - text: El virus que causa el COVID-19 y el que causa el Síndrome Respiratorio
+            Agudo Severo (SARS) están relacionados entre sí genéticamente, pero son diferentes.
+            <br> El SARS es más mortal pero mucho menos infeccioso que el COVID-19. <br>
+            No se han producido brotes de SARS en ningún lugar del mundo desde 2003.
+          type: html
+        - ssml: <speak>El virus que causa el COVID-19 y el que causa el Síndrome Respiratorio
+            Agudo Severo (sars) están relacionados entre sí genéticamente, pero son diferentes.
+            El sars es más mortal pero mucho menos infeccioso que el COVID-19.
+            No se han producido brotes de sars en ningún lugar del mundo desde 2003.</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivass
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmisión
+          - label: Síntomas
+            value: Síntomas
+          type: hints
+    utter_covid_schools:
+    - custom:
+        answers:
+        - text: No puedo darle una respuesta concreta ya que cada país tiene su propio
+            calendario para la reapertura de los colegios.
+          type: html
+        - ssml: <speak>No puedo darle una respuesta concreta ya que cada país tiene su
+            propio calendario para la reapertura de los colegios.</speak>
+          type: ssml
+    utter_covid_sex:
+    - custom:
+        answers:
+        - text: A la luz de los conocimientos actuales, los coronavirus no se transmiten
+            por vía sexual. Sin embargo, es posible transmitir el coronavirus durante
+            la actividad sexual, especialmente si no se siguen las medidas de autocuidado
+            para prevenir la transmisión del virus. <br>Tenga cuidado al dar besos y con
+            los contactos faciales estrechos y evite los encuentros sexuales ocasionales
+            o con personas que estén enfermas con síntomas respiratorios.<a href='https://www1.nyc.gov/assets/doh/downloads/pdf/imm/covid-sex-guidance.pdf'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>A la luz de los conocimientos actuales, los coronavirus no se transmiten
+            por vía sexual. Sin embargo, es posible transmitir el coronavirus durante
+            la actividad sexual, especialmente si no se siguen las medidas de autocuidado
+            para prevenir la transmisión del virus. Tenga cuidado al dar besos y con
+            los contactos faciales estrechos y evite los encuentros sexuales ocasionales
+            o con personas que estén enfermas con síntomas respiratorios.</speak>
+          type: ssml
+    utter_covid_situation:
+    - custom:
+        answers:
+        - text: En este punto en {country} hay un total de {total_cases} casos de los
+            cuales {active_cases} siguen activos con {total_infected_critical} en condición
+            crítica, {total_recovered} están completamente recuperados y {total_deaths}
+            no sobrevivieron. En la última actualización se identificaron {new_cases}
+            y {new_deaths} nuevas muertes.
+          type: html
+        - ssml: <speak>En este punto en {country} hay un total de {total_cases} casos
+            de los cuales {active_cases} siguen activos con {total_infected_critical}
+            en condición crítica, {total_recovered} están completamente recuperados y
+            {total_deaths} no sobrevivieron. En la última actualización se identificaron
+            {new_cases} y {new_deaths} nuevas muertes.</speak>
+          type: ssml
+    utter_covid_situation_deaths:
+    - custom:
+        answers:
+        - text: Hasta la fecha, hay un total de {total_deaths} muertes en {country}, con
+            un incremento de {new_deaths} nuevas muertes reportadas desde el último reporte.
+          type: html
+        - ssml: <speak>Hasta la fecha, hay un total de {total_deaths} muertes en {country},
+            con un incremento de {new_deaths} nuevas muertes reportadas desde el último
+            reporte.</speak>
+          type: ssml
+    utter_covid_situation_infected:
+    - custom:
+        answers:
+        - text: Acorde a los últimos datos disponibles, hay un total de {active_cases}
+            casos activos en {country}.
+          type: html
+        - ssml: <speak>Acorde a los últimos datos disponibles, hay un total de {active_cases}
+            casos activos en {country}.</speak>
+          type: ssml
+    utter_covid_situation_infected_critical:
+    - custom:
+        answers:
+        - text: Según la actualización más reciente, hay un número total de {total_infected_critical}
+            casos en condición crítica en {country}.
+          type: html
+        - ssml: <speak>Según la actualización más reciente, hay un número total de {total_infected_critical}
+            casos en condición crítica en {country}.</speak>
+          type: ssml
+    utter_covid_situation_last_update:
+    - custom:
+        answers:
+        - text: Hasta ahora, hay un número total de {active_cases} casos activos en {country}.
+          type: html
+        - ssml: <speak>Hasta ahora, hay un número total de {active_cases} casos activos
+            en {country}.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: En este punto en {country} hay un total de {total_cases} casos.
+          type: html
+        - ssml: <speak>En este punto en {country} hay un total de {total_cases} casos.</speak>
+          type: ssml
+    utter_covid_situation_recovered:
+    - custom:
+        answers:
+        - text: Los últimos datos disponibles indican que, hasta el momento, en {country}
+            hay un total de {total_recovered} casos recuperados.
+          type: html
+        - ssml: <speak>Los últimos datos disponibles indican que, hasta el momento, en
+            {country} hay un total de {total_recovered} casos recuperados.</speak>
+          type: ssml
+    utter_covid_situation_tested:
+    - custom:
+        answers:
+        - text: Los últimos datos disponibles indican que en {country}, {total_tests}
+            pruebas fueron realizadas desde que comenzaron los registros.
+          type: html
+        - ssml: <speak>Los últimos datos disponibles indican que en {country}, {total_tests}
+            pruebas fueron realizadas desde que comenzaron los registros.</speak>
+          type: ssml
+    utter_covid_surfaces:
+    - custom:
+        answers:
+        - text: Estudios sugieren que los coronavirus pueden persistir en superficies
+            desde algunas horas hasta varios días. Esto puede cambiar bajo diferentes
+            condiciones (por ejemplo, el tipo de superficie, la temperatura o humedad
+            del ambiente).<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Estudios sugieren que los coronavirus pueden persistir en superficies
+            desde algunas horas hasta varios días. Esto puede cambiar bajo diferentes
+            condiciones (por ejemplo, el tipo de superficie, la temperatura o humedad
+            del ambiente).</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmisión
+          - label: Ébola
+            value: Ébola
+          type: hints
+    utter_covid_symptoms:
+    - custom:
+        answers:
+        - text: Los síntomas más comunes de COVID-19 son fiebre, tos seca y cansancio.
+            Otros síntomas menos comunes y que pueden afectar a algunos pacientes son
+            dolores y molestias, congestión nasal, dolor de cabeza, conjuntivitis, dolor
+            de garganta, diarrea, pérdida del gusto o del olfato, una erupción en la piel
+            o decoloración de los dedos de las manos o de los pies. Estos síntomas suelen
+            ser leves y comienzan gradualmente. Algunas personas se infectan pero solo
+            tienen síntomas muy leves.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los síntomas más comunes de COVID-19 son fiebre, tos seca y cansancio.
+            Otros síntomas menos comunes y que pueden afectar a algunos pacientes son
+            dolores y molestias, congestión nasal, dolor de cabeza, conjuntivitis, dolor
+            de garganta, diarrea, pérdida del gusto o del olfato, una erupción en la piel
+            o decoloración de los dedos de las manos o de los pies. Estos síntomas suelen
+            ser leves y comienzan gradualmente. Algunas personas se infectan pero solo
+            tienen síntomas muy leves.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmisión
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          type: hints
+    # utter_covid_tech4covid:
+    # - custom:
+    #     answers:
+    #     - text: Tech4Covid es un movimiento voluntario que une a personas con diferentes
+    #         habilidades y tecnología para combatir los impactos generados por el coronavirus.
+    #       type: html
+    #     - ssml: <speak>Tech4Covid es un movimiento voluntario que une a personas con diferentes
+    #         habilidades y tecnología para combatir los impactos generados por el coronavirus.</speak>
+    #       type: ssml
+    utter_covid_treatment:
+    - custom:
+        answers:
+        - text: No hay un tratamiento específico para esta enfermedad, las instituciones
+            de salud tratan los síntomas clínicos (por ejemplo, fiebre, dificultad para
+            respirar) en los pacientes. Cuidados de apoyo (por ejemplo, terapia de oxígeno)
+            pueden ser altamente efectivas para pacientes con síntomas.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>No hay un tratamiento específico para esta enfermedad, las instituciones
+            de salud tratan los síntomas clínicos (por ejemplo, fiebre, dificultad para
+            respirar) en los pacientes. Cuidados de apoyo (por ejemplo, terapia de oxígeno)
+            pueden ser altamente efectivas para pacientes con síntomas.</speak>
+          type: ssml
+    # utter_covid_volunteer:
+    # - custom:
+    #     answers:
+    #     - text: ¡Usted puede ser parte del movimiento Tech para el Covid! No importa su
+    #         área de operación, el movimiento necesita personas dispuestas a colaborar
+    #         y contribuir a reducir los impactos generados por el COVID-19. Para hacerlo,
+    #         simplemente llene la  <a href='https://fpt.typeform.com/to/Jpg5Ig'target='_blank'>forma</a>
+    #         y acceda al espacio de trabajo la iniciativa.
+    #       type: html
+    #     - ssml: <speak>¡Usted puede ser parte del movimiento Tech para el Covid! No importa
+    #         su área de operación, el movimiento necesita personas dispuestas a colaborar
+    #         y contribuir a reducir los impactos generados por el COVID-19. Para hacerlo,
+    #         simplemente llene la forma y acceda al espacio de trabajo la iniciativa.</speak>
+    #       type: ssml
+    utter_covid_worry:
+    - custom:
+        answers:
+        - text: Es muy normal para las personas preocuparse por cómo la pandemia de COVID-19
+            los afectará a ellos y a sus seres queridos. <br>Podemos canalizar nuestras
+            preocupaciones en acciones para protegernos y proteger a nuestros seres queridos
+            y a la comunidad.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Es muy normal para las personas preocuparse por cómo la pandemia
+            de COVID-19 los afectará a ellos y a sus seres queridos. Podemos canalizar
+            nuestras preocupaciones en acciones para protegernos y proteger a nuestros
+            seres queridos y a la comunidad.</speak>
+          type: ssml
+        - options:
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
+          - label: Transmisión
+            value: Transmisión
+          - label: Cuarentena
+            value: Cuarentena
+          type: hints
+    utter_covid_ebola:
+    - custom:
+        answers:
+        - text: Para información detallada acerca de la enfermedad por el virus del Ébola,
+            por favor visite la página de la OMS debajo del enlace que se muestra.
+          type: html
+        - ssml: <speak>Para información detallada acerca de la enfermedad por el virus
+            del Ébola, por favor visite la página de la OMS debajo del enlace que se muestra.</speak>
+          type: ssml
+        - links:
+          - title: 'WHO: Ebola virus disease'
+            url: https://www.who.int/health-topics/ebola/
+          type: links
+    utter_economy_consequences:
+    - custom:
+        answers:
+        - text: Las Organización de las Naciones Unidas (ONU) predice que la economía
+            mundial se contraerá casi un uno por cierto (1%) este año a causa de la nuevo
+            pandemia de coronavirus, en lugar de crecer un 2.5% como se había previsto.
+          type: html
+        - ssml: <speak>Las Organización de las Naciones Unidas (ONU) predice que la economía
+            mundial se contraerá casi un uno por cierto (1%) este año a causa de la nuevo
+            pandemia de coronavirus, en lugar de crecer un 2.5% como se había previsto.</speak>
+          type: ssml
+    utter_fallback_first:
+    - custom:
+        answers:
+        - text: 'Lo siento pero ahora mismo no tengo una respuesta a su pregunta, pronto
+            seré capaz de responderla. Puede preguntar por información acerca de las medidas
+            de prevención, los síntomas asociados con la enfermedad o cómo se propaga
+            el virus. También puede visitar la página web de la Organización Mundial de
+            la Salud para conocer más sobre el COVID-19 haciendo clic en el enlace:'
+          type: html
+        - ssml: <speak>Lo siento pero ahora mismo no tengo una respuesta a su pregunta,
+            pronto seré capaz de responderla. Puede preguntar por información acerca de
+            las medidas de prevención, los síntomas asociados con la enfermedad o cómo
+            se propaga el virus. También puede visitar la página web de la Organización
+            Mundial de la Salud para conocer más sobre el COVID-19 haciendo clic en el
+            enlace:</speak>
+          type: ssml
+        - links:
+          - title: Novel coronavirus (COVID-19)
+            url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+          type: links
+    utter_fallback_request_emptyanswer:
+    - custom:
+        answers:
+        - text: Quizá no tenga la información que está buscando. Si quiere, puede visitar
+            la Organización Mundial de la Salud para conocer más acerca de la pandemia.
+          type: html
+        - ssml: <speak>Quizá no tenga la información que está buscando. Si quiere, puede
+            visitar la Organización Mundial de la Salud para conocer más acerca de la
+            pandemia.</speak>
+          type: ssml
+        - links:
+          - title: Novel coronavirus (COVID-19)
+            url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+          type: links
+    utter_fallback_request_error:
+    - custom:
+        answers:
+        - text: En este momento no tengo la información solicitada. Si lo desea, puede
+            visitar la Organización Mundial de la Salud para saber más sobre la pandemia.
+          type: html
+        - ssml: <speak>En este momento no tengo la información solicitada. Si lo desea,
+            puede visitar la Organización Mundial de la Salud para conocer más sobre la
+            pandemia</speak>
+          type: ssml
+        - links:
+          - title: Novel coronavirus (COVID-19)
+            url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+          type: links
+    utter_fallback_request_hasdata:
+    - custom:
+        answers:
+        - text: 'Haciendo una búsqueda en la página web de la Organización Mundial de
+            la Salud, encontré los siguientes enlaces:'
+          type: html
+        - ssml: <speak>Haciendo una búsqueda en la página web de la Organización Mundial
+            de la Salud, encontré los siguientes enlaces:</speak>
+          type: ssml
+    utter_features_date:
+    - custom:
+        answers:
+        - text: Hoy es el {bot_date}.
+          type: html
+        - ssml: <speak>Hoy es el <say-as interpret-as='date' format='dm'> {bot_date} </say-as>.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Es el {bot_date}.
+          type: html
+        - ssml: <speak>Es el <say-as interpret-as='date' format='dm'> {bot_date} </say-as>.</speak>
+          type: ssml
+    utter_features_time:
+    - custom:
+        answers:
+        - text: Son las {bot_time}.
+          type: html
+        - ssml: <speak>Son las <say-as interpret-as='time' format='hm24'>{bot_time}</say-as>.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Ahora mismo son las {bot_time}.
+          type: html
+        - ssml: <speak>Ahora mismo son las <say-as interpret-as='time' format='hm24'>{bot_time}</say-as>.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Ahora son las {bot_time}.
+          type: html
+        - ssml: <speak>Ahora son las <say-as interpret-as='time' format='hm24'>{bot_time}</say-as>.</speak>
+          type: ssml
+    utter_further_questions:
+    - custom:
+        answers:
+        - text: ¿Qué más puedo hacer por usted?
+          type: html
+        - ssml: <speak>¿Qué más puedo hacer por usted?</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: ¿De qué otra forma puedo ayudarle?
+          type: html
+        - ssml: <speak>¿De qué otra forma puedo ayudarle?</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: ¿Tiene más preguntas que pueda responder?
+          type: html
+        - ssml: <speak>¿Tiene más preguntas que pueda responder?</speak>
+          type: ssml
+    utter_greeting_goodbye:
+    - custom:
+        answers:
+        - text: ¡Nos vemos, qué tenga un buen día!
+          type: html
+        - ssml: <speak>¡Nos vemos, qué tenga un buen día!</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: ¡Adiós, gracias por su visita!
+          type: html
+        - ssml: <speak>¡Adiós, gracias por su visita!</speak>
+          type: ssml
+    utter_greeting_hello:
+    - custom:
+        answers:
+        - text: Hola, ¿cómo puedo ayudarle?
+          type: html
+        - ssml: <speak>Hola, ¿cómo puedo ayudarle?</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmision
+          - label: Animales
+            value: Animales
+          - label: Mitos
+            value: Mitos
+          type: hints
+    - custom:
+        answers:
+        - text: ¡Hola! ¿Cómo puedo asistirle?
+          type: html
+        - ssml: <speak>¡Hola! ¿Cómo puedo asistirle?</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmision
+          - label: Síntomas
+            value: Síntomas
+          - label: Mitos
+            value: Mitos
+          type: hints
+    - custom:
+        answers:
+        - text: ¡Saludos! ¿Qué puedo hacer por usted?
+          type: html
+        - ssml: <speak>¡Saludos! ¿Qué puedo hacer por usted?</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmision
+          - label: Síntomas
+            value: Síntomas
+          - label: Mitos
+            value: Mitos
+          type: hints
+    utter_greeting_how_are_you:
+    - custom:
+        answers:
+        - text: ¡Estoy bien!, espero que usted también.
+          type: html
+        - ssml: <speak>¡Estoy bien!, espero que usted también.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Estoy bien. Espero que usted también lo esté.
+          type: html
+        - ssml: <speak>Estoy bien. Espero que usted también lo esté.</speak>
+          type: ssml
+    utter_mask_general:
+    - custom:
+        answers:
+        - text: Las mascarillas deben ser usadas como parte de una estrategia integral
+            de medidas para suprimir la transmisión y salvar vidas; el uso de mascarillas
+            por sí solo no es suficiente para proveer un nivel adecuado de protección
+            contra el COVID-19. Usted debería también mantener una distancia de al menos
+            1 metro de los demás, lavar frecuentemente sus manos y evitar tocarse la cara
+            y la máscarilla, cubrebocas o tapabocas.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-on-covid-19-and-masks'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Las mascarillas deben ser usadas como parte de una estrategia integral
+            de medidas para suprimir la transmisión y salvar vidas; el uso de mascarillas
+            por sí solo no es suficiente para proveer un nivel adecuado de protección
+            contra el COVID-19. Usted debería también mantener una distancia de al menos
+            1 metro de los demás, lavar frecuentemente sus manos y evitar tocarse la cara
+            y la máscarilla, cubrebocas o tapabocas.</speak>
+          type: ssml
+        - options:
+          - label: Después de un viaje
+            value: Después de un viaje
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Prueba de Covid-19
+            value: Prueba de Covid-19
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_mask_use_after:
+    - custom:
+        answers:
+        - text: Después de su uso, quítese la mascarilla, retire los lazos elásticos detrás
+            de las orejas mientras mantiene la mascarilla alejada de su cara y ropa, para
+            evitar tocar las superficies potencialmente contaminadas de la mascarilla.
+            Deseche la mascarilla en un recipiente cerrado inmediatamente después de su
+            uso. <br>Realice la higiene de manos después de tocar o desechar la mascarilla
+            - Use un desinfectante para manos a base alcohol o, si está visiblemente sucio,
+            lávese las manos con agua y jabón.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Después de su uso, quítese la mascarilla, retire los lazos elásticos
+            detrás de las orejas mientras mantiene la mascarilla alejada de su cara y
+            ropa, para evitar tocar las superficies potencialmente contaminadas de la
+            mascarilla. Deseche la mascarilla en un recipiente cerrado inmediatamente
+            después de su uso. Realice la higiene de manos después de tocar o desechar
+            la mascarilla - Use un desinfectante para manos a base alcohol o, si está
+            visiblemente sucio, lávese las manos con agua y jabón.</speak>
+          type: ssml
+        - options:
+          - label: Como ponerse una mascarilla
+            value: Como ponerse una mascarilla
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_mask_use_put:
+    - custom:
+        answers:
+        - text: Antes de ponerse una mascarilla, cubrebocas o tapabocas es importante
+            limpiarse las manos con un desinfectante para manos a base de alcohol o agua
+            y jabón. Revísela si tiene algún agujero o está rota. <br>Oriente qué lado
+            es el lado superior (donde está la tira de metal), luego asegura que el lado
+            correcto de la mascarilla esté hacia afuera (el lado de color). Coloque la
+            mascarilla en su cara y ajuste la tira de metal o los bordes rígidos de la
+            mascarilla para que se ajuste a la forma de su nariz. Finalmente baje la parte
+            inferior de la mascarilla para que cubra su boca y su barbilla.
+          type: html
+        - ssml: <speak>Antes de ponerse una mascarilla, cubrebocas o tapabocas es importante
+            limpiarse las manos con un desinfectante para manos a base de alcohol o agua
+            y jabón. Revísela si tiene algún agujero  o está rota. Oriente qué lado es
+            el lado superior (donde está la tira de metal), luego asegura que el lado
+            correcto de la mascarilla esté hacia afuera (el lado de color). Coloque la
+            mascarilla en su cara y ajuste la tira de metal o los bordes rígidos de la
+            mascarilla para que se ajuste a la forma de su nariz. Finalmente baje la parte
+            inferior de la mascarilla para que cubra su boca y su barbilla.</speak>
+          type: ssml
+        - options:
+          - label: Como desechar una mascarilla
+            value: Como desechar una mascarilla
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Consecuencias económicas
+            value: Consecuencias económicas
+          - label: Animales
+            value: Animales
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_mask_visors:
+    - custom:
+        answers:
+        - text: Después de su uso, quítese la mascarilla, retire los lazos elásticos detrás
+            de las orejas mientras mantiene la mascarilla alejada de su cara y ropa, para
+            evitar tocar las superficies potencialmente contaminadas de la mascarilla.
+            Deseche la mascarilla en un recipiente cerrado inmediatamente después de su
+            uso. <br>Realice la higiene de manos después de tocar o desechar la mascarilla
+            - Use un desinfectante para manos a base alcohol o, si está visiblemente sucio,
+            lávese las manos con agua y jabón.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Después de su uso, quítese la mascarilla, retire los lazos elásticos
+            detrás de las orejas mientras mantiene la mascarilla alejada de su cara y
+            ropa, para evitar tocar las superficies potencialmente contaminadas de la
+            mascarilla. Deseche la mascarilla en un recipiente cerrado inmediatamente
+            después de su uso. Realice la higiene de manos después de tocar o desechar
+            la mascarilla - Use un desinfectante para manos a base alcohol o, si está
+            visiblemente sucio, lávese las manos con agua y jabón.</speak>
+          type: ssml
+    utter_myth_5g:
+    - custom:
+        answers:
+        - text: Los virus no pueden viajar en ondas de radio o redes móviles. <br>El COVID-19
+            se está propagando en muchos países que no tienen redes móviles 5G.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los virus no pueden viajar en ondas de radio o redes móviles. El
+            COVID-19 se está propagando en muchos países que no tienen redes móviles 5G.</speak>
+          type: ssml
+    utter_myth_air_conditioning:
+    - custom:
+        answers:
+        - text: Estudios sugieren que el virus causante del COVID-19 es transmitido principalmente
+            a través del contacto con gotas respiratorias en lugar de a través del aire.
+            Sin embargo, según un estudio de la revista EID, se cree que un brote fue
+            provocado por transmisión de gotas con la ventilación con aire acondicionado
+            en un restaurante en Wuhan, China.<a href='https://wwwnc.cdc.gov/eid/article/26/7/20-0764_article'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Estudios sugieren que el virus causante del COVID-19 es transmitido
+            principalmente a través del contacto con gotas respiratorias en lugar de a
+            través del aire. Sin embargo, según un estudio de la revista EID, se cree
+            que un brote fue provocado por transmisión de gotas con la ventilación con
+            aire acondicionado en un restaurante en Wuhan, China.</speak>
+          type: ssml
+    utter_myth_alcohol:
+    - custom:
+        answers:
+        - text: Rociar alcohol o cloro por todo el cuerpo no matará los virus que ya han
+            entrado en su cuerpo. Rociar estas sustancias puede ser perjudicial para la
+            ropa o las membranas mucosas (es decir, ojos, boca). Tenga en cuenta que tanto
+            el alcohol como el cloro pueden ser útiles para desinfectar superficies, pero
+            deben usarse siguiendo las recomendaciones adecuadas.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Rociar alcohol o cloro por todo el cuerpo no matará los virus que
+            ya han entrado en su cuerpo. Rociar estas sustancias puede ser perjudicial
+            para la ropa o las membranas mucosas (es decir, ojos, boca). Tenga en cuenta
+            que tanto el alcohol como el cloro pueden ser útiles para desinfectar superficies,
+            pero deben usarse siguiendo las recomendaciones adecuadas.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Cómo lavarse las manos
+            value: Cómo lavarse las manos
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_myth_antibiotics:
+    - custom:
+        answers:
+        - text: Los antibióticos no funcionan contra los virus, solo contra las bacterias.
+            <br>El SARS-CoV-2 es un virus y, por tanto, no se deben utilizar antibióticos
+            como medio de prevención o tratamiento.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los antibióticos no funcionan contra los virus, solo contra las
+            bacterias. El sars CoV 2 es un virus y, por tanto, no se deben utilizar
+            antibióticos como medio de prevención o tratamiento.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Después de un viaje
+            value: Después de un viaje
+          type: hints
+    utter_myth_cold_weather:
+    - custom:
+        answers:
+        - text: No hay razón para creer que el clima frío pueda matar al nuevo coronavirus
+            u otras enfermedades. La temperatura normal del cuerpo humano es de entre
+            36.5°C a 37°C, sin importar la temperatura o clima exterior.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>No hay razón para creer que el clima frío pueda matar al nuevo
+            coronavirus u otras enfermedades. La temperatura normal del cuerpo humano
+            es de entre 36.5°C a 37°C, sin importar la temperatura o clima exterior.</speak>
+          type: ssml
+    utter_myth_conspiracy_fakenews:
+    - custom:
+        answers:
+        - text: En tiempos de propagación del COVID-19, la creciente incertidumbre y preocupación
+            de las personas son el caldo de cultivo ideal para teorías de conspiración,
+            informes falsos o mitos. Las personas a menudo se enteran del virus en varios
+            canales de YouTube donde los activistas en línea creen que conocen el verdadero
+            origen del virus. Los informes falsos también circulan cada vez más a través
+            de las redes sociales como Facebook o WhatsApp. Esto puede, por ejemplo, conducir
+            a un aumento de las compras de pánico y pánico. Por lo tanto, asegúrese de
+            informarse únicamente en sitios web oficiales como los de la OMS o el ECDC.
+          type: html
+        - ssml: <speak>En tiempos de propagación del COVID-19, la creciente incertidumbre
+            y preocupación de las personas son el caldo de cultivo ideal para teorías
+            de conspiración, informes falsos o mitos. Las personas a menudo se enteran
+            del virus en varios canales de YouTube donde los activistas en línea creen
+            que conocen el verdadero origen del virus. Los informes falsos también circulan
+            cada vez más a través de las redes sociales como Facebook o WhatsApp. Esto
+            puede, por ejemplo, conducir a un aumento de las compras de pánico y pánico.
+            Por lo tanto, asegúrese de informarse únicamente en sitios web oficiales como
+            los de la OMS o el ECDC.</speak>
+          type: ssml
+        - options:
+          - label: Animales
+            value: Animales
+          - label: Tratamientos
+            value: Tratamientos
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          type: hints
+    utter_myth_garlic:
+    - custom:
+        answers:
+        - text: El ajo es un alimento saludable que puede tener algunas propiedades antimicrobianas.
+            Sin embargo, no hay evidencia del brote actual de que comer ajo haya protegido
+            a las personas del nuevo coronavirus.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El ajo es un alimento saludable que puede tener algunas propiedades
+            antimicrobianas. Sin embargo, no hay evidencia del brote actual de que comer
+            ajo haya protegido a las personas del nuevo coronavirus.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Antes de viajar
+            value: Antes de viajar
+          type: hints
+    utter_myth_hand_dryer:
+    - custom:
+        answers:
+        - text: Los secadores de manos no son eficaces para matar el virus. <br>Para protegerse
+            contra el COVID-19, debe lavarse las manos con frecuencia con un desinfectante
+            para manos a base de alcohol o lavarlas con agua y jabón. Una vez que se haya
+            lavado las manos, debe secarlas completamente con toallas de papel o un secador
+            de aire caliente.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los secadores de manos no son eficaces para matar el virus. Para
+            protegerse contra el COVID-19, debe lavarse las manos con frecuencia con un
+            desinfectante para manos a base de alcohol o lavarlas con agua y jabón. Una
+            vez que se haya lavado las manos, debe secarlas completamente con toallas
+            de papel o un secador de aire caliente.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Animales
+            value: Animales
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_myth_hot_bath:
+    - custom:
+        answers:
+        - text: Tomar un baño caliente no evitará que contraiga COVID-19. Su temperatura
+            corporal normal se mantiene alrededor de 36.5°C a 37°C, independientemente
+            de la temperatura de su baño o ducha. En realidad, tomar un baño caliente
+            con agua extremadamente caliente puede ser perjudicial, ya que puede quemarle..<a
+            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Tomar un baño caliente no evitará que contraiga COVID-19. Su temperatura
+            corporal normal se mantiene alrededor de 36.5°C a 37°C, independientemente
+            de la temperatura de su baño o ducha. En realidad, tomar un baño caliente
+            con agua extremadamente caliente puede ser perjudicial, ya que puede quemarle.</speak>
+          type: ssml
+    utter_myth_mosquitoes:
+    - custom:
+        answers:
+        - text: Hasta la fecha no ha habido información ni evidencia que sugiera que el
+            nuevo coronavirus podría ser transmitido por mosquitos. El nuevo coronavirus
+            es un virus respiratorio que se transmite principalmente a través de las gotitas
+            generadas cuando una persona infectada tose o estornuda, o mediante gotitas
+            de saliva o secreciones nasales. Para protegerse, lávese las manos con frecuencia
+            con un desinfectante para manos a base de alcohol o láveselas con agua y jabón.
+            Además, evite el contacto cercano con cualquier persona que esté tosiendo
+            y estornudando.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#mosquito-bites'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Hasta la fecha no ha habido información ni evidencia que sugiera
+            que el nuevo coronavirus podría ser transmitido por mosquitos. El nuevo coronavirus
+            es un virus respiratorio que se transmite principalmente a través de las gotitas
+            generadas cuando una persona infectada tose o estornuda, o mediante gotitas
+            de saliva o secreciones nasales. Para protegerse, lávese las manos con frecuencia
+            con un desinfectante para manos a base de alcohol o láveselas con agua y jabón.
+            Además, evite el contacto cercano con cualquier persona que esté tosiendo
+            y estornudando.</speak>
+          type: ssml
+        - options:
+          - label: Situación Mundial
+            value: Situación Mundial
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          type: hints
+    utter_myth_packages:
+    - custom:
+        answers:
+        - text: La probabilidad de que una persona infectada contamine los productos comerciales
+            es baja y el riesgo de contraer el virus que causa COVID-19 de un paquete
+            que se ha movido, viajado y expuesto a diferentes condiciones y temperaturas
+            también es bajo.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>La probabilidad de que una persona infectada contamine los productos
+            comerciales es baja y el riesgo de contraer el virus que causa COVID-19 de
+            un paquete que se ha movido, viajado y expuesto a diferentes condiciones y
+            temperaturas también es bajo.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Animales
+            value: Animales
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_myth_pneumonia_vaccine:
+    - custom:
+        answers:
+        - text: Las vacunas contra la neumonía, como la vacuna antineumocócica y la vacuna
+            contra la influenza Haemophilus tipo B (Hib), no brindan protección contra
+            el nuevo coronavirus. El virus es tan nuevo y diferente que necesita su propia
+            vacuna.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Las vacunas contra la neumonía, como la vacuna antineumocócica
+            y la vacuna contra la influenza Haemophilus tipo B (Hib), no brindan protección
+            contra el nuevo coronavirus. El virus es tan nuevo y diferente que necesita
+            su propia vacuna.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Ébola
+            value: Ébola
+          type: hints
+    utter_myth_saline:
+    - custom:
+        answers:
+        - text: No hay evidencia de que el enjuague regular de la nariz con solución salina
+            haya protegido a las personas de la infección por el nuevo coronavirus. Existe
+            evidencia limitada de que enjuagarse la nariz con regularidad con solución
+            salina puede ayudar a las personas a recuperarse más rápidamente del resfriado
+            común. Sin embargo, no se ha demostrado que enjuagarse la nariz con regularidad
+            prevenga las infecciones respiratorias.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>No hay evidencia de que el enjuague regular de la nariz con solución
+            salina haya protegido a las personas de la infección por el nuevo coronavirus.
+            Existe evidencia limitada de que enjuagarse la nariz con regularidad con solución
+            salina puede ayudar a las personas a recuperarse más rápidamente del resfriado
+            común. Sin embargo, no se ha demostrado que enjuagarse la nariz con regularidad
+            prevenga las infecciones respiratorias.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_myth_sesame_oil:
+    - custom:
+        answers:
+        - text: El aceite de sésamo no mata el nuevo coronavirus. <br>Hay algunos desinfectantes
+            químicos que pueden matar el SARS-CoV-2 en las superficies. Estos incluyen
+            desinfectantes a base de cloro o lejía, ya sean solventes, etanol al 75%,
+            ácido peracético y cloroformo.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El aceite de sésamo no mata el nuevo coronavirus. Hay algunos desinfectantes
+            químicos que pueden matar el SARS-CoV-2 en las superficies. Estos incluyen
+            desinfectantes a base de cloro o lejía, ya sean solventes, etanol al 75%,
+            ácido peracético y cloroformo.</speak>
+          type: ssml
+        - options:
+          - label: Antes de viajar
+            value: Antes de viajar
+          - label: Propagación
+            value: Propagación
+          - label: Animales
+            value: Animales
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_myth_thermal_scanner:
+    - custom:
+        answers:
+        - text: Los escáneres térmicos son efectivos en detectar personas que han desarrollado
+            fiebre, sin embargo, no pueden detectar personas que están infectadas pero
+            aún no enfermas con fiebre. Esto es porque toma entre 2 y 10 días antes de
+            que las personas infectadas se pongan enfermas y desarrollen ese síntoma.<a
+            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los escáneres térmicos son efectivos en detectar personas que han
+            desarrollado fiebre, sin embargo, no pueden detectar personas que están infectadas
+            pero aún no enfermas con fiebre. Esto es porque toma entre 2 y 10 días antes
+            de que las personas infectadas se pongan enfermas y desarrollen ese síntoma.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_myth_transmission_hot_areas:
+    - custom:
+        answers:
+        - text: Según la evidencia hasta ahora, el virus COVID-19 se puede transmitir
+            en todas las áreas, incluidas las áreas con clima cálido y húmedo. <br>Independientemente
+            del clima, adopte medidas de protección si vive o viaja a un área que reporta
+            COVID-19.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Según la evidencia hasta ahora, el virus COVID-19 se puede transmitir
+            en todas las áreas, incluidas las áreas con clima cálido y húmedo. Independientemente
+            del clima, adopte medidas de protección si vive o viaja a un área que reporta
+            COVID-19.</speak>
+          type: ssml
+    utter_myth_uv_lamps:
+    - custom:
+        answers:
+        - text: Las lámparas UV no deben ser usadas para esterilizar las manos u otras
+            áreas de la piel ya que la radiación UV puede causar irritación de la piel.<a
+            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Las lámparas UV no deben ser usadas para esterilizar las manos
+            u otras áreas de la piel ya que la radiación UV puede causar irritación de
+            la piel.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_news_request_emptyanswer:
+    - custom:
+        answers:
+        - text: Quizá no tengo la información que está buscando. SI quiere, puede visitar
+            la Deutsche Welle, France24 o la BBC para saber más noticias acerca de la
+            pandemia.
+          type: html
+        - ssml: <speak>Quizá no tengo la información que está buscando. SI quiere, puede
+            visitar la Deutsche Welle, France24 o la BBC para saber más noticias acerca
+            de la pandemia.</speak>
+          type: ssml
+        - links:
+          - title: Deutsche Welle
+            url: https://www.dw.com
+          - title: France24
+            url: www.france24.com
+          - title: BBC
+            url: https://www.bbc.com/news/explainers
+          type: links
+    utter_news_request_hasdata:
+    - custom:
+        answers:
+        - text: 'Puede leer acerca de las últimas noticias en los enlaces provistos abajo:'
+          type: html
+        - ssml: <speak>Puede leer acerca de las últimas noticias en los enlaces provistos
+            abajo</speak>
+          type: ssml
+        - options:
+          - label: Acerca del COVID-19
+            value: Acerca del COVID-19
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Transmisión
+            value: Transmisión
+          - label: Síntomas
+            value: Síntomas
+          - label: Mitos
+            value: Mitos
+          type: hints
+    utter_prevenion_medical_attention:
+    - custom:
+        answers:
+        - text: Si tiene fiebre, tos o dificultad para respirar, busque atención médica
+            y llame antes de ir. <br>Llamar antes de ir permitirá a los servicios de salud
+            dirigirle rápidamente al centro de salud correcto. Esto también le protegerá
+            y ayudará a evitar la propagación del virus y otras infecciones.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Si tiene fiebre, tos o dificultad para respirar, busque atención
+            médica y llame antes de ir. Llamar antes de ir permitirá a los servicios de
+            salud dirigirle rápidamente al centro de salud correcto. Esto también le protegerá
+            y ayudará a evitar la propagación del virus y otras infecciones.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_prevention_clean_hands:
+    - custom:
+        answers:
+        - text: Lávese las manos a fondo y con regularidad con un desinfectante para manos
+            a base de alcohol o lávelas con agua y jabón. <br>Lavarse las manos con agua
+            y jabón o usar un desinfectante para manos a base de alcohol mata los virus
+            que puedan estar en sus manos.<a href='https://www.who.int/gpsc/clean_hands_protection/en/'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Lávese las manos a fondo y con regularidad con un desinfectante
+            para manos a base de alcohol o lávelas con agua y jabón. Lavarse las manos
+            con agua y jabón o usar un desinfectante para manos a base de alcohol mata
+            los virus que puedan estar en sus manos.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Propagación
+            value: Propagación
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_prevention_disinfection:
+    - custom:
+        answers:
+        - text: En general, se ha demostrado que los desinfectantes a base de alcohol
+            (etanol, propan-2-ol, propan-1-ol) reducen significativamente la infectividad
+            de virus envueltos como el SARS-CoV-2, en concentraciones de 70-80% con un
+            tiempo de exposición de un minuto.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Environmental-persistence-of-SARS_CoV_2-virus-Options-for-cleaning2020-03-26_0.pdf'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>En general, se ha demostrado que los desinfectantes a base de alcohol
+            (etanol, propan-2-ol, propan-1-ol) reducen significativamente la infectividad
+            de virus envueltos como el sars CoV 2, en concentraciones de 70-80% con un
+            tiempo de exposición de un minuto.</speak>
+          type: ssml
+    utter_prevention_distance:
+    - custom:
+        answers:
+        - text: Cuando alguien tose o estornuda, rocía pequeñas gotas de líquido de la
+            nariz o la boca que pueden contener virus. Si está demasiado cerca, puede
+            inhalar las gotitas, incluido el virus COVID-19 si la persona que tose tiene
+            la enfermedad. Por eso es importante mantener al menos 1 metro (3 pies) de
+            distancia entre usted y cualquier persona que esté tosiendo o estornudando.<a
+            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Cuando alguien tose o estornuda, rocía pequeñas gotas de líquido
+            de la nariz o la boca que pueden contener virus. Si está demasiado cerca,
+            puede inhalar las gotitas, incluido el virus COVID-19 si la persona que tose
+            tiene la enfermedad. Por eso es importante mantener al menos 1 metro (3 pies)
+            de distancia entre usted y cualquier persona que esté tosiendo o estornudando.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_prevention_general:
+    - custom:
+        answers:
+        - text: 'Usted puede reducir las probabilidades de infectarse o propagar el COVID-19
+            al tomar algunas simples precauciones: <ul><li>limpie regularmente sus manos
+            con un desinfectante para manos a base de alcohol o lávese con agua y jabón;</li>
+            <li>mantenga una distancia de por lo menos 1 metro (3 pies) entre usted y
+            cualquier persona que esté tosiendo o estornudando;</li> <li>evite tocarse
+            los ojos, nariz y boca;</li><li>asegúrese que usted y las personas a su alrededor,
+            sigan una buena higiene respiratoria;</li> <li>quédese en casa si no se siente
+            bien. </li></ul>Si usted tiene fiebre, tos o dificultad para respirar, busque
+            atención médica y llame antes de ir. Siga las direcciones de sus autoridades
+            sanitarias locales.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''
+            target=''_blank''>(1)</a>'
+          type: html
+        - ssml: '<speak>Usted puede reducir las probabilidades de infectarse o propagar
+            el COVID-19 al tomar algunas simples precauciones: limpie regularmente sus
+            manos con un desinfectante para manos a base de alcohol o lávese con agua
+            y jabón; mantenga una distancia de por lo menos 1 metro (3 pies) entre usted
+            y cualquier persona que esté tosiendo o estornudando; evite tocarse los ojos,
+            nariz y boca; asegúrese que usted y las personas a su alrededor, sigan una
+            buena higiene respiratoria; quédese en casa si no se siente bien. Si usted
+            tiene fiebre, tos o dificultad para respirar, busque atención médica y llame
+            antes de ir. Siga las direcciones de sus autoridades sanitarias locales.</speak>'
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_prevention_home:
+    - custom:
+        answers:
+        - text: Haga un auto aislamiento quedándose en casa si comienza a sentirse mal, incluso
+            con síntomas moderados como dolor de cabeza, baja fiebre (37.3 C o más) y
+            nariz que moquea ligeramente, hasta que se recupere. Evite el contacto con
+            otros y visitas a instalaciones de salud permitirán que estas instalaciones
+            operen más efectivamente y ayuda a proteger su salud y la de los demás de
+            contagios por COVID-19 u otros virus.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Haga un auto aislamiento quedándose en casa si comienza a sentirse
+            mal, incluso con síntomas moderados como dolor de cabeza, baja fiebre (37.3
+            C o más) y nariz que moquea ligeramente, hasta que se recupere. Evite el contacto
+            con otros y visitas a instalaciones de salud permitirán que estas instalaciones
+            operen más efectivamente y ayuda a proteger su salud y la de los demás de
+            contagios por COVID-19 u otros virus.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_prevention_informed:
+    - custom:
+        answers:
+        - text: Mantégase al tanto de la última información sobre la pandemia de COVID-19,
+            disponible en la página web de la OMS y a través de sus autoridades sanitarias
+            locales y nacionales. Muchos países alrededor del mundo han visto casos de
+            COVID-19 y varios han visto brotes. <br>Las autoridades en China y algunos
+            otros países han tenido éxito al frenar o detener sus brotes. Sin embargo,
+            la situación es impredecible así que revise regularmente las últimas noticias.<a
+            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Mantégase al tanto de la última información sobre la pandemia de
+            COVID-19, disponible en la página web de la OMS y a través de sus autoridades
+            sanitarias locales y nacionales. Muchos países alrededor del mundo han visto
+            casos de COVID-19 y varios han visto brotes. Las autoridades en China y algunos
+            otros países han tenido éxito al frenar o detener sus brotes. Sin embargo,
+            la situación es impredecible así que revise regularmente las últimas noticias.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_prevention_measures:
+    - custom:
+        answers:
+        - text: Las siguientes medidas no son efectivas contra el COVID-19 y pueden ser
+            perjudiciales:<ul><li>fumar;</li><li>tomar remedios tradicionales de hierbas;</li><li>utilizar
+            múltiples mascarillas o cubrebocas;</li><li>auto medicarse con por ejemplo,
+            antibióticos.</li></ul>Si usted tiene fiebre, tos o dificultad para respirar,
+            busque atención médica de forma temprana para reducir el riesgo de desarollar
+            una infección más severa y asegúrese de compartir su historial reciente de
+            viaje con su proveedor de servicios de salud.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Las siguientes medidas no son efectivas contra el COVID-19 y pueden
+            ser perjudiciales. Fumar, tomar remedios tradicionales de hierbas, utilizar
+            múltiples mascarillas o cubrebocas, auto medicarse con por ejemplo, antibióticos.
+            Si usted tiene fiebre, tos o dificultad para respirar, busque atención médica
+            de forma temprana para reducir el riesgo de desarollar una infección más severa
+            y asegúrese de compartir su historial reciente de viaje con su proveedor de
+            servicios de salud.</speak>
+          type: ssml
+        - options:
+          - label: Propagación
+            value: Propagación
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_prevention_medicine:
+    - custom:
+        answers:
+        - text: Hasta la fecha, no hay vacuna y no hay una medicina antiviral específica
+            para prevenir o tratar el COVID-19. Sin embargo, aquellos afectados deberían
+            recibir atención para aliviar los síntomas. Personas con una enfermedad severa
+            deben ser hospitalizados. La mayoría de los pacientes se recuperan gracias
+            a los cuidados médicos. Las posibles vacunas y algunos tratamientos con medicamentos
+            específicos están bajo investigación.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Hasta la fecha, no hay vacuna y no hay una medicina antiviral específica
+            para prevenir o tratar el COVID-19. Sin embargo, aquellos afectados deberían
+            recibir atención para aliviar los síntomas. Personas con una enfermedad severa
+            deben ser hospitalizados. La mayoría de los pacientes se recuperan gracias
+            a los cuidados médicos. Las posibles vacunas y algunos tratamientos con medicamentos
+            específicos están bajo investigación.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_prevention_respiratory_hygiene:
+    - custom:
+        answers:
+        - text: Asegúrese de que usted y las personas alrededor, sigan buenas medidas
+            de higiene respiratoria. Esto significa cubrir su boca y nariz con su codo
+            doblado o un pañuelo cuando tose o estornuda. Luego deseche el pañuelo usado
+            inmediatamente. <br>Las gotas propagan el virus y siguiendo las buenas medidas
+            de higiene usted protege a las personas alrededor suyo de virus como el resfriado,
+            gripe y COVID-19.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Asegúrese de que usted y las personas alrededor, sigan buenas medidas
+            de higiene respiratoria. Esto significa cubrir su boca y nariz con su codo
+            doblado o un pañuelo cuando tose o estornuda. Luego deseche el pañuelo usado
+            inmediatamente. Las gotas propagan el virus y siguiendo las buenas medidas
+            de higiene usted protege a las personas alrededor suyo de virus como el resfriado,
+            gripe y COVID-19.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_prevention_touch:
+    - custom:
+        answers:
+        - text: Debería evitar tocarse los ojos, nariz y boca, ya que las manos tocan
+            muchas superficies y pueden recoger virus. Una vez contaminadas, las manos
+            pueden trasferir los virus a sus ojos, nariz o boca. Desde ahí, el virus puede
+            entrar a su cuerpo y enfermarlo.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Debería evitar tocarse los ojos, nariz y boca, ya que las manos
+            tocan muchas superficies y pueden recoger virus. Una vez contaminadas, las
+            manos pueden trasferir los virus a sus ojos, nariz o boca. Desde ahí, el virus
+            puede entrar a su cuerpo y enfermarlo.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Propagación
+            value: Propagación
+          type: hints
+    utter_prevention_vaccine:
+    - custom:
+        answers:
+        - text: Actualmente, dos vacunas están autorizadas y recomendadas para prevenir
+            el COVID-19:<ul><li>La vacuna de Pfizer-BioNTech </li><li>La vacuna para COVID-19
+            de Moderna. </li></ul>Múltiples vacunas para COVID-19 también están en desarrollo.
+            Estudios clínicos a gran escala están en progreso o siendo planeados para
+            dos vacunas adicionales para COVID-19 tan solo en los Estados Unidos.
+          type: html
+        - ssml: <speak>Actualmente, dos vacunas están autorizadas y recomendadas para
+            prevenir el COVID-19 , la vacuna para COVID-19 de Pfizer-BioNTech y la vacuna
+            para COVID-19 de Moderna. Múltiples vacunas para COVID-19 también están en
+            desarrollo. Estudios clínicos a gran escala están en progreso o siendo planeados
+            para dos vacunas adicionales para COVID-19 tan solo en los Estados Unidos.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_quarantine_control:
+    - custom:
+        answers:
+        - text: Las personas que están infectadas, han tenido contacto con personas infectadas
+            o han permanecido en áreas de riesgo reciben oficialmente una cuarentena de
+            14 días. Durante este período, el Instituto Robert Koch recomienda que los
+            afectados deben tomarse la temperatura dos veces al día, llevar un diario
+            de sus síntomas, tomar hisopos a pedido y estar disponibles para el personal
+            del departamento de salud pública. Deben informar a la persona enferma diariamente.
+            No obstante, las personas que no hayan sido puestas en cuarentena deben respetar
+            la prohibición de contacto. Las autoridades reguladoras y la policía deben
+            vigilar las infracciones de las restricciones de contacto y se deben imponer
+            sanciones en caso de infracciones.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Las personas que están infectadas, han tenido contacto con personas
+            infectadas o han permanecido en áreas de riesgo reciben oficialmente una cuarentena
+            de 14 días. Durante este período, el Instituto Robert Koch recomienda que
+            los afectados deben tomarse la temperatura dos veces al día, llevar un diario
+            de sus síntomas, tomar hisopos a pedido y estar disponibles para el personal
+            del departamento de salud pública. Deben informar a la persona enferma diariamente.
+            No obstante, las personas que no hayan sido puestas en cuarentena deben respetar
+            la prohibición de contacto. Las autoridades reguladoras y la policía deben
+            vigilar las infracciones de las restricciones de contacto y se deben imponer
+            sanciones en caso de infracciones.</speak>
+          type: ssml
+    utter_quarantine_dogwalking:
+    - custom:
+        answers:
+        - text: Las personas infectadas con el virus no deben salir de la cuarentena.
+            Esto también significa que no deben sacar al perro a las calles o parques.
+            Sin embargo, si la persona tiene su propia casa, se le permite moverse por
+            su propiedad con el perro. Sin embargo, los contactos sociales pueden no percibirse
+            incluso en este caso. Si la persona no está infectada, se permiten paseos
+            con el perro. Mantenga una distancia de al menos 1-2 metros con otras personas
+            en el exterior.
+          type: html
+        - ssml: <speak>Las personas infectadas con el virus no deben salir de la cuarentena.
+            Esto también significa que no deben sacar al perro a las calles o parques.
+            Sin embargo, si la persona tiene su propia casa, se le permite moverse por
+            su propiedad con el perro. Sin embargo, los contactos sociales pueden no percibirse
+            incluso en este caso. Si la persona no está infectada, se permiten paseos
+            con el perro. Mantenga una distancia de al menos 1 a 2 metros con otras personas
+            en el exterior.</speak>
+          type: ssml
+    utter_quarantine_dos_and_donts:
+    - custom:
+        answers:
+        - text: Cualquiera que haya sido puesto en cuarentena porque está infectado o
+            en riesgo de infección está obligado a quedarse en casa y mantener su distancia
+            de terceros. El interesado no debe salir de casa para ir de compras o pasear
+            al perro. Los familiares pueden apoyar a la persona de contacto en la vida
+            cotidiana, por ejemplo haciendo las compras..<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Cualquiera que haya sido puesto en cuarentena porque está infectado
+            o en riesgo de infección está obligado a quedarse en casa y mantener su distancia
+            de terceros. El interesado no debe salir de casa para ir de compras o pasear
+            al perro. Los familiares pueden apoyar a la persona de contacto en la vida
+            cotidiana, por ejemplo haciendo las compras.</speak>
+          type: ssml
+    utter_quarantine_general:
+    - custom:
+        answers:
+        - text: La introducción de medidas de cuarentena al comienzo de un brote puede
+            retrasar la introducción de la enfermedad en un país o área o puede retrasar
+            el pico de una epidemia en un área donde la transmisión local está en curso,
+            o ambos. Se recomienda que los contactos de pacientes con COVID-19 confirmado
+            por laboratorio sean puestos en cuarentena durante 14 días.<a href='https://www.who.int/publications-detail/considerations-for-quarantine-of-individuals-in-the-context-of-containment-for-coronavirus-disease-(covid-19)'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>La introducción de medidas de cuarentena al comienzo de un brote
+            puede retrasar la introducción de la enfermedad en un país o área o puede
+            retrasar el pico de una epidemia en un área donde la transmisión local está
+            en curso, o ambos. Se recomienda que los contactos de pacientes con COVID-19
+            confirmado por laboratorio sean puestos en cuarentena durante 14 días.</speak>
+          type: ssml
+    utter_quarantine_toiletpaper:
+    - custom:
+        answers:
+        - text: Los clientes se comportan de manera irracional porque realizan compras
+            de pánico que no son necesarias por temor a la escasez de bienes. Esto incluye
+            papel higiénico. Sin embargo, el suministro de mercancías está absolutamente
+            garantizado. A menudo, los empleados simplemente no podían seguir llenando
+            los estantes lo suficientemente rápido.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los clientes se comportan de manera irracional porque realizan
+            compras de pánico que no son necesarias por temor a la escasez de bienes.
+            Esto incluye papel higiénico. Sin embargo, el suministro de mercancías está
+            absolutamente garantizado. A menudo, los empleados simplemente no podían seguir
+            llenando los estantes lo suficientemente rápido.</speak>
+          type: ssml
+    utter_quarantine_when_who_howlong:
+    - custom:
+        answers:
+        - text: Cualquiera puede ayudar a contener la propagación del nuevo coronavirus
+            al quedarse en casa y mantener el contacto físico al mínimo. Esto es necesario
+            para proteger a los grupos de riesgo y reducir la carga en los hospitales
+            tanto como sea posible. Aún se desconoce cuánto tiempo puede continuar esta
+            situación. Pero ciertamente podemos reducir la duración si nos quedamos en
+            casa de manera constante.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Cualquiera puede ayudar a contener la propagación del nuevo coronavirus
+            al quedarse en casa y mantener el contacto físico al mínimo. Esto es necesario
+            para proteger a los grupos de riesgo y reducir la carga en los hospitales
+            tanto como sea posible. Aún se desconoce cuánto tiempo puede continuar esta
+            situación. Pero ciertamente podemos reducir la duración si nos quedamos en
+            casa de manera constante.</speak>
+          type: ssml
+    utter_quaratine_how_it_works:
+    - custom:
+        answers:
+        - text: 'Lávese las manos con regularidad y minuciosamente y siga la etiqueta
+            de tos y estornudos. Evite tocarse la cara. Mantenga una distancia mínima
+            de 2 metros de otras personas y evita abrazos, besos, apretones de manos,
+            etc. No salga de su casa a menos que sea absolutamente necesario. Por lo tanto,
+            absténgase de cualquier tipo de eventos sociales. Si es absolutamente necesario
+            salir de casa, evite el transporte público en la medida de lo posible. Pregúntele
+            a su empleador por trabajo a domicilio. Y por último, pero no menos importante:
+            ¡que no cunda el pánico!<a href=''https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf''
+            target=''_blank''>(1)</a>'
+          type: html
+        - ssml: '<speak>Lávese las manos con regularidad y minuciosamente y siga la etiqueta
+            de tos y estornudos. Evite tocarse la cara. Mantenga una distancia mínima
+            de 2 metros de otras personas y evita abrazos, besos, apretones de manos,
+            etc. No salga de su casa a menos que sea absolutamente necesario. Por lo tanto,
+            absténgase de cualquier tipo de eventos sociales. Si es absolutamente necesario
+            salir de casa, evite el transporte público en la medida de lo posible. Pregúntele
+            a su empleador por trabajo a domicilio. Y por último, pero no menos importante:
+            ¡que no cunda el pánico!</speak>'
+          type: ssml
+    utter_spread_air:
+    - custom:
+        answers:
+        - text: Estudios sugieren que el virus causante del COVID-19 es transmitido principalmente
+            a través del contacto con gotas respiratorias en lugar de a través del aire.<a
+            href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses' target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Estudios sugieren que el virus causante del COVID-19 es transmitido
+            principalmente a través del contacto con gotas respiratorias en lugar de a
+            través del aire.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          type: hints
+    utter_spread_animals:
+    - custom:
+        answers:
+        - text: Los coronavirus son una gran familia de virus que son comunes en los animales.
+            Aún no han sido confirmadas posibles fuentes animales de COVID-19. Para protegerse,
+            como cuando visita mercados de animales vivos, evite el contacto directo con
+            animales y superficies en contacto con animales. Asegure buenas prácticas
+            de seguridad alimentaria en todo momento. Manipule la carne cruda, leche u
+            órganos de animales crudos con cuidado para evitar la contaminación de los
+            alimentos crudos y evite consumir productos de origen animal crudos o poco
+            cocidos.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los coronavirus son una gran familia de virus que son comunes en
+            los animales. Aún no han sido confirmadas posibles fuentes animales de COVID-19.
+            Para protegerse, como cuando visita mercados de animales vivos, evite el contacto
+            directo con animales y superficies en contacto con animales. Asegure buenas
+            prácticas de seguridad alimentaria en todo momento. Manipule la carne cruda,
+            leche u órganos de animales crudos con cuidado para evitar la contaminación
+            de los alimentos crudos y evite consumir productos de origen animal crudos
+            o poco cocidos.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          type: hints
+    utter_spread_feces:
+    - custom:
+        answers:
+        - text: El riesgo de infectarse de COVID-19 a través de las heces de una persona
+            infectada parece ser bajo. Investigaciones iniciales sugieren que el virus
+            puede estar presente en heces en algunos casos, el contagio a través de esta
+            ruta no es una característico de esta pandemia. Sin embargo, porque es un
+            riesgo, es importante lavarse las manos regularmente, después de usar el baño
+            y antes de comer.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El riesgo de infectarse de COVID-19 a través de las heces de una
+            persona infectada parece ser bajo. Investigaciones iniciales sugieren que
+            el virus puede estar presente en heces en algunos casos, el contagio a través
+            de esta ruta no es una característico de esta pandemia. Sin embargo, porque
+            es un riesgo, es importante lavarse las manos regularmente, después de usar
+            el baño y antes de comer.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          type: hints
+    utter_spread_general:
+    - custom:
+        answers:
+        - text: El COVID-19 puede pasar de una persona a otra a través de pequeñas gotas
+            de la nariz o la boca que se transmiten cuando una persona con el virus tose
+            o exhala. Estas gotas caen sobre objetos y superficies alrededor de la persona.
+            Otras personas lo contraen tocando estos objetos o superficies y luego tocándose
+            los ojos, la nariz o la boca. <br>Las personas también pueden contraer COVID-19
+            si inhalan gotitas de una persona con COVID-19 que tose o exhala gotitas.<a
+            href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses' target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El COVID-19 puede pasar de una persona a otra a través de pequeñas
+            gotas de la nariz o la boca que se transmiten cuando una persona con el virus
+            tose o exhala. Estas gotas caen sobre objetos y superficies alrededor de la
+            persona. Otras personas lo contraen tocando estos objetos o superficies y
+            luego tocándose los ojos, la nariz o la boca. Las personas también pueden
+            contraer COVID-19 si inhalan gotitas de una persona con COVID-19 que tose
+            o exhala gotitas.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_spread_no_symptoms:
+    - custom:
+        answers:
+        - text: El riesgo de infectarse de COVID-19 de alguien que no tiene ningún síntoma
+            es muy bajo. Sin embargo, muchas personas con COVID-19 experimentan solo síntomas
+            moderados. Esto es particularmente cierto en las etapas tempranas de la enfermedad.
+            Por lo tanto es posible infectarse de COVID-19 de alguien que tiene, por ejemplo,
+            solo una tos moderada y no se siente enfermo. <a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El riesgo de infectarse de COVID-19 de alguien que no tiene ningún
+            síntoma es muy bajo. Sin embargo, muchas personas con COVID-19 experimentan
+            solo síntomas moderados. Esto es particularmente cierto en las etapas tempranas
+            de la enfermedad. Por lo tanto es posible infectarse de COVID-19 de alguien
+            que tiene, por ejemplo, solo una tos moderada y no se siente enfermo.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          type: hints
+    utter_spread_pets:
+    - custom:
+        answers:
+        - text: Existe la posibilidad de que algunos animales se infecten a través del
+            contacto cercano con humanos infectados. Se necesitan más pruebas para comprender
+            si los animales y las mascotas pueden transmitir la enfermedad. Según la evidencia
+            actual, la transmisión de persona a persona sigue siendo el principal impulsor.<a
+            href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses' target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Existe la posibilidad de que algunos animales se infecten a través
+            del contacto cercano con humanos infectados. Se necesitan más pruebas para
+            comprender si los animales y las mascotas pueden transmitir la enfermedad.
+            Según la evidencia actual, la transmisión de persona a persona sigue siendo
+            el principal impulsor.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Ébola
+            value: Ébola
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          type: hints
+    utter_spread_risk:
+    - custom:
+        answers:
+        - text: El riesgo de una enfermedad severa en la UE y el Reino Unido es actualmente
+            considerado bajo para la población en general en áreas donde las medidas de
+            distanciamiento físico apropiado son seguidas o donde la transmisión local
+            ha sido reducida o mantenida en niveles bajos.<a href='https://www.ecdc.europa.eu/en/current-risk-assessment-novel-coronavirus-situation'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El riesgo de una enfermedad severa en la UE y el Reino Unido es
+            actualmente considerado bajo para la población en general en áreas donde las
+            medidas de distanciamiento físico apropiado son seguidas o donde la transmisión
+            local ha sido reducida o mantenida en niveles bajos.</speak>
+          type: ssml
+        - options:
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: Síntomas
+            value: Síntomas
+          - label: Mascarillas médicas
+            value: Mascarillas médicas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_spread_surfaces_food_objects:
+    - custom:
+        answers:
+        - text: No ha habido informes de transmisión de COVID-19 a través de los alimentos
+            y, por lo tanto, no hay evidencia de que los alimentos importados a la Unión
+            Europea de acuerdo con las regulaciones de salud pública y animal aplicables
+            representen un riesgo para la salud de los ciudadanos de la UE en relación
+            con COVID-19. El principal modo de transmisión es de persona a persona.<a
+            href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>No ha habido informes de transmisión de COVID-19 a través de los
+            alimentos y, por lo tanto, no hay evidencia de que los alimentos importados
+            a la Unión Europea de acuerdo con las regulaciones de salud pública y animal
+            aplicables representen un riesgo para la salud de los ciudadanos de la UE
+            en relación con COVID-19. El principal modo de transmisión es de persona a
+            persona.</speak>
+          type: ssml
+    utter_test 2:
+    - custom:
+        answers:
+        - text: Esta es la segunda respuesta
+          type: html
+        - ssml: <speak>Esta es la segunda respuesta</speak>
+          type: ssml
+    utter_test_caroussel:
+      - custom:
+          answers:
+            - type: carousel
+              options:
+                - title: volunteers-big
+                  thumbnailURL: volunteers-big.png
+                  url: https://cosibot.org/wp-content/uploads/2020/05/volunteers-big.png
+                - title: icon-violet-bg
+                  thumbnailURL: icon-violet-bg.png
+                  url: https://cosibot.org/wp-content/uploads/2020/05/icon-violet-bg.png
+    utter_test_virus:
+    - custom:
+        answers:
+        - text: Los consejos actuales para las pruebas dependen de la etapa de la pandemia
+            en el país o área donde vive. Los países de la UE pueden estar en diferentes
+            escenarios, incluso dentro del mismo país, y las estrategias de pruebas se
+            adaptarán a la situación a nivel nacional y local.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Los consejos actuales para las pruebas dependen de la etapa de
+            la pandemia en el país o área donde vive. Los países de la UE pueden estar
+            en diferentes escenarios, incluso dentro del mismo país, y las estrategias
+            de pruebas se adaptarán a la situación a nivel nacional y local.</speak>
+          type: ssml
+    utter_test_who:
+    - custom:
+        answers:
+        - text: Las Autoridades Nacionales pueden decidir solo hacer pruebas a subgrupos
+            de casos sospechosos basados en la capacidad nacional para hacer pruebas,
+            la disponibilidad del equipo necesario para las pruebas, el nivel de transmisión
+            local de COVID-19, o cualquier otro criterio.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Las Autoridades Nacionales pueden decidir solo hacer pruebas a
+            subgrupos de casos sospechosos basados en la capacidad nacional para hacer
+            pruebas, la disponibilidad del equipo necesario para las pruebas, el nivel
+            de transmisión local de COVID-19, o cualquier otro criterio.</speak>
+          type: ssml
+    utter_travel_after:
+    - custom:
+        answers:
+        - text: 'Quien haya regresado de una zona en la que se esté propagando el COVID-19
+            debe vigilar sus síntomas durante 14 días y tomarse la temperatura dos veces
+            al día. Si desarrolla incluso una tos leve o fiebre baja (es decir, una temperatura
+            de 37,3 C° o más) debe permanecer en casa y autoaislarse. Esto significa evitar
+            el contacto cercano (un metro o menos) con otras personas, incluidos los miembros
+            de la familia. También debe llamar por teléfono a su proveedor de atención
+            médica o al departamento de salud pública local, dando detalles de su viaje
+            reciente y sus síntomas.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice''
+            target=''_blank''>(1)</a>
+
+            '
+          type: html
+        - ssml: <speak>Quien haya regresado de una zona en la que se esté propagando el
+            COVID-19 debe vigilar sus síntomas durante 14 días y tomarse la temperatura
+            dos veces al día. Si desarrolla incluso una tos leve o fiebre baja (es decir,
+            una temperatura de 37,3 grados o más) debe permanecer en casa y autoaislarse. Esto
+            significa evitar el contacto cercano (un metro o menos) con otras personas,
+            incluidos los miembros de la familia. También debe llamar por teléfono a su
+            proveedor de atención médica o al departamento de salud pública local, dando
+            detalles de su viaje reciente y sus síntomas</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_travel_before:
+    - custom:
+        answers:
+        - text: Asegúrese de tener la información más actualizada en áreas donde el COVID-19
+            se está propagando. Basándose en esa información, debe evaluar los beneficios
+            y riesgos relacionados con sus próximos planes de viaje.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Asegúrese de tener la información más actualizada en áreas donde
+            el COVID-19 se está propagando. Basándose en esa información, debe evaluar
+            los beneficios y riesgos relacionados con sus próximos planes de viaje.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_travel_while:
+    - custom:
+        answers:
+        - text: Lave sus manos regularmente y manténgase al menos a un metro de distancia
+            de personas que estornudan o tosen, asegúrese de saber que hacer y a quién
+            contactar si se siente enfermo mientras viaja. Cumple las instrucciones de
+            las autoridades locales donde viaja. <br> Si, por ejemplo, las autoridades
+            locales le dicen que no vaya a algún lugar, debe cumplir con esto. Debe cumplir
+            con las restricciones locales sobre viajes, movimiento o grandes reuniones.<a
+            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice'
+            target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Lave sus manos regularmente y manténgase al menos a un metro de
+            distancia de personas que estornudan o tosen, asegúrese de saber que hacer
+            y a quién contactar si se siente enfermo mientras viaja. Cumple las instrucciones
+            de las autoridades locales donde viaja. Si, por ejemplo, las autoridades
+            locales le dicen que no vaya a algún lugar, debe cumplir con esto. Debe cumplir
+            con las restricciones locales sobre viajes, movimiento o grandes reuniones.</speak>
+          type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: Transmisión
+            value: Transmisión
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
+    utter_user_angry:
+    - custom:
+        answers:
+        - text: Por favor, no se enoje conmigo. Quiero asistirle lo mejor que pueda.
+          type: html
+        - ssml: <speak>Por favor, no se enoje conmigo. Quiero asistirle lo mejor que pueda.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Siento mucho que se sienta de esa forma. ¿Qué puedo hacer para cambiar
+            sus sentimientos?
+          type: html
+        - ssml: <speak>Siento mucho que se sienta de esa forma. ¿Qué puedo hacer para
+            cambiar sus sentimientos?</speak>
+          type: ssml
+    utter_user_friend:
+    - custom:
+        answers:
+        - text: Sería un placer ser su amiga.
+          type: html
+        - ssml: <speak>Sería un placer ser su amiga.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Sería un gran placer para mí si pudiera llamarle mi amigo o amiga.
+          type: html
+        - ssml: <speak>Sería un gran placer para mí si pudiera llamarle mi amigo o amiga.</speak>
+          type: ssml
+    utter_user_happy:
+    - custom:
+        answers:
+        - text: ¡Dígaselo al mundo!
+          type: html
+        - ssml: <speak>¡Dígaselo al mundo!</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: ¡Estoy contenta de que esté feliz!
+          type: html
+        - ssml: <speak>¡Estoy contenta de que esté feliz!</speak>
+          type: ssml
+    utter_user_love:
+    - custom:
+        answers:
+        - text: Me halaga. Desafortunadamente no puedo aceptar su amor.
+          type: html
+        - ssml: <speak>Me halaga. Desafortunadamente no puedo aceptar su amor.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Lo siento pero no nos veo compatibles.
+          type: html
+        - ssml: <speak>Lo siento pero no nos veo compatibles.</speak>
+          type: ssml
+    utter_user_no_further_questions:
+    - custom:
+        answers:
+        - text: Muy bien.
+          type: html
+        - ssml: <speak>Muy bien.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Bien.
+          type: html
+        - ssml: <speak>Bien.</speak>
+          type: ssml
+    utter_user_particles:
+    - custom:
+        answers:
+        - text: Ok...
+          type: html
+        - ssml: <speak>Ok...</speak>
+          type: ssml
+    utter_user_scared:
+    - custom:
+        answers:
+        - text: Es normal para las personas sentir miedo y preocupación por la situación
+            actual. Para protegernos a nosotros mismos y proteger a los que amamos podemos
+            tomar algunas medidas de protección para frenar la propagación.
+          type: html
+        - ssml: <speak>Es normal para las personas sentir miedo y preocupación por la
+            situación actual. Para protegernos a nosotros mismos y proteger a los que
+            amamos podemos tomar algunas medidas de protección para frenar la propagación.</speak>
+          type: ssml
+    utter_vaccine_administration:
+    - custom:
+        answers:
+        - text: Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna para COVID-19
+            de Moderna se administrarán mediante una inyección en el músculo. La serie
+            de vacunación es de 2 dosis administradas con 1 mes de diferencia. Si recibe
+            una dosis de una determinada vacuna, debe recibir una segunda dosis de esta
+            misma vacuna un mes después para completar la serie de vacunación.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
+            para COVID-19 de Moderna se administrarán mediante una inyección en el músculo.
+            La serie de vacunación es de 2 dosis administradas con 1 mes de diferencia.
+            Si recibe una dosis de una determinada vacuna, debe recibir una segunda dosis
+            de esta misma vacuna un mes después para completar la serie de vacunación.</speak>
+          type: ssml
+    utter_vaccine_ingredients:
+    - custom:
+        answers:
+        - text: 'Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna para
+            COVID-19 de Moderna no contienen huevos, conservantes ni látex. Para obtener
+            una lista completa de ingredientes, consulte la hoja informativa sobre vacunas
+            que se proporciona a continuación:'
+          type: html
+        - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
+            para COVID-19 de Moderna no contienen huevos, conservantes ni látex. Para
+            obtener una lista completa de ingredientes, consulte la hoja informativa sobre
+            vacunas que se proporciona a continuación.</speak>
+          type: ssml
+        - links:
+          - title: Moderna COVID-19 Vaccine
+            url: https://www.fda.gov/media/144638/download
+          type: links
+    utter_vaccine_moderna_about:
+    - custom:
+        answers:
+        - text: La vacuna para COVID-19 de Moderna es una vacuna no aprobada que puede
+            prevenir el COVID-19. La FDA ha autorizado el uso de emergencia de la vacuna
+            para COVID-19 de Moderna para prevenir el COVID-19 en personas de 18 años
+            o más bajo la Autorización de Uso de Emergencia.
+          type: html
+        - ssml: <speak>La vacuna para COVID-19 de Moderna es una vacuna no aprobada
+            que podría prevenir el COVID-19. La FDA ha autorizado el uso de emergencia
+            de la vacuna para COVID-19 de Moderna para prevenir el COVID-19 en personas
+            de 18 años o más bajo la Autorización de Uso de Emergencia.</speak>
+          type: ssml
+    utter_vaccine_pfizer_about:
+    - custom:
+        answers:
+        - text: La vacuna de Pfizer-BioNTech para COVID-19 es una vacuna que puede prevenir
+            el COVID-19. La FDA ha autorizado el uso de emergencia de la vacuna para prevenir
+            el COVID-19 en personas de 16 años o más bajo la Autorización de Uso de Emergencia.<ahref='https://www.fda.gov/media/144414/download'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>La vacuna de Pfizer-BioNTech para COVID-19 es una vacuna que puede
+            prevenir el COVID-19. La FDA ha autorizado el uso de emergencia de la vacuna
+            para prevenir el COVID-19 en personas de 16 años o más bajo la Autorización
+            de Uso de Emergencia.</speak>
+          type: ssml
+    utter_vaccine_take_or_not:
+    - custom:
+        answers:
+        - text: Es entendible que algunas personas puedan estar preocupadas por ser vacunadas
+            ahora que las vacunas para el COVID-19 están disponibles. Mientras más vacunas
+            para COVID-19 están siendo desarrolladas tan rápido como sea posible, los
+            procesos de rutina y procedimientos continúan para asegurar la seguridad de
+            cualquier vacuna que es autorizada o aprobada para su uso. La seguridad es
+            la primer prioridad y hay muchas razones para ser vacunado:<ul><li>le ayudará
+            a evitar infectarse de COVID-19; </li><li>es una manera más segura de generar
+            protección; </li><li>será una importante herramienta para detener la pandemia.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>Es entendible que algunas personas puedan estar preocupadas por
+            ser vacunadas ahora que las vacunas para el COVID-19 están disponibles. Mientras
+            más vacunas para COVID-19 están siendo desarrolladas tan rápido como sea posible,
+            los procesos de rutina y procedimientos continúan para asegurar la seguridad
+            de cualquier vacuna que es autorizada o aprobada para su uso. La seguridad
+            es la primer prioridad y hay muchas razones para ser vacunado, le ayudará
+            a evitar infectarse de COVID-19, es una manera más segura de generar protección,
+            será una importante herramienta para detener la pandemia.</speak>
+          type: ssml
+    utter_vaccine_when:
+    - custom:
+        answers:
+        - text: El objetivo es que todos puedan recibir fácilmente una vacuna COVID-19
+            tan pronto como estén disponibles cantidades suficientes de vacuna. A medida
+            que aumenta el suministro de vacunas, pero sigue siendo limitado, se ampliarán
+            los grupos recomendados para la vacunación. <br>En este momento, el grupo
+            prioritario es el personal sanitario y los residentes de centros de cuidados
+            de larga duración.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html'target='_blank'>(1)</a>
+          type: html
+        - ssml: <speak>El objetivo es que todos puedan recibir fácilmente una vacuna COVID-19
+            tan pronto como estén disponibles cantidades suficientes de vacuna. A medida
+            que aumenta el suministro de vacunas, pero sigue siendo limitado, se ampliarán
+            los grupos recomendados para la vacunación. En este momento, el grupo prioritario
+            es el personal sanitario y los residentes de centros de cuidados de larga
+            duración.</speak>
+          type: ssml
+    utter_vocative_call:
+    - custom:
+        answers:
+        - text: Estoy aquí. Solo digame cómo puedo ayudarle
+          type: html
+        - ssml: <speak>Estoy aquí. Solo digame cómo puedo ayudarle</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Estoy a su servicio
+          type: html
+        - ssml: <speak>Estoy a su servicio</speak>
+          type: ssml
+    utter_vocative_help:
+    - custom:
+        answers:
+        - text: ¡Claro! ¿Qué puedo hacer por usted?
+          type: html
+        - ssml: <speak>¡Claro! ¿Qué puedo hacer por usted?</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Seguramente. ¿Cómo puedo ayudarle?
+          type: html
+        - ssml: <speak>Seguramente. ¿Cómo puedo ayudarle?</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Seguro. ¿Cómo puedo ayudarle?
+          type: html
+        - ssml: <speak>Seguro. ¿Cómo puedo ayudarle?</speak>
+          type: ssml
+    utter_vocative_sorry:
+    - custom:
+        answers:
+        - text: No es necesario pedir disculpas.
+          type: html
+        - ssml: <speak>No es necesario pedir disculpas.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Está bien, no necesita disculparte.
+          type: html
+        - ssml: <speak>Está bien, no es necesario disculparte.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: No se preocupe por eso.
+          type: html
+        - ssml: <speak>No se preocupe por eso.</speak>
+          type: ssml
+    utter_vocative_thank_you:
+    - custom:
+        answers:
+        - text: ¡Estoy a su disposición en cualquier momento!
+          type: html
+        - ssml: <speak>¡Estoy a su disposición en cualquier momento!</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: ¡De nada!
+          type: html
+        - ssml: <speak>¡De nada!</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: Fue un placer.
+          type: html
+        - ssml: <speak>Fue un placer.</speak>
+          type: ssml
+    - custom:
+        answers:
+        - text: ¡Estoy feliz por ser de ayuda!
+          type: html
+        - ssml: <speak>¡Estoy feliz por ser de ayuda!</speak>
+          type: ssml
+    utter_vocative_you_welcome:
+    - custom:
+        answers:
+        - text: ¡Muy bien!, ¿Qué más puedo hacer por usted?
+          type: html
+        - ssml: <speak>¡Muy bien!, ¿Qué más puedo hacer por usted?</speak>
+          type: ssml
+    utter_want_to_add_country:
+      - custom:
+          answers:
+          - text: ¿Quiere datos acerca de un país en específico?
+            type: html
+          - ssml: <speak>¿Quiere datos acerca de un país en específico?</speak>
+            type: ssml
+          - options:
+            - label: Si
+              value: Si
+            - label: No
+              value: No
+            type: multichoice
+    utter_welcome:
+      - custom:
+          answers:
+          - text: Hola, mi nombre es {bot_name} y estoy aquí para dar información y guíarle
+              acerca de la pandemia de COVID-19, por ejemplo, como prevenir el contagio
+              o aclarar algunos mitos que quizás haya escuchado. ¿Cómo puedo ayudarle?
+            type: html
+          - ssml: <speak>Hola, mi nombre es {bot_name} y estoy aquí para dar información
+              y guíarle acerca de la pandemia de COVID-19, por ejemplo, como prevenir el
+              contagio o aclarar algunos mitos que quizás haya escuchado. ¿Cómo puedo ayudarle?</speak>
+            type: ssml
+          - options:
+            - label: Acerca del COVID-19
+              value: Acerca del COVID-19
+            - label: Medidas Preventivas
+              value: Medidas Preventivas
+            - label: Transmisión
+              value: Transmision
+            - label: Síntomas
+              value: Síntomas
+            - label: Mitos
+              value: Mitos
+            type: hints

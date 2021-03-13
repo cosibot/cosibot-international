@@ -6,7 +6,7 @@
 <img align="right" width="200" height="201" alt="Helen-wp" src="https://cosibot.org/wp-content/uploads/2020/04/Helen-wp-3.png"></img>
 [Cosibot](https://cosibot.org/) – Covid Stay Informed Bot is a non-profit initiative developed by [ROBO.AI](https://robo-ai.com/) to provide citizens around the world with credible and up-to-date information on Coronavirus, using different sources and making it available in a single application.
 
-This is the international version, available in English and Brazilian Portuguese.
+This is the international version, available in English, Brazilian Portuguese and Spanish.
 
 ## Add Cosibot to your website
 You can add the Cosibot Corona Virus Chatbot as a popup to your website. It is straightforward and it can be done in just three simple steps:
