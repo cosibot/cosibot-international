@@ -3737,22 +3737,37 @@
 - does corona virus spread from sex
 
 ## intent:covid_situation
+- are infected in the world
+- can you provide statistics?
+- can you talk about the world situation
 - Confirmed cases in [Finsterwalde]{"entity": "geography", "value": "town"}
 - Coronavirus updated situation
 - Coronavirus updated statistics
+- current numbers
+- death in germany
 - Death toll
 - Deaths in [Fürstenberg/Havel]{"entity": "geography", "value": "town"}
+- Does the numbers increase or decrease
 - From now how long was [COVID-19]{"entity": "virus", "value": "COVID"} covered the world
 - Give me all information happening
+- global
+- hi Helen send me some statistics about [COVID-19]{"entity": "virus", "value": "COVID"}
 - How are the counts in the world?
+- how is the situation right now in [Portugal]{"entity": "country_code", "value": "PT"}?
+- how is the situation right now in the [british virgin islands]{"entity": "country_code", "value": "VG"}?
+- how is the situation right now?
 - How many a still sick
 - How many are the counts in the world?
-- How many cases are registered in [Syktyvkar]{"entity": "geography", "value": "town"}
-- How many cases are there in the world
-- How many cases there are in the world?
-- How many cases worldwide
+- How many coronavirus cases do we have in the world?
+- how many deaths globaly
+- how many deaths?
 - How many infections are there worldwide?
+- how many people are infected in all world
+- how many people died
+- How many people died corona
+- how many people died in eternity
 - How many people have been diagnosed with [COVID-19]{"entity": "virus", "value": "COVID"}
+- How many people have been diagnosed with Covid-19
 - How many people have been infected?
 - How much infects are counted in [Germany]{"entity": "country_code", "value": "DE"}?
 - Hw many r sick
@@ -3768,63 +3783,35 @@
 - Number of deaths in [Romania]{"entity": "country_code", "value": "RO"}
 - Number of deaths worldwide.
 - Number of infected
-- Number of infected in [Saudi Arabia]{"entity": "country_code", "value": "SA"}
 - Situation globally
+- statistics about mortality
 - Statistics of [Grevenbroich]{"entity": "geography", "value": "town"}
 - Statistics of the [Ascension Island]{"entity": "country_code", "value": "SH"}
+- statistics today for [Helsinki]{"entity": "geography", "value": "town"}
 - Statistics.
+- talk about the numbers
 - Tell me the actual numbers.
 - Total confirmed cases
 - Total confirmed cases?
 - What about india
 - What are the latest statistics on coronavirus?
 - What are the statics of covid 19 in the world
+- what is the death count?
 - What is the death rate
 - What is the number of cases?
 - What is the number of confirmed cases?
 - What is the number of deaths in [Sri Lanka]{"entity": "country_code", "value": "LK"}
 - What is the number of deaths?
 - What is the number of infected?
-- What of positive cases altogether
-- Which country has the highest cases?
-- are infected in the world
-- can you provide statistics?
-- can you talk about the world situation
-- current numbers
-- death in germany
-- global
-- hi Helen send me some statistics about [COVID-19]{"entity": "virus", "value": "COVID"}
-- how is the situation right now in [Portugal]{"entity": "country_code", "value": "PT"}?
-- how is the situation right now in the [british virgin islands]{"entity": "country_code", "value": "VG"}?
-- how is the situation right now?
-- how many cases are out there?
-- how many cases are there out there?
-- how many deaths globaly
-- how many deaths?
-- how many people are infected in all world
-- how many people died
-- how many people died in eternity
-- statistics about mortality
-- statistics today for [Helsinki]{"entity": "geography", "value": "town"}
-- talk about the numbers
-- what is the death count?
 - what is the world situation?
+- What of positive cases altogether
 - what's the current state?
 - where is the virus more prevalent ?
 - where is the virus more prevalent?
+- Which country has the highest cases?
 - which is the most affected country?
-- world situation
-- Does the numbers increase or decrease
-- How many cases
-- How many cases are registered in [Zurich]{"entity": "geography", "value": "town"} so far?
-- How many cases are there
-- How many cases?
-- How many coronavirus cases do we have in the world?
-- How many people died corona
-- How many people have been diagnosed with Covid-19
-- What is the number of covid 19 cases in [Malta]{"entity": "country_code", "value": "MT"}
-- What is the number of covid 19 cases in the [Kingdom of Thailand]{"entity": "country_code", "value": "TH"}
 - Word's situation
+- world situation
 - World's situation
 
 ## intent:covid_situation_deaths
@@ -3842,21 +3829,30 @@
 
 ## intent:covid_situation_infected
 - Active cases in [Republic of the Sudan]{"entity": "country_code", "value": "SD"}.
+- Cases in [Malta]{"entity": "country_code", "value": "MT"}
 - How many active cases are in [Česko]{"entity": "country_code", "value": "CZ"}?
 - How many active cases in the [Kingdom of Bahrain]{"entity": "country_code", "value": "BH"}?
 - How many active cases of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
-- How many cases in
+- How many cases are in [Česko]{"entity": "country_code", "value": "CZ"}?
+- How many cases are registered in [Syktyvkar]{"entity": "geography", "value": "town"}
+- How many cases are registered in [Zurich]{"entity": "geography", "value": "town"} so far?
 - How many cases in [Großherzogtum Luxemburg]{"entity": "country_code", "value": "LU"}
+- How many cases in the [Kingdom of Bahrain]{"entity": "country_code", "value": "BH"}?
+- How many cases of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
 - How many coronavirus case are in [Ilhas Geórgia do Sul e Sanduíche do Sul]{"entity": "country_code", "value": "GS"}
 - How many infected are in [The Western Kingdom]{"entity": "country_code", "value": "MA"}?
 - How many infected in the [Japan]{"entity": "country_code", "value": "JP"}?
 - How many infected in the [Repiblik D Ayiti]{"entity": "country_code", "value": "HT"}?
-- How many people are infected in [Rephaboliki ya Afrika Borwa]{"entity": "country_code", "value": "ZA"} to this date?
 - How many people are infected in [Pākistān]{"entity": "country_code", "value": "PK"}?
+- How many people are infected in [Rephaboliki ya Afrika Borwa]{"entity": "country_code", "value": "ZA"} to this date?
 - How many people are with covid in [République du Rwanda]{"entity": "country_code", "value": "RW"}
-- how many positive cases do we have in [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}
 - how many positive cases are in [Česko]{"entity": "country_code", "value": "CZ"}?
+- how many positive cases do we have in [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}
 - how many positive cases of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
+- Number of infected in [Saudi Arabia]{"entity": "country_code", "value": "SA"}
+- What is the number of covid 19 cases in [Malta]{"entity": "country_code", "value": "MT"}
+- What is the number of covid 19 cases in the [Kingdom of Thailand]{"entity": "country_code", "value": "TH"}
+
 
 ## intent:covid_situation_infected_critical
 - Critical cases in [Tshād]{"entity": "country_code", "value": "TD"}.
@@ -8437,7 +8433,6 @@
 - Guame
 
 ## synonym:PT
-
 - Portugal
 - Portuguese Republic
 - República Portuguesa
