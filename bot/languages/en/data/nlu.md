@@ -5777,7 +5777,7 @@
 - Yes please, I'm call Brian,,my inquiry is that,how far have researchers towards developing a vaccine of corona virus
 - Yes please, I'm call Brian,,my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - Yes. But is there a vaccine?
-- - mRNA vaccine
+- mRNA vaccine
 - RNA vaccine
 - About mRNA Vaccine
 - About the mRNA vaccine
@@ -5950,6 +5950,8 @@
 - Vaccines administration
 - Administration vaccine
 - Administration vaccines
+- Can I take a different vaccine on the second dose?
+- Will I be given the same vaccine for my second dose?
 
 ## intent:quarantine_control
 - How is the quarantine controlled?
