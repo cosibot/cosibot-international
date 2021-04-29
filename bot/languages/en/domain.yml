@@ -1525,8 +1525,9 @@ responses:
           - type: ssml
             ssml: <speak>There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and as of and as of 15 February 2021, 175.3 million vaccine doses have been administered. At least 7 different vaccines, 3 platforms, have been administered.</speak>
           - type: html
-            text: "there are now several vaccines that are in use.<br>
-            The first mass vaccination programme started in early December 2020 and as of and as of 15 February 2021, 175.3 million vaccine doses have been administered.<br>At least 7 different vaccines (3 platforms) have been administered.<ahref='https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=CjwKCAjw7J6EBhBDEiwA5UUM2r6toNYHYy7NIn0FtK25Rmeals8U7SupnQGx9EdpZl7m7eq4M8U4PhoCNvQQAvD_BwE'target='_blank'>(1)</a>"
+            text: "There are now several vaccines that are in use.<br>
+            The first mass vaccination programme started in early December 2020 and as of and as of 15 February 2021, 175.3 million vaccine doses have been administered.<br>
+            At least 7 different vaccines (3 platforms) have been administered.<ahref='https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=CjwKCAjw7J6EBhBDEiwA5UUM2r6toNYHYy7NIn0FtK25Rmeals8U7SupnQGx9EdpZl7m7eq4M8U4PhoCNvQQAvD_BwE'target='_blank'>(1)</a>"
           - type: hints
             options:
               - label: Preventive Measures
