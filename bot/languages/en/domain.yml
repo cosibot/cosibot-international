@@ -1562,7 +1562,7 @@ responses:
             ssml: <speak>It is understandable that some people may be concerned about getting vaccinated now that Covid 19 vaccines are available. While more Covid 19 vaccines are being developed as quickly as possible, routine processes and procedures remain in place to ensure the safety of any vaccine that is authorized or approved for use. Safety is a top priority, and there are many reasons to get vaccinated, it will help keep you from getting COVID-19, it's a safer way to help build protection, it will be an important tool to help stop the pandemic.</speak>
           - type: html
             text: "It is understandable that some people may be concerned about getting vaccinated now that COVID-19 vaccines are available. While more COVID-19 vaccines are being developed as quickly as possible, routine processes and procedures remain in place to ensure the safety of any vaccine that is authorized or approved for use. Safety is a top priority, and there are many reasons to get vaccinated: <ul><li>it will help keep you from getting COVID-19; </li><li>it's a safer way to help build protection; </li><li>it will be an important tool to help stop the pandemic.<a
-            href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html'target='_blank'>(1)</a>"   
+              href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html'target='_blank'>(1)</a>"   
   utter_vaccine_when:
     - custom:
         answers:
@@ -1570,7 +1570,7 @@ responses:
             ssml: <speak>The goal is for everyone to be able to easily get a Covid 19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. Right now the priority group is the healthcare personnel and long-term care facility residents.</speak>
           - type: html
             text: The goal is for everyone to be able to easily get a COVID-19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. <br>Right now the priority group is the healthcare personnel and long-term care facility residents.<a
-            href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html'target='_blank'>(1)</a>      
+              href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html'target='_blank'>(1)</a>      
   utter_vaccine_ingredients:
     - custom:
         answers:
