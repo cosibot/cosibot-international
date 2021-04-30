@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: "0.3.7"
+    initial_value: "0.4.0"
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -1523,9 +1523,11 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Currently, two vaccines are authorized and recommended to prevent Covid 19, ​​​​Pfizer bionyech Covid 19 vaccine and Moderna’s Covid 19 vaccine​​. Multiple Covid 19 vaccines are also still under development. Large-scale clinical trials are in progress or being planned for two additional Covid 19 vaccines in the United States alone.</speak>
+            ssml: <speak>There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and as of and as of 15 February 2021, 175.3 million vaccine doses have been administered. At least 7 different vaccines, 3 platforms, have been administered.</speak>
           - type: html
-            text: "Currently, two vaccines are authorized and recommended to prevent COVID-19: ​​​​<ul><li>Pfizer-BioNTech COVID-19 vaccine </li><li>Moderna’s COVID-19 vaccine​​. </li></ul>Multiple COVID-19 vaccines are also still under development. Large-scale clinical trials are in progress or being planned for two additional COVID-19 vaccines in the United States alone.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/faq.html'target='_blank'>(1)</a>"
+            text: "There are now several vaccines that are in use.<br>
+            The first mass vaccination programme started in early December 2020 and as of and as of 15 February 2021, 175.3 million vaccine doses have been administered.<br>
+            At least 7 different vaccines (3 platforms) have been administered.<ahref='https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=CjwKCAjw7J6EBhBDEiwA5UUM2r6toNYHYy7NIn0FtK25Rmeals8U7SupnQGx9EdpZl7m7eq4M8U4PhoCNvQQAvD_BwE'target='_blank'>(1)</a>"
           - type: hints
             options:
               - label: Preventive Measures
@@ -1570,24 +1572,16 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Both the Pfizer Biontech Covid 19 Vaccine and the Moderna Covid 19 Vaccine do not contain Eggs, Preservatives or Latex. For a full list of ingredients, see the Vaccines Fact Sheet provided below.</speak>
+            ssml: <speak>The Vaccines do not contain Eggs, Preservatives or Latex.</speak>
           - type: html
-            text: "Both the Pfizer-BioNTech COVID-19 Vaccine and the Moderna COVID-19 Vaccine do not contain Eggs, Preservatives or Latex. For a full list of ingredients, see the Vaccines Fact Sheet provided below:"
-          - type: links
-            links:
-              - title: Pfizer-BioNTech COVID-19 Vaccine
-                url: https://www.fda.gov/media/144414/download
-          - type: links
-            links:
-              - title: Moderna COVID-19 Vaccine
-                url: https://www.fda.gov/media/144638/download    
+            text: The Vaccines do not contain Eggs, Preservatives or Latex.
   utter_vaccine_administration:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Both the Pfizer-BioNTech Covid 19 Vaccine and the Moderna Covid 19 Vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.</speak>
+            ssml: <speak>The vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.</speak>
           - type: html
-            text: Both the Pfizer-BioNTech COVID-19 Vaccine and the Moderna COVID-19 Vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>                                                       
+            text: The vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
   utter_prevention_clean_hands:
     - custom:
         answers:
