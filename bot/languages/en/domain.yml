@@ -1527,7 +1527,8 @@ responses:
           - type: html
             text: "There are now several vaccines that are in use.<br>
             The first mass vaccination programme started in early December 2020 and as of and as of 15 February 2021, 175.3 million vaccine doses have been administered.<br>
-            At least 7 different vaccines (3 platforms) have been administered.<ahref='https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=CjwKCAjw7J6EBhBDEiwA5UUM2r6toNYHYy7NIn0FtK25Rmeals8U7SupnQGx9EdpZl7m7eq4M8U4PhoCNvQQAvD_BwE'target='_blank'>(1)</a>"
+            At least 7 different vaccines (3 platforms) have been administered.<a
+              href='https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=CjwKCAjw7J6EBhBDEiwA5UUM2r6toNYHYy7NIn0FtK25Rmeals8U7SupnQGx9EdpZl7m7eq4M8U4PhoCNvQQAvD_BwE' target='_blank'>(1)</a>"
           - type: hints
             options:
               - label: Preventive Measures
@@ -1546,28 +1547,30 @@ responses:
           - type: ssml
             ssml: <speak>The Pfizer Biontech Covid 19 Vaccine is a vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Pfizer Biontech Covid 19 Vaccine to prevent Covid 19 in individuals 16 years of age and older under an Emergency Use Authorization. </speak>
           - type: html
-            text: The Pfizer-BioNTech COVID-19 Vaccine is a vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Pfizer-BioNTech COVID-19 Vaccine to prevent COVID-19 in individuals 16 years of age and older under an Emergency Use Authorization (USA).<ahref='https://www.fda.gov/media/144414/download'target='_blank'>(1)</a>     
+            text: The Pfizer-BioNTech COVID-19 Vaccine is a vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Pfizer-BioNTech COVID-19 Vaccine to prevent COVID-19 in individuals 16 years of age and older under an Emergency Use Authorization (USA).<a href='https://www.fda.gov/media/144414/download'target='_blank'>(1)</a>     
   utter_vaccine_moderna_about:
     - custom:
         answers:
           - type: ssml
             ssml: <speak>The Moderna Covid 19 Vaccine is an unapproved vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Moderna Covid 19 Vaccine to prevent Covid 19 in individuals 18 years of age and older under an Emergency Use Authorization.</speak>
           - type: html
-            text: The Moderna COVID-19 Vaccine is an unapproved vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Moderna COVID-19 Vaccine to prevent COVID-19 in individuals 18 years of age and older under an Emergency Use Authorization (EUA).<ahref='https://www.fda.gov/media/144638/download'target='_blank'>(1)</a>          
+            text: The Moderna COVID-19 Vaccine is an unapproved vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Moderna COVID-19 Vaccine to prevent COVID-19 in individuals 18 years of age and older under an Emergency Use Authorization (EUA).<a href='https://www.fda.gov/media/144638/download'target='_blank'>(1)</a>          
   utter_vaccine_take_or_not:
     - custom:
         answers:
           - type: ssml
             ssml: <speak>It is understandable that some people may be concerned about getting vaccinated now that Covid 19 vaccines are available. While more Covid 19 vaccines are being developed as quickly as possible, routine processes and procedures remain in place to ensure the safety of any vaccine that is authorized or approved for use. Safety is a top priority, and there are many reasons to get vaccinated, it will help keep you from getting COVID-19, it's a safer way to help build protection, it will be an important tool to help stop the pandemic.</speak>
           - type: html
-            text: "It is understandable that some people may be concerned about getting vaccinated now that COVID-19 vaccines are available. While more COVID-19 vaccines are being developed as quickly as possible, routine processes and procedures remain in place to ensure the safety of any vaccine that is authorized or approved for use. Safety is a top priority, and there are many reasons to get vaccinated: <ul><li>it will help keep you from getting COVID-19; </li><li>it's a safer way to help build protection; </li><li>it will be an important tool to help stop the pandemic.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html'target='_blank'>(1)</a>"   
+            text: "It is understandable that some people may be concerned about getting vaccinated now that COVID-19 vaccines are available. While more COVID-19 vaccines are being developed as quickly as possible, routine processes and procedures remain in place to ensure the safety of any vaccine that is authorized or approved for use. Safety is a top priority, and there are many reasons to get vaccinated: <ul><li>it will help keep you from getting COVID-19; </li><li>it's a safer way to help build protection; </li><li>it will be an important tool to help stop the pandemic.<a
+            href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html'target='_blank'>(1)</a>"   
   utter_vaccine_when:
     - custom:
         answers:
           - type: ssml
             ssml: <speak>The goal is for everyone to be able to easily get a Covid 19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. Right now the priority group is the healthcare personnel and long-term care facility residents.</speak>
           - type: html
-            text: The goal is for everyone to be able to easily get a COVID-19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. <br>Right now the priority group is the healthcare personnel and long-term care facility residents.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html'target='_blank'>(1)</a>      
+            text: The goal is for everyone to be able to easily get a COVID-19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. <br>Right now the priority group is the healthcare personnel and long-term care facility residents.<a
+            href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html'target='_blank'>(1)</a>      
   utter_vaccine_ingredients:
     - custom:
         answers:
@@ -1581,7 +1584,7 @@ responses:
           - type: ssml
             ssml: <speak>The vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.</speak>
           - type: html
-            text: The vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
+            text: The vaccine will be given as an injection into the muscle. The vaccination series is 2 doses given 1 month apart. If you receive one dose of a certain vaccine, you should receive a second dose of this same vaccine a month later to complete the vaccination series.<a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
   utter_prevention_clean_hands:
     - custom:
         answers:
