@@ -2600,36 +2600,6 @@
 - What procedure can I follow to be part of Cosibot?
 - who is cosibot?
 
-## intent:covid_volunteer
-- How can I volunteer?
-- I want to volunteer.
-- I want to be a volunteer.
-- I want to help in this project.
-- How can I help?
-- I want to help!
-- How can I volunteer?
-- How can I help causes related to COVID-19?
-- How can I participate in a project?
-- How can I help an NGO?
-
-## intent:covid_register
-- How can I register my project?
-- How can I enroll my project in Tech4Covid?
-- What kind of project can I subscribe to?
-- What projects need help?
-
-## intent:covid_tech4covid
-- What is Tech4Covid?
-- What is the Tech4Covid?
-- Tech4Covid.
-- About Tech4Covid.
-- What is Tech4Covid?
-- What is the Tech4Covid?
-- Do you know Tech4Covid?
-- What is Tech4Covid?
-- What is Tech4 Covid?
-- What is Tech 4 COVID?
-
 ## intent:covid_crisis_howlong
 - Do u think next year there will no longer be corona
 - Do you think next year there will no longer be corona
@@ -3767,22 +3737,37 @@
 - does corona virus spread from sex
 
 ## intent:covid_situation
+- are infected in the world
+- can you provide statistics?
+- can you talk about the world situation
 - Confirmed cases in [Finsterwalde]{"entity": "geography", "value": "town"}
 - Coronavirus updated situation
 - Coronavirus updated statistics
+- current numbers
+- death in germany
 - Death toll
 - Deaths in [Fürstenberg/Havel]{"entity": "geography", "value": "town"}
+- Does the numbers increase or decrease
 - From now how long was [COVID-19]{"entity": "virus", "value": "COVID"} covered the world
 - Give me all information happening
+- global
+- hi Helen send me some statistics about [COVID-19]{"entity": "virus", "value": "COVID"}
 - How are the counts in the world?
+- how is the situation right now in [Portugal]{"entity": "country_code", "value": "PT"}?
+- how is the situation right now in the [british virgin islands]{"entity": "country_code", "value": "VG"}?
+- how is the situation right now?
 - How many a still sick
 - How many are the counts in the world?
-- How many cases are registered in [Syktyvkar]{"entity": "geography", "value": "town"}
-- How many cases are there in the world
-- How many cases there are in the world?
-- How many cases worldwide
+- How many coronavirus cases do we have in the world?
+- how many deaths globaly
+- how many deaths?
 - How many infections are there worldwide?
+- how many people are infected in all world
+- how many people died
+- How many people died corona
+- how many people died in eternity
 - How many people have been diagnosed with [COVID-19]{"entity": "virus", "value": "COVID"}
+- How many people have been diagnosed with Covid-19
 - How many people have been infected?
 - How much infects are counted in [Germany]{"entity": "country_code", "value": "DE"}?
 - Hw many r sick
@@ -3798,63 +3783,35 @@
 - Number of deaths in [Romania]{"entity": "country_code", "value": "RO"}
 - Number of deaths worldwide.
 - Number of infected
-- Number of infected in [Saudi Arabia]{"entity": "country_code", "value": "SA"}
 - Situation globally
+- statistics about mortality
 - Statistics of [Grevenbroich]{"entity": "geography", "value": "town"}
 - Statistics of the [Ascension Island]{"entity": "country_code", "value": "SH"}
+- statistics today for [Helsinki]{"entity": "geography", "value": "town"}
 - Statistics.
+- talk about the numbers
 - Tell me the actual numbers.
 - Total confirmed cases
 - Total confirmed cases?
 - What about india
 - What are the latest statistics on coronavirus?
 - What are the statics of covid 19 in the world
+- what is the death count?
 - What is the death rate
 - What is the number of cases?
 - What is the number of confirmed cases?
 - What is the number of deaths in [Sri Lanka]{"entity": "country_code", "value": "LK"}
 - What is the number of deaths?
 - What is the number of infected?
-- What of positive cases altogether
-- Which country has the highest cases?
-- are infected in the world
-- can you provide statistics?
-- can you talk about the world situation
-- current numbers
-- death in germany
-- global
-- hi Helen send me some statistics about [COVID-19]{"entity": "virus", "value": "COVID"}
-- how is the situation right now in [Portugal]{"entity": "country_code", "value": "PT"}?
-- how is the situation right now in the [british virgin islands]{"entity": "country_code", "value": "VG"}?
-- how is the situation right now?
-- how many cases are out there?
-- how many cases are there out there?
-- how many deaths globaly
-- how many deaths?
-- how many people are infected in all world
-- how many people died
-- how many people died in eternity
-- statistics about mortality
-- statistics today for [Helsinki]{"entity": "geography", "value": "town"}
-- talk about the numbers
-- what is the death count?
 - what is the world situation?
+- What of positive cases altogether
 - what's the current state?
 - where is the virus more prevalent ?
 - where is the virus more prevalent?
+- Which country has the highest cases?
 - which is the most affected country?
-- world situation
-- Does the numbers increase or decrease
-- How many cases
-- How many cases are registered in [Zurich]{"entity": "geography", "value": "town"} so far?
-- How many cases are there
-- How many cases?
-- How many coronavirus cases do we have in the world?
-- How many people died corona
-- How many people have been diagnosed with Covid-19
-- What is the number of covid 19 cases in [Malta]{"entity": "country_code", "value": "MT"}
-- What is the number of covid 19 cases in the [Kingdom of Thailand]{"entity": "country_code", "value": "TH"}
 - Word's situation
+- world situation
 - World's situation
 
 ## intent:covid_situation_deaths
@@ -3872,21 +3829,30 @@
 
 ## intent:covid_situation_infected
 - Active cases in [Republic of the Sudan]{"entity": "country_code", "value": "SD"}.
+- Cases in [Malta]{"entity": "country_code", "value": "MT"}
 - How many active cases are in [Česko]{"entity": "country_code", "value": "CZ"}?
 - How many active cases in the [Kingdom of Bahrain]{"entity": "country_code", "value": "BH"}?
 - How many active cases of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
-- How many cases in
+- How many cases are in [Česko]{"entity": "country_code", "value": "CZ"}?
+- How many cases are registered in [Syktyvkar]{"entity": "geography", "value": "town"}
+- How many cases are registered in [Zurich]{"entity": "geography", "value": "town"} so far?
 - How many cases in [Großherzogtum Luxemburg]{"entity": "country_code", "value": "LU"}
+- How many cases in the [Kingdom of Bahrain]{"entity": "country_code", "value": "BH"}?
+- How many cases of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
 - How many coronavirus case are in [Ilhas Geórgia do Sul e Sanduíche do Sul]{"entity": "country_code", "value": "GS"}
 - How many infected are in [The Western Kingdom]{"entity": "country_code", "value": "MA"}?
 - How many infected in the [Japan]{"entity": "country_code", "value": "JP"}?
 - How many infected in the [Repiblik D Ayiti]{"entity": "country_code", "value": "HT"}?
-- How many people are infected in [Rephaboliki ya Afrika Borwa]{"entity": "country_code", "value": "ZA"} to this date?
 - How many people are infected in [Pākistān]{"entity": "country_code", "value": "PK"}?
+- How many people are infected in [Rephaboliki ya Afrika Borwa]{"entity": "country_code", "value": "ZA"} to this date?
 - How many people are with covid in [République du Rwanda]{"entity": "country_code", "value": "RW"}
-- how many positive cases do we have in [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}
 - how many positive cases are in [Česko]{"entity": "country_code", "value": "CZ"}?
+- how many positive cases do we have in [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}
 - how many positive cases of covid in [Guernesei]{"entity": "country_code", "value": "GG"}?
+- Number of infected in [Saudi Arabia]{"entity": "country_code", "value": "SA"}
+- What is the number of covid 19 cases in [Malta]{"entity": "country_code", "value": "MT"}
+- What is the number of covid 19 cases in the [Kingdom of Thailand]{"entity": "country_code", "value": "TH"}
+
 
 ## intent:covid_situation_infected_critical
 - Critical cases in [Tshād]{"entity": "country_code", "value": "TD"}.
@@ -4282,11 +4248,12 @@
 - should I be concerned with the virus?
 - will I die
 
-## intent:ebola
+## intent:covid_ebola
 - Ebola
 - Ebola virus disease
 - I need to know more about corona brother Ebola
 - Tell me about Ebola
+- Tell me about the Ebola virus
 - What about Ebola
 - What is ebola
 - What causes Ebola virus
@@ -4910,6 +4877,7 @@
 ## intent:myth_garlic
 - Garlic prevents
 - eating garlic will protect me against the virus?
+- Can garlic cure covid?
 - [garlic](garlic)
 - [garlics](garlic)
 
@@ -5701,6 +5669,7 @@
 - About vaccines to treat COVID-19.
 - About vaccines, drug or treatment for COVID-19.
 - About vaccines, drug or treatment.
+- I want to know something related to corona vaccine
 - About vaccines.
 - Any available vaccine
 - Any update about the vaccine?
@@ -5808,6 +5777,34 @@
 - Yes please, I'm call Brian,,my inquiry is that,how far have researchers towards developing a vaccine of corona virus
 - Yes please, I'm call Brian,,my inquiry is that,how far hv researchers towards developing a vaccine of corona virus
 - Yes. But is there a vaccine?
+- mRNA vaccine
+- RNA vaccine
+- About mRNA Vaccine
+- About the mRNA vaccine
+- The mRNA vaccine
+- More about mRNA vaccine
+- On mRNA vaccine
+- Info mRNA vaccine
+- Info about mRNA vaccine
+- Information about mRNA vaccine
+- Infomration mRNA vaccine
+- Info on mRNA vaccine
+- Information on mRNA vaccine
+- More on mRNA vaccine
+- mRNA
+- About RNA Vaccine
+- About the RNA vaccine
+- The RNA vaccine
+- More about mRNA vaccine
+- On RNA vaccine
+- Info RNA vaccine
+- Info about RNA vaccine
+- Information about RNA vaccine
+- Infomration RNA vaccine
+- Info on RNA vaccine
+- Information on RNA vaccine
+- More on RNA vaccine
+- RNA
 
 ## intent:vaccine_pfizer_about
 - About Pfizer Vaccine
@@ -5863,7 +5860,7 @@
 - Info moderna vaccine
 - Info about moderna vaccine
 - Information about moderna vaccine
-- Infomration moderna vaccine
+- Information moderna vaccine
 - Info on moderna vaccine
 - Information on moderna vaccine
 - More on moderna vaccine
@@ -5929,6 +5926,7 @@
 - When can I be vaccinated?
 - Priority groups for vaccination
 - Vaccination when
+- Ok, when do you think vaccines will be able to be given to everyone around the world
 - How many time should I wait to be vaccinated
 - When will the vaccine be available for all?
 - When will the vaccine be available for me?
@@ -5937,6 +5935,7 @@
 - Vaccination waiting list
 - Vaccination priority
 - Vaccination priority list
+- Who can get the COVID-19 vaccine?
 
 ## intent:vaccine_administration
 - How is the vaccine administrated
@@ -5951,6 +5950,8 @@
 - Vaccines administration
 - Administration vaccine
 - Administration vaccines
+- Can I take a different vaccine on the second dose?
+- Will I be given the same vaccine for my second dose?
 
 ## intent:quarantine_control
 - How is the quarantine controlled?
@@ -6357,6 +6358,7 @@
 - What is the new variant of covid?
 - What are the new variants of covid?
 - New COVID-19 Variant
+- What is the new strain in England about?
 - New COVID-19 Strain
 - COVID-19 Variants
 - COVID-19 Strains
@@ -6920,6 +6922,7 @@
 - Am done here
 - Alright thank you very much i appreciate everything God bless you for her or him
 - Can you shut the boot for me, please?
+- I think that is all
 - Can you shut the boot for me?
 - For now I am satisfied,Thank you
 - Go away
@@ -6998,6 +7001,7 @@
 - That's it for now
 - Thats all
 - Thats enough for today
+- Thank you for your service.bye
 - That’s it thanks
 - Um I am fine for now thanks to you
 - You assisted me with everything I want, thank you.
@@ -7478,11 +7482,18 @@
 - it's ok
 - that's ok
 
-## intent:myth_influenza
+## intent:covid_influenza
 - [influenza](influenza)
 - [flu](influenza)
+- Influenza
+- Influenza virus
+- Influenza disease
+- About influenza
+- About influenza virus
+- About the influenza virus
 
 ## intent:myth_air_conditioning
+- Spread through air conditioning
 - [air conditioner](air_conditioning)
 - [air conditioning](air_conditioning)
 - [AC](air_conditioning)
@@ -7490,6 +7501,8 @@
 - [air con](air_conditioning)
 
 ## intent:myth_5G
+- 5G spread the virus
+- Does 5G spread the virus?
 - [5G](5G)
 - [five G](5G)
 - [5 G](5G)
@@ -7499,6 +7512,7 @@
 - [hand dryers](hand_dryer)
 
 ## intent:myth_uv_lamps
+- UV lamps disinfect the coronavirus
 - [uv lamps](uv_lamp)
 - [ultraviolet disinfection lamp](uv_lamp)
 - [ultraviolet disinfection lamps](uv_lamp)
@@ -7528,6 +7542,10 @@
 - [sessamo](sesame_oil)
 
 ## intent:mask_visors
+- About visors
+- About visor
+- Masks visor
+- Masks visors
 - [visors](visors)
 - [Acrylic visors](visors)
 - [protection visors](visors)
@@ -8417,7 +8435,6 @@
 - Guame
 
 ## synonym:PT
-
 - Portugal
 - Portuguese Republic
 - República Portuguesa

@@ -84,10 +84,10 @@ class ActionSearchStats(Action):
                 print('inexistent-country')
                 """In this case we're assuming the user did not miss the country's name but instead it really does not exist at the source."""
                 return [SlotSet('search_successful', 'inexistent-country'), FollowupAction("utter_covid_no_country_current_statistics")]
-            elif stats['code'] == 200 and not stats['has_data'] and len(country_code) != 2:
-                print('wrong-country')
-                """In this case we're assuming the user missed the country's name so we ask them if they want to rephrase it"""
-                return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_want_to_add_country")]
+            # elif stats['code'] == 200 and not stats['has_data'] and len(country_code) != 2:
+            #     print('wrong-country')
+            #     """In this case we're assuming the user missed the country's name so we ask them if they want to rephrase it"""
+            #     return [SlotSet('search_successful', 'wrong-country'), FollowupAction("utter_want_to_add_country")]
             elif stats['code'] != 200 and not stats['has_data']:
                 print('not-ok')
                 return [SlotSet('search_successful', 'not-ok'), FollowupAction("utter_covid_current_statistics")]
