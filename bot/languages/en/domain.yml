@@ -18,7 +18,7 @@ slots:
     initial_value: false
   bot_version:
     type: text
-    initial_value: "0.4.0"
+    initial_value: "0.4.1"
   bot_time_acre:
     type: text
   bot_time_fnoronha:
@@ -464,6 +464,8 @@ responses:
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
               - label: Symptoms
@@ -1567,9 +1569,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>The goal is for everyone to be able to easily get a Covid 19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. Right now the priority group is the healthcare personnel and long-term care facility residents.</speak>
+            ssml: <speak>The goal is for everyone to be able to easily get a Covid 19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand.</speak>
           - type: html
-            text: The goal is for everyone to be able to easily get a COVID-19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand. <br>Right now the priority group is the healthcare personnel and long-term care facility residents.<a
+            text: The goal is for everyone to be able to easily get a COVID-19 vaccination as soon as large enough quantities of vaccine are available. As vaccine supply increases but remains limited, the recommended groups for vaccination will expand.<a
               href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html'target='_blank'>(1)</a>      
   utter_vaccine_ingredients:
     - custom:
