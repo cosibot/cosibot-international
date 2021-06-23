@@ -445,6 +445,8 @@ responses:
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
               - label: Symptoms
@@ -484,6 +486,8 @@ responses:
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
               - label: Symptoms
@@ -502,6 +506,8 @@ responses:
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
               - label: Symptoms
@@ -531,12 +537,18 @@ responses:
               target='_blank'>(1)</a>
           - type: hints
             options:
+              - label: About COVID-19
+                value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
-              - label: Symptoms
-                value: Symptoms
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
+              - label: Symptoms
+                value: Symptoms
+              - label: Myths
+                value: Myths
               - label: World Situation
                 value: World Situation
   utter_travel_after:
@@ -566,12 +578,18 @@ responses:
               target='_blank'>(1)</a>
           - type: hints
             options:
+              - label: About COVID-19
+                value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
-              - label: Symptoms
-                value: Symptoms
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
+              - label: Symptoms
+                value: Symptoms
+              - label: Myths
+                value: Myths
               - label: World Situation
                 value: World Situation
   utter_travel_before:
@@ -589,12 +607,18 @@ responses:
               target='_blank'>(1)</a>
           - type: hints
             options:
+              - label: About COVID-19
+                value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
-              - label: Symptoms
-                value: Symptoms
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
+              - label: Symptoms
+                value: Symptoms
+              - label: Myths
+                value: Myths
               - label: World Situation
                 value: World Situation
   utter_comment_negative:
@@ -655,10 +679,20 @@ responses:
             options:
               - label: Preventive Measures
                 value: Preventive Measures
-              - label: Transmission
-                value: Transmission
               - label: Medical Masks
                 value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation                
   utter_covid_sars:
     - custom:
         answers:
@@ -676,14 +710,22 @@ responses:
               anywhere in the world since 2003.
           - type: hints
             options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
               - label: About COVID-19
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
-              - label: Symptoms
-                value: Symptoms
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_procedure_after_infection:
     - custom:
         answers:
@@ -691,6 +733,24 @@ responses:
             ssml: <speak>People of all ages who experience fever and/or  cough associated withdifficulty breathing/shortness of breath, chest pain/pressure, or loss of speech or movement should seek medical attention immediately. If possible, it is recommended to call the health care provider or facility first, so the patient can be directed to the right clinic.</speak>
           - type: html
             text: People of all ages who experience fever and/or  cough associated withdifficulty breathing/shortness of breath, chest pain/pressure, or loss of speech or movement should seek medical attention immediately. If possible, it is recommended to call the health care provider or facility first, so the patient can be directed to the right clinic.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation            
   utter_covid_current_statistics:
     - custom:
         answers:
@@ -706,14 +766,20 @@ responses:
                 url: https://who.sprinklr.com/
           - type: hints
             options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
               - label: About COVID-19
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
-              - label: Symptoms
-                value: Symptoms
+              - label: Myths
+                value: Myths
   utter_covid_food:
     - custom:
         answers:
@@ -742,6 +808,24 @@ responses:
             text: The report of the WHO-China Joint Mission on Coronavirus Disease 2019
               states that mild cases have an average course of two weeks and
               severe cases 3-6 weeks.<a href='https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf'target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_economy_consequences:
     - custom:
         answers:
@@ -753,6 +837,24 @@ responses:
             text: The United Nations (UN) predicts that the world economy will contract
               by almost one percent this year because of the new coronavirus
               pandemic, instead of growing by 2.5 percent as predicted.
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_pandemic:
     - custom:
         answers:
@@ -766,6 +868,24 @@ responses:
               new virus emerges and spreads around the world, and most people do
               not have immunity. Viruses that have caused past pandemics
               typically originated from animal influenza viruses.<a href='https://www.who.int/csr/disease/swineflu/frequently_asked_questions/pandemic/en/'target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_mortality_rate:
     - custom:
         answers:
@@ -780,6 +900,24 @@ responses:
               20-30 per thousand people diagnosed. This is significantly less
               than the 2003 SARS outbreak. However, it is much higher than the
               mortality rate for seasonal influenza.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_immunity:
     - custom:
         answers:
@@ -807,6 +945,24 @@ responses:
               there is emerging evidence from early studies suggesting that
               individuals develop antibodies after infection and are likely to
               be immune from reinfection in the short term.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_crisis_howlong:
     - custom:
         answers:
@@ -826,14 +982,22 @@ responses:
               for seasonal influenza.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
           - type: hints
             options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
               - label: About COVID-19
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
-              - label: Symptoms
-                value: Symptoms
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_aftereffects:
     - custom:
         answers:
@@ -857,6 +1021,24 @@ responses:
               Over time, the tissue heals, but it can take three months to a
               year or more for a person’s lung function to return to
               pre-COVID-19 levels.<a href='https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/what-coronavirus-does-to-the-lungs'target='_blank'>(1)</a>"
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_disease_process:
     - custom:
         answers:
@@ -877,6 +1059,24 @@ responses:
               Wuhan from 15 days (10-21) to 5 days (3-9), respectively. This has
               allowed for earlier case and contact identification, isolation and
               treatment.<a href='https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf'target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_worry:
     - custom:
         answers:
@@ -894,10 +1094,20 @@ responses:
             options:
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
-              - label: Symptoms
-                value: Symptoms
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_sex:
     - custom:
         answers:
@@ -917,6 +1127,24 @@ responses:
               giving kisses and with close facial contacts and avoid occasional
               sexual encounters or with people who are sick with respiratory
               symptoms.<a href='https://www1.nyc.gov/assets/doh/downloads/pdf/imm/covid-sex-guidance.pdf'target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_meaning:
     - custom:
         answers:
@@ -936,14 +1164,22 @@ responses:
               the United Nations (FAO).<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it'target='_blank'>(1)</a>"
           - type: hints
             options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
               - label: About COVID-19
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
-              - label: Symptoms
-                value: Symptoms
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_info:
     - custom:
         answers:
@@ -962,10 +1198,16 @@ responses:
             options:
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
-              - label: Symptoms
-                value: Symptoms
+              - label: Myths
+                value: Myths
               - label: World Situation
                 value: World Situation
   utter_covid_influenza:
@@ -989,14 +1231,22 @@ responses:
               especially seasonal influenza.<a href='https://www.who.int/news-room/q-a-detail/q-a-similarities-and-differences-covid-19-and-influenza'target='_blank'>(1)</a>
           - type: hints
             options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
               - label: About COVID-19
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
-              - label: Symptoms
-                value: Symptoms
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_dangerous:
     - custom:
         answers:
@@ -1010,6 +1260,24 @@ responses:
               determine how easily and sustainably this virus spreads between
               people, but it is currently estimated that, on average, one
               infected person will infect between two and three more.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_origins:
     - custom:
         answers:
@@ -1037,6 +1305,24 @@ responses:
               infiltrates.<a
               href='https://www.ecdc.europa.eu/en/novel-coronavirus/event-background-2019'
               target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_coronavirus_info:
     - custom:
         answers:
@@ -1056,14 +1342,22 @@ responses:
               target='_blank'>(1)</a>
           - type: hints
             options:
-              - label: About COVID-19
-                value: About COVID-19
-              - label: Transmission
-                value: Transmission
-              - label: Symptoms
-                value: Symptoms
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_babys_children:
     - custom:
         answers:
@@ -1079,6 +1373,24 @@ responses:
               developed severe (2.5%) or critical disease (0.2%).<a
               href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-outbreak-novel-coronavirus-disease-2019-increase-transmission-globally-COVID-19.pdf'
               target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_incubation:
     - custom:
         answers:
@@ -1096,14 +1408,22 @@ responses:
               target='_blank'>(1)</a>
           - type: hints
             options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
               - label: About COVID-19
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
-              - label: Symptoms
-                value: Symptoms
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_treatment:
     - custom:
         answers:
@@ -1121,6 +1441,24 @@ responses:
               symptoms.<a
               href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
               target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_preexisting_illness:
     - custom:
         answers:
@@ -1144,6 +1482,24 @@ responses:
             text: Population groups that have been more frequently reported having severe disease and death include people above 60 years of age,males, people with underlying conditions such as hypertension, diabetes, cardiovascular disease, chronic respiratory disease and cancer. The proportion of most of the reported chronic diseases and health conditions is similar to the prevalence of these conditions in the elderly age groups in China, therefore they might be surrogates of increasing age only. Higher ACE (angiotensin-converting enzyme II) gene expression may be linked to higher susceptibility to SARS-CoV-2. It has been shown that ACE 2 expression in lung tissues increases with age, tobacco use and with some hypertensive treatment. These observations might explain the vulnerability of older people, tobacco users/smokers and those with hypertension; they also highlight the importance of identifying smokers as a potential vulnerable group for COVID-19.<a
               href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'
               target='_blank'>(1)</a>
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_surfaces:
     - custom:
         answers:
@@ -1161,14 +1517,22 @@ responses:
               target='_blank'>(1)</a>
           - type: hints
             options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
               - label: About COVID-19
                 value: About COVID-19
               - label: Preventive Measures
                 value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
-              - label: Symptoms
-                value: Symptoms
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_covid_cosibot:
     - custom:
         answers:
@@ -1183,6 +1547,24 @@ responses:
             links:
               - title: Cosibot Volunteers
                 url: https://cosibot.org/volunteers
+          - type: hints
+            options:
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Medical Masks
+                value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
+              - label: Transmission
+                value: Transmission
+              - label: Myths
+                value: Myths
+              - label: World Situation
+                value: World Situation
   utter_user_scared:
     - custom:
         answers:
@@ -1421,12 +1803,18 @@ responses:
             options:
               - label: Preventive Measures
                 value: Preventive Measures
-              - label: Symptoms
-                value: Symptoms
               - label: Medical Masks
                 value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
+              - label: Myths
+                value: Myths
               - label: World Situation
                 value: World Situation
   utter_prevention_touch:
@@ -1448,12 +1836,18 @@ responses:
             options:
               - label: Preventive Measures
                 value: Preventive Measures
-              - label: Symptoms
-                value: Symptoms
               - label: Medical Masks
                 value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
+              - label: Myths
+                value: Myths
               - label: World Situation
                 value: World Situation
   utter_prevention_informed:
@@ -1482,12 +1876,18 @@ responses:
             options:
               - label: Preventive Measures
                 value: Preventive Measures
-              - label: Symptoms
-                value: Symptoms
               - label: Medical Masks
                 value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
+              - label: Myths
+                value: Myths
               - label: World Situation
                 value: World Situation
   utter_prevention_distance:
@@ -1513,34 +1913,44 @@ responses:
             options:
               - label: Preventive Measures
                 value: Preventive Measures
-              - label: Symptoms
-                value: Symptoms
               - label: Medical Masks
                 value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
+              - label: Myths
+                value: Myths
               - label: World Situation
                 value: World Situation
   utter_prevention_vaccine:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and as of and as of 15 February 2021, 175.3 million vaccine doses have been administered. At least 7 different vaccines, 3 platforms, have been administered.</speak>
+            ssml: <speak>There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and as of 21 June 2021, 2,414,347,324 vaccine doses have been administered.</speak>
           - type: html
-            text: "There are now several vaccines that are in use.<br>
-            The first mass vaccination programme started in early December 2020 and as of and as of 15 February 2021, 175.3 million vaccine doses have been administered.<br>
-            At least 7 different vaccines (3 platforms) have been administered.<a
-              href='https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=CjwKCAjw7J6EBhBDEiwA5UUM2r6toNYHYy7NIn0FtK25Rmeals8U7SupnQGx9EdpZl7m7eq4M8U4PhoCNvQQAvD_BwE' target='_blank'>(1)</a>"
+            text: "There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and as of 21 June 2021, 2,414,347,324 vaccine doses have been administered.<a
+              href='https://covid19.who.int/' target='_blank'>(1)</a>"
           - type: hints
             options:
               - label: Preventive Measures
                 value: Preventive Measures
-              - label: Symptoms
-                value: Symptoms
               - label: Medical Masks
                 value: Medical Masks
+              - label: About COVID-19
+                value: About COVID-19
+              - label: Preventive Measures
+                value: Preventive Measures
+              - label: Vaccines
+                value: Vaccines
               - label: Transmission
                 value: Transmission
+              - label: Myths
+                value: Myths
               - label: World Situation
                 value: World Situation
   utter_vaccine_pfizer_about:
@@ -1549,14 +1959,14 @@ responses:
           - type: ssml
             ssml: <speak>The Pfizer Biontech Covid 19 Vaccine is a vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Pfizer Biontech Covid 19 Vaccine to prevent Covid 19 in individuals 16 years of age and older under an Emergency Use Authorization. </speak>
           - type: html
-            text: The Pfizer-BioNTech COVID-19 Vaccine is a vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Pfizer-BioNTech COVID-19 Vaccine to prevent COVID-19 in individuals 16 years of age and older under an Emergency Use Authorization (USA).<a href='https://www.fda.gov/media/144414/download'target='_blank'>(1)</a>     
+            text: The Pfizer-BioNTech COVID-19 Vaccine is a vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Pfizer-BioNTech COVID-19 Vaccine to prevent COVID-19 in individuals 16 years of age and older under an Emergency Use Authorization (USA).<a href='https://www.fda.gov/media/144414/download'target='_blank'>(1)</a>
   utter_vaccine_moderna_about:
     - custom:
         answers:
           - type: ssml
             ssml: <speak>The Moderna Covid 19 Vaccine is an unapproved vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Moderna Covid 19 Vaccine to prevent Covid 19 in individuals 18 years of age and older under an Emergency Use Authorization.</speak>
           - type: html
-            text: The Moderna COVID-19 Vaccine is an unapproved vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Moderna COVID-19 Vaccine to prevent COVID-19 in individuals 18 years of age and older under an Emergency Use Authorization (EUA).<a href='https://www.fda.gov/media/144638/download'target='_blank'>(1)</a>          
+            text: The Moderna COVID-19 Vaccine is an unapproved vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Moderna COVID-19 Vaccine to prevent COVID-19 in individuals 18 years of age and older under an Emergency Use Authorization (EUA).<a href='https://www.fda.gov/media/144638/download'target='_blank'>(1)</a>
   utter_vaccine_take_or_not:
     - custom:
         answers:
