@@ -3195,11 +3195,11 @@
     utter_vaccine_ingredients:
     - custom:
         answers:
-        - text: 'Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna para
+        - text: Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna para
             COVID-19 de Moderna no contienen huevos, conservantes ni látex. Para obtener
             una lista completa de ingredientes, consulte la hoja informativa sobre vacunas
             que se proporciona a continuación:<br>
-            <ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>Los ingredientes de las vacunas</a>'
+            <ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>Los ingredientes de las vacunas</a>
           type: html
         - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
             para COVID-19 de Moderna no contienen huevos, conservantes ni látex. Para
