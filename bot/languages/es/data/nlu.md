@@ -2675,6 +2675,15 @@
 - Cómo es la situación del covid en [España]{"entity": "country_code", "value": "ES"}?
 - Qué hay acerca de [Argentina]{"entity": "country_code", "value": "AR"}?
 - Coronavirus en [Costa Rica]{"entity": "country_code", "value": "CR"}
+- las estadísticas sobre la vacunación
+- noticias sobre el progreso de la vacunación
+- dónde hay una estadística sobre el progreso de la vacunación
+- cuál es el estado de la vacunación en el mundo
+- cuál es el estatus de la vacunación
+- el progreso de la vacunación
+- el progreso de la vacunación en el mundo
+- las estadísticas del corona virus en [España]{"entity": "country_code", "value": "ES"}
+- vacunación en [Italy]{"entity": "country_code", "value": "IT"}
 
 ## intent:covid_dangerous
 - Estoy seguro?
@@ -4211,6 +4220,20 @@
 - Que es ebola??
 - Que causa el virus del ébola?
 
+## intent:covid_after_vaccine
+- puedo contraer el covid después de vacunarme
+- puedo estar enferma a covid si he vacunado
+- puedo tener corona si estoy totalmente vacunado
+- estoy totalmente vacunada puedo contraer el covid
+- covid después de vacunarme
+- el covid después de recibir una vacuna
+- yo estoy totalmente vacunada es possible que voy a contraer el covid
+- es possible obtener covid después de la vacuna
+- es possible estar enfermo a pesar de estar vacunado
+- me siento enferma aunque estoy vacunada
+- creo que tengo covid a pesar de estar vacunada
+- covid a pesar de estar vacunado
+
 ## intent:economy_consequences
 - Puedes responder preguntas sobre economía?
 - Economía
@@ -5727,6 +5750,10 @@
 - que hay de la vacuna
 - ¿Cuáles son las vacunas que se han probado?
 - que son las vacunas
+- hay vacunas?
+- que vacunas hay
+- que son las vacunas disponibles
+- que vacunas son disponibles
 - ¿Qué me puedes contar sobre la hipótesis de una vacuna para el Coronavirus?
 - ¿Cuándo pueden producirse una vacuna en algunos países?
 - ¿Cuándo se espera encontrar la vacuna?
@@ -5906,6 +5933,118 @@
 - Como dan las vacunas?
 - Administración de vacunas
 - Administración de las vacunas
+- como se administra johnson and johnson
+- como administran el pfizer
+- como administran la vacuna de moderna
+- la administracion de biontech
+- la administracion de johnson y johnson
+- la dosis de pfizer
+- quantas dosis hay de johnson y johnson
+- quantas dosis hay de la vacuna pfizer
+- hay una o dos dosis de biontech
+- cuantas dosis necesito para vacunarme con moderna
+
+## intent:vaccine_con_covid
+- me puedo vacunar contra el covid si tengo covid
+- me puedo vacunar si tengo covid
+- puedo vacunarme si tengo síntomas
+- tengo síntomas de covid puedo vacunarme
+- puedo recibir una vacuna si tengo síntomas
+- puedo vacunarme aunque tenga síntomas
+- tengo corona puedo vacunarme
+- tengo corona puedo vacunarme de todos modos
+- vacunación si tengo covid
+- vacunación aunque tenga síntomas
+- quiero que me vacunen pero tengo síntomas de covid
+- quiero vacunarme pero tengo covid puedo
+
+## intent:vaccine_after_covid
+- debería vacunarme si he tenido la covid 19
+- debo vacunarme si he tenido corona
+- ahora que he tenido covid necesito vacunarme
+- he tenido covid ahora no necesito vacunarme más
+- es verdad si he tenido covid no necesito vacunarme
+- es verdad que no necesito vacuna si he tenido covid
+- después de tener covid todavía necesito una vacuna
+- después de infectarme hay que vacunar
+- hay que vacunar si he tenido covid
+- necesito una vacuna si he tenido covid
+- me he infectado con corona todavía necesito vacuna
+- vacuna después de contraerme con covid
+
+## intent:vaccine_mix
+- puedo recibir la secunda dosis con una vacuna diferente a la primera
+- puedo recibir la secunda dosis diferente
+- puede ser la secunda dosis diferente a la primera
+- yo quiero la secunda dosis una otra vacuna 
+- otra vacuna para secunda dosis
+- es posible recibir una otra vacuna para secunda dosis
+- es posible obtener otra vacuna a la primera
+- se puede recibir una otra vacuna para la secunda dosis
+- se puede tener la secunda vacunación con una otra vacuna
+- la secunda vacunación con vacuna diferente
+- utilizar vacuna diferente
+- para la secunda vacunación una otra vacuna se puede
+- dime puedo utilizar para la secunda vacunación una otra vacuna
+- mezclar vacunas de covid
+- se pueden mezclar vacunas de covid
+- es necesario recibir la misma vacuna por la secunda vacunación
+- puedo mezclar las vacunas
+- puedo mezclar la vacuna de moderna y pfizer
+- puedo utilizar como la primera dosis la vacuna de pfizer y como la secunda la de moderna
+- se puede mezclar pfizer y moderna
+
+## intent:vaccine_effectiveness
+- eficacia de la vacuna
+- efectividad de la vacuna
+- eficiencia de vacunarse
+- cuál es la eficacia de la vacuna
+- cuál es la efectividad de vacunarse
+- dime algo sobre la efectividad de la vacuna
+- dime cuál es la eficacia de la vacuna contra el covid
+- funciona bien la vacuna
+- que eficacia tenga la vacuna
+- sabes algo sobre la efectividad de la vacuna
+- hay estudios sobre la efectividad de la vacuna
+- que sabemos sobre la efectividad de las vacunas contra el covid
+- son las vacunas contra el covid efectivas
+- las vacunas contra el covid cuál es la efectividad
+- cuál es la efectividad de moderna
+- cuál es la eficacia de pfizer
+- cuál es la eficacia de la vacuna biontech
+- hay estudios sobre la eficacia de la vacuna de johnson
+- cuál es la efectividad de las vacunas contra el covid
+
+## intent:vaccine_side_effects
+- cuáles son los efectos secundarios de la vacuna
+- los efectos secundarios
+- los efectos secundarios de la vacuna
+- hay efectos secundarios de las vacunas contra el covid
+- efectos secundarios
+- puedo haber efectos secundarios después de tomar la vacuna
+- hay efectos secundarios después de la vacuna
+- es posible tener efectos secundarios después de vacunarme
+- cuáles son los efectos secundarios después de la vacuna
+- cuáles son los efectos secundarios graves
+- puede ser que voy a tener una reacción alérgica a la vacuna
+- hay posibilidad tener una reacción alérgica a la vacuna
+- cuáles son los efectos secundarios graves de las vacuna
+- tienen todas vacunas efectos secundarios
+- hay vacunas sin efectos secundarios
+
+## intent:vaccine_safety
+- son las vacunas seguras
+- seguridad de las vacunas
+- seguridad de la vacuna contra el covid
+- es la vacuna de pfizer segura
+- cuál vacuna es la más segura
+- como sabemos que las vacunas son seguras
+- hay vacunas seguras
+- que sabes de la seguridad de las vacunas
+- que sabemos de la seguridad de las vacunas
+- son las vacunas aprobadas
+- la vacuna de moderna es segura
+- es la vacuna de johnson también segura como las otras
 
 ## intent:quarantine_control
 - Como es el control de la cuarentena?
@@ -5951,12 +6090,14 @@
 - Papel de baño
 - Por que compran papel de baño?
 
+<!--
 ## intent:quarantine_when_who_howlong
 - Debería ponerme en cuarentena?
 - Cuando necesito hacer cuarentena?
 - Quien necesita hacer cuarentena?
 - Quien debería pasar o hacer cuarentena?
 - debo ponerme en cuarentena?
+-->
 
 ## intent:quaratine_how_it_works
 - Como hacer cuarentena correctamente?
@@ -6240,6 +6381,28 @@
 - Cepas covid
 - Variante del covid
 - Cepas del covid
+
+## intent:covid_delta
+- delta
+- informaciones sobre delta
+- quiero mas información sobre delta
+- variante del covid delta
+- delta variante
+- covid delta
+- la nueva variante delta
+- que es la nueva variante delta
+- dime algo sobre delta
+- dame informaciones sobre delta
+- que es delta
+- es delta muy peligroso
+- es peligroso el delta
+- es el delta mas contagioso que las otras variantes
+- es contagioso el delta
+- que sabes sobre delta
+- sabes algo de delta
+- quál es el peligro del variante delta
+- qué sabemos de la variante delta
+
 
 ## intent:spread_pets
 - Mi gato puede contagiarme?

@@ -105,6 +105,10 @@ About Covid-19
 * covid_new_strain
   - utter_covid_new_strain
 
+## covid_delta
+* covid_delta
+  - utter_covid_delta
+
 ## covid_cosibot
 * covid_cosibot
   - utter_covid_cosibot
@@ -242,6 +246,10 @@ About Covid-19
 * covid_ebola
   - utter_covid_ebola
 
+## covid_after_vaccine
++ covid_after_vaccine
+  - utter_covid_after_vaccine
+
 
 <!------------------ 
 COVID-19 Prevention
@@ -319,6 +327,29 @@ COVID-19 Prevention
 * vaccine_administration
   - utter_vaccine_administration
 
+## vaccine_con_covid
+* vaccine_con_covid
+  - utter_vaccine_con_covid
+
+## vaccine_after_covid
+* vaccine_after_covid
+  - utter_vaccine_after_covid
+
+## vaccine_mix
+* vaccine_mix
+  - utter_vaccine_mix
+
+## vaccine_effectiveness
+* vaccine_effectiveness
+  - utter_vaccine_effectiveness
+
+## vaccine_side_effects
+* vaccine_side_effects
+ - utter_vaccine_side_effects
+
+## vaccine_safety
+* vaccine_safety
+  - utter_vaccine_safety
 
 <!------------------ 
 Myths
@@ -443,9 +474,11 @@ COVID-19 Spread
 * quarantine_dogwalking
   - utter_quarantine_dogwalking
 
+<!--
 ## quarantine_when_who_howlong
 * quarantine_when_who_howlong
   - utter_quarantine_when_who_howlong
+-->
 
 ## quaratine_how_it_works
 * quaratine_how_it_works
