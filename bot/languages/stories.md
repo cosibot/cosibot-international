@@ -247,7 +247,7 @@ About Covid-19
   - utter_covid_ebola
 
 ## covid_after_vaccine
-+ covid_after_vaccine
+* covid_after_vaccine
   - utter_covid_after_vaccine
 
 
