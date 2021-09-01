@@ -194,6 +194,7 @@
     - utter_prevention_medicine
     - utter_prevention_respiratory_hygiene
     - utter_prevention_touch
+    - utter_prevention_vaccine
     - utter_quarantine_control
     - utter_quarantine_dogwalking
     - utter_quarantine_dos_and_donts
@@ -1113,7 +1114,7 @@
         answers:
         - text: Múltiples variantes del COVID-19 están circulando alrededor del mundo. A día de hoy, hay once variantes de 
             SARS-CoV-2 identificadas y la OMS las divide en dos tipos:<br>
-            1. variantes de preocupación (VOC) - son Alpha, Beta, Gamma, Delta<br> 
+            1. variantes de preocupación (VOC) - Alpha, Beta, Gamma, Delta<br> 
             2. variantes de interés (VOI) - Epsilon, Zeta, Eta, Theta, Lota, Kappa y Lambda.<br>
             Para obtener más información sobre las variantes, visite el siguiente <a href='https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html'target='_blank'>enlace</a>
           type: html
@@ -3120,9 +3121,9 @@
     utter_vaccine_administration:
     - custom:
         answers:
-        - text: Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna para COVID-19
+        - text: Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
             de Moderna y de Johnson & Johnson se administrarán mediante una inyección en el músculo. La serie
-            de vacunación es de 2 dosis administradas con 1 mes de diferencia. Si recibe
+            de vacunación para la vacuna de Pfizer-BioNTech y Moderna es de 2 dosis administradas con 1 mes de diferencia. Si recibe
             una dosis de una determinada vacuna, debe recibir una segunda dosis de esta
             misma vacuna un mes después para completar la serie de vacunación. La vacuna de Johnson & Johnson se administra en una sola dosis.
             <ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
@@ -3258,10 +3259,10 @@
     utter_vaccine_when:
     - custom:
         answers:
-        - text: Sí, ya se están utilizando varias vacunas. El primer programa de vacunación se puso en marcha a principios de diciembre 2020.<br>
+        - text: Ya se están utilizando varias vacunas. El primer programa de vacunación se puso en marcha a principios de diciembre 2020.<br>
             Para más información, véase el siguiente <ahref='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-(covid-19)-vaccines'target='_blank'>enlace</a>.
           type: html
-        - ssml: <speak>Sí, ya se están utilizando varias vacunas. El primer programa de vacunación se puso en marcha a principios de diciembre 2020. Para más información, véase el siguiente enlace.</speak>
+        - ssml: <speak>Sí, ya se están utilizando varias vacunas. El primer programa de vacunación se puso en marcha a principios de diciembre 2020. Para más información, véase el enlace.</speak>
           type: ssml
     utter_vocative_call:
     - custom:
