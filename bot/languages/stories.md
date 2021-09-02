@@ -1426,6 +1426,7 @@ TESTED
     - slot{"total_infected_critical": 378}
     - utter_covid_situation_infected
 
+<!--
 ## current_statistics_migation1
 * covid_situation
     - utter_want_to_add_country
@@ -1443,3 +1444,4 @@ TESTED
     - slot{"new_deaths": 0}
     - slot{"total_infected_critical": 29}
     - utter_covid_situation
+    -->
