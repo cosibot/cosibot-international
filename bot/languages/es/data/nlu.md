@@ -2520,13 +2520,22 @@
 - que es un virus
 
 ## intent:covid_aftereffects
-- efectos secundarios
-- Efectos inesperados
+- efectos a largo plazo
+- efectos a largo plazo del covid
+- covid efectos a largo plazo
 - Los pulmones se pueden recuperar después del daño por coronavirus?
 - Los pulmones se recuperan cuando sales de la enfermedad?
 - Los pulmones se recuperan después de la infección
-- Cuáles son los efectos secundarios?'
+- Cuáles son los efectos a largo plazo?'
 - Qué le pasa a tus pulmones con el coronavirus?
+- qué son los efectos a largo plazo
+- efectos después de covid
+- me recupere del covid que son los efectos a largo plazo
+- causa el covid efectos a largo plazo
+- puedo tener efectos a largo plazo
+- cuál es el efecto de protección de las vacunas
+- el efecto de protección del pfizer
+- cómo protege la vacuna moderna contra el covid
 
 ## intent:covid_babys_children
 - El covid-19 puede matar a un bebe?
@@ -4233,6 +4242,13 @@
 - me siento enferma aunque estoy vacunada
 - creo que tengo covid a pesar de estar vacunada
 - covid a pesar de estar vacunado
+- puedo recibir covid si me vacunan
+- me puede dar covid si me vacuné
+- ya me vacuné aún así me puedo contagiar de covid-19
+- puedo contagiarme aunque me vacune contra el coronavirus
+- estoy completamente vacunado pero me siento mal puedo tener covid
+- estoy vacunado puedo contagiarme
+- hay que vacunar si he tenido covid
 
 ## intent:economy_consequences
 - Puedes responder preguntas sobre economía?
@@ -5939,10 +5955,11 @@
 - la administracion de biontech
 - la administracion de johnson y johnson
 - la dosis de pfizer
-- quantas dosis hay de johnson y johnson
-- quantas dosis hay de la vacuna pfizer
+- cuántas dosis hay de johnson y johnson
+- cuántas dosis hay de la vacuna pfizer
 - hay una o dos dosis de biontech
-- cuantas dosis necesito para vacunarme con moderna
+- cuántas dosis necesito para vacunarme con moderna
+- cuántas vacunas me van a dar
 
 ## intent:vaccine_con_covid
 - me puedo vacunar contra el covid si tengo covid
@@ -5957,6 +5974,8 @@
 - vacunación aunque tenga síntomas
 - quiero que me vacunen pero tengo síntomas de covid
 - quiero vacunarme pero tengo covid puedo
+- pueden vacunarme si estoy enferma con la covid
+- pueden vacunarme si tengo coronavirus
 
 ## intent:vaccine_after_covid
 - debería vacunarme si he tenido la covid 19
@@ -5993,6 +6012,12 @@
 - puedo mezclar la vacuna de moderna y pfizer
 - puedo utilizar como la primera dosis la vacuna de pfizer y como la secunda la de moderna
 - se puede mezclar pfizer y moderna
+- se pueden combinar las vacunas
+- se pueden combinar las vacunas del covid
+- que pasa si combinamos dos dosis de vacunas distintas
+- se pueden aplicar diferentes vacunas a una persona
+- combinar diferentes dos diferentes vacunas 
+- puedo tomar dos diferentes vacunas
 
 ## intent:vaccine_effectiveness
 - eficacia de la vacuna

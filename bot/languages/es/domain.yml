@@ -91,7 +91,7 @@
   actions:
     - action_get_date
     - action_get_time
-    - action_get_news_request
+    #- action_get_news_request
     - action_default_fallback
     - action_change_preferred_language
     - action_search_stats
@@ -3189,7 +3189,7 @@
             deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.<br>
             <ahref='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html'target='_blank'>Seguridad de las vacunas contra el COVID-19</a>"
           type: html
-        - ssml: <speak>e han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
+        - ssml: <speak>Se han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
             deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.</speak>
           type: ssml
     utter_vaccine_ingredients:

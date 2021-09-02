@@ -115,7 +115,7 @@ About Covid-19
 
 ## covid_current_statistics
 * covid_current_statistics
-  - action_get_news_request
+  - utter_covid_current_statistics
 
 <!--
 ## covid_current_statistics
