@@ -91,7 +91,7 @@
   actions:
     - action_get_date
     - action_get_time
-    #- action_get_news_request
+    - action_get_news_request
     - action_default_fallback
     - action_change_preferred_language
     - action_search_stats
