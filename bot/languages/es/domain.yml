@@ -3127,7 +3127,7 @@
           type: html
         - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
             para COVID-19 de Moderna y de Johnson & Johnson se administrarán mediante una inyección en el músculo.
-            La serie de vacunación es de 2 dosis administradas con 1 mes de diferencia.
+            La serie de vacunación es de 2 dosis administradas con un mes de diferencia.
             Si recibe una dosis de una determinada vacuna, debe recibir una segunda dosis
             de esta misma vacuna un mes después para completar la serie de vacunación.  La vacuna de Johnson & Johnson se administra en una sola dosis.
             </speak>
@@ -3145,7 +3145,8 @@
     utter_vaccine_after_covid:
     - custom:
         answers: 
-        - text: Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.
+        - text: Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.<br>
+            <ahref='https://www.vacunacovid.gob.es/preguntas-y-respuestas/debo-vacunarme-si-ya-he-pasado-el-covid-19'target='_blank'>Más información</a>
           type: html
         - ssml: <speak>Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.
             </speak>

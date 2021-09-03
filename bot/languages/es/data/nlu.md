@@ -7540,7 +7540,7 @@
 - caretas de protección
 
 ## intent:country
-- em [Portugal]{"entity": "country_code", "value": "PT"}
+- en [Portugal]{"entity": "country_code", "value": "PT"}
 - [Espanha]{"entity": "country_code", "value": "ES"}
 - na [Grécia]{"entity": "country_code", "value": "GR"}
 - na [Suiça]{"entity": "country_code", "value": "CH"}
