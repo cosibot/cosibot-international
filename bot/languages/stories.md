@@ -768,23 +768,10 @@ Generic requests
 
 ## covid_situation_without_country
 * covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths 
-  - utter_want_to_add_country
-* vocative_yes
-  - utter_ask_which_country
-* country{"country_code" : "Portugal"}
   - utter_covid_current_statistics
 
-## covid_situation_without_country2
-* covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths
-  - utter_want_to_add_country
-* vocative_no
-  - utter_further_questions
-
-
 ## covid_situation_without_country3
-* covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths
-  - utter_want_to_add_country
-* country{"country_code" : "Portugal"}
+* covid_situation OR covid_situation_tested OR covid_situation_recovered OR covid_situation_last_update OR covid_situation_infected_critical OR covid_situation_infected OR covid_situation_deaths{"country_code" : "Portugal"}
   - utter_covid_current_statistics
 
 
