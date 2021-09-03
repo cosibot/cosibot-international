@@ -2560,7 +2560,7 @@
     utter_prevention_vaccine:
     - custom:
         answers:
-        - text: Actualmente, tres vacunas están autorizadas y recomendadas para prevenir el COVID-19, la vacuna para COVID-19 de Pfizer-BioNTech, la vacuna
+        - text: Actualmente, hay tres vacunas que están autorizadas y recomendadas para prevenir el COVID-19, la vacuna para COVID-19 de Pfizer-BioNTech, la vacuna
             de Moderna y de Johnson & Johnson. Múltiples vacunas para COVID-19 también están en desarrollo.<br>
             <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'
             target='_blank'>Más información aquí</a>
@@ -2939,16 +2939,13 @@
     utter_test_who:
     - custom:
         answers:
-        - text: Las Autoridades Nacionales pueden decidir solo hacer pruebas a subgrupos
-            de casos sospechosos basados en la capacidad nacional para hacer pruebas,
-            la disponibilidad del equipo necesario para las pruebas, el nivel de transmisión
-            local de COVID-19, o cualquier otro criterio.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-            target='_blank'>(1)</a>
+        - text: En general, se recomienda que todas las personas que muestren síntomas de COVID-19 o las personas que hayan tenido contacto estrecho 
+            con una persona positiva con COVID-19 se sometan a la prueba de COVID-19. Además, hay otros casos en los que es necesario realizar pruebas. 
+            Su regulación varía de un país a otro. Para estar al día de las últimas novedades, por favor consulte los sitios web de las autoridades de su país.
           type: html
-        - ssml: <speak>Las Autoridades Nacionales pueden decidir solo hacer pruebas a
-            subgrupos de casos sospechosos basados en la capacidad nacional para hacer
-            pruebas, la disponibilidad del equipo necesario para las pruebas, el nivel
-            de transmisión local de COVID-19, o cualquier otro criterio.</speak>
+        - ssml: <speak>En general, se recomienda que todas las personas que muestren síntomas de COVID-19 o las personas que hayan tenido contacto estrecho 
+            con una persona positiva con COVID-19 se sometan a la prueba de COVID-19. Además, hay otros casos en los que es necesario realizar pruebas. 
+            Su regulación varía de un país a otro. Para estar al día de las últimas novedades, por favor consulte los sitios web de las autoridades de su país.</speak>
           type: ssml
     utter_travel_after:
     - custom:

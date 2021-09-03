@@ -2693,6 +2693,15 @@
 - el progreso de la vacunación en el mundo
 - las estadísticas del corona virus en [España]{"entity": "country_code", "value": "ES"}
 - vacunación en [Italy]{"entity": "country_code", "value": "IT"}
+- dónde puedo ver el número de vacunados
+- dónde hay las estadísticas de los vacunados
+- cuántas personas fueron vacunadas ya
+- el número de vacunaciones en [Argentina]{"entity": "country_code", "value": "AR"}
+- tasa de vacunación por país
+- tasa de vacunación
+- cuántas personas recibieron la vacuna hasta hoy
+- números de vacunados hasta hoy
+- cuál es el número de vacunados hasta ahora
 
 ## intent:covid_dangerous
 - Estoy seguro?
@@ -5666,7 +5675,6 @@
 - Por qué debería evitar tocar mi nariz?
 
 ## intent:prevention_vaccine
-- Deben encontrar una vacuna
 - Sobre las vacunas para el COVID-19
 - Acerca de una vacuna para tratar el COVID-19
 - Acerca de una vacuna, medicamento o tratamiento para COVID-19.
@@ -5676,7 +5684,6 @@
 - Acerca de las vacunas para COVID-19.
 - Acerca de las vacunas para tratar COVID-19.
 - Acerca de las vacunas, medicamentos o tratamientos para COVID-19.
-- Sobre vacunas, medicamentos o tratamientos.
 - Quiero saber algo relacionado con la vacuna corona.
 - Sobre las vacunas.
 - Cualquier vacuna disponible
@@ -5685,17 +5692,14 @@
 - Cualquier noticia de vacunas bebé
 - Cualquier vacuna para covid-19
 - ¿Alguna vacuna todavía?
-- hay una vacuna?
 - ¿Existen vacunas para prevenir la enfermedad?
 - ¿Puedes contarme más sobre la vacuna covid?
-- vacuna para el COVID-19
 - vacuna para el COVID-19
 - ¿Tienes una vacuna?
 - existe una vacuna?
 - ¿Uganda tiene una vacuna?
 - Explicar el estado de la vacuna covid 19
 - ¿Se ha establecido una vacuna para el virus corona?
-- Oye ... me llamo Jose soy de Mexico ... mi pregunta es ... ¿hay alguna vacuna disponible en la que estén trabajando para detener la propagación del covid-19?
 - ¡Oye! ¿Hay alguna esperanza para la vacuna corona, hasta dónde llega la invasión de la vacuna?
 - ¿Qué tal la vacuna?
 - ¿Hasta dónde ha llegado Uganda con el ensayo clínico de la vacuna Corona?
@@ -5714,13 +5718,12 @@
 - ¿Cuánto tiempo tardará una vacuna en salir al mercado?
 - ¿Que tan posible es el descubrimiento de la vacuna covid 19 este año?
 - Escuché que Estados Unidos tiene la vacuna contra el covid. ¿Es verdad?
-- Soy Francisco, ¿se ha encontrado la vacuna?
 - Información sobre la vacuna prometedora
 - ¿Está disponible la vacuna covid?
 - ¿Es cierto o falso que hay vacunas?
 - ¿Es cierto que la vacuna saldrá en septiembre?
 - es cierto que las vacunas están fuera
-- ¿La vacuna ya existe?
+- la vacuna ya existe
 - ¿Se encuentra la vacuna?
 - ¿Está fuera la vacuna?
 - hay una vacuna
@@ -5761,7 +5764,6 @@
 - Todavía no hay vacuna para el covid 19
 - Vacuna
 - Vacunas
-- Bueno, ¿ya salió la vacuna?
 - ¿Qué es la vacuna? ¡Necesidad de liebre!
 - que hay de la vacuna
 - ¿Cuáles son las vacunas que se han probado?
@@ -5771,16 +5773,6 @@
 - que son las vacunas disponibles
 - que vacunas son disponibles
 - ¿Qué me puedes contar sobre la hipótesis de una vacuna para el Coronavirus?
-- ¿Cuándo pueden producirse una vacuna en algunos países?
-- ¿Cuándo se espera encontrar la vacuna?
-- ¿Cuándo deberíamos esperar la vacuna covid 19 ?, THAX HELLEN
-- ¿Cuándo debemos esperar la vacuna?
-- Cuando vendrá la vacuna
-- ¿Cuándo se lanzará la vacuna?
-- Cuando salga la vacuna
-- ¿Cuándo llegará la vacuna Corona?
-- ¿Cuándo estarán disponibles las vacunas?
-- ¿Cuándo estarán disponibles las vacunas? Soy Alfred
 - ¿Dónde está la vacuna del virus corona?
 - ¿Qué vacunas han pasado la etapa 3 de la prueba final?
 - ¿Por qué aún no se ha descubierto la vacuna?
@@ -5809,6 +5801,9 @@
 - Información de la vacuna de ARN
 - Más sobre la vacuna de ARN
 - ARN
+- tenemos vacunas contra el covid
+- cuando vamos a tener vacunas
+- que vacunas tenemos
 
 ## intent:vaccine_pfizer_about
 - Acerca de la vacuna Pfizer
@@ -5938,6 +5933,17 @@
 - Lista de espera para las vacunas
 - Prioridad para la vacunación
 - Quien puede conseguir la vacuna para el covid-19?
+- deben encontrar una vacuna
+- ¿Cuándo pueden producirse una vacuna en algunos países?
+- ¿Cuándo se espera encontrar la vacuna?
+- ¿Cuándo deberíamos esperar la vacuna covid 19
+- ¿Cuándo debemos esperar la vacuna?
+- Cuando vendrá la vacuna
+- ¿Cuándo se lanzará la vacuna?
+- Cuando salga la vacuna
+- ¿Cuándo llegará la vacuna Corona?
+- ¿Cuándo estarán disponibles las vacunas?
+- Bueno, ¿ya salió la vacuna?
 
 ## intent:vaccine_administration
 - Como administran la vacuna?
@@ -5995,6 +6001,7 @@
 - puedo recibir la secunda dosis con una vacuna diferente a la primera
 - puedo recibir la secunda dosis diferente
 - puede ser la secunda dosis diferente a la primera
+- puedo recibir vacunas diferentes
 - yo quiero la secunda dosis una otra vacuna 
 - otra vacuna para secunda dosis
 - es posible recibir una otra vacuna para secunda dosis
@@ -6396,6 +6403,8 @@
 - Cuáles son las nuevas cepas de covid?
 - cuál es la nueva variente del covid-19?
 - Cuáles son las nuevas variantes de coronavirus?
+- qué variante de covid es la más común
+- qué variante es la más predominante
 - De qué se trata la nueva cepa de Inglaterra?
 - Nueva variante de COVID-19
 - COVID-19 Mutaciones
@@ -6609,6 +6618,7 @@
 - ¿Dónde está la próxima ubicación de prueba de Coronavirus?
 - puedo hacerme una prueba
 - prueba
+- cuándo debería hacerme la prueba
 
 ## intent:test_who
 - ¿Puedo hacerme la prueba?
@@ -6640,11 +6650,7 @@
 - Cómo proceder al regresar del viaje.
 - Cómo proceder al regresar de viajar.
 - Cómo proceder a la vuelta del viaje.
-- Cómo proceder al regresar de viajar.
 - Acabo de regresar de viajar.
-- Acabo de regresar de viajar.
-- Regresé de viajar con tos.
-- Regresé de viajar.
 - Regresé de viajar con tos.
 - Regresé de viajar.
 - Procedimientos posteriores al viaje.
@@ -6673,10 +6679,6 @@
 - Viajaré pronto.
 - Viajaré pronto.
 - Precauciones antes de viajar.
-- Precauciones antes de viajar.
-- Precauciones antes de viajar.
-- Precauciones antes de viajar.
-- Cosas a considerar antes de viajar.
 - Cosas a considerar antes de viajar.
 - Cosas a considerar al viajar.
 - Cosas a tener en cuenta al viajar.
@@ -6691,10 +6693,7 @@
 - Preparación de viaje.
 - Viajes
 - ¿Qué anticipar antes de viajar?
-- ¿Qué anticipar antes de viajar?
 - ¿Qué hacer antes de viajar?
-- ¿Qué hacer antes de viajar?
-- ¿Qué prever antes de viajar?
 - ¿Qué prever antes de viajar?
 - antes de viajar
 
@@ -6702,42 +6701,19 @@
 - Durante el viaje.
 - Mientras estoy viajando
 - ¿Cómo comportarse durante el viaje?
-- ¿Cómo comportarse durante el viaje?
-- ¿Cómo comportarse durante el viaje?
 - ¿Cómo comportarse en un viaje?
 - ¿Cómo proceder durante el viaje?
-- ¿Cómo proceder durante el viaje?
-- ¿Cómo proceder durante el viaje?
-- ¿Cómo proceder durante el viaje?
-- Medidas durante el viaje.
 - Medidas durante el viaje.
 - Medidas a tomar durante el viaje.
-- Medidas a tomar durante el viaje.
-- Medidas a tomar durante el viaje.
-- Medidas a tomar durante el viaje.
-- Medidas durante el viaje.
 - Medidas durante el viaje.
 - Practica durante el viaje.
-- Practica durante el viaje.
 - Practica mientras viajas.
-- Practica mientras viajas.
-- Prácticas durante el viaje.
 - Prácticas durante el viaje.
 - Practica mientras viaja.
 - Prácticas mientras viaja.
 - Procedimiento durante el viaje.
-- Procedimiento durante el viaje.
-- Procedimiento durante el viaje.
-- Procedimiento durante el viaje.
-- Procedimientos durante el viaje.
-- Procedimientos durante el viaje.
-- Procedimientos durante el viaje.
 - Procedimientos durante el viaje.
 - ¿Qué se debe hacer durante el viaje?
-- ¿Qué se debe hacer durante el viaje?
-- ¿Qué hacer durante el viaje?
-- ¿Qué hacer durante el viaje?
-- ¿Qué hacer durante el viaje?
 - ¿Qué hacer durante el viaje?
 - Mientras viajo
 - Viajando
@@ -6781,7 +6757,6 @@
 - ¿Somos amigos?
 - Eres feliz conmigo
 - ¿Eres mi mejor amigo?
-- ¿Eres mi amigo?
 - ¡Sé mi amigo, por favor!
 - Se mi amigo.
 - ¿Puedo tener el placer de ser tu amigo?
@@ -6792,10 +6767,7 @@
 - ¿Podrías ser mi amigo?
 - ¿Le agrado?
 - ¿Quieres ser mi amigo?
-- ¿Quieres ser mi amigo?
 - ¡Debo ser tu amigo!
-- ¡Quiero ser tu amigo!
-- ¡Quiero ser tu amigo!
 - ¡Quiero ser tu amigo!
 - ¡Seamos mejores amigos!
 - ¡Seamos amigos!
@@ -6812,7 +6784,6 @@
 - Quieres ser mi amigo
 - ¿Quieres ser mi amigo?
 - ¿Te gustaría ser mi amigo?
-- ¿Tu y yo somos amigos?
 - Tu y yo somos amigos.
 - Eres mi amigo.
 - Se mi amigo
@@ -6827,9 +6798,6 @@
 - ¡Sentirse bien hoy!
 - Me siento tan bien.
 - Persona de buen humor.
-- Soy una persona alegre.
-- Soy una persona alegre.
-- Soy una persona alegre.
 - Siempre estoy sonriendo.
 - Estoy encantado.
 - Estoy disfrutado.
@@ -6969,7 +6937,6 @@
 - Lamentablemente no tengo datos personales.
 - Si. No tengo ningún dato personal en este momento.
 - Si. No tengo ningún dato personal aquí.
-- Si. No tengo ningún dato personal en este momento.
 - Si. No tengo ningún dato personal conmigo.
 - Si. No tengo nada de información personal.
 
@@ -6997,30 +6964,13 @@
 - No tengo ninguna pregunta más, gracias
 - No tengo ninguna otra pregunta
 - No tengo más preguntas, gracias.
-- No tengo más preguntas, gracias.
 - No tengo más preguntas.
 - No necesito más ayuda
 - No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda.
 - No necesito tu ayuda, gracias.
-- No necesito tu ayuda, gracias.
-- No necesito tu ayuda.
-- No tengo más preguntas, gracias.
-- No tengo más preguntas, gracias.
-- No tengo mas preguntas.
-- No tengo más preguntas, gracias.
 - No tengo más preguntas, gracias.
 - No tengo mas preguntas.
 - No tengo ninguna duda
-- No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda.
 - Creo que por ahora eso está listo
 - Te diré cuando necesite ayuda
 - Si quiero tu ayuda te envío un mensaje
@@ -7030,7 +6980,6 @@
 - Nada más que gracias por tu atención
 - Nada más
 - Nada mas gracias
-- Nada mas gracias
 - Nada por ahora
 - Nada por ahora que tengas una buena noche
 - Nada adios
@@ -7038,12 +6987,9 @@
 - Nada gracias
 - Nada, gracias. Cariño
 - Nada, tal vez mas tarde
-- Nada, gracias.
-- Nada, gracias.
 - Nada.
 - Nada. Cuando tenga una pregunta, te la haré.
 - Enésimo más
-- Não, de momento vou-me atualizando
 - OK gracias por la información cuídate
 - Ok, no hay más preguntas gracias
 - Gracias por tu ayuda.
@@ -7053,7 +6999,6 @@
 - Gracias por ahora Quizás más tarde
 - Gracias por tu ayuda
 - Gracias por tu ayuda adios
-- Gracias por tu ayuda.
 - Gracias por tu tiempo.
 - Eso sería todo.
 - Eso es suficiente, no hay problema que tengas un buen día
@@ -7064,12 +7009,9 @@
 - Eso es todo gracias
 - Um estoy bien por ahora gracias a ti
 - Me ayudaste con todo lo que quiero, gracias.
-- Me ayudaste con todo lo que quiero, gracias.
 - Me ayudaste con todo lo que quiero.
 - Puedes cerrar el maletero por mí, gracias.
-- Puedes cerrar el maletero por mí, gracias.
 - Puedes cerrar el maletero por mí.
-- Aclaraste todas mis dudas, gracias.
 - Aclaraste todas mis dudas, gracias.
 - Aclaraste todas mis dudas.
 - Has aclarado todos mis problemas, gracias
