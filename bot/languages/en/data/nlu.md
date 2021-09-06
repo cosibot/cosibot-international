@@ -4248,6 +4248,30 @@
 - should I be concerned with the virus?
 - will I die
 
+## intent:covid_after_vaccine
+- Can I get Covid after vaccination?
+- Can I still get sick with Covid despite having received my vaccine?
+- Can I get Covid if i am fully vaccinated?
+- I'm fully vaccinated, can I get the virus?
+- can i be sick to covid if i have vaccinated
+- can i get covid if i am fully vaccinated
+- i am fully vaccinated can i get covid
+- Get corona after vaccine
+- Got two doses of Pfizer, can I catch the disease?
+- after vaxx covid
+- Got the vax can I be sick
+- covid after vaccination
+- covid after vaccine
+- covid after vax
+- i got my shot can i get corona
+- i am fully vaccinated is it possible that i will get covid
+- is it possible to get covid after vaccination?
+- is it possible to be sick if I have been vaccinated?
+- i feel sick even though i am vaccinated
+- i think i have covid even though i am vaccinated
+- covid even though I have been vaccinated
+
+
 ## intent:covid_ebola
 - Ebola
 - Ebola virus disease
@@ -5938,7 +5962,7 @@
 - Who can get the COVID-19 vaccine?
 
 ## intent:vaccine_administration
-- How is the vaccine administrated
+- How is the vaccine administrated?
 - How is the vaccine given?
 - About vaccine administration
 - Info vaccine administration
@@ -5952,6 +5976,364 @@
 - Administration vaccines
 - Can I take a different vaccine on the second dose?
 - Will I be given the same vaccine for my second dose?
+- how johnson and johnson is administered
+- how pfizer is administered
+- how to get the moderna vaccine
+- janssen vaccine
+- biontech administration
+- johnson and johnson administration
+- pfizer dosage
+- how many doses of johnson and johnson are available
+- how many doses of pfizer vaccine are there?
+- one or two doses of biontech
+- how many doses do i need to get vaccinated with moderna
+
+## intent:vaccine_booster
+
+-	3rd dose when
+-	About 3rd dose
+-	About third dose
+-	Am I eligible for a third dose?
+-	Booster Janssen
+-	Booster vaccines
+-	Booster vax
+-	Can I get third dose
+-	Do all covid vaccines need a booster?
+-	Do I have to get a booster vaccine?
+- 	Do I need a third dose?
+-	Got the Pfizer shot, do I need a booster
+-	Got the Pfizer shot, do I need a third dose
+-	Got the Pfizer shot, do I need a third dose
+-	Got the Pfizer vaccine, do I need a booster
+-	Got the Pfizer vaccine, do I need a third dose
+-	Info on third dose please
+-	Information about third dose
+-	Moderna booster dose
+-	More on booster vaccine
+-	more on booster vax
+-	More on third dose
+-	Pfizer Booster shot
+-	Will all covid vaccines need a 3rd dose?
+-	Will all covid vaccines need a booster?
+-	Will all vaccines need a third dose?
+
+
+
+## intent:vaccine_with_covid
+-	About being vaccinated if infected with Covid
+- 	Being vaxxed if I am infected
+-	Can I be vaccinated against covid if i have covid?
+-	Can I be vaccinated if I have the vírus?
+-	can i get a vaccine if i have symptoms
+-	can i get vaccinated even if i have symptoms
+-	can i get vaccinated if i have covid
+-	can i get vaccinated if i have symptoms
+-	Caught the vírus, can I be vaccinated still
+-	Give me information on being vaccinated if infected
+-	Give me information on being vaxxed if infected
+-	I am infected with Covid, can I get the vaccine anyway?
+-	I have corona can I get vaccinated
+-	I have corona can I still get vaccinated
+-	I have fever can I be vaccinated
+-	I have sore throat can I be vaccinated
+-	i have symptoms of covid can i get vaccinated
+-	i want to be vaccinated but i have covid symptoms
+-	i want to get vaccinated but i have covid is it possible
+-	Info on being vaccinated in spite of being infected
+-	info on vaccinating infected people
+-	Is it okay to get the covid shot if I am infected
+-	Is it okay to get the vaccine if I am infected
+-	More on being vaccinated and still having covid
+-	More on being vaccinated if infected
+-	More on being vaxxed if infected
+-	Tell me if I should be vaccinated if I am infected
+-	vaccination even if i have symptoms
+-	vaccination if i have covid
+-	Would it be alright to be vaccinated if I am infected with covid?
+
+
+## intent:vaccine_after_covid
+- About vaccination after infection
+- About vaccine after infection
+- after being infected I need to be vaccinated
+- after I have had covid I still need a vaccine
+- Caught the disease, should I get the vaccine?
+- Caught the virus, do I need a vaccine?
+- do i need to be vaccinated if i have had covid
+- do i need vax after corona
+- Give me information on vaccination after covid
+- Got corona should I get vaxxed
+- Got the rona do I need vax
+- Had the rona do I need vax
+- I have been infected with corona do I still need vaccine
+- I have been infected with Covid do I still need vaccine
+- I have been infected with Covid-19 do I still need vaccine
+- i need a vaccine if i have had covid
+- I was infected, do I need the vaccine?
+- Info about vaccine after covid
+- Information vaccine after covid
+- is it true if i've had covid i don't need to get vaccinated
+- is it true that I don't need to be vaccinated if I have had covid
+- More info getting vaccine after infection
+- More on vaccine after having covid
+- More on vax after the virus
+- now that i have had covid i don't need to get vaccinated anymore
+- now that i have had covid i need to get vaccinated
+- should i be vaccinated if i have had covid 19
+- should i get vaccinated if i have had corona
+- Should I still be vaccinated even though I had Covid?
+- Tell me if I still need a vaccine after having covid
+- vaccine after contracting covid
+- Vax after corona
+- Vax after covid
+- Vax after having covid
+- Vax after infection
+
+## intent:vaccine_mix
+- about mixing vaccines
+- another vaccine for second dose
+- can covid vaccines be mixed
+- can i mix moderna and pfizer vaccine
+- Can I mix vaccine brands?
+- can I mix vaccines
+- Can I mix vax brands
+- can i receive the second dose differently
+- can i receive the second dose with a different vaccine than the first dose?
+- can i use the pfizer vaccine as the first dose and the moderna vaccine as the second dose?
+- can pfizer and moderna be mixed
+- can the second dose be different from the first dose
+- Different second vaccine
+- different 2nd dose
+- different 2nd shot
+- Different second shot
+- Give me info about mixing vaccines
+- Give me information about
+- I had second dose different than first is it okay
+- I want the second dose with a different vaccine 
+- Info on different second dose
+- Info on different second shot
+- Information on different second dose
+- Information on different second shot
+- Is it okay to have a second shot different than the first?
+- Is it okay to mix AstraZeneca and Pfizer
+- Is it okay to mix Pfizer and Moderna
+- is it possible to get another vaccine for second dose
+- Is there a problem if you get a second shot from another brand?
+- it is necessary to receive the same vaccine for the second vaccination
+- it is possible to get another vaccine to the first one
+- it is possible to have the second vaccination with another vaccine
+- it is possible to receive another vaccine for the second dose
+- mix covid vaccines
+- More on mixing vaccines
+- more on second vaccine different than the first
+- More on different second shot
+- on the second vaccination another vaccine can be used
+- on the second shot another vaccine can be used
+- Second shot different than first 
+- 2nd shot different than 1st
+- Second dose different
+- 2nd dose different
+- 2nd shot different
+- tell me can I use for the second vaccination a different vaccine
+- tell me if I can mix vaccines
+- the second vaccination with different vaccine
+- use different vaccine
+- Would it be alright if the second dose was different than the first?
+
+
+## intent:vaccine_effectiveness
+- About effectiveness of the Covid vaccine
+- are the covid vaccines effective
+- Best covid vaccine
+- Can you give me information about vaccine effectiveness?
+- Can you inform me about the most effective Covid Vaccine?
+- Covid Vaccines are they effective
+- do you know anything about the effectiveness of the vaccine
+- efficiency of getting vaccinated
+- Give me info about most effective vaccine
+- how effective are the covid vaccines?
+- how effective is the biontech vaccine?
+- how effective the vaccine is
+- how well does the vaccine work
+- Info effective vaccine
+- Information about efectiveness
+- Janssen vaccine effective
+- Janssen vax effective
+- Johnson vaccine effective
+- J&J vaccine effective
+- Johnson vax effective
+- J&J vax effective
+- Astrazeneca vaccine effective
+- Moderna vaccine effective
+- Moderna vax effective
+- Most effective covid shot
+- Pfizer vaccine effective
+- Pfizer vax effective
+- show me studies on effectiveness of vaccines
+- tell me about the effectiveness of the covid vaccine
+- tell me about the effectiveness of the vaccine
+- there are studies on the effectiveness of johnson vaccine
+- there are studies on the effectiveness of the vaccine
+- vaccine effectiveness
+- vaccine efficacy
+- Vax effectiveness
+- What is the effectiveness of the Janssen vaccine
+- What is the effectiveness of the Johnson & Johnson vaccine
+- What is the effectiveness of the J&J vaccine
+- What is the effectiveness of the Johnson vaccine
+- What is the effectiveness of the Johnson&Johnson vaccine
+- What is the percentage of effectiveness of the Covid-19 Vaccines?
+- what do we know about the effectiveness of covid vaccines?
+- what is the effectiveness of getting vaccinated
+- what is the effectiveness of moderna
+- what is the effectiveness of pfizer
+- what is the effectiveness of the covid vaccine?
+- what is the efficacy of the vaccine
+
+## intent:vaccine_side_effects
+- after getting the vaccine could I have side effects
+- after getting vaccinated could I have side effects
+- Are side effects common?
+- Are side effects rare?
+- Are there side effects after getting the covid vaccine?
+- Are there side effects from vaccines?
+- Can I have sore arm as side effect?
+- Could I experience side effects after vaccination?
+- Could I have an allergic reaction to the vaccine?
+- Covid-19 Vaccine side effects
+- covid-19 Vaccine side effects allergic reaction
+- do all covid vaccines have side effects
+- do all vaccines have side effects?
+- Fever side effect
+- I might have an allergic reaction to the vaccine.
+- Is fever a side effect?
+- is it possible to have an allergic reaction to the vaccine?
+- is it possible to have side effects after vaccination?
+- Is sore arm a side effect?
+- side effects
+- side effects are they bad
+- side effects covid vaccine
+- side effects of the vaccine
+- Sore arm side effect
+- the side effects
+- there are side effects after the vaccine
+- there are side effects of the covid vaccines
+- there are side effects of the covid-19 vaccine
+- there are vaccines without side effects
+- there can be side effects after taking the vaccine
+- Vaccine side effects
+- Vax side effects
+- what are the serious side effects of vaccines?
+- what are the serious side effects?
+- what are the side effects after the vaccine?
+- what are the side effects of the Janssen vaccine
+- what are the side effects of the Moderna vaccine
+- what are the side effects of the Pfizer vaccine
+- what are the side effects of the vaccine
+- Which vaccines have side effects?
+- Will I die from vaccine side effects
+- Will I experience side effects from the vaccine ?
+	
+
+## intent:vaccine_safety
+- about Covid vaccine safety
+- about Covid-19 vaccine safety
+- are vaccines safe
+- Can you tell me more about BioNTech vaccine safety?
+- Can you tell me more about Pfizer vaccine safety?
+- Can you tell me more about vaccine safety?
+- can you tell me more about J&J vaccine safety?
+- covid vaccine safety
+- Covid-19 vaccine safety
+- Getting the covid shot is it safe
+- Give me information about the safety of existing Covid vaccines
+- how do we know that vaccines are safe
+- Info about Covid vaccine safety
+- Info about vaccine safety
+- Is it safe to get the vaccine?
+- Is it safe to get vaxxed?
+- is the johnson vaccine as safe as the others?
+- Is the Pfizer vaccine as safe as the others?
+- is the pfizer vaccine safe
+- Provide me information about the safety of vaccines
+- Safety of vaccines
+- talk to me about safety of covid vax
+- the moderna vaccine is safe
+- there are safe vaccines
+- Vaccine more safe
+- Vaccine safety
+- Vax safety
+- what do we know about the safety of vaccines
+- what do you know about the safety of vaccines
+- which vaccine is the safest
+- Which vaccine is the safest?
+- Will it be safe for me to get the covid shot?
+- Please tell me about vaccine safety
+- Could you please update me on vaccine safety
+- I want more information on vaccine safety
+- the janssen vaccine is safe
+- the johnson vaccine is safe
+- the biontech vaccine is safe
+- the oxford vaccine is safe
+- the astrazeneca vaccine is safe
+- Is the janssen vaccine safe
+- Is the johnson vaccine safe
+- Is the biontech vaccine safe
+- Is the oxford vaccine safe
+- Is the astrazeneca vaccine safe
+- I want more information about vaccine safety
+- Tell me about the safety of vaccines
+- More on vaccine safety
+- More on the safety of vaccines
+- I want more information about vaccine safety
+
+
+## intent:covid_delta
+- Are you able to provide me information about delta?
+- Are you able to provide me information about the delta variant?
+- Could you please update me on the Delta variant?
+- Could you please update me on Delta?
+- about covid delta
+- covid delta
+- covid delta variant
+- delta
+- delta variant
+- do you know anything about delta
+- do you know anything about delta variant
+- give me information about delta
+- give me information about delta variant
+- I want more information about delta
+- I want more information about delta variant
+- I want more infomration about delta
+- I want more infomration about delta variant
+- info delta
+- info on delta
+- info about delta
+- info delta variant
+- information about delta
+- information about delta variant
+- is delta contagious
+- is delta dangerous
+- is delta more contagious than the other variants
+- is delta variant contagious
+- is delta variant dangerous
+- is delta variant more contagious than the other variants
+- is delta variant very dangerous
+- is delta very dangerous
+- Please provide information about delta
+- Please provide information about the new delta variant
+- talk to me about delta
+- talk to me about delta variant
+- tell me something about delta
+- tell me something about delta variant
+- the new delta variant
+- what do we know about the delta variant
+- what do you know about delta
+- what do you know about delta variant
+- what is delta
+- what is delta variant
+- what is the danger of the delta variant?
+- what is the new delta variant
 
 ## intent:quarantine_control
 - How is the quarantine controlled?
