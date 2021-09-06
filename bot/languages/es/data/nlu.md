@@ -2520,13 +2520,22 @@
 - que es un virus
 
 ## intent:covid_aftereffects
-- efectos secundarios
-- Efectos inesperados
+- efectos a largo plazo
+- efectos a largo plazo del covid
+- covid efectos a largo plazo
 - Los pulmones se pueden recuperar después del daño por coronavirus?
 - Los pulmones se recuperan cuando sales de la enfermedad?
 - Los pulmones se recuperan después de la infección
-- Cuáles son los efectos secundarios?'
+- Cuáles son los efectos a largo plazo?'
 - Qué le pasa a tus pulmones con el coronavirus?
+- qué son los efectos a largo plazo
+- efectos después de covid
+- me recupere del covid que son los efectos a largo plazo
+- causa el covid efectos a largo plazo
+- puedo tener efectos a largo plazo
+- cuál es el efecto de protección de las vacunas
+- el efecto de protección del pfizer
+- cómo protege la vacuna moderna contra el covid
 
 ## intent:covid_babys_children
 - El covid-19 puede matar a un bebe?
@@ -2675,6 +2684,24 @@
 - Cómo es la situación del covid en [España]{"entity": "country_code", "value": "ES"}?
 - Qué hay acerca de [Argentina]{"entity": "country_code", "value": "AR"}?
 - Coronavirus en [Costa Rica]{"entity": "country_code", "value": "CR"}
+- las estadísticas sobre la vacunación
+- noticias sobre el progreso de la vacunación
+- dónde hay una estadística sobre el progreso de la vacunación
+- cuál es el estado de la vacunación en el mundo
+- cuál es el estatus de la vacunación
+- el progreso de la vacunación
+- el progreso de la vacunación en el mundo
+- las estadísticas del corona virus en [España]{"entity": "country_code", "value": "ES"}
+- vacunación en [Italy]{"entity": "country_code", "value": "IT"}
+- dónde puedo ver el número de vacunados
+- dónde hay las estadísticas de los vacunados
+- cuántas personas fueron vacunadas ya
+- el número de vacunaciones en [Argentina]{"entity": "country_code", "value": "AR"}
+- tasa de vacunación por país
+- tasa de vacunación
+- cuántas personas recibieron la vacuna hasta hoy
+- números de vacunados hasta hoy
+- cuál es el número de vacunados hasta ahora
 
 ## intent:covid_dangerous
 - Estoy seguro?
@@ -4211,6 +4238,27 @@
 - Que es ebola??
 - Que causa el virus del ébola?
 
+## intent:covid_after_vaccine
+- puedo contraer el covid después de vacunarme
+- puedo estar enferma a covid si he vacunado
+- puedo tener corona si estoy totalmente vacunado
+- estoy totalmente vacunada puedo contraer el covid
+- covid después de vacunarme
+- el covid después de recibir una vacuna
+- yo estoy totalmente vacunada es possible que voy a contraer el covid
+- es possible obtener covid después de la vacuna
+- es possible estar enfermo a pesar de estar vacunado
+- me siento enferma aunque estoy vacunada
+- creo que tengo covid a pesar de estar vacunada
+- covid a pesar de estar vacunado
+- puedo recibir covid si me vacunan
+- me puede dar covid si me vacuné
+- ya me vacuné aún así me puedo contagiar de covid-19
+- puedo contagiarme aunque me vacune contra el coronavirus
+- estoy completamente vacunado pero me siento mal puedo tener covid
+- estoy vacunado puedo contagiarme
+- hay que vacunar si he tenido covid
+
 ## intent:economy_consequences
 - Puedes responder preguntas sobre economía?
 - Economía
@@ -5627,7 +5675,6 @@
 - Por qué debería evitar tocar mi nariz?
 
 ## intent:prevention_vaccine
-- Deben encontrar una vacuna
 - Sobre las vacunas para el COVID-19
 - Acerca de una vacuna para tratar el COVID-19
 - Acerca de una vacuna, medicamento o tratamiento para COVID-19.
@@ -5637,7 +5684,6 @@
 - Acerca de las vacunas para COVID-19.
 - Acerca de las vacunas para tratar COVID-19.
 - Acerca de las vacunas, medicamentos o tratamientos para COVID-19.
-- Sobre vacunas, medicamentos o tratamientos.
 - Quiero saber algo relacionado con la vacuna corona.
 - Sobre las vacunas.
 - Cualquier vacuna disponible
@@ -5646,17 +5692,14 @@
 - Cualquier noticia de vacunas bebé
 - Cualquier vacuna para covid-19
 - ¿Alguna vacuna todavía?
-- hay una vacuna?
 - ¿Existen vacunas para prevenir la enfermedad?
 - ¿Puedes contarme más sobre la vacuna covid?
-- vacuna para el COVID-19
 - vacuna para el COVID-19
 - ¿Tienes una vacuna?
 - existe una vacuna?
 - ¿Uganda tiene una vacuna?
 - Explicar el estado de la vacuna covid 19
 - ¿Se ha establecido una vacuna para el virus corona?
-- Oye ... me llamo Jose soy de Mexico ... mi pregunta es ... ¿hay alguna vacuna disponible en la que estén trabajando para detener la propagación del covid-19?
 - ¡Oye! ¿Hay alguna esperanza para la vacuna corona, hasta dónde llega la invasión de la vacuna?
 - ¿Qué tal la vacuna?
 - ¿Hasta dónde ha llegado Uganda con el ensayo clínico de la vacuna Corona?
@@ -5675,13 +5718,12 @@
 - ¿Cuánto tiempo tardará una vacuna en salir al mercado?
 - ¿Que tan posible es el descubrimiento de la vacuna covid 19 este año?
 - Escuché que Estados Unidos tiene la vacuna contra el covid. ¿Es verdad?
-- Soy Francisco, ¿se ha encontrado la vacuna?
 - Información sobre la vacuna prometedora
 - ¿Está disponible la vacuna covid?
 - ¿Es cierto o falso que hay vacunas?
 - ¿Es cierto que la vacuna saldrá en septiembre?
 - es cierto que las vacunas están fuera
-- ¿La vacuna ya existe?
+- la vacuna ya existe
 - ¿Se encuentra la vacuna?
 - ¿Está fuera la vacuna?
 - hay una vacuna
@@ -5722,22 +5764,15 @@
 - Todavía no hay vacuna para el covid 19
 - Vacuna
 - Vacunas
-- Bueno, ¿ya salió la vacuna?
 - ¿Qué es la vacuna? ¡Necesidad de liebre!
 - que hay de la vacuna
 - ¿Cuáles son las vacunas que se han probado?
 - que son las vacunas
+- hay vacunas?
+- que vacunas hay
+- que son las vacunas disponibles
+- que vacunas son disponibles
 - ¿Qué me puedes contar sobre la hipótesis de una vacuna para el Coronavirus?
-- ¿Cuándo pueden producirse una vacuna en algunos países?
-- ¿Cuándo se espera encontrar la vacuna?
-- ¿Cuándo deberíamos esperar la vacuna covid 19 ?, THAX HELLEN
-- ¿Cuándo debemos esperar la vacuna?
-- Cuando vendrá la vacuna
-- ¿Cuándo se lanzará la vacuna?
-- Cuando salga la vacuna
-- ¿Cuándo llegará la vacuna Corona?
-- ¿Cuándo estarán disponibles las vacunas?
-- ¿Cuándo estarán disponibles las vacunas? Soy Alfred
 - ¿Dónde está la vacuna del virus corona?
 - ¿Qué vacunas han pasado la etapa 3 de la prueba final?
 - ¿Por qué aún no se ha descubierto la vacuna?
@@ -5766,6 +5801,9 @@
 - Información de la vacuna de ARN
 - Más sobre la vacuna de ARN
 - ARN
+- tenemos vacunas contra el covid
+- cuando vamos a tener vacunas
+- que vacunas tenemos
 
 ## intent:vaccine_pfizer_about
 - Acerca de la vacuna Pfizer
@@ -5895,6 +5933,17 @@
 - Lista de espera para las vacunas
 - Prioridad para la vacunación
 - Quien puede conseguir la vacuna para el covid-19?
+- deben encontrar una vacuna
+- ¿Cuándo pueden producirse una vacuna en algunos países?
+- ¿Cuándo se espera encontrar la vacuna?
+- ¿Cuándo deberíamos esperar la vacuna covid 19
+- ¿Cuándo debemos esperar la vacuna?
+- Cuando vendrá la vacuna
+- ¿Cuándo se lanzará la vacuna?
+- Cuando salga la vacuna
+- ¿Cuándo llegará la vacuna Corona?
+- ¿Cuándo estarán disponibles las vacunas?
+- Bueno, ¿ya salió la vacuna?
 
 ## intent:vaccine_administration
 - Como administran la vacuna?
@@ -5906,6 +5955,128 @@
 - Como dan las vacunas?
 - Administración de vacunas
 - Administración de las vacunas
+- como se administra johnson and johnson
+- como administran el pfizer
+- como administran la vacuna de moderna
+- la administracion de biontech
+- la administracion de johnson y johnson
+- la dosis de pfizer
+- cuántas dosis hay de johnson y johnson
+- cuántas dosis hay de la vacuna pfizer
+- hay una o dos dosis de biontech
+- cuántas dosis necesito para vacunarme con moderna
+- cuántas vacunas me van a dar
+
+## intent:vaccine_con_covid
+- me puedo vacunar contra el covid si tengo covid
+- me puedo vacunar si tengo covid
+- puedo vacunarme si tengo síntomas
+- tengo síntomas de covid puedo vacunarme
+- puedo recibir una vacuna si tengo síntomas
+- puedo vacunarme aunque tenga síntomas
+- tengo corona puedo vacunarme
+- tengo corona puedo vacunarme de todos modos
+- vacunación si tengo covid
+- vacunación aunque tenga síntomas
+- quiero que me vacunen pero tengo síntomas de covid
+- quiero vacunarme pero tengo covid puedo
+- pueden vacunarme si estoy enferma con la covid
+- pueden vacunarme si tengo coronavirus
+
+## intent:vaccine_after_covid
+- debería vacunarme si he tenido la covid 19
+- debo vacunarme si he tenido corona
+- ahora que he tenido covid necesito vacunarme
+- he tenido covid ahora no necesito vacunarme más
+- es verdad si he tenido covid no necesito vacunarme
+- es verdad que no necesito vacuna si he tenido covid
+- después de tener covid todavía necesito una vacuna
+- después de infectarme hay que vacunar
+- hay que vacunar si he tenido covid
+- necesito una vacuna si he tenido covid
+- me he infectado con corona todavía necesito vacuna
+- vacuna después de contraerme con covid
+
+## intent:vaccine_mix
+- puedo recibir la secunda dosis con una vacuna diferente a la primera
+- puedo recibir la secunda dosis diferente
+- puede ser la secunda dosis diferente a la primera
+- puedo recibir vacunas diferentes
+- yo quiero la secunda dosis una otra vacuna 
+- otra vacuna para secunda dosis
+- es posible recibir una otra vacuna para secunda dosis
+- es posible obtener otra vacuna a la primera
+- se puede recibir una otra vacuna para la secunda dosis
+- se puede tener la secunda vacunación con una otra vacuna
+- la secunda vacunación con vacuna diferente
+- utilizar vacuna diferente
+- para la secunda vacunación una otra vacuna se puede
+- dime puedo utilizar para la secunda vacunación una otra vacuna
+- mezclar vacunas de covid
+- se pueden mezclar vacunas de covid
+- es necesario recibir la misma vacuna por la secunda vacunación
+- puedo mezclar las vacunas
+- puedo mezclar la vacuna de moderna y pfizer
+- puedo utilizar como la primera dosis la vacuna de pfizer y como la secunda la de moderna
+- se puede mezclar pfizer y moderna
+- se pueden combinar las vacunas
+- se pueden combinar las vacunas del covid
+- que pasa si combinamos dos dosis de vacunas distintas
+- se pueden aplicar diferentes vacunas a una persona
+- combinar diferentes dos diferentes vacunas 
+- puedo tomar dos diferentes vacunas
+
+## intent:vaccine_effectiveness
+- eficacia de la vacuna
+- efectividad de la vacuna
+- eficiencia de vacunarse
+- cuál es la eficacia de la vacuna
+- cuál es la efectividad de vacunarse
+- dime algo sobre la efectividad de la vacuna
+- dime cuál es la eficacia de la vacuna contra el covid
+- funciona bien la vacuna
+- que eficacia tenga la vacuna
+- sabes algo sobre la efectividad de la vacuna
+- hay estudios sobre la efectividad de la vacuna
+- que sabemos sobre la efectividad de las vacunas contra el covid
+- son las vacunas contra el covid efectivas
+- las vacunas contra el covid cuál es la efectividad
+- cuál es la efectividad de moderna
+- cuál es la eficacia de pfizer
+- cuál es la eficacia de la vacuna biontech
+- hay estudios sobre la eficacia de la vacuna de johnson
+- cuál es la efectividad de las vacunas contra el covid
+
+## intent:vaccine_side_effects
+- cuáles son los efectos secundarios de la vacuna
+- los efectos secundarios
+- los efectos secundarios de la vacuna
+- hay efectos secundarios de las vacunas contra el covid
+- efectos secundarios
+- puedo haber efectos secundarios después de tomar la vacuna
+- hay efectos secundarios después de la vacuna
+- es posible tener efectos secundarios después de vacunarme
+- cuáles son los efectos secundarios después de la vacuna
+- cuáles son los efectos secundarios graves
+- puede ser que voy a tener una reacción alérgica a la vacuna
+- hay posibilidad tener una reacción alérgica a la vacuna
+- cuáles son los efectos secundarios graves de las vacuna
+- tienen todas vacunas efectos secundarios
+- hay vacunas sin efectos secundarios
+
+## intent:vaccine_safety
+- son las vacunas seguras
+- seguridad de las vacunas
+- seguridad de la vacuna contra el covid
+- es la vacuna de pfizer segura
+- cuál vacuna es la más segura
+- como sabemos que las vacunas son seguras
+- hay vacunas seguras
+- que sabes de la seguridad de las vacunas
+- que sabemos de la seguridad de las vacunas
+- son las vacunas aprobadas
+- la vacuna de moderna es segura
+- es la vacuna de johnson también segura como las otras
 
 ## intent:quarantine_control
 - Como es el control de la cuarentena?
@@ -5951,12 +6122,14 @@
 - Papel de baño
 - Por que compran papel de baño?
 
+<!--
 ## intent:quarantine_when_who_howlong
 - Debería ponerme en cuarentena?
 - Cuando necesito hacer cuarentena?
 - Quien necesita hacer cuarentena?
 - Quien debería pasar o hacer cuarentena?
 - debo ponerme en cuarentena?
+-->
 
 ## intent:quaratine_how_it_works
 - Como hacer cuarentena correctamente?
@@ -6230,6 +6403,8 @@
 - Cuáles son las nuevas cepas de covid?
 - cuál es la nueva variente del covid-19?
 - Cuáles son las nuevas variantes de coronavirus?
+- qué variante de covid es la más común
+- qué variante es la más predominante
 - De qué se trata la nueva cepa de Inglaterra?
 - Nueva variante de COVID-19
 - COVID-19 Mutaciones
@@ -6240,6 +6415,28 @@
 - Cepas covid
 - Variante del covid
 - Cepas del covid
+
+## intent:covid_delta
+- delta
+- informaciones sobre delta
+- quiero mas información sobre delta
+- variante del covid delta
+- delta variante
+- covid delta
+- la nueva variante delta
+- que es la nueva variante delta
+- dime algo sobre delta
+- dame informaciones sobre delta
+- que es delta
+- es delta muy peligroso
+- es peligroso el delta
+- es el delta mas contagioso que las otras variantes
+- es contagioso el delta
+- que sabes sobre delta
+- sabes algo de delta
+- quál es el peligro del variante delta
+- qué sabemos de la variante delta
+
 
 ## intent:spread_pets
 - Mi gato puede contagiarme?
@@ -6421,6 +6618,7 @@
 - ¿Dónde está la próxima ubicación de prueba de Coronavirus?
 - puedo hacerme una prueba
 - prueba
+- cuándo debería hacerme la prueba
 
 ## intent:test_who
 - ¿Puedo hacerme la prueba?
@@ -6452,11 +6650,7 @@
 - Cómo proceder al regresar del viaje.
 - Cómo proceder al regresar de viajar.
 - Cómo proceder a la vuelta del viaje.
-- Cómo proceder al regresar de viajar.
 - Acabo de regresar de viajar.
-- Acabo de regresar de viajar.
-- Regresé de viajar con tos.
-- Regresé de viajar.
 - Regresé de viajar con tos.
 - Regresé de viajar.
 - Procedimientos posteriores al viaje.
@@ -6485,10 +6679,6 @@
 - Viajaré pronto.
 - Viajaré pronto.
 - Precauciones antes de viajar.
-- Precauciones antes de viajar.
-- Precauciones antes de viajar.
-- Precauciones antes de viajar.
-- Cosas a considerar antes de viajar.
 - Cosas a considerar antes de viajar.
 - Cosas a considerar al viajar.
 - Cosas a tener en cuenta al viajar.
@@ -6503,10 +6693,7 @@
 - Preparación de viaje.
 - Viajes
 - ¿Qué anticipar antes de viajar?
-- ¿Qué anticipar antes de viajar?
 - ¿Qué hacer antes de viajar?
-- ¿Qué hacer antes de viajar?
-- ¿Qué prever antes de viajar?
 - ¿Qué prever antes de viajar?
 - antes de viajar
 
@@ -6514,42 +6701,19 @@
 - Durante el viaje.
 - Mientras estoy viajando
 - ¿Cómo comportarse durante el viaje?
-- ¿Cómo comportarse durante el viaje?
-- ¿Cómo comportarse durante el viaje?
 - ¿Cómo comportarse en un viaje?
 - ¿Cómo proceder durante el viaje?
-- ¿Cómo proceder durante el viaje?
-- ¿Cómo proceder durante el viaje?
-- ¿Cómo proceder durante el viaje?
-- Medidas durante el viaje.
 - Medidas durante el viaje.
 - Medidas a tomar durante el viaje.
-- Medidas a tomar durante el viaje.
-- Medidas a tomar durante el viaje.
-- Medidas a tomar durante el viaje.
-- Medidas durante el viaje.
 - Medidas durante el viaje.
 - Practica durante el viaje.
-- Practica durante el viaje.
 - Practica mientras viajas.
-- Practica mientras viajas.
-- Prácticas durante el viaje.
 - Prácticas durante el viaje.
 - Practica mientras viaja.
 - Prácticas mientras viaja.
 - Procedimiento durante el viaje.
-- Procedimiento durante el viaje.
-- Procedimiento durante el viaje.
-- Procedimiento durante el viaje.
-- Procedimientos durante el viaje.
-- Procedimientos durante el viaje.
-- Procedimientos durante el viaje.
 - Procedimientos durante el viaje.
 - ¿Qué se debe hacer durante el viaje?
-- ¿Qué se debe hacer durante el viaje?
-- ¿Qué hacer durante el viaje?
-- ¿Qué hacer durante el viaje?
-- ¿Qué hacer durante el viaje?
 - ¿Qué hacer durante el viaje?
 - Mientras viajo
 - Viajando
@@ -6593,7 +6757,6 @@
 - ¿Somos amigos?
 - Eres feliz conmigo
 - ¿Eres mi mejor amigo?
-- ¿Eres mi amigo?
 - ¡Sé mi amigo, por favor!
 - Se mi amigo.
 - ¿Puedo tener el placer de ser tu amigo?
@@ -6604,10 +6767,7 @@
 - ¿Podrías ser mi amigo?
 - ¿Le agrado?
 - ¿Quieres ser mi amigo?
-- ¿Quieres ser mi amigo?
 - ¡Debo ser tu amigo!
-- ¡Quiero ser tu amigo!
-- ¡Quiero ser tu amigo!
 - ¡Quiero ser tu amigo!
 - ¡Seamos mejores amigos!
 - ¡Seamos amigos!
@@ -6624,7 +6784,6 @@
 - Quieres ser mi amigo
 - ¿Quieres ser mi amigo?
 - ¿Te gustaría ser mi amigo?
-- ¿Tu y yo somos amigos?
 - Tu y yo somos amigos.
 - Eres mi amigo.
 - Se mi amigo
@@ -6639,9 +6798,6 @@
 - ¡Sentirse bien hoy!
 - Me siento tan bien.
 - Persona de buen humor.
-- Soy una persona alegre.
-- Soy una persona alegre.
-- Soy una persona alegre.
 - Siempre estoy sonriendo.
 - Estoy encantado.
 - Estoy disfrutado.
@@ -6781,7 +6937,6 @@
 - Lamentablemente no tengo datos personales.
 - Si. No tengo ningún dato personal en este momento.
 - Si. No tengo ningún dato personal aquí.
-- Si. No tengo ningún dato personal en este momento.
 - Si. No tengo ningún dato personal conmigo.
 - Si. No tengo nada de información personal.
 
@@ -6809,30 +6964,13 @@
 - No tengo ninguna pregunta más, gracias
 - No tengo ninguna otra pregunta
 - No tengo más preguntas, gracias.
-- No tengo más preguntas, gracias.
 - No tengo más preguntas.
 - No necesito más ayuda
 - No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda.
 - No necesito tu ayuda, gracias.
-- No necesito tu ayuda, gracias.
-- No necesito tu ayuda.
-- No tengo más preguntas, gracias.
-- No tengo más preguntas, gracias.
-- No tengo mas preguntas.
-- No tengo más preguntas, gracias.
 - No tengo más preguntas, gracias.
 - No tengo mas preguntas.
 - No tengo ninguna duda
-- No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda, gracias.
-- No necesito más ayuda.
 - Creo que por ahora eso está listo
 - Te diré cuando necesite ayuda
 - Si quiero tu ayuda te envío un mensaje
@@ -6842,7 +6980,6 @@
 - Nada más que gracias por tu atención
 - Nada más
 - Nada mas gracias
-- Nada mas gracias
 - Nada por ahora
 - Nada por ahora que tengas una buena noche
 - Nada adios
@@ -6850,12 +6987,9 @@
 - Nada gracias
 - Nada, gracias. Cariño
 - Nada, tal vez mas tarde
-- Nada, gracias.
-- Nada, gracias.
 - Nada.
 - Nada. Cuando tenga una pregunta, te la haré.
 - Enésimo más
-- Não, de momento vou-me atualizando
 - OK gracias por la información cuídate
 - Ok, no hay más preguntas gracias
 - Gracias por tu ayuda.
@@ -6865,7 +6999,6 @@
 - Gracias por ahora Quizás más tarde
 - Gracias por tu ayuda
 - Gracias por tu ayuda adios
-- Gracias por tu ayuda.
 - Gracias por tu tiempo.
 - Eso sería todo.
 - Eso es suficiente, no hay problema que tengas un buen día
@@ -6876,12 +7009,9 @@
 - Eso es todo gracias
 - Um estoy bien por ahora gracias a ti
 - Me ayudaste con todo lo que quiero, gracias.
-- Me ayudaste con todo lo que quiero, gracias.
 - Me ayudaste con todo lo que quiero.
 - Puedes cerrar el maletero por mí, gracias.
-- Puedes cerrar el maletero por mí, gracias.
 - Puedes cerrar el maletero por mí.
-- Aclaraste todas mis dudas, gracias.
 - Aclaraste todas mis dudas, gracias.
 - Aclaraste todas mis dudas.
 - Has aclarado todos mis problemas, gracias
@@ -7410,7 +7540,7 @@
 - caretas de protección
 
 ## intent:country
-- em [Portugal]{"entity": "country_code", "value": "PT"}
+- en [Portugal]{"entity": "country_code", "value": "PT"}
 - [Espanha]{"entity": "country_code", "value": "ES"}
 - na [Grécia]{"entity": "country_code", "value": "GR"}
 - na [Suiça]{"entity": "country_code", "value": "CH"}

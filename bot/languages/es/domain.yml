@@ -194,12 +194,13 @@
     - utter_prevention_medicine
     - utter_prevention_respiratory_hygiene
     - utter_prevention_touch
+    - utter_prevention_vaccine
     - utter_quarantine_control
     - utter_quarantine_dogwalking
     - utter_quarantine_dos_and_donts
     - utter_quarantine_general
     - utter_quarantine_toiletpaper
-    - utter_quarantine_when_who_howlong
+    #- utter_quarantine_when_who_howlong
     - utter_quaratine_how_it_works
     - utter_spread_air
     - utter_spread_animals
@@ -211,6 +212,7 @@
     - utter_spread_surfaces_food_objects
     - utter_test_virus
     - utter_covid_ebola
+    - utter_covid_after_vaccine
     - utter_test_who
     - utter_travel_after
     - utter_travel_before
@@ -251,7 +253,14 @@
     - utter_vaccine_when
     - utter_vaccine_ingredients
     - utter_vaccine_administration
+    - utter_vaccine_con_covid
+    - utter_vaccine_after_covid
+    - utter_vaccine_mix
+    - utter_vaccine_effectiveness
+    - utter_vaccine_side_effects
+    - utter_vaccine_safety
     - utter_covid_new_strain
+    - utter_covid_delta
 
 
   intents:
@@ -328,6 +337,7 @@
     # - covid_volunteer
     # - covid_register
     - covid_ebola
+    - covid_after_vaccine
     - economy_consequences
     - features_date
     - features_time
@@ -373,7 +383,7 @@
     - quarantine_dos_and_donts
     - quarantine_general
     - quarantine_toiletpaper
-    - quarantine_when_who_howlong
+    #- quarantine_when_who_howlong
     - quaratine_how_it_works
     - spread_air
     - spread_animals
@@ -410,7 +420,14 @@
     - vaccine_when
     - vaccine_ingredients
     - vaccine_administration
+    - vaccine_con_covid
+    - vaccine_after_covid
+    - vaccine_mix
+    - vaccine_effectiveness
+    - vaccine_side_effects
+    - vaccine_safety
     - covid_new_strain
+    - covid_delta
 
   responses:
     utter_ask_which_country:
@@ -443,7 +460,7 @@
         - text: Oh, realmente me gusta leer. Preferentemente libros de anatomía.
           type: html
         - ssml: <speak>Oh, realmente me gusta leer. Preferentemente libros de anatomía.</speak>
-          type: ssml
+          type: ssmlz
     utter_bot_capabilities:
     - custom:
         answers:
@@ -804,7 +821,7 @@
     - custom:
         answers:
         - text: 'Hay tres factores que afectan al riesgo de daño pulmonar en las infecciones
-            por COVID-19 y a la probablididad de que la persona se recupere y recupere
+            por COVID-19 y a la probabilidad de que la persona se recupere y recupere
             la función pulmonar: La gravedad de la enfermedad, las condiciones de salud
             preexistentes y el tratamiento. Después de un caso grave de COVID-19, los
             pulmones de un paciente pueden recuperarse, pero no de la noche a la mañana.
@@ -852,22 +869,19 @@
           type: ssml
         - links:
           - title: Cosibot Volunteers
-            url: https://cosibot.org/volunteers
+            url: https://cosibot.org/es/voluntarios
           type: links
     utter_covid_crisis_howlong:
     - custom:
         answers:
-        - text: Desafortunadamente, no es posible predecir cuánto durará el brote ni cómo
+        - text: "Desafortunadamente, no es posible predecir cuánto durará el brote ni cómo
             se desarrollará la pandemia. Nos enfretamos a un nuevo virus y por lo tanto,
-            sigue habiendo mucha incertidumbre. Por ejemplo, no se sabe si la transmisión
-            dentro de la Unión Europea disminuirá naturalmente durante el verano del hemisferio
-            norte, como se observa con la gripe estacional.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
+            sigue habiendo mucha incertidumbre. Si desea más información, por favor visite el siguiente enlace: 
+            <a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>"
           type: html
         - ssml: <speak>Desafortunadamente, no es posible predecir cuánto durará el brote
             ni cómo se desarrollará la pandemia. Nos enfretamos a un nuevo virus y por
-            lo tanto, sigue habiendo mucha incertidumbre. Por ejemplo, no se sabe si la
-            transmisión dentro de la Unión Europea disminuirá naturalmente durante el
-            verano del hemisferio norte, como se observa con la gripe estacional.</speak>
+            lo tanto, sigue habiendo mucha incertidumbre. Si desea más información, por favor visite el siguiente enlace.</speak>
           type: ssml
         - options:
           - label: Acerca del COVID-19
@@ -882,8 +896,7 @@
     utter_covid_current_statistics:
     - custom:
         answers:
-        - text: 'Para estar al día de los últimos avances en el mundo, por favor visite
-            el siguiente enlace:'
+        - text: "Para estar al día de los últimos avances en el mundo, por favor pulse <a href='https://who.sprinklr.com/'target='_blank'>aquí</a>."
           type: html
         - ssml: <speak>Para estar al día de los últimos avances en el mundo, por favor
             visite el siguiente enlace:</speak>
@@ -898,10 +911,6 @@
           - label: Mitos
             value: Mitos
           type: hints
-        - links:
-          - title: COVID-19 Situation
-            url: https://who.sprinklr.com/
-          type: links
     utter_covid_dangerous:
     - custom:
         answers:
@@ -918,22 +927,10 @@
     utter_covid_disease_process:
     - custom:
         answers:
-        - text: Se dispone de datos sobre la progresión de la enfermedad a partir de un
-            número limitado de casos hospitalizados notificados. Según la información
-            disponible, la mediana del tiempo transcurrido desde el inicio de los síntomas
-            hasta la confirmación en el laboratorio disminuyó a nivel nacional de 12 días
-            (rango 8-18 días) a principios de enero a 3 días (1-7) a principios de febrero
-            de 2020, y en Wuhan de 15 días (10-21) a 5 días (3-9), respectivamente. Esto
-            ha permitido identificar, aislar y tratar antes los casos y los contactos.<a
-            href='https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf'target='_blank'>(1)</a>
+        - text: Para obtener más información sobre la progresión de la enfermedad, visite el siguiente enlase:<a
+            href='https://apps.who.int/iris/bitstream/handle/10665/340629/WHO-2019-nCoV-clinical-2021.1-spa.pdf'target='_blank'>(1)</a>
           type: html
-        - ssml: <speak>Se dispone de datos sobre la progresión de la enfermedad a partir
-            de un número limitado de casos hospitalizados notificados. Según la información
-            disponible, la mediana del tiempo transcurrido desde el inicio de los síntomas
-            hasta la confirmación en el laboratorio disminuyó a nivel nacional de 12 días
-            (rango 8-18 días) a principios de enero a 3 días (1-7) a principios de febrero
-            de 2020, y en Wuhan de 15 días (10-21) a 5 días (3-9), respectivamente. Esto
-            ha permitido identificar, aislar y tratar antes los casos y los contactos.</speak>
+        - ssml: <speak>Para obtener más información sobre la progresión de la enfermedad, visite el siguiente enlase:</speak>
           type: ssml
     utter_covid_duration:
     - custom:
@@ -952,7 +949,7 @@
         - text: Actualmente no hay pruebas de que las personas puedan contraer COVID-19
             a través de los alimentos, incluyendo las frutas y verduras. Las frutas y
             verduras frescas forman parte de una dieta saludable y debe fomentarse su
-            consumo.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/food-safety-and-nutrition'target='_blank'>(1)</a>
+            consumo.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/food-safety-and-nutrition'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Actualmente no hay pruebas de que las personas puedan contraer
             COVID-19 a través de los alimentos, incluyendo las frutas y verduras. Las
@@ -1002,7 +999,7 @@
         - text: El \"período de incubación"\ es el tiempo que transcurre entre la contracción
             del virus y comenzar a tener síntomas de la enfermedad. <br>La mayoría de
             las estimaciones para el período de incubación para COVID-19 van desde 1 hasta
-            14 días, lo más común es alrededor de 5 días.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            14 días, lo más común es alrededor de 5 días.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>El período de incubación es el tiempo que transcurre entre la contracción
@@ -1029,7 +1026,7 @@
             de la influenza el intervalo es de 3 días. Esto significa que la influenza
             se puede propagar más rápido que el COVID-19. Aunque similar, la mortalidad
             por COVID-19 parece más alta que por la influenza, especialmente la influenza
-            estacional.<a href='https://www.who.int/news-room/q-a-detail/q-a-similarities-and-differences-covid-19-and-influenza'target='_blank'>(1)</a>
+            estacional.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-similarities-and-differences-covid-19-and-influenza'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Tanto el COVID-19 como los virus de la influenza causan enfermedades
             respiratorias y son transmitidos por contacto, gotas o fómites. Se estima
@@ -1055,7 +1052,7 @@
         - text: COVID-19 es la enfermedad infecciosa causada por el coronavirus descubierto
             más recientemente. Este nuevo virus y enfermedad eran desconocidos antes del
             comienzo del brote en Wuhan, China, en diciembre del 2019. <br>COVID-19 es
-            ahora una pandemia que afecta a muchos países a nivel mundial.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a
+            ahora una pandemia que afecta a muchos países a nivel mundial.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'target='_blank'>(1)</a
           type: html
         - ssml: <speak>COVID-19 es la enfermedad infecciosa causada por el coronavirus
             descubierto más recientemente. Este nuevo virus y enfermedad eran desconocidos
@@ -1105,7 +1102,7 @@
         - text: Los resultados preliminares indican que la tasa de mortalidad del COVID-19
             es de 20-30 por cada mil personas diagnosticadas. Esto es significativamente
             menor que el brote de SARS en 2003. Sin embargo, es mucho mayor que la tasa
-            de mortalidad de la gripe estacional.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
+            de mortalidad de la gripe estacional.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'> (1)</a>
           type: html
         - ssml: <speak>Los resultados preliminares indican que la tasa de mortalidad del
             COVID-19 es de 20-30 por cada mil personas diagnosticadas. Esto es significativamente
@@ -1115,19 +1112,27 @@
     utter_covid_new_strain:
     - custom:
         answers:
-        - text: Múltiples variantes del COVID-19 están circulando alrededor del mundo.
-            En el Reino Unido ha emergido una nueva variante con un número inusualmente
-            alto de mutaciones. Esta variante parece propagarse más rápido y fácil que
-            otras variantes. Actualmente, no hay evidencia de que cause una enfermedad
-            más severa o incremente el riesgo de muerte.<a href='https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html.'
-            target='_blank'>(1)</a>
+        - text: Múltiples variantes del COVID-19 están circulando alrededor del mundo. A día de hoy, hay once variantes de 
+            SARS-CoV-2 identificadas y la OMS las divide en dos tipos:<br>
+            1. variantes de preocupación (VOC) - Alpha, Beta, Gamma, Delta<br> 
+            2. variantes de interés (VOI) - Epsilon, Zeta, Eta, Theta, Lota, Kappa y Lambda.<br>
+            Para obtener más información sobre las variantes, visite el siguiente <a href='https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html'target='_blank'>enlace</a>
           type: html
-        - ssml: <speak>Múltiples variantes del COVID-19 están circulando alrededor del
-            mundo. En el Reino Unido ha emergido una nueva variante con un número inusualmente
-            alto de mutaciones. Esta variante parece propagarse más rápido y fácil que
-            otras variantes. Actualmente, no hay evidencia de que cause una enfermedad
-            más severa o incremente el riesgo de muerte.</speak>
+        - ssml: <speak>Múltiples variantes del COVID-19 están circulando alrededor del mundo. A día de hoy, hay once variantes de 
+            SARS-CoV-2 identificadas y la OMS las divide en dos tipos - variantes de preocupación v o p que son Alpha, Beta, Gamma, Delta y Variantes de interés v o i que son Epsilon, Zeta, Eta, Theta, Lota, Kappa y Lambda.<br>
+            Para obtener más información sobre las variantes, visite el siguiente enlace:</speak>
           type: ssml
+
+    utter_covid_delta:
+    - custom:
+        answers:
+        - text: En este momento, Delta es la variante predominante del virus, provoca más infecciones y se propaga más rápidamente que los primeros tipos del virus.
+            Si necesita más información, pulse <a href='https://espanol.cdc.gov/coronavirus/2019-ncov/variants/delta-variant.html'target='_blank'>aquí</a>.
+          type: html
+        - ssml: <speak>En este momento, Delta es la variante predominante del virus, provoca más infecciones y se propaga más rápidamente que los primeros tipos del virus. Si necesita más información, visite el enlace.</speak>
+          type: ssml
+
+
     utter_covid_no_country_current_statistics:
     - custom:
         answers:
@@ -1181,7 +1186,7 @@
         - text: Una pandemia es la propagación mundial de una nueva enfermedad y ocurre
             cuando surge un nuevo virus y se propaga alrededor del mundo y la mayoría
             de las personas no tienen inmunidad. Los virus que han causado pandemias en
-            el pasado suelen tener su origen en los virus de la Influenza animal.<a href='https://www.who.int/csr/disease/swineflu/frequently_asked_questions/pandemic/en/'target='_blank'>(1)</a>
+            el pasado suelen tener su origen en los virus de la Influenza animal.<a href='https://www.who.int/bulletin/volumes/89/7/11-086173.pdf'target='_blank'> (1)</a>
           type: html
         - ssml: <speak>Una pandemia es la propagación mundial de una nueva enfermedad
             y ocurre cuando surge un nuevo virus y se propaga alrededor del mundo y la
@@ -1216,7 +1221,7 @@
             reportadas es similar a la prevalencia de estas en los grupos de edad avanzada
             en China, por lo que podrían ser sustitutos de la edad creciente únicamente.
             Una mayor expresión del gen de la ECA (Enzima convertidora de angiotensina
-             2) puede estar relacionada con una mayor susceptibilidad al sars CoV 2. Se
+            2) puede estar relacionada con una mayor susceptibilidad al sars CoV 2. Se
             ha demostrado que la expresión de la ECA 2 en los tejidos pulmonares aumenta
             con la edad, el consumo de tabaco y con algún tratamiento hipertensivo. Estas
             observaciones podrían explicar la vulnerabilidad de las personas mayores,
@@ -1231,7 +1236,7 @@
             a la dificultad para respirar o a la falta de aire, dolor o presión en el
             pecho, pérdida del habla o movimiento deben buscar atención médica inmediatamente.
             Si es posible, es recomendable llamar primero al médico o al centro de salud
-            para que el paciente pueda ser trasladado a la clínica correcta.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a>
+            para que el paciente pueda ser trasladado a la clínica correcta.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Las personas de todas las edades que experimentan fiebre y, o tos
             asociada a la dificultad para respirar o a la falta de aire, dolor o presión
@@ -1388,7 +1393,7 @@
         - text: Estudios sugieren que los coronavirus pueden persistir en superficies
             desde algunas horas hasta varios días. Esto puede cambiar bajo diferentes
             condiciones (por ejemplo, el tipo de superficie, la temperatura o humedad
-            del ambiente).<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            del ambiente).<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Estudios sugieren que los coronavirus pueden persistir en superficies
@@ -1415,7 +1420,7 @@
             de garganta, diarrea, pérdida del gusto o del olfato, una erupción en la piel
             o decoloración de los dedos de las manos o de los pies. Estos síntomas suelen
             ser leves y comienzan gradualmente. Algunas personas se infectan pero solo
-            tienen síntomas muy leves.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a>
+            tienen síntomas muy leves.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Los síntomas más comunes de COVID-19 son fiebre, tos seca y cansancio.
             Otros síntomas menos comunes y que pueden afectar a algunos pacientes son
@@ -1448,7 +1453,7 @@
         - text: No hay un tratamiento específico para esta enfermedad, las instituciones
             de salud tratan los síntomas clínicos (por ejemplo, fiebre, dificultad para
             respirar) en los pacientes. Cuidados de apoyo (por ejemplo, terapia de oxígeno)
-            pueden ser altamente efectivas para pacientes con síntomas.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+            pueden ser altamente efectivas para pacientes con síntomas.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>No hay un tratamiento específico para esta enfermedad, las instituciones
@@ -1476,7 +1481,7 @@
         - text: Es muy normal para las personas preocuparse por cómo la pandemia de COVID-19
             los afectará a ellos y a sus seres queridos. <br>Podemos canalizar nuestras
             preocupaciones en acciones para protegernos y proteger a nuestros seres queridos
-            y a la comunidad.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a>
+            y a la comunidad.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Es muy normal para las personas preocuparse por cómo la pandemia
             de COVID-19 los afectará a ellos y a sus seres queridos. Podemos canalizar
@@ -1502,8 +1507,20 @@
           type: ssml
         - links:
           - title: 'WHO: Ebola virus disease'
-            url: https://www.who.int/health-topics/ebola/
+            url: https://www.who.int/es/health-topics/ebola#tab=tab_1
           type: links
+    utter_covid_after_vaccine:
+    - custom:
+        answers:
+        - text: Las vacunas contra el COVID-19 son efectivas para prevenir la infección, las enfermedades graves y la muerte. La mayoría de las personas que se enferman de COVID-19 no están vacunadas. 
+            Sin embargo, dado que las vacunas no son 100 % efectivas para prevenir la infección, algunas de las personas que están totalmente vacunadas se infectarán por COVID-19 de todos modos. 
+            Las personas vacunadas que se infectan tienen menos probabilidades de sufrir enfermedades graves que quienes no están vacunados y se infectan por COVID-19.<br>
+            <a href='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/effectiveness/why-measure-effectiveness/breakthrough-cases.html'target='_blank'>COVID-19 después de vacunarse</a>
+          type: html
+        - ssml: Las vacunas contra el COVID-19 son efectivas para prevenir la infección, las enfermedades graves y la muerte. La mayoría de las personas que se enferman de COVID-19 no están vacunadas. 
+            Sin embargo, dado que las vacunas no son 100 % efectivas para prevenir la infección, algunas de las personas que están totalmente vacunadas se infectarán por COVID-19 de todos modos. 
+            Las personas vacunadas que se infectan tienen menos probabilidades de sufrir enfermedades graves que quienes no están vacunados y se infectan por COVID-19.
+          type: ssml
     utter_economy_consequences:
     - custom:
         answers:
@@ -1557,7 +1574,7 @@
           type: html
         - ssml: <speak>En este momento no tengo la información solicitada. Si lo desea,
             puede visitar la Organización Mundial de la Salud para conocer más sobre la
-            pandemia</speak>
+            pandemia</speak> 
           type: ssml
         - links:
           - title: Novel coronavirus (COVID-19)
@@ -1823,8 +1840,7 @@
     - custom:
         answers:
         - text: Los virus no pueden viajar en ondas de radio o redes móviles. <br>El COVID-19
-            se está propagando en muchos países que no tienen redes móviles 5G.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
-            target='_blank'>(1)</a>
+            se está propagando en muchos países que no tienen redes móviles 5G.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Los virus no pueden viajar en ondas de radio o redes móviles. El
             COVID-19 se está propagando en muchos países que no tienen redes móviles 5G.</speak>
@@ -1836,7 +1852,7 @@
             a través del contacto con gotas respiratorias en lugar de a través del aire.
             Sin embargo, según un estudio de la revista EID, se cree que un brote fue
             provocado por transmisión de gotas con la ventilación con aire acondicionado
-            en un restaurante en Wuhan, China.<a href='https://wwwnc.cdc.gov/eid/article/26/7/20-0764_article'
+            en un restaurante en Wuhan, China.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Estudios sugieren que el virus causante del COVID-19 es transmitido
@@ -1852,7 +1868,7 @@
             entrado en su cuerpo. Rociar estas sustancias puede ser perjudicial para la
             ropa o las membranas mucosas (es decir, ojos, boca). Tenga en cuenta que tanto
             el alcohol como el cloro pueden ser útiles para desinfectar superficies, pero
-            deben usarse siguiendo las recomendaciones adecuadas.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            deben usarse siguiendo las recomendaciones adecuadas.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Rociar alcohol o cloro por todo el cuerpo no matará los virus que
@@ -1878,7 +1894,7 @@
         answers:
         - text: Los antibióticos no funcionan contra los virus, solo contra las bacterias.
             <br>El SARS-CoV-2 es un virus y, por tanto, no se deben utilizar antibióticos
-            como medio de prevención o tratamiento.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            como medio de prevención o tratamiento.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Los antibióticos no funcionan contra los virus, solo contra las
@@ -1900,7 +1916,7 @@
         answers:
         - text: No hay razón para creer que el clima frío pueda matar al nuevo coronavirus
             u otras enfermedades. La temperatura normal del cuerpo humano es de entre
-            36.5°C a 37°C, sin importar la temperatura o clima exterior.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            36.5°C a 37°C, sin importar la temperatura o clima exterior.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>No hay razón para creer que el clima frío pueda matar al nuevo
@@ -1942,7 +1958,7 @@
         answers:
         - text: El ajo es un alimento saludable que puede tener algunas propiedades antimicrobianas.
             Sin embargo, no hay evidencia del brote actual de que comer ajo haya protegido
-            a las personas del nuevo coronavirus.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            a las personas del nuevo coronavirus.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>El ajo es un alimento saludable que puede tener algunas propiedades
@@ -1966,7 +1982,7 @@
             contra el COVID-19, debe lavarse las manos con frecuencia con un desinfectante
             para manos a base de alcohol o lavarlas con agua y jabón. Una vez que se haya
             lavado las manos, debe secarlas completamente con toallas de papel o un secador
-            de aire caliente.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            de aire caliente.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Los secadores de manos no son eficaces para matar el virus. Para
@@ -1992,7 +2008,7 @@
             corporal normal se mantiene alrededor de 36.5°C a 37°C, independientemente
             de la temperatura de su baño o ducha. En realidad, tomar un baño caliente
             con agua extremadamente caliente puede ser perjudicial, ya que puede quemarle..<a
-            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Tomar un baño caliente no evitará que contraiga COVID-19. Su temperatura
@@ -2010,7 +2026,7 @@
             de saliva o secreciones nasales. Para protegerse, lávese las manos con frecuencia
             con un desinfectante para manos a base de alcohol o láveselas con agua y jabón.
             Además, evite el contacto cercano con cualquier persona que esté tosiendo
-            y estornudando.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#mosquito-bites'
+            y estornudando.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Hasta la fecha no ha habido información ni evidencia que sugiera
@@ -2060,7 +2076,7 @@
         - text: Las vacunas contra la neumonía, como la vacuna antineumocócica y la vacuna
             contra la influenza Haemophilus tipo B (Hib), no brindan protección contra
             el nuevo coronavirus. El virus es tan nuevo y diferente que necesita su propia
-            vacuna.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            vacuna.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Las vacunas contra la neumonía, como la vacuna antineumocócica
@@ -2086,7 +2102,7 @@
             evidencia limitada de que enjuagarse la nariz con regularidad con solución
             salina puede ayudar a las personas a recuperarse más rápidamente del resfriado
             común. Sin embargo, no se ha demostrado que enjuagarse la nariz con regularidad
-            prevenga las infecciones respiratorias.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            prevenga las infecciones respiratorias.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>No hay evidencia de que el enjuague regular de la nariz con solución
@@ -2112,7 +2128,7 @@
         - text: El aceite de sésamo no mata el nuevo coronavirus. <br>Hay algunos desinfectantes
             químicos que pueden matar el SARS-CoV-2 en las superficies. Estos incluyen
             desinfectantes a base de cloro o lejía, ya sean solventes, etanol al 75%,
-            ácido peracético y cloroformo.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            ácido peracético y cloroformo.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>El aceite de sésamo no mata el nuevo coronavirus. Hay algunos desinfectantes
@@ -2137,7 +2153,7 @@
             fiebre, sin embargo, no pueden detectar personas que están infectadas pero
             aún no enfermas con fiebre. Esto es porque toma entre 2 y 10 días antes de
             que las personas infectadas se pongan enfermas y desarrollen ese síntoma.<a
-            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Los escáneres térmicos son efectivos en detectar personas que han
@@ -2161,7 +2177,7 @@
         - text: Según la evidencia hasta ahora, el virus COVID-19 se puede transmitir
             en todas las áreas, incluidas las áreas con clima cálido y húmedo. <br>Independientemente
             del clima, adopte medidas de protección si vive o viaja a un área que reporta
-            COVID-19.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            COVID-19.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Según la evidencia hasta ahora, el virus COVID-19 se puede transmitir
@@ -2174,7 +2190,7 @@
         answers:
         - text: Las lámparas UV no deben ser usadas para esterilizar las manos u otras
             áreas de la piel ya que la radiación UV puede causar irritación de la piel.<a
-            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+            href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw4KyJBhAbEiwAaAQbE8MZIUmEsYVrfZclRPAE-SsPfQWkMxDjO7v9aF3_IWRgXmKT76kIFxoCMrIQAvD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Las lámparas UV no deben ser usadas para esterilizar las manos
@@ -2236,7 +2252,7 @@
         - text: Si tiene fiebre, tos o dificultad para respirar, busque atención médica
             y llame antes de ir. <br>Llamar antes de ir permitirá a los servicios de salud
             dirigirle rápidamente al centro de salud correcto. Esto también le protegerá
-            y ayudará a evitar la propagación del virus y otras infecciones.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            y ayudará a evitar la propagación del virus y otras infecciones.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Si tiene fiebre, tos o dificultad para respirar, busque atención
@@ -2337,7 +2353,7 @@
             sigan una buena higiene respiratoria;</li> <li>quédese en casa si no se siente
             bien. </li></ul>Si usted tiene fiebre, tos o dificultad para respirar, busque
             atención médica y llame antes de ir. Siga las direcciones de sus autoridades
-            sanitarias locales.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''
+            sanitarias locales.<a href=''https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public?gclid=EAIaIQobChMI9Yee68XY8gIVCpftCh0jMgQBEAAYASABEgI8rPD_BwE''
             target=''_blank''>(1)</a>'
           type: html
         - ssml: '<speak>Usted puede reducir las probabilidades de infectarse o propagar
@@ -2370,7 +2386,7 @@
             nariz que moquea ligeramente, hasta que se recupere. Evite el contacto con
             otros y visitas a instalaciones de salud permitirán que estas instalaciones
             operen más efectivamente y ayuda a proteger su salud y la de los demás de
-            contagios por COVID-19 u otros virus.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            contagios por COVID-19 u otros virus.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Haga un auto aislamiento quedándose en casa si comienza a sentirse
@@ -2401,7 +2417,7 @@
             COVID-19 y varios han visto brotes. <br>Las autoridades en China y algunos
             otros países han tenido éxito al frenar o detener sus brotes. Sin embargo,
             la situación es impredecible así que revise regularmente las últimas noticias.<a
-            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public?gclid=EAIaIQobChMI9Yee68XY8gIVCpftCh0jMgQBEAAYASABEgI8rPD_BwE'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Mantégase al tanto de la última información sobre la pandemia de
@@ -2432,7 +2448,7 @@
             antibióticos.</li></ul>Si usted tiene fiebre, tos o dificultad para respirar,
             busque atención médica de forma temprana para reducir el riesgo de desarollar
             una infección más severa y asegúrese de compartir su historial reciente de
-            viaje con su proveedor de servicios de salud.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            viaje con su proveedor de servicios de salud.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Las siguientes medidas no son efectivas contra el COVID-19 y pueden
@@ -2463,7 +2479,7 @@
             recibir atención para aliviar los síntomas. Personas con una enfermedad severa
             deben ser hospitalizados. La mayoría de los pacientes se recuperan gracias
             a los cuidados médicos. Las posibles vacunas y algunos tratamientos con medicamentos
-            específicos están bajo investigación.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            específicos están bajo investigación.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Hasta la fecha, no hay vacuna y no hay una medicina antiviral específica
@@ -2493,7 +2509,7 @@
             doblado o un pañuelo cuando tose o estornuda. Luego deseche el pañuelo usado
             inmediatamente. <br>Las gotas propagan el virus y siguiendo las buenas medidas
             de higiene usted protege a las personas alrededor suyo de virus como el resfriado,
-            gripe y COVID-19.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            gripe y COVID-19.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Asegúrese de que usted y las personas alrededor, sigan buenas medidas
@@ -2521,7 +2537,7 @@
         - text: Debería evitar tocarse los ojos, nariz y boca, ya que las manos tocan
             muchas superficies y pueden recoger virus. Una vez contaminadas, las manos
             pueden trasferir los virus a sus ojos, nariz o boca. Desde ahí, el virus puede
-            entrar a su cuerpo y enfermarlo.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
+            entrar a su cuerpo y enfermarlo.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Debería evitar tocarse los ojos, nariz y boca, ya que las manos
@@ -2544,17 +2560,13 @@
     utter_prevention_vaccine:
     - custom:
         answers:
-        - text: Actualmente, dos vacunas están autorizadas y recomendadas para prevenir
-            el COVID-19:<ul><li>La vacuna de Pfizer-BioNTech </li><li>La vacuna para COVID-19
-            de Moderna. </li></ul>Múltiples vacunas para COVID-19 también están en desarrollo.
-            Estudios clínicos a gran escala están en progreso o siendo planeados para
-            dos vacunas adicionales para COVID-19 tan solo en los Estados Unidos.
+        - text: Actualmente, hay tres vacunas que están autorizadas y recomendadas para prevenir el COVID-19, la vacuna para COVID-19 de Pfizer-BioNTech, la vacuna
+            de Moderna y de Johnson & Johnson. Múltiples vacunas para COVID-19 también están en desarrollo.<br>
+            <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'
+            target='_blank'>Más información aquí</a>
           type: html
-        - ssml: <speak>Actualmente, dos vacunas están autorizadas y recomendadas para
-            prevenir el COVID-19 , la vacuna para COVID-19 de Pfizer-BioNTech y la vacuna
-            para COVID-19 de Moderna. Múltiples vacunas para COVID-19 también están en
-            desarrollo. Estudios clínicos a gran escala están en progreso o siendo planeados
-            para dos vacunas adicionales para COVID-19 tan solo en los Estados Unidos.</speak>
+        - ssml: <speak>Actualmente, tres vacunas están autorizadas y recomendadas para prevenir el COVID-19, la vacuna para COVID-19 de Pfizer-BioNTech, la vacuna
+            de Moderna y de Johnson & Johnson. Múltiples vacunas para COVID-19 también están en desarrollo.</speak>
           type: ssml
         - options:
           - label: Medidas Preventivas
@@ -2601,17 +2613,13 @@
             Esto también significa que no deben sacar al perro a las calles o parques.
             Sin embargo, si la persona tiene su propia casa, se le permite moverse por
             su propiedad con el perro. Sin embargo, los contactos sociales pueden no percibirse
-            incluso en este caso. Si la persona no está infectada, se permiten paseos
-            con el perro. Mantenga una distancia de al menos 1-2 metros con otras personas
-            en el exterior.
+            incluso en este caso. 
           type: html
         - ssml: <speak>Las personas infectadas con el virus no deben salir de la cuarentena.
             Esto también significa que no deben sacar al perro a las calles o parques.
             Sin embargo, si la persona tiene su propia casa, se le permite moverse por
             su propiedad con el perro. Sin embargo, los contactos sociales pueden no percibirse
-            incluso en este caso. Si la persona no está infectada, se permiten paseos
-            con el perro. Mantenga una distancia de al menos 1 a 2 metros con otras personas
-            en el exterior.</speak>
+            incluso en este caso.</speak>
           type: ssml
     utter_quarantine_dos_and_donts:
     - custom:
@@ -2620,7 +2628,7 @@
             en riesgo de infección está obligado a quedarse en casa y mantener su distancia
             de terceros. El interesado no debe salir de casa para ir de compras o pasear
             al perro. Los familiares pueden apoyar a la persona de contacto en la vida
-            cotidiana, por ejemplo haciendo las compras..<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
+            cotidiana, por ejemplo haciendo las compras.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Cualquiera que haya sido puesto en cuarentena porque está infectado
@@ -2664,49 +2672,37 @@
     utter_quarantine_when_who_howlong:
     - custom:
         answers:
-        - text: Cualquiera puede ayudar a contener la propagación del nuevo coronavirus
-            al quedarse en casa y mantener el contacto físico al mínimo. Esto es necesario
-            para proteger a los grupos de riesgo y reducir la carga en los hospitales
-            tanto como sea posible. Aún se desconoce cuánto tiempo puede continuar esta
-            situación. Pero ciertamente podemos reducir la duración si nos quedamos en
-            casa de manera constante.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
-            target='_blank'>(1)</a>
+        - text: La cuarentena se refiere a la separación y restricción de movimientos de las personas que han estado potencialmente expuestas al COVID-19, 
+            pero que actualmente están sanas y no muestran síntomas. En general, la cuarentena es obligatoria y se realiza principalmente en el domicilio, 
+            su duración es de un mínimo de 14 días, pero en situaciones específicas puede realizarse en un hospital o en instalaciones específicas.<br>
+            <a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
+            target='_blank'>Más información</a>
           type: html
-        - ssml: <speak>Cualquiera puede ayudar a contener la propagación del nuevo coronavirus
-            al quedarse en casa y mantener el contacto físico al mínimo. Esto es necesario
-            para proteger a los grupos de riesgo y reducir la carga en los hospitales
-            tanto como sea posible. Aún se desconoce cuánto tiempo puede continuar esta
-            situación. Pero ciertamente podemos reducir la duración si nos quedamos en
-            casa de manera constante.</speak>
+        - ssml: <speak>La cuarentena se refiere a la separación y restricción de movimientos de las personas que han estado potencialmente expuestas al COVID-19, 
+            pero que actualmente están sanas y no muestran síntomas. En general, la cuarentena es obligatoria y se realiza principalmente en el domicilio, 
+            su duración es de un mínimo de 14 días, pero en situaciones específicas puede realizarse en un hospital o en instalaciones específicas.</speak>
           type: ssml
     utter_quaratine_how_it_works:
     - custom:
         answers:
-        - text: 'Lávese las manos con regularidad y minuciosamente y siga la etiqueta
-            de tos y estornudos. Evite tocarse la cara. Mantenga una distancia mínima
-            de 2 metros de otras personas y evita abrazos, besos, apretones de manos,
-            etc. No salga de su casa a menos que sea absolutamente necesario. Por lo tanto,
-            absténgase de cualquier tipo de eventos sociales. Si es absolutamente necesario
-            salir de casa, evite el transporte público en la medida de lo posible. Pregúntele
-            a su empleador por trabajo a domicilio. Y por último, pero no menos importante:
-            ¡que no cunda el pánico!<a href=''https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf''
-            target=''_blank''>(1)</a>'
+        - text: 'Quédase en casa, active su sistema de apoyo (pide ayuda a amigos, vecinos o trabajadores sanitarios de la comunidad para hacer los recados esenciales, por ejemplo, 
+            la compra de alimentos y medicamentos. <br>
+            Manténgase en contacto con sus familiares y amigos por teléfono, correo electrónico o redes sociales. <br>
+            Manténgase físicamente activo para garantizar un buen estado físico y mental.<br>
+            <a href=''https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf''
+            target=''_blank''>Más información</a>'
           type: html
-        - ssml: '<speak>Lávese las manos con regularidad y minuciosamente y siga la etiqueta
-            de tos y estornudos. Evite tocarse la cara. Mantenga una distancia mínima
-            de 2 metros de otras personas y evita abrazos, besos, apretones de manos,
-            etc. No salga de su casa a menos que sea absolutamente necesario. Por lo tanto,
-            absténgase de cualquier tipo de eventos sociales. Si es absolutamente necesario
-            salir de casa, evite el transporte público en la medida de lo posible. Pregúntele
-            a su empleador por trabajo a domicilio. Y por último, pero no menos importante:
-            ¡que no cunda el pánico!</speak>'
+        - ssml: '<speak>Quédase en casa, active su sistema de apoyo (pide ayuda a amigos, vecinos o trabajadores sanitarios de la comunidad para hacer los recados esenciales, por ejemplo, 
+            la compra de alimentos y medicamentos. <br>
+            Manténgase en contacto con sus familiares y amigos por teléfono, correo electrónico o redes sociales. <br>
+            Manténgase físicamente activo para garantizar un buen estado físico y mental.</speak>'
           type: ssml
     utter_spread_air:
     - custom:
         answers:
         - text: Estudios sugieren que el virus causante del COVID-19 es transmitido principalmente
-            a través del contacto con gotas respiratorias en lugar de a través del aire.<a
-            href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses' target='_blank'>(1)</a>
+            a través del contacto con gotas respiratorias en lugar de a través del aire.<br><a
+            href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19' target='_blank'>Más información</a>
           type: html
         - ssml: <speak>Estudios sugieren que el virus causante del COVID-19 es transmitido
             principalmente a través del contacto con gotas respiratorias en lugar de a
@@ -2732,7 +2728,7 @@
             de seguridad alimentaria en todo momento. Manipule la carne cruda, leche u
             órganos de animales crudos con cuidado para evitar la contaminación de los
             alimentos crudos y evite consumir productos de origen animal crudos o poco
-            cocidos.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            cocidos.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Los coronavirus son una gran familia de virus que son comunes en
@@ -2762,7 +2758,7 @@
             puede estar presente en heces en algunos casos, el contagio a través de esta
             ruta no es una característico de esta pandemia. Sin embargo, porque es un
             riesgo, es importante lavarse las manos regularmente, después de usar el baño
-            y antes de comer.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            y antes de comer.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>El riesgo de infectarse de COVID-19 a través de las heces de una
@@ -2791,7 +2787,7 @@
             Otras personas lo contraen tocando estos objetos o superficies y luego tocándose
             los ojos, la nariz o la boca. <br>Las personas también pueden contraer COVID-19
             si inhalan gotitas de una persona con COVID-19 que tose o exhala gotitas.<a
-            href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses' target='_blank'>(1)</a>
+            href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19' target='_blank'>(1)</a>
           type: html
         - ssml: <speak>El COVID-19 puede pasar de una persona a otra a través de pequeñas
             gotas de la nariz o la boca que se transmiten cuando una persona con el virus
@@ -2820,7 +2816,7 @@
             es muy bajo. Sin embargo, muchas personas con COVID-19 experimentan solo síntomas
             moderados. Esto es particularmente cierto en las etapas tempranas de la enfermedad.
             Por lo tanto es posible infectarse de COVID-19 de alguien que tiene, por ejemplo,
-            solo una tos moderada y no se siente enfermo. <a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+            solo una tos moderada y no se siente enfermo. <a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>El riesgo de infectarse de COVID-19 de alguien que no tiene ningún
@@ -2846,7 +2842,7 @@
             contacto cercano con humanos infectados. Se necesitan más pruebas para comprender
             si los animales y las mascotas pueden transmitir la enfermedad. Según la evidencia
             actual, la transmisión de persona a persona sigue siendo el principal impulsor.<a
-            href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses' target='_blank'>(1)</a>
+            href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19' target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Existe la posibilidad de que algunos animales se infecten a través
             del contacto cercano con humanos infectados. Se necesitan más pruebas para
@@ -2943,16 +2939,13 @@
     utter_test_who:
     - custom:
         answers:
-        - text: Las Autoridades Nacionales pueden decidir solo hacer pruebas a subgrupos
-            de casos sospechosos basados en la capacidad nacional para hacer pruebas,
-            la disponibilidad del equipo necesario para las pruebas, el nivel de transmisión
-            local de COVID-19, o cualquier otro criterio.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-            target='_blank'>(1)</a>
+        - text: En general, se recomienda que todas las personas que muestren síntomas de COVID-19 o las personas que hayan tenido contacto estrecho 
+            con una persona positiva con COVID-19 se sometan a la prueba de COVID-19. Además, hay otros casos en los que es necesario realizar pruebas. 
+            Su regulación varía de un país a otro. Para estar al día de las últimas novedades, por favor consulte los sitios web de las autoridades de su país.
           type: html
-        - ssml: <speak>Las Autoridades Nacionales pueden decidir solo hacer pruebas a
-            subgrupos de casos sospechosos basados en la capacidad nacional para hacer
-            pruebas, la disponibilidad del equipo necesario para las pruebas, el nivel
-            de transmisión local de COVID-19, o cualquier otro criterio.</speak>
+        - ssml: <speak>En general, se recomienda que todas las personas que muestren síntomas de COVID-19 o las personas que hayan tenido contacto estrecho 
+            con una persona positiva con COVID-19 se sometan a la prueba de COVID-19. Además, hay otros casos en los que es necesario realizar pruebas. 
+            Su regulación varía de un país a otro. Para estar al día de las últimas novedades, por favor consulte los sitios web de las autoridades de su país.</speak>
           type: ssml
     utter_travel_after:
     - custom:
@@ -2964,10 +2957,8 @@
             el contacto cercano (un metro o menos) con otras personas, incluidos los miembros
             de la familia. También debe llamar por teléfono a su proveedor de atención
             médica o al departamento de salud pública local, dando detalles de su viaje
-            reciente y sus síntomas.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice''
-            target=''_blank''>(1)</a>
-
-            '
+            reciente y sus síntomas.<a href=''https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/travel-q-a-for-general-public''
+            target=''_blank''>(1)</a>'
           type: html
         - ssml: <speak>Quien haya regresado de una zona en la que se esté propagando el
             COVID-19 debe vigilar sus síntomas durante 14 días y tomarse la temperatura
@@ -2993,7 +2984,7 @@
         answers:
         - text: Asegúrese de tener la información más actualizada en áreas donde el COVID-19
             se está propagando. Basándose en esa información, debe evaluar los beneficios
-            y riesgos relacionados con sus próximos planes de viaje.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice'
+            y riesgos relacionados con sus próximos planes de viaje.<a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/travel-q-a-for-general-public'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Asegúrese de tener la información más actualizada en áreas donde
@@ -3019,7 +3010,7 @@
             las autoridades locales donde viaja. <br> Si, por ejemplo, las autoridades
             locales le dicen que no vaya a algún lugar, debe cumplir con esto. Debe cumplir
             con las restricciones locales sobre viajes, movimiento o grandes reuniones.<a
-            href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice'
+            href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/travel-q-a-for-general-public'
             target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Lave sus manos regularmente y manténgase al menos a un metro de
@@ -3127,25 +3118,86 @@
     utter_vaccine_administration:
     - custom:
         answers:
-        - text: Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna para COVID-19
-            de Moderna se administrarán mediante una inyección en el músculo. La serie
-            de vacunación es de 2 dosis administradas con 1 mes de diferencia. Si recibe
+        - text: Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
+            de Moderna y de Johnson & Johnson se administrarán mediante una inyección en el músculo. La serie
+            de vacunación para la vacuna de Pfizer-BioNTech y Moderna es de 2 dosis administradas con 1 mes de diferencia. Si recibe
             una dosis de una determinada vacuna, debe recibir una segunda dosis de esta
-            misma vacuna un mes después para completar la serie de vacunación.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
+            misma vacuna un mes después para completar la serie de vacunación. La vacuna de Johnson & Johnson se administra en una sola dosis.
+            <ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
-            para COVID-19 de Moderna se administrarán mediante una inyección en el músculo.
-            La serie de vacunación es de 2 dosis administradas con 1 mes de diferencia.
+            para COVID-19 de Moderna y de Johnson & Johnson se administrarán mediante una inyección en el músculo.
+            La serie de vacunación es de 2 dosis administradas con un mes de diferencia.
             Si recibe una dosis de una determinada vacuna, debe recibir una segunda dosis
-            de esta misma vacuna un mes después para completar la serie de vacunación.</speak>
+            de esta misma vacuna un mes después para completar la serie de vacunación.  La vacuna de Johnson & Johnson se administra en una sola dosis.
+            </speak>
+          type: ssml
+    utter_vaccine_con_covid:
+    - custom:
+        answers: 
+        - text: No. Las personas con COVID-19 que tienen síntomas deben esperar para vacunarse hasta haberse recuperado de la enfermedad y hasta que reúnan los criterios para suspender el aislamiento; 
+            las personas sin síntomas también deben esperar hasta que reúnan los criterios para vacunarse. Esta pauta alcanza también a las personas que se enferman de COVID-19 antes de su segunda dosis de la vacuna.
+          type: html
+        - ssml: <speak>No. Las personas con COVID-19 que tienen síntomas deben esperar para vacunarse hasta haberse recuperado de la enfermedad y hasta que reúnan los criterios para suspender el aislamiento; 
+            las personas sin síntomas también deben esperar hasta que reúnan los criterios para vacunarse. Esta pauta alcanza también a las personas que se enferman de COVID-19 antes de su segunda dosis de la vacuna.
+            </speak>
+          type: ssml
+    utter_vaccine_after_covid:
+    - custom:
+        answers: 
+        - text: Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.<br>
+            <ahref='https://www.vacunacovid.gob.es/preguntas-y-respuestas/debo-vacunarme-si-ya-he-pasado-el-covid-19'target='_blank'>Más información</a>
+          type: html
+        - ssml: <speak>Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.
+            </speak>
+          type: ssml
+    utter_vaccine_mix:
+    - custom:
+        answers:
+        - text: En algunos países se están llevando a cabo ensayos clínicos para saber si se puede recibir una primera dosis de una vacuna y una segunda dosis de una vacuna diferente. 
+            Aún no hay información suficiente para recomendar este tipo de combinación. 
+          type: html
+        - ssml: <speak>En algunos países se están llevando a cabo ensayos clínicos para saber si se puede recibir una primera dosis de una vacuna y una segunda dosis de una vacuna diferente. 
+            Aún no hay información suficiente para recomendar este tipo de combinación.</speak>
+          type: ssml
+    utter_vaccine_effectiveness:
+    - custom:
+        answer:
+        - text: La vacuna Pfizer-BioNTech tiene un 95 % de eficacia según su estudio en el que participaron alrededor de 43.000 personas. La vacuna Moderna tiene un 94 % de eficacia según un estudio en el que participaron más de 30.000 
+            y la vacuna de Johnson & Johnson tuvo una efectividad del 66,3 % en ensayos clínicos.<br>
+            <ahref='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/how-they-work.html'target='_blank'>La eficacia de la vacuna</a>
+          type: html
+        - ssml: <speak>La vacuna Pfizer-BioNTech tiene un 95 por cientos de eficacia según su estudio en el que participaron alrededor de 43000 personas. La vacuna Moderna tiene un 94 por cientos de eficacia según un estudio en el que participaron más de 30000 
+            y la vacuna de Johnson & Johnson tuvo una efectividad del 66,3 por cientos en ensayos clínicos.</speak>
+          type: ssml
+    utter_vaccine_side_effects:
+    - custom:
+        answer:
+        - text: "Como ocurre con cualquier otra vacuna, las vacunas contra la COVID-19 pueden causar efectos secundarios. La mayoría de las reacciones a las vacunas son leves y desaparecen espontáneamente a los pocos días.
+            Entre ellos se incluyen: fiebre, cansancio, cefaleas, mialgias, escalofríos, diarrea y dolor en el lugar de inyección. Los efectos secundarios más graves o duraderos son sumamente infrecuentes.<br>
+            <ahref='https://www.who.int/es/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety'target='_blank'>Los efectos secundarios</a>"
+          type: html
+        - ssml: <speak>Como ocurre con cualquier otra vacuna, las vacunas contra la COVID-19 pueden causar efectos secundarios. La mayoría de las reacciones a las vacunas son leves y desaparecen espontáneamente a los pocos días.
+            Entre ellos se incluyen fiebre, cansancio, cefaleas, mialgias, escalofríos, diarrea y dolor en el lugar de inyección. Los efectos secundarios más graves o duraderos son sumamente infrecuentes.</speak>
+          type: ssml
+    utter_vaccine_safety:
+    - custom:
+        answer:
+        - text: Se han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
+            deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.<br>
+            <ahref='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html'target='_blank'>Seguridad de las vacunas contra el COVID-19</a>"
+          type: html
+        - ssml: <speak>Se han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
+            deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.</speak>
           type: ssml
     utter_vaccine_ingredients:
     - custom:
         answers:
-        - text: 'Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna para
+        - text: Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna para
             COVID-19 de Moderna no contienen huevos, conservantes ni látex. Para obtener
             una lista completa de ingredientes, consulte la hoja informativa sobre vacunas
-            que se proporciona a continuación:'
+            que se proporciona a continuación:<br>
+            <ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>Los ingredientes de las vacunas</a>
           type: html
         - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
             para COVID-19 de Moderna no contienen huevos, conservantes ni látex. Para
@@ -3205,19 +3257,10 @@
     utter_vaccine_when:
     - custom:
         answers:
-        - text: El objetivo es que todos puedan recibir fácilmente una vacuna COVID-19
-            tan pronto como estén disponibles cantidades suficientes de vacuna. A medida
-            que aumenta el suministro de vacunas, pero sigue siendo limitado, se ampliarán
-            los grupos recomendados para la vacunación. <br>En este momento, el grupo
-            prioritario es el personal sanitario y los residentes de centros de cuidados
-            de larga duración.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html'target='_blank'>(1)</a>
+        - text: Ya se están utilizando varias vacunas. El primer programa de vacunación se puso en marcha a principios de diciembre 2020.<br>
+            Para más información, véase el siguiente <ahref='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-(covid-19)-vaccines'target='_blank'>enlace</a>.
           type: html
-        - ssml: <speak>El objetivo es que todos puedan recibir fácilmente una vacuna COVID-19
-            tan pronto como estén disponibles cantidades suficientes de vacuna. A medida
-            que aumenta el suministro de vacunas, pero sigue siendo limitado, se ampliarán
-            los grupos recomendados para la vacunación. En este momento, el grupo prioritario
-            es el personal sanitario y los residentes de centros de cuidados de larga
-            duración.</speak>
+        - ssml: <speak>Sí, ya se están utilizando varias vacunas. El primer programa de vacunación se puso en marcha a principios de diciembre 2020. Para más información, véase el enlace.</speak>
           type: ssml
     utter_vocative_call:
     - custom:
