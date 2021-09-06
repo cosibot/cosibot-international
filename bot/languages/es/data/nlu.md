@@ -5804,6 +5804,10 @@
 - tenemos vacunas contra el covid
 - cuando vamos a tener vacunas
 - que vacunas tenemos
+- cuántas vacunas hay
+- vacunas autorizadas
+- cuáles son las vacunas autorizadas
+- que vacunas son autorizadas
 
 ## intent:vaccine_pfizer_about
 - Acerca de la vacuna Pfizer
@@ -5944,6 +5948,7 @@
 - ¿Cuándo llegará la vacuna Corona?
 - ¿Cuándo estarán disponibles las vacunas?
 - Bueno, ¿ya salió la vacuna?
+- cuándo es posible recibir una vacuna
 
 ## intent:vaccine_administration
 - Como administran la vacuna?
