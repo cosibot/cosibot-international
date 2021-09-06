@@ -333,10 +333,6 @@ COVID-19 Prevention
 * covid_delta
  - utter_covid_delta
 
-## vaccine_booster
-* vaccine_booster
- - utter_vaccine_booster
-
 ## vaccine_mix
 * vaccine_mix
   - utter_vaccine_mix

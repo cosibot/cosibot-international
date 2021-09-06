@@ -5972,7 +5972,7 @@
 - cuántas dosis necesito para vacunarme con moderna
 - cuántas vacunas me van a dar
 
-## intent:vaccine_con_covid
+## intent:vaccine_with_covid
 - me puedo vacunar contra el covid si tengo covid
 - me puedo vacunar si tengo covid
 - puedo vacunarme si tengo síntomas

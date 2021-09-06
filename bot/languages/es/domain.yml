@@ -254,7 +254,7 @@
     - vaccine_when
     - vaccine_ingredients
     - vaccine_administration
-    - vaccine_con_covid
+    - vaccine_with_covid
     - vaccine_after_covid
     - vaccine_mix
     - vaccine_effectiveness
