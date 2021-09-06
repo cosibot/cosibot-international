@@ -2560,7 +2560,7 @@
     utter_prevention_vaccine:
     - custom:
         answers:
-        - text: Actualmente, tres vacunas están autorizadas y recomendadas para prevenir el COVID-19, la vacuna para COVID-19 de Pfizer-BioNTech, la vacuna
+        - text: Actualmente, hay tres vacunas que están autorizadas y recomendadas para prevenir el COVID-19, la vacuna para COVID-19 de Pfizer-BioNTech, la vacuna
             de Moderna y de Johnson & Johnson. Múltiples vacunas para COVID-19 también están en desarrollo.<br>
             <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'
             target='_blank'>Más información aquí</a>
@@ -2939,16 +2939,13 @@
     utter_test_who:
     - custom:
         answers:
-        - text: Las Autoridades Nacionales pueden decidir solo hacer pruebas a subgrupos
-            de casos sospechosos basados en la capacidad nacional para hacer pruebas,
-            la disponibilidad del equipo necesario para las pruebas, el nivel de transmisión
-            local de COVID-19, o cualquier otro criterio.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
-            target='_blank'>(1)</a>
+        - text: En general, se recomienda que todas las personas que muestren síntomas de COVID-19 o las personas que hayan tenido contacto estrecho 
+            con una persona positiva con COVID-19 se sometan a la prueba de COVID-19. Además, hay otros casos en los que es necesario realizar pruebas. 
+            Su regulación varía de un país a otro. Para estar al día de las últimas novedades, por favor consulte los sitios web de las autoridades de su país.
           type: html
-        - ssml: <speak>Las Autoridades Nacionales pueden decidir solo hacer pruebas a
-            subgrupos de casos sospechosos basados en la capacidad nacional para hacer
-            pruebas, la disponibilidad del equipo necesario para las pruebas, el nivel
-            de transmisión local de COVID-19, o cualquier otro criterio.</speak>
+        - ssml: <speak>En general, se recomienda que todas las personas que muestren síntomas de COVID-19 o las personas que hayan tenido contacto estrecho 
+            con una persona positiva con COVID-19 se sometan a la prueba de COVID-19. Además, hay otros casos en los que es necesario realizar pruebas. 
+            Su regulación varía de un país a otro. Para estar al día de las últimas novedades, por favor consulte los sitios web de las autoridades de su país.</speak>
           type: ssml
     utter_travel_after:
     - custom:
@@ -3130,7 +3127,7 @@
           type: html
         - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
             para COVID-19 de Moderna y de Johnson & Johnson se administrarán mediante una inyección en el músculo.
-            La serie de vacunación es de 2 dosis administradas con 1 mes de diferencia.
+            La serie de vacunación es de 2 dosis administradas con un mes de diferencia.
             Si recibe una dosis de una determinada vacuna, debe recibir una segunda dosis
             de esta misma vacuna un mes después para completar la serie de vacunación.  La vacuna de Johnson & Johnson se administra en una sola dosis.
             </speak>
@@ -3148,7 +3145,8 @@
     utter_vaccine_after_covid:
     - custom:
         answers: 
-        - text: Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.
+        - text: Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.<br>
+            <ahref='https://www.vacunacovid.gob.es/preguntas-y-respuestas/debo-vacunarme-si-ya-he-pasado-el-covid-19'target='_blank'>Más información</a>
           type: html
         - ssml: <speak>Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.
             </speak>
@@ -3189,7 +3187,7 @@
             deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.<br>
             <ahref='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html'target='_blank'>Seguridad de las vacunas contra el COVID-19</a>"
           type: html
-        - ssml: <speak>e han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
+        - ssml: <speak>Se han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
             deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.</speak>
           type: ssml
     utter_vaccine_ingredients:

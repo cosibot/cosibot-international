@@ -115,7 +115,7 @@ About Covid-19
 
 ## covid_current_statistics
 * covid_current_statistics
-  - action_get_news_request
+  - utter_covid_current_statistics
 
 <!--
 ## covid_current_statistics
@@ -1438,6 +1438,7 @@ TESTED
     - slot{"total_infected_critical": 378}
     - utter_covid_situation_infected
 
+<!--
 ## current_statistics_migation1
 * covid_situation
     - utter_want_to_add_country
@@ -1455,3 +1456,4 @@ TESTED
     - slot{"new_deaths": 0}
     - slot{"total_infected_critical": 29}
     - utter_covid_situation
+    -->
