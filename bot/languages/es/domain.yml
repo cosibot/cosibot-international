@@ -2998,7 +2998,7 @@
           - label: Situación Mundial
             value: Situación Mundial
           type: hints
-    utter_vaccine_con_covid:
+    utter_vaccine_with_covid:
     - custom:
         answers: 
         - text: No. Las personas con COVID-19 que tienen síntomas deben esperar para vacunarse hasta haberse recuperado de la enfermedad y hasta que reúnan los criterios para suspender el aislamiento; 
