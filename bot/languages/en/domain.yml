@@ -608,7 +608,7 @@ responses:
           - type: links
             links:
               - title: COVID-19 Situation
-                url: https://who.sprinklr.com/
+                url: https://covid19.who.int/
           - type: hints
             options:
               - label: Preventive Measures
@@ -675,13 +675,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>The United Nations predicts that the world economy will contract by
-              almost one percent this year because of the new coronavirus
-              pandemic, instead of growing by 2.5 percent as predicted.</speak>
+            ssml: <speak> According to the World Economic Situation and Prospects mid 2021 report, following a sharp contraction of 3.6 percent in 2020, the global economy is now projected to expand by 5.4 per cent in 2021, reflecting an upward revision from the UN forecasts released in January.</speak>
           - type: html
-            text: The United Nations (UN) predicts that the world economy will contract
-              by almost one percent this year because of the new coronavirus
-              pandemic, instead of growing by 2.5 percent as predicted.
+            text: According to the World Economic Situation and Prospects mid-2021 report, following a sharp contraction of 3.6 per cent in 2020, the global economy is now projected to expand by 5.4 per cent in 2021, reflecting an upward revision from the UN forecasts released in January.
           - type: hints
             options:
               - label: Preventive Measures
@@ -712,7 +708,7 @@ responses:
             text: A pandemic is the worldwide spread of a new disease and occurs when a
               new virus emerges and spreads around the world, and most people do
               not have immunity. Viruses that have caused past pandemics
-              typically originated from animal influenza viruses.<a href='https://www.who.int/csr/disease/swineflu/frequently_asked_questions/pandemic/en/'target='_blank'>(1)</a>
+              typically originated from animal influenza viruses.<a href='https://www.cdc.gov/flu/pandemic-resources/basics/index.html'target='_blank'>(1)</a>
           - type: hints
             options:
               - label: Preventive Measures
@@ -789,7 +785,7 @@ responses:
               following season. This could also hold true for SARS-CoV-2 as
               there is emerging evidence from early studies suggesting that
               individuals develop antibodies after infection and are likely to
-              be immune from reinfection in the short term.<a href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'target='_blank'>(1)</a>
+              be immune from reinfection in the short term.<a href='https://www.ecdc.europa.eu/en/covid-19/latest-evidence/immune-responses'target='_blank'>(1)</a>
           - type: hints
             options:
               - label: Preventive Measures
@@ -814,17 +810,11 @@ responses:
           - type: ssml
             ssml: <speak>Unfortunately, it is not possible to predict how long the outbreak
               will last and how the epidemic will unfold. We are dealing with a
-              new virus and therefore a lot of uncertainty remains. For
-              instance, it is not known whether transmission within the EU/EEA
-              will naturally decrease during the northern hemisphere
-              summer, as is observed for seasonal influenza.</speak>
+              new virus and therefore a lot of uncertainty remains. </speak>
           - type: html
             text: Unfortunately, it is not possible to predict how long the outbreak will
               last and how the epidemic will unfold. We are dealing with a new
-              virus and therefore a lot of uncertainty remains. For instance, it
-              is not known whether transmission within the EU/EEA will naturally
-              decrease during the northern hemisphere summer, as is observed
-              for seasonal influenza.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
+              virus and therefore a lot of uncertainty remains. <a href='https://www.ecdc.europa.eu/en/covid-19/questions-answers'target='_blank'>(1)</a>
           - type: hints
             options:
               - label: Preventive Measures
@@ -960,17 +950,15 @@ responses:
             ssml: <speak>In light of current knowledge, coronaviruses are not sexually
               transmitted. However, it is possible to transmit the coronavirus
               during sexual activity, especially if self-care measures to
-              prevent virus transmission are not followed. Take care when giving
-              kisses and with close facial contacts and avoid occasional sexual
-              encounters or with people who are sick with respiratory
+              prevent virus transmission are not followed. Take care with kissing and other close facial contacts. Avoid occasional sexual
+              encounters or encounters with people who show respiratory
               symptoms.</speak>
           - type: html
             text: In light of current knowledge, coronaviruses are not sexually
               transmitted. However, it is possible to transmit the coronavirus
               during sexual activity, especially if self-care measures to
-              prevent virus transmission are not followed. <br>Take care when
-              giving kisses and with close facial contacts and avoid occasional
-              sexual encounters or with people who are sick with respiratory
+              prevent virus transmission are not followed. <br>Take care with kissing and other close facial contacts. Avoid occasional sexual
+              encounters or encounters with people who show respiratory
               symptoms.<a href='https://www1.nyc.gov/assets/doh/downloads/pdf/imm/covid-sex-guidance.pdf'target='_blank'>(1)</a>
           - type: hints
             options:
@@ -1038,7 +1026,7 @@ responses:
               discovered coronavirus. This new virus and disease were unknown
               before the outbreak began in Wuhan, China, in December
               2019. <br>COVID-19 is now a pandemic affecting many countries
-              globally.<a href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'target='_blank'>(1)</a>
+              globally.<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'target='_blank'>(1)</a>
           - type: hints
             options:
               - label: Preventive Measures
@@ -1073,7 +1061,7 @@ responses:
               influenza virus, the serial interval is 3 days. This means that
               influenza can spread faster than COVID-19. Although similar,
               mortality for COVID-19 appears higher than for influenza,
-              especially seasonal influenza.<a href='https://www.who.int/news-room/q-a-detail/q-a-similarities-and-differences-covid-19-and-influenza'target='_blank'>(1)</a>
+              especially seasonal influenza.<a href='https://www.cdc.gov/flu/symptoms/flu-vs-covid19.htm'target='_blank'>(1)</a>
           - type: hints
             options:
               - label: Preventive Measures
@@ -1096,14 +1084,10 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>There is not enough epidemiological information at this time to
-              determine how easily and sustainably this virus spreads between
-              people, but it is currently estimated that, on average, one
+            ssml: <speak>It is currently estimated that, on average, one
               infected person will infect between two and three more.</speak>
           - type: html
-            text: There is not enough epidemiological information at this time to
-              determine how easily and sustainably this virus spreads between
-              people, but it is currently estimated that, on average, one
+            text: It is currently estimated that, on average, one
               infected person will infect between two and three more.<a href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'target='_blank'>(1)</a>
           - type: hints
             options:
@@ -1183,7 +1167,7 @@ responses:
               such as Middle East Respiratory Syndrome (MERS) and Severe Acute
               Respiratory Syndrome (SARS). The most recently discovered
               coronavirus causes coronavirus disease COVID-19.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.cdc.gov/coronavirus/types.html'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -1216,7 +1200,7 @@ responses:
               of the total reported cases were individuals under 19 years of
               age. A very small proportion of those aged under 19 years have
               developed severe (2.5%) or critical disease (0.2%).<a
-              href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-outbreak-novel-coronavirus-disease-2019-increase-transmission-globally-COVID-19.pdf'
+              href='https://www.youtube.com/watch?v=t6OYU8WH9Ww'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -1249,7 +1233,7 @@ responses:
               beginning to have symptoms of the disease. <br>Most estimates of
               the incubation period for COVID-19 range from 1-14 days, most
               commonly around five days.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.ecdc.europa.eu/en/covid-19/questions-answers/questions-answers-basic-facts'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -1284,7 +1268,7 @@ responses:
               breathing) of patients. Supportive care (e.g. fluid management,
               oxygen therapy etc.) can be highly effective for patients with
               symptoms.<a
-              href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+              href='https://www.ecdc.europa.eu/en/covid-19/questions-answers'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -1325,7 +1309,7 @@ responses:
               identifying smokers as a potential vulnerable group for Covid 19.</speak>
           - type: html
             text: Population groups that have been more frequently reported having severe disease and death include people above 60 years of age,males, people with underlying conditions such as hypertension, diabetes, cardiovascular disease, chronic respiratory disease and cancer. The proportion of most of the reported chronic diseases and health conditions is similar to the prevalence of these conditions in the elderly age groups in China, therefore they might be surrogates of increasing age only. Higher ACE (angiotensin-converting enzyme II) gene expression may be linked to higher susceptibility to SARS-CoV-2. It has been shown that ACE 2 expression in lung tissues increases with age, tobacco use and with some hypertensive treatment. These observations might explain the vulnerability of older people, tobacco users/smokers and those with hypertension; they also highlight the importance of identifying smokers as a potential vulnerable group for COVID-19.<a
-              href='https://www.ecdc.europa.eu/sites/default/files/documents/RRA-seventh-update-Outbreak-of-coronavirus-disease-COVID-19.pdf'
+              href='https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/index.html'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -1358,7 +1342,7 @@ responses:
               hours or up to several days. This may vary under different
               conditions (e.g. type of surface, temperature or humidity of the
               environment).<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/surface-transmission.html'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -1558,9 +1542,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>I'm here. Just tell me how can t I help you.</speak>
+            ssml: <speak>I'm here. Just tell me how can I help you.</speak>
           - type: html
-            text: I'm here. Just tell me how can t I help you.
+            text: I'm here. Just tell me how can I help you.
     - custom:
         answers:
           - type: ssml
@@ -1634,14 +1618,14 @@ responses:
               elbow or tissue when you cough or sneeze. Then dispose of the used
               tissue immediately. Droplets spread virus and by following good
               respiratory hygiene you protect the people around you from viruses
-              such as cold, flu and Covid 19.</speak>
+              such as the common cold, flu and Covid 19.</speak>
           - type: html
             text: Make sure you, and the people around you, follow good respiratory
               hygiene. This means covering your mouth and nose with your bent
               elbow or tissue when you cough or sneeze. Then dispose of the used
               tissue immediately. <br>Droplets spread virus and by following
               good respiratory hygiene you protect the people around you from
-              viruses such as cold, flu and COVID-19.<a
+              viruses such as the common cold, flu and COVID-19.<a
               href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public'
               target='_blank'>(1)</a>
           - type: hints
@@ -1776,9 +1760,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and as of 21 June 2021, 2,414,347,324 vaccine doses have been administered.</speak>
+            ssml: <speak>There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and as of 30 August 2021, 5 019 907 027 vaccine doses have been administered.</speak>
           - type: html
-            text: "There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and as of 21 June 2021, 2,414,347,324 vaccine doses have been administered.<a
+            text: "There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and as of 30 August 2021, 5 019 907 027 vaccine doses have been administered.<a
               href='https://covid19.who.int/' target='_blank'>(1)</a>"
           - type: hints
             options:
@@ -1809,9 +1793,9 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>The Moderna Covid 19 Vaccine is an unapproved vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Moderna Covid 19 Vaccine to prevent Covid 19 in individuals 18 years of age and older under an Emergency Use Authorization.</speak>
+            ssml: <speak>The Moderna Covid 19 Vaccine is a vaccine that may prevent Covid 19. The FDA has authorized the emergency use of the Moderna Covid 19 Vaccine to prevent Covid 19 in individuals 18 years of age and older under an Emergency Use Authorization.</speak>
           - type: html
-            text: The Moderna COVID-19 Vaccine is an unapproved vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Moderna COVID-19 Vaccine to prevent COVID-19 in individuals 18 years of age and older under an Emergency Use Authorization (EUA).<a href='https://www.fda.gov/media/144638/download'target='_blank'>(1)</a>
+            text: The Moderna COVID-19 Vaccine is a vaccine that may prevent COVID-19. The FDA has authorized the emergency use of the Moderna COVID-19 Vaccine to prevent COVID-19 in individuals 18 years of age and older under an Emergency Use Authorization (EUA).<a href='https://www.fda.gov/media/144638/download'target='_blank'>(1)</a>
   utter_vaccine_take_or_not:
     - custom:
         answers:
@@ -1923,20 +1907,18 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>To date, there is no vaccine and no specific antiviral medicine to
-              prevent or treat Covid 2019. However, those affected should
+            ssml: <speak>To date, there is no specific antiviral medicine to
+             treat Covid 19. However, those affected should
               receive care to relieve symptoms. People with serious illness
               should be hospitalized. Most patients recover thanks to supportive
-              care. Possible vaccines and some specific drug treatments are
-              under investigation.</speak>
+              care. Covid 19 vaccines are effective at protecting you from getting sick even after you have had the disease. Vaccination is an important tool to help us get back to normal.</speak>
           - type: html
-            text: To date, there is no vaccine and no specific antiviral medicine to
-              prevent or treat COVID-2019. However, those affected should
+            text: To date, there is no specific antiviral medicine to
+             treat COVID-19. However, those affected should
               receive care to relieve symptoms. People with serious illness
               should be hospitalized. Most patients recover thanks to supportive
-              care. Possible vaccines and some specific drug treatments are
-              under investigation.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              care. COVID-19 vaccines are effective at protecting you from getting sick even after you have had the disease. Vaccination is an important tool to help us get back to normal.<a
+              href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -1969,7 +1951,7 @@ responses:
               cough and difficulty breathing, seek medical care early to reduce
               the risk of developing a more severe infection and be sure to
               share your recent travel history with your health care provider.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
               target='_blank'>(1)</a>"
           - type: hints
             options:
@@ -2039,8 +2021,7 @@ responses:
               <li>stay home if you feel unwell. </li></ul>If you have a fever,
               cough and difficulty breathing, seek medical attention and call in
               advance. Follow the directions of your local health authority.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-\
-              2019/advice-for-public' target='_blank'>(1)</a>"
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public' target='_blank'>(1)</a>"
           - type: youtube
             thumbnailURL: https://www.youtube.com/watch?v=8c_UJwLq8PI
             youtubeId: 8c_UJwLq8PI
@@ -2058,7 +2039,7 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>I am here to give you information about the COVID 19 outbreak. I
+            ssml: <speak>I am here to give you information about the Covid 19 outbreak. I
               can present you some preventive measures, or clarify you regarding
               some myths related to the disease.</speak>
           - type: html
@@ -2192,7 +2173,7 @@ responses:
           - type: ssml
             ssml:
               <speak>My aim is to give all the necessary information to the public
-              regarding the COVID 19.</speak>
+              regarding the Covid 19.</speak>
           - type: html
             text:
               My aim is to give all the necessary information to the public regarding
@@ -2268,7 +2249,7 @@ responses:
               cases based on the national capacity to test, the availability of
               necessary equipment for testing, the level of community
               transmission of COVID-19, or any other criteria.<a
-              href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+              href='https://www.ecdc.europa.eu/en/covid-19/questions-answers'
               target='_blank'>(1)</a>
   utter_test_virus:
     - custom:
@@ -2490,7 +2471,7 @@ responses:
               raw meat, milk or animal organs with care to avoid contamination
               of uncooked foods and avoid consuming raw or undercooked animal
               products.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-food-safety-for-consumers'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -2519,7 +2500,7 @@ responses:
               is not a main feature of the outbreak. However, because this is a
               risk, it is important to clean hands regularly, after using the
               bathroom and before eating.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -2539,12 +2520,12 @@ responses:
               Area and UK is currently considered low for the general population
               in areas where appropriate physical distancing measures are in
               place and or where community transmission has been reduced and or
-              maintained at low levels.</speak>
+              maintained at low levels, specially between those who have been vaccinated.</speak>
           - type: html
             text: The risk of severe disease in the EU/EEA and UK is currently considered
               low for the general population in areas where appropriate physical
               distancing measures are in place and/or where community
-              transmission has been reduced and/or maintained at low levels.<a
+              transmission has been reduced and/or maintained at low levels, specially between those who have been vaccinated.<a
               href='https://www.ecdc.europa.eu/en/current-risk-assessment-novel-coronavirus-situation'
               target='_blank'>(1)</a>
           - type: hints
@@ -2574,7 +2555,7 @@ responses:
               understand if animals and pets can spread the disease. Based on
               current evidence, human to human transmission remains the main
               driver.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/animals.html'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -2597,7 +2578,7 @@ responses:
             text: Studies to date suggest that the virus that causes COVID-19 is mainly
               transmitted through contact with respiratory droplets rather than
               through the air.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -2626,7 +2607,7 @@ responses:
               public health regulations pose a risk for the health of EU
               citizens in relation to COVID-19. The main mode of transmission is
               from person to person.<a
-              href='https://www.ecdc.europa.eu/en/novel-coronavirus-china/questions-answers'
+              href='https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-food-safety-for-consumers'
               target='_blank'>(1)</a>
   utter_spread_general:
     - custom:
@@ -2647,7 +2628,7 @@ responses:
               surfaces, then touching their eyes, nose or mouth. <br>People can
               also catch COVID-19 if they breathe in droplets from a person with
               COVID-19 who coughs out or exhales droplets.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html'
               target='_blank'>(1)</a>
           - type: youtube
             thumbnailURL: https://youtu.be/677pSwGauqs
@@ -2784,7 +2765,7 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>Wash your hands regularly and thoroughly and follow the cough and
-              sneeze label. Avoid touching your face. Keep a minimum distance of
+              sneeze etiquette. Avoid touching your face. Keep a minimum distance of
               2 metres from other people and avoid hugs, kisses, handshakes,
               etc. Do not leave your home unless absolutely necessary.
               Therefore, refrain from any kind of social events. If it is
@@ -2792,7 +2773,7 @@ responses:
               far as possible. Ask your employer for home work. And last but not
               least, Don't panic!</speak>
           - type: html
-            text: "Wash your hands regularly and thoroughly and follow the cough and sneeze label. Avoid touching your face. Keep a minimum distance of 2 metres from other people and avoid hugs, kisses, handshakes, etc. Do not leave your home unless absolutely necessary. Therefore, refrain from any kind of social events. If it is absolutely necessary to leave the house, avoid public transport as far as possible. Ask your employer for home work. And last but not least: Don't panic!<a
+            text: "Wash your hands regularly and thoroughly and follow the cough and sneeze etiquette. Avoid touching your face. Keep a minimum distance of 2 metres from other people and avoid hugs, kisses, handshakes, etc. Do not leave your home unless absolutely necessary. Therefore, refrain from any kind of social events. If it is absolutely necessary to leave the house, avoid public transport as far as possible. Ask your employer for home work. And last but not least: Don't panic!<a
               href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
               target='_blank'>(1)</a>"
   utter_quarantine_dos_and_donts:
@@ -2843,7 +2824,7 @@ responses:
               areas, including areas with hot and humid weather. <br>Regardless
               of climate, adopt protective measures if you live in, or travel to
               an area reporting COVID-19.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#climate'
               target='_blank'>(1)</a>
   utter_myth_garlic:
     - custom:
@@ -2857,7 +2838,7 @@ responses:
             text: Garlic is a healthy food that may have some antimicrobial properties.
               However, there is no evidence from the current outbreak that
               eating garlic has protected people from the new coronavirus.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#garlic'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -2916,7 +2897,7 @@ responses:
               not yet sick with fever. This is because it takes between 2 and 10
               days before people who are infected become sick and develop that
               symptom.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#thermal-scanners'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -2938,7 +2919,7 @@ responses:
           - type: html
             text: Viruses cannot travel on radio waves/mobile networks. <br>COVID-19 is
               spreading in many countries that do not have 5G mobile networks.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#5g'
               target='_blank'>(1)</a>
   utter_myth_mosquitoes:
     - custom:
@@ -2982,7 +2963,7 @@ responses:
             text: Antibiotics do not work against viruses, only bacteria. <br>The
               SARS-CoV-2 is a virus and, therefore, antibiotics should not be
               used as a means of prevention or treatment.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#antibiotics'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -3007,7 +2988,7 @@ responses:
               low and the risk of catching the virus that causes COVID-19 from a
               package that has been moved, travelled, and exposed to different
               conditions and temperature is also low.<a
-              href='https://www.who.int/news-room/q-a-detail/q-a-coronaviruses'
+              href='https://www.ecdc.europa.eu/en/covid-19/questions-answers/questions-answers-various'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -3034,7 +3015,7 @@ responses:
               of the temperature of your bath or shower. Actually, taking a hot
               bath with extremely hot water can be harmful, as it can burn
               you.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#bath'
               target='_blank'>(1)</a>
   utter_myth_cold_weather:
     - custom:
@@ -3049,7 +3030,7 @@ responses:
               coronavirus or other diseases. The normal human body temperature
               remains around 36.5°C to 37°C, regardless of the external
               temperature or weather.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#cold-weather'
               target='_blank'>(1)</a>
   utter_myth_pneumonia_vaccine:
     - custom:
@@ -3064,7 +3045,7 @@ responses:
               Haemophilus influenza type B (Hib) vaccine, do not provide
               protection against the new coronavirus. The virus is so new and
               different that it needs its own vaccine.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#vaccines'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -3091,7 +3072,7 @@ responses:
               hands with an alcohol-based hand rub or wash them with soap and
               water. Once your hands are cleaned, you should dry them thoroughly
               by using paper towels or a warm air dryer.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#hand-dryers'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -3145,7 +3126,7 @@ responses:
               aware that both alcohol and chlorine can be useful to disinfect
               surfaces, but they need to be used under appropriate
               recommendations.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#alcohol'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -3169,7 +3150,7 @@ responses:
           - type: html
             text: UV lamps should not be used to sterilize hands or other areas of skin
               as UV radiation can cause skin irritation.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#uv'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -3198,7 +3179,7 @@ responses:
               help people recover more quickly from the common cold. However,
               regularly rinsing the nose has not been shown to prevent
               respiratory infections.<a
-              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters'
+              href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#saline'
               target='_blank'>(1)</a>
           - type: hints
             options:
@@ -3434,7 +3415,7 @@ responses:
           - type: links
             links:
               - title: COVID-19 World Situation
-                url: https://who.sprinklr.com/
+                url: https://covid19.who.int/
           - type: hints
             options:
               - label: About COVID-19
@@ -3559,10 +3540,10 @@ responses:
     - custom:
         answers:
           - type: ssml
-            ssml: <speak>Multiple Covid 19 variants are circulating globally. In the United Kingdom, a new variant has emerged with an unusually large number of mutations. This variant seems to spread more easily and quickly than other variants. Currently, there is no evidence that it causes more severe illness or increased risk of death.</speak>
+            ssml: <speak>Multiple Covid 19 variants are circulating globally. Variants are expected. The best way to slow the emergence of new variants is to reduce the spread of infection by taking measures to protect yourself including getting a COVID-19 vaccine as soon as possible.</speak>
           - type: html
-            text: Multiple COVID-19 variants are circulating globally. In the United Kingdom (UK), a new variant has emerged with an unusually large number of mutations. This variant seems to spread more easily and quickly than other variants. Currently, there is no evidence that it causes more severe illness or increased risk of death.<a
-              href='https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html.'
+            text: Multiple COVID-19 variants are circulating globally. Variants are expected. The best way to slow the emergence of new variants is to reduce the spread of infection by taking measures to protect yourself including getting a COVID-19 vaccine as soon as possible.<a
+              href='https://www.cdc.gov/coronavirus/2019-ncov/variants/variants.html.'
               target='_blank'>(1)</a>              
   utter_fallback_first:
     - custom:
