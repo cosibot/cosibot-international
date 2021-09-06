@@ -89,178 +89,12 @@
     - world_region
 
   actions:
+    - action_check_Bot_Introduced
     - action_get_date
     - action_get_time
     - action_get_news_request
     - action_default_fallback
     - action_change_preferred_language
-    - action_search_stats
-    - action_check_Bot_Introduced
-    - utter_bot_appearance
-    - utter_bot_availability
-    - utter_bot_books
-    - utter_bot_capabilities
-    - utter_bot_fear
-    - utter_bot_goal
-    - utter_bot_languages
-    - utter_bot_movies
-    - utter_bot_music
-    - utter_bot_name
-    - utter_bot_origin
-    - utter_bot_personality
-    - utter_bot_real
-    - utter_bot_residence
-    - utter_bot_sexual
-    - utter_bot_version
-    - utter_cc_chicken_egg
-    - utter_cc_joke
-    - utter_cc_lets_talk
-    - utter_cc_moon
-    - utter_cc_newspaper
-    - utter_cc_philosophical
-    - utter_cc_politics
-    - utter_cc_religion
-    - utter_cc_weather
-    - utter_comment_negative
-    - utter_comment_offense
-    - utter_comment_positive
-    - utter_comment_racist
-    - utter_comment_smart
-    - utter_coronavirus_info
-    - utter_covid_aftereffects
-    - utter_covid_babys_children
-    - utter_covid_cosibot
-    # - utter_covid_tech4covid
-    # - utter_covid_volunteer
-    # - utter_covid_register
-    - utter_covid_crisis_howlong
-    - utter_covid_current_statistics
-    - utter_covid_dangerous
-    - utter_covid_disease_process
-    - utter_covid_duration
-    - utter_covid_food
-    - utter_covid_incubation
-    - utter_covid_influenza
-    - utter_covid_info
-    - utter_covid_meaning
-    - utter_covid_mortality_rate
-    - utter_covid_immunity
-    - utter_covid_origins
-    - utter_covid_pandemic
-    - utter_covid_preexisting_illness
-    - utter_covid_procedure_after_infection
-    - utter_covid_sars
-    - utter_covid_sex
-    - utter_covid_surfaces
-    - utter_covid_symptoms
-    - utter_covid_treatment
-    - utter_covid_worry
-    - utter_economy_consequences
-    - utter_features_date
-    - utter_bot_personal_questions
-    - utter_features_time
-    - utter_further_questions
-    - utter_greeting_goodbye
-    - utter_greeting_how_are_you
-    - utter_mask_general
-    - utter_mask_use_after
-    - utter_mask_use_put
-    - utter_mask_visors
-    - utter_myth_5g
-    - utter_myth_air_conditioning
-    - utter_myth_alcohol
-    - utter_myth_antibiotics
-    - utter_myth_cold_weather
-    - utter_myth_garlic
-    - utter_myth_hand_dryer
-    - utter_myth_hot_bath
-    - utter_myth_packages
-    - utter_myth_pneumonia_vaccine
-    - utter_myth_saline
-    - utter_myth_sesame_oil
-    - utter_myth_thermal_scanner
-    - utter_myth_transmission_hot_areas
-    - utter_myth_uv_lamps
-    - utter_myth_conspiracy_fakenews
-    - utter_myth_mosquitoes
-    - utter_prevenion_medical_attention
-    - utter_prevention_clean_hands
-    - utter_prevention_disinfection
-    - utter_prevention_distance
-    - utter_prevention_general
-    - utter_prevention_home
-    - utter_prevention_informed
-    - utter_prevention_measures
-    - utter_prevention_medicine
-    - utter_prevention_respiratory_hygiene
-    - utter_prevention_touch
-    - utter_prevention_vaccine
-    - utter_quarantine_control
-    - utter_quarantine_dogwalking
-    - utter_quarantine_dos_and_donts
-    - utter_quarantine_general
-    - utter_quarantine_toiletpaper
-    #- utter_quarantine_when_who_howlong
-    - utter_quaratine_how_it_works
-    - utter_spread_air
-    - utter_spread_animals
-    - utter_spread_feces
-    - utter_spread_general
-    - utter_spread_no_symptoms
-    - utter_spread_pets
-    - utter_spread_risk
-    - utter_spread_surfaces_food_objects
-    - utter_test_virus
-    - utter_covid_ebola
-    - utter_covid_after_vaccine
-    - utter_test_who
-    - utter_travel_after
-    - utter_travel_before
-    - utter_travel_while
-    - utter_user_angry
-    - utter_user_friend
-    - utter_user_happy
-    - utter_user_love
-    - utter_user_no_further_questions
-    - utter_user_particles
-    - utter_user_scared
-    - utter_vocative_help
-    - utter_vocative_call
-    - utter_vocative_sorry
-    - utter_vocative_thank_you
-    - utter_vocative_you_welcome
-    - utter_welcome
-    - utter_greeting_hello
-    - utter_want_to_add_country
-    - utter_ask_which_country
-    - utter_covid_no_country_current_statistics
-    - utter_covid_situation
-    - utter_covid_situation_deaths
-    - utter_covid_situation_infected
-    - utter_covid_situation_infected_critical
-    - utter_covid_situation_last_update
-    - utter_covid_situation_recovered
-    - utter_covid_situation_tested
-    - utter_covid_schools
-    - utter_fallback_first
-    - utter_fallback_request_emptyanswer
-    - utter_fallback_request_error
-    - utter_fallback_request_hasdata
-    - utter_command_change_bot
-    - utter_vaccine_pfizer_about
-    - utter_vaccine_moderna_about
-    - utter_vaccine_take_or_not
-    - utter_vaccine_when
-    - utter_vaccine_ingredients
-    - utter_vaccine_administration
-    - utter_vaccine_con_covid
-    - utter_vaccine_after_covid
-    - utter_vaccine_mix
-    - utter_vaccine_effectiveness
-    - utter_vaccine_side_effects
-    - utter_vaccine_safety
-    - utter_covid_new_strain
-    - utter_covid_delta
 
 
   intents:
@@ -1115,7 +949,7 @@
         - text: Múltiples variantes del COVID-19 están circulando alrededor del mundo. A día de hoy, hay once variantes de 
             SARS-CoV-2 identificadas y la OMS las divide en dos tipos:<br>
             1. variantes de preocupación (VOC) - Alpha, Beta, Gamma, Delta<br> 
-            2. variantes de interés (VOI) - Epsilon, Zeta, Eta, Theta, Lota, Kappa y Lambda.<br>
+            2. variantes de interés (VOI) - Epsilon, Zeta, Eta, Theta, Lota, Kappa y Lambda.<br><br>
             Para obtener más información sobre las variantes, visite el siguiente <a href='https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html'target='_blank'>enlace</a>
           type: html
         - ssml: <speak>Múltiples variantes del COVID-19 están circulando alrededor del mundo. A día de hoy, hay once variantes de 
@@ -1131,6 +965,14 @@
           type: html
         - ssml: <speak>En este momento, Delta es la variante predominante del virus, provoca más infecciones y se propaga más rápidamente que los primeros tipos del virus. Si necesita más información, visite el enlace.</speak>
           type: ssml
+        - options:
+          - label: Nuevos Variantes
+            value: nuevas cepas
+          - label: Síntomas
+            value: Síntomas
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
 
 
     utter_covid_no_country_current_statistics:
@@ -1521,6 +1363,14 @@
             Sin embargo, dado que las vacunas no son 100 % efectivas para prevenir la infección, algunas de las personas que están totalmente vacunadas se infectarán por COVID-19 de todos modos. 
             Las personas vacunadas que se infectan tienen menos probabilidades de sufrir enfermedades graves que quienes no están vacunados y se infectan por COVID-19.
           type: ssml
+        - options:
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: Vacunas
+            value: tenemos vacunas contra el covid
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
     utter_economy_consequences:
     - custom:
         answers:
@@ -2947,6 +2797,14 @@
             con una persona positiva con COVID-19 se sometan a la prueba de COVID-19. Además, hay otros casos en los que es necesario realizar pruebas. 
             Su regulación varía de un país a otro. Para estar al día de las últimas novedades, por favor consulte los sitios web de las autoridades de su país.</speak>
           type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Síntomas
+            value: Síntomas
+          - label: Transmisión
+            value: Transmisión
+          type: hints
     utter_travel_after:
     - custom:
         answers:
@@ -3120,18 +2978,26 @@
         answers:
         - text: Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
             de Moderna y de Johnson & Johnson se administrarán mediante una inyección en el músculo. La serie
-            de vacunación para la vacuna de Pfizer-BioNTech y Moderna es de 2 dosis administradas con 1 mes de diferencia. Si recibe
+            de vacunación para la vacuna de Pfizer-BioNTech y Moderna es de 2 dosis administradas con un mes de diferencia. Si recibe
             una dosis de una determinada vacuna, debe recibir una segunda dosis de esta
             misma vacuna un mes después para completar la serie de vacunación. La vacuna de Johnson & Johnson se administra en una sola dosis.
-            <ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
+            <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
           type: html
-        - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
-            para COVID-19 de Moderna y de Johnson & Johnson se administrarán mediante una inyección en el músculo.
-            La serie de vacunación es de 2 dosis administradas con un mes de diferencia.
+        - ssml: <speak>Tanto la vacuna para COVID 19 de Pfizer-BioNTech como la vacuna
+            para COVID 19 de Moderna y de Johnson & Johnson se administrarán mediante una inyección en el músculo.
+            La serie de vacunación es de dos dosis administradas con un mes de diferencia.
             Si recibe una dosis de una determinada vacuna, debe recibir una segunda dosis
-            de esta misma vacuna un mes después para completar la serie de vacunación.  La vacuna de Johnson & Johnson se administra en una sola dosis.
+            de esta misma vacuna un mes después para completar la serie de vacunación.  La vacuna de Johnson se administra en una sola dosis.
             </speak>
           type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
     utter_vaccine_con_covid:
     - custom:
         answers: 
@@ -3142,15 +3008,31 @@
             las personas sin síntomas también deben esperar hasta que reúnan los criterios para vacunarse. Esta pauta alcanza también a las personas que se enferman de COVID-19 antes de su segunda dosis de la vacuna.
             </speak>
           type: ssml
+        - options:
+          - label: Efectos secundarios
+            value: Efectos secundarios
+          - label: Vacunas
+            value: tenemos vacunas contra el covid
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
     utter_vaccine_after_covid:
     - custom:
         answers: 
         - text: Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.<br>
-            <ahref='https://www.vacunacovid.gob.es/preguntas-y-respuestas/debo-vacunarme-si-ya-he-pasado-el-covid-19'target='_blank'>Más información</a>
+            <a href='https://www.vacunacovid.gob.es/preguntas-y-respuestas/debo-vacunarme-si-ya-he-pasado-el-covid-19'target='_blank'>Más información</a>
           type: html
         - ssml: <speak>Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.
             </speak>
           type: ssml
+        - options:
+          - label: Efectos secundarios
+            value: Efectos secundarios
+          - label: Vacunas
+            value: tenemos vacunas contra el covid
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
     utter_vaccine_mix:
     - custom:
         answers:
@@ -3160,36 +3042,68 @@
         - ssml: <speak>En algunos países se están llevando a cabo ensayos clínicos para saber si se puede recibir una primera dosis de una vacuna y una segunda dosis de una vacuna diferente. 
             Aún no hay información suficiente para recomendar este tipo de combinación.</speak>
           type: ssml
+        - options:
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: Vacunas
+            value: tenemos vacunas contra el covid
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
     utter_vaccine_effectiveness:
     - custom:
-        answer:
-        - text: La vacuna Pfizer-BioNTech tiene un 95 % de eficacia según su estudio en el que participaron alrededor de 43.000 personas. La vacuna Moderna tiene un 94 % de eficacia según un estudio en el que participaron más de 30.000 
+        answers:
+        - text: La vacuna Pfizer-BioNTech tiene un 95 % de eficacia según su estudio en el que participaron alrededor de 43.000 personas. La vacuna Moderna tiene un 94 % de eficacia según un estudio en el que participaron más de 30.000 personas
             y la vacuna de Johnson & Johnson tuvo una efectividad del 66,3 % en ensayos clínicos.<br>
-            <ahref='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/how-they-work.html'target='_blank'>La eficacia de la vacuna</a>
+            <a href='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/how-they-work.html'target='_blank'>La eficacia de la vacuna</a>
           type: html
-        - ssml: <speak>La vacuna Pfizer-BioNTech tiene un 95 por cientos de eficacia según su estudio en el que participaron alrededor de 43000 personas. La vacuna Moderna tiene un 94 por cientos de eficacia según un estudio en el que participaron más de 30000 
+        - ssml: <speak>La vacuna Pfizer-BioNTech tiene un 95 por cientos de eficacia según su estudio en el que participaron alrededor de 43000 personas. La vacuna Moderna tiene un 94 por cientos de eficacia según un estudio en el que participaron más de 30000 personas
             y la vacuna de Johnson & Johnson tuvo una efectividad del 66,3 por cientos en ensayos clínicos.</speak>
           type: ssml
+        - options:
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: Vacunas
+            value: tenemos vacunas contra el covid
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
     utter_vaccine_side_effects:
     - custom:
-        answer:
+        answers:
         - text: "Como ocurre con cualquier otra vacuna, las vacunas contra la COVID-19 pueden causar efectos secundarios. La mayoría de las reacciones a las vacunas son leves y desaparecen espontáneamente a los pocos días.
             Entre ellos se incluyen: fiebre, cansancio, cefaleas, mialgias, escalofríos, diarrea y dolor en el lugar de inyección. Los efectos secundarios más graves o duraderos son sumamente infrecuentes.<br>
-            <ahref='https://www.who.int/es/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety'target='_blank'>Los efectos secundarios</a>"
+            <a href='https://www.who.int/es/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety'target='_blank'>Los efectos secundarios</a>"
           type: html
         - ssml: <speak>Como ocurre con cualquier otra vacuna, las vacunas contra la COVID-19 pueden causar efectos secundarios. La mayoría de las reacciones a las vacunas son leves y desaparecen espontáneamente a los pocos días.
             Entre ellos se incluyen fiebre, cansancio, cefaleas, mialgias, escalofríos, diarrea y dolor en el lugar de inyección. Los efectos secundarios más graves o duraderos son sumamente infrecuentes.</speak>
           type: ssml
+        - options:
+          - label: Seguridad de las vacunas
+            value: son las vacunas seguras
+          - label: Vacunas
+            value: tenemos vacunas contra el covid
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
     utter_vaccine_safety:
     - custom:
-        answer:
+        answers:
         - text: Se han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
             deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.<br>
-            <ahref='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html'target='_blank'>Seguridad de las vacunas contra el COVID-19</a>"
+            <a href='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html'target='_blank'>Seguridad de las vacunas contra el COVID-19</a>"
           type: html
         - ssml: <speak>Se han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
             deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.</speak>
           type: ssml
+        - options:
+          - label: Efectos secundarios
+            value: Efectos secundarios
+          - label: Vacunas
+            value: tenemos vacunas contra el covid
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
     utter_vaccine_ingredients:
     - custom:
         answers:
@@ -3197,7 +3111,7 @@
             COVID-19 de Moderna no contienen huevos, conservantes ni látex. Para obtener
             una lista completa de ingredientes, consulte la hoja informativa sobre vacunas
             que se proporciona a continuación:<br>
-            <ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>Los ingredientes de las vacunas</a>
+            <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>Los ingredientes de las vacunas</a>
           type: html
         - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
             para COVID-19 de Moderna no contienen huevos, conservantes ni látex. Para
@@ -3226,7 +3140,7 @@
         answers:
         - text: La vacuna de Pfizer-BioNTech para COVID-19 es una vacuna que puede prevenir
             el COVID-19. La FDA ha autorizado el uso de emergencia de la vacuna para prevenir
-            el COVID-19 en personas de 16 años o más bajo la Autorización de Uso de Emergencia.<ahref='https://www.fda.gov/media/144414/download'target='_blank'>(1)</a>
+            el COVID-19 en personas de 16 años o más bajo la Autorización de Uso de Emergencia.<a href='https://www.fda.gov/media/144414/download'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>La vacuna de Pfizer-BioNTech para COVID-19 es una vacuna que puede
             prevenir el COVID-19. La FDA ha autorizado el uso de emergencia de la vacuna
@@ -3243,7 +3157,7 @@
             cualquier vacuna que es autorizada o aprobada para su uso. La seguridad es
             la primer prioridad y hay muchas razones para ser vacunado:<ul><li>le ayudará
             a evitar infectarse de COVID-19; </li><li>es una manera más segura de generar
-            protección; </li><li>será una importante herramienta para detener la pandemia.<ahref='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html'target='_blank'>(1)</a>
+            protección; </li><li>será una importante herramienta para detener la pandemia.<a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html'target='_blank'>(1)</a>
           type: html
         - ssml: <speak>Es entendible que algunas personas puedan estar preocupadas por
             ser vacunadas ahora que las vacunas para el COVID-19 están disponibles. Mientras
@@ -3258,10 +3172,20 @@
     - custom:
         answers:
         - text: Ya se están utilizando varias vacunas. El primer programa de vacunación se puso en marcha a principios de diciembre 2020.<br>
-            Para más información, véase el siguiente <ahref='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-(covid-19)-vaccines'target='_blank'>enlace</a>.
+            Para más información, véase el siguiente <a href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-(covid-19)-vaccines'target='_blank'>enlace</a>.
           type: html
         - ssml: <speak>Sí, ya se están utilizando varias vacunas. El primer programa de vacunación se puso en marcha a principios de diciembre 2020. Para más información, véase el enlace.</speak>
           type: ssml
+        - options:
+          - label: Medidas Preventivas
+            value: Medidas Preventivas
+          - label: Nuevas cepas
+            value: Nuevas cepas
+          - label: Vacunas
+            value: tenemos vacunas contra el covid
+          - label: Situación Mundial
+            value: Situación Mundial
+          type: hints
     utter_vocative_call:
     - custom:
         answers:
