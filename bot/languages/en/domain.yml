@@ -266,9 +266,6 @@ intents:
   - covid_after_vaccine
   - vaccine_with_covid
   - vaccine_after_covid
-  - covid_after_vaccine
-  - covid_delta
-  - vaccine_mix
   - vaccine_effectiveness
   - vaccine_side_effects
   - vaccine_safety
