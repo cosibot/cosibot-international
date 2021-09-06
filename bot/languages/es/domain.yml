@@ -950,7 +950,7 @@
             SARS-CoV-2 identificadas y la OMS las divide en dos tipos:<br>
             1. variantes de preocupación (VOC) - Alpha, Beta, Gamma, Delta<br> 
             2. variantes de interés (VOI) - Epsilon, Zeta, Eta, Theta, Lota, Kappa y Lambda.<br><br>
-            Para obtener más información sobre las variantes, visite el siguiente <a href='https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html'target='_blank'>enlace</a>
+            Para obtener más información sobre las variantes, visite el siguiente <a href='https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html'target='_blank'>enlace</a>.
           type: html
         - ssml: <speak>Múltiples variantes del COVID-19 están circulando alrededor del mundo. A día de hoy, hay once variantes de 
             SARS-CoV-2 identificadas y la OMS las divide en dos tipos - variantes de preocupación v o p que son Alpha, Beta, Gamma, Delta y Variantes de interés v o i que son Epsilon, Zeta, Eta, Theta, Lota, Kappa y Lambda.<br>
@@ -1356,7 +1356,7 @@
         answers:
         - text: Las vacunas contra el COVID-19 son efectivas para prevenir la infección, las enfermedades graves y la muerte. La mayoría de las personas que se enferman de COVID-19 no están vacunadas. 
             Sin embargo, dado que las vacunas no son 100 % efectivas para prevenir la infección, algunas de las personas que están totalmente vacunadas se infectarán por COVID-19 de todos modos. 
-            Las personas vacunadas que se infectan tienen menos probabilidades de sufrir enfermedades graves que quienes no están vacunados y se infectan por COVID-19.<br>
+            Las personas vacunadas que se infectan tienen menos probabilidades de sufrir enfermedades graves que quienes no están vacunados y se infectan por COVID-19.<br><br>
             <a href='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/effectiveness/why-measure-effectiveness/breakthrough-cases.html'target='_blank'>COVID-19 después de vacunarse</a>
           type: html
         - ssml: Las vacunas contra el COVID-19 son efectivas para prevenir la infección, las enfermedades graves y la muerte. La mayoría de las personas que se enferman de COVID-19 no están vacunadas. 
@@ -2411,7 +2411,7 @@
     - custom:
         answers:
         - text: Actualmente, hay tres vacunas que están autorizadas y recomendadas para prevenir el COVID-19, la vacuna para COVID-19 de Pfizer-BioNTech, la vacuna
-            de Moderna y de Johnson & Johnson. Múltiples vacunas para COVID-19 también están en desarrollo.<br>
+            de Moderna y de Johnson & Johnson. Múltiples vacunas para COVID-19 también están en desarrollo.<br><br>
             <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'
             target='_blank'>Más información aquí</a>
           type: html
@@ -2524,7 +2524,7 @@
         answers:
         - text: La cuarentena se refiere a la separación y restricción de movimientos de las personas que han estado potencialmente expuestas al COVID-19, 
             pero que actualmente están sanas y no muestran síntomas. En general, la cuarentena es obligatoria y se realiza principalmente en el domicilio, 
-            su duración es de un mínimo de 14 días, pero en situaciones específicas puede realizarse en un hospital o en instalaciones específicas.<br>
+            su duración es de un mínimo de 14 días, pero en situaciones específicas puede realizarse en un hospital o en instalaciones específicas.<br><br>
             <a href='https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf'
             target='_blank'>Más información</a>
           type: html
@@ -2537,8 +2537,8 @@
         answers:
         - text: 'Quédase en casa, active su sistema de apoyo (pide ayuda a amigos, vecinos o trabajadores sanitarios de la comunidad para hacer los recados esenciales, por ejemplo, 
             la compra de alimentos y medicamentos. <br>
-            Manténgase en contacto con sus familiares y amigos por teléfono, correo electrónico o redes sociales. <br>
-            Manténgase físicamente activo para garantizar un buen estado físico y mental.<br>
+            Manténgase en contacto con sus familiares y amigos por teléfono, correo electrónico o redes sociales.<br>
+            Manténgase físicamente activo para garantizar un buen estado físico y mental.<br><br>
             <a href=''https://www.ecdc.europa.eu/sites/default/files/documents/Leaflet-Covid-19_Isolation-and-quarantine.pdf''
             target=''_blank''>Más información</a>'
           type: html
@@ -2551,7 +2551,7 @@
     - custom:
         answers:
         - text: Estudios sugieren que el virus causante del COVID-19 es transmitido principalmente
-            a través del contacto con gotas respiratorias en lugar de a través del aire.<br><a
+            a través del contacto con gotas respiratorias en lugar de a través del aire.<br><br><a
             href='https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19' target='_blank'>Más información</a>
           type: html
         - ssml: <speak>Estudios sugieren que el virus causante del COVID-19 es transmitido
@@ -3019,7 +3019,7 @@
     utter_vaccine_after_covid:
     - custom:
         answers: 
-        - text: Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.<br>
+        - text: Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.<br><br>
             <a href='https://www.vacunacovid.gob.es/preguntas-y-respuestas/debo-vacunarme-si-ya-he-pasado-el-covid-19'target='_blank'>Más información</a>
           type: html
         - ssml: <speak>Incluso si ya ha tenido la COVID-19, debe vacunarse cuando se lo ofrezcan. La protección que se obtiene al pasar la COVID-19 varía en cada persona y tampoco sabemos cuánto tiempo podría durar la inmunidad natural.
@@ -3054,7 +3054,7 @@
     - custom:
         answers:
         - text: La vacuna Pfizer-BioNTech tiene un 95 % de eficacia según su estudio en el que participaron alrededor de 43.000 personas. La vacuna Moderna tiene un 94 % de eficacia según un estudio en el que participaron más de 30.000 personas
-            y la vacuna de Johnson & Johnson tuvo una efectividad del 66,3 % en ensayos clínicos.<br>
+            y la vacuna de Johnson & Johnson tuvo una efectividad del 66,3 % en ensayos clínicos.<br><br>
             <a href='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/how-they-work.html'target='_blank'>La eficacia de la vacuna</a>
           type: html
         - ssml: <speak>La vacuna Pfizer-BioNTech tiene un 95 por cientos de eficacia según su estudio en el que participaron alrededor de 43000 personas. La vacuna Moderna tiene un 94 por cientos de eficacia según un estudio en el que participaron más de 30000 personas
@@ -3072,7 +3072,7 @@
     - custom:
         answers:
         - text: "Como ocurre con cualquier otra vacuna, las vacunas contra la COVID-19 pueden causar efectos secundarios. La mayoría de las reacciones a las vacunas son leves y desaparecen espontáneamente a los pocos días.
-            Entre ellos se incluyen: fiebre, cansancio, cefaleas, mialgias, escalofríos, diarrea y dolor en el lugar de inyección. Los efectos secundarios más graves o duraderos son sumamente infrecuentes.<br>
+            Entre ellos se incluyen: fiebre, cansancio, cefaleas, mialgias, escalofríos, diarrea y dolor en el lugar de inyección.<br> Los efectos secundarios más graves o duraderos son sumamente infrecuentes.<br><br>
             <a href='https://www.who.int/es/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines-safety'target='_blank'>Los efectos secundarios</a>"
           type: html
         - ssml: <speak>Como ocurre con cualquier otra vacuna, las vacunas contra la COVID-19 pueden causar efectos secundarios. La mayoría de las reacciones a las vacunas son leves y desaparecen espontáneamente a los pocos días.
@@ -3091,7 +3091,7 @@
         answers:
         - text: Se han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
             deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.<br>
-            <a href='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html'target='_blank'>Seguridad de las vacunas contra el COVID-19</a>"
+            <a href='https://espanol.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html'target='_blank'>Seguridad de las vacunas contra el COVID-19</a>
           type: html
         - ssml: <speak>Se han establecido estrictas medidas de protección para garantizar que las vacunas contra la COVID-19 sean seguras. Antes de ser validadas por la OMS y por los organismos nacionales de reglamentación, 
             deben someterse a pruebas rigurosas en el marco de ensayos clínicos para demostrar que cumplen los criterios internacionalmente aceptados de eficacia y seguridad.</speak>
@@ -3110,7 +3110,7 @@
         - text: Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna para
             COVID-19 de Moderna no contienen huevos, conservantes ni látex. Para obtener
             una lista completa de ingredientes, consulte la hoja informativa sobre vacunas
-            que se proporciona a continuación:<br>
+            que se proporciona a continuación:<br><br>
             <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>Los ingredientes de las vacunas</a>
           type: html
         - ssml: <speak>Tanto la vacuna para COVID-19 de Pfizer-BioNTech como la vacuna
