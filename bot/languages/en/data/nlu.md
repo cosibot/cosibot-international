@@ -67,6 +67,7 @@
 - You consider yourself tall?
 - You pretty?
 - Your look.
+- You or so hot
 - Your physical appearance.
 
 ## intent:bot_availability
@@ -192,6 +193,7 @@
 - Can you talk with me?
 - Do you have a purpose
 - Do you know something
+- Do you know death
 - Do you need someone to talk to
 - Do you only educate about covid 19
 - Do you want to help me
@@ -215,6 +217,7 @@
 - I Need to know something.
 - I want to have an introduction
 - I would like to know what you can tell me
+- I would like to know what topics do you cover
 - I'm interested in your products
 - Information about your purpose.
 - Let me know what you are able to do!
@@ -306,6 +309,7 @@
 - What should I ask?
 - What should I say?
 - What should I type?
+- What topics do you cover
 - what type of answer you can give
 - What you can do
 - what's your purpose?
@@ -334,6 +338,7 @@
 - Why were you created
 - Why you here?
 - You know how you can help me instead of asking me
+- You know math?
 - Your capabilities.
 
 ## intent:bot_fear
@@ -681,6 +686,8 @@
 - How are you built?
 - How were you built?
 - How were you created?
+- How are u build
+- How they biuld you
 - How where you designed
 - I WANT TO KNOW HOW YOU WERE MADE
 - Okay. Who created you?
@@ -732,6 +739,7 @@
 - Can I improve your system?
 - Do you have a wife
 - Where are you from?
+- Call me
 - Can I teach you something new?
 - Can I teach you?
 - Can I train you?
@@ -747,7 +755,10 @@
 - Do you enjoy what you are doing?
 - Do you even lift?
 - Do you have academic qualifications?
+- Do you have a family?
 - Do you have an university exam?
+- Do you have brothers?
+- Do you have any siblings?
 - Do you like humans?
 - Do you like people with green eyes?
 - Do you like your handwriting?
@@ -789,9 +800,15 @@
 - If you try to fail and you succeed which have you done
 - If you try to fail fail and succeed which have you done
 - Is it winter spring summer or fall where you live
+- I need job
+- I want a job
+- I would like to know what are your topics of interest
 - Name5 of the most important things in your life
 - Okay...how old are
+- Pic
+- Your pic
 - Send me a photo your
+- send me money sir
 - Tell me about your likes and dislikes
 - Tell me more about love
 - Tell me what you think about friends in general
@@ -820,6 +837,7 @@
 - What is the best advice you have ever received?
 - What is your academic background
 - What is your dream vacation and who would you take with you?
+- What is your family like?
 - What is your education
 - What is your educational background
 - What is your favorite childhood memory?
@@ -833,6 +851,7 @@
 - What your surname
 - What's the craziest thing you did to someone?
 - What's your biggest regret in life so far?
+- What's your family like?
 - When are you free?
 - When are you on vacation?
 - When do you have holidays?
@@ -844,11 +863,14 @@
 - Which degree do you have?
 - Which fictional character is the most similar in your opinion?
 - Who is the first person to call you when you are in trouble?
+- Who is your father?
+- Who is your mother?
 - Who is your role model?
 - Would you be with someone who does not have the same beliefs as you?
 - Would you change for love?
 - Would you ever just give up everything and start in a new country?
 - Would you put your family or friends first if you had to choose one?
+- Video call me
 - Your likes and dislikes
 - how old are you
 - tell me your age
@@ -916,6 +938,8 @@
 - Are you made of physical matter?
 - Are you real?
 - Are you robot
+- are you there
+- Are you there?
 - Chatbot?
 - Do you have a body?
 - Do you have a physical body?
@@ -2155,6 +2179,7 @@
 - You are nonsense bot
 - You are not answering my question
 - You are not well developed.
+- You are silly
 - You are wrong.
 - You can’t.
 - You did not understand my question
@@ -3718,6 +3743,7 @@
 - Can covid-19 be transferred through sex
 - Can it be contacted through sex
 - Can the virus be spread through sex
+- Can covid 19 be transmitted tru semen
 - Is covid sexually transmitted
 - Is it sexual transmission
 - Is it sexually transmitted
@@ -3766,6 +3792,7 @@
 - how many people died
 - How many people died corona
 - how many people died in eternity
+- how many cases
 - How many people have been diagnosed with [COVID-19]{"entity": "virus", "value": "COVID"}
 - How many people have been diagnosed with Covid-19
 - How many people have been infected?
@@ -4037,6 +4064,8 @@
 - I want to no how is the symptoms
 - About the symptoms.
 - Wat r d symtoms
+- I hav a cof
+- I have a cof
 - Am i having symptoms?
 - Bot! I would like to know the symptoms
 - Can chest, back and neck pain be symptoms of corona virus
@@ -4687,6 +4716,7 @@
 - what is the best face mask against corona
 - what is the recommend mask?
 - what mask prevents the virus?
+- what kind of mask do you suggest
 - when should I use a mask
 - when to use masks?
 - where can i get material to protect me?
@@ -5259,6 +5289,7 @@
 - Hello myself Debabrata last three days my body temperature belongs to 97 to 99 without running nose, cough n cold or any throat pain. What should I do
 - Hello... I am having sore throat from past 17 days...
 - Hii madam I had throt irritation from last 10 days
+- hi I'm wondering what I should do if I have covid 
 - I am coughing
 - I am feeling sick
 - I don't have a cough.
@@ -5971,6 +6002,7 @@
 - How are the vaccines given?
 - About vaccines administration
 - Info vaccines administration
+- Information vaccine administration
 - Vaccines administration
 - Administration vaccine
 - Administration vaccines
@@ -5982,40 +6014,42 @@
 - janssen vaccine
 - biontech administration
 - johnson and johnson administration
+- j&j vax administration
 - pfizer dosage
+- vaccination rate
+- what is the vaccination rate
 - how many doses of johnson and johnson are available
 - how many doses of pfizer vaccine are there?
 - one or two doses of biontech
 - how many doses do i need to get vaccinated with moderna
 
 ## intent:vaccine_booster
-
--	3rd dose when
--	About 3rd dose
--	About third dose
--	Am I eligible for a third dose?
--	Booster Janssen
--	Booster vaccines
--	Booster vax
--	Can I get third dose
--	Do all covid vaccines need a booster?
--	Do I have to get a booster vaccine?
-- 	Do I need a third dose?
--	Got the Pfizer shot, do I need a booster
--	Got the Pfizer shot, do I need a third dose
--	Got the Pfizer shot, do I need a third dose
--	Got the Pfizer vaccine, do I need a booster
--	Got the Pfizer vaccine, do I need a third dose
--	Info on third dose please
--	Information about third dose
--	Moderna booster dose
--	More on booster vaccine
--	more on booster vax
--	More on third dose
--	Pfizer Booster shot
--	Will all covid vaccines need a 3rd dose?
--	Will all covid vaccines need a booster?
--	Will all vaccines need a third dose?
+- 3rd dose when
+- About 3rd dose
+- About third dose
+- Am I eligible for a third dose?
+- Booster Janssen
+- Booster vaccines
+- Booster vax
+- Can I get third dose
+- Do all covid vaccines need a booster?
+- Do I have to get a booster vaccine?
+- Do I need a third dose?
+- Got the Pfizer shot, do I need a booster
+- Got the Pfizer shot, do I need a third dose
+- Got the Pfizer shot, do I need a third dose
+- Got the Pfizer vaccine, do I need a booster
+- Got the Pfizer vaccine, do I need a third dose
+- Info on third dose please
+- Information about third dose
+- Moderna booster dose
+- More on booster vaccine
+- more on booster vax
+- More on third dose
+- Pfizer Booster shot
+- Will all covid vaccines need a 3rd dose?
+- Will all covid vaccines need a booster?
+- Will all vaccines need a third dose?
 
 
 
@@ -6023,12 +6057,12 @@
 -	About being vaccinated if infected with Covid
 - 	Being vaxxed if I am infected
 -	Can I be vaccinated against covid if i have covid?
--	Can I be vaccinated if I have the vírus?
+-	Can I be vaccinated if I have the virus?
 -	can i get a vaccine if i have symptoms
 -	can i get vaccinated even if i have symptoms
 -	can i get vaccinated if i have covid
 -	can i get vaccinated if i have symptoms
--	Caught the vírus, can I be vaccinated still
+-	Caught the virus, can I be vaccinated still
 -	Give me information on being vaccinated if infected
 -	Give me information on being vaxxed if infected
 -	I am infected with Covid, can I get the vaccine anyway?
@@ -7191,6 +7225,7 @@
 - Smiling face.
 - Walking beside oneself with joy.
 - happiness
+- Ya I'm happy
 
 ## intent:user_love
 - But I like you
@@ -7817,6 +7852,7 @@
 - OK got it
 - Of course.
 - Ok.
+- Ok brother
 - Okay go on
 - Okay, Helen.
 - Okay.
@@ -7831,6 +7867,7 @@
 - Thumbs up.
 - Totally.
 - Very well.
+- Ya
 - Yah.
 - Yea.
 - Yeah.
