@@ -1995,10 +1995,10 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>No. People with Covid 19 who have symptoms should wait to be vaccinated until they have recovered from the disease and meet the criteria to discontinue isolation.
-            People without symptoms should also wait until they meet the criteria for vaccination. This guideline also applies to persons who become ill with Covid 19 before their second dose of the vaccine.</speak>
+              People without symptoms should also wait until they meet the criteria for vaccination. This guideline also applies to persons who become ill with Covid 19 before their second dose of the vaccine.</speak>
           - type: html
             text: No. People with COVID-19 who have symptoms should wait to be vaccinated until they have recovered from the disease and meet the criteria to discontinue isolation.
-            People without symptoms should also wait until they meet the criteria for vaccination. This guideline also applies to persons who become ill with COVID-19 before their second dose of the vaccine.<a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
+              People without symptoms should also wait until they meet the criteria for vaccination. This guideline also applies to persons who become ill with COVID-19 before their second dose of the vaccine.<a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html'target='_blank'>(1)</a>
   utter_vaccine_after_covid:
     - custom:
         answers:
@@ -2025,10 +2025,10 @@ responses:
         answers:
           - type: ssml
             ssml: <speak>As with any vaccine, Covid 19 vaccines can cause side effects. Most vaccine reactions are mild and go away spontaneously within a few days.
-            They include fever, tiredness, headache, myalgia, chills, diarrhea and pain at the injection site. More serious or long-lasting side effects are extremely rare.</speak>
+              They include fever, tiredness, headache, myalgia, chills, diarrhea and pain at the injection site. More serious or long-lasting side effects are extremely rare.</speak>
           - type: html
             text: As with any vaccine, COVID-19 vaccines can cause side effects. Most vaccine reactions are mild and go away spontaneously within a few days.
-            They include fever, tiredness, headache, myalgia, chills, diarrhea and pain at the injection site. More serious or long-lasting side effects are extremely rare.<a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html'target='_blank'>(1)</a>
+              They include fever, tiredness, headache, myalgia, chills, diarrhea and pain at the injection site. More serious or long-lasting side effects are extremely rare.<a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html'target='_blank'>(1)</a>
   utter_vaccine_safety:
     - custom:
         answers:
@@ -2036,17 +2036,17 @@ responses:
             ssml: <speak>Covid 19 vaccines are safe and effective. They prevent infection, serious illness, and death. fore being validated by WHO and national regulatory agencies, they underwent rigorous testing in clinical trials to demonstrate that they meet internationally accepted criteria for efficacy and safety.</speak>
           - type: html
             text: COVID-19 vaccines are safe and effective. They prevent infection, serious illness, and death. Before being validated by WHO and national regulatory agencies, they underwent rigorous testing in clinical trials to demonstrate that they meet internationally accepted criteria for efficacy and safety. <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety.html'target='_blank'>(1)</a>
-    utter_covid_after_vaccine:
+  utter_covid_after_vaccine:
     - custom:
         answers:
           - type: ssml
             ssml: <speak>COVID-19 vaccines are effective in preventing infection, serious illness, and death. Most people who become ill with Covid 19 are not vaccinated. 
-            However, since vaccines are not 100 per cent effective in preventing infection, some of those who are fully vaccinated will become infected with Covid 19 anyway. 
-            Vaccinated people who become infected are less likely to suffer severe disease than those who are not vaccinated and become infected with Covid 19.</speak>
+              However, since vaccines are not 100 per cent effective in preventing infection, some of those who are fully vaccinated will become infected with Covid 19 anyway. 
+              Vaccinated people who become infected are less likely to suffer severe disease than those who are not vaccinated and become infected with Covid 19.</speak>
           - type: html
             text: COVID-19 vaccines are effective in preventing infection, serious illness, and death. Most people who become ill with COVID-19 are not vaccinated. 
-            However, since vaccines are not 100% effective in preventing infection, some of those who are fully vaccinated will become infected with COVID-19 anyway. 
-            Vaccinated people who become infected are less likely to suffer severe disease than those who are not vaccinated and become infected with COVID-19. <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/effectiveness/why-measure-effectiveness.html'target='_blank'>(1)</a>
+              However, since vaccines are not 100% effective in preventing infection, some of those who are fully vaccinated will become infected with COVID-19 anyway. 
+              Vaccinated people who become infected are less likely to suffer severe disease than those who are not vaccinated and become infected with COVID-19. <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/effectiveness/why-measure-effectiveness.html'target='_blank'>(1)</a>
   utter_covid_delta:
     - custom:
         answers:
@@ -2054,7 +2054,7 @@ responses:
             ssml: <speak>At this time, Delta is the predominant variant of the virus, causing more infections and spreading more rapidly than the earlier types of the virus.</speak>
           - type: html
             text: At this time, Delta is the predominant variant of the virus, causing more infections and spreading more rapidly than the earlier types of the virus. <a href='https://www.cdc.gov/coronavirus/2019-ncov/variants/delta-variant.html'target='_blank'>(1)</a>
-   utter_vaccine_booster:
+  utter_vaccine_booster:
     - custom:
         answers:
           - type: ssml
