@@ -198,7 +198,6 @@ actions:
   - utter_quarantine_general
   - utter_quarantine_toiletpaper
   - utter_quarantine_when_who_howlong
-  - utter_quarantine_how_it_works
   - utter_spread_air
   - utter_spread_animals
   - utter_spread_feces
@@ -250,7 +249,6 @@ actions:
   - utter_vaccine_when
   - utter_vaccine_ingredients
   - utter_vaccine_administration
-  - utter_vaccine_con_covid
   - utter_vaccine_after_covid
   - utter_vaccine_mix
   - utter_vaccine_effectiveness
@@ -307,6 +305,7 @@ intents:
   - comment_smart
   - coronavirus_info
   - covid_aftereffects
+  - covid_after_vaccine
   - covid_babys_children
   - covid_cosibot
   - covid_crisis_howlong
@@ -415,12 +414,19 @@ intents:
   - vocative_yes
   - vocative_you_welcome
   - bot_change_bot
+  - vaccine_effectiveness
+  - vaccine_mix
+  - vacine_after_covid
+  - vaccine_booster
   - vaccine_pfizer_about
   - vaccine_moderna_about
   - vaccine_take_or_not
   - vaccine_when
   - vaccine_ingredients
   - vaccine_administration
+  - vaccine_with_covid
+  - vaccine_side_effects
+  - vaccine_safety
   - covid_new_strain
   - covid_delta
 
@@ -441,11 +447,11 @@ responses:
           - type: ssml
             ssml: <speak>Hello, my name is {bot_name} and I'm here to give information
               and guidance regarding the current outbreak of Covid 19, such as how to
-              prevent the spreading, or clarify some myths that maybe you have heard. How may I help you?</speak>
+              prevent the spreading, or clarify some myths that you may have heard. How may I help you?</speak>
           - type: html
             text: Hello, my name is {bot_name} and I'm here to give information
               and guidance regarding the current outbreak of COVID-19, such as how to
-              prevent the spreading, or clarify some myths that maybe you have heard.
+              prevent the spreading, or clarify some myths that you may have heard.
           - type: html
             text: How may I help you?
           - type: hints

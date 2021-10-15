@@ -189,7 +189,6 @@
 - Can you answer?
 - Can you assist me
 - Can you only answer questions related to COVID-19?
-- Can you talk to me?
 - Can you talk with me?
 - Do you have a purpose
 - Do you know something
@@ -697,10 +696,8 @@
 - Whare are you from?
 - What is you origin?
 - What is your home country?
-- What is your home town?
 - Where are you coming from?
 - Where are you from originally?
-- Where are you from?
 - Where did you born?
 - Where did you live when little?
 - Where did you live when you were little?
@@ -762,7 +759,6 @@
 - Do you like humans?
 - Do you like people with green eyes?
 - Do you like your handwriting?
-- Do you play any musical instrument
 - Do you prefer hugs or kisses
 - Do you prefer to meet only one person and see where it goes or meet several people until you make a decision?
 - Do you sleep Helen?
@@ -939,7 +935,6 @@
 - Are you real?
 - Are you robot
 - are you there
-- Are you there?
 - Chatbot?
 - Do you have a body?
 - Do you have a physical body?
@@ -994,7 +989,6 @@
 - Tell me where you live.
 - Tell me your location.
 - Tell me your place.
-- What is your home country?
 - What is your home town?
 - What is your place of residence?
 - Where are you at home?
@@ -1003,7 +997,6 @@
 - Where are you right now?
 - Where are you?
 - Where do you live?
-- Where have you been?
 - Where is the place you live?
 - Where is you place?
 - Where is your current home-location?
@@ -2410,7 +2403,6 @@
 - Nice meeting you helen
 - Nice talk!
 - Ok love you
-- Really helpful!
 - Thanks for helping me through my life.
 - That's amazing!
 - Thats cool
@@ -2738,7 +2730,6 @@
 - For how long will someone remain sick?
 - How long will you take TO recover from this virus
 - Origin of the disease
-- What is the origin of the outbreak?
 - Where did the disease start?
 - Where did the disease started?
 - How many days does virus stays in patient body?
@@ -4526,7 +4517,6 @@
 - see you Tomorrow morning
 - that's it for today
 - to morrow i will ask you
-- Get out
 - Leave my system please
 - Live my sistem please
 - Power off
@@ -5496,7 +5486,6 @@
 - Any chance of getting Cour for corona
 - Any cure for it
 - Any treatment confirmed
-- are there a vacine?
 - are there medication to prevent the disease?
 - aspirin?
 - but there is hope that we will get a cure?
@@ -5548,7 +5537,6 @@
 - Is there a medicine to treat COVID-19?
 - Is there a medicine?
 - Is there a treatment for COVID-19?
-- Is there a treatment?
 - Is there any drug for COVID-19
 - Is there any drug for dis virus yet
 - Is there any good news about cure for Corona virus
@@ -5558,7 +5546,6 @@
 - Is there any treatment for corona yet?
 - Is there any treatment yet?
 - Is there any treatment yet?
-- Is there any vacine for this virus?
 - Is there any vanicce yet for the virus
 - Is they cure finally out
 - Is this disease curable
@@ -7281,7 +7268,6 @@
 - What about a date?
 - What do you think of a date?
 - What feelings do you have for me?
-- What is love?
 - Will you marry me?
 - Would you like to marry me?
 - You don't love me.
@@ -7753,7 +7739,6 @@
 - Much obliged!
 - Much thanks!
 - My gratitude to you for all you have done!
-- Nice talk!
 - O thanks
 - O thanks again
 - OK thx
@@ -7811,7 +7796,6 @@
 - Thanx
 - Thanyou so much
 - That was helpful, Helen. Thank you.
-- That's amazing!
 - That's impressing, thank you!
 - Thks.
 - Thx
@@ -7821,13 +7805,8 @@
 - With gratitude!
 - Wow .OK Thanks
 - Yes, thank you
-- You are a lifesaver!
-- You did a great job!
 - You have my gratitude!
 - You helped me a lot!
-- You helped me thanks!
-- You really helped me a lot!
-- You saved my life!
 - thank you Helen
 - thank you for your help Elon
 - thanks, Helen!
