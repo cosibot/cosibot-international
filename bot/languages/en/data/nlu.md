@@ -67,6 +67,7 @@
 - You consider yourself tall?
 - You pretty?
 - Your look.
+- You or so hot
 - Your physical appearance.
 
 ## intent:bot_availability
@@ -188,10 +189,10 @@
 - Can you answer?
 - Can you assist me
 - Can you only answer questions related to COVID-19?
-- Can you talk to me?
 - Can you talk with me?
 - Do you have a purpose
 - Do you know something
+- Do you know death
 - Do you need someone to talk to
 - Do you only educate about covid 19
 - Do you want to help me
@@ -215,6 +216,7 @@
 - I Need to know something.
 - I want to have an introduction
 - I would like to know what you can tell me
+- I would like to know what topics do you cover
 - I'm interested in your products
 - Information about your purpose.
 - Let me know what you are able to do!
@@ -306,6 +308,7 @@
 - What should I ask?
 - What should I say?
 - What should I type?
+- What topics do you cover
 - what type of answer you can give
 - What you can do
 - what's your purpose?
@@ -334,6 +337,7 @@
 - Why were you created
 - Why you here?
 - You know how you can help me instead of asking me
+- You know math?
 - Your capabilities.
 
 ## intent:bot_fear
@@ -681,6 +685,8 @@
 - How are you built?
 - How were you built?
 - How were you created?
+- How are u build
+- How they biuld you
 - How where you designed
 - I WANT TO KNOW HOW YOU WERE MADE
 - Okay. Who created you?
@@ -690,10 +696,8 @@
 - Whare are you from?
 - What is you origin?
 - What is your home country?
-- What is your home town?
 - Where are you coming from?
 - Where are you from originally?
-- Where are you from?
 - Where did you born?
 - Where did you live when little?
 - Where did you live when you were little?
@@ -732,6 +736,7 @@
 - Can I improve your system?
 - Do you have a wife
 - Where are you from?
+- Call me
 - Can I teach you something new?
 - Can I teach you?
 - Can I train you?
@@ -747,11 +752,13 @@
 - Do you enjoy what you are doing?
 - Do you even lift?
 - Do you have academic qualifications?
+- Do you have a family?
 - Do you have an university exam?
+- Do you have brothers?
+- Do you have any siblings?
 - Do you like humans?
 - Do you like people with green eyes?
 - Do you like your handwriting?
-- Do you play any musical instrument
 - Do you prefer hugs or kisses
 - Do you prefer to meet only one person and see where it goes or meet several people until you make a decision?
 - Do you sleep Helen?
@@ -789,9 +796,15 @@
 - If you try to fail and you succeed which have you done
 - If you try to fail fail and succeed which have you done
 - Is it winter spring summer or fall where you live
+- I need job
+- I want a job
+- I would like to know what are your topics of interest
 - Name5 of the most important things in your life
 - Okay...how old are
+- Pic
+- Your pic
 - Send me a photo your
+- send me money sir
 - Tell me about your likes and dislikes
 - Tell me more about love
 - Tell me what you think about friends in general
@@ -820,6 +833,7 @@
 - What is the best advice you have ever received?
 - What is your academic background
 - What is your dream vacation and who would you take with you?
+- What is your family like?
 - What is your education
 - What is your educational background
 - What is your favorite childhood memory?
@@ -833,6 +847,7 @@
 - What your surname
 - What's the craziest thing you did to someone?
 - What's your biggest regret in life so far?
+- What's your family like?
 - When are you free?
 - When are you on vacation?
 - When do you have holidays?
@@ -844,11 +859,14 @@
 - Which degree do you have?
 - Which fictional character is the most similar in your opinion?
 - Who is the first person to call you when you are in trouble?
+- Who is your father?
+- Who is your mother?
 - Who is your role model?
 - Would you be with someone who does not have the same beliefs as you?
 - Would you change for love?
 - Would you ever just give up everything and start in a new country?
 - Would you put your family or friends first if you had to choose one?
+- Video call me
 - Your likes and dislikes
 - how old are you
 - tell me your age
@@ -916,6 +934,7 @@
 - Are you made of physical matter?
 - Are you real?
 - Are you robot
+- are you there
 - Chatbot?
 - Do you have a body?
 - Do you have a physical body?
@@ -970,7 +989,6 @@
 - Tell me where you live.
 - Tell me your location.
 - Tell me your place.
-- What is your home country?
 - What is your home town?
 - What is your place of residence?
 - Where are you at home?
@@ -979,7 +997,6 @@
 - Where are you right now?
 - Where are you?
 - Where do you live?
-- Where have you been?
 - Where is the place you live?
 - Where is you place?
 - Where is your current home-location?
@@ -2155,6 +2172,7 @@
 - You are nonsense bot
 - You are not answering my question
 - You are not well developed.
+- You are silly
 - You are wrong.
 - You can’t.
 - You did not understand my question
@@ -2385,7 +2403,6 @@
 - Nice meeting you helen
 - Nice talk!
 - Ok love you
-- Really helpful!
 - Thanks for helping me through my life.
 - That's amazing!
 - Thats cool
@@ -2713,7 +2730,6 @@
 - For how long will someone remain sick?
 - How long will you take TO recover from this virus
 - Origin of the disease
-- What is the origin of the outbreak?
 - Where did the disease start?
 - Where did the disease started?
 - How many days does virus stays in patient body?
@@ -3718,6 +3734,7 @@
 - Can covid-19 be transferred through sex
 - Can it be contacted through sex
 - Can the virus be spread through sex
+- Can covid 19 be transmitted tru semen
 - Is covid sexually transmitted
 - Is it sexual transmission
 - Is it sexually transmitted
@@ -3766,6 +3783,7 @@
 - how many people died
 - How many people died corona
 - how many people died in eternity
+- how many cases
 - How many people have been diagnosed with [COVID-19]{"entity": "virus", "value": "COVID"}
 - How many people have been diagnosed with Covid-19
 - How many people have been infected?
@@ -4037,6 +4055,8 @@
 - I want to no how is the symptoms
 - About the symptoms.
 - Wat r d symtoms
+- I hav a cof
+- I have a cof
 - Am i having symptoms?
 - Bot! I would like to know the symptoms
 - Can chest, back and neck pain be symptoms of corona virus
@@ -4247,6 +4267,30 @@
 - empathy
 - should I be concerned with the virus?
 - will I die
+
+## intent:covid_after_vaccine
+- Can I get Covid after vaccination?
+- Can I still get sick with Covid despite having received my vaccine?
+- Can I get Covid if i am fully vaccinated?
+- I'm fully vaccinated, can I get the virus?
+- can i be sick to covid if i have vaccinated
+- can i get covid if i am fully vaccinated
+- i am fully vaccinated can i get covid
+- Get corona after vaccine
+- Got two doses of Pfizer, can I catch the disease?
+- after vaxx covid
+- Got the vax can I be sick
+- covid after vaccination
+- covid after vaccine
+- covid after vax
+- i got my shot can i get corona
+- i am fully vaccinated is it possible that i will get covid
+- is it possible to get covid after vaccination?
+- is it possible to be sick if I have been vaccinated?
+- i feel sick even though i am vaccinated
+- i think i have covid even though i am vaccinated
+- covid even though I have been vaccinated
+
 
 ## intent:covid_ebola
 - Ebola
@@ -4473,7 +4517,6 @@
 - see you Tomorrow morning
 - that's it for today
 - to morrow i will ask you
-- Get out
 - Leave my system please
 - Live my sistem please
 - Power off
@@ -4663,6 +4706,7 @@
 - what is the best face mask against corona
 - what is the recommend mask?
 - what mask prevents the virus?
+- what kind of mask do you suggest
 - when should I use a mask
 - when to use masks?
 - where can i get material to protect me?
@@ -5235,6 +5279,7 @@
 - Hello myself Debabrata last three days my body temperature belongs to 97 to 99 without running nose, cough n cold or any throat pain. What should I do
 - Hello... I am having sore throat from past 17 days...
 - Hii madam I had throt irritation from last 10 days
+- hi I'm wondering what I should do if I have covid 
 - I am coughing
 - I am feeling sick
 - I don't have a cough.
@@ -5441,7 +5486,6 @@
 - Any chance of getting Cour for corona
 - Any cure for it
 - Any treatment confirmed
-- are there a vacine?
 - are there medication to prevent the disease?
 - aspirin?
 - but there is hope that we will get a cure?
@@ -5493,7 +5537,6 @@
 - Is there a medicine to treat COVID-19?
 - Is there a medicine?
 - Is there a treatment for COVID-19?
-- Is there a treatment?
 - Is there any drug for COVID-19
 - Is there any drug for dis virus yet
 - Is there any good news about cure for Corona virus
@@ -5503,7 +5546,6 @@
 - Is there any treatment for corona yet?
 - Is there any treatment yet?
 - Is there any treatment yet?
-- Is there any vacine for this virus?
 - Is there any vanicce yet for the virus
 - Is they cure finally out
 - Is this disease curable
@@ -5938,7 +5980,7 @@
 - Who can get the COVID-19 vaccine?
 
 ## intent:vaccine_administration
-- How is the vaccine administrated
+- How is the vaccine administrated?
 - How is the vaccine given?
 - About vaccine administration
 - Info vaccine administration
@@ -5947,11 +5989,372 @@
 - How are the vaccines given?
 - About vaccines administration
 - Info vaccines administration
+- Information vaccine administration
 - Vaccines administration
 - Administration vaccine
 - Administration vaccines
 - Can I take a different vaccine on the second dose?
 - Will I be given the same vaccine for my second dose?
+- how johnson and johnson is administered
+- how pfizer is administered
+- how to get the moderna vaccine
+- janssen vaccine
+- biontech administration
+- johnson and johnson administration
+- j&j vax administration
+- pfizer dosage
+- vaccination rate
+- what is the vaccination rate
+- how many doses of johnson and johnson are available
+- how many doses of pfizer vaccine are there?
+- one or two doses of biontech
+- how many doses do i need to get vaccinated with moderna
+
+## intent:vaccine_booster
+- 3rd dose when
+- About 3rd dose
+- About third dose
+- Am I eligible for a third dose?
+- Booster Janssen
+- Booster vaccines
+- Booster vax
+- Can I get third dose
+- Do all covid vaccines need a booster?
+- Do I have to get a booster vaccine?
+- Do I need a third dose?
+- Got the Pfizer shot, do I need a booster
+- Got the Pfizer shot, do I need a third dose
+- Got the Pfizer shot, do I need a third dose
+- Got the Pfizer vaccine, do I need a booster
+- Got the Pfizer vaccine, do I need a third dose
+- Info on third dose please
+- Information about third dose
+- Moderna booster dose
+- More on booster vaccine
+- more on booster vax
+- More on third dose
+- Pfizer Booster shot
+- Will all covid vaccines need a 3rd dose?
+- Will all covid vaccines need a booster?
+- Will all vaccines need a third dose?
+
+
+
+## intent:vaccine_with_covid
+-	About being vaccinated if infected with Covid
+- 	Being vaxxed if I am infected
+-	Can I be vaccinated against covid if i have covid?
+-	Can I be vaccinated if I have the virus?
+-	can i get a vaccine if i have symptoms
+-	can i get vaccinated even if i have symptoms
+-	can i get vaccinated if i have covid
+-	can i get vaccinated if i have symptoms
+-	Caught the virus, can I be vaccinated still
+-	Give me information on being vaccinated if infected
+-	Give me information on being vaxxed if infected
+-	I am infected with Covid, can I get the vaccine anyway?
+-	I have corona can I get vaccinated
+-	I have corona can I still get vaccinated
+-	I have fever can I be vaccinated
+-	I have sore throat can I be vaccinated
+-	i have symptoms of covid can i get vaccinated
+-	i want to be vaccinated but i have covid symptoms
+-	i want to get vaccinated but i have covid is it possible
+-	Info on being vaccinated in spite of being infected
+-	info on vaccinating infected people
+-	Is it okay to get the covid shot if I am infected
+-	Is it okay to get the vaccine if I am infected
+-	More on being vaccinated and still having covid
+-	More on being vaccinated if infected
+-	More on being vaxxed if infected
+-	Tell me if I should be vaccinated if I am infected
+-	vaccination even if i have symptoms
+-	vaccination if i have covid
+-	Would it be alright to be vaccinated if I am infected with covid?
+
+
+## intent:vaccine_after_covid
+- About vaccination after infection
+- About vaccine after infection
+- after being infected I need to be vaccinated
+- after I have had covid I still need a vaccine
+- Caught the disease, should I get the vaccine?
+- Caught the virus, do I need a vaccine?
+- do i need to be vaccinated if i have had covid
+- do i need vax after corona
+- Give me information on vaccination after covid
+- Got corona should I get vaxxed
+- Got the rona do I need vax
+- Had the rona do I need vax
+- I have been infected with corona do I still need vaccine
+- I have been infected with Covid do I still need vaccine
+- I have been infected with Covid-19 do I still need vaccine
+- i need a vaccine if i have had covid
+- I was infected, do I need the vaccine?
+- Info about vaccine after covid
+- Information vaccine after covid
+- is it true if i've had covid i don't need to get vaccinated
+- is it true that I don't need to be vaccinated if I have had covid
+- More info getting vaccine after infection
+- More on vaccine after having covid
+- More on vax after the virus
+- now that i have had covid i don't need to get vaccinated anymore
+- now that i have had covid i need to get vaccinated
+- should i be vaccinated if i have had covid 19
+- should i get vaccinated if i have had corona
+- Should I still be vaccinated even though I had Covid?
+- Tell me if I still need a vaccine after having covid
+- vaccine after contracting covid
+- Vax after corona
+- Vax after covid
+- Vax after having covid
+- Vax after infection
+
+## intent:vaccine_mix
+- about mixing vaccines
+- another vaccine for second dose
+- can covid vaccines be mixed
+- can i mix moderna and pfizer vaccine
+- Can I mix vaccine brands?
+- can I mix vaccines
+- Can I mix vax brands
+- can i receive the second dose differently
+- can i receive the second dose with a different vaccine than the first dose?
+- can i use the pfizer vaccine as the first dose and the moderna vaccine as the second dose?
+- can pfizer and moderna be mixed
+- can the second dose be different from the first dose
+- Different second vaccine
+- different 2nd dose
+- different 2nd shot
+- Different second shot
+- Give me info about mixing vaccines
+- Give me information about
+- I had second dose different than first is it okay
+- I want the second dose with a different vaccine 
+- Info on different second dose
+- Info on different second shot
+- Information on different second dose
+- Information on different second shot
+- Is it okay to have a second shot different than the first?
+- Is it okay to mix AstraZeneca and Pfizer
+- Is it okay to mix Pfizer and Moderna
+- is it possible to get another vaccine for second dose
+- Is there a problem if you get a second shot from another brand?
+- it is necessary to receive the same vaccine for the second vaccination
+- it is possible to get another vaccine to the first one
+- it is possible to have the second vaccination with another vaccine
+- it is possible to receive another vaccine for the second dose
+- mix covid vaccines
+- More on mixing vaccines
+- more on second vaccine different than the first
+- More on different second shot
+- on the second vaccination another vaccine can be used
+- on the second shot another vaccine can be used
+- Second shot different than first 
+- 2nd shot different than 1st
+- Second dose different
+- 2nd dose different
+- 2nd shot different
+- tell me can I use for the second vaccination a different vaccine
+- tell me if I can mix vaccines
+- the second vaccination with different vaccine
+- use different vaccine
+- Would it be alright if the second dose was different than the first?
+
+
+## intent:vaccine_effectiveness
+- About effectiveness of the Covid vaccine
+- are the covid vaccines effective
+- Best covid vaccine
+- Can you give me information about vaccine effectiveness?
+- Can you inform me about the most effective Covid Vaccine?
+- Covid Vaccines are they effective
+- do you know anything about the effectiveness of the vaccine
+- efficiency of getting vaccinated
+- Give me info about most effective vaccine
+- how effective are the covid vaccines?
+- how effective is the biontech vaccine?
+- how effective the vaccine is
+- how well does the vaccine work
+- Info effective vaccine
+- Information about efectiveness
+- Janssen vaccine effective
+- Janssen vax effective
+- Johnson vaccine effective
+- J&J vaccine effective
+- Johnson vax effective
+- J&J vax effective
+- Astrazeneca vaccine effective
+- Moderna vaccine effective
+- Moderna vax effective
+- Most effective covid shot
+- Pfizer vaccine effective
+- Pfizer vax effective
+- show me studies on effectiveness of vaccines
+- tell me about the effectiveness of the covid vaccine
+- tell me about the effectiveness of the vaccine
+- there are studies on the effectiveness of johnson vaccine
+- there are studies on the effectiveness of the vaccine
+- vaccine effectiveness
+- vaccine efficacy
+- Vax effectiveness
+- What is the effectiveness of the Janssen vaccine
+- What is the effectiveness of the Johnson & Johnson vaccine
+- What is the effectiveness of the J&J vaccine
+- What is the effectiveness of the Johnson vaccine
+- What is the effectiveness of the Johnson&Johnson vaccine
+- What is the percentage of effectiveness of the Covid-19 Vaccines?
+- what do we know about the effectiveness of covid vaccines?
+- what is the effectiveness of getting vaccinated
+- what is the effectiveness of moderna
+- what is the effectiveness of pfizer
+- what is the effectiveness of the covid vaccine?
+- what is the efficacy of the vaccine
+
+## intent:vaccine_side_effects
+- after getting the vaccine could I have side effects
+- after getting vaccinated could I have side effects
+- Are side effects common?
+- Are side effects rare?
+- Are there side effects after getting the covid vaccine?
+- Are there side effects from vaccines?
+- Can I have sore arm as side effect?
+- Could I experience side effects after vaccination?
+- Could I have an allergic reaction to the vaccine?
+- Covid-19 Vaccine side effects
+- covid-19 Vaccine side effects allergic reaction
+- do all covid vaccines have side effects
+- do all vaccines have side effects?
+- Fever side effect
+- I might have an allergic reaction to the vaccine.
+- Is fever a side effect?
+- is it possible to have an allergic reaction to the vaccine?
+- is it possible to have side effects after vaccination?
+- Is sore arm a side effect?
+- side effects
+- side effects are they bad
+- side effects covid vaccine
+- side effects of the vaccine
+- Sore arm side effect
+- the side effects
+- there are side effects after the vaccine
+- there are side effects of the covid vaccines
+- there are side effects of the covid-19 vaccine
+- there are vaccines without side effects
+- there can be side effects after taking the vaccine
+- Vaccine side effects
+- Vax side effects
+- what are the serious side effects of vaccines?
+- what are the serious side effects?
+- what are the side effects after the vaccine?
+- what are the side effects of the Janssen vaccine
+- what are the side effects of the Moderna vaccine
+- what are the side effects of the Pfizer vaccine
+- what are the side effects of the vaccine
+- Which vaccines have side effects?
+- Will I die from vaccine side effects
+- Will I experience side effects from the vaccine ?
+	
+
+## intent:vaccine_safety
+- about Covid vaccine safety
+- about Covid-19 vaccine safety
+- are vaccines safe
+- Can you tell me more about BioNTech vaccine safety?
+- Can you tell me more about Pfizer vaccine safety?
+- Can you tell me more about vaccine safety?
+- can you tell me more about J&J vaccine safety?
+- covid vaccine safety
+- Covid-19 vaccine safety
+- Getting the covid shot is it safe
+- Give me information about the safety of existing Covid vaccines
+- how do we know that vaccines are safe
+- Info about Covid vaccine safety
+- Info about vaccine safety
+- Is it safe to get the vaccine?
+- Is it safe to get vaxxed?
+- is the johnson vaccine as safe as the others?
+- Is the Pfizer vaccine as safe as the others?
+- is the pfizer vaccine safe
+- Provide me information about the safety of vaccines
+- Safety of vaccines
+- talk to me about safety of covid vax
+- the moderna vaccine is safe
+- there are safe vaccines
+- Vaccine more safe
+- Vaccine safety
+- Vax safety
+- what do we know about the safety of vaccines
+- what do you know about the safety of vaccines
+- which vaccine is the safest
+- Which vaccine is the safest?
+- Will it be safe for me to get the covid shot?
+- Please tell me about vaccine safety
+- Could you please update me on vaccine safety
+- I want more information on vaccine safety
+- the janssen vaccine is safe
+- the johnson vaccine is safe
+- the biontech vaccine is safe
+- the oxford vaccine is safe
+- the astrazeneca vaccine is safe
+- Is the janssen vaccine safe
+- Is the johnson vaccine safe
+- Is the biontech vaccine safe
+- Is the oxford vaccine safe
+- Is the astrazeneca vaccine safe
+- I want more information about vaccine safety
+- Tell me about the safety of vaccines
+- More on vaccine safety
+- More on the safety of vaccines
+- I want more information about vaccine safety
+
+
+## intent:covid_delta
+- Are you able to provide me information about delta?
+- Are you able to provide me information about the delta variant?
+- Could you please update me on the Delta variant?
+- Could you please update me on Delta?
+- about covid delta
+- covid delta
+- covid delta variant
+- delta
+- delta variant
+- do you know anything about delta
+- do you know anything about delta variant
+- give me information about delta
+- give me information about delta variant
+- I want more information about delta
+- I want more information about delta variant
+- I want more infomration about delta
+- I want more infomration about delta variant
+- info delta
+- info on delta
+- info about delta
+- info delta variant
+- information about delta
+- information about delta variant
+- is delta contagious
+- is delta dangerous
+- is delta more contagious than the other variants
+- is delta variant contagious
+- is delta variant dangerous
+- is delta variant more contagious than the other variants
+- is delta variant very dangerous
+- is delta very dangerous
+- Please provide information about delta
+- Please provide information about the new delta variant
+- talk to me about delta
+- talk to me about delta variant
+- tell me something about delta
+- tell me something about delta variant
+- the new delta variant
+- what do we know about the delta variant
+- what do you know about delta
+- what do you know about delta variant
+- what is delta
+- what is delta variant
+- what is the danger of the delta variant?
+- what is the new delta variant
 
 ## intent:quarantine_control
 - How is the quarantine controlled?
@@ -6809,6 +7212,7 @@
 - Smiling face.
 - Walking beside oneself with joy.
 - happiness
+- Ya I'm happy
 
 ## intent:user_love
 - But I like you
@@ -6864,7 +7268,6 @@
 - What about a date?
 - What do you think of a date?
 - What feelings do you have for me?
-- What is love?
 - Will you marry me?
 - Would you like to marry me?
 - You don't love me.
@@ -7336,7 +7739,6 @@
 - Much obliged!
 - Much thanks!
 - My gratitude to you for all you have done!
-- Nice talk!
 - O thanks
 - O thanks again
 - OK thx
@@ -7394,7 +7796,6 @@
 - Thanx
 - Thanyou so much
 - That was helpful, Helen. Thank you.
-- That's amazing!
 - That's impressing, thank you!
 - Thks.
 - Thx
@@ -7404,13 +7805,8 @@
 - With gratitude!
 - Wow .OK Thanks
 - Yes, thank you
-- You are a lifesaver!
-- You did a great job!
 - You have my gratitude!
 - You helped me a lot!
-- You helped me thanks!
-- You really helped me a lot!
-- You saved my life!
 - thank you Helen
 - thank you for your help Elon
 - thanks, Helen!
@@ -7435,6 +7831,7 @@
 - OK got it
 - Of course.
 - Ok.
+- Ok brother
 - Okay go on
 - Okay, Helen.
 - Okay.
@@ -7449,6 +7846,7 @@
 - Thumbs up.
 - Totally.
 - Very well.
+- Ya
 - Yah.
 - Yea.
 - Yeah.

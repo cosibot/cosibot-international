@@ -669,6 +669,9 @@
 - Con quién hablo?
 - Con quién estoy hablando?
 - Quien eres
+- Quien es usted
+- Quién es usted
+- Quien es ud
 - Quién eres?
 - Quién está hablando?
 - Con quién hablo?
@@ -968,6 +971,8 @@
 - Quiero conocer tu hogar
 - Donde vives que epoca del año es?
 - Nombra tu ubicación
+- De dónde me estás escribiendo
+- De donde me estas escribiendo
 - Di tu ubicación, dímela
 - Dime donde se ubica tu casa
 - Dime donde está tu hogar
@@ -3723,6 +3728,7 @@
 - Transmisión por sexo
 - Por qué no debemos tener sexo?
 - Relaciones sexuales y la transmisión
+- Puede un pasiente que tuvo covid ya tener intimidad con su pareja
 - Puedo contagiarme de covid si tengo sexo con una persona enferma?
 - Puedo tener sexo con alguien que tuvo covid?
 - El covid-19 se puede contraer a través del sexo
@@ -4239,6 +4245,8 @@
 - Que causa el virus del ébola?
 
 ## intent:covid_after_vaccine
+- Alos k ya tenemos las 2 vacunas para prevenir el covid igual también nos puede dar el virus ?
+- A los que tenemos las dos vacunas también nos puede dar el vírus?
 - puedo contraer el covid después de vacunarme
 - puedo estar enferma a covid si he vacunado
 - puedo tener corona si estoy totalmente vacunado
@@ -4258,6 +4266,7 @@
 - estoy completamente vacunado pero me siento mal puedo tener covid
 - estoy vacunado puedo contagiarme
 - hay que vacunar si he tenido covid
+
 
 ## intent:economy_consequences
 - Puedes responder preguntas sobre economía?
@@ -4638,6 +4647,7 @@
 - Está bien utilizar cubrebocas?
 - Esta bien usar cubrebocas?
 - Esta bien llevar cubrebocas?
+- Es verdad k el cubre vocas no sirve de nada ?
 - Usar cubrebocas evita contagiarse?
 - Tapabocas
 - Cubrebocas.
@@ -4696,6 +4706,9 @@
 - Donde consigo materiales para protección personal?
 - Cual es el mejor tipo de cubrebocas?
 - Cubrebocas
+- Sobre el cubre vocas ?
+- Sobre el cubre vocas?
+
 
 ## intent:mask_use_after
 - Después de utilizar cubrebocas
@@ -5134,6 +5147,8 @@
 - Que podemos hacer para prevenirlo en las escuelas una vez que abren
 - Como podemos prevenirlo
 - Como podemos prevenir el virus
+- Cómo prevenir el contajio
+- Como prevenir el contagio
 - Qué prácticas se están practicando a nivel mundial para reducir la propagación del virus?
 - Puedes decirme las medidas preventivas?
 - Ok medidas preventivas
@@ -5804,6 +5819,10 @@
 - tenemos vacunas contra el covid
 - cuando vamos a tener vacunas
 - que vacunas tenemos
+- cuántas vacunas hay
+- vacunas autorizadas
+- cuáles son las vacunas autorizadas
+- que vacunas son autorizadas
 
 ## intent:vaccine_pfizer_about
 - Acerca de la vacuna Pfizer
@@ -5944,6 +5963,7 @@
 - ¿Cuándo llegará la vacuna Corona?
 - ¿Cuándo estarán disponibles las vacunas?
 - Bueno, ¿ya salió la vacuna?
+- cuándo es posible recibir una vacuna
 
 ## intent:vaccine_administration
 - Como administran la vacuna?
@@ -5967,11 +5987,12 @@
 - cuántas dosis necesito para vacunarme con moderna
 - cuántas vacunas me van a dar
 
-## intent:vaccine_con_covid
+## intent:vaccine_with_covid
 - me puedo vacunar contra el covid si tengo covid
 - me puedo vacunar si tengo covid
 - puedo vacunarme si tengo síntomas
 - tengo síntomas de covid puedo vacunarme
+- Hola buenos días hoy me toca vacunarme pero amanecí con dolor de garganta será conveniente vacunarme
 - puedo recibir una vacuna si tengo síntomas
 - puedo vacunarme aunque tenga síntomas
 - tengo corona puedo vacunarme
@@ -5996,6 +6017,8 @@
 - necesito una vacuna si he tenido covid
 - me he infectado con corona todavía necesito vacuna
 - vacuna después de contraerme con covid
+- Vacuna despues covid
+- Vacuna después vovid
 
 ## intent:vaccine_mix
 - puedo recibir la secunda dosis con una vacuna diferente a la primera
